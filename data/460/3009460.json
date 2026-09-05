@@ -1,0 +1,331 @@
+{
+  "_lastChecked": 1788625920,
+  "_history": [
+    {
+      "buildId": "24984828",
+      "branch": "nightly",
+      "timeUpdated": 1787890327,
+      "firstSeen": 1788625920,
+      "manifests": {
+        "3009461": {
+          "gid": "7541359721292151668",
+          "size": 571461019,
+          "download": 252199424
+        },
+        "3009462": {
+          "gid": "8544994014184123222",
+          "size": 913887997,
+          "download": 305131088
+        }
+      }
+    },
+    {
+      "buildId": "24887240",
+      "branch": "public",
+      "timeUpdated": 1787459859,
+      "firstSeen": 1788625920,
+      "manifests": {
+        "3009461": {
+          "gid": "7760942649220395430",
+          "size": 571611087,
+          "download": 252337392
+        },
+        "3009462": {
+          "gid": "4719780017998632073",
+          "size": 914190301,
+          "download": 305269440
+        }
+      }
+    }
+  ],
+  "_change_number": 38397974,
+  "_missing_token": false,
+  "_sha": "9cb2a6010ba4bf941fd0ec2617c5bb26bd9de690",
+  "_size": 6248,
+  "appid": "3009460",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Lonely Frontier Studio",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Lonely Frontier Studio",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_62": "1"
+    },
+    "clienticon": "0831ac0274113b9b4a1b6a2319197123b9bd098a",
+    "clienttga": "fa781f9020183b6e5f5c19583dae856a62c77ff9",
+    "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controllertagwizard": "1",
+    "gameid": "3009460",
+    "genres": {
+      "0": "25",
+      "1": "4",
+      "2": "23",
+      "3": "70"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "efdf45c8cfe08fc488a239596b5fee0c1a3b64a0",
+    "library_assets": {
+      "library_capsule": "en",
+      "library_header": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "height_pct": "53.03965803847067",
+        "pinned_position": "BottomCenter",
+        "width_pct": "82.78879813302217"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "height_pct": "53.03965803847067",
+          "pinned_position": "BottomCenter",
+          "width_pct": "82.78879813302217"
+        }
+      }
+    },
+    "name": "Isles of Silence",
+    "osarch": "",
+    "osextended": "",
+    "oslist": "windows",
+    "primary_genre": "4",
+    "releasestate": "released",
+    "review_percentage": "87",
+    "review_score": "7",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-9.0-2RC",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1748649600",
+      "tested_build_id": "15163764",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1721922532",
+    "store_asset_mtime": "1753463013",
+    "store_tags": {
+      "0": "16689",
+      "1": "5652",
+      "10": "3942",
+      "11": "3871",
+      "12": "597",
+      "13": "31275",
+      "14": "1742",
+      "15": "560542",
+      "16": "4094",
+      "17": "255534",
+      "18": "1684",
+      "19": "1702",
+      "2": "9564",
+      "3": "17305",
+      "4": "615955",
+      "5": "1698",
+      "6": "6815",
+      "7": "12472",
+      "8": "7332",
+      "9": "42152"
+    },
+    "supported_languages": {
+      "english": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      }
+    },
+    "type": "Game"
+  },
+  "config": {
+    "installdir": "Isles of Silence",
+    "launch": {
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch for Intel",
+        "description_loc": {
+          "english": "Launch for Intel"
+        },
+        "executable": "Intel\\nwjs.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "IslesOfSilence.exe",
+        "type": "default"
+      },
+      "3": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch for ARM",
+        "description_loc": {
+          "english": "Launch for ARM"
+        },
+        "executable": "ARM\\nwjs.app"
+      }
+    }
+  },
+  "depots": {
+    "3009461": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "nightly": {
+          "download": "252199424",
+          "gid": "7541359721292151668",
+          "size": "571461019"
+        },
+        "public": {
+          "download": "252337392",
+          "gid": "7760942649220395430",
+          "size": "571611087"
+        }
+      }
+    },
+    "3009462": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "nightly": {
+          "download": "305131088",
+          "gid": "8544994014184123222",
+          "size": "913887997"
+        },
+        "public": {
+          "download": "305269440",
+          "gid": "4719780017998632073",
+          "size": "914190301"
+        }
+      }
+    },
+    "branches": {
+      "nightly": {
+        "buildid": "24984828",
+        "description": "Generally unstable, often fun",
+        "timebuildupdated": "1787890327",
+        "timeupdated": "1787890327"
+      },
+      "public": {
+        "buildid": "24887240",
+        "timebuildupdated": "1787459778",
+        "timeupdated": "1787459859"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Lonely Frontier Studio",
+    "homepage": "https://www.lonelyfrontier.com/",
+    "publisher": "Lonely Frontier Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "500000",
+    "savefiles": {
+      "0": {
+        "path": "/Documents/My Games/IslesOfSilence",
+        "pattern": "*.txt",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WindowsHome"
+      }
+    }
+  }
+}

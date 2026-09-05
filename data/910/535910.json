@@ -1,0 +1,195 @@
+{
+  "_lastChecked": 1788616577,
+  "_history": [
+    {
+      "buildId": "17271944",
+      "branch": "public",
+      "timeUpdated": 1738874412,
+      "firstSeen": 1788616577,
+      "manifests": {
+        "535911": {
+          "gid": "7715778208565792433",
+          "size": 107920705,
+          "download": 29189552
+        },
+        "535912": {
+          "gid": "4549222982455045465",
+          "size": 122542770,
+          "download": 35692832
+        },
+        "535913": {
+          "gid": "1861606754405754158",
+          "size": 148326842,
+          "download": 28474816
+        }
+      }
+    }
+  ],
+  "_change_number": 34833392,
+  "_missing_token": false,
+  "_sha": "e36de863ba6b69df8f02f9814a16eb63dc0e445d",
+  "_size": 3209,
+  "appid": "535910",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "EPWH, LLC",
+        "type": "developer"
+      },
+      "1": {
+        "name": "EPWH, LLC",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_29": "1",
+      "category_62": "1"
+    },
+    "clienticon": "e236ddb75e01e7433c80a4a3c77e28eec0c879b3",
+    "clienttga": "e556ff63559916400a605ac07fc91f6e8981b002",
+    "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "gameid": "535910",
+    "genres": {
+      "0": "4",
+      "1": "28",
+      "2": "2"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "75834cb6da8efaba55b0667a06244ef6db492fd4",
+    "logo": "5e32133cbaa31ae36deb22f381c521ef7a2de5b1",
+    "logo_small": "5e32133cbaa31ae36deb22f381c521ef7a2de5b1_thumb",
+    "metacritic_name": "Meow-Jong Solitaire",
+    "name": "Meow-Jong Solitaire",
+    "original_release_date": "1478156400",
+    "osarch": "",
+    "oslist": "windows,macos,linux",
+    "primary_genre": "4",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1478229881",
+    "store_asset_mtime": "1475114200",
+    "store_screenshot": "ss_435464861751dc077310628a0b3129f8dfc12a3d.jpg",
+    "store_tags": {
+      "0": "597",
+      "1": "9",
+      "10": "4182",
+      "11": "13070",
+      "2": "599",
+      "3": "17894",
+      "4": "1664",
+      "5": "1770",
+      "6": "33572",
+      "7": "1666",
+      "8": "4726",
+      "9": "1654"
+    },
+    "supported_languages": {
+      "english": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      }
+    },
+    "type": "Game"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "MeowJongSolitaire",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch",
+        "executable": "mjs.exe",
+        "type": "none"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch",
+        "executable": "mjs.app",
+        "type": "none"
+      },
+      "2": {
+        "config": {
+          "osarch": "32",
+          "oslist": "linux"
+        },
+        "description": "Launch",
+        "executable": "mjs.x86",
+        "type": "none"
+      },
+      "3": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Launch",
+        "executable": "mjs.x86_64",
+        "type": "none"
+      }
+    }
+  },
+  "depots": {
+    "535911": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "29189552",
+          "gid": "7715778208565792433",
+          "size": "107920705"
+        }
+      }
+    },
+    "535912": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "35692832",
+          "gid": "4549222982455045465",
+          "size": "122542770"
+        }
+      }
+    },
+    "535913": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "28474816",
+          "gid": "1861606754405754158",
+          "size": "148326842"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "17271944",
+        "timebuildupdated": "1738874412",
+        "timeupdated": "1738874412"
+      }
+    }
+  },
+  "extended": {
+    "developer": "EPWH, LLC",
+    "homepage": "http://www.meowjong.com",
+    "publisher": "EPWH, LLC"
+  }
+}

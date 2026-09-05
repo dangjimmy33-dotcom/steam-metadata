@@ -1,0 +1,257 @@
+{
+  "_lastChecked": 1788619670,
+  "_history": [
+    {
+      "buildId": "25138616",
+      "branch": "nightly",
+      "timeUpdated": 1788595543,
+      "firstSeen": 1788619670,
+      "manifests": {
+        "1222630": {
+          "gid": "974381555760590351",
+          "size": 28647824,
+          "download": 3894496
+        },
+        "1790170": {
+          "gid": "5480392001921852773",
+          "size": 30845060,
+          "download": 4163520
+        },
+        "1790171": {
+          "gid": "1150145571315301206",
+          "size": 50227468,
+          "download": 6362336
+        }
+      }
+    },
+    {
+      "buildId": "20833839",
+      "branch": "public",
+      "timeUpdated": 1763418647,
+      "firstSeen": 1788619670,
+      "manifests": {
+        "1222630": {
+          "gid": "2859421273264414683",
+          "size": 23821408,
+          "download": 3178416
+        },
+        "1790170": {
+          "gid": "7887895633270304881",
+          "size": 25852116,
+          "download": 3365408
+        },
+        "1790171": {
+          "gid": "207997049398467841",
+          "size": 42840436,
+          "download": 4997776
+        }
+      }
+    }
+  ],
+  "_change_number": 38624154,
+  "_missing_token": false,
+  "_sha": "43dbce0535163fa30b50e522140bbf1b373df700",
+  "_size": 3831,
+  "appid": "1222630",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Libretro",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Libretro",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_1": "1",
+      "category_2": "1",
+      "category_24": "1",
+      "category_27": "1",
+      "category_28": "1",
+      "category_36": "1",
+      "category_37": "1",
+      "category_38": "1",
+      "category_39": "1",
+      "category_43": "1",
+      "category_44": "1",
+      "category_49": "1",
+      "category_9": "1"
+    },
+    "controller_support": "full",
+    "gameid": "1222630",
+    "genres": {
+      "0": "37"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "metacritic_name": "Beetle PSX",
+    "name": "Beetle PSX",
+    "osarch": "",
+    "osextended": "",
+    "oslist": "windows,macos,linux",
+    "parent": "1118310",
+    "primary_genre": "37",
+    "releasestate": "released",
+    "review_percentage": "86",
+    "review_score": "7",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1638463689",
+    "store_asset_mtime": "1638390458",
+    "store_screenshot": "ss_89b22cbae60af07145b70cf73adc75235e4d3744.jpg",
+    "store_tags": {
+      "0": "113"
+    },
+    "supported_languages": {
+      "brazilian": {
+        "supported": "true"
+      },
+      "dutch": {
+        "supported": "true"
+      },
+      "english": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "greek": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      },
+      "latam": {
+        "supported": "true"
+      },
+      "norwegian": {
+        "supported": "true"
+      },
+      "polish": {
+        "supported": "true"
+      },
+      "portuguese": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "swedish": {
+        "supported": "true"
+      },
+      "tchinese": {
+        "supported": "true"
+      },
+      "turkish": {
+        "supported": "true"
+      },
+      "vietnamese": {
+        "supported": "true"
+      }
+    },
+    "type": "DLC"
+  },
+  "depots": {
+    "1222630": {
+      "config": {
+        "optionaldlc": "1222630",
+        "oslist": "windows"
+      },
+      "dlcappid": "1222630",
+      "manifests": {
+        "nightly": {
+          "download": "3894496",
+          "gid": "974381555760590351",
+          "size": "28647824"
+        },
+        "public": {
+          "download": "3178416",
+          "gid": "2859421273264414683",
+          "size": "23821408"
+        }
+      }
+    },
+    "1790170": {
+      "config": {
+        "optionaldlc": "1222630",
+        "oslist": "linux"
+      },
+      "dlcappid": "1222630",
+      "manifests": {
+        "nightly": {
+          "download": "4163520",
+          "gid": "5480392001921852773",
+          "size": "30845060"
+        },
+        "public": {
+          "download": "3365408",
+          "gid": "7887895633270304881",
+          "size": "25852116"
+        }
+      }
+    },
+    "1790171": {
+      "config": {
+        "optionaldlc": "1222630",
+        "oslist": "macos"
+      },
+      "dlcappid": "1222630",
+      "manifests": {
+        "nightly": {
+          "download": "6362336",
+          "gid": "1150145571315301206",
+          "size": "50227468"
+        },
+        "public": {
+          "download": "4997776",
+          "gid": "207997049398467841",
+          "size": "42840436"
+        }
+      }
+    },
+    "appmanagesdlc": "1",
+    "branches": {
+      "nightly": {
+        "buildid": "25138616",
+        "description": "Nightly unstable builds",
+        "timebuildupdated": "1788595543",
+        "timeupdated": "1788595543"
+      },
+      "public": {
+        "buildid": "20833839",
+        "timebuildupdated": "1763416259",
+        "timeupdated": "1763418647"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Libretro",
+    "dlcavailableonstore": "1",
+    "dlcforappid": "1118310",
+    "homepage": "https://www.retroarch.com",
+    "isfreeapp": "1",
+    "mustownapptopurchase": "1118310",
+    "optionaldlc": "1",
+    "publisher": "Libretro"
+  }
+}

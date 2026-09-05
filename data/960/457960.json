@@ -1,0 +1,216 @@
+{
+  "_lastChecked": 1788616311,
+  "_history": [
+    {
+      "buildId": "2462380",
+      "branch": "dev-build",
+      "timeUpdated": 1516736607,
+      "firstSeen": 1788616311,
+      "manifests": {
+        "457961": {
+          "gid": "2976931170404546713",
+          "size": 743314738,
+          "download": 279141936
+        }
+      }
+    },
+    {
+      "buildId": "2462380",
+      "branch": "public",
+      "timeUpdated": 1516746784,
+      "firstSeen": 1788616311,
+      "manifests": {
+        "457961": {
+          "gid": "2976931170404546713",
+          "size": 743314738,
+          "download": 279141936
+        }
+      }
+    }
+  ],
+  "_change_number": 38573783,
+  "_missing_token": false,
+  "_sha": "ebab7d4fc500d97b63ce72bd65c2bb1599a4a48f",
+  "_size": 3999,
+  "appid": "457960",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Alzan Studios, LLC",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Alzan Studios, LLC",
+        "type": "publisher"
+      },
+      "2": {
+        "name": "Holopoint",
+        "type": "franchise"
+      }
+    },
+    "category": {
+      "category_15": "1",
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_25": "1",
+      "category_52": "1",
+      "category_54": "1",
+      "category_62": "1"
+    },
+    "clienticon": "83b85a8a94c60a6b0f83dd4f549d330a24721af7",
+    "clienttga": "ba5fa2ae338839853f33b3adc71733dafcf82219",
+    "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controllervr": {
+      "oculus": "1",
+      "steamvr": "1"
+    },
+    "gameid": "457960",
+    "genres": {
+      "0": "1",
+      "1": "23",
+      "2": "28",
+      "3": "18"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "9cff8bb1dbb3601d732d82f22d257bb51b19675e",
+    "logo": "a6d5a784020ecfc0b20727321c6b3fd47a6c48a2",
+    "logo_small": "a6d5a784020ecfc0b20727321c6b3fd47a6c48a2_thumb",
+    "market_presence": "1",
+    "metacritic_name": "Holopoint",
+    "name": "Holopoint",
+    "onlyvrsupport": "1",
+    "openvrsupport": "1",
+    "oslist": "windows",
+    "playareavr": {
+      "roomscale": {
+        "360_required": "1",
+        "depth": "1.5",
+        "width": "2"
+      },
+      "standing": "1"
+    },
+    "primary_genre": "1",
+    "releasestate": "released",
+    "restricted_countries": "DE",
+    "review_percentage": "89",
+    "review_score": "8",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "0",
+      "steam_machine_tests": {},
+      "steamos_compatibility": "0",
+      "steamos_tests": {},
+      "test_timestamp": "1644278400",
+      "tested_build_id": "0",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+        }
+      }
+    },
+    "steam_release_date": "1459838460",
+    "store_asset_mtime": "1482276766",
+    "store_screenshot": "ss_fd62e3ff1bccff36072f759c515ab7dcb7a64bea.jpg",
+    "store_tags": {
+      "0": "701",
+      "1": "21978",
+      "2": "19",
+      "3": "492",
+      "4": "599",
+      "5": "13382"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "type": "Game"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Holopoint",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Holopoint.exe",
+        "type": "vr"
+      }
+    }
+  },
+  "depots": {
+    "457961": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "dev-build": {
+          "download": "279141936",
+          "gid": "2976931170404546713",
+          "size": "743314738"
+        },
+        "public": {
+          "download": "279141936",
+          "gid": "2976931170404546713",
+          "size": "743314738"
+        }
+      }
+    },
+    "branches": {
+      "dev-build": {
+        "buildid": "2462380",
+        "description": "Weekly Development Build",
+        "timebuildupdated": "1516736607",
+        "timeupdated": "1516736607"
+      },
+      "public": {
+        "buildid": "2462380",
+        "timebuildupdated": "1516736607",
+        "timeupdated": "1516746784"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Alzan Studios, LLC",
+    "publisher": "Alzan Studios, LLC"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Alzan Studios, LLC/Holopoint/SaveDir",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
+}

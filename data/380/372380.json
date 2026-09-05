@@ -1,0 +1,255 @@
+{
+  "_lastChecked": 1788615903,
+  "_history": [
+    {
+      "buildId": "25029676",
+      "branch": "experimental",
+      "timeUpdated": 1788148615,
+      "firstSeen": 1788615903,
+      "manifests": {
+        "372381": {
+          "gid": "5057899344402577829",
+          "size": 1010636662,
+          "download": 174134144
+        },
+        "372382": {
+          "gid": "192768250887516650",
+          "size": 1199285172,
+          "download": 433993232
+        },
+        "372383": {
+          "gid": "5658223919322767013",
+          "size": 1124856771,
+          "download": 390142720
+        }
+      }
+    },
+    {
+      "buildId": "2770805",
+      "branch": "public",
+      "timeUpdated": 1526260702,
+      "firstSeen": 1788615903,
+      "manifests": {
+        "372381": {
+          "gid": "5057899344402577829",
+          "size": 1010636662,
+          "download": 174134144
+        },
+        "372382": {
+          "gid": "1819028306950624036",
+          "size": 1060782248,
+          "download": 190994848
+        },
+        "372383": {
+          "gid": "5217751440515655441",
+          "size": 1015833064,
+          "download": 176114576
+        }
+      }
+    }
+  ],
+  "_change_number": 38464285,
+  "_missing_token": false,
+  "_sha": "d997526c1fe61f771ecd8c610ceaa68c0baa5ce1",
+  "_size": 4194,
+  "appid": "372380",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Estudio Raed Wulf",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Estudio Raed Wulf",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_1": "1",
+      "category_15": "1",
+      "category_22": "1",
+      "category_27": "1",
+      "category_36": "1",
+      "category_49": "1",
+      "category_62": "1"
+    },
+    "clienticon": "4fb8695532e77e67de3e82ee9a432f5b1ba33f28",
+    "clienttga": "0343f4cf7587410560e6f8e9c74df9eaefb6f249",
+    "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "gameid": "372380",
+    "genres": {
+      "0": "1",
+      "1": "23",
+      "2": "70"
+    },
+    "header_image": {
+      "brazilian": "header_brazilian.jpg",
+      "english": "header.jpg"
+    },
+    "icon": "933bea7262cb3eddce9e9c8536800a0ff5b02ba9",
+    "linuxclienticon": "6a2eb5843e06e651d76db2d971a9d15ffc67ab43",
+    "logo": "e902d75637aaa82a220faf93272c60cb6b11fa27",
+    "logo_small": "e902d75637aaa82a220faf93272c60cb6b11fa27_thumb",
+    "metacritic_name": "Warriors &amp;amp; Castles",
+    "name": "Warriors & Castles",
+    "original_release_date": "1435647600",
+    "oslist": "windows,linux",
+    "primary_genre": "1",
+    "releasestate": "released",
+    "restricted_countries": "DE",
+    "review_percentage": "68",
+    "review_score": "5",
+    "small_capsule": {
+      "brazilian": "capsule_231x87_brazilian.jpg",
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1435681369",
+    "store_asset_mtime": "1474748616",
+    "store_screenshot": "ss_4c9809374e317f7f476ed89f22c1aed28fa0a860.jpg",
+    "store_tags": {
+      "0": "19",
+      "1": "492",
+      "2": "493",
+      "3": "3859",
+      "4": "4172",
+      "5": "1646",
+      "6": "1684",
+      "7": "4182"
+    },
+    "supported_languages": {
+      "brazilian": {
+        "supported": "true"
+      },
+      "english": {
+        "full_audio": "true",
+        "supported": "true"
+      }
+    },
+    "type": "Game"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Warriors and Castles",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch",
+        "executable": "GeC.exe",
+        "type": "none"
+      },
+      "1": {
+        "config": {
+          "osarch": "32",
+          "oslist": "linux"
+        },
+        "description": "Launch",
+        "executable": "GeC.x86",
+        "type": "none"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Launch",
+        "executable": "GeC.x86_64",
+        "type": "none"
+      },
+      "3": {
+        "executable": "game.exe",
+        "type": "none"
+      }
+    }
+  },
+  "depots": {
+    "228983": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "372381": {
+      "config": {
+        "osarch": "32",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "experimental": {
+          "download": "174134144",
+          "gid": "5057899344402577829",
+          "size": "1010636662"
+        },
+        "public": {
+          "download": "174134144",
+          "gid": "5057899344402577829",
+          "size": "1010636662"
+        }
+      }
+    },
+    "372382": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "experimental": {
+          "download": "433993232",
+          "gid": "192768250887516650",
+          "size": "1199285172"
+        },
+        "public": {
+          "download": "190994848",
+          "gid": "1819028306950624036",
+          "size": "1060782248"
+        }
+      }
+    },
+    "372383": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "experimental": {
+          "download": "390142720",
+          "gid": "5658223919322767013",
+          "size": "1124856771"
+        },
+        "public": {
+          "download": "176114576",
+          "gid": "5217751440515655441",
+          "size": "1015833064"
+        }
+      }
+    },
+    "baselanguages": "english,brazilian",
+    "branches": {
+      "experimental": {
+        "buildid": "25029676",
+        "description": "public test version",
+        "timebuildupdated": "1788148615",
+        "timeupdated": "1788148615"
+      },
+      "public": {
+        "buildid": "2770805",
+        "timebuildupdated": "1526260701",
+        "timeupdated": "1526260702"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Estudio Raed Wulf",
+    "homepage": "https://www.facebook.com/warriorsandcastles",
+    "publisher": "Estudio Raed Wulf"
+  }
+}

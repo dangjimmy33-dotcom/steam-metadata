@@ -1,0 +1,230 @@
+{
+  "_lastChecked": 1788620603,
+  "_history": [
+    {
+      "buildId": "6255738",
+      "branch": "beta",
+      "timeUpdated": 1613608812,
+      "firstSeen": 1788620603,
+      "manifests": {
+        "1506611": {
+          "gid": "3481184950989538247",
+          "size": 271440013,
+          "download": 32322128
+        },
+        "1506612": {
+          "gid": "8126513824799352709",
+          "size": 94781051,
+          "download": 22154176
+        }
+      }
+    },
+    {
+      "buildId": "6203959",
+      "branch": "public",
+      "timeUpdated": 1612733767,
+      "firstSeen": 1788620603,
+      "manifests": {
+        "1506611": {
+          "gid": "2670493580557912535",
+          "size": 82335405,
+          "download": 19929328
+        },
+        "1506612": {
+          "gid": "8126513824799352709",
+          "size": 94781051,
+          "download": 22154176
+        }
+      }
+    }
+  ],
+  "_change_number": 37482916,
+  "_missing_token": false,
+  "_sha": "85a3a03b2d459dad30c52c09132187953f95e3cb",
+  "_size": 3798,
+  "appid": "1506610",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Lin Meyer",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Lin Meyer",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_1": "1",
+      "category_36": "1",
+      "category_49": "1",
+      "category_62": "1"
+    },
+    "clienticon": "459ffffcdef1cd714833e40302ac28ccfb5802e0",
+    "clienttga": "169bc058dc23018e31afdfd5faf33b3b65889d9d",
+    "community_hub_visible": "1",
+    "content_descriptors": {
+      "0": "5"
+    },
+    "content_descriptors_including_dlc": {
+      "0": "5"
+    },
+    "gameid": "1506610",
+    "genres": {
+      "0": "4",
+      "1": "70"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "f41afae32cc3562ac44de43c6679c40027419cf9",
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "height_pct": "55.92495844217521",
+        "pinned_position": "CenterCenter",
+        "width_pct": "33.83720930232559"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "height_pct": "55.92495844217521",
+          "pinned_position": "CenterCenter",
+          "width_pct": "33.83720930232559"
+        }
+      }
+    },
+    "logo": "7d5065104e45653bd70c7727928d19ffa7c1b18f",
+    "logo_small": "7d5065104e45653bd70c7727928d19ffa7c1b18f_thumb",
+    "name": "King's Cup: The online multiplayer drinking game",
+    "original_release_date": "1610784000",
+    "osarch": "64",
+    "osextended": "macos64,macosnotarized",
+    "oslist": "windows,macos",
+    "primary_genre": "4",
+    "releasestate": "released",
+    "review_percentage": "84",
+    "review_score": "7",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1610825333",
+    "store_asset_mtime": "1608939743",
+    "store_tags": {
+      "0": "597",
+      "1": "1666",
+      "2": "17389",
+      "3": "3859",
+      "4": "4136",
+      "5": "1770",
+      "6": "493",
+      "7": "3871",
+      "8": "4559"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "type": "Game"
+  },
+  "config": {
+    "installdir": "KingsCup",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "KingsCup.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "KingsCup.app",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "1506611": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "32322128",
+          "gid": "3481184950989538247",
+          "size": "271440013"
+        },
+        "public": {
+          "download": "19929328",
+          "gid": "2670493580557912535",
+          "size": "82335405"
+        }
+      }
+    },
+    "1506612": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "22154176",
+          "gid": "8126513824799352709",
+          "size": "94781051"
+        },
+        "public": {
+          "download": "22154176",
+          "gid": "8126513824799352709",
+          "size": "94781051"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "6255738",
+        "description": "Beta release branch, may be unstable.",
+        "timebuildupdated": "1613608812",
+        "timeupdated": "1613608812"
+      },
+      "public": {
+        "buildid": "6203959",
+        "timebuildupdated": "1612733729",
+        "timeupdated": "1612733767"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Lin Meyer",
+    "homepage": "https://onlinedrinking.games/",
+    "publisher": "Lin Meyer"
+  }
+}

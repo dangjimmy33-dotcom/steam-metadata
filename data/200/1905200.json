@@ -1,0 +1,256 @@
+{
+  "_lastChecked": 1788622010,
+  "_history": [
+    {
+      "buildId": "25138705",
+      "branch": "nightly",
+      "timeUpdated": 1788596088,
+      "firstSeen": 1788622010,
+      "manifests": {
+        "1905200": {
+          "gid": "369572963723771529",
+          "size": 8080198,
+          "download": 1676736
+        },
+        "1905201": {
+          "gid": "5883650980567715205",
+          "size": 9897504,
+          "download": 2026656
+        },
+        "1905202": {
+          "gid": "9194450415476401527",
+          "size": 21462912,
+          "download": 3394816
+        }
+      }
+    },
+    {
+      "buildId": "20833932",
+      "branch": "public",
+      "timeUpdated": 1763418622,
+      "firstSeen": 1788622010,
+      "manifests": {
+        "1905200": {
+          "gid": "4123634946431085946",
+          "size": 6483539,
+          "download": 1374960
+        },
+        "1905201": {
+          "gid": "6014578323339745947",
+          "size": 7382892,
+          "download": 1452480
+        },
+        "1905202": {
+          "gid": "788789393752507793",
+          "size": 14789356,
+          "download": 2095632
+        }
+      }
+    }
+  ],
+  "_change_number": 38624264,
+  "_missing_token": false,
+  "_sha": "48bf6886df17efc734829cc22ded09e1a01f60e9",
+  "_size": 3802,
+  "appid": "1905200",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Libretro",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Libretro",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_1": "1",
+      "category_2": "1",
+      "category_23": "1",
+      "category_24": "1",
+      "category_28": "1",
+      "category_36": "1",
+      "category_37": "1",
+      "category_38": "1",
+      "category_39": "1",
+      "category_41": "1",
+      "category_42": "1",
+      "category_43": "1",
+      "category_44": "1",
+      "category_45": "1",
+      "category_46": "1",
+      "category_47": "1",
+      "category_48": "1",
+      "category_49": "1",
+      "category_9": "1"
+    },
+    "controller_support": "full",
+    "gameid": "1905200",
+    "genres": {
+      "0": "37"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "name": "RetroArch - Beetle Saturn",
+    "osarch": "",
+    "osextended": "",
+    "oslist": "windows,macos,linux",
+    "parent": "1118310",
+    "primary_genre": "37",
+    "releasestate": "released",
+    "review_percentage": "73",
+    "review_score": "6",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1654631802",
+    "store_asset_mtime": "1644438482",
+    "store_screenshot": "ss_8d615ad82e52cbe48969b69d49cbc926c5ba1b4a.jpg",
+    "store_tags": {
+      "0": "113"
+    },
+    "supported_languages": {
+      "brazilian": {
+        "supported": "true"
+      },
+      "dutch": {
+        "supported": "true"
+      },
+      "english": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "greek": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      },
+      "norwegian": {
+        "supported": "true"
+      },
+      "polish": {
+        "supported": "true"
+      },
+      "portuguese": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "swedish": {
+        "supported": "true"
+      },
+      "tchinese": {
+        "supported": "true"
+      },
+      "turkish": {
+        "supported": "true"
+      },
+      "vietnamese": {
+        "supported": "true"
+      }
+    },
+    "type": "DLC"
+  },
+  "depots": {
+    "1905200": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "dlcappid": "1905200",
+      "manifests": {
+        "nightly": {
+          "download": "1676736",
+          "gid": "369572963723771529",
+          "size": "8080198"
+        },
+        "public": {
+          "download": "1374960",
+          "gid": "4123634946431085946",
+          "size": "6483539"
+        }
+      }
+    },
+    "1905201": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "dlcappid": "1905200",
+      "manifests": {
+        "nightly": {
+          "download": "2026656",
+          "gid": "5883650980567715205",
+          "size": "9897504"
+        },
+        "public": {
+          "download": "1452480",
+          "gid": "6014578323339745947",
+          "size": "7382892"
+        }
+      }
+    },
+    "1905202": {
+      "config": {
+        "oslist": "macos"
+      },
+      "dlcappid": "1905200",
+      "manifests": {
+        "nightly": {
+          "download": "3394816",
+          "gid": "9194450415476401527",
+          "size": "21462912"
+        },
+        "public": {
+          "download": "2095632",
+          "gid": "788789393752507793",
+          "size": "14789356"
+        }
+      }
+    },
+    "branches": {
+      "nightly": {
+        "buildid": "25138705",
+        "description": "Nightly unstable builds",
+        "timebuildupdated": "1788596088",
+        "timeupdated": "1788596088"
+      },
+      "public": {
+        "buildid": "20833932",
+        "timebuildupdated": "1763416640",
+        "timeupdated": "1763418622"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Libretro",
+    "dlcavailableonstore": "1",
+    "dlcforappid": "1118310",
+    "homepage": "https://www.retroarch.com",
+    "isfreeapp": "1",
+    "mustownapptopurchase": "1118310",
+    "publisher": "Libretro"
+  }
+}

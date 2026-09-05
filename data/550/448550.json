@@ -1,0 +1,187 @@
+{
+  "_lastChecked": 1788616224,
+  "_history": [
+    {
+      "buildId": "1541943",
+      "branch": "public",
+      "timeUpdated": 1482845959,
+      "firstSeen": 1788616224,
+      "manifests": {
+        "448551": {
+          "gid": "6886754519849642551",
+          "size": 130222778,
+          "download": 31281104
+        },
+        "448552": {
+          "gid": "587656381635980589",
+          "size": 134761874,
+          "download": 31738288
+        },
+        "448553": {
+          "gid": "9103131892582613934",
+          "size": 132878055,
+          "download": 31033456
+        }
+      }
+    }
+  ],
+  "_change_number": 38625696,
+  "_missing_token": false,
+  "_sha": "4e3d5e35f7792df1120445401afa4887c2fbfb15",
+  "_size": 3115,
+  "appid": "448550",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Gammosaur",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Gammosaur",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_28": "1",
+      "category_29": "1",
+      "category_33": "1",
+      "category_62": "1"
+    },
+    "clienticns": "453eb8e4fbfd1fb056455c109f99e3a3d892e324",
+    "clienticon": "5c241c1dcb93a5df9d96962823e1dd6ef2f4fcff",
+    "clienttga": "3e216da6bd017e7e4f37f5b477b4613ee009a195",
+    "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "full",
+    "gameid": "448550",
+    "genres": {
+      "0": "4",
+      "1": "23"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "192327f124a308df4dc3ca43aa5044ce991bd2ff",
+    "logo": "a59d55540b5f407d93e625c55debc227a3990255",
+    "logo_small": "a59d55540b5f407d93e625c55debc227a3990255_thumb",
+    "metacritic_name": "Minimal",
+    "name": "Minimal",
+    "oslist": "windows,macos,linux",
+    "primary_genre": "23",
+    "releasestate": "released",
+    "review_percentage": "88",
+    "review_score": "7",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1481890299",
+    "store_asset_mtime": "1474534698",
+    "store_screenshot": "ss_d372ed55ccbec76262e7f667e97c40f6fde8965b.jpg",
+    "store_tags": {
+      "0": "492",
+      "1": "597",
+      "2": "1664",
+      "3": "4166",
+      "4": "4026"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "type": "Game"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Minimal",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "minimal.exe",
+        "type": "none"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Minimal.app",
+        "type": "none"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "run.sh",
+        "type": "none"
+      }
+    },
+    "steamcontrollerconfigfileids": "823509137",
+    "steamcontrollertemplateindex": "1"
+  },
+  "depots": {
+    "229020": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "448551": {
+      "manifests": {
+        "public": {
+          "download": "31281104",
+          "gid": "6886754519849642551",
+          "size": "130222778"
+        }
+      }
+    },
+    "448552": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "31738288",
+          "gid": "587656381635980589",
+          "size": "134761874"
+        }
+      }
+    },
+    "448553": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "31033456",
+          "gid": "9103131892582613934",
+          "size": "132878055"
+        }
+      }
+    },
+    "448554": {},
+    "baselanguages": "czech,english",
+    "branches": {
+      "public": {
+        "buildid": "1541943",
+        "timebuildupdated": "1482844706",
+        "timeupdated": "1482845959"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Gammosaur",
+    "homepage": "http://minimal.gammosaur.com",
+    "publisher": "Gammosaur"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "1000000"
+  }
+}
