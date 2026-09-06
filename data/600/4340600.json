@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788674903,
+  "_lastChecked": 1788680127,
   "_history": [
     {
       "buildId": "25117592",
@@ -52,12 +52,25 @@
           "download": 189304224
         }
       }
+    },
+    {
+      "buildId": "25149499",
+      "branch": "betanewversion",
+      "timeUpdated": 1788678976,
+      "firstSeen": 1788680127,
+      "manifests": {
+        "4340602": {
+          "gid": "3181093541429864174",
+          "size": 649142228,
+          "download": 327485920
+        }
+      }
     }
   ],
-  "_change_number": 38593874,
+  "_change_number": 38640228,
   "_missing_token": false,
-  "_sha": "305768e5d557a06cc2febc414ec84b98cb6471f3",
-  "_size": 4776,
+  "_sha": "c0af960bde803a39aec079b44d74674dfb307812",
+  "_size": 4798,
   "appid": "4340600",
   "common": {
     "aicontenttype": "1",
@@ -207,15 +220,15 @@
           "gid": "4483946038848910668",
           "size": "578476017"
         },
+        "betanewversion": {
+          "download": "327485920",
+          "gid": "3181093541429864174",
+          "size": "649142228"
+        },
         "public": {
           "download": "253346176",
           "gid": "7632301068973358094",
           "size": "564206772"
-        },
-        "tp0.99b": {
-          "download": "124811632",
-          "gid": "6228498952997027244",
-          "size": "425310216"
         },
         "tp0.99c": {
           "download": "189304224",
@@ -232,16 +245,16 @@
         "timebuildupdated": "1788501670",
         "timeupdated": "1788501699"
       },
+      "betanewversion": {
+        "buildid": "25149499",
+        "description": "Beta of New Content",
+        "timebuildupdated": "1788678964",
+        "timeupdated": "1788678976"
+      },
       "public": {
         "buildid": "25049140",
         "timebuildupdated": "1788229577",
         "timeupdated": "1788229632"
-      },
-      "tp0.99b": {
-        "buildid": "24195139",
-        "description": "Old Version",
-        "timebuildupdated": "1784002487",
-        "timeupdated": "1784002540"
       },
       "tp0.99c": {
         "buildid": "24645658",

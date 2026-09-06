@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788675522,
-  "_history": [],
-  "_change_number": 38621644,
-  "_missing_token": true,
-  "_sha": "bd7b93b09e1398e0f4af78a7f6c88e249e996752",
-  "_size": 3239,
+  "_lastChecked": 1788680753,
+  "_history": [
+    {
+      "buildId": "25149197",
+      "branch": "public",
+      "timeUpdated": 1788676749,
+      "firstSeen": 1788680753,
+      "manifests": {
+        "5088121": {
+          "gid": "6277611029325164920",
+          "size": 286979872,
+          "download": 215000416
+        }
+      }
+    }
+  ],
+  "_change_number": 38639896,
+  "_missing_token": false,
+  "_sha": "ede815fbe17003c118384c18dcfd9b882be43fc1",
+  "_size": 4277,
   "appid": "5088120",
   "common": {
     "aicontenttype": "1",
@@ -27,7 +41,6 @@
     "clienticon": "89c40e7aa051c1a64f61fab5f41954b14b6cb193",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5088120",
     "genres": {
       "0": "23",
@@ -102,11 +115,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c1478a4a039512b7dbf17fa4987977cf1fc16ea8/capsule_231x87.jpg",
       "schinese": "c1478a4a039512b7dbf17fa4987977cf1fc16ea8/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1788676832",
     "store_asset_mtime": "1786373813",
     "store_tags": {
       "0": "9",
@@ -137,5 +151,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "水浒英雄传：八幕战役",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "LiangshanHeroes.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "macos_test",
+          "oslist": "macos"
+        },
+        "executable": "LiangshanHeroes.app",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "5088121": {
+      "manifests": {
+        "public": {
+          "download": "215000416",
+          "gid": "6277611029325164920",
+          "size": "286979872"
+        }
+      }
+    },
+    "5088122": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "25149197",
+        "timebuildupdated": "1788676571",
+        "timeupdated": "1788676749"
+      }
+    }
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "dztdash",
+    "publisher": "gaojing"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "1000000000",
+    "sync_while_suspended": "1"
+  }
 }

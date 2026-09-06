@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788675165,
-  "_history": [],
-  "_change_number": 38067024,
-  "_missing_token": true,
-  "_sha": "7a57661ee5ed0a87c5873401ad56e0a0bdd0e9d7",
-  "_size": 2828,
+  "_lastChecked": 1788680392,
+  "_history": [
+    {
+      "buildId": "24636188",
+      "branch": "public",
+      "timeUpdated": 1786254022,
+      "firstSeen": 1788680392,
+      "manifests": {
+        "4635751": {
+          "gid": "2255398351215589489",
+          "size": 4790241683,
+          "download": 3219135088
+        },
+        "4635752": {
+          "gid": "6344496555984702180",
+          "size": 3489194449,
+          "download": 2677032224
+        }
+      }
+    }
+  ],
+  "_change_number": 38639861,
+  "_missing_token": false,
+  "_sha": "6e07fd28b28b7de9f0cd33da9a7dbfb99f92a09d",
+  "_size": 3829,
   "appid": "4635750",
   "common": {
     "aicontenttype": "2",
@@ -25,7 +44,6 @@
     "clienticon": "1132446cf66a7da4f777ff9a20c7420ec8a55557",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4635750",
     "genres": {
       "0": "4",
@@ -99,7 +117,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ab362ec51f7b89e1d075618151c4f0b4455b3b74/capsule_231x87.jpg"
     },
@@ -124,5 +142,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "AI Farm",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "AIFarm.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "AI_Farm.app/Contents/MacOS/AIFarm",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4635751": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3219135088",
+          "gid": "2255398351215589489",
+          "size": "4790241683"
+        }
+      }
+    },
+    "4635752": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "2677032224",
+          "gid": "6344496555984702180",
+          "size": "3489194449"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24636188",
+        "timebuildupdated": "1786253809",
+        "timeupdated": "1786254022"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Prefab",
+    "isfreeapp": "1",
+    "publisher": "Prefab"
+  },
+  "ufs": {
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788674484,
+  "_lastChecked": 1788679703,
   "_history": [
     {
       "buildId": "23486238",
@@ -25,10 +25,10 @@
       }
     }
   ],
-  "_change_number": 36988299,
+  "_change_number": 38639792,
   "_missing_token": false,
-  "_sha": "434bb27d76101b73b2e767ddf5fde23cacd3a96c",
-  "_size": 7506,
+  "_sha": "56e26d93080580c15c0dbce5876a7db409c6a054",
+  "_size": 7927,
   "appid": "3898830",
   "common": {
     "aicontenttype": "2",
@@ -141,7 +141,7 @@
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "77",
+    "review_percentage": "73",
     "review_score": "6",
     "small_capsule": {
       "english": "fb0757bf60251755b361158c5dccc0c2e646539b/capsule_231x87.jpg"
@@ -163,6 +163,21 @@
         "requires_voice_files": "0",
         "small_text": "0",
         "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
       },
       "steamos_compatibility": "2",
       "steamos_tests": {

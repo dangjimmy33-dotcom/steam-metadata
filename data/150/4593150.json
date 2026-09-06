@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788675128,
+  "_lastChecked": 1788680355,
   "_history": [
     {
       "buildId": "24058964",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 37047301,
+  "_change_number": 38640345,
   "_missing_token": false,
-  "_sha": "f66c309f2d916b3118a1259e0dd44fd6a37b01c2",
-  "_size": 7664,
+  "_sha": "1a3ca9bb5b8a8fa1357a70f8a5e59ddaeed53bc3",
+  "_size": 8160,
   "appid": "4593150",
   "common": {
     "aicontenttype": "1",
@@ -46,6 +46,7 @@
     },
     "clienticon": "effe3b1a55f38e3a80a41110ca8a9d944586c9b7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -72,6 +73,14 @@
       "spanish": "e00d51af7771bef8d116ea1ca49b3c9119bc95f6/header_spanish.jpg"
     },
     "icon": "e738e783dc5749de23612dea0339ab491a04d243",
+    "languages": {
+      "english": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1"
+    },
     "library_assets": {
       "library_capsule": "en,ja,ko,zh-cn,ru,es",
       "library_header": "en,ja,ko,zh-cn,ru,es",
@@ -257,5 +266,22 @@
   "extended": {
     "developer": "EXPECTACLE",
     "publisher": "EXPECTACLE"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "closer-than-allowed/accounts/{64BitSteamID}",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }
