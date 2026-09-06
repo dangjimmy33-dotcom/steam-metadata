@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788714453,
+  "_lastChecked": 1788720964,
   "_history": [
     {
       "buildId": "25120522",
@@ -54,11 +54,29 @@
           "download": 0
         }
       }
+    },
+    {
+      "buildId": "25155441",
+      "branch": "experimental",
+      "timeUpdated": 1788720651,
+      "firstSeen": 1788720964,
+      "manifests": {
+        "3498271": {
+          "gid": "7889446992143792126",
+          "size": 6592703994,
+          "download": 5591848352
+        },
+        "4026450": {
+          "gid": "7668306703161318705",
+          "size": 0,
+          "download": 0
+        }
+      }
     }
   ],
-  "_change_number": 38598110,
+  "_change_number": 38649312,
   "_missing_token": false,
-  "_sha": "531e8c2db8a87a150caef0f6ce54f7b990aec6c0",
+  "_sha": "003ecd6e8851367789083381501293fb583bb3b3",
   "_size": 10988,
   "appid": "3498270",
   "common": {
@@ -436,9 +454,9 @@
     "3498271": {
       "manifests": {
         "experimental": {
-          "download": "5550505136",
-          "gid": "3262162454766351466",
-          "size": "6547304358"
+          "download": "5591848352",
+          "gid": "7889446992143792126",
+          "size": "6592703994"
         },
         "oldversion": {
           "download": "3085169584",
@@ -475,10 +493,10 @@
     "baselanguages": "english,french",
     "branches": {
       "experimental": {
-        "buildid": "25120522",
+        "buildid": "25155441",
         "description": "Get update before everyone, warning this version can have bug or destroy save, please make a copy",
-        "timebuildupdated": "1788513626",
-        "timeupdated": "1788513626"
+        "timebuildupdated": "1788720651",
+        "timeupdated": "1788720651"
       },
       "oldversion": {
         "buildid": "21008457",

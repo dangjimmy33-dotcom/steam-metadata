@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788715912,
+  "_lastChecked": 1788722559,
   "_history": [
     {
       "buildId": "25130578",
@@ -13,12 +13,25 @@
           "download": 566634096
         }
       }
+    },
+    {
+      "buildId": "25155548",
+      "branch": "public",
+      "timeUpdated": 1788721275,
+      "firstSeen": 1788722559,
+      "manifests": {
+        "4860651": {
+          "gid": "8808295221737495811",
+          "size": 997159384,
+          "download": 566668000
+        }
+      }
     }
   ],
-  "_change_number": 38625387,
+  "_change_number": 38649541,
   "_missing_token": false,
-  "_sha": "8132bcaa5e18d81d3364f97dd0e68bae9035fb22",
-  "_size": 5618,
+  "_sha": "2d3b4460cdd1dc1705804bad3b5e51300aeebde7",
+  "_size": 5856,
   "appid": "4860650",
   "common": {
     "associations": {
@@ -275,17 +288,17 @@
     "4860651": {
       "manifests": {
         "public": {
-          "download": "566634096",
-          "gid": "4015418028238086060",
-          "size": "997131524"
+          "download": "566668000",
+          "gid": "8808295221737495811",
+          "size": "997159384"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25130578",
-        "timebuildupdated": "1788547979",
-        "timeupdated": "1788548654"
+        "buildid": "25155548",
+        "timebuildupdated": "1788721237",
+        "timeupdated": "1788721275"
       }
     }
   },
@@ -294,7 +307,19 @@
     "publisher": "Spectrum Ostrich"
   },
   "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
     "maxnumfiles": "40",
-    "quota": "400000000"
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Floor Glitch",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

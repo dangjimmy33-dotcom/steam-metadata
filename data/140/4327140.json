@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788715381,
-  "_history": [],
-  "_change_number": 38596491,
-  "_missing_token": true,
-  "_sha": "ebb6e2a398a64d0f5fb9ff0c7178a29bec4507c0",
-  "_size": 2588,
+  "_lastChecked": 1788721978,
+  "_history": [
+    {
+      "buildId": "25155340",
+      "branch": "public",
+      "timeUpdated": 1788720137,
+      "firstSeen": 1788721978,
+      "manifests": {
+        "4327141": {
+          "gid": "6929735689835813779",
+          "size": 136621884,
+          "download": 62095472
+        }
+      }
+    }
+  ],
+  "_change_number": 38649259,
+  "_missing_token": false,
+  "_sha": "4a941ce6ea3964f19b71820d9f217950fd08790d",
+  "_size": 3055,
   "appid": "4327140",
   "common": {
     "associations": {
@@ -26,7 +40,6 @@
     "clienticon": "4d686723cdbff2a24e0e71da3223e2307735f379",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4327140",
     "genres": {
       "0": "23"
@@ -86,7 +99,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "73edda6daf97170521fddf44b27bf121eaa4114e/capsule_231x87.jpg"
     },
@@ -117,5 +130,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cells",
+    "launch": {
+      "0": {
+        "executable": "CELLS.exe"
+      }
+    }
+  },
+  "depots": {
+    "4327141": {
+      "manifests": {
+        "public": {
+          "download": "62095472",
+          "gid": "6929735689835813779",
+          "size": "136621884"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25155340",
+        "timebuildupdated": "1788720089",
+        "timeupdated": "1788720137"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Mousetrick Studio",
+    "publisher": "Mousetrick Studio"
+  }
 }

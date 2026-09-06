@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788715963,
-  "_history": [],
-  "_change_number": 38520459,
-  "_missing_token": true,
-  "_sha": "efae485925dab062b67044f7f6f5aa76dbe36e8e",
-  "_size": 3796,
+  "_lastChecked": 1788722615,
+  "_history": [
+    {
+      "buildId": "25066223",
+      "branch": "public",
+      "timeUpdated": 1788294467,
+      "firstSeen": 1788722615,
+      "manifests": {
+        "4913821": {
+          "gid": "6512902498462279074",
+          "size": 1076710341,
+          "download": 886612208
+        },
+        "4913822": {
+          "gid": "8539404359230097445",
+          "size": 925523779,
+          "download": 867930928
+        }
+      }
+    }
+  ],
+  "_change_number": 38648778,
+  "_missing_token": false,
+  "_sha": "a4076c9df1f84042f52282a0e8d69fb19109498f",
+  "_size": 5448,
   "appid": "4913820",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +49,7 @@
     },
     "clienticon": "53279a329af244fe768d8db7e574c294bef6e141",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -44,7 +64,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4913820",
     "genres": {
       "0": "25",
@@ -122,11 +141,12 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux,android",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "6013ab52facbaa920322608e3251d61b347c749e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788717941",
     "store_asset_mtime": "1782955487",
     "store_tags": {
       "0": "3799",
@@ -176,5 +196,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Intended Parties",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "IntendedParties.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "IntendedParties.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "IntendedParties.sh",
+        "type": "default"
+      },
+      "3": {
+        "config": {
+          "oslist": "android"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "intended.parties-1.0-1788293236-release.apk",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4913821": {
+      "manifests": {
+        "public": {
+          "download": "886612208",
+          "gid": "6512902498462279074",
+          "size": "1076710341"
+        }
+      }
+    },
+    "4913822": {
+      "config": {
+        "oslist": "android"
+      },
+      "manifests": {
+        "public": {
+          "download": "867930928",
+          "gid": "8539404359230097445",
+          "size": "925523779"
+        }
+      }
+    },
+    "baselanguages": "english,french,japanese,koreana,latam,russian,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25066223",
+        "timebuildupdated": "1788294467",
+        "timeupdated": "1788294467"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Creamhouse",
+    "publisher": "Creamhouse"
+  }
 }

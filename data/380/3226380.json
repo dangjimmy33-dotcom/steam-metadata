@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788714143,
-  "_history": [],
-  "_change_number": 38640118,
-  "_missing_token": true,
-  "_sha": "5daab71a104d8592a4e718da8ece068ee594175b",
-  "_size": 3079,
+  "_lastChecked": 1788720623,
+  "_history": [
+    {
+      "buildId": "24963546",
+      "branch": "public",
+      "timeUpdated": 1787806064,
+      "firstSeen": 1788720623,
+      "manifests": {
+        "3226381": {
+          "gid": "2720474991237031214",
+          "size": 131620899,
+          "download": 42279216
+        }
+      }
+    }
+  ],
+  "_change_number": 38649271,
+  "_missing_token": false,
+  "_sha": "c766ad7c149b398195e30d19d361e2705aa564b1",
+  "_size": 3627,
   "appid": "3226380",
   "common": {
     "associations": {
@@ -33,7 +47,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3226380",
     "genres": {
       "0": "4",
@@ -105,7 +118,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "18b46343bfebfb2f55a07757f80667e2fdd8af42/capsule_231x87.jpg"
     },
@@ -139,5 +152,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DiceGame",
+    "launch": {
+      "0": {
+        "executable": "DiceGame.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3226381": {
+      "manifests": {
+        "public": {
+          "download": "42279216",
+          "gid": "2720474991237031214",
+          "size": "131620899"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24963546",
+        "timebuildupdated": "1787806044",
+        "timeupdated": "1787806064"
+      }
+    }
+  },
+  "extended": {
+    "developer": "d_deli",
+    "publisher": "d_deli"
+  }
 }
