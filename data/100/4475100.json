@@ -1,10 +1,10 @@
 {
-  "_lastChecked": 1788728824,
+  "_lastChecked": 1788734286,
   "_history": [],
-  "_change_number": 38601948,
+  "_change_number": 38651829,
   "_missing_token": false,
-  "_sha": "df92ac1c635ac8734cb223ed9450aa98dcf6b236",
-  "_size": 3896,
+  "_sha": "82c90e3bf9a0486228f76b9e9b5d1917e8d61414",
+  "_size": 4423,
   "appid": "4475100",
   "common": {
     "aicontenttype": "1",
@@ -12,6 +12,10 @@
       "0": {
         "name": "Odiin",
         "type": "developer"
+      },
+      "1": {
+        "name": "Odiin",
+        "type": "publisher"
       }
     },
     "category": {
@@ -37,11 +41,12 @@
       "german": "acff40af09942e8f2dca758c4b33b73ada73f598/header_german.jpg",
       "japanese": "e386abc1a435067ba236a56ba2df5e512efdde34/header_japanese.jpg",
       "latam": "364b3f351789ad12856025234ea041797fe01510/header_latam.jpg",
+      "russian": "9d83d7b9a1813c4b5e1c0b52ba3b28964d3dda2b/header_russian.jpg",
       "schinese": "9dfbe213ec18629337ac3cd8e0466f7dacec6708/header_schinese.jpg",
       "spanish": "364b3f351789ad12856025234ea041797fe01510/header_spanish.jpg"
     },
     "library_assets": {
-      "library_header": "en,de,es,es-419,ja,zh-cn"
+      "library_header": "en,de,es,es-419,ja,zh-cn,ru"
     },
     "library_assets_full": {
       "library_header": {
@@ -50,6 +55,7 @@
           "german": "acff40af09942e8f2dca758c4b33b73ada73f598/library_header_german.jpg",
           "japanese": "e386abc1a435067ba236a56ba2df5e512efdde34/library_header_japanese.jpg",
           "latam": "364b3f351789ad12856025234ea041797fe01510/library_header_latam.jpg",
+          "russian": "9d83d7b9a1813c4b5e1c0b52ba3b28964d3dda2b/library_header_russian.jpg",
           "schinese": "9dfbe213ec18629337ac3cd8e0466f7dacec6708/library_header_schinese.jpg",
           "spanish": "364b3f351789ad12856025234ea041797fe01510/library_header_spanish.jpg"
         },
@@ -58,6 +64,7 @@
           "german": "acff40af09942e8f2dca758c4b33b73ada73f598/library_header_german_2x.jpg",
           "japanese": "e386abc1a435067ba236a56ba2df5e512efdde34/library_header_japanese_2x.jpg",
           "latam": "364b3f351789ad12856025234ea041797fe01510/library_header_latam_2x.jpg",
+          "russian": "9d83d7b9a1813c4b5e1c0b52ba3b28964d3dda2b/library_header_russian_2x.jpg",
           "schinese": "9dfbe213ec18629337ac3cd8e0466f7dacec6708/library_header_schinese_2x.jpg",
           "spanish": "364b3f351789ad12856025234ea041797fe01510/library_header_spanish_2x.jpg"
         }
@@ -68,18 +75,19 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "parent": "4134440",
-    "primary_genre": "4",
+    "primary_genre": "23",
     "releasestate": "released",
     "small_capsule": {
       "english": "900f15ececb646318a4a8fd74e922af19f76d56e/capsule_231x87.jpg",
       "german": "c81008fd64cb163607cb111127c91c9fe38e6cd4/capsule_231x87_german.jpg",
       "japanese": "8afd2c7db302a9252d63cf747f27a14a9edbef47/capsule_231x87_japanese.jpg",
       "latam": "d96703754643f2318a115ffeec59477d242c04e5/capsule_231x87_latam.jpg",
+      "russian": "031ee571a6dafa6c962cd8fafd4d07f0a7e8603f/capsule_231x87_russian.jpg",
       "schinese": "d994e0fb522d35c0c92104630fb473a17d3b88aa/capsule_231x87_schinese.jpg",
       "spanish": "d96703754643f2318a115ffeec59477d242c04e5/capsule_231x87_spanish.jpg"
     },
     "steam_release_date": "1787828135",
-    "store_asset_mtime": "1788522999",
+    "store_asset_mtime": "1788731613",
     "store_screenshot": "a18934ad2f5d827c2ae30dcd9863a6b367262450/ss_a18934ad2f5d827c2ae30dcd9863a6b367262450.jpg",
     "store_tags": {
       "0": "21635",
@@ -119,6 +127,12 @@
       "latam": {
         "supported": "true"
       },
+      "russian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
       "spanish": {
         "supported": "true"
       }
@@ -129,7 +143,8 @@
     "developer": "Odiin",
     "dlcavailableonstore": "1",
     "dlcforappid": "4134440",
-    "homepage": "https://odiin2024.github.io/flashboss-site/",
-    "mustownapptopurchase": "4134440"
+    "homepage": "https://odiin2024.github.io/flashboss-site/home.html",
+    "mustownapptopurchase": "4134440",
+    "publisher": "Odiin"
   }
 }
