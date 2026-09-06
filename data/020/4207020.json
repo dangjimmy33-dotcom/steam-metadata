@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788702987,
-  "_history": [],
-  "_change_number": 37666355,
-  "_missing_token": true,
-  "_sha": "2329e00dc577c43acf28e82bad872c78ad25653d",
-  "_size": 3398,
+  "_lastChecked": 1788709052,
+  "_history": [
+    {
+      "buildId": "24487545",
+      "branch": "public",
+      "timeUpdated": 1785481329,
+      "firstSeen": 1788709052,
+      "manifests": {
+        "4207021": {
+          "gid": "4060418930556362670",
+          "size": 4968735213,
+          "download": 1799862032
+        }
+      }
+    }
+  ],
+  "_change_number": 38645107,
+  "_missing_token": false,
+  "_sha": "2df4407bc1216f6880357914788aee706a70343d",
+  "_size": 4019,
   "appid": "4207020",
   "common": {
     "aicontenttype": "1",
@@ -42,7 +56,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4207020",
     "genres": {
       "0": "4",
@@ -115,11 +128,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "1f239ff6595a1d6a1bb9b49f32664536c779fdde/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788704010",
     "store_asset_mtime": "1779210307",
     "store_tags": {
       "0": "597",
@@ -157,5 +171,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "First Sin",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "FirstSin.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4207021": {
+      "manifests": {
+        "public": {
+          "download": "1799862032",
+          "gid": "4060418930556362670",
+          "size": "4968735213"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24487545",
+        "timebuildupdated": "1785481265",
+        "timeupdated": "1785481329"
+      }
+    }
+  },
+  "extended": {
+    "developer": "OHO Games",
+    "homepage": "https://ohogames.com.tr/first-sin/",
+    "publisher": "OHO Games"
+  }
 }

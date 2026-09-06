@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788703706,
+  "_lastChecked": 1788709831,
   "_history": [
     {
       "buildId": "25060595",
@@ -13,12 +13,30 @@
           "download": 362477488
         }
       }
+    },
+    {
+      "buildId": "25152964",
+      "branch": "public",
+      "timeUpdated": 1788705839,
+      "firstSeen": 1788709831,
+      "manifests": {
+        "4984101": {
+          "gid": "906065280646582877",
+          "size": 657488434,
+          "download": 590136416
+        },
+        "4984102": {
+          "gid": "4608598655007431037",
+          "size": 706786655,
+          "download": 622656880
+        }
+      }
     }
   ],
-  "_change_number": 38541207,
+  "_change_number": 38645593,
   "_missing_token": false,
-  "_sha": "bbbced9ce5386f3f758aeb080525a57934989ef6",
-  "_size": 6222,
+  "_sha": "059710e721c44cc93a2671de46019f1667be5341",
+  "_size": 6650,
   "appid": "4984100",
   "common": {
     "associations": {
@@ -41,7 +59,7 @@
       "category_49": "1",
       "category_62": "1"
     },
-    "clienticon": "a901c1fbcbe7f946c61313efcc0fafcc10ad0fb2",
+    "clienticon": "a6b43c8071a4202860212843194d10d3ef148ff1",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
     "controllertagwizard": "1",
@@ -54,7 +72,7 @@
     "header_image": {
       "english": "df3b0503fbacb8bb3e6c3a5459065ccfd9860d6a/header.jpg"
     },
-    "icon": "a901c1fbcbe7f946c61313efcc0fafcc10ad0fb2",
+    "icon": "bfd4f6a7d9d5ee460a3357db287229c40a63a487",
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -135,8 +153,8 @@
       "ukrainian": "Колекція класичних настільних ігор: Ґо, Сянці, Шахи, Ґомоку та Реверсі"
     },
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "2",
     "releasestate": "released",
     "review_percentage": "100",
@@ -210,24 +228,48 @@
         },
         "executable": "NinOneQi.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "NinOneQi.app",
+        "type": "default"
       }
     }
   },
   "depots": {
     "4984101": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "362477488",
-          "gid": "6837710868186694703",
-          "size": "429803991"
+          "download": "590136416",
+          "gid": "906065280646582877",
+          "size": "657488434"
+        }
+      }
+    },
+    "4984102": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "622656880",
+          "gid": "4608598655007431037",
+          "size": "706786655"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25060595",
-        "timebuildupdated": "1788274552",
-        "timeupdated": "1788274683"
+        "buildid": "25152964",
+        "timebuildupdated": "1788705463",
+        "timeupdated": "1788705839"
       }
     }
   },

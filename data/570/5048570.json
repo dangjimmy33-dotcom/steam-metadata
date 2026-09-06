@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788703756,
-  "_history": [],
-  "_change_number": 38639615,
-  "_missing_token": true,
-  "_sha": "29de620e73cc17b27278f0ee21c3240d8797638a",
-  "_size": 3069,
+  "_lastChecked": 1788709886,
+  "_history": [
+    {
+      "buildId": "25148989",
+      "branch": "public",
+      "timeUpdated": 1788674437,
+      "firstSeen": 1788709886,
+      "manifests": {
+        "5048571": {
+          "gid": "3997438705524903503",
+          "size": 503018615,
+          "download": 467526480
+        }
+      }
+    }
+  ],
+  "_change_number": 38645873,
+  "_missing_token": false,
+  "_sha": "c5f69106846095ed1ebeba01f5121d0b292d3568",
+  "_size": 3947,
   "appid": "5048570",
   "common": {
     "aicontenttype": "1",
@@ -27,6 +41,7 @@
     },
     "clienticon": "15025573bcc69604be4e3951dfb4a9ca48633a94",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -36,7 +51,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5048570",
     "genres": {
       "0": "1",
@@ -111,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b3eea5806d8ffe88b6db0750dcdc1661b0b9ca72/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788706838",
     "store_asset_mtime": "1788625682",
     "store_tags": {
       "0": "19",
@@ -143,5 +158,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Invictvs",
+    "launch": {
+      "0": {
+        "executable": "Invictvs.exe"
+      }
+    }
+  },
+  "depots": {
+    "5048571": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "467526480",
+          "gid": "3997438705524903503",
+          "size": "503018615"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "25148989",
+        "timebuildupdated": "1788674405",
+        "timeupdated": "1788674437"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "buno15",
+    "publisher": "buno15"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "buno15/Invictvs",
+        "pattern": "shared_preferences.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

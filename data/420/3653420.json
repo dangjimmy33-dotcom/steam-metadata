@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788702427,
-  "_history": [],
-  "_change_number": 37660044,
-  "_missing_token": true,
-  "_sha": "06e9b4d04d7bd2fe948322c413a4470ab2da14a5",
-  "_size": 4164,
+  "_lastChecked": 1788708436,
+  "_history": [
+    {
+      "buildId": "24483066",
+      "branch": "public",
+      "timeUpdated": 1785457803,
+      "firstSeen": 1788708436,
+      "manifests": {
+        "3653421": {
+          "gid": "6666599171779444354",
+          "size": 470525504,
+          "download": 226149824
+        }
+      }
+    }
+  ],
+  "_change_number": 38645365,
+  "_missing_token": false,
+  "_sha": "46e8c39296d6ae21e064f366f179ffceff6aa472",
+  "_size": 4978,
   "appid": "3653420",
   "common": {
     "associations": {
@@ -34,8 +48,8 @@
     "clienticon": "62ffdd57fa63ff65e4b391088fe39088b879cd37",
     "clienttga": "c7c2bb603107f08238711cfb3f1c6aebf19c7c2e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3653420",
     "genres": {
       "0": "25",
@@ -107,10 +121,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "70",
+    "review_score": "6",
     "small_capsule": {
       "english": "233fc6569b01cf94769e2ce7b6ec55907b66711a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788372210",
     "store_asset_mtime": "1773089393",
     "store_tags": {
       "0": "17894",
@@ -192,5 +209,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Storytime Cats - Meows and Mistletoes",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Storytime Cats - Meows and Mistletoes.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3653421": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "226149824",
+          "gid": "6666599171779444354",
+          "size": "470525504"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24483066",
+        "timebuildupdated": "1785457732",
+        "timeupdated": "1785457803"
+      }
+    }
+  },
+  "extended": {
+    "developer": "626 Interactive",
+    "isfreeapp": "1",
+    "publisher": "626 Interactive"
+  }
 }

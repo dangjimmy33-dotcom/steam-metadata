@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788703483,
-  "_history": [],
-  "_change_number": 38644707,
-  "_missing_token": true,
-  "_sha": "ddca22498dfbc9816389ddbf41b9c145c3df5fb6",
-  "_size": 3471,
+  "_lastChecked": 1788709591,
+  "_history": [
+    {
+      "buildId": "25153593",
+      "branch": "public",
+      "timeUpdated": 1788709410,
+      "firstSeen": 1788709591,
+      "manifests": {
+        "4729251": {
+          "gid": "2572635698546058310",
+          "size": 748998624,
+          "download": 383004768
+        }
+      }
+    }
+  ],
+  "_change_number": 38646530,
+  "_missing_token": false,
+  "_sha": "6cb881a646b737f0afef67bd683ea3c0344da6c6",
+  "_size": 6179,
   "appid": "4729250",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +45,8 @@
     },
     "clienticon": "58f318165563536c04a2816bd15c374c0af3dd02",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4729250",
     "genres": {
       "0": "28",
@@ -108,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2fb3c8d15d4db2594c769f2f36532b16ff86a1c3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788708082",
     "store_asset_mtime": "1788005502",
     "store_tags": {
       "0": "599",
@@ -164,5 +179,129 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Airline Founder",
+    "launch": {
+      "0": {
+        "executable": "AirlineFounder.exe"
+      }
+    }
+  },
+  "depots": {
+    "4729251": {
+      "manifests": {
+        "public": {
+          "download": "383004768",
+          "gid": "2572635698546058310",
+          "size": "748998624"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25153593",
+        "timebuildupdated": "1788709245",
+        "timeupdated": "1788709410"
+      }
+    },
+    "workshopdepot": "4729250"
+  },
+  "extended": {
+    "developer": "Nerowan",
+    "publisher": "Nerowan"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "Nerowan/Airline Founder/AirlineFounderSaves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Nerowan/Airline Founder/AirlineFounderSaves",
+        "pattern": "*.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "10": {
+        "path": "Nerowan/Airline Founder/SandboxSessions",
+        "pattern": "*.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Nerowan/Airline Founder",
+        "pattern": "airline_founder_mvp_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Nerowan/Airline Founder",
+        "pattern": "airline_founder_mvp_save.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": "Nerowan/Airline Founder/SandboxSessions",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "5": {
+        "path": "Nerowan/Airline Founder/SandboxScenarios",
+        "pattern": "sandbox-scenarios-v1.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "6": {
+        "path": "Nerowan/Airline Founder/SandboxScenarios",
+        "pattern": "sandbox-scenarios-v1.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "7": {
+        "path": "Nerowan/Airline Founder/UiCustomization",
+        "pattern": "ui-layout-v2.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "8": {
+        "path": "Nerowan/Airline Founder/AirlineFounderMods",
+        "pattern": "load-order-v1.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "9": {
+        "path": "Nerowan/Airline Founder/AirlineFounderMods",
+        "pattern": "load-order-v1.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

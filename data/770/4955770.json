@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788703681,
-  "_history": [],
-  "_change_number": 38053607,
-  "_missing_token": true,
-  "_sha": "a9c176d6cbdb96e46b6f9c01ed6bd37e6ce8794d",
-  "_size": 3240,
+  "_lastChecked": 1788709804,
+  "_history": [
+    {
+      "buildId": "25153332",
+      "branch": "public",
+      "timeUpdated": 1788707703,
+      "firstSeen": 1788709804,
+      "manifests": {
+        "4955771": {
+          "gid": "3945790584705609151",
+          "size": 500092950,
+          "download": 290660640
+        }
+      }
+    }
+  ],
+  "_change_number": 38646081,
+  "_missing_token": false,
+  "_sha": "00fed3f1e89ebe67b16589c35c19fd0a84ad825b",
+  "_size": 4118,
   "appid": "4955770",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +44,8 @@
     },
     "clienticon": "bbc04d2510d927275a28a9f396167a6ac845aef9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4955770",
     "genres": {
       "0": "25",
@@ -109,7 +123,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "580ae74daaa09a09bfd74f86c04e87609051e8eb/capsule_231x87.jpg"
     },
@@ -148,5 +162,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Succubi of Byzantion",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "SuccubiOfByzantion.exe"
+      }
+    }
+  },
+  "depots": {
+    "4955771": {
+      "manifests": {
+        "public": {
+          "download": "290660640",
+          "gid": "3945790584705609151",
+          "size": "500092950"
+        }
+      }
+    },
+    "baselanguages": "czech,english",
+    "branches": {
+      "public": {
+        "buildid": "25153332",
+        "timebuildupdated": "1788707603",
+        "timeupdated": "1788707703"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Jan Martinek",
+    "isfreeapp": "1",
+    "publisher": "Jan Martinek"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "6000000",
+    "savefiles": {
+      "0": {
+        "path": "SuccubiOfByzantion",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

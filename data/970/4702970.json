@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788703462,
-  "_history": [],
-  "_change_number": 38478511,
-  "_missing_token": true,
-  "_sha": "2d09acba592903104a7e6372138ba8ca1c94ee26",
-  "_size": 3485,
+  "_lastChecked": 1788709568,
+  "_history": [
+    {
+      "buildId": "25024422",
+      "branch": "public",
+      "timeUpdated": 1788186383,
+      "firstSeen": 1788709568,
+      "manifests": {
+        "4702971": {
+          "gid": "4303391103788804844",
+          "size": 642188223,
+          "download": 316518160
+        }
+      }
+    }
+  ],
+  "_change_number": 38645595,
+  "_missing_token": false,
+  "_sha": "ac1a231bc2921146f493d43485fbfdf99124d19a",
+  "_size": 4409,
   "appid": "4702970",
   "common": {
     "aicontenttype": "1",
@@ -37,6 +51,7 @@
     },
     "clienticon": "2c9b6e14a504ada98815ac77c2cb01e387fac23f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -46,7 +61,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "4702970",
     "genres": {
       "0": "23",
@@ -119,10 +133,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a6e51ad900c20417cc34f2e9faedd1427863ddc9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788705839",
     "store_asset_mtime": "1788189489",
     "store_tags": {
       "0": "128",
@@ -158,5 +173,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "67 Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "67Simulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "4702971": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "316518160",
+          "gid": "4303391103788804844",
+          "size": "642188223"
+        }
+      }
+    },
+    "4922620": {
+      "config": {
+        "oslist": "windows"
+      },
+      "dlcappid": "4922620"
+    },
+    "branches": {
+      "public": {
+        "buildid": "25024422",
+        "timebuildupdated": "1788116563",
+        "timeupdated": "1788186383"
+      }
+    }
+  },
+  "extended": {
+    "developer": "close2 Entertainment",
+    "publisher": "close2 Entertainment"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10000",
+    "quota": "400000000",
+    "sync_while_suspended": "1"
+  }
 }
