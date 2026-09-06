@@ -52,7 +52,7 @@ jobs:
 
       - name: Run Tracker
         run: |
-          python tracker.py --run --concurrency 10
+          python tracker.py --run --concurrency 10 --reset-checkpoint
 
       - name: Commit and push changes
         run: |
