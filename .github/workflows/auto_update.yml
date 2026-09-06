@@ -2,16 +2,27 @@ name: Steam Metadata Auto Tracker
 
 on:
   schedule:
-    # Run every 6 hours (00:00, 06:00, 12:00, 18:00 UTC)
-    - cron: '0 */6 * * *'
-  workflow_dispatch: # Allows manual trigger from GitHub Actions UI
+    # Watchdog fallback. The job also queues the next run after each pass.
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Trigger source for diagnostics'
+        required: false
+        default: 'manual'
 
 permissions:
   contents: write
+  actions: write
+
+concurrency:
+  group: steam-metadata-auto-tracker-main
+  cancel-in-progress: false
 
 jobs:
   update-metadata:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -54,3 +65,65 @@ jobs:
             git commit -m "Auto-update: sync latest Steam metadata [skip ci]"
             git push origin main
           fi
+
+      - name: Queue next tracker run
+        if: ${{ always() && !cancelled() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NEXT_DELAY_SECONDS: '60'
+          WORKFLOW_FILE: auto_update.yml
+        run: |
+          echo "Waiting ${NEXT_DELAY_SECONDS}s before queueing the next tracker run..."
+          sleep "${NEXT_DELAY_SECONDS}"
+          python - <<'PY'
+          import json
+          import os
+          import sys
+          import urllib.parse
+          import urllib.request
+
+          repo = os.environ["GITHUB_REPOSITORY"]
+          workflow_file = os.environ["WORKFLOW_FILE"]
+          run_id = int(os.environ["GITHUB_RUN_ID"])
+          ref_name = os.environ["GITHUB_REF_NAME"]
+          token = os.environ["GH_TOKEN"]
+          base_url = "https://api.github.com"
+          headers = {
+              "Accept": "application/vnd.github+json",
+              "Authorization": f"Bearer {token}",
+              "X-GitHub-Api-Version": "2022-11-28",
+          }
+
+          def request_json(path: str) -> dict:
+              req = urllib.request.Request(f"{base_url}{path}", headers=headers)
+              with urllib.request.urlopen(req, timeout=30) as response:
+                  return json.loads(response.read().decode("utf-8"))
+
+          active_runs = []
+          encoded_workflow = urllib.parse.quote(workflow_file, safe="")
+          for status in ("queued", "in_progress"):
+              path = (
+                  f"/repos/{repo}/actions/workflows/{encoded_workflow}/runs"
+                  f"?status={status}&per_page=20"
+              )
+              for run in request_json(path).get("workflow_runs", []):
+                  if int(run["id"]) != run_id:
+                      active_runs.append((run["id"], status, run["html_url"]))
+
+          if active_runs:
+              print("Another tracker run is already queued or running; not dispatching a duplicate.")
+              for existing_id, status, url in active_runs:
+                  print(f"- {existing_id} {status}: {url}")
+              sys.exit(0)
+
+          payload = json.dumps({"ref": ref_name, "inputs": {"source": "chain"}}).encode("utf-8")
+          dispatch_path = f"/repos/{repo}/actions/workflows/{encoded_workflow}/dispatches"
+          req = urllib.request.Request(
+              f"{base_url}{dispatch_path}",
+              data=payload,
+              headers={**headers, "Content-Type": "application/json"},
+              method="POST",
+          )
+          with urllib.request.urlopen(req, timeout=30) as response:
+              print(f"Queued next tracker run on {ref_name}; GitHub returned HTTP {response.status}.")
+          PY
