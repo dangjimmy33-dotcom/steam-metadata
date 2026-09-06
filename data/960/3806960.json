@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788708604,
+  "_lastChecked": 1788714795,
   "_history": [
     {
       "buildId": "21115201",
@@ -26,12 +26,38 @@
           "download": 43665808
         }
       }
+    },
+    {
+      "buildId": "24679664",
+      "branch": "0.5.0",
+      "timeUpdated": 1786531684,
+      "firstSeen": 1788714795,
+      "manifests": {
+        "3806961": {
+          "gid": "4089860414583793399",
+          "size": 62620267,
+          "download": 43665808
+        }
+      }
+    },
+    {
+      "buildId": "25154328",
+      "branch": "public",
+      "timeUpdated": 1788713946,
+      "firstSeen": 1788714795,
+      "manifests": {
+        "3806961": {
+          "gid": "8675204300793435120",
+          "size": 64920449,
+          "download": 44121168
+        }
+      }
     }
   ],
-  "_change_number": 37963368,
+  "_change_number": 38647819,
   "_missing_token": false,
-  "_sha": "f1ca561307dd35ae7af6dd2d79146b8d015c7469",
-  "_size": 4472,
+  "_sha": "febd2cca45794c0c41651f77ccf3b9113677d4b9",
+  "_size": 4752,
   "appid": "3806960",
   "common": {
     "associations": {
@@ -193,10 +219,15 @@
           "gid": "788923044274723704",
           "size": "161819510"
         },
-        "public": {
+        "0.5.0": {
           "download": "43665808",
           "gid": "4089860414583793399",
           "size": "62620267"
+        },
+        "public": {
+          "download": "44121168",
+          "gid": "8675204300793435120",
+          "size": "64920449"
         }
       }
     },
@@ -207,10 +238,16 @@
         "timebuildupdated": "1765287320",
         "timeupdated": "1765287340"
       },
-      "public": {
+      "0.5.0": {
         "buildid": "24679664",
+        "description": "Version 0.5.0 of Really Fast Rat",
         "timebuildupdated": "1786480057",
         "timeupdated": "1786531684"
+      },
+      "public": {
+        "buildid": "25154328",
+        "timebuildupdated": "1788713863",
+        "timeupdated": "1788713946"
       }
     },
     "privatebranches": "1"

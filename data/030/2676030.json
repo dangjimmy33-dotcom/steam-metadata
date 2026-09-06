@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788707313,
+  "_lastChecked": 1788713496,
   "_history": [
     {
       "buildId": "23702508",
@@ -13,12 +13,25 @@
           "download": 172029408
         }
       }
+    },
+    {
+      "buildId": "25153903",
+      "branch": "multiplayer-beta-test",
+      "timeUpdated": 1788711289,
+      "firstSeen": 1788713496,
+      "manifests": {
+        "2676031": {
+          "gid": "7310806277450324063",
+          "size": 369738526,
+          "download": 183129344
+        }
+      }
     }
   ],
-  "_change_number": 37462619,
+  "_change_number": 38646982,
   "_missing_token": false,
-  "_sha": "f835085901a35a053b16718444bb20f498495736",
-  "_size": 6134,
+  "_sha": "778d5e374b125640b862185db4ae10347e181d59",
+  "_size": 6471,
   "appid": "2676030",
   "common": {
     "associations": {
@@ -234,6 +247,11 @@
   "depots": {
     "2676031": {
       "manifests": {
+        "multiplayer-beta-test": {
+          "download": "183129344",
+          "gid": "7310806277450324063",
+          "size": "369738526"
+        },
         "public": {
           "download": "172029408",
           "gid": "7388440364521527929",
@@ -242,6 +260,12 @@
       }
     },
     "branches": {
+      "multiplayer-beta-test": {
+        "buildid": "25153903",
+        "description": "A beta test branch for the upcoming multiplayer update.",
+        "timebuildupdated": "1788711257",
+        "timeupdated": "1788711289"
+      },
       "public": {
         "buildid": "23702508",
         "timebuildupdated": "1781271173",

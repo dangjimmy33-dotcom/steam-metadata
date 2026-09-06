@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788708454,
+  "_lastChecked": 1788714647,
   "_history": [
     {
       "buildId": "25142042",
@@ -38,9 +38,9 @@
       }
     }
   ],
-  "_change_number": 38636833,
+  "_change_number": 38646665,
   "_missing_token": false,
-  "_sha": "39745927098254425a0debb3dadbefcf8c131848",
+  "_sha": "d381384a978bf6d8733c24bf45680d66224fcf7e",
   "_size": 9407,
   "appid": "3668640",
   "common": {
@@ -305,7 +305,6 @@
     "launch": {
       "0": {
         "config": {
-          "betakey": "betatest,testbranch",
           "osarch": "64",
           "oslist": "windows"
         },
@@ -321,6 +320,7 @@
       "2": {
         "arguments": "/IGP_STEAM_LAUNCH /IGP_APP_ID=90 /STEAM_APP_ID=3668640 /IGP_GAME_EXE=DeckofHarvest.exe",
         "config": {
+          "betakey": "betatest,testbranch",
           "oslist": "windows"
         },
         "description": "igp启动器",

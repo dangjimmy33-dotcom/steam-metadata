@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788707432,
+  "_lastChecked": 1788713617,
   "_history": [
     {
       "buildId": "24912127",
@@ -54,12 +54,30 @@
           "download": 4040637824
         }
       }
+    },
+    {
+      "buildId": "25153867",
+      "branch": "beta",
+      "timeUpdated": 1788711072,
+      "firstSeen": 1788713617,
+      "manifests": {
+        "2776781": {
+          "gid": "7849953320087712964",
+          "size": 6617765017,
+          "download": 4014804416
+        },
+        "2776782": {
+          "gid": "1151907846210749077",
+          "size": 6631289235,
+          "download": 4040637888
+        }
+      }
     }
   ],
-  "_change_number": 38631322,
+  "_change_number": 38646907,
   "_missing_token": false,
-  "_sha": "b56de8c1930c43e4ab14dc11b84e48f5b89fc184",
-  "_size": 11769,
+  "_sha": "04be1dd9b7debaddce208f73b18e7bb436d5460d",
+  "_size": 11770,
   "appid": "2776780",
   "common": {
     "associations": {
@@ -396,9 +414,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "4014804992",
-          "gid": "349711695964799617",
-          "size": "6617765217"
+          "download": "4014804416",
+          "gid": "7849953320087712964",
+          "size": "6617765017"
         },
         "public": {
           "download": "4014888720",
@@ -413,8 +431,8 @@
       },
       "manifests": {
         "beta": {
-          "download": "4040637824",
-          "gid": "5296292945972495594",
+          "download": "4040637888",
+          "gid": "1151907846210749077",
           "size": "6631289235"
         },
         "public": {
@@ -430,10 +448,10 @@
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,brazilian",
     "branches": {
       "beta": {
-        "buildid": "25143369",
+        "buildid": "25153867",
         "description": "Public testing branch",
-        "timebuildupdated": "1788627981",
-        "timeupdated": "1788627981"
+        "timebuildupdated": "1788711072",
+        "timeupdated": "1788711072"
       },
       "public": {
         "buildid": "24696318",

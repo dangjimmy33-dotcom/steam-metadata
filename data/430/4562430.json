@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788709429,
+  "_lastChecked": 1788715625,
   "_history": [
     {
       "buildId": "25142967",
@@ -54,12 +54,30 @@
           "download": 47351216
         }
       }
+    },
+    {
+      "buildId": "25154022",
+      "branch": "beta",
+      "timeUpdated": 1788711876,
+      "firstSeen": 1788715625,
+      "manifests": {
+        "4562431": {
+          "gid": "3826307219669051045",
+          "size": 99581472,
+          "download": 44327152
+        },
+        "4562432": {
+          "gid": "3698206563374576334",
+          "size": 109963736,
+          "download": 47351264
+        }
+      }
     }
   ],
-  "_change_number": 38632268,
+  "_change_number": 38647137,
   "_missing_token": false,
-  "_sha": "de61cf0d327d668550d91df3ec8724217f696970",
-  "_size": 4887,
+  "_sha": "7509aa4b88c91acb6cac8a32d09f1a3c1efd2a04",
+  "_size": 4888,
   "appid": "4562430",
   "common": {
     "associations": {
@@ -239,9 +257,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "44325056",
-          "gid": "130369032188133655",
-          "size": "99579360"
+          "download": "44327152",
+          "gid": "3826307219669051045",
+          "size": "99581472"
         },
         "public": {
           "download": "44325056",
@@ -256,9 +274,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "47351216",
-          "gid": "2006690087105918736",
-          "size": "109961640"
+          "download": "47351264",
+          "gid": "3698206563374576334",
+          "size": "109963736"
         },
         "public": {
           "download": "47351216",
@@ -269,10 +287,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25142967",
+        "buildid": "25154022",
         "description": "Unstable; testing",
-        "timebuildupdated": "1788625447",
-        "timeupdated": "1788625447"
+        "timebuildupdated": "1788711876",
+        "timeupdated": "1788711876"
       },
       "public": {
         "buildid": "25142967",

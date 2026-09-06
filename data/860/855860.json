@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788704986,
+  "_lastChecked": 1788711159,
   "_history": [
     {
       "buildId": "25012471",
@@ -195,12 +195,51 @@
           "download": 412065728
         }
       }
+    },
+    {
+      "buildId": "25153000",
+      "branch": "public",
+      "timeUpdated": 1788706746,
+      "firstSeen": 1788711159,
+      "manifests": {
+        "855861": {
+          "gid": "3139596369930766685",
+          "size": 602751297,
+          "download": 412066960
+        }
+      }
+    },
+    {
+      "buildId": "25012471",
+      "branch": "sfd_v_1_6_0_2",
+      "timeUpdated": 1788025712,
+      "firstSeen": 1788711159,
+      "manifests": {
+        "855861": {
+          "gid": "50120246959529468",
+          "size": 602748737,
+          "download": 412065728
+        }
+      }
+    },
+    {
+      "buildId": "25153000",
+      "branch": "updatepreview",
+      "timeUpdated": 1788706279,
+      "firstSeen": 1788711159,
+      "manifests": {
+        "855861": {
+          "gid": "3139596369930766685",
+          "size": 602751297,
+          "download": 412066960
+        }
+      }
     }
   ],
-  "_change_number": 38438518,
+  "_change_number": 38645905,
   "_missing_token": false,
-  "_sha": "b4666e0d7ba66f062bd262b60de817f6b39dc8e1",
-  "_size": 9194,
+  "_sha": "8bf3dd23740b0fbb56d088f2373c48d5e6a06663",
+  "_size": 9475,
   "appid": "855860",
   "common": {
     "associations": {
@@ -405,9 +444,9 @@
       },
       "manifests": {
         "public": {
-          "download": "412065728",
-          "gid": "50120246959529468",
-          "size": "602748737"
+          "download": "412066960",
+          "gid": "3139596369930766685",
+          "size": "602751297"
         },
         "sfd_v_1_2_0g": {
           "download": "291641872",
@@ -474,18 +513,23 @@
           "gid": "9120488552341894545",
           "size": "411947787"
         },
-        "updatepreview": {
+        "sfd_v_1_6_0_2": {
           "download": "412065728",
           "gid": "50120246959529468",
           "size": "602748737"
+        },
+        "updatepreview": {
+          "download": "412066960",
+          "gid": "3139596369930766685",
+          "size": "602751297"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25012471",
-        "timebuildupdated": "1788025223",
-        "timeupdated": "1788025712"
+        "buildid": "25153000",
+        "timebuildupdated": "1788705708",
+        "timeupdated": "1788706746"
       },
       "sfd_v_1_2_0g": {
         "buildid": "3921478",
@@ -565,11 +609,17 @@
         "timebuildupdated": "1752772439",
         "timeupdated": "1771161532"
       },
-      "updatepreview": {
+      "sfd_v_1_6_0_2": {
         "buildid": "25012471",
-        "description": "Preview of update SFD v1.5.0 (64 bit)",
+        "description": "SFD v.1.6.0.2",
         "timebuildupdated": "1788025223",
-        "timeupdated": "1788025563"
+        "timeupdated": "1788025712"
+      },
+      "updatepreview": {
+        "buildid": "25153000",
+        "description": "Preview of update SFD v1.5.0 (64 bit)",
+        "timebuildupdated": "1788705708",
+        "timeupdated": "1788706279"
       }
     },
     "privatebranches": "1",

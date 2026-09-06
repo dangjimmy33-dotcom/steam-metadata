@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788704756,
+  "_lastChecked": 1788710930,
   "_history": [
     {
       "buildId": "25126330",
@@ -161,11 +161,57 @@
           "download": 387188688
         }
       }
+    },
+    {
+      "buildId": "25142299",
+      "branch": "dedicatedserver",
+      "timeUpdated": 1788710868,
+      "firstSeen": 1788710930,
+      "manifests": {
+        "670261": {
+          "gid": "618998788901527546",
+          "size": 4325781049,
+          "download": 1706699920
+        },
+        "670262": {
+          "gid": "8499446229763488726",
+          "size": 699983763,
+          "download": 331071504
+        },
+        "670263": {
+          "gid": "8498192806121070592",
+          "size": 797110660,
+          "download": 387188688
+        }
+      }
+    },
+    {
+      "buildId": "25142302",
+      "branch": "public",
+      "timeUpdated": 1788710853,
+      "firstSeen": 1788710930,
+      "manifests": {
+        "670261": {
+          "gid": "618998788901527546",
+          "size": 4325781049,
+          "download": 1706699920
+        },
+        "670262": {
+          "gid": "3893654120943688650",
+          "size": 8870628059,
+          "download": 3804491664
+        },
+        "670263": {
+          "gid": "5279072788635805277",
+          "size": 8923483556,
+          "download": 3846560064
+        }
+      }
     }
   ],
-  "_change_number": 38629683,
+  "_change_number": 38646852,
   "_missing_token": false,
-  "_sha": "f444f459dd29a1d90e2e07871ceb024adb74b6fa",
+  "_sha": "3c0bfa752baa6728a02c5d03304f507cdd7a94fe",
   "_size": 13134,
   "appid": "670260",
   "common": {
@@ -564,14 +610,14 @@
           "size": "699983763"
         },
         "dedicatedserver": {
-          "download": "330708736",
-          "gid": "3215593164807066581",
-          "size": "699533153"
+          "download": "331071504",
+          "gid": "8499446229763488726",
+          "size": "699983763"
         },
         "public": {
-          "download": "3790509072",
-          "gid": "3677595052252294022",
-          "size": "8823317557"
+          "download": "3804491664",
+          "gid": "3893654120943688650",
+          "size": "8870628059"
         },
         "solacekeeper": {
           "download": "2149396688",
@@ -596,14 +642,14 @@
           "size": "797110660"
         },
         "dedicatedserver": {
-          "download": "387307024",
-          "gid": "5317675798480455916",
-          "size": "797088754"
+          "download": "387188688",
+          "gid": "8498192806121070592",
+          "size": "797110660"
         },
         "public": {
-          "download": "3846553200",
-          "gid": "2176398081053336032",
-          "size": "8923461650"
+          "download": "3846560064",
+          "gid": "5279072788635805277",
+          "size": "8923483556"
         },
         "solacekeeper": {
           "download": "2252391824",
@@ -638,15 +684,15 @@
         "timeupdated": "1788621517"
       },
       "dedicatedserver": {
-        "buildid": "24355803",
+        "buildid": "25142299",
         "description": "Public dedicated server",
-        "timebuildupdated": "1784817107",
-        "timeupdated": "1784817107"
+        "timebuildupdated": "1788621517",
+        "timeupdated": "1788710868"
       },
       "public": {
-        "buildid": "24355792",
-        "timebuildupdated": "1784817075",
-        "timeupdated": "1784817075"
+        "buildid": "25142302",
+        "timebuildupdated": "1788621544",
+        "timeupdated": "1788710853"
       },
       "solacekeeper": {
         "buildid": "19725576",

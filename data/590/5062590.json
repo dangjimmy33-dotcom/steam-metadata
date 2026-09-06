@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788709897,
+  "_lastChecked": 1788716098,
   "_history": [
     {
       "buildId": "25045514",
@@ -13,12 +13,38 @@
           "download": 620263744
         }
       }
+    },
+    {
+      "buildId": "25154312",
+      "branch": "public",
+      "timeUpdated": 1788714141,
+      "firstSeen": 1788716098,
+      "manifests": {
+        "5062591": {
+          "gid": "1507242631705584332",
+          "size": 1535854475,
+          "download": 620420560
+        }
+      }
+    },
+    {
+      "buildId": "25154312",
+      "branch": "workingdev",
+      "timeUpdated": 1788713722,
+      "firstSeen": 1788716098,
+      "manifests": {
+        "5062591": {
+          "gid": "1507242631705584332",
+          "size": 1535854475,
+          "download": 620420560
+        }
+      }
     }
   ],
-  "_change_number": 38508102,
+  "_change_number": 38647723,
   "_missing_token": false,
-  "_sha": "c2a69edaeecb12b1a6ad0f0d131b4b3adaf49b64",
-  "_size": 4122,
+  "_sha": "1154d9b5823e04c43d6f70992a70ff1eac8ba0b3",
+  "_size": 4369,
   "appid": "5062590",
   "common": {
     "aicontenttype": "1",
@@ -181,21 +207,31 @@
       },
       "manifests": {
         "public": {
-          "download": "620263744",
-          "gid": "2076567116587339005",
-          "size": "1535471259"
+          "download": "620420560",
+          "gid": "1507242631705584332",
+          "size": "1535854475"
+        },
+        "workingdev": {
+          "download": "620420560",
+          "gid": "1507242631705584332",
+          "size": "1535854475"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25045514",
-        "timebuildupdated": "1788213330",
-        "timeupdated": "1788213354"
+        "buildid": "25154312",
+        "timebuildupdated": "1788713722",
+        "timeupdated": "1788714141"
+      },
+      "workingdev": {
+        "buildid": "25154312",
+        "description": "Development",
+        "timebuildupdated": "1788713722",
+        "timeupdated": "1788713722"
       }
-    },
-    "privatebranches": "1"
+    }
   },
   "extended": {
     "developer": "RedBit Labs",

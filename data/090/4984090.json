@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788709831,
+  "_lastChecked": 1788716032,
   "_history": [
     {
       "buildId": "25140555",
@@ -26,12 +26,30 @@
           "download": 36014240
         }
       }
+    },
+    {
+      "buildId": "25154318",
+      "branch": "public",
+      "timeUpdated": 1788713808,
+      "firstSeen": 1788716032,
+      "manifests": {
+        "4984091": {
+          "gid": "8671768129279213683",
+          "size": 41563003,
+          "download": 36014240
+        },
+        "4984092": {
+          "gid": "1343060163016574267",
+          "size": 57351769,
+          "download": 41767344
+        }
+      }
     }
   ],
-  "_change_number": 38645469,
+  "_change_number": 38647830,
   "_missing_token": false,
-  "_sha": "fdb685b93af0df34c1763a5fc63d92ce4f264501",
-  "_size": 4773,
+  "_sha": "967ea10ab16e9abb8fd6672a79c313538e34f2be",
+  "_size": 5002,
   "appid": "4984090",
   "common": {
     "aicontenttype": "1",
@@ -133,8 +151,8 @@
       "tchinese": "N in One 麻將合輯：日本麻将、四川血戰、國標麻將、香港清章、台灣十六張"
     },
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
     "review_percentage": "100",
@@ -142,6 +160,7 @@
     "small_capsule": {
       "english": "602dbc6510efe75505c01ff2a6b49d6c1d8e7bd9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788365846",
     "store_asset_mtime": "1788361115",
     "store_tags": {
       "0": "597",
@@ -198,15 +217,23 @@
     "4984092": {
       "config": {
         "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "41767344",
+          "gid": "1343060163016574267",
+          "size": "57351769"
+        }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25148806",
-        "timebuildupdated": "1788672348",
-        "timeupdated": "1788672532"
+        "buildid": "25154318",
+        "timebuildupdated": "1788713763",
+        "timeupdated": "1788713808"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Pixel Dance",

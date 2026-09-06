@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788707620,
+  "_lastChecked": 1788713807,
   "_history": [
     {
       "buildId": "25105165",
@@ -26,11 +26,37 @@
           "download": 127958800
         }
       }
+    },
+    {
+      "buildId": "25154052",
+      "branch": "public",
+      "timeUpdated": 1788712159,
+      "firstSeen": 1788713807,
+      "manifests": {
+        "2942331": {
+          "gid": "1250108527109299372",
+          "size": 161956167,
+          "download": 128258592
+        }
+      }
+    },
+    {
+      "buildId": "25154052",
+      "branch": "test",
+      "timeUpdated": 1788712139,
+      "firstSeen": 1788713807,
+      "manifests": {
+        "2942331": {
+          "gid": "1250108527109299372",
+          "size": 161956167,
+          "download": 128258592
+        }
+      }
     }
   ],
-  "_change_number": 38613601,
+  "_change_number": 38647224,
   "_missing_token": false,
-  "_sha": "ed152878549b5202a83daa7605f8249b7a94ecf8",
+  "_sha": "2139a4065facfd83e6a2f101499c49af643aef70",
   "_size": 6595,
   "appid": "2942330",
   "common": {
@@ -269,28 +295,28 @@
       },
       "manifests": {
         "public": {
-          "download": "127958800",
-          "gid": "1785977139055172034",
-          "size": "160972103"
+          "download": "128258592",
+          "gid": "1250108527109299372",
+          "size": "161956167"
         },
         "test": {
-          "download": "127958800",
-          "gid": "1785977139055172034",
-          "size": "160972103"
+          "download": "128258592",
+          "gid": "1250108527109299372",
+          "size": "161956167"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25105165",
-        "timebuildupdated": "1788449798",
-        "timeupdated": "1788449819"
+        "buildid": "25154052",
+        "timebuildupdated": "1788712049",
+        "timeupdated": "1788712159"
       },
       "test": {
-        "buildid": "25105165",
+        "buildid": "25154052",
         "description": "Beta testing",
-        "timebuildupdated": "1788449798",
-        "timeupdated": "1788449819"
+        "timebuildupdated": "1788712049",
+        "timeupdated": "1788712139"
       }
     },
     "workshopdepot": "2942330"
