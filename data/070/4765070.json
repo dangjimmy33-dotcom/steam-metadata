@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788686259,
+  "_lastChecked": 1788691818,
   "_history": [
     {
       "buildId": "24879347",
@@ -91,12 +91,38 @@
           "download": 993732336
         }
       }
+    },
+    {
+      "buildId": "25150873",
+      "branch": "public",
+      "timeUpdated": 1788690069,
+      "firstSeen": 1788691818,
+      "manifests": {
+        "4765071": {
+          "gid": "6050223532267578627",
+          "size": 1626653859,
+          "download": 1250143040
+        }
+      }
+    },
+    {
+      "buildId": "25150873",
+      "branch": "sector-continue-test",
+      "timeUpdated": 1788690031,
+      "firstSeen": 1788691818,
+      "manifests": {
+        "4765071": {
+          "gid": "6050223532267578627",
+          "size": 1626653859,
+          "download": 1250143040
+        }
+      }
     }
   ],
-  "_change_number": 38641451,
+  "_change_number": 38642154,
   "_missing_token": false,
-  "_sha": "d210069346b2cb8fe5aa8dfdc13b8096f4104174",
-  "_size": 5165,
+  "_sha": "bb5dc2a97e51e956ea8225f6a1d9875e1ec1a2b1",
+  "_size": 5167,
   "appid": "4765070",
   "common": {
     "aicontenttype": "1",
@@ -281,14 +307,14 @@
       },
       "manifests": {
         "public": {
-          "download": "993732336",
-          "gid": "3132754725727249187",
-          "size": "1369726503"
+          "download": "1250143040",
+          "gid": "6050223532267578627",
+          "size": "1626653859"
         },
         "sector-continue-test": {
-          "download": "993732336",
-          "gid": "3132754725727249187",
-          "size": "1369726503"
+          "download": "1250143040",
+          "gid": "6050223532267578627",
+          "size": "1626653859"
         },
         "test-build": {
           "download": "542996272",
@@ -299,15 +325,15 @@
     },
     "branches": {
       "public": {
-        "buildid": "25150290",
-        "timebuildupdated": "1788685155",
-        "timeupdated": "1788685726"
+        "buildid": "25150873",
+        "timebuildupdated": "1788690031",
+        "timeupdated": "1788690069"
       },
       "sector-continue-test": {
-        "buildid": "25150290",
+        "buildid": "25150873",
         "description": "test of new mode",
-        "timebuildupdated": "1788685155",
-        "timeupdated": "1788685155"
+        "timebuildupdated": "1788690031",
+        "timeupdated": "1788690031"
       },
       "test-build": {
         "buildid": "23782673",

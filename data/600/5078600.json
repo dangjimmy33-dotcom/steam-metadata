@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788686537,
-  "_history": [],
-  "_change_number": 38444336,
-  "_missing_token": true,
-  "_sha": "e7274c855ce4b058aecfec386a386190bcd7c4c4",
-  "_size": 2973,
+  "_lastChecked": 1788692081,
+  "_history": [
+    {
+      "buildId": "25150809",
+      "branch": "public",
+      "timeUpdated": 1788689785,
+      "firstSeen": 1788692081,
+      "manifests": {
+        "5078601": {
+          "gid": "3074946430832599334",
+          "size": 415618502,
+          "download": 173913904
+        }
+      }
+    }
+  ],
+  "_change_number": 38642109,
+  "_missing_token": false,
+  "_sha": "e0639f5d4357632dd6658b13b7ef61a1c3d99b19",
+  "_size": 3888,
   "appid": "5078600",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +43,8 @@
     },
     "clienticon": "4e540c54cb452e707d9a18bfe221f24e23960b79",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5078600",
     "genres": {
       "0": "4",
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b942b097fc5e312d114c4f0d1ddf5562e7cd47ac/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788689832",
     "store_asset_mtime": "1786688920",
     "store_tags": {
       "0": "599",
@@ -133,5 +148,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Load Factor",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Load Factor.exe"
+      }
+    }
+  },
+  "depots": {
+    "5078601": {
+      "manifests": {
+        "public": {
+          "download": "173913904",
+          "gid": "3074946430832599334",
+          "size": "415618502"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25150809",
+        "timebuildupdated": "1788689525",
+        "timeupdated": "1788689785"
+      }
+    }
+  },
+  "extended": {
+    "developer": "FlyWithTom",
+    "publisher": "FlyWithTom"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "400000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }
