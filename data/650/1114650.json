@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788619086,
+  "_lastChecked": 1788671634,
   "_history": [
     {
       "buildId": "9850010",
@@ -26,12 +26,25 @@
           "download": 1688984288
         }
       }
+    },
+    {
+      "buildId": "16245465",
+      "branch": "104launch",
+      "timeUpdated": 1730336964,
+      "firstSeen": 1788671634,
+      "manifests": {
+        "1114651": {
+          "gid": "2097826183202958014",
+          "size": 1844568199,
+          "download": 1813832240
+        }
+      }
     }
   ],
-  "_change_number": 37441117,
+  "_change_number": 38637523,
   "_missing_token": false,
-  "_sha": "a3fba1032663b07eb1817c20b6f789f13ca93e10",
-  "_size": 6015,
+  "_sha": "152ec3bca9179b57530b3b56fcee48accf6e8790",
+  "_size": 6309,
   "appid": "1114650",
   "common": {
     "associations": {
@@ -241,6 +254,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "104launch": {
+          "download": "1813832240",
+          "gid": "2097826183202958014",
+          "size": "1844568199"
+        },
         "act1demo": {
           "download": "459924432",
           "gid": "3176924613134142685",
@@ -260,6 +278,12 @@
     },
     "baselanguages": "english",
     "branches": {
+      "104launch": {
+        "buildid": "16245465",
+        "description": "Version 1.0.4 (No Dream Colosseum)",
+        "timebuildupdated": "1730336863",
+        "timeupdated": "1730336964"
+      },
       "act1demo": {
         "buildid": "9850010",
         "description": "The Pre-Launch Build (Saves do NOT cross over)",

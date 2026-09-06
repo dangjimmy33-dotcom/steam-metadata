@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788630830,
+  "_lastChecked": 1788675382,
   "_history": [
     {
       "buildId": "25136923",
@@ -18,12 +18,30 @@
           "download": 470174016
         }
       }
+    },
+    {
+      "buildId": "25148469",
+      "branch": "public",
+      "timeUpdated": 1788668941,
+      "firstSeen": 1788675382,
+      "manifests": {
+        "4905311": {
+          "gid": "1213544829700152061",
+          "size": 631625424,
+          "download": 412890656
+        },
+        "4905312": {
+          "gid": "79168188348835627",
+          "size": 766968747,
+          "download": 471119200
+        }
+      }
     }
   ],
-  "_change_number": 38621775,
+  "_change_number": 38639423,
   "_missing_token": false,
-  "_sha": "8aa9431d9af6a63a16bc8ac05f54808a06efa129",
-  "_size": 4351,
+  "_sha": "3037b80f22fc0c432c7bb4b6b25698b21e512880",
+  "_size": 4267,
   "appid": "4905310",
   "common": {
     "aicontenttype": "1",
@@ -177,9 +195,8 @@
         "config": {
           "oslist": "macos"
         },
-        "executable": "Rangefighters.app/Contents/MacOS/Rangefighters",
-        "type": "default",
-        "workingdir": "Rangefighters.app/Contents/MacOS"
+        "executable": "Rangefighters.app",
+        "type": "default"
       }
     }
   },
@@ -190,9 +207,9 @@
       },
       "manifests": {
         "public": {
-          "download": "411945456",
-          "gid": "6258853004427114003",
-          "size": "628770131"
+          "download": "412890656",
+          "gid": "1213544829700152061",
+          "size": "631625424"
         }
       }
     },
@@ -202,17 +219,17 @@
       },
       "manifests": {
         "public": {
-          "download": "470174016",
-          "gid": "2573812910192531995",
-          "size": "764113454"
+          "download": "471119200",
+          "gid": "79168188348835627",
+          "size": "766968747"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25136923",
-        "timebuildupdated": "1788581513",
-        "timeupdated": "1788581652"
+        "buildid": "25148469",
+        "timebuildupdated": "1788668303",
+        "timeupdated": "1788668941"
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788624888,
+  "_lastChecked": 1788673205,
   "_history": [
     {
       "buildId": "25139322",
@@ -13,12 +13,25 @@
           "download": 4045961888
         }
       }
+    },
+    {
+      "buildId": "25147725",
+      "branch": "public",
+      "timeUpdated": 1788660683,
+      "firstSeen": 1788673205,
+      "manifests": {
+        "2586441": {
+          "gid": "2315201341568685446",
+          "size": 4182716005,
+          "download": 4045930896
+        }
+      }
     }
   ],
-  "_change_number": 38628101,
+  "_change_number": 38637759,
   "_missing_token": false,
-  "_sha": "db7e9b0c5b21a2a12bb6c2f534ac87ae4d0b6102",
-  "_size": 6499,
+  "_sha": "7cdd668334b4938c260fac2377b10e85d1808e6b",
+  "_size": 6756,
   "appid": "2586440",
   "common": {
     "associations": {
@@ -38,6 +51,7 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_28": "1",
       "category_60": "1",
       "category_62": "1"
@@ -217,8 +231,8 @@
       "3": "4345",
       "4": "4667",
       "5": "492",
-      "6": "7208",
-      "7": "19",
+      "6": "19",
+      "7": "7208",
       "8": "1721",
       "9": "4195"
     },
@@ -285,17 +299,17 @@
       },
       "manifests": {
         "public": {
-          "download": "4045961888",
-          "gid": "8124314574663499256",
-          "size": "4182725803"
+          "download": "4045930896",
+          "gid": "2315201341568685446",
+          "size": "4182716005"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25139322",
-        "timebuildupdated": "1788601272",
-        "timeupdated": "1788601312"
+        "buildid": "25147725",
+        "timebuildupdated": "1788660648",
+        "timeupdated": "1788660683"
       }
     }
   },
@@ -303,5 +317,19 @@
     "developer": "Bark Bark Games",
     "homepage": "https://www.glowstickentertainment.com/games/house2",
     "publisher": "Glowstick Entertainment"
+  },
+  "ufs": {
+    "maxnumfiles": "19",
+    "quota": "399999995",
+    "savefiles": {
+      "0": {
+        "path": "Stencyl/House 2",
+        "pattern": "mysave.sol",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

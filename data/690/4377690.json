@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788629467,
-  "_history": [],
-  "_change_number": 38505675,
-  "_missing_token": true,
-  "_sha": "4b94ceec47c75bbbcf77773843c38c47dc86a148",
-  "_size": 3452,
+  "_lastChecked": 1788674932,
+  "_history": [
+    {
+      "buildId": "25056100",
+      "branch": "public",
+      "timeUpdated": 1788260041,
+      "firstSeen": 1788674932,
+      "manifests": {
+        "4377691": {
+          "gid": "2829122916835790723",
+          "size": 4527715699,
+          "download": 1981725232
+        }
+      }
+    }
+  ],
+  "_change_number": 38634590,
+  "_missing_token": false,
+  "_sha": "c23440fee5ed071c8fb34c8528554dc1c72e6c5d",
+  "_size": 4229,
   "appid": "4377690",
   "common": {
     "aicontenttype": "1",
@@ -50,7 +64,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4377690",
     "genres": {
       "0": "1",
@@ -124,7 +137,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "14aebad2a498f62ef2ca9fbb68785f0bc227b117/capsule_231x87.jpg"
     },
@@ -159,5 +172,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "thesecretislandoffear",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "./TheSecretOfIslandOffear.exe"
+      }
+    }
+  },
+  "depots": {
+    "4377691": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1981725232",
+          "gid": "2829122916835790723",
+          "size": "4527715699"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25056100",
+        "timebuildupdated": "1788259961",
+        "timeupdated": "1788260041"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hamza sonay",
+    "publisher": "Hamza sonay"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "sync_while_suspended": "1"
+  }
 }

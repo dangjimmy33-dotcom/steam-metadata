@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788632666,
+  "_lastChecked": 1788675506,
   "_history": [
     {
       "buildId": "25132450",
@@ -13,12 +13,25 @@
           "download": 162590080
         }
       }
+    },
+    {
+      "buildId": "25147561",
+      "branch": "public",
+      "timeUpdated": 1788659135,
+      "firstSeen": 1788675506,
+      "manifests": {
+        "5063702": {
+          "gid": "3808208672695059096",
+          "size": 412703442,
+          "download": 162589504
+        }
+      }
     }
   ],
-  "_change_number": 38615668,
+  "_change_number": 38637548,
   "_missing_token": false,
-  "_sha": "4cdb908a6d3c9c457863dca73d7fe04b30874c62",
-  "_size": 3931,
+  "_sha": "41a88bed4418f9faeb11a946ac5d7361bd51e732",
+  "_size": 4548,
   "appid": "5063700",
   "common": {
     "associations": {
@@ -180,23 +193,55 @@
       },
       "manifests": {
         "public": {
-          "download": "162590080",
-          "gid": "5301872396470023708",
-          "size": "412699078"
+          "download": "162589504",
+          "gid": "3808208672695059096",
+          "size": "412703442"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25132450",
-        "timebuildupdated": "1788556168",
-        "timeupdated": "1788556255"
+        "buildid": "25147561",
+        "timebuildupdated": "1788659109",
+        "timeupdated": "1788659135"
       }
     }
   },
   "extended": {
     "developer": "Noto",
     "publisher": "Noto Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Story Bored",
+        "pattern": "settings.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Story Bored/Saved Storyboards",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Story Bored/Saved Storyboards",
+        "pattern": "*.html",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

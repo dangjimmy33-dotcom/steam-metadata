@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788627171,
+  "_lastChecked": 1788674146,
   "_history": [
     {
       "buildId": "22244698",
@@ -44,12 +44,30 @@
           "download": 3643581696
         }
       }
+    },
+    {
+      "buildId": "25145552",
+      "branch": "macos_dev_branch",
+      "timeUpdated": 1788642694,
+      "firstSeen": 1788674146,
+      "manifests": {
+        "3552201": {
+          "gid": "7959947503576931075",
+          "size": 6214084292,
+          "download": 3643581696
+        },
+        "3552202": {
+          "gid": "5580498241617192734",
+          "size": 4532321295,
+          "download": 2265144336
+        }
+      }
     }
   ],
-  "_change_number": 38630136,
+  "_change_number": 38634618,
   "_missing_token": false,
-  "_sha": "13be0564ba1f7af6b0b859dc1e267a268a72f0fa",
-  "_size": 5716,
+  "_sha": "ed3c48e3a59b61243b6d511fde3e09d7706a248e",
+  "_size": 5908,
   "appid": "3552200",
   "common": {
     "associations": {
@@ -147,7 +165,7 @@
     },
     "name": "It's John's House",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
     "releasestate": "released",
@@ -248,6 +266,12 @@
     "launch": {
       "0": {
         "executable": "It's John's House.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "It's John's House"
       }
     },
     "steamconfigurator3rdpartynative": "7",
@@ -281,10 +305,15 @@
       },
       "manifests": {
         "macos_dev_branch": {
-          "download": "2287440768",
-          "gid": "1376802779651088958",
-          "size": "4633677281"
+          "download": "2265144336",
+          "gid": "5580498241617192734",
+          "size": "4532321295"
         }
+      }
+    },
+    "3552203": {
+      "config": {
+        "oslist": "linux"
       }
     },
     "branches": {
@@ -295,10 +324,10 @@
         "timeupdated": "1772900834"
       },
       "macos_dev_branch": {
-        "buildid": "22555248",
+        "buildid": "25145552",
         "description": "Private development and testing on MacOS",
-        "timebuildupdated": "1774784732",
-        "timeupdated": "1774784732"
+        "timebuildupdated": "1788642694",
+        "timeupdated": "1788642694"
       },
       "public": {
         "buildid": "22244698",

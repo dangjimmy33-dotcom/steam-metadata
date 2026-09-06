@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788630802,
-  "_history": [],
-  "_change_number": 38624910,
-  "_missing_token": true,
-  "_sha": "33564ba5dd364f5ff850e060671c3873e0bfc764",
-  "_size": 5498,
+  "_lastChecked": 1788675369,
+  "_history": [
+    {
+      "buildId": "25139087",
+      "branch": "public",
+      "timeUpdated": 1788599281,
+      "firstSeen": 1788675369,
+      "manifests": {
+        "4889481": {
+          "gid": "4624935753769628021",
+          "size": 2448963469,
+          "download": 893173984
+        }
+      }
+    }
+  ],
+  "_change_number": 38637765,
+  "_missing_token": false,
+  "_sha": "54e54143e835c066d2e498a1e97445b4cca77365",
+  "_size": 6037,
   "appid": "4889480",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "e773ef12fbf16076944d5527f14941b6e38a2b2c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4889480",
     "genres": {
       "0": "25"
@@ -122,12 +136,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "62478a0b1628a283059841d51990d4795ad995e9/capsule_231x87.jpg",
       "schinese": "62478a0b1628a283059841d51990d4795ad995e9/capsule_231x87_schinese.jpg",
       "tchinese": "62478a0b1628a283059841d51990d4795ad995e9/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1788656378",
     "store_asset_mtime": "1787397028",
     "store_tags": {
       "0": "21",
@@ -201,5 +216,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Restcue",
+    "launch": {
+      "0": {
+        "executable": "Restcue.exe"
+      }
+    }
+  },
+  "depots": {
+    "4889481": {
+      "manifests": {
+        "public": {
+          "download": "893173984",
+          "gid": "4624935753769628021",
+          "size": "2448963469"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25139087",
+        "timebuildupdated": "1788599280",
+        "timeupdated": "1788599281"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Seasonbean Team",
+    "publisher": "Seasonbean Team"
+  }
 }

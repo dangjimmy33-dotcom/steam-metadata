@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788626068,
+  "_lastChecked": 1788673678,
   "_history": [
     {
       "buildId": "25070871",
@@ -13,12 +13,25 @@
           "download": 73389024
         }
       }
+    },
+    {
+      "buildId": "25147046",
+      "branch": "public",
+      "timeUpdated": 1788654565,
+      "firstSeen": 1788673678,
+      "manifests": {
+        "3067761": {
+          "gid": "8574096120422872361",
+          "size": 195873114,
+          "download": 73435472
+        }
+      }
     }
   ],
-  "_change_number": 38526749,
+  "_change_number": 38636825,
   "_missing_token": false,
-  "_sha": "77245e91dd2e96765fa4ca33c416717a1d4a720e",
-  "_size": 4217,
+  "_sha": "2f5a99551d0678d2a99927b01f5de3e8fa2251d8",
+  "_size": 4325,
   "appid": "3067760",
   "common": {
     "aicontenttype": "1",
@@ -171,18 +184,18 @@
     "3067761": {
       "manifests": {
         "public": {
-          "download": "73389024",
-          "gid": "2140929843388223893",
-          "size": "195703186"
+          "download": "73435472",
+          "gid": "8574096120422872361",
+          "size": "195873114"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25070871",
-        "timebuildupdated": "1788315203",
-        "timeupdated": "1788315603"
+        "buildid": "25147046",
+        "timebuildupdated": "1788654487",
+        "timeupdated": "1788654565"
       }
     },
     "hasdepotsindlc": "0"
@@ -207,7 +220,12 @@
     "savefiles": {
       "0": {
         "path": "DoYourDailies",
-        "pattern": "save.json*",
+        "pattern": "save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "DoYourDailies",
+        "pattern": "save.json.tmp*",
         "root": "WinAppDataRoaming"
       }
     }

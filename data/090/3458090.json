@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788626955,
+  "_lastChecked": 1788674064,
   "_history": [
     {
       "buildId": "23920250",
@@ -36,12 +36,48 @@
           "download": 139218928
         }
       }
+    },
+    {
+      "buildId": "25145414",
+      "branch": "prerelease",
+      "timeUpdated": 1788641751,
+      "firstSeen": 1788674064,
+      "manifests": {
+        "3458091": {
+          "gid": "104833699709128922",
+          "size": 725225385,
+          "download": 322434176
+        },
+        "3458092": {
+          "gid": "7483072847191607935",
+          "size": 389864024,
+          "download": 139218928
+        }
+      }
+    },
+    {
+      "buildId": "25145414",
+      "branch": "public",
+      "timeUpdated": 1788642343,
+      "firstSeen": 1788674064,
+      "manifests": {
+        "3458091": {
+          "gid": "104833699709128922",
+          "size": 725225385,
+          "download": 322434176
+        },
+        "3458092": {
+          "gid": "7483072847191607935",
+          "size": 389864024,
+          "download": 139218928
+        }
+      }
     }
   ],
-  "_change_number": 36845147,
+  "_change_number": 38634554,
   "_missing_token": false,
-  "_sha": "a812f9c8bc9fc912964181d9282865e4ee93bfed",
-  "_size": 5332,
+  "_sha": "a3f829db5326928a0bee20bef815c42e553967bb",
+  "_size": 5330,
   "appid": "3458090",
   "common": {
     "aicontenttype": "1",
@@ -200,14 +236,14 @@
       },
       "manifests": {
         "prerelease": {
-          "download": "300078096",
-          "gid": "2923503790033966819",
-          "size": "676366900"
+          "download": "322434176",
+          "gid": "104833699709128922",
+          "size": "725225385"
         },
         "public": {
-          "download": "300082480",
-          "gid": "7735958884359826607",
-          "size": "676363052"
+          "download": "322434176",
+          "gid": "104833699709128922",
+          "size": "725225385"
         }
       }
     },
@@ -230,15 +266,15 @@
     },
     "branches": {
       "prerelease": {
-        "buildid": "23920250",
+        "buildid": "25145414",
         "description": "Beta",
-        "timebuildupdated": "1782422050",
-        "timeupdated": "1782422050"
+        "timebuildupdated": "1788641751",
+        "timeupdated": "1788641751"
       },
       "public": {
-        "buildid": "23526459",
-        "timebuildupdated": "1780403901",
-        "timeupdated": "1780403901"
+        "buildid": "25145414",
+        "timebuildupdated": "1788641751",
+        "timeupdated": "1788642343"
       }
     },
     "workshopdepot": "3458090"

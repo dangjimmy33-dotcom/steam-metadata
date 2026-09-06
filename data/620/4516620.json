@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788629891,
-  "_history": [],
-  "_change_number": 38519264,
-  "_missing_token": true,
-  "_sha": "365a050fe816e16dcde449d2d1a057379b4b9d40",
-  "_size": 2887,
+  "_lastChecked": 1788675057,
+  "_history": [
+    {
+      "buildId": "22806363",
+      "branch": "public",
+      "timeUpdated": 1776459486,
+      "firstSeen": 1788675057,
+      "manifests": {
+        "4516621": {
+          "gid": "8012517889879249644",
+          "size": 7877576608,
+          "download": 7199700816
+        }
+      }
+    }
+  ],
+  "_change_number": 38634976,
+  "_missing_token": false,
+  "_sha": "058e877d15ddb802c3cef1891edb3ab54c1b8cb2",
+  "_size": 3563,
   "appid": "4516620",
   "common": {
     "associations": {
@@ -29,7 +43,6 @@
     "clienticon": "e84bc1aef4f271bd97f7cdca9d17831ff2ec0e4b",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4516620",
     "genres": {
       "0": "1",
@@ -100,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "460ee36d6dfcc8c27e0ddf97652704e874248517/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788644428",
     "store_asset_mtime": "1776509798",
     "store_tags": {
       "0": "19",
@@ -130,5 +144,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HadesHinderance",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Hades Hinderance.exe"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4516621": {
+      "manifests": {
+        "public": {
+          "download": "7199700816",
+          "gid": "8012517889879249644",
+          "size": "7877576608"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "22806363",
+        "timebuildupdated": "1776291799",
+        "timeupdated": "1776459486"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Tony Irvine",
+    "homepage": "https://redemptionforge.studio/",
+    "publisher": "Redemption Forge Studio"
+  }
 }

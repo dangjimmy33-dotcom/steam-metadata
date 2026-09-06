@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788632677,
+  "_lastChecked": 1788675517,
   "_history": [
     {
       "buildId": "25135271",
@@ -18,12 +18,35 @@
           "download": 192
         }
       }
+    },
+    {
+      "buildId": "25148080",
+      "branch": "public",
+      "timeUpdated": 1788664509,
+      "firstSeen": 1788675517,
+      "manifests": {
+        "5079511": {
+          "gid": "8287970527815136372",
+          "size": 647368363,
+          "download": 123997472
+        },
+        "5084290": {
+          "gid": "4214030513812902236",
+          "size": 62,
+          "download": 112
+        },
+        "5227380": {
+          "gid": "5938123036116045029",
+          "size": 59,
+          "download": 112
+        }
+      }
     }
   ],
-  "_change_number": 38623511,
+  "_change_number": 38638266,
   "_missing_token": false,
-  "_sha": "259489cf8cf212db4de4c095b1015b3fb95eab5c",
-  "_size": 5396,
+  "_sha": "ae7582183b700c100c4aff46a984b5192d3cf4c3",
+  "_size": 5521,
   "appid": "5079510",
   "common": {
     "aicontenttype": "1",
@@ -184,9 +207,9 @@
     "5079511": {
       "manifests": {
         "public": {
-          "download": "113126096",
-          "gid": "238126139015466044",
-          "size": "616574459"
+          "download": "123997472",
+          "gid": "8287970527815136372",
+          "size": "647368363"
         }
       }
     },
@@ -198,9 +221,9 @@
       "dlcappid": "5084290",
       "manifests": {
         "public": {
-          "download": "192",
-          "gid": "7580159882385118541",
-          "size": "142"
+          "download": "112",
+          "gid": "4214030513812902236",
+          "size": "62"
         }
       }
     },
@@ -210,14 +233,21 @@
         "osarch": "64",
         "oslist": "windows"
       },
-      "dlcappid": "5227380"
+      "dlcappid": "5227380",
+      "manifests": {
+        "public": {
+          "download": "112",
+          "gid": "5938123036116045029",
+          "size": "59"
+        }
+      }
     },
     "baselanguages": "english,japanese",
     "branches": {
       "public": {
-        "buildid": "25135271",
-        "timebuildupdated": "1788570472",
-        "timeupdated": "1788570584"
+        "buildid": "25148080",
+        "timebuildupdated": "1788664460",
+        "timeupdated": "1788664509"
       }
     },
     "hasdepotsindlc": "0"

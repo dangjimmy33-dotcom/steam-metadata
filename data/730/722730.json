@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788617260,
+  "_lastChecked": 1788671224,
   "_history": [
     {
       "buildId": "14035768",
@@ -91,12 +91,25 @@
           "download": 45645248
         }
       }
+    },
+    {
+      "buildId": "25147406",
+      "branch": "public",
+      "timeUpdated": 1788658687,
+      "firstSeen": 1788671224,
+      "manifests": {
+        "722731": {
+          "gid": "7417249689643774811",
+          "size": 53117627,
+          "download": 45644512
+        }
+      }
     }
   ],
-  "_change_number": 38303299,
+  "_change_number": 38637464,
   "_missing_token": false,
-  "_sha": "0bf0d9533f44947bcb6a15afc8c4425ebf2ed605",
-  "_size": 8296,
+  "_sha": "92e95bc5735324ac421d6106eb47e184ebbeaa04",
+  "_size": 8384,
   "appid": "722730",
   "common": {
     "associations": {
@@ -350,9 +363,9 @@
           "size": "53038787"
         },
         "public": {
-          "download": "45645248",
-          "gid": "7973513015210333200",
-          "size": "53116599"
+          "download": "45644512",
+          "gid": "7417249689643774811",
+          "size": "53117627"
         }
       }
     },
@@ -394,9 +407,9 @@
         "timeupdated": "1783826383"
       },
       "public": {
-        "buildid": "24919365",
-        "timebuildupdated": "1787624859",
-        "timeupdated": "1787626959"
+        "buildid": "25147406",
+        "timebuildupdated": "1788657876",
+        "timeupdated": "1788658687"
       }
     },
     "privatebranches": "1"
@@ -428,6 +441,11 @@
       "11": {
         "path": "user",
         "pattern": "progress.bin",
+        "root": "gameinstall"
+      },
+      "12": {
+        "path": "user",
+        "pattern": "tut.bin",
         "root": "gameinstall"
       },
       "2": {

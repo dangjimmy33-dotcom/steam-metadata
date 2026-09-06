@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788617138,
+  "_lastChecked": 1788671188,
   "_history": [
     {
       "buildId": "25131239",
@@ -26,12 +26,38 @@
           "download": 4348468544
         }
       }
+    },
+    {
+      "buildId": "25143593",
+      "branch": "beta",
+      "timeUpdated": 1788629515,
+      "firstSeen": 1788671188,
+      "manifests": {
+        "686061": {
+          "gid": "9085703319287754794",
+          "size": 5156954972,
+          "download": 4433940992
+        }
+      }
+    },
+    {
+      "buildId": "25143593",
+      "branch": "public",
+      "timeUpdated": 1788660992,
+      "firstSeen": 1788671188,
+      "manifests": {
+        "686061": {
+          "gid": "9085703319287754794",
+          "size": 5156954972,
+          "download": 4433940992
+        }
+      }
     }
   ],
-  "_change_number": 38614646,
+  "_change_number": 38637820,
   "_missing_token": false,
-  "_sha": "c5bbf935d0e530666bdad9c9fb7e7a08cdd38f91",
-  "_size": 7414,
+  "_sha": "9acee1fb50949893d55fef11a3e839f4966d8260",
+  "_size": 7638,
   "appid": "686060",
   "common": {
     "associations": {
@@ -280,6 +306,18 @@
       "italian": {
         "supported": "true"
       },
+      "japanese": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
       "spanish": {
         "supported": "true"
       }
@@ -306,29 +344,29 @@
     "686061": {
       "manifests": {
         "beta": {
-          "download": "4433940832",
-          "gid": "7809806894954839603",
-          "size": "5156954943"
+          "download": "4433940992",
+          "gid": "9085703319287754794",
+          "size": "5156954972"
         },
         "public": {
-          "download": "4348468544",
-          "gid": "8229879464648565847",
-          "size": "5056804332"
+          "download": "4433940992",
+          "gid": "9085703319287754794",
+          "size": "5156954972"
         }
       }
     },
-    "baselanguages": "english,german,french,italian,spanish,brazilian",
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,russian,schinese,spanish",
     "branches": {
       "beta": {
-        "buildid": "25131239",
+        "buildid": "25143593",
         "description": "test the latest update before its pushed live for everyone",
-        "timebuildupdated": "1788550993",
-        "timeupdated": "1788551013"
+        "timebuildupdated": "1788629505",
+        "timeupdated": "1788629515"
       },
       "public": {
-        "buildid": "23372843",
-        "timebuildupdated": "1779496675",
-        "timeupdated": "1779514685"
+        "buildid": "25143593",
+        "timebuildupdated": "1788629505",
+        "timeupdated": "1788660992"
       }
     },
     "privatebranches": "1"

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788632694,
+  "_lastChecked": 1788675533,
   "_history": [
     {
       "buildId": "24741436",
@@ -13,12 +13,30 @@
           "download": 101854800
         }
       }
+    },
+    {
+      "buildId": "25148076",
+      "branch": "public",
+      "timeUpdated": 1788664425,
+      "firstSeen": 1788675533,
+      "manifests": {
+        "5105561": {
+          "gid": "4479936616703737406",
+          "size": 226080717,
+          "download": 101882656
+        },
+        "5105562": {
+          "gid": "3815268030109408500",
+          "size": 190438208,
+          "download": 93106640
+        }
+      }
     }
   ],
-  "_change_number": 38608599,
+  "_change_number": 38638340,
   "_missing_token": false,
-  "_sha": "872ffc40c6aed16259ab5bd006f21f742898c771",
-  "_size": 3607,
+  "_sha": "b4e8c04cf5ab68489ee1893a583ed21c5719c852",
+  "_size": 4160,
   "appid": "5105560",
   "common": {
     "associations": {
@@ -118,7 +136,7 @@
     "name": "Phonemae",
     "osarch": "64",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "23",
     "releasestate": "released",
     "small_capsule": {
@@ -155,29 +173,61 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "Phonemae",
     "launch": {
       "0": {
-        "executable": "Phonemae.exe"
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Phonemae.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Phonemae.x86_64",
+        "type": "default"
       }
     }
   },
   "depots": {
     "5105561": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "101854800",
-          "gid": "4263180830348330736",
-          "size": "226057743"
+          "download": "101882656",
+          "gid": "4479936616703737406",
+          "size": "226080717"
+        }
+      }
+    },
+    "5105562": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "93106640",
+          "gid": "3815268030109408500",
+          "size": "190438208"
         }
       }
     },
     "baselanguages": "english,french",
     "branches": {
       "public": {
-        "buildid": "24741436",
-        "timebuildupdated": "1786734997",
-        "timeupdated": "1786735014"
+        "buildid": "25148076",
+        "timebuildupdated": "1788664425",
+        "timeupdated": "1788664425"
       }
     }
   },

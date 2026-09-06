@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788625967,
-  "_history": [],
-  "_change_number": 38610146,
-  "_missing_token": true,
-  "_sha": "e16993ccf1aed50d1da98f120ef652dcdb44b979",
-  "_size": 3309,
+  "_lastChecked": 1788673640,
+  "_history": [
+    {
+      "buildId": "25143430",
+      "branch": "public",
+      "timeUpdated": 1788628463,
+      "firstSeen": 1788673640,
+      "manifests": {
+        "3029381": {
+          "gid": "8714720934994585603",
+          "size": 2235955657,
+          "download": 982595488
+        },
+        "3029382": {
+          "gid": "2983726806540123722",
+          "size": 2326424045,
+          "download": 1030141616
+        }
+      }
+    }
+  ],
+  "_change_number": 38631710,
+  "_missing_token": false,
+  "_sha": "81ae0ed44aef17deadd4bfe67fa57e02092d7ad7",
+  "_size": 4211,
   "appid": "3029380",
   "common": {
     "associations": {
@@ -37,7 +56,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3029380",
     "genres": {
       "0": "25",
@@ -110,7 +128,7 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "358a716eef09c5f8b79af004c63d6ba35b2d4ca2/capsule_231x87.jpg"
     },
@@ -146,5 +164,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cinnabar Nights",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Game.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Cinnabar Nights.app"
+      }
+    }
+  },
+  "depots": {
+    "3029381": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "982595488",
+          "gid": "8714720934994585603",
+          "size": "2235955657"
+        }
+      }
+    },
+    "3029382": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1030141616",
+          "gid": "2983726806540123722",
+          "size": "2326424045"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25143430",
+        "timebuildupdated": "1788628362",
+        "timeupdated": "1788628463"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Benoît Piccand",
+    "publisher": "Écurie d'Argent"
+  }
 }

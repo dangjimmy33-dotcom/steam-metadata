@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788632625,
-  "_history": [],
-  "_change_number": 38368740,
-  "_missing_token": true,
-  "_sha": "d0f5365ffe2e57088ff60f326ea7c4cc6713209f",
-  "_size": 3601,
+  "_lastChecked": 1788675468,
+  "_history": [
+    {
+      "buildId": "25144393",
+      "branch": "public",
+      "timeUpdated": 1788637652,
+      "firstSeen": 1788675468,
+      "manifests": {
+        "5009271": {
+          "gid": "3727130637849197955",
+          "size": 214164968,
+          "download": 137511040
+        }
+      }
+    }
+  ],
+  "_change_number": 38635389,
+  "_missing_token": false,
+  "_sha": "2b827ec780dda611bf26d08da3d2ad1a469503c2",
+  "_size": 4716,
   "appid": "5009270",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "5c249ed35febff31032f6932e42c5a68af950296",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5009270",
     "genres": {
       "0": "4",
@@ -100,11 +114,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ad98802c9abb2f9d953c7a28e9d02a89fccf06da/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1787698491",
+    "steam_release_date": "1790751600",
+    "store_asset_mtime": "1788364014",
     "store_tags": {
       "0": "1320952",
       "1": "597",
@@ -173,5 +188,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Daily Botanica",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Launch Daily Botanica",
+        "description_loc": {
+          "english": "Launch Daily Botanica"
+        },
+        "executable": "DailyBotanica.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5009271": {
+      "manifests": {
+        "public": {
+          "download": "137511040",
+          "gid": "3727130637849197955",
+          "size": "214164968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25144393",
+        "timebuildupdated": "1788634811",
+        "timeupdated": "1788637652"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Cyvana",
+    "dlcavailableonstore": "1",
+    "homepage": "https://cyvana.net",
+    "isfreeapp": "1",
+    "listofdlc": "5009870,5009880,5009890,5009900,5009910",
+    "publisher": "Cyvana"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "DailyBotanica/Saves",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

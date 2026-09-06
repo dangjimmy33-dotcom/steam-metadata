@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788619669,
+  "_lastChecked": 1788671760,
   "_history": [
     {
       "buildId": "24172442",
@@ -13,12 +13,38 @@
           "download": 5655198800
         }
       }
+    },
+    {
+      "buildId": "25092302",
+      "branch": "public",
+      "timeUpdated": 1788654304,
+      "firstSeen": 1788671760,
+      "manifests": {
+        "1222301": {
+          "gid": "6202522425407386239",
+          "size": 5873096549,
+          "download": 5647970656
+        }
+      }
+    },
+    {
+      "buildId": "25092302",
+      "branch": "testing",
+      "timeUpdated": 1788398525,
+      "firstSeen": 1788671760,
+      "manifests": {
+        "1222301": {
+          "gid": "6202522425407386239",
+          "size": 5873096549,
+          "download": 5647970656
+        }
+      }
     }
   ],
-  "_change_number": 38155659,
+  "_change_number": 38636768,
   "_missing_token": false,
-  "_sha": "3df5906021dfd26e4db00b925ef3013306c17e5d",
-  "_size": 5770,
+  "_sha": "862c73990cabb278e7c4234c2669214b950fc448",
+  "_size": 6057,
   "appid": "1222300",
   "common": {
     "associations": {
@@ -248,9 +274,14 @@
       },
       "manifests": {
         "public": {
-          "download": "5655198800",
-          "gid": "827145945354092184",
-          "size": "5880478429"
+          "download": "5647970656",
+          "gid": "6202522425407386239",
+          "size": "5873096549"
+        },
+        "testing": {
+          "download": "5647970656",
+          "gid": "6202522425407386239",
+          "size": "5873096549"
         }
       }
     },
@@ -271,9 +302,15 @@
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "24172442",
-        "timebuildupdated": "1783878679",
-        "timeupdated": "1783878707"
+        "buildid": "25092302",
+        "timebuildupdated": "1788398492",
+        "timeupdated": "1788654304"
+      },
+      "testing": {
+        "buildid": "25092302",
+        "description": "Update 2089 Early play testing",
+        "timebuildupdated": "1788398492",
+        "timeupdated": "1788398525"
       }
     },
     "privatebranches": "1",

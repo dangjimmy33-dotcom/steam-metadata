@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788630012,
-  "_history": [],
-  "_change_number": 38589034,
-  "_missing_token": true,
-  "_sha": "26d9c2c6bf673ff41968713c5b083004982169b9",
-  "_size": 3258,
+  "_lastChecked": 1788675088,
+  "_history": [
+    {
+      "buildId": "24987931",
+      "branch": "public",
+      "timeUpdated": 1787905501,
+      "firstSeen": 1788675088,
+      "manifests": {
+        "4549301": {
+          "gid": "6617245234441257532",
+          "size": 3069999412,
+          "download": 2551278000
+        }
+      }
+    }
+  ],
+  "_change_number": 38638190,
+  "_missing_token": false,
+  "_sha": "aaadb115c95d63c84ef91742a0c7c5124863e8de",
+  "_size": 6139,
   "appid": "4549300",
   "common": {
     "associations": {
@@ -26,6 +40,7 @@
     },
     "clienticon": "be48b3017c5fe1357478dc2d8301ce978da31ffb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -38,7 +53,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4549300",
     "genres": {
       "0": "25",
@@ -112,10 +126,76 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b554cb9889f86a262688f69377966837e8e88fbd/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1787932867",
+      "tested_build_id": "24987931",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_NativeResolutionNotSupported"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1788653167",
     "store_asset_mtime": "1784789845",
     "store_tags": {
       "0": "21",
@@ -132,8 +212,8 @@
       "2": "5608",
       "3": "5716",
       "4": "4486",
-      "5": "3871",
-      "6": "4726",
+      "5": "4726",
+      "6": "3871",
       "7": "4085",
       "8": "1667",
       "9": "4947"
@@ -147,5 +227,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "My Dearest Direst Disaster",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "My Dearest Direst Disaster.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4549301": {
+      "manifests": {
+        "public": {
+          "download": "2551278000",
+          "gid": "6617245234441257532",
+          "size": "3069999412"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "24987931",
+        "timebuildupdated": "1787905089",
+        "timeupdated": "1787905501"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Water Phoenix",
+    "publisher": "KEMCO"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "67108864",
+    "savefiles": {
+      "0": {
+        "path": "KEMCO/My Dearest Direst Disaster/{64BitSteamID}/release",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

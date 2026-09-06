@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788625540,
+  "_lastChecked": 1788673472,
   "_history": [
     {
       "buildId": "15014625",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38514237,
+  "_change_number": 38639480,
   "_missing_token": false,
-  "_sha": "62f5260fad6e3d5fd62eeb170bf9a9e3f73bc575",
-  "_size": 5242,
+  "_sha": "28c43841f9ec6cfa34d6301f196bc806ca0f98fb",
+  "_size": 5538,
   "appid": "2857560",
   "common": {
     "associations": {
@@ -235,7 +235,17 @@
     "installdir": "HB Nemesis",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "NemesisAutoUpdater.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "HelGame"
       }
     }
   },
@@ -256,6 +266,13 @@
         }
       }
     },
+    "2857562": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {}
+    },
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,brazilian,latam",
     "branches": {
       "public": {
@@ -263,7 +280,8 @@
         "timebuildupdated": "1720792849",
         "timeupdated": "1720792894"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "HB Nemesis International",

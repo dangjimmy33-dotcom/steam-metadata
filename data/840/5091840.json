@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788632685,
-  "_history": [],
-  "_change_number": 38393588,
-  "_missing_token": true,
-  "_sha": "af4b5de65f86c84e5bddb026da964965707fc775",
-  "_size": 4454,
+  "_lastChecked": 1788675525,
+  "_history": [
+    {
+      "buildId": "24873081",
+      "branch": "public",
+      "timeUpdated": 1787356997,
+      "firstSeen": 1788675525,
+      "manifests": {
+        "5091841": {
+          "gid": "438877250134607491",
+          "size": 638072739,
+          "download": 120613600
+        }
+      }
+    }
+  ],
+  "_change_number": 38633209,
+  "_missing_token": false,
+  "_sha": "9f833f457d6baa121a71a709f0c2e4b5e8aea7f6",
+  "_size": 5339,
   "appid": "5091840",
   "common": {
     "associations": {
@@ -33,8 +47,8 @@
     },
     "clienticon": "ec3e9a69473e68b0e72c3dbb3b35d8dc1d680d82",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5091840",
     "genres": {
       "0": "4",
@@ -105,11 +119,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "98e6791c934972f21b45a725279a506a6950ae09/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1787320244",
+    "steam_release_date": "1788635846",
+    "store_asset_mtime": "1788635916",
     "store_tags": {
       "0": "1738",
       "1": "1637",
@@ -229,5 +244,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "101 Dogs Hidden in Antalya",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "101_Dogs_Hidden_in_Antalya.exe"
+      }
+    }
+  },
+  "depots": {
+    "5091841": {
+      "manifests": {
+        "public": {
+          "download": "120613600",
+          "gid": "438877250134607491",
+          "size": "638072739"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24873081",
+        "timebuildupdated": "1787356966",
+        "timeupdated": "1787356997"
+      }
+    }
+  },
+  "extended": {
+    "developer": "NaipSoft",
+    "publisher": "NaipSoft"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "NaipSoft/101_Dogs_Hidden_in_Antalya",
+        "pattern": "*.jogo",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

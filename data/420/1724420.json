@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788621378,
+  "_lastChecked": 1788672312,
   "_history": [
     {
       "buildId": "25140978",
@@ -13,12 +13,38 @@
           "download": 50673488
         }
       }
+    },
+    {
+      "buildId": "25146332",
+      "branch": "godot",
+      "timeUpdated": 1788648516,
+      "firstSeen": 1788672312,
+      "manifests": {
+        "1724421": {
+          "gid": "8112863555223446775",
+          "size": 123569792,
+          "download": 44386512
+        }
+      }
+    },
+    {
+      "buildId": "13224790",
+      "branch": "public",
+      "timeUpdated": 1788648549,
+      "firstSeen": 1788672312,
+      "manifests": {
+        "1724421": {
+          "gid": "2049811093365491013",
+          "size": 29428982,
+          "download": 16190704
+        }
+      }
     }
   ],
-  "_change_number": 38627666,
+  "_change_number": 38635819,
   "_missing_token": false,
-  "_sha": "f583f17a5e65246bb925fd57b47423edc0126d9a",
-  "_size": 4655,
+  "_sha": "2d467eefe4c8c453ca5110f911f191bd42c860df",
+  "_size": 4935,
   "appid": "1724420",
   "common": {
     "associations": {
@@ -199,18 +225,29 @@
   "depots": {
     "1724421": {
       "manifests": {
+        "godot": {
+          "download": "44386512",
+          "gid": "8112863555223446775",
+          "size": "123569792"
+        },
         "public": {
-          "download": "50673488",
-          "gid": "1348053024281487800",
-          "size": "129388720"
+          "download": "16190704",
+          "gid": "2049811093365491013",
+          "size": "29428982"
         }
       }
     },
     "branches": {
+      "godot": {
+        "buildid": "25146332",
+        "description": "everything after the godot patch",
+        "timebuildupdated": "1788648357",
+        "timeupdated": "1788648516"
+      },
       "public": {
-        "buildid": "25140978",
-        "timebuildupdated": "1788612725",
-        "timeupdated": "1788612802"
+        "buildid": "13224790",
+        "timebuildupdated": "1705716799",
+        "timeupdated": "1788648549"
       }
     }
   },

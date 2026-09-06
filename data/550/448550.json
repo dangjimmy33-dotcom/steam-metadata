@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788616224,
+  "_lastChecked": 1788670960,
   "_history": [
     {
       "buildId": "1541943",
@@ -25,10 +25,10 @@
       }
     }
   ],
-  "_change_number": 38625696,
+  "_change_number": 38634920,
   "_missing_token": false,
-  "_sha": "4e3d5e35f7792df1120445401afa4887c2fbfb15",
-  "_size": 3115,
+  "_sha": "acd370239a6abdfce730ae54c1abd33d062ae06f",
+  "_size": 3262,
   "appid": "448550",
   "common": {
     "associations": {
@@ -95,6 +95,13 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "alpha",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
     "contenttype": "3",
     "installdir": "Minimal",
     "launch": {
@@ -132,6 +139,9 @@
       "sharedinstall": "1"
     },
     "448551": {
+      "config": {
+        "oslist": "macos"
+      },
       "manifests": {
         "public": {
           "download": "31281104",
@@ -164,7 +174,6 @@
         }
       }
     },
-    "448554": {},
     "baselanguages": "czech,english",
     "branches": {
       "public": {

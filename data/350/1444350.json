@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788620407,
+  "_lastChecked": 1788671990,
   "_history": [
     {
       "buildId": "25139235",
@@ -23,12 +23,35 @@
           "download": 100046592
         }
       }
+    },
+    {
+      "buildId": "25144074",
+      "branch": "public",
+      "timeUpdated": 1788632717,
+      "firstSeen": 1788671990,
+      "manifests": {
+        "1444351": {
+          "gid": "6418565000434777220",
+          "size": 124033401,
+          "download": 82648128
+        },
+        "1444352": {
+          "gid": "2971502595773756293",
+          "size": 102132355,
+          "download": 75009536
+        },
+        "1444353": {
+          "gid": "392309835965348575",
+          "size": 130054142,
+          "download": 100046592
+        }
+      }
     }
   ],
-  "_change_number": 38625170,
+  "_change_number": 38632642,
   "_missing_token": false,
-  "_sha": "f96d1349e91b2ed1564bb2e03e9389b2fe2a2815",
-  "_size": 6599,
+  "_sha": "7aabc126ddc5b752f94fa2addb468d2df791fc2a",
+  "_size": 6905,
   "appid": "1444350",
   "common": {
     "associations": {
@@ -48,8 +71,10 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_28": "1",
       "category_29": "1",
+      "category_60": "1",
       "category_62": "1"
     },
     "clienticon": "00a6bbedaa5a1b84837df55c968ed38ec12b1989",
@@ -65,6 +90,7 @@
       "1": "5"
     },
     "controller_support": "full",
+    "controllertagwizard": "1",
     "gameid": "1444350",
     "genres": {
       "0": "1",
@@ -273,9 +299,9 @@
       },
       "manifests": {
         "public": {
-          "download": "82648224",
-          "gid": "8239805680021764596",
-          "size": "124032897"
+          "download": "82648128",
+          "gid": "6418565000434777220",
+          "size": "124033401"
         }
       }
     },
@@ -307,9 +333,9 @@
     "baselanguages": "english,schinese",
     "branches": {
       "public": {
-        "buildid": "25139235",
-        "timebuildupdated": "1788600617",
-        "timeupdated": "1788600617"
+        "buildid": "25144074",
+        "timebuildupdated": "1788632717",
+        "timeupdated": "1788632717"
       }
     },
     "hasdepotsindlc": "0"
@@ -317,5 +343,19 @@
   "extended": {
     "developer": "Bark Bark Games",
     "publisher": "Bark Bark Games"
+  },
+  "ufs": {
+    "maxnumfiles": "19",
+    "quota": "399999995",
+    "savefiles": {
+      "0": {
+        "path": "Stencyl/House",
+        "pattern": "mysave.sol",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

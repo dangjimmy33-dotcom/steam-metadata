@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788629058,
+  "_lastChecked": 1788674773,
   "_history": [
     {
       "buildId": "24986614",
@@ -26,11 +26,37 @@
           "download": 667465664
         }
       }
+    },
+    {
+      "buildId": "25145891",
+      "branch": "public",
+      "timeUpdated": 1788660212,
+      "firstSeen": 1788674773,
+      "manifests": {
+        "4204531": {
+          "gid": "7656953215463320738",
+          "size": 815683912,
+          "download": 669333824
+        }
+      }
+    },
+    {
+      "buildId": "25145891",
+      "branch": "unstable",
+      "timeUpdated": 1788651883,
+      "firstSeen": 1788674773,
+      "manifests": {
+        "4204531": {
+          "gid": "7656953215463320738",
+          "size": 815683912,
+          "download": 669333824
+        }
+      }
     }
   ],
-  "_change_number": 38422857,
+  "_change_number": 38637699,
   "_missing_token": false,
-  "_sha": "c3ebaaf52c6cb8a5ebc950e3c80446cb6b0d015a",
+  "_sha": "40d23ca500ac4e5ccb691b240925d35e80e8eb7e",
   "_size": 6681,
   "appid": "4204530",
   "common": {
@@ -285,29 +311,29 @@
     "4204531": {
       "manifests": {
         "public": {
-          "download": "667465664",
-          "gid": "6183491999864113571",
-          "size": "813735318"
+          "download": "669333824",
+          "gid": "7656953215463320738",
+          "size": "815683912"
         },
         "unstable": {
-          "download": "667465664",
-          "gid": "6183491999864113571",
-          "size": "813735318"
+          "download": "669333824",
+          "gid": "7656953215463320738",
+          "size": "815683912"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "24986614",
-        "timebuildupdated": "1787899821",
-        "timeupdated": "1787956474"
+        "buildid": "25145891",
+        "timebuildupdated": "1788645513",
+        "timeupdated": "1788660212"
       },
       "unstable": {
-        "buildid": "24986614",
+        "buildid": "25145891",
         "description": "for trying out new features that aren't finished, could be unstable",
-        "timebuildupdated": "1787899821",
-        "timeupdated": "1787901886"
+        "timebuildupdated": "1788645513",
+        "timeupdated": "1788651883"
       }
     },
     "privatebranches": "1"

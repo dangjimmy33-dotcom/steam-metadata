@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788630146,
+  "_lastChecked": 1788675126,
   "_history": [
     {
       "buildId": "25137639",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38622781,
+  "_change_number": 38636848,
   "_missing_token": false,
-  "_sha": "9a9ae640bcd3592cef8001bfb0ac50dc5cf4319c",
-  "_size": 3828,
+  "_sha": "46e958d25361e09455400fb71a93260e9c717132",
+  "_size": 4114,
   "appid": "4590170",
   "common": {
     "associations": {
@@ -154,6 +154,14 @@
         },
         "executable": "Launch Window 1961.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Launch Window 1961.x86_64",
+        "type": "default"
       }
     }
   },
@@ -167,13 +175,21 @@
         }
       }
     },
+    "4590172": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {}
+    },
     "branches": {
       "public": {
         "buildid": "25137639",
         "timebuildupdated": "1788587306",
         "timeupdated": "1788587413"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Ben Hamilton",

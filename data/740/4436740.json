@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788629599,
-  "_history": [],
-  "_change_number": 38519499,
-  "_missing_token": true,
-  "_sha": "e550b6c13f30ba57ee22d1ce4cfb58621565fef8",
-  "_size": 3784,
+  "_lastChecked": 1788674981,
+  "_history": [
+    {
+      "buildId": "24869637",
+      "branch": "public",
+      "timeUpdated": 1787341813,
+      "firstSeen": 1788674981,
+      "manifests": {
+        "4436741": {
+          "gid": "5461706850480475787",
+          "size": 1762938476,
+          "download": 661524528
+        }
+      }
+    }
+  ],
+  "_change_number": 38633715,
+  "_missing_token": false,
+  "_sha": "502a4105257e5f5bdb5e2d397968f1f327ac50c8",
+  "_size": 4979,
   "appid": "4436740",
   "common": {
     "aicontenttype": "1",
@@ -27,8 +41,8 @@
     },
     "clienticon": "858d29f14c58c8f8d6af14c8330f77185731572a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4436740",
     "genres": {
       "0": "1",
@@ -114,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "43c9b54cc33dc0e29fcc32dc4780971842de0c4a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788638415",
     "store_asset_mtime": "1781574810",
     "store_tags": {
       "0": "723991",
@@ -180,5 +195,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Level Up, Tiny King!",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "LevelUpTinyKing_build/LevelUpTinyKing.exe",
+        "type": "default",
+        "workingdir": "LevelUpTinyKing_build"
+      }
+    }
+  },
+  "depots": {
+    "4436741": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "661524528",
+          "gid": "5461706850480475787",
+          "size": "1762938476"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,indonesian,japanese,koreana,latam,portuguese,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "24869637",
+        "timebuildupdated": "1787341717",
+        "timeupdated": "1787341813"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Warband &amp; Magic",
+    "publisher": "Warband &amp; Magic"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Warband&MagicLLC\\LevelUpTinyKing",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

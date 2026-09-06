@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788629049,
+  "_lastChecked": 1788674769,
   "_history": [
     {
       "buildId": "25054647",
@@ -36,12 +36,30 @@
           "download": 3954817760
         }
       }
+    },
+    {
+      "buildId": "25144838",
+      "branch": "testbuild",
+      "timeUpdated": 1788638119,
+      "firstSeen": 1788674769,
+      "manifests": {
+        "4200441": {
+          "gid": "824182091191264560",
+          "size": 7516712126,
+          "download": 6664977760
+        },
+        "4200445": {
+          "gid": "6765940823089855276",
+          "size": 4136698933,
+          "download": 3954817760
+        }
+      }
     }
   ],
-  "_change_number": 38624436,
+  "_change_number": 38637361,
   "_missing_token": false,
-  "_sha": "84b0dcdf2c1d75ed2e8b698a6fda4cc4005c20fe",
-  "_size": 7442,
+  "_sha": "caaf87790804226bb344bcebd5627419020f1fbd",
+  "_size": 7441,
   "appid": "4200440",
   "common": {
     "associations": {
@@ -145,7 +163,7 @@
     "oslist": "windows",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "81",
+    "review_percentage": "80",
     "review_score": "8",
     "small_capsule": {
       "english": "3e3f02942cb0460ca2ec849a669c5ee2299147aa/capsule_231x87.jpg"
@@ -327,9 +345,9 @@
           "size": "7081573142"
         },
         "testbuild": {
-          "download": "6571545648",
-          "gid": "8981563432696538632",
-          "size": "7146534718"
+          "download": "6664977760",
+          "gid": "824182091191264560",
+          "size": "7516712126"
         }
       }
     },
@@ -360,10 +378,10 @@
         "timeupdated": "1788262350"
       },
       "testbuild": {
-        "buildid": "25093703",
+        "buildid": "25144838",
         "description": "Preview Build",
-        "timebuildupdated": "1788405199",
-        "timeupdated": "1788405199"
+        "timebuildupdated": "1788638119",
+        "timeupdated": "1788638119"
       }
     }
   },

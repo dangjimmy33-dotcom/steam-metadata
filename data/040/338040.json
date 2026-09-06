@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788615741,
+  "_lastChecked": 1788670852,
   "_history": [
     {
       "buildId": "937016",
@@ -39,12 +39,51 @@
           "download": 1641800192
         }
       }
+    },
+    {
+      "buildId": "2273299",
+      "branch": "oldschool",
+      "timeUpdated": 1788648881,
+      "firstSeen": 1788670852,
+      "manifests": {
+        "338041": {
+          "gid": "7421564813408774194",
+          "size": 3205284696,
+          "download": 1204156640
+        }
+      }
+    },
+    {
+      "buildId": "5219252",
+      "branch": "public",
+      "timeUpdated": 1788648723,
+      "firstSeen": 1788670852,
+      "manifests": {
+        "338041": {
+          "gid": "5013941496691985284",
+          "size": 4642198483,
+          "download": 1641800192
+        }
+      }
+    },
+    {
+      "buildId": "21288941",
+      "branch": "version1",
+      "timeUpdated": 1766447275,
+      "firstSeen": 1788670852,
+      "manifests": {
+        "338041": {
+          "gid": "7288085540653246794",
+          "size": 1269310774,
+          "download": 1115141952
+        }
+      }
     }
   ],
-  "_change_number": 37423902,
+  "_change_number": 38635879,
   "_missing_token": false,
-  "_sha": "6ad0dac076d07b8ff6fed1de879280046f9886e3",
-  "_size": 5792,
+  "_sha": "31c4cd1ace84cb651808c011404312cefe298e11",
+  "_size": 5794,
   "appid": "338040",
   "common": {
     "associations": {
@@ -292,38 +331,38 @@
       },
       "manifests": {
         "oldschool": {
-          "download": "766994688",
-          "gid": "3159851340649782854",
-          "size": "2201290507"
+          "download": "1204156640",
+          "gid": "7421564813408774194",
+          "size": "3205284696"
         },
         "public": {
-          "download": "1115141952",
-          "gid": "7288085540653246794",
-          "size": "1269310774"
-        },
-        "version1": {
           "download": "1641800192",
           "gid": "5013941496691985284",
           "size": "4642198483"
+        },
+        "version1": {
+          "download": "1115141952",
+          "gid": "7288085540653246794",
+          "size": "1269310774"
         }
       }
     },
     "branches": {
       "oldschool": {
-        "buildid": "937016",
-        "timebuildupdated": "1453171264",
-        "timeupdated": "1586441579"
+        "buildid": "2273299",
+        "timebuildupdated": "1510306728",
+        "timeupdated": "1788648881"
       },
       "public": {
-        "buildid": "21288941",
-        "timebuildupdated": "1766446996",
-        "timeupdated": "1766447275"
+        "buildid": "5219252",
+        "timebuildupdated": "1593174640",
+        "timeupdated": "1788648723"
       },
       "version1": {
-        "buildid": "5219252",
+        "buildid": "21288941",
         "description": "Original version",
-        "timebuildupdated": "1593174640",
-        "timeupdated": "1765988139"
+        "timebuildupdated": "1766446996",
+        "timeupdated": "1766447275"
       }
     },
     "privatebranches": "1"

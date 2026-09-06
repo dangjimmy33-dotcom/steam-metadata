@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788622610,
+  "_lastChecked": 1788672705,
   "_history": [
     {
       "buildId": "25091300",
@@ -26,12 +26,38 @@
           "download": 99795600
         }
       }
+    },
+    {
+      "buildId": "25146625",
+      "branch": "public",
+      "timeUpdated": 1788652555,
+      "firstSeen": 1788672705,
+      "manifests": {
+        "2105841": {
+          "gid": "510683264901615088",
+          "size": 442818353,
+          "download": 99794064
+        }
+      }
+    },
+    {
+      "buildId": "25146625",
+      "branch": "unstable",
+      "timeUpdated": 1788650678,
+      "firstSeen": 1788672705,
+      "manifests": {
+        "2105841": {
+          "gid": "510683264901615088",
+          "size": 442818353,
+          "download": 99794064
+        }
+      }
     }
   ],
-  "_change_number": 38626594,
+  "_change_number": 38636474,
   "_missing_token": false,
-  "_sha": "f07e8bf6a746ce21c80ec578fb61422d35e34444",
-  "_size": 8584,
+  "_sha": "433777748c138471c5941330eda2e3d9fb18e617",
+  "_size": 8582,
   "appid": "2105840",
   "common": {
     "associations": {
@@ -255,28 +281,28 @@
     "2105841": {
       "manifests": {
         "public": {
-          "download": "99795600",
-          "gid": "4307065285405137904",
-          "size": "442818289"
+          "download": "99794064",
+          "gid": "510683264901615088",
+          "size": "442818353"
         },
         "unstable": {
-          "download": "99795600",
-          "gid": "4307065285405137904",
-          "size": "442818289"
+          "download": "99794064",
+          "gid": "510683264901615088",
+          "size": "442818353"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25091300",
-        "timebuildupdated": "1788393661",
-        "timeupdated": "1788397955"
+        "buildid": "25146625",
+        "timebuildupdated": "1788650666",
+        "timeupdated": "1788652555"
       },
       "unstable": {
-        "buildid": "25091300",
+        "buildid": "25146625",
         "description": "unstable testing branch",
-        "timebuildupdated": "1788393661",
-        "timeupdated": "1788393676"
+        "timebuildupdated": "1788650666",
+        "timeupdated": "1788650678"
       }
     }
   },

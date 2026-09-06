@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788621808,
+  "_lastChecked": 1788672446,
   "_history": [
     {
       "buildId": "25142214",
@@ -65,12 +65,56 @@
           "download": 119525440
         }
       }
+    },
+    {
+      "buildId": "25142394",
+      "branch": "beta",
+      "timeUpdated": 1788622008,
+      "firstSeen": 1788672446,
+      "manifests": {
+        "1843731": {
+          "gid": "7427831450925146804",
+          "size": 515024137,
+          "download": 121098608
+        }
+      }
+    },
+    {
+      "buildId": "25148708",
+      "branch": "mactest",
+      "timeUpdated": 1788671247,
+      "firstSeen": 1788672446,
+      "manifests": {
+        "1843731": {
+          "gid": "7427831450925146804",
+          "size": 515024137,
+          "download": 121098608
+        },
+        "1843732": {
+          "gid": "543948095659665064",
+          "size": 486379386,
+          "download": 116640336
+        }
+      }
+    },
+    {
+      "buildId": "25142394",
+      "branch": "public",
+      "timeUpdated": 1788622027,
+      "firstSeen": 1788672446,
+      "manifests": {
+        "1843731": {
+          "gid": "7427831450925146804",
+          "size": 515024137,
+          "download": 121098608
+        }
+      }
     }
   ],
-  "_change_number": 38629548,
+  "_change_number": 38639200,
   "_missing_token": false,
-  "_sha": "4df4f25b6b1e7441bedbf4b97536bc420d88aee0",
-  "_size": 8574,
+  "_sha": "50cf4c078e24f4074ae8d3d27cd592516aab9a6f",
+  "_size": 8547,
   "appid": "1843730",
   "common": {
     "associations": {
@@ -343,6 +387,12 @@
         },
         "executable": "Last Group Out/Last Group Out.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Last Group Out.app"
       }
     },
     "steamcontrollertemplateindex": "2",
@@ -356,37 +406,44 @@
       },
       "manifests": {
         "beta": {
-          "download": "121099344",
-          "gid": "5217092972693537520",
-          "size": "515024369"
+          "download": "121098608",
+          "gid": "7427831450925146804",
+          "size": "515024137"
         },
         "classicmode": {
           "download": "95429920",
           "gid": "5806447311636740743",
           "size": "160674326"
         },
+        "mactest": {
+          "download": "121098608",
+          "gid": "7427831450925146804",
+          "size": "515024137"
+        },
         "public": {
-          "download": "121099344",
-          "gid": "5217092972693537520",
-          "size": "515024369"
-        },
-        "release": {
-          "download": "63762608",
-          "gid": "4468287484392695280",
-          "size": "117160702"
-        },
-        "saveoverwrite": {
-          "download": "119525440",
-          "gid": "9102182800400522648",
-          "size": "467397528"
+          "download": "121098608",
+          "gid": "7427831450925146804",
+          "size": "515024137"
+        }
+      }
+    },
+    "1843732": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "mactest": {
+          "download": "116640336",
+          "gid": "543948095659665064",
+          "size": "486379386"
         }
       }
     },
     "branches": {
       "beta": {
-        "buildid": "25142214",
-        "timebuildupdated": "1788621087",
-        "timeupdated": "1788621088"
+        "buildid": "25142394",
+        "timebuildupdated": "1788622006",
+        "timeupdated": "1788622008"
       },
       "classicmode": {
         "buildid": "15310745",
@@ -394,22 +451,16 @@
         "timebuildupdated": "1723155677",
         "timeupdated": "1723155677"
       },
+      "mactest": {
+        "buildid": "25148708",
+        "description": "mactest",
+        "timebuildupdated": "1788671247",
+        "timeupdated": "1788671247"
+      },
       "public": {
-        "buildid": "25142214",
-        "timebuildupdated": "1788621087",
-        "timeupdated": "1788621111"
-      },
-      "release": {
-        "buildid": "24503178",
-        "description": "Day 1 Build of Last Group Out",
-        "timebuildupdated": "1785544136",
-        "timeupdated": "1785544138"
-      },
-      "saveoverwrite": {
-        "buildid": "24165296",
-        "description": "Used For Overwriting Save Data. Dont Use This.",
-        "timebuildupdated": "1783808178",
-        "timeupdated": "1783808182"
+        "buildid": "25142394",
+        "timebuildupdated": "1788622006",
+        "timeupdated": "1788622027"
       }
     },
     "privatebranches": "1"

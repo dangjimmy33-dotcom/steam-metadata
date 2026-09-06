@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788632611,
-  "_history": [],
-  "_change_number": 38461332,
-  "_missing_token": true,
-  "_sha": "6ead040785ea0cbefaad5f4bb1c1efd419cd65e2",
-  "_size": 4151,
+  "_lastChecked": 1788675454,
+  "_history": [
+    {
+      "buildId": "24903001",
+      "branch": "public",
+      "timeUpdated": 1787562613,
+      "firstSeen": 1788675454,
+      "manifests": {
+        "4991532": {
+          "gid": "4053473938417960249",
+          "size": 726662881,
+          "download": 418927776
+        }
+      }
+    }
+  ],
+  "_change_number": 38638023,
+  "_missing_token": false,
+  "_sha": "0ed75866d04bd788776194d23a8e8224fe959545",
+  "_size": 4823,
   "appid": "4991530",
   "common": {
     "aicontenttype": "1",
@@ -35,7 +49,6 @@
     "clienticon": "ada850056994a02cd24c1894d2c98d097138183d",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4991530",
     "genres": {
       "0": "4",
@@ -118,12 +131,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "66e8325e07db43f8ac2b0fc48092ad379008d72c/capsule_231x87.jpg",
       "japanese": "96871aba36ce4e359e81fc306955534b3471efce/capsule_231x87_japanese.jpg"
     },
-    "store_asset_mtime": "1785078110",
+    "steam_release_date": "1788662524",
+    "store_asset_mtime": "1786079865",
     "store_tags": {
       "0": "7178",
       "1": "4182",
@@ -162,5 +176,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "アルティメット伝言ゲーム",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "OjamanaGesture.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4991532": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "418927776",
+          "gid": "4053473938417960249",
+          "size": "726662881"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24903001",
+        "timebuildupdated": "1787562570",
+        "timeupdated": "1787562613"
+      }
+    }
+  },
+  "extended": {
+    "developer": "oremosouomou",
+    "isfreeapp": "1",
+    "publisher": "oremosouomou"
+  }
 }

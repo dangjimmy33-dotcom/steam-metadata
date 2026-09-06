@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788627298,
+  "_lastChecked": 1788674186,
   "_history": [
     {
       "buildId": "25018672",
@@ -18,12 +18,30 @@
           "download": 43862832
         }
       }
+    },
+    {
+      "buildId": "25148456",
+      "branch": "public",
+      "timeUpdated": 1788668190,
+      "firstSeen": 1788674186,
+      "manifests": {
+        "3590771": {
+          "gid": "2312522601227152170",
+          "size": 52190778,
+          "download": 43747088
+        },
+        "3590772": {
+          "gid": "8058901088163555566",
+          "size": 53228432,
+          "download": 44100000
+        }
+      }
     }
   ],
-  "_change_number": 38530381,
+  "_change_number": 38638816,
   "_missing_token": false,
-  "_sha": "5895d55b82852f4d2a6300261db55779b1d34c9d",
-  "_size": 4419,
+  "_sha": "9bc3ea804376be014ded66198be3a80ed44a3125",
+  "_size": 4442,
   "appid": "3590770",
   "common": {
     "associations": {
@@ -39,6 +57,7 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_28": "1",
       "category_55": "1",
       "category_56": "1",
@@ -194,9 +213,9 @@
       },
       "manifests": {
         "public": {
-          "download": "43745216",
-          "gid": "7006083297170063493",
-          "size": "52188659"
+          "download": "43747088",
+          "gid": "2312522601227152170",
+          "size": "52190778"
         }
       }
     },
@@ -207,17 +226,17 @@
       },
       "manifests": {
         "public": {
-          "download": "43862832",
-          "gid": "3871868499773411626",
-          "size": "52188659"
+          "download": "44100000",
+          "gid": "8058901088163555566",
+          "size": "53228432"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25018672",
-        "timebuildupdated": "1788075399",
-        "timeupdated": "1788075436"
+        "buildid": "25148456",
+        "timebuildupdated": "1788668105",
+        "timeupdated": "1788668190"
       }
     },
     "privatebranches": "1"
@@ -227,7 +246,7 @@
     "publisher": "Inkspun LLC"
   },
   "ufs": {
-    "maxnumfiles": "20",
-    "quota": "500000"
+    "maxnumfiles": "30",
+    "quota": "2500000"
   }
 }

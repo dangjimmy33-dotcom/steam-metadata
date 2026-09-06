@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788630564,
+  "_lastChecked": 1788675266,
   "_history": [
     {
       "buildId": "24971873",
@@ -36,12 +36,48 @@
           "download": 2690417760
         }
       }
+    },
+    {
+      "buildId": "25145456",
+      "branch": "public",
+      "timeUpdated": 1788642173,
+      "firstSeen": 1788675266,
+      "manifests": {
+        "4763331": {
+          "gid": "6369092967035183182",
+          "size": 2846036774,
+          "download": 2691526544
+        },
+        "4763332": {
+          "gid": "3435591384726792835",
+          "size": 2750862851,
+          "download": 2616755984
+        }
+      }
+    },
+    {
+      "buildId": "25145456",
+      "branch": "test",
+      "timeUpdated": 1788641975,
+      "firstSeen": 1788675266,
+      "manifests": {
+        "4763331": {
+          "gid": "6369092967035183182",
+          "size": 2846036774,
+          "download": 2691526544
+        },
+        "4763332": {
+          "gid": "3435591384726792835",
+          "size": 2750862851,
+          "download": 2616755984
+        }
+      }
     }
   ],
-  "_change_number": 38379848,
+  "_change_number": 38634534,
   "_missing_token": false,
-  "_sha": "0ca5d887447a579012d45823431e7b7a9d3b3fb9",
-  "_size": 4346,
+  "_sha": "ca2065653a730ad956b4e3acf00389fd9f8b2db1",
+  "_size": 4951,
   "appid": "4763330",
   "common": {
     "aicontenttype": "2",
@@ -68,6 +104,14 @@
       "0": "5"
     },
     "controllertagwizard": "1",
+    "eulas": {
+      "0": {
+        "id": "4763330_eula_0",
+        "name": "故事引擎：随心所叙 EULA",
+        "url": "https://store.steampowered.com//eula/4763330_eula_0",
+        "version": "1"
+      }
+    },
     "gameid": "4763330",
     "genres": {
       "0": "25",
@@ -195,14 +239,14 @@
     "4763331": {
       "manifests": {
         "public": {
-          "download": "2691542688",
-          "gid": "5709965519273660610",
-          "size": "2846008230"
+          "download": "2691526544",
+          "gid": "6369092967035183182",
+          "size": "2846036774"
         },
         "test": {
-          "download": "2691542688",
-          "gid": "5709965519273660610",
-          "size": "2846008230"
+          "download": "2691526544",
+          "gid": "6369092967035183182",
+          "size": "2846036774"
         }
       }
     },
@@ -212,29 +256,29 @@
       },
       "manifests": {
         "public": {
-          "download": "2690417760",
-          "gid": "4955668730934651327",
-          "size": "2836120644"
+          "download": "2616755984",
+          "gid": "3435591384726792835",
+          "size": "2750862851"
         },
         "test": {
-          "download": "2690417760",
-          "gid": "4955668730934651327",
-          "size": "2836120644"
+          "download": "2616755984",
+          "gid": "3435591384726792835",
+          "size": "2750862851"
         }
       }
     },
     "baselanguages": "english,schinese",
     "branches": {
       "public": {
-        "buildid": "24971873",
-        "timebuildupdated": "1787838129",
-        "timeupdated": "1787838716"
+        "buildid": "25145456",
+        "timebuildupdated": "1788641975",
+        "timeupdated": "1788642173"
       },
       "test": {
-        "buildid": "24971873",
+        "buildid": "25145456",
         "description": "测试使用",
-        "timebuildupdated": "1787838129",
-        "timeupdated": "1787838129"
+        "timebuildupdated": "1788641975",
+        "timeupdated": "1788641975"
       }
     }
   },
@@ -242,5 +286,29 @@
     "developer": "kening wang",
     "isfreeapp": "1",
     "publisher": "kening wang"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "data/characters",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "user_data",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "data/worlds",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
   }
 }

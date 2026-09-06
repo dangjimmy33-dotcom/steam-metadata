@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1788630870,
-  "_history": [],
-  "_change_number": 38521484,
-  "_missing_token": true,
-  "_sha": "b0681571b50a1dc36742469326971036edefbc65",
-  "_size": 3903,
+  "_lastChecked": 1788675401,
+  "_history": [
+    {
+      "buildId": "24116999",
+      "branch": "local",
+      "timeUpdated": 1783546511,
+      "firstSeen": 1788675401,
+      "manifests": {
+        "4926401": {
+          "gid": "3552987120548425601",
+          "size": 133484348,
+          "download": 40295152
+        }
+      }
+    },
+    {
+      "buildId": "25143660",
+      "branch": "public",
+      "timeUpdated": 1788630925,
+      "firstSeen": 1788675401,
+      "manifests": {
+        "4926401": {
+          "gid": "4253597242538670209",
+          "size": 182409320,
+          "download": 68958464
+        }
+      }
+    }
+  ],
+  "_change_number": 38635017,
+  "_missing_token": false,
+  "_sha": "5f45827b983c124ab7dcf2a54e051619e0e93e23",
+  "_size": 5392,
   "appid": "4926400",
   "common": {
     "aicontenttype": "1",
@@ -44,9 +71,9 @@
     "clienticns": "51cf4701c8cc77c072cc572e8946e28ea07ad5c3",
     "clienticon": "556e7797168489f6bb18d5f2bd0790b3f29be6bb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4926400",
     "genres": {
       "0": "4",
@@ -123,11 +150,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d2ed4c618c44143d68443113e814072d0a087106/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1788297230",
+    "steam_release_date": "1788630976",
+    "store_asset_mtime": "1788644574",
     "store_tags": {
       "0": "597",
       "1": "1664",
@@ -185,5 +213,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Numble",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Standard Game Start",
+        "description_loc": {
+          "english": "Standard Game Start"
+        },
+        "executable": "NumbleGame.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4926401": {
+      "manifests": {
+        "local": {
+          "download": "40295152",
+          "gid": "3552987120548425601",
+          "size": "133484348"
+        },
+        "public": {
+          "download": "68958464",
+          "gid": "4253597242538670209",
+          "size": "182409320"
+        }
+      }
+    },
+    "branches": {
+      "local": {
+        "buildid": "24116999",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1783546511",
+        "timeupdated": "1783546511"
+      },
+      "public": {
+        "buildid": "25143660",
+        "timebuildupdated": "1788629894",
+        "timeupdated": "1788630925"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "PlaywithK",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.playwithk.de/en/projects/games/numble",
+    "listofdlc": "4988480",
+    "publisher": "PlaywithK"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "5000000",
+    "savefiles": {
+      "0": {
+        "path": "PlaywithK/Numble",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }
