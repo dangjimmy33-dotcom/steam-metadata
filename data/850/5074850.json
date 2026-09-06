@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788692079,
-  "_history": [],
-  "_change_number": 38457130,
-  "_missing_token": true,
-  "_sha": "33769a38040b6d6152b0fc05ccf21da25d3ae95c",
-  "_size": 3388,
+  "_lastChecked": 1788698208,
+  "_history": [
+    {
+      "buildId": "25151837",
+      "branch": "public",
+      "timeUpdated": 1788697657,
+      "firstSeen": 1788698208,
+      "manifests": {
+        "5074851": {
+          "gid": "1541002190101475186",
+          "size": 197919569,
+          "download": 52529136
+        }
+      }
+    }
+  ],
+  "_change_number": 38643722,
+  "_missing_token": false,
+  "_sha": "6bc7710b2dd361746379668e9f526f0d48b70879",
+  "_size": 3975,
   "appid": "5074850",
   "common": {
     "aicontenttype": "1",
@@ -39,7 +53,6 @@
     "clienticon": "576f5c5d47988e0ba53510b015dbf3d0a767b7ac",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5074850",
     "genres": {
       "0": "1",
@@ -112,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2d9e87d15a37be10886899835129b8facb7dd590/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788411490",
     "store_asset_mtime": "1787576178",
     "store_tags": {
       "0": "4736",
@@ -155,5 +169,36 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SplatStick",
+    "launch": {
+      "0": {
+        "executable": "Splatstick.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65520",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5074851": {
+      "manifests": {
+        "public": {
+          "download": "52529136",
+          "gid": "1541002190101475186",
+          "size": "197919569"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25151837",
+        "timebuildupdated": "1788697495",
+        "timeupdated": "1788697657"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Ramil Nasrullaev",
+    "publisher": "Ramil Nasrullaev"
+  }
 }

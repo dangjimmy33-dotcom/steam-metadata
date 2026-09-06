@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788692075,
-  "_history": [],
-  "_change_number": 38159144,
-  "_missing_token": true,
-  "_sha": "f67509a258ece235f45d9dc96c58d62d2ae05a2e",
-  "_size": 2679,
+  "_lastChecked": 1788698204,
+  "_history": [
+    {
+      "buildId": "25093259",
+      "branch": "public",
+      "timeUpdated": 1788403430,
+      "firstSeen": 1788698204,
+      "manifests": {
+        "5069551": {
+          "gid": "1907136637166895412",
+          "size": 794898277,
+          "download": 320493536
+        }
+      }
+    }
+  ],
+  "_change_number": 38643398,
+  "_missing_token": false,
+  "_sha": "1d456f38c3afb829e832c3ec899d4c95eb1c484e",
+  "_size": 3180,
   "appid": "5069550",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "14ee4754c71eca188c5360bbadcdfa10feaf21a8",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5069550",
     "genres": {
       "0": "1",
@@ -95,7 +108,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9d2154d6693f0519a763dab780f019bcfa4231c8/capsule_231x87.jpg"
     },
@@ -120,5 +133,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Don't Stop Mike",
+    "launch": {
+      "0": {
+        "executable": "Don't Stop Mike.exe"
+      }
+    }
+  },
+  "depots": {
+    "5069551": {
+      "manifests": {
+        "public": {
+          "download": "320493536",
+          "gid": "1907136637166895412",
+          "size": "794898277"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25093259",
+        "timebuildupdated": "1788403142",
+        "timeupdated": "1788403430"
+      }
+    }
+  },
+  "extended": {
+    "developer": "VOXELKING",
+    "publisher": "VOXELKING"
+  }
 }
