@@ -63,8 +63,8 @@ jobs:
             echo "No new updates found."
           else
             git commit -m "Auto-update: sync latest Steam metadata [skip ci]"
-            # Lấy code mới nhất từ remote về và gộp (rebase) để tránh lỗi rejected
-            git pull --rebase origin main || true
+            # Bỏ qua pull --rebase nếu có lỗi, dùng chiến thuật merge an toàn hơn
+            git pull origin main --no-edit || true
             git push origin main
           fi
 
