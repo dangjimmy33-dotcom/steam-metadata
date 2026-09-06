@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788677307,
+  "_lastChecked": 1788682715,
   "_history": [
     {
       "buildId": "21856128",
@@ -25,10 +25,10 @@
       }
     }
   ],
-  "_change_number": 38370051,
+  "_change_number": 38640123,
   "_missing_token": false,
-  "_sha": "75de1f843f9ac86161cbc062b8b2e19b6dbd7004",
-  "_size": 9720,
+  "_sha": "26182640e9880f5c2f267f7ef372c9ae23f04d55",
+  "_size": 9957,
   "appid": "1551360",
   "common": {
     "associations": {
@@ -178,7 +178,7 @@
         "hdr_support": "0",
         "non_deck_display_glyphs": "0",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-experimental",
+        "recommended_runtime": "proton-stable",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -187,7 +187,7 @@
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "0",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
       "steam_machine_compatibility": "2",
       "steam_machine_tests": {
@@ -197,9 +197,13 @@
         },
         "1": {
           "display": "4",
-          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "3": {
           "display": "4",
           "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
         }
@@ -215,7 +219,7 @@
           "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
         }
       },
-      "test_timestamp": "1781049600",
+      "test_timestamp": "1787769067",
       "tested_build_id": "21856128",
       "tests": {
         "0": {
@@ -224,13 +228,17 @@
         },
         "1": {
           "display": "4",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "2": {
           "display": "4",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
         },
         "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "4": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
         }
@@ -248,8 +256,8 @@
       "14": "21978",
       "15": "4182",
       "16": "4166",
-      "17": "5411",
-      "18": "1775",
+      "17": "1775",
+      "18": "5411",
       "19": "19",
       "2": "1644",
       "3": "3859",

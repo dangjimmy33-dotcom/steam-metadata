@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788676964,
+  "_lastChecked": 1788682329,
   "_history": [
     {
       "buildId": "25138616",
@@ -46,12 +46,35 @@
           "download": 4997776
         }
       }
+    },
+    {
+      "buildId": "25149892",
+      "branch": "nightly",
+      "timeUpdated": 1788682279,
+      "firstSeen": 1788682329,
+      "manifests": {
+        "1222630": {
+          "gid": "1738197724313621131",
+          "size": 28647824,
+          "download": 3894512
+        },
+        "1790170": {
+          "gid": "5480392001921852773",
+          "size": 30845060,
+          "download": 4163520
+        },
+        "1790171": {
+          "gid": "9210393250030055197",
+          "size": 50227468,
+          "download": 6362368
+        }
+      }
     }
   ],
-  "_change_number": 38624154,
+  "_change_number": 38640760,
   "_missing_token": false,
-  "_sha": "43dbce0535163fa30b50e522140bbf1b373df700",
-  "_size": 3831,
+  "_sha": "916db298a529c84a4f8a09acb8c7059c94cf0003",
+  "_size": 3832,
   "appid": "1222630",
   "common": {
     "associations": {
@@ -179,8 +202,8 @@
       "dlcappid": "1222630",
       "manifests": {
         "nightly": {
-          "download": "3894496",
-          "gid": "974381555760590351",
+          "download": "3894512",
+          "gid": "1738197724313621131",
           "size": "28647824"
         },
         "public": {
@@ -217,8 +240,8 @@
       "dlcappid": "1222630",
       "manifests": {
         "nightly": {
-          "download": "6362336",
-          "gid": "1150145571315301206",
+          "download": "6362368",
+          "gid": "9210393250030055197",
           "size": "50227468"
         },
         "public": {
@@ -231,10 +254,10 @@
     "appmanagesdlc": "1",
     "branches": {
       "nightly": {
-        "buildid": "25138616",
+        "buildid": "25149892",
         "description": "Nightly unstable builds",
-        "timebuildupdated": "1788595543",
-        "timeupdated": "1788595543"
+        "timebuildupdated": "1788682279",
+        "timeupdated": "1788682279"
       },
       "public": {
         "buildid": "20833839",

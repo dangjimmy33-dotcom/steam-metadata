@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788677481,
+  "_lastChecked": 1788682909,
   "_history": [
     {
       "buildId": "24502742",
@@ -39,12 +39,38 @@
           "download": 228497264
         }
       }
+    },
+    {
+      "buildId": "25090482",
+      "branch": "public",
+      "timeUpdated": 1788390329,
+      "firstSeen": 1788682909,
+      "manifests": {
+        "1700871": {
+          "gid": "813815888833719012",
+          "size": 890395532,
+          "download": 278694720
+        }
+      }
+    },
+    {
+      "buildId": "25090482",
+      "branch": "testing",
+      "timeUpdated": 1788390226,
+      "firstSeen": 1788682909,
+      "manifests": {
+        "1700871": {
+          "gid": "813815888833719012",
+          "size": 890395532,
+          "download": 278694720
+        }
+      }
     }
   ],
-  "_change_number": 38485091,
+  "_change_number": 38640118,
   "_missing_token": false,
-  "_sha": "0b38c99a55c9ae4cb4e77d41523660f01a9bb5a9",
-  "_size": 9414,
+  "_sha": "a1a80d9792913b36532750ca6211b3578c32dc0c",
+  "_size": 9412,
   "appid": "1700870",
   "common": {
     "associations": {
@@ -265,7 +291,7 @@
     "store_tags": {
       "0": "87918",
       "1": "10235",
-      "10": "220585",
+      "10": "3810",
       "11": "492",
       "12": "1643",
       "13": "597",
@@ -280,9 +306,9 @@
       "4": "122",
       "5": "1654",
       "6": "599",
-      "7": "22602",
-      "8": "1702",
-      "9": "3810"
+      "7": "1702",
+      "8": "22602",
+      "9": "220585"
     },
     "supported_languages": {
       "brazilian": {
@@ -365,14 +391,14 @@
       },
       "manifests": {
         "public": {
-          "download": "278634224",
-          "gid": "5428665959786812638",
-          "size": "890068804"
+          "download": "278694720",
+          "gid": "813815888833719012",
+          "size": "890395532"
         },
         "testing": {
-          "download": "278695456",
-          "gid": "1262333075421147081",
-          "size": "890374804"
+          "download": "278694720",
+          "gid": "813815888833719012",
+          "size": "890395532"
         },
         "update16": {
           "download": "228497264",
@@ -384,15 +410,15 @@
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,polish,hungarian,brazilian",
     "branches": {
       "public": {
-        "buildid": "24502742",
-        "timebuildupdated": "1785541833",
-        "timeupdated": "1785597796"
+        "buildid": "25090482",
+        "timebuildupdated": "1788389791",
+        "timeupdated": "1788390329"
       },
       "testing": {
-        "buildid": "24824112",
+        "buildid": "25090482",
         "description": "test Clanfolk between major version releases",
-        "timebuildupdated": "1787163609",
-        "timeupdated": "1787164579"
+        "timebuildupdated": "1788389791",
+        "timeupdated": "1788390226"
       },
       "update16": {
         "buildid": "17730231",

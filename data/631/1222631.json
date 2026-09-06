@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788676964,
+  "_lastChecked": 1788682329,
   "_history": [
     {
       "buildId": "25138597",
@@ -46,12 +46,35 @@
           "download": 3338528
         }
       }
+    },
+    {
+      "buildId": "25149872",
+      "branch": "nightly",
+      "timeUpdated": 1788682158,
+      "firstSeen": 1788682329,
+      "manifests": {
+        "1222631": {
+          "gid": "3262649098563614951",
+          "size": 8286032,
+          "download": 1903104
+        },
+        "1790160": {
+          "gid": "7115916052704508020",
+          "size": 8308748,
+          "download": 1688208
+        },
+        "1790161": {
+          "gid": "553006792388983831",
+          "size": 20130788,
+          "download": 3605312
+        }
+      }
     }
   ],
-  "_change_number": 38624130,
+  "_change_number": 38640734,
   "_missing_token": false,
-  "_sha": "611976e9b38cec419aee8a5bf2a20fdc1e71fd13",
-  "_size": 4121,
+  "_sha": "8529a3a37f3bf0b8ed31fd80d9f242ea342dec24",
+  "_size": 4120,
   "appid": "1222631",
   "common": {
     "associations": {
@@ -199,7 +222,7 @@
       "manifests": {
         "nightly": {
           "download": "1903104",
-          "gid": "1204596259183852650",
+          "gid": "3262649098563614951",
           "size": "8286032"
         },
         "public": {
@@ -236,8 +259,8 @@
       "dlcappid": "1222631",
       "manifests": {
         "nightly": {
-          "download": "3605328",
-          "gid": "7065007340170566735",
+          "download": "3605312",
+          "gid": "553006792388983831",
           "size": "20130788"
         },
         "public": {
@@ -250,10 +273,10 @@
     "appmanagesdlc": "1",
     "branches": {
       "nightly": {
-        "buildid": "25138597",
+        "buildid": "25149872",
         "description": "Nightly unstable builds",
-        "timebuildupdated": "1788595429",
-        "timeupdated": "1788595429"
+        "timebuildupdated": "1788682158",
+        "timeupdated": "1788682158"
       },
       "public": {
         "buildid": "20833818",
