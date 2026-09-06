@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788720314,
+  "_lastChecked": 1788727001,
   "_history": [
     {
       "buildId": "23837699",
@@ -38,12 +38,55 @@
           "download": 465404512
         }
       }
+    },
+    {
+      "buildId": "25155463",
+      "branch": "public",
+      "timeUpdated": 1788720780,
+      "firstSeen": 1788727001,
+      "manifests": {
+        "2982221": {
+          "gid": "5405655487159423718",
+          "size": 2688162443,
+          "download": 2531622512
+        },
+        "2982222": {
+          "gid": "371308473596332173",
+          "size": 2600052180,
+          "download": 2530167824
+        },
+        "3349040": {
+          "gid": "7015090733189527461",
+          "size": 769991145,
+          "download": 743543600
+        },
+        "3457680": {
+          "gid": "8566722429327935084",
+          "size": 1018,
+          "download": 672
+        },
+        "3911510": {
+          "gid": "6418654417125120991",
+          "size": 972496069,
+          "download": 951157600
+        },
+        "4225810": {
+          "gid": "4253837288182049581",
+          "size": 1045,
+          "download": 704
+        },
+        "4775570": {
+          "gid": "8309596402257264165",
+          "size": 477010120,
+          "download": 465404512
+        }
+      }
     }
   ],
-  "_change_number": 38647969,
+  "_change_number": 38649356,
   "_missing_token": false,
-  "_sha": "989ca5b4d53b440630cdfdd17418f5702542f5f0",
-  "_size": 5715,
+  "_sha": "b198c88b3f99cc5decca4ca395bfc2857f790d75",
+  "_size": 5854,
   "appid": "2982220",
   "common": {
     "associations": {
@@ -250,6 +293,13 @@
     "2982222": {
       "config": {
         "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2530167824",
+          "gid": "371308473596332173",
+          "size": "2600052180"
+        }
       }
     },
     "3349040": {
@@ -305,9 +355,9 @@
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "23837699",
-        "timebuildupdated": "1781982723",
-        "timeupdated": "1781982753"
+        "buildid": "25155463",
+        "timebuildupdated": "1788720780",
+        "timeupdated": "1788720780"
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788716993,
+  "_lastChecked": 1788723682,
   "_history": [
     {
       "buildId": "8767385",
@@ -20,10 +20,10 @@
       }
     }
   ],
-  "_change_number": 33682201,
+  "_change_number": 38649608,
   "_missing_token": false,
-  "_sha": "31295c746cdb7f42576541e722d6c6dd8f09ca44",
-  "_size": 2814,
+  "_sha": "11bdf748309d70cb4ea2ceba52c96771b691cd9a",
+  "_size": 3990,
   "appid": "541190",
   "common": {
     "associations": {
@@ -59,7 +59,6 @@
         "url": "http://store.steampowered.com//eula/541190_eula_0"
       }
     },
-    "exfgls": "3",
     "gameid": "541190",
     "genres": {
       "0": "25",
@@ -110,6 +109,7 @@
     "launch": {
       "0": {
         "config": {
+          "betakey": "public",
           "oslist": "windows"
         },
         "executable": "Nodiatis.exe",
@@ -117,9 +117,51 @@
       },
       "1": {
         "config": {
+          "betakey": "public",
           "oslist": "macos"
         },
         "executable": "Nodiatis.app",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "--steam",
+        "config": {
+          "betakey": "electron-test",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Nodiatis Electron (private test)",
+        "description_loc": {
+          "english": "Nodiatis Electron (private test)"
+        },
+        "executable": "nodiatis.exe",
+        "type": "default"
+      },
+      "3": {
+        "arguments": "--steam",
+        "config": {
+          "betakey": "electron-test",
+          "oslist": "macos"
+        },
+        "description": "Nodiatis Electron (private test)",
+        "description_loc": {
+          "english": "Nodiatis Electron (private test)"
+        },
+        "executable": "nodiatis.app",
+        "type": "default"
+      },
+      "4": {
+        "arguments": "--steam",
+        "config": {
+          "betakey": "electron-test",
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Nodiatis Electron (private test)",
+        "description_loc": {
+          "english": "Nodiatis Electron (private test)"
+        },
+        "executable": "nodiatis",
         "type": "default"
       }
     }
@@ -149,13 +191,21 @@
         }
       }
     },
+    "541193": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {}
+    },
     "baselanguages": "english",
     "branches": {
       "public": {
         "buildid": "8767385",
+        "timebuildupdated": "1652929496",
         "timeupdated": "1652929539"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Glitchless, LLC",

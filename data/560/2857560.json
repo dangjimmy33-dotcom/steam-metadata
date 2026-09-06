@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788720154,
+  "_lastChecked": 1788726842,
   "_history": [
     {
       "buildId": "15014625",
@@ -36,12 +36,40 @@
           "download": 410762192
         }
       }
+    },
+    {
+      "buildId": "25156490",
+      "branch": "public",
+      "timeUpdated": 1788726675,
+      "firstSeen": 1788726842,
+      "manifests": {
+        "2857561": {
+          "gid": "5891115138859857396",
+          "size": 115620043,
+          "download": 105602640
+        },
+        "2857562": {
+          "gid": "5223607307747676101",
+          "size": 7772048,
+          "download": 2979264
+        },
+        "2857563": {
+          "gid": "8530811066753155192",
+          "size": 1136650378,
+          "download": 410762192
+        },
+        "2857564": {
+          "gid": "8237249751079126527",
+          "size": 12865993,
+          "download": 4148000
+        }
+      }
     }
   ],
-  "_change_number": 38648984,
+  "_change_number": 38650790,
   "_missing_token": false,
-  "_sha": "e6f0097e62d4cb4c02d475661d7a7b97d720a59a",
-  "_size": 5924,
+  "_sha": "45da932326656585e4d9bc8a678197363b94cca9",
+  "_size": 6188,
   "appid": "2857560",
   "common": {
     "associations": {
@@ -135,8 +163,8 @@
     },
     "name": "Helbreath Nemesis",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows,linux",
+    "osextended": "macos64",
+    "oslist": "windows,macos,linux",
     "primary_genre": "37",
     "releasestate": "released",
     "review_percentage": "72",
@@ -270,6 +298,12 @@
           "oslist": "linux"
         },
         "executable": "HelGame"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "HelGame.app"
       }
     }
   },
@@ -287,9 +321,9 @@
       },
       "manifests": {
         "public": {
-          "download": "318252800",
-          "gid": "1173197397231543119",
-          "size": "1038805247"
+          "download": "105602640",
+          "gid": "5891115138859857396",
+          "size": "115620043"
         }
       }
     },
@@ -307,9 +341,6 @@
       }
     },
     "2857563": {
-      "config": {
-        "oslist": "linux"
-      },
       "manifests": {
         "public": {
           "download": "410762192",
@@ -318,12 +349,24 @@
         }
       }
     },
+    "2857564": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "4148000",
+          "gid": "8237249751079126527",
+          "size": "12865993"
+        }
+      }
+    },
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,brazilian,latam",
     "branches": {
       "public": {
-        "buildid": "25155229",
-        "timebuildupdated": "1788719271",
-        "timeupdated": "1788719271"
+        "buildid": "25156490",
+        "timebuildupdated": "1788726675",
+        "timeupdated": "1788726675"
       }
     },
     "privatebranches": "1"

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788718857,
+  "_lastChecked": 1788725546,
   "_history": [
     {
       "buildId": "24935306",
@@ -26,11 +26,37 @@
           "download": 3336655680
         }
       }
+    },
+    {
+      "buildId": "25156094",
+      "branch": "public",
+      "timeUpdated": 1788724523,
+      "firstSeen": 1788725546,
+      "manifests": {
+        "1867321": {
+          "gid": "5255262805041407056",
+          "size": 3557437092,
+          "download": 3344270464
+        }
+      }
+    },
+    {
+      "buildId": "25156094",
+      "branch": "testing",
+      "timeUpdated": 1788724470,
+      "firstSeen": 1788725546,
+      "manifests": {
+        "1867321": {
+          "gid": "5255262805041407056",
+          "size": 3557437092,
+          "download": 3344270464
+        }
+      }
     }
   ],
-  "_change_number": 38326311,
+  "_change_number": 38650288,
   "_missing_token": false,
-  "_sha": "e607a032ae1c4387e5d8712f38b67a6d7cae8d94",
+  "_sha": "0b6573042a4d374a1457a1a8a17446fbce28e782",
   "_size": 4823,
   "appid": "1867320",
   "common": {
@@ -194,14 +220,14 @@
       },
       "manifests": {
         "public": {
-          "download": "3336655680",
-          "gid": "5634553590150796530",
-          "size": "3549705761"
+          "download": "3344270464",
+          "gid": "5255262805041407056",
+          "size": "3557437092"
         },
         "testing": {
-          "download": "3336655680",
-          "gid": "5634553590150796530",
-          "size": "3549705761"
+          "download": "3344270464",
+          "gid": "5255262805041407056",
+          "size": "3557437092"
         }
       }
     },
@@ -221,15 +247,15 @@
     },
     "branches": {
       "public": {
-        "buildid": "24935306",
-        "timebuildupdated": "1787685835",
-        "timeupdated": "1787685867"
+        "buildid": "25156094",
+        "timebuildupdated": "1788724470",
+        "timeupdated": "1788724523"
       },
       "testing": {
-        "buildid": "24935306",
+        "buildid": "25156094",
         "description": "Testing Branch",
-        "timebuildupdated": "1787685835",
-        "timeupdated": "1787685835"
+        "timebuildupdated": "1788724470",
+        "timeupdated": "1788724470"
       }
     },
     "workshopdepot": "1867320"

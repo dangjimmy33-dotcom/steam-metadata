@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788718642,
+  "_lastChecked": 1788725332,
   "_history": [
     {
       "buildId": "25049266",
@@ -36,11 +36,29 @@
           "download": 36845040
         }
       }
+    },
+    {
+      "buildId": "25155341",
+      "branch": "beta",
+      "timeUpdated": 1788720100,
+      "firstSeen": 1788725332,
+      "manifests": {
+        "1718751": {
+          "gid": "1928565363320666068",
+          "size": 19399082745,
+          "download": 14440660032
+        },
+        "1718752": {
+          "gid": "5577256517313002238",
+          "size": 80709632,
+          "download": 37492000
+        }
+      }
     }
   ],
-  "_change_number": 38493806,
+  "_change_number": 38649160,
   "_missing_token": false,
-  "_sha": "b49111d170323b5a5bdcdcce849aee08d4fc2437",
+  "_sha": "913d81fd803f22d99ebd76505d11f09e4bda63d8",
   "_size": 2858,
   "appid": "1718750",
   "common": {
@@ -142,9 +160,9 @@
       "dlcappid": "1718750",
       "manifests": {
         "beta": {
-          "download": "37408112",
-          "gid": "8763172987017873063",
-          "size": "80502784"
+          "download": "37492000",
+          "gid": "5577256517313002238",
+          "size": "80709632"
         },
         "public": {
           "download": "36845040",
@@ -155,10 +173,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25049266",
+        "buildid": "25155341",
         "description": "SVFI Beta Test",
-        "timebuildupdated": "1788230156",
-        "timeupdated": "1788230602"
+        "timebuildupdated": "1788720100",
+        "timeupdated": "1788720100"
       },
       "public": {
         "buildid": "24819496",

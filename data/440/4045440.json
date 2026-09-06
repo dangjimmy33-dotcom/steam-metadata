@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788721639,
+  "_lastChecked": 1788728324,
   "_history": [
     {
       "buildId": "24602928",
@@ -13,12 +13,25 @@
           "download": 72708016
         }
       }
+    },
+    {
+      "buildId": "25155901",
+      "branch": "public",
+      "timeUpdated": 1788723343,
+      "firstSeen": 1788728324,
+      "manifests": {
+        "4045441": {
+          "gid": "4558861861283333426",
+          "size": 251801930,
+          "download": 72119408
+        }
+      }
     }
   ],
-  "_change_number": 37850572,
+  "_change_number": 38650599,
   "_missing_token": false,
-  "_sha": "b65b71ef378d1a4fd4a7f875502506477fa267a1",
-  "_size": 3772,
+  "_sha": "26bbbc38a9f3493d824e3f370020ba3a31d8a04f",
+  "_size": 3867,
   "appid": "4045440",
   "common": {
     "aicontenttype": "1",
@@ -114,8 +127,8 @@
     },
     "name": "Traitor's Kitchen",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
     "small_capsule": {
@@ -169,17 +182,22 @@
     "4045441": {
       "manifests": {
         "public": {
-          "download": "72708016",
-          "gid": "1648660284083150229",
-          "size": "256530231"
+          "download": "72119408",
+          "gid": "4558861861283333426",
+          "size": "251801930"
         }
+      }
+    },
+    "4045442": {
+      "config": {
+        "oslist": "macos"
       }
     },
     "branches": {
       "public": {
-        "buildid": "24602928",
-        "timebuildupdated": "1786059923",
-        "timeupdated": "1786060005"
+        "buildid": "25155901",
+        "timebuildupdated": "1788723317",
+        "timeupdated": "1788723343"
       }
     }
   },
