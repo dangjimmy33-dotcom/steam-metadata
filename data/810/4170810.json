@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788697294,
-  "_history": [],
-  "_change_number": 38642845,
-  "_missing_token": true,
-  "_sha": "fe8709331063140ca4c379a80863c4bb743f03e1",
-  "_size": 8161,
+  "_lastChecked": 1788702950,
+  "_history": [
+    {
+      "buildId": "25152140",
+      "branch": "public",
+      "timeUpdated": 1788699819,
+      "firstSeen": 1788702950,
+      "manifests": {
+        "4170811": {
+          "gid": "2962454986730979888",
+          "size": 431900135,
+          "download": 170435024
+        }
+      }
+    }
+  ],
+  "_change_number": 38644362,
+  "_missing_token": false,
+  "_sha": "635b6bf34760b330e5ce57550498ebdbff57c661",
+  "_size": 8908,
   "appid": "4170810",
   "common": {
     "associations": {
@@ -31,8 +45,8 @@
     },
     "clienticon": "c4e6071a5b27e01fdc2d1b1f02f5e1d4eb277555",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4170810",
     "genres": {
       "0": "4",
@@ -161,7 +175,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "294330314c07713efa60ccbccb212094c28fe088/capsule_231x87.jpg",
       "french": "290ecede5ff0af7dbd238a882c920f3f21d32baf/capsule_231x87_french.jpg",
@@ -171,6 +185,7 @@
       "russian": "340aad1c491abbce53082b3965870ecfe32ad9e8/capsule_231x87_russian.jpg",
       "schinese": "df72b3c85cf404fd1f75a7bdc64ffb38df7c0b3c/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1788700020",
     "store_asset_mtime": "1788620834",
     "store_tags": {
       "0": "597",
@@ -215,5 +230,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PuzzleTwist",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "PuzzleTwist\\Puzzle Twist.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4170811": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "170435024",
+          "gid": "2962454986730979888",
+          "size": "431900135"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,japanese,koreana,russian,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25152140",
+        "timebuildupdated": "1788699799",
+        "timeupdated": "1788699819"
+      }
+    }
+  },
+  "extended": {
+    "developer": "liaosishan1",
+    "publisher": "liaosishan1"
+  }
 }

@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1788697473,
-  "_history": [],
-  "_change_number": 38643587,
-  "_missing_token": true,
-  "_sha": "1987d33d535a73dd6519ea7ed24f21c5a3a1b81a",
-  "_size": 4328,
+  "_lastChecked": 1788703111,
+  "_history": [
+    {
+      "buildId": "25123053",
+      "branch": "final",
+      "timeUpdated": 1788697546,
+      "firstSeen": 1788703111,
+      "manifests": {
+        "4327641": {
+          "gid": "59137314243226035",
+          "size": 1288428683,
+          "download": 965945728
+        }
+      }
+    },
+    {
+      "buildId": "21546634",
+      "branch": "public",
+      "timeUpdated": 1768764804,
+      "firstSeen": 1788703111,
+      "manifests": {
+        "4327641": {
+          "gid": "8430749816262217533",
+          "size": 1105188077,
+          "download": 844000592
+        }
+      }
+    }
+  ],
+  "_change_number": 38643794,
+  "_missing_token": false,
+  "_sha": "b58280e35701fb79b22f51507505977e6c51f65d",
+  "_size": 5252,
   "appid": "4327640",
   "common": {
     "associations": {
@@ -32,7 +59,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4327640",
     "genres": {
       "0": "4",
@@ -115,11 +141,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "78c75f0507fa5da164b15a3e992a9ec357ecfaaa/capsule_231x87.jpg",
       "koreana": "44002c08ebcae0c86eb3e9c800d93c48efb58bcf/capsule_231x87_koreana.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1772961243",
     "store_tags": {
       "0": "597",
@@ -160,5 +187,51 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "컬러팅! 캐치&라비 (Colorting! Catch&Rabi)",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Colorting.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4327641": {
+      "manifests": {
+        "final": {
+          "download": "965945728",
+          "gid": "59137314243226035",
+          "size": "1288428683"
+        },
+        "public": {
+          "download": "844000592",
+          "gid": "8430749816262217533",
+          "size": "1105188077"
+        }
+      }
+    },
+    "branches": {
+      "final": {
+        "buildid": "25123053",
+        "description": "final_build",
+        "timebuildupdated": "1788522607",
+        "timeupdated": "1788697546"
+      },
+      "public": {
+        "buildid": "21546634",
+        "timebuildupdated": "1768764772",
+        "timeupdated": "1768764804"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Palette",
+    "isfreeapp": "1",
+    "publisher": "청강문화산업대학교"
+  }
 }

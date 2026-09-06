@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788697688,
+  "_lastChecked": 1788703307,
   "_history": [
     {
       "buildId": "25141004",
@@ -92,11 +92,34 @@
           "download": 7070672
         }
       }
+    },
+    {
+      "buildId": "25152619",
+      "branch": "beta",
+      "timeUpdated": 1788703245,
+      "firstSeen": 1788703307,
+      "manifests": {
+        "4536721": {
+          "gid": "3072015016380052214",
+          "size": 26498835,
+          "download": 11595456
+        },
+        "4536722": {
+          "gid": "5929152179265717418",
+          "size": 22066134,
+          "download": 10506864
+        },
+        "4536723": {
+          "gid": "4861482898397406377",
+          "size": 13069964,
+          "download": 7073664
+        }
+      }
     }
   ],
-  "_change_number": 38642701,
+  "_change_number": 38644887,
   "_missing_token": false,
-  "_sha": "3921e8a4e1cd78a257930b4a043301d69f2ca803",
+  "_sha": "47750b8567037ad0be398ccd10fcf0ba858e593d",
   "_size": 6980,
   "appid": "4536720",
   "common": {
@@ -288,7 +311,7 @@
         "type": "default"
       }
     },
-    "steamconfigurator3rdpartynative": "2",
+    "steamconfigurator3rdpartynative": "3",
     "steamcontrollertemplateindex": "13",
     "steamdecktouchscreen": "4",
     "steaminputmanifestpath": "steam_input_manifest.vdf",
@@ -303,9 +326,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "11591568",
-          "gid": "5454134072092704705",
-          "size": "26477433"
+          "download": "11595456",
+          "gid": "3072015016380052214",
+          "size": "26498835"
         },
         "public": {
           "download": "11756464",
@@ -322,9 +345,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "10501120",
-          "gid": "5892339311445915750",
-          "size": "22027724"
+          "download": "10506864",
+          "gid": "5929152179265717418",
+          "size": "22066134"
         },
         "public": {
           "download": "10431312",
@@ -341,9 +364,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "7070672",
-          "gid": "2016974737863545042",
-          "size": "13051000"
+          "download": "7073664",
+          "gid": "4861482898397406377",
+          "size": "13069964"
         },
         "public": {
           "download": "7046176",
@@ -354,10 +377,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25151222",
+        "buildid": "25152619",
         "description": "Beta builds of the app",
-        "timebuildupdated": "1788692806",
-        "timeupdated": "1788692806"
+        "timebuildupdated": "1788703245",
+        "timeupdated": "1788703245"
       },
       "public": {
         "buildid": "25078096",

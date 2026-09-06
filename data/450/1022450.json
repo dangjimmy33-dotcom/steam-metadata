@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788693481,
+  "_lastChecked": 1788699522,
   "_history": [
     {
       "buildId": "23556456",
@@ -322,12 +322,35 @@
           "download": 37326800
         }
       }
+    },
+    {
+      "buildId": "25152071",
+      "branch": "test-update",
+      "timeUpdated": 1788699404,
+      "firstSeen": 1788699522,
+      "manifests": {
+        "1022451": {
+          "gid": "7910990848241114083",
+          "size": 5829444794,
+          "download": 2328822240
+        },
+        "1022452": {
+          "gid": "8911048008301904445",
+          "size": 88832942,
+          "download": 27510576
+        },
+        "1022453": {
+          "gid": "8022718949258265276",
+          "size": 118749470,
+          "download": 37421968
+        }
+      }
     }
   ],
-  "_change_number": 38589199,
+  "_change_number": 38644087,
   "_missing_token": false,
-  "_sha": "562c458e8fa625f95fcfb26f03bae6a56e7c1484",
-  "_size": 14554,
+  "_sha": "71e880a5216f1945cdc9cee6db65808139bbebd9",
+  "_size": 15073,
   "appid": "1022450",
   "common": {
     "associations": {
@@ -699,6 +722,11 @@
           "download": "2312781744",
           "gid": "5248138911024622171",
           "size": "5369064175"
+        },
+        "test-update": {
+          "download": "2328822240",
+          "gid": "7910990848241114083",
+          "size": "5829444794"
         }
       }
     },
@@ -777,6 +805,11 @@
           "download": "27450128",
           "gid": "3975549896386594040",
           "size": "88625582"
+        },
+        "test-update": {
+          "download": "27510576",
+          "gid": "8911048008301904445",
+          "size": "88832942"
         }
       }
     },
@@ -855,6 +888,11 @@
           "download": "37326800",
           "gid": "260118851784100423",
           "size": "118512118"
+        },
+        "test-update": {
+          "download": "37421968",
+          "gid": "8022718949258265276",
+          "size": "118749470"
         }
       }
     },
@@ -942,6 +980,12 @@
         "buildid": "25113086",
         "timebuildupdated": "1788479228",
         "timeupdated": "1788485186"
+      },
+      "test-update": {
+        "buildid": "25152071",
+        "description": "Testing the next patch",
+        "timebuildupdated": "1788699297",
+        "timeupdated": "1788699404"
       }
     }
   },

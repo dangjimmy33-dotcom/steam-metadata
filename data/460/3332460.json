@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788696341,
+  "_lastChecked": 1788702092,
   "_history": [
     {
       "buildId": "25134873",
@@ -26,11 +26,37 @@
           "download": 274284560
         }
       }
+    },
+    {
+      "buildId": "25152259",
+      "branch": "msg-nightlybuild",
+      "timeUpdated": 1788700665,
+      "firstSeen": 1788702092,
+      "manifests": {
+        "3332461": {
+          "gid": "2029061020225401463",
+          "size": 900428124,
+          "download": 274297328
+        }
+      }
+    },
+    {
+      "buildId": "25152259",
+      "branch": "public",
+      "timeUpdated": 1788700891,
+      "firstSeen": 1788702092,
+      "manifests": {
+        "3332461": {
+          "gid": "2029061020225401463",
+          "size": 900428124,
+          "download": 274297328
+        }
+      }
     }
   ],
-  "_change_number": 38618958,
+  "_change_number": 38644402,
   "_missing_token": false,
-  "_sha": "0bf1bc95ce0edc26e566bfc76f05a4a620e641e1",
+  "_sha": "d18236bc4a967a0f9188e005ebfefcaa1d539251",
   "_size": 4679,
   "appid": "3332460",
   "common": {
@@ -194,28 +220,28 @@
     "3332461": {
       "manifests": {
         "msg-nightlybuild": {
-          "download": "274284560",
-          "gid": "1123803831522854943",
-          "size": "900407660"
+          "download": "274297328",
+          "gid": "2029061020225401463",
+          "size": "900428124"
         },
         "public": {
-          "download": "274284560",
-          "gid": "1123803831522854943",
-          "size": "900407660"
+          "download": "274297328",
+          "gid": "2029061020225401463",
+          "size": "900428124"
         }
       }
     },
     "branches": {
       "msg-nightlybuild": {
-        "buildid": "25134873",
+        "buildid": "25152259",
         "description": "Nightly Builds for My Slime Garden",
-        "timebuildupdated": "1788567977",
-        "timeupdated": "1788568018"
+        "timebuildupdated": "1788700647",
+        "timeupdated": "1788700665"
       },
       "public": {
-        "buildid": "25134873",
-        "timebuildupdated": "1788567977",
-        "timeupdated": "1788568132"
+        "buildid": "25152259",
+        "timebuildupdated": "1788700647",
+        "timeupdated": "1788700891"
       }
     }
   },

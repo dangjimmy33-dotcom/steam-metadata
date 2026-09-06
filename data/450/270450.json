@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788692598,
+  "_lastChecked": 1788698736,
   "_history": [
     {
       "buildId": "25136248",
@@ -71,10 +71,10 @@
       }
     }
   ],
-  "_change_number": 38632896,
+  "_change_number": 38643150,
   "_missing_token": false,
-  "_sha": "8078e207024933b621b63fe6943bd429e5a8b85e",
-  "_size": 4807,
+  "_sha": "d1509ab162ba5bb187e49196bdafc2fa1b1a697c",
+  "_size": 4753,
   "appid": "270450",
   "common": {
     "associations": {
@@ -177,9 +177,13 @@
     "launch": {
       "0": {
         "config": {
+          "osarch": "64",
           "oslist": "windows"
         },
         "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
         "executable": "Disco Dodgeball.exe"
       },
       "1": {
@@ -188,13 +192,6 @@
         },
         "description": "Launch",
         "executable": "Disco Dodgeball.app"
-      },
-      "2": {
-        "config": {
-          "oslist": "linux"
-        },
-        "description": "Launch",
-        "executable": "Disco Dodgeball.x86"
       },
       "3": {
         "config": {

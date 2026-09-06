@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788696616,
+  "_lastChecked": 1788702340,
   "_history": [
     {
       "buildId": "25043236",
@@ -13,12 +13,25 @@
           "download": 2250928832
         }
       }
+    },
+    {
+      "buildId": "25087947",
+      "branch": "public",
+      "timeUpdated": 1788379799,
+      "firstSeen": 1788702340,
+      "manifests": {
+        "3573801": {
+          "gid": "2459961032406208584",
+          "size": 4517037064,
+          "download": 2250892144
+        }
+      }
     }
   ],
-  "_change_number": 38541538,
+  "_change_number": 38644488,
   "_missing_token": false,
-  "_sha": "5be6b13dfac51950646d8d09ade52ff6211a02bc",
-  "_size": 6476,
+  "_sha": "3ec8e468f4802db9ce607cf6d1ebe4551332d3e4",
+  "_size": 6508,
   "appid": "3573800",
   "common": {
     "associations": {
@@ -55,7 +68,8 @@
     "gameid": "3573800",
     "genres": {
       "0": "1",
-      "1": "9"
+      "1": "9",
+      "2": "37"
     },
     "header_image": {
       "english": "0911b30db44c8cf1dd4d14e989d3f2d29c9c577b/header.jpg"
@@ -124,7 +138,7 @@
     "oslist": "windows",
     "primary_genre": "9",
     "releasestate": "released",
-    "review_percentage": "55",
+    "review_percentage": "52",
     "review_score": "5",
     "small_capsule": {
       "english": "8c367d2b3c9a79afe0fe233ceb9778c135721a52/capsule_231x87.jpg"
@@ -177,7 +191,7 @@
         }
       }
     },
-    "steam_release_date": "1774033642",
+    "steam_release_date": "1774033620",
     "store_asset_mtime": "1787583430",
     "store_tags": {
       "0": "9204",
@@ -286,23 +300,24 @@
     "3573801": {
       "manifests": {
         "public": {
-          "download": "2250928832",
-          "gid": "4602181577404094083",
-          "size": "4503307720"
+          "download": "2250892144",
+          "gid": "2459961032406208584",
+          "size": "4517037064"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25043236",
-        "timebuildupdated": "1788204268",
-        "timeupdated": "1788204315"
+        "buildid": "25087947",
+        "timebuildupdated": "1788379749",
+        "timeupdated": "1788379799"
       }
     }
   },
   "extended": {
     "developer": "CUBESync",
     "homepage": "https://cubesync.net",
+    "isfreeapp": "1",
     "publisher": "CUBESync"
   },
   "ufs": {
