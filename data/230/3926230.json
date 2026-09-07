@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788807773,
+  "_lastChecked": 1788815760,
   "_history": [
     {
       "buildId": "20910847",
@@ -13,12 +13,25 @@
           "download": 1784976544
         }
       }
+    },
+    {
+      "buildId": "25173659",
+      "branch": "public",
+      "timeUpdated": 1788809360,
+      "firstSeen": 1788815760,
+      "manifests": {
+        "3926231": {
+          "gid": "2949847727842963781",
+          "size": 3167523926,
+          "download": 1693208704
+        }
+      }
     }
   ],
-  "_change_number": 34986144,
+  "_change_number": 38676038,
   "_missing_token": false,
-  "_sha": "73f680361f433b144cce6f1070eb6ff3237b37b4",
-  "_size": 4085,
+  "_sha": "733699bc762ca251a09cae842be1ecb58cce39ec",
+  "_size": 4529,
   "appid": "3926230",
   "common": {
     "aicontenttype": "1",
@@ -151,8 +164,28 @@
       "9": "3834"
     },
     "supported_languages": {
+      "brazilian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "english": {
         "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "german": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "latam": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "russian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "schinese": {
         "subtitles": "true",
         "supported": "true"
       }
@@ -189,17 +222,19 @@
     "3926231": {
       "manifests": {
         "public": {
-          "download": "1784976544",
-          "gid": "7800321992164696907",
-          "size": "3356417996"
+          "download": "1693208704",
+          "gid": "2949847727842963781",
+          "size": "3167523926"
         }
       }
     },
+    "3926232": {},
+    "baselanguages": "brazilian,english,german,latam,russian,schinese",
     "branches": {
       "public": {
-        "buildid": "20910847",
-        "timebuildupdated": "1763920932",
-        "timeupdated": "1763921192"
+        "buildid": "25173659",
+        "timebuildupdated": "1788809310",
+        "timeupdated": "1788809360"
       }
     }
   },

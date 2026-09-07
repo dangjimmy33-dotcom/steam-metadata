@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788808472,
+  "_lastChecked": 1788816405,
   "_history": [
     {
       "buildId": "23698203",
@@ -26,12 +26,30 @@
           "download": 596359952
         }
       }
+    },
+    {
+      "buildId": "25174964",
+      "branch": "public",
+      "timeUpdated": 1788815666,
+      "firstSeen": 1788816405,
+      "manifests": {
+        "4498231": {
+          "gid": "3201118095519337787",
+          "size": 1423457598,
+          "download": 596359952
+        },
+        "4498232": {
+          "gid": "5250279247974379870",
+          "size": 1548199112,
+          "download": 589064960
+        }
+      }
     }
   ],
-  "_change_number": 38101065,
+  "_change_number": 38678130,
   "_missing_token": false,
-  "_sha": "5809b27234a505f4e6fbc242eb1fe0d3ab68acbc",
-  "_size": 6351,
+  "_sha": "a95590f5ea94a8d2c8893af6292c6cd3a69dfe19",
+  "_size": 6321,
   "appid": "4498230",
   "common": {
     "aicontenttype": "2",
@@ -210,6 +228,11 @@
       "9": "8369"
     },
     "supported_languages": {
+      "english": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
       "koreana": {
         "full_audio": "true",
         "subtitles": "true",
@@ -242,11 +265,6 @@
         "oslist": "windows,macos"
       },
       "manifests": {
-        "mac_0101": {
-          "download": "457066656",
-          "gid": "4079287682032193255",
-          "size": "567468800"
-        },
         "public": {
           "download": "596359952",
           "gid": "3201118095519337787",
@@ -254,24 +272,25 @@
         }
       }
     },
-    "4498231 ": {
+    "4498232": {
       "config": {
+        "language": "english",
         "oslist": "windows,macos"
       },
-      "sharedinstall": ""
+      "manifests": {
+        "public": {
+          "download": "589064960",
+          "gid": "5250279247974379870",
+          "size": "1548199112"
+        }
+      }
     },
-    "baselanguages": "koreana",
+    "baselanguages": "english,koreana",
     "branches": {
-      "mac_0101": {
-        "buildid": "23698203",
-        "description": "mac os play version",
-        "timebuildupdated": "1781255703",
-        "timeupdated": "1781255825"
-      },
       "public": {
-        "buildid": "23737204",
-        "timebuildupdated": "1781510408",
-        "timeupdated": "1781566274"
+        "buildid": "25174964",
+        "timebuildupdated": "1788815666",
+        "timeupdated": "1788815666"
       }
     },
     "hasdepotsindlc": "0"

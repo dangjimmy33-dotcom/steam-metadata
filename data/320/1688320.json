@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788804849,
+  "_lastChecked": 1788811940,
   "_history": [
     {
       "buildId": "25128797",
@@ -54,11 +54,29 @@
           "download": 62882736
         }
       }
+    },
+    {
+      "buildId": "25172800",
+      "branch": "inventory_overhaul_update",
+      "timeUpdated": 1788805658,
+      "firstSeen": 1788811940,
+      "manifests": {
+        "1688321": {
+          "gid": "3392397411463039808",
+          "size": 265328705,
+          "download": 55807392
+        },
+        "1688322": {
+          "gid": "1691986903776465178",
+          "size": 285484209,
+          "download": 62882736
+        }
+      }
     }
   ],
-  "_change_number": 38646159,
+  "_change_number": 38674720,
   "_missing_token": false,
-  "_sha": "81ee3f90ca1a279e5190596aba0b304b4be1a1c8",
+  "_sha": "6be20c6cfc4a9b1dda314c320f290a7c407193c6",
   "_size": 8258,
   "appid": "1688320",
   "common": {
@@ -329,9 +347,9 @@
       },
       "manifests": {
         "inventory_overhaul_update": {
-          "download": "55807376",
-          "gid": "5026297950622030109",
-          "size": "265328673"
+          "download": "55807392",
+          "gid": "3392397411463039808",
+          "size": "265328705"
         },
         "public": {
           "download": "55557984",
@@ -359,10 +377,10 @@
     },
     "branches": {
       "inventory_overhaul_update": {
-        "buildid": "25153408",
+        "buildid": "25172800",
         "description": "Beta for inventory and special event overhaul update",
-        "timebuildupdated": "1788708057",
-        "timeupdated": "1788708057"
+        "timebuildupdated": "1788805658",
+        "timeupdated": "1788805658"
       },
       "public": {
         "buildid": "24385643",

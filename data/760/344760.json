@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788803016,
+  "_lastChecked": 1788809866,
   "_history": [
     {
       "buildId": "4088733",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 37433691,
+  "_change_number": 38674804,
   "_missing_token": false,
-  "_sha": "1a499c501abaa1d252408f0a7e7ffced4fb8808b",
-  "_size": 4925,
+  "_sha": "15a501511d78575af5962a8ac28000ca73be6f6c",
+  "_size": 5028,
   "appid": "344760",
   "common": {
     "associations": {
@@ -141,8 +141,13 @@
         "small_text": "0",
         "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "1",
+      "steam_machine_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+        }
+      },
       "steamos_compatibility": "1",
       "steamos_tests": {
         "0": {
@@ -150,7 +155,7 @@
           "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
         }
       },
-      "test_timestamp": "1654560000",
+      "test_timestamp": "1788201091",
       "tested_build_id": "4088733",
       "tests": {
         "0": {

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788808615,
+  "_lastChecked": 1788816534,
   "_history": [
     {
       "buildId": "24306534",
@@ -26,12 +26,25 @@
           "download": 115248048
         }
       }
+    },
+    {
+      "buildId": "25174310",
+      "branch": "public",
+      "timeUpdated": 1788812423,
+      "firstSeen": 1788816534,
+      "manifests": {
+        "4622011": {
+          "gid": "427869307836321755",
+          "size": 808217905,
+          "download": 120260672
+        }
+      }
     }
   ],
-  "_change_number": 38675621,
+  "_change_number": 38676918,
   "_missing_token": false,
-  "_sha": "97568eca2c305d2411493abbc70b6e488100ff04",
-  "_size": 4626,
+  "_sha": "62d0566b8e1cf137b2611e90e9a1db87945941a2",
+  "_size": 4647,
   "appid": "4622010",
   "common": {
     "associations": {
@@ -135,7 +148,7 @@
       }
     },
     "name": "Road Defense Racing",
-    "osarch": "",
+    "osarch": "64",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "9",
@@ -146,7 +159,7 @@
       "english": "ef0100ed9b7403014c09d1995b522c5c05c371b3/capsule_231x87.jpg"
     },
     "steam_release_date": "1783962480",
-    "store_asset_mtime": "1783950160",
+    "store_asset_mtime": "1788808615",
     "store_tags": {
       "0": "4102",
       "1": "11104",
@@ -211,6 +224,7 @@
     "launch": {
       "0": {
         "config": {
+          "osarch": "64",
           "oslist": "windows"
         },
         "executable": "Road Defense Racing.exe",
@@ -222,17 +236,17 @@
     "4622011": {
       "manifests": {
         "public": {
-          "download": "115248048",
-          "gid": "8853872431133128211",
-          "size": "795478125"
+          "download": "120260672",
+          "gid": "427869307836321755",
+          "size": "808217905"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25173396",
-        "timebuildupdated": "1788808259",
-        "timeupdated": "1788808297"
+        "buildid": "25174310",
+        "timebuildupdated": "1788812392",
+        "timeupdated": "1788812423"
       }
     }
   },

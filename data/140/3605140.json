@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788807374,
+  "_lastChecked": 1788815377,
   "_history": [
     {
       "buildId": "25171493",
@@ -26,12 +26,38 @@
           "download": 841462576
         }
       }
+    },
+    {
+      "buildId": "25172148",
+      "branch": "development",
+      "timeUpdated": 1788802949,
+      "firstSeen": 1788815377,
+      "manifests": {
+        "3605141": {
+          "gid": "5434581949902390145",
+          "size": 2760496453,
+          "download": 841462576
+        }
+      }
+    },
+    {
+      "buildId": "25174081",
+      "branch": "public",
+      "timeUpdated": 1788811472,
+      "firstSeen": 1788815377,
+      "manifests": {
+        "3605141": {
+          "gid": "4652918284237558799",
+          "size": 2760519857,
+          "download": 841475344
+        }
+      }
     }
   ],
-  "_change_number": 38674723,
+  "_change_number": 38677017,
   "_missing_token": false,
-  "_sha": "a214f0abd7fc38b5a7ab6d62c9fa1a63d9afc83b",
-  "_size": 4510,
+  "_sha": "3ec0c0fe4b773bfc7520d987126943bf795160b6",
+  "_size": 4511,
   "appid": "3605140",
   "common": {
     "associations": {
@@ -129,7 +155,7 @@
     "oslist": "windows",
     "primary_genre": "1",
     "releasestate": "released",
-    "review_percentage": "8",
+    "review_percentage": "11",
     "review_score": "2",
     "small_capsule": {
       "english": "8017c6eec71b1d1b862015d92a5f0a8594c53b7c/capsule_231x87.jpg"
@@ -217,28 +243,28 @@
     "3605141": {
       "manifests": {
         "development": {
-          "download": "841473264",
-          "gid": "4953626817892676620",
-          "size": "2760516517"
-        },
-        "public": {
           "download": "841462576",
           "gid": "5434581949902390145",
           "size": "2760496453"
+        },
+        "public": {
+          "download": "841475344",
+          "gid": "4652918284237558799",
+          "size": "2760519857"
         }
       }
     },
     "branches": {
       "development": {
-        "buildid": "25171493",
-        "description": "DevelopmentBranch",
-        "timebuildupdated": "1788800077",
-        "timeupdated": "1788800079"
-      },
-      "public": {
         "buildid": "25172148",
+        "description": "DevelopmentBranch",
         "timebuildupdated": "1788802871",
         "timeupdated": "1788802949"
+      },
+      "public": {
+        "buildid": "25174081",
+        "timebuildupdated": "1788811379",
+        "timeupdated": "1788811472"
       }
     }
   },

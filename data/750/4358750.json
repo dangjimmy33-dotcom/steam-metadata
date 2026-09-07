@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788808315,
+  "_lastChecked": 1788816255,
   "_history": [
     {
       "buildId": "23933060",
@@ -23,12 +23,35 @@
           "download": 100879440
         }
       }
+    },
+    {
+      "buildId": "25174320",
+      "branch": "public",
+      "timeUpdated": 1788812508,
+      "firstSeen": 1788816255,
+      "manifests": {
+        "4358751": {
+          "gid": "2613569121099816528",
+          "size": 165846700,
+          "download": 74197296
+        },
+        "4358752": {
+          "gid": "1491062006228421050",
+          "size": 136561859,
+          "download": 66839296
+        },
+        "4358753": {
+          "gid": "991821189340455138",
+          "size": 237117266,
+          "download": 96063808
+        }
+      }
     }
   ],
-  "_change_number": 38244663,
+  "_change_number": 38676916,
   "_missing_token": false,
-  "_sha": "1a79eff3f09ecb0c5c300096628e5a6ae86f47a9",
-  "_size": 4452,
+  "_sha": "b7e2519256706838bb7d2df4148501380101b399",
+  "_size": 5183,
   "appid": "4358750",
   "common": {
     "aicontenttype": "1",
@@ -45,6 +68,9 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
       "category_62": "1",
       "category_68": "1",
       "category_74": "1",
@@ -54,10 +80,14 @@
     "clienticon": "ae2b2d402ebf65c4096306a2741c6c1774377ef2",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
     "gameid": "4358750",
     "genres": {
-      "0": "1"
+      "0": "1",
+      "1": "25",
+      "2": "4",
+      "3": "23"
     },
     "header_image": {
       "english": "7828f75eedccd8dc215f76e541b6986ecefbee9a/header.jpg"
@@ -124,13 +154,13 @@
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
-    "primary_genre": "1",
+    "primary_genre": "23",
     "releasestate": "released",
     "small_capsule": {
       "english": "424e7dc134eff82f9d0f73c2111bf684a3da1159/capsule_231x87.jpg"
     },
     "steam_release_date": "1776322704",
-    "store_asset_mtime": "1769517990",
+    "store_asset_mtime": "1788809463",
     "store_tags": {
       "0": "19",
       "1": "1662",
@@ -151,6 +181,30 @@
     "supported_languages": {
       "english": {
         "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "polish": {
+        "supported": "true"
+      },
+      "romanian": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
       }
     },
     "type": "Game"
@@ -162,10 +216,22 @@
         "config": {
           "oslist": "windows"
         },
-        "executable": "Laur's Small Game.exe"
+        "executable": "Laur's Small Game.exe",
+        "type": "default"
       },
       "1": {
-        "executable": "Laur's Small Game.x86_64"
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Laur's Small Game.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Laur's Small Game.app",
+        "type": "default"
       }
     }
   },
@@ -176,9 +242,9 @@
       },
       "manifests": {
         "public": {
-          "download": "68288048",
-          "gid": "7112873963422526481",
-          "size": "153633352"
+          "download": "74197296",
+          "gid": "2613569121099816528",
+          "size": "165846700"
         }
       }
     },
@@ -188,9 +254,9 @@
       },
       "manifests": {
         "public": {
-          "download": "61442592",
-          "gid": "8180277652771222596",
-          "size": "126562941"
+          "download": "66839296",
+          "gid": "1491062006228421050",
+          "size": "136561859"
         }
       }
     },
@@ -200,18 +266,18 @@
       },
       "manifests": {
         "public": {
-          "download": "100879440",
-          "gid": "5731801149177809037",
-          "size": "101454338"
+          "download": "96063808",
+          "gid": "991821189340455138",
+          "size": "237117266"
         }
       }
     },
     "baselanguages": "english,french,german,japanese,polish,romanian,russian,schinese,spanish",
     "branches": {
       "public": {
-        "buildid": "23933060",
-        "timebuildupdated": "1782483937",
-        "timeupdated": "1782484022"
+        "buildid": "25174320",
+        "timebuildupdated": "1788812457",
+        "timeupdated": "1788812508"
       }
     },
     "privatebranches": "1"

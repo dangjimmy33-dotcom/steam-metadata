@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788808829,
+  "_lastChecked": 1788816721,
   "_history": [
     {
       "buildId": "24758002",
@@ -18,12 +18,48 @@
           "download": 45290672
         }
       }
+    },
+    {
+      "buildId": "25093092",
+      "branch": "public",
+      "timeUpdated": 1788403971,
+      "firstSeen": 1788816721,
+      "manifests": {
+        "4833991": {
+          "gid": "7652948383995982381",
+          "size": 124764556,
+          "download": 49148128
+        },
+        "4833992": {
+          "gid": "3338314509810191039",
+          "size": 96116492,
+          "download": 43029008
+        }
+      }
+    },
+    {
+      "buildId": "25174006",
+      "branch": "testingbranch",
+      "timeUpdated": 1788811029,
+      "firstSeen": 1788816721,
+      "manifests": {
+        "4833991": {
+          "gid": "5618797248822021210",
+          "size": 124764716,
+          "download": 49148272
+        },
+        "4833992": {
+          "gid": "429046799702388352",
+          "size": 96116652,
+          "download": 43029152
+        }
+      }
     }
   ],
-  "_change_number": 38542815,
+  "_change_number": 38676464,
   "_missing_token": false,
-  "_sha": "def9c3a826b22faefc36dd1e8d278e4eede80d73",
-  "_size": 4742,
+  "_sha": "ff08f7e6a4bf40df6ed2851a97991b03d93af3c9",
+  "_size": 5160,
   "appid": "4833990",
   "common": {
     "associations": {
@@ -162,7 +198,7 @@
         "description_loc": {
           "english": "Launch game for Windows"
         },
-        "executable": "Prospector Peril v1.0.exe",
+        "executable": "Prospector Peril v1.0.1.exe",
         "type": "default"
       },
       "1": {
@@ -173,7 +209,7 @@
         "description_loc": {
           "english": "Launch game for Linux"
         },
-        "executable": "Prospector Peril v1.0.x86_64",
+        "executable": "Prospector Peril v1.0.1.x86_64",
         "type": "default"
       }
     }
@@ -186,9 +222,14 @@
       },
       "manifests": {
         "public": {
-          "download": "53573296",
-          "gid": "1884502329098762939",
-          "size": "134720812"
+          "download": "49148128",
+          "gid": "7652948383995982381",
+          "size": "124764556"
+        },
+        "testingbranch": {
+          "download": "49148272",
+          "gid": "5618797248822021210",
+          "size": "124764716"
         }
       }
     },
@@ -199,18 +240,29 @@
       },
       "manifests": {
         "public": {
-          "download": "45290672",
-          "gid": "3631163884327963930",
-          "size": "100396068"
+          "download": "43029008",
+          "gid": "3338314509810191039",
+          "size": "96116492"
+        },
+        "testingbranch": {
+          "download": "43029152",
+          "gid": "429046799702388352",
+          "size": "96116652"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "24758002",
-        "timebuildupdated": "1786848632",
-        "timeupdated": "1786850835"
+        "buildid": "25093092",
+        "timebuildupdated": "1788402197",
+        "timeupdated": "1788403971"
+      },
+      "testingbranch": {
+        "buildid": "25174006",
+        "description": "For testing builds before release",
+        "timebuildupdated": "1788810958",
+        "timeupdated": "1788811029"
       }
     }
   },

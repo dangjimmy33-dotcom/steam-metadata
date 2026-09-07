@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788805840,
+  "_lastChecked": 1788813632,
   "_history": [
     {
       "buildId": "25024218",
@@ -39,12 +39,25 @@
           "download": 49356055792
         }
       }
+    },
+    {
+      "buildId": "25148022",
+      "branch": "prior_working_version",
+      "timeUpdated": 1788663913,
+      "firstSeen": 1788813632,
+      "manifests": {
+        "2393972": {
+          "gid": "6430424097538767354",
+          "size": 53953039801,
+          "download": 49356055792
+        }
+      }
     }
   ],
-  "_change_number": 38653688,
+  "_change_number": 38676164,
   "_missing_token": false,
-  "_sha": "7a0e75e6d5248c2e9e8bcac67862a56980e99728",
-  "_size": 6680,
+  "_sha": "8d58e54cbad84240deebd827e5806bbaff2eef07",
+  "_size": 6683,
   "appid": "2393970",
   "common": {
     "aicontenttype": "1",
@@ -300,9 +313,9 @@
       },
       "manifests": {
         "prior_working_version": {
-          "download": "48755889232",
-          "gid": "9552816222720030",
-          "size": "53306994254"
+          "download": "49356055792",
+          "gid": "6430424097538767354",
+          "size": "53953039801"
         },
         "public": {
           "download": "49356055792",
@@ -314,10 +327,10 @@
     "baselanguages": "english,french,german,italian,japanese,koreana,polish,portuguese,russian,schinese,spanish,tchinese,thai,turkish,vietnamese",
     "branches": {
       "prior_working_version": {
-        "buildid": "25024218",
+        "buildid": "25148022",
         "description": "Each update preserves the last functional build for rollback if critical bugs appear.",
-        "timebuildupdated": "1788115186",
-        "timeupdated": "1788115237"
+        "timebuildupdated": "1788663862",
+        "timeupdated": "1788663913"
       },
       "public": {
         "buildid": "25148022",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788804838,
+  "_lastChecked": 1788811918,
   "_history": [
     {
       "buildId": "24656638",
@@ -36,11 +36,47 @@
           "download": 1275712032
         }
       }
+    },
+    {
+      "buildId": "25173106",
+      "branch": "public",
+      "timeUpdated": 1788807170,
+      "firstSeen": 1788811918,
+      "manifests": {
+        "1684011": {
+          "gid": "782949615417912745",
+          "size": 2449908942,
+          "download": 1148544240
+        },
+        "1684012": {
+          "gid": "1228344957053219112",
+          "size": 2840852352,
+          "download": 1275712032
+        }
+      }
+    },
+    {
+      "buildId": "25173106",
+      "branch": "public_test_builds",
+      "timeUpdated": 1788807124,
+      "firstSeen": 1788811918,
+      "manifests": {
+        "1684011": {
+          "gid": "782949615417912745",
+          "size": 2449908942,
+          "download": 1148544240
+        },
+        "1684012": {
+          "gid": "1228344957053219112",
+          "size": 2840852352,
+          "download": 1275712032
+        }
+      }
     }
   ],
-  "_change_number": 37913321,
+  "_change_number": 38675226,
   "_missing_token": false,
-  "_sha": "877beef36f889a910d3f5e1349fd8ea2fd5f4ac1",
+  "_sha": "a8e22cbfd780fbfe9f7842ef7e61f3540a8a6e0c",
   "_size": 4987,
   "appid": "1684010",
   "common": {
@@ -223,14 +259,14 @@
       },
       "manifests": {
         "public": {
-          "download": "1148091712",
-          "gid": "371133073342418675",
-          "size": "2684931593"
+          "download": "1148544240",
+          "gid": "782949615417912745",
+          "size": "2449908942"
         },
         "public_test_builds": {
-          "download": "1148091712",
-          "gid": "371133073342418675",
-          "size": "2684931593"
+          "download": "1148544240",
+          "gid": "782949615417912745",
+          "size": "2449908942"
         }
       }
     },
@@ -254,15 +290,15 @@
     },
     "branches": {
       "public": {
-        "buildid": "24656638",
-        "timebuildupdated": "1786379247",
-        "timeupdated": "1786379411"
+        "buildid": "25173106",
+        "timebuildupdated": "1788807124",
+        "timeupdated": "1788807170"
       },
       "public_test_builds": {
-        "buildid": "24656638",
+        "buildid": "25173106",
         "description": "test builds for Sail VR Multiplayer",
-        "timebuildupdated": "1786379247",
-        "timeupdated": "1786379247"
+        "timebuildupdated": "1788807124",
+        "timeupdated": "1788807124"
       }
     }
   },
