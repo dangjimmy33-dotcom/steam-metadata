@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788734554,
+  "_lastChecked": 1788739851,
   "_history": [
     {
       "buildId": "25069474",
@@ -13,12 +13,25 @@
           "download": 870274848
         }
       }
+    },
+    {
+      "buildId": "25158393",
+      "branch": "public",
+      "timeUpdated": 1788739017,
+      "firstSeen": 1788739851,
+      "manifests": {
+        "4782771": {
+          "gid": "4390926336419900430",
+          "size": 1560220536,
+          "download": 870302560
+        }
+      }
     }
   ],
-  "_change_number": 38648149,
+  "_change_number": 38653270,
   "_missing_token": false,
-  "_sha": "343fb38f46cc37ba41016bf048489135cf082d53",
-  "_size": 4164,
+  "_sha": "7f41403fd6e47dc40ce595a73d556f2a4bfa1476",
+  "_size": 4632,
   "appid": "4782770",
   "common": {
     "associations": {
@@ -33,6 +46,8 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
       "category_62": "1",
       "category_69": "1",
       "category_74": "1",
@@ -40,6 +55,7 @@
     },
     "clienticon": "022a605b1fca898ae3356d386ccb3ca2eb2c50e8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "gameid": "4782770",
     "genres": {
@@ -50,6 +66,17 @@
       "english": "9100911d6f307a5f39b1344cd9cd5659771b9fb1/header.jpg"
     },
     "icon": "022a605b1fca898ae3356d386ccb3ca2eb2c50e8",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "japanese": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -187,18 +214,18 @@
     "4782771": {
       "manifests": {
         "public": {
-          "download": "870274848",
-          "gid": "1627521295347500737",
-          "size": "1560132144"
+          "download": "870302560",
+          "gid": "4390926336419900430",
+          "size": "1560220536"
         }
       }
     },
     "baselanguages": "brazilian,english,french,german,italian,japanese,russian,schinese,spanish",
     "branches": {
       "public": {
-        "buildid": "25069474",
-        "timebuildupdated": "1788308643",
-        "timeupdated": "1788308686"
+        "buildid": "25158393",
+        "timebuildupdated": "1788738995",
+        "timeupdated": "1788739017"
       }
     }
   },
@@ -208,7 +235,17 @@
     "publisher": "babia"
   },
   "ufs": {
-    "maxnumfiles": "10",
-    "quota": "100000000"
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/CYCLE01/steam_cloud",
+        "pattern": "full_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

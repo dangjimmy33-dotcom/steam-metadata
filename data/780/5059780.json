@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788734779,
-  "_history": [],
-  "_change_number": 38180255,
-  "_missing_token": true,
-  "_sha": "997187a28d27470ff90af68044b93dba344b13c1",
-  "_size": 2762,
+  "_lastChecked": 1788740076,
+  "_history": [
+    {
+      "buildId": "24553376",
+      "branch": "public",
+      "timeUpdated": 1785852801,
+      "firstSeen": 1788740076,
+      "manifests": {
+        "5059781": {
+          "gid": "620510159468484781",
+          "size": 1584269,
+          "download": 622896
+        }
+      }
+    }
+  ],
+  "_change_number": 38653095,
+  "_missing_token": false,
+  "_sha": "53ab680e652dc8df5bbaac033a85197eb74b3071",
+  "_size": 3457,
   "appid": "5059780",
   "common": {
     "associations": {
@@ -27,7 +41,6 @@
     "clienticon": "07c91deae0d7eef8f47cb422869a5185aae57fd2",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5059780",
     "genres": {
       "0": "4",
@@ -99,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "91d839b2dd28b0e5197af96f56529ab8bfc9370f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788737997",
     "store_asset_mtime": "1786013842",
     "store_tags": {
       "0": "597",
@@ -120,5 +134,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Solve the Puzzle",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "SolveThePuzzle.exe"
+      }
+    }
+  },
+  "depots": {
+    "5059781": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "622896",
+          "gid": "620510159468484781",
+          "size": "1584269"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24553376",
+        "timebuildupdated": "1785852243",
+        "timeupdated": "1785852801"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DAVID VELIU",
+    "publisher": "DAVID VELIU"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "10000"
+  }
 }
