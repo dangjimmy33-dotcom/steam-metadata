@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788790174,
-  "_history": [],
-  "_change_number": 38526505,
-  "_missing_token": true,
-  "_sha": "20dc564b3b6da6277a7951d14b4af872ca50eaa5",
-  "_size": 3050,
+  "_lastChecked": 1788808961,
+  "_history": [
+    {
+      "buildId": "25172318",
+      "branch": "public",
+      "timeUpdated": 1788803716,
+      "firstSeen": 1788808961,
+      "manifests": {
+        "4953501": {
+          "gid": "4945640934392414336",
+          "size": 1104321469,
+          "download": 380725216
+        }
+      }
+    }
+  ],
+  "_change_number": 38674097,
+  "_missing_token": false,
+  "_sha": "51cbe18959c31347ef410c1393b99d1dff5ca07b",
+  "_size": 3640,
   "appid": "4953500",
   "common": {
     "aicontenttype": "1",
@@ -27,8 +41,8 @@
     },
     "clienticon": "787d1e9c452efd84cf598bfc50644f555b0021db",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4953500",
     "genres": {
       "0": "1",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "21618449c7a9545e4efabeff1ae3ad0e86f99ad4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788368271",
     "store_asset_mtime": "1787708007",
     "store_tags": {
       "0": "599",
@@ -137,5 +152,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ZONE 47",
+    "launch": {
+      "0": {
+        "executable": "ZONE 47.exe"
+      }
+    }
+  },
+  "depots": {
+    "4953501": {
+      "manifests": {
+        "public": {
+          "download": "380725216",
+          "gid": "4945640934392414336",
+          "size": "1104321469"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25172318",
+        "timebuildupdated": "1788803631",
+        "timeupdated": "1788803716"
+      }
+    }
+  },
+  "extended": {
+    "developer": "7trange Play",
+    "publisher": "7trange Play"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000"
+  }
 }

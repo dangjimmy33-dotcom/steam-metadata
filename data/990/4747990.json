@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788789969,
-  "_history": [],
-  "_change_number": 38510664,
-  "_missing_token": true,
-  "_sha": "b75151a9d1c57d003bef47c14df5a7fc57114b9c",
-  "_size": 3477,
+  "_lastChecked": 1788808746,
+  "_history": [
+    {
+      "buildId": "25171624",
+      "branch": "public",
+      "timeUpdated": 1788801098,
+      "firstSeen": 1788808746,
+      "manifests": {
+        "4747991": {
+          "gid": "9202802943725811121",
+          "size": 2755319036,
+          "download": 998217872
+        }
+      }
+    }
+  ],
+  "_change_number": 38673267,
+  "_missing_token": false,
+  "_sha": "030c89f2a49d59177816ae02e48feb629f192c7d",
+  "_size": 4376,
   "appid": "4747990",
   "common": {
     "associations": {
@@ -32,6 +46,7 @@
     },
     "clienticon": "c3483da0e3f37c51ae746cbaaff83ed433a3dc12",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -41,7 +56,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4747990",
     "genres": {
       "0": "1",
@@ -113,7 +127,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c37126ae57acafc22e6e1bdd8829814b7fbc1c2a/capsule_231x87.jpg"
     },
@@ -160,5 +174,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Night Maniac The Origin Of Steven",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "game.exe"
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4747991": {
+      "manifests": {
+        "public": {
+          "download": "998217872",
+          "gid": "9202802943725811121",
+          "size": "2755319036"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25171624",
+        "timebuildupdated": "1788800647",
+        "timeupdated": "1788801098"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Diego Victor",
+    "homepage": "https://nightmaniac.netlify.app/",
+    "publisher": "Noxus Games Studio"
+  },
+  "ufs": {
+    "appidredirect": "4747990",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "1",
+    "quota": "10000000000"
+  }
 }

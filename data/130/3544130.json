@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788788606,
-  "_history": [],
-  "_change_number": 38613832,
-  "_missing_token": true,
-  "_sha": "c267afc58c25edbf35b92d39b6ab01a73a9a1115",
-  "_size": 3723,
+  "_lastChecked": 1788807293,
+  "_history": [
+    {
+      "buildId": "25123673",
+      "branch": "public",
+      "timeUpdated": 1788550752,
+      "firstSeen": 1788807293,
+      "manifests": {
+        "3544131": {
+          "gid": "3498598185313338651",
+          "size": 6692508819,
+          "download": 3252956432
+        }
+      }
+    }
+  ],
+  "_change_number": 38673022,
+  "_missing_token": false,
+  "_sha": "a33861c4641167e35d38816f1ec6e82235baec94",
+  "_size": 4787,
   "appid": "3544130",
   "common": {
     "aicontenttype": "1",
@@ -42,6 +56,7 @@
     "clienticon": "8bf445308d621efd39c2d637671639fbd77ad2db",
     "clienttga": "ff4c06aec41dd15599579a82250b62aaae0b8198",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -52,7 +67,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3544130",
     "genres": {
       "0": "1",
@@ -125,10 +139,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "65b255503ae4f6cd9333bbca7a9c1fa2357f3ada/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788800471",
     "store_asset_mtime": "1788192438",
     "store_tags": {
       "0": "1685",
@@ -169,5 +184,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Soul Chained",
+    "launch": {
+      "0": {
+        "executable": "Soul Chained.exe"
+      }
+    }
+  },
+  "depots": {
+    "3544131": {
+      "manifests": {
+        "public": {
+          "download": "3252956432",
+          "gid": "3498598185313338651",
+          "size": "6692508819"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25123673",
+        "timebuildupdated": "1788524403",
+        "timeupdated": "1788550752"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Kyroware Games",
+    "homepage": "https://www.kyroware.com/",
+    "publisher": "Kyroware Games"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "3000000",
+    "savefiles": {
+      "0": {
+        "path": "Kyroware Games\\Soul Chained",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Kyroware Games\\Soul Chained",
+        "pattern": "*.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

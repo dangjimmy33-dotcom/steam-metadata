@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788788490,
+  "_lastChecked": 1788807171,
   "_history": [
     {
       "buildId": "24998172",
@@ -23,12 +23,35 @@
           "download": 468315440
         }
       }
+    },
+    {
+      "buildId": "25169880",
+      "branch": "public",
+      "timeUpdated": 1788795314,
+      "firstSeen": 1788807171,
+      "manifests": {
+        "3438801": {
+          "gid": "8064113557591224275",
+          "size": 2121287614,
+          "download": 470855920
+        },
+        "3438802": {
+          "gid": "6432649585193334085",
+          "size": 2145330357,
+          "download": 480121600
+        },
+        "3438803": {
+          "gid": "4067492278504658238",
+          "size": 2119035393,
+          "download": 468358512
+        }
+      }
     }
   ],
-  "_change_number": 38574970,
+  "_change_number": 38671071,
   "_missing_token": false,
-  "_sha": "7d0810809bb8a24befce30f137239ac7a518059a",
-  "_size": 7024,
+  "_sha": "c77525f06461062a78bf721342f6e9c8440cfece",
+  "_size": 6973,
   "appid": "3438800",
   "common": {
     "associations": {
@@ -277,45 +300,43 @@
       },
       "manifests": {
         "public": {
-          "download": "470812832",
-          "gid": "4712990140059174092",
-          "size": "2120846478"
+          "download": "470855920",
+          "gid": "8064113557591224275",
+          "size": "2121287614"
         }
       }
     },
     "3438802": {
       "config": {
-        "language": "english",
         "oslist": "macos"
       },
       "manifests": {
         "public": {
-          "download": "480078512",
-          "gid": "211894281430018289",
-          "size": "2144889221"
+          "download": "480121600",
+          "gid": "6432649585193334085",
+          "size": "2145330357"
         }
       }
     },
     "3438803": {
       "config": {
-        "language": "english",
         "osarch": "64",
         "oslist": "linux"
       },
       "manifests": {
         "public": {
-          "download": "468315440",
-          "gid": "7190647347590231923",
-          "size": "2118594257"
+          "download": "468358512",
+          "gid": "4067492278504658238",
+          "size": "2119035393"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "24998172",
-        "timebuildupdated": "1787939872",
-        "timeupdated": "1787942647"
+        "buildid": "25169880",
+        "timebuildupdated": "1788794188",
+        "timeupdated": "1788795314"
       }
     },
     "workshopdepot": "3438800"

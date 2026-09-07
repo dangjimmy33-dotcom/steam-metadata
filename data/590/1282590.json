@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788785754,
+  "_lastChecked": 1788804287,
   "_history": [
     {
       "buildId": "9225963",
@@ -290,10 +290,10 @@
       }
     }
   ],
-  "_change_number": 37443736,
+  "_change_number": 38673538,
   "_missing_token": false,
-  "_sha": "b7e45a8ba23b307651f7eaa0c46f089aff2f0e24",
-  "_size": 17502,
+  "_sha": "c5d13647593e2fe80e9c0a072c8e237f02c11a55",
+  "_size": 17681,
   "appid": "1282590",
   "common": {
     "associations": {
@@ -400,10 +400,9 @@
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
         "non_deck_display_glyphs": "0",
-        "primary_player_is_controller_slot_0": "1",
-        "proton_compat_config": "seccomp,",
+        "primary_player_is_controller_slot_0": "0",
         "recommended_runtime": "proton-stable",
-        "requires_h264": "0",
+        "requires_h264": "1",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
         "requires_manual_keyboard_invoke": "1",
@@ -411,10 +410,27 @@
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "0",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsNotPerformant"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        }
+      },
       "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
@@ -424,14 +440,10 @@
         "1": {
           "display": "1",
           "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-        },
-        "2": {
-          "display": "1",
-          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
-      "test_timestamp": "1654300800",
-      "tested_build_id": "8596856",
+      "test_timestamp": "1788195707",
+      "tested_build_id": "9225963",
       "tests": {
         "0": {
           "display": "3",
@@ -452,10 +464,6 @@
         "4": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
-        },
-        "5": {
-          "display": "1",
-          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       }
     },

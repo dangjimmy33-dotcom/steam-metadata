@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788790245,
-  "_history": [],
-  "_change_number": 38301490,
-  "_missing_token": true,
-  "_sha": "84fc50904d52d8bc533c3737d1e5e635ec6f5e71",
-  "_size": 2826,
+  "_lastChecked": 1788809035,
+  "_history": [
+    {
+      "buildId": "24502686",
+      "branch": "public",
+      "timeUpdated": 1785541712,
+      "firstSeen": 1788809035,
+      "manifests": {
+        "5028601": {
+          "gid": "3891919205731102970",
+          "size": 124652616,
+          "download": 51922656
+        },
+        "5028603": {
+          "gid": "6332738103553437645",
+          "size": 190439377,
+          "download": 59182000
+        }
+      }
+    }
+  ],
+  "_change_number": 38674814,
+  "_missing_token": false,
+  "_sha": "09611fcaadc7dd49e19326963ad18eb4bf6a0bf2",
+  "_size": 4024,
   "appid": "5028600",
   "common": {
     "associations": {
@@ -29,7 +48,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5028600",
     "genres": {
       "0": "1",
@@ -100,10 +118,11 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0d238a30265771fc63a0b47921c865d9d7c95e29/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788805921",
     "store_asset_mtime": "1786749323",
     "store_tags": {
       "0": "19",
@@ -125,5 +144,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dungeons of Dreadmoor",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Dungeons_Of_Dreadmoor_v1.1.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Dungeons_Of_Dreadmoor_v1.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "3",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5028601": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "51922656",
+          "gid": "3891919205731102970",
+          "size": "124652616"
+        }
+      }
+    },
+    "5028603": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "59182000",
+          "gid": "6332738103553437645",
+          "size": "190439377"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24502686",
+        "timebuildupdated": "1785541506",
+        "timeupdated": "1785541712"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DW Electronics",
+    "gamemanualurl": "https://store.steampowered.com/manual/5028600/",
+    "publisher": "D.W. Electronics"
+  }
 }

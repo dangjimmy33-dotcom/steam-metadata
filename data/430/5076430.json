@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1788790287,
-  "_history": [],
-  "_change_number": 38667535,
-  "_missing_token": true,
-  "_sha": "8a9875d32ad8dcca0e9514c10c40f6305cbd1e80",
-  "_size": 3121,
+  "_lastChecked": 1788809078,
+  "_history": [
+    {
+      "buildId": "25169131",
+      "branch": "achievements-test",
+      "timeUpdated": 1788791535,
+      "firstSeen": 1788809078,
+      "manifests": {
+        "5076431": {
+          "gid": "1574651475929185712",
+          "size": 7506197631,
+          "download": 3031304912
+        }
+      }
+    },
+    {
+      "buildId": "25169131",
+      "branch": "public",
+      "timeUpdated": 1788796820,
+      "firstSeen": 1788809078,
+      "manifests": {
+        "5076431": {
+          "gid": "1574651475929185712",
+          "size": 7506197631,
+          "download": 3031304912
+        }
+      }
+    }
+  ],
+  "_change_number": 38671895,
+  "_missing_token": false,
+  "_sha": "88962a844f3b4e2d16a2e5b8e7963b81646fb2ee",
+  "_size": 4333,
   "appid": "5076430",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +60,8 @@
     },
     "clienticon": "75fb6261a3716221b385297e075d5a1bf34368ea",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5076430",
     "genres": {
       "0": "25",
@@ -108,10 +135,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "608fefc6eb582dbeedfa913620cb43480a43ac65/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788797569",
     "store_asset_mtime": "1788787048",
     "store_tags": {
       "0": "122",
@@ -141,5 +169,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Wandering Bard",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Wandering Bard.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Wandering Bard.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Wandering Bard.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5076431": {
+      "manifests": {
+        "achievements-test": {
+          "download": "3031304912",
+          "gid": "1574651475929185712",
+          "size": "7506197631"
+        },
+        "public": {
+          "download": "3031304912",
+          "gid": "1574651475929185712",
+          "size": "7506197631"
+        }
+      }
+    },
+    "branches": {
+      "achievements-test": {
+        "buildid": "25169131",
+        "description": "achievements-test",
+        "timebuildupdated": "1788791535",
+        "timeupdated": "1788791535"
+      },
+      "public": {
+        "buildid": "25169131",
+        "timebuildupdated": "1788791535",
+        "timeupdated": "1788796820"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Fossil Studios",
+    "publisher": "Fossil Studios"
+  }
 }

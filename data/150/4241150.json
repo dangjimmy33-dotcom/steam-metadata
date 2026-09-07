@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788789426,
+  "_lastChecked": 1788808178,
   "_history": [
     {
       "buildId": "24848906",
@@ -13,12 +13,25 @@
           "download": 542159232
         }
       }
+    },
+    {
+      "buildId": "25172468",
+      "branch": "public",
+      "timeUpdated": 1788804332,
+      "firstSeen": 1788808178,
+      "manifests": {
+        "4241151": {
+          "gid": "5991159478737956785",
+          "size": 702835311,
+          "download": 542746416
+        }
+      }
     }
   ],
-  "_change_number": 38363074,
+  "_change_number": 38674295,
   "_missing_token": false,
-  "_sha": "bb039ff57bca5beea99c348b052bb85247c82332",
-  "_size": 3438,
+  "_sha": "98afd7bcbfba15a853d6b9a8fd743e6dec80f22a",
+  "_size": 3781,
   "appid": "4241150",
   "common": {
     "associations": {
@@ -32,7 +45,9 @@
       }
     },
     "category": {
+      "category_18": "1",
       "category_2": "1",
+      "category_62": "1",
       "category_68": "1",
       "category_75": "1",
       "category_78": "1",
@@ -40,6 +55,7 @@
     },
     "clienticon": "a78dcbce9a8e31b99acca583848c9c000738525f",
     "community_hub_visible": "1",
+    "controller_support": "partial",
     "controllertagwizard": "1",
     "gameid": "4241150",
     "genres": {
@@ -153,17 +169,17 @@
     "4241151": {
       "manifests": {
         "public": {
-          "download": "542159232",
-          "gid": "863003760242173517",
-          "size": "702002736"
+          "download": "542746416",
+          "gid": "5991159478737956785",
+          "size": "702835311"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "24848906",
-        "timebuildupdated": "1787259725",
-        "timeupdated": "1787259839"
+        "buildid": "25172468",
+        "timebuildupdated": "1788804262",
+        "timeupdated": "1788804332"
       }
     }
   },
@@ -171,5 +187,21 @@
     "developer": "Meowsticks Games",
     "isfreeapp": "1",
     "publisher": "Meowsticks Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "200",
+    "quota": "600000000",
+    "savefiles": {
+      "0": {
+        "path": "",
+        "pattern": "*.rvdata2",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    }
   }
 }

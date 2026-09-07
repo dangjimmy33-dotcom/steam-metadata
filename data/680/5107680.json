@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788790311,
-  "_history": [],
-  "_change_number": 38479933,
-  "_missing_token": true,
-  "_sha": "ba1c86c73380e19f34ac7b228df7b1b2ce528173",
-  "_size": 3249,
+  "_lastChecked": 1788809103,
+  "_history": [
+    {
+      "buildId": "24767796",
+      "branch": "public",
+      "timeUpdated": 1786924496,
+      "firstSeen": 1788809103,
+      "manifests": {
+        "5107681": {
+          "gid": "6628654074504441075",
+          "size": 24548031,
+          "download": 23646608
+        }
+      }
+    }
+  ],
+  "_change_number": 38674913,
+  "_missing_token": false,
+  "_sha": "32adcff6d0c807611be4a7e33cc02abc79ff1d0f",
+  "_size": 3894,
   "appid": "5107680",
   "common": {
     "associations": {
@@ -33,8 +47,8 @@
     "clienticns": "6704cfe6e21c2ecc75c10fda77b703dbb2389f91",
     "clienticon": "6704cfe6e21c2ecc75c10fda77b703dbb2389f91",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5107680",
     "genres": {
       "0": "29",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "56c4c391e1bd179a6c7612b9b985e6e87ff0afbd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788797922",
     "store_asset_mtime": "1788192543",
     "store_tags": {
       "0": "122",
@@ -142,5 +157,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Arena Immortalis",
+    "launch": {
+      "0": {
+        "executable": "LanistaClient.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5107681": {
+      "manifests": {
+        "public": {
+          "download": "23646608",
+          "gid": "6628654074504441075",
+          "size": "24548031"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24767796",
+        "timebuildupdated": "1786924473",
+        "timeupdated": "1786924496"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Erak_Dev",
+    "homepage": "https://docs.adrenalinegames.pl/arena/index.html",
+    "isfreeapp": "1",
+    "publisher": "AenyeGames"
+  }
 }

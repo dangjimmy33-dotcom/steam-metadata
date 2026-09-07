@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788790312,
-  "_history": [],
-  "_change_number": 38297161,
-  "_missing_token": true,
-  "_sha": "cb013f6f36892e3f6b0ca335f64a3e1da8a5ba9b",
-  "_size": 2785,
+  "_lastChecked": 1788809105,
+  "_history": [
+    {
+      "buildId": "24723209",
+      "branch": "public",
+      "timeUpdated": 1786661608,
+      "firstSeen": 1788809105,
+      "manifests": {
+        "5109421": {
+          "gid": "5697803297905767662",
+          "size": 363453908,
+          "download": 170798752
+        },
+        "5109422": {
+          "gid": "317707854486296522",
+          "size": 352045467,
+          "download": 160293152
+        },
+        "5109423": {
+          "gid": "4403255023402867282",
+          "size": 325013404,
+          "download": 161311712
+        }
+      }
+    }
+  ],
+  "_change_number": 38673259,
+  "_missing_token": false,
+  "_sha": "15d28fcea0bdad07a3c96963e478b65604a55e55",
+  "_size": 4164,
   "appid": "5109420",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +49,6 @@
     "clienticon": "1a4b140893a367152cda77737eacbfe41379039c",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5109420",
     "genres": {
       "0": "1",
@@ -96,10 +119,11 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d103a0d783ac44052573733f4082d3033e28fdcb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788801078",
     "store_asset_mtime": "1787184688",
     "store_tags": {
       "0": "19",
@@ -120,5 +144,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Black King",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "The Black King.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "the-black-king.sh",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "The Black King.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5109421": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "170798752",
+          "gid": "5697803297905767662",
+          "size": "363453908"
+        }
+      }
+    },
+    "5109422": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "160293152",
+          "gid": "317707854486296522",
+          "size": "352045467"
+        }
+      }
+    },
+    "5109423": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "161311712",
+          "gid": "4403255023402867282",
+          "size": "325013404"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24723209",
+        "timebuildupdated": "1786661242",
+        "timeupdated": "1786661608"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Arthur Lee Schneider",
+    "publisher": "Arthur Lee Schneider"
+  }
 }

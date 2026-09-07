@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788787028,
+  "_lastChecked": 1788805634,
   "_history": [
     {
       "buildId": "15745991",
@@ -85,11 +85,47 @@
           "download": 389717824
         }
       }
+    },
+    {
+      "buildId": "25163887",
+      "branch": "beta",
+      "timeUpdated": 1788797896,
+      "firstSeen": 1788805634,
+      "manifests": {
+        "2248901": {
+          "gid": "3266337265394323420",
+          "size": 448102758,
+          "download": 263566384
+        },
+        "2248902": {
+          "gid": "2507761362149282261",
+          "size": 773055796,
+          "download": 389717984
+        }
+      }
+    },
+    {
+      "buildId": "25163887",
+      "branch": "debug",
+      "timeUpdated": 1788797907,
+      "firstSeen": 1788805634,
+      "manifests": {
+        "2248901": {
+          "gid": "3266337265394323420",
+          "size": 448102758,
+          "download": 263566384
+        },
+        "2248902": {
+          "gid": "2507761362149282261",
+          "size": 773055796,
+          "download": 389717984
+        }
+      }
     }
   ],
-  "_change_number": 38238065,
+  "_change_number": 38672019,
   "_missing_token": false,
-  "_sha": "d97ec70de98f3cb65f885b2693d0e7756c32bc1c",
+  "_sha": "4f952d4169efe8fd4a2915bcfe6b674e137b1548",
   "_size": 8349,
   "appid": "2248900",
   "common": {
@@ -368,14 +404,14 @@
       },
       "manifests": {
         "beta": {
-          "download": "389717824",
-          "gid": "7430157040056595604",
-          "size": "773055684"
+          "download": "389717984",
+          "gid": "2507761362149282261",
+          "size": "773055796"
         },
         "debug": {
-          "download": "389717824",
-          "gid": "7430157040056595604",
-          "size": "773055684"
+          "download": "389717984",
+          "gid": "2507761362149282261",
+          "size": "773055796"
         },
         "mac_test": {
           "download": "157751600",
@@ -397,16 +433,16 @@
         "timeupdated": "1731747719"
       },
       "beta": {
-        "buildid": "24505950",
+        "buildid": "25163887",
         "description": "Branch to test new and unstable builds",
-        "timebuildupdated": "1785565342",
-        "timeupdated": "1785565396"
+        "timebuildupdated": "1788771785",
+        "timeupdated": "1788797896"
       },
       "debug": {
-        "buildid": "24505950",
+        "buildid": "25163887",
         "description": "For debugging crashes of players on discord. Use with caution.",
-        "timebuildupdated": "1785565342",
-        "timeupdated": "1785565387"
+        "timebuildupdated": "1788771785",
+        "timeupdated": "1788797907"
       },
       "mac_test": {
         "buildid": "18792950",

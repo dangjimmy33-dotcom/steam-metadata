@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788789052,
-  "_history": [],
-  "_change_number": 38666556,
-  "_missing_token": true,
-  "_sha": "dc55e6cdbcbf5cff3ac5f5482b11878f1fbca697",
-  "_size": 3630,
+  "_lastChecked": 1788807763,
+  "_history": [
+    {
+      "buildId": "25166515",
+      "branch": "public",
+      "timeUpdated": 1788784119,
+      "firstSeen": 1788807763,
+      "manifests": {
+        "3919341": {
+          "gid": "4713232142480094050",
+          "size": 14673430306,
+          "download": 8293205824
+        }
+      }
+    }
+  ],
+  "_change_number": 38668618,
+  "_missing_token": false,
+  "_sha": "dffd75753bc4e37c830f187f4a2fe25f44676992",
+  "_size": 4524,
   "appid": "3919340",
   "common": {
     "associations": {
@@ -27,9 +41,9 @@
     "clienticon": "82c94d2e20e489dffa900a95c895191c4e89b874",
     "clienttga": "712a3730ba4f0255f2b0d76944cdd2f4a240f7de",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3919340",
     "genres": {
       "0": "4",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0a19d56703806f3c783fba9a375f61c73d43f04e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788789536",
     "store_asset_mtime": "1787132963",
     "store_tags": {
       "0": "23491",
@@ -171,5 +186,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Eco Volunteer",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Eco Volunteer.exe"
+      }
+    }
+  },
+  "depots": {
+    "3919341": {
+      "manifests": {
+        "public": {
+          "download": "8293205824",
+          "gid": "4713232142480094050",
+          "size": "14673430306"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25166515",
+        "timebuildupdated": "1788782260",
+        "timeupdated": "1788784119"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Scope Creepers",
+    "publisher": "Scope Creepers"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Scope Creepers/Eco Volunteer",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

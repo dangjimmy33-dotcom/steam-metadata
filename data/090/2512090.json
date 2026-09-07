@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788787368,
+  "_lastChecked": 1788805994,
   "_history": [
     {
       "buildId": "23895805",
@@ -23,12 +23,58 @@
           "download": 78611840
         }
       }
+    },
+    {
+      "buildId": "25085895",
+      "branch": "insiders",
+      "timeUpdated": 1788372319,
+      "firstSeen": 1788805994,
+      "manifests": {
+        "2512091": {
+          "gid": "7979787681543134277",
+          "size": 727180101,
+          "download": 456311712
+        },
+        "2512092": {
+          "gid": "6682101197365425143",
+          "size": 730907922,
+          "download": 457796112
+        },
+        "2512093": {
+          "gid": "4024491035792480423",
+          "size": 94528041,
+          "download": 78698240
+        }
+      }
+    },
+    {
+      "buildId": "25085899",
+      "branch": "public",
+      "timeUpdated": 1788372338,
+      "firstSeen": 1788805994,
+      "manifests": {
+        "2512091": {
+          "gid": "7979787681543134277",
+          "size": 727180101,
+          "download": 456311712
+        },
+        "2512092": {
+          "gid": "6682101197365425143",
+          "size": 730907922,
+          "download": 457796112
+        },
+        "2512093": {
+          "gid": "4024491035792480423",
+          "size": 94528041,
+          "download": 78698240
+        }
+      }
     }
   ],
-  "_change_number": 37629734,
+  "_change_number": 38672702,
   "_missing_token": false,
-  "_sha": "632b3e3612c88478063b349426f3f86b7f6cfd9b",
-  "_size": 6780,
+  "_sha": "c3fe135ccdc007a627ba73b4c2c8bf075356bcde",
+  "_size": 7287,
   "appid": "2512090",
   "common": {
     "aicontenttype": "1",
@@ -209,7 +255,7 @@
       }
     },
     "steam_release_date": "1714660238",
-    "store_asset_mtime": "1782392471",
+    "store_asset_mtime": "1788799727",
     "store_tags": {
       "0": "1775",
       "1": "4747",
@@ -265,6 +311,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "insiders": {
+          "download": "456311712",
+          "gid": "7979787681543134277",
+          "size": "727180101"
+        },
         "public": {
           "download": "456311712",
           "gid": "7979787681543134277",
@@ -277,6 +328,11 @@
         "oslist": "macos"
       },
       "manifests": {
+        "insiders": {
+          "download": "457796112",
+          "gid": "6682101197365425143",
+          "size": "730907922"
+        },
         "public": {
           "download": "457796112",
           "gid": "6682101197365425143",
@@ -286,18 +342,29 @@
     },
     "2512093": {
       "manifests": {
+        "insiders": {
+          "download": "78698240",
+          "gid": "4024491035792480423",
+          "size": "94528041"
+        },
         "public": {
-          "download": "78611840",
-          "gid": "1504687441541414443",
-          "size": "94347097"
+          "download": "78698240",
+          "gid": "4024491035792480423",
+          "size": "94528041"
         }
       }
     },
     "branches": {
+      "insiders": {
+        "buildid": "25085895",
+        "description": "Preview Upcoming Builds",
+        "timebuildupdated": "1788372319",
+        "timeupdated": "1788372319"
+      },
       "public": {
-        "buildid": "23895805",
-        "timebuildupdated": "1782313450",
-        "timeupdated": "1782315288"
+        "buildid": "25085899",
+        "timebuildupdated": "1788372338",
+        "timeupdated": "1788372338"
       }
     },
     "privatebranches": "1",

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788789832,
-  "_history": [],
-  "_change_number": 38662921,
-  "_missing_token": true,
-  "_sha": "0ac0f1f4c2cc95420ab31468e97090027a960555",
-  "_size": 2934,
+  "_lastChecked": 1788808603,
+  "_history": [
+    {
+      "buildId": "25164625",
+      "branch": "public",
+      "timeUpdated": 1788774771,
+      "firstSeen": 1788808603,
+      "manifests": {
+        "4610591": {
+          "gid": "2534710331881819849",
+          "size": 1741163615,
+          "download": 477407472
+        }
+      }
+    }
+  ],
+  "_change_number": 38675388,
+  "_missing_token": false,
+  "_sha": "5d60806bd68313a626bbf7e793b694ff1fbcd951",
+  "_size": 3494,
   "appid": "4610590",
   "common": {
     "associations": {
@@ -32,7 +46,6 @@
     "clienticon": "cf226ef6cb49659b3c788caaee123baebb5ab02b",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4610590",
     "genres": {
       "0": "25",
@@ -104,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7d285931bc864c36e7960e2bbd7ae1d28d2d1031/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788807614",
     "store_asset_mtime": "1788285339",
     "store_tags": {
       "0": "597",
@@ -132,5 +146,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dirty Laundry",
+    "launch": {
+      "0": {
+        "executable": "Dirty Laundry.exe"
+      }
+    }
+  },
+  "depots": {
+    "4610591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "477407472",
+          "gid": "2534710331881819849",
+          "size": "1741163615"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25164625",
+        "timebuildupdated": "1788774748",
+        "timeupdated": "1788774771"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Mete Albayrak",
+    "publisher": "Mete Albayrak"
+  }
 }

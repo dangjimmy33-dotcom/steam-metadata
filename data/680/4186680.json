@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788789361,
+  "_lastChecked": 1788808110,
   "_history": [
     {
       "buildId": "25139446",
@@ -26,12 +26,25 @@
           "download": 42524704
         }
       }
+    },
+    {
+      "buildId": "25171855",
+      "branch": "beta",
+      "timeUpdated": 1788801617,
+      "firstSeen": 1788808110,
+      "manifests": {
+        "4186681": {
+          "gid": "3686967594139943665",
+          "size": 113409203,
+          "download": 42964528
+        }
+      }
     }
   ],
-  "_change_number": 38625425,
+  "_change_number": 38673442,
   "_missing_token": false,
-  "_sha": "cc88f52f667c6aba82e1b3012788c1e57505eeab",
-  "_size": 3782,
+  "_sha": "4ad863714477b3d1c6aa3c6d47bb97c07fdf634c",
+  "_size": 3870,
   "appid": "4186680",
   "common": {
     "aicontenttype": "2",
@@ -149,7 +162,8 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
   "config": {
     "installdir": "Algorithmically",
@@ -170,9 +184,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "42963824",
-          "gid": "731142968455137258",
-          "size": "113408487"
+          "download": "42964528",
+          "gid": "3686967594139943665",
+          "size": "113409203"
         },
         "public": {
           "download": "42524704",
@@ -183,10 +197,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25139446",
+        "buildid": "25171855",
         "description": "beta branch. Release candidates, previews and the likes.",
-        "timebuildupdated": "1788602001",
-        "timeupdated": "1788602004"
+        "timebuildupdated": "1788801615",
+        "timeupdated": "1788801617"
       },
       "public": {
         "buildid": "24300606",
@@ -199,5 +213,9 @@
   "extended": {
     "developer": "Pipera Games",
     "publisher": "Pipera Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000"
   }
 }

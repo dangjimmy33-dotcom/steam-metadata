@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1788789299,
-  "_history": [],
-  "_change_number": 38665775,
-  "_missing_token": true,
-  "_sha": "cf405e020cfd502e5d9107e7bc11f8bb98fa3425",
-  "_size": 3374,
+  "_lastChecked": 1788808044,
+  "_history": [
+    {
+      "buildId": "25170622",
+      "branch": "public",
+      "timeUpdated": 1788797473,
+      "firstSeen": 1788808044,
+      "manifests": {
+        "4132961": {
+          "gid": "745168374893501933",
+          "size": 501199982,
+          "download": 148607536
+        }
+      }
+    },
+    {
+      "buildId": "25170622",
+      "branch": "testing",
+      "timeUpdated": 1788797227,
+      "firstSeen": 1788808044,
+      "manifests": {
+        "4132961": {
+          "gid": "745168374893501933",
+          "size": 501199982,
+          "download": 148607536
+        }
+      }
+    }
+  ],
+  "_change_number": 38672985,
+  "_missing_token": false,
+  "_sha": "33e4e40bddd4eb87f014430d5b775a779146ef4b",
+  "_size": 4272,
   "appid": "4132960",
   "common": {
     "associations": {
@@ -28,8 +55,8 @@
     },
     "clienticon": "7b716db4dd069d1c9816005fbf7d9296bccb9099",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4132960",
     "genres": {
       "0": "4",
@@ -102,32 +129,33 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e97dc83467ea874215bb3ffca493fb49bb585074/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1784890425",
+    "steam_release_date": "1788800448",
+    "store_asset_mtime": "1788793567",
     "store_tags": {
       "0": "1320952",
-      "1": "5652",
-      "10": "597",
-      "11": "599",
-      "12": "4195",
-      "13": "4305",
-      "14": "4252",
-      "15": "5350",
-      "16": "4562",
-      "17": "4182",
-      "18": "97376",
+      "1": "615955",
+      "10": "4726",
+      "11": "1621",
+      "12": "10235",
+      "13": "4695",
+      "14": "12472",
+      "15": "8945",
+      "16": "599",
+      "17": "4305",
+      "18": "5350",
       "19": "492",
-      "2": "916648",
-      "3": "615955",
-      "4": "560542",
+      "2": "1654",
+      "3": "97376",
+      "4": "597",
       "5": "87",
-      "6": "4695",
-      "7": "3871",
-      "8": "4726",
-      "9": "1654"
+      "6": "560542",
+      "7": "30358",
+      "8": "5652",
+      "9": "916648"
     },
     "supported_languages": {
       "english": {
@@ -160,5 +188,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Little Ghosties",
+    "launch": {
+      "0": {
+        "executable": "LittleGhosties.exe"
+      }
+    }
+  },
+  "depots": {
+    "4132961": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "148607536",
+          "gid": "745168374893501933",
+          "size": "501199982"
+        },
+        "testing": {
+          "download": "148607536",
+          "gid": "745168374893501933",
+          "size": "501199982"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25170622",
+        "timebuildupdated": "1788796806",
+        "timeupdated": "1788797473"
+      },
+      "testing": {
+        "buildid": "25170622",
+        "description": "Testing",
+        "timebuildupdated": "1788796806",
+        "timeupdated": "1788797227"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Acrylic Pixel Games",
+    "publisher": "Acrylic Pixel Games"
+  }
 }

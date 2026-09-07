@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788788755,
-  "_history": [],
-  "_change_number": 38666759,
-  "_missing_token": true,
-  "_sha": "8a2f2bc093dd3bc37bf80529b004af16ec805bfa",
-  "_size": 3972,
+  "_lastChecked": 1788807450,
+  "_history": [
+    {
+      "buildId": "25172632",
+      "branch": "public",
+      "timeUpdated": 1788804877,
+      "firstSeen": 1788807450,
+      "manifests": {
+        "3664071": {
+          "gid": "2264474345677380968",
+          "size": 2503503248,
+          "download": 452633056
+        },
+        "3664074": {
+          "gid": "4957990120731810361",
+          "size": 2487607202,
+          "download": 441831312
+        }
+      }
+    }
+  ],
+  "_change_number": 38674478,
+  "_missing_token": false,
+  "_sha": "a4b30e1b4eab8960eea7032262bf3484bccf5d43",
+  "_size": 5327,
   "appid": "3664070",
   "common": {
     "associations": {
@@ -19,6 +38,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
       "category_28": "1",
       "category_55": "1",
       "category_62": "1",
@@ -28,9 +48,9 @@
     "clienticon": "5207724d603913846ad9ed64f312ad386e185b8f",
     "clienttga": "5f8911c72a12b22d762601a27abdbc4ed61749eb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3664070",
     "genres": {
       "0": "25",
@@ -111,10 +131,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6b23c0531c55f3ff06a818ebcbeb909ab7738a2c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788800454",
     "store_asset_mtime": "1777076836",
     "store_tags": {
       "0": "809",
@@ -174,5 +195,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Nothing Strange Here",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Nothing Strange Here.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-deck",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "This launch option is only for steamdeck",
+        "description_loc": {
+          "english": "This launch option is only for steamdeck"
+        },
+        "executable": "SteamDeck_Build.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3664071": {
+      "manifests": {
+        "public": {
+          "download": "452633056",
+          "gid": "2264474345677380968",
+          "size": "2503503248"
+        }
+      }
+    },
+    "3664072": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "3664073": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "3664074": {
+      "config": {
+        "oslist": "linux",
+        "steamdeck": "1"
+      },
+      "manifests": {
+        "public": {
+          "download": "441831312",
+          "gid": "4957990120731810361",
+          "size": "2487607202"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25172632",
+        "timebuildupdated": "1788804877",
+        "timeupdated": "1788804877"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Dandelion Developers",
+    "publisher": "Dandelion Developers"
+  }
 }

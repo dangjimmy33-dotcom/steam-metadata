@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788787959,
-  "_history": [],
-  "_change_number": 38621075,
-  "_missing_token": true,
-  "_sha": "1fd031f195bf4763ac0897bec808e8dbf6408c9d",
-  "_size": 5115,
+  "_lastChecked": 1788806613,
+  "_history": [
+    {
+      "buildId": "24982990",
+      "branch": "public",
+      "timeUpdated": 1788425051,
+      "firstSeen": 1788806613,
+      "manifests": {
+        "2998921": {
+          "gid": "8202652876091892307",
+          "size": 1048079470,
+          "download": 730493056
+        }
+      }
+    }
+  ],
+  "_change_number": 38674223,
+  "_missing_token": false,
+  "_sha": "1ad2e2baf30c622ab99dc23fbda5bb12414e517a",
+  "_size": 6389,
   "appid": "2998920",
   "common": {
     "associations": {
@@ -36,9 +50,9 @@
     "clienticon": "631c9a7016367361cc72b74d6b594bef04fb2e6e",
     "clienttga": "ee73b6ed9ad34c53bc3ef41e65465b44c31f883d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2998920",
     "genres": {
       "0": "1",
@@ -125,12 +139,15 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "dc5050bb080a4f3c1ea4a276ea4b54172d8a853e/capsule_231x87.jpg",
       "schinese": "d5d343b1afce0fb1088daecf9affa567f161f163/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1788577001",
+    "steam_release_date": "1788793206",
+    "store_asset_mtime": "1788795721",
     "store_tags": {
       "0": "3959",
       "1": "42804",
@@ -201,5 +218,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Port of Jumanah",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Port Of Jumanah.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2998921": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "730493056",
+          "gid": "8202652876091892307",
+          "size": "1048079470"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24982990",
+        "timebuildupdated": "1787880816",
+        "timeupdated": "1788425051"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Red Dunes Games",
+    "homepage": "https://portofjumanah.agate.id/presskit/ ",
+    "publisher": "Red Dunes Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "PortofJumanah/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "PortofJumanah/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

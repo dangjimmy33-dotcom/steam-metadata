@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788788961,
-  "_history": [],
-  "_change_number": 38621141,
-  "_missing_token": true,
-  "_sha": "9bfff28c67349962f591d015ca836aa748df5ac6",
-  "_size": 4079,
+  "_lastChecked": 1788807668,
+  "_history": [
+    {
+      "buildId": "25136506",
+      "branch": "public",
+      "timeUpdated": 1788578408,
+      "firstSeen": 1788807668,
+      "manifests": {
+        "3846441": {
+          "gid": "7634707320033300364",
+          "size": 2712742388,
+          "download": 2090552192
+        }
+      }
+    }
+  ],
+  "_change_number": 38669779,
+  "_missing_token": false,
+  "_sha": "1a3172dcf2792b0bdbdb160e80ef942f2845e2c3",
+  "_size": 4904,
   "appid": "3846440",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     "clienticon": "7e7ac22a220a451299a2a7fdd9f1565034d88e0f",
     "clienttga": "5aff2243e91059c0e240c2778b98f5009c261d1e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3846440",
     "genres": {
       "0": "4",
@@ -120,11 +134,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2d3112296c1f33cebd05982940f0ea1cfdb66f6c/capsule_231x87.jpg",
       "japanese": "358af21a3d4328b8da1e09bb119c12b77c254ef5/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1788792352",
     "store_asset_mtime": "1787185962",
     "store_tags": {
       "0": "21725",
@@ -160,5 +175,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mythmon",
+    "launch": {
+      "0": {
+        "executable": "Mythmon.exe"
+      }
+    }
+  },
+  "depots": {
+    "3846441": {
+      "manifests": {
+        "public": {
+          "download": "2090552192",
+          "gid": "7634707320033300364",
+          "size": "2712742388"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25136506",
+        "timebuildupdated": "1788578371",
+        "timeupdated": "1788578408"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": " MachHabaneroGames",
+    "publisher": "Kodansha"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "MachHabaneroGames/Mythmon/{64BitSteamID}",
+        "pattern": "SaveFile.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788790306,
-  "_history": [],
-  "_change_number": 38656022,
-  "_missing_token": true,
-  "_sha": "69a511e872cb2d87f0f7b140a393e071d849e3c2",
-  "_size": 3285,
+  "_lastChecked": 1788809099,
+  "_history": [
+    {
+      "buildId": "24918913",
+      "branch": "public",
+      "timeUpdated": 1788751666,
+      "firstSeen": 1788809099,
+      "manifests": {
+        "5101001": {
+          "gid": "2835056905398001255",
+          "size": 174856162,
+          "download": 94429504
+        }
+      }
+    }
+  ],
+  "_change_number": 38668982,
+  "_missing_token": false,
+  "_sha": "474c66952204b1a57f2905e4db878a68a8a29267",
+  "_size": 4530,
   "appid": "5101000",
   "common": {
     "aicontenttype": "1",
@@ -22,6 +36,7 @@
       "category_15": "1",
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_25": "1",
       "category_62": "1",
       "category_67": "1",
@@ -33,8 +48,8 @@
     },
     "clienticon": "15bb28e71d0fb0d3d62d41779a1097080ee774d3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5101000",
     "genres": {
       "0": "1",
@@ -110,7 +125,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "92b2a0fad00c6182666688084ff94385197b1557/capsule_231x87.jpg"
     },
@@ -147,5 +162,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sanguo Survivors",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "sanguo-survivors.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5101001": {
+      "manifests": {
+        "public": {
+          "download": "94429504",
+          "gid": "2835056905398001255",
+          "size": "174856162"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24918913",
+        "timebuildupdated": "1787622613",
+        "timeupdated": "1788751666"
+      }
+    }
+  },
+  "extended": {
+    "developer": "kevin",
+    "publisher": "kevin"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "SanguoSurvivors/save",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "1": {
+        "path": "SanguoSurvivors/save",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "SanguoSurvivors/save",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

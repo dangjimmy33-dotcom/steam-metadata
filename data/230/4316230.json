@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788789514,
+  "_lastChecked": 1788808271,
   "_history": [
     {
       "buildId": "24929900",
@@ -13,12 +13,30 @@
           "download": 130133792
         }
       }
+    },
+    {
+      "buildId": "25172379",
+      "branch": "public",
+      "timeUpdated": 1788803888,
+      "firstSeen": 1788808271,
+      "manifests": {
+        "4316231": {
+          "gid": "1099187554546052983",
+          "size": 718633105,
+          "download": 130133792
+        },
+        "4316232": {
+          "gid": "6602643094326628884",
+          "size": 218482517,
+          "download": 88372768
+        }
+      }
     }
   ],
-  "_change_number": 38317427,
+  "_change_number": 38674340,
   "_missing_token": false,
-  "_sha": "2ef64dcd0d5fa4952662d0c44187b1b620e3e635",
-  "_size": 4013,
+  "_sha": "c6cfce00a739a2e8f3c07c8f08a1c3d70692ae8a",
+  "_size": 4369,
   "appid": "4316230",
   "common": {
     "associations": {
@@ -119,8 +137,8 @@
     },
     "name": "Mystic Garden",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64",
+    "oslist": "windows,macos",
     "primary_genre": "28",
     "releasestate": "released",
     "small_capsule": {
@@ -161,6 +179,12 @@
           "oslist": "windows"
         },
         "executable": "Mystic Garden/Mystic Garden.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "macOS/witches-build-mac.app/Contents/MacOS/Mystic Garden"
       }
     }
   },
@@ -177,11 +201,23 @@
         }
       }
     },
+    "4316232": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "88372768",
+          "gid": "6602643094326628884",
+          "size": "218482517"
+        }
+      }
+    },
     "branches": {
       "public": {
-        "buildid": "24929900",
-        "timebuildupdated": "1787666659",
-        "timeupdated": "1787666661"
+        "buildid": "25172379",
+        "timebuildupdated": "1788803888",
+        "timeupdated": "1788803888"
       }
     }
   },

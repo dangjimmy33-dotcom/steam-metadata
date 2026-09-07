@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788789258,
-  "_history": [],
-  "_change_number": 38653182,
-  "_missing_token": true,
-  "_sha": "20c1ebcc675bce221a8519b6103a466b9c7bd322",
-  "_size": 3024,
+  "_lastChecked": 1788808001,
+  "_history": [
+    {
+      "buildId": "25158323",
+      "branch": "public",
+      "timeUpdated": 1788738582,
+      "firstSeen": 1788808001,
+      "manifests": {
+        "4099121": {
+          "gid": "1518382440352864811",
+          "size": 771207980,
+          "download": 653552784
+        }
+      }
+    }
+  ],
+  "_change_number": 38674877,
+  "_missing_token": false,
+  "_sha": "e5084d0b89b623bfe41d496bb84efa01e54e236b",
+  "_size": 4151,
   "appid": "4099120",
   "common": {
     "associations": {
@@ -23,6 +37,7 @@
     },
     "clienticon": "76c04e5e03551b4bde35d0f0619bb873fb58e3a5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -30,7 +45,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4099120",
     "genres": {
       "0": "23"
@@ -100,10 +114,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "eaff2d8642df8d763c099acbeb0a20e1d4766ca3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788806095",
     "store_asset_mtime": "1780937891",
     "store_tags": {
       "0": "597",
@@ -134,5 +149,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "My Darling Dark Elf",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "darlingdarkelf.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "darlingdarkelf.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "darlingdarkelf.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4099121": {
+      "manifests": {
+        "public": {
+          "download": "653552784",
+          "gid": "1518382440352864811",
+          "size": "771207980"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25158323",
+        "timebuildupdated": "1788738571",
+        "timeupdated": "1788738582"
+      }
+    }
+  },
+  "extended": {
+    "developer": "ebi-hime",
+    "publisher": "ebi-hime"
+  }
 }

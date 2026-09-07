@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788790308,
-  "_history": [],
-  "_change_number": 38668776,
-  "_missing_token": true,
-  "_sha": "28311e3301a487cf616dd1a4bdb0eaaf2382324a",
-  "_size": 3288,
+  "_lastChecked": 1788809101,
+  "_history": [
+    {
+      "buildId": "25170355",
+      "branch": "public",
+      "timeUpdated": 1788797681,
+      "firstSeen": 1788809101,
+      "manifests": {
+        "5104021": {
+          "gid": "2907845488024680492",
+          "size": 301073210,
+          "download": 178639184
+        }
+      }
+    }
+  ],
+  "_change_number": 38673108,
+  "_missing_token": false,
+  "_sha": "fd363a163ac0ecfb5c04ae18410cd396d2cde6e5",
+  "_size": 4085,
   "appid": "5104020",
   "common": {
     "aicontenttype": "1",
@@ -28,7 +42,6 @@
     "clienticon": "596f1ed13dc546bb96431dbe0023af39932ae9ce",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5104020",
     "genres": {
       "0": "4",
@@ -99,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "970446c77968413b7302d95a57377cebed786a73/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788800678",
     "store_asset_mtime": "1788095931",
     "store_tags": {
       "0": "597",
@@ -153,5 +167,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Splatter Piece",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SplatterPiece.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5104021": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "178639184",
+          "gid": "2907845488024680492",
+          "size": "301073210"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,tchinese,turkish",
+    "branches": {
+      "public": {
+        "buildid": "25170355",
+        "timebuildupdated": "1788795740",
+        "timeupdated": "1788797681"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Lief Studio",
+    "publisher": "Lief Studio"
+  }
 }

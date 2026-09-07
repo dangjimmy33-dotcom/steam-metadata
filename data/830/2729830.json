@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788787629,
-  "_history": [],
-  "_change_number": 38652737,
-  "_missing_token": true,
-  "_sha": "4a8bd24f3c12ad5e69ca0c6c73e4f4ceb8db088d",
-  "_size": 3204,
+  "_lastChecked": 1788806269,
+  "_history": [
+    {
+      "buildId": "25157987",
+      "branch": "public",
+      "timeUpdated": 1788736213,
+      "firstSeen": 1788806269,
+      "manifests": {
+        "2729831": {
+          "gid": "4864088414625231055",
+          "size": 7690210057,
+          "download": 7050922160
+        }
+      }
+    }
+  ],
+  "_change_number": 38668598,
+  "_missing_token": false,
+  "_sha": "63abba6096b6f9f0f642ca8702332e8fdee3f8ad",
+  "_size": 3965,
   "appid": "2729830",
   "common": {
     "associations": {
@@ -30,7 +44,6 @@
     "clienttga": "fecec0119311c462a893015d3a22deaeb195f1b3",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2729830",
     "genres": {
       "0": "25",
@@ -103,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c891dd444668fb292112cfa815c87d10e10bada9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788789490",
     "store_asset_mtime": "1784939521",
     "store_tags": {
       "0": "1100689",
@@ -139,5 +153,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pumpkin Woods",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Pumpkin Woods.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2729831": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "7050922160",
+          "gid": "4864088414625231055",
+          "size": "7690210057"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25157987",
+        "timebuildupdated": "1788736122",
+        "timeupdated": "1788736213"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Enchanted Pumpkin Co.",
+    "homepage": "https://impress.games/press-kit/enchanted-pumpkin-co/pumpkin-woods",
+    "publisher": "Enchanted Pumpkin Co."
+  }
 }

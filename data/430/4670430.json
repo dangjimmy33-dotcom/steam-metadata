@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788789892,
-  "_history": [],
-  "_change_number": 37364594,
-  "_missing_token": true,
-  "_sha": "d3ee20b07764c827f30c7bd2056d63bb7cd02693",
-  "_size": 3132,
+  "_lastChecked": 1788808666,
+  "_history": [
+    {
+      "buildId": "24116656",
+      "branch": "public",
+      "timeUpdated": 1783544875,
+      "firstSeen": 1788808666,
+      "manifests": {
+        "4670431": {
+          "gid": "829269062811875016",
+          "size": 173642049,
+          "download": 124018768
+        }
+      }
+    }
+  ],
+  "_change_number": 38674947,
+  "_missing_token": false,
+  "_sha": "c196501173a1a7a772e6405356e41a4da07cbeaf",
+  "_size": 3878,
   "appid": "4670430",
   "common": {
     "aicontenttype": "1",
@@ -47,7 +61,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4670430",
     "genres": {
       "0": "25"
@@ -117,11 +130,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "794f8a7d799b2b17ff6277adc8c003e272d05398/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788806281",
     "store_asset_mtime": "1782853182",
     "store_tags": {
       "0": "21",
@@ -142,5 +156,44 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Carolina Heat",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CarolinaHeatVN-1.2-win/CarolinaHeatVN.exe",
+        "type": "default",
+        "workingdir": "CarolinaHeatVN-1.2-win"
+      }
+    }
+  },
+  "depots": {
+    "4670431": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "124018768",
+          "gid": "829269062811875016",
+          "size": "173642049"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24116656",
+        "timebuildupdated": "1783544873",
+        "timeupdated": "1783544875"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Colby Gray",
+    "publisher": "Colby Gray"
+  }
 }

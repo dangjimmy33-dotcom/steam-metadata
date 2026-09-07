@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788790110,
+  "_lastChecked": 1788808895,
   "_history": [
     {
       "buildId": "24184017",
@@ -13,12 +13,25 @@
           "download": 52968272
         }
       }
+    },
+    {
+      "buildId": "25171080",
+      "branch": "public",
+      "timeUpdated": 1788798624,
+      "firstSeen": 1788808895,
+      "manifests": {
+        "4892160": {
+          "gid": "50939739101462021",
+          "size": 136143350,
+          "download": 132970368
+        }
+      }
     }
   ],
-  "_change_number": 37629627,
+  "_change_number": 38672286,
   "_missing_token": false,
-  "_sha": "239c2ef938beae02a5525ccef5cd5a2e4093e421",
-  "_size": 2249,
+  "_sha": "27f61938d147b0ed3ac23b335db73265b979758a",
+  "_size": 2452,
   "appid": "4892160",
   "common": {
     "associations": {
@@ -41,6 +54,7 @@
       "category_23": "1",
       "category_45": "1",
       "category_46": "1",
+      "category_62": "1",
       "category_65": "1",
       "category_67": "1",
       "category_68": "1",
@@ -67,6 +81,7 @@
     "small_capsule": {
       "english": "69a28af399d849c0f3462a33ee5e31b179d08fdf/capsule_231x87.jpg"
     },
+    "steam_release_date": "1784556552",
     "store_asset_mtime": "1783958796",
     "store_screenshot": "a0d45923db47d2ee5fe3433ff88c1834691f7754/ss_a0d45923db47d2ee5fe3433ff88c1834691f7754.jpg",
     "store_tags": {
@@ -96,7 +111,15 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "japanese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "russian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "schinese": {
         "subtitles": "true",
         "supported": "true"
       }
@@ -108,17 +131,17 @@
       "dlcappid": "4892160",
       "manifests": {
         "public": {
-          "download": "52968272",
-          "gid": "9022251816851934585",
-          "size": "54020712"
+          "download": "132970368",
+          "gid": "50939739101462021",
+          "size": "136143350"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "24184017",
-        "timebuildupdated": "1783950082",
-        "timeupdated": "1783950083"
+        "buildid": "25171080",
+        "timebuildupdated": "1788798609",
+        "timeupdated": "1788798624"
       }
     }
   },

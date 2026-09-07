@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788789715,
-  "_history": [],
-  "_change_number": 38652492,
-  "_missing_token": true,
-  "_sha": "b849db25ea9894151577dd0291c38d61906e341d",
-  "_size": 3444,
+  "_lastChecked": 1788808480,
+  "_history": [
+    {
+      "buildId": "25157827",
+      "branch": "public",
+      "timeUpdated": 1788734974,
+      "firstSeen": 1788808480,
+      "manifests": {
+        "4505151": {
+          "gid": "1725366337931723868",
+          "size": 1374017576,
+          "download": 668899808
+        }
+      }
+    }
+  ],
+  "_change_number": 38672191,
+  "_missing_token": false,
+  "_sha": "455acffefd53755a6805c2b88c46c9b0bdfd18b7",
+  "_size": 4166,
   "appid": "4505150",
   "common": {
     "associations": {
@@ -23,10 +37,13 @@
       "category_28": "1",
       "category_55": "1",
       "category_56": "1",
-      "category_62": "1"
+      "category_62": "1",
+      "category_68": "1",
+      "category_69": "1"
     },
     "clienticon": "b3755b08a09d034d18742323d942ad48bc62cc5a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -37,7 +54,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4505150",
     "genres": {
       "0": "1",
@@ -108,11 +124,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1d2de7f4d9858e4c25565f39b5396931170fd14e/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1785379652",
+    "steam_release_date": "1788796807",
+    "store_asset_mtime": "1788798386",
     "store_tags": {
       "0": "21",
       "1": "1721",
@@ -159,5 +176,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "THE WELL IS NOT EMPTY",
+    "launch": {
+      "0": {
+        "executable": "THE WELL IS NOT EMPTY.exe"
+      }
+    }
+  },
+  "depots": {
+    "4505151": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "668899808",
+          "gid": "1725366337931723868",
+          "size": "1374017576"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,japanese,latam",
+    "branches": {
+      "public": {
+        "buildid": "25157827",
+        "timebuildupdated": "1788734946",
+        "timeupdated": "1788734974"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "tweakEra",
+    "publisher": "tweakEra"
+  }
 }

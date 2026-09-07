@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788786115,
+  "_lastChecked": 1788804667,
   "_history": [
     {
       "buildId": "20206241",
@@ -25,10 +25,10 @@
       }
     }
   ],
-  "_change_number": 37834922,
+  "_change_number": 38673541,
   "_missing_token": false,
-  "_sha": "85190881229c53e42107bf24db4f47c9e8b139fa",
-  "_size": 7967,
+  "_sha": "4619c814faa0c14ff16d9a99dd9838ea1e2c9ae5",
+  "_size": 9163,
   "appid": "1562430",
   "common": {
     "associations": {
@@ -218,6 +218,48 @@
         "3": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_frame_compatibility": {
+      "category": "3",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1788193601",
+      "tested_build_id": "20206241",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsPerformant"
         }
       }
     },

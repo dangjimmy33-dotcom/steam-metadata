@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788787386,
+  "_lastChecked": 1788806013,
   "_history": [
     {
       "buildId": "23966064",
@@ -52,12 +52,38 @@
           "download": 300156528
         }
       }
+    },
+    {
+      "buildId": "25168112",
+      "branch": "public",
+      "timeUpdated": 1788788072,
+      "firstSeen": 1788806013,
+      "manifests": {
+        "2526561": {
+          "gid": "1705194575062776481",
+          "size": 753696118,
+          "download": 300156416
+        }
+      }
+    },
+    {
+      "buildId": "25168112",
+      "branch": "unstable",
+      "timeUpdated": 1788787980,
+      "firstSeen": 1788806013,
+      "manifests": {
+        "2526561": {
+          "gid": "1705194575062776481",
+          "size": 753696118,
+          "download": 300156416
+        }
+      }
     }
   ],
-  "_change_number": 38667357,
+  "_change_number": 38674708,
   "_missing_token": false,
-  "_sha": "a4fac18d61ea687586fafe7fe24679c5224ea68c",
-  "_size": 7352,
+  "_sha": "4e8a303afbd4bd581e85b8f79bdea466eb2123ae",
+  "_size": 7496,
   "appid": "2526560",
   "common": {
     "associations": {
@@ -75,9 +101,14 @@
       }
     },
     "category": {
+      "category_18": "1",
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
       "category_62": "1",
       "category_68": "1",
       "category_74": "1",
@@ -87,6 +118,7 @@
     "clienttga": "3152c5be03bd07f3b85578ecb6aea17109585ec4",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
+    "controller_support": "partial",
     "controllertagwizard": "1",
     "gameid": "2526560",
     "genres": {
@@ -161,7 +193,7 @@
     "oslist": "windows",
     "primary_genre": "28",
     "releasestate": "released",
-    "review_percentage": "79",
+    "review_percentage": "78",
     "review_score": "6",
     "small_capsule": {
       "english": "8f8a45681048cc9721b52c392e9e032f3eb04c31/capsule_231x87.jpg"
@@ -318,28 +350,28 @@
     "2526561": {
       "manifests": {
         "public": {
-          "download": "298536240",
-          "gid": "6329993368028924041",
-          "size": "752509131"
+          "download": "300156416",
+          "gid": "1705194575062776481",
+          "size": "753696118"
         },
         "unstable": {
-          "download": "300156528",
-          "gid": "6782711603985300091",
-          "size": "753695606"
+          "download": "300156416",
+          "gid": "1705194575062776481",
+          "size": "753696118"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "23966064",
-        "timebuildupdated": "1782738044",
-        "timeupdated": "1782748438"
+        "buildid": "25168112",
+        "timebuildupdated": "1788787980",
+        "timeupdated": "1788788072"
       },
       "unstable": {
-        "buildid": "25167702",
+        "buildid": "25168112",
         "description": "Automated build, can be unstable, buggy or broken.",
-        "timebuildupdated": "1788786716",
-        "timeupdated": "1788786716"
+        "timebuildupdated": "1788787980",
+        "timeupdated": "1788787980"
       }
     },
     "privatebranches": "1",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788787634,
+  "_lastChecked": 1788806275,
   "_history": [
     {
       "buildId": "17690677",
@@ -13,12 +13,25 @@
           "download": 280189248
         }
       }
+    },
+    {
+      "buildId": "25172853",
+      "branch": "public",
+      "timeUpdated": 1788805979,
+      "firstSeen": 1788806275,
+      "manifests": {
+        "2734461": {
+          "gid": "3561970618169810025",
+          "size": 350032961,
+          "download": 281565824
+        }
+      }
     }
   ],
-  "_change_number": 37157123,
+  "_change_number": 38674837,
   "_missing_token": false,
-  "_sha": "ec6c1350fd2d2689bf8cb565f802f0fbb0f52d81",
-  "_size": 3467,
+  "_sha": "7ff65bad3d395019ac376012cff757101e872057",
+  "_size": 3465,
   "appid": "2734460",
   "common": {
     "associations": {
@@ -32,19 +45,20 @@
       }
     },
     "category": {
-      "category_18": "1",
+      "category_17": "1",
       "category_2": "1",
+      "category_28": "1",
+      "category_30": "1",
       "category_55": "1",
       "category_56": "1",
       "category_57": "1",
       "category_58": "1",
-      "category_60": "1",
       "category_62": "1"
     },
     "clienticon": "ddb089221715d53657c778f1a6635f6f8a05fb04",
     "clienttga": "40eb24135499beda45338029464dfa7748700355",
     "community_hub_visible": "1",
-    "controller_support": "partial",
+    "controller_support": "full",
     "controllertagwizard": "1",
     "gameid": "2734460",
     "genres": {
@@ -115,7 +129,7 @@
       "english": "capsule_231x87.jpg"
     },
     "steam_release_date": "1714056670",
-    "store_asset_mtime": "1703173512",
+    "store_asset_mtime": "1788798538",
     "store_tags": {
       "0": "1730",
       "1": "4106",
@@ -145,7 +159,8 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
   "config": {
     "installdir": "Fallen's Challenge",
@@ -166,17 +181,17 @@
     "2734461": {
       "manifests": {
         "public": {
-          "download": "280189248",
-          "gid": "6150511620850668986",
-          "size": "348824688"
+          "download": "281565824",
+          "gid": "3561970618169810025",
+          "size": "350032961"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "17690677",
-        "timebuildupdated": "1741773404",
-        "timeupdated": "1741773726"
+        "buildid": "25172853",
+        "timebuildupdated": "1788805902",
+        "timeupdated": "1788805979"
       }
     },
     "privatebranches": "1",
@@ -184,7 +199,6 @@
   },
   "extended": {
     "developer": "Electronic Overthrow LLC",
-    "homepage": "https://fallens-challenge.com/",
     "publisher": "Electronic Overthrow LLC"
   },
   "ufs": {

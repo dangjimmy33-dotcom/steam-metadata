@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788786559,
+  "_lastChecked": 1788805137,
   "_history": [
     {
       "buildId": "24648656",
@@ -36,12 +36,30 @@
           "download": 1561624512
         }
       }
+    },
+    {
+      "buildId": "25168325",
+      "branch": "test",
+      "timeUpdated": 1788788792,
+      "firstSeen": 1788805137,
+      "manifests": {
+        "1870301": {
+          "gid": "7224524096256802564",
+          "size": 4343762279,
+          "download": 1540075168
+        },
+        "1870302": {
+          "gid": "5866739834363421054",
+          "size": 4408738765,
+          "download": 1562609072
+        }
+      }
     }
   ],
-  "_change_number": 38650939,
+  "_change_number": 38674269,
   "_missing_token": false,
-  "_sha": "754a621194028888ad8561f8c2eec9c0875a2172",
-  "_size": 6605,
+  "_sha": "3c6f9dd65a1c7d845845daf7a289f3250fc941ed",
+  "_size": 6631,
   "appid": "1870300",
   "common": {
     "aicontenttype": "1",
@@ -250,7 +268,8 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
   "config": {
     "installdir": "SOVL",
@@ -281,9 +300,9 @@
           "size": "3975625483"
         },
         "test": {
-          "download": "1539215920",
-          "gid": "1087387311205813428",
-          "size": "4337761738"
+          "download": "1540075168",
+          "gid": "7224524096256802564",
+          "size": "4343762279"
         }
       }
     },
@@ -298,9 +317,9 @@
           "size": "4037371634"
         },
         "test": {
-          "download": "1561624512",
-          "gid": "8725416266688734485",
-          "size": "4402382815"
+          "download": "1562609072",
+          "gid": "5866739834363421054",
+          "size": "4408738765"
         }
       }
     },
@@ -311,10 +330,10 @@
         "timeupdated": "1786348271"
       },
       "test": {
-        "buildid": "25127121",
+        "buildid": "25168325",
         "description": "public test branch",
-        "timebuildupdated": "1788535364",
-        "timeupdated": "1788535422"
+        "timebuildupdated": "1788788677",
+        "timeupdated": "1788788792"
       }
     },
     "workshopdepot": "1870300"

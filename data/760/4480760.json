@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788789682,
+  "_lastChecked": 1788808444,
   "_history": [
     {
       "buildId": "25129552",
@@ -26,12 +26,48 @@
           "download": 48473168
         }
       }
+    },
+    {
+      "buildId": "25173006",
+      "branch": "beta",
+      "timeUpdated": 1788806587,
+      "firstSeen": 1788808444,
+      "manifests": {
+        "4480761": {
+          "gid": "7907051534217589458",
+          "size": 155070342,
+          "download": 48473168
+        },
+        "4480762": {
+          "gid": "9015146988332644760",
+          "size": 314356750,
+          "download": 80107136
+        }
+      }
+    },
+    {
+      "buildId": "25173125",
+      "branch": "public",
+      "timeUpdated": 1788807218,
+      "firstSeen": 1788808444,
+      "manifests": {
+        "4480761": {
+          "gid": "7907051534217589458",
+          "size": 155070342,
+          "download": 48473168
+        },
+        "4480762": {
+          "gid": "9015146988332644760",
+          "size": 314356750,
+          "download": 80107136
+        }
+      }
     }
   ],
-  "_change_number": 38655339,
+  "_change_number": 38675239,
   "_missing_token": false,
-  "_sha": "44af5d9b9822ec0f73dae4b2497beef35adbfa2c",
-  "_size": 4290,
+  "_sha": "36f8494a3a135957061ac20043bde85707993db1",
+  "_size": 4560,
   "appid": "4480760",
   "common": {
     "associations": {
@@ -120,8 +156,8 @@
     },
     "name": "Surf Sandbox",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "28",
     "releasestate": "released",
     "review_percentage": "94",
@@ -199,20 +235,32 @@
     "4480762": {
       "config": {
         "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "80107136",
+          "gid": "9015146988332644760",
+          "size": "314356750"
+        },
+        "public": {
+          "download": "80107136",
+          "gid": "9015146988332644760",
+          "size": "314356750"
+        }
       }
     },
     "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
     "branches": {
       "beta": {
-        "buildid": "25129552",
+        "buildid": "25173006",
         "description": "beta testing",
-        "timebuildupdated": "1788543931",
-        "timeupdated": "1788543931"
+        "timebuildupdated": "1788806587",
+        "timeupdated": "1788806587"
       },
       "public": {
-        "buildid": "25129552",
-        "timebuildupdated": "1788543931",
-        "timeupdated": "1788544079"
+        "buildid": "25173125",
+        "timebuildupdated": "1788807218",
+        "timeupdated": "1788807218"
       }
     }
   },

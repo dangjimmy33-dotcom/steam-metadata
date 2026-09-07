@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788788413,
-  "_history": [],
-  "_change_number": 38667228,
-  "_missing_token": true,
-  "_sha": "dca8488f24450f73858a79bd8c1e842c60093ee2",
-  "_size": 3943,
+  "_lastChecked": 1788807089,
+  "_history": [
+    {
+      "buildId": "25169107",
+      "branch": "public",
+      "timeUpdated": 1788791480,
+      "firstSeen": 1788807089,
+      "manifests": {
+        "3375111": {
+          "gid": "5479702784004295034",
+          "size": 4540737548,
+          "download": 3418826896
+        },
+        "3375112": {
+          "gid": "6762370227779247108",
+          "size": 6163215045,
+          "download": 3631285728
+        }
+      }
+    }
+  ],
+  "_change_number": 38674722,
+  "_missing_token": false,
+  "_sha": "42821c1c55ef0a06d299a13cdde05a9ed41ea129",
+  "_size": 5470,
   "appid": "3375110",
   "common": {
     "associations": {
@@ -31,6 +50,7 @@
     "clienticon": "636867abf3e74e31df37576cb8c458f44e2cfd34",
     "clienttga": "bdf8c199edfaba8edfb0fea075f8f9cee38c6616",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -40,7 +60,6 @@
         "version": "3"
       }
     },
-    "exfgls": "8",
     "gameid": "3375110",
     "genres": {
       "0": "4",
@@ -124,11 +143,14 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "73",
+    "review_score": "6",
     "small_capsule": {
       "english": "9bf390fc40a97b866e5544617630516737f15821/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1788706843",
+    "steam_release_date": "1788793527",
+    "store_asset_mtime": "1788794075",
     "store_tags": {
       "0": "1654",
       "1": "599",
@@ -185,5 +207,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tiny Eden",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CGH.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "CGH.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3375111": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3418826896",
+          "gid": "5479702784004295034",
+          "size": "4540737548"
+        }
+      }
+    },
+    "3375112": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "3631285728",
+          "gid": "6762370227779247108",
+          "size": "6163215045"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25169107",
+        "timebuildupdated": "1788791417",
+        "timeupdated": "1788791480"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Bajka Games",
+    "publisher": "Digital Vortex Entertainment"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "CGH/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

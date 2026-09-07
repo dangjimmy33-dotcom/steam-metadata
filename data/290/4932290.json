@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788790151,
-  "_history": [],
-  "_change_number": 38658469,
-  "_missing_token": true,
-  "_sha": "d65bbd7abc55077ffb9c4f9c850b192836bdf1f7",
-  "_size": 3041,
+  "_lastChecked": 1788808938,
+  "_history": [
+    {
+      "buildId": "25161830",
+      "branch": "public",
+      "timeUpdated": 1788762166,
+      "firstSeen": 1788808938,
+      "manifests": {
+        "4932291": {
+          "gid": "398239099121617058",
+          "size": 2065216587,
+          "download": 1857536112
+        },
+        "4932292": {
+          "gid": "4303178115145617710",
+          "size": 2034569372,
+          "download": 1845999776
+        },
+        "4932293": {
+          "gid": "3508014265665935849",
+          "size": 2058259176,
+          "download": 1847775744
+        }
+      }
+    }
+  ],
+  "_change_number": 38670588,
+  "_missing_token": false,
+  "_sha": "37d3bd62d50324114127b2735376b32c287b2246",
+  "_size": 5028,
   "appid": "4932290",
   "common": {
     "aicontenttype": "1",
@@ -25,8 +49,8 @@
     },
     "clienticon": "f2cd951f16addf67c68eee9efe8b45314de11c9a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4932290",
     "genres": {
       "0": "4",
@@ -100,11 +124,12 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "71fd1f8aa17d81c97d0401f3ec787c4bb0193891/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1788759239",
+    "steam_release_date": "1790751600",
+    "store_asset_mtime": "1788794022",
     "store_tags": {
       "0": "597",
       "1": "122",
@@ -136,5 +161,113 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "To Raise a King",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "To Raise a King.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "To Raise a King.app"
+      },
+      "2": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "to-raise-a-king"
+      }
+    }
+  },
+  "depots": {
+    "4932291": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1857536112",
+          "gid": "398239099121617058",
+          "size": "2065216587"
+        }
+      }
+    },
+    "4932292": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1845999776",
+          "gid": "4303178115145617710",
+          "size": "2034569372"
+        }
+      }
+    },
+    "4932293": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1847775744",
+          "gid": "3508014265665935849",
+          "size": "2058259176"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25161830",
+        "timebuildupdated": "1788761880",
+        "timeupdated": "1788762166"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Stagnant Technologies LLC",
+    "isfreeapp": "1",
+    "publisher": "Stagnant Technologies LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "to-raise-a-king/saves/",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "to-raise-a-king/saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": ".config/to-raise-a-king/saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

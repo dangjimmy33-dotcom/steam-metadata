@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788789552,
+  "_lastChecked": 1788808312,
   "_history": [
     {
       "buildId": "25139432",
@@ -26,12 +26,25 @@
           "download": 1466774352
         }
       }
+    },
+    {
+      "buildId": "25168966",
+      "branch": "public",
+      "timeUpdated": 1788790938,
+      "firstSeen": 1788808312,
+      "manifests": {
+        "4355491": {
+          "gid": "1142672694673881119",
+          "size": 1989636178,
+          "download": 1469303488
+        }
+      }
     }
   ],
-  "_change_number": 38657610,
+  "_change_number": 38674729,
   "_missing_token": false,
-  "_sha": "4eab91f34eb5684d46c8b29ea8406db8b6cfc799",
-  "_size": 13225,
+  "_sha": "ef82408f3c290717cb2f89b7fc111db9fc607712",
+  "_size": 13354,
   "appid": "4355490",
   "common": {
     "aicontenttype": "1",
@@ -438,6 +451,10 @@
         },
         "executable": "SPDH.exe",
         "type": "default"
+      },
+      "1": {
+        "executable": "game.exe",
+        "type": "none"
       }
     }
   },
@@ -445,17 +462,22 @@
     "4355491": {
       "manifests": {
         "public": {
-          "download": "1466774352",
-          "gid": "3223522649694767964",
-          "size": "1987862351"
+          "download": "1469303488",
+          "gid": "1142672694673881119",
+          "size": "1989636178"
         }
+      }
+    },
+    "4355492": {
+      "config": {
+        "oslist": "macos"
       }
     },
     "branches": {
       "public": {
-        "buildid": "25144354",
-        "timebuildupdated": "1788634549",
-        "timeupdated": "1788634603"
+        "buildid": "25168966",
+        "timebuildupdated": "1788790853",
+        "timeupdated": "1788790938"
       }
     },
     "hasdepotsindlc": "1",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788787879,
+  "_lastChecked": 1788806530,
   "_history": [
     {
       "buildId": "24579460",
@@ -13,12 +13,30 @@
           "download": 1582527712
         }
       }
+    },
+    {
+      "buildId": "25168376",
+      "branch": "public",
+      "timeUpdated": 1788792364,
+      "firstSeen": 1788806530,
+      "manifests": {
+        "2936291": {
+          "gid": "4260381093586365414",
+          "size": 3190059125,
+          "download": 1564580704
+        },
+        "2936292": {
+          "gid": "4467361885413987733",
+          "size": 3517690387,
+          "download": 1902284720
+        }
+      }
     }
   ],
-  "_change_number": 38661982,
+  "_change_number": 38669927,
   "_missing_token": false,
-  "_sha": "6e87ea5b993b2453ec2b7ba22ff7e7d595c061c6",
-  "_size": 7820,
+  "_sha": "c49cc3cfa1666a704e066e932083951b5ccfffc0",
+  "_size": 7967,
   "appid": "2936290",
   "common": {
     "associations": {
@@ -133,8 +151,8 @@
     },
     "name": "The Life and Suffering of Prince Jerian",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "3",
     "releasestate": "released",
     "review_percentage": "76",
@@ -301,9 +319,9 @@
       },
       "manifests": {
         "public": {
-          "download": "1582527712",
-          "gid": "592835264378248739",
-          "size": "3311803175"
+          "download": "1564580704",
+          "gid": "4260381093586365414",
+          "size": "3190059125"
         }
       }
     },
@@ -312,7 +330,13 @@
         "osarch": "64",
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "1902284720",
+          "gid": "4467361885413987733",
+          "size": "3517690387"
+        }
+      }
     },
     "4892151": {
       "dlcappid": "4892150"
@@ -323,9 +347,9 @@
     "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,polish,russian,schinese,spanish",
     "branches": {
       "public": {
-        "buildid": "24579460",
-        "timebuildupdated": "1785959596",
-        "timeupdated": "1786029773"
+        "buildid": "25168376",
+        "timebuildupdated": "1788788880",
+        "timeupdated": "1788792364"
       }
     },
     "hasdepotsindlc": "1",

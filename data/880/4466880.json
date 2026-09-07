@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788789674,
-  "_history": [],
-  "_change_number": 38668518,
-  "_missing_token": true,
-  "_sha": "b057123981043be9b565583415011ef3370ea2cb",
-  "_size": 5446,
+  "_lastChecked": 1788808435,
+  "_history": [
+    {
+      "buildId": "25170730",
+      "branch": "public",
+      "timeUpdated": 1788797232,
+      "firstSeen": 1788808435,
+      "manifests": {
+        "4466881": {
+          "gid": "2204952681087399663",
+          "size": 302439699,
+          "download": 157090768
+        }
+      }
+    }
+  ],
+  "_change_number": 38671768,
+  "_missing_token": false,
+  "_sha": "ff2ecad91820de157ad083f2f4fc864e984196c6",
+  "_size": 6384,
   "appid": "4466880",
   "common": {
     "aicontenttype": "1",
@@ -32,6 +46,7 @@
     },
     "clienticon": "0dac69cf05013153a8dbd68e1aa8edc7714d156d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -42,7 +57,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4466880",
     "genres": {
       "0": "1",
@@ -142,12 +156,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e8ba70213de8552cd4ef01694825ba002c6ee56f/capsule_231x87.jpg",
       "schinese": "f263af0676583f2e41952199f976fb4571b123c5/capsule_231x87_schinese.jpg",
       "tchinese": "eebbf56bc415da19a99a9d04c954acf9a3856ba9/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1788792708",
     "store_asset_mtime": "1788587327",
     "store_tags": {
       "0": "42804",
@@ -181,5 +196,51 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "(TwwwT) The Witches Who Weaves Timelines",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "The Witches Who Weave Timelines.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4466881": {
+      "manifests": {
+        "public": {
+          "download": "157090768",
+          "gid": "2204952681087399663",
+          "size": "302439699"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25170730",
+        "timebuildupdated": "1788797205",
+        "timeupdated": "1788797232"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Restart Studio",
+    "publisher": "Restart Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "2500000",
+    "savefiles": {
+      "0": {
+        "path": "Restart Studio/The Witches Who Weave Timelines/Saves",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

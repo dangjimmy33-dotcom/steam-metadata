@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788790055,
-  "_history": [],
-  "_change_number": 38639189,
-  "_missing_token": true,
-  "_sha": "97a516651ef365f9ee9703f4a2b7657a5caeac86",
-  "_size": 3625,
+  "_lastChecked": 1788808837,
+  "_history": [
+    {
+      "buildId": "25125480",
+      "branch": "public",
+      "timeUpdated": 1788530565,
+      "firstSeen": 1788808837,
+      "manifests": {
+        "4838662": {
+          "gid": "3337116840685661547",
+          "size": 670733576,
+          "download": 147422256
+        }
+      }
+    }
+  ],
+  "_change_number": 38672983,
+  "_missing_token": false,
+  "_sha": "76c7960825411d0fc32460284be2071867dfd07c",
+  "_size": 5241,
   "appid": "4838660",
   "common": {
     "aicontenttype": "1",
@@ -35,6 +49,7 @@
     "clienticns": "2ce5a742e356ee0c2c6169d11a56506925f2d925",
     "clienticon": "8140ed6fdacd324f8bd27deb92c117015827cb35",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -44,7 +59,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "4838660",
     "genres": {
       "0": "4",
@@ -122,10 +136,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "98777931909ecd106eab82ddb5d4636589417254/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788800447",
     "store_asset_mtime": "1788252838",
     "store_tags": {
       "0": "32322",
@@ -168,5 +183,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CrazyPocket",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CrazyPocket.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "CrazyPocket.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4838661": {},
+    "4838662": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "147422256",
+          "gid": "3337116840685661547",
+          "size": "670733576"
+        }
+      }
+    },
+    "4838663": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "4838664": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25125480",
+        "timebuildupdated": "1788530307",
+        "timeupdated": "1788530565"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": " OFFMOON Inc.",
+    "publisher": " OFFMOON Inc."
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "offmoon/CrazyPocket/saveDir",
+            "replace": "com.offmoon.CrazyPocket/saveDir"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "offmoon/CrazyPocket/saveDir",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

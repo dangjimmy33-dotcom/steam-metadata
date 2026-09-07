@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788790060,
-  "_history": [],
-  "_change_number": 38598877,
-  "_missing_token": true,
-  "_sha": "e00465f2e8a8be523e84f235b0810a150ec90b17",
-  "_size": 3442,
+  "_lastChecked": 1788808842,
+  "_history": [
+    {
+      "buildId": "25114089",
+      "branch": "public",
+      "timeUpdated": 1788483904,
+      "firstSeen": 1788808842,
+      "manifests": {
+        "4843712": {
+          "gid": "4602432346033429722",
+          "size": 758529630,
+          "download": 154897392
+        },
+        "4843713": {
+          "gid": "8323976810249973614",
+          "size": 1101796742,
+          "download": 208832160
+        }
+      }
+    }
+  ],
+  "_change_number": 38672980,
+  "_missing_token": false,
+  "_sha": "d0f0ca00ca1dca3b34f84c29b6eeabddfda760a8",
+  "_size": 5450,
   "appid": "4843710",
   "common": {
     "associations": {
@@ -26,6 +45,7 @@
     "clienticns": "7bb979ab1d650475cb851548b5bd6fca530f78d8",
     "clienticon": "6d07bd883d399d98f73c5321b38b0503fb0fcd91",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -35,7 +55,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "4843710",
     "genres": {
       "0": "4",
@@ -115,10 +134,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "01bd3bbbb71abab95df8cce0937eef455bcda9cc/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788800446",
     "store_asset_mtime": "1787826580",
     "store_tags": {
       "0": "597",
@@ -157,5 +177,108 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Flip Defense",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Dealer's Dice.exe",
+        "type": "default",
+        "workingdir": "."
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Dealer's Dice.app",
+        "type": "default",
+        "workingdir": "."
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input_manifest.vdf"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4843712": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "154897392",
+          "gid": "4602432346033429722",
+          "size": "758529630"
+        }
+      }
+    },
+    "4843713": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "208832160",
+          "gid": "8323976810249973614",
+          "size": "1101796742"
+        }
+      }
+    },
+    "4843714": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25114089",
+        "timebuildupdated": "1788483904",
+        "timeupdated": "1788483904"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "OFFMOON Inc.",
+    "publisher": "OFFMOON Inc."
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "offmoon/Dealer's Dice/{64BitSteamID}",
+            "replace": "com.offmoon.desktop.flipdefense/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "offmoon/Dealer's Dice/{64BitSteamID}",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

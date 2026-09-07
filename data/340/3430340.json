@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788788480,
+  "_lastChecked": 1788807160,
   "_history": [
     {
       "buildId": "25141094",
@@ -54,12 +54,30 @@
           "download": 214225088
         }
       }
+    },
+    {
+      "buildId": "25168483",
+      "branch": "1.0.26",
+      "timeUpdated": 1788789269,
+      "firstSeen": 1788807160,
+      "manifests": {
+        "3430341": {
+          "gid": "6611296126664132255",
+          "size": 282548578,
+          "download": 246500960
+        },
+        "3430342": {
+          "gid": "2729854034568339303",
+          "size": 276009125,
+          "download": 214225088
+        }
+      }
     }
   ],
-  "_change_number": 38664715,
+  "_change_number": 38668526,
   "_missing_token": false,
-  "_sha": "11a33af82ef4b23734125fcead037ca247c9eac6",
-  "_size": 7821,
+  "_sha": "4e17338f0f49b59be6679199e7a680eb17f99183",
+  "_size": 8256,
   "appid": "3430340",
   "common": {
     "associations": {
@@ -342,6 +360,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "1.0.26": {
+          "download": "246500960",
+          "gid": "6611296126664132255",
+          "size": "282548578"
+        },
         "public": {
           "download": "198750304",
           "gid": "5241236859440275842",
@@ -354,6 +377,11 @@
         "oslist": "macos"
       },
       "manifests": {
+        "1.0.26": {
+          "download": "214225088",
+          "gid": "2729854034568339303",
+          "size": "276009125"
+        },
         "public": {
           "download": "214225088",
           "gid": "2729854034568339303",
@@ -363,6 +391,12 @@
     },
     "baselanguages": "english,spanish",
     "branches": {
+      "1.0.26": {
+        "buildid": "25168483",
+        "description": "latest 1.0 patch (be sure to backup your 1.1 saves before launching!!)",
+        "timebuildupdated": "1788789269",
+        "timeupdated": "1788789269"
+      },
       "public": {
         "buildid": "25165845",
         "timebuildupdated": "1788779527",

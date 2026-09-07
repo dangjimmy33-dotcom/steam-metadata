@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788786170,
-  "_history": [],
-  "_change_number": 38296210,
-  "_missing_token": true,
-  "_sha": "30d57f24bffafd8d40a37e243971deb1f2cbd879",
-  "_size": 3461,
+  "_lastChecked": 1788804726,
+  "_history": [
+    {
+      "buildId": "25172329",
+      "branch": "public",
+      "timeUpdated": 1788803715,
+      "firstSeen": 1788804726,
+      "manifests": {
+        "1602621": {
+          "gid": "2848532932598036839",
+          "size": 165627749,
+          "download": 158528640
+        }
+      }
+    }
+  ],
+  "_change_number": 38674095,
+  "_missing_token": false,
+  "_sha": "a68d8f0f418c55f7fc90561b5ca98e09becfc7b1",
+  "_size": 4437,
   "appid": "1602620",
   "common": {
     "associations": {
@@ -41,9 +55,9 @@
     "clienticon": "1e14736ee039aff2a0618852fef21b6283e26dab",
     "clienttga": "79240c838c0bc8f0b6d634adda6a6a6830941556",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1602620",
     "genres": {
       "0": "25",
@@ -118,10 +132,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ccbf8153ae30c63e9fa74580d5ecd8b26b51802d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788792714",
     "store_asset_mtime": "1787604610",
     "store_tags": {
       "0": "454187",
@@ -152,5 +167,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Deadzoned",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "Deadzoned.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "1602621": {
+      "manifests": {
+        "public": {
+          "download": "158528640",
+          "gid": "2848532932598036839",
+          "size": "165627749"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25172329",
+        "timebuildupdated": "1788803688",
+        "timeupdated": "1788803715"
+      }
+    }
+  },
+  "extended": {
+    "developer": "caiys",
+    "homepage": "http://caiysware.com",
+    "publisher": "caiysware"
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "2000000",
+    "savefiles": {
+      "1": {
+        "path": "Deadzoned/{64BitSteamID}",
+        "pattern": "*.dat",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1788787376,
-  "_history": [],
-  "_change_number": 38665944,
-  "_missing_token": true,
-  "_sha": "9a65ad13308af34138b3d9c61a5f30687f859e12",
-  "_size": 5177,
+  "_lastChecked": 1788806002,
+  "_history": [
+    {
+      "buildId": "25166729",
+      "branch": "public",
+      "timeUpdated": 1788790701,
+      "firstSeen": 1788806002,
+      "manifests": {
+        "2518491": {
+          "gid": "239452649736200224",
+          "size": 205508719,
+          "download": 70611984
+        },
+        "2518492": {
+          "gid": "3922947552322471613",
+          "size": 212505504,
+          "download": 78429408
+        },
+        "2518493": {
+          "gid": "5747954138947050166",
+          "size": 235998309,
+          "download": 73013760
+        },
+        "5174670": {
+          "gid": "7494657121733019967",
+          "size": 39783273,
+          "download": 25206432
+        }
+      }
+    }
+  ],
+  "_change_number": 38673222,
+  "_missing_token": false,
+  "_sha": "d05b0a09d6ab368fbc0102188076dc8d6df7ab27",
+  "_size": 7681,
   "appid": "2518490",
   "common": {
     "associations": {
@@ -35,9 +64,9 @@
     "clienticon": "1c436f60a965ac1bb1ae16a2bbd74c882481ba18",
     "clienttga": "21d3e18c227cf843caffed68404b3b7cfd09ad7a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2518490",
     "genres": {
       "0": "23",
@@ -109,7 +138,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fbc63c372871c44f36b4fea056773bb2fe6c04c6/capsule_231x87.jpg"
     },
@@ -174,6 +203,7 @@
         }
       }
     },
+    "steam_release_date": "1788800969",
     "store_asset_mtime": "1788771386",
     "store_tags": {
       "0": "4115",
@@ -234,5 +264,135 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dataminers",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Dataminers.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Dataminers.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Dataminers.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "2",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2518491": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "70611984",
+          "gid": "239452649736200224",
+          "size": "205508719"
+        }
+      }
+    },
+    "2518492": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "78429408",
+          "gid": "3922947552322471613",
+          "size": "212505504"
+        }
+      }
+    },
+    "2518493": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "73013760",
+          "gid": "5747954138947050166",
+          "size": "235998309"
+        }
+      }
+    },
+    "5174670": {
+      "dlcappid": "5174670",
+      "manifests": {
+        "public": {
+          "download": "25206432",
+          "gid": "7494657121733019967",
+          "size": "39783273"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25166729",
+        "timebuildupdated": "1788783058",
+        "timeupdated": "1788790701"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Electrocosmos",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5174670",
+    "publisher": "Application Systems Heidelberg"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "5000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "electrocosmos/Dataminers/",
+            "replace": "electrocosmos/Dataminers/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "electrocosmos/Dataminers/",
+            "replace": ".config/unity3d/electrocosmos/Dataminers/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "electrocosmos/Dataminers/",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
