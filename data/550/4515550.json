@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788751869,
-  "_history": [],
-  "_change_number": 38647758,
-  "_missing_token": true,
-  "_sha": "4f5e804bc3c3050c4d373b1ff194016693177d62",
-  "_size": 5706,
+  "_lastChecked": 1788757665,
+  "_history": [
+    {
+      "buildId": "25160624",
+      "branch": "public",
+      "timeUpdated": 1788753930,
+      "firstSeen": 1788757665,
+      "manifests": {
+        "4515551": {
+          "gid": "1394010862501978221",
+          "size": 847373136,
+          "download": 749456640
+        }
+      }
+    }
+  ],
+  "_change_number": 38656546,
+  "_missing_token": false,
+  "_sha": "becfec16dda44d8f45af0f7855a8e3957fd44601",
+  "_size": 6563,
   "appid": "4515550",
   "common": {
     "aicontenttype": "1",
@@ -41,8 +55,8 @@
     "clienticns": "2f84e900d4cdcfd3963983ff505b02305ad0f07a",
     "clienticon": "2f84e900d4cdcfd3963983ff505b02305ad0f07a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4515550",
     "genres": {
       "0": "4",
@@ -149,7 +163,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f97cff795a94dadfc230553a61ed862417024fb7/capsule_231x87.jpg"
     },
@@ -228,5 +242,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DonEatFish",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Standalone.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4515551": {
+      "manifests": {
+        "public": {
+          "download": "749456640",
+          "gid": "1394010862501978221",
+          "size": "847373136"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,japanese,koreana,russian,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25160624",
+        "timebuildupdated": "1788753879",
+        "timeupdated": "1788753930"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Steeped Sky Studio",
+    "dlcavailableonstore": "1",
+    "isfreeapp": "1",
+    "listofdlc": "5011820",
+    "publisher": "Steeped Sky Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "sync_while_suspended": "1"
+  }
 }

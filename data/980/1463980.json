@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788747916,
+  "_lastChecked": 1788754380,
   "_history": [
     {
       "buildId": "7420825",
@@ -13,12 +13,25 @@
           "download": 550501632
         }
       }
+    },
+    {
+      "buildId": "25160287",
+      "branch": "japanese_test",
+      "timeUpdated": 1788752365,
+      "firstSeen": 1788754380,
+      "manifests": {
+        "1463981": {
+          "gid": "8846331713643395649",
+          "size": 558827898,
+          "download": 442054848
+        }
+      }
     }
   ],
-  "_change_number": 34860128,
+  "_change_number": 38656343,
   "_missing_token": false,
-  "_sha": "9e725cc8007a96466d29f9f3bad6ed24fe60f9c9",
-  "_size": 2917,
+  "_sha": "63d975be965e5f4438c261c7f5e20861f4feb9ed",
+  "_size": 3142,
   "appid": "1463980",
   "common": {
     "associations": {
@@ -109,8 +122,7 @@
       "3": "1036",
       "4": "4434",
       "5": "3871",
-      "6": "4004",
-      "7": "5577"
+      "6": "4004"
     },
     "supported_languages": {
       "english": {
@@ -126,7 +138,7 @@
         "config": {
           "oslist": "windows"
         },
-        "executable": "ProvenMathRPG\\sdk\\tools\\ContentBuilder\\content\\Game.exe",
+        "executable": "Game.exe",
         "type": "default"
       }
     }
@@ -138,6 +150,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "japanese_test": {
+          "download": "442054848",
+          "gid": "8846331713643395649",
+          "size": "558827898"
+        },
         "public": {
           "download": "550501632",
           "gid": "8541261410349846698",
@@ -147,6 +164,12 @@
     },
     "baselanguages": "english",
     "branches": {
+      "japanese_test": {
+        "buildid": "25160287",
+        "description": "Japanese Localization Test",
+        "timebuildupdated": "1788751613",
+        "timeupdated": "1788752365"
+      },
       "public": {
         "buildid": "7420825",
         "timebuildupdated": "1632513162",

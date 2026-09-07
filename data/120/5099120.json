@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788752477,
-  "_history": [],
-  "_change_number": 38635353,
-  "_missing_token": true,
-  "_sha": "c9fdd290b192749a21ad34ddaa512804f72623f9",
-  "_size": 3001,
+  "_lastChecked": 1788758171,
+  "_history": [
+    {
+      "buildId": "25131486",
+      "branch": "public",
+      "timeUpdated": 1788646374,
+      "firstSeen": 1788758171,
+      "manifests": {
+        "5099121": {
+          "gid": "937868698704359246",
+          "size": 269657258,
+          "download": 183220640
+        },
+        "5099122": {
+          "gid": "699416412619880410",
+          "size": 249045767,
+          "download": 176017872
+        }
+      }
+    }
+  ],
+  "_change_number": 38656431,
+  "_missing_token": false,
+  "_sha": "f886e5df680bee9b78f36aad97319a607711148e",
+  "_size": 3978,
   "appid": "5099120",
   "common": {
     "associations": {
@@ -25,7 +44,6 @@
     "clienticon": "844f96c9fb0d55525e3d4306506ca3a64d54f769",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5099120",
     "genres": {
       "0": "3",
@@ -97,10 +115,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0e083b3738d287692d521d50ec18ad4a5ba9793a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788753684",
     "store_asset_mtime": "1786604910",
     "store_tags": {
       "0": "122",
@@ -132,5 +151,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Falk",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Falk.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Falk.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5099121": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "183220640",
+          "gid": "937868698704359246",
+          "size": "269657258"
+        }
+      }
+    },
+    "5099122": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "176017872",
+          "gid": "699416412619880410",
+          "size": "249045767"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25131486",
+        "timebuildupdated": "1788552038",
+        "timeupdated": "1788646374"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Gebal",
+    "publisher": "Gebal"
+  }
 }

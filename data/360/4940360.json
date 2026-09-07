@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788752326,
+  "_lastChecked": 1788758046,
   "_history": [
     {
       "buildId": "24962802",
@@ -26,12 +26,25 @@
           "download": 179407600
         }
       }
+    },
+    {
+      "buildId": "25160541",
+      "branch": "public",
+      "timeUpdated": 1788753411,
+      "firstSeen": 1788758046,
+      "manifests": {
+        "4940361": {
+          "gid": "3805618811673453885",
+          "size": 347886171,
+          "download": 179421856
+        }
+      }
     }
   ],
-  "_change_number": 38652372,
+  "_change_number": 38656475,
   "_missing_token": false,
-  "_sha": "52a922c7ae04411c08b36e4db74b0201bfc66ae2",
-  "_size": 4215,
+  "_sha": "b1b44511f6d9d29914dea9510271d064dda326bb",
+  "_size": 4262,
   "appid": "4940360",
   "common": {
     "aicontenttype": "2",
@@ -176,6 +189,9 @@
         "full_audio": "true",
         "supported": "true"
       },
+      "russian": {
+        "supported": "true"
+      },
       "schinese": {
         "supported": "true"
       }
@@ -194,18 +210,18 @@
     "4940361": {
       "manifests": {
         "public": {
-          "download": "179407600",
-          "gid": "8346998256602497617",
-          "size": "347825755"
+          "download": "179421856",
+          "gid": "3805618811673453885",
+          "size": "347886171"
         }
       }
     },
     "baselanguages": "english,japanese,koreana,schinese,tchinese",
     "branches": {
       "public": {
-        "buildid": "25157717",
-        "timebuildupdated": "1788734254",
-        "timeupdated": "1788734332"
+        "buildid": "25160541",
+        "timebuildupdated": "1788753338",
+        "timeupdated": "1788753411"
       }
     },
     "hasdepotsindlc": "1",

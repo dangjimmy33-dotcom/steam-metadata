@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788749210,
+  "_lastChecked": 1788755462,
   "_history": [
     {
       "buildId": "24830540",
@@ -39,12 +39,38 @@
           "download": 654858096
         }
       }
+    },
+    {
+      "buildId": "25092449",
+      "branch": "devalpha",
+      "timeUpdated": 1788399775,
+      "firstSeen": 1788755462,
+      "manifests": {
+        "2381601": {
+          "gid": "8618062402914523549",
+          "size": 1055724976,
+          "download": 762094784
+        }
+      }
+    },
+    {
+      "buildId": "25092449",
+      "branch": "developer",
+      "timeUpdated": 1788749465,
+      "firstSeen": 1788755462,
+      "manifests": {
+        "2381601": {
+          "gid": "8618062402914523549",
+          "size": 1055724976,
+          "download": 762094784
+        }
+      }
     }
   ],
-  "_change_number": 38171422,
+  "_change_number": 38655450,
   "_missing_token": false,
-  "_sha": "56c62506a658633fb6e8aa6c4fc8add3a5dec371",
-  "_size": 5513,
+  "_sha": "b99741d9b34a4ca3416e203b59f0e598f82ff06a",
+  "_size": 5517,
   "appid": "2381600",
   "common": {
     "associations": {
@@ -245,14 +271,14 @@
     "2381601": {
       "manifests": {
         "devalpha": {
-          "download": "759812320",
-          "gid": "4897142718141612159",
-          "size": "1052853784"
+          "download": "762094784",
+          "gid": "8618062402914523549",
+          "size": "1055724976"
         },
         "developer": {
-          "download": "654858096",
-          "gid": "8657996511796736178",
-          "size": "918172273"
+          "download": "762094784",
+          "gid": "8618062402914523549",
+          "size": "1055724976"
         },
         "public": {
           "download": "654858096",
@@ -263,16 +289,16 @@
     },
     "branches": {
       "devalpha": {
-        "buildid": "24830540",
-        "description": "Dev build 1.11b Aug 17, 2026",
-        "timebuildupdated": "1787191837",
-        "timeupdated": "1787191934"
+        "buildid": "25092449",
+        "description": "Dev build 1.12a Sept 2, 2026",
+        "timebuildupdated": "1788399092",
+        "timeupdated": "1788399775"
       },
       "developer": {
-        "buildid": "20261448",
-        "description": "TESTING build 0.99SP",
-        "timebuildupdated": "1759687588",
-        "timeupdated": "1759687766"
+        "buildid": "25092449",
+        "description": "Testing Dev Build 1.12a",
+        "timebuildupdated": "1788399092",
+        "timeupdated": "1788749465"
       },
       "public": {
         "buildid": "20261448",
