@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788779052,
+  "_lastChecked": 1788784454,
   "_history": [
     {
       "buildId": "1500843",
@@ -13,12 +13,38 @@
           "download": 164631600
         }
       }
+    },
+    {
+      "buildId": "1500843",
+      "branch": "legacy",
+      "timeUpdated": 1481021324,
+      "firstSeen": 1788784454,
+      "manifests": {
+        "248511": {
+          "gid": "1108263347912937383",
+          "size": 371870252,
+          "download": 164631600
+        }
+      }
+    },
+    {
+      "buildId": "25124117",
+      "branch": "public",
+      "timeUpdated": 1788783118,
+      "firstSeen": 1788784454,
+      "manifests": {
+        "248511": {
+          "gid": "9101149387944225334",
+          "size": 372251152,
+          "download": 167622256
+        }
+      }
     }
   ],
-  "_change_number": 38604701,
+  "_change_number": 38666411,
   "_missing_token": false,
-  "_sha": "589db5980645be134d584a834854994d7dc70495",
-  "_size": 4668,
+  "_sha": "0373316c95fce0db1670e99fde92014d24d5b5f0",
+  "_size": 5238,
   "appid": "248510",
   "common": {
     "associations": {
@@ -34,13 +60,21 @@
     "category": {
       "category_1": "1",
       "category_2": "1",
+      "category_24": "1",
       "category_27": "1",
+      "category_37": "1",
+      "category_39": "1",
+      "category_44": "1",
+      "category_47": "1",
+      "category_48": "1",
+      "category_49": "1",
       "category_62": "1",
       "category_67": "1",
       "category_68": "1",
       "category_74": "1",
       "category_78": "1",
-      "category_79": "1"
+      "category_79": "1",
+      "category_9": "1"
     },
     "clienticns": "9556ba8f6ba0b3cec99fa349262ec0017c88ca5a",
     "clienticon": "f07538d85cca09294d584ec22c6143868fefbaa1",
@@ -119,6 +153,8 @@
     "metacritic_name": "Dominions 3: The Awakening",
     "metacritic_score": "82",
     "name": "Dominions 3",
+    "osarch": "64",
+    "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
     "releasestate": "released",
@@ -170,19 +206,22 @@
       },
       "2": {
         "config": {
+          "betakey": "legacy",
           "oslist": "macos"
         },
-        "description": "Launch",
+        "description": "Launch legacy version",
+        "description_loc": {
+          "english": "Launch legacy version"
+        },
         "executable": "Dominions3.app/Contents/MacOS/Dominions3"
       },
       "3": {
         "config": {
-          "betakey": "testing",
           "oslist": "macos"
         },
-        "description": "new mac binary",
+        "description": "Launch",
         "description_loc": {
-          "english": "new mac binary"
+          "english": "Launch"
         },
         "executable": "dom3_mac"
       }
@@ -191,19 +230,30 @@
   "depots": {
     "248511": {
       "manifests": {
-        "public": {
+        "legacy": {
           "download": "164631600",
           "gid": "1108263347912937383",
           "size": "371870252"
+        },
+        "public": {
+          "download": "167622256",
+          "gid": "9101149387944225334",
+          "size": "372251152"
         }
       },
       "systemdefined": "1"
     },
     "branches": {
-      "public": {
+      "legacy": {
         "buildid": "1500843",
+        "description": "For old intel Macs",
         "timebuildupdated": "1481021033",
         "timeupdated": "1481021324"
+      },
+      "public": {
+        "buildid": "25124117",
+        "timebuildupdated": "1788525847",
+        "timeupdated": "1788783118"
       }
     },
     "overridescddb": "1",

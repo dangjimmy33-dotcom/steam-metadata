@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788779960,
+  "_lastChecked": 1788785580,
   "_history": [
     {
       "buildId": "13049404",
@@ -23,12 +23,35 @@
           "download": 604424400
         }
       }
+    },
+    {
+      "buildId": "25137156",
+      "branch": "public",
+      "timeUpdated": 1788783663,
+      "firstSeen": 1788785580,
+      "manifests": {
+        "1156382": {
+          "gid": "4459074537143779439",
+          "size": 1345712333,
+          "download": 607979600
+        },
+        "1156383": {
+          "gid": "3654145920412877789",
+          "size": 1326090387,
+          "download": 606065840
+        },
+        "1156384": {
+          "gid": "3556519636911739447",
+          "size": 1306018351,
+          "download": 605960208
+        }
+      }
     }
   ],
-  "_change_number": 38622113,
+  "_change_number": 38666195,
   "_missing_token": false,
-  "_sha": "05420592bf74a5d0d60b9804f905c45834e6cfd0",
-  "_size": 6710,
+  "_sha": "b93f12d1419ed033cf2a44a55b48b1fdcf5f643a",
+  "_size": 6982,
   "appid": "1156380",
   "common": {
     "associations": {
@@ -59,12 +82,17 @@
     "gameid": "1156380",
     "genres": {
       "0": "25",
-      "1": "23"
+      "1": "4",
+      "2": "23"
     },
     "header_image": {
       "english": "header.jpg"
     },
     "icon": "f5f0837ba6a84dd3a135f293ea4be6aa0ab0ccff",
+    "languages": {
+      "english": "1",
+      "turkish": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_hero": "en",
@@ -211,10 +239,20 @@
         "supported": "true"
       },
       "koreana": {
-        "subtitles": "true"
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "latam": {
+        "subtitles": "true",
+        "supported": "true"
       },
       "russian": {
-        "subtitles": "true"
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "turkish": {
+        "subtitles": "true",
+        "supported": "true"
       }
     },
     "type": "Game"
@@ -255,9 +293,9 @@
       },
       "manifests": {
         "public": {
-          "download": "606546624",
-          "gid": "5057804162187976094",
-          "size": "1345939833"
+          "download": "607979600",
+          "gid": "4459074537143779439",
+          "size": "1345712333"
         }
       }
     },
@@ -268,9 +306,9 @@
       },
       "manifests": {
         "public": {
-          "download": "604590592",
-          "gid": "6072175148803201548",
-          "size": "1310861821"
+          "download": "606065840",
+          "gid": "3654145920412877789",
+          "size": "1326090387"
         }
       }
     },
@@ -281,18 +319,18 @@
       },
       "manifests": {
         "public": {
-          "download": "604424400",
-          "gid": "6094532606460582599",
-          "size": "1306242560"
+          "download": "605960208",
+          "gid": "3556519636911739447",
+          "size": "1306018351"
         }
       }
     },
-    "baselanguages": "english,koreana,russian",
+    "baselanguages": "english,koreana,latam,russian,turkish",
     "branches": {
       "public": {
-        "buildid": "13049404",
-        "timebuildupdated": "1703637474",
-        "timeupdated": "1703638182"
+        "buildid": "25137156",
+        "timebuildupdated": "1788583477",
+        "timeupdated": "1788783663"
       }
     },
     "privatebranches": "1"

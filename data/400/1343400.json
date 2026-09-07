@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788780159,
+  "_lastChecked": 1788785825,
   "_history": [
     {
       "buildId": "21555444",
@@ -18,12 +18,30 @@
           "download": 3840693776
         }
       }
+    },
+    {
+      "buildId": "24730611",
+      "branch": "vulkan",
+      "timeUpdated": 1786697334,
+      "firstSeen": 1788785825,
+      "manifests": {
+        "1343401": {
+          "gid": "9064660433152396466",
+          "size": 14795415,
+          "download": 6426288
+        },
+        "1343402": {
+          "gid": "6409540644540252883",
+          "size": 3993432064,
+          "download": 3840693776
+        }
+      }
     }
   ],
-  "_change_number": 38604104,
+  "_change_number": 38664942,
   "_missing_token": false,
-  "_sha": "d60580751c3b081d4898de609c2f8bd5ca4ea93e",
-  "_size": 8924,
+  "_sha": "6939ee8dfb75b6a8d38c94d257eadb68324e076d",
+  "_size": 9305,
   "appid": "1343400",
   "common": {
     "associations": {
@@ -354,6 +372,11 @@
           "download": "6106864",
           "gid": "5398945783619391473",
           "size": "13657527"
+        },
+        "vulkan": {
+          "download": "6426288",
+          "gid": "9064660433152396466",
+          "size": "14795415"
         }
       }
     },
@@ -363,6 +386,11 @@
       },
       "manifests": {
         "public": {
+          "download": "3840693776",
+          "gid": "6409540644540252883",
+          "size": "3993432064"
+        },
+        "vulkan": {
           "download": "3840693776",
           "gid": "6409540644540252883",
           "size": "3993432064"
@@ -388,6 +416,12 @@
         "buildid": "21555444",
         "timebuildupdated": "1768831542",
         "timeupdated": "1768831542"
+      },
+      "vulkan": {
+        "buildid": "24730611",
+        "description": "Vulkan Beta Build",
+        "timebuildupdated": "1786697334",
+        "timeupdated": "1786697334"
       }
     },
     "privatebranches": "1"

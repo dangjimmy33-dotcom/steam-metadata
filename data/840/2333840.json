@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788781234,
+  "_lastChecked": 1788787137,
   "_history": [
     {
       "buildId": "17348692",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 38664565,
+  "_change_number": 38667022,
   "_missing_token": false,
-  "_sha": "8eec7da3d6c7ec0c815173ac61fbd5194583cf8e",
-  "_size": 2633,
+  "_sha": "33f012abd16faf84331f36ad0d407fd55fa98f7f",
+  "_size": 3180,
   "appid": "2333840",
   "common": {
     "associations": {
@@ -66,7 +66,9 @@
     "icon": "6763504a366b55017d557b29dbeaa678ed3be67c",
     "library_assets": {
       "library_capsule": "en",
+      "library_header": "en",
       "library_hero": "en",
+      "library_hero_blur": "en",
       "library_logo": "en",
       "logo_position": {
         "height_pct": "100",
@@ -77,18 +79,31 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "library_600x900.jpg"
+          "english": "0e201e79c71ad37c984c3b1b557398cbc1a311ac/library_capsule.jpg"
         },
         "image2x": {
-          "english": "library_600x900_2x.jpg"
+          "english": "0e201e79c71ad37c984c3b1b557398cbc1a311ac/library_capsule_2x.jpg"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "5e992f94c9ffb2059bab4d591baa7a46aea02532/library_header.jpg"
+        },
+        "image2x": {
+          "english": "5e992f94c9ffb2059bab4d591baa7a46aea02532/library_header_2x.jpg"
         }
       },
       "library_hero": {
         "image": {
-          "english": "library_hero.jpg"
+          "english": "872a0a0ff037545e8f5ac085f42ef698b9e55b09/library_hero.jpg"
         },
         "image2x": {
-          "english": "library_hero_2x.jpg"
+          "english": "872a0a0ff037545e8f5ac085f42ef698b9e55b09/library_hero_2x.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "872a0a0ff037545e8f5ac085f42ef698b9e55b09/library_hero_blur.jpg"
         }
       },
       "library_logo": {
@@ -115,7 +130,7 @@
       "english": "capsule_231x87.jpg"
     },
     "steam_release_date": "1679296726",
-    "store_asset_mtime": "1677840065",
+    "store_asset_mtime": "1788785821",
     "store_tags": {
       "0": "597",
       "1": "1773",
@@ -134,8 +149,6 @@
     },
     "supported_languages": {
       "english": {
-        "full_audio": "true",
-        "subtitles": "true",
         "supported": "true"
       }
     },

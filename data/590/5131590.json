@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788783869,
-  "_history": [],
-  "_change_number": 38601683,
-  "_missing_token": true,
-  "_sha": "3215c3726d2228ea2a5ab0f2498351020041a376",
-  "_size": 2895,
+  "_lastChecked": 1788790327,
+  "_history": [
+    {
+      "buildId": "24861810",
+      "branch": "public",
+      "timeUpdated": 1787315500,
+      "firstSeen": 1788790327,
+      "manifests": {
+        "5131591": {
+          "gid": "2527729533576890942",
+          "size": 504156630,
+          "download": 239036544
+        }
+      }
+    }
+  ],
+  "_change_number": 38668466,
+  "_missing_token": false,
+  "_sha": "d4f697482e6c4c74fe6e2193e7a413c7fef89254",
+  "_size": 3490,
   "appid": "5131590",
   "common": {
     "aicontenttype": "1",
@@ -32,7 +46,6 @@
     "clienticon": "5d03be35970a3c4f7d7a77e2f213b7c042063cd8",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5131590",
     "genres": {
       "0": "4",
@@ -103,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bdd928a833a2041cd745aef2d3c6eb9e62109d7f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788789205",
     "store_asset_mtime": "1788280127",
     "store_tags": {
       "0": "597",
@@ -126,5 +140,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tombstone Showdown",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Tombstone Showdown.exe"
+      }
+    }
+  },
+  "depots": {
+    "5131591": {
+      "manifests": {
+        "public": {
+          "download": "239036544",
+          "gid": "2527729533576890942",
+          "size": "504156630"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24861810",
+        "timebuildupdated": "1787315296",
+        "timeupdated": "1787315500"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Mental Studios",
+    "publisher": "Mental Studios"
+  }
 }

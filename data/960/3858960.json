@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788782750,
-  "_history": [],
-  "_change_number": 38640052,
-  "_missing_token": true,
-  "_sha": "3ef3ab2789845e24562646fa9f81a50ec19dd894",
-  "_size": 3279,
+  "_lastChecked": 1788788977,
+  "_history": [
+    {
+      "buildId": "25149205",
+      "branch": "public",
+      "timeUpdated": 1788676623,
+      "firstSeen": 1788788977,
+      "manifests": {
+        "3858961": {
+          "gid": "1676876841824344800",
+          "size": 376073576,
+          "download": 116570848
+        },
+        "3858962": {
+          "gid": "7146298476394105516",
+          "size": 318872836,
+          "download": 89601232
+        }
+      }
+    }
+  ],
+  "_change_number": 38667950,
+  "_missing_token": false,
+  "_sha": "9e0e0ff4054252ce5a1e48a70fbdb776b9c6b5fb",
+  "_size": 4871,
   "appid": "3858960",
   "common": {
     "associations": {
@@ -33,7 +52,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3858960",
     "genres": {
       "0": "4",
@@ -107,10 +125,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "02e85c1a1107463b2ef41eeae30bd084d4b97847/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788788013",
     "store_asset_mtime": "1786180471",
     "store_tags": {
       "0": "255534",
@@ -148,5 +167,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Arcaneering Beyond Automation",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "arcaneering_windows.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "arcaneering_linux.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3858961": {
+      "manifests": {
+        "public": {
+          "download": "116570848",
+          "gid": "1676876841824344800",
+          "size": "376073576"
+        }
+      }
+    },
+    "3858962": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "89601232",
+          "gid": "7146298476394105516",
+          "size": "318872836"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25149205",
+        "timebuildupdated": "1788676611",
+        "timeupdated": "1788676623"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Sundrop Games",
+    "publisher": "Sundrop Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "Godot/",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "addpath": "Godot/",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      },
+      "2": {
+        "addpath": ".local/share/godot",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "app_userdata/Arcaneering/saves",
+        "pattern": "*.json",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

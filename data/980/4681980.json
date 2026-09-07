@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788783519,
-  "_history": [],
-  "_change_number": 38568274,
-  "_missing_token": true,
-  "_sha": "e8f3c3f4a18aec827224f0b37ff4091cd3de1fbc",
-  "_size": 3521,
+  "_lastChecked": 1788789906,
+  "_history": [
+    {
+      "buildId": "25099624",
+      "branch": "public",
+      "timeUpdated": 1788431713,
+      "firstSeen": 1788789906,
+      "manifests": {
+        "4681981": {
+          "gid": "4364871817416829071",
+          "size": 178265064,
+          "download": 67391248
+        }
+      }
+    }
+  ],
+  "_change_number": 38668658,
+  "_missing_token": false,
+  "_sha": "9acc9a9c4c0922b24fefb572b2cb00e471deac3d",
+  "_size": 4385,
   "appid": "4681980",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "b226fdc0c175295fa649654ef4d02e8aca4a40b7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4681980",
     "genres": {
       "0": "4",
@@ -100,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "11c411087e04de52c0b6523282394caecc19e994/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788789608",
     "store_asset_mtime": "1787928584",
     "store_tags": {
       "0": "615955",
@@ -163,5 +178,51 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Discremental",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Discremental.exe"
+      }
+    }
+  },
+  "depots": {
+    "4681981": {
+      "manifests": {
+        "public": {
+          "download": "67391248",
+          "gid": "4364871817416829071",
+          "size": "178265064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25099624",
+        "timebuildupdated": "1788431681",
+        "timeupdated": "1788431713"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Elite Gorgon Games",
+    "publisher": "Elite Gorgon Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "EliteGorgonGames/Discremental/SavesDir_Full",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

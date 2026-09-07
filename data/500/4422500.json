@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788783281,
-  "_history": [],
-  "_change_number": 38235620,
-  "_missing_token": true,
-  "_sha": "e422ecb43c7e28349bafdb11bee08217b035d4ca",
-  "_size": 3316,
+  "_lastChecked": 1788789620,
+  "_history": [
+    {
+      "buildId": "24874024",
+      "branch": "public",
+      "timeUpdated": 1787362921,
+      "firstSeen": 1788789620,
+      "manifests": {
+        "4422501": {
+          "gid": "5987404033821251062",
+          "size": 3694036107,
+          "download": 1150568832
+        }
+      }
+    }
+  ],
+  "_change_number": 38668313,
+  "_missing_token": false,
+  "_sha": "8a27113505893fb561656a5bf4a9d1e673e59698",
+  "_size": 3969,
   "appid": "4422500",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     },
     "clienticon": "c7e1c3820aaf6f925a6c7d30ccb29db36951167f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4422500",
     "genres": {
       "0": "4",
@@ -102,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a2462a7b98471949206066eed8bad35f691e213c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788788836",
     "store_asset_mtime": "1786240022",
     "store_tags": {
       "0": "3834",
@@ -155,5 +170,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Aquarium Anomaly",
+    "launch": {
+      "0": {
+        "executable": "Aquarium Anomaly.exe"
+      }
+    }
+  },
+  "depots": {
+    "4422501": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1150568832",
+          "gid": "5987404033821251062",
+          "size": "3694036107"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24874024",
+        "timebuildupdated": "1787362811",
+        "timeupdated": "1787362921"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Chunky Cats Games",
+    "publisher": "Chunky Cats Games"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788783288,
-  "_history": [],
-  "_change_number": 38452268,
-  "_missing_token": true,
-  "_sha": "27301555282a8c7ab0feb17406bce6c546f404e9",
-  "_size": 4189,
+  "_lastChecked": 1788789628,
+  "_history": [
+    {
+      "buildId": "22857195",
+      "branch": "public",
+      "timeUpdated": 1776621074,
+      "firstSeen": 1788789628,
+      "manifests": {
+        "4429671": {
+          "gid": "5789840544676676113",
+          "size": 790828904,
+          "download": 278193472
+        }
+      }
+    }
+  ],
+  "_change_number": 38666939,
+  "_missing_token": false,
+  "_sha": "1f0e9361271d1a4ebc2e2e93c68ea026367c3205",
+  "_size": 4793,
   "appid": "4429670",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +44,7 @@
     },
     "clienticon": "cfb589896ac8a8da91678597bb0dafeb1ecdde99",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -37,7 +52,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4429670",
     "genres": {
       "0": "23",
@@ -123,10 +137,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "59cf071d8bf4913be96279c304c8544fba5d58c7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788785687",
     "store_asset_mtime": "1775930826",
     "store_tags": {
       "0": "3834",
@@ -200,5 +215,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Ayna",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "The Ayna.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4429671": {
+      "manifests": {
+        "public": {
+          "download": "278193472",
+          "gid": "5789840544676676113",
+          "size": "790828904"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "22857195",
+        "timebuildupdated": "1776621017",
+        "timeupdated": "1776621074"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Necha Games",
+    "publisher": "Necha Games"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788783206,
+  "_lastChecked": 1788789528,
   "_history": [
     {
       "buildId": "25069929",
@@ -26,12 +26,38 @@
           "download": 75603152
         }
       }
+    },
+    {
+      "buildId": "25090997",
+      "branch": "beta",
+      "timeUpdated": 1788392240,
+      "firstSeen": 1788789528,
+      "manifests": {
+        "4330381": {
+          "gid": "2518593110330121552",
+          "size": 289392908,
+          "download": 84910112
+        }
+      }
+    },
+    {
+      "buildId": "25167323",
+      "branch": "beta2",
+      "timeUpdated": 1788785411,
+      "firstSeen": 1788789528,
+      "manifests": {
+        "4330381": {
+          "gid": "268365617354660868",
+          "size": 290157017,
+          "download": 85153856
+        }
+      }
     }
   ],
-  "_change_number": 38525325,
+  "_change_number": 38666833,
   "_missing_token": false,
-  "_sha": "35d5b373f7c1fda5bfaab46219bb4f4ece349a61",
-  "_size": 4097,
+  "_sha": "832a1cf17916f11089fcb21539ac04625b563246",
+  "_size": 4371,
   "appid": "4330380",
   "common": {
     "aicontenttype": "1",
@@ -183,8 +209,13 @@
       "manifests": {
         "beta": {
           "download": "84910112",
-          "gid": "6481506535433159147",
+          "gid": "2518593110330121552",
           "size": "289392908"
+        },
+        "beta2": {
+          "download": "85153856",
+          "gid": "268365617354660868",
+          "size": "290157017"
         },
         "public": {
           "download": "75603152",
@@ -195,10 +226,16 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25069929",
+        "buildid": "25090997",
         "description": "Beta Testing Branch",
-        "timebuildupdated": "1788310917",
-        "timeupdated": "1788310946"
+        "timebuildupdated": "1788392213",
+        "timeupdated": "1788392240"
+      },
+      "beta2": {
+        "buildid": "25167323",
+        "description": "Pre Beta releases (broken)",
+        "timebuildupdated": "1788785322",
+        "timeupdated": "1788785411"
       },
       "public": {
         "buildid": "24875797",

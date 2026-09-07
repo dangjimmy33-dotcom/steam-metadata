@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788780903,
+  "_lastChecked": 1788786735,
   "_history": [
     {
       "buildId": "23519781",
@@ -26,12 +26,25 @@
           "download": 79926224
         }
       }
+    },
+    {
+      "buildId": "25166731",
+      "branch": "public",
+      "timeUpdated": 1788783121,
+      "firstSeen": 1788786735,
+      "manifests": {
+        "2000981": {
+          "gid": "1533440772287776408",
+          "size": 484900521,
+          "download": 80135808
+        }
+      }
     }
   ],
-  "_change_number": 38622860,
+  "_change_number": 38666081,
   "_missing_token": false,
-  "_sha": "6c2175901358816b0383e573338279ba0a958804",
-  "_size": 4286,
+  "_sha": "c0b86c8756c6aba8b3a0d961be9588eabb2c3d74",
+  "_size": 4513,
   "appid": "2000980",
   "common": {
     "associations": {
@@ -79,11 +92,12 @@
       "library_capsule": "en",
       "library_header": "en",
       "library_hero": "en",
+      "library_hero_blur": "en",
       "library_logo": "en",
       "logo_position": {
-        "height_pct": "76.82260745666113",
-        "pinned_position": "BottomLeft",
-        "width_pct": "90.4651162790698"
+        "height_pct": "100",
+        "pinned_position": "CenterCenter",
+        "width_pct": "79.98448504394887"
       }
     },
     "library_assets_full": {
@@ -105,10 +119,15 @@
       },
       "library_hero": {
         "image": {
-          "english": "library_hero.jpg"
+          "english": "39819dff7a51057927cd1751c71bdb253a4a9600/library_hero.jpg"
         },
         "image2x": {
-          "english": "library_hero_2x.jpg"
+          "english": "39819dff7a51057927cd1751c71bdb253a4a9600/library_hero_2x.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "39819dff7a51057927cd1751c71bdb253a4a9600/library_hero_blur.jpg"
         }
       },
       "library_logo": {
@@ -119,9 +138,9 @@
           "english": "logo_2x.png"
         },
         "logo_position": {
-          "height_pct": "76.82260745666113",
-          "pinned_position": "BottomLeft",
-          "width_pct": "90.4651162790698"
+          "height_pct": "100",
+          "pinned_position": "CenterCenter",
+          "width_pct": "79.98448504394887"
         }
       }
     },
@@ -137,7 +156,7 @@
       "english": "capsule_231x87.jpg"
     },
     "steam_release_date": "1780864040",
-    "store_asset_mtime": "1788587913",
+    "store_asset_mtime": "1788783372",
     "store_tags": {
       "0": "4885",
       "1": "1662",
@@ -195,9 +214,9 @@
           "size": "119160513"
         },
         "public": {
-          "download": "79926224",
-          "gid": "6012742712844846396",
-          "size": "484462213"
+          "download": "80135808",
+          "gid": "1533440772287776408",
+          "size": "484900521"
         }
       }
     },
@@ -213,9 +232,9 @@
         "timeupdated": "1780374330"
       },
       "public": {
-        "buildid": "25117241",
-        "timebuildupdated": "1788499785",
-        "timeupdated": "1788499826"
+        "buildid": "25166731",
+        "timebuildupdated": "1788783081",
+        "timeupdated": "1788783121"
       }
     },
     "hasdepotsindlc": "0"

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788783736,
-  "_history": [],
-  "_change_number": 38662239,
-  "_missing_token": true,
-  "_sha": "7002ba86ebd4a97a72dc2b382feacd7739f70c81",
-  "_size": 3693,
+  "_lastChecked": 1788790166,
+  "_history": [
+    {
+      "buildId": "25164017",
+      "branch": "public",
+      "timeUpdated": 1788772818,
+      "firstSeen": 1788790166,
+      "manifests": {
+        "4945041": {
+          "gid": "906959553315022453",
+          "size": 274724652,
+          "download": 135102656
+        }
+      }
+    }
+  ],
+  "_change_number": 38668639,
+  "_missing_token": false,
+  "_sha": "bdeff53a3011763ada83052750b06d8b0f42101e",
+  "_size": 4436,
   "appid": "4945040",
   "common": {
     "associations": {
@@ -26,8 +40,8 @@
     "clienticns": "c0640681a10e9401d03b3ba8ed02591764bd4c50",
     "clienticon": "c0640681a10e9401d03b3ba8ed02591764bd4c50",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4945040",
     "genres": {
       "0": "4",
@@ -99,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "47801792e661eb104195f662cd10afbdf78f4390/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788789583",
     "store_asset_mtime": "1788719667",
     "store_tags": {
       "0": "597",
@@ -169,5 +184,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SmashCore",
+    "launch": {
+      "0": {
+        "executable": "SmashCore.exe"
+      }
+    }
+  },
+  "depots": {
+    "4945041": {
+      "manifests": {
+        "public": {
+          "download": "135102656",
+          "gid": "906959553315022453",
+          "size": "274724652"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25164017",
+        "timebuildupdated": "1788772334",
+        "timeupdated": "1788772818"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Braian",
+    "publisher": "Braian"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Braian/SmashCore",
+        "pattern": "smashcore-save.txt",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

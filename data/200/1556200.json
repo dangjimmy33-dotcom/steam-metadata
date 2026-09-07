@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788780387,
+  "_lastChecked": 1788786106,
   "_history": [
     {
       "buildId": "22971276",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38378873,
+  "_change_number": 38666254,
   "_missing_token": false,
-  "_sha": "d74ae48519e3db6c47649aed264ac5ce24668fff",
-  "_size": 7822,
+  "_sha": "b3c9ad04893d3c0fffd179440015c0ed8dc6163a",
+  "_size": 8156,
   "appid": "1556200",
   "common": {
     "associations": {
@@ -27,7 +27,7 @@
         "type": "developer"
       },
       "1": {
-        "name": "IllFonic Publishing",
+        "name": "Balor Games",
         "type": "publisher"
       }
     },
@@ -141,9 +141,9 @@
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
-        "non_deck_display_glyphs": "0",
+        "non_deck_display_glyphs": "1",
         "primary_player_is_controller_slot_0": "1",
-        "recommended_runtime": "proton-9.0-3RC",
+        "recommended_runtime": "proton-stable",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -152,10 +152,23 @@
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "1",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
       "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
@@ -167,24 +180,24 @@
           "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
-      "test_timestamp": "1726876800",
-      "tested_build_id": "15696669",
+      "test_timestamp": "1788176564",
+      "tested_build_id": "22971276",
       "tests": {
         "0": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
         },
         "1": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
         },
         "2": {
-          "display": "4",
-          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
         },
         "3": {
           "display": "4",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "4": {
           "display": "1",
@@ -339,7 +352,7 @@
     "gamedir": "PHG",
     "homepage": "https://predator.illfonic.com/",
     "listofdlc": "1599480,1599481,1599482,1599483,1599484,1599485,1599486,1605820,1636840,1696000,1756590,1847080,1870540,1919280,1996830,2198530,2225270,3189160,3228960,3228970,3228980,3228990,3873870,4043800,4146790",
-    "publisher": "IllFonic Publishing",
+    "publisher": "Balor Games",
     "serverbrowsername": "PHG"
   },
   "ufs": {

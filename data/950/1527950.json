@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788780358,
+  "_lastChecked": 1788786071,
   "_history": [
     {
       "buildId": "24730362",
@@ -26,12 +26,25 @@
           "download": 16118229568
         }
       }
+    },
+    {
+      "buildId": "25052104",
+      "branch": "public",
+      "timeUpdated": 1788781709,
+      "firstSeen": 1788786071,
+      "manifests": {
+        "1527951": {
+          "gid": "4911346237003188095",
+          "size": 37248390390,
+          "download": 16267228272
+        }
+      }
     }
   ],
-  "_change_number": 38498107,
+  "_change_number": 38665901,
   "_missing_token": false,
-  "_sha": "4597e5a5c9c69a4456f7347a44003cda15ae5553",
-  "_size": 7485,
+  "_sha": "9e36b08ecabad027ff4609f0af79c449c83e670e",
+  "_size": 7222,
   "appid": "1527950",
   "common": {
     "associations": {
@@ -308,15 +321,10 @@
   "depots": {
     "1527951": {
       "manifests": {
-        "beta": {
-          "download": "16300750992",
-          "gid": "1332793660943934581",
-          "size": "37469936298"
-        },
         "public": {
-          "download": "16118229568",
-          "gid": "2317441591605854526",
-          "size": "36787330908"
+          "download": "16267228272",
+          "gid": "4911346237003188095",
+          "size": "37248390390"
         }
       }
     },
@@ -329,16 +337,10 @@
     },
     "baselanguages": "english,french",
     "branches": {
-      "beta": {
-        "buildid": "24730362",
-        "description": "Beta branch",
-        "timebuildupdated": "1786696501",
-        "timeupdated": "1786698477"
-      },
       "public": {
-        "buildid": "23361327",
-        "timebuildupdated": "1779445277",
-        "timeupdated": "1779458600"
+        "buildid": "25052104",
+        "timebuildupdated": "1788245471",
+        "timeupdated": "1788781709"
       }
     },
     "privatebranches": "1"

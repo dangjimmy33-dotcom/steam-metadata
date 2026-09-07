@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788782404,
+  "_lastChecked": 1788788559,
   "_history": [
     {
       "buildId": "25120522",
@@ -90,11 +90,47 @@
           "download": 0
         }
       }
+    },
+    {
+      "buildId": "25167843",
+      "branch": "experimental",
+      "timeUpdated": 1788787132,
+      "firstSeen": 1788788559,
+      "manifests": {
+        "3498271": {
+          "gid": "6088298367273174741",
+          "size": 6556502268,
+          "download": 5556573200
+        },
+        "4026450": {
+          "gid": "7668306703161318705",
+          "size": 0,
+          "download": 0
+        }
+      }
+    },
+    {
+      "buildId": "25167843",
+      "branch": "public",
+      "timeUpdated": 1788787170,
+      "firstSeen": 1788788559,
+      "manifests": {
+        "3498271": {
+          "gid": "6088298367273174741",
+          "size": 6556502268,
+          "download": 5556573200
+        },
+        "4026450": {
+          "gid": "7668306703161318705",
+          "size": 0,
+          "download": 0
+        }
+      }
     }
   ],
-  "_change_number": 38649806,
+  "_change_number": 38667577,
   "_missing_token": false,
-  "_sha": "65b903b381326f9b75485fe24dbd25426f7aa0e3",
+  "_sha": "20871cb917757a6c10d21492e59b5bf34cb5f0ad",
   "_size": 10988,
   "appid": "3498270",
   "common": {
@@ -472,9 +508,9 @@
     "3498271": {
       "manifests": {
         "experimental": {
-          "download": "5591848352",
-          "gid": "7889446992143792126",
-          "size": "6592703994"
+          "download": "5556573200",
+          "gid": "6088298367273174741",
+          "size": "6556502268"
         },
         "oldversion": {
           "download": "3085169584",
@@ -482,9 +518,9 @@
           "size": "3377197534"
         },
         "public": {
-          "download": "5591848352",
-          "gid": "7889446992143792126",
-          "size": "6592703994"
+          "download": "5556573200",
+          "gid": "6088298367273174741",
+          "size": "6556502268"
         }
       }
     },
@@ -511,10 +547,10 @@
     "baselanguages": "english,french",
     "branches": {
       "experimental": {
-        "buildid": "25155441",
+        "buildid": "25167843",
         "description": "Get update before everyone, warning this version can have bug or destroy save, please make a copy",
-        "timebuildupdated": "1788720651",
-        "timeupdated": "1788720651"
+        "timebuildupdated": "1788787132",
+        "timeupdated": "1788787132"
       },
       "oldversion": {
         "buildid": "21008457",
@@ -523,9 +559,9 @@
         "timeupdated": "1764603130"
       },
       "public": {
-        "buildid": "25155441",
-        "timebuildupdated": "1788720651",
-        "timeupdated": "1788722517"
+        "buildid": "25167843",
+        "timebuildupdated": "1788787132",
+        "timeupdated": "1788787170"
       }
     },
     "privatebranches": "1",

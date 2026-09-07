@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788783761,
-  "_history": [],
-  "_change_number": 38604546,
-  "_missing_token": true,
-  "_sha": "be7114360eb55c9c5347b552a5410b922d778b65",
-  "_size": 3059,
+  "_lastChecked": 1788790196,
+  "_history": [
+    {
+      "buildId": "25165321",
+      "branch": "public",
+      "timeUpdated": 1788783792,
+      "firstSeen": 1788790196,
+      "manifests": {
+        "4973461": {
+          "gid": "8821435345124194909",
+          "size": 763754982,
+          "download": 542210160
+        }
+      }
+    }
+  ],
+  "_change_number": 38666547,
+  "_missing_token": false,
+  "_sha": "6b842b72f50fb0cb01406dfbcb6a3d9545ec8aa6",
+  "_size": 3950,
   "appid": "4973460",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "16c3247a1a5028bc9bc2ee43359878e4f0dca633",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4973460",
     "genres": {
       "0": "4",
@@ -99,11 +113,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "dfe02604493a4d968e21f967b66b230cec6d9eff/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1787581344",
+    "steam_release_date": "1788784688",
+    "store_asset_mtime": "1788783474",
     "store_tags": {
       "0": "1720",
       "1": "122",
@@ -140,5 +155,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Ash Remembers",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "EMBERWAKE.exe",
+        "type": "none"
+      }
+    }
+  },
+  "depots": {
+    "4973461": {
+      "manifests": {
+        "public": {
+          "download": "542210160",
+          "gid": "8821435345124194909",
+          "size": "763754982"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25165321",
+        "timebuildupdated": "1788777455",
+        "timeupdated": "1788783792"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Veyr Works",
+    "homepage": "https://theashremembers.com",
+    "publisher": "Veyr Works"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "20971520",
+    "savefiles": {
+      "0": {
+        "path": "EMBERWAKE",
+        "pattern": "emberwake-save*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

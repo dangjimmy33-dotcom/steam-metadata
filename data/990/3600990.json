@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788782502,
+  "_lastChecked": 1788788678,
   "_history": [
     {
       "buildId": "24196374",
@@ -13,12 +13,25 @@
           "download": 161151072
         }
       }
+    },
+    {
+      "buildId": "25167874",
+      "branch": "public",
+      "timeUpdated": 1788787700,
+      "firstSeen": 1788788678,
+      "manifests": {
+        "3600991": {
+          "gid": "8383645222047622856",
+          "size": 294796248,
+          "download": 162992960
+        }
+      }
     }
   ],
-  "_change_number": 37626549,
+  "_change_number": 38667817,
   "_missing_token": false,
-  "_sha": "a02b6855df0091e0825e8eaa630332f43cf6b0b7",
-  "_size": 5964,
+  "_sha": "3e9622c1896e5c8b740b8a7a130599ea1aa01b0b",
+  "_size": 6170,
   "appid": "3600990",
   "common": {
     "associations": {
@@ -236,17 +249,17 @@
     "3600991": {
       "manifests": {
         "public": {
-          "download": "161151072",
-          "gid": "5685270442347608459",
-          "size": "290411104"
+          "download": "162992960",
+          "gid": "8383645222047622856",
+          "size": "294796248"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "24196374",
-        "timebuildupdated": "1784010130",
-        "timeupdated": "1784010169"
+        "buildid": "25167874",
+        "timebuildupdated": "1788787212",
+        "timeupdated": "1788787700"
       }
     },
     "privatebranches": "1",
@@ -257,8 +270,8 @@
     "publisher": "Chavafei"
   },
   "ufs": {
-    "maxnumfiles": "5",
-    "quota": "1000000000",
+    "maxnumfiles": "5000",
+    "quota": "10000000000",
     "savefiles": {
       "0": {
         "path": "\\Godot\\app_userdata\\Sinker Sound\\",
@@ -266,6 +279,15 @@
         "platforms": {
           "1": "Windows"
         },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "\\Godot\\app_userdata\\Sinker Sound\\custom_fish\\",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
         "root": "WinAppDataRoaming"
       }
     }

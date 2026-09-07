@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788782444,
+  "_lastChecked": 1788788607,
   "_history": [
     {
       "buildId": "24749823",
@@ -25,10 +25,10 @@
       }
     }
   ],
-  "_change_number": 38050867,
+  "_change_number": 38667728,
   "_missing_token": false,
-  "_sha": "1427645071b1a4e80e22cb01a597520308586a98",
-  "_size": 8878,
+  "_sha": "b0b97a1937fa64748aec94e166ebe8c9d132b70d",
+  "_size": 8515,
   "appid": "3545150",
   "common": {
     "associations": {
@@ -149,7 +149,7 @@
         "hdr_support": "0",
         "non_deck_display_glyphs": "0",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-11.0-beta",
+        "recommended_runtime": "native",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -158,7 +158,7 @@
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "0",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
       "steam_machine_compatibility": "3",
       "steam_machine_tests": {
@@ -173,10 +173,6 @@
         "2": {
           "display": "4",
           "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
-        },
-        "3": {
-          "display": "1",
-          "token": "#SteamMachine_TestResult_CrossPlatformCloudSavesNotSupported"
         }
       },
       "steamos_compatibility": "2",
@@ -184,14 +180,10 @@
         "0": {
           "display": "3",
           "token": "#SteamOS_TestResult_GameStartupFunctional"
-        },
-        "1": {
-          "display": "1",
-          "token": "#SteamOS_TestResult_CrossPlatformCloudSavesNotSupported"
         }
       },
-      "test_timestamp": "1781740800",
-      "tested_build_id": "23626103",
+      "test_timestamp": "1788180039",
+      "tested_build_id": "24749823",
       "tests": {
         "0": {
           "display": "4",
@@ -208,10 +200,6 @@
         "3": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
-        },
-        "4": {
-          "display": "1",
-          "token": "#SteamDeckVerified_TestResult_CrossPlatformCloudSavesNotSupported"
         }
       }
     },

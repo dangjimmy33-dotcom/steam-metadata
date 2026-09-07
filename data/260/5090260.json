@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788783845,
-  "_history": [],
-  "_change_number": 38655341,
-  "_missing_token": true,
-  "_sha": "51ac45d6a36db1a79cab3f2d47873023c81b1d7f",
-  "_size": 3128,
+  "_lastChecked": 1788790298,
+  "_history": [
+    {
+      "buildId": "25159830",
+      "branch": "public",
+      "timeUpdated": 1788749001,
+      "firstSeen": 1788790298,
+      "manifests": {
+        "5090261": {
+          "gid": "1400667920975042783",
+          "size": 1366532480,
+          "download": 652749184
+        }
+      }
+    }
+  ],
+  "_change_number": 38667179,
+  "_missing_token": false,
+  "_sha": "ba7b8d557f512ebcb9e86f30518ce188aa584482",
+  "_size": 3624,
   "appid": "5090260",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "1178b45990b342436c6b561eefe76b3c1a173f27",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5090260",
     "genres": {
       "0": "25",
@@ -96,10 +109,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "256fb0f5c51c520b312b6c98662a2fdfd7fac0d3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788786274",
     "store_asset_mtime": "1787323678",
     "store_tags": {
       "0": "1667",
@@ -143,5 +157,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pierline",
+    "launch": {
+      "0": {
+        "executable": "Pierline.exe"
+      }
+    }
+  },
+  "depots": {
+    "5090261": {
+      "manifests": {
+        "public": {
+          "download": "652749184",
+          "gid": "1400667920975042783",
+          "size": "1366532480"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25159830",
+        "timebuildupdated": "1788748608",
+        "timeupdated": "1788749001"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Pale Echo",
+    "publisher": "Pale Echo"
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788781992,
-  "_history": [],
-  "_change_number": 38665546,
-  "_missing_token": true,
-  "_sha": "3479a83ef2f7042295a7315790870adff68a351d",
-  "_size": 6764,
+  "_lastChecked": 1788788063,
+  "_history": [
+    {
+      "buildId": "25166346",
+      "branch": "public",
+      "timeUpdated": 1788781977,
+      "firstSeen": 1788788063,
+      "manifests": {
+        "3084811": {
+          "gid": "4552184007477306060",
+          "size": 485174607,
+          "download": 321888832
+        },
+        "3084812": {
+          "gid": "2198977554606693141",
+          "size": 711302035,
+          "download": 377414512
+        }
+      }
+    }
+  ],
+  "_change_number": 38666953,
+  "_missing_token": false,
+  "_sha": "e2859f6a891a01f165d080d48b71de189fdfce11",
+  "_size": 8117,
   "appid": "3084810",
   "common": {
     "associations": {
@@ -43,8 +62,8 @@
     "clienticon": "ca4153dad2060cd416fa2a62d7b2acf714e5eb5c",
     "clienttga": "35ec92329b78ad9ba5a5f2e54f9ba57ef57cf3dc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3084810",
     "genres": {
       "0": "1",
@@ -141,7 +160,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5b53d93b701bae22dba05e9b1cfccd3945e9ac92/capsule_231x87.jpg"
     },
@@ -218,6 +237,7 @@
         }
       }
     },
+    "steam_release_date": "1788785702",
     "store_asset_mtime": "1788657582",
     "store_tags": {
       "0": "3968",
@@ -297,5 +317,69 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tower Lab",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "towerlab.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "towerlab.app/Contents/MacOS/towerlab"
+      }
+    }
+  },
+  "depots": {
+    "3084811": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "321888832",
+          "gid": "4552184007477306060",
+          "size": "485174607"
+        }
+      }
+    },
+    "3084812": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "377414512",
+          "gid": "2198977554606693141",
+          "size": "711302035"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,polish,russian,schinese,spanish,tchinese,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "25166346",
+        "timebuildupdated": "1788781578",
+        "timeupdated": "1788781977"
+      }
+    },
+    "privatebranches": "1",
+    "workshopdepot": "3084810"
+  },
+  "extended": {
+    "developer": "Devon Powell",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.playtugstudio.com/tower-lab",
+    "listofdlc": "5016700",
+    "publisher": "Devon Powell"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "10000000"
+  }
 }

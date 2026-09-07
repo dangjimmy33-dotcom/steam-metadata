@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788783764,
-  "_history": [],
-  "_change_number": 38523307,
-  "_missing_token": true,
-  "_sha": "45e948a22c7e39e871417572e20f4945269c0923",
-  "_size": 4967,
+  "_lastChecked": 1788790200,
+  "_history": [
+    {
+      "buildId": "25167892",
+      "branch": "public",
+      "timeUpdated": 1788787339,
+      "firstSeen": 1788790200,
+      "manifests": {
+        "4977901": {
+          "gid": "4693727760447410625",
+          "size": 3608618979,
+          "download": 2875164896
+        }
+      }
+    }
+  ],
+  "_change_number": 38667646,
+  "_missing_token": false,
+  "_sha": "88909cc096996d4f53c4666cf8a78ce2f56b1db1",
+  "_size": 5643,
   "appid": "4977900",
   "common": {
     "aicontenttype": "1",
@@ -19,14 +33,15 @@
       }
     },
     "category": {
+      "category_1": "1",
       "category_38": "1",
       "category_62": "1",
       "category_9": "1"
     },
     "clienticon": "d6920c139b17a00054a3d6b7c843f8e3c3da0624",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4977900",
     "genres": {
       "0": "4",
@@ -98,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3c81838c9c700afdc5f67d97187c9278fa869cf3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788784755",
     "store_asset_mtime": "1787003507",
     "store_tags": {
       "0": "599",
@@ -245,5 +261,41 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Shelf Happens",
+    "launch": {
+      "0": {
+        "executable": "Shelf Happens.exe"
+      }
+    }
+  },
+  "depots": {
+    "4977901": {
+      "manifests": {
+        "public": {
+          "download": "2875164896",
+          "gid": "4693727760447410625",
+          "size": "3608618979"
+        }
+      }
+    },
+    "4977902": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25167892",
+        "timebuildupdated": "1788787271",
+        "timeupdated": "1788787339"
+      }
+    }
+  },
+  "extended": {
+    "developer": "NurRam",
+    "publisher": "NurRam"
+  }
 }

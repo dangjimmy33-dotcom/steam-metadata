@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788779972,
+  "_lastChecked": 1788785596,
   "_history": [
     {
       "buildId": "21398907",
@@ -25,10 +25,10 @@
       }
     }
   ],
-  "_change_number": 37442455,
+  "_change_number": 38666250,
   "_missing_token": false,
-  "_sha": "9088b4f4f390e82be22c859a921f0fa7cd15a562",
-  "_size": 5242,
+  "_sha": "f91ed5c815bb8ab7b2bb6dad400e4b29ac006706",
+  "_size": 5846,
   "appid": "1166840",
   "common": {
     "associations": {
@@ -119,7 +119,7 @@
       "english": "capsule_231x87.jpg"
     },
     "steam_deck_compatibility": {
-      "category": "1",
+      "category": "3",
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
@@ -136,26 +136,46 @@
         "small_text": "0",
         "supported_input": "other"
       },
-      "steam_machine_compatibility": "1",
+      "steam_machine_compatibility": "3",
       "steam_machine_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
         }
       },
-      "steamos_compatibility": "1",
+      "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
         }
       },
-      "test_timestamp": "1681344000",
-      "tested_build_id": "9833552",
+      "test_timestamp": "1788177506",
+      "tested_build_id": "21398907",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
         }
       }
     },

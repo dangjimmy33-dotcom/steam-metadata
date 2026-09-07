@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788783549,
-  "_history": [],
-  "_change_number": 38297146,
-  "_missing_token": true,
-  "_sha": "766b2d36c1592f8742d409fc6a3c5eb95879b4e5",
-  "_size": 2786,
+  "_lastChecked": 1788789942,
+  "_history": [
+    {
+      "buildId": "24747372",
+      "branch": "public",
+      "timeUpdated": 1786766757,
+      "firstSeen": 1788789942,
+      "manifests": {
+        "4717461": {
+          "gid": "6230233761447057962",
+          "size": 898618083,
+          "download": 62144608
+        }
+      }
+    }
+  ],
+  "_change_number": 38666923,
+  "_missing_token": false,
+  "_sha": "f04f4d76856bd9a4eec790bd3890e2f30dd56e0d",
+  "_size": 3310,
   "appid": "4717460",
   "common": {
     "associations": {
@@ -26,7 +40,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4717460",
     "genres": {
       "0": "1",
@@ -97,7 +110,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d23cdf8f349cf04684c5412c586def471bd5385c/capsule_231x87.jpg"
     },
@@ -125,5 +138,36 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Kit’sune",
+    "launch": {
+      "0": {
+        "arguments": "-windowed",
+        "executable": "Kitsune Kits.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4717461": {
+      "manifests": {
+        "public": {
+          "download": "62144608",
+          "gid": "6230233761447057962",
+          "size": "898618083"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24747372",
+        "timebuildupdated": "1786766612",
+        "timeupdated": "1786766757"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Rest1ess_Games",
+    "publisher": "Rest1ess_Games"
+  }
 }
