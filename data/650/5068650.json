@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788758150,
-  "_history": [],
-  "_change_number": 38448252,
-  "_missing_token": true,
-  "_sha": "5c099ade703850871e5a5bc8a6a415ae410958fb",
-  "_size": 2821,
+  "_lastChecked": 1788764882,
+  "_history": [
+    {
+      "buildId": "24996578",
+      "branch": "public",
+      "timeUpdated": 1787933964,
+      "firstSeen": 1788764882,
+      "manifests": {
+        "5068651": {
+          "gid": "1092394848388094404",
+          "size": 1142464,
+          "download": 474624
+        }
+      }
+    }
+  ],
+  "_change_number": 38659181,
+  "_missing_token": false,
+  "_sha": "a19ed6dd4bf868254b0d8ca8b886a24743941852",
+  "_size": 3443,
   "appid": "5068650",
   "common": {
     "aicontenttype": "1",
@@ -21,6 +35,7 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_25": "1",
       "category_62": "1",
       "category_74": "1",
@@ -29,8 +44,8 @@
     },
     "clienticon": "ccbfa039cb07d7cd17ac7a75cb381f426ef181ae",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5068650",
     "genres": {
       "0": "4",
@@ -102,7 +117,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a4d5a1aa180130ab75961de626af39cead0bee94/capsule_231x87.jpg"
     },
@@ -124,5 +139,41 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mather",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Mather.exe"
+      }
+    }
+  },
+  "depots": {
+    "5068651": {
+      "manifests": {
+        "public": {
+          "download": "474624",
+          "gid": "1092394848388094404",
+          "size": "1142464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24996578",
+        "timebuildupdated": "1787933919",
+        "timeupdated": "1787933964"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DanikGames Inc",
+    "publisher": "DanikGames Inc"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "50000000"
+  }
 }

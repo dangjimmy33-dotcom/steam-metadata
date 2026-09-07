@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788754380,
+  "_lastChecked": 1788760345,
   "_history": [
     {
       "buildId": "7420825",
@@ -26,12 +26,25 @@
           "download": 442054848
         }
       }
+    },
+    {
+      "buildId": "25160287",
+      "branch": "public",
+      "timeUpdated": 1788755383,
+      "firstSeen": 1788760345,
+      "manifests": {
+        "1463981": {
+          "gid": "8846331713643395649",
+          "size": 558827898,
+          "download": 442054848
+        }
+      }
     }
   ],
-  "_change_number": 38656343,
+  "_change_number": 38657618,
   "_missing_token": false,
-  "_sha": "63d975be965e5f4438c261c7f5e20861f4feb9ed",
-  "_size": 3142,
+  "_sha": "b8917c3066e6951ac4c2a36bdbd630c86a06bc5d",
+  "_size": 3255,
   "appid": "1463980",
   "common": {
     "associations": {
@@ -114,7 +127,7 @@
       "english": "capsule_231x87.jpg"
     },
     "steam_release_date": "1606996568",
-    "store_asset_mtime": "1670708784",
+    "store_asset_mtime": "1788740113",
     "store_tags": {
       "0": "492",
       "1": "597",
@@ -126,6 +139,11 @@
     },
     "supported_languages": {
       "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "japanese": {
+        "subtitles": "true",
         "supported": "true"
       }
     },
@@ -138,7 +156,7 @@
         "config": {
           "oslist": "windows"
         },
-        "executable": "Game.exe",
+        "executable": "ProvenMathRPGJP/Game.exe",
         "type": "default"
       }
     }
@@ -156,9 +174,9 @@
           "size": "558827898"
         },
         "public": {
-          "download": "550501632",
-          "gid": "8541261410349846698",
-          "size": "804622131"
+          "download": "442054848",
+          "gid": "8846331713643395649",
+          "size": "558827898"
         }
       }
     },
@@ -171,9 +189,9 @@
         "timeupdated": "1788752365"
       },
       "public": {
-        "buildid": "7420825",
-        "timebuildupdated": "1632513162",
-        "timeupdated": "1632513162"
+        "buildid": "25160287",
+        "timebuildupdated": "1788751613",
+        "timeupdated": "1788755383"
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788754982,
+  "_lastChecked": 1788761063,
   "_history": [
     {
       "buildId": "10213923",
@@ -39,12 +39,25 @@
           "download": 713626480
         }
       }
+    },
+    {
+      "buildId": "25161506",
+      "branch": "nightly",
+      "timeUpdated": 1788760152,
+      "firstSeen": 1788761063,
+      "manifests": {
+        "1949741": {
+          "gid": "8420241688495262062",
+          "size": 1415449618,
+          "download": 604071408
+        }
+      }
     }
   ],
-  "_change_number": 38590460,
+  "_change_number": 38657954,
   "_missing_token": false,
-  "_sha": "05ce9fcf44cc857b60e5cd0dd7b7197445730cf8",
-  "_size": 7064,
+  "_sha": "5de4a26e9680bb1fbfa8ae220d2baeae49609795",
+  "_size": 7087,
   "appid": "1949740",
   "common": {
     "associations": {
@@ -275,17 +288,17 @@
   "depots": {
     "1949741": {
       "manifests": {
+        "nightly": {
+          "download": "604071408",
+          "gid": "8420241688495262062",
+          "size": "1415449618"
+        },
         "previous_version": {
           "download": "325218848",
           "gid": "9164818011777490497",
           "size": "956617834"
         },
         "public": {
-          "download": "713626480",
-          "gid": "7461162927803015055",
-          "size": "1928811053"
-        },
-        "test": {
           "download": "713626480",
           "gid": "7461162927803015055",
           "size": "1928811053"
@@ -301,6 +314,12 @@
     },
     "baselanguages": "english,schinese,russian",
     "branches": {
+      "nightly": {
+        "buildid": "25161506",
+        "description": "unstable updates will be here first before its stabled",
+        "timebuildupdated": "1788759904",
+        "timeupdated": "1788760152"
+      },
       "previous_version": {
         "buildid": "10213923",
         "description": "Public previous version",
@@ -311,15 +330,8 @@
         "buildid": "13314630",
         "timebuildupdated": "1706630022",
         "timeupdated": "1706630063"
-      },
-      "test": {
-        "buildid": "13314630",
-        "description": "beta version",
-        "timebuildupdated": "1706630022",
-        "timeupdated": "1706630051"
       }
     },
-    "privatebranches": "1",
     "workshopdepot": "0"
   },
   "extended": {

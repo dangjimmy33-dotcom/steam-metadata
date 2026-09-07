@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788756470,
+  "_lastChecked": 1788762851,
   "_history": [
     {
       "buildId": "25134873",
@@ -52,12 +52,38 @@
           "download": 274297328
         }
       }
+    },
+    {
+      "buildId": "25161559",
+      "branch": "msg-nightlybuild",
+      "timeUpdated": 1788760244,
+      "firstSeen": 1788762851,
+      "manifests": {
+        "3332461": {
+          "gid": "966176906205489227",
+          "size": 900430596,
+          "download": 274299056
+        }
+      }
+    },
+    {
+      "buildId": "25161559",
+      "branch": "public",
+      "timeUpdated": 1788760935,
+      "firstSeen": 1788762851,
+      "manifests": {
+        "3332461": {
+          "gid": "966176906205489227",
+          "size": 900430596,
+          "download": 274299056
+        }
+      }
     }
   ],
-  "_change_number": 38644402,
+  "_change_number": 38658146,
   "_missing_token": false,
-  "_sha": "d18236bc4a967a0f9188e005ebfefcaa1d539251",
-  "_size": 4679,
+  "_sha": "33b89b3fd2e7bbd82aaa5cafee4079327ea14b11",
+  "_size": 4677,
   "appid": "3332460",
   "common": {
     "associations": {
@@ -220,28 +246,28 @@
     "3332461": {
       "manifests": {
         "msg-nightlybuild": {
-          "download": "274297328",
-          "gid": "2029061020225401463",
-          "size": "900428124"
+          "download": "274299056",
+          "gid": "966176906205489227",
+          "size": "900430596"
         },
         "public": {
-          "download": "274297328",
-          "gid": "2029061020225401463",
-          "size": "900428124"
+          "download": "274299056",
+          "gid": "966176906205489227",
+          "size": "900430596"
         }
       }
     },
     "branches": {
       "msg-nightlybuild": {
-        "buildid": "25152259",
+        "buildid": "25161559",
         "description": "Nightly Builds for My Slime Garden",
-        "timebuildupdated": "1788700647",
-        "timeupdated": "1788700665"
+        "timebuildupdated": "1788760156",
+        "timeupdated": "1788760244"
       },
       "public": {
-        "buildid": "25152259",
-        "timebuildupdated": "1788700647",
-        "timeupdated": "1788700891"
+        "buildid": "25161559",
+        "timebuildupdated": "1788760156",
+        "timeupdated": "1788760935"
       }
     }
   },

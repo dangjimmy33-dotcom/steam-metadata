@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788757697,
+  "_lastChecked": 1788764335,
   "_history": [
     {
       "buildId": "25050253",
@@ -13,12 +13,25 @@
           "download": 264531504
         }
       }
+    },
+    {
+      "buildId": "25162167",
+      "branch": "public",
+      "timeUpdated": 1788764260,
+      "firstSeen": 1788764335,
+      "manifests": {
+        "4547081": {
+          "gid": "5470303913582241406",
+          "size": 564461642,
+          "download": 274988096
+        }
+      }
     }
   ],
-  "_change_number": 38495146,
+  "_change_number": 38659052,
   "_missing_token": false,
-  "_sha": "23b66bc63dc3a301188efb195d25ed6a9d6712f6",
-  "_size": 3882,
+  "_sha": "1294ca7b90143fb1a9c78cf336ed6503e47e2f1d",
+  "_size": 4009,
   "appid": "4547080",
   "common": {
     "associations": {
@@ -33,6 +46,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
       "category_62": "1",
       "category_68": "1",
       "category_71": "1",
@@ -43,6 +57,7 @@
     },
     "clienticon": "6c5c88dab35ae137a1fb1a88c820a6d55ab383a2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "gameid": "4547080",
     "genres": {
@@ -157,6 +172,10 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "japanese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "schinese": {
         "subtitles": "true",
         "supported": "true"
@@ -179,18 +198,18 @@
       },
       "manifests": {
         "public": {
-          "download": "264531504",
-          "gid": "6758805122755585283",
-          "size": "527045210"
+          "download": "274988096",
+          "gid": "5470303913582241406",
+          "size": "564461642"
         }
       }
     },
     "baselanguages": "brazilian,english,french,schinese",
     "branches": {
       "public": {
-        "buildid": "25050253",
-        "timebuildupdated": "1788234956",
-        "timeupdated": "1788235020"
+        "buildid": "25162167",
+        "timebuildupdated": "1788763988",
+        "timeupdated": "1788764260"
       }
     }
   },

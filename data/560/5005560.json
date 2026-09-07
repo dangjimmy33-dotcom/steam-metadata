@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788758103,
-  "_history": [],
-  "_change_number": 38625634,
-  "_missing_token": true,
-  "_sha": "995f686eb658ff7935a7cf7d6d3ff4a2c9fb01c0",
-  "_size": 3745,
+  "_lastChecked": 1788764825,
+  "_history": [
+    {
+      "buildId": "25139587",
+      "branch": "public",
+      "timeUpdated": 1788602981,
+      "firstSeen": 1788764825,
+      "manifests": {
+        "5005561": {
+          "gid": "1450202263052890958",
+          "size": 650671913,
+          "download": 171398800
+        }
+      }
+    }
+  ],
+  "_change_number": 38659135,
+  "_missing_token": false,
+  "_sha": "b4c3f052a7f2599e892b658e3d62831cf201503d",
+  "_size": 4325,
   "appid": "5005560",
   "common": {
     "associations": {
@@ -24,8 +38,8 @@
     },
     "clienticon": "53ae1f04047e921b4480c8666a239c868e6e62e3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5005560",
     "genres": {
       "0": "4",
@@ -115,10 +129,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6a607380f364a0326c752547ea4b88529eb59a4a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788764497",
     "store_asset_mtime": "1786180390",
     "store_tags": {
       "0": "597",
@@ -175,5 +190,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Plug In",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Plug In.exe"
+      }
+    }
+  },
+  "depots": {
+    "5005561": {
+      "manifests": {
+        "public": {
+          "download": "171398800",
+          "gid": "1450202263052890958",
+          "size": "650671913"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25139587",
+        "timebuildupdated": "1788602938",
+        "timeupdated": "1788602981"
+      }
+    }
+  },
+  "extended": {
+    "developer": "9900 Studio",
+    "publisher": "9900 Studio"
+  }
 }

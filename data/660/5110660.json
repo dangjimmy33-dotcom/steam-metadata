@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788758178,
-  "_history": [],
-  "_change_number": 38607224,
-  "_missing_token": true,
-  "_sha": "6d5a2a7f6b9f425a022275278e949244a5473886",
-  "_size": 3902,
+  "_lastChecked": 1788764917,
+  "_history": [
+    {
+      "buildId": "25126828",
+      "branch": "public",
+      "timeUpdated": 1788534480,
+      "firstSeen": 1788764917,
+      "manifests": {
+        "5110661": {
+          "gid": "2389529906598362026",
+          "size": 8596308517,
+          "download": 8275748624
+        }
+      }
+    }
+  ],
+  "_change_number": 38659142,
+  "_missing_token": false,
+  "_sha": "0bee52c2347f201eeab98d407fab116c3dbe50fb",
+  "_size": 5066,
   "appid": "5110660",
   "common": {
     "associations": {
@@ -26,7 +40,6 @@
     "clienticon": "6a04e03a49b4e7525cb8d4d70f021fdd29529256",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5110660",
     "genres": {
       "0": "4",
@@ -113,7 +126,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "14a6a6e7f526160aebb46ccc6996cb159f52c7ef/capsule_231x87.jpg",
       "schinese": "14a6a6e7f526160aebb46ccc6996cb159f52c7ef/capsule_231x87_schinese.jpg"
@@ -142,7 +155,74 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SlimGirl",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "SlimGirl.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5110661": {
+      "manifests": {
+        "public": {
+          "download": "8275748624",
+          "gid": "2389529906598362026",
+          "size": "8596308517"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "25126828",
+        "timebuildupdated": "1788534422",
+        "timeupdated": "1788534480"
+      }
+    },
+    "workshopdepot": "5110660"
+  },
+  "extended": {
+    "developer": "Fat Tiger",
+    "publisher": "Fat Tiger"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "SlimGirl/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

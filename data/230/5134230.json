@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788758193,
-  "_history": [],
-  "_change_number": 38352421,
-  "_missing_token": true,
-  "_sha": "58fc9290b72997ca2b0bfc4affce092af50abf07",
-  "_size": 2956,
+  "_lastChecked": 1788764934,
+  "_history": [
+    {
+      "buildId": "24832453",
+      "branch": "public",
+      "timeUpdated": 1787202061,
+      "firstSeen": 1788764934,
+      "manifests": {
+        "5134231": {
+          "gid": "6911899751358889099",
+          "size": 5083772793,
+          "download": 1029536960
+        }
+      }
+    }
+  ],
+  "_change_number": 38659149,
+  "_missing_token": false,
+  "_sha": "00e29982f0f18abe4e7a716948d362acc8354471",
+  "_size": 3546,
   "appid": "5134230",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +43,8 @@
     },
     "clienticon": "e4cb5effcb24641dd6049b60d57abf3ac38a90d4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5134230",
     "genres": {
       "0": "4",
@@ -102,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "42f6dbabac241d8567d7f574738751a2bc97a530/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788764528",
     "store_asset_mtime": "1787204107",
     "store_tags": {
       "0": "599",
@@ -131,5 +146,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Roulette Simulator 2027",
+    "launch": {
+      "0": {
+        "executable": "Roulette Simulator 2027.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5134231": {
+      "manifests": {
+        "public": {
+          "download": "1029536960",
+          "gid": "6911899751358889099",
+          "size": "5083772793"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24832453",
+        "timebuildupdated": "1787202053",
+        "timeupdated": "1787202061"
+      }
+    }
+  },
+  "extended": {
+    "developer": "FlagmanJeremy",
+    "publisher": "FlagmanJeremy"
+  }
 }

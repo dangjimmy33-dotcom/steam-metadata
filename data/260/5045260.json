@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788758134,
-  "_history": [],
-  "_change_number": 38147955,
-  "_missing_token": true,
-  "_sha": "b539cbc3db44c0927666015ae72bdc225ef5d227",
-  "_size": 5258,
+  "_lastChecked": 1788764862,
+  "_history": [
+    {
+      "buildId": "24518912",
+      "branch": "public",
+      "timeUpdated": 1785677469,
+      "firstSeen": 1788764862,
+      "manifests": {
+        "5045261": {
+          "gid": "2312422739813085728",
+          "size": 290094070,
+          "download": 111459504
+        }
+      }
+    }
+  ],
+  "_change_number": 38658794,
+  "_missing_token": false,
+  "_sha": "c058ac64bca6ac5b13d05bcb63863bdfa41261e1",
+  "_size": 6274,
   "appid": "5045260",
   "common": {
     "aicontenttype": "1",
@@ -26,6 +40,7 @@
     },
     "clienticon": "f49d72f149b69a71387988d6a7a17e6ae9631ac5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -35,7 +50,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "5045260",
     "genres": {
       "0": "4",
@@ -125,12 +139,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bfa248066b320d96aaf7731ee886d89a1ffa0873/capsule_231x87.jpg",
       "sc_schinese": "c4e156475bfecf0f7929a4e8aec1f52220a80aec/capsule_231x87_sc_schinese.jpg",
       "schinese": "32c98581ef57c03e035afe3ec8a40736ecc0a4ec/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1788763288",
     "store_asset_mtime": "1786677361",
     "store_tags": {
       "0": "916648",
@@ -193,5 +208,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Summer of Singing Insects",
+    "launch": {
+      "0": {
+        "description_loc": {
+          "schinese": "鸣虫之夏 主程序"
+        },
+        "executable": "鸣虫之夏.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5045261": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "111459504",
+          "gid": "2312422739813085728",
+          "size": "290094070"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "24518912",
+        "timebuildupdated": "1785677353",
+        "timeupdated": "1785677469"
+      }
+    }
+  },
+  "extended": {
+    "developer": "TIANBODA",
+    "publisher": "TIANBODA"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576"
+  }
 }
