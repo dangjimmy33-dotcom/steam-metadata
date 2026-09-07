@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788745190,
+  "_lastChecked": 1788751823,
   "_history": [
     {
       "buildId": "25129552",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 38611445,
+  "_change_number": 38655339,
   "_missing_token": false,
-  "_sha": "946988f65d4f3d767acc39e878b57fdd5e4030bc",
-  "_size": 3772,
+  "_sha": "44af5d9b9822ec0f73dae4b2497beef35adbfa2c",
+  "_size": 4290,
   "appid": "4480760",
   "common": {
     "associations": {
@@ -169,11 +169,20 @@
           "oslist": "windows"
         },
         "executable": "SurfSandbox.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "SurfSandbox.app/Contents/MacOS/SurfSandbox"
       }
     }
   },
   "depots": {
     "4480761": {
+      "config": {
+        "oslist": "windows,linux"
+      },
       "manifests": {
         "beta": {
           "download": "48473168",
@@ -187,6 +196,12 @@
         }
       }
     },
+    "4480762": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
     "branches": {
       "beta": {
         "buildid": "25129552",

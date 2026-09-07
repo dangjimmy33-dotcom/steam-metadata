@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788742994,
+  "_lastChecked": 1788749183,
   "_history": [
     {
       "buildId": "24824779",
@@ -13,12 +13,25 @@
           "download": 3924693632
         }
       }
+    },
+    {
+      "buildId": "25159329",
+      "branch": "public",
+      "timeUpdated": 1788746930,
+      "firstSeen": 1788749183,
+      "manifests": {
+        "2364931": {
+          "gid": "8656083443910065248",
+          "size": 22690786872,
+          "download": 3935149168
+        }
+      }
     }
   ],
-  "_change_number": 38638809,
+  "_change_number": 38654899,
   "_missing_token": false,
-  "_sha": "08db2590e35ce190d7285ba8186ed83e847cce9f",
-  "_size": 3787,
+  "_sha": "306e2a634eeadf17241fedd8cb60cc5eac908b31",
+  "_size": 3813,
   "appid": "2364930",
   "common": {
     "associations": {
@@ -143,7 +156,8 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
   "config": {
     "installdir": "OneMoreRun",
@@ -165,17 +179,17 @@
       },
       "manifests": {
         "public": {
-          "download": "3924693632",
-          "gid": "8626067744625210999",
-          "size": "22465861954"
+          "download": "3935149168",
+          "gid": "8656083443910065248",
+          "size": "22690786872"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "24824779",
-        "timebuildupdated": "1787166277",
-        "timeupdated": "1787166328"
+        "buildid": "25159329",
+        "timebuildupdated": "1788745318",
+        "timeupdated": "1788746930"
       }
     },
     "workshopdepot": "2364930"

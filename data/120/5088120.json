@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788745732,
+  "_lastChecked": 1788752468,
   "_history": [
     {
       "buildId": "25149197",
@@ -26,12 +26,25 @@
           "download": 215010352
         }
       }
+    },
+    {
+      "buildId": "25160280",
+      "branch": "steam-integration",
+      "timeUpdated": 1788751804,
+      "firstSeen": 1788752468,
+      "manifests": {
+        "5088121": {
+          "gid": "399339942090359717",
+          "size": 291960918,
+          "download": 216801072
+        }
+      }
     }
   ],
-  "_change_number": 38649566,
+  "_change_number": 38656032,
   "_missing_token": false,
-  "_sha": "3d4bbd4dfec12628c9375a12127279f2b20cfa21",
-  "_size": 4245,
+  "_sha": "fbbf3fcb8a5e05439bbcc3164b4ee5c9d8e70e1c",
+  "_size": 4580,
   "appid": "5088120",
   "common": {
     "aicontenttype": "1",
@@ -191,6 +204,11 @@
           "download": "215010352",
           "gid": "596698599141519420",
           "size": "286992544"
+        },
+        "steam-integration": {
+          "download": "216801072",
+          "gid": "399339942090359717",
+          "size": "291960918"
         }
       }
     },
@@ -206,6 +224,12 @@
         "buildid": "25154403",
         "timebuildupdated": "1788714271",
         "timeupdated": "1788715579"
+      },
+      "steam-integration": {
+        "buildid": "25160280",
+        "description": "Steam integration QA - achievements and Workshop; Windows only",
+        "timebuildupdated": "1788751544",
+        "timeupdated": "1788751804"
       }
     }
   },

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788744030,
-  "_history": [],
-  "_change_number": 38651142,
-  "_missing_token": true,
-  "_sha": "45b8c5c99f89ae205c29bf99efb08a217785068e",
-  "_size": 3868,
+  "_lastChecked": 1788750436,
+  "_history": [
+    {
+      "buildId": "25156754",
+      "branch": "public",
+      "timeUpdated": 1788728333,
+      "firstSeen": 1788750436,
+      "manifests": {
+        "3340891": {
+          "gid": "3192875192003589979",
+          "size": 4203392249,
+          "download": 1806912128
+        }
+      }
+    }
+  ],
+  "_change_number": 38655163,
+  "_missing_token": false,
+  "_sha": "42b09f8706f0bd431cd67359803dc07379c405bd",
+  "_size": 5050,
   "appid": "3340890",
   "common": {
     "associations": {
@@ -30,6 +44,7 @@
     "clienticon": "38a6636c1a8d6fe6824fe3c2521c3fba87998d03",
     "clienttga": "5fa4808b0207ed6c462c05089f21c4fbd4eae797",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -37,7 +52,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3340890",
     "genres": {
       "0": "1",
@@ -111,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "db89b7658ed48525e0e80680c23cccbb938fbd6b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788748112",
     "store_asset_mtime": "1788432598",
     "store_tags": {
       "0": "3834",
@@ -178,5 +193,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Necrowhisper",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Necrowhisper.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3340891": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1806912128",
+          "gid": "3192875192003589979",
+          "size": "4203392249"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25156754",
+        "timebuildupdated": "1788728312",
+        "timeupdated": "1788728333"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Samudra Interactive",
+    "homepage": "https://necrowhisper.samudrainteractive.com/",
+    "publisher": "Samudra Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000",
+    "savefiles": {
+      "0": {
+        "path": "Samudra Interactive/Necrowhisper",
+        "pattern": "*.data",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Samudra Interactive/Necrowhisper/Config",
+        "pattern": "*.ini",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

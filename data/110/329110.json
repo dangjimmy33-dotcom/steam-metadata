@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788740708,
+  "_lastChecked": 1788746377,
   "_history": [
     {
       "buildId": "24288266",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38594104,
-  "_missing_token": false,
-  "_sha": "98975ce863bfc787f1526680b6f6f4b7c140ef76",
-  "_size": 7816,
+  "_change_number": 38654763,
+  "_missing_token": true,
+  "_sha": "4a76d276bdb06ceda38b401fe1483e454317d821",
+  "_size": 6862,
   "appid": "329110",
   "common": {
     "associations": {
@@ -139,7 +139,10 @@
     "logo_small": "8e93c4abb955a8bfdc379dcdde1f713971da739f_thumb",
     "metacritic_name": "Gems of War",
     "name": "Gems of War",
+    "name_localized": {},
     "original_release_date": "1416470400",
+    "osarch": "",
+    "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
     "releasestate": "released",
@@ -291,58 +294,5 @@
     },
     "type": "Game"
   },
-  "config": {
-    "contenttype": "3",
-    "installdir": "Gems of War",
-    "launch": {
-      "0": {
-        "config": {
-          "oslist": "windows"
-        },
-        "description": "Launch",
-        "executable": "GemsOfWar.exe"
-      }
-    }
-  },
-  "depots": {
-    "329111": {
-      "manifests": {
-        "public": {
-          "download": "2147289568",
-          "gid": "668042082682631714",
-          "size": "2700958941"
-        }
-      }
-    },
-    "branches": {
-      "public": {
-        "buildid": "24288266",
-        "timebuildupdated": "1784505367",
-        "timeupdated": "1785456196"
-      }
-    },
-    "privatebranches": "1"
-  },
-  "extended": {
-    "developer": "Infinity Plus 2",
-    "dlcavailableonstore": "1",
-    "homepage": "http://www.gemsofwar.com",
-    "isfreeapp": "1",
-    "listofdlc": "526300,526301,1067150,1409800,1409802,1412350",
-    "publisher": "505 Games"
-  },
-  "ufs": {
-    "maxnumfiles": "32",
-    "quota": "100000",
-    "savefiles": {
-      "0": {
-        "path": "com.infinite-interactive.GoW/Local Store",
-        "pattern": "*.json",
-        "platforms": {
-          "1": "Windows"
-        },
-        "root": "WinAppDataRoaming"
-      }
-    }
-  }
+  "public_only": "1"
 }

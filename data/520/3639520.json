@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788744344,
+  "_lastChecked": 1788750815,
   "_history": [
     {
       "buildId": "21233035",
@@ -25,10 +25,10 @@
       }
     }
   ],
-  "_change_number": 38652668,
+  "_change_number": 38655549,
   "_missing_token": false,
-  "_sha": "91c94ded2a7e1b26e2817a8cf71123022ac58e63",
-  "_size": 7967,
+  "_sha": "5df2b31807300fb2e32ec9c8cf0c96724f591a50",
+  "_size": 8601,
   "appid": "3639520",
   "common": {
     "associations": {
@@ -343,5 +343,38 @@
     "developer": "NITRO PLUS",
     "homepage": "http://www.togainu.com/windows/",
     "publisher": "NITRO PLUS"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "NITRO CHiRAL\\Togainunochi_TB",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "NITRO CHiRAL\\Togainunochi_TB_en",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "NITRO CHiRAL\\Togainunochi_TB_zhcn",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

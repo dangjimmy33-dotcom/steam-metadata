@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788743733,
+  "_lastChecked": 1788750079,
   "_history": [
     {
       "buildId": "25137048",
@@ -36,12 +36,30 @@
           "download": 54501584
         }
       }
+    },
+    {
+      "buildId": "25159420",
+      "branch": "harvest",
+      "timeUpdated": 1788745989,
+      "firstSeen": 1788750079,
+      "manifests": {
+        "3056311": {
+          "gid": "4769597744214573061",
+          "size": 68822528,
+          "download": 44201856
+        },
+        "3056312": {
+          "gid": "6503681000155754690",
+          "size": 77494576,
+          "download": 47134928
+        }
+      }
     }
   ],
-  "_change_number": 38621951,
+  "_change_number": 38654703,
   "_missing_token": false,
-  "_sha": "9c42954456dffd5a715e2591c26698c84a8db134",
-  "_size": 6038,
+  "_sha": "7e5fae05891ea0b4aeca7ff39d39d5ef6e254c4a",
+  "_size": 6039,
   "appid": "3056310",
   "common": {
     "aicontenttype": "1",
@@ -263,9 +281,9 @@
       },
       "manifests": {
         "harvest": {
-          "download": "44202512",
-          "gid": "3241663610784828048",
-          "size": "68815328"
+          "download": "44201856",
+          "gid": "4769597744214573061",
+          "size": "68822528"
         },
         "public": {
           "download": "51581632",
@@ -280,9 +298,9 @@
       },
       "manifests": {
         "harvest": {
-          "download": "47139616",
-          "gid": "641878017975503036",
-          "size": "77487392"
+          "download": "47134928",
+          "gid": "6503681000155754690",
+          "size": "77494576"
         },
         "public": {
           "download": "54501584",
@@ -293,10 +311,10 @@
     },
     "branches": {
       "harvest": {
-        "buildid": "25137048",
+        "buildid": "25159420",
         "description": "Bleeding-edge development server.",
-        "timebuildupdated": "1788582483",
-        "timeupdated": "1788582483"
+        "timebuildupdated": "1788745989",
+        "timeupdated": "1788745989"
       },
       "public": {
         "buildid": "24875779",

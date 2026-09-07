@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1788745492,
-  "_history": [],
-  "_change_number": 38525765,
-  "_missing_token": true,
-  "_sha": "89d535ed1c2fac964573598c840aa99350c1913f",
-  "_size": 4116,
+  "_lastChecked": 1788752182,
+  "_history": [
+    {
+      "buildId": "24524833",
+      "branch": "local",
+      "timeUpdated": 1785721492,
+      "firstSeen": 1788752182,
+      "manifests": {
+        "4807751": {
+          "gid": "7309190360770240315",
+          "size": 153104132,
+          "download": 74748432
+        }
+      }
+    },
+    {
+      "buildId": "25159877",
+      "branch": "public",
+      "timeUpdated": 1788749086,
+      "firstSeen": 1788752182,
+      "manifests": {
+        "4807751": {
+          "gid": "8881226171824793507",
+          "size": 153514148,
+          "download": 74767808
+        }
+      }
+    }
+  ],
+  "_change_number": 38655374,
+  "_missing_token": false,
+  "_sha": "d34b31481c24e8df6f0218e467c85aa3a013d7bd",
+  "_size": 5329,
   "appid": "4807750",
   "common": {
     "aicontenttype": "1",
@@ -28,7 +55,6 @@
     "clienticon": "669ff4d12a630a9fcabd32eabcace901d1792d0f",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4807750",
     "genres": {
       "0": "4",
@@ -110,7 +136,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6e2172b276de160a069c350f2b878efc9588de50/capsule_231x87.jpg",
       "schinese": "ff0a5ffed062185960ea04a3e2274b86b81dce83/capsule_231x87_schinese.jpg"
@@ -167,5 +193,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "WWIIAutoBattler",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "WW2AutoBattler.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4807751": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "local": {
+          "download": "74748432",
+          "gid": "7309190360770240315",
+          "size": "153104132"
+        },
+        "public": {
+          "download": "74767808",
+          "gid": "8881226171824793507",
+          "size": "153514148"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,japanese,russian,schinese",
+    "branches": {
+      "local": {
+        "buildid": "24524833",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1785721492",
+        "timeupdated": "1785721492"
+      },
+      "public": {
+        "buildid": "25159877",
+        "timebuildupdated": "1788748947",
+        "timeupdated": "1788749086"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Three Sevens 21",
+    "publisher": "Three Sevens 21"
+  },
+  "ufs": {
+    "maxnumfiles": "32",
+    "quota": "2500000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "SteamCloudDocuments"
+      }
+    }
+  }
 }
