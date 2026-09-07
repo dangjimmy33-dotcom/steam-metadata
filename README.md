@@ -2,7 +2,7 @@
 
 
 
-An automated tool to scan, store, and track historical version changes (`BuildID`, `Branches`, `Depot Manifest GID`) for all Steam games (approximately 184k games).
+An automated tool to scan, store, and track historical version changes (`BuildID`, `Branches`, `Depot Manifest GID`) for all Steam games.
 
 ---
 
