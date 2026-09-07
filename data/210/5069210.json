@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1788764883,
-  "_history": [],
-  "_change_number": 38334842,
-  "_missing_token": true,
-  "_sha": "594c741cbbe996b083e0f4079d2da19a2b8cef67",
-  "_size": 3563,
+  "_lastChecked": 1788771707,
+  "_history": [
+    {
+      "buildId": "24749247",
+      "branch": "beta",
+      "timeUpdated": 1786782757,
+      "firstSeen": 1788771707,
+      "manifests": {
+        "5069211": {
+          "gid": "6434422250681036678",
+          "size": 813732994,
+          "download": 732235216
+        },
+        "5069212": {
+          "gid": "1747535438707473837",
+          "size": 776531714,
+          "download": 722887136
+        }
+      }
+    },
+    {
+      "buildId": "24749247",
+      "branch": "public",
+      "timeUpdated": 1786782987,
+      "firstSeen": 1788771707,
+      "manifests": {
+        "5069211": {
+          "gid": "6434422250681036678",
+          "size": 813732994,
+          "download": 732235216
+        },
+        "5069212": {
+          "gid": "1747535438707473837",
+          "size": 776531714,
+          "download": 722887136
+        }
+      }
+    }
+  ],
+  "_change_number": 38659342,
+  "_missing_token": false,
+  "_sha": "987d2236620e83d8a2c940ae7d82710cbc46c4bb",
+  "_size": 5258,
   "appid": "5069210",
   "common": {
     "aicontenttype": "1",
@@ -40,7 +77,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5069210",
     "genres": {
       "0": "4"
@@ -110,7 +146,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4e72fd2358025abac026a39a08fcff7bee1184fc/capsule_231x87.jpg"
     },
@@ -164,5 +200,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lumen Trace",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "LumenTrace.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "LumenTrace.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "5069211": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "732235216",
+          "gid": "6434422250681036678",
+          "size": "813732994"
+        },
+        "public": {
+          "download": "732235216",
+          "gid": "6434422250681036678",
+          "size": "813732994"
+        }
+      }
+    },
+    "5069212": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "722887136",
+          "gid": "1747535438707473837",
+          "size": "776531714"
+        },
+        "public": {
+          "download": "722887136",
+          "gid": "1747535438707473837",
+          "size": "776531714"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,portuguese,russian,schinese,spanish,tchinese",
+    "branches": {
+      "beta": {
+        "buildid": "24749247",
+        "description": "beta",
+        "timebuildupdated": "1786782709",
+        "timeupdated": "1786782757"
+      },
+      "public": {
+        "buildid": "24749247",
+        "timebuildupdated": "1786782709",
+        "timeupdated": "1786782987"
+      }
+    }
+  },
+  "extended": {
+    "developer": "RavenPop",
+    "publisher": "RavenPop"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.json",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

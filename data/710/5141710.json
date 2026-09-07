@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788764938,
-  "_history": [],
-  "_change_number": 38643166,
-  "_missing_token": true,
-  "_sha": "919f370f7073950abd09aad53974ad0098819bdf",
-  "_size": 3038,
+  "_lastChecked": 1788771763,
+  "_history": [
+    {
+      "buildId": "25151499",
+      "branch": "public",
+      "timeUpdated": 1788695136,
+      "firstSeen": 1788771763,
+      "manifests": {
+        "5141711": {
+          "gid": "2659977937886700842",
+          "size": 40828862,
+          "download": 34394944
+        }
+      }
+    }
+  ],
+  "_change_number": 38659797,
+  "_missing_token": false,
+  "_sha": "137a239a6edbd62998f606664f31fa8ace074881",
+  "_size": 3996,
   "appid": "5141710",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "b5f2263f91c7ed57453903eb7a266a6bc23d2d76",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5141710",
     "genres": {
       "0": "1",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a39258bc31198118843ef5bc89d0c3d8d11ecc04/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788766643",
     "store_asset_mtime": "1788694845",
     "store_tags": {
       "0": "19",
@@ -137,5 +152,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gold and Robot",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Gold and Robot",
+        "description_loc": {
+          "english": "Gold and Robot"
+        },
+        "executable": "goldandrobot.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5141711": {
+      "manifests": {
+        "public": {
+          "download": "34394944",
+          "gid": "2659977937886700842",
+          "size": "40828862"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25151499",
+        "timebuildupdated": "1788695134",
+        "timeupdated": "1788695136"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SmartRobotSoft",
+    "publisher": "SmartRobotSoft"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "10240",
+    "savefiles": {
+      "0": {
+        "path": "GOLDANDROBOT",
+        "pattern": "*.ring",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788764822,
-  "_history": [],
-  "_change_number": 38646758,
-  "_missing_token": true,
-  "_sha": "33671b10a11c8b7d341ba0f464754577dbccb5c5",
-  "_size": 2943,
+  "_lastChecked": 1788771645,
+  "_history": [
+    {
+      "buildId": "25153768",
+      "branch": "public",
+      "timeUpdated": 1788710427,
+      "firstSeen": 1788771645,
+      "manifests": {
+        "5001301": {
+          "gid": "6453971570880736332",
+          "size": 169128698,
+          "download": 52885856
+        }
+      }
+    }
+  ],
+  "_change_number": 38660270,
+  "_missing_token": false,
+  "_sha": "670b43bd861f9999da3c4fe3afba6a415dbcaf33",
+  "_size": 3725,
   "appid": "5001300",
   "common": {
     "associations": {
@@ -24,8 +38,8 @@
     },
     "clienticon": "7169d058653e891e1b27c9f4c0c30e42998a44ad",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5001300",
     "genres": {
       "0": "25",
@@ -97,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5a3122425cc4ae4c329b5d83dcc584ceb24f8aa9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788768030",
     "store_asset_mtime": "1787621849",
     "store_tags": {
       "0": "1084988",
@@ -133,5 +148,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sewer Crawler",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Sewer Crawler.exe"
+      }
+    }
+  },
+  "depots": {
+    "5001301": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "52885856",
+          "gid": "6453971570880736332",
+          "size": "169128698"
+        }
+      }
+    },
+    "5001302": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25153768",
+        "timebuildupdated": "1788710395",
+        "timeupdated": "1788710427"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Gromi Momi",
+    "publisher": "Gromi Momi"
+  }
 }

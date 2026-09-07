@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788763811,
-  "_history": [],
-  "_change_number": 38301506,
-  "_missing_token": true,
-  "_sha": "b0611f9dce8732cf1ac4c4072ff029c81f37237d",
-  "_size": 2982,
+  "_lastChecked": 1788770635,
+  "_history": [
+    {
+      "buildId": "24875883",
+      "branch": "public",
+      "timeUpdated": 1787376189,
+      "firstSeen": 1788770635,
+      "manifests": {
+        "4104891": {
+          "gid": "8186130221170408473",
+          "size": 116583500,
+          "download": 41610736
+        }
+      }
+    }
+  ],
+  "_change_number": 38659205,
+  "_missing_token": false,
+  "_sha": "733f3cb4afeb9f7c3cc13382de213bc1f955e3d4",
+  "_size": 3737,
   "appid": "4104890",
   "common": {
     "associations": {
@@ -32,7 +46,6 @@
     "clienticon": "8276a04864cff3d2efa2da17a20d238df64f2311",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4104890",
     "genres": {
       "0": "23",
@@ -103,7 +116,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "924b6635b73e6bfc86f479ed0ce33fc02d1df7ad/capsule_231x87.jpg"
     },
@@ -134,5 +147,51 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blakjalatro",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Blakjalatro.exe"
+      }
+    }
+  },
+  "depots": {
+    "4104891": {
+      "manifests": {
+        "public": {
+          "download": "41610736",
+          "gid": "8186130221170408473",
+          "size": "116583500"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24875883",
+        "timebuildupdated": "1787376110",
+        "timeupdated": "1787376189"
+      }
+    }
+  },
+  "extended": {
+    "developer": "External Call",
+    "publisher": "External Call"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Blakjalatro",
+        "pattern": "profiles.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

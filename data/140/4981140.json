@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788764802,
+  "_lastChecked": 1788771625,
   "_history": [
     {
       "buildId": "25113313",
@@ -13,12 +13,43 @@
           "download": 145995168
         }
       }
+    },
+    {
+      "buildId": "25163254",
+      "branch": "mac-test",
+      "timeUpdated": 1788769156,
+      "firstSeen": 1788771625,
+      "manifests": {
+        "4981141": {
+          "gid": "6664988315094970953",
+          "size": 383739366,
+          "download": 147024928
+        },
+        "4981142": {
+          "gid": "2503646891829788724",
+          "size": 539781516,
+          "download": 207863984
+        }
+      }
+    },
+    {
+      "buildId": "25162777",
+      "branch": "public",
+      "timeUpdated": 1788767207,
+      "firstSeen": 1788771625,
+      "manifests": {
+        "4981141": {
+          "gid": "6664988315094970953",
+          "size": 383739366,
+          "download": 147024928
+        }
+      }
     }
   ],
-  "_change_number": 38655348,
+  "_change_number": 38660870,
   "_missing_token": false,
-  "_sha": "4ea9cbbe8d51be9a83c297a0f08b60e94305e904",
-  "_size": 4544,
+  "_sha": "ce3443fb72d8aced492785562ca464174148d69c",
+  "_size": 5114,
   "appid": "4981140",
   "common": {
     "aicontenttype": "1",
@@ -187,25 +218,54 @@
           "oslist": "windows"
         },
         "executable": "Desktop Gremlins\\Desktop Gremlins.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Desktop Gremlins.app"
       }
     }
   },
   "depots": {
     "4981141": {
       "manifests": {
+        "mac-test": {
+          "download": "147024928",
+          "gid": "6664988315094970953",
+          "size": "383739366"
+        },
         "public": {
-          "download": "145995168",
-          "gid": "1062980970471484771",
-          "size": "382513615"
+          "download": "147024928",
+          "gid": "6664988315094970953",
+          "size": "383739366"
+        }
+      }
+    },
+    "4981142": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "mac-test": {
+          "download": "207863984",
+          "gid": "2503646891829788724",
+          "size": "539781516"
         }
       }
     },
     "baselanguages": "english,japanese,russian,ukrainian",
     "branches": {
+      "mac-test": {
+        "buildid": "25163254",
+        "description": "test",
+        "timebuildupdated": "1788769156",
+        "timeupdated": "1788769156"
+      },
       "public": {
-        "buildid": "25113313",
-        "timebuildupdated": "1788480178",
-        "timeupdated": "1788480194"
+        "buildid": "25162777",
+        "timebuildupdated": "1788767171",
+        "timeupdated": "1788767207"
       }
     },
     "hasdepotsindlc": "1",

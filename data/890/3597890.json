@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788763185,
+  "_lastChecked": 1788770011,
   "_history": [
     {
       "buildId": "22239677",
@@ -13,12 +13,25 @@
           "download": 698616256
         }
       }
+    },
+    {
+      "buildId": "25162944",
+      "branch": "public",
+      "timeUpdated": 1788768199,
+      "firstSeen": 1788770011,
+      "manifests": {
+        "3597891": {
+          "gid": "6868450661394695350",
+          "size": 823638338,
+          "download": 698569856
+        }
+      }
     }
   ],
-  "_change_number": 36926864,
+  "_change_number": 38660345,
   "_missing_token": false,
-  "_sha": "2ecc70ed6e7a9ddd0b6afdcd916a87135c1cafab",
-  "_size": 5553,
+  "_sha": "d93ed1d9e460af00ce502f6e5e779cde50f446dd",
+  "_size": 5574,
   "appid": "3597890",
   "common": {
     "associations": {
@@ -224,17 +237,17 @@
     "3597891": {
       "manifests": {
         "public": {
-          "download": "698616256",
-          "gid": "8361313373989323767",
-          "size": "823688330"
+          "download": "698569856",
+          "gid": "6868450661394695350",
+          "size": "823638338"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "22239677",
-        "timebuildupdated": "1772848020",
-        "timeupdated": "1773882736"
+        "buildid": "25162944",
+        "timebuildupdated": "1788767889",
+        "timeupdated": "1788768199"
       }
     },
     "privatebranches": "1"
@@ -267,6 +280,7 @@
       "0": {
         "path": "Nekogumi/Saved/SaveGames/",
         "pattern": "*.sav",
+        "recursive": "1",
         "root": "SteamCloudDocuments"
       }
     }

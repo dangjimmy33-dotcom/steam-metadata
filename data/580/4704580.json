@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788764513,
-  "_history": [],
-  "_change_number": 38643070,
-  "_missing_token": true,
-  "_sha": "6c79f608a576ab674ab59ad1e8fe300be3c28cda",
-  "_size": 3171,
+  "_lastChecked": 1788771337,
+  "_history": [
+    {
+      "buildId": "25151435",
+      "branch": "public",
+      "timeUpdated": 1788694597,
+      "firstSeen": 1788771337,
+      "manifests": {
+        "4704581": {
+          "gid": "4902435659694413028",
+          "size": 518935675,
+          "download": 105303760
+        },
+        "4704582": {
+          "gid": "2746981871219341060",
+          "size": 543697785,
+          "download": 115138240
+        },
+        "4704583": {
+          "gid": "8609001418183590699",
+          "size": 508794984,
+          "download": 101218432
+        }
+      }
+    }
+  ],
+  "_change_number": 38660388,
+  "_missing_token": false,
+  "_sha": "0e4d164c6bb8137eb35b6f511c2290c9bdb7e21b",
+  "_size": 4577,
   "appid": "4704580",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +55,8 @@
     "clienticns": "89fdaffd5eedfcbe6547edf93fa1ae155f7b68e0",
     "clienticon": "89fdaffd5eedfcbe6547edf93fa1ae155f7b68e0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4704580",
     "genres": {
       "0": "25",
@@ -105,10 +129,11 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c6199f56cce7b6e61dc11d6a7ed9142233757dec/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788768323",
     "store_asset_mtime": "1788270395",
     "store_tags": {
       "0": "21",
@@ -141,5 +166,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Hunter's Inn",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "The Hunter's Inn.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "The Hunter's Inn.app/Contents/MacOS/The Hunter's Inn",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "32",
+          "oslist": "windows"
+        },
+        "executable": "The Hunter's Inn.exe"
+      }
+    }
+  },
+  "depots": {
+    "4704581": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "105303760",
+          "gid": "4902435659694413028",
+          "size": "518935675"
+        }
+      }
+    },
+    "4704582": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "115138240",
+          "gid": "2746981871219341060",
+          "size": "543697785"
+        }
+      }
+    },
+    "4704583": {
+      "config": {
+        "osarch": "32",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "101218432",
+          "gid": "8609001418183590699",
+          "size": "508794984"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25151435",
+        "timebuildupdated": "1788694548",
+        "timeupdated": "1788694597"
+      }
+    }
+  },
+  "extended": {
+    "developer": "GGD3V",
+    "publisher": "GGD3V"
+  }
 }

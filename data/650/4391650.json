@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788764152,
-  "_history": [],
-  "_change_number": 38123672,
-  "_missing_token": true,
-  "_sha": "a210ae7efb0865a8ecda7586070b3799e4aaf4d5",
-  "_size": 4152,
+  "_lastChecked": 1788770979,
+  "_history": [
+    {
+      "buildId": "24798080",
+      "branch": "public",
+      "timeUpdated": 1787060904,
+      "firstSeen": 1788770979,
+      "manifests": {
+        "4391651": {
+          "gid": "3684477775045028973",
+          "size": 892768720,
+          "download": 729104144
+        },
+        "4391652": {
+          "gid": "9081011144977235834",
+          "size": 890949684,
+          "download": 722934608
+        },
+        "4391840": {
+          "gid": "4734046467894103188",
+          "size": 101449536,
+          "download": 37773792
+        }
+      }
+    }
+  ],
+  "_change_number": 38659532,
+  "_missing_token": false,
+  "_sha": "314b765dfb2718e23943f7f1f92d8b1216291c3a",
+  "_size": 5495,
   "appid": "4391650",
   "common": {
     "aicontenttype": "1",
@@ -25,8 +49,8 @@
     },
     "clienticon": "c8cb13ba686ce9d3bea0c502b4b8800891dfe2e9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4391650",
     "genres": {
       "0": "25",
@@ -107,7 +131,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b460db7d3af9779ba569ab7adf850ce417aeed9f/capsule_231x87.jpg"
     },
@@ -171,5 +195,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hidden Legacy Whispering Walls Collector's Edition",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Hidden_Legacy_Whispering_Walls.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Hidden_Legacy_Whispering_Walls.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4391651": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "729104144",
+          "gid": "3684477775045028973",
+          "size": "892768720"
+        }
+      }
+    },
+    "4391652": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "722934608",
+          "gid": "9081011144977235834",
+          "size": "890949684"
+        }
+      }
+    },
+    "4391840": {
+      "config": {
+        "oslist": "windows,macos"
+      },
+      "dlcappid": "4391840",
+      "manifests": {
+        "public": {
+          "download": "37773792",
+          "gid": "4734046467894103188",
+          "size": "101449536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24798080",
+        "timebuildupdated": "1787060904",
+        "timeupdated": "1787060904"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "developer": "Do Games Limited",
+    "dlcavailableonstore": "1",
+    "listofdlc": "4391840",
+    "publisher": "Do Games Limited"
+  }
 }

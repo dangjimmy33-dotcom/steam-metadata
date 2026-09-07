@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788764094,
-  "_history": [],
-  "_change_number": 38190569,
-  "_missing_token": true,
-  "_sha": "752956951040e91e41865cd9df33f038a9eeab0a",
-  "_size": 3700,
+  "_lastChecked": 1788770921,
+  "_history": [
+    {
+      "buildId": "25162751",
+      "branch": "public",
+      "timeUpdated": 1788767193,
+      "firstSeen": 1788770921,
+      "manifests": {
+        "4336401": {
+          "gid": "5688322020869010421",
+          "size": 177179256,
+          "download": 88296064
+        },
+        "4336402": {
+          "gid": "4186490286576343593",
+          "size": 220393210,
+          "download": 93207968
+        }
+      }
+    }
+  ],
+  "_change_number": 38659980,
+  "_missing_token": false,
+  "_sha": "35345ac1dfd02ea7fae568f3d3be8b54c7ee29bd",
+  "_size": 4808,
   "appid": "4336400",
   "common": {
     "aicontenttype": "1",
@@ -26,9 +45,9 @@
     },
     "clienticon": "8c225fdaea4df55d02b28bce60523b1030ebbce7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4336400",
     "genres": {
       "0": "1",
@@ -113,11 +132,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2c0e747b92f57387b5b35852edcd12cbe2a3685e/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1787031202",
+    "steam_release_date": "1788376677",
+    "store_asset_mtime": "1788381208",
     "store_tags": {
       "0": "42804",
       "1": "723991",
@@ -177,5 +197,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blast Beam Bang",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Blast Beam Bang.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Blast Beam Bang.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4336401": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "88296064",
+          "gid": "5688322020869010421",
+          "size": "177179256"
+        }
+      }
+    },
+    "4336402": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "93207968",
+          "gid": "4186490286576343593",
+          "size": "220393210"
+        }
+      }
+    },
+    "baselanguages": "english,polish",
+    "branches": {
+      "public": {
+        "buildid": "25162751",
+        "timebuildupdated": "1788767036",
+        "timeupdated": "1788767193"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SWAGamesDev",
+    "publisher": "SWAGamesDev"
+  }
 }

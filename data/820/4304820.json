@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788764060,
-  "_history": [],
-  "_change_number": 38645944,
-  "_missing_token": true,
-  "_sha": "ceff628700d2ad1d79b4994a2d7dead196482f89",
-  "_size": 2990,
+  "_lastChecked": 1788770886,
+  "_history": [
+    {
+      "buildId": "25152484",
+      "branch": "public",
+      "timeUpdated": 1788702507,
+      "firstSeen": 1788770886,
+      "manifests": {
+        "4304821": {
+          "gid": "6847157904407673163",
+          "size": 148942720,
+          "download": 79654224
+        },
+        "4304822": {
+          "gid": "1622186110162252178",
+          "size": 244188923,
+          "download": 104771760
+        },
+        "4304823": {
+          "gid": "7644802924648490111",
+          "size": 124400232,
+          "download": 73366352
+        }
+      }
+    }
+  ],
+  "_change_number": 38660328,
+  "_missing_token": false,
+  "_sha": "bb5634c9b4c3cab99e8c95ba007c3377d281593a",
+  "_size": 4223,
   "appid": "4304820",
   "common": {
     "associations": {
@@ -28,8 +52,8 @@
     },
     "clienticon": "5de16912d36cc2bd608ffe397a70141f87273471",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4304820",
     "genres": {
       "0": "2"
@@ -99,10 +123,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f185f42714bbf01650d3ba650d2f8baf4a497af3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788768154",
     "store_asset_mtime": "1779037474",
     "store_tags": {
       "0": "1664",
@@ -133,5 +158,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Locktale",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Locktale.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Locktale.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Locktale.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4304821": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "79654224",
+          "gid": "6847157904407673163",
+          "size": "148942720"
+        }
+      }
+    },
+    "4304822": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "104771760",
+          "gid": "1622186110162252178",
+          "size": "244188923"
+        }
+      }
+    },
+    "4304823": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "73366352",
+          "gid": "7644802924648490111",
+          "size": "124400232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25152484",
+        "timebuildupdated": "1788702430",
+        "timeupdated": "1788702507"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Mina Pêcheux",
+    "publisher": "Mina Pêcheux"
+  }
 }
