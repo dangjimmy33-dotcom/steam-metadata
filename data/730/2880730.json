@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788814502,
+  "_lastChecked": 1788821359,
   "_history": [
     {
       "buildId": "24808019",
@@ -40,10 +40,10 @@
       }
     }
   ],
-  "_change_number": 38650836,
+  "_change_number": 38678908,
   "_missing_token": false,
-  "_sha": "5441b1962a96c2fd1f2fec3bc14ad6ce3938005a",
-  "_size": 11609,
+  "_sha": "87ec7ad1e351a4945f482bba58fba341d9a6f715",
+  "_size": 12941,
   "appid": "2880730",
   "common": {
     "aicontenttype": "2",
@@ -356,7 +356,9 @@
         },
         "description": "AI2U - With you til the end",
         "description_loc": {
-          "english": "AI2U - With you til the end"
+          "english": "AI2U - With you til the end",
+          "schinese": "游戏本体 - AI2U",
+          "tchinese": "遊戲本體 - AI2U"
         },
         "executable": "Game/AI2U - With you til the end.exe",
         "type": "default"
@@ -367,7 +369,9 @@
         },
         "description": "AI2U - With you til the end",
         "description_loc": {
-          "english": "AI2U - With you til the end"
+          "english": "AI2U - With you til the end",
+          "schinese": "游戏本体 - AI2U",
+          "tchinese": "遊戲本體 - AI2U"
         },
         "executable": "Game/AI2U - With you til the end.app",
         "type": "default"
@@ -378,7 +382,9 @@
         },
         "description": "Waifu Swap Mod Tool",
         "description_loc": {
-          "english": "Waifu Swap Mod Tool"
+          "english": "Waifu Swap Mod Tool",
+          "schinese": "Mod: Waifu Swap Mod Tool",
+          "tchinese": "Mod: Waifu Swap Mod Tool"
         },
         "executable": "Mod Tool/Waifu Swap Mod Tool.exe",
         "type": "option1"
@@ -389,10 +395,40 @@
         },
         "description": "Waifu Swap Mod Tool",
         "description_loc": {
-          "english": "Waifu Swap Mod Tool"
+          "english": "Waifu Swap Mod Tool",
+          "schinese": "Mod: Waifu Swap Mod Tool",
+          "tchinese": "Mod: Waifu Swap Mod Tool"
         },
         "executable": "Mod Tool/Waifu Swap Mod Tool.app",
         "type": "option1"
+      },
+      "4": {
+        "config": {
+          "oslist": "windows",
+          "ownsdlc": "5134810"
+        },
+        "description": "DLC: Yandere AI Girlfriend Simulator - Local Prototype",
+        "description_loc": {
+          "english": "DLC: Yandere AI Girlfriend Simulator - Local Prototype",
+          "schinese": "DLC: 病娇猫娘AI女友 - 本地LLM原型版本",
+          "tchinese": "DLC: 病嬌貓娘AI女友 - 本地LLM原型版本"
+        },
+        "executable": "DLC_YAGS/Yandere AI Girlfriend Simulator.exe",
+        "type": "option2"
+      },
+      "5": {
+        "config": {
+          "oslist": "macos",
+          "ownsdlc": "5134810"
+        },
+        "description": "DLC: Yandere AI Girlfriend Simulator - Local Prototype",
+        "description_loc": {
+          "english": "DLC: Yandere AI Girlfriend Simulator - Local Prototype",
+          "schinese": "DLC: 病娇猫娘AI女友 - 本地LLM原型版本",
+          "tchinese": "DLC: 病嬌貓娘AI女友 - 本地LLM原型版本"
+        },
+        "executable": "DLC_YAGS/Yandere AI Girlfriend Simulator.app",
+        "type": "option2"
       }
     }
   },

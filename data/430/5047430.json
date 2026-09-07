@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788816913,
-  "_history": [],
-  "_change_number": 38493752,
-  "_missing_token": true,
-  "_sha": "e79be381e0860d4c8633fbf99a667a963a689196",
-  "_size": 3553,
+  "_lastChecked": 1788824029,
+  "_history": [
+    {
+      "buildId": "24870422",
+      "branch": "public",
+      "timeUpdated": 1787345425,
+      "firstSeen": 1788824029,
+      "manifests": {
+        "5047431": {
+          "gid": "1595772973342906109",
+          "size": 164470283,
+          "download": 86980416
+        },
+        "5047432": {
+          "gid": "7766537007460436491",
+          "size": 228324603,
+          "download": 105909808
+        }
+      }
+    }
+  ],
+  "_change_number": 38679423,
+  "_missing_token": false,
+  "_sha": "d303832e926017b33d2728fff85097bc14b7bd1e",
+  "_size": 4651,
   "appid": "5047430",
   "common": {
     "aicontenttype": "1",
@@ -28,9 +47,9 @@
     "clienticns": "6ae9d7f1662e155d3fd3bb095bbfbbe0210685bd",
     "clienticon": "903c57a56695390b17d5930b0526902ff4ce5ab8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5047430",
     "genres": {
       "0": "4",
@@ -110,11 +129,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "99fa94da0713733d3e9ab4bdda0b76c6066ae13a/capsule_231x87.jpg",
       "japanese": "3b5970e23daa84c0e6780f9f0c2c80c5cd008df0/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1788821242",
     "store_asset_mtime": "1787341171",
     "store_tags": {
       "0": "597",
@@ -156,5 +176,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "OminouSushi",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "OminouSushi.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "OminouSushi.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5047431": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "86980416",
+          "gid": "1595772973342906109",
+          "size": "164470283"
+        }
+      }
+    },
+    "5047432": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "105909808",
+          "gid": "7766537007460436491",
+          "size": "228324603"
+        }
+      }
+    },
+    "baselanguages": "english,french,japanese,koreana,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "24870422",
+        "timebuildupdated": "1787344955",
+        "timeupdated": "1787345425"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Corumu",
+    "publisher": "Corumu"
+  }
 }

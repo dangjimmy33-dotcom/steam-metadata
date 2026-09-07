@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788811767,
+  "_lastChecked": 1788819573,
   "_history": [
     {
       "buildId": "25059542",
@@ -112,12 +112,40 @@
           "download": 231902096
         }
       }
+    },
+    {
+      "buildId": "25175509",
+      "branch": "beta",
+      "timeUpdated": 1788818233,
+      "firstSeen": 1788819573,
+      "manifests": {
+        "1634871": {
+          "gid": "1004030870076658099",
+          "size": 1044627824,
+          "download": 314716288
+        },
+        "1634872": {
+          "gid": "3421904121776340950",
+          "size": 1001017240,
+          "download": 301210912
+        },
+        "1634873": {
+          "gid": "951233176516092818",
+          "size": 953167895,
+          "download": 291352320
+        },
+        "1634874": {
+          "gid": "2702072247994691867",
+          "size": 284384259,
+          "download": 270366176
+        }
+      }
     }
   ],
-  "_change_number": 38509776,
+  "_change_number": 38678643,
   "_missing_token": false,
-  "_sha": "cda02fc7703100b5c634622575b4daa64d319ccc",
-  "_size": 7347,
+  "_sha": "824a54646a0399b4c8a0bacd4fd8ae6ab4e075b6",
+  "_size": 8206,
   "appid": "1634870",
   "common": {
     "associations": {
@@ -226,6 +254,36 @@
     "small_capsule": {
       "english": "capsule_231x87.jpg"
     },
+    "steam_frame_compatibility": {
+      "category": "1",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "lepton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1787760021",
+      "tested_build_id": "24841772",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamFrame_TestResult_SteamOSDoesNotSupport"
+        }
+      }
+    },
     "steam_release_date": "1623167520",
     "store_asset_mtime": "1711376912",
     "store_tags": {
@@ -322,9 +380,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "221856704",
-          "gid": "4728512062751077207",
-          "size": "793827745"
+          "download": "314716288",
+          "gid": "1004030870076658099",
+          "size": "1044627824"
         },
         "previous": {
           "download": "232810720",
@@ -349,9 +407,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "232164160",
-          "gid": "6119011297791715140",
-          "size": "820140225"
+          "download": "301210912",
+          "gid": "3421904121776340950",
+          "size": "1001017240"
         },
         "previous": {
           "download": "243282704",
@@ -376,9 +434,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "222968480",
-          "gid": "1610030885010484933",
-          "size": "749032443"
+          "download": "291352320",
+          "gid": "951233176516092818",
+          "size": "953167895"
         },
         "previous": {
           "download": "234078368",
@@ -403,9 +461,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "231924528",
-          "gid": "4894465119694847684",
-          "size": "243273856"
+          "download": "270366176",
+          "gid": "2702072247994691867",
+          "size": "284384259"
         },
         "previous": {
           "download": "230991008",
@@ -447,10 +505,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25059542",
+        "buildid": "25175509",
         "description": "Pre-release build which contains features coming soon, but may also contain bugs!",
-        "timebuildupdated": "1788271497",
-        "timeupdated": "1788271497"
+        "timebuildupdated": "1788818233",
+        "timeupdated": "1788818233"
       },
       "previous": {
         "buildid": "24373673",

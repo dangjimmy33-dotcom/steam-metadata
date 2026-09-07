@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788815183,
+  "_lastChecked": 1788822104,
   "_history": [
     {
       "buildId": "18984024",
@@ -18,12 +18,30 @@
           "download": 31166208
         }
       }
+    },
+    {
+      "buildId": "25175209",
+      "branch": "public",
+      "timeUpdated": 1788816981,
+      "firstSeen": 1788822104,
+      "manifests": {
+        "3436831": {
+          "gid": "134592317213181812",
+          "size": 111756920,
+          "download": 39090688
+        },
+        "3436832": {
+          "gid": "2345582780623098305",
+          "size": 82316776,
+          "download": 32842720
+        }
+      }
     }
   ],
-  "_change_number": 34957518,
+  "_change_number": 38678433,
   "_missing_token": false,
-  "_sha": "0a2441f6a62b8dde317b1ef1138495312506fa63",
-  "_size": 4638,
+  "_sha": "4a60105a58c9e72c66e9042929452b4ec5f903f6",
+  "_size": 5222,
   "appid": "3436830",
   "common": {
     "associations": {
@@ -197,9 +215,9 @@
       },
       "manifests": {
         "public": {
-          "download": "37899664",
-          "gid": "834107812440789760",
-          "size": "106097232"
+          "download": "39090688",
+          "gid": "134592317213181812",
+          "size": "111756920"
         }
       }
     },
@@ -210,18 +228,18 @@
       },
       "manifests": {
         "public": {
-          "download": "31166208",
-          "gid": "6732995833027687879",
-          "size": "78298400"
+          "download": "32842720",
+          "gid": "2345582780623098305",
+          "size": "82316776"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "18984024",
-        "timebuildupdated": "1750786052",
-        "timeupdated": "1750786091"
+        "buildid": "25175209",
+        "timebuildupdated": "1788816876",
+        "timeupdated": "1788816981"
       }
     }
   },
@@ -229,5 +247,32 @@
     "developer": "Zack Griffin",
     "homepage": "https://snackbytegames.com",
     "publisher": "Snackbyte Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "20",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Crash Diet Simulator",
+            "replace": "godot/app_userdata/Crash Diet Simulator"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Crash Diet Simulator",
+        "pattern": "savegame.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788816405,
+  "_lastChecked": 1788823424,
   "_history": [
     {
       "buildId": "23698203",
@@ -44,12 +44,30 @@
           "download": 589064960
         }
       }
+    },
+    {
+      "buildId": "25174964",
+      "branch": "mac_0101",
+      "timeUpdated": 1788815666,
+      "firstSeen": 1788823424,
+      "manifests": {
+        "4498231": {
+          "gid": "3201118095519337787",
+          "size": 1423457598,
+          "download": 596359952
+        },
+        "4498232": {
+          "gid": "5250279247974379870",
+          "size": 1548199112,
+          "download": 589064960
+        }
+      }
     }
   ],
-  "_change_number": 38678130,
+  "_change_number": 38678943,
   "_missing_token": false,
-  "_sha": "a95590f5ea94a8d2c8893af6292c6cd3a69dfe19",
-  "_size": 6321,
+  "_sha": "bfa3852eda534e8235b70f74fe924661960873f0",
+  "_size": 6713,
   "appid": "4498230",
   "common": {
     "aicontenttype": "2",
@@ -265,6 +283,11 @@
         "oslist": "windows,macos"
       },
       "manifests": {
+        "mac_0101": {
+          "download": "596359952",
+          "gid": "3201118095519337787",
+          "size": "1423457598"
+        },
         "public": {
           "download": "596359952",
           "gid": "3201118095519337787",
@@ -278,6 +301,11 @@
         "oslist": "windows,macos"
       },
       "manifests": {
+        "mac_0101": {
+          "download": "589064960",
+          "gid": "5250279247974379870",
+          "size": "1548199112"
+        },
         "public": {
           "download": "589064960",
           "gid": "5250279247974379870",
@@ -287,6 +315,12 @@
     },
     "baselanguages": "english,koreana",
     "branches": {
+      "mac_0101": {
+        "buildid": "25174964",
+        "description": "mac os play version",
+        "timebuildupdated": "1788815666",
+        "timeupdated": "1788815666"
+      },
       "public": {
         "buildid": "25174964",
         "timebuildupdated": "1788815666",

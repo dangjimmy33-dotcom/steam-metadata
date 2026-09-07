@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788815025,
+  "_lastChecked": 1788821933,
   "_history": [
     {
       "buildId": "25131377",
@@ -72,12 +72,30 @@
           "download": 292024928
         }
       }
+    },
+    {
+      "buildId": "25174878",
+      "branch": "beta",
+      "timeUpdated": 1788815322,
+      "firstSeen": 1788821933,
+      "manifests": {
+        "3312131": {
+          "gid": "1947940089733467379",
+          "size": 766495264,
+          "download": 293044304
+        },
+        "3312132": {
+          "gid": "5361874177570080769",
+          "size": 760544445,
+          "download": 292025280
+        }
+      }
     }
   ],
-  "_change_number": 38675787,
+  "_change_number": 38678327,
   "_missing_token": false,
-  "_sha": "3ccd16436c1a0a0a94d3a69784b9d4a932d1a023",
-  "_size": 6793,
+  "_sha": "9e336c760b555c0ebc15a8294e8b97e0e0be047c",
+  "_size": 6861,
   "appid": "3312130",
   "common": {
     "associations": {
@@ -327,7 +345,9 @@
         },
         "executable": "Factory Town 2.app"
       }
-    }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "3312131": {
@@ -336,9 +356,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "293043552",
-          "gid": "5009972078283702535",
-          "size": "766494232"
+          "download": "293044304",
+          "gid": "1947940089733467379",
+          "size": "766495264"
         },
         "public": {
           "download": "292992784",
@@ -353,9 +373,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "292024928",
-          "gid": "4901785014979377746",
-          "size": "760543925"
+          "download": "292025280",
+          "gid": "5361874177570080769",
+          "size": "760544445"
         },
         "public": {
           "download": "291964336",
@@ -366,10 +386,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25173523",
+        "buildid": "25174878",
         "description": "public testing branch",
-        "timebuildupdated": "1788808773",
-        "timeupdated": "1788808799"
+        "timebuildupdated": "1788815229",
+        "timeupdated": "1788815322"
       },
       "public": {
         "buildid": "24999554",
