@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788765631,
+  "_lastChecked": 1788779114,
   "_history": [
     {
       "buildId": "24288266",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38655770,
+  "_change_number": 38661274,
   "_missing_token": false,
-  "_sha": "b042ee042f3d8c559644a030dc626f169c34a69d",
-  "_size": 9303,
+  "_sha": "6d7d096d4707d9801bc20712b07d0ba829cd6bb0",
+  "_size": 9709,
   "appid": "329110",
   "common": {
     "associations": {
@@ -315,14 +315,30 @@
     "launch": {
       "0": {
         "config": {
-          "oslist": "windows"
+          "oslist": "windows",
+          "realm": "steamglobal"
         },
         "description": "Launch",
+        "description_loc": {
+          "english": "Launch",
+          "sc_schinese": "启动中"
+        },
         "executable": "GemsOfWar.exe"
       },
       "1": {
-        "executable": "game.exe",
-        "type": "none"
+        "config": {
+          "betakey": "steam_china_only",
+          "osarch": "64",
+          "oslist": "windows",
+          "realm": "steamchina"
+        },
+        "description": "luanch",
+        "description_loc": {
+          "english": "luanch",
+          "sc_schinese": "启动中"
+        },
+        "executable": "宝石战争.exe",
+        "type": "default"
       }
     },
     "steam_china_only": {
@@ -345,7 +361,8 @@
     "329112": {
       "config": {
         "realm": "steamchina"
-      }
+      },
+      "manifests": {}
     },
     "baselanguages": "english",
     "branches": {

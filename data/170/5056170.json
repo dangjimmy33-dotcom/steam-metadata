@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788771696,
-  "_history": [],
-  "_change_number": 38478016,
-  "_missing_token": true,
-  "_sha": "ca840c248775bd353882ed2294d6197f1e65c1d6",
-  "_size": 2937,
+  "_lastChecked": 1788783822,
+  "_history": [
+    {
+      "buildId": "24929979",
+      "branch": "public",
+      "timeUpdated": 1787667069,
+      "firstSeen": 1788783822,
+      "manifests": {
+        "5056171": {
+          "gid": "8609561717878232891",
+          "size": 1385818302,
+          "download": 1109247120
+        }
+      }
+    }
+  ],
+  "_change_number": 38665210,
+  "_missing_token": false,
+  "_sha": "55700b4b521b4753b641fc32d254371413eb857f",
+  "_size": 3822,
   "appid": "5056170",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "835148aa98d64a338fe7aadb990092f4dec28ee6",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5056170",
     "genres": {
       "0": "1",
@@ -99,7 +112,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ef520e0618781c04adc5944aa4d0efac91a85f34/capsule_231x87.jpg"
     },
@@ -131,5 +144,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Midwinter Fan Remaster",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Midwinter.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5056171": {
+      "manifests": {
+        "public": {
+          "download": "1109247120",
+          "gid": "8609561717878232891",
+          "size": "1385818302"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24929979",
+        "timebuildupdated": "1787666941",
+        "timeupdated": "1787667069"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Titanium Helix Games",
+    "homepage": "https://midwinter-remaster.titanium-helix.com",
+    "publisher": "Titanium Helix Games"
+  }
 }

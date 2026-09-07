@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788771740,
-  "_history": [],
-  "_change_number": 38297148,
-  "_missing_token": true,
-  "_sha": "0497ac33846fbaeea1422a27e731c54d4aca72f6",
-  "_size": 2682,
+  "_lastChecked": 1788783856,
+  "_history": [
+    {
+      "buildId": "24723815",
+      "branch": "public",
+      "timeUpdated": 1786663986,
+      "firstSeen": 1788783856,
+      "manifests": {
+        "5109571": {
+          "gid": "6221699984368625085",
+          "size": 310553951,
+          "download": 125545728
+        }
+      }
+    }
+  ],
+  "_change_number": 38665972,
+  "_missing_token": false,
+  "_sha": "0e75afdafaa94810a48ea0ae2f5fb33ccfe1ac44",
+  "_size": 3202,
   "appid": "5109570",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "4bb9f3bb738a3b20389743b566fee56f35f728c3",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5109570",
     "genres": {
       "0": "4",
@@ -95,7 +108,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "852d7b74fd5a7b892f700e16da49c5d7ea1fbb06/capsule_231x87.jpg"
     },
@@ -116,5 +129,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Hairy Man",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "The Hairy Man.exe"
+      }
+    }
+  },
+  "depots": {
+    "5109571": {
+      "manifests": {
+        "public": {
+          "download": "125545728",
+          "gid": "6221699984368625085",
+          "size": "310553951"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24723815",
+        "timebuildupdated": "1786663972",
+        "timeupdated": "1786663986"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Gus Jewell",
+    "publisher": "Gus Jewell"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788770574,
-  "_history": [],
-  "_change_number": 38430309,
-  "_missing_token": true,
-  "_sha": "6145d5173cd74f52fee0900dc082fbd96f24b676",
-  "_size": 3252,
+  "_lastChecked": 1788782939,
+  "_history": [
+    {
+      "buildId": "25007188",
+      "branch": "public",
+      "timeUpdated": 1787990697,
+      "firstSeen": 1788782939,
+      "manifests": {
+        "4050401": {
+          "gid": "484672505383347278",
+          "size": 172194316,
+          "download": 89393536
+        }
+      }
+    }
+  ],
+  "_change_number": 38664524,
+  "_missing_token": false,
+  "_sha": "08bcc8235bab69b4e6b822849263f6f121393519",
+  "_size": 3846,
   "appid": "4050400",
   "common": {
     "associations": {
@@ -24,8 +38,8 @@
     },
     "clienticon": "f5df64a470c3d7cea2d2f0512ea357bd033fe2f2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4050400",
     "genres": {
       "0": "23"
@@ -95,10 +109,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3bed9c133679019845d2f901100ad75e75d5b5bd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788779036",
     "store_asset_mtime": "1786033652",
     "store_tags": {
       "0": "597",
@@ -152,5 +167,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pyra",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "none"
+      }
+    }
+  },
+  "depots": {
+    "4050401": {
+      "manifests": {
+        "public": {
+          "download": "89393536",
+          "gid": "484672505383347278",
+          "size": "172194316"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25007188",
+        "timebuildupdated": "1787990696",
+        "timeupdated": "1787990697"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Lumen Depth",
+    "publisher": "Lumen Depth"
+  }
 }

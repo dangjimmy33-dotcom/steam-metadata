@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788766365,
+  "_lastChecked": 1788779671,
   "_history": [
     {
       "buildId": "20460509",
@@ -138,12 +138,35 @@
           "download": 1428486128
         }
       }
+    },
+    {
+      "buildId": "21981559",
+      "branch": "default_pre1_0",
+      "timeUpdated": 1771488470,
+      "firstSeen": 1788779671,
+      "manifests": {
+        "892971": {
+          "gid": "1919178194085367726",
+          "size": 1632984749,
+          "download": 1432139344
+        },
+        "892972": {
+          "gid": "9199215307368122290",
+          "size": 1587195605,
+          "download": 1425818112
+        },
+        "892973": {
+          "gid": "137919284507908655",
+          "size": 1637154841,
+          "download": 1428486128
+        }
+      }
     }
   ],
-  "_change_number": 38602407,
+  "_change_number": 38661075,
   "_missing_token": false,
-  "_sha": "26a862708b592b01c0a494932e3df795ca785433",
-  "_size": 12236,
+  "_sha": "03b2a610a2e79737a192778c8f397626ee649e33",
+  "_size": 12779,
   "appid": "892970",
   "common": {
     "associations": {
@@ -490,6 +513,11 @@
           "gid": "6147203432715747142",
           "size": "1647659747"
         },
+        "default_pre1_0": {
+          "download": "1432139344",
+          "gid": "1919178194085367726",
+          "size": "1632984749"
+        },
         "default_preal": {
           "download": "930268960",
           "gid": "6551832485590617374",
@@ -526,6 +554,11 @@
           "download": "1429079360",
           "gid": "6211762228196561354",
           "size": "1601837305"
+        },
+        "default_pre1_0": {
+          "download": "1425818112",
+          "gid": "9199215307368122290",
+          "size": "1587195605"
         },
         "default_preal": {
           "download": "920513200",
@@ -564,6 +597,11 @@
           "gid": "4739876371804987354",
           "size": "1654477639"
         },
+        "default_pre1_0": {
+          "download": "1428486128",
+          "gid": "137919284507908655",
+          "size": "1637154841"
+        },
         "default_preal": {
           "download": "0",
           "gid": "7968578518090854391",
@@ -597,6 +635,12 @@
         "description": "Previous stable",
         "timebuildupdated": "1760945101",
         "timeupdated": "1770022792"
+      },
+      "default_pre1_0": {
+        "buildid": "21981559",
+        "description": "Last stable build before 1.0",
+        "timebuildupdated": "1771406664",
+        "timeupdated": "1771488470"
       },
       "default_preal": {
         "buildid": "20221215",

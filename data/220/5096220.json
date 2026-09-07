@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788771730,
-  "_history": [],
-  "_change_number": 38349008,
-  "_missing_token": true,
-  "_sha": "2d14748bbafc1571c4c91fa7b9647989f8eb19d9",
-  "_size": 3589,
+  "_lastChecked": 1788783848,
+  "_history": [
+    {
+      "buildId": "24837804",
+      "branch": "public",
+      "timeUpdated": 1787223365,
+      "firstSeen": 1788783848,
+      "manifests": {
+        "5096221": {
+          "gid": "718031488888362706",
+          "size": 248510230,
+          "download": 95023168
+        }
+      }
+    }
+  ],
+  "_change_number": 38662607,
+  "_missing_token": false,
+  "_sha": "d524c7bd86a8dffa039a50a4650345b8989fec5e",
+  "_size": 4198,
   "appid": "5096220",
   "common": {
     "aicontenttype": "1",
@@ -27,7 +41,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5096220",
     "genres": {
       "0": "23",
@@ -106,11 +119,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fe3480f78fbc03a4be9160681388eb46c1e5dfe8/capsule_231x87.jpg",
       "japanese": "4f7e748e0acedd8d100a7531ddbb53ffc7dd37c2/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1788773807",
     "store_asset_mtime": "1787133774",
     "store_tags": {
       "0": "9",
@@ -138,5 +152,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Defend the Dragon Palace",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "RyuguDefense.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5096221": {
+      "manifests": {
+        "public": {
+          "download": "95023168",
+          "gid": "718031488888362706",
+          "size": "248510230"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24837804",
+        "timebuildupdated": "1787222805",
+        "timeupdated": "1787223365"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Crystal Cat",
+    "publisher": "Crystal Cat"
+  }
 }

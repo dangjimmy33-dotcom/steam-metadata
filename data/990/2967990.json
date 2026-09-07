@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788769217,
+  "_lastChecked": 1788781876,
   "_history": [
     {
       "buildId": "21051341",
@@ -695,10 +695,10 @@
       }
     }
   ],
-  "_change_number": 37465542,
+  "_change_number": 38664979,
   "_missing_token": false,
-  "_sha": "7453bb07fe41b1dc0151303571e2bf5d1a316aa9",
-  "_size": 33369,
+  "_sha": "e024734a2a50957ca0d3d712c9133efb6db24cf6",
+  "_size": 33835,
   "appid": "2967990",
   "common": {
     "aicontenttype": "1",
@@ -827,7 +827,7 @@
         "hdr_support": "0",
         "non_deck_display_glyphs": "0",
         "primary_player_is_controller_slot_0": "1",
-        "recommended_runtime": "proton-9.0-3RC",
+        "recommended_runtime": "proton-stable",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -836,10 +836,27 @@
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "1",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
       "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
@@ -855,8 +872,8 @@
           "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
-      "test_timestamp": "1726790400",
-      "tested_build_id": "15544197",
+      "test_timestamp": "1788174973",
+      "tested_build_id": "21051341",
       "tests": {
         "0": {
           "display": "3",

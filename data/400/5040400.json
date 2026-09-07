@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788771682,
-  "_history": [],
-  "_change_number": 38431000,
-  "_missing_token": true,
-  "_sha": "158d3e3b9e693e55e0249cb517a317c70f2dc04e",
-  "_size": 2894,
+  "_lastChecked": 1788783810,
+  "_history": [
+    {
+      "buildId": "24687607",
+      "branch": "public",
+      "timeUpdated": 1786521339,
+      "firstSeen": 1788783810,
+      "manifests": {
+        "5040401": {
+          "gid": "7916674273551674767",
+          "size": 132307962,
+          "download": 55682160
+        }
+      }
+    }
+  ],
+  "_change_number": 38664950,
+  "_missing_token": false,
+  "_sha": "795ea25f948fa754cb635a597221899938a2845a",
+  "_size": 3445,
   "appid": "5040400",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "6782242a2ac228357d1c0b357924f8e262a6cb18",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5040400",
     "genres": {
       "0": "4",
@@ -99,7 +112,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "256f9a5791771ff70b8c8033ca995d6951096661/capsule_231x87.jpg"
     },
@@ -127,5 +140,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Road to Millionaire – Investing",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "RoadToMillionaire.exe"
+      }
+    }
+  },
+  "depots": {
+    "5040401": {
+      "manifests": {
+        "public": {
+          "download": "55682160",
+          "gid": "7916674273551674767",
+          "size": "132307962"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24687607",
+        "timebuildupdated": "1786520375",
+        "timeupdated": "1786521339"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Tsunami Games2026",
+    "publisher": "Xgame202312"
+  }
 }

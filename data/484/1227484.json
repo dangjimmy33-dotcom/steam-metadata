@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788766850,
+  "_lastChecked": 1788780043,
   "_history": [
     {
       "buildId": "25138662",
@@ -69,12 +69,35 @@
           "download": 448112
         }
       }
+    },
+    {
+      "buildId": "25163266",
+      "branch": "nightly",
+      "timeUpdated": 1788769213,
+      "firstSeen": 1788780043,
+      "manifests": {
+        "1227484": {
+          "gid": "1563457299558705290",
+          "size": 1403870,
+          "download": 463856
+        },
+        "1789790": {
+          "gid": "1623512572467602785",
+          "size": 455078,
+          "download": 156064
+        },
+        "1789791": {
+          "gid": "4833799034449904309",
+          "size": 1571910,
+          "download": 448096
+        }
+      }
     }
   ],
-  "_change_number": 38640833,
+  "_change_number": 38660813,
   "_missing_token": false,
-  "_sha": "def9412c74093a24c6c000bdb33d692b3fd2d646",
-  "_size": 4115,
+  "_sha": "1f0f2f94f432b0ac16c06d950410997e33066fe1",
+  "_size": 4116,
   "appid": "1227484",
   "common": {
     "associations": {
@@ -220,7 +243,7 @@
       "manifests": {
         "nightly": {
           "download": "463856",
-          "gid": "8815491602597096503",
+          "gid": "1563457299558705290",
           "size": "1403870"
         },
         "public": {
@@ -238,8 +261,8 @@
       "dlcappid": "1227484",
       "manifests": {
         "nightly": {
-          "download": "156080",
-          "gid": "1062961738515286775",
+          "download": "156064",
+          "gid": "1623512572467602785",
           "size": "455078"
         },
         "public": {
@@ -257,8 +280,8 @@
       "dlcappid": "1227484",
       "manifests": {
         "nightly": {
-          "download": "448112",
-          "gid": "661779752112568604",
+          "download": "448096",
+          "gid": "4833799034449904309",
           "size": "1571910"
         },
         "public": {
@@ -271,10 +294,10 @@
     "appmanagesdlc": "1",
     "branches": {
       "nightly": {
-        "buildid": "25149957",
+        "buildid": "25163266",
         "description": " Nightly unstable builds",
-        "timebuildupdated": "1788682612",
-        "timeupdated": "1788682612"
+        "timebuildupdated": "1788769213",
+        "timeupdated": "1788769213"
       },
       "public": {
         "buildid": "20833896",

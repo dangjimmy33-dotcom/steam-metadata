@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788766844,
+  "_lastChecked": 1788780038,
   "_history": [
     {
       "buildId": "25138684",
@@ -69,12 +69,35 @@
           "download": 9113584
         }
       }
+    },
+    {
+      "buildId": "25163293",
+      "branch": "nightly",
+      "timeUpdated": 1788769306,
+      "firstSeen": 1788780038,
+      "manifests": {
+        "1222633": {
+          "gid": "9007192609061182479",
+          "size": 20449,
+          "download": 7664
+        },
+        "1790150": {
+          "gid": "8225488551914584922",
+          "size": 20449,
+          "download": 7664
+        },
+        "1790151": {
+          "gid": "2318803265439626501",
+          "size": 20449,
+          "download": 7664
+        }
+      }
     }
   ],
-  "_change_number": 38640855,
+  "_change_number": 38660860,
   "_missing_token": false,
-  "_sha": "6c84538eb41a95f823258c8761051a182890edda",
-  "_size": 3862,
+  "_sha": "a7c532939b7db19b7eca1893ebd1b80c27154498",
+  "_size": 3844,
   "appid": "1222633",
   "common": {
     "associations": {
@@ -205,9 +228,9 @@
       "dlcappid": "1222633",
       "manifests": {
         "nightly": {
-          "download": "5862864",
-          "gid": "1066270716729463073",
-          "size": "21712353"
+          "download": "7664",
+          "gid": "9007192609061182479",
+          "size": "20449"
         },
         "public": {
           "download": "5604976",
@@ -224,9 +247,9 @@
       "dlcappid": "1222633",
       "manifests": {
         "nightly": {
-          "download": "5880272",
-          "gid": "4446445401674006618",
-          "size": "38832929"
+          "download": "7664",
+          "gid": "8225488551914584922",
+          "size": "20449"
         },
         "public": {
           "download": "5608672",
@@ -243,9 +266,9 @@
       "dlcappid": "1222633",
       "manifests": {
         "nightly": {
-          "download": "9113584",
-          "gid": "1676897751376918428",
-          "size": "36672985"
+          "download": "7664",
+          "gid": "2318803265439626501",
+          "size": "20449"
         },
         "public": {
           "download": "8661456",
@@ -257,10 +280,10 @@
     "appmanagesdlc": "1",
     "branches": {
       "nightly": {
-        "buildid": "25149975",
+        "buildid": "25163293",
         "description": "Nightly unstable builds",
-        "timebuildupdated": "1788682699",
-        "timeupdated": "1788682699"
+        "timebuildupdated": "1788769306",
+        "timeupdated": "1788769306"
       },
       "public": {
         "buildid": "20833907",

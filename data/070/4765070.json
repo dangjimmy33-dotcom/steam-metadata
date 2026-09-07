@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788771394,
+  "_lastChecked": 1788783584,
   "_history": [
     {
       "buildId": "24879347",
@@ -130,11 +130,37 @@
           "download": 1274602960
         }
       }
+    },
+    {
+      "buildId": "25163288",
+      "branch": "public",
+      "timeUpdated": 1788772255,
+      "firstSeen": 1788783584,
+      "manifests": {
+        "4765071": {
+          "gid": "2048505359033859356",
+          "size": 1655325990,
+          "download": 1274602960
+        }
+      }
+    },
+    {
+      "buildId": "25164967",
+      "branch": "sector-continue-test",
+      "timeUpdated": 1788776049,
+      "firstSeen": 1788783584,
+      "manifests": {
+        "4765071": {
+          "gid": "1542789625690799551",
+          "size": 1650066848,
+          "download": 1273188992
+        }
+      }
     }
   ],
-  "_change_number": 38660845,
+  "_change_number": 38663404,
   "_missing_token": false,
-  "_sha": "7322b6291c08a851d3eb150dcb41bf3512de8af7",
+  "_sha": "0e5920360d111a809d31b1333e23c95d620c30c9",
   "_size": 5167,
   "appid": "4765070",
   "common": {
@@ -320,14 +346,14 @@
       },
       "manifests": {
         "public": {
-          "download": "1250143040",
-          "gid": "6050223532267578627",
-          "size": "1626653859"
-        },
-        "sector-continue-test": {
           "download": "1274602960",
           "gid": "2048505359033859356",
           "size": "1655325990"
+        },
+        "sector-continue-test": {
+          "download": "1273188992",
+          "gid": "1542789625690799551",
+          "size": "1650066848"
         },
         "test-build": {
           "download": "542996272",
@@ -338,15 +364,15 @@
     },
     "branches": {
       "public": {
-        "buildid": "25150873",
-        "timebuildupdated": "1788690031",
-        "timeupdated": "1788690069"
+        "buildid": "25163288",
+        "timebuildupdated": "1788769279",
+        "timeupdated": "1788772255"
       },
       "sector-continue-test": {
-        "buildid": "25163288",
+        "buildid": "25164967",
         "description": "test of new mode",
-        "timebuildupdated": "1788769279",
-        "timeupdated": "1788769279"
+        "timebuildupdated": "1788776049",
+        "timeupdated": "1788776049"
       },
       "test-build": {
         "buildid": "23782673",

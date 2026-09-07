@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788770823,
+  "_lastChecked": 1788783134,
   "_history": [
     {
       "buildId": "24930714",
@@ -13,12 +13,25 @@
           "download": 8807802384
         }
       }
+    },
+    {
+      "buildId": "24930714",
+      "branch": "alpha",
+      "timeUpdated": 1787669969,
+      "firstSeen": 1788783134,
+      "manifests": {
+        "4254301": {
+          "gid": "8156210030847761353",
+          "size": 13872230650,
+          "download": 8807802384
+        }
+      }
     }
   ],
-  "_change_number": 38626617,
+  "_change_number": 38662790,
   "_missing_token": false,
-  "_sha": "6406bfa7fe4f6b012fd888cd14861caa291964a9",
-  "_size": 6585,
+  "_sha": "8877b06ec1ecf07b6e3b1b9d043257d6f6f36350",
+  "_size": 6867,
   "appid": "4254300",
   "common": {
     "aicontenttype": "1",
@@ -281,6 +294,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "alpha": {
+          "download": "8807802384",
+          "gid": "8156210030847761353",
+          "size": "13872230650"
+        },
         "public": {
           "download": "8807802384",
           "gid": "8156210030847761353",
@@ -290,6 +308,12 @@
     },
     "baselanguages": "english,schinese",
     "branches": {
+      "alpha": {
+        "buildid": "24930714",
+        "description": "alpha build for alpha players",
+        "timebuildupdated": "1787669387",
+        "timeupdated": "1787669969"
+      },
       "public": {
         "buildid": "24930714",
         "timebuildupdated": "1787669387",

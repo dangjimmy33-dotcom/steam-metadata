@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788771543,
-  "_history": [],
-  "_change_number": 38478100,
-  "_missing_token": true,
-  "_sha": "c1804482ab458467cafb37816cf27b5ee108909c",
-  "_size": 12348,
+  "_lastChecked": 1788783703,
+  "_history": [
+    {
+      "buildId": "24836780",
+      "branch": "public",
+      "timeUpdated": 1787314299,
+      "firstSeen": 1788783703,
+      "manifests": {
+        "4907421": {
+          "gid": "45790881487643527",
+          "size": 3456903686,
+          "download": 2906898144
+        }
+      }
+    }
+  ],
+  "_change_number": 38662489,
+  "_missing_token": false,
+  "_sha": "2254d927686abd420e7f1dc03b7abf6d366b7df2",
+  "_size": 13321,
   "appid": "4907420",
   "common": {
     "associations": {
@@ -34,7 +48,6 @@
     "clienticon": "f1a989304ea1486a15d5d03a8d4bea1b58d8d7b2",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4907420",
     "genres": {
       "0": "25",
@@ -197,7 +210,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "brazilian": "19a265adae7af8514cd58f7c40f8c3c3c9ca54d2/capsule_231x87_brazilian.jpg",
       "english": "bfc5168177721e32ab07e7f22a8a6b226b0d43f0/capsule_231x87.jpg",
@@ -212,6 +225,7 @@
       "tchinese": "d7117a279fe35fd482dfe1925d1ce34d16f53a33/capsule_231x87_tchinese.jpg",
       "ukrainian": "71d74f187101bd24d50b2127cd05235895d8aabb/capsule_231x87_ukrainian.jpg"
     },
+    "steam_release_date": "1788773472",
     "store_asset_mtime": "1788188478",
     "store_tags": {
       "0": "33572",
@@ -275,5 +289,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Emperor of Mahjong",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "EmperorOfMahjong.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4907421": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2906898144",
+          "gid": "45790881487643527",
+          "size": "3456903686"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,russian,schinese,spanish,tchinese,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "24836780",
+        "timebuildupdated": "1787219542",
+        "timeupdated": "1787314299"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "G5 Entertainment AB",
+    "isfreeapp": "1",
+    "publisher": "G5 Entertainment AB"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788771708,
-  "_history": [],
-  "_change_number": 38384877,
-  "_missing_token": true,
-  "_sha": "4faa8bee34522c0c31473c37a7ccb69c9c40c9af",
-  "_size": 6086,
+  "_lastChecked": 1788783831,
+  "_history": [
+    {
+      "buildId": "24975398",
+      "branch": "public",
+      "timeUpdated": 1787849272,
+      "firstSeen": 1788783831,
+      "manifests": {
+        "5070181": {
+          "gid": "8628484219815969253",
+          "size": 294685817,
+          "download": 120170512
+        }
+      }
+    }
+  ],
+  "_change_number": 38661873,
+  "_missing_token": false,
+  "_sha": "f3b7066734d57c3913c8245fccb281cebd8a963c",
+  "_size": 6731,
   "appid": "5070180",
   "common": {
     "aicontenttype": "1",
@@ -39,9 +53,9 @@
     "clienticns": "2eddf04a858553dcfa09bba4b89cb210ffba4004",
     "clienticon": "2eddf04a858553dcfa09bba4b89cb210ffba4004",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5070180",
     "genres": {
       "0": "1"
@@ -145,10 +159,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3101db049fda116a983bebc974fdb0c912987e6c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788771904",
     "store_asset_mtime": "1787238985",
     "store_tags": {
       "0": "19",
@@ -299,5 +314,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Last Color",
+    "launch": {
+      "0": {
+        "executable": "The Last Color.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "2",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "5070181": {
+      "manifests": {
+        "public": {
+          "download": "120170512",
+          "gid": "8628484219815969253",
+          "size": "294685817"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24975398",
+        "timebuildupdated": "1787849113",
+        "timeupdated": "1787849272"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Devmode",
+    "publisher": "Devmode"
+  }
 }

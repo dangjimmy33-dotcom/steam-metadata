@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788767723,
+  "_lastChecked": 1788780717,
   "_history": [
     {
       "buildId": "23716709",
@@ -54,12 +54,53 @@
           "download": 9148574704
         }
       }
+    },
+    {
+      "buildId": "25098787",
+      "branch": "beta",
+      "timeUpdated": 1788428667,
+      "firstSeen": 1788780717,
+      "manifests": {
+        "1830292": {
+          "gid": "7238925057825243635",
+          "size": 13480611535,
+          "download": 10464974736
+        },
+        "4453450": {
+          "gid": "5258440137322821953",
+          "size": 9527501344,
+          "download": 9148574704
+        }
+      }
+    },
+    {
+      "buildId": "25165200",
+      "branch": "mac-beta",
+      "timeUpdated": 1788776904,
+      "firstSeen": 1788780717,
+      "manifests": {
+        "1830292": {
+          "gid": "2277180223673602544",
+          "size": 13386987962,
+          "download": 10422652624
+        },
+        "1830293": {
+          "gid": "8162023321964834419",
+          "size": 12987185861,
+          "download": 9803057792
+        },
+        "4453450": {
+          "gid": "5258440137322821953",
+          "size": 9527501344,
+          "download": 9148574704
+        }
+      }
     }
   ],
-  "_change_number": 38522760,
+  "_change_number": 38663747,
   "_missing_token": false,
-  "_sha": "f8ea934711893e63007a8b794e67517b2be3faaa",
-  "_size": 9278,
+  "_sha": "13d2cba08838998296b40cfa207f87622442f115",
+  "_size": 10156,
   "appid": "1830290",
   "common": {
     "aicontenttype": "2",
@@ -374,6 +415,17 @@
         },
         "executable": "FallOfAnEmpire.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch Fall of an Empire for macOS",
+        "description_loc": {
+          "english": "Launch Fall of an Empire for macOS"
+        },
+        "executable": "Fall of an Empire.app",
+        "type": "default"
       }
     }
   },
@@ -390,14 +442,31 @@
           "size": "13650140698"
         },
         "beta": {
-          "download": "10411756576",
-          "gid": "48142556315421764",
-          "size": "13385914790"
+          "download": "10464974736",
+          "gid": "7238925057825243635",
+          "size": "13480611535"
+        },
+        "mac-beta": {
+          "download": "10422652624",
+          "gid": "2277180223673602544",
+          "size": "13386987962"
         },
         "public": {
           "download": "10422652624",
           "gid": "2277180223673602544",
           "size": "13386987962"
+        }
+      }
+    },
+    "1830293": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "mac-beta": {
+          "download": "9803057792",
+          "gid": "8162023321964834419",
+          "size": "12987185861"
         }
       }
     },
@@ -432,6 +501,11 @@
           "gid": "5258440137322821953",
           "size": "9527501344"
         },
+        "mac-beta": {
+          "download": "9148574704",
+          "gid": "5258440137322821953",
+          "size": "9527501344"
+        },
         "public": {
           "download": "9148574704",
           "gid": "5258440137322821953",
@@ -447,10 +521,16 @@
         "timeupdated": "1781353686"
       },
       "beta": {
-        "buildid": "25068079",
+        "buildid": "25098787",
         "description": "Play the latest beta version of the game",
-        "timebuildupdated": "1788302260",
-        "timeupdated": "1788302260"
+        "timebuildupdated": "1788428667",
+        "timeupdated": "1788428667"
+      },
+      "mac-beta": {
+        "buildid": "25165200",
+        "description": "Play the game on Mac",
+        "timebuildupdated": "1788776904",
+        "timeupdated": "1788776904"
       },
       "public": {
         "buildid": "25019442",

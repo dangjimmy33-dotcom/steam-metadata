@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788768016,
+  "_lastChecked": 1788780942,
   "_history": [
     {
       "buildId": "24924056",
@@ -30,10 +30,10 @@
       }
     }
   ],
-  "_change_number": 38629783,
+  "_change_number": 38661497,
   "_missing_token": false,
-  "_sha": "d3b1cc1361f729f8a9ccd7e454736d672660ee38",
-  "_size": 6326,
+  "_sha": "aebc7039db596560b44305c70a0a2e3947208ad6",
+  "_size": 5394,
   "appid": "2062380",
   "common": {
     "associations": {
@@ -62,7 +62,6 @@
       "category_18": "1",
       "category_2": "1",
       "category_22": "1",
-      "category_23": "1",
       "category_62": "1",
       "category_68": "1",
       "category_76": "1",
@@ -287,43 +286,9 @@
     "publisher": "Madit Entertainment"
   },
   "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
     "maxnumfiles": "150",
-    "quota": "10000000",
-    "rootoverrides": {
-      "0": {
-        "os": "MacOS",
-        "oscompare": "=",
-        "pathtransforms": {
-          "0": {
-            "find": "Madit entertainment/Roots in the Sky - The Hand of Glory 2/Savegames",
-            "replace": "Madit entertainment\\Roots in the Sky - The Hand of Glory 2\\Savegames"
-          }
-        },
-        "root": "WinAppDataLocal",
-        "useinstead": "MacAppSupport"
-      },
-      "1": {
-        "os": "Linux",
-        "oscompare": "=",
-        "pathtransforms": {
-          "0": {
-            "find": "Madit entertainment/Roots in the Sky - The Hand of Glory 2/Savegames",
-            "replace": ".local/Share/Madit entertainment\\Roots in the Sky - The Hand of Glory 2\\Savegames"
-          }
-        },
-        "root": "WinAppDataLocal",
-        "useinstead": "LinuxHome"
-      }
-    },
-    "savefiles": {
-      "0": {
-        "path": "Madit entertainment/Roots in the Sky - The Hand of Glory 2/Savegames",
-        "pattern": "*.dat",
-        "platforms": {
-          "1": "Windows"
-        },
-        "root": "WinAppDataLocal"
-      }
-    }
+    "quota": "10000000"
   }
 }

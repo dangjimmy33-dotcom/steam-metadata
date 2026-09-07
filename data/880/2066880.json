@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788768021,
+  "_lastChecked": 1788780946,
   "_history": [
     {
       "buildId": "25138655",
@@ -69,11 +69,34 @@
           "download": 223248
         }
       }
+    },
+    {
+      "buildId": "25163253",
+      "branch": "nightly",
+      "timeUpdated": 1788769155,
+      "firstSeen": 1788780946,
+      "manifests": {
+        "2066880": {
+          "gid": "2467115901743811316",
+          "size": 311666,
+          "download": 146528
+        },
+        "2066881": {
+          "gid": "8483796379578968587",
+          "size": 306483,
+          "download": 126560
+        },
+        "2066882": {
+          "gid": "1151870851316235868",
+          "size": 604603,
+          "download": 223248
+        }
+      }
     }
   ],
-  "_change_number": 38640826,
+  "_change_number": 38660791,
   "_missing_token": false,
-  "_sha": "79e9528409c9d7612a0aae86d3c014083c9ca9b7",
+  "_sha": "10ab5077dde872cb9dd34d0d8a5bcb1b48727840",
   "_size": 3980,
   "appid": "2066880",
   "common": {
@@ -218,7 +241,7 @@
       "manifests": {
         "nightly": {
           "download": "146528",
-          "gid": "2951355851466087736",
+          "gid": "2467115901743811316",
           "size": "311666"
         },
         "public": {
@@ -266,10 +289,10 @@
     },
     "branches": {
       "nightly": {
-        "buildid": "25149946",
+        "buildid": "25163253",
         "description": "Nightly unstable builds",
-        "timebuildupdated": "1788682564",
-        "timeupdated": "1788682564"
+        "timebuildupdated": "1788769155",
+        "timeupdated": "1788769155"
       },
       "public": {
         "buildid": "20833892",

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788769945,
-  "_history": [],
-  "_change_number": 38434713,
-  "_missing_token": true,
-  "_sha": "0acd59f5a7fd6b40dcf961f0f6dea208a6558325",
-  "_size": 3313,
+  "_lastChecked": 1788782448,
+  "_history": [
+    {
+      "buildId": "25010184",
+      "branch": "public",
+      "timeUpdated": 1788010589,
+      "firstSeen": 1788782448,
+      "manifests": {
+        "3549152": {
+          "gid": "2346207199920802958",
+          "size": 181462352,
+          "download": 126921808
+        },
+        "3549153": {
+          "gid": "6873721103193566559",
+          "size": 248269212,
+          "download": 143289392
+        },
+        "3549154": {
+          "gid": "3349490463050265467",
+          "size": 188449824,
+          "download": 128647696
+        }
+      }
+    }
+  ],
+  "_change_number": 38663431,
+  "_missing_token": false,
+  "_sha": "ddf8086363a1b989dfdb3054cbc9461acc7400f9",
+  "_size": 5829,
   "appid": "3549150",
   "common": {
     "associations": {
@@ -31,9 +55,9 @@
     "clienticns": "8bc138899338103684315947710df2f156149af2",
     "clienticon": "1aaa03c53d53f296898fcfcff66d516c461e70ce",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3549150",
     "genres": {
       "0": "4",
@@ -111,11 +135,12 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7c8020b1441f52b19280e2e10e00a24940f53c21/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1772029688",
+    "steam_release_date": "1788776117",
+    "store_asset_mtime": "1788775927",
     "store_tags": {
       "0": "5537",
       "1": "597",
@@ -146,5 +171,132 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "跳跳为营BetaTest",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "LeapTactics-Win.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Leap Tactics.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "LeapTactics-Linux.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3549152": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "126921808",
+          "gid": "2346207199920802958",
+          "size": "181462352"
+        }
+      }
+    },
+    "3549153": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "143289392",
+          "gid": "6873721103193566559",
+          "size": "248269212"
+        }
+      }
+    },
+    "3549154": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "128647696",
+          "gid": "3349490463050265467",
+          "size": "188449824"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25010184",
+        "timebuildupdated": "1788010587",
+        "timeupdated": "1788010589"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Mingri Studio",
+    "publisher": "Mingri Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "500000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot\\app_userdata\\Leap Tactics",
+            "replace": "Godot\\app_userdata\\Leap Tactics"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot\\app_userdata\\Leap Tactics",
+            "replace": "Godot/app_userdata/Leap Tactics"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "2": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot\\app_userdata\\Leap Tactics",
+            "replace": "Godot/app_userdata/Leap Tactics"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot\\app_userdata\\Leap Tactics",
+        "pattern": "*.dat",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

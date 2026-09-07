@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788769505,
+  "_lastChecked": 1788782101,
   "_history": [
     {
       "buildId": "17110280",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 38569651,
+  "_change_number": 38661799,
   "_missing_token": false,
-  "_sha": "f531b21c6892907302e33528ba0df747f92841d0",
-  "_size": 3480,
+  "_sha": "4cdf82b678df9819efad0e5b0d0a2b013942a7cf",
+  "_size": 3768,
   "appid": "3192880",
   "common": {
     "associations": {
@@ -198,5 +198,22 @@
     "developer": "2xN Studios",
     "isfreeapp": "1",
     "publisher": "theepiccoder"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "1000",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "NettleData/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
   }
 }
