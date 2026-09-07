@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788740104,
-  "_history": [],
-  "_change_number": 38616433,
-  "_missing_token": true,
-  "_sha": "86a790cb69ad6367fa4942fa71e31ef4b141400b",
-  "_size": 3008,
+  "_lastChecked": 1788745742,
+  "_history": [
+    {
+      "buildId": "24882122",
+      "branch": "public",
+      "timeUpdated": 1787420462,
+      "firstSeen": 1788745742,
+      "manifests": {
+        "5103891": {
+          "gid": "6278805584957704573",
+          "size": 530227884,
+          "download": 207526816
+        },
+        "5103892": {
+          "gid": "483915884023138863",
+          "size": 381053099,
+          "download": 139180352
+        },
+        "5103893": {
+          "gid": "4116560080625730326",
+          "size": 342546402,
+          "download": 120451232
+        }
+      }
+    }
+  ],
+  "_change_number": 38653570,
+  "_missing_token": false,
+  "_sha": "e92b3c116eb5d4c7c109418f575c58556359f932",
+  "_size": 4456,
   "appid": "5103890",
   "common": {
     "aicontenttype": "1",
@@ -28,8 +52,8 @@
     "clienticns": "c7e1ca9998ef300e50777e7c9cb23167b8ea13ae",
     "clienticon": "89967cf15511ddcf157d8aee45c7d151bd55c78c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5103890",
     "genres": {
       "0": "4"
@@ -100,10 +124,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e97adb147a85d12868fc7a43e695527cc8c0aa2f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788740358",
     "store_asset_mtime": "1787424557",
     "store_tags": {
       "0": "597",
@@ -126,5 +151,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Idle Clacker",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Idle Clacker.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Idle Clacker.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "idle-clacker",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5103891": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "207526816",
+          "gid": "6278805584957704573",
+          "size": "530227884"
+        }
+      }
+    },
+    "5103892": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "139180352",
+          "gid": "483915884023138863",
+          "size": "381053099"
+        }
+      }
+    },
+    "5103893": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "120451232",
+          "gid": "4116560080625730326",
+          "size": "342546402"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24882122",
+        "timebuildupdated": "1787420236",
+        "timeupdated": "1787420462"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Bookis Worthy",
+    "publisher": "Worthy Software"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "1048576"
+  }
 }

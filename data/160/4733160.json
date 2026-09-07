@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788739814,
-  "_history": [],
-  "_change_number": 38588610,
-  "_missing_token": true,
-  "_sha": "9a321b270ad4eaa5596a0a44b7428bacc7c8dc1a",
-  "_size": 4349,
+  "_lastChecked": 1788745431,
+  "_history": [
+    {
+      "buildId": "24833866",
+      "branch": "public",
+      "timeUpdated": 1787209548,
+      "firstSeen": 1788745431,
+      "manifests": {
+        "4733161": {
+          "gid": "5596029393167263254",
+          "size": 359272885,
+          "download": 167693280
+        }
+      }
+    }
+  ],
+  "_change_number": 38654048,
+  "_missing_token": false,
+  "_sha": "1297012b34de67a1f4b72fbf58652d3b143ba1eb",
+  "_size": 5484,
   "appid": "4733160",
   "common": {
     "associations": {
@@ -44,9 +58,9 @@
     },
     "clienticon": "bb87105f00b5a94dd1113b9de263dce8e51e8924",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4733160",
     "genres": {
       "0": "4"
@@ -129,11 +143,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "61a199267eaab3652d33fc048e49c9041ec8466d/capsule_231x87.jpg",
       "japanese": "61a199267eaab3652d33fc048e49c9041ec8466d/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1788742819",
     "store_asset_mtime": "1787533388",
     "store_tags": {
       "0": "597",
@@ -161,5 +176,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "クイズ大臣",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "quizdaijin.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4733161": {
+      "manifests": {
+        "public": {
+          "download": "167693280",
+          "gid": "5596029393167263254",
+          "size": "359272885"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "24833866",
+        "timebuildupdated": "1787209482",
+        "timeupdated": "1787209548"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "GZOE Inc.",
+    "homepage": "https://quiz-daijin.mygame.best/",
+    "publisher": "Granzella Games"
+  },
+  "ufs": {
+    "maxnumfiles": "6",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Granzella Inc_/雑学クイズ大臣/SaveData",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

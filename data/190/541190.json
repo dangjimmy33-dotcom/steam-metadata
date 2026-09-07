@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788735592,
+  "_lastChecked": 1788740923,
   "_history": [
     {
       "buildId": "8767385",
@@ -18,12 +18,30 @@
           "download": 13313888
         }
       }
+    },
+    {
+      "buildId": "25157722",
+      "branch": "public",
+      "timeUpdated": 1788739668,
+      "firstSeen": 1788740923,
+      "manifests": {
+        "541191": {
+          "gid": "6222084147057367079",
+          "size": 386142181,
+          "download": 149095792
+        },
+        "541192": {
+          "gid": "5441922487180343869",
+          "size": 551006837,
+          "download": 212509808
+        }
+      }
     }
   ],
-  "_change_number": 38652354,
+  "_change_number": 38653494,
   "_missing_token": false,
-  "_sha": "7d80b1c6a3bd35f17b57f04019bb97665635cb49",
-  "_size": 3568,
+  "_sha": "6bcf7037d94bc8d665ca8fbcc096dbcfbc77652c",
+  "_size": 3245,
   "appid": "541190",
   "common": {
     "associations": {
@@ -76,7 +94,8 @@
     "metacritic_name": "Nodiatis",
     "name": "Nodiatis",
     "original_release_date": "1210230000",
-    "osarch": "",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "3",
     "releasestate": "released",
@@ -107,32 +126,16 @@
   "config": {
     "installdir": "Nodiatis",
     "launch": {
-      "0": {
-        "config": {
-          "betakey": "public",
-          "oslist": "windows"
-        },
-        "executable": "Nodiatis.exe",
-        "type": "default"
-      },
-      "1": {
-        "config": {
-          "betakey": "public",
-          "oslist": "macos"
-        },
-        "executable": "Nodiatis.app",
-        "type": "default"
-      },
       "2": {
         "arguments": "--steam",
         "config": {
-          "betakey": "electron-test",
+          "betakey": "public,electron-test",
           "osarch": "64",
           "oslist": "windows"
         },
-        "description": "Nodiatis Electron (private test)",
+        "description": "Nodiatis",
         "description_loc": {
-          "english": "Nodiatis Electron (private test)"
+          "english": "Nodiatis"
         },
         "executable": "nodiatis.exe",
         "type": "default"
@@ -140,12 +143,12 @@
       "3": {
         "arguments": "--steam",
         "config": {
-          "betakey": "electron-test",
+          "betakey": "public,electron-test",
           "oslist": "macos"
         },
-        "description": "Nodiatis Electron (private test)",
+        "description": "Nodiatis",
         "description_loc": {
-          "english": "Nodiatis Electron (private test)"
+          "english": "Nodiatis"
         },
         "executable": "nodiatis.app",
         "type": "default"
@@ -159,9 +162,9 @@
       },
       "manifests": {
         "public": {
-          "download": "10081440",
-          "gid": "4824163734979571724",
-          "size": "31650886"
+          "download": "149095792",
+          "gid": "6222084147057367079",
+          "size": "386142181"
         }
       }
     },
@@ -171,18 +174,18 @@
       },
       "manifests": {
         "public": {
-          "download": "13313888",
-          "gid": "7406153789819622004",
-          "size": "45301675"
+          "download": "212509808",
+          "gid": "5441922487180343869",
+          "size": "551006837"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "8767385",
-        "timebuildupdated": "1652929496",
-        "timeupdated": "1652929539"
+        "buildid": "25157722",
+        "timebuildupdated": "1788734259",
+        "timeupdated": "1788739668"
       }
     },
     "privatebranches": "1"

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788738770,
+  "_lastChecked": 1788744313,
   "_history": [
     {
       "buildId": "19127529",
@@ -41,10 +41,10 @@
       }
     }
   ],
-  "_change_number": 38642654,
+  "_change_number": 38654222,
   "_missing_token": false,
-  "_sha": "e820235b953ecb7a03efe63d7905dc4687a6f53e",
-  "_size": 4879,
+  "_sha": "5de1b37d92ce27f5439661d11bd15eb20de791b5",
+  "_size": 4763,
   "appid": "3611710",
   "common": {
     "associations": {
@@ -70,7 +70,6 @@
     "clienticon": "84a230623223f7c7f0d0c3749e9634188e778430",
     "clienttga": "ac72ef1ad07e45c254b48140a2e54a2c0778231d",
     "community_hub_visible": "1",
-    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "gameid": "3611710",
     "genres": {
@@ -224,20 +223,6 @@
     "uselaunchcommandline": "1"
   },
   "depots": {
-    "228989": {
-      "config": {
-        "oslist": "windows"
-      },
-      "depotfromapp": "228980",
-      "sharedinstall": "1"
-    },
-    "228990": {
-      "config": {
-        "oslist": "windows"
-      },
-      "depotfromapp": "228980",
-      "sharedinstall": "1"
-    },
     "3611711": {
       "config": {
         "osarch": "64",
@@ -259,12 +244,19 @@
         "timeupdated": "1788686148"
       }
     },
-    "hasdepotsindlc": "1"
+    "hasdepotsindlc": "1",
+    "workshopdepot": "3611710"
   },
   "extended": {
     "anti_cheat_support_url": "https://www.easy.ac/r/steam/gamebans/?steamAppId=3611710",
     "deckresolutionoverride": "1920x1080",
     "developer": "GuXian",
     "publisher": "GuXian"
+  },
+  "ufs": {
+    "appidredirect": "3611710",
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "sync_while_suspended": "1"
   }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788739271,
-  "_history": [],
-  "_change_number": 38653045,
-  "_missing_token": true,
-  "_sha": "4a564ae1f6682150ac921236d72c46c8e4e291ce",
-  "_size": 3113,
+  "_lastChecked": 1788744850,
+  "_history": [
+    {
+      "buildId": "25158211",
+      "branch": "public",
+      "timeUpdated": 1788737745,
+      "firstSeen": 1788744850,
+      "manifests": {
+        "4131841": {
+          "gid": "4831138499952863875",
+          "size": 256631679,
+          "download": 178819808
+        }
+      }
+    }
+  ],
+  "_change_number": 38653995,
+  "_missing_token": false,
+  "_sha": "15de9c4fb04e5a1622adf3f0dbd6f61f01d27af2",
+  "_size": 4028,
   "appid": "4131840",
   "common": {
     "aicontenttype": "1",
@@ -31,7 +45,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4131840",
     "genres": {
       "0": "4",
@@ -104,11 +117,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d92409b263ee27b65709730c5d77f2fcde12ad49/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1788729744",
+    "steam_release_date": "1788742543",
+    "store_asset_mtime": "1788742401",
     "store_tags": {
       "0": "597",
       "1": "599",
@@ -141,5 +155,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Qumino",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Qumino.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4131841": {
+      "manifests": {
+        "public": {
+          "download": "178819808",
+          "gid": "4831138499952863875",
+          "size": "256631679"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25158211",
+        "timebuildupdated": "1788737626",
+        "timeupdated": "1788737745"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Qurtys",
+    "publisher": "Qurtys"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "Qumino/SavesDir",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
