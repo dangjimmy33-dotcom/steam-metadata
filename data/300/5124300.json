@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788844445,
-  "_history": [],
-  "_change_number": 38327582,
-  "_missing_token": true,
-  "_sha": "d87ef2d10b9ef299c35f53b3498776a9f2a47813",
-  "_size": 3175,
+  "_lastChecked": 1788851338,
+  "_history": [
+    {
+      "buildId": "24936089",
+      "branch": "public",
+      "timeUpdated": 1787689137,
+      "firstSeen": 1788851338,
+      "manifests": {
+        "5124301": {
+          "gid": "6352059794876742287",
+          "size": 536579039,
+          "download": 388632352
+        }
+      }
+    }
+  ],
+  "_change_number": 38687010,
+  "_missing_token": false,
+  "_sha": "190225141385f2fb5d48ce08c8c8c9984789bc0a",
+  "_size": 3702,
   "appid": "5124300",
   "common": {
     "aicontenttype": "1",
@@ -37,7 +51,6 @@
     "clienticon": "20898f90f3ab4f1960850bda24b64d5bd9ca2e77",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5124300",
     "genres": {
       "0": "25",
@@ -109,12 +122,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1574bc931e21dbd4f4ec7ff7b9888cb764063d51/capsule_231x87.jpg",
       "spanish": "1574bc931e21dbd4f4ec7ff7b9888cb764063d51/capsule_231x87_spanish.jpg"
     },
-    "store_asset_mtime": "1787132978",
+    "steam_release_date": "1788851106",
+    "store_asset_mtime": "1787689419",
     "store_tags": {
       "0": "21",
       "1": "1625",
@@ -137,5 +151,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Brotito",
+    "launch": {
+      "0": {
+        "executable": "Brotito.exe"
+      }
+    }
+  },
+  "depots": {
+    "5124301": {
+      "manifests": {
+        "public": {
+          "download": "388632352",
+          "gid": "6352059794876742287",
+          "size": "536579039"
+        }
+      }
+    },
+    "baselanguages": "latam",
+    "branches": {
+      "public": {
+        "buildid": "24936089",
+        "timebuildupdated": "1787689023",
+        "timeupdated": "1787689137"
+      }
+    }
+  },
+  "extended": {
+    "developer": "JOBAC",
+    "publisher": "Jhonatan Baas Canche"
+  }
 }

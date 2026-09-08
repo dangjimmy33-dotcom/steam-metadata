@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788844155,
+  "_lastChecked": 1788851049,
   "_history": [
     {
       "buildId": "24758002",
@@ -54,12 +54,30 @@
           "download": 43029152
         }
       }
+    },
+    {
+      "buildId": "25174006",
+      "branch": "public",
+      "timeUpdated": 1788847844,
+      "firstSeen": 1788851049,
+      "manifests": {
+        "4833991": {
+          "gid": "5618797248822021210",
+          "size": 124764716,
+          "download": 49148272
+        },
+        "4833992": {
+          "gid": "429046799702388352",
+          "size": 96116652,
+          "download": 43029152
+        }
+      }
     }
   ],
-  "_change_number": 38676464,
+  "_change_number": 38686171,
   "_missing_token": false,
-  "_sha": "ff08f7e6a4bf40df6ed2851a97991b03d93af3c9",
-  "_size": 5160,
+  "_sha": "e64b6aebb05e158805c7dcaafa21f863078de183",
+  "_size": 4744,
   "appid": "4833990",
   "common": {
     "associations": {
@@ -222,11 +240,6 @@
       },
       "manifests": {
         "public": {
-          "download": "49148128",
-          "gid": "7652948383995982381",
-          "size": "124764556"
-        },
-        "testingbranch": {
           "download": "49148272",
           "gid": "5618797248822021210",
           "size": "124764716"
@@ -240,11 +253,6 @@
       },
       "manifests": {
         "public": {
-          "download": "43029008",
-          "gid": "3338314509810191039",
-          "size": "96116492"
-        },
-        "testingbranch": {
           "download": "43029152",
           "gid": "429046799702388352",
           "size": "96116652"
@@ -254,15 +262,9 @@
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25093092",
-        "timebuildupdated": "1788402197",
-        "timeupdated": "1788403971"
-      },
-      "testingbranch": {
         "buildid": "25174006",
-        "description": "For testing builds before release",
         "timebuildupdated": "1788810958",
-        "timeupdated": "1788811029"
+        "timeupdated": "1788847844"
       }
     }
   },

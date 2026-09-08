@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788844342,
-  "_history": [],
-  "_change_number": 38656242,
-  "_missing_token": true,
-  "_sha": "7c5fc32d46e72fb43722e33b663c6d1f64b517be",
-  "_size": 4399,
+  "_lastChecked": 1788851235,
+  "_history": [
+    {
+      "buildId": "25160444",
+      "branch": "public",
+      "timeUpdated": 1788752702,
+      "firstSeen": 1788851235,
+      "manifests": {
+        "5005151": {
+          "gid": "6354977386100619572",
+          "size": 1149139862,
+          "download": 230827872
+        }
+      }
+    }
+  ],
+  "_change_number": 38685741,
+  "_missing_token": false,
+  "_sha": "b2bacecf809348a33a3e8a49069c9fb94093c1cd",
+  "_size": 5288,
   "appid": "5005150",
   "common": {
     "associations": {
@@ -37,9 +51,9 @@
     },
     "clienticon": "ab8ca19876633cc29c3cf5324df64983c5859e7c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5005150",
     "genres": {
       "0": "25",
@@ -131,10 +145,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d7852b091fd9ef78a8a5fa3533a035133d3ae526/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788847078",
     "store_asset_mtime": "1788532770",
     "store_tags": {
       "0": "21",
@@ -211,5 +226,50 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Flood Fishing",
+    "launch": {
+      "0": {
+        "executable": "Flood With Friends.exe"
+      }
+    }
+  },
+  "depots": {
+    "5005151": {
+      "manifests": {
+        "public": {
+          "download": "230827872",
+          "gid": "6354977386100619572",
+          "size": "1149139862"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25160444",
+        "timebuildupdated": "1788752645",
+        "timeupdated": "1788752702"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Oh Baby Games",
+    "publisher": "Oh Baby Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Oh Baby Games/Flood With Friends",
+        "pattern": "settings.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Oh Baby Games/Flood With Friends/Blueprints\t",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

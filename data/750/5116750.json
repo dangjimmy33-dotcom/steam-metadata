@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788844439,
-  "_history": [],
-  "_change_number": 38335316,
-  "_missing_token": true,
-  "_sha": "2a774080f793e606a3e1ea1c09627e85dcb3d2c7",
-  "_size": 2876,
+  "_lastChecked": 1788851332,
+  "_history": [
+    {
+      "buildId": "24869928",
+      "branch": "public",
+      "timeUpdated": 1787343450,
+      "firstSeen": 1788851332,
+      "manifests": {
+        "5116751": {
+          "gid": "9151281910815199509",
+          "size": 125501024,
+          "download": 50908512
+        },
+        "5116752": {
+          "gid": "1532850995144820242",
+          "size": 186750124,
+          "download": 69167648
+        },
+        "5116753": {
+          "gid": "116919499730222008",
+          "size": 89840016,
+          "download": 42307120
+        }
+      }
+    }
+  ],
+  "_change_number": 38686934,
+  "_missing_token": false,
+  "_sha": "09bafae525c67175ceb194d1a2d5eda1432bbd80",
+  "_size": 4153,
   "appid": "5116750",
   "common": {
     "associations": {
@@ -28,7 +52,6 @@
     "clienticon": "522313c3f75df7b8988fd1e87c57519784cbb62b",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5116750",
     "genres": {
       "0": "4",
@@ -100,10 +123,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7ca556f9e487613c49cc8081de77c04108eb32ed/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788850823",
     "store_asset_mtime": "1787220026",
     "store_tags": {
       "0": "597",
@@ -128,5 +152,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Violet Stardust",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Violet Stardust.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Violet Stardust.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Violet Stardust.app"
+      }
+    }
+  },
+  "depots": {
+    "5116751": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "50908512",
+          "gid": "9151281910815199509",
+          "size": "125501024"
+        }
+      }
+    },
+    "5116752": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "69167648",
+          "gid": "1532850995144820242",
+          "size": "186750124"
+        }
+      }
+    },
+    "5116753": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "42307120",
+          "gid": "116919499730222008",
+          "size": "89840016"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24869928",
+        "timebuildupdated": "1787342894",
+        "timeupdated": "1787343450"
+      }
+    }
+  },
+  "extended": {
+    "developer": "robinseine",
+    "publisher": "robinseine"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000"
+  }
 }

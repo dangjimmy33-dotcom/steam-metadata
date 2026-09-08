@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788842057,
+  "_lastChecked": 1788848944,
   "_history": [
     {
       "buildId": "25138661",
@@ -26,12 +26,38 @@
           "download": 414516512
         }
       }
+    },
+    {
+      "buildId": "25180209",
+      "branch": "public",
+      "timeUpdated": 1788844787,
+      "firstSeen": 1788848944,
+      "manifests": {
+        "3084371": {
+          "gid": "6751460678329013748",
+          "size": 544330645,
+          "download": 414490832
+        }
+      }
+    },
+    {
+      "buildId": "25180209",
+      "branch": "test",
+      "timeUpdated": 1788844760,
+      "firstSeen": 1788848944,
+      "manifests": {
+        "3084371": {
+          "gid": "6751460678329013748",
+          "size": 544330645,
+          "download": 414490832
+        }
+      }
     }
   ],
-  "_change_number": 38681698,
+  "_change_number": 38685225,
   "_missing_token": false,
-  "_sha": "7e6022f119d6595f9bbf896169d92bf05c8df0aa",
-  "_size": 7188,
+  "_sha": "5b8afe9aded7ee45bb0891527fab14f59c6c3b18",
+  "_size": 7190,
   "appid": "3084370",
   "common": {
     "aicontenttype": "1",
@@ -314,28 +340,28 @@
       },
       "manifests": {
         "public": {
-          "download": "414516512",
-          "gid": "598540173386753930",
-          "size": "544323541"
+          "download": "414490832",
+          "gid": "6751460678329013748",
+          "size": "544330645"
         },
         "test": {
-          "download": "414516512",
-          "gid": "598540173386753930",
-          "size": "544323541"
+          "download": "414490832",
+          "gid": "6751460678329013748",
+          "size": "544330645"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25138661",
-        "timebuildupdated": "1788595845",
-        "timeupdated": "1788596092"
+        "buildid": "25180209",
+        "timebuildupdated": "1788844010",
+        "timeupdated": "1788844787"
       },
       "test": {
-        "buildid": "25138661",
+        "buildid": "25180209",
         "description": "内部测试",
-        "timebuildupdated": "1788595845",
-        "timeupdated": "1788596064"
+        "timebuildupdated": "1788844010",
+        "timeupdated": "1788844760"
       }
     }
   },
