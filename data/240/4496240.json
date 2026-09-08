@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788836977,
-  "_history": [],
-  "_change_number": 38682586,
-  "_missing_token": true,
-  "_sha": "83e4696c4aec52858ff33377ebd691fc7b3fa7c3",
-  "_size": 4407,
+  "_lastChecked": 1788843791,
+  "_history": [
+    {
+      "buildId": "25160145",
+      "branch": "public",
+      "timeUpdated": 1788834175,
+      "firstSeen": 1788843791,
+      "manifests": {
+        "4496241": {
+          "gid": "4044460153641699363",
+          "size": 2875848492,
+          "download": 641371056
+        }
+      }
+    }
+  ],
+  "_change_number": 38684210,
+  "_missing_token": false,
+  "_sha": "31ebe2c2e5187adce429393a324a58d1c34bbb43",
+  "_size": 5286,
   "appid": "4496240",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +44,7 @@
     },
     "clienticon": "8e1dd2332a4b350ad3e62367739b1841790f3cf5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -39,7 +54,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4496240",
     "genres": {
       "0": "25",
@@ -128,12 +142,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d3f4b55c48fe2009df6726d8c8c2a716658d0812/capsule_231x87.jpg",
       "sc_schinese": "5e0a7f202a42947fa65293a85c3c91def90b3d52/capsule_231x87_sc_schinese.jpg",
       "schinese": "108e102be83529939fcd6b89cabf8e31cfcd22c6/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1788839985",
     "store_asset_mtime": "1788256417",
     "store_tags": {
       "0": "11014",
@@ -166,5 +181,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "倪帝蔷决定去死",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "nidiqiang.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4496241": {
+      "manifests": {
+        "public": {
+          "download": "641371056",
+          "gid": "4044460153641699363",
+          "size": "2875848492"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25160145",
+        "timebuildupdated": "1788750651",
+        "timeupdated": "1788834175"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "KK Narratif",
+    "publisher": "KK Narratif"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "KKNarratiff/nidiqiang",
+        "pattern": "*.info",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

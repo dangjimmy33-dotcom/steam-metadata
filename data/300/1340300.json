@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788833115,
+  "_lastChecked": 1788839684,
   "_history": [
     {
       "buildId": "5374728",
@@ -26,12 +26,30 @@
           "download": 612038192
         }
       }
+    },
+    {
+      "buildId": "25179179",
+      "branch": "public",
+      "timeUpdated": 1788837715,
+      "firstSeen": 1788839684,
+      "manifests": {
+        "1340301": {
+          "gid": "7520672883424351762",
+          "size": 2553713215,
+          "download": 612038192
+        },
+        "1340302": {
+          "gid": "1567140736632905106",
+          "size": 597560991,
+          "download": 541378848
+        }
+      }
     }
   ],
-  "_change_number": 34855261,
+  "_change_number": 38683689,
   "_missing_token": false,
-  "_sha": "fa9dc73e32f89b0bd3c1454a589bf3e10f1f1fa0",
-  "_size": 5111,
+  "_sha": "a738ea54b434ed6666af948bd58e70889c471224",
+  "_size": 5869,
   "appid": "1340300",
   "common": {
     "associations": {
@@ -139,6 +157,7 @@
     "name": "Crazy Kung Fu",
     "onlyvrsupport": "1",
     "openvrsupport": "1",
+    "openxrsupport": "1",
     "osarch": "",
     "osextended": "",
     "oslist": "windows",
@@ -217,6 +236,17 @@
         },
         "executable": "Crazy Kung Fu.exe",
         "type": "vr"
+      },
+      "1": {
+        "config": {
+          "oslist": "android"
+        },
+        "description": "Crazy Kung Fu",
+        "description_loc": {
+          "english": "Crazy Kung Fu"
+        },
+        "executable": "CrazyKungFu_SteamFrame.apk",
+        "type": "openxr"
       }
     }
   },
@@ -238,6 +268,18 @@
         }
       }
     },
+    "1340302": {
+      "config": {
+        "oslist": "android"
+      },
+      "manifests": {
+        "public": {
+          "download": "541378848",
+          "gid": "1567140736632905106",
+          "size": "597560991"
+        }
+      }
+    },
     "baselanguages": "english",
     "branches": {
       "local": {
@@ -248,9 +290,9 @@
         "timeupdated": "1596635180"
       },
       "public": {
-        "buildid": "19834497",
-        "timebuildupdated": "1756873478",
-        "timeupdated": "1757303944"
+        "buildid": "25179179",
+        "timebuildupdated": "1788837715",
+        "timeupdated": "1788837715"
       }
     },
     "hasdepotsindlc": "0",
@@ -262,5 +304,21 @@
     "listofdlc": "2338880,2339060,2399660,2399661",
     "publisher": "Field Of Vision",
     "vrheadsetstreaming": "1"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "40",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "/CrazyKungFu/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Android"
+        },
+        "root": "AndroidExternalData"
+      }
+    }
   }
 }

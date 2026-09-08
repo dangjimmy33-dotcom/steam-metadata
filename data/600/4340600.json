@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788836813,
+  "_lastChecked": 1788843617,
   "_history": [
     {
       "buildId": "25117592",
@@ -65,12 +65,38 @@
           "download": 327485920
         }
       }
+    },
+    {
+      "buildId": "25179724",
+      "branch": "public",
+      "timeUpdated": 1788841064,
+      "firstSeen": 1788843617,
+      "manifests": {
+        "4340602": {
+          "gid": "7930182253482860706",
+          "size": 667538021,
+          "download": 334170048
+        }
+      }
+    },
+    {
+      "buildId": "25049140",
+      "branch": "tp0.99.1",
+      "timeUpdated": 1788229632,
+      "firstSeen": 1788843617,
+      "manifests": {
+        "4340602": {
+          "gid": "7632301068973358094",
+          "size": 564206772,
+          "download": 253346176
+        }
+      }
     }
   ],
-  "_change_number": 38640228,
+  "_change_number": 38684436,
   "_missing_token": false,
-  "_sha": "c0af960bde803a39aec079b44d74674dfb307812",
-  "_size": 4798,
+  "_sha": "e828b7cf6f574df947c91d363e4669282bd60798",
+  "_size": 4518,
   "appid": "4340600",
   "common": {
     "aicontenttype": "1",
@@ -215,17 +241,12 @@
         "oslist": "windows"
       },
       "manifests": {
-        "betafix": {
-          "download": "251123680",
-          "gid": "4483946038848910668",
-          "size": "578476017"
-        },
-        "betanewversion": {
-          "download": "327485920",
-          "gid": "3181093541429864174",
-          "size": "649142228"
-        },
         "public": {
+          "download": "334170048",
+          "gid": "7930182253482860706",
+          "size": "667538021"
+        },
+        "tp0.99.1": {
           "download": "253346176",
           "gid": "7632301068973358094",
           "size": "564206772"
@@ -239,20 +260,14 @@
     },
     "baselanguages": "english",
     "branches": {
-      "betafix": {
-        "buildid": "25117592",
-        "description": "beta branch",
-        "timebuildupdated": "1788501670",
-        "timeupdated": "1788501699"
-      },
-      "betanewversion": {
-        "buildid": "25149499",
-        "description": "Beta of New Content",
-        "timebuildupdated": "1788678964",
-        "timeupdated": "1788678976"
-      },
       "public": {
+        "buildid": "25179724",
+        "timebuildupdated": "1788840879",
+        "timeupdated": "1788841064"
+      },
+      "tp0.99.1": {
         "buildid": "25049140",
+        "description": "Previous Version",
         "timebuildupdated": "1788229577",
         "timeupdated": "1788229632"
       },

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788836553,
-  "_history": [],
-  "_change_number": 38493370,
-  "_missing_token": true,
-  "_sha": "85c992c1dff6c7dc2d2d1ae8a1ac0a339b3275b7",
-  "_size": 3981,
+  "_lastChecked": 1788843339,
+  "_history": [
+    {
+      "buildId": "25048806",
+      "branch": "public",
+      "timeUpdated": 1788229338,
+      "firstSeen": 1788843339,
+      "manifests": {
+        "4115371": {
+          "gid": "3253921653553347371",
+          "size": 175505356,
+          "download": 98155872
+        }
+      }
+    }
+  ],
+  "_change_number": 38684329,
+  "_missing_token": false,
+  "_sha": "c85472db5d1480938450dcb66c2acaa440940639",
+  "_size": 5243,
   "appid": "4115370",
   "common": {
     "aicontenttype": "1",
@@ -33,9 +47,9 @@
     },
     "clienticon": "276e41f6c1bb93545320af4031c65bb88a0b4613",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4115370",
     "genres": {
       "0": "1",
@@ -127,10 +141,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "67e24de69ddaf34ed2d8fd4802a303546df307ab/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788840580",
     "store_asset_mtime": "1787856017",
     "store_tags": {
       "0": "42804",
@@ -188,5 +203,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DragonTiles",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DragonTiles.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4115371": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "98155872",
+          "gid": "3253921653553347371",
+          "size": "175505356"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25048806",
+        "timebuildupdated": "1788227957",
+        "timeupdated": "1788229338"
+      }
+    }
+  },
+  "extended": {
+    "developer": "hf_game_studio",
+    "publisher": "hf_game_studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1101005",
+    "rootoverrides": {
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/dragon_tiles/save",
+            "replace": "godot/app_userdata/dragon_tiles/save"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "DragonTiles/save",
+        "pattern": "*.sav",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788837535,
-  "_history": [],
-  "_change_number": 38571682,
-  "_missing_token": true,
-  "_sha": "3ebfdea19047cf41525e48fcfd3227bf62b052f5",
-  "_size": 12088,
+  "_lastChecked": 1788844386,
+  "_history": [
+    {
+      "buildId": "25102107",
+      "branch": "public",
+      "timeUpdated": 1788440158,
+      "firstSeen": 1788844386,
+      "manifests": {
+        "5051341": {
+          "gid": "2255089089262543735",
+          "size": 451991596,
+          "download": 215453168
+        }
+      }
+    }
+  ],
+  "_change_number": 38684139,
+  "_missing_token": false,
+  "_sha": "1b7a0b045fbc4cf36ec2c215bb568c5edce3a9c6",
+  "_size": 12647,
   "appid": "5051340",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "251f7d841ed2d01aa8e3f9b844b7d1ac3644d190",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5051340",
     "genres": {
       "0": "25",
@@ -199,7 +212,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "de70c92ace46eb1242ff71e3a09c570f19703124/capsule_231x87.jpg",
       "french": "32ff5067e44a1a5c88b3ea4e6b87d6eb626764fd/capsule_231x87_french.jpg",
@@ -261,5 +274,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Toilet 101",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Toilet 101/Toilet 101.exe"
+      }
+    }
+  },
+  "depots": {
+    "5051341": {
+      "manifests": {
+        "public": {
+          "download": "215453168",
+          "gid": "2255089089262543735",
+          "size": "451991596"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25102107",
+        "timebuildupdated": "1788440156",
+        "timeupdated": "1788440158"
+      }
+    }
+  },
+  "extended": {
+    "developer": "crossover",
+    "publisher": "Crossover Studio"
+  }
 }

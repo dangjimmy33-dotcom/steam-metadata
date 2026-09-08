@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1788837486,
-  "_history": [],
-  "_change_number": 38666629,
-  "_missing_token": true,
-  "_sha": "4a33ca926de38efbb44a9254835cd88ace25a3e8",
-  "_size": 3641,
+  "_lastChecked": 1788844333,
+  "_history": [
+    {
+      "buildId": "25167149",
+      "branch": "playtest",
+      "timeUpdated": 1788784689,
+      "firstSeen": 1788844333,
+      "manifests": {
+        "4994491": {
+          "gid": "6218365329821728137",
+          "size": 578262100,
+          "download": 217496864
+        }
+      }
+    },
+    {
+      "buildId": "25167154",
+      "branch": "public",
+      "timeUpdated": 1788784876,
+      "firstSeen": 1788844333,
+      "manifests": {
+        "4994491": {
+          "gid": "7437873737352119813",
+          "size": 578262100,
+          "download": 217555728
+        }
+      }
+    }
+  ],
+  "_change_number": 38684439,
+  "_missing_token": false,
+  "_sha": "9a3cc43fd367aeaf3688a12d9cfe43a0911c793a",
+  "_size": 4476,
   "appid": "4994490",
   "common": {
     "aicontenttype": "1",
@@ -28,7 +55,6 @@
     "clienticon": "7d7064a972fa373cfc17b07944f5ea6f07704298",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4994490",
     "genres": {
       "0": "4",
@@ -100,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f6c2f30b72b6a66391183a8e41da8adcc93b0185/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788841070",
     "store_asset_mtime": "1787296699",
     "store_tags": {
       "0": "597",
@@ -170,5 +197,50 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Run2Run",
+    "launch": {
+      "0": {
+        "executable": "RunRun.exe"
+      }
+    }
+  },
+  "depots": {
+    "4994491": {
+      "manifests": {
+        "playtest": {
+          "download": "217496864",
+          "gid": "6218365329821728137",
+          "size": "578262100"
+        },
+        "public": {
+          "download": "217555728",
+          "gid": "7437873737352119813",
+          "size": "578262100"
+        }
+      }
+    },
+    "branches": {
+      "playtest": {
+        "buildid": "25167149",
+        "description": "test",
+        "timebuildupdated": "1788784689",
+        "timeupdated": "1788784689"
+      },
+      "public": {
+        "buildid": "25167154",
+        "timebuildupdated": "1788784710",
+        "timeupdated": "1788784876"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Team_Ssaw",
+    "publisher": "Team_Ssaw"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "10000",
+    "sync_while_suspended": "1"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788836631,
-  "_history": [],
-  "_change_number": 38204762,
-  "_missing_token": true,
-  "_sha": "2d86a1460916127de6e104e4cb98593be8da7958",
-  "_size": 3118,
+  "_lastChecked": 1788843421,
+  "_history": [
+    {
+      "buildId": "24852758",
+      "branch": "public",
+      "timeUpdated": 1787278123,
+      "firstSeen": 1788843421,
+      "manifests": {
+        "4181301": {
+          "gid": "6995896130442279568",
+          "size": 211471963,
+          "download": 164055696
+        }
+      }
+    }
+  ],
+  "_change_number": 38684036,
+  "_missing_token": false,
+  "_sha": "b4e1ace01a64028cf2b7ba10a99c87e131c0d9d7",
+  "_size": 3723,
   "appid": "4181300",
   "common": {
     "associations": {
@@ -33,7 +47,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4181300",
     "genres": {
       "0": "25",
@@ -106,7 +119,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "70eac633a29594baca78c93359c0f00b0c414c24/capsule_231x87.jpg"
     },
@@ -141,5 +154,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Die Diver",
+    "launch": {
+      "0": {
+        "executable": "DieDiver.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "7",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "4181301": {
+      "manifests": {
+        "public": {
+          "download": "164055696",
+          "gid": "6995896130442279568",
+          "size": "211471963"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24852758",
+        "timebuildupdated": "1787277843",
+        "timeupdated": "1787278123"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Foe Laschite Games",
+    "isfreeapp": "1",
+    "publisher": "Foe Laschite Games"
+  }
 }

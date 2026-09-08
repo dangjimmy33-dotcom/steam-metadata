@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788832925,
+  "_lastChecked": 1788839482,
   "_history": [
     {
       "buildId": "22206522",
@@ -39,12 +39,25 @@
           "download": 4311488416
         }
       }
+    },
+    {
+      "buildId": "25178706",
+      "branch": "public",
+      "timeUpdated": 1788835297,
+      "firstSeen": 1788839482,
+      "manifests": {
+        "1191081": {
+          "gid": "155194688119458063",
+          "size": 4740748263,
+          "download": 4311825712
+        }
+      }
     }
   ],
-  "_change_number": 38631376,
+  "_change_number": 38682971,
   "_missing_token": false,
-  "_sha": "e7226bbddc14cfcac0f2b4b6dd986fa7201790d9",
-  "_size": 4918,
+  "_sha": "d5903df6036cff74b53dcf0d89f1f0e0b652ecf1",
+  "_size": 4961,
   "appid": "1191080",
   "common": {
     "aicontenttype": "1",
@@ -221,9 +234,9 @@
           "size": "5086521651"
         },
         "public": {
-          "download": "4311488416",
-          "gid": "4697871405851481211",
-          "size": "4740308236"
+          "download": "4311825712",
+          "gid": "155194688119458063",
+          "size": "4740748263"
         }
       }
     },
@@ -242,9 +255,9 @@
         "timeupdated": "1772684458"
       },
       "public": {
-        "buildid": "25143076",
-        "timebuildupdated": "1788626123",
-        "timeupdated": "1788628243"
+        "buildid": "25178706",
+        "timebuildupdated": "1788835163",
+        "timeupdated": "1788835297"
       }
     },
     "privatebranches": "1",
@@ -259,20 +272,20 @@
     "quota": "10000000000",
     "savefiles": {
       "0": {
-        "path": "SANCTION_Data/Saves",
+        "path": "LethalLizard Studios/SANCTION/Saves",
         "pattern": "*.data",
         "platforms": {
           "1": "Windows"
         },
-        "root": "gameinstall"
+        "root": "WinAppDataLocalLow"
       },
       "1": {
-        "path": "SANCTION_Data/Saves",
-        "pattern": "*.config",
+        "path": "LethalLizard Studios/SANCTION/Saves",
+        "pattern": "*.user",
         "platforms": {
           "1": "Windows"
         },
-        "root": "gameinstall"
+        "root": "WinAppDataLocalLow"
       }
     }
   }
