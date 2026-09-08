@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1788861646,
-  "_history": [],
-  "_change_number": 38690854,
-  "_missing_token": true,
-  "_sha": "b5029aa77a4f505eb932afcba4009b94a6a78fbc",
-  "_size": 3500,
+  "_lastChecked": 1788867112,
+  "_history": [
+    {
+      "buildId": "25182475",
+      "branch": "beta",
+      "timeUpdated": 1788854997,
+      "firstSeen": 1788867112,
+      "manifests": {
+        "4431751": {
+          "gid": "2216452766593304157",
+          "size": 328715953,
+          "download": 157105152
+        },
+        "4431752": {
+          "gid": "3933584084283885901",
+          "size": 328553968,
+          "download": 149936384
+        },
+        "4431753": {
+          "gid": "3313290741401790546",
+          "size": 315569126,
+          "download": 149758016
+        }
+      }
+    },
+    {
+      "buildId": "25182475",
+      "branch": "public",
+      "timeUpdated": 1788861111,
+      "firstSeen": 1788867112,
+      "manifests": {
+        "4431751": {
+          "gid": "2216452766593304157",
+          "size": 328715953,
+          "download": 157105152
+        },
+        "4431752": {
+          "gid": "3933584084283885901",
+          "size": 328553968,
+          "download": 149936384
+        },
+        "4431753": {
+          "gid": "3313290741401790546",
+          "size": 315569126,
+          "download": 149758016
+        }
+      }
+    }
+  ],
+  "_change_number": 38691120,
+  "_missing_token": false,
+  "_sha": "30215febff204ad7d0d9a677cd6e18d9946d3d7a",
+  "_size": 5765,
   "appid": "4431750",
   "common": {
     "associations": {
@@ -34,8 +81,8 @@
     },
     "clienticon": "c5398eb38d8579335cafb6c845e21b38e54ea3b7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4431750",
     "genres": {
       "0": "23",
@@ -112,10 +159,11 @@
     "osextended": "macos64,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "74973b12f19d73ee5706413e39de28a1d4260960/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788861787",
     "store_asset_mtime": "1788815195",
     "store_tags": {
       "0": "4364",
@@ -162,5 +210,124 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Restitutor",
+    "launch": {
+      "0": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Restitutor.exe"
+      },
+      "1": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Restitutor"
+      },
+      "2": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Restitutor.app"
+      }
+    }
+  },
+  "depots": {
+    "4431751": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "157105152",
+          "gid": "2216452766593304157",
+          "size": "328715953"
+        },
+        "public": {
+          "download": "157105152",
+          "gid": "2216452766593304157",
+          "size": "328715953"
+        }
+      }
+    },
+    "4431752": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "149936384",
+          "gid": "3933584084283885901",
+          "size": "328553968"
+        },
+        "public": {
+          "download": "149936384",
+          "gid": "3933584084283885901",
+          "size": "328553968"
+        }
+      }
+    },
+    "4431753": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "149758016",
+          "gid": "3313290741401790546",
+          "size": "315569126"
+        },
+        "public": {
+          "download": "149758016",
+          "gid": "3313290741401790546",
+          "size": "315569126"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "25182475",
+        "description": "Beta builds",
+        "timebuildupdated": "1788854997",
+        "timeupdated": "1788854997"
+      },
+      "public": {
+        "buildid": "25182475",
+        "timebuildupdated": "1788854997",
+        "timeupdated": "1788861111"
+      }
+    },
+    "workshopdepot": "4431750"
+  },
+  "extended": {
+    "developer": "FishPond",
+    "publisher": "Fish Pond Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RestitutorSaves/{64BitSteamID}/",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

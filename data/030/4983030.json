@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788862122,
-  "_history": [],
-  "_change_number": 38313615,
-  "_missing_token": true,
-  "_sha": "176fcaf5eb552514f3dbafe64835e544d68399b7",
-  "_size": 3158,
+  "_lastChecked": 1788867590,
+  "_history": [
+    {
+      "buildId": "24279452",
+      "branch": "public",
+      "timeUpdated": 1784428080,
+      "firstSeen": 1788867590,
+      "manifests": {
+        "4983031": {
+          "gid": "5592523578217237219",
+          "size": 53333240,
+          "download": 48940448
+        }
+      }
+    }
+  ],
+  "_change_number": 38691699,
+  "_missing_token": false,
+  "_sha": "0d517ea82f6cd05469102b30ae21d4b6ad422abc",
+  "_size": 3968,
   "appid": "4983030",
   "common": {
     "associations": {
@@ -28,7 +42,6 @@
     "clienticon": "2377bce4c075eb8dc49caf35ccf99c6c111cd23d",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4983030",
     "genres": {
       "0": "4",
@@ -101,11 +114,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8291f28acc43e8506cf172bfac9d94912fdced54/capsule_231x87.jpg",
       "koreana": "8291f28acc43e8506cf172bfac9d94912fdced54/capsule_231x87_koreana.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1786712502",
     "store_tags": {
       "0": "597",
@@ -137,5 +151,47 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Space Dart",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "32",
+          "oslist": "windows"
+        },
+        "executable": "Space Dart.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4983031": {
+      "manifests": {
+        "public": {
+          "download": "48940448",
+          "gid": "5592523578217237219",
+          "size": "53333240"
+        }
+      }
+    },
+    "baselanguages": "english,koreana",
+    "branches": {
+      "public": {
+        "buildid": "24279452",
+        "timebuildupdated": "1784427737",
+        "timeupdated": "1784428080"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kyeong Cheol Kim",
+    "publisher": "Kyeong Cheol Kim"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600"
+  }
 }

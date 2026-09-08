@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788861526,
+  "_lastChecked": 1788866991,
   "_history": [
     {
       "buildId": "25071886",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38615989,
+  "_change_number": 38693023,
   "_missing_token": false,
-  "_sha": "f224092dad9d9859a355e9973ffe8d56041623b4",
-  "_size": 4013,
+  "_sha": "d56a3ed9af33bc6aa6dab8cb687164c8b147faf7",
+  "_size": 5150,
   "appid": "4292950",
   "common": {
     "aicontenttype": "1",
@@ -134,6 +134,47 @@
     "review_score": "8",
     "small_capsule": {
       "english": "f28bc20a58175ed3e167b6a1b6e17d341e2e9bef/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "1",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "1",
+      "steam_machine_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "steamos_compatibility": "1",
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "test_timestamp": "1788261436",
+      "tested_build_id": "25052079",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+        }
+      }
     },
     "steam_release_date": "1787190804",
     "store_asset_mtime": "1787201098",

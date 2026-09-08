@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1788862185,
-  "_history": [],
-  "_change_number": 38626231,
-  "_missing_token": true,
-  "_sha": "0f556dd12c37999557002e8e17be12a11d1a4cef",
-  "_size": 3475,
+  "_lastChecked": 1788867653,
+  "_history": [
+    {
+      "buildId": "25139986",
+      "branch": "beta",
+      "timeUpdated": 1788605834,
+      "firstSeen": 1788867653,
+      "manifests": {
+        "5069161": {
+          "gid": "2929688485657455516",
+          "size": 785765351,
+          "download": 308609168
+        }
+      }
+    },
+    {
+      "buildId": "25139986",
+      "branch": "public",
+      "timeUpdated": 1788605834,
+      "firstSeen": 1788867653,
+      "manifests": {
+        "5069161": {
+          "gid": "2929688485657455516",
+          "size": 785765351,
+          "download": 308609168
+        }
+      }
+    }
+  ],
+  "_change_number": 38691936,
+  "_missing_token": false,
+  "_sha": "52bf07081b98a24f348a8f857a915e09388d1d01",
+  "_size": 4716,
   "appid": "5069160",
   "common": {
     "aicontenttype": "1",
@@ -32,7 +59,6 @@
     "clienticon": "beef907e80d1fae3cced52902737173e2754cf38",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5069160",
     "genres": {
       "0": "4",
@@ -104,10 +130,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8412624f7c4239a227cc108951aebedefbff0391/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788863705",
     "store_asset_mtime": "1787231500",
     "store_tags": {
       "0": "597",
@@ -165,5 +192,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "桌面寵物工作室 - DesktopPetStudio",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DesktopPetStudio.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5069161": {
+      "manifests": {
+        "beta": {
+          "download": "308609168",
+          "gid": "2929688485657455516",
+          "size": "785765351"
+        },
+        "public": {
+          "download": "308609168",
+          "gid": "2929688485657455516",
+          "size": "785765351"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "25139986",
+        "description": "公開測試版本",
+        "timebuildupdated": "1788605821",
+        "timeupdated": "1788605834"
+      },
+      "public": {
+        "buildid": "25139986",
+        "timebuildupdated": "1788605821",
+        "timeupdated": "1788605834"
+      }
+    },
+    "workshopdepot": "5069160"
+  },
+  "extended": {
+    "developer": "Rowan.l",
+    "homepage": "https://www.desktoppetstudio.com/",
+    "publisher": "個人"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "1073741824",
+    "savefiles": {
+      "0": {
+        "path": "DesktopPetStudio/profiles/{64BitSteamID}",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

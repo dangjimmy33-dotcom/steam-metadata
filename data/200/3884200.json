@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788861133,
-  "_history": [],
-  "_change_number": 38680812,
-  "_missing_token": true,
-  "_sha": "2cca5d8471df5cbd1805a8272d873fd0a29d7417",
-  "_size": 3021,
+  "_lastChecked": 1788866595,
+  "_history": [
+    {
+      "buildId": "25177155",
+      "branch": "public",
+      "timeUpdated": 1788826944,
+      "firstSeen": 1788866595,
+      "manifests": {
+        "3884201": {
+          "gid": "2409260812297459256",
+          "size": 244473480,
+          "download": 172722032
+        },
+        "3884202": {
+          "gid": "4440087847865250689",
+          "size": 328654832,
+          "download": 195766144
+        }
+      }
+    }
+  ],
+  "_change_number": 38691628,
+  "_missing_token": false,
+  "_sha": "01a8e16bf0a274ef0a243990705435e178672b65",
+  "_size": 4162,
   "appid": "3884200",
   "common": {
     "associations": {
@@ -29,8 +48,8 @@
     "clienticon": "4d94da9ba9656a24e33d46b75080bb6d12d818f7",
     "clienttga": "27c25a48849593347d20b8304a2a24d0945ee4f1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3884200",
     "genres": {
       "0": "23",
@@ -102,10 +121,11 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2bfa450e160cb7d3b83bfaae1a1e6f5b2dc7c944/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788862949",
     "store_asset_mtime": "1784745284",
     "store_tags": {
       "0": "5382",
@@ -132,5 +152,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Acceptable Losses",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Acceptable Losses.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Acceptable Losses.app/Contents/MacOS/Acceptable Losses",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3884201": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "172722032",
+          "gid": "2409260812297459256",
+          "size": "244473480"
+        }
+      }
+    },
+    "3884202": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "195766144",
+          "gid": "4440087847865250689",
+          "size": "328654832"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25177155",
+        "timebuildupdated": "1788826942",
+        "timeupdated": "1788826944"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Zann Archive",
+    "publisher": "Zann Archive"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "1000000"
+  }
 }

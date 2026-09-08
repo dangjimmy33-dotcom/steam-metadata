@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788861239,
+  "_lastChecked": 1788866702,
   "_history": [
     {
       "buildId": "25141163",
@@ -26,12 +26,25 @@
           "download": 397563968
         }
       }
+    },
+    {
+      "buildId": "25185038",
+      "branch": "public",
+      "timeUpdated": 1788864433,
+      "firstSeen": 1788866702,
+      "manifests": {
+        "3990271": {
+          "gid": "7612248714897764409",
+          "size": 875014625,
+          "download": 397958992
+        }
+      }
     }
   ],
-  "_change_number": 38690738,
+  "_change_number": 38692234,
   "_missing_token": false,
-  "_sha": "9cb7d8e8a2ab60a1edfdeee79892b04ac42b4442",
-  "_size": 4941,
+  "_sha": "7f43488b9485294aee0de4d2e6c63fea14f40026",
+  "_size": 4866,
   "appid": "3990270",
   "common": {
     "aicontenttype": "1",
@@ -209,21 +222,20 @@
       },
       "manifests": {
         "public": {
-          "download": "397563968",
-          "gid": "1364115181957756445",
-          "size": "875031953"
+          "download": "397958992",
+          "gid": "7612248714897764409",
+          "size": "875014625"
         }
       }
     },
     "baselanguages": "english,japanese,koreana,schinese,tchinese",
     "branches": {
       "public": {
-        "buildid": "25144733",
-        "timebuildupdated": "1788637362",
-        "timeupdated": "1788637387"
+        "buildid": "25185038",
+        "timebuildupdated": "1788864147",
+        "timeupdated": "1788864433"
       }
-    },
-    "privatebranches": "1"
+    }
   },
   "extended": {
     "developer": "SlowWork",
@@ -232,8 +244,6 @@
     "publisher": "SlowWork"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "2",
     "quota": "10000000",
     "savefiles": {

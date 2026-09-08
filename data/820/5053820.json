@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788862175,
+  "_lastChecked": 1788867643,
   "_history": [
     {
       "buildId": "25139640",
@@ -26,12 +26,25 @@
           "download": 142978960
         }
       }
+    },
+    {
+      "buildId": "25185239",
+      "branch": "public",
+      "timeUpdated": 1788864870,
+      "firstSeen": 1788867643,
+      "manifests": {
+        "5053821": {
+          "gid": "4906428423070909672",
+          "size": 641322780,
+          "download": 142991296
+        }
+      }
     }
   ],
-  "_change_number": 38680032,
+  "_change_number": 38692370,
   "_missing_token": false,
-  "_sha": "a4fba67ba6c8f5a65653da92fb8f09d208dedef0",
-  "_size": 3988,
+  "_sha": "03a9394797f8d8fcbc7f272d114659fab3a458f9",
+  "_size": 3990,
   "appid": "5053820",
   "common": {
     "aicontenttype": "1",
@@ -188,17 +201,17 @@
     "5053821": {
       "manifests": {
         "public": {
-          "download": "142978960",
-          "gid": "8143648887960611233",
-          "size": "641030324"
+          "download": "142991296",
+          "gid": "4906428423070909672",
+          "size": "641322780"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25163195",
-        "timebuildupdated": "1788768898",
-        "timeupdated": "1788769333"
+        "buildid": "25185239",
+        "timebuildupdated": "1788864768",
+        "timeupdated": "1788864870"
       }
     },
     "privatebranches": "1",
@@ -212,7 +225,7 @@
     "publisher": "FoliesAPP"
   },
   "ufs": {
-    "maxnumfiles": "1000",
-    "quota": "1000000000"
+    "maxnumfiles": "10000",
+    "quota": "10000000000"
   }
 }

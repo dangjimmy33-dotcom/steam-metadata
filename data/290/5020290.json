@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788862150,
-  "_history": [],
-  "_change_number": 38625012,
-  "_missing_token": true,
-  "_sha": "3fd12b9d798b06f10b5d1626fd165efa6cd73c34",
-  "_size": 4467,
+  "_lastChecked": 1788867618,
+  "_history": [
+    {
+      "buildId": "25123480",
+      "branch": "public",
+      "timeUpdated": 1788525957,
+      "firstSeen": 1788867618,
+      "manifests": {
+        "5020291": {
+          "gid": "7949981216604054342",
+          "size": 397364618,
+          "download": 249413280
+        },
+        "5020292": {
+          "gid": "7202370876400712559",
+          "size": 417369065,
+          "download": 258539072
+        }
+      }
+    }
+  ],
+  "_change_number": 38692595,
+  "_missing_token": false,
+  "_sha": "2c312bca19d24fab1362b9794f4d8ade9ae3f1e3",
+  "_size": 5441,
   "appid": "5020290",
   "common": {
     "aicontenttype": "1",
@@ -35,7 +54,6 @@
     "clienticon": "935923dd584f583a1be96c359c811dff3c1d1a6c",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5020290",
     "genres": {
       "0": "2",
@@ -106,10 +124,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6797065879b046979ffe827899eb0325a4cc1265/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788865443",
     "store_asset_mtime": "1788599736",
     "store_tags": {
       "0": "9",
@@ -214,5 +233,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Spellsteel",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Spellsteel.app"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Spellsteel.exe"
+      }
+    }
+  },
+  "depots": {
+    "5020291": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "249413280",
+          "gid": "7949981216604054342",
+          "size": "397364618"
+        }
+      }
+    },
+    "5020292": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "258539072",
+          "gid": "7202370876400712559",
+          "size": "417369065"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25123480",
+        "timebuildupdated": "1788523841",
+        "timeupdated": "1788525957"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kharadum Studios",
+    "homepage": "https://www.spellsteel.com/",
+    "isfreeapp": "1",
+    "publisher": "Kharadum Studios"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788861418,
-  "_history": [],
-  "_change_number": 38147951,
-  "_missing_token": true,
-  "_sha": "9d4ffea3e7c7d20a9175a84eebbfc778060d26f1",
-  "_size": 3270,
+  "_lastChecked": 1788866882,
+  "_history": [
+    {
+      "buildId": "25099626",
+      "branch": "public",
+      "timeUpdated": 1788865765,
+      "firstSeen": 1788866882,
+      "manifests": {
+        "4182211": {
+          "gid": "3065011321910202448",
+          "size": 998127105,
+          "download": 331066640
+        }
+      }
+    }
+  ],
+  "_change_number": 38692762,
+  "_missing_token": false,
+  "_sha": "dc8e741f6974f36342d9a2a148a2835e908b9653",
+  "_size": 3976,
   "appid": "4182210",
   "common": {
     "associations": {
@@ -34,7 +48,6 @@
     "clienticon": "bec96d42d76a22039c56aa83d12aea85ce7de959",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4182210",
     "genres": {
       "0": "4",
@@ -111,11 +124,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b1dc16241a751578603f2b817e2f16ccc03abbb7/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1786099219",
+    "steam_release_date": "1798704000",
+    "store_asset_mtime": "1788428013",
     "store_tags": {
       "0": "97376",
       "1": "21978",
@@ -145,5 +159,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dark Ride",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Dark Ride.exe",
+        "type": "vr"
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "4182211": {
+      "manifests": {
+        "public": {
+          "download": "331066640",
+          "gid": "3065011321910202448",
+          "size": "998127105"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25099626",
+        "timebuildupdated": "1788431691",
+        "timeupdated": "1788865765"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Paleozoic",
+    "homepage": "https://paleozoicblog.com",
+    "isfreeapp": "1",
+    "publisher": "Enetermotion",
+    "vrheadsetstreaming": "0"
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788862105,
-  "_history": [],
-  "_change_number": 38367932,
-  "_missing_token": true,
-  "_sha": "4216de2169d96407725e0c498ed2a5d29b244b93",
-  "_size": 3198,
+  "_lastChecked": 1788867573,
+  "_history": [
+    {
+      "buildId": "24844824",
+      "branch": "public",
+      "timeUpdated": 1787244988,
+      "firstSeen": 1788867573,
+      "manifests": {
+        "4961991": {
+          "gid": "8839153917632266053",
+          "size": 199164035,
+          "download": 80160416
+        },
+        "4961992": {
+          "gid": "1825569271032579434",
+          "size": 214456289,
+          "download": 87663328
+        }
+      }
+    }
+  ],
+  "_change_number": 38692724,
+  "_missing_token": false,
+  "_sha": "353b8e4688463972b1f3615d6414a3226dd1ba94",
+  "_size": 4494,
   "appid": "4961990",
   "common": {
     "aicontenttype": "1",
@@ -34,8 +53,8 @@
     "clienticns": "cb5bae526a1febd4a22d68795a4db176656a6522",
     "clienticon": "cb5bae526a1febd4a22d68795a4db176656a6522",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4961990",
     "genres": {
       "0": "4",
@@ -109,7 +128,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f4817743cb96013f1454b7dbab4e993fc4a5ada4/capsule_231x87.jpg"
     },
@@ -138,5 +157,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "語彙コイン",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Goicoin.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Goicoin.app"
+      }
+    }
+  },
+  "depots": {
+    "4961991": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "80160416",
+          "gid": "8839153917632266053",
+          "size": "199164035"
+        }
+      }
+    },
+    "4961992": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "87663328",
+          "gid": "1825569271032579434",
+          "size": "214456289"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24844824",
+        "timebuildupdated": "1787244263",
+        "timeupdated": "1787244988"
+      }
+    }
+  },
+  "extended": {
+    "developer": "nonbirinon223",
+    "publisher": "nonbirinon223"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "nonbirinon223/Goicoin",
+        "pattern": "goi_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "nonbirinon223/Goicoin",
+        "pattern": "goi_*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

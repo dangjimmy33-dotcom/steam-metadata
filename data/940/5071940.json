@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788862188,
-  "_history": [],
-  "_change_number": 38679302,
-  "_missing_token": true,
-  "_sha": "705e89bdec850eb79741973cec5b79dbb061672c",
-  "_size": 3793,
+  "_lastChecked": 1788867655,
+  "_history": [
+    {
+      "buildId": "25175910",
+      "branch": "public",
+      "timeUpdated": 1788820810,
+      "firstSeen": 1788867655,
+      "manifests": {
+        "5071941": {
+          "gid": "3289008271869093731",
+          "size": 1075437119,
+          "download": 302227440
+        }
+      }
+    }
+  ],
+  "_change_number": 38693539,
+  "_missing_token": false,
+  "_sha": "553f7d1d0dc2a8f86b1b72b9aec68b1a3e79a2cd",
+  "_size": 4455,
   "appid": "5071940",
   "common": {
     "associations": {
@@ -30,7 +44,6 @@
     "clienticon": "111fb37f1fb31110a98f61250738196248fec0c1",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5071940",
     "genres": {
       "0": "1",
@@ -103,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0ec7874dec29dce7ea7590646fac3f3474da6509/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788867579",
     "store_asset_mtime": "1787362884",
     "store_tags": {
       "0": "4486",
@@ -178,5 +192,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "King Assassination",
+    "launch": {
+      "0": {
+        "executable": "King Assassination.exe"
+      }
+    }
+  },
+  "depots": {
+    "5071941": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "302227440",
+          "gid": "3289008271869093731",
+          "size": "1075437119"
+        }
+      }
+    },
+    "5071943": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25175910",
+        "timebuildupdated": "1788820494",
+        "timeupdated": "1788820810"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Softera Gaming",
+    "publisher": "Softera Gaming"
+  }
 }
