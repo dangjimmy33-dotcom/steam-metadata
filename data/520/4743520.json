@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788850961,
-  "_history": [],
-  "_change_number": 37086874,
-  "_missing_token": true,
-  "_sha": "a3322b289032329d262f57a5f3e9eabd6552e28a",
-  "_size": 3695,
+  "_lastChecked": 1788856485,
+  "_history": [
+    {
+      "buildId": "23493048",
+      "branch": "public",
+      "timeUpdated": 1780221412,
+      "firstSeen": 1788856485,
+      "manifests": {
+        "4743521": {
+          "gid": "2982887930810450392",
+          "size": 13519726986,
+          "download": 6820401984
+        }
+      }
+    }
+  ],
+  "_change_number": 38687363,
+  "_missing_token": false,
+  "_sha": "cc895657a6861d3aafa320127a133c0283997c3b",
+  "_size": 4309,
   "appid": "4743520",
   "common": {
     "associations": {
@@ -43,7 +57,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4743520",
     "genres": {
       "0": "25",
@@ -115,7 +128,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b8a40a21c2425e48c56164c4a1f024d35d00dd0f/capsule_231x87.jpg"
     },
@@ -171,5 +184,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Don't Fall",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Don't Fall.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4743521": {
+      "manifests": {
+        "public": {
+          "download": "6820401984",
+          "gid": "2982887930810450392",
+          "size": "13519726986"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "23493048",
+        "timebuildupdated": "1780221231",
+        "timeupdated": "1780221412"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Pelagos",
+    "homepage": "https://www.instagram.com/dontfall_off/",
+    "publisher": "Pelagos"
+  }
 }

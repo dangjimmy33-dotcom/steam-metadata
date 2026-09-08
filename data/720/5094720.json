@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788851315,
-  "_history": [],
-  "_change_number": 38656552,
-  "_missing_token": true,
-  "_sha": "4a3639bdc434bd397e0eddb6960cbe7938764c2a",
-  "_size": 3404,
+  "_lastChecked": 1788856765,
+  "_history": [
+    {
+      "buildId": "25160641",
+      "branch": "public",
+      "timeUpdated": 1788754124,
+      "firstSeen": 1788856765,
+      "manifests": {
+        "5094721": {
+          "gid": "3853161024613270972",
+          "size": 1091910840,
+          "download": 45735920
+        }
+      }
+    }
+  ],
+  "_change_number": 38688033,
+  "_missing_token": false,
+  "_sha": "c0d14043a05da8416690b98e0e8f9dc366c47c36",
+  "_size": 4135,
   "appid": "5094720",
   "common": {
     "associations": {
@@ -33,8 +47,8 @@
     },
     "clienticon": "ce22922b4655940c6fe0d2391f8adb324967bf41",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5094720",
     "genres": {
       "0": "4",
@@ -113,7 +127,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a3e6b5b441fc9e899417805e785e9904fb74ed9f/capsule_231x87.jpg"
     },
@@ -159,5 +173,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Desktop P2W Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Desktop P2W Simulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "5094721": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "45735920",
+          "gid": "3853161024613270972",
+          "size": "1091910840"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,koreana,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25160641",
+        "timebuildupdated": "1788753958",
+        "timeupdated": "1788754124"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Haram",
+    "publisher": "Haram"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760"
+  }
 }

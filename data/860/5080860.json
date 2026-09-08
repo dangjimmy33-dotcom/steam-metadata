@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788851304,
-  "_history": [],
-  "_change_number": 38310351,
-  "_missing_token": true,
-  "_sha": "61f20f84298056f7da1180087f0da50c9a643919",
-  "_size": 7747,
+  "_lastChecked": 1788856756,
+  "_history": [
+    {
+      "buildId": "24637525",
+      "branch": "public",
+      "timeUpdated": 1786267735,
+      "firstSeen": 1788856756,
+      "manifests": {
+        "5080861": {
+          "gid": "8688109185153885411",
+          "size": 279949624,
+          "download": 36764224
+        }
+      }
+    }
+  ],
+  "_change_number": 38687976,
+  "_missing_token": false,
+  "_sha": "fa8ea1604fa171634b8a7b979200faca58b867ef",
+  "_size": 8342,
   "appid": "5080860",
   "common": {
     "associations": {
@@ -32,8 +46,8 @@
     },
     "clienticon": "4acf7b2900de0e69795c33b5b030c9c1180ea0ea",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5080860",
     "genres": {
       "0": "4",
@@ -104,7 +118,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "55a4105caa6944d13e1fac49199f3197b30cf13f/capsule_231x87.jpg"
     },
@@ -442,5 +456,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "WhatRUDoingGreen!",
+    "launch": {
+      "0": {
+        "executable": "RGBPlatform.exe",
+        "type": "default",
+        "workingdir": "."
+      }
+    }
+  },
+  "depots": {
+    "5080861": {
+      "manifests": {
+        "public": {
+          "download": "36764224",
+          "gid": "8688109185153885411",
+          "size": "279949624"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24637525",
+        "timebuildupdated": "1786267669",
+        "timeupdated": "1786267735"
+      }
+    }
+  },
+  "extended": {
+    "developer": "HARAM",
+    "publisher": "HARAM"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "10485760"
+  }
 }

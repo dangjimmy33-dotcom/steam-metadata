@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788851333,
-  "_history": [],
-  "_change_number": 38636296,
-  "_missing_token": true,
-  "_sha": "3f8e269ac31e37e4beba08fd4028ee4ab81e47f4",
-  "_size": 3109,
+  "_lastChecked": 1788856779,
+  "_history": [
+    {
+      "buildId": "24852534",
+      "branch": "public",
+      "timeUpdated": 1787276608,
+      "firstSeen": 1788856779,
+      "manifests": {
+        "5118421": {
+          "gid": "59226065664828498",
+          "size": 478217096,
+          "download": 154349024
+        }
+      }
+    }
+  ],
+  "_change_number": 38688668,
+  "_missing_token": false,
+  "_sha": "3ada9076ba7b0ef663b524b13a8b961b733ea1ee",
+  "_size": 3864,
   "appid": "5118420",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +47,8 @@
     },
     "clienticon": "0d761a736fc522c965a14457c445ae2108891a0a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5118420",
     "genres": {
       "0": "4",
@@ -106,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2c7bc454aac0428c8eff17daa8dd5ff00040792d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788855774",
     "store_asset_mtime": "1786920063",
     "store_tags": {
       "0": "597",
@@ -139,5 +154,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hyper ACK",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "hyperack.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5118421": {
+      "manifests": {
+        "public": {
+          "download": "154349024",
+          "gid": "59226065664828498",
+          "size": "478217096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24852534",
+        "timebuildupdated": "1787276577",
+        "timeupdated": "1787276608"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Mosphere Games",
+    "publisher": "Mosphere Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "400000000"
+  }
 }

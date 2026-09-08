@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788846642,
+  "_lastChecked": 1788853133,
   "_history": [
     {
       "buildId": "24908655",
@@ -90,11 +90,47 @@
           "download": 945794624
         }
       }
+    },
+    {
+      "buildId": "25181590",
+      "branch": "development",
+      "timeUpdated": 1788851761,
+      "firstSeen": 1788853133,
+      "manifests": {
+        "1383151": {
+          "gid": "1341252951170901711",
+          "size": 2495098157,
+          "download": 985036128
+        },
+        "1383152": {
+          "gid": "3623528673048316476",
+          "size": 2467976764,
+          "download": 969780352
+        }
+      }
+    },
+    {
+      "buildId": "25181590",
+      "branch": "pre-release",
+      "timeUpdated": 1788851753,
+      "firstSeen": 1788853133,
+      "manifests": {
+        "1383151": {
+          "gid": "1341252951170901711",
+          "size": 2495098157,
+          "download": 985036128
+        },
+        "1383152": {
+          "gid": "3623528673048316476",
+          "size": 2467976764,
+          "download": 969780352
+        }
+      }
     }
   ],
-  "_change_number": 38287676,
+  "_change_number": 38687195,
   "_missing_token": false,
-  "_sha": "dfc552533c4233135fdb68cc1bad2e0915764fa3",
+  "_sha": "b107873500a42ad62d8549bb063c10879cf666e3",
   "_size": 9381,
   "appid": "1383150",
   "common": {
@@ -378,9 +414,9 @@
       },
       "manifests": {
         "development": {
-          "download": "985023056",
-          "gid": "6205497121669385084",
-          "size": "2495082667"
+          "download": "985036128",
+          "gid": "1341252951170901711",
+          "size": "2495098157"
         },
         "development-previous": {
           "download": "985016176",
@@ -388,9 +424,9 @@
           "size": "2495220866"
         },
         "pre-release": {
-          "download": "985023056",
-          "gid": "6205497121669385084",
-          "size": "2495082667"
+          "download": "985036128",
+          "gid": "1341252951170901711",
+          "size": "2495098157"
         },
         "public": {
           "download": "985023056",
@@ -412,9 +448,9 @@
       },
       "manifests": {
         "development": {
-          "download": "969748416",
-          "gid": "3380791847991465832",
-          "size": "2468066692"
+          "download": "969780352",
+          "gid": "3623528673048316476",
+          "size": "2467976764"
         },
         "development-previous": {
           "download": "969754080",
@@ -422,9 +458,9 @@
           "size": "2468013632"
         },
         "pre-release": {
-          "download": "969748416",
-          "gid": "3380791847991465832",
-          "size": "2468066692"
+          "download": "969780352",
+          "gid": "3623528673048316476",
+          "size": "2467976764"
         },
         "public": {
           "download": "969748416",
@@ -440,10 +476,10 @@
     },
     "branches": {
       "development": {
-        "buildid": "24908655",
+        "buildid": "25181590",
         "description": "May be unstable!  For playtesting the latest changes",
-        "timebuildupdated": "1787582276",
-        "timeupdated": "1787582734"
+        "timebuildupdated": "1788851309",
+        "timeupdated": "1788851761"
       },
       "development-previous": {
         "buildid": "24648563",
@@ -452,10 +488,10 @@
         "timeupdated": "1786415139"
       },
       "pre-release": {
-        "buildid": "24908655",
+        "buildid": "25181590",
         "description": "Early access release of the main production release",
-        "timebuildupdated": "1787582276",
-        "timeupdated": "1787582725"
+        "timebuildupdated": "1788851309",
+        "timeupdated": "1788851753"
       },
       "public": {
         "buildid": "24908655",

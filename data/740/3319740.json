@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788849243,
+  "_lastChecked": 1788855142,
   "_history": [
     {
       "buildId": "20064205",
@@ -18,12 +18,30 @@
           "download": 70325200
         }
       }
+    },
+    {
+      "buildId": "25181126",
+      "branch": "public",
+      "timeUpdated": 1788849756,
+      "firstSeen": 1788855142,
+      "manifests": {
+        "3319741": {
+          "gid": "3238488071811722841",
+          "size": 1655036953,
+          "download": 85960832
+        },
+        "3319742": {
+          "gid": "8671768298384559956",
+          "size": 1662502922,
+          "download": 88966848
+        }
+      }
     }
   ],
-  "_change_number": 38334828,
+  "_change_number": 38686668,
   "_missing_token": false,
-  "_sha": "09fe59d1d1c59a4a8ed67f1c8b2e461d6cac820e",
-  "_size": 6799,
+  "_sha": "6af54b4f83de0578400d18bfd433757a25811527",
+  "_size": 7009,
   "appid": "3319740",
   "common": {
     "aicontenttype": "1",
@@ -168,6 +186,10 @@
       "9": "3964"
     },
     "supported_languages": {
+      "arabic": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "belarusian": {
         "subtitles": "true",
         "supported": "true"
@@ -203,6 +225,10 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "latam": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "lithuanian": {
         "subtitles": "true",
         "supported": "true"
@@ -216,6 +242,10 @@
         "supported": "true"
       },
       "schinese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "spanish": {
         "subtitles": "true",
         "supported": "true"
       },
@@ -259,9 +289,9 @@
       },
       "manifests": {
         "public": {
-          "download": "68309664",
-          "gid": "5500377919433642454",
-          "size": "1549164954"
+          "download": "85960832",
+          "gid": "3238488071811722841",
+          "size": "1655036953"
         }
       }
     },
@@ -271,18 +301,18 @@
       },
       "manifests": {
         "public": {
-          "download": "70325200",
-          "gid": "6516775014771383698",
-          "size": "1556292261"
+          "download": "88966848",
+          "gid": "8671768298384559956",
+          "size": "1662502922"
         }
       }
     },
     "baselanguages": "english,schinese,tchinese",
     "branches": {
       "public": {
-        "buildid": "20064205",
-        "timebuildupdated": "1758434542",
-        "timeupdated": "1758434682"
+        "buildid": "25181126",
+        "timebuildupdated": "1788849237",
+        "timeupdated": "1788849756"
       }
     },
     "privatebranches": "1"

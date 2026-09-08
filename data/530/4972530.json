@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788851204,
+  "_lastChecked": 1788856677,
   "_history": [
     {
       "buildId": "24277765",
@@ -13,12 +13,25 @@
           "download": 164768528
         }
       }
+    },
+    {
+      "buildId": "25181168",
+      "branch": "public",
+      "timeUpdated": 1788853607,
+      "firstSeen": 1788856677,
+      "manifests": {
+        "4972531": {
+          "gid": "3523911816331353614",
+          "size": 356263010,
+          "download": 164797984
+        }
+      }
     }
   ],
-  "_change_number": 37959560,
+  "_change_number": 38688311,
   "_missing_token": false,
-  "_sha": "b69e30b66a77162d404144c32cff20173611b1d5",
-  "_size": 4188,
+  "_sha": "39377a54c381653187743f7f545ac4848be0a3c4",
+  "_size": 4374,
   "appid": "4972530",
   "common": {
     "aicontenttype": "1",
@@ -139,6 +152,9 @@
       "9": "1770"
     },
     "supported_languages": {
+      "brazilian": {
+        "supported": "true"
+      },
       "english": {
         "supported": "true"
       },
@@ -148,6 +164,9 @@
       "german": {
         "supported": "true"
       },
+      "greek": {
+        "supported": "true"
+      },
       "italian": {
         "supported": "true"
       },
@@ -155,6 +174,9 @@
         "supported": "true"
       },
       "koreana": {
+        "supported": "true"
+      },
+      "latam": {
         "supported": "true"
       },
       "portuguese": {
@@ -170,6 +192,9 @@
         "supported": "true"
       },
       "tchinese": {
+        "supported": "true"
+      },
+      "turkish": {
         "supported": "true"
       }
     },
@@ -191,18 +216,18 @@
       },
       "manifests": {
         "public": {
-          "download": "164768528",
-          "gid": "4776535700919643219",
-          "size": "353054411"
+          "download": "164797984",
+          "gid": "3523911816331353614",
+          "size": "356263010"
         }
       }
     },
     "baselanguages": "english,french,german,italian,japanese,koreana,portuguese,russian,schinese,spanish,tchinese",
     "branches": {
       "public": {
-        "buildid": "24277765",
-        "timebuildupdated": "1784411537",
-        "timeupdated": "1784411824"
+        "buildid": "25181168",
+        "timebuildupdated": "1788849376",
+        "timeupdated": "1788853607"
       }
     }
   },

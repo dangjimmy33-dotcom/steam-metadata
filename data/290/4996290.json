@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788851227,
-  "_history": [],
-  "_change_number": 38336461,
-  "_missing_token": true,
-  "_sha": "734e38d0dde5753b8fae65dedb960718e28fb631",
-  "_size": 3011,
+  "_lastChecked": 1788856695,
+  "_history": [
+    {
+      "buildId": "25182167",
+      "branch": "public",
+      "timeUpdated": 1788853837,
+      "firstSeen": 1788856695,
+      "manifests": {
+        "4996291": {
+          "gid": "8732065192414429721",
+          "size": 260001266,
+          "download": 79045024
+        }
+      }
+    }
+  ],
+  "_change_number": 38687989,
+  "_missing_token": false,
+  "_sha": "ddf8d5838ee991385a6eeb6451c6ab81590e6ae6",
+  "_size": 3880,
   "appid": "4996290",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +43,8 @@
     },
     "clienticon": "ad69fe06e84fa247f0b5da100fbd78e3cbf5bac5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4996290",
     "genres": {
       "0": "2"
@@ -103,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3630919c323b22b626a3d7ebd6c0cb8ea4963102/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788853870",
     "store_asset_mtime": "1784679902",
     "store_tags": {
       "0": "9",
@@ -126,5 +141,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "プリンセス・パズル～禁じられた遊戯～",
+    "launch": {
+      "0": {
+        "executable": "princesspazul.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4996291": {
+      "manifests": {
+        "public": {
+          "download": "79045024",
+          "gid": "8732065192414429721",
+          "size": "260001266"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25182167",
+        "timebuildupdated": "1788853708",
+        "timeupdated": "1788853837"
+      }
+    }
+  },
+  "extended": {
+    "developer": "みらいゲームズ",
+    "publisher": "みらいゲームズ"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "mirailoveratory/princesspazul",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

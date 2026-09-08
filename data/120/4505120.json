@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788850696,
+  "_lastChecked": 1788856278,
   "_history": [
     {
       "buildId": "25071878",
@@ -13,12 +13,25 @@
           "download": 416198992
         }
       }
+    },
+    {
+      "buildId": "25181504",
+      "branch": "public",
+      "timeUpdated": 1788851143,
+      "firstSeen": 1788856278,
+      "manifests": {
+        "4505121": {
+          "gid": "6287890479742265855",
+          "size": 3454620957,
+          "download": 448533552
+        }
+      }
     }
   ],
-  "_change_number": 38528192,
+  "_change_number": 38687107,
   "_missing_token": false,
-  "_sha": "ccfc575d90efc20a7698607e6dbf022813c6940d",
-  "_size": 5055,
+  "_sha": "bd7822b521bebdbaad10673061775246b4160e19",
+  "_size": 7609,
   "appid": "4505120",
   "common": {
     "aicontenttype": "1",
@@ -149,70 +162,215 @@
       "6": "493"
     },
     "supported_languages": {
+      "albanian": {
+        "supported": "true"
+      },
       "arabic": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "armenian": {
+        "supported": "true"
+      },
+      "basque": {
+        "supported": "true"
+      },
+      "belarusian": {
+        "supported": "true"
+      },
+      "bosnian": {
         "supported": "true"
       },
       "brazilian": {
+        "subtitles": "true",
         "supported": "true"
       },
       "bulgarian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "catalan": {
+        "supported": "true"
+      },
+      "croatian": {
+        "supported": "true"
+      },
+      "czech": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "danish": {
+        "subtitles": "true",
         "supported": "true"
       },
       "dutch": {
+        "subtitles": "true",
         "supported": "true"
       },
       "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "estonian": {
+        "supported": "true"
+      },
+      "filipino": {
+        "supported": "true"
+      },
+      "finnish": {
+        "subtitles": "true",
         "supported": "true"
       },
       "french": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "galician": {
+        "supported": "true"
+      },
+      "georgian": {
         "supported": "true"
       },
       "german": {
+        "subtitles": "true",
         "supported": "true"
       },
       "greek": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "gujarati": {
+        "supported": "true"
+      },
+      "gurmukhi": {
+        "supported": "true"
+      },
+      "hebrew": {
+        "supported": "true"
+      },
+      "hindi": {
+        "supported": "true"
+      },
+      "hungarian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "icelandic": {
         "supported": "true"
       },
       "indonesian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "irish": {
         "supported": "true"
       },
       "italian": {
+        "subtitles": "true",
         "supported": "true"
       },
       "japanese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "kannada": {
+        "supported": "true"
+      },
+      "kazakh": {
         "supported": "true"
       },
       "koreana": {
+        "subtitles": "true",
         "supported": "true"
       },
       "latam": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "latvian": {
+        "supported": "true"
+      },
+      "lithuanian": {
+        "supported": "true"
+      },
+      "macedonian": {
         "supported": "true"
       },
       "malay": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "malayalam": {
+        "supported": "true"
+      },
+      "maltese": {
+        "supported": "true"
+      },
+      "norwegian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "persian": {
         "supported": "true"
       },
       "polish": {
+        "subtitles": "true",
         "supported": "true"
       },
       "portuguese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "romanian": {
+        "subtitles": "true",
         "supported": "true"
       },
       "russian": {
+        "subtitles": "true",
         "supported": "true"
       },
       "schinese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "serbian": {
+        "supported": "true"
+      },
+      "shahmukhi": {
+        "supported": "true"
+      },
+      "slovak": {
+        "supported": "true"
+      },
+      "slovenian": {
         "supported": "true"
       },
       "spanish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "swedish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "tchinese": {
+        "subtitles": "true",
         "supported": "true"
       },
       "thai": {
+        "subtitles": "true",
         "supported": "true"
       },
       "turkish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "ukrainian": {
+        "subtitles": "true",
         "supported": "true"
       },
       "vietnamese": {
+        "subtitles": "true",
         "supported": "true"
       }
     },
@@ -233,18 +391,18 @@
     "4505121": {
       "manifests": {
         "public": {
-          "download": "416198992",
-          "gid": "466666640102107181",
-          "size": "3352650463"
+          "download": "448533552",
+          "gid": "6287890479742265855",
+          "size": "3454620957"
         }
       }
     },
     "baselanguages": "arabic,brazilian,dutch,english,french,german,greek,indonesian,italian,japanese,koreana,latam,malay,polish,portuguese,russian,schinese,spanish,thai,turkish",
     "branches": {
       "public": {
-        "buildid": "25071878",
-        "timebuildupdated": "1788319807",
-        "timeupdated": "1788320340"
+        "buildid": "25181504",
+        "timebuildupdated": "1788850903",
+        "timeupdated": "1788851143"
       }
     },
     "workshopdepot": "4505120"

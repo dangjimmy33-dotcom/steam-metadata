@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788851310,
+  "_lastChecked": 1788856761,
   "_history": [
     {
       "buildId": "25149197",
@@ -78,12 +78,25 @@
           "download": 217056288
         }
       }
+    },
+    {
+      "buildId": "25182453",
+      "branch": "public",
+      "timeUpdated": 1788855308,
+      "firstSeen": 1788856761,
+      "manifests": {
+        "5088121": {
+          "gid": "4066863387208539897",
+          "size": 309952422,
+          "download": 233698832
+        }
+      }
     }
   ],
-  "_change_number": 38684103,
+  "_change_number": 38688659,
   "_missing_token": false,
-  "_sha": "8cdeca64c98c2a1936a5aff59d1bbb5054e6e581",
-  "_size": 4705,
+  "_sha": "1d8867ab60fc27007bf01d3d2ce18a1b48cda064",
+  "_size": 4848,
   "appid": "5088120",
   "common": {
     "aicontenttype": "1",
@@ -213,7 +226,16 @@
       "9": "5851"
     },
     "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
       "schinese": {
+        "supported": "true"
+      },
+      "tchinese": {
         "supported": "true"
       }
     },
@@ -245,9 +267,9 @@
     "5088121": {
       "manifests": {
         "public": {
-          "download": "215011296",
-          "gid": "7569243532561280133",
-          "size": "286993472"
+          "download": "233698832",
+          "gid": "4066863387208539897",
+          "size": "309952422"
         },
         "steam-integration": {
           "download": "217056288",
@@ -265,9 +287,9 @@
     "baselanguages": "schinese",
     "branches": {
       "public": {
-        "buildid": "25164373",
-        "timebuildupdated": "1788773724",
-        "timeupdated": "1788773838"
+        "buildid": "25182453",
+        "timebuildupdated": "1788854885",
+        "timeupdated": "1788855308"
       },
       "steam-integration": {
         "buildid": "25179481",

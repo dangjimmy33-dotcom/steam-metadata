@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788851255,
+  "_lastChecked": 1788856718,
   "_history": [
     {
       "buildId": "24968146",
@@ -54,12 +54,48 @@
           "download": 124674368
         }
       }
+    },
+    {
+      "buildId": "25181585",
+      "branch": "beta",
+      "timeUpdated": 1788851277,
+      "firstSeen": 1788856718,
+      "manifests": {
+        "5027511": {
+          "gid": "8409115495707646837",
+          "size": 137815052,
+          "download": 124844816
+        },
+        "5027512": {
+          "gid": "3364652006206638893",
+          "size": 138106344,
+          "download": 124674368
+        }
+      }
+    },
+    {
+      "buildId": "25181629",
+      "branch": "public",
+      "timeUpdated": 1788851523,
+      "firstSeen": 1788856718,
+      "manifests": {
+        "5027511": {
+          "gid": "8409115495707646837",
+          "size": 137815052,
+          "download": 124844816
+        },
+        "5027512": {
+          "gid": "3364652006206638893",
+          "size": 138106344,
+          "download": 124674368
+        }
+      }
     }
   ],
-  "_change_number": 38672712,
+  "_change_number": 38687423,
   "_missing_token": false,
-  "_sha": "416a820f1ccdffde682b33444659ea58e0a1706a",
-  "_size": 5151,
+  "_sha": "94836a8d5108489755cf97315a08ab6322af1018",
+  "_size": 5670,
   "appid": "5027510",
   "common": {
     "aicontenttype": "1",
@@ -186,7 +222,40 @@
       "9": "4004"
     },
     "supported_languages": {
+      "brazilian": {
+        "supported": "true"
+      },
       "english": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      },
+      "polish": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "tchinese": {
+        "supported": "true"
+      },
+      "turkish": {
         "supported": "true"
       }
     },
@@ -223,9 +292,9 @@
           "size": "137815052"
         },
         "public": {
-          "download": "123870336",
-          "gid": "2668507648683082605",
-          "size": "134901679"
+          "download": "124844816",
+          "gid": "8409115495707646837",
+          "size": "137815052"
         }
       }
     },
@@ -237,27 +306,27 @@
       "manifests": {
         "beta": {
           "download": "124674368",
-          "gid": "9051365295366483203",
-          "size": "138106332"
+          "gid": "3364652006206638893",
+          "size": "138106344"
         },
         "public": {
-          "download": "123666896",
-          "gid": "1774854844492607502",
-          "size": "135139297"
+          "download": "124674368",
+          "gid": "3364652006206638893",
+          "size": "138106344"
         }
       }
     },
     "branches": {
       "beta": {
-        "buildid": "25171411",
+        "buildid": "25181585",
         "description": "Beta test",
-        "timebuildupdated": "1788799757",
-        "timeupdated": "1788799757"
+        "timebuildupdated": "1788851277",
+        "timeupdated": "1788851277"
       },
       "public": {
-        "buildid": "24927434",
-        "timebuildupdated": "1787659038",
-        "timeupdated": "1787659038"
+        "buildid": "25181629",
+        "timebuildupdated": "1788851523",
+        "timeupdated": "1788851523"
       }
     },
     "workshopdepot": "5027510"

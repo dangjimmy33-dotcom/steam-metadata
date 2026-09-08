@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788849533,
+  "_lastChecked": 1788855369,
   "_history": [
     {
       "buildId": "22244698",
@@ -62,11 +62,29 @@
           "download": 2265144336
         }
       }
+    },
+    {
+      "buildId": "25182388",
+      "branch": "macos_dev_branch",
+      "timeUpdated": 1788854589,
+      "firstSeen": 1788855369,
+      "manifests": {
+        "3552201": {
+          "gid": "7959947503576931075",
+          "size": 6214084292,
+          "download": 3643581696
+        },
+        "3552202": {
+          "gid": "3039162131353789918",
+          "size": 6183451364,
+          "download": 3767030096
+        }
+      }
     }
   ],
-  "_change_number": 38634618,
+  "_change_number": 38688238,
   "_missing_token": false,
-  "_sha": "ed3c48e3a59b61243b6d511fde3e09d7706a248e",
+  "_sha": "f3f1f75898c12923abbeb7aaf8009c03c30e3064",
   "_size": 5908,
   "appid": "3552200",
   "common": {
@@ -305,9 +323,9 @@
       },
       "manifests": {
         "macos_dev_branch": {
-          "download": "2265144336",
-          "gid": "5580498241617192734",
-          "size": "4532321295"
+          "download": "3767030096",
+          "gid": "3039162131353789918",
+          "size": "6183451364"
         }
       }
     },
@@ -324,10 +342,10 @@
         "timeupdated": "1772900834"
       },
       "macos_dev_branch": {
-        "buildid": "25145552",
+        "buildid": "25182388",
         "description": "Private development and testing on MacOS",
-        "timebuildupdated": "1788642694",
-        "timeupdated": "1788642694"
+        "timebuildupdated": "1788854589",
+        "timeupdated": "1788854589"
       },
       "public": {
         "buildid": "22244698",

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788851354,
-  "_history": [],
-  "_change_number": 38519554,
-  "_missing_token": true,
-  "_sha": "b3283529bca1d3d9fd91392762a6942baaa2c7c6",
-  "_size": 3609,
+  "_lastChecked": 1788856795,
+  "_history": [
+    {
+      "buildId": "25065736",
+      "branch": "public",
+      "timeUpdated": 1788292635,
+      "firstSeen": 1788856795,
+      "manifests": {
+        "5147501": {
+          "gid": "3439784340461593485",
+          "size": 1292598378,
+          "download": 942185392
+        }
+      }
+    }
+  ],
+  "_change_number": 38688514,
+  "_missing_token": false,
+  "_sha": "b769a60768ae4f26dcf27dc932f2c63beb53649c",
+  "_size": 4516,
   "appid": "5147500",
   "common": {
     "aicontenttype": "1",
@@ -32,6 +46,7 @@
     },
     "clienticon": "56bb80feb6130f6b32809c2c6f805fa10d735c2e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -41,7 +56,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "5147500",
     "genres": {
       "0": "25",
@@ -120,10 +134,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8677fcacb01f20b6b5a87c4b76f13ce166295482/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788855362",
     "store_asset_mtime": "1788117901",
     "store_tags": {
       "0": "1721",
@@ -163,5 +178,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dark Dice Cthulhu Investigation Log",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DarkDice.exe"
+      }
+    }
+  },
+  "depots": {
+    "5147501": {
+      "manifests": {
+        "public": {
+          "download": "942185392",
+          "gid": "3439784340461593485",
+          "size": "1292598378"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25065736",
+        "timebuildupdated": "1788292573",
+        "timeupdated": "1788292635"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Selig Interactive",
+    "publisher": "Selig Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "darkdice-cthulhu-rpg\\",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
