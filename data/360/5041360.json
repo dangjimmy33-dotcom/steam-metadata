@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788867633,
-  "_history": [],
-  "_change_number": 38691644,
-  "_missing_token": true,
-  "_sha": "30d2d3e863ff82953a45bb999f2d892cd4aecaef",
-  "_size": 3875,
+  "_lastChecked": 1788873164,
+  "_history": [
+    {
+      "buildId": "25184704",
+      "branch": "public",
+      "timeUpdated": 1788862976,
+      "firstSeen": 1788873164,
+      "manifests": {
+        "5041361": {
+          "gid": "1797761506774595835",
+          "size": 263475924,
+          "download": 115223504
+        }
+      }
+    }
+  ],
+  "_change_number": 38693713,
+  "_missing_token": false,
+  "_sha": "23959887a8649e198aacc30c4bfb7785931ecd04",
+  "_size": 4443,
   "appid": "5041360",
   "common": {
     "aicontenttype": "1",
@@ -25,6 +39,7 @@
     },
     "clienticon": "214523a14e662e00868ad425fc6ddf30724b980c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -38,7 +53,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5041360",
     "genres": {
       "0": "4"
@@ -108,11 +122,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "85c293938fdcc7ee43b6961b4076479647641eb0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788868036",
     "store_asset_mtime": "1788704333",
     "store_tags": {
       "0": "1664",
@@ -191,5 +206,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Wild Trail",
+    "launch": {
+      "0": {
+        "executable": "Wild Trail.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5041361": {
+      "manifests": {
+        "public": {
+          "download": "115223504",
+          "gid": "1797761506774595835",
+          "size": "263475924"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25184704",
+        "timebuildupdated": "1788862960",
+        "timeupdated": "1788862976"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Grishko Gameplay",
+    "publisher": "Grishko Gameplay"
+  }
 }

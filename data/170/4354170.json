@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788867047,
+  "_lastChecked": 1788872578,
   "_history": [
     {
       "buildId": "22341343",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 38693262,
+  "_change_number": 38694516,
   "_missing_token": false,
-  "_sha": "c9db5731c03ba6555b47f07130836d0d5511b929",
-  "_size": 8603,
+  "_sha": "acb981beed91208d7306418501a8e855864f2f6f",
+  "_size": 9005,
   "appid": "4354170",
   "common": {
     "associations": {
@@ -245,6 +245,14 @@
       "japanese": {
         "subtitles": "true",
         "supported": "true"
+      },
+      "schinese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "tchinese": {
+        "subtitles": "true",
+        "supported": "true"
       }
     },
     "type": "Game"
@@ -258,7 +266,8 @@
           "english": "Start the English version of the game.",
           "japanese": "英語版のゲームを起動します。"
         },
-        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_EN.exe"
+        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_EN.exe",
+        "workingdir": "ETERNAL ROMANCE Complete Edition Plus"
       },
       "1": {
         "description": "Start the English version of the game in full screen.",
@@ -266,7 +275,8 @@
           "english": "Start the English version of the game in full screen.",
           "japanese": "英語版のゲームをフルスクリーンで起動します。"
         },
-        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_fullscreen_EN.exe"
+        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_fullscreen_EN.exe",
+        "workingdir": "ETERNAL ROMANCE Complete Edition Plus"
       },
       "2": {
         "description": "Start the Japanese version of the game.",
@@ -274,7 +284,8 @@
           "english": "Start the Japanese version of the game.",
           "japanese": "日本語版のゲームを起動します。"
         },
-        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_JP.exe"
+        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_JP.exe",
+        "workingdir": "ETERNAL ROMANCE Complete Edition Plus"
       },
       "3": {
         "description": "Start the Japanese version of the game in full screen.",
@@ -282,42 +293,40 @@
           "english": "Start the Japanese version of the game in full screen.",
           "japanese": "日本語版のゲームをフルスクリーンで起動します。"
         },
-        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_fullscreen_JP.exe"
+        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_fullscreen_JP.exe",
+        "workingdir": "ETERNAL ROMANCE Complete Edition Plus"
       },
       "4": {
         "description": "Start the Simplified Chinese version of the game.",
         "description_loc": {
           "english": "Start the Simplified Chinese version of the game."
         },
-        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_SC.exe"
+        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_SC.exe",
+        "workingdir": "ETERNAL ROMANCE Complete Edition Plus"
       },
       "5": {
         "description": "Start the Simplified Chinese version of the game in full screen.",
         "description_loc": {
           "english": "Start the Simplified Chinese version of the game in full screen."
         },
-        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_fullscreen_SC.exe"
+        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_fullscreen_SC.exe",
+        "workingdir": "ETERNAL ROMANCE Complete Edition Plus"
       },
       "6": {
         "description": "Start the Traditional Chinese version of the game.",
         "description_loc": {
           "english": "Start the Traditional Chinese version of the game."
         },
-        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_TC.exe"
+        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_TC.exe",
+        "workingdir": "ETERNAL ROMANCE Complete Edition Plus"
       },
       "7": {
         "description": "Start the Traditional Chinese version of the game in full screen.",
         "description_loc": {
           "english": "Start the Traditional Chinese version of the game in full screen."
         },
-        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_fullscreen_TC.exe"
-      },
-      "8": {
-        "description": "test",
-        "description_loc": {
-          "english": "test"
-        },
-        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_JP_カレント書き出し.exe"
+        "executable": "ETERNAL ROMANCE Complete Edition Plus/ETERNAL ROMANCE_fullscreen_TC.exe",
+        "workingdir": "ETERNAL ROMANCE Complete Edition Plus"
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788867456,
+  "_lastChecked": 1788872986,
   "_history": [
     {
       "buildId": "25137580",
@@ -54,12 +54,30 @@
           "download": 95490944
         }
       }
+    },
+    {
+      "buildId": "25187236",
+      "branch": "public",
+      "timeUpdated": 1788871218,
+      "firstSeen": 1788872986,
+      "manifests": {
+        "4829711": {
+          "gid": "1203535272031388263",
+          "size": 329673498,
+          "download": 90963936
+        },
+        "4829712": {
+          "gid": "4358598503567935355",
+          "size": 231986305,
+          "download": 95521552
+        }
+      }
     }
   ],
-  "_change_number": 38690426,
+  "_change_number": 38695019,
   "_missing_token": false,
-  "_sha": "1fab05117ac6bb74a148a82b34ada93fa1f21f6f",
-  "_size": 7310,
+  "_sha": "ffd75907a5091c8238041824ce80b710dd51f740",
+  "_size": 7368,
   "appid": "4829710",
   "common": {
     "aicontenttype": "1",
@@ -266,7 +284,8 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
   "config": {
     "installdir": "Castleborne Survivors",
@@ -317,9 +336,9 @@
       },
       "manifests": {
         "public": {
-          "download": "90959360",
-          "gid": "7369652030426062205",
-          "size": "325291386"
+          "download": "90963936",
+          "gid": "1203535272031388263",
+          "size": "329673498"
         }
       }
     },
@@ -330,29 +349,30 @@
       },
       "manifests": {
         "public": {
-          "download": "95490944",
-          "gid": "3526330430259288990",
-          "size": "231929715"
+          "download": "95521552",
+          "gid": "4358598503567935355",
+          "size": "231986305"
         }
       }
     },
     "baselanguages": "brazilian,english,french,german,japanese,koreana,latam,russian,schinese,tchinese",
     "branches": {
       "public": {
-        "buildid": "25183429",
-        "timebuildupdated": "1788858516",
-        "timeupdated": "1788858516"
+        "buildid": "25187236",
+        "timebuildupdated": "1788871217",
+        "timeupdated": "1788871218"
       }
     },
-    "privatebranches": "1"
+    "privatebranches": "1",
+    "workshopdepot": "4829710"
   },
   "extended": {
     "developer": "GameVerse",
     "publisher": "GameVerse"
   },
   "ufs": {
-    "maxnumfiles": "10",
-    "quota": "1000000",
+    "maxnumfiles": "100",
+    "quota": "104857600",
     "savefiles": {
       "0": {
         "path": "Godot/app_userdata/Castleborne Survivors",

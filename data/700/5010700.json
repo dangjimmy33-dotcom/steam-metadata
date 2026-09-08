@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788867611,
-  "_history": [],
-  "_change_number": 38670305,
-  "_missing_token": true,
-  "_sha": "7b855f472b948b3b084ec90eeaaf3b6a2a59a899",
-  "_size": 4219,
+  "_lastChecked": 1788873141,
+  "_history": [
+    {
+      "buildId": "25162301",
+      "branch": "public",
+      "timeUpdated": 1788766141,
+      "firstSeen": 1788873141,
+      "manifests": {
+        "5010701": {
+          "gid": "2450807268183148156",
+          "size": 5729700789,
+          "download": 1640211184
+        }
+      }
+    }
+  ],
+  "_change_number": 38695125,
+  "_missing_token": false,
+  "_sha": "d9a7129b7c768fabb0217aace690fc9cb96ab7f4",
+  "_size": 5322,
   "appid": "5010700",
   "common": {
     "associations": {
@@ -38,7 +52,6 @@
     "clienticon": "8a318d070e4e2eb1d9abc2c13024c3c6c00a369d",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5010700",
     "genres": {
       "0": "23",
@@ -111,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a81d562628bd8de1a7e08d5d36124cedeae0b61b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788871417",
     "store_asset_mtime": "1787226629",
     "store_tags": {
       "0": "599",
@@ -202,5 +216,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Flip & Shop Simulator Prologue",
+    "launch": {
+      "0": {
+        "executable": "Flip And Shop Simulator.exe"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "5010701": {
+      "manifests": {
+        "public": {
+          "download": "1640211184",
+          "gid": "2450807268183148156",
+          "size": "5729700789"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,tchinese,turkish",
+    "branches": {
+      "public": {
+        "buildid": "25162301",
+        "timebuildupdated": "1788764722",
+        "timeupdated": "1788766141"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Tovarishch Games",
+    "isfreeapp": "1",
+    "publisher": "PlayWay S.A."
+  },
+  "ufs": {
+    "appidredirect": "4247630",
+    "maxnumfiles": "64",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Tovarishch Games/Flip And Shop Simulator/Saves",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "copied_from_parent": "1"
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788866843,
-  "_history": [],
-  "_change_number": 38691526,
-  "_missing_token": true,
-  "_sha": "6ef809c76119ee034b7007fc34e2745844dffd64",
-  "_size": 2934,
+  "_lastChecked": 1788872375,
+  "_history": [
+    {
+      "buildId": "25184623",
+      "branch": "public",
+      "timeUpdated": 1788862715,
+      "firstSeen": 1788872375,
+      "manifests": {
+        "4142291": {
+          "gid": "2224713740927951559",
+          "size": 246162248,
+          "download": 220561136
+        }
+      }
+    }
+  ],
+  "_change_number": 38695665,
+  "_missing_token": false,
+  "_sha": "435f4d922ac905168317e07df486e39014818b02",
+  "_size": 3972,
   "appid": "4142290",
   "common": {
     "associations": {
@@ -36,7 +50,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4142290",
     "genres": {
       "0": "23"
@@ -106,11 +119,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "6589e813ef788ba4c82d911544063f820779682d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788872352",
     "store_asset_mtime": "1785337564",
     "store_tags": {
       "0": "12095",
@@ -134,5 +148,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Monster Girl Evolution",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MonsterGirlEVO_Windows.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4142291": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "220561136",
+          "gid": "2224713740927951559",
+          "size": "246162248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25184623",
+        "timebuildupdated": "1788862691",
+        "timeupdated": "1788862715"
+      }
+    }
+  },
+  "extended": {
+    "developer": "TentaclesGames",
+    "homepage": "https://tentaclesgames.com/",
+    "publisher": "Hexapede Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "\\Godot\\app_userdata\\Monster Girl Evolution",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

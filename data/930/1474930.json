@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788864129,
+  "_lastChecked": 1788869605,
   "_history": [
     {
       "buildId": "16177261",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 38376651,
+  "_change_number": 38694374,
   "_missing_token": false,
-  "_sha": "ef67b859cdfefa6a1aca5e5d821a2089e935bfac",
-  "_size": 8684,
+  "_sha": "8326fff2eab8f3290767e33401ad6c5946856f97",
+  "_size": 8631,
   "appid": "1474930",
   "common": {
     "associations": {
@@ -52,6 +52,9 @@
       "category_18": "1",
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
+      "category_45": "1",
+      "category_46": "1",
       "category_55": "1",
       "category_57": "1",
       "category_62": "1",
@@ -351,29 +354,24 @@
     "publisher": "Aerosoft GmbH"
   },
   "ufs": {
-    "maxnumfiles": "1000",
-    "quota": "100000000",
-    "rootoverrides": {
-      "0": {
-        "addpath": "tox2interactive\\Heavy Cargo\\savegames",
-        "os": "Windows",
-        "oscompare": "=",
-        "root": "gameinstall",
-        "useinstead": "WinAppDataLocalLow"
-      },
-      "1": {
-        "addpath": ".steam/steam/steamapps/compatdata/1474930/pfx/drive_c/users/steamuser/AppData/LocalLow/tox2interactive\\Heavy Cargo\\savegames",
-        "os": "Linux",
-        "oscompare": "=",
-        "root": "gameinstall",
-        "useinstead": "LinuxHome"
-      }
-    },
+    "maxnumfiles": "12",
+    "quota": "200000000",
     "savefiles": {
       "0": {
-        "path": "",
+        "path": "tox2interactive\\Heavy Cargo\\savegames",
         "pattern": "*.sav",
-        "root": "gameinstall"
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": ".steam/steam/steamapps/compatdata/1474930/pfx/drive_c/users/steamuser/AppData/LocalLow/tox2interactive\\Heavy Cargo\\savegames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
       }
     }
   }

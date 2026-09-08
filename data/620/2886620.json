@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788865617,
+  "_lastChecked": 1788871148,
   "_history": [
     {
       "buildId": "25129548",
@@ -26,11 +26,37 @@
           "download": 537999328
         }
       }
+    },
+    {
+      "buildId": "25186072",
+      "branch": "public",
+      "timeUpdated": 1788867459,
+      "firstSeen": 1788871148,
+      "manifests": {
+        "2886621": {
+          "gid": "6352251933935236759",
+          "size": 4350073310,
+          "download": 538017152
+        }
+      }
+    },
+    {
+      "buildId": "25186072",
+      "branch": "wip-playtest",
+      "timeUpdated": 1788867386,
+      "firstSeen": 1788871148,
+      "manifests": {
+        "2886621": {
+          "gid": "6352251933935236759",
+          "size": 4350073310,
+          "download": 538017152
+        }
+      }
     }
   ],
-  "_change_number": 38611397,
+  "_change_number": 38693473,
   "_missing_token": false,
-  "_sha": "9f12e2f38ac38afd3f07bfe0e43d1cfd6544c86b",
+  "_sha": "01fb1b681db1b8d7675f8d98543ce863ed905d8e",
   "_size": 7604,
   "appid": "2886620",
   "common": {
@@ -274,28 +300,28 @@
     "2886621": {
       "manifests": {
         "public": {
-          "download": "537999328",
-          "gid": "6004276571949767186",
-          "size": "4350301498"
+          "download": "538017152",
+          "gid": "6352251933935236759",
+          "size": "4350073310"
         },
         "wip-playtest": {
-          "download": "537999328",
-          "gid": "6004276571949767186",
-          "size": "4350301498"
+          "download": "538017152",
+          "gid": "6352251933935236759",
+          "size": "4350073310"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25129548",
-        "timebuildupdated": "1788543914",
-        "timeupdated": "1788543939"
+        "buildid": "25186072",
+        "timebuildupdated": "1788867369",
+        "timeupdated": "1788867459"
       },
       "wip-playtest": {
-        "buildid": "25129548",
+        "buildid": "25186072",
         "description": "Early access to work in progress updates",
-        "timebuildupdated": "1788543914",
-        "timeupdated": "1788543939"
+        "timebuildupdated": "1788867369",
+        "timeupdated": "1788867386"
       }
     },
     "privatebranches": "1"

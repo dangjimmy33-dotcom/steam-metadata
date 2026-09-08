@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788867668,
-  "_history": [],
-  "_change_number": 38348059,
-  "_missing_token": true,
-  "_sha": "c4f60a19ee6619de0ff9ef62b0fcb161b6638d15",
-  "_size": 4595,
+  "_lastChecked": 1788873199,
+  "_history": [
+    {
+      "buildId": "24751532",
+      "branch": "public",
+      "timeUpdated": 1786801772,
+      "firstSeen": 1788873199,
+      "manifests": {
+        "5091931": {
+          "gid": "8103075978424967888",
+          "size": 234540803,
+          "download": 151083520
+        }
+      }
+    }
+  ],
+  "_change_number": 38695761,
+  "_missing_token": false,
+  "_sha": "067ac9da8936d276d1eafdec45ec7e03bf079abe",
+  "_size": 5382,
   "appid": "5091930",
   "common": {
     "aicontenttype": "1",
@@ -37,9 +51,9 @@
     "clienticns": "4742a912ba28d4ab58b2bd4426fad6849dcfe917",
     "clienticon": "c245cfffc8ff88aff473d0d63f317126f40ac36f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5091930",
     "genres": {
       "0": "1",
@@ -117,11 +131,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0d7d05a6feeeadb490ced9c1ae27a03e8fd0bbed/capsule_231x87.jpg",
       "koreana": "81d4999ef3fe357a26567937fd6f0b316aa7c160/capsule_231x87_koreana.jpg"
     },
+    "steam_release_date": "1788872506",
     "store_asset_mtime": "1787277386",
     "store_tags": {
       "0": "19",
@@ -188,5 +203,44 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mudang",
+    "launch": {
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Mudang.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "controller_config/game_actions_5091930.vdf"
+  },
+  "depots": {
+    "5091931": {
+      "manifests": {
+        "public": {
+          "download": "151083520",
+          "gid": "8103075978424967888",
+          "size": "234540803"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24751532",
+        "timebuildupdated": "1786800933",
+        "timeupdated": "1786801772"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Berrybell Games",
+    "publisher": "Berrybell Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000"
+  }
 }

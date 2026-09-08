@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788865606,
+  "_lastChecked": 1788871137,
   "_history": [
     {
       "buildId": "24992179",
@@ -67,10 +67,10 @@
       }
     }
   ],
-  "_change_number": 38690086,
+  "_change_number": 38693908,
   "_missing_token": false,
-  "_sha": "73a3ba476edb25cd811998e8e77bb02322b68471",
-  "_size": 7583,
+  "_sha": "ac84c1bd253f5649ee5d6a004dac376a884dc15f",
+  "_size": 7514,
   "appid": "2876200",
   "common": {
     "associations": {
@@ -329,15 +329,9 @@
       }
     },
     "steamconfigurator3rdpartynative": "65535",
-    "steamcontrollerconfigdetails": {
-      "3492627686": {
-        "controller_type": "controller_xboxone",
-        "enabled_branches": "default",
-        "use_action_block": "false"
-      }
-    },
-    "steamcontrollertemplateindex": "1",
-    "steamdecktouchscreen": "1"
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "game_data/game_actions.vdf"
   },
   "depots": {
     "2876202": {
@@ -380,7 +374,9 @@
     "publisher": "Fantastimaker"
   },
   "ufs": {
-    "maxnumfiles": "1000",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "2000",
     "quota": "10000000"
   }
 }

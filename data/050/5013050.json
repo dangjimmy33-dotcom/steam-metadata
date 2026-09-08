@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788867613,
+  "_lastChecked": 1788873143,
   "_history": [
     {
       "buildId": "24958628",
@@ -36,11 +36,29 @@
           "download": 327659360
         }
       }
+    },
+    {
+      "buildId": "25187784",
+      "branch": "previous-release",
+      "timeUpdated": 1788873085,
+      "firstSeen": 1788873143,
+      "manifests": {
+        "5013051": {
+          "gid": "5277960976683588530",
+          "size": 529797562,
+          "download": 317549488
+        },
+        "5013052": {
+          "gid": "126021696069084561",
+          "size": 553582143,
+          "download": 327659360
+        }
+      }
     }
   ],
-  "_change_number": 38504651,
+  "_change_number": 38696039,
   "_missing_token": false,
-  "_sha": "0e963e5b32ab96be415c30bbb6a8cd205d72cd8b",
+  "_sha": "6229bfb2afb3df4ae066ec187a8fd8a118f694f6",
   "_size": 6516,
   "appid": "5013050",
   "common": {
@@ -278,9 +296,9 @@
       },
       "manifests": {
         "previous-release": {
-          "download": "317207968",
-          "gid": "8388625125926564168",
-          "size": "529757091"
+          "download": "317549488",
+          "gid": "5277960976683588530",
+          "size": "529797562"
         },
         "public": {
           "download": "317549984",
@@ -309,10 +327,10 @@
     },
     "branches": {
       "previous-release": {
-        "buildid": "24958628",
+        "buildid": "25187784",
         "description": "The previous release of Embermazee",
-        "timebuildupdated": "1787782400",
-        "timeupdated": "1787782400"
+        "timebuildupdated": "1788873085",
+        "timeupdated": "1788873085"
       },
       "public": {
         "buildid": "25045765",

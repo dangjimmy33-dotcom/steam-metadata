@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788863701,
+  "_lastChecked": 1788869177,
   "_history": [
     {
       "buildId": "25059242",
@@ -26,12 +26,25 @@
           "download": 947167488
         }
       }
+    },
+    {
+      "buildId": "25186022",
+      "branch": "ue582",
+      "timeUpdated": 1788868245,
+      "firstSeen": 1788869177,
+      "manifests": {
+        "1083801": {
+          "gid": "225410975494559185",
+          "size": 944480473,
+          "download": 634603712
+        }
+      }
     }
   ],
-  "_change_number": 38509227,
+  "_change_number": 38693804,
   "_missing_token": false,
-  "_sha": "745a3212eaea30084608a80a087b2a2ff2551e52",
-  "_size": 3018,
+  "_sha": "6f3bdcf3e7ef70e37b474757db01e223731b705e",
+  "_size": 3286,
   "appid": "1083800",
   "common": {
     "associations": {
@@ -124,6 +137,11 @@
           "download": "947167488",
           "gid": "7060361030246324918",
           "size": "2886444527"
+        },
+        "ue582": {
+          "download": "634603712",
+          "gid": "225410975494559185",
+          "size": "944480473"
         }
       }
     },
@@ -152,6 +170,12 @@
         "buildid": "12730137",
         "timebuildupdated": "1700218562",
         "timeupdated": "1707195653"
+      },
+      "ue582": {
+        "buildid": "25186022",
+        "description": "new ue5 version wip",
+        "timebuildupdated": "1788867286",
+        "timeupdated": "1788868245"
       }
     }
   },

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788866755,
-  "_history": [],
-  "_change_number": 38693026,
-  "_missing_token": true,
-  "_sha": "28bdee8fdfade6f74dfbfaf20a34d6c429e587e3",
-  "_size": 4173,
+  "_lastChecked": 1788872287,
+  "_history": [
+    {
+      "buildId": "25186482",
+      "branch": "public",
+      "timeUpdated": 1788868789,
+      "firstSeen": 1788872287,
+      "manifests": {
+        "4047271": {
+          "gid": "1579869231986502674",
+          "size": 92043674,
+          "download": 82920912
+        }
+      }
+    }
+  ],
+  "_change_number": 38694470,
+  "_missing_token": false,
+  "_sha": "95b1e5c3ffdcacb6a50c4735df6e79cf01f58825",
+  "_size": 5098,
   "appid": "4047270",
   "common": {
     "associations": {
@@ -29,6 +43,7 @@
     },
     "clienticon": "8e74bf6f2cdb167e27ff25a5f1dcc6a1a433ad56",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -36,7 +51,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4047270",
     "genres": {
       "0": "25",
@@ -110,11 +124,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "86590467d0bb3e33c8a8901f6602363748eb2506/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1788848422",
+    "steam_release_date": "1788869090",
+    "store_asset_mtime": "1788869837",
     "store_tags": {
       "0": "615955",
       "1": "1084988",
@@ -205,5 +220,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Orc Incremental",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Orc Incremental.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4047271": {
+      "manifests": {
+        "public": {
+          "download": "82920912",
+          "gid": "1579869231986502674",
+          "size": "92043674"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25186482",
+        "timebuildupdated": "1788868776",
+        "timeupdated": "1788868789"
+      }
+    },
+    "privatebranches": "1",
+    "workshopdepot": "4047270"
+  },
+  "extended": {
+    "developer": "Nice Ride",
+    "publisher": "Playsaurus"
+  },
+  "ufs": {
+    "maxnumfiles": "4096",
+    "quota": "128000000",
+    "savefiles": {
+      "0": {
+        "path": "OrcIncremental/CloudSave",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

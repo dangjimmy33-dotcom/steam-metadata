@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788867421,
-  "_history": [],
-  "_change_number": 38670578,
-  "_missing_token": true,
-  "_sha": "fc87a9d165a54cafc9df976bb96b849e46d9fed0",
-  "_size": 3494,
+  "_lastChecked": 1788872951,
+  "_history": [
+    {
+      "buildId": "24389956",
+      "branch": "public",
+      "timeUpdated": 1785084195,
+      "firstSeen": 1788872951,
+      "manifests": {
+        "4783911": {
+          "gid": "4126767622300462258",
+          "size": 1168694497,
+          "download": 1029542192
+        }
+      }
+    }
+  ],
+  "_change_number": 38694796,
+  "_missing_token": false,
+  "_sha": "efb70b062e723ceb4c19cae3732985277da25cf1",
+  "_size": 4284,
   "appid": "4783910",
   "common": {
     "associations": {
@@ -39,6 +53,7 @@
     },
     "clienticon": "0c7df32fc2a1ac63e6b4d023f5c605321df9ab3d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -52,7 +67,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4783910",
     "genres": {
       "0": "25",
@@ -125,12 +139,13 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "8d1f0818beb367fd1adb03fe1c66f5c4ef5eb0d0/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1779886789",
+    "steam_release_date": "1788870692",
+    "store_asset_mtime": "1788856334",
     "store_tags": {
       "0": "12095",
       "1": "6650",
@@ -162,5 +177,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Island Girls",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "IslandGirls.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "IslandGirls.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "IslandGirls.sh"
+      }
+    }
+  },
+  "depots": {
+    "4783911": {
+      "manifests": {
+        "public": {
+          "download": "1029542192",
+          "gid": "4126767622300462258",
+          "size": "1168694497"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24389956",
+        "timebuildupdated": "1784991191",
+        "timeupdated": "1785084195"
+      }
+    }
+  },
+  "extended": {
+    "developer": "TheBigO Games",
+    "publisher": "EroBits"
+  }
 }

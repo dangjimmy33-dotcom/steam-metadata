@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788864459,
+  "_lastChecked": 1788869936,
   "_history": [
     {
       "buildId": "23433195",
@@ -13,12 +13,30 @@
           "download": 1318403872
         }
       }
+    },
+    {
+      "buildId": "25185656",
+      "branch": "public",
+      "timeUpdated": 1788866119,
+      "firstSeen": 1788869936,
+      "manifests": {
+        "1759151": {
+          "gid": "2319959652341289531",
+          "size": 3085546993,
+          "download": 1318403872
+        },
+        "1759152": {
+          "gid": "4759580141508356416",
+          "size": 1330851056,
+          "download": 1197242096
+        }
+      }
     }
   ],
-  "_change_number": 38508094,
+  "_change_number": 38693040,
   "_missing_token": false,
-  "_sha": "eece215579e4ff6e71f237bf0701754ef8f212ac",
-  "_size": 6557,
+  "_sha": "3566344bae993b1febced1224e5b6003d5fb2ba5",
+  "_size": 7030,
   "appid": "1759150",
   "common": {
     "associations": {
@@ -129,7 +147,7 @@
     "openxrsupport": "1",
     "osarch": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,android",
     "primary_genre": "25",
     "releasestate": "released",
     "review_percentage": "96",
@@ -252,6 +270,13 @@
         },
         "executable": "SpaceControl.exe",
         "type": "openxr"
+      },
+      "1": {
+        "config": {
+          "oslist": "android"
+        },
+        "executable": "SpaceControl.apk",
+        "type": "openxr"
       }
     }
   },
@@ -269,13 +294,19 @@
       "config": {
         "oslist": "android"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "1197242096",
+          "gid": "4759580141508356416",
+          "size": "1330851056"
+        }
+      }
     },
     "branches": {
       "public": {
-        "buildid": "23433195",
-        "timebuildupdated": "1779888752",
-        "timeupdated": "1779891139"
+        "buildid": "25185656",
+        "timebuildupdated": "1788866119",
+        "timeupdated": "1788866119"
       }
     },
     "privatebranches": "1"
@@ -292,7 +323,18 @@
       "0": {
         "path": "MoonMonsterStudios/SpaceControl",
         "pattern": "*.spacecontrol",
+        "platforms": {
+          "1": "Windows"
+        },
         "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "MoonMonsterStudios/SpaceControl",
+        "pattern": "*.spacecontrol",
+        "platforms": {
+          "1": "Android"
+        },
+        "root": "AndroidExternalData"
       }
     }
   }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788867655,
+  "_lastChecked": 1788873185,
   "_history": [
     {
       "buildId": "25175910",
@@ -13,12 +13,30 @@
           "download": 302227440
         }
       }
+    },
+    {
+      "buildId": "25186900",
+      "branch": "mac_branch",
+      "timeUpdated": 1788870055,
+      "firstSeen": 1788873185,
+      "manifests": {
+        "5071941": {
+          "gid": "3289008271869093731",
+          "size": 1075437119,
+          "download": 302227440
+        },
+        "5071943": {
+          "gid": "3372458743191432723",
+          "size": 1188452799,
+          "download": 330398032
+        }
+      }
     }
   ],
-  "_change_number": 38693539,
+  "_change_number": 38694557,
   "_missing_token": false,
-  "_sha": "553f7d1d0dc2a8f86b1b72b9aec68b1a3e79a2cd",
-  "_size": 4455,
+  "_sha": "0abf42401e6a402b2dbda5b3879fef3648310f73",
+  "_size": 4983,
   "appid": "5071940",
   "common": {
     "associations": {
@@ -114,7 +132,7 @@
     "name": "King Assassination",
     "osarch": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "primary_genre": "25",
     "releasestate": "released",
     "small_capsule": {
@@ -197,6 +215,12 @@
     "launch": {
       "0": {
         "executable": "King Assassination.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "King Assassination.app"
       }
     }
   },
@@ -206,6 +230,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "mac_branch": {
+          "download": "302227440",
+          "gid": "3289008271869093731",
+          "size": "1075437119"
+        },
         "public": {
           "download": "302227440",
           "gid": "3289008271869093731",
@@ -217,9 +246,22 @@
       "config": {
         "language": "english",
         "oslist": "macos"
+      },
+      "manifests": {
+        "mac_branch": {
+          "download": "330398032",
+          "gid": "3372458743191432723",
+          "size": "1188452799"
+        }
       }
     },
     "branches": {
+      "mac_branch": {
+        "buildid": "25186900",
+        "description": "mac branch",
+        "timebuildupdated": "1788870055",
+        "timeupdated": "1788870055"
+      },
       "public": {
         "buildid": "25175910",
         "timebuildupdated": "1788820494",

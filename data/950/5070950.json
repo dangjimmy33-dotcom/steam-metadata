@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788867654,
-  "_history": [],
-  "_change_number": 38410944,
-  "_missing_token": true,
-  "_sha": "d7418830e19c64426ba88a19f3f0595e58fb8810",
-  "_size": 4197,
+  "_lastChecked": 1788873185,
+  "_history": [
+    {
+      "buildId": "24627806",
+      "branch": "public",
+      "timeUpdated": 1786185129,
+      "firstSeen": 1788873185,
+      "manifests": {
+        "5070951": {
+          "gid": "1946107010710415949",
+          "size": 328183019,
+          "download": 126402304
+        }
+      }
+    }
+  ],
+  "_change_number": 38694856,
+  "_missing_token": false,
+  "_sha": "c43528a2c914e6c1229384f30d664ce35d555522",
+  "_size": 5159,
   "appid": "5070950",
   "common": {
     "associations": {
@@ -29,7 +43,6 @@
     "clienticon": "137b6bba6577529d74ee9098a0503999838fa916",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5070950",
     "genres": {
       "0": "4"
@@ -115,11 +128,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "063b3f0b373af692fad4ec95bedc0a22ae8932ca/capsule_231x87.jpg",
       "schinese": "fcae40ecb93779831b244b8c1e86cc0eb5f57073/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1788870811",
     "store_asset_mtime": "1786789421",
     "store_tags": {
       "0": "597",
@@ -154,5 +168,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "易经101",
+    "launch": {
+      "0": {
+        "executable": "Yijing101.exe"
+      }
+    }
+  },
+  "depots": {
+    "5070951": {
+      "manifests": {
+        "public": {
+          "download": "126402304",
+          "gid": "1946107010710415949",
+          "size": "328183019"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "24627806",
+        "timebuildupdated": "1786185125",
+        "timeupdated": "1786185129"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Yi",
+    "publisher": "Yi's Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "GuanxiangMingdao/Yijing101",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "GuanxiangMingdao/Yijing101",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }
