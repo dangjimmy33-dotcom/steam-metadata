@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788884541,
-  "_history": [],
-  "_change_number": 38699059,
-  "_missing_token": true,
-  "_sha": "b4d770c11540fbcfe8eccc6fa3325a425fb20744",
-  "_size": 3309,
+  "_lastChecked": 1788890476,
+  "_history": [
+    {
+      "buildId": "25127367",
+      "branch": "public",
+      "timeUpdated": 1788536255,
+      "firstSeen": 1788890476,
+      "manifests": {
+        "3406862": {
+          "gid": "2397947732554210710",
+          "size": 4377136040,
+          "download": 4233477536
+        }
+      }
+    }
+  ],
+  "_change_number": 38703250,
+  "_missing_token": false,
+  "_sha": "1dc0ba6c055b8dd77b11aa46712645e30b3475ca",
+  "_size": 4470,
   "appid": "3406860",
   "common": {
     "associations": {
@@ -33,6 +47,7 @@
     "clienticon": "8a39de8033b8cb51b203efe1a8fa556e7dfb8444",
     "clienttga": "fa585263ea8b506f34d8727d0b30a07d485a6542",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -43,7 +58,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3406860",
     "genres": {
       "0": "1",
@@ -115,10 +129,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2982c0a6b8921ccec85660b50fdcb55450445910/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788886840",
     "store_asset_mtime": "1788877909",
     "store_tags": {
       "0": "19",
@@ -150,5 +165,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TheoSync",
+    "launch": {
+      "0": {
+        "executable": "WindowsNoEditor/TheoSync.exe"
+      }
+    }
+  },
+  "depots": {
+    "3406862": {
+      "manifests": {
+        "public": {
+          "download": "4233477536",
+          "gid": "2397947732554210710",
+          "size": "4377136040"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25127367",
+        "timebuildupdated": "1788536154",
+        "timeupdated": "1788536255"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Zoma Games",
+    "publisher": "Zoma Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "TheoSync/Saved/SaveGames",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataLocal"
+      },
+      "1": {
+        "addpath": ".local/share/Steam/steamapps/compatdata/3406860/pfx/drive_c/users/steamuser/AppData/Local/TheoSync/Saved/SaveGames",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

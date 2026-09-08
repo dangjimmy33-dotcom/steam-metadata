@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788886420,
-  "_history": [],
-  "_change_number": 38329358,
-  "_missing_token": true,
-  "_sha": "e39edb4bfb55c46732caaa8109d9f222b87fdf6e",
-  "_size": 3513,
+  "_lastChecked": 1788891948,
+  "_history": [
+    {
+      "buildId": "24365056",
+      "branch": "public",
+      "timeUpdated": 1784856470,
+      "firstSeen": 1788891948,
+      "manifests": {
+        "5008481": {
+          "gid": "8603037163444843673",
+          "size": 98026090,
+          "download": 46653152
+        },
+        "5008482": {
+          "gid": "5382029483725729728",
+          "size": 120886489,
+          "download": 54461600
+        },
+        "5008483": {
+          "gid": "5520293374528256977",
+          "size": 88214080,
+          "download": 42614128
+        }
+      }
+    }
+  ],
+  "_change_number": 38705243,
+  "_missing_token": false,
+  "_sha": "c8f8eafc737f849e06d5acaa3066564cdccbc27a",
+  "_size": 4935,
   "appid": "5008480",
   "common": {
     "associations": {
@@ -43,7 +67,6 @@
     "clienticon": "b848e8ca289ea8356f8deade98f9d6f394b93c17",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5008480",
     "genres": {
       "0": "37"
@@ -114,10 +137,11 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "344a5236009e6ee650cfb6394e91dbfea1220152/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787163514",
     "store_tags": {
       "0": "3799",
@@ -155,5 +179,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "KnitBone",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "knitbone-1.1.0-win\\knitbone.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "knitbone.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "knitbone-1.1.0-linux/knitbone.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5008481": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "46653152",
+          "gid": "8603037163444843673",
+          "size": "98026090"
+        }
+      }
+    },
+    "5008482": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "54461600",
+          "gid": "5382029483725729728",
+          "size": "120886489"
+        }
+      }
+    },
+    "5008483": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "42614128",
+          "gid": "5520293374528256977",
+          "size": "88214080"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24365056",
+        "timebuildupdated": "1784856470",
+        "timeupdated": "1784856470"
+      }
+    }
+  },
+  "extended": {
+    "developer": "aespipu",
+    "isfreeapp": "1",
+    "publisher": "remarkablegames"
+  }
 }

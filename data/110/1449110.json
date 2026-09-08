@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788881911,
+  "_lastChecked": 1788888432,
   "_history": [
     {
       "buildId": "24225441",
@@ -25,10 +25,10 @@
       }
     }
   ],
-  "_change_number": 38670584,
+  "_change_number": 38701823,
   "_missing_token": false,
-  "_sha": "2af9be5e478bf60ea950779fd00f076d17c3c1cd",
-  "_size": 31615,
+  "_sha": "2ba612f7f9758214107c08578cc471cc1e6b2cfe",
+  "_size": 32595,
   "appid": "1449110",
   "common": {
     "associations": {
@@ -1231,6 +1231,45 @@
       "81": {
         "config": {
           "betakey": "release-1.2.0.1_all",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Arkansas Test Configuration",
+        "description_loc": {
+          "english": "Arkansas Test Configuration"
+        },
+        "executable": "TheOuterWorlds2Test.exe",
+        "type": "option2"
+      },
+      "82": {
+        "config": {
+          "betakey": "release-2.0.0.0_all",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Arkansas Shipping Configuration",
+        "description_loc": {
+          "english": "Arkansas Shipping Configuration"
+        },
+        "executable": "TheOuterWorlds2.exe",
+        "type": "option3"
+      },
+      "83": {
+        "config": {
+          "betakey": "release-2.0.0.0_all",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Arkansas Development Configuration",
+        "description_loc": {
+          "english": "Arkansas Development Configuration"
+        },
+        "executable": "TheOuterWorlds2Dev.exe",
+        "type": "option1"
+      },
+      "84": {
+        "config": {
+          "betakey": "release-2.0.0.0_all",
           "osarch": "64",
           "oslist": "windows"
         },

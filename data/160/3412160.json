@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788884547,
+  "_lastChecked": 1788890481,
   "_history": [
     {
       "buildId": "24610139",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 38500092,
+  "_change_number": 38704084,
   "_missing_token": false,
-  "_sha": "bf5e1def0de18cfde1f24ccecaea3945b9796b78",
-  "_size": 13423,
+  "_sha": "005f6e2c729e4335c075180df95308b7d298ee1b",
+  "_size": 14140,
   "appid": "3412160",
   "common": {
     "associations": {
@@ -240,7 +240,7 @@
         "hdr_support": "0",
         "non_deck_display_glyphs": "1",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-11.0-beta",
+        "recommended_runtime": "proton-stable",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -249,10 +249,31 @@
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "1",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
       "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
@@ -268,8 +289,8 @@
           "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
         }
       },
-      "test_timestamp": "1781308800",
-      "tested_build_id": "23662421",
+      "test_timestamp": "1788283619",
+      "tested_build_id": "24610139",
       "tests": {
         "0": {
           "display": "3",
@@ -290,6 +311,10 @@
         "4": {
           "display": "3",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+        },
+        "5": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         }
       }
     },

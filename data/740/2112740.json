@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788882847,
+  "_lastChecked": 1788889153,
   "_history": [
     {
       "buildId": "25036608",
@@ -39,12 +39,38 @@
           "download": 112611888
         }
       }
+    },
+    {
+      "buildId": "23892669",
+      "branch": "0.9.0",
+      "timeUpdated": 1782303647,
+      "firstSeen": 1788889153,
+      "manifests": {
+        "2112741": {
+          "gid": "3621781616457309117",
+          "size": 350676871,
+          "download": 111929696
+        }
+      }
+    },
+    {
+      "buildId": "25191239",
+      "branch": "public",
+      "timeUpdated": 1788886496,
+      "firstSeen": 1788889153,
+      "manifests": {
+        "2112741": {
+          "gid": "2530183555267120925",
+          "size": 352169031,
+          "download": 112600224
+        }
+      }
     }
   ],
-  "_change_number": 38695641,
+  "_change_number": 38703068,
   "_missing_token": false,
-  "_sha": "e11e42fe43b3edccab05bddd1c6474d0d24121d9",
-  "_size": 6666,
+  "_sha": "26341f09582371b42289f487c87a1356a812c013",
+  "_size": 6945,
   "appid": "2112740",
   "common": {
     "associations": {
@@ -285,29 +311,40 @@
   "depots": {
     "2112741": {
       "manifests": {
+        "0.9.0": {
+          "download": "111929696",
+          "gid": "3621781616457309117",
+          "size": "350676871"
+        },
         "experimental": {
           "download": "112611888",
           "gid": "6137606034468688637",
           "size": "352168551"
         },
         "public": {
-          "download": "111929696",
-          "gid": "3621781616457309117",
-          "size": "350676871"
+          "download": "112600224",
+          "gid": "2530183555267120925",
+          "size": "352169031"
         }
       }
     },
     "branches": {
+      "0.9.0": {
+        "buildid": "23892669",
+        "description": "Old game version (Update #14)",
+        "timebuildupdated": "1782301487",
+        "timeupdated": "1782303647"
+      },
       "experimental": {
         "buildid": "25155899",
-        "description": "Experimental branch (0.10.0.d4)",
+        "description": "Experimental branch (0.10.0.d7)",
         "timebuildupdated": "1788723302",
         "timeupdated": "1788723517"
       },
       "public": {
-        "buildid": "23892669",
-        "timebuildupdated": "1782301487",
-        "timeupdated": "1782303647"
+        "buildid": "25191239",
+        "timebuildupdated": "1788884469",
+        "timeupdated": "1788886496"
       }
     }
   },

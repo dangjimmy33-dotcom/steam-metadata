@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788885133,
+  "_lastChecked": 1788890938,
   "_history": [
     {
       "buildId": "25177155",
@@ -54,12 +54,30 @@
           "download": 195763728
         }
       }
+    },
+    {
+      "buildId": "25192597",
+      "branch": "launch-test",
+      "timeUpdated": 1788889457,
+      "firstSeen": 1788890938,
+      "manifests": {
+        "3884201": {
+          "gid": "2911596006828595755",
+          "size": 244473544,
+          "download": 172725216
+        },
+        "3884202": {
+          "gid": "8636468234715091170",
+          "size": 328654776,
+          "download": 195763728
+        }
+      }
     }
   ],
-  "_change_number": 38701708,
+  "_change_number": 38704318,
   "_missing_token": false,
-  "_sha": "a46950cc5bef4384d4f9b0991c912e037a9a6aaf",
-  "_size": 4212,
+  "_sha": "9882752a66c21a3ccd86ec63f48812da8561805d",
+  "_size": 4616,
   "appid": "3884200",
   "common": {
     "associations": {
@@ -216,6 +234,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "launch-test": {
+          "download": "172725216",
+          "gid": "2911596006828595755",
+          "size": "244473544"
+        },
         "public": {
           "download": "172725104",
           "gid": "614482324627459598",
@@ -229,6 +252,11 @@
         "oslist": "macos"
       },
       "manifests": {
+        "launch-test": {
+          "download": "195763728",
+          "gid": "8636468234715091170",
+          "size": "328654776"
+        },
         "public": {
           "download": "195763728",
           "gid": "8636468234715091170",
@@ -237,6 +265,12 @@
       }
     },
     "branches": {
+      "launch-test": {
+        "buildid": "25192597",
+        "description": "Testing for launch crash",
+        "timebuildupdated": "1788889457",
+        "timeupdated": "1788889457"
+      },
       "public": {
         "buildid": "25188284",
         "timebuildupdated": "1788874614",

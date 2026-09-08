@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788886451,
-  "_history": [],
-  "_change_number": 38677361,
-  "_missing_token": true,
-  "_sha": "798975f979830d08f1cc80980f85556d90969011",
-  "_size": 3197,
+  "_lastChecked": 1788891973,
+  "_history": [
+    {
+      "buildId": "25174581",
+      "branch": "public",
+      "timeUpdated": 1788813910,
+      "firstSeen": 1788891973,
+      "manifests": {
+        "5042311": {
+          "gid": "5424742706414063789",
+          "size": 82659752,
+          "download": 35669184
+        }
+      }
+    }
+  ],
+  "_change_number": 38703120,
+  "_missing_token": false,
+  "_sha": "e1edbfb552325707bfe4543cb499179d0ecebc51",
+  "_size": 4085,
   "appid": "5042310",
   "common": {
     "aicontenttype": "1",
@@ -36,9 +50,9 @@
     },
     "clienticon": "442a64170af73f3fed7c5e7a8849ce5b74bde031",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5042310",
     "genres": {
       "0": "1"
@@ -108,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "059adf870090f8a7663d3c620454f0d12b439232/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788886634",
     "store_asset_mtime": "1787612175",
     "store_tags": {
       "0": "4637",
@@ -141,5 +156,50 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Space Carrier Zero",
+    "launch": {
+      "0": {
+        "executable": "Space Carrier Zero.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5042311": {
+      "manifests": {
+        "public": {
+          "download": "35669184",
+          "gid": "5424742706414063789",
+          "size": "82659752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25174581",
+        "timebuildupdated": "1788813825",
+        "timeupdated": "1788813910"
+      }
+    }
+  },
+  "extended": {
+    "developer": "These Are Serious Games",
+    "publisher": "These Are Serious Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Mothership",
+        "pattern": "mothership.save.v1.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788886435,
-  "_history": [],
-  "_change_number": 38575624,
-  "_missing_token": true,
-  "_sha": "2b5c08b14c87bf67716ef7fca51b6e9a593dbc3f",
-  "_size": 3299,
+  "_lastChecked": 1788891961,
+  "_history": [
+    {
+      "buildId": "24973571",
+      "branch": "public",
+      "timeUpdated": 1787844400,
+      "firstSeen": 1788891961,
+      "manifests": {
+        "5026321": {
+          "gid": "2945263980567390300",
+          "size": 1170721185,
+          "download": 737086000
+        },
+        "5026322": {
+          "gid": "4365777415382641894",
+          "size": 1166287158,
+          "download": 733165808
+        },
+        "5026323": {
+          "gid": "586675473798757197",
+          "size": 1374785917,
+          "download": 819702496
+        }
+      }
+    }
+  ],
+  "_change_number": 38703378,
+  "_missing_token": false,
+  "_sha": "e7e0ad21fc9bc749b167d5ba639705a3605f813c",
+  "_size": 4794,
   "appid": "5026320",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +54,7 @@
     },
     "clienticon": "240faaf73128df94ea6404a3a36e05f701ec35b0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -37,7 +62,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5026320",
     "genres": {
       "0": "23",
@@ -114,7 +138,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f598489f90e89bd1d47c58d7538e917156e1edef/capsule_231x87.jpg"
     },
@@ -151,5 +175,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Costa Nostra",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "costa-nostra.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "costa-nostra",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Costa Nostra.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5026321": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "737086000",
+          "gid": "2945263980567390300",
+          "size": "1170721185"
+        }
+      }
+    },
+    "5026322": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "733165808",
+          "gid": "4365777415382641894",
+          "size": "1166287158"
+        }
+      }
+    },
+    "5026323": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "819702496",
+          "gid": "586675473798757197",
+          "size": "1374785917"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "24973571",
+        "timebuildupdated": "1787843204",
+        "timeupdated": "1787844400"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Costa Nostra",
+    "homepage": "https://costanostragame.net",
+    "isfreeapp": "1",
+    "publisher": "Costa Nostra"
+  }
 }

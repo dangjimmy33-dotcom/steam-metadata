@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788886306,
-  "_history": [],
-  "_change_number": 38701164,
-  "_missing_token": true,
-  "_sha": "60e20f0fe7c61c6eb2ae7a032bd8c2194e67dee2",
-  "_size": 3223,
+  "_lastChecked": 1788891858,
+  "_history": [
+    {
+      "buildId": "25192682",
+      "branch": "public",
+      "timeUpdated": 1788889860,
+      "firstSeen": 1788891858,
+      "manifests": {
+        "4900991": {
+          "gid": "72426806332879908",
+          "size": 987299945,
+          "download": 362701056
+        }
+      }
+    }
+  ],
+  "_change_number": 38704829,
+  "_missing_token": false,
+  "_sha": "4cd781fc83d2f7c522698ea4523e0f0bc9467aed",
+  "_size": 3693,
   "appid": "4900990",
   "common": {
     "aicontenttype": "1",
@@ -34,7 +48,6 @@
     "clienticon": "f029a12ff23f8ed78e6d3b9c49db53909da57798",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4900990",
     "genres": {
       "0": "1",
@@ -107,7 +120,7 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "23a6dc5bab9ed300d3693e9cb66bd0dd4405fc4d/capsule_231x87.jpg"
     },
@@ -141,5 +154,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MOR",
+    "launch": {
+      "0": {
+        "executable": "CombinedMultiplayer.exe"
+      }
+    }
+  },
+  "depots": {
+    "4900991": {
+      "manifests": {
+        "public": {
+          "download": "362701056",
+          "gid": "72426806332879908",
+          "size": "987299945"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25192682",
+        "timebuildupdated": "1788889805",
+        "timeupdated": "1788889860"
+      }
+    }
+  },
+  "extended": {
+    "developer": "D00FEN5HMIRTZ",
+    "publisher": "D00FEN5HMIRTZ"
+  }
 }

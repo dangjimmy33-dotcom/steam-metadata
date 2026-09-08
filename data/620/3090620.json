@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788884136,
-  "_history": [],
-  "_change_number": 38689831,
-  "_missing_token": true,
-  "_sha": "5d3b388c46b148a01a36a0d0d2f9cb6515169f63",
-  "_size": 4181,
+  "_lastChecked": 1788890160,
+  "_history": [
+    {
+      "buildId": "25182714",
+      "branch": "public",
+      "timeUpdated": 1788858615,
+      "firstSeen": 1788890160,
+      "manifests": {
+        "3090621": {
+          "gid": "7691312243929164563",
+          "size": 1051733603,
+          "download": 538005936
+        },
+        "3090622": {
+          "gid": "1493326175024492653",
+          "size": 1054474102,
+          "download": 538769248
+        }
+      }
+    }
+  ],
+  "_change_number": 38704531,
+  "_missing_token": false,
+  "_sha": "af0af2682e9ed79fc1251552c09e5d279e8ec567",
+  "_size": 5395,
   "appid": "3090620",
   "common": {
     "associations": {
@@ -53,7 +72,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "3090620",
     "genres": {
       "0": "1",
@@ -132,11 +150,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7b0d5da8f0af192643da417e9a179af4c4ff418d/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1788669901",
+    "steam_release_date": "1788889981",
+    "store_asset_mtime": "1788862533",
     "store_tags": {
       "0": "597",
       "1": "699",
@@ -183,5 +202,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Arcade Galaxy Standalone",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ArcadeGalaxy.app"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ArcadeGalaxy.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3090621": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "538005936",
+          "gid": "7691312243929164563",
+          "size": "1051733603"
+        }
+      }
+    },
+    "3090622": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "538769248",
+          "gid": "1493326175024492653",
+          "size": "1054474102"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25182714",
+        "timebuildupdated": "1788855865",
+        "timeupdated": "1788858615"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "RCADE Corp.",
+    "homepage": "https://www.arcadegalaxy.space/",
+    "publisher": "Arcade Galaxy"
+  }
 }

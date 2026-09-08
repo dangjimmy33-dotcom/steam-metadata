@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788886225,
-  "_history": [],
-  "_change_number": 38702289,
-  "_missing_token": true,
-  "_sha": "a32e5689b567690716cc289483788e2d4d923dde",
-  "_size": 3974,
+  "_lastChecked": 1788891795,
+  "_history": [
+    {
+      "buildId": "25192076",
+      "branch": "public",
+      "timeUpdated": 1788888005,
+      "firstSeen": 1788891795,
+      "manifests": {
+        "4829381": {
+          "gid": "185365989758487044",
+          "size": 609571562,
+          "download": 236982128
+        },
+        "4829382": {
+          "gid": "7127190654547176877",
+          "size": 609042893,
+          "download": 237550192
+        },
+        "4829383": {
+          "gid": "5648339364536117999",
+          "size": 626513412,
+          "download": 245032720
+        }
+      }
+    }
+  ],
+  "_change_number": 38703901,
+  "_missing_token": false,
+  "_sha": "3b4ee98c36f090077a7347e0ea20958125bdeb56",
+  "_size": 5038,
   "appid": "4829380",
   "common": {
     "associations": {
@@ -24,8 +48,8 @@
     },
     "clienticon": "1af93bb2e04dad91842e88863cd9368ee5719aef",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4829380",
     "genres": {
       "0": "25",
@@ -97,7 +121,7 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "971d7764555b3ccc4ec26c77a591bc52387bd489/capsule_231x87.jpg"
     },
@@ -189,5 +213,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dorm 17",
+    "launch": {
+      "0": {
+        "executable": "Dorm 17.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4829381": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "236982128",
+          "gid": "185365989758487044",
+          "size": "609571562"
+        }
+      }
+    },
+    "4829382": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "237550192",
+          "gid": "7127190654547176877",
+          "size": "609042893"
+        }
+      }
+    },
+    "4829383": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "245032720",
+          "gid": "5648339364536117999",
+          "size": "626513412"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25192076",
+        "timebuildupdated": "1788887493",
+        "timeupdated": "1788888005"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Armudu Games",
+    "homepage": "https://armudugames.com/",
+    "publisher": "Armudu Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760"
+  }
 }

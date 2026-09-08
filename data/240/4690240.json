@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788886087,
+  "_lastChecked": 1788891686,
   "_history": [
     {
       "buildId": "25065298",
@@ -36,12 +36,30 @@
           "download": 247368688
         }
       }
+    },
+    {
+      "buildId": "25192933",
+      "branch": "private_beta",
+      "timeUpdated": 1788890913,
+      "firstSeen": 1788891686,
+      "manifests": {
+        "4690241": {
+          "gid": "4685543521926780759",
+          "size": 277930581,
+          "download": 211573328
+        },
+        "4690242": {
+          "gid": "990848057178081343",
+          "size": 410134991,
+          "download": 248933648
+        }
+      }
     }
   ],
-  "_change_number": 38655115,
+  "_change_number": 38704923,
   "_missing_token": false,
-  "_sha": "213f40154b8a5224e79fe71e0fec03b0f8e0d5c7",
-  "_size": 4939,
+  "_sha": "0c36fcd99a1cc7fe2eb3a947326d3daa2628116e",
+  "_size": 4938,
   "appid": "4690240",
   "common": {
     "associations": {
@@ -232,9 +250,9 @@
       },
       "manifests": {
         "private_beta": {
-          "download": "210259632",
-          "gid": "5657155391456728211",
-          "size": "276190554"
+          "download": "211573328",
+          "gid": "4685543521926780759",
+          "size": "277930581"
         },
         "public": {
           "download": "210259632",
@@ -249,9 +267,9 @@
       },
       "manifests": {
         "private_beta": {
-          "download": "247368688",
-          "gid": "7042949385112843492",
-          "size": "408124844"
+          "download": "248933648",
+          "gid": "990848057178081343",
+          "size": "410134991"
         },
         "public": {
           "download": "247368688",
@@ -262,10 +280,10 @@
     },
     "branches": {
       "private_beta": {
-        "buildid": "25065298",
+        "buildid": "25192933",
         "description": "Private Mac and PC Test",
-        "timebuildupdated": "1788290989",
-        "timeupdated": "1788290989"
+        "timebuildupdated": "1788890911",
+        "timeupdated": "1788890913"
       },
       "public": {
         "buildid": "25065298",

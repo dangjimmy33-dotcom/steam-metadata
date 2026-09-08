@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788880598,
+  "_lastChecked": 1788887436,
   "_history": [
     {
       "buildId": "1227584",
@@ -18,12 +18,35 @@
           "download": 42358912
         }
       }
+    },
+    {
+      "buildId": "25190081",
+      "branch": "public",
+      "timeUpdated": 1788880885,
+      "firstSeen": 1788887436,
+      "manifests": {
+        "496991": {
+          "gid": "1112036804407562709",
+          "size": 40346112,
+          "download": 40772560
+        },
+        "496992": {
+          "gid": "6402015677491106750",
+          "size": 50885384,
+          "download": 42358912
+        },
+        "496993": {
+          "gid": "5462374012169170761",
+          "size": 68823192,
+          "download": 58142416
+        }
+      }
     }
   ],
-  "_change_number": 38700377,
+  "_change_number": 38701483,
   "_missing_token": false,
-  "_sha": "a82a4db86de75bd9a40e4e81a8806f1ba692cebf",
-  "_size": 4667,
+  "_sha": "77ed08c57e0602f26e9169c6d48129763fd9f581",
+  "_size": 4966,
   "appid": "496990",
   "common": {
     "associations": {
@@ -184,7 +207,12 @@
         "config": {
           "oslist": "windows"
         },
-        "executable": "Ghost_Sweeper2026.exe"
+        "description": "Ghost Sweeper 2026",
+        "description_loc": {
+          "english": "Ghost Sweeper 2026"
+        },
+        "executable": "Ghost_Sweeper2026.exe",
+        "type": "default"
       }
     }
   },
@@ -216,13 +244,21 @@
     "496993": {
       "config": {
         "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "58142416",
+          "gid": "5462374012169170761",
+          "size": "68823192"
+        }
       }
     },
+    "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "1227584",
-        "timebuildupdated": "1468500875",
-        "timeupdated": "1468501121"
+        "buildid": "25190081",
+        "timebuildupdated": "1788880735",
+        "timeupdated": "1788880885"
       }
     }
   },

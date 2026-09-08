@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788884684,
+  "_lastChecked": 1788890589,
   "_history": [
     {
       "buildId": "24809473",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38635090,
+  "_change_number": 38702878,
   "_missing_token": false,
-  "_sha": "b54d92b4766e0125be8cba695ec5e2f00917e85d",
-  "_size": 10451,
+  "_sha": "b072c1749f5b750c65bc982691f0f0990eb07ff3",
+  "_size": 11647,
   "appid": "3526710",
   "common": {
     "associations": {
@@ -256,6 +256,48 @@
         "4": {
           "display": "1",
           "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      }
+    },
+    "steam_frame_compatibility": {
+      "category": "3",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "1",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1788281236",
+      "tested_build_id": "24809473",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsPerformant"
         }
       }
     },

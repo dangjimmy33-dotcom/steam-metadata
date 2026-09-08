@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788885261,
-  "_history": [],
-  "_change_number": 38666500,
-  "_missing_token": true,
-  "_sha": "c4e38997555f2ec56a715cab9e7b17638dccfb69",
-  "_size": 5094,
+  "_lastChecked": 1788891039,
+  "_history": [
+    {
+      "buildId": "25165855",
+      "branch": "public",
+      "timeUpdated": 1788779566,
+      "firstSeen": 1788891039,
+      "manifests": {
+        "3984061": {
+          "gid": "2356005909437656123",
+          "size": 5681902045,
+          "download": 5236070480
+        }
+      }
+    }
+  ],
+  "_change_number": 38703412,
+  "_missing_token": false,
+  "_sha": "f99f14b590af86e5378a382dfe00ceaad955ac69",
+  "_size": 6017,
   "appid": "3984060",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +43,8 @@
     },
     "clienticon": "312f91704223be88f285e35a992923c393a15170",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3984060",
     "genres": {
       "0": "23",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0453699ea7ba68b6e5da778811693e8b1a9caec4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788887064",
     "store_asset_mtime": "1782900413",
     "store_tags": {
       "0": "492",
@@ -252,5 +267,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cyberpunk Store Simulator",
+    "launch": {
+      "0": {
+        "executable": "CyberpunkStoreSimulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3984061": {
+      "manifests": {
+        "public": {
+          "download": "5236070480",
+          "gid": "2356005909437656123",
+          "size": "5681902045"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25165855",
+        "timebuildupdated": "1788779555",
+        "timeupdated": "1788779566"
+      }
+    }
+  },
+  "extended": {
+    "developer": "ICON GAME STUDIO",
+    "publisher": "PlayWay S.A."
+  }
 }

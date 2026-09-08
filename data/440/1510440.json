@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788882000,
-  "_history": [],
-  "_change_number": 38700493,
-  "_missing_token": true,
-  "_sha": "34f4ff5c73d1d60cba401d67f48f748adeb0b482",
-  "_size": 6110,
+  "_lastChecked": 1788888499,
+  "_history": [
+    {
+      "buildId": "25189741",
+      "branch": "public",
+      "timeUpdated": 1788880252,
+      "firstSeen": 1788888499,
+      "manifests": {
+        "1510441": {
+          "gid": "1891184731516523497",
+          "size": 7297936705,
+          "download": 6690353408
+        }
+      }
+    }
+  ],
+  "_change_number": 38701877,
+  "_missing_token": false,
+  "_sha": "45e6dff95f75a82473a64a078b0666aa5fe5388b",
+  "_size": 7687,
   "appid": "1510440",
   "common": {
     "associations": {
@@ -37,9 +51,9 @@
     "clienticon": "d29e8d3a2670127ab2a70b725c4a3e0394db3585",
     "clienttga": "77440f3b8ec489b57edbbac12b19b436cabc5d61",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1510440",
     "genres": {
       "0": "25",
@@ -116,7 +130,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "666100d453277cbc43c756d091f57470147b7064/capsule_231x87.jpg"
     },
@@ -181,7 +195,8 @@
         }
       }
     },
-    "store_asset_mtime": "1788880376",
+    "steam_release_date": "1788883213",
+    "store_asset_mtime": "1788883686",
     "store_tags": {
       "0": "3834",
       "1": "597",
@@ -262,5 +277,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Honeycomb",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play Honeycomb",
+        "description_loc": {
+          "english": "Play Honeycomb"
+        },
+        "executable": "Honeycomb.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1510441": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "6690353408",
+          "gid": "1891184731516523497",
+          "size": "7297936705"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4332180": {
+      "config": {
+        "oslist": "windows"
+      },
+      "dlcappid": "4332180"
+    },
+    "branches": {
+      "public": {
+        "buildid": "25189741",
+        "timebuildupdated": "1788879486",
+        "timeupdated": "1788880252"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Frozen Way",
+    "homepage": "https://honeycomb-game.com/",
+    "publisher": "Snail Games USA"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Honeycomb\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Honeycomb\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    }
+  }
 }

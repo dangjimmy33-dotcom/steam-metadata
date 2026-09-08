@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788881608,
+  "_lastChecked": 1788888201,
   "_history": [
     {
       "buildId": "10351853",
@@ -48,12 +48,60 @@
           "download": 246482576
         }
       }
+    },
+    {
+      "buildId": "24938313",
+      "branch": "public",
+      "timeUpdated": 1788884964,
+      "firstSeen": 1788888201,
+      "manifests": {
+        "1225581": {
+          "gid": "5620699664785907894",
+          "size": 1725356591,
+          "download": 748535792
+        },
+        "1225582": {
+          "gid": "8791224522607658720",
+          "size": 137808,
+          "download": 34976
+        },
+        "1225583": {
+          "gid": "1976473852220038241",
+          "size": 157617,
+          "download": 39504
+        },
+        "1225584": {
+          "gid": "2262992852271294153",
+          "size": 171787,
+          "download": 41664
+        },
+        "1225585": {
+          "gid": "1684013526022292874",
+          "size": 150526,
+          "download": 37696
+        },
+        "1225586": {
+          "gid": "6670576466475314303",
+          "size": 163408,
+          "download": 39728
+        },
+        "1225587": {
+          "gid": "916330057324271359",
+          "size": 239631,
+          "download": 42640
+        },
+        "3340991": {
+          "gid": "5874704072306837744",
+          "size": 246793391,
+          "download": 246482576
+        }
+      }
     }
   ],
-  "_change_number": 38587001,
+  "_change_number": 38703031,
   "_missing_token": false,
-  "_sha": "22ed43e89ab126a6e976aac752e571d095fc5f6a",
-  "_size": 8819,
+  "_sha": "278ccede3d21dcbfb97473b45988afd1a189fda0",
+  "_size": 8543,
   "appid": "1225580",
   "common": {
     "associations": {
@@ -322,17 +370,6 @@
     "installdir": "Fe",
     "launch": {
       "0": {
-        "executable": "link2ea://launchgame/1225580?platform=steam&theme=fe",
-        "type": "none"
-      },
-      "1": {
-        "config": {
-          "betakey": "eax_test"
-        },
-        "description": "launch with Steam2ea",
-        "description_loc": {
-          "english": "launch with Steam2ea"
-        },
         "executable": "steam2ea://launchgame/1225580?platform=steam&theme=fe"
       }
     }
@@ -341,9 +378,9 @@
     "1225581": {
       "manifests": {
         "public": {
-          "download": "749835024",
-          "gid": "2920810115092745094",
-          "size": "1727146996"
+          "download": "748535792",
+          "gid": "5620699664785907894",
+          "size": "1725356591"
         }
       }
     },
@@ -446,9 +483,9 @@
     "baselanguages": "english,german,french,italian,spanish,japanese",
     "branches": {
       "public": {
-        "buildid": "10351853",
-        "timebuildupdated": "1674073445",
-        "timeupdated": "1675080354"
+        "buildid": "24938313",
+        "timebuildupdated": "1787698817",
+        "timeupdated": "1788884964"
       }
     },
     "privatebranches": "1"

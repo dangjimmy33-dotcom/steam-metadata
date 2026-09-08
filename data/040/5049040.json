@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788886458,
-  "_history": [],
-  "_change_number": 38677542,
-  "_missing_token": true,
-  "_sha": "b191492a8e8e7b891c94ea0f7512a171ea33929e",
-  "_size": 3070,
+  "_lastChecked": 1788891978,
+  "_history": [
+    {
+      "buildId": "25192216",
+      "branch": "public",
+      "timeUpdated": 1788888081,
+      "firstSeen": 1788891978,
+      "manifests": {
+        "5049041": {
+          "gid": "1510237839361286120",
+          "size": 714966864,
+          "download": 581766080
+        }
+      }
+    }
+  ],
+  "_change_number": 38703826,
+  "_missing_token": false,
+  "_sha": "40a1afcd795f968b4ee5284f871ebfdaf3880d68",
+  "_size": 3974,
   "appid": "5049040",
   "common": {
     "aicontenttype": "1",
@@ -28,8 +42,8 @@
     },
     "clienticon": "04cdb1f41459f0bb6cae8e80cb31118faa550cf6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5049040",
     "genres": {
       "0": "1",
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2bd1cfec76a0eac6acc2407a7dff34ffc3804a32/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788888173",
     "store_asset_mtime": "1787947577",
     "store_tags": {
       "0": "42804",
@@ -141,5 +156,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TOWERPULSE",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TOWERPULSE.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5049041": {
+      "manifests": {
+        "public": {
+          "download": "581766080",
+          "gid": "1510237839361286120",
+          "size": "714966864"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "25192216",
+        "timebuildupdated": "1788888060",
+        "timeupdated": "1788888081"
+      }
+    }
+  },
+  "extended": {
+    "developer": "HAT Media",
+    "publisher": "HAT Media"
+  },
+  "ufs": {
+    "maxnumfiles": "32",
+    "quota": "33554432",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/TOWERPULSE",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

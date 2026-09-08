@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788882994,
+  "_lastChecked": 1788889273,
   "_history": [
     {
       "buildId": "24689329",
@@ -52,11 +52,37 @@
           "download": 4140586080
         }
       }
+    },
+    {
+      "buildId": "25083954",
+      "branch": "previous_version",
+      "timeUpdated": 1788369804,
+      "firstSeen": 1788889273,
+      "manifests": {
+        "2217001": {
+          "gid": "2776624598877238527",
+          "size": 5207143896,
+          "download": 4675164800
+        }
+      }
+    },
+    {
+      "buildId": "25189454",
+      "branch": "public",
+      "timeUpdated": 1788888404,
+      "firstSeen": 1788889273,
+      "manifests": {
+        "2217001": {
+          "gid": "9143705823114527878",
+          "size": 5207128520,
+          "download": 4675192992
+        }
+      }
     }
   ],
-  "_change_number": 38699366,
+  "_change_number": 38703914,
   "_missing_token": false,
-  "_sha": "56a9b2cb36f5d8a5fd1c3716e93055285d2c47e0",
+  "_sha": "d6878e8b4c03c132ea3756bb538af83526d6690a",
   "_size": 9587,
   "appid": "2217000",
   "common": {
@@ -364,14 +390,14 @@
           "size": "5011649711"
         },
         "previous_version": {
-          "download": "4487460736",
-          "gid": "1305832052800561796",
-          "size": "5011649711"
-        },
-        "public": {
           "download": "4675164800",
           "gid": "2776624598877238527",
           "size": "5207143896"
+        },
+        "public": {
+          "download": "4675192992",
+          "gid": "9143705823114527878",
+          "size": "5207128520"
         },
         "workshop_beta": {
           "download": "4140586080",
@@ -424,15 +450,15 @@
         "timeupdated": "1786538795"
       },
       "previous_version": {
-        "buildid": "24689329",
-        "description": "The previously live version of the game. Use this to access invalid replays",
-        "timebuildupdated": "1786526486",
-        "timeupdated": "1786538795"
-      },
-      "public": {
         "buildid": "25083954",
+        "description": "The previously live version of the game. Use this to access invalid replays",
         "timebuildupdated": "1788365738",
         "timeupdated": "1788369804"
+      },
+      "public": {
+        "buildid": "25189454",
+        "timebuildupdated": "1788878565",
+        "timeupdated": "1788888404"
       },
       "workshop_beta": {
         "buildid": "24736408",

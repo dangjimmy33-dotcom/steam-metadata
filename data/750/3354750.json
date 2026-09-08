@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788884469,
+  "_lastChecked": 1788890421,
   "_history": [
     {
       "buildId": "24539527",
@@ -18,12 +18,30 @@
           "download": 318033232
         }
       }
+    },
+    {
+      "buildId": "24855063",
+      "branch": "public",
+      "timeUpdated": 1788886713,
+      "firstSeen": 1788890421,
+      "manifests": {
+        "3354751": {
+          "gid": "1202327573538100207",
+          "size": 14131995308,
+          "download": 12248314240
+        },
+        "3893181": {
+          "gid": "3685412901435514107",
+          "size": 344742113,
+          "download": 318033232
+        }
+      }
     }
   ],
-  "_change_number": 38698538,
+  "_change_number": 38703229,
   "_missing_token": false,
-  "_sha": "cc07e968847d13becdac8cc0c4a57c26ac446a93",
-  "_size": 7301,
+  "_sha": "cdfd75ead554bc86b9a83f066665d23fa0cd67c4",
+  "_size": 7356,
   "appid": "3354750",
   "common": {
     "associations": {
@@ -42,10 +60,10 @@
     },
     "category": {
       "category_1": "1",
+      "category_18": "1",
       "category_20": "1",
       "category_22": "1",
       "category_27": "1",
-      "category_28": "1",
       "category_35": "1",
       "category_36": "1",
       "category_38": "1",
@@ -57,13 +75,15 @@
       "category_67": "1",
       "category_68": "1",
       "category_69": "1",
+      "category_72": "1",
+      "category_74": "1",
       "category_9": "1"
     },
     "clienticon": "741cefdfeabf38b28288dab2cdbcf848995b85cb",
     "clienttga": "006ae4796215eb0d8daa5756375afd289d30db8c",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
-    "controller_support": "full",
+    "controller_support": "partial",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -212,7 +232,7 @@
       }
     },
     "steam_release_date": "1758043680",
-    "store_asset_mtime": "1779399129",
+    "store_asset_mtime": "1787178057",
     "store_tags": {
       "0": "3859",
       "1": "1753",
@@ -306,9 +326,9 @@
     "3354751": {
       "manifests": {
         "public": {
-          "download": "10918036544",
-          "gid": "7298251582320541887",
-          "size": "13092544319"
+          "download": "12248314240",
+          "gid": "1202327573538100207",
+          "size": "14131995308"
         }
       }
     },
@@ -325,9 +345,9 @@
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,danish,dutch,norwegian,swedish,czech,turkish,arabic,brazilian,latam",
     "branches": {
       "public": {
-        "buildid": "24539527",
-        "timebuildupdated": "1785789131",
-        "timeupdated": "1786035749"
+        "buildid": "24855063",
+        "timebuildupdated": "1787290544",
+        "timeupdated": "1788886713"
       }
     },
     "privatebranches": "1"
@@ -338,7 +358,7 @@
     "dlcavailableonstore": "1",
     "homepage": "https://www.ea.com/games/skate",
     "isfreeapp": "1",
-    "listofdlc": "3354800,3354810,3354820,3494010,4103880,4115210,4115220,4573910,4573920",
+    "listofdlc": "3354800,3354810,3354820,3494010,4103880,4115210,4115220,4573400,4573910,4573920",
     "microtxnrestrictedcountries": "RU,BY",
     "publisher": "Electronic Arts"
   }

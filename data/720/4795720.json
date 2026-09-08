@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788886192,
-  "_history": [],
-  "_change_number": 38460490,
-  "_missing_token": true,
-  "_sha": "f801106ba23ab31f14474b3001012b102f891b03",
-  "_size": 3044,
+  "_lastChecked": 1788891769,
+  "_history": [
+    {
+      "buildId": "25192855",
+      "branch": "public",
+      "timeUpdated": 1788890741,
+      "firstSeen": 1788891769,
+      "manifests": {
+        "4795721": {
+          "gid": "4116342084758480534",
+          "size": 1394402284,
+          "download": 676636960
+        }
+      }
+    }
+  ],
+  "_change_number": 38705165,
+  "_missing_token": false,
+  "_sha": "ac07c5cba63a6ebcaf2622d599d77aaba16a18ac",
+  "_size": 3569,
   "appid": "4795720",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "6184a21f28db7f077071ca1e48f9fe38bb80a811",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4795720",
     "genres": {
       "0": "1",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2dfe4e74f4155b6e0e8c3ebf9e9b9cf3c72f2bc3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788891519",
     "store_asset_mtime": "1780771030",
     "store_tags": {
       "0": "1662",
@@ -140,5 +155,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Voldark",
+    "launch": {
+      "0": {
+        "executable": "Voldark.exe"
+      }
+    }
+  },
+  "depots": {
+    "4795721": {
+      "manifests": {
+        "public": {
+          "download": "676636960",
+          "gid": "4116342084758480534",
+          "size": "1394402284"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25192855",
+        "timebuildupdated": "1788890596",
+        "timeupdated": "1788890741"
+      }
+    }
+  },
+  "extended": {
+    "developer": "OzbalHan",
+    "publisher": "OzbalHan"
+  }
 }
