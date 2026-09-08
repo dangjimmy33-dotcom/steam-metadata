@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788855800,
+  "_lastChecked": 1788861239,
   "_history": [
     {
       "buildId": "25141163",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 38633515,
+  "_change_number": 38690738,
   "_missing_token": false,
-  "_sha": "dbc494225b12e40b28e5630cd53ba7089c50c571",
-  "_size": 4415,
+  "_sha": "9cb7d8e8a2ab60a1edfdeee79892b04ac42b4442",
+  "_size": 4941,
   "appid": "3990270",
   "common": {
     "aicontenttype": "1",
@@ -222,12 +222,37 @@
         "timebuildupdated": "1788637362",
         "timeupdated": "1788637387"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "SlowWork",
     "dlcavailableonstore": "1",
     "listofdlc": "4866910,5193950",
     "publisher": "SlowWork"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "2",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "TouhouRTD\\Touhou Random Tower Defense",
+        "pattern": "character_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "TouhouRTD\\Touhou Random Tower Defense",
+        "pattern": "player_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788852199,
+  "_lastChecked": 1788857642,
   "_history": [
     {
       "buildId": "1227584",
@@ -20,10 +20,10 @@
       }
     }
   ],
-  "_change_number": 37821170,
+  "_change_number": 38687639,
   "_missing_token": false,
-  "_sha": "8c645386b9abdb3ab7e69c2c42dfd6051f589070",
-  "_size": 4460,
+  "_sha": "feba466aade35b29ae2296d5de92bc2dc44c1900",
+  "_size": 4686,
   "appid": "496990",
   "common": {
     "associations": {
@@ -46,6 +46,7 @@
     "clienticon": "d250f2bbeb1411354d231ae2a852f4897c07e4f8",
     "clienttga": "16610a093a4de7dde37aa05d46cc410e63669e5f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "gameid": "496990",
     "genres": {
@@ -178,6 +179,12 @@
         },
         "executable": "Ghost Sweeper.app\\Contents\\MacOS\\Mac_Runner",
         "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Ghost_Sweeper2026.exe"
       }
     }
   },
@@ -204,6 +211,12 @@
           "gid": "6402015677491106750",
           "size": "50885384"
         }
+      }
+    },
+    "496993": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
       }
     },
     "branches": {

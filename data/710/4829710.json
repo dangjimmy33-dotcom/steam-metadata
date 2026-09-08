@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788856551,
+  "_lastChecked": 1788861989,
   "_history": [
     {
       "buildId": "25137580",
@@ -36,12 +36,30 @@
           "download": 95302480
         }
       }
+    },
+    {
+      "buildId": "25183429",
+      "branch": "public",
+      "timeUpdated": 1788858516,
+      "firstSeen": 1788861989,
+      "manifests": {
+        "4829711": {
+          "gid": "7369652030426062205",
+          "size": 325291386,
+          "download": 90959360
+        },
+        "4829712": {
+          "gid": "3526330430259288990",
+          "size": 231929715,
+          "download": 95490944
+        }
+      }
     }
   ],
-  "_change_number": 38673610,
+  "_change_number": 38690426,
   "_missing_token": false,
-  "_sha": "710603d9318f18dde1123ed51f45b048c156c4ee",
-  "_size": 7013,
+  "_sha": "1fab05117ac6bb74a148a82b34ada93fa1f21f6f",
+  "_size": 7310,
   "appid": "4829710",
   "common": {
     "aicontenttype": "1",
@@ -63,6 +81,7 @@
       "category_24": "1",
       "category_25": "1",
       "category_28": "1",
+      "category_30": "1",
       "category_38": "1",
       "category_39": "1",
       "category_44": "1",
@@ -272,6 +291,18 @@
           "english": "Castleborne Survivors"
         },
         "executable": "Castleborne Survivors.app"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "castleborne editor",
+        "description_loc": {
+          "english": "castleborne editor"
+        },
+        "executable": "editor/castleborne editor.exe",
+        "workingdir": "editor"
       }
     },
     "steamcontrollertemplateindex": "13",
@@ -286,9 +317,9 @@
       },
       "manifests": {
         "public": {
-          "download": "76449872",
-          "gid": "4440061315782103547",
-          "size": "167770074"
+          "download": "90959360",
+          "gid": "7369652030426062205",
+          "size": "325291386"
         }
       }
     },
@@ -299,18 +330,18 @@
       },
       "manifests": {
         "public": {
-          "download": "95302480",
-          "gid": "5387934470184481609",
-          "size": "231489261"
+          "download": "95490944",
+          "gid": "3526330430259288990",
+          "size": "231929715"
         }
       }
     },
     "baselanguages": "brazilian,english,french,german,japanese,koreana,latam,russian,schinese,tchinese",
     "branches": {
       "public": {
-        "buildid": "25149161",
-        "timebuildupdated": "1788676180",
-        "timeupdated": "1788676180"
+        "buildid": "25183429",
+        "timebuildupdated": "1788858516",
+        "timeupdated": "1788858516"
       }
     },
     "privatebranches": "1"

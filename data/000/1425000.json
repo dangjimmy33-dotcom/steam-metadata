@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788853178,
+  "_lastChecked": 1788858618,
   "_history": [
     {
       "buildId": "24840122",
@@ -26,11 +26,37 @@
           "download": 6681029744
         }
       }
+    },
+    {
+      "buildId": "25181412",
+      "branch": "public",
+      "timeUpdated": 1788856837,
+      "firstSeen": 1788858618,
+      "manifests": {
+        "1425001": {
+          "gid": "1142744152752518387",
+          "size": 7535159031,
+          "download": 7132154544
+        }
+      }
+    },
+    {
+      "buildId": "24840122",
+      "branch": "rollback",
+      "timeUpdated": 1787231780,
+      "firstSeen": 1788858618,
+      "manifests": {
+        "1425001": {
+          "gid": "6195734419613023992",
+          "size": 8930111054,
+          "download": 7648360048
+        }
+      }
     }
   ],
-  "_change_number": 38686796,
+  "_change_number": 38689076,
   "_missing_token": false,
-  "_sha": "97d8835ef2a2e296d6125f3771c6280234070b8f",
+  "_sha": "28b6a6cdd45c61aaa17629bf9e985b41b61750b4",
   "_size": 10706,
   "appid": "1425000",
   "common": {
@@ -407,14 +433,14 @@
     "1425001": {
       "manifests": {
         "public": {
+          "download": "7132154544",
+          "gid": "1142744152752518387",
+          "size": "7535159031"
+        },
+        "rollback": {
           "download": "7648360048",
           "gid": "6195734419613023992",
           "size": "8930111054"
-        },
-        "rollback": {
-          "download": "6681029744",
-          "gid": "1971097231882222081",
-          "size": "7945075079"
         }
       }
     },
@@ -435,15 +461,15 @@
     "baselanguages": "tchinese",
     "branches": {
       "public": {
-        "buildid": "24840122",
-        "timebuildupdated": "1787230191",
-        "timeupdated": "1787231780"
+        "buildid": "25181412",
+        "timebuildupdated": "1788850475",
+        "timeupdated": "1788856837"
       },
       "rollback": {
-        "buildid": "24527533",
+        "buildid": "24840122",
         "description": "previous version",
-        "timebuildupdated": "1785739731",
-        "timeupdated": "1785745096"
+        "timebuildupdated": "1787230191",
+        "timeupdated": "1787231780"
       }
     },
     "hasdepotsindlc": "0",

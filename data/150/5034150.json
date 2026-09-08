@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788856723,
-  "_history": [],
-  "_change_number": 38661220,
-  "_missing_token": true,
-  "_sha": "e2f758059ddca10c74c492afff47453369bceb4b",
-  "_size": 3584,
+  "_lastChecked": 1788862160,
+  "_history": [
+    {
+      "buildId": "25163447",
+      "branch": "public",
+      "timeUpdated": 1788770159,
+      "firstSeen": 1788862160,
+      "manifests": {
+        "5034151": {
+          "gid": "7890889188005303710",
+          "size": 115409552,
+          "download": 39590384
+        },
+        "5034152": {
+          "gid": "5576853568606769898",
+          "size": 102505061,
+          "download": 35079056
+        }
+      }
+    }
+  ],
+  "_change_number": 38690308,
+  "_missing_token": false,
+  "_sha": "da41d8728f05eb9c2c5e4e7a2d770f906941226b",
+  "_size": 4610,
   "appid": "5034150",
   "common": {
     "aicontenttype": "1",
@@ -33,7 +52,6 @@
         "version": "3"
       }
     },
-    "exfgls": "8",
     "gameid": "5034150",
     "genres": {
       "0": "4",
@@ -107,10 +125,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9d2abb94451b7bec866d6a3f996b3d7e96668c91/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788859392",
     "store_asset_mtime": "1788339497",
     "store_tags": {
       "0": "560542",
@@ -161,5 +180,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TokenTokenClicker",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "grammi-office.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "TokenTokenClicker.app"
+      }
+    }
+  },
+  "depots": {
+    "5034151": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "39590384",
+          "gid": "7890889188005303710",
+          "size": "115409552"
+        }
+      }
+    },
+    "5034152": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "35079056",
+          "gid": "5576853568606769898",
+          "size": "102505061"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "25163447",
+        "timebuildupdated": "1788769987",
+        "timeupdated": "1788770159"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Preferred Networks",
+    "publisher": "Preferred Networks"
+  }
 }

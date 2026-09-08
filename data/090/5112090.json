@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788856775,
-  "_history": [],
-  "_change_number": 38678918,
-  "_missing_token": true,
-  "_sha": "5fa322212a8c6c8529c9890cfdf59b21dd47c0c2",
-  "_size": 2909,
+  "_lastChecked": 1788862213,
+  "_history": [
+    {
+      "buildId": "25173784",
+      "branch": "public",
+      "timeUpdated": 1788809969,
+      "firstSeen": 1788862213,
+      "manifests": {
+        "5112091": {
+          "gid": "3331675087630722783",
+          "size": 1239955784,
+          "download": 1071146672
+        }
+      }
+    }
+  ],
+  "_change_number": 38690875,
+  "_missing_token": false,
+  "_sha": "82ae85cadeb665b709c1366ef0edcca4e3865b27",
+  "_size": 4130,
   "appid": "5112090",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "67381ef1634b1ab3598eaf0c42bfea1989de3fe5",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5112090",
     "genres": {
       "0": "4",
@@ -100,11 +113,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1ed5ef661f8f372e5652b751003c90a86b5bfeec/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1788777517",
+    "steam_release_date": "1788860275",
+    "store_asset_mtime": "1788861131",
     "store_tags": {
       "0": "597",
       "1": "1664",
@@ -130,5 +144,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CrystalStack",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Crystal Stack",
+        "description_loc": {
+          "english": "Crystal Stack"
+        },
+        "executable": "CrystalStack.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5112091": {
+      "manifests": {
+        "public": {
+          "download": "1071146672",
+          "gid": "3331675087630722783",
+          "size": "1239955784"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "25173784",
+        "timebuildupdated": "1788809920",
+        "timeupdated": "1788809969"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Olivier RAYON",
+    "publisher": "Olivier RAYON"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Saved",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

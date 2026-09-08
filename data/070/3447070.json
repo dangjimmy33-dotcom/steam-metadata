@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788855274,
+  "_lastChecked": 1788860714,
   "_history": [
     {
       "buildId": "24835755",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38631624,
+  "_change_number": 38690144,
   "_missing_token": false,
-  "_sha": "cb2719968d09e4625d4d2a04e7f694f070620af9",
-  "_size": 7048,
+  "_sha": "2962bbf2e075cb8490bd2527dca033c5507492e2",
+  "_size": 7178,
   "appid": "3447070",
   "common": {
     "aicontenttype": "1",
@@ -290,10 +290,18 @@
     "publisher": "Aerosoft GmbH"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "1000",
     "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "ec112_3\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    },
     "sync_while_suspended": "1"
   }
 }
