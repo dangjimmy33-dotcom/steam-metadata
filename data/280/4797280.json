@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788897237,
-  "_history": [],
-  "_change_number": 38650258,
-  "_missing_token": true,
-  "_sha": "e21eab2bf578b15c0c1b00dd6188960454870004",
-  "_size": 3070,
+  "_lastChecked": 1788902555,
+  "_history": [
+    {
+      "buildId": "25156074",
+      "branch": "public",
+      "timeUpdated": 1788724415,
+      "firstSeen": 1788902555,
+      "manifests": {
+        "4797281": {
+          "gid": "8537982198016494240",
+          "size": 513772194,
+          "download": 454746592
+        }
+      }
+    }
+  ],
+  "_change_number": 38707467,
+  "_missing_token": false,
+  "_sha": "37355a0d62e273412244793f17c8a130dcebefb8",
+  "_size": 4209,
   "appid": "4797280",
   "common": {
     "associations": {
@@ -30,6 +44,7 @@
     },
     "clienticon": "eeb19c5bb8ac1d327625f3247d8e7352b2ffe2b2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -40,7 +55,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4797280",
     "genres": {
       "0": "25",
@@ -111,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c55206d3ad192ae1d86d5f548b4df8272949f435/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788897720",
     "store_asset_mtime": "1787690442",
     "store_tags": {
       "0": "5186",
@@ -141,5 +156,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Trudge",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Trudge.exe"
+      }
+    },
+    "steamcontrollerconfigdetails": {
+      "3750580086": {
+        "controller_type": "controller_xbox360",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4797281": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "454746592",
+          "gid": "8537982198016494240",
+          "size": "513772194"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25156074",
+        "timebuildupdated": "1788724362",
+        "timeupdated": "1788724415"
+      }
+    }
+  },
+  "extended": {
+    "developer": "FHgames",
+    "homepage": "https://trudgegame.com/",
+    "publisher": "CHpublishing"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Trudge",
+        "pattern": "*.tge",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
