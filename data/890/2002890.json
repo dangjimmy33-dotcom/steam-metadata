@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788876117,
-  "_history": [],
-  "_change_number": 38335294,
-  "_missing_token": true,
-  "_sha": "1747d442ad5c5e6525695c54682601c54e33b57a",
-  "_size": 2942,
+  "_lastChecked": 1788882729,
+  "_history": [
+    {
+      "buildId": "24777696",
+      "branch": "public",
+      "timeUpdated": 1786975162,
+      "firstSeen": 1788882729,
+      "manifests": {
+        "2002892": {
+          "gid": "495276769538083324",
+          "size": 292143831,
+          "download": 96883280
+        }
+      }
+    }
+  ],
+  "_change_number": 38698902,
+  "_missing_token": false,
+  "_sha": "7e2f2dba3fa25b1bd51b07c0893d751386569d80",
+  "_size": 3443,
   "appid": "2002890",
   "common": {
     "associations": {
@@ -25,7 +39,6 @@
     "clienttga": "ec69e4155e75ac00cb0f3ebc055ef41580c37029",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2002890",
     "genres": {
       "0": "1"
@@ -95,7 +108,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8903bf31ea94504c7ae7a240863b13ea58b90bb7/capsule_231x87.jpg"
     },
@@ -131,5 +144,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "-speed",
+    "launch": {
+      "0": {
+        "executable": "bigSpeed.exe"
+      }
+    }
+  },
+  "depots": {
+    "2002892": {
+      "manifests": {
+        "public": {
+          "download": "96883280",
+          "gid": "495276769538083324",
+          "size": "292143831"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24777696",
+        "timebuildupdated": "1786975161",
+        "timeupdated": "1786975162"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SHIFT OR DIE GAMES",
+    "publisher": "SHIFT OR DIE GAMES"
+  }
 }

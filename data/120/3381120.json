@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788877754,
+  "_lastChecked": 1788884507,
   "_history": [
     {
       "buildId": "25061797",
@@ -39,12 +39,25 @@
           "download": 2464140992
         }
       }
+    },
+    {
+      "buildId": "25002915",
+      "branch": "v60.2.0",
+      "timeUpdated": 1788883621,
+      "firstSeen": 1788884507,
+      "manifests": {
+        "3381121": {
+          "gid": "2491398416394751573",
+          "size": 5945250263,
+          "download": 2447325808
+        }
+      }
     }
   ],
-  "_change_number": 38676776,
+  "_change_number": 38701836,
   "_missing_token": false,
-  "_sha": "b5ed1bf01ed35cb09a29d0d4418be23244694b0c",
-  "_size": 7682,
+  "_sha": "71994d2433df118835b8d49e996e2ebc8519ee1b",
+  "_size": 7945,
   "appid": "3381120",
   "common": {
     "associations": {
@@ -318,6 +331,11 @@
           "download": "2247561408",
           "gid": "1643103123723552264",
           "size": "6599673469"
+        },
+        "v60.2.0": {
+          "download": "2447325808",
+          "gid": "2491398416394751573",
+          "size": "5945250263"
         }
       }
     },
@@ -333,6 +351,12 @@
         "description": "v60.1",
         "timebuildupdated": "1773495316",
         "timeupdated": "1773495335"
+      },
+      "v60.2.0": {
+        "buildid": "25002915",
+        "description": "v60.2.0",
+        "timebuildupdated": "1787961179",
+        "timeupdated": "1788883621"
       }
     },
     "hasdepotsindlc": "1",

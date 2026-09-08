@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788878729,
-  "_history": [],
-  "_change_number": 38414288,
-  "_missing_token": true,
-  "_sha": "29ed1c999edd86ce4fd689007d0d035d8d068a06",
-  "_size": 6295,
+  "_lastChecked": 1788885567,
+  "_history": [
+    {
+      "buildId": "24995313",
+      "branch": "public",
+      "timeUpdated": 1787931642,
+      "firstSeen": 1788885567,
+      "manifests": {
+        "4235982": {
+          "gid": "1526254614019117656",
+          "size": 147233603,
+          "download": 78697168
+        },
+        "4235983": {
+          "gid": "5244030853958311184",
+          "size": 192522117,
+          "download": 95147392
+        },
+        "4235984": {
+          "gid": "615508793400235892",
+          "size": 184657815,
+          "download": 91132272
+        }
+      }
+    }
+  ],
+  "_change_number": 38701207,
+  "_missing_token": false,
+  "_sha": "1d310052dc8c3d0339036ee9c0263a275c6f4558",
+  "_size": 8472,
   "appid": "4235980",
   "common": {
     "associations": {
@@ -35,6 +59,7 @@
     },
     "clienticon": "e8e973acc8915c004d4ec0d9132fe05ee0fe4ef7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -43,7 +68,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4235980",
     "genres": {
       "0": "1",
@@ -147,10 +171,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c9bded320e99c123b42fb008ed28d9673a807ab0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788882571",
     "store_asset_mtime": "1786709082",
     "store_tags": {
       "0": "597",
@@ -314,5 +339,117 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "LetMePoo",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "LetMePoo.exe",
+        "type": "default",
+        "workingdir": "."
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "LetMePoo",
+        "type": "default",
+        "workingdir": "."
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "LetMePoo.app/Contents/MacOS/LetMePoo",
+        "type": "default",
+        "workingdir": "."
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4235982": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "78697168",
+          "gid": "1526254614019117656",
+          "size": "147233603"
+        }
+      }
+    },
+    "4235983": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "95147392",
+          "gid": "5244030853958311184",
+          "size": "192522117"
+        }
+      }
+    },
+    "4235984": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "91132272",
+          "gid": "615508793400235892",
+          "size": "184657815"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "24995313",
+        "timebuildupdated": "1787929954",
+        "timeupdated": "1787931642"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Pixel Paradise",
+    "homepage": "https://www.pixelparadise.dev",
+    "publisher": "Pixel Paradise"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "PixelParadise/LetMePoo/saves",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

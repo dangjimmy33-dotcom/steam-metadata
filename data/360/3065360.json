@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788877384,
-  "_history": [],
-  "_change_number": 38698135,
-  "_missing_token": true,
-  "_sha": "bf20754d2ec808c7fd83e89869291886997af274",
-  "_size": 4982,
+  "_lastChecked": 1788884104,
+  "_history": [
+    {
+      "buildId": "25186990",
+      "branch": "public",
+      "timeUpdated": 1788870396,
+      "firstSeen": 1788884104,
+      "manifests": {
+        "3065361": {
+          "gid": "1958920133912340247",
+          "size": 1689604912,
+          "download": 1379829568
+        },
+        "3065362": {
+          "gid": "3413500133091583404",
+          "size": 1638371864,
+          "download": 1329028784
+        },
+        "3065363": {
+          "gid": "1726652532351575599",
+          "size": 2672521028,
+          "download": 2166115024
+        }
+      }
+    }
+  ],
+  "_change_number": 38701634,
+  "_missing_token": false,
+  "_sha": "5020ab664a872ecc0235a8eb64dfb350eb9a6a3e",
+  "_size": 7267,
   "appid": "3065360",
   "common": {
     "associations": {
@@ -40,9 +64,9 @@
     "clienticon": "dd4740e781815995bedea215a7bbd1b09ae49110",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3065360",
     "genres": {
       "0": "1",
@@ -121,11 +145,12 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "88d2790f157fb217b789ad476741a2bd3ebf8199/capsule_231x87.jpg",
       "schinese": "c4c53ba5391abc7e94541de31c8365932b1252e5/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1788883270",
     "store_asset_mtime": "1788875855",
     "store_tags": {
       "0": "3859",
@@ -225,5 +250,115 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Chop Chop Together",
+    "launch": {
+      "0": {
+        "arguments": "-CustomConfig=Steam",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ChopChopTogetherSteam.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-CustomConfig=Steam",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "LaunchChopChopTogether.sh",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "-CustomConfig=Steam",
+        "config": {
+          "betakey": "development",
+          "oslist": "macos"
+        },
+        "description": "Development Build",
+        "description_loc": {
+          "english": "Development Build"
+        },
+        "executable": "ChopChopTogetherSteam-Mac-DebugGame.app/Contents/MacOS/ChopChopTogetherSteam-Mac-DebugGame",
+        "type": "option2"
+      },
+      "4": {
+        "arguments": "-CustomConfig=Steam",
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ChopChopTogetherSteam-Mac-Shipping.app/Contents/MacOS/ChopChopTogetherSteam-Mac-Shipping",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3065361": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1379829568",
+          "gid": "1958920133912340247",
+          "size": "1689604912"
+        }
+      }
+    },
+    "3065362": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1329028784",
+          "gid": "3413500133091583404",
+          "size": "1638371864"
+        }
+      }
+    },
+    "3065363": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "2166115024",
+          "gid": "1726652532351575599",
+          "size": "2672521028"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25186990",
+        "timebuildupdated": "1788870375",
+        "timeupdated": "1788870396"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Dango Dynamics",
+    "homepage": "https://dangodynamics.com/",
+    "publisher": "Dango Dynamics"
+  }
 }

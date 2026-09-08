@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788877016,
+  "_lastChecked": 1788883707,
   "_history": [
     {
       "buildId": "23591814",
@@ -20,10 +20,10 @@
       }
     }
   ],
-  "_change_number": 38623055,
+  "_change_number": 38701756,
   "_missing_token": false,
-  "_sha": "192c7351327c29ce4f2245905dbadd443b3d69ec",
-  "_size": 11626,
+  "_sha": "79f1bed4838edcdf92252747364590d5df6cefa1",
+  "_size": 11544,
   "appid": "2753970",
   "common": {
     "associations": {
@@ -388,23 +388,18 @@
     "steamcontrollerconfigdetails": {
       "3354044759": {
         "controller_type": "controller_ps4",
-        "enabled_branches": "default,backup,fmv_branch,consoles,lqa_branch,externalreview,ip_owner,playtest,qa_testing,targetfour,targeteight,targeteleven,targetthreeteen",
+        "enabled_branches": "default",
         "use_action_block": "false"
       },
       "3554041818": {
         "controller_type": "controller_xbox360",
-        "enabled_branches": "default,fmv_branch,nightly,targetthreeteen",
+        "enabled_branches": "default",
         "use_action_block": "true"
       },
       "3791666801": {
         "controller_type": "controller_xboxone",
-        "enabled_branches": "fmv2_branch,rc_build",
+        "enabled_branches": "backup,linux-arm64,test_presse,fmv2_branch,fmv_branch,consoles,d1_build,lqa_branch,rc_build,externalreview,ip_owner,nightly,playtest,qa_testing,targetfour,targeteight,targeteleven,targetthreeteen,targetfourteen,targetseventeen,targeteightteen2,target20",
         "use_action_block": "true"
-      },
-      "3791669066": {
-        "controller_type": "controller_ps5",
-        "enabled_branches": "fmv2_branch,rc_build",
-        "use_action_block": "false"
       }
     },
     "steamcontrollertemplateindex": "1",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788879490,
+  "_lastChecked": 1788886396,
   "_history": [
     {
       "buildId": "25108974",
@@ -72,12 +72,30 @@
           "download": 134455808
         }
       }
+    },
+    {
+      "buildId": "25191226",
+      "branch": "public",
+      "timeUpdated": 1788884501,
+      "firstSeen": 1788886396,
+      "manifests": {
+        "4983492": {
+          "gid": "4916153859365119593",
+          "size": 229175648,
+          "download": 145700160
+        },
+        "4983493": {
+          "gid": "4724993787293465776",
+          "size": 196886068,
+          "download": 137485552
+        }
+      }
     }
   ],
-  "_change_number": 38692623,
+  "_change_number": 38702224,
   "_missing_token": false,
-  "_sha": "0d7675b082e3ab9768f9e7a49c125824d5746cdb",
-  "_size": 4749,
+  "_sha": "2fdc15152d2a6edfc7298b86e43c1a9660617b40",
+  "_size": 5285,
   "appid": "4983490",
   "common": {
     "aicontenttype": "1",
@@ -95,6 +113,7 @@
       "category_1": "1",
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_24": "1",
       "category_27": "1",
       "category_36": "1",
@@ -121,9 +140,13 @@
     },
     "icon": "baa0ca2717ccb90ef57919f171d884c3bde18915",
     "languages": {
+      "brazilian": "1",
       "english": "1",
       "french": "1",
+      "german": "1",
       "italian": "1",
+      "russian": "1",
+      "schinese": "1",
       "spanish": "1"
     },
     "library_assets": {
@@ -216,16 +239,36 @@
       "9": "4325"
     },
     "supported_languages": {
+      "brazilian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "english": {
+        "subtitles": "true",
         "supported": "true"
       },
       "french": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "german": {
+        "subtitles": "true",
         "supported": "true"
       },
       "italian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "russian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "schinese": {
+        "subtitles": "true",
         "supported": "true"
       },
       "spanish": {
+        "subtitles": "true",
         "supported": "true"
       }
     },
@@ -267,9 +310,9 @@
       },
       "manifests": {
         "public": {
-          "download": "142676496",
-          "gid": "1643351509633079371",
-          "size": "223916064"
+          "download": "145700160",
+          "gid": "4916153859365119593",
+          "size": "229175648"
         }
       }
     },
@@ -280,18 +323,18 @@
       },
       "manifests": {
         "public": {
-          "download": "134455808",
-          "gid": "2297847135121426502",
-          "size": "191626480"
+          "download": "137485552",
+          "gid": "4724993787293465776",
+          "size": "196886068"
         }
       }
     },
     "baselanguages": "english,french,italian,spanish",
     "branches": {
       "public": {
-        "buildid": "25170669",
-        "timebuildupdated": "1788797011",
-        "timeupdated": "1788797118"
+        "buildid": "25191226",
+        "timebuildupdated": "1788884421",
+        "timeupdated": "1788884501"
       }
     }
   },
@@ -300,5 +343,9 @@
     "homepage": "https://last-gambit.com/",
     "isfreeapp": "1",
     "publisher": "Mads"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000"
   }
 }

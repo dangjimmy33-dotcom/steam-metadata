@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788878225,
-  "_history": [],
-  "_change_number": 38650123,
-  "_missing_token": true,
-  "_sha": "55098e859d8fc92a6959171de992bdcded51b890",
-  "_size": 4906,
+  "_lastChecked": 1788885015,
+  "_history": [
+    {
+      "buildId": "25155990",
+      "branch": "public",
+      "timeUpdated": 1788880441,
+      "firstSeen": 1788885015,
+      "manifests": {
+        "3794211": {
+          "gid": "8610626335957587464",
+          "size": 1606482702,
+          "download": 1458227248
+        },
+        "3794212": {
+          "gid": "4645725094029552826",
+          "size": 1758216098,
+          "download": 1506659680
+        },
+        "5114780": {
+          "gid": "591736490028653338",
+          "size": 281564218,
+          "download": 281481008
+        }
+      }
+    }
+  ],
+  "_change_number": 38701559,
+  "_missing_token": false,
+  "_sha": "a62721c45a9e041e404894faa4d47154921a4791",
+  "_size": 6804,
   "appid": "3794210",
   "common": {
     "associations": {
@@ -34,9 +58,9 @@
     "clienticon": "d6db1a1ff2add42451d56c6286e45166bc56c71a",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3794210",
     "genres": {
       "0": "3",
@@ -108,7 +132,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "81f52167747103eaa4dd44192118c9c6ff8580e7/capsule_231x87.jpg"
     },
@@ -173,7 +197,8 @@
         }
       }
     },
-    "store_asset_mtime": "1785336596",
+    "steam_release_date": "1788882697",
+    "store_asset_mtime": "1788883163",
     "store_tags": {
       "0": "122",
       "1": "9",
@@ -202,5 +227,106 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Thousand Hells",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ThousandHells.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Thousand Hells.app"
+      }
+    }
+  },
+  "depots": {
+    "3794211": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1458227248",
+          "gid": "8610626335957587464",
+          "size": "1606482702"
+        }
+      }
+    },
+    "3794212": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1506659680",
+          "gid": "4645725094029552826",
+          "size": "1758216098"
+        }
+      }
+    },
+    "5114780": {
+      "dlcappid": "5114780",
+      "manifests": {
+        "public": {
+          "download": "281481008",
+          "gid": "591736490028653338",
+          "size": "281564218"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25155990",
+        "timebuildupdated": "1788723807",
+        "timeupdated": "1788880441"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "A Sharp",
+    "homepage": "https://a-sharp.com/1000hells/",
+    "publisher": "Kitfox Games"
+  },
+  "ufs": {
+    "maxnumfiles": "2048",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ThousandHells",
+        "pattern": "Player.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "ThousandHells",
+        "pattern": "Checkpoint.hh",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "ThousandHells",
+        "pattern": "HH-Log.txt",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "ThousandHells",
+        "pattern": "PreviousHeroes.def",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788878045,
-  "_history": [],
-  "_change_number": 38496025,
-  "_missing_token": true,
-  "_sha": "fe5cb7fe7a2749fe0d5098b584386b2b5222b0dc",
-  "_size": 3452,
+  "_lastChecked": 1788884819,
+  "_history": [
+    {
+      "buildId": "25050830",
+      "branch": "public",
+      "timeUpdated": 1788238257,
+      "firstSeen": 1788884819,
+      "manifests": {
+        "3631041": {
+          "gid": "8196112620288446989",
+          "size": 575472892,
+          "download": 420221760
+        }
+      }
+    }
+  ],
+  "_change_number": 38700014,
+  "_missing_token": false,
+  "_sha": "beebf9a193add90f4f482c9f1cf27dfe27b84718",
+  "_size": 4305,
   "appid": "3631040",
   "common": {
     "associations": {
@@ -48,15 +62,16 @@
     "clienticon": "a8613d8f522089cba6d954ce8ece577c3f064e0f",
     "clienttga": "d253ed79bf12d398e8ad76dc1aa6aba01acb97bf",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3631040",
     "genres": {
       "0": "1",
       "1": "4",
       "2": "23",
-      "3": "37"
+      "3": "37",
+      "4": "70"
     },
     "header_image": {
       "english": "ac967cc1d61b3b28a259b9000c574f10540ad0e1/header.jpg"
@@ -123,10 +138,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "113e0751c7500306f692d2443f41553829cc654e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788879900",
     "store_asset_mtime": "1749443642",
     "store_tags": {
       "0": "19",
@@ -157,5 +173,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Wiz-Herd",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Wizherd.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3631041": {
+      "manifests": {
+        "public": {
+          "download": "420221760",
+          "gid": "8196112620288446989",
+          "size": "575472892"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25050830",
+        "timebuildupdated": "1788238169",
+        "timeupdated": "1788238257"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Breyton Atkins",
+    "isfreeapp": "1",
+    "publisher": "Corner Campers"
+  }
 }

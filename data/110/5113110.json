@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788879596,
-  "_history": [],
-  "_change_number": 38451816,
-  "_missing_token": true,
-  "_sha": "b8ff9b9c5f39460f00cd33becfad4ceb88787b55",
-  "_size": 3316,
+  "_lastChecked": 1788886510,
+  "_history": [
+    {
+      "buildId": "24961256",
+      "branch": "public",
+      "timeUpdated": 1787795130,
+      "firstSeen": 1788886510,
+      "manifests": {
+        "5113111": {
+          "gid": "4265181967095521173",
+          "size": 270831042,
+          "download": 105063824
+        }
+      }
+    }
+  ],
+  "_change_number": 38700021,
+  "_missing_token": false,
+  "_sha": "2f2aebc7f80e5bb64ac9ebad07aba8c6ae5a6f0e",
+  "_size": 4111,
   "appid": "5113110",
   "common": {
     "associations": {
@@ -38,7 +52,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5113110",
     "genres": {
       "0": "4",
@@ -111,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4f2dc8f7ffd76feac0f93905acefc7500f162a4b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788879909",
     "store_asset_mtime": "1787205426",
     "store_tags": {
       "0": "597",
@@ -150,5 +164,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mini Court",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Windows Launch",
+        "description_loc": {
+          "english": "Windows Launch"
+        },
+        "executable": "MiniCourt.exe"
+      }
+    }
+  },
+  "depots": {
+    "5113111": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "105063824",
+          "gid": "4265181967095521173",
+          "size": "270831042"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24961256",
+        "timebuildupdated": "1787795041",
+        "timeupdated": "1787795130"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Soodal Games (Choi Hanmin)",
+    "homepage": "https://www.soodalgames.com/",
+    "isfreeapp": "1",
+    "publisher": "Soodal Games (Choi Hanmin)"
+  }
 }

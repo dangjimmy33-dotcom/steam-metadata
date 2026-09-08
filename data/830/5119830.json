@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788879602,
-  "_history": [],
-  "_change_number": 38685176,
-  "_missing_token": true,
-  "_sha": "0e2ca6b36279fa0c6d2d2411355a88bcdce835f5",
-  "_size": 2934,
+  "_lastChecked": 1788886516,
+  "_history": [
+    {
+      "buildId": "25149763",
+      "branch": "public",
+      "timeUpdated": 1788681500,
+      "firstSeen": 1788886516,
+      "manifests": {
+        "5119831": {
+          "gid": "1562966555560880219",
+          "size": 170532404,
+          "download": 62364720
+        }
+      }
+    }
+  ],
+  "_change_number": 38699897,
+  "_missing_token": false,
+  "_sha": "be4570503106cf9fc92ed858876d6a532a2dc2fc",
+  "_size": 3590,
   "appid": "5119830",
   "common": {
     "associations": {
@@ -28,7 +42,6 @@
     "clienticon": "86a8153e2c80d459dd4a49c310e45bf9e312f9a7",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5119830",
     "genres": {
       "0": "4",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "92398fa0899c26187b32793e75322fee9fcb30ec/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788879646",
     "store_asset_mtime": "1786879534",
     "store_tags": {
       "0": "122",
@@ -133,5 +147,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MergeCaster",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MergeCaster.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5119831": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "62364720",
+          "gid": "1562966555560880219",
+          "size": "170532404"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "25149763",
+        "timebuildupdated": "1788681465",
+        "timeupdated": "1788681500"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Shingan_Games",
+    "publisher": "Shingan_Games"
+  }
 }

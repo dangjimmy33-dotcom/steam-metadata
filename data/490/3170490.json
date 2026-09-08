@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788877512,
-  "_history": [],
-  "_change_number": 38670843,
-  "_missing_token": true,
-  "_sha": "614543007b86a2410278a92d407650bf9ecaa7e8",
-  "_size": 8606,
+  "_lastChecked": 1788884241,
+  "_history": [
+    {
+      "buildId": "25169098",
+      "branch": "public",
+      "timeUpdated": 1788794750,
+      "firstSeen": 1788884241,
+      "manifests": {
+        "3170491": {
+          "gid": "6226680451039899141",
+          "size": 5658816275,
+          "download": 5445765072
+        }
+      }
+    }
+  ],
+  "_change_number": 38699890,
+  "_missing_token": false,
+  "_sha": "8b7be453b77268727b5d704114497d2bc544e228",
+  "_size": 9994,
   "appid": "3170490",
   "common": {
     "associations": {
@@ -39,9 +53,9 @@
     "clienticon": "4371a71ba235b0b2722e55a9190101336f01980f",
     "clienttga": "8424c51702b5ff15960bf173fec4297825f4615c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3170490",
     "genres": {
       "0": "4",
@@ -157,7 +171,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1feaefb56bf7192a319f827e2a63ba47204ecb0f/capsule_231x87.jpg",
       "japanese": "855c928db899029ba4a32cb04c42853c95a9ad62/capsule_231x87_japanese.jpg",
@@ -233,7 +247,8 @@
         }
       }
     },
-    "store_asset_mtime": "1788426085",
+    "steam_release_date": "1788879630",
+    "store_asset_mtime": "1788867108",
     "store_tags": {
       "0": "1738",
       "1": "17894",
@@ -311,5 +326,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cat Me If You Can",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch Cat Me If You Can",
+        "description_loc": {
+          "english": "Launch Cat Me If You Can"
+        },
+        "executable": "CatMeIfYouCan.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3170491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "5445765072",
+          "gid": "6226680451039899141",
+          "size": "5658816275"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25169098",
+        "timebuildupdated": "1788791364",
+        "timeupdated": "1788794750"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Cosmic Stag Games",
+    "publisher": "Cosmic Stag Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "2000000000",
+    "savefiles": {
+      "0": {
+        "path": "CatMeIfYouCan/Saved/SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "CatMeIfYouCan/Saved/Photos",
+        "pattern": "*.jpg",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

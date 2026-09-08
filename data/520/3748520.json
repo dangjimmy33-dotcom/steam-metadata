@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788878177,
-  "_history": [],
-  "_change_number": 38691758,
-  "_missing_token": true,
-  "_sha": "391b8bb5af3d76e2c329ddfd99db50bd639bd009",
-  "_size": 7594,
+  "_lastChecked": 1788884960,
+  "_history": [
+    {
+      "buildId": "25159858",
+      "branch": "public",
+      "timeUpdated": 1788800090,
+      "firstSeen": 1788884960,
+      "manifests": {
+        "3748521": {
+          "gid": "7679382404231528736",
+          "size": 3905126947,
+          "download": 3642209776
+        }
+      }
+    }
+  ],
+  "_change_number": 38699695,
+  "_missing_token": false,
+  "_sha": "63e120989fbb2282dfcc0997ced951c54880c168",
+  "_size": 9191,
   "appid": "3748520",
   "common": {
     "associations": {
@@ -41,6 +55,7 @@
     },
     "clienticon": "a0688de0b23878917d70d04b81fbe8a0524378c2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -59,7 +74,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "3748520",
     "genres": {
       "0": "1"
@@ -155,7 +169,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e59189f5b1c31016bfbd629ab94034cbee7f13b9/capsule_231x87.jpg",
       "schinese": "289218d6cc2378d9cea6d5a345b114f5c92370c9/capsule_231x87_schinese.jpg"
@@ -229,7 +243,8 @@
         }
       }
     },
-    "store_asset_mtime": "1786103644",
+    "steam_release_date": "1788879172",
+    "store_asset_mtime": "1788450707",
     "store_tags": {
       "0": "19",
       "1": "1663",
@@ -301,5 +316,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SPRAWL 0",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Silas.exe",
+        "type": "default",
+        "workingdir": "Silas\\Binaries\\Win64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "3",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3748521": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3642209776",
+          "gid": "7679382404231528736",
+          "size": "3905126947"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25159858",
+        "timebuildupdated": "1788748807",
+        "timeupdated": "1788800090"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "MAETH",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5059870",
+    "publisher": "Kwalee"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": "Silas/Saved/SaveGames",
+        "pattern": "Achievements.sav",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Silas/Saved/SaveGames",
+        "pattern": "Profiles.sav",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "Silas/Saved/SaveGames",
+        "pattern": "*_CHECKPOINT.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

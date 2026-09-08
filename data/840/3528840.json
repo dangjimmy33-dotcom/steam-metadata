@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788877924,
-  "_history": [],
-  "_change_number": 38688154,
-  "_missing_token": true,
-  "_sha": "e84a1e79a0ea743c245424b2ce141dfdc0f98e1c",
-  "_size": 2811,
+  "_lastChecked": 1788884687,
+  "_history": [
+    {
+      "buildId": "25189656",
+      "branch": "public",
+      "timeUpdated": 1788879248,
+      "firstSeen": 1788884687,
+      "manifests": {
+        "3528841": {
+          "gid": "8314365586816773037",
+          "size": 415980213,
+          "download": 168000544
+        },
+        "3528842": {
+          "gid": "7312224536647690822",
+          "size": 326534980,
+          "download": 133557184
+        }
+      }
+    }
+  ],
+  "_change_number": 38701083,
+  "_missing_token": false,
+  "_sha": "af02fa95a50c2b905b310731e92b9319bec71161",
+  "_size": 3990,
   "appid": "3528840",
   "common": {
     "associations": {
@@ -29,8 +48,8 @@
     "clienticon": "67da205c456bbd2d738f136e6219a3a09b1b07cf",
     "clienttga": "8bc24370bad8de8b5f04baad71868183872001e4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3528840",
     "genres": {
       "0": "28"
@@ -100,10 +119,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "759997a9ab90a0499c04d05beca20d5970810a10/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1749445519",
     "store_tags": {
       "0": "5432",
@@ -122,5 +142,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pragma Twice",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "pragma_twice.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--no-sandbox --disable-gpu-sandbox",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "pragma_twice",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3528841": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "168000544",
+          "gid": "8314365586816773037",
+          "size": "415980213"
+        }
+      }
+    },
+    "3528842": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "133557184",
+          "gid": "7312224536647690822",
+          "size": "326534980"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25189656",
+        "timebuildupdated": "1788879247",
+        "timeupdated": "1788879248"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Bryan Gillespie",
+    "homepage": "https://www.bryanpg.com/games/pragma_twice",
+    "publisher": "Bryan Gillespie"
+  }
 }

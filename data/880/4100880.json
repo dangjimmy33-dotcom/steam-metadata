@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788878574,
-  "_history": [],
-  "_change_number": 38695505,
-  "_missing_token": true,
-  "_sha": "8ce77e2f8b77f2f68012b356b4498cb45d225625",
-  "_size": 3176,
+  "_lastChecked": 1788885398,
+  "_history": [
+    {
+      "buildId": "25187467",
+      "branch": "public",
+      "timeUpdated": 1788872014,
+      "firstSeen": 1788885398,
+      "manifests": {
+        "4100881": {
+          "gid": "7230896928865154532",
+          "size": 1527619845,
+          "download": 226818064
+        }
+      }
+    }
+  ],
+  "_change_number": 38701437,
+  "_missing_token": false,
+  "_sha": "3f6d9ca50700887e639ec53a3958ab3f557addd8",
+  "_size": 3776,
   "appid": "4100880",
   "common": {
     "aicontenttype": "1",
@@ -41,7 +55,6 @@
     "clienticon": "4342aa2922c379bbaa793a961a671cbe4555f052",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4100880",
     "genres": {
       "0": "28",
@@ -113,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "253240a9df819f71d59319e26be178a4817849b9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788882906",
     "store_asset_mtime": "1779628585",
     "store_tags": {
       "0": "701",
@@ -140,5 +154,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BB2",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BB2.exe"
+      }
+    }
+  },
+  "depots": {
+    "4100881": {
+      "manifests": {
+        "public": {
+          "download": "226818064",
+          "gid": "7230896928865154532",
+          "size": "1527619845"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25187467",
+        "timebuildupdated": "1788871990",
+        "timeupdated": "1788872014"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Stout Kassel Games",
+    "homepage": "https://discord.gg/5nQJ44JPjw",
+    "publisher": "Stout Kassel Games"
+  }
 }

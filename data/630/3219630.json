@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788877568,
+  "_lastChecked": 1788884303,
   "_history": [
     {
       "buildId": "25115317",
@@ -26,12 +26,25 @@
           "download": 30178861520
         }
       }
+    },
+    {
+      "buildId": "25163386",
+      "branch": "public",
+      "timeUpdated": 1788883942,
+      "firstSeen": 1788884303,
+      "manifests": {
+        "3219631": {
+          "gid": "751841436966774928",
+          "size": 31222861395,
+          "download": 30189624240
+        }
+      }
     }
   ],
-  "_change_number": 38688817,
+  "_change_number": 38701980,
   "_missing_token": false,
-  "_sha": "a9bde6f41307506438edcba38780af768efaae4f",
-  "_size": 5912,
+  "_sha": "c6bb2857e3bd7da150fbeb9f9ebba6cc901a84a2",
+  "_size": 7715,
   "appid": "3219630",
   "common": {
     "associations": {
@@ -54,7 +67,6 @@
       "category_22": "1",
       "category_23": "1",
       "category_28": "1",
-      "category_29": "1",
       "category_36": "1",
       "category_38": "1",
       "category_45": "1",
@@ -68,6 +80,7 @@
     "clienticon": "616deaf2f8b73f43248973b73bf4ad281bed378d",
     "clienttga": "bd954a020be956510b53a43bc80cab5346c15f2e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -170,12 +183,74 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "preloadonly",
+    "releasestate": "released",
     "review_percentage": "72",
     "review_score": "6",
     "small_capsule": {
       "english": "e0507a9d9a1fed306c87b3576f608b852658dd1a/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-11.0-2RC",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsNotPerformant"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1786387178",
+      "tested_build_id": "24587103",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+        }
+      }
+    },
+    "steam_release_date": "1788883325",
     "store_asset_mtime": "1780937058",
     "store_tags": {
       "0": "1667",
@@ -262,18 +337,18 @@
     "3219631": {
       "manifests": {
         "public": {
-          "download": "30178861520",
-          "gid": "2046101152724657440",
-          "size": "31221506702"
+          "download": "30189624240",
+          "gid": "751841436966774928",
+          "size": "31222861395"
         }
       }
     },
     "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,russian,schinese,spanish",
     "branches": {
       "public": {
-        "buildid": "25135136",
-        "timebuildupdated": "1788569468",
-        "timeupdated": "1788637368"
+        "buildid": "25163386",
+        "timebuildupdated": "1788769738",
+        "timeupdated": "1788883942"
       }
     },
     "privatebranches": "1"

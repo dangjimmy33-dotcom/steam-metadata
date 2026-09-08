@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788874352,
+  "_lastChecked": 1788880826,
   "_history": [
     {
       "buildId": "25126330",
@@ -207,11 +207,103 @@
           "download": 3846560064
         }
       }
+    },
+    {
+      "buildId": "25189545",
+      "branch": "beta",
+      "timeUpdated": 1788878883,
+      "firstSeen": 1788880826,
+      "manifests": {
+        "670261": {
+          "gid": "618998788901527546",
+          "size": 4325781049,
+          "download": 1706699920
+        },
+        "670262": {
+          "gid": "8385841880922037649",
+          "size": 8870748895,
+          "download": 3804526656
+        },
+        "670263": {
+          "gid": "5279072788635805277",
+          "size": 8923483556,
+          "download": 3846560064
+        }
+      }
+    },
+    {
+      "buildId": "25189536",
+      "branch": "betamp",
+      "timeUpdated": 1788878851,
+      "firstSeen": 1788880826,
+      "manifests": {
+        "670261": {
+          "gid": "618998788901527546",
+          "size": 4325781049,
+          "download": 1706699920
+        },
+        "670262": {
+          "gid": "7315128492276576261",
+          "size": 700079916,
+          "download": 331094864
+        },
+        "670263": {
+          "gid": "8498192806121070592",
+          "size": 797110660,
+          "download": 387188688
+        }
+      }
+    },
+    {
+      "buildId": "25189536",
+      "branch": "dedicatedserver",
+      "timeUpdated": 1788878862,
+      "firstSeen": 1788880826,
+      "manifests": {
+        "670261": {
+          "gid": "618998788901527546",
+          "size": 4325781049,
+          "download": 1706699920
+        },
+        "670262": {
+          "gid": "7315128492276576261",
+          "size": 700079916,
+          "download": 331094864
+        },
+        "670263": {
+          "gid": "8498192806121070592",
+          "size": 797110660,
+          "download": 387188688
+        }
+      }
+    },
+    {
+      "buildId": "25189545",
+      "branch": "public",
+      "timeUpdated": 1788878883,
+      "firstSeen": 1788880826,
+      "manifests": {
+        "670261": {
+          "gid": "618998788901527546",
+          "size": 4325781049,
+          "download": 1706699920
+        },
+        "670262": {
+          "gid": "8385841880922037649",
+          "size": 8870748895,
+          "download": 3804526656
+        },
+        "670263": {
+          "gid": "5279072788635805277",
+          "size": 8923483556,
+          "download": 3846560064
+        }
+      }
     }
   ],
-  "_change_number": 38646852,
+  "_change_number": 38699528,
   "_missing_token": false,
-  "_sha": "3c0bfa752baa6728a02c5d03304f507cdd7a94fe",
+  "_sha": "cd9ef1c6d8de7f5d2be04497da813447de5bef95",
   "_size": 13134,
   "appid": "670260",
   "common": {
@@ -600,24 +692,24 @@
       },
       "manifests": {
         "beta": {
-          "download": "3804491664",
-          "gid": "3893654120943688650",
-          "size": "8870628059"
+          "download": "3804526656",
+          "gid": "8385841880922037649",
+          "size": "8870748895"
         },
         "betamp": {
-          "download": "331071504",
-          "gid": "8499446229763488726",
-          "size": "699983763"
+          "download": "331094864",
+          "gid": "7315128492276576261",
+          "size": "700079916"
         },
         "dedicatedserver": {
-          "download": "331071504",
-          "gid": "8499446229763488726",
-          "size": "699983763"
+          "download": "331094864",
+          "gid": "7315128492276576261",
+          "size": "700079916"
         },
         "public": {
-          "download": "3804491664",
-          "gid": "3893654120943688650",
-          "size": "8870628059"
+          "download": "3804526656",
+          "gid": "8385841880922037649",
+          "size": "8870748895"
         },
         "solacekeeper": {
           "download": "2149396688",
@@ -672,27 +764,27 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25142302",
+        "buildid": "25189545",
         "description": "Public beta branch",
-        "timebuildupdated": "1788621544",
-        "timeupdated": "1788621544"
+        "timebuildupdated": "1788878883",
+        "timeupdated": "1788878883"
       },
       "betamp": {
-        "buildid": "25142299",
+        "buildid": "25189536",
         "description": "dedicated server beta",
-        "timebuildupdated": "1788621517",
-        "timeupdated": "1788621517"
+        "timebuildupdated": "1788878851",
+        "timeupdated": "1788878851"
       },
       "dedicatedserver": {
-        "buildid": "25142299",
+        "buildid": "25189536",
         "description": "Public dedicated server",
-        "timebuildupdated": "1788621517",
-        "timeupdated": "1788710868"
+        "timebuildupdated": "1788878851",
+        "timeupdated": "1788878862"
       },
       "public": {
-        "buildid": "25142302",
-        "timebuildupdated": "1788621544",
-        "timeupdated": "1788710853"
+        "buildid": "25189545",
+        "timebuildupdated": "1788878883",
+        "timeupdated": "1788878883"
       },
       "solacekeeper": {
         "buildid": "19725576",

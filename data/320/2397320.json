@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788876594,
-  "_history": [],
-  "_change_number": 38698163,
-  "_missing_token": true,
-  "_sha": "8048a5a2965bc8c8978523a46befb7de3686e460",
-  "_size": 4248,
+  "_lastChecked": 1788883248,
+  "_history": [
+    {
+      "buildId": "25188282",
+      "branch": "public",
+      "timeUpdated": 1788878668,
+      "firstSeen": 1788883248,
+      "manifests": {
+        "2397321": {
+          "gid": "6209236964329499573",
+          "size": 18697834064,
+          "download": 17943761856
+        }
+      }
+    }
+  ],
+  "_change_number": 38701287,
+  "_missing_token": false,
+  "_sha": "a468587c25ba73d66f904d24f31e1cf2d33e7684",
+  "_size": 5992,
   "appid": "2397320",
   "common": {
     "associations": {
@@ -40,9 +54,9 @@
     "clienticon": "80b4fb28142f3ff51e2c2847cd9f60afdcc59466",
     "clienttga": "86c2f52a25fe508edb458bf050be08a5396eb840",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2397320",
     "genres": {
       "0": "28"
@@ -127,13 +141,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "review_percentage": "57",
     "review_score": "5",
     "small_capsule": {
       "english": "de365801aa823ac4bad83a7abc4974e7a7f379c7/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1788869315",
+    "steam_release_date": "1788880084",
+    "store_asset_mtime": "1788880451",
     "store_tags": {
       "0": "599",
       "1": "1100687",
@@ -195,5 +210,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BusSimulator27",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Main (Default)",
+        "description_loc": {
+          "english": "Main (Default)"
+        },
+        "executable": "BusSimulator27.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play in DirectX 11 ",
+        "description_loc": {
+          "english": "Play in DirectX 11 "
+        },
+        "executable": "BusSimulator27.exe",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2397321": {
+      "manifests": {
+        "public": {
+          "download": "17943761856",
+          "gid": "6209236964329499573",
+          "size": "18697834064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25188282",
+        "timebuildupdated": "1788874605",
+        "timeupdated": "1788878668"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Simteract ",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.bussimulator.com/",
+    "listofdlc": "4217010,4315960,4488260",
+    "publisher": "astragon Entertainment"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "200000000",
+    "savefiles": {
+      "2": {
+        "path": "BusSimulator27/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      },
+      "3": {
+        "path": "BusSimulator27/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

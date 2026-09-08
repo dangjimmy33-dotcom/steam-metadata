@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788879566,
+  "_lastChecked": 1788886478,
   "_history": [
     {
       "buildId": "25175910",
@@ -51,10 +51,10 @@
       }
     }
   ],
-  "_change_number": 38697631,
+  "_change_number": 38701000,
   "_missing_token": false,
-  "_sha": "64d6a8c77c90804fe7ccb8da6c4da1d68867a3c6",
-  "_size": 5097,
+  "_sha": "aef4fc051bcfbec3e08c8b0a1218b9ca86328e22",
+  "_size": 5414,
   "appid": "5071940",
   "common": {
     "associations": {
@@ -149,7 +149,7 @@
     },
     "name": "King Assassination",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
     "releasestate": "released",
@@ -232,11 +232,22 @@
     "installdir": "King Assassination",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play King Assassination",
+        "description_loc": {
+          "english": "Play King Assassination"
+        },
         "executable": "King Assassination.exe"
       },
       "1": {
         "config": {
           "oslist": "macos"
+        },
+        "description": "Play King Assassination",
+        "description_loc": {
+          "english": "Play King Assassination"
         },
         "executable": "King Assassination.app"
       }

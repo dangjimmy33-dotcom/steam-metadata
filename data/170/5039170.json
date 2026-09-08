@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788879539,
-  "_history": [],
-  "_change_number": 38699335,
-  "_missing_token": true,
-  "_sha": "108e5932847d81d9523853ee6b2ab51f40ee21dd",
-  "_size": 3466,
+  "_lastChecked": 1788886448,
+  "_history": [
+    {
+      "buildId": "25189421",
+      "branch": "public",
+      "timeUpdated": 1788878500,
+      "firstSeen": 1788886448,
+      "manifests": {
+        "5039171": {
+          "gid": "8132646877270713359",
+          "size": 267096267,
+          "download": 86484080
+        }
+      }
+    }
+  ],
+  "_change_number": 38701182,
+  "_missing_token": false,
+  "_sha": "a1e4a6b4635aee1e2965034a6e76f1fbbb4fbc1b",
+  "_size": 4777,
   "appid": "5039170",
   "common": {
     "aicontenttype": "1",
@@ -42,7 +56,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5039170",
     "genres": {
       "0": "18",
@@ -114,10 +127,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "38fa2597a1af96de3ae50d4a74b92b9dda6d3569/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788882522",
     "store_asset_mtime": "1787848930",
     "store_tags": {
       "0": "701",
@@ -150,5 +164,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CardRevolutionSoccer",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CardRevolutionSoccer.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "4",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5039171": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "86484080",
+          "gid": "8132646877270713359",
+          "size": "267096267"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "25189421",
+        "timebuildupdated": "1788878459",
+        "timeupdated": "1788878500"
+      }
+    }
+  },
+  "extended": {
+    "developer": "LetsPlaymaker Productions",
+    "publisher": "LetsPlaymaker Productions"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "LetsPlaymaker Productions/CardRevolutionSoccer",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
