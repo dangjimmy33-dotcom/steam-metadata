@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788902544,
-  "_history": [],
-  "_change_number": 38510409,
-  "_missing_token": true,
-  "_sha": "fe0e85026a197e90d6fb4d5b5b3b95a96ec3a8d5",
-  "_size": 3647,
+  "_lastChecked": 1788909347,
+  "_history": [
+    {
+      "buildId": "24859876",
+      "branch": "public",
+      "timeUpdated": 1787309725,
+      "firstSeen": 1788909347,
+      "manifests": {
+        "4782391": {
+          "gid": "3496318208098887734",
+          "size": 3124066264,
+          "download": 1570336464
+        }
+      }
+    }
+  ],
+  "_change_number": 38709773,
+  "_missing_token": false,
+  "_sha": "a36ecabe39edfa1bbd304972516501edf14af6eb",
+  "_size": 4734,
   "appid": "4782390",
   "common": {
     "aicontenttype": "1",
@@ -37,9 +51,9 @@
     },
     "clienticon": "a0deda0b68926e6d4583abe7a2c17a7bed774e06",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4782390",
     "genres": {
       "0": "1",
@@ -119,10 +133,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c98ef160927c46630042f3ac222a66dc3a4e4b0e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788904873",
     "store_asset_mtime": "1785482096",
     "store_tags": {
       "0": "19",
@@ -168,5 +183,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TORO 2",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Toro 2.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4782391": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1570336464",
+          "gid": "3496318208098887734",
+          "size": "3124066264"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,portuguese,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "24859876",
+        "timebuildupdated": "1787309314",
+        "timeupdated": "1787309725"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Recotechnology SL",
+    "homepage": "https://recotech.es/",
+    "publisher": "Recotechnology SL"
+  },
+  "ufs": {
+    "maxnumfiles": "15",
+    "quota": "20000",
+    "savefiles": {
+      "0": {
+        "path": "RECOTECHNOLOGY S_L_\\Toro 2",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

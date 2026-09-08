@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788899800,
+  "_lastChecked": 1788905697,
   "_history": [
     {
       "buildId": "25142214",
@@ -254,12 +254,30 @@
           "download": 119576832
         }
       }
+    },
+    {
+      "buildId": "25195543",
+      "branch": "public",
+      "timeUpdated": 1788901573,
+      "firstSeen": 1788905697,
+      "manifests": {
+        "1843731": {
+          "gid": "1173921405962684101",
+          "size": 509289826,
+          "download": 119576832
+        },
+        "1843732": {
+          "gid": "8396883775998602976",
+          "size": 486512966,
+          "download": 116644400
+        }
+      }
     }
   ],
-  "_change_number": 38707654,
+  "_change_number": 38709142,
   "_missing_token": false,
-  "_sha": "32886baffd9853d47ce6feed52b09aa440383a70",
-  "_size": 8548,
+  "_sha": "5790d74a8987e43f59afc2f578370591e7b79c57",
+  "_size": 8674,
   "appid": "1843730",
   "common": {
     "associations": {
@@ -364,8 +382,8 @@
     "logo_small": "01957e1a8559a8b46e22663b6a8666dd79670573_thumb",
     "name": "Last Group Out",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64",
+    "oslist": "windows,macos",
     "primary_genre": "1",
     "releasestate": "released",
     "review_percentage": "82",
@@ -581,6 +599,11 @@
           "download": "116644400",
           "gid": "8396883775998602976",
           "size": "486512966"
+        },
+        "public": {
+          "download": "116644400",
+          "gid": "8396883775998602976",
+          "size": "486512966"
         }
       }
     },
@@ -603,9 +626,9 @@
         "timeupdated": "1788898278"
       },
       "public": {
-        "buildid": "25193829",
-        "timebuildupdated": "1788894519",
-        "timeupdated": "1788896471"
+        "buildid": "25195543",
+        "timebuildupdated": "1788901573",
+        "timeupdated": "1788901573"
       }
     },
     "privatebranches": "1"

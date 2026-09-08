@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788902781,
-  "_history": [],
-  "_change_number": 38166452,
-  "_missing_token": true,
-  "_sha": "b82610fded15811e32a7e720ba669ae822cafdf7",
-  "_size": 4240,
+  "_lastChecked": 1788909664,
+  "_history": [
+    {
+      "buildId": "25196764",
+      "branch": "public",
+      "timeUpdated": 1788907091,
+      "firstSeen": 1788909664,
+      "manifests": {
+        "5094221": {
+          "gid": "8963840691123432179",
+          "size": 2279079141,
+          "download": 1181503168
+        }
+      }
+    }
+  ],
+  "_change_number": 38710277,
+  "_missing_token": false,
+  "_sha": "8eb3682520d8c2b24b6bd7452cb25bc1748c7473",
+  "_size": 4918,
   "appid": "5094220",
   "common": {
     "aicontenttype": "1",
@@ -41,7 +55,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5094220",
     "genres": {
       "0": "23"
@@ -121,7 +134,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0994ab532cd09afa084bc11ef84e83c12c99c712/capsule_231x87.jpg",
       "german": "0994ab532cd09afa084bc11ef84e83c12c99c712/capsule_231x87_german.jpg"
@@ -161,5 +174,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Horror Tutorial",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "The Horror Tutorial.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5094221": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1181503168",
+          "gid": "8963840691123432179",
+          "size": "2279079141"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "25196764",
+        "timebuildupdated": "1788906932",
+        "timeupdated": "1788907091"
+      }
+    }
+  },
+  "extended": {
+    "developer": "The Helldevilstudios",
+    "publisher": "The helldevilstudios"
+  }
 }

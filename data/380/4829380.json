@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788902578,
+  "_lastChecked": 1788909393,
   "_history": [
     {
       "buildId": "25192076",
@@ -25,10 +25,10 @@
       }
     }
   ],
-  "_change_number": 38703901,
+  "_change_number": 38709193,
   "_missing_token": false,
-  "_sha": "3b4ee98c36f090077a7347e0ea20958125bdeb56",
-  "_size": 5038,
+  "_sha": "f602fa67c1e0792f6882adaff30ad4479f1cd9d0",
+  "_size": 5280,
   "appid": "4829380",
   "common": {
     "associations": {
@@ -217,8 +217,23 @@
     "installdir": "Dorm 17",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "Dorm 17.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Dorm17.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Mac.app"
       }
     }
   },

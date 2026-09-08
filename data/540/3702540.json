@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788901598,
-  "_history": [],
-  "_change_number": 38701506,
-  "_missing_token": true,
-  "_sha": "0d00c2e887a3bf66ca717a8a4f9249608491b1ba",
-  "_size": 10541,
+  "_lastChecked": 1788908087,
+  "_history": [
+    {
+      "buildId": "25196744",
+      "branch": "public",
+      "timeUpdated": 1788906859,
+      "firstSeen": 1788908087,
+      "manifests": {
+        "3702541": {
+          "gid": "5519416863525333046",
+          "size": 567021974,
+          "download": 221342144
+        }
+      }
+    }
+  ],
+  "_change_number": 38710539,
+  "_missing_token": false,
+  "_sha": "6c6aae1e5f8f642fff7a7ee3589a808ededa473a",
+  "_size": 11294,
   "appid": "3702540",
   "common": {
     "associations": {
@@ -27,13 +41,13 @@
     },
     "category": {
       "category_2": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "clienticon": "578b238e6c88b917d195b87e03cf6a47d697fb1d",
     "clienttga": "0893e26c3c307bd40a9ebac5352d32065c867dda",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3702540",
     "genres": {
       "0": "25",
@@ -155,7 +169,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fc71d161413624047f2d492719bf3c0e0e292051/capsule_231x87.jpg",
       "japanese": "4440989be9c9d5ee56c80c0b79c6f60999efa33d/capsule_231x87_japanese.jpg",
@@ -240,6 +254,7 @@
         }
       }
     },
+    "steam_release_date": "1788907982",
     "store_asset_mtime": "1788507145",
     "store_tags": {
       "0": "9",
@@ -327,5 +342,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Between Adventures IDLE",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Between Adventures IDLE.exe"
+      }
+    }
+  },
+  "depots": {
+    "3702541": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "221342144",
+          "gid": "5519416863525333046",
+          "size": "567021974"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25196744",
+        "timebuildupdated": "1788906858",
+        "timeupdated": "1788906859"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Loop Forge",
+    "homepage": "https://rogueduck.net",
+    "publisher": "Rogue Duck Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "104857600"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788899340,
+  "_lastChecked": 1788905088,
   "_history": [
     {
       "buildId": "18240338",
@@ -23,12 +23,35 @@
           "download": 89314544
         }
       }
+    },
+    {
+      "buildId": "25195093",
+      "branch": "public",
+      "timeUpdated": 1788901108,
+      "firstSeen": 1788905088,
+      "manifests": {
+        "1434162": {
+          "gid": "548667182915707868",
+          "size": 423755661,
+          "download": 165763696
+        },
+        "1434164": {
+          "gid": "6574343928001752733",
+          "size": 357373053,
+          "download": 137808432
+        },
+        "1434165": {
+          "gid": "436071227005979854",
+          "size": 334055581,
+          "download": 131194336
+        }
+      }
     }
   ],
-  "_change_number": 34858982,
+  "_change_number": 38708601,
   "_missing_token": false,
-  "_sha": "e4f0a7c949db0076810d2bc11d8f608107f58fa5",
-  "_size": 4806,
+  "_sha": "b79f18c70988e1a29459fe8ccf1d10fff1e9d2e6",
+  "_size": 4925,
   "appid": "1434160",
   "common": {
     "associations": {
@@ -47,12 +70,14 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
       "category_62": "1"
     },
     "clienticns": "c2173567e2062ce30156381cb652d0433f4db2ff",
     "clienticon": "db06eb76b531d0c803badecb9892abf2ac09c66e",
     "clienttga": "75c6ca68541cf8a76e97c9311aec685c701e863d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "gameid": "1434160",
     "genres": {
       "0": "2"
@@ -122,7 +147,7 @@
     "logo_small": "cf82dfa846863e343e0b7c07416c914cc218d6b4_thumb",
     "name": "My Empire",
     "osarch": "64",
-    "osextended": "macos64",
+    "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
     "releasestate": "released",
@@ -130,7 +155,7 @@
       "english": "3dc7b3d59a33490bb3641274704968b68fe9a0e1/capsule_231x87.jpg"
     },
     "steam_release_date": "1603461931",
-    "store_asset_mtime": "1745593557",
+    "store_asset_mtime": "1788900886",
     "store_tags": {
       "0": "9",
       "1": "1741",
@@ -202,9 +227,9 @@
       },
       "manifests": {
         "public": {
-          "download": "97558400",
-          "gid": "4876409121678791300",
-          "size": "310778314"
+          "download": "165763696",
+          "gid": "548667182915707868",
+          "size": "423755661"
         }
       }
     },
@@ -215,9 +240,9 @@
       },
       "manifests": {
         "public": {
-          "download": "90279232",
-          "gid": "8793457166295903971",
-          "size": "285697167"
+          "download": "137808432",
+          "gid": "6574343928001752733",
+          "size": "357373053"
         }
       }
     },
@@ -228,9 +253,9 @@
       },
       "manifests": {
         "public": {
-          "download": "89314544",
-          "gid": "7375669226613103391",
-          "size": "300342422"
+          "download": "131194336",
+          "gid": "436071227005979854",
+          "size": "334055581"
         }
       }
     },
@@ -244,14 +269,15 @@
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "18240338",
-        "timebuildupdated": "1745593319",
-        "timeupdated": "1745593867"
+        "buildid": "25195093",
+        "timebuildupdated": "1788899726",
+        "timeupdated": "1788901108"
       }
     }
   },
   "extended": {
     "developer": "Brandon Stecklein",
+    "homepage": "https://apps.ape-apps.com/my-empire/",
     "publisher": "Ape Apps"
   }
 }

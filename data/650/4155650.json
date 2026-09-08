@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788902012,
-  "_history": [],
-  "_change_number": 38677633,
-  "_missing_token": true,
-  "_sha": "8eace3775b826969fa8e3e0e617095b1351cc22f",
-  "_size": 3104,
+  "_lastChecked": 1788908639,
+  "_history": [
+    {
+      "buildId": "25174786",
+      "branch": "public",
+      "timeUpdated": 1788814838,
+      "firstSeen": 1788908639,
+      "manifests": {
+        "4155651": {
+          "gid": "1997244113680882488",
+          "size": 389640799,
+          "download": 291894576
+        }
+      }
+    }
+  ],
+  "_change_number": 38709921,
+  "_missing_token": false,
+  "_sha": "cd47fe0009c7eef711daed82b08266ed452b5851",
+  "_size": 4232,
   "appid": "4155650",
   "common": {
     "associations": {
@@ -31,9 +45,9 @@
     },
     "clienticon": "8d7cbf8c0dd2afd6f787a7ed749325b397bc5868",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4155650",
     "genres": {
       "0": "1",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b69ac28c16553832fb5bfbfd46c94d90bd27039b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788905790",
     "store_asset_mtime": "1787953551",
     "store_tags": {
       "0": "3877",
@@ -141,5 +156,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TANGENT",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "TANGENT Game Launch",
+        "description_loc": {
+          "english": "TANGENT Game Launch"
+        },
+        "executable": "TANGENT v3.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4155651": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "291894576",
+          "gid": "1997244113680882488",
+          "size": "389640799"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25174786",
+        "timebuildupdated": "1788814751",
+        "timeupdated": "1788814838"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Static Harbor Games",
+    "publisher": "Static Harbor Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "20",
+    "quota": "10",
+    "savefiles": {
+      "0": {
+        "path": "staticharborgames\\TANGENT",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

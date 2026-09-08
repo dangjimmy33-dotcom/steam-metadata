@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788902732,
-  "_history": [],
-  "_change_number": 38666613,
-  "_missing_token": true,
-  "_sha": "3894108eadada61388a660962196d54f0a825bcc",
-  "_size": 3466,
+  "_lastChecked": 1788909599,
+  "_history": [
+    {
+      "buildId": "25125546",
+      "branch": "public",
+      "timeUpdated": 1788530602,
+      "firstSeen": 1788909599,
+      "manifests": {
+        "5021091": {
+          "gid": "7178875552321847377",
+          "size": 25337804,
+          "download": 17324096
+        }
+      }
+    }
+  ],
+  "_change_number": 38710673,
+  "_missing_token": false,
+  "_sha": "3dbd932de5b048711cb427f72a0f92d34ec3b588",
+  "_size": 4114,
   "appid": "5021090",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "42976643b9da8f146b5fa62203c3b0a550725ace",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5021090",
     "genres": {
       "0": "4"
@@ -99,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "66a0380b19fc8a57f4cfb889b579011bda048446/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788908408",
     "store_asset_mtime": "1786544885",
     "store_tags": {
       "0": "597",
@@ -162,5 +176,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Ducktile",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Ducktile.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5021091": {
+      "manifests": {
+        "public": {
+          "download": "17324096",
+          "gid": "7178875552321847377",
+          "size": "25337804"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25125546",
+        "timebuildupdated": "1788530601",
+        "timeupdated": "1788530602"
+      }
+    }
+  },
+  "extended": {
+    "developer": "PBH production",
+    "homepage": "https://pbhproduction.my.canva.site/",
+    "publisher": "PBH production"
+  }
 }
