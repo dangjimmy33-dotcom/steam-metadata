@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788828134,
-  "_history": [],
-  "_change_number": 38638015,
-  "_missing_token": true,
-  "_sha": "e1814ed1395e4e511908f0d4f8031a9319bc2824",
-  "_size": 3126,
+  "_lastChecked": 1788834846,
+  "_history": [
+    {
+      "buildId": "25177851",
+      "branch": "public",
+      "timeUpdated": 1788830764,
+      "firstSeen": 1788834846,
+      "manifests": {
+        "2672001": {
+          "gid": "6177416115521536310",
+          "size": 478120716,
+          "download": 308504912
+        }
+      }
+    }
+  ],
+  "_change_number": 38681895,
+  "_missing_token": false,
+  "_sha": "3ddade6e029331c088801056e5b80ed75a4b968d",
+  "_size": 3794,
   "appid": "2672000",
   "common": {
     "aicontenttype": "1",
@@ -25,6 +39,9 @@
       "category_25": "1",
       "category_28": "1",
       "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
       "category_62": "1",
       "category_66": "1",
       "category_68": "1",
@@ -36,9 +53,9 @@
     },
     "clienticon": "319e4a7baaed00cdd22c79174f416fb460fd19f6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2672000",
     "genres": {
       "0": "4",
@@ -109,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "58c40b683df8e70701fbcbc30926aa41c454521a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788831422",
     "store_asset_mtime": "1786569525",
     "store_tags": {
       "0": "597",
@@ -137,5 +155,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Finitimi",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Finitimi.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2672001": {
+      "manifests": {
+        "public": {
+          "download": "308504912",
+          "gid": "6177416115521536310",
+          "size": "478120716"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25177851",
+        "timebuildupdated": "1788830725",
+        "timeupdated": "1788830764"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hubert Cecotti",
+    "publisher": "hublab"
+  }
 }

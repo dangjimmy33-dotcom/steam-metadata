@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788827354,
+  "_lastChecked": 1788834126,
   "_history": [
     {
       "buildId": "25091300",
@@ -104,12 +104,51 @@
           "download": 99795664
         }
       }
+    },
+    {
+      "buildId": "25157153",
+      "branch": "last-release",
+      "timeUpdated": 1788732055,
+      "firstSeen": 1788834126,
+      "manifests": {
+        "2105841": {
+          "gid": "1722195495589387930",
+          "size": 442818849,
+          "download": 99800080
+        }
+      }
+    },
+    {
+      "buildId": "25177727",
+      "branch": "public",
+      "timeUpdated": 1788830445,
+      "firstSeen": 1788834126,
+      "manifests": {
+        "2105841": {
+          "gid": "1477491034569285647",
+          "size": 442608652,
+          "download": 99792128
+        }
+      }
+    },
+    {
+      "buildId": "25177727",
+      "branch": "unstable",
+      "timeUpdated": 1788830075,
+      "firstSeen": 1788834126,
+      "manifests": {
+        "2105841": {
+          "gid": "1477491034569285647",
+          "size": 442608652,
+          "download": 99792128
+        }
+      }
     }
   ],
-  "_change_number": 38680408,
+  "_change_number": 38681613,
   "_missing_token": false,
-  "_sha": "a8fe3b7cda0ef2ac7f624380f1fbb08c17b57edc",
-  "_size": 8584,
+  "_sha": "6975372cee5aaea1aadae1ce400f38c6964b2e26",
+  "_size": 8880,
   "appid": "2105840",
   "common": {
     "associations": {
@@ -256,7 +295,7 @@
     "oslist": "windows",
     "primary_genre": "23",
     "releasestate": "released",
-    "review_percentage": "92",
+    "review_percentage": "93",
     "review_score": "7",
     "small_capsule": {
       "english": "c6c9f319b74554a7cfeda7a4222969d8ba42d8c9/capsule_231x87.jpg",
@@ -332,29 +371,40 @@
   "depots": {
     "2105841": {
       "manifests": {
-        "public": {
+        "last-release": {
           "download": "99800080",
           "gid": "1722195495589387930",
           "size": "442818849"
         },
+        "public": {
+          "download": "99792128",
+          "gid": "1477491034569285647",
+          "size": "442608652"
+        },
         "unstable": {
-          "download": "99795664",
-          "gid": "4609118604288011020",
-          "size": "442823057"
+          "download": "99792128",
+          "gid": "1477491034569285647",
+          "size": "442608652"
         }
       }
     },
     "branches": {
-      "public": {
+      "last-release": {
         "buildid": "25157153",
+        "description": "the last live version of the game",
         "timebuildupdated": "1788730927",
         "timeupdated": "1788732055"
       },
+      "public": {
+        "buildid": "25177727",
+        "timebuildupdated": "1788830063",
+        "timeupdated": "1788830445"
+      },
       "unstable": {
-        "buildid": "25176812",
+        "buildid": "25177727",
         "description": "unstable testing branch",
-        "timebuildupdated": "1788825152",
-        "timeupdated": "1788825161"
+        "timebuildupdated": "1788830063",
+        "timeupdated": "1788830075"
       }
     }
   },

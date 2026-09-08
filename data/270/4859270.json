@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788830850,
-  "_history": [],
-  "_change_number": 38465573,
-  "_missing_token": true,
-  "_sha": "24ec03fb964da03b1c749fb3bee1b6624605cd4e",
-  "_size": 4079,
+  "_lastChecked": 1788837351,
+  "_history": [
+    {
+      "buildId": "24830660",
+      "branch": "public",
+      "timeUpdated": 1787192451,
+      "firstSeen": 1788837351,
+      "manifests": {
+        "4859271": {
+          "gid": "5770805991168283569",
+          "size": 586148297,
+          "download": 230370448
+        }
+      }
+    }
+  ],
+  "_change_number": 38681852,
+  "_missing_token": false,
+  "_sha": "5687473a2cb30d7368de4ec211a76f3bf2aec199",
+  "_size": 4656,
   "appid": "4859270",
   "common": {
     "aicontenttype": "1",
@@ -25,8 +39,8 @@
     },
     "clienticon": "65d9b9e965ac44e8977db83a858498bf9ebd5fb1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4859270",
     "genres": {
       "0": "25",
@@ -110,7 +124,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5767b845507316a6303ef0a48ce001c2fe250479/capsule_231x87.jpg",
       "schinese": "7cfdcf03c89cefb5aab2df97f49caf53b67dd022/capsule_231x87_schinese.jpg"
@@ -162,5 +176,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dark Bone Prison",
+    "launch": {
+      "0": {
+        "executable": "Dark Bone Prison.exe"
+      }
+    }
+  },
+  "depots": {
+    "4859271": {
+      "manifests": {
+        "public": {
+          "download": "230370448",
+          "gid": "5770805991168283569",
+          "size": "586148297"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24830660",
+        "timebuildupdated": "1787192411",
+        "timeupdated": "1787192451"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Bunny Moon Shady",
+    "publisher": "Bunny Moon Shady"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "2000000"
+  }
 }

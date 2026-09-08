@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788830349,
-  "_history": [],
-  "_change_number": 38676422,
-  "_missing_token": true,
-  "_sha": "5cb2e2d4be31e9b4cfccc8ffade5e38a8b335179",
-  "_size": 3028,
+  "_lastChecked": 1788836888,
+  "_history": [
+    {
+      "buildId": "25177987",
+      "branch": "public",
+      "timeUpdated": 1788831392,
+      "firstSeen": 1788836888,
+      "manifests": {
+        "4416361": {
+          "gid": "4767154821252067225",
+          "size": 892680548,
+          "download": 357141840
+        }
+      }
+    }
+  ],
+  "_change_number": 38681947,
+  "_missing_token": false,
+  "_sha": "9e83dd50827ff83694df5b10e4d154c06e37bf02",
+  "_size": 3825,
   "appid": "4416360",
   "common": {
     "associations": {
@@ -30,8 +44,8 @@
     },
     "clienticon": "3a501ea3f5e4612547c3f367f40f7309eca5b637",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4416360",
     "genres": {
       "0": "1",
@@ -104,7 +118,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b35cc28ddc3c5c05ee4d51f1dde3ef23db1f6802/capsule_231x87.jpg"
     },
@@ -138,5 +152,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BunkerRats",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "bunkerrats.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "7",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "4416361": {
+      "manifests": {
+        "public": {
+          "download": "357141840",
+          "gid": "4767154821252067225",
+          "size": "892680548"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25177987",
+        "timebuildupdated": "1788831375",
+        "timeupdated": "1788831392"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Perrone",
+    "isfreeapp": "1",
+    "publisher": "Perrone"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000"
+  }
 }

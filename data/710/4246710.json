@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788830154,
-  "_history": [],
-  "_change_number": 38347051,
-  "_missing_token": true,
-  "_sha": "6999b04031e726777e5499f860730c8636b50432",
-  "_size": 3441,
+  "_lastChecked": 1788836709,
+  "_history": [
+    {
+      "buildId": "24949421",
+      "branch": "public",
+      "timeUpdated": 1787747928,
+      "firstSeen": 1788836709,
+      "manifests": {
+        "4246711": {
+          "gid": "1324512982315496429",
+          "size": 812953236,
+          "download": 336592720
+        }
+      }
+    }
+  ],
+  "_change_number": 38682785,
+  "_missing_token": false,
+  "_sha": "4fbe81ea6666800953a53fec872f545c04b6e027",
+  "_size": 4314,
   "appid": "4246710",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "6e9226a9687c0bb1f0b42d07ed1a42fd593b7ab4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4246710",
     "genres": {
       "0": "4",
@@ -108,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ec1c2c6ed6a45297448b417bec5230735c7b2386/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788834576",
     "store_asset_mtime": "1783137077",
     "store_tags": {
       "0": "454187",
@@ -159,5 +174,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SyntaxOverload",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64"
+        },
+        "executable": "Syntax Overload.exe"
+      }
+    }
+  },
+  "depots": {
+    "4246711": {
+      "manifests": {
+        "public": {
+          "download": "336592720",
+          "gid": "1324512982315496429",
+          "size": "812953236"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24949421",
+        "timebuildupdated": "1787747713",
+        "timeupdated": "1787747928"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Tallen games",
+    "publisher": "Tallen games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "syntax-overload",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
