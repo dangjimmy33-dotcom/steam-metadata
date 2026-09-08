@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788823533,
-  "_history": [],
-  "_change_number": 38661522,
-  "_missing_token": true,
-  "_sha": "aaf3e79e4287c3ff9b0d62efc3afa6d1423331aa",
-  "_size": 4803,
+  "_lastChecked": 1788830557,
+  "_history": [
+    {
+      "buildId": "25071947",
+      "branch": "public",
+      "timeUpdated": 1788324976,
+      "firstSeen": 1788830557,
+      "manifests": {
+        "4587611": {
+          "gid": "8085735026156774400",
+          "size": 683776733,
+          "download": 339603344
+        }
+      }
+    }
+  ],
+  "_change_number": 38681339,
+  "_missing_token": false,
+  "_sha": "2440d6e01b981b5bdb51bb249a7e8f5ab3670746",
+  "_size": 5605,
   "appid": "4587610",
   "common": {
     "aicontenttype": "1",
@@ -25,8 +39,8 @@
     },
     "clienticon": "d6e3613c3a86b2abc32304a7c967c2a1a3128982",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4587610",
     "genres": {
       "0": "4",
@@ -124,12 +138,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "56a97c0edb3a360d59e649b56b9a212051cdda46/capsule_231x87.jpg",
       "japanese": "affc2c2bed1c3fe8b1a84ca9b5f1459a608f6fab/capsule_231x87_japanese.jpg",
       "schinese": "e28f0f98c96ddb52dbe622d87d5c232723001d4e/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1788829180",
     "store_asset_mtime": "1788770189",
     "store_tags": {
       "0": "1716",
@@ -166,5 +181,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dice Tavern Farkle Roguelike",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DiceTavern-win\\DiceTavern.exe"
+      }
+    }
+  },
+  "depots": {
+    "4587611": {
+      "manifests": {
+        "public": {
+          "download": "339603344",
+          "gid": "8085735026156774400",
+          "size": "683776733"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25071947",
+        "timebuildupdated": "1788320125",
+        "timeupdated": "1788324976"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Cavi Studio",
+    "publisher": "HARRISONWORLD CO.,LTD"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "sync_while_suspended": "1"
+  }
 }

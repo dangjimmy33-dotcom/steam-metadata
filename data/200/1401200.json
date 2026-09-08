@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788819219,
+  "_lastChecked": 1788826342,
   "_history": [
     {
       "buildId": "25059966",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38678539,
+  "_change_number": 38679655,
   "_missing_token": false,
-  "_sha": "490a614e9cd9b579851d442aed585cbe2dbdf28a",
-  "_size": 6500,
+  "_sha": "31c624b67a0a5e448a218fa25da82cfc3af608ee",
+  "_size": 6520,
   "appid": "1401200",
   "common": {
     "associations": {
@@ -57,7 +57,7 @@
         "id": "1401200_eula_0",
         "name": "Shadows of Soldiers EULA",
         "url": "https://store.steampowered.com//eula/1401200_eula_0",
-        "version": "2"
+        "version": "3"
       }
     },
     "gameid": "1401200",
@@ -217,6 +217,7 @@
       "1": {
         "arguments": "-online steam -mm_queue live",
         "config": {
+          "osarch": "64",
           "oslist": "windows"
         },
         "executable": "SoSdev.exe",

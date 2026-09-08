@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788823777,
-  "_history": [],
-  "_change_number": 37749457,
-  "_missing_token": true,
-  "_sha": "44273f57b046408db9ac132796c4d226b5db3176",
-  "_size": 3063,
+  "_lastChecked": 1788830801,
+  "_history": [
+    {
+      "buildId": "24543508",
+      "branch": "public",
+      "timeUpdated": 1785809440,
+      "firstSeen": 1788830801,
+      "manifests": {
+        "4819241": {
+          "gid": "7571761040716513794",
+          "size": 312752930,
+          "download": 240971760
+        }
+      }
+    }
+  ],
+  "_change_number": 38680490,
+  "_missing_token": false,
+  "_sha": "8f1de22c2216b1d2bb593c867bc249bff1d534f1",
+  "_size": 3721,
   "appid": "4819240",
   "common": {
     "aicontenttype": "1",
@@ -26,7 +40,6 @@
     "clienticon": "927651979e8ff8afb378bf712318d616116703f2",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4819240",
     "genres": {
       "0": "1",
@@ -100,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d5d53c63f865051ad11145aa4e1ee7744d103253/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788825575",
     "store_asset_mtime": "1785260679",
     "store_tags": {
       "0": "19",
@@ -136,5 +150,41 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Wreckwake",
+    "launch": {
+      "0": {
+        "executable": "Wreckwake_Endless_Sea.exe"
+      }
+    }
+  },
+  "depots": {
+    "4819241": {
+      "manifests": {
+        "public": {
+          "download": "240971760",
+          "gid": "7571761040716513794",
+          "size": "312752930"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "24543508",
+        "timebuildupdated": "1785809198",
+        "timeupdated": "1785809440"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Jetsan Inc",
+    "publisher": "Jetsan Inc"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "40",
+    "quota": "1000000000"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788823888,
-  "_history": [],
-  "_change_number": 38661592,
-  "_missing_token": true,
-  "_sha": "e3f3648431fefe34fd29f3cc918ac2d5612f4c85",
-  "_size": 3101,
+  "_lastChecked": 1788830910,
+  "_history": [
+    {
+      "buildId": "25163698",
+      "branch": "public",
+      "timeUpdated": 1788771149,
+      "firstSeen": 1788830910,
+      "manifests": {
+        "4914511": {
+          "gid": "8982848135282059941",
+          "size": 297551488,
+          "download": 157357440
+        }
+      }
+    }
+  ],
+  "_change_number": 38681023,
+  "_missing_token": false,
+  "_sha": "3438efb7b1c2190f56b6b0f2fd6d629d85414ff7",
+  "_size": 4453,
   "appid": "4914510",
   "common": {
     "aicontenttype": "1",
@@ -35,8 +49,8 @@
     },
     "clienticon": "ed0b95dcece646cef36ccdd0f4718950b10a18f0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4914510",
     "genres": {
       "0": "4"
@@ -109,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a17a517b3174f228b7ddbebdd9b54ddf9df62424/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788827827",
     "store_asset_mtime": "1786766226",
     "store_tags": {
       "0": "597",
@@ -134,5 +149,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Paohuzi",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "paohuzi.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4914511": {
+      "manifests": {
+        "public": {
+          "download": "157357440",
+          "gid": "8982848135282059941",
+          "size": "297551488"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25163698",
+        "timebuildupdated": "1788771030",
+        "timeupdated": "1788771149"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Wenyu Huang",
+    "publisher": "Wenyu Huang"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "addpath": "godot_paohuzi",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "MacAppSupport",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "godot_paohuzi",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "MacHome",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "godot_paohuzi",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

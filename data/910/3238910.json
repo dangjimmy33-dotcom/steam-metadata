@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788821843,
-  "_history": [],
-  "_change_number": 38271627,
-  "_missing_token": true,
-  "_sha": "bf3d2983b215d8c26d2b91a9fecb3f318fdca145",
-  "_size": 9208,
+  "_lastChecked": 1788828876,
+  "_history": [
+    {
+      "buildId": "24787192",
+      "branch": "public",
+      "timeUpdated": 1787015771,
+      "firstSeen": 1788828876,
+      "manifests": {
+        "3238911": {
+          "gid": "4058152899255798926",
+          "size": 10301236,
+          "download": 7064112
+        }
+      }
+    }
+  ],
+  "_change_number": 38680835,
+  "_missing_token": false,
+  "_sha": "33bb775ca136f10770c5a9682e65b7b4433c7fde",
+  "_size": 10405,
   "appid": "3238910",
   "common": {
     "aicontenttype": "1",
@@ -35,9 +49,9 @@
     "clienticon": "52e0e2360b1cc9bfbfd2ad6c95fd76b6900006ef",
     "clienttga": "f15aa90394495504ff12556247e8d04529c912e6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3238910",
     "genres": {
       "0": "1",
@@ -142,7 +156,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9406f24de1e96b519773f51dbc1060038b5a7c42/capsule_231x87.jpg"
     },
@@ -482,5 +496,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "JumpyVsChompy",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "JumpyVsChompy_PC.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3238911": {
+      "manifests": {
+        "public": {
+          "download": "7064112",
+          "gid": "4058152899255798926",
+          "size": "10301236"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "24787192",
+        "timebuildupdated": "1787015146",
+        "timeupdated": "1787015771"
+      }
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Hu Ping",
+    "gamedir": "封神战纪",
+    "publisher": "Hu Ping",
+    "remoteplaytogethertestingbranches": "default",
+    "serverbrowsername": "封神战纪"
+  }
 }

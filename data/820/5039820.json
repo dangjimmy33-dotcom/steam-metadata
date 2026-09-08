@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788824021,
+  "_lastChecked": 1788831044,
   "_history": [
     {
       "buildId": "25137482",
@@ -39,12 +39,38 @@
           "download": 247050928
         }
       }
+    },
+    {
+      "buildId": "25177398",
+      "branch": "public",
+      "timeUpdated": 1788828667,
+      "firstSeen": 1788831044,
+      "manifests": {
+        "5039821": {
+          "gid": "693927759829948027",
+          "size": 308596758,
+          "download": 247058992
+        }
+      }
+    },
+    {
+      "buildId": "25177398",
+      "branch": "review",
+      "timeUpdated": 1788828477,
+      "firstSeen": 1788831044,
+      "manifests": {
+        "5039821": {
+          "gid": "693927759829948027",
+          "size": 308596758,
+          "download": 247058992
+        }
+      }
     }
   ],
-  "_change_number": 38622631,
+  "_change_number": 38681213,
   "_missing_token": false,
-  "_sha": "6aac3aaf5e2de4e6e56d974149059fd1aa451db5",
-  "_size": 4933,
+  "_sha": "bd66d211a1057cf6a51fc99d0bdc4848bd951628",
+  "_size": 4931,
   "appid": "5039820",
   "common": {
     "aicontenttype": "1",
@@ -191,13 +217,13 @@
       "manifests": {
         "public": {
           "download": "247058992",
-          "gid": "4512049271554694364",
+          "gid": "693927759829948027",
           "size": "308596758"
         },
         "review": {
-          "download": "247050928",
-          "gid": "2720438353329132750",
-          "size": "308577003"
+          "download": "247058992",
+          "gid": "693927759829948027",
+          "size": "308596758"
         },
         "update_test": {
           "download": "247050928",
@@ -208,15 +234,15 @@
     },
     "branches": {
       "public": {
-        "buildid": "25137482",
-        "timebuildupdated": "1788586074",
-        "timeupdated": "1788586449"
+        "buildid": "25177398",
+        "timebuildupdated": "1788828285",
+        "timeupdated": "1788828667"
       },
       "review": {
-        "buildid": "24969397",
+        "buildid": "25177398",
         "description": "Review build for Steam review",
-        "timebuildupdated": "1787829862",
-        "timeupdated": "1787831774"
+        "timebuildupdated": "1788828285",
+        "timeupdated": "1788828477"
       },
       "update_test": {
         "buildid": "24969397",
