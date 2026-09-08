@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788891996,
-  "_history": [],
-  "_change_number": 38219511,
-  "_missing_token": true,
-  "_sha": "7fc098527e646f7079826cc75c17aecbb4a0eefa",
-  "_size": 3377,
+  "_lastChecked": 1788897461,
+  "_history": [
+    {
+      "buildId": "24847850",
+      "branch": "public",
+      "timeUpdated": 1787255384,
+      "firstSeen": 1788897461,
+      "manifests": {
+        "5075031": {
+          "gid": "8740566007726968408",
+          "size": 64539416,
+          "download": 50331600
+        }
+      }
+    }
+  ],
+  "_change_number": 38706441,
+  "_missing_token": false,
+  "_sha": "b8f3fd3dd8b0f18dc4f14a6bdd59f70df934003a",
+  "_size": 4691,
   "appid": "5075030",
   "common": {
     "associations": {
@@ -30,9 +44,9 @@
     },
     "clienticon": "62eaa9945956c034ca92497dab9a74b14692cb2e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5075030",
     "genres": {
       "0": "1",
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d29983084e1ac7561e19f7b059a4e9c374b53608/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788894813",
     "store_asset_mtime": "1786104170",
     "store_tags": {
       "0": "5537",
@@ -159,5 +174,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Trouble Thief",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TroubleThief.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5075031": {
+      "manifests": {
+        "public": {
+          "download": "50331600",
+          "gid": "8740566007726968408",
+          "size": "64539416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24847850",
+        "timebuildupdated": "1787255353",
+        "timeupdated": "1787255384"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Apapappa Games",
+    "publisher": "Apapappa Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "TroubleThief/SteamSaveGroup",
+        "pattern": "achievements.txt",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "TroubleThief/SteamSaveGroup",
+        "pattern": "controls.txt",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "TroubleThief/SteamSaveGroup",
+        "pattern": "save.txt",
+        "root": "WinAppDataLocal"
+      },
+      "3": {
+        "path": "TroubleThief/SteamSaveGroup",
+        "pattern": "save_ghost.txt",
+        "root": "WinAppDataLocal"
+      },
+      "4": {
+        "path": "TroubleThief/SteamSaveGroup",
+        "pattern": "settings.txt",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

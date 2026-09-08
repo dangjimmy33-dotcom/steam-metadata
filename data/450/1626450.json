@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788888623,
-  "_history": [],
-  "_change_number": 38671943,
-  "_missing_token": true,
-  "_sha": "96586ab331850dce9cce0ad33c71580998026693",
-  "_size": 3408,
+  "_lastChecked": 1788894122,
+  "_history": [
+    {
+      "buildId": "25192836",
+      "branch": "public",
+      "timeUpdated": 1788890521,
+      "firstSeen": 1788894122,
+      "manifests": {
+        "1626451": {
+          "gid": "2259591445989627425",
+          "size": 260161833,
+          "download": 187167472
+        }
+      }
+    }
+  ],
+  "_change_number": 38705821,
+  "_missing_token": false,
+  "_sha": "b4c307c4eebc7cc478a217b33bda8e1ab504c850",
+  "_size": 4359,
   "appid": "1626450",
   "common": {
     "aicontenttype": "1",
@@ -46,14 +60,13 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1626450",
     "genres": {
       "0": "9",
       "1": "70"
     },
     "header_image": {
-      "english": "c6aabf82f61c2b64c96755f707ab757bf7ec7504/header.jpg"
+      "english": "99ed9a780f24bf108b2e5a075c49856d6fec2f5e/header.jpg"
     },
     "icon": "9b9701eed1f6c633a0a4c3cb638789622d4be378",
     "library_assets": {
@@ -71,18 +84,18 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "d5f58da0863e67cd918840d1f10bfbe2eece27c2/library_capsule.jpg"
+          "english": "59467cfeb0853d2b99feb1cd0a920938a57383b2/library_capsule.jpg"
         },
         "image2x": {
-          "english": "d5f58da0863e67cd918840d1f10bfbe2eece27c2/library_capsule_2x.jpg"
+          "english": "59467cfeb0853d2b99feb1cd0a920938a57383b2/library_capsule_2x.jpg"
         }
       },
       "library_header": {
         "image": {
-          "english": "c6aabf82f61c2b64c96755f707ab757bf7ec7504/library_header.jpg"
+          "english": "99ed9a780f24bf108b2e5a075c49856d6fec2f5e/library_header.jpg"
         },
         "image2x": {
-          "english": "c6aabf82f61c2b64c96755f707ab757bf7ec7504/library_header_2x.jpg"
+          "english": "99ed9a780f24bf108b2e5a075c49856d6fec2f5e/library_header_2x.jpg"
         }
       },
       "library_hero": {
@@ -100,10 +113,10 @@
       },
       "library_logo": {
         "image": {
-          "english": "e038e95b46580181683d1e62b00047f2ff8361bd/logo.png"
+          "english": "332c0b4b8a6d2f097de757b392908f5ea4487119/logo.png"
         },
         "image2x": {
-          "english": "e038e95b46580181683d1e62b00047f2ff8361bd/logo_2x.png"
+          "english": "332c0b4b8a6d2f097de757b392908f5ea4487119/logo_2x.png"
         },
         "logo_position": {
           "height_pct": "100",
@@ -120,11 +133,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
-      "english": "1bbe9b7fa8e835d935706a469f6ad68f06b2dc58/capsule_231x87.jpg"
+      "english": "736e9db64da95b5927cfd98674b39e3a969ec59e/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1779314035",
+    "steam_release_date": "1788893226",
+    "store_asset_mtime": "1788892989",
     "store_tags": {
       "0": "699",
       "1": "1773",
@@ -145,5 +159,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Galactic Speed Legends",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "GalacticSpeedLegends.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1626451": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "187167472",
+          "gid": "2259591445989627425",
+          "size": "260161833"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25192836",
+        "timebuildupdated": "1788890499",
+        "timeupdated": "1788890521"
+      }
+    }
+  },
+  "extended": {
+    "developer": "ocasocreations",
+    "publisher": "ocasocreations"
+  }
 }

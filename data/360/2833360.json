@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788889904,
-  "_history": [],
-  "_change_number": 38656485,
-  "_missing_token": true,
-  "_sha": "93de64198d646f55a60b3ca65472b1f90945ed90",
-  "_size": 2817,
+  "_lastChecked": 1788895388,
+  "_history": [
+    {
+      "buildId": "25160631",
+      "branch": "public",
+      "timeUpdated": 1788753903,
+      "firstSeen": 1788895388,
+      "manifests": {
+        "2833361": {
+          "gid": "5449029556877329150",
+          "size": 358738798,
+          "download": 237411520
+        }
+      }
+    }
+  ],
+  "_change_number": 38705026,
+  "_missing_token": false,
+  "_sha": "04fa531e4c8cc3ba1c6d68e65f180d42cd81a6c9",
+  "_size": 3530,
   "appid": "2833360",
   "common": {
     "associations": {
@@ -42,8 +56,8 @@
     "clienticon": "979c005f524ff660321e0e9ca5bc20b98158dd4f",
     "clienttga": "02f3e4d6ac26dbdc8f43fa89bba0b66d70d8e8f1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2833360",
     "genres": {
       "0": "1",
@@ -109,7 +123,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4cc48ba515272bace6f7fd79e11a49f7396cabd0/capsule_231x87.jpg"
     },
@@ -138,5 +152,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "KittyKittyBounceBounce",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "KittyKittyBounceBounce\\KittyKittyBounceBounce.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2833361": {
+      "manifests": {
+        "public": {
+          "download": "237411520",
+          "gid": "5449029556877329150",
+          "size": "358738798"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25160631",
+        "timebuildupdated": "1788753902",
+        "timeupdated": "1788753903"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Liquid Darkness",
+    "publisher": "Liquid Darkness"
+  },
+  "ufs": {
+    "appidredirect": "2837660",
+    "maxnumfiles": "111",
+    "quota": "1111111"
+  }
 }

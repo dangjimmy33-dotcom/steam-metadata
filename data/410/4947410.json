@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788891898,
-  "_history": [],
-  "_change_number": 38688082,
-  "_missing_token": true,
-  "_sha": "c3ccfb2cb3812836c73898bfb3c0f4b0abc6828b",
-  "_size": 2874,
+  "_lastChecked": 1788897364,
+  "_history": [
+    {
+      "buildId": "24198116",
+      "branch": "public",
+      "timeUpdated": 1784018600,
+      "firstSeen": 1788897364,
+      "manifests": {
+        "4947411": {
+          "gid": "8279880108554785598",
+          "size": 245492574,
+          "download": 229750464
+        }
+      }
+    }
+  ],
+  "_change_number": 38706478,
+  "_missing_token": false,
+  "_sha": "0a30918396de3dbd80dd70a37d9d8757ccbbbec4",
+  "_size": 3487,
   "appid": "4947410",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "eb86da39a3041e6830d7c749e6ef6db56ecb114c",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4947410",
     "genres": {
       "0": "4"
@@ -99,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "652d795a270c6922c1ee85e34f00430b88d8d783/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1784019241",
     "store_tags": {
       "0": "597",
@@ -125,5 +139,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Remy Thornfield Royal Dreams",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Remy Thornfield - Royal Dream.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4947411": {
+      "manifests": {
+        "public": {
+          "download": "229750464",
+          "gid": "8279880108554785598",
+          "size": "245492574"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24198116",
+        "timebuildupdated": "1784018583",
+        "timeupdated": "1784018600"
+      }
+    }
+  },
+  "extended": {
+    "developer": " eFunSoft Games",
+    "publisher": "HH-Games"
+  }
 }

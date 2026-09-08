@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788890643,
+  "_lastChecked": 1788896121,
   "_history": [
     {
       "buildId": "25090214",
@@ -170,11 +170,29 @@
           "download": 1303906784
         }
       }
+    },
+    {
+      "buildId": "25194048",
+      "branch": "beta_test",
+      "timeUpdated": 1788895524,
+      "firstSeen": 1788896121,
+      "manifests": {
+        "3582441": {
+          "gid": "1618093820080713941",
+          "size": 1771838964,
+          "download": 1306954688
+        },
+        "3582442": {
+          "gid": "3389835538300386049",
+          "size": 1774869527,
+          "download": 1307861168
+        }
+      }
     }
   ],
-  "_change_number": 38676861,
+  "_change_number": 38706681,
   "_missing_token": false,
-  "_sha": "2f507c9bfbe921c9df01509a90117829b0154ce8",
+  "_sha": "695419190cd8ae3100b75f5ebc013ca9bfe6ad35",
   "_size": 13951,
   "appid": "3582440",
   "common": {
@@ -519,9 +537,9 @@
       },
       "manifests": {
         "beta_test": {
-          "download": "1306955360",
-          "gid": "9144513843804252616",
-          "size": "1771841388"
+          "download": "1306954688",
+          "gid": "1618093820080713941",
+          "size": "1771838964"
         },
         "experimental": {
           "download": "1303000208",
@@ -572,9 +590,9 @@
       },
       "manifests": {
         "beta_test": {
-          "download": "1307861904",
-          "gid": "4109701793418508944",
-          "size": "1774871951"
+          "download": "1307861168",
+          "gid": "3389835538300386049",
+          "size": "1774869527"
         },
         "experimental": {
           "download": "1303906784",
@@ -610,10 +628,10 @@
     },
     "branches": {
       "beta_test": {
-        "buildid": "25090214",
+        "buildid": "25194048",
         "description": "Test upcoming features. English only. Saves may corrupt. Higher chance of crashes.",
-        "timebuildupdated": "1788388627",
-        "timeupdated": "1788388684"
+        "timebuildupdated": "1788895452",
+        "timeupdated": "1788895524"
       },
       "experimental": {
         "buildid": "25174280",

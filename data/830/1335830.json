@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788888311,
+  "_lastChecked": 1788893812,
   "_history": [
     {
       "buildId": "22592200",
@@ -56,10 +56,10 @@
       }
     }
   ],
-  "_change_number": 37444986,
+  "_change_number": 38705214,
   "_missing_token": false,
-  "_sha": "62a0675eec154d263876a1391b0d631e877626ee",
-  "_size": 9324,
+  "_sha": "338fa0db609b799db550e3605f12c4a87f30b679",
+  "_size": 9668,
   "appid": "1335830",
   "common": {
     "associations": {
@@ -203,8 +203,8 @@
         "hdr_support": "0",
         "non_deck_display_glyphs": "1",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-8.0-4",
-        "requires_h264": "1",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
         "requires_manual_keyboard_invoke": "0",
@@ -212,10 +212,23 @@
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "1",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
       "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
@@ -223,8 +236,8 @@
           "token": "#SteamOS_TestResult_GameStartupFunctional"
         }
       },
-      "test_timestamp": "1695168000",
-      "tested_build_id": "12204809",
+      "test_timestamp": "1788286219",
+      "tested_build_id": "22592200",
       "tests": {
         "0": {
           "display": "3",
@@ -235,12 +248,12 @@
           "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
         },
         "2": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "3": {
           "display": "4",
-          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
         }
       }
     },

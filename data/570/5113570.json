@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788892020,
-  "_history": [],
-  "_change_number": 38307849,
-  "_missing_token": true,
-  "_sha": "014da7d8b016be24ea92b15f8417ba47b6e80752",
-  "_size": 2840,
+  "_lastChecked": 1788897485,
+  "_history": [
+    {
+      "buildId": "24740078",
+      "branch": "public",
+      "timeUpdated": 1786729709,
+      "firstSeen": 1788897485,
+      "manifests": {
+        "5113571": {
+          "gid": "8083377604103622007",
+          "size": 165952417,
+          "download": 85893856
+        }
+      }
+    }
+  ],
+  "_change_number": 38706803,
+  "_missing_token": false,
+  "_sha": "da91f468ca9f83f51dff9e502b6122c5587bdf35",
+  "_size": 3383,
   "appid": "5113570",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +43,8 @@
     },
     "clienticon": "cc29037a19e64fcbd020d8bbea947af4d45ad2a0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5113570",
     "genres": {
       "0": "4"
@@ -100,7 +114,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c2a42b6daf0c3d37864ee85cde72492a6776e0ee/capsule_231x87.jpg"
     },
@@ -126,5 +140,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Three's a Crowd",
+    "launch": {
+      "0": {
+        "executable": "ThreesACrowd.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5113571": {
+      "manifests": {
+        "public": {
+          "download": "85893856",
+          "gid": "8083377604103622007",
+          "size": "165952417"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24740078",
+        "timebuildupdated": "1786729604",
+        "timeupdated": "1786729709"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Fluffington Studios",
+    "publisher": "Fluffington Studios"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788890722,
-  "_history": [],
-  "_change_number": 38634155,
-  "_missing_token": true,
-  "_sha": "4684b13b9f3d8caa9929f93cfe397cf36fcf2771",
-  "_size": 3064,
+  "_lastChecked": 1788896200,
+  "_history": [
+    {
+      "buildId": "24982421",
+      "branch": "public",
+      "timeUpdated": 1787878287,
+      "firstSeen": 1788896200,
+      "manifests": {
+        "3659881": {
+          "gid": "8964721737127802755",
+          "size": 373385923,
+          "download": 38498848
+        }
+      }
+    }
+  ],
+  "_change_number": 38704910,
+  "_missing_token": false,
+  "_sha": "c75c201d6e01d17cfc9979d996d37476fbf7a98f",
+  "_size": 4220,
   "appid": "3659880",
   "common": {
     "associations": {
@@ -25,7 +39,6 @@
     "clienttga": "6b8ccaf24b84e2b7703c82d98f616eb4b40c5abd",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3659880",
     "genres": {
       "0": "1",
@@ -101,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "efcb551e7790ab1d6bbc18bbd0b863f0652d34bd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788890767",
     "store_asset_mtime": "1788639878",
     "store_tags": {
       "0": "21",
@@ -136,5 +150,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pit of Fears",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Pit of Fears.exe"
+      }
+    }
+  },
+  "depots": {
+    "3659881": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "38498848",
+          "gid": "8964721737127802755",
+          "size": "373385923"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english",
+    "branches": {
+      "public": {
+        "buildid": "24982421",
+        "timebuildupdated": "1787878186",
+        "timeupdated": "1787878287"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Teles Game Studios",
+    "publisher": "Teles Game Studios"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

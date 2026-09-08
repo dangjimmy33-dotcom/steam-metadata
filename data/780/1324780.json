@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788888301,
+  "_lastChecked": 1788893801,
   "_history": [
     {
       "buildId": "24512933",
@@ -322,11 +322,80 @@
           "download": 9182106880
         }
       }
+    },
+    {
+      "buildId": "25192995",
+      "branch": "console_crossplay",
+      "timeUpdated": 1788891256,
+      "firstSeen": 1788893801,
+      "manifests": {
+        "1324781": {
+          "gid": "9020930926802852357",
+          "size": 17773476490,
+          "download": 9263498800
+        },
+        "1324782": {
+          "gid": "1013993385417789425",
+          "size": 17821219489,
+          "download": 9273115248
+        },
+        "1324783": {
+          "gid": "3093371678208584861",
+          "size": 17675475218,
+          "download": 9182106912
+        }
+      }
+    },
+    {
+      "buildId": "25192995",
+      "branch": "public",
+      "timeUpdated": 1788891327,
+      "firstSeen": 1788893801,
+      "manifests": {
+        "1324781": {
+          "gid": "9020930926802852357",
+          "size": 17773476490,
+          "download": 9263498800
+        },
+        "1324782": {
+          "gid": "1013993385417789425",
+          "size": 17821219489,
+          "download": 9273115248
+        },
+        "1324783": {
+          "gid": "3093371678208584861",
+          "size": 17675475218,
+          "download": 9182106912
+        }
+      }
+    },
+    {
+      "buildId": "25193121",
+      "branch": "publicbeta",
+      "timeUpdated": 1788891789,
+      "firstSeen": 1788893801,
+      "manifests": {
+        "1324781": {
+          "gid": "6774345617246333299",
+          "size": 17773477114,
+          "download": 9263497136
+        },
+        "1324782": {
+          "gid": "5247436252691926495",
+          "size": 17821219625,
+          "download": 9273117904
+        },
+        "1324783": {
+          "gid": "4304159532169090884",
+          "size": 17675475730,
+          "download": 9182111296
+        }
+      }
     }
   ],
-  "_change_number": 38699108,
+  "_change_number": 38705306,
   "_missing_token": false,
-  "_sha": "39a7207ef8e79a934d8b4378214fd0652c17a2af",
+  "_sha": "a44305d4f41447e3f83877785760b1950e7c9265",
   "_size": 13192,
   "appid": "1324780",
   "common": {
@@ -736,19 +805,19 @@
       },
       "manifests": {
         "console_crossplay": {
-          "download": "9263371280",
-          "gid": "3734589893562892146",
-          "size": "17773183424"
+          "download": "9263498800",
+          "gid": "9020930926802852357",
+          "size": "17773476490"
         },
         "public": {
-          "download": "9263371280",
-          "gid": "3734589893562892146",
-          "size": "17773183424"
+          "download": "9263498800",
+          "gid": "9020930926802852357",
+          "size": "17773476490"
         },
         "publicbeta": {
-          "download": "9263495808",
-          "gid": "8624504946737104482",
-          "size": "17773414033"
+          "download": "9263497136",
+          "gid": "6774345617246333299",
+          "size": "17773477114"
         }
       }
     },
@@ -758,19 +827,19 @@
       },
       "manifests": {
         "console_crossplay": {
-          "download": "9273022000",
-          "gid": "2051859064592512130",
-          "size": "17820909026"
+          "download": "9273115248",
+          "gid": "1013993385417789425",
+          "size": "17821219489"
         },
         "public": {
-          "download": "9273022000",
-          "gid": "2051859064592512130",
-          "size": "17820909026"
+          "download": "9273115248",
+          "gid": "1013993385417789425",
+          "size": "17821219489"
         },
         "publicbeta": {
-          "download": "9273111232",
-          "gid": "7912156312543795508",
-          "size": "17821154304"
+          "download": "9273117904",
+          "gid": "5247436252691926495",
+          "size": "17821219625"
         }
       }
     },
@@ -780,40 +849,40 @@
       },
       "manifests": {
         "console_crossplay": {
-          "download": "9181989760",
-          "gid": "2139942736112428786",
-          "size": "17675200137"
+          "download": "9182106912",
+          "gid": "3093371678208584861",
+          "size": "17675475218"
         },
         "public": {
-          "download": "9181989760",
-          "gid": "2139942736112428786",
-          "size": "17675200137"
+          "download": "9182106912",
+          "gid": "3093371678208584861",
+          "size": "17675475218"
         },
         "publicbeta": {
-          "download": "9182106880",
-          "gid": "3438581174186214789",
-          "size": "17675413853"
+          "download": "9182111296",
+          "gid": "4304159532169090884",
+          "size": "17675475730"
         }
       }
     },
     "baselanguages": "english,german,french,italian,spanish,schinese,tchinese,russian,japanese,portuguese,brazilian,latam",
     "branches": {
       "console_crossplay": {
-        "buildid": "25162969",
+        "buildid": "25192995",
         "description": "Crossplay Compatibility",
-        "timebuildupdated": "1788768034",
-        "timeupdated": "1788768124"
+        "timebuildupdated": "1788891208",
+        "timeupdated": "1788891256"
       },
       "public": {
-        "buildid": "25162969",
-        "timebuildupdated": "1788768034",
-        "timeupdated": "1788768124"
+        "buildid": "25192995",
+        "timebuildupdated": "1788891208",
+        "timeupdated": "1788891327"
       },
       "publicbeta": {
-        "buildid": "25189247",
+        "buildid": "25193121",
         "description": "Public beta for easy red 2 - expect some bugs",
-        "timebuildupdated": "1788877815",
-        "timeupdated": "1788878024"
+        "timebuildupdated": "1788891764",
+        "timeupdated": "1788891789"
       }
     },
     "hasdepotsindlc": "1",
