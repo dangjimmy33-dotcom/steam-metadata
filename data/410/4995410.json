@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788873130,
-  "_history": [],
-  "_change_number": 38519265,
-  "_missing_token": true,
-  "_sha": "a61ae139b0b89bb7428ad4278864d4685dbd5412",
-  "_size": 3517,
+  "_lastChecked": 1788879501,
+  "_history": [
+    {
+      "buildId": "24619583",
+      "branch": "public",
+      "timeUpdated": 1786129701,
+      "firstSeen": 1788879501,
+      "manifests": {
+        "4995411": {
+          "gid": "7853155117121983181",
+          "size": 418624169,
+          "download": 294026528
+        }
+      }
+    }
+  ],
+  "_change_number": 38698160,
+  "_missing_token": false,
+  "_sha": "2d56941c77fd108ca1df00512397ce1ca1755749",
+  "_size": 4155,
   "appid": "4995410",
   "common": {
     "aicontenttype": "1",
@@ -30,7 +44,6 @@
     "clienticon": "6d6b3d96d73b751294789d49f9cb5fffedf045ca",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4995410",
     "genres": {
       "0": "4",
@@ -104,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "554f24aa48ac37230377ea354de7986575aafeac/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1786693158",
     "store_tags": {
       "0": "599",
@@ -160,5 +174,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hot Dog Simulator  Food Truck",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "HotDogSimulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "4995411": {
+      "manifests": {
+        "public": {
+          "download": "294026528",
+          "gid": "7853155117121983181",
+          "size": "418624169"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24619583",
+        "timebuildupdated": "1786129644",
+        "timeupdated": "1786129701"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Feha Game Studios",
+    "homepage": "https://muhammedfurkancirkin.com",
+    "publisher": "Feha Game Studios"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788871853,
+  "_lastChecked": 1788878009,
   "_history": [
     {
       "buildId": "25100471",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38695216,
+  "_change_number": 38697540,
   "_missing_token": false,
-  "_sha": "6691f8c799e8f8beb3aa8105eac7f034785f8160",
-  "_size": 6182,
+  "_sha": "fe6901bdb9e1cf1495b5307d8c086bd9d54e820f",
+  "_size": 6500,
   "appid": "3601630",
   "common": {
     "associations": {
@@ -179,6 +179,17 @@
         "arguments": "-logFile ./kosmo.log -FullMode",
         "config": {
           "betakey": "k_bp"
+        },
+        "executable": "Kosmo.exe"
+      },
+      "10": {
+        "arguments": "-s_ShowcaseVehicleId:Felicia -s_ShowcaseSkinId:SkinFeliciaAsus",
+        "config": {
+          "betakey": "tokyogs2026_skoda_felicia"
+        },
+        "description": "Tokyo game show branch",
+        "description_loc": {
+          "english": "Tokyo game show branch"
         },
         "executable": "Kosmo.exe"
       },

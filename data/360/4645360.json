@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788872840,
+  "_lastChecked": 1788879163,
   "_history": [
     {
       "buildId": "25101626",
@@ -13,12 +13,25 @@
           "download": 9980173968
         }
       }
+    },
+    {
+      "buildId": "25189538",
+      "branch": "public",
+      "timeUpdated": 1788879008,
+      "firstSeen": 1788879163,
+      "manifests": {
+        "4645361": {
+          "gid": "4213262276656708117",
+          "size": 11608309639,
+          "download": 10373755520
+        }
+      }
     }
   ],
-  "_change_number": 38623119,
+  "_change_number": 38699581,
   "_missing_token": false,
-  "_sha": "40f823c2fdf202e90042478140fad039c5cda8e2",
-  "_size": 4819,
+  "_sha": "b1e3f2ad28cf2dfd5891298e6cbaafc3af68bc7b",
+  "_size": 6455,
   "appid": "4645360",
   "common": {
     "aicontenttype": "1",
@@ -121,6 +134,63 @@
     "review_score": "5",
     "small_capsule": {
       "english": "213b99554f12045256c233c6753751117fae0b3a/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsNotPerformant"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        }
+      },
+      "test_timestamp": "1788271413",
+      "tested_build_id": "25042208",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+        }
+      }
     },
     "steam_release_date": "1787576201",
     "store_asset_mtime": "1788183377",
@@ -230,17 +300,17 @@
     "4645361": {
       "manifests": {
         "public": {
-          "download": "9980173968",
-          "gid": "2646614551166852576",
-          "size": "11172225895"
+          "download": "10373755520",
+          "gid": "4213262276656708117",
+          "size": "11608309639"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25101626",
-        "timebuildupdated": "1788438541",
-        "timeupdated": "1788443030"
+        "buildid": "25189538",
+        "timebuildupdated": "1788878861",
+        "timeupdated": "1788879008"
       }
     }
   },

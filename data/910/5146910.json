@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788873230,
-  "_history": [],
-  "_change_number": 38443442,
-  "_missing_token": true,
-  "_sha": "7a383c81d619de03a9ac8c299b538495347ac35c",
-  "_size": 3005,
+  "_lastChecked": 1788879620,
+  "_history": [
+    {
+      "buildId": "24857616",
+      "branch": "public",
+      "timeUpdated": 1787301608,
+      "firstSeen": 1788879620,
+      "manifests": {
+        "5146911": {
+          "gid": "3181944495710623776",
+          "size": 128652958,
+          "download": 90996720
+        }
+      }
+    }
+  ],
+  "_change_number": 38697291,
+  "_missing_token": false,
+  "_sha": "c77b95db10e8979b7c76f13d7cae0d47f1fa0763",
+  "_size": 3559,
   "appid": "5146910",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +43,8 @@
     },
     "clienticon": "34eb31e2e543da99d16ab129b1dbcb9a9e59c659",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5146910",
     "genres": {
       "0": "1",
@@ -108,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f3ceaad64390bc3751bf4b3d843e352d26dc2037/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788874866",
     "store_asset_mtime": "1787291965",
     "store_tags": {
       "0": "9",
@@ -137,5 +152,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Elder Gate",
+    "launch": {
+      "0": {
+        "executable": "ElderGate.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5146911": {
+      "manifests": {
+        "public": {
+          "download": "90996720",
+          "gid": "3181944495710623776",
+          "size": "128652958"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24857616",
+        "timebuildupdated": "1787301586",
+        "timeupdated": "1787301608"
+      }
+    }
+  },
+  "extended": {
+    "developer": "ZERO5GAMES",
+    "publisher": "ZERO5GAMES"
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788872799,
-  "_history": [],
-  "_change_number": 38672067,
-  "_missing_token": true,
-  "_sha": "a8c81e48b42faaa94bdff198c0e9faaaba7fcaa9",
-  "_size": 3707,
+  "_lastChecked": 1788879116,
+  "_history": [
+    {
+      "buildId": "25170903",
+      "branch": "public",
+      "timeUpdated": 1788798040,
+      "firstSeen": 1788879116,
+      "manifests": {
+        "4598191": {
+          "gid": "5838533159748108981",
+          "size": 1439904023,
+          "download": 319850304
+        },
+        "4598192": {
+          "gid": "2846118412936172894",
+          "size": 1458504890,
+          "download": 329194304
+        }
+      }
+    }
+  ],
+  "_change_number": 38696807,
+  "_missing_token": false,
+  "_sha": "256b07c5cc70c0a85249476b4e3902f5d8854846",
+  "_size": 5369,
   "appid": "4598190",
   "common": {
     "associations": {
@@ -36,9 +55,9 @@
     "clienticns": "71d64d39913fd79dc8213ba0e94084fb8b17234e",
     "clienticon": "8be32ac5123806bec02eb71b80a2255978771957",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4598190",
     "genres": {
       "0": "1",
@@ -109,10 +128,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c6ab39dc3785fc5c5def078323524044e7a2b8ab/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788874223",
     "store_asset_mtime": "1787005743",
     "store_tags": {
       "0": "3968",
@@ -173,5 +193,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fill The Void",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Fill The Void.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Fill The Void.app"
+      }
+    }
+  },
+  "depots": {
+    "4598191": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "319850304",
+          "gid": "5838533159748108981",
+          "size": "1439904023"
+        }
+      }
+    },
+    "4598192": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "329194304",
+          "gid": "2846118412936172894",
+          "size": "1458504890"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,japanese,koreana,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25170903",
+        "timebuildupdated": "1788797929",
+        "timeupdated": "1788798040"
+      }
+    },
+    "workshopdepot": "4598190"
+  },
+  "extended": {
+    "developer": "Morph",
+    "homepage": "https://morph.land",
+    "publisher": "Morph"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "5",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "MorphLand/Fill The Void",
+        "pattern": "worldeater_save.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "MorphLand/Fill The Void/custom_levels",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

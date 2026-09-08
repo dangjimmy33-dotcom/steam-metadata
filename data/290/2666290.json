@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788870927,
+  "_lastChecked": 1788876911,
   "_history": [
     {
       "buildId": "23068225",
@@ -26,12 +26,25 @@
           "download": 4520552736
         }
       }
+    },
+    {
+      "buildId": "25187477",
+      "branch": "developenv",
+      "timeUpdated": 1788872042,
+      "firstSeen": 1788876911,
+      "manifests": {
+        "2666291": {
+          "gid": "2382827228722579286",
+          "size": 4695080915,
+          "download": 4520716208
+        }
+      }
     }
   ],
-  "_change_number": 35659166,
+  "_change_number": 38695517,
   "_missing_token": false,
-  "_sha": "f3da2d36ec865f43bab909410dc86035a810c498",
-  "_size": 4540,
+  "_sha": "9aa510435cd0c5aec96e75afdc2acb3f8df77046",
+  "_size": 4541,
   "appid": "2666290",
   "common": {
     "aicontenttype": "1",
@@ -213,9 +226,9 @@
     "2666291": {
       "manifests": {
         "developenv": {
-          "download": "4520552736",
-          "gid": "549329480084158315",
-          "size": "4695034997"
+          "download": "4520716208",
+          "gid": "2382827228722579286",
+          "size": "4695080915"
         },
         "public": {
           "download": "4520552736",
@@ -226,10 +239,10 @@
     },
     "branches": {
       "developenv": {
-        "buildid": "23068225",
+        "buildid": "25187477",
         "description": "Latest patches, but expect bugs.",
-        "timebuildupdated": "1777831243",
-        "timeupdated": "1777831363"
+        "timebuildupdated": "1788872010",
+        "timeupdated": "1788872042"
       },
       "public": {
         "buildid": "23068225",

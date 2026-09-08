@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788872136,
-  "_history": [],
-  "_change_number": 38692011,
-  "_missing_token": true,
-  "_sha": "a4acc906715a83fc0de04b65e3cae01364b1721a",
-  "_size": 2974,
+  "_lastChecked": 1788878343,
+  "_history": [
+    {
+      "buildId": "25184939",
+      "branch": "public",
+      "timeUpdated": 1788863839,
+      "firstSeen": 1788878343,
+      "manifests": {
+        "3892391": {
+          "gid": "4082522449574527955",
+          "size": 591012776,
+          "download": 442679488
+        }
+      }
+    }
+  ],
+  "_change_number": 38695647,
+  "_missing_token": false,
+  "_sha": "40b4c2166c3918cb689c3c4e3a9f6be360d609ef",
+  "_size": 3931,
   "appid": "3892390",
   "common": {
     "associations": {
@@ -36,7 +50,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3892390",
     "genres": {
       "0": "23"
@@ -106,11 +119,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "19e2efacc62770e38d2ced3f2a1318543254c4af/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788872323",
     "store_asset_mtime": "1760706311",
     "store_tags": {
       "0": "12095",
@@ -134,5 +148,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Horse Magic",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "HorseMagicPC.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3892391": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "442679488",
+          "gid": "4082522449574527955",
+          "size": "591012776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25184939",
+        "timebuildupdated": "1788863806",
+        "timeupdated": "1788863839"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Abysskoi",
+    "publisher": "Hexapede Engine"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "\\Godot\\app_userdata\\Horse Magic",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

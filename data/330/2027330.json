@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788870236,
+  "_lastChecked": 1788876145,
   "_history": [
     {
       "buildId": "23619494",
@@ -52,12 +52,25 @@
           "download": 960096384
         }
       }
+    },
+    {
+      "buildId": "25187180",
+      "branch": "public",
+      "timeUpdated": 1788871105,
+      "firstSeen": 1788876145,
+      "manifests": {
+        "2027331": {
+          "gid": "8272531349167866531",
+          "size": 1255593697,
+          "download": 1003588848
+        }
+      }
     }
   ],
-  "_change_number": 38675813,
+  "_change_number": 38694975,
   "_missing_token": false,
-  "_sha": "0a77a0a0acb13a77f1db704610546068dfbf3372",
-  "_size": 6179,
+  "_sha": "246fe97ae96d9cc8d69d924b5be31d0df5503c3d",
+  "_size": 5558,
   "appid": "2027330",
   "common": {
     "associations": {
@@ -269,35 +282,19 @@
         "oslist": "windows"
       },
       "manifests": {
-        "beta": {
-          "download": "960096384",
-          "gid": "2716469838959526875",
-          "size": "1198606326"
-        },
         "gb27": {
           "download": "309499744",
           "gid": "7637362403878343097",
           "size": "837600624"
         },
         "public": {
-          "download": "906279952",
-          "gid": "3564700684430928565",
-          "size": "1137618902"
-        },
-        "snapshots": {
-          "download": "960096384",
-          "gid": "2716469838959526875",
-          "size": "1198606326"
+          "download": "1003588848",
+          "gid": "8272531349167866531",
+          "size": "1255593697"
         }
       }
     },
     "branches": {
-      "beta": {
-        "buildid": "23619494",
-        "description": "Beta branch – preview upcoming features before full release",
-        "timebuildupdated": "1780912164",
-        "timeupdated": "1780912868"
-      },
       "gb27": {
         "buildid": "25046800",
         "description": "GB27 Early Access",
@@ -305,15 +302,9 @@
         "timeupdated": "1788218893"
       },
       "public": {
-        "buildid": "22298035",
-        "timebuildupdated": "1773243485",
-        "timeupdated": "1773243709"
-      },
-      "snapshots": {
-        "buildid": "23619494",
-        "description": "Early access preview – unstable, updated frequently",
-        "timebuildupdated": "1780912164",
-        "timeupdated": "1780912883"
+        "buildid": "25187180",
+        "timebuildupdated": "1788871036",
+        "timeupdated": "1788871105"
       }
     },
     "privatebranches": "1"

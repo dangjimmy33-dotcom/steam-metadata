@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788873025,
+  "_lastChecked": 1788879376,
   "_history": [
     {
       "buildId": "25099289",
@@ -92,12 +92,35 @@
           "download": 42546672
         }
       }
+    },
+    {
+      "buildId": "25188907",
+      "branch": "public",
+      "timeUpdated": 1788877330,
+      "firstSeen": 1788879376,
+      "manifests": {
+        "4871261": {
+          "gid": "4512529030549299477",
+          "size": 116742344,
+          "download": 41362112
+        },
+        "4871262": {
+          "gid": "67785292106507228",
+          "size": 210771014,
+          "download": 73619680
+        },
+        "4871263": {
+          "gid": "5984286745554703394",
+          "size": 94750512,
+          "download": 42555232
+        }
+      }
     }
   ],
-  "_change_number": 38652193,
+  "_change_number": 38698794,
   "_missing_token": false,
-  "_sha": "2375aa010c71e2d7867096bc0904db5036d830e5",
-  "_size": 6438,
+  "_sha": "ee4ad867674d969077d7f8db63cbbeb1093c14fd",
+  "_size": 5917,
   "appid": "4871260",
   "common": {
     "associations": {
@@ -299,14 +322,9 @@
       },
       "manifests": {
         "public": {
-          "download": "41336832",
-          "gid": "8054352783798107517",
-          "size": "116728872"
-        },
-        "unstable": {
-          "download": "41334864",
-          "gid": "1147519860461231476",
-          "size": "116727864"
+          "download": "41362112",
+          "gid": "4512529030549299477",
+          "size": "116742344"
         }
       }
     },
@@ -316,14 +334,9 @@
       },
       "manifests": {
         "public": {
-          "download": "73605488",
-          "gid": "4111363731548594596",
-          "size": "210757542"
-        },
-        "unstable": {
-          "download": "73608176",
-          "gid": "5259232092411011467",
-          "size": "210756534"
+          "download": "73619680",
+          "gid": "67785292106507228",
+          "size": "210771014"
         }
       }
     },
@@ -333,29 +346,18 @@
       },
       "manifests": {
         "public": {
-          "download": "42546672",
-          "gid": "5332582949179883910",
-          "size": "94737040"
-        },
-        "unstable": {
-          "download": "42542992",
-          "gid": "5762849625607012705",
-          "size": "94736032"
+          "download": "42555232",
+          "gid": "5984286745554703394",
+          "size": "94750512"
         }
       }
     },
     "baselanguages": "english,french,german,spanish,turkish",
     "branches": {
       "public": {
-        "buildid": "25157499",
-        "timebuildupdated": "1788733016",
-        "timeupdated": "1788733558"
-      },
-      "unstable": {
-        "buildid": "25156438",
-        "description": "Newest patch while still being tested",
-        "timebuildupdated": "1788726479",
-        "timeupdated": "1788727335"
+        "buildid": "25188907",
+        "timebuildupdated": "1788876733",
+        "timeupdated": "1788877330"
       }
     }
   },

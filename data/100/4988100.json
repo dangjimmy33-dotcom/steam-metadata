@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788873124,
-  "_history": [],
-  "_change_number": 38287753,
-  "_missing_token": true,
-  "_sha": "d10905062871c43e6e0e5cd34d1c7fb52da06a31",
-  "_size": 3155,
+  "_lastChecked": 1788879495,
+  "_history": [
+    {
+      "buildId": "24642215",
+      "branch": "public",
+      "timeUpdated": 1786303946,
+      "firstSeen": 1788879495,
+      "manifests": {
+        "4988101": {
+          "gid": "1699852871604657370",
+          "size": 180391616,
+          "download": 112977568
+        },
+        "4988102": {
+          "gid": "8794429658322424314",
+          "size": 163507040,
+          "download": 106787072
+        }
+      }
+    }
+  ],
+  "_change_number": 38698222,
+  "_missing_token": false,
+  "_sha": "1aa0c9ad2e657cf118606e5b35138edbe61dedec",
+  "_size": 4528,
   "appid": "4988100",
   "common": {
     "associations": {
@@ -33,9 +52,9 @@
     },
     "clienticon": "7ffe885ff49c498d00b3c1f3f5009806fd9c95f4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4988100",
     "genres": {
       "0": "1",
@@ -108,10 +127,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1e4f3deae5f73cb8622091b5b174a859ac929515/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788876041",
     "store_asset_mtime": "1784698301",
     "store_tags": {
       "0": "19",
@@ -145,5 +165,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Carajito",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Carajito.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Carajito.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4988101": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "112977568",
+          "gid": "1699852871604657370",
+          "size": "180391616"
+        }
+      }
+    },
+    "4988102": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "106787072",
+          "gid": "8794429658322424314",
+          "size": "163507040"
+        }
+      }
+    },
+    "baselanguages": "english,latam,spanish",
+    "branches": {
+      "public": {
+        "buildid": "24642215",
+        "timebuildupdated": "1786303865",
+        "timeupdated": "1786303946"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Noodle A.M",
+    "publisher": "Noodle A.M"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Carajito",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "godot/app_userdata/Carajito",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

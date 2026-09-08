@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788873143,
+  "_lastChecked": 1788879516,
   "_history": [
     {
       "buildId": "24958628",
@@ -54,12 +54,48 @@
           "download": 327659360
         }
       }
+    },
+    {
+      "buildId": "25187828",
+      "branch": "previous-release",
+      "timeUpdated": 1788873238,
+      "firstSeen": 1788879516,
+      "manifests": {
+        "5013051": {
+          "gid": "3299758033974366503",
+          "size": 529801034,
+          "download": 317549984
+        },
+        "5013052": {
+          "gid": "126021696069084561",
+          "size": 553582143,
+          "download": 327659360
+        }
+      }
+    },
+    {
+      "buildId": "25187799",
+      "branch": "public",
+      "timeUpdated": 1788873140,
+      "firstSeen": 1788879516,
+      "manifests": {
+        "5013051": {
+          "gid": "5277960976683588530",
+          "size": 529797562,
+          "download": 317549488
+        },
+        "5013052": {
+          "gid": "126021696069084561",
+          "size": 553582143,
+          "download": 327659360
+        }
+      }
     }
   ],
-  "_change_number": 38696039,
+  "_change_number": 38696123,
   "_missing_token": false,
-  "_sha": "6229bfb2afb3df4ae066ec187a8fd8a118f694f6",
-  "_size": 6516,
+  "_sha": "46414237a83effce8102d3bd46d35141b381c1da",
+  "_size": 6491,
   "appid": "5013050",
   "common": {
     "aicontenttype": "1",
@@ -296,14 +332,14 @@
       },
       "manifests": {
         "previous-release": {
-          "download": "317549488",
-          "gid": "5277960976683588530",
-          "size": "529797562"
-        },
-        "public": {
           "download": "317549984",
           "gid": "3299758033974366503",
           "size": "529801034"
+        },
+        "public": {
+          "download": "317549488",
+          "gid": "5277960976683588530",
+          "size": "529797562"
         }
       }
     },
@@ -327,18 +363,17 @@
     },
     "branches": {
       "previous-release": {
-        "buildid": "25187784",
+        "buildid": "25187828",
         "description": "The previous release of Embermazee",
-        "timebuildupdated": "1788873085",
-        "timeupdated": "1788873085"
+        "timebuildupdated": "1788873238",
+        "timeupdated": "1788873238"
       },
       "public": {
-        "buildid": "25045765",
-        "timebuildupdated": "1788214268",
-        "timeupdated": "1788260568"
+        "buildid": "25187799",
+        "timebuildupdated": "1788873140",
+        "timeupdated": "1788873140"
       }
-    },
-    "privatebranches": "1"
+    }
   },
   "extended": {
     "developer": "Graeme Scott",

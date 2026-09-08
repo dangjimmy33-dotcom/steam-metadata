@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788871861,
-  "_history": [],
-  "_change_number": 38685749,
-  "_missing_token": true,
-  "_sha": "ea23eb8fa214be7e76167d0edb22c46950b5f62d",
-  "_size": 3208,
+  "_lastChecked": 1788878019,
+  "_history": [
+    {
+      "buildId": "25180493",
+      "branch": "public",
+      "timeUpdated": 1788847122,
+      "firstSeen": 1788878019,
+      "manifests": {
+        "3609281": {
+          "gid": "8902635344332985928",
+          "size": 204679257,
+          "download": 103220048
+        }
+      }
+    }
+  ],
+  "_change_number": 38695708,
+  "_missing_token": false,
+  "_sha": "696c91fde9580647972e319c9b9eec1287364f32",
+  "_size": 3988,
   "appid": "3609280",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +44,8 @@
     },
     "clienticon": "6eb3d6f48ddceceddfcb67c83e12708b431146d6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3609280",
     "genres": {
       "0": "23",
@@ -111,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b611b3889ed6ec62b0efdb2ed04d3b29e32e6d3c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788872414",
     "store_asset_mtime": "1787777902",
     "store_tags": {
       "0": "9",
@@ -150,5 +165,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dicewayfarer",
+    "launch": {
+      "0": {
+        "executable": "Dicewayfarer.exe"
+      }
+    }
+  },
+  "depots": {
+    "3609281": {
+      "manifests": {
+        "public": {
+          "download": "103220048",
+          "gid": "8902635344332985928",
+          "size": "204679257"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25180493",
+        "timebuildupdated": "1788845732",
+        "timeupdated": "1788847122"
+      }
+    }
+  },
+  "extended": {
+    "developer": "NightCracker",
+    "publisher": "NightCracker"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000",
+    "savefiles": {
+      "0": {
+        "path": "NightCracker/Dicewayfarer",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

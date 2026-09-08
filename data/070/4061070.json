@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788872300,
+  "_lastChecked": 1788878534,
   "_history": [
     {
       "buildId": "20572005",
@@ -13,12 +13,30 @@
           "download": 209940128
         }
       }
+    },
+    {
+      "buildId": "25187859",
+      "branch": "public",
+      "timeUpdated": 1788873803,
+      "firstSeen": 1788878534,
+      "manifests": {
+        "4061071": {
+          "gid": "7641185517336803256",
+          "size": 269792706,
+          "download": 104537152
+        },
+        "4061072": {
+          "gid": "2205400459243141734",
+          "size": 1263289925,
+          "download": 164679744
+        }
+      }
     }
   ],
-  "_change_number": 34993811,
+  "_change_number": 38696580,
   "_missing_token": false,
-  "_sha": "3c303dee15d5434245457879dbe919f906d14ce8",
-  "_size": 4061,
+  "_sha": "a12e2919d56f945afc0200c2e4540a4dd9a65ff2",
+  "_size": 4401,
   "appid": "4061070",
   "common": {
     "associations": {
@@ -124,7 +142,7 @@
     "name": "Pussy Fun",
     "osarch": "64",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,macos,linux",
     "primary_genre": "28",
     "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
@@ -173,6 +191,12 @@
         },
         "executable": "Pussy Fun.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Pussy Fun.app"
       }
     },
     "steamcontrollerconfigdetails": "",
@@ -187,18 +211,31 @@
       },
       "manifests": {
         "public": {
-          "download": "209940128",
-          "gid": "4482286921537635294",
-          "size": "373318994"
+          "download": "104537152",
+          "gid": "7641185517336803256",
+          "size": "269792706"
+        }
+      }
+    },
+    "4061072": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "164679744",
+          "gid": "2205400459243141734",
+          "size": "1263289925"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "20572005",
-        "timebuildupdated": "1761646812",
-        "timeupdated": "1761646940"
+        "buildid": "25187859",
+        "timebuildupdated": "1788873335",
+        "timeupdated": "1788873803"
       }
     }
   },

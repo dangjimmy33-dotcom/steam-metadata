@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788871548,
+  "_lastChecked": 1788877646,
   "_history": [
     {
       "buildId": "22352239",
@@ -26,12 +26,38 @@
           "download": 569366592
         }
       }
+    },
+    {
+      "buildId": "25188320",
+      "branch": "beta",
+      "timeUpdated": 1788874811,
+      "firstSeen": 1788877646,
+      "manifests": {
+        "3293481": {
+          "gid": "262182878224639159",
+          "size": 704046514,
+          "download": 569411888
+        }
+      }
+    },
+    {
+      "buildId": "25188320",
+      "branch": "public",
+      "timeUpdated": 1788875056,
+      "firstSeen": 1788877646,
+      "manifests": {
+        "3293481": {
+          "gid": "262182878224639159",
+          "size": 704046514,
+          "download": 569411888
+        }
+      }
     }
   ],
-  "_change_number": 37655940,
+  "_change_number": 38698851,
   "_missing_token": false,
-  "_sha": "36451af276889d4e5d63c322dbca869eb4006e81",
-  "_size": 4442,
+  "_sha": "09798eed2d972ca93b653a98ec757b79229b84fd",
+  "_size": 4393,
   "appid": "3293480",
   "common": {
     "associations": {
@@ -193,29 +219,29 @@
     "3293481": {
       "manifests": {
         "beta": {
-          "download": "569365616",
-          "gid": "5888501349778640568",
-          "size": "703990071"
+          "download": "569411888",
+          "gid": "262182878224639159",
+          "size": "704046514"
         },
         "public": {
-          "download": "569366592",
-          "gid": "6254662114192530787",
-          "size": "703991666"
+          "download": "569411888",
+          "gid": "262182878224639159",
+          "size": "704046514"
         }
       }
     },
     "baselanguages": "japanese",
     "branches": {
       "beta": {
-        "buildid": "22352239",
+        "buildid": "25188320",
         "description": "本アップロード前",
-        "timebuildupdated": "1773595372",
-        "timeupdated": "1773595396"
+        "timebuildupdated": "1788874796",
+        "timeupdated": "1788874811"
       },
       "public": {
-        "buildid": "24480007",
-        "timebuildupdated": "1785443687",
-        "timeupdated": "1785443763"
+        "buildid": "25188320",
+        "timebuildupdated": "1788874796",
+        "timeupdated": "1788875056"
       }
     }
   },
@@ -224,10 +250,8 @@
     "publisher": "CrossLodge"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "100",
-    "quota": "1000000",
+    "quota": "1000000000",
     "savefiles": {
       "0": {
         "path": "save",

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788871876,
-  "_history": [],
-  "_change_number": 38693701,
-  "_missing_token": true,
-  "_sha": "e24cb86fe347eba2eb89de5c6ed593e54a28a57d",
-  "_size": 5231,
+  "_lastChecked": 1788878037,
+  "_history": [
+    {
+      "buildId": "25184250",
+      "branch": "public",
+      "timeUpdated": 1788861652,
+      "firstSeen": 1788878037,
+      "manifests": {
+        "3624141": {
+          "gid": "4417270950125885473",
+          "size": 730659778,
+          "download": 555984192
+        }
+      }
+    }
+  ],
+  "_change_number": 38698339,
+  "_missing_token": false,
+  "_sha": "5c7903152b1343e88bd42410f99f4a630028d847",
+  "_size": 8987,
   "appid": "3624140",
   "common": {
     "associations": {
@@ -44,9 +58,9 @@
     "clienticon": "6591df65f5e7ba930ae7f53fab915b9ba8095065",
     "clienttga": "ac6cca219121e03724a34b227ec4779069b4518c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3624140",
     "genres": {
       "0": "1",
@@ -131,14 +145,102 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "71",
+    "review_score": "6",
     "small_capsule": {
       "english": "0d864e6de2382c4f55ebc023890617a49effccf2/capsule_231x87.jpg",
       "japanese": "bba24ae9bc75c5db33532c4b0573dfeb22359464/capsule_231x87_japanese.jpg",
       "koreana": "cf09ebaa75753e62dab552e1d98f0e45425cb808/capsule_231x87_koreana.jpg",
       "schinese": "fbb802da7197e71cdccbc7d983a283812946d05c/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1788463502",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        }
+      },
+      "test_timestamp": "1787684957",
+      "tested_build_id": "24861212",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "5": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1788872358",
+    "store_asset_mtime": "1788872856",
     "store_tags": {
       "0": "4172",
       "1": "42804",
@@ -229,5 +331,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Wanderburg Game",
+    "launch": {
+      "0": {
+        "executable": "Wanderburg.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-force-vulkan",
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Optimized for Steam Deck (Vulkan)",
+        "description_loc": {
+          "english": "Optimized for Steam Deck (Vulkan)"
+        },
+        "executable": "Wanderburg.exe",
+        "type": "option1"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3624141": {
+      "manifests": {
+        "public": {
+          "download": "555984192",
+          "gid": "4417270950125885473",
+          "size": "730659778"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25184250",
+        "timebuildupdated": "1788861469",
+        "timeupdated": "1788861652"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Randwerk",
+    "dlcavailableonstore": "1",
+    "homepage": "https://wanderburg.com/",
+    "listofdlc": "5026240",
+    "publisher": "Sidekick Publishing"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Randwerk/Wanderburg",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

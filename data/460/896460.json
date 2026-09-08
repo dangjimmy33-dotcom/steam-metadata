@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788868976,
+  "_lastChecked": 1788874632,
   "_history": [
     {
       "buildId": "10874151",
@@ -23,12 +23,35 @@
           "download": 467519344
         }
       }
+    },
+    {
+      "buildId": "25157507",
+      "branch": "public",
+      "timeUpdated": 1788873454,
+      "firstSeen": 1788874632,
+      "manifests": {
+        "896461": {
+          "gid": "6950858633540571348",
+          "size": 1221046467,
+          "download": 477517808
+        },
+        "896462": {
+          "gid": "9030048296721472622",
+          "size": 1216141156,
+          "download": 475711520
+        },
+        "896463": {
+          "gid": "8245558092108363762",
+          "size": 1221683684,
+          "download": 473949808
+        }
+      }
     }
   ],
-  "_change_number": 38678276,
+  "_change_number": 38696395,
   "_missing_token": false,
-  "_sha": "de954b611476d303df8f1fb70374f8bf124f65aa",
-  "_size": 8215,
+  "_sha": "e7903acfc4d06ac3a16453b864ea24936b200849",
+  "_size": 8027,
   "appid": "896460",
   "common": {
     "associations": {
@@ -287,14 +310,6 @@
         },
         "executable": "Lucah Born of a Dream.x86_64",
         "type": "default"
-      },
-      "3": {
-        "arguments": "-force-glcore42 -force-clamped",
-        "config": {
-          "oslist": "linux"
-        },
-        "executable": "Lucah Born of a Dream.x86",
-        "type": "default"
       }
     },
     "steamconfigurator3rdpartynative": "65532",
@@ -308,9 +323,9 @@
       },
       "manifests": {
         "public": {
-          "download": "459188416",
-          "gid": "2965654204421950970",
-          "size": "1231703776"
+          "download": "477517808",
+          "gid": "6950858633540571348",
+          "size": "1221046467"
         }
       }
     },
@@ -320,9 +335,9 @@
       },
       "manifests": {
         "public": {
-          "download": "458636864",
-          "gid": "9070922236234405222",
-          "size": "1229717456"
+          "download": "475711520",
+          "gid": "9030048296721472622",
+          "size": "1216141156"
         }
       }
     },
@@ -332,17 +347,17 @@
       },
       "manifests": {
         "public": {
-          "download": "467519344",
-          "gid": "6817964588724945364",
-          "size": "1255680628"
+          "download": "473949808",
+          "gid": "8245558092108363762",
+          "size": "1221683684"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "10874151",
-        "timebuildupdated": "1680008984",
-        "timeupdated": "1680009034"
+        "buildid": "25157507",
+        "timebuildupdated": "1788733074",
+        "timeupdated": "1788873454"
       }
     },
     "privatebranches": "1"
@@ -361,7 +376,7 @@
         "pathtransforms": {
           "0": {
             "find": "melessthanthree/Lucah_ Born of a Dream",
-            "replace": "unity.melessthanthree.Lucah: Born of a Dream"
+            "replace": "unity.melessthanthree.lucahbornofadream"
           }
         },
         "root": "WinAppDataLocalLow",

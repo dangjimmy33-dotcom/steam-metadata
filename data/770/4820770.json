@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1788872979,
-  "_history": [],
-  "_change_number": 38680387,
-  "_missing_token": true,
-  "_sha": "33b89cf26ac9a749261599d0219157f63fb8632d",
-  "_size": 2859,
+  "_lastChecked": 1788879323,
+  "_history": [
+    {
+      "buildId": "25176797",
+      "branch": "aw-network",
+      "timeUpdated": 1788825054,
+      "firstSeen": 1788879323,
+      "manifests": {
+        "4820771": {
+          "gid": "8404278498078013313",
+          "size": 113967256,
+          "download": 40388144
+        },
+        "4820772": {
+          "gid": "2962172488726584349",
+          "size": 85889687,
+          "download": 33946096
+        }
+      }
+    },
+    {
+      "buildId": "25028747",
+      "branch": "public",
+      "timeUpdated": 1788144429,
+      "firstSeen": 1788879323,
+      "manifests": {
+        "4820771": {
+          "gid": "2303240356216322051",
+          "size": 112909608,
+          "download": 41044528
+        },
+        "4820772": {
+          "gid": "8003428460623107898",
+          "size": 79342936,
+          "download": 32842960
+        }
+      }
+    }
+  ],
+  "_change_number": 38698366,
+  "_missing_token": false,
+  "_sha": "d97e4f63259d3b877553a66bb1c80a4959d722b3",
+  "_size": 4322,
   "appid": "4820770",
   "common": {
     "associations": {
@@ -28,7 +65,6 @@
     "clienticon": "f4a5358dfcdb662682be12939d780fe8ce6d8494",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4820770",
     "genres": {
       "0": "28",
@@ -100,7 +136,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cb35afd1a969752ac4dac71e5ff0210967b6f5f8/capsule_231x87.jpg"
     },
@@ -125,5 +161,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Archie's War",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ArchiesWar.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "ArchiesWar.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4820771": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "aw-network": {
+          "download": "40388144",
+          "gid": "8404278498078013313",
+          "size": "113967256"
+        },
+        "public": {
+          "download": "41044528",
+          "gid": "2303240356216322051",
+          "size": "112909608"
+        }
+      }
+    },
+    "4820772": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "aw-network": {
+          "download": "33946096",
+          "gid": "2962172488726584349",
+          "size": "85889687"
+        },
+        "public": {
+          "download": "32842960",
+          "gid": "8003428460623107898",
+          "size": "79342936"
+        }
+      }
+    },
+    "branches": {
+      "aw-network": {
+        "buildid": "25176797",
+        "description": "Archie's War with networked play",
+        "timebuildupdated": "1788825023",
+        "timeupdated": "1788825054"
+      },
+      "public": {
+        "buildid": "25028747",
+        "timebuildupdated": "1788142901",
+        "timeupdated": "1788144429"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Bull Elephant Games",
+    "gamemanualurl": "https://store.steampowered.com/manual/4820770/",
+    "homepage": "https://www.worthingtonpublishing.com/collection/archies-war-the-battle-for-guadalcanal",
+    "publisher": "Worthington Publishing"
+  }
 }
