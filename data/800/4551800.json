@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788961799,
-  "_history": [],
-  "_change_number": 38725804,
-  "_missing_token": true,
-  "_sha": "19ed37e588e3418c37c53213389f6240d038c21a",
-  "_size": 2775,
+  "_lastChecked": 1788967832,
+  "_history": [
+    {
+      "buildId": "25207520",
+      "branch": "public",
+      "timeUpdated": 1788954093,
+      "firstSeen": 1788967832,
+      "manifests": {
+        "4551801": {
+          "gid": "9120024187368358073",
+          "size": 124476634,
+          "download": 51334304
+        }
+      }
+    }
+  ],
+  "_change_number": 38729941,
+  "_missing_token": false,
+  "_sha": "d21983e14ef07e2783b538ffaac0a43216d9f5c1",
+  "_size": 3459,
   "appid": "4551800",
   "common": {
     "associations": {
@@ -24,8 +38,8 @@
     },
     "clienticon": "da7bab4ab7610afa1eaa1acbc49bc758bca9009a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4551800",
     "genres": {
       "0": "23"
@@ -95,10 +109,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b38ce0e13d965ab5c78e27c179b547e4647c69fb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1776201901",
     "store_tags": {
       "0": "1730",
@@ -123,5 +138,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "A Bit Dicey",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "A Bit Dicey.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4551801": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "51334304",
+          "gid": "9120024187368358073",
+          "size": "124476634"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25207520",
+        "timebuildupdated": "1788954028",
+        "timeupdated": "1788954093"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Andy Zawadzki",
+    "publisher": "Andy Zawadzki"
+  }
 }

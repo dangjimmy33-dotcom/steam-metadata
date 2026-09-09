@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788962277,
-  "_history": [],
-  "_change_number": 38716685,
-  "_missing_token": true,
-  "_sha": "220415fc259236a29bec487e22926bdfce193a6c",
-  "_size": 3398,
+  "_lastChecked": 1788968289,
+  "_history": [
+    {
+      "buildId": "25211806",
+      "branch": "public",
+      "timeUpdated": 1788967210,
+      "firstSeen": 1788968289,
+      "manifests": {
+        "5067671": {
+          "gid": "749009677218255597",
+          "size": 136629726,
+          "download": 48175008
+        }
+      }
+    }
+  ],
+  "_change_number": 38732185,
+  "_missing_token": false,
+  "_sha": "215442596780f3369778314d019decdd234bd176",
+  "_size": 3980,
   "appid": "5067670",
   "common": {
     "aicontenttype": "1",
@@ -25,8 +39,8 @@
     },
     "clienticon": "95326b96148c556050529aa3055be67fd1096274",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5067670",
     "genres": {
       "0": "1",
@@ -98,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9747cbd768e3acaff75a300197da690f72457945/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788967522",
     "store_asset_mtime": "1786034036",
     "store_tags": {
       "0": "19",
@@ -161,5 +176,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Swarmvore",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Swarmvore.exe"
+      }
+    }
+  },
+  "depots": {
+    "5067671": {
+      "manifests": {
+        "public": {
+          "download": "48175008",
+          "gid": "749009677218255597",
+          "size": "136629726"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25211806",
+        "timebuildupdated": "1788967189",
+        "timeupdated": "1788967210"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Panda Games",
+    "publisher": "Panda Games"
+  }
 }

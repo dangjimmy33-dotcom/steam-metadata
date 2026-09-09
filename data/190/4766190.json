@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788962002,
-  "_history": [],
-  "_change_number": 38360767,
-  "_missing_token": true,
-  "_sha": "658804e7acf0123e92e154c46c6d283830a8e15d",
-  "_size": 3121,
+  "_lastChecked": 1788968029,
+  "_history": [
+    {
+      "buildId": "24918936",
+      "branch": "public",
+      "timeUpdated": 1787622849,
+      "firstSeen": 1788968029,
+      "manifests": {
+        "4766191": {
+          "gid": "897129405576080912",
+          "size": 1054148804,
+          "download": 380134752
+        }
+      }
+    }
+  ],
+  "_change_number": 38730589,
+  "_missing_token": false,
+  "_sha": "63c438ec9e05d79d1e7fedd9ab3054824923a6aa",
+  "_size": 3904,
   "appid": "4766190",
   "common": {
     "aicontenttype": "1",
@@ -31,6 +45,7 @@
     },
     "clienticon": "a49b32fb4b8e795c5170b4ef808a67c129736837",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -38,7 +53,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4766190",
     "genres": {
       "0": "4",
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "11fab1a046218a985704905e7f64cfcc055b1622/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788964407",
     "store_asset_mtime": "1783300336",
     "store_tags": {
       "0": "615955",
@@ -144,5 +159,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cannabis Clicker",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch Cannabis Clicker",
+        "description_loc": {
+          "english": "Launch Cannabis Clicker"
+        },
+        "executable": "CannabisClicker.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4766191": {
+      "manifests": {
+        "public": {
+          "download": "380134752",
+          "gid": "897129405576080912",
+          "size": "1054148804"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24918936",
+        "timebuildupdated": "1787622743",
+        "timeupdated": "1787622849"
+      }
+    }
+  },
+  "extended": {
+    "developer": "LDG",
+    "publisher": "LDG"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "3000000000"
+  }
 }

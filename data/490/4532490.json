@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788961777,
+  "_lastChecked": 1788967811,
   "_history": [
     {
       "buildId": "24084228",
@@ -36,12 +36,30 @@
           "download": 219737152
         }
       }
+    },
+    {
+      "buildId": "25211215",
+      "branch": "public",
+      "timeUpdated": 1788965636,
+      "firstSeen": 1788967811,
+      "manifests": {
+        "4532491": {
+          "gid": "3771816817907082230",
+          "size": 1209914380,
+          "download": 217219056
+        },
+        "4532493": {
+          "gid": "2214915334088253171",
+          "size": 1228128564,
+          "download": 225140112
+        }
+      }
     }
   ],
-  "_change_number": 38644732,
+  "_change_number": 38732149,
   "_missing_token": false,
-  "_sha": "eb8d207f4ca6b40668eb6b3f184bf4692a0fb353",
-  "_size": 6514,
+  "_sha": "4a35a649ef848cea84d27a819fc8b3baba47b9df",
+  "_size": 6606,
   "appid": "4532490",
   "common": {
     "aicontenttype": "1",
@@ -78,7 +96,8 @@
     "languages": {
       "english": "1",
       "japanese": "1",
-      "koreana": "1"
+      "koreana": "1",
+      "schinese": "1"
     },
     "library_assets": {
       "library_capsule": "en,ja,ko",
@@ -199,6 +218,10 @@
       "koreana": {
         "subtitles": "true",
         "supported": "true"
+      },
+      "schinese": {
+        "subtitles": "true",
+        "supported": "true"
       }
     },
     "type": "Game"
@@ -232,9 +255,9 @@
           "size": "1108759466"
         },
         "public": {
-          "download": "211828880",
-          "gid": "868044499338509820",
-          "size": "1141906496"
+          "download": "217219056",
+          "gid": "3771816817907082230",
+          "size": "1209914380"
         }
       }
     },
@@ -249,9 +272,9 @@
           "size": "1126744534"
         },
         "public": {
-          "download": "219737152",
-          "gid": "4641022853398207581",
-          "size": "1160114532"
+          "download": "225140112",
+          "gid": "2214915334088253171",
+          "size": "1228128564"
         }
       }
     },
@@ -265,9 +288,9 @@
         "timeupdated": "1783397527"
       },
       "public": {
-        "buildid": "24854576",
-        "timebuildupdated": "1787287530",
-        "timeupdated": "1787288568"
+        "buildid": "25211215",
+        "timebuildupdated": "1788965547",
+        "timeupdated": "1788965636"
       }
     }
   },

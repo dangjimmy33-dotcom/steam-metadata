@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788961905,
-  "_history": [],
-  "_change_number": 38725045,
-  "_missing_token": true,
-  "_sha": "662d6b84018e9a651cce2e79aede18a8303ee97f",
-  "_size": 9168,
+  "_lastChecked": 1788967933,
+  "_history": [
+    {
+      "buildId": "25160848",
+      "branch": "public",
+      "timeUpdated": 1788766687,
+      "firstSeen": 1788967933,
+      "manifests": {
+        "4659621": {
+          "gid": "4177228129538833157",
+          "size": 944874534,
+          "download": 932140944
+        }
+      }
+    }
+  ],
+  "_change_number": 38731885,
+  "_missing_token": false,
+  "_sha": "276155884e89f3189f8aa12ea643ee302cade6eb",
+  "_size": 12508,
   "appid": "4659620",
   "common": {
     "associations": {
@@ -36,9 +50,9 @@
     },
     "clienticon": "93ff4171fcda72193b919f4eefa0fb510a8a6a98",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4659620",
     "genres": {
       "0": "1",
@@ -177,7 +191,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "7b2f7f9e439f377ebbe8126d0aa156dbb2c315d1/capsule_231x87.jpg",
       "japanese": "a4c3076ebe595ee0d6f9a703d442a5ca34c11ac2/capsule_231x87_japanese.jpg",
@@ -185,7 +201,77 @@
       "schinese": "6762e982cc7879db5d685d71b295d202e1691971/capsule_231x87_schinese.jpg",
       "tchinese": "8b7b29b292c3fdd00fb58067b9d3d9ad2e4869f5/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1782374117",
+    "steam_deck_compatibility": {
+      "category": "3",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "1",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1788287158",
+      "tested_build_id": "24943306",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      }
+    },
+    "steam_release_date": "1788964891",
+    "store_asset_mtime": "1788964428",
     "store_tags": {
       "0": "4885",
       "1": "4255",
@@ -199,13 +285,13 @@
       "17": "12686",
       "18": "7948",
       "19": "1663",
-      "2": "19",
-      "3": "7208",
+      "2": "7208",
+      "3": "19",
       "4": "180368",
       "5": "1774",
-      "6": "492",
-      "7": "4026",
-      "8": "4182",
+      "6": "4026",
+      "7": "4182",
+      "8": "492",
       "9": "3871"
     },
     "supported_languages": {
@@ -260,5 +346,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "th06nc",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64"
+        },
+        "executable": "th06nc.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4659621": {
+      "manifests": {
+        "public": {
+          "download": "932140944",
+          "gid": "4177228129538833157",
+          "size": "944874534"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25160848",
+        "timebuildupdated": "1788755367",
+        "timeupdated": "1788766687"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "上海アリス幻樂団",
+    "publisher": "Alliance Arts"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "",
+        "pattern": "score.dat",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "replay",
+        "pattern": "*.rpy",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "",
+        "pattern": "th06.cfg",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788961696,
-  "_history": [],
-  "_change_number": 38717622,
-  "_missing_token": true,
-  "_sha": "7ee36d48465e9a1a5ee539efa7b4146e66d006f3",
-  "_size": 3130,
+  "_lastChecked": 1788967731,
+  "_history": [
+    {
+      "buildId": "25201932",
+      "branch": "public",
+      "timeUpdated": 1788933005,
+      "firstSeen": 1788967731,
+      "manifests": {
+        "4454431": {
+          "gid": "4682852552098232550",
+          "size": 344631096,
+          "download": 267710912
+        },
+        "4454432": {
+          "gid": "5982438026367607198",
+          "size": 428852037,
+          "download": 291537552
+        },
+        "4454433": {
+          "gid": "3428225764557624959",
+          "size": 311783480,
+          "download": 259722656
+        }
+      }
+    }
+  ],
+  "_change_number": 38731535,
+  "_missing_token": false,
+  "_sha": "fa19f7eb2aebe939d26ecec0a518d5a7ef53bcd1",
+  "_size": 4501,
   "appid": "4454430",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +55,8 @@
     },
     "clienticon": "e6d1a83cae7e570925f7c30b9e097554e9add563",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4454430",
     "genres": {
       "0": "1"
@@ -102,10 +126,11 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8a2a150610426bcce301c330a4c2a6cce9d619d3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788966251",
     "store_asset_mtime": "1788822845",
     "store_tags": {
       "0": "19",
@@ -138,5 +163,79 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Planet Killer",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "PlanetKiller.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "PlanetKiller.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "PlanetKiller.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4454431": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "267710912",
+          "gid": "4682852552098232550",
+          "size": "344631096"
+        }
+      }
+    },
+    "4454432": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "291537552",
+          "gid": "5982438026367607198",
+          "size": "428852037"
+        }
+      }
+    },
+    "4454433": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "259722656",
+          "gid": "3428225764557624959",
+          "size": "311783480"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25201932",
+        "timebuildupdated": "1788933005",
+        "timeupdated": "1788933005"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Talisman One Studio",
+    "homepage": "https://talismanonestudio.vercel.app/",
+    "publisher": "Talisman One Studio"
+  }
 }

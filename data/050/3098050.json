@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788960220,
-  "_history": [],
-  "_change_number": 38727725,
-  "_missing_token": true,
-  "_sha": "fa024488b97e88c815b4a29ce83d96bb19d6b99b",
-  "_size": 4345,
+  "_lastChecked": 1788966331,
+  "_history": [
+    {
+      "buildId": "25210691",
+      "branch": "public",
+      "timeUpdated": 1788963920,
+      "firstSeen": 1788966331,
+      "manifests": {
+        "3098051": {
+          "gid": "2708529542728938172",
+          "size": 8182376312,
+          "download": 3748223136
+        }
+      }
+    }
+  ],
+  "_change_number": 38731545,
+  "_missing_token": false,
+  "_sha": "b47af9d225487c59e1b390a1de098af9fbe91bd5",
+  "_size": 4920,
   "appid": "3098050",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +44,7 @@
     "clienticon": "6e91dc909bbd843633818b51450d84bf3e4eb77b",
     "clienttga": "4a22aff2d3135753de66169dea78d513d5d28f0b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -37,7 +52,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3098050",
     "genres": {
       "0": "23",
@@ -109,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6e30f6c906374167880ec0c7d306a4a213b2fb5c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788966266",
     "store_asset_mtime": "1788819770",
     "store_tags": {
       "0": "1721",
@@ -209,5 +224,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Backseat",
+    "launch": {
+      "0": {
+        "executable": "Backseat.exe"
+      }
+    }
+  },
+  "depots": {
+    "3098051": {
+      "manifests": {
+        "public": {
+          "download": "3748223136",
+          "gid": "2708529542728938172",
+          "size": "8182376312"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25210691",
+        "timebuildupdated": "1788963872",
+        "timeupdated": "1788963920"
+      }
+    }
+  },
+  "extended": {
+    "developer": "HOGO Games",
+    "homepage": "https://www.hogogames.com/",
+    "publisher": "HOGO Games"
+  }
 }

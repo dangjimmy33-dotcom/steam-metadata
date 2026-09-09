@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788961688,
-  "_history": [],
-  "_change_number": 38728144,
-  "_missing_token": true,
-  "_sha": "1ce6355ce0c50669d96bc6a8775507a786624b90",
-  "_size": 2778,
+  "_lastChecked": 1788967723,
+  "_history": [
+    {
+      "buildId": "25204038",
+      "branch": "public",
+      "timeUpdated": 1788959459,
+      "firstSeen": 1788967723,
+      "manifests": {
+        "4446381": {
+          "gid": "7105342597785711157",
+          "size": 383629507,
+          "download": 275603920
+        }
+      }
+    }
+  ],
+  "_change_number": 38729904,
+  "_missing_token": false,
+  "_sha": "f356173b4b4a05224e99dc442a71abbff31bd48c",
+  "_size": 3751,
   "appid": "4446380",
   "common": {
     "aicontenttype": "1",
@@ -27,7 +41,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4446380",
     "genres": {
       "0": "4",
@@ -98,7 +111,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "55b9066dea3f6c650c21130112982add00d65046/capsule_231x87.jpg"
     },
@@ -120,5 +133,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ColorShift",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ColorShift.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4446381": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "275603920",
+          "gid": "7105342597785711157",
+          "size": "383629507"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "25204038",
+        "timebuildupdated": "1788941796",
+        "timeupdated": "1788959459"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Boötes Dreams",
+    "publisher": "Boötes Dreams"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788962182,
-  "_history": [],
-  "_change_number": 37859212,
-  "_missing_token": true,
-  "_sha": "b9758425aebd502d7b3197602d1f2e6b4884edf2",
-  "_size": 5309,
+  "_lastChecked": 1788968199,
+  "_history": [
+    {
+      "buildId": "24433114",
+      "branch": "public",
+      "timeUpdated": 1785246378,
+      "firstSeen": 1788968199,
+      "manifests": {
+        "4956721": {
+          "gid": "952415233937774773",
+          "size": 1341066477,
+          "download": 1036417808
+        }
+      }
+    }
+  ],
+  "_change_number": 38731390,
+  "_missing_token": false,
+  "_sha": "349802dd069912b45b60fb0881be34db9d8db971",
+  "_size": 6180,
   "appid": "4956720",
   "common": {
     "aicontenttype": "1",
@@ -37,7 +51,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4956720",
     "genres": {
       "0": "4",
@@ -108,11 +121,12 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "bc0ed4b0ac87f08bc2f41cb681bba24abc250d0b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788966015",
     "store_asset_mtime": "1784395080",
     "store_tags": {
       "0": "12095",
@@ -264,5 +278,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Horny Femboy Vampires",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "HornyFemboyVampires.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "HornyFemboyVampires.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "HornyFemboyVampires.sh"
+      }
+    }
+  },
+  "depots": {
+    "4956721": {
+      "manifests": {
+        "public": {
+          "download": "1036417808",
+          "gid": "952415233937774773",
+          "size": "1341066477"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24433114",
+        "timebuildupdated": "1785246375",
+        "timeupdated": "1785246378"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "developer": "trap4fem",
+    "dlcavailableonstore": "1",
+    "listofdlc": "4972840,4972850",
+    "publisher": "trap4fem"
+  }
 }

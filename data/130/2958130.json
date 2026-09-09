@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788960059,
+  "_lastChecked": 1788966180,
   "_history": [
     {
       "buildId": "24739776",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38728078,
+  "_change_number": 38730480,
   "_missing_token": false,
-  "_sha": "327183ee01778ce8b2646735e54faecf72f43ff9",
-  "_size": 10855,
+  "_sha": "600ba16ec98be3e526af22e742c572b545db179e",
+  "_size": 11169,
   "appid": "2958130",
   "common": {
     "aicontenttype": "1",
@@ -361,6 +361,19 @@
         "type": "option2"
       },
       "2": {
+        "executable": "JWE3.exe",
+        "type": "default"
+      },
+      "3": {
+        "arguments": "PROTON_NO_NTSYNC=1 PROTON_ENABLE_WAYLAND=1 %command%",
+        "config": {
+          "betakey": "internal_06,",
+          "oslist": "linux"
+        },
+        "description": "Steam Deck",
+        "description_loc": {
+          "english": "Steam Deck"
+        },
         "executable": "JWE3.exe",
         "type": "default"
       }

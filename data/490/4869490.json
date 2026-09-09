@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788962098,
-  "_history": [],
-  "_change_number": 37444893,
-  "_missing_token": true,
-  "_sha": "bfa3317417c5d107d8ab740820c9f477e3746ebf",
-  "_size": 3333,
+  "_lastChecked": 1788968121,
+  "_history": [
+    {
+      "buildId": "24333873",
+      "branch": "public",
+      "timeUpdated": 1784723007,
+      "firstSeen": 1788968121,
+      "manifests": {
+        "4869491": {
+          "gid": "3189134027678566263",
+          "size": 155622760,
+          "download": 148918848
+        }
+      }
+    }
+  ],
+  "_change_number": 38731423,
+  "_missing_token": false,
+  "_sha": "63d37fc41794587beae2cd9635f5dfd51c25162e",
+  "_size": 3980,
   "appid": "4869490",
   "common": {
     "aicontenttype": "1",
@@ -28,8 +42,8 @@
     },
     "clienticon": "4202ed07a8bbee950c4f3a73b31aa36b32133df3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4869490",
     "genres": {
       "0": "4",
@@ -108,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "57ee5f0d30c545e2cb70a215ca8fab0154ec5f3c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788966042",
     "store_asset_mtime": "1784035962",
     "store_tags": {
       "0": "597",
@@ -150,5 +165,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Stall Quest",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "app.exe"
+      }
+    }
+  },
+  "depots": {
+    "4869491": {
+      "manifests": {
+        "public": {
+          "download": "148918848",
+          "gid": "3189134027678566263",
+          "size": "155622760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24333873",
+        "timebuildupdated": "1784723005",
+        "timeupdated": "1784723007"
+      }
+    }
+  },
+  "extended": {
+    "developer": "こぐわらのAIゲーム開発部",
+    "isfreeapp": "1",
+    "publisher": "こぐわらのAIゲーム開発部"
+  }
 }

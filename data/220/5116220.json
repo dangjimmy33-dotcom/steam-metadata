@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788962313,
-  "_history": [],
-  "_change_number": 38366030,
-  "_missing_token": true,
-  "_sha": "a9bc126894212f88c8d8bfa8a512fab9251ee4a8",
-  "_size": 3231,
+  "_lastChecked": 1788968323,
+  "_history": [
+    {
+      "buildId": "24765857",
+      "branch": "public",
+      "timeUpdated": 1786912030,
+      "firstSeen": 1788968323,
+      "manifests": {
+        "5116221": {
+          "gid": "1410193246624073338",
+          "size": 144584768,
+          "download": 59632944
+        }
+      }
+    }
+  ],
+  "_change_number": 38729617,
+  "_missing_token": false,
+  "_sha": "259426321daba175aa63be6b280a53e97e192acf",
+  "_size": 4229,
   "appid": "5116220",
   "common": {
     "aicontenttype": "1",
@@ -36,8 +50,8 @@
     },
     "clienticon": "9ea6344d9f54acf2b0486aa168d6082e0c153b03",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5116220",
     "genres": {
       "0": "1",
@@ -110,7 +124,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f1ee49f049fe020e28eef60e71798dafe764050d/capsule_231x87.jpg"
     },
@@ -145,5 +159,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Rior's Arena",
+    "launch": {
+      "0": {
+        "executable": "riors_arena.exe"
+      }
+    }
+  },
+  "depots": {
+    "5116221": {
+      "manifests": {
+        "public": {
+          "download": "59632944",
+          "gid": "1410193246624073338",
+          "size": "144584768"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24765857",
+        "timebuildupdated": "1786911888",
+        "timeupdated": "1786912030"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Lanier Labs LLC",
+    "dlcavailableonstore": "1",
+    "isfreeapp": "1",
+    "listofdlc": "5121480",
+    "publisher": "Lanier Labs LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Riors Arena",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Riors Arena",
+        "pattern": "loadout.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

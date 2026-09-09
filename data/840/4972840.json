@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788962199,
-  "_history": [],
-  "_change_number": 37399137,
-  "_missing_token": true,
-  "_sha": "45edb449b5ac800a7d3c999c6739dc3edef4d714",
-  "_size": 3719,
+  "_lastChecked": 1788968215,
+  "_history": [
+    {
+      "buildId": "24221474",
+      "branch": "public",
+      "timeUpdated": 1784123769,
+      "firstSeen": 1788968215,
+      "manifests": {
+        "4972840": {
+          "gid": "4422338724483383030",
+          "size": 937,
+          "download": 640
+        }
+      }
+    }
+  ],
+  "_change_number": 38731398,
+  "_missing_token": false,
+  "_sha": "fe1f2055299e581b768c9ffc34b158308d6ee10a",
+  "_size": 4205,
   "appid": "4972840",
   "common": {
     "aicontenttype": "1",
@@ -33,7 +47,6 @@
       "2": "4",
       "3": "5"
     },
-    "exfgls": "9",
     "gameid": "4972840",
     "genres": {
       "0": "4",
@@ -48,11 +61,12 @@
     "oslist": "windows,macos,linux",
     "parent": "4956720",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "e8e2ac01ee9814595a981d8e403bb963609039e4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788966020",
     "store_asset_mtime": "1784117792",
     "store_screenshot": "258602451e13185833020ec76028718a18491471/ss_258602451e13185833020ec76028718a18491471.jpg",
     "store_tags": {
@@ -205,5 +219,30 @@
     },
     "type": "DLC"
   },
-  "public_only": "1"
+  "depots": {
+    "4972840": {
+      "dlcappid": "4972840",
+      "manifests": {
+        "public": {
+          "download": "640",
+          "gid": "4422338724483383030",
+          "size": "937"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24221474",
+        "timebuildupdated": "1784123733",
+        "timeupdated": "1784123769"
+      }
+    }
+  },
+  "extended": {
+    "developer": "trap4fem",
+    "dlcavailableonstore": "1",
+    "dlcforappid": "4956720",
+    "mustownapptopurchase": "4956720",
+    "publisher": "trap4fem"
+  }
 }

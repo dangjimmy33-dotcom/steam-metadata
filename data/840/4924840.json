@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788962151,
-  "_history": [],
-  "_change_number": 38725045,
-  "_missing_token": true,
-  "_sha": "528af34b03b2044c5cc545fe68eccc2de56ca446",
-  "_size": 4149,
+  "_lastChecked": 1788968170,
+  "_history": [
+    {
+      "buildId": "25160671",
+      "branch": "public",
+      "timeUpdated": 1788754281,
+      "firstSeen": 1788968170,
+      "manifests": {
+        "4924841": {
+          "gid": "6538821459679913664",
+          "size": 347316256,
+          "download": 326390976
+        }
+      }
+    }
+  ],
+  "_change_number": 38731661,
+  "_missing_token": false,
+  "_sha": "a2d1c939016d1232f51aa936b3a11ca894b940b6",
+  "_size": 7654,
   "appid": "4924840",
   "common": {
     "associations": {
@@ -37,7 +51,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4924840",
     "genres": {
       "0": "1"
@@ -120,11 +133,93 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "89ee1be1f71878b52e4e1c7c74622b911d9be409/capsule_231x87.jpg",
       "japanese": "89ee1be1f71878b52e4e1c7c74622b911d9be409/capsule_231x87_japanese.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "1",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_AudioOutputHasNonblockingIssues"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_AudioOutputHasNonblockingIssues"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1787838029",
+      "tested_build_id": "24943338",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_AudioOutputHasNonblockingIssues"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "5": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      }
+    },
+    "steam_release_date": "1788964945",
     "store_asset_mtime": "1787211245",
     "store_tags": {
       "0": "19",
@@ -149,5 +244,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "th06c",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64"
+        },
+        "executable": "th06c.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4924841": {
+      "manifests": {
+        "public": {
+          "download": "326390976",
+          "gid": "6538821459679913664",
+          "size": "347316256"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "25160671",
+        "timebuildupdated": "1788754102",
+        "timeupdated": "1788754281"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "上海アリス幻樂団",
+    "publisher": "Alliance Arts"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "",
+        "pattern": "score.dat",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "replay",
+        "pattern": "*.rpy",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "",
+        "pattern": "th06.cfg",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

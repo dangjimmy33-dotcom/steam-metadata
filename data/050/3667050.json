@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788960857,
+  "_lastChecked": 1788966935,
   "_history": [
     {
       "buildId": "24975961",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38597352,
+  "_change_number": 38731659,
   "_missing_token": false,
-  "_sha": "ac62e15665259552ef0be5072bf98812c41919ec",
-  "_size": 4518,
+  "_sha": "2eff3341e22af620824e1a8f7eed50fd9b8cddc6",
+  "_size": 5655,
   "appid": "3667050",
   "common": {
     "aicontenttype": "1",
@@ -117,6 +117,47 @@
     "review_score": "7",
     "small_capsule": {
       "english": "33d2e8ece30d81d96dca8812e97bc4e79889f693/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "1",
+      "steam_machine_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "steamos_compatibility": "1",
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "test_timestamp": "1788358203",
+      "tested_build_id": "24975961",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+        }
+      }
     },
     "steam_release_date": "1786986021",
     "store_asset_mtime": "1786977661",

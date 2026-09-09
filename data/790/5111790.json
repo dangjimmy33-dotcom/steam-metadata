@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788962310,
-  "_history": [],
-  "_change_number": 38720877,
-  "_missing_token": true,
-  "_sha": "3ac86143612dbc667e23e9fafff3462be1798db0",
-  "_size": 3566,
+  "_lastChecked": 1788968320,
+  "_history": [
+    {
+      "buildId": "25203816",
+      "branch": "public",
+      "timeUpdated": 1788941051,
+      "firstSeen": 1788968320,
+      "manifests": {
+        "5111791": {
+          "gid": "5292610589684717456",
+          "size": 288618453,
+          "download": 64319632
+        },
+        "5111792": {
+          "gid": "2537726189780138183",
+          "size": 397716209,
+          "download": 90202416
+        }
+      }
+    }
+  ],
+  "_change_number": 38731436,
+  "_missing_token": false,
+  "_sha": "c990079153adc182e2bdfa78b609c557ba0e58a4",
+  "_size": 4533,
   "appid": "5111790",
   "common": {
     "aicontenttype": "1",
@@ -28,8 +47,8 @@
     },
     "clienticon": "8ba89e5f6b939b02e46094e43713dc9da35a50ca",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5111790",
     "genres": {
       "0": "23",
@@ -113,11 +132,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c8e138c67506c7d0f6e080e72f5f77eda6ba5271/capsule_231x87.jpg",
       "japanese": "a38f3321055dac5333e73fac5a42d1acf95e8258/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1788966066",
     "store_asset_mtime": "1788773262",
     "store_tags": {
       "0": "12472",
@@ -141,5 +161,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DreamingLadybug",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "WinBuild\\DreamingLadybug.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MacBuild\\DreamingLadybug.app"
+      }
+    }
+  },
+  "depots": {
+    "5111791": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "64319632",
+          "gid": "5292610589684717456",
+          "size": "288618453"
+        }
+      }
+    },
+    "5111792": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "90202416",
+          "gid": "2537726189780138183",
+          "size": "397716209"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25203816",
+        "timebuildupdated": "1788941027",
+        "timeupdated": "1788941051"
+      }
+    }
+  },
+  "extended": {
+    "developer": "LilyCompany",
+    "publisher": "LilyCompany"
+  }
 }

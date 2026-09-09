@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788961935,
+  "_lastChecked": 1788967965,
   "_history": [
     {
       "buildId": "25065298",
@@ -54,12 +54,48 @@
           "download": 248933648
         }
       }
+    },
+    {
+      "buildId": "25211062",
+      "branch": "private_beta",
+      "timeUpdated": 1788964992,
+      "firstSeen": 1788967965,
+      "manifests": {
+        "4690241": {
+          "gid": "793950555630721255",
+          "size": 277917609,
+          "download": 211627376
+        },
+        "4690242": {
+          "gid": "6887753471271789388",
+          "size": 410135417,
+          "download": 248980240
+        }
+      }
+    },
+    {
+      "buildId": "25211062",
+      "branch": "public",
+      "timeUpdated": 1788965208,
+      "firstSeen": 1788967965,
+      "manifests": {
+        "4690241": {
+          "gid": "793950555630721255",
+          "size": 277917609,
+          "download": 211627376
+        },
+        "4690242": {
+          "gid": "6887753471271789388",
+          "size": 410135417,
+          "download": 248980240
+        }
+      }
     }
   ],
-  "_change_number": 38704923,
+  "_change_number": 38730974,
   "_missing_token": false,
-  "_sha": "0c36fcd99a1cc7fe2eb3a947326d3daa2628116e",
-  "_size": 4938,
+  "_sha": "09e1be4228f3dccd59f25ab95d2891dd9c3bb706",
+  "_size": 4937,
   "appid": "4690240",
   "common": {
     "associations": {
@@ -250,14 +286,14 @@
       },
       "manifests": {
         "private_beta": {
-          "download": "211573328",
-          "gid": "4685543521926780759",
-          "size": "277930581"
+          "download": "211627376",
+          "gid": "793950555630721255",
+          "size": "277917609"
         },
         "public": {
-          "download": "210259632",
-          "gid": "5657155391456728211",
-          "size": "276190554"
+          "download": "211627376",
+          "gid": "793950555630721255",
+          "size": "277917609"
         }
       }
     },
@@ -267,28 +303,28 @@
       },
       "manifests": {
         "private_beta": {
-          "download": "248933648",
-          "gid": "990848057178081343",
-          "size": "410134991"
+          "download": "248980240",
+          "gid": "6887753471271789388",
+          "size": "410135417"
         },
         "public": {
-          "download": "247368688",
-          "gid": "7042949385112843492",
-          "size": "408124844"
+          "download": "248980240",
+          "gid": "6887753471271789388",
+          "size": "410135417"
         }
       }
     },
     "branches": {
       "private_beta": {
-        "buildid": "25192933",
+        "buildid": "25211062",
         "description": "Private Mac and PC Test",
-        "timebuildupdated": "1788890911",
-        "timeupdated": "1788890913"
+        "timebuildupdated": "1788964990",
+        "timeupdated": "1788964992"
       },
       "public": {
-        "buildid": "25065298",
-        "timebuildupdated": "1788290989",
-        "timeupdated": "1788438519"
+        "buildid": "25211062",
+        "timebuildupdated": "1788964990",
+        "timeupdated": "1788965208"
       }
     }
   },

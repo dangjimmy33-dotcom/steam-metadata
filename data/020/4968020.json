@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788962195,
-  "_history": [],
-  "_change_number": 38361971,
-  "_missing_token": true,
-  "_sha": "882a268937d72f7cf874dd20e0be69ada8df36f6",
-  "_size": 2976,
+  "_lastChecked": 1788968211,
+  "_history": [
+    {
+      "buildId": "24752394",
+      "branch": "public",
+      "timeUpdated": 1786806991,
+      "firstSeen": 1788968211,
+      "manifests": {
+        "4968021": {
+          "gid": "3227182979839125717",
+          "size": 749946217,
+          "download": 501497584
+        },
+        "4968022": {
+          "gid": "5361002095273084278",
+          "size": 888007675,
+          "download": 564434752
+        }
+      }
+    }
+  ],
+  "_change_number": 38731897,
+  "_missing_token": false,
+  "_sha": "cfa6c93c23daaa681b8124dd6c5af73e348fedc2",
+  "_size": 4062,
   "appid": "4968020",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +45,8 @@
     "clienticns": "b29395f6a126ae449e75bee637daf59db977d6bb",
     "clienticon": "b29395f6a126ae449e75bee637daf59db977d6bb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4968020",
     "genres": {
       "0": "1",
@@ -98,10 +117,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1a193a66eab926b64814d1803452b0d62421bfef/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1786290493",
     "store_tags": {
       "0": "19",
@@ -127,5 +147,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cornmaster's Fury",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Cornmaster's Fury.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Cornmaster's Fury.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4968021": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "501497584",
+          "gid": "3227182979839125717",
+          "size": "749946217"
+        }
+      }
+    },
+    "4968022": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "564434752",
+          "gid": "5361002095273084278",
+          "size": "888007675"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24752394",
+        "timebuildupdated": "1786806895",
+        "timeupdated": "1786806991"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Astrawal Studios",
+    "publisher": "Stregmund"
+  }
 }

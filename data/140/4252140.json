@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788961494,
-  "_history": [],
-  "_change_number": 36795415,
-  "_missing_token": true,
-  "_sha": "a26f6e8939aa84c5b967732dabd1a7883189ce1c",
-  "_size": 2835,
+  "_lastChecked": 1788967538,
+  "_history": [
+    {
+      "buildId": "25211660",
+      "branch": "public",
+      "timeUpdated": 1788966856,
+      "firstSeen": 1788967538,
+      "manifests": {
+        "4252141": {
+          "gid": "1647869367991541374",
+          "size": 660556371,
+          "download": 513045136
+        }
+      }
+    }
+  ],
+  "_change_number": 38731870,
+  "_missing_token": false,
+  "_sha": "429028b4cfa26e20fa530715d91ab319c6896d1d",
+  "_size": 3686,
   "appid": "4252140",
   "common": {
     "associations": {
@@ -27,7 +41,6 @@
     "clienticon": "7fa05b299b5d2941194018337668f0ea0482b3dc",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4252140",
     "genres": {
       "0": "1",
@@ -99,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "79095e7f172cb6e8e0dc912ec732bedf4e2ce5cf/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788966895",
     "store_asset_mtime": "1781670568",
     "store_tags": {
       "0": "597",
@@ -125,5 +139,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "It's Spreading",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MyProject2.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4252141": {
+      "manifests": {
+        "public": {
+          "download": "513045136",
+          "gid": "1647869367991541374",
+          "size": "660556371"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25211660",
+        "timebuildupdated": "1788966733",
+        "timeupdated": "1788966856"
+      }
+    }
+  },
+  "extended": {
+    "developer": "David Holloway",
+    "isfreeapp": "1",
+    "publisher": "DnDavid"
+  }
 }

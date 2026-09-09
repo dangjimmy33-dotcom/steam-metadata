@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788962199,
-  "_history": [],
-  "_change_number": 37399124,
-  "_missing_token": true,
-  "_sha": "839cdb6b9682c852f87cee9d7e910aef53985c51",
-  "_size": 3719,
+  "_lastChecked": 1788968215,
+  "_history": [
+    {
+      "buildId": "24222186",
+      "branch": "public",
+      "timeUpdated": 1784126137,
+      "firstSeen": 1788968215,
+      "manifests": {
+        "4972850": {
+          "gid": "678769938216946845",
+          "size": 13651096,
+          "download": 13594144
+        }
+      }
+    }
+  ],
+  "_change_number": 38731402,
+  "_missing_token": false,
+  "_sha": "ddfbc8a118288da2bec7dddb855dba0521df8982",
+  "_size": 4214,
   "appid": "4972850",
   "common": {
     "aicontenttype": "1",
@@ -33,7 +47,6 @@
       "2": "4",
       "3": "5"
     },
-    "exfgls": "9",
     "gameid": "4972850",
     "genres": {
       "0": "4",
@@ -48,11 +61,12 @@
     "oslist": "windows,macos,linux",
     "parent": "4956720",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "b12298582657c7faf5656b815e2a64a86a492fd6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788966022",
     "store_asset_mtime": "1784117905",
     "store_screenshot": "6d191e76191314ec6d5bde9611a0710f35fc7763/ss_6d191e76191314ec6d5bde9611a0710f35fc7763.jpg",
     "store_tags": {
@@ -205,5 +219,30 @@
     },
     "type": "DLC"
   },
-  "public_only": "1"
+  "depots": {
+    "4972850": {
+      "dlcappid": "4972850",
+      "manifests": {
+        "public": {
+          "download": "13594144",
+          "gid": "678769938216946845",
+          "size": "13651096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24222186",
+        "timebuildupdated": "1784126119",
+        "timeupdated": "1784126137"
+      }
+    }
+  },
+  "extended": {
+    "developer": "trap4fem",
+    "dlcavailableonstore": "1",
+    "dlcforappid": "4956720",
+    "mustownapptopurchase": "4956720",
+    "publisher": "trap4fem"
+  }
 }
