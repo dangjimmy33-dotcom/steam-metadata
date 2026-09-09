@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788921404,
-  "_history": [],
-  "_change_number": 38535537,
-  "_missing_token": true,
-  "_sha": "aa95f0697881adef25645658d3ee63ae8f19269e",
-  "_size": 6489,
+  "_lastChecked": 1788926937,
+  "_history": [
+    {
+      "buildId": "25076648",
+      "branch": "public",
+      "timeUpdated": 1788341591,
+      "firstSeen": 1788926937,
+      "manifests": {
+        "5103401": {
+          "gid": "333539050138482107",
+          "size": 408440057,
+          "download": 209211984
+        }
+      }
+    }
+  ],
+  "_change_number": 38715883,
+  "_missing_token": false,
+  "_sha": "387564a29e0c2d0171bb4a84df65a3844a55bf65",
+  "_size": 7088,
   "appid": "5103400",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "dc40c9693699070adfe30872b4392cc2cc987664",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5103400",
     "genres": {
       "0": "23",
@@ -138,7 +151,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "brazilian": "9023118c445f1ed93fb49d7ffcadd96ab5bef8bc/capsule_231x87_brazilian.jpg",
       "english": "d0de61fa9d805bcfec6ba85fb194656d00abc7d1/capsule_231x87.jpg",
@@ -151,7 +164,8 @@
       "spanish": "449b866e7922c953ff5049f20bc583ad58cbe840/capsule_231x87_spanish.jpg",
       "tchinese": "0fc43486426785320a8bcc351b45724ab2c269d2/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1786687563",
+    "steam_release_date": "1788926119",
+    "store_asset_mtime": "1787846235",
     "store_tags": {
       "0": "599",
       "1": "9",
@@ -225,5 +239,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sue your parents",
+    "launch": {
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SueYourParents/SueYourParents.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5103401": {
+      "manifests": {
+        "public": {
+          "download": "209211984",
+          "gid": "333539050138482107",
+          "size": "408440057"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25076648",
+        "timebuildupdated": "1788341589",
+        "timeupdated": "1788341591"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SOOJISTUDIO",
+    "publisher": "SOOJISTUDIO"
+  }
 }

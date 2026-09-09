@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788920602,
+  "_lastChecked": 1788926135,
   "_history": [
     {
       "buildId": "24874567",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38693910,
+  "_change_number": 38715847,
   "_missing_token": false,
-  "_sha": "9c4d6eecc1454bfd97b214703b9d860e8985cc36",
-  "_size": 7241,
+  "_sha": "ce108306a2a1103aa498e0c9bb9fffa1223cbda4",
+  "_size": 7439,
   "appid": "4172180",
   "common": {
     "associations": {
@@ -278,11 +278,20 @@
   },
   "ufs": {
     "maxnumfiles": "100",
-    "quota": "20480000",
+    "quota": "2048000000",
     "savefiles": {
       "0": {
-        "path": "SenLuoTianGong\\WorshipDemonGBK",
+        "path": "SenLuoTianGong\\WorshipDemonGBK\\Saves\\",
         "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "SenLuoTianGong\\WorshipDemonGBK\\",
+        "pattern": "*.",
         "platforms": {
           "1": "Windows"
         },

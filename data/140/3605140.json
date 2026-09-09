@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788920055,
+  "_lastChecked": 1788925592,
   "_history": [
     {
       "buildId": "25171493",
@@ -78,11 +78,37 @@
           "download": 841537536
         }
       }
+    },
+    {
+      "buildId": "25176029",
+      "branch": "development",
+      "timeUpdated": 1788821227,
+      "firstSeen": 1788925592,
+      "manifests": {
+        "3605141": {
+          "gid": "589328912299560036",
+          "size": 2760757897,
+          "download": 841537536
+        }
+      }
+    },
+    {
+      "buildId": "25200216",
+      "branch": "public",
+      "timeUpdated": 1788924320,
+      "firstSeen": 1788925592,
+      "manifests": {
+        "3605141": {
+          "gid": "3220538355707667401",
+          "size": 2757321213,
+          "download": 841467120
+        }
+      }
     }
   ],
-  "_change_number": 38709772,
+  "_change_number": 38715323,
   "_missing_token": false,
-  "_sha": "04eea4326ffa05f44150f3ef5600a221d0fd9bf5",
+  "_sha": "6e5372b8b4329d7507efa7e7eabad31c36a1b870",
   "_size": 4510,
   "appid": "3605140",
   "common": {
@@ -269,28 +295,28 @@
     "3605141": {
       "manifests": {
         "development": {
-          "download": "841475344",
-          "gid": "4652918284237558799",
-          "size": "2760519857"
-        },
-        "public": {
           "download": "841537536",
           "gid": "589328912299560036",
           "size": "2760757897"
+        },
+        "public": {
+          "download": "841467120",
+          "gid": "3220538355707667401",
+          "size": "2757321213"
         }
       }
     },
     "branches": {
       "development": {
-        "buildid": "25174081",
-        "description": "DevelopmentBranch",
-        "timebuildupdated": "1788811379",
-        "timeupdated": "1788811472"
-      },
-      "public": {
         "buildid": "25176029",
+        "description": "DevelopmentBranch",
         "timebuildupdated": "1788821154",
         "timeupdated": "1788821227"
+      },
+      "public": {
+        "buildid": "25200216",
+        "timebuildupdated": "1788924026",
+        "timeupdated": "1788924320"
       }
     }
   },

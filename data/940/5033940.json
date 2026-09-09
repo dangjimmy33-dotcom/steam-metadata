@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788921357,
-  "_history": [],
-  "_change_number": 38463558,
-  "_missing_token": true,
-  "_sha": "8f4364b99deb1b38f637b0794af084a0cdd1e8b9",
-  "_size": 3629,
+  "_lastChecked": 1788926890,
+  "_history": [
+    {
+      "buildId": "24680868",
+      "branch": "public",
+      "timeUpdated": 1786485521,
+      "firstSeen": 1788926890,
+      "manifests": {
+        "5033941": {
+          "gid": "7140956072374326774",
+          "size": 329125296,
+          "download": 100875136
+        }
+      }
+    }
+  ],
+  "_change_number": 38715297,
+  "_missing_token": false,
+  "_sha": "e03f405203307990d79324e0ef61826b73b8c336",
+  "_size": 4185,
   "appid": "5033940",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "083dc6fea5d75cff39b7e1967e9b3bed2c167799",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5033940",
     "genres": {
       "0": "4",
@@ -97,10 +110,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "537d778468b08df8d448b8f7f95c76ca9894be73/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788924347",
     "store_asset_mtime": "1785956434",
     "store_tags": {
       "0": "597",
@@ -174,5 +188,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hard Rock Clicker",
+    "launch": {
+      "0": {
+        "executable": "\\Hard Rock Rush\\HARD ROCK RUSH.exe"
+      }
+    }
+  },
+  "depots": {
+    "5033941": {
+      "manifests": {
+        "public": {
+          "download": "100875136",
+          "gid": "7140956072374326774",
+          "size": "329125296"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24680868",
+        "timebuildupdated": "1786485520",
+        "timeupdated": "1786485521"
+      }
+    }
+  },
+  "extended": {
+    "developer": "IGNUS NEX ENTERTAINMENT",
+    "publisher": "IGNUS NEX ENTERTAINMENT"
+  }
 }

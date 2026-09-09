@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788917990,
+  "_lastChecked": 1788923526,
   "_history": [
     {
       "buildId": "24857520",
@@ -13,12 +13,25 @@
           "download": 13474332864
         }
       }
+    },
+    {
+      "buildId": "25198641",
+      "branch": "beta",
+      "timeUpdated": 1788921736,
+      "firstSeen": 1788923526,
+      "manifests": {
+        "1597081": {
+          "gid": "1157341246427717450",
+          "size": 16238602623,
+          "download": 9061684384
+        }
+      }
     }
   ],
-  "_change_number": 38212227,
+  "_change_number": 38714471,
   "_missing_token": false,
-  "_sha": "3a474821151f8b9c1de719e7c0e1e3249642af5b",
-  "_size": 5433,
+  "_sha": "abd4f0b21ce6f096b1255578de355365ccb655c5",
+  "_size": 5702,
   "appid": "1597080",
   "common": {
     "associations": {
@@ -232,6 +245,11 @@
   "depots": {
     "1597081": {
       "manifests": {
+        "beta": {
+          "download": "9061684384",
+          "gid": "1157341246427717450",
+          "size": "16238602623"
+        },
         "public": {
           "download": "13474332864",
           "gid": "2545345280803529655",
@@ -240,6 +258,12 @@
       }
     },
     "branches": {
+      "beta": {
+        "buildid": "25198641",
+        "description": "Testing new builds",
+        "timebuildupdated": "1788915767",
+        "timeupdated": "1788921736"
+      },
       "public": {
         "buildid": "24857520",
         "timebuildupdated": "1787301263",

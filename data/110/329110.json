@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788916671,
+  "_lastChecked": 1788922205,
   "_history": [
     {
       "buildId": "24288266",
@@ -13,12 +13,30 @@
           "download": 2147289568
         }
       }
+    },
+    {
+      "buildId": "25199536",
+      "branch": "public",
+      "timeUpdated": 1788920417,
+      "firstSeen": 1788922205,
+      "manifests": {
+        "329111": {
+          "gid": "668042082682631714",
+          "size": 2700958941,
+          "download": 2147289568
+        },
+        "329112": {
+          "gid": "5730962540629634042",
+          "size": 2689225365,
+          "download": 2138898512
+        }
+      }
     }
   ],
-  "_change_number": 38709020,
+  "_change_number": 38713981,
   "_missing_token": false,
-  "_sha": "6d7d096d4707d9801bc20712b07d0ba829cd6bb0",
-  "_size": 9709,
+  "_sha": "ecacb2491a78e137605599def928823d39a2fe0c",
+  "_size": 9824,
   "appid": "329110",
   "common": {
     "associations": {
@@ -362,14 +380,20 @@
       "config": {
         "realm": "steamchina"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "2138898512",
+          "gid": "5730962540629634042",
+          "size": "2689225365"
+        }
+      }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "24288266",
-        "timebuildupdated": "1784505367",
-        "timeupdated": "1785456196"
+        "buildid": "25199536",
+        "timebuildupdated": "1788920417",
+        "timeupdated": "1788920417"
       }
     },
     "privatebranches": "1"

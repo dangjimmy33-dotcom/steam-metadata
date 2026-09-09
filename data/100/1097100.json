@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788917448,
+  "_lastChecked": 1788922983,
   "_history": [
     {
       "buildId": "14406388",
@@ -23,12 +23,35 @@
           "download": 93921936
         }
       }
+    },
+    {
+      "buildId": "25199463",
+      "branch": "public",
+      "timeUpdated": 1788920376,
+      "firstSeen": 1788922983,
+      "manifests": {
+        "1097101": {
+          "gid": "1441994305111406079",
+          "size": 326653271,
+          "download": 225808096
+        },
+        "1097102": {
+          "gid": "5500448652107333854",
+          "size": 346870045,
+          "download": 234070704
+        },
+        "1097103": {
+          "gid": "1240400060463978234",
+          "size": 327526167,
+          "download": 223288416
+        }
+      }
     }
   ],
-  "_change_number": 37441117,
+  "_change_number": 38714716,
   "_missing_token": false,
-  "_sha": "1b280d329033699be18e1c37460caec57a5f9e92",
-  "_size": 7918,
+  "_sha": "59f50d151f8f19d135c171f80272c2357159c3a5",
+  "_size": 8065,
   "appid": "1097100",
   "common": {
     "associations": {
@@ -48,12 +71,20 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
       "category_62": "1"
     },
     "clienticon": "f6aca1d88297d494a0d612142fef37f13280dbe2",
     "clienttga": "7cbeb659b0482ceb8c32c3480b68bf195436eedc",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
+    "controller_support": "full",
+    "controllertagwizard": "1",
     "gameid": "1097100",
     "genres": {
       "0": "4",
@@ -307,9 +338,9 @@
       },
       "manifests": {
         "public": {
-          "download": "87286624",
-          "gid": "6301589028429872343",
-          "size": "219607005"
+          "download": "225808096",
+          "gid": "1441994305111406079",
+          "size": "326653271"
         }
       }
     },
@@ -319,9 +350,9 @@
       },
       "manifests": {
         "public": {
-          "download": "84117312",
-          "gid": "1081050008931013400",
-          "size": "210182813"
+          "download": "234070704",
+          "gid": "5500448652107333854",
+          "size": "346870045"
         }
       }
     },
@@ -331,17 +362,17 @@
       },
       "manifests": {
         "public": {
-          "download": "93921936",
-          "gid": "620054421598434748",
-          "size": "289751485"
+          "download": "223288416",
+          "gid": "1240400060463978234",
+          "size": "327526167"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "14406388",
-        "timebuildupdated": "1715966445",
-        "timeupdated": "1715966445"
+        "buildid": "25199463",
+        "timebuildupdated": "1788920013",
+        "timeupdated": "1788920376"
       }
     },
     "privatebranches": "1"
@@ -352,10 +383,8 @@
     "publisher": "Thomas Waterzooi"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "5000",
-    "quota": "100000000000",
+    "quota": "10000000000",
     "rootoverrides": {
       "0": {
         "os": "MacOS",
@@ -363,7 +392,7 @@
         "pathtransforms": {
           "0": {
             "find": "Studio Waterzooi/Please, Touch The Artwork/SaveData",
-            "replace": "unity.StudioWaterzooi.PleaseTouchTheArtwork/SaveData"
+            "replace": "com.StudioWaterzooi.PleaseTouchTheArtwork/SaveData"
           }
         },
         "root": "WinAppDataLocalLow",
@@ -385,7 +414,7 @@
     "savefiles": {
       "0": {
         "path": "Studio Waterzooi/Please, Touch The Artwork/SaveData",
-        "pattern": "*",
+        "pattern": "*.es3",
         "recursive": "1",
         "root": "WinAppDataLocalLow"
       }
