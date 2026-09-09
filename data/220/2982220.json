@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788972775,
+  "_lastChecked": 1788979403,
   "_history": [
     {
       "buildId": "23837699",
@@ -83,10 +83,10 @@
       }
     }
   ],
-  "_change_number": 38651839,
+  "_change_number": 38736939,
   "_missing_token": false,
-  "_sha": "f97d8757c135fcc14650a9a97f2ed9edc2cc74d6",
-  "_size": 5990,
+  "_sha": "b904f72e6bc00562bf526a642631422045585426",
+  "_size": 6598,
   "appid": "2982220",
   "common": {
     "associations": {
@@ -183,7 +183,7 @@
     "name": "Hunter: Space Pirates",
     "osarch": "64",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "23",
     "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
@@ -193,13 +193,13 @@
       "english": "capsule_231x87.jpg"
     },
     "steam_deck_compatibility": {
-      "category": "1",
+      "category": "3",
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
         "non_deck_display_glyphs": "0",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-9.0-3RC",
+        "recommended_runtime": "proton-stable",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -210,26 +210,46 @@
         "small_text": "0",
         "supported_input": "other"
       },
-      "steam_machine_compatibility": "1",
+      "steam_machine_compatibility": "3",
       "steam_machine_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
         }
       },
-      "steamos_compatibility": "1",
+      "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
         }
       },
-      "test_timestamp": "1741046400",
-      "tested_build_id": "17316297",
+      "test_timestamp": "1788976349",
+      "tested_build_id": "25155463",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
         }
       }
     },

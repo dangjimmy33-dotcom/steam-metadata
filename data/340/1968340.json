@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788971400,
+  "_lastChecked": 1788978197,
   "_history": [
     {
       "buildId": "17946542",
@@ -13,12 +13,25 @@
           "download": 2181942080
         }
       }
+    },
+    {
+      "buildId": "25214024",
+      "branch": "publicbeta",
+      "timeUpdated": 1788975467,
+      "firstSeen": 1788978197,
+      "manifests": {
+        "1968341": {
+          "gid": "880325750033437912",
+          "size": 793109180,
+          "download": 610118848
+        }
+      }
     }
   ],
-  "_change_number": 37453606,
+  "_change_number": 38735814,
   "_missing_token": false,
-  "_sha": "a83502d0e7af58c4691339dcfb5d9de871594580",
-  "_size": 4518,
+  "_sha": "9a2d3e3397c6d53dee3ffe2566fc05a0b0d57b6c",
+  "_size": 4820,
   "appid": "1968340",
   "common": {
     "associations": {
@@ -204,6 +217,11 @@
           "download": "2181942080",
           "gid": "8229788662900244780",
           "size": "5123922589"
+        },
+        "publicbeta": {
+          "download": "610118848",
+          "gid": "880325750033437912",
+          "size": "793109180"
         }
       }
     },
@@ -226,8 +244,15 @@
         "buildid": "17946542",
         "timebuildupdated": "1743548632",
         "timeupdated": "1743548878"
+      },
+      "publicbeta": {
+        "buildid": "25214024",
+        "description": "Public Beta Branch",
+        "timebuildupdated": "1788974408",
+        "timeupdated": "1788975467"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Sklorite Studios LLC",

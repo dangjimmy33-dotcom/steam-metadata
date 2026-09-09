@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788974856,
-  "_history": [],
-  "_change_number": 38715796,
-  "_missing_token": true,
-  "_sha": "3d1189fbca6ec03eae6c4064453cb0173d90e9d5",
-  "_size": 3260,
+  "_lastChecked": 1788981386,
+  "_history": [
+    {
+      "buildId": "25200562",
+      "branch": "public",
+      "timeUpdated": 1788925919,
+      "firstSeen": 1788981386,
+      "manifests": {
+        "4767241": {
+          "gid": "5708954268994324217",
+          "size": 388382948,
+          "download": 265647584
+        }
+      }
+    }
+  ],
+  "_change_number": 38737658,
+  "_missing_token": false,
+  "_sha": "74a43c9e14c2f415c026f146b038cd4f0cb32de6",
+  "_size": 4289,
   "appid": "4767240",
   "common": {
     "aicontenttype": "1",
@@ -38,8 +52,8 @@
     },
     "clienticon": "00092d5cb5604c684a1d31872a70322ad8346f43",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4767240",
     "genres": {
       "0": "28",
@@ -114,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6d59583e22ebb5a70f0ad75c24c01c3e3223a384/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1780389778",
     "store_tags": {
       "0": "599",
@@ -148,5 +163,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HollowStars",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "HollowStars.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4767241": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "265647584",
+          "gid": "5708954268994324217",
+          "size": "388382948"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25200562",
+        "timebuildupdated": "1788925685",
+        "timeupdated": "1788925919"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "AppGX",
+    "publisher": "AppGX"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "300000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Hollow Stars/saves",
+        "pattern": "*.hsave",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Hollow Stars/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

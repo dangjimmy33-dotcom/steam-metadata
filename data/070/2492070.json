@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788972169,
+  "_lastChecked": 1788978833,
   "_history": [
     {
       "buildId": "23950569",
@@ -46,12 +46,35 @@
           "download": 29441968
         }
       }
+    },
+    {
+      "buildId": "25214084",
+      "branch": "bleeding_edge",
+      "timeUpdated": 1788974660,
+      "firstSeen": 1788978833,
+      "manifests": {
+        "2492071": {
+          "gid": "5029329574920055361",
+          "size": 931173016,
+          "download": 242524400
+        },
+        "2492072": {
+          "gid": "4735636172980388227",
+          "size": 96280728,
+          "download": 30329584
+        },
+        "2492073": {
+          "gid": "3625031303812702050",
+          "size": 80522000,
+          "download": 28370992
+        }
+      }
     }
   ],
-  "_change_number": 36890022,
+  "_change_number": 38735494,
   "_missing_token": false,
-  "_sha": "472257b2d953318f671b9f2e16392d0d74d27d37",
-  "_size": 5184,
+  "_sha": "61a83f98aa398c17b765d2003b92b8fe724fcd0b",
+  "_size": 5185,
   "appid": "2492070",
   "common": {
     "associations": {
@@ -216,9 +239,9 @@
     "2492071": {
       "manifests": {
         "bleeding_edge": {
-          "download": "188336480",
-          "gid": "2680200191132371016",
-          "size": "860305436"
+          "download": "242524400",
+          "gid": "5029329574920055361",
+          "size": "931173016"
         },
         "public": {
           "download": "188336480",
@@ -233,9 +256,9 @@
       },
       "manifests": {
         "bleeding_edge": {
-          "download": "30529968",
-          "gid": "8772285751148406394",
-          "size": "97870488"
+          "download": "30329584",
+          "gid": "4735636172980388227",
+          "size": "96280728"
         },
         "public": {
           "download": "30529968",
@@ -250,9 +273,9 @@
       },
       "manifests": {
         "bleeding_edge": {
-          "download": "29441968",
-          "gid": "874688983375102798",
-          "size": "82986576"
+          "download": "28370992",
+          "gid": "3625031303812702050",
+          "size": "80522000"
         },
         "public": {
           "download": "29441968",
@@ -264,10 +287,10 @@
     "baselanguages": "english",
     "branches": {
       "bleeding_edge": {
-        "buildid": "23950569",
+        "buildid": "25214084",
         "description": "Crashing and burning",
-        "timebuildupdated": "1782616670",
-        "timeupdated": "1782616704"
+        "timebuildupdated": "1788974588",
+        "timeupdated": "1788974660"
       },
       "public": {
         "buildid": "23950569",

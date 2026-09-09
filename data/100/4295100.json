@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788974349,
-  "_history": [],
-  "_change_number": 38642676,
-  "_missing_token": true,
-  "_sha": "b002b2c56efa40cee10c7cf5a581eab496bfb286",
-  "_size": 3720,
+  "_lastChecked": 1788980906,
+  "_history": [
+    {
+      "buildId": "25214478",
+      "branch": "public",
+      "timeUpdated": 1788976167,
+      "firstSeen": 1788980906,
+      "manifests": {
+        "4295101": {
+          "gid": "2097590008119264279",
+          "size": 219294194,
+          "download": 143740528
+        }
+      }
+    }
+  ],
+  "_change_number": 38736560,
+  "_missing_token": false,
+  "_sha": "cfb4908a675e27221e17c8053570759cf32c3dd7",
+  "_size": 4920,
   "appid": "4295100",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     },
     "clienticon": "9dffba3b9210735f191219d867ddabb64b6ff54e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4295100",
     "genres": {
       "0": "4",
@@ -103,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ea71d68810ce81a3603900cd23a273330cebf617/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788977523",
     "store_asset_mtime": "1787751206",
     "store_tags": {
       "0": "9",
@@ -182,5 +197,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pegture",
+    "launch": {
+      "0": {
+        "executable": "Pegture.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4295101": {
+      "manifests": {
+        "public": {
+          "download": "143740528",
+          "gid": "2097590008119264279",
+          "size": "219294194"
+        }
+      }
+    },
+    "baselanguages": "danish,english,finnish,french,german,indonesian,italian,japanese,koreana,latam,portuguese,russian,schinese,spanish,turkish,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "25214478",
+        "timebuildupdated": "1788976165",
+        "timeupdated": "1788976167"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Puff Games",
+    "publisher": "Puff Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "PuffGames/Pegture",
+        "pattern": "settings.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "PuffGames/Pegture/Saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

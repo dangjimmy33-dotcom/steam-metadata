@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788973554,
+  "_lastChecked": 1788980144,
   "_history": [
     {
       "buildId": "25184250",
@@ -41,10 +41,10 @@
       }
     }
   ],
-  "_change_number": 38734068,
+  "_change_number": 38736569,
   "_missing_token": false,
-  "_sha": "1e60ca2e4bd89db352d5fcd016c898013eea2949",
-  "_size": 8987,
+  "_sha": "e1de07d462a83e3a03bdf667306787f9105ab435",
+  "_size": 9224,
   "appid": "3624140",
   "common": {
     "associations": {
@@ -375,6 +375,15 @@
         },
         "executable": "Wanderburg.exe",
         "type": "option1"
+      },
+      "2": {
+        "arguments": "-force-d3d11",
+        "description": "DX11 - use when game crashes",
+        "description_loc": {
+          "english": "DX11 - use when game crashes"
+        },
+        "executable": "Wanderburg.exe",
+        "type": "option2"
       }
     },
     "uselaunchcommandline": "1"

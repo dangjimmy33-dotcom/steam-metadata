@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788969097,
+  "_lastChecked": 1788975971,
   "_history": [
     {
       "buildId": "252080",
@@ -35,10 +35,10 @@
       }
     }
   ],
-  "_change_number": 37431888,
+  "_change_number": 38733321,
   "_missing_token": false,
-  "_sha": "ad63b8c5402457079341c545ed948e8d8f64661c",
-  "_size": 6079,
+  "_sha": "cc6826b5b8959ba5dd9f85f2b4bede309b1f392c",
+  "_size": 6134,
   "appid": "13520",
   "common": {
     "associations": {
@@ -99,12 +99,12 @@
         "hdr_support": "0",
         "non_deck_display_glyphs": "1",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-7.0-3",
+        "recommended_runtime": "proton-experimental",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
         "requires_manual_keyboard_invoke": "1",
-        "requires_non_controller_launcher_nav": "1",
+        "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "1",
@@ -114,7 +114,7 @@
       "steam_machine_tests": {
         "0": {
           "display": "3",
-          "token": "#SteamMachine_TestResult_LauncherInteractionIssues"
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
         },
         "1": {
           "display": "3",
@@ -141,19 +141,19 @@
         },
         "1": {
           "display": "1",
-          "token": "#SteamOS_TestResult_LauncherInteractionIssues"
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
         },
         "2": {
           "display": "1",
           "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
         }
       },
-      "test_timestamp": "1675468800",
+      "test_timestamp": "1788363209",
       "tested_build_id": "252080",
       "tests": {
         "0": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
         },
         "1": {
           "display": "3",

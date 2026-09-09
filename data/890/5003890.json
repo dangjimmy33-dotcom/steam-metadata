@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788975103,
-  "_history": [],
-  "_change_number": 38361971,
-  "_missing_token": true,
-  "_sha": "757484ad5792bb0c95536621509b5110f4989237",
-  "_size": 3108,
+  "_lastChecked": 1788981617,
+  "_history": [
+    {
+      "buildId": "24768213",
+      "branch": "public",
+      "timeUpdated": 1786930145,
+      "firstSeen": 1788981617,
+      "manifests": {
+        "5003891": {
+          "gid": "5703733499823807729",
+          "size": 6175713555,
+          "download": 1236269712
+        }
+      }
+    }
+  ],
+  "_change_number": 38737350,
+  "_missing_token": false,
+  "_sha": "03f7ea88f6c7ef450d9830f73e066b6529ea0078",
+  "_size": 3955,
   "appid": "5003890",
   "common": {
     "aicontenttype": "1",
@@ -40,7 +54,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5003890",
     "genres": {
       "0": "70"
@@ -110,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cb82b7fcdbc2f73c4313a736f374af2c6483cf82/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1785872874",
     "store_tags": {
       "0": "12190",
@@ -138,5 +152,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Heavyweight Bout",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "HeavyweightBout.exe"
+      }
+    }
+  },
+  "depots": {
+    "5003891": {
+      "manifests": {
+        "public": {
+          "download": "1236269712",
+          "gid": "5703733499823807729",
+          "size": "6175713555"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24768213",
+        "timebuildupdated": "1786927469",
+        "timeupdated": "1786930145"
+      }
+    }
+  },
+  "extended": {
+    "developer": "GameChanger Studio",
+    "publisher": "GameChanger Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "GameChangerStudio/HeavyweightBout",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

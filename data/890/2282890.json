@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788971785,
+  "_lastChecked": 1788978564,
   "_history": [
     {
       "buildId": "25132345",
@@ -92,12 +92,58 @@
           "download": 362185488
         }
       }
+    },
+    {
+      "buildId": "25214066",
+      "branch": "beta",
+      "timeUpdated": 1788974522,
+      "firstSeen": 1788978564,
+      "manifests": {
+        "2282891": {
+          "gid": "8928021738130534568",
+          "size": 644914405,
+          "download": 438931296
+        },
+        "2282892": {
+          "gid": "1834218662792816608",
+          "size": 573855661,
+          "download": 421749056
+        },
+        "2282893": {
+          "gid": "2639091027772801683",
+          "size": 771649155,
+          "download": 362185488
+        }
+      }
+    },
+    {
+      "buildId": "25214066",
+      "branch": "public",
+      "timeUpdated": 1788974585,
+      "firstSeen": 1788978564,
+      "manifests": {
+        "2282891": {
+          "gid": "8928021738130534568",
+          "size": 644914405,
+          "download": 438931296
+        },
+        "2282892": {
+          "gid": "1834218662792816608",
+          "size": 573855661,
+          "download": 421749056
+        },
+        "2282893": {
+          "gid": "2639091027772801683",
+          "size": 771649155,
+          "download": 362185488
+        }
+      }
     }
   ],
-  "_change_number": 38734020,
+  "_change_number": 38735503,
   "_missing_token": false,
-  "_sha": "155a99a76ec0231263b5c25a2a9889adbe0ae959",
-  "_size": 8967,
+  "_sha": "0413721099b9bc391282535107bfa38228ec8cd5",
+  "_size": 8837,
   "appid": "2282890",
   "common": {
     "associations": {
@@ -133,8 +179,7 @@
     "gameid": "2282890",
     "genres": {
       "0": "28",
-      "1": "2",
-      "2": "70"
+      "1": "2"
     },
     "header_image": {
       "english": "e84610b0f93c64518f78e15a0e5be2ded279c948/header.jpg"
@@ -154,10 +199,10 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "f687bdd1c3d75f803f124f480fd7e3ea38006407/library_capsule.jpg"
+          "english": "ec94d33daa8d50eb9754d2227ff0e535dab353c6/library_capsule.jpg"
         },
         "image2x": {
-          "english": "f687bdd1c3d75f803f124f480fd7e3ea38006407/library_capsule_2x.jpg"
+          "english": "ec94d33daa8d50eb9754d2227ff0e535dab353c6/library_capsule_2x.jpg"
         }
       },
       "library_header": {
@@ -246,8 +291,8 @@
         }
       }
     },
-    "steam_release_date": "1742837431",
-    "store_asset_mtime": "1770716131",
+    "steam_release_date": "1788973535",
+    "store_asset_mtime": "1788964905",
     "store_tags": {
       "0": "3834",
       "1": "4328",
@@ -305,10 +350,6 @@
         "supported": "true"
       },
       "norwegian": {
-        "subtitles": "true",
-        "supported": "true"
-      },
-      "polish": {
         "subtitles": "true",
         "supported": "true"
       },
@@ -395,7 +436,6 @@
       },
       "4": {
         "config": {
-          "betakey": "beta",
           "oslist": "windows"
         },
         "executable": "folklands/workshop_uploader/GodotWorkshopUtility.exe",
@@ -403,7 +443,6 @@
       },
       "5": {
         "config": {
-          "betakey": "beta",
           "oslist": "linux"
         },
         "executable": "folklands/workshop_uploader/GodotWorkshopUtility.x86_64",
@@ -419,14 +458,14 @@
       },
       "manifests": {
         "beta": {
-          "download": "438896720",
-          "gid": "4722576653886138642",
-          "size": "644906325"
+          "download": "438931296",
+          "gid": "8928021738130534568",
+          "size": "644914405"
         },
         "public": {
-          "download": "919780304",
-          "gid": "5784871817218343725",
-          "size": "1050422821"
+          "download": "438931296",
+          "gid": "8928021738130534568",
+          "size": "644914405"
         }
       }
     },
@@ -437,14 +476,14 @@
       },
       "manifests": {
         "beta": {
-          "download": "421714480",
-          "gid": "6409929925428075018",
-          "size": "573847581"
+          "download": "421749056",
+          "gid": "1834218662792816608",
+          "size": "573855661"
         },
         "public": {
-          "download": "397032480",
-          "gid": "6186825808313194629",
-          "size": "499009876"
+          "download": "421749056",
+          "gid": "1834218662792816608",
+          "size": "573855661"
         }
       }
     },
@@ -468,15 +507,15 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25213164",
+        "buildid": "25214066",
         "description": "Unpublished test releases",
-        "timebuildupdated": "1788971461",
-        "timeupdated": "1788971461"
+        "timebuildupdated": "1788974522",
+        "timeupdated": "1788974522"
       },
       "public": {
-        "buildid": "24894466",
-        "timebuildupdated": "1787513131",
-        "timeupdated": "1787513221"
+        "buildid": "25214066",
+        "timebuildupdated": "1788974522",
+        "timeupdated": "1788974585"
       }
     },
     "hasdepotsindlc": "1",

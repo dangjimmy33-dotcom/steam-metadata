@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788973167,
-  "_history": [],
-  "_change_number": 38734562,
-  "_missing_token": true,
-  "_sha": "651e7715af06f16687852d67c1285b940a7398bf",
-  "_size": 4194,
+  "_lastChecked": 1788979776,
+  "_history": [
+    {
+      "buildId": "25211652",
+      "branch": "public",
+      "timeUpdated": 1788971700,
+      "firstSeen": 1788979776,
+      "manifests": {
+        "3306921": {
+          "gid": "1869428728261837593",
+          "size": 37412208703,
+          "download": 36529338896
+        },
+        "5174830": {
+          "gid": "3774809553323351208",
+          "size": 243472000,
+          "download": 240329168
+        }
+      }
+    }
+  ],
+  "_change_number": 38734773,
+  "_missing_token": false,
+  "_sha": "23d0c9271ecaff76eff55355c39faf1905fd0f92",
+  "_size": 5936,
   "appid": "3306920",
   "common": {
     "associations": {
@@ -54,7 +73,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "3306920",
     "genres": {
       "0": "25",
@@ -125,10 +143,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f01cd78c942831b884eeae54c3a944e99ff151a7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788973216",
     "store_asset_mtime": "1788972657",
     "store_tags": {
       "0": "1667",
@@ -197,5 +216,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cosmic Fear",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "CosmicFear\\Binaries\\Win64\\CosmicFear-Win64-Shipping.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3306921": {
+      "manifests": {
+        "public": {
+          "download": "36529338896",
+          "gid": "1869428728261837593",
+          "size": "37412208703"
+        }
+      }
+    },
+    "5174830": {
+      "config": {
+        "oslist": "windows"
+      },
+      "dlcappid": "5174830",
+      "manifests": {
+        "public": {
+          "download": "240329168",
+          "gid": "3774809553323351208",
+          "size": "243472000"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25211652",
+        "timebuildupdated": "1788966700",
+        "timeupdated": "1788971700"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Alessandro Guzzo",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.guzzoproductions.com/",
+    "listofdlc": "5174830",
+    "publisher": "Alessandro Guzzo"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "CosmicFear\\Saved\\SaveGames\\",
+        "pattern": "Default__IMPOSTAZIONI_MAIN_MENU_C.*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "CosmicFear\\Saved\\SaveGames\\MySaveGame\\",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

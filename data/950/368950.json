@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788969290,
+  "_lastChecked": 1788976157,
   "_history": [
     {
       "buildId": "2020701",
@@ -52,12 +52,38 @@
           "download": 162306784
         }
       }
+    },
+    {
+      "buildId": "25213699",
+      "branch": "beta",
+      "timeUpdated": 1788973314,
+      "firstSeen": 1788976157,
+      "manifests": {
+        "368951": {
+          "gid": "116672670292532023",
+          "size": 198118185,
+          "download": 162306112
+        }
+      }
+    },
+    {
+      "buildId": "25213699",
+      "branch": "public",
+      "timeUpdated": 1788974308,
+      "firstSeen": 1788976157,
+      "manifests": {
+        "368951": {
+          "gid": "116672670292532023",
+          "size": 198118185,
+          "download": 162306112
+        }
+      }
     }
   ],
-  "_change_number": 38708868,
+  "_change_number": 38735744,
   "_missing_token": false,
-  "_sha": "1165d35294c8c2ea673d930d517c73e76e2d21b2",
-  "_size": 4641,
+  "_sha": "97de1adb4b48ba85610c79903677b66ccd0d380e",
+  "_size": 4730,
   "appid": "368950",
   "common": {
     "associations": {
@@ -95,7 +121,8 @@
       "french": "1",
       "italian": "1",
       "japanese": "1",
-      "russian": "1"
+      "russian": "1",
+      "schinese": "1"
     },
     "library_assets": {
       "library_capsule": "en",
@@ -203,6 +230,10 @@
       "russian": {
         "subtitles": "true",
         "supported": "true"
+      },
+      "schinese": {
+        "subtitles": "true",
+        "supported": "true"
       }
     },
     "type": "Game"
@@ -236,14 +267,14 @@
           "size": "96812582"
         },
         "beta": {
-          "download": "162306784",
-          "gid": "4708197919863326362",
-          "size": "198118696"
+          "download": "162306112",
+          "gid": "116672670292532023",
+          "size": "198118185"
         },
         "public": {
-          "download": "161853600",
-          "gid": "8541470091884959708",
-          "size": "197294427"
+          "download": "162306112",
+          "gid": "116672670292532023",
+          "size": "198118185"
         }
       }
     },
@@ -255,15 +286,15 @@
         "timeupdated": "1502192433"
       },
       "beta": {
-        "buildid": "25195587",
+        "buildid": "25213699",
         "description": "Experimental features under development",
-        "timebuildupdated": "1788901727",
-        "timeupdated": "1788901793"
+        "timebuildupdated": "1788973298",
+        "timeupdated": "1788973314"
       },
       "public": {
-        "buildid": "24711732",
-        "timebuildupdated": "1786618814",
-        "timeupdated": "1786623655"
+        "buildid": "25213699",
+        "timebuildupdated": "1788973298",
+        "timeupdated": "1788974308"
       }
     }
   },

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788972915,
-  "_history": [],
-  "_change_number": 38410453,
-  "_missing_token": true,
-  "_sha": "45ab3efce2d2757027c3cfbccd1e314d77413b69",
-  "_size": 3341,
+  "_lastChecked": 1788979534,
+  "_history": [
+    {
+      "buildId": "25092829",
+      "branch": "public",
+      "timeUpdated": 1788400992,
+      "firstSeen": 1788979534,
+      "manifests": {
+        "3094761": {
+          "gid": "950104611500976599",
+          "size": 18390314470,
+          "download": 16358084496
+        }
+      }
+    }
+  ],
+  "_change_number": 38735116,
+  "_missing_token": false,
+  "_sha": "3c53bf9e8c74a2d5f44f7deaf0cbbca43f105592",
+  "_size": 4252,
   "appid": "3094760",
   "common": {
     "aicontenttype": "1",
@@ -39,7 +53,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3094760",
     "genres": {
       "0": "25",
@@ -113,11 +126,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "970bafa31594f9487ed42fbe330af246650604fb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787226925",
     "store_tags": {
       "0": "21",
@@ -147,5 +161,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Antediluvian Seed in Peril",
+    "launch": {
+      "0": {
+        "executable": "ASIP2.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3094761": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "16358084496",
+          "gid": "950104611500976599",
+          "size": "18390314470"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25092829",
+        "timebuildupdated": "1788400965",
+        "timeupdated": "1788400992"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Terumah Studios",
+    "homepage": "https://x.com/Menachem222",
+    "isfreeapp": "1",
+    "publisher": "Terumah Studios"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788969417,
+  "_lastChecked": 1788976278,
   "_history": [
     {
       "buildId": "1412244",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 37435436,
+  "_change_number": 38733323,
   "_missing_token": false,
-  "_sha": "ac19047135a5bcf5b961ff5e3af7ad604359e74d",
-  "_size": 6071,
+  "_sha": "4ff95e1fef072e498a17b5002b690a0bb5de48de",
+  "_size": 5690,
   "appid": "474960",
   "common": {
     "associations": {
@@ -94,7 +94,7 @@
       "english": "capsule_231x87.jpg"
     },
     "steam_deck_compatibility": {
-      "category": "2",
+      "category": "1",
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
@@ -108,11 +108,16 @@
         "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
-        "small_text": "1",
-        "supported_input": "gamepad"
+        "small_text": "0",
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "1",
+      "steam_machine_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamMachine_TestResult_UnsupportedGraphicsPerformance"
+        }
+      },
       "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
@@ -124,28 +129,12 @@
           "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
-      "test_timestamp": "1730937600",
+      "test_timestamp": "1788363042",
       "tested_build_id": "1412244",
       "tests": {
         "0": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
-        },
-        "1": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
-        },
-        "2": {
-          "display": "4",
-          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
-        },
-        "3": {
-          "display": "4",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
-        },
-        "4": {
-          "display": "1",
-          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
         }
       }
     },

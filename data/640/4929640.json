@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788975028,
-  "_history": [],
-  "_change_number": 37155043,
-  "_missing_token": true,
-  "_sha": "6776ab3983c8328f32143b53fbd3c05224eaeb84",
-  "_size": 3792,
+  "_lastChecked": 1788981545,
+  "_history": [
+    {
+      "buildId": "24064933",
+      "branch": "public",
+      "timeUpdated": 1783291896,
+      "firstSeen": 1788981545,
+      "manifests": {
+        "4929641": {
+          "gid": "662418527928235568",
+          "size": 1111151856,
+          "download": 912771264
+        },
+        "4929642": {
+          "gid": "5272627704219658780",
+          "size": 960910598,
+          "download": 891139376
+        }
+      }
+    }
+  ],
+  "_change_number": 38736604,
+  "_missing_token": false,
+  "_sha": "1325cf21a828e1ce3cb3ba990ba9e28cd3be2032",
+  "_size": 5433,
   "appid": "4929640",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +49,7 @@
     },
     "clienticon": "cc684464a5acddd09b40b2192dd3e628d9c76217",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -44,7 +64,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4929640",
     "genres": {
       "0": "25",
@@ -122,11 +141,12 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux,android",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "4a3f153ad63eacf515e2a6e68c03c6730e33ec33/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788977072",
     "store_asset_mtime": "1783298156",
     "store_tags": {
       "0": "3799",
@@ -176,5 +196,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Deepfake Lover",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "DeepfakeLover.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "DeepfakeLover.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "DeepfakeLover.sh",
+        "type": "default"
+      },
+      "3": {
+        "config": {
+          "oslist": "android"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "deepfake.lover-1.0-1783291526-release.apk",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4929641": {
+      "manifests": {
+        "public": {
+          "download": "912771264",
+          "gid": "662418527928235568",
+          "size": "1111151856"
+        }
+      }
+    },
+    "4929642": {
+      "config": {
+        "oslist": "android"
+      },
+      "manifests": {
+        "public": {
+          "download": "891139376",
+          "gid": "5272627704219658780",
+          "size": "960910598"
+        }
+      }
+    },
+    "baselanguages": "english,french,japanese,koreana,latam,russian,schinese",
+    "branches": {
+      "public": {
+        "buildid": "24064933",
+        "timebuildupdated": "1783291896",
+        "timeupdated": "1783291896"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Creamhouse",
+    "publisher": "Creamhouse"
+  }
 }

@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1788974324,
-  "_history": [],
-  "_change_number": 38634069,
-  "_missing_token": true,
-  "_sha": "b9dfd7356847604d37908b800e72a171f6c16c66",
-  "_size": 3301,
+  "_lastChecked": 1788980882,
+  "_history": [
+    {
+      "buildId": "25143388",
+      "branch": "beta",
+      "timeUpdated": 1788628163,
+      "firstSeen": 1788980882,
+      "manifests": {
+        "4274261": {
+          "gid": "6068040989619373171",
+          "size": 20788759660,
+          "download": 12535445504
+        }
+      }
+    },
+    {
+      "buildId": "25143388",
+      "branch": "public",
+      "timeUpdated": 1788636236,
+      "firstSeen": 1788980882,
+      "manifests": {
+        "4274261": {
+          "gid": "6068040989619373171",
+          "size": 20788759660,
+          "download": 12535445504
+        }
+      }
+    }
+  ],
+  "_change_number": 38736262,
+  "_missing_token": false,
+  "_sha": "259e3f1264ab19bea808e060d5038caaad23cd8a",
+  "_size": 4233,
   "appid": "4274260",
   "common": {
     "associations": {
@@ -42,7 +69,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4274260",
     "genres": {
       "0": "1",
@@ -117,10 +143,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5eaceecdf1ae6a465f356d4537094f5a4fbaec20/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788976802",
     "store_asset_mtime": "1785228350",
     "store_tags": {
       "0": "21978",
@@ -153,5 +180,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tales Of Glory 4  Ragnarok",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TOG4.exe",
+        "type": "vr"
+      }
+    }
+  },
+  "depots": {
+    "4274261": {
+      "manifests": {
+        "beta": {
+          "download": "12535445504",
+          "gid": "6068040989619373171",
+          "size": "20788759660"
+        },
+        "public": {
+          "download": "12535445504",
+          "gid": "6068040989619373171",
+          "size": "20788759660"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "25143388",
+        "description": "public beta",
+        "timebuildupdated": "1788628102",
+        "timeupdated": "1788628163"
+      },
+      "public": {
+        "buildid": "25143388",
+        "timebuildupdated": "1788628102",
+        "timeupdated": "1788636236"
+      }
+    }
+  },
+  "extended": {
+    "developer": "BlackTale Games",
+    "publisher": "BlackTale Games",
+    "vrheadsetstreaming": "0"
+  },
+  "ufs": {
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
 }

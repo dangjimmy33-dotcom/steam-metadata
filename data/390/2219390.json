@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788971704,
+  "_lastChecked": 1788978485,
   "_history": [
     {
       "buildId": "25001031",
@@ -72,12 +72,48 @@
           "download": 244354784
         }
       }
+    },
+    {
+      "buildId": "25214408",
+      "branch": "public",
+      "timeUpdated": 1788975929,
+      "firstSeen": 1788978485,
+      "manifests": {
+        "2219391": {
+          "gid": "7793306327514516790",
+          "size": 527489000,
+          "download": 235001664
+        },
+        "2219392": {
+          "gid": "3352946024639297475",
+          "size": 552321906,
+          "download": 244336496
+        }
+      }
+    },
+    {
+      "buildId": "25214408",
+      "branch": "public-testing-branch",
+      "timeUpdated": 1788975897,
+      "firstSeen": 1788978485,
+      "manifests": {
+        "2219391": {
+          "gid": "7793306327514516790",
+          "size": 527489000,
+          "download": 235001664
+        },
+        "2219392": {
+          "gid": "3352946024639297475",
+          "size": 552321906,
+          "download": 244336496
+        }
+      }
     }
   ],
-  "_change_number": 38635554,
+  "_change_number": 38735974,
   "_missing_token": false,
-  "_sha": "902a51579f0ee25c563fd2646d91351d649046ef",
-  "_size": 8831,
+  "_sha": "f9d13a42f4e96bc4a7c613b7727dacdae26f8264",
+  "_size": 8835,
   "appid": "2219390",
   "common": {
     "aicontenttype": "1",
@@ -390,14 +426,14 @@
       },
       "manifests": {
         "public": {
-          "download": "235010944",
-          "gid": "4303828306455828465",
-          "size": "527494768"
+          "download": "235001664",
+          "gid": "7793306327514516790",
+          "size": "527489000"
         },
         "public-testing-branch": {
-          "download": "235010944",
-          "gid": "4303828306455828465",
-          "size": "527494768"
+          "download": "235001664",
+          "gid": "7793306327514516790",
+          "size": "527489000"
         }
       }
     },
@@ -408,29 +444,29 @@
       },
       "manifests": {
         "public": {
-          "download": "244354784",
-          "gid": "36798390862123899",
-          "size": "552327482"
+          "download": "244336496",
+          "gid": "3352946024639297475",
+          "size": "552321906"
         },
         "public-testing-branch": {
-          "download": "244354784",
-          "gid": "36798390862123899",
-          "size": "552327482"
+          "download": "244336496",
+          "gid": "3352946024639297475",
+          "size": "552321906"
         }
       }
     },
     "baselanguages": "brazilian,czech,danish,dutch,english,french,german,hungarian,italian,japanese,polish,portuguese,romanian,russian,schinese,spanish,swedish,turkish,ukrainian",
     "branches": {
       "public": {
-        "buildid": "25146137",
-        "timebuildupdated": "1788647230",
-        "timeupdated": "1788647269"
+        "buildid": "25214408",
+        "timebuildupdated": "1788975895",
+        "timeupdated": "1788975929"
       },
       "public-testing-branch": {
-        "buildid": "25146137",
+        "buildid": "25214408",
         "description": "For testing next patch",
-        "timebuildupdated": "1788647230",
-        "timeupdated": "1788647232"
+        "timebuildupdated": "1788975895",
+        "timeupdated": "1788975897"
       }
     },
     "privatebranches": "1"

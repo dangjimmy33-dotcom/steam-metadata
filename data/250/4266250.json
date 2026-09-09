@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788974315,
+  "_lastChecked": 1788980873,
   "_history": [
     {
       "buildId": "24766392",
@@ -80,10 +80,10 @@
       }
     }
   ],
-  "_change_number": 38711622,
+  "_change_number": 38737722,
   "_missing_token": false,
-  "_sha": "949b58d06e7aaad5d88d82576d8d2403431d99b8",
-  "_size": 4445,
+  "_sha": "6a4d3945bca2d547de43d6f0d20ded2b12401e73",
+  "_size": 5825,
   "appid": "4266250",
   "common": {
     "aicontenttype": "1",
@@ -101,6 +101,7 @@
       "category_1": "1",
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_25": "1",
       "category_28": "1",
       "category_38": "1",
@@ -287,5 +288,67 @@
   "extended": {
     "developer": "Flying Brick Face Studio",
     "publisher": "Flying Brick Face Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/AscensionTrail/save",
+        "pattern": "shopSave.tres",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/AscensionTrail/save",
+        "pattern": "equipmentSave.tres",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/AscensionTrail/save",
+        "pattern": "achievementsSave.tres",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/AscensionTrail/save",
+        "pattern": "statisticSave.tres",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/AscensionTrail/save",
+        "pattern": "wikiSave.tres",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Godot/app_userdata/AscensionTrail/save",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Godot/app_userdata/AscensionTrail/save",
+        "pattern": "build_stamp.txt",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

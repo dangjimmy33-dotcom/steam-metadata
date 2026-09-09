@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788969736,
+  "_lastChecked": 1788976583,
   "_history": [
     {
       "buildId": "21989397",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38073035,
+  "_change_number": 38733322,
   "_missing_token": false,
-  "_sha": "57bb146d86cecb38810721f4d0a838cc90f72d14",
-  "_size": 6181,
+  "_sha": "557912da63879c89bde15c5da77482eea55fcc10",
+  "_size": 7622,
   "appid": "736220",
   "common": {
     "associations": {
@@ -132,38 +132,87 @@
       "english": "359705dbb2f1a7426ef5098bc0439bd006092dee/capsule_231x87.jpg"
     },
     "steam_deck_compatibility": {
-      "category": "1",
+      "category": "2",
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
-        "non_deck_display_glyphs": "0",
+        "non_deck_display_glyphs": "1",
         "primary_player_is_controller_slot_0": "0",
         "recommended_runtime": "proton-stable",
-        "requires_h264": "0",
+        "requires_h264": "1",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "requires_manual_keyboard_invoke": "0",
+        "requires_manual_keyboard_invoke": "1",
         "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
-        "small_text": "0",
-        "supported_input": "gamepad"
+        "small_text": "1",
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
-      "steamos_compatibility": "1",
-      "steamos_tests": {
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamOS_TestResult_UnsupportedAntiCheatConfiguration"
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
         }
       },
-      "test_timestamp": "1643932800",
-      "tested_build_id": "7834399",
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        }
+      },
+      "test_timestamp": "1788362239",
+      "tested_build_id": "21989397",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_UnsupportedAntiCheatConfiguration"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "3": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "5": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
         }
       }
     },

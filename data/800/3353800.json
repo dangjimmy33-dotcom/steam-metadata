@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788973230,
-  "_history": [],
-  "_change_number": 38692829,
-  "_missing_token": true,
-  "_sha": "a1ce2659973dca90454d42a09a5008e2c0141659",
-  "_size": 5584,
+  "_lastChecked": 1788979832,
+  "_history": [
+    {
+      "buildId": "25185540",
+      "branch": "public",
+      "timeUpdated": 1788865904,
+      "firstSeen": 1788979832,
+      "manifests": {
+        "3353801": {
+          "gid": "8423814190134185130",
+          "size": 3705701719,
+          "download": 1051052960
+        }
+      }
+    }
+  ],
+  "_change_number": 38736198,
+  "_missing_token": false,
+  "_sha": "ef3bc3800652ce43fa2a584df659d6495a848b0e",
+  "_size": 7072,
   "appid": "3353800",
   "common": {
     "aicontenttype": "1",
@@ -27,9 +41,9 @@
     "clienticon": "cab7009c71b200c48435a68d961a0eb5cf7eb461",
     "clienttga": "9824a71461337848ae6b2d8037b6143a6b0f5ed0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3353800",
     "genres": {
       "0": "1",
@@ -135,11 +149,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "32e85d307d9a50671d64dd5b9b6248bf6732255a/capsule_231x87.jpg",
       "schinese": "b91eca1a8a1be19f83407f12d1afa8ea278dd434/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1788976584",
     "store_asset_mtime": "1788431223",
     "store_tags": {
       "0": "32322",
@@ -208,5 +223,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Golden Swirl",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "GoldenSwirl.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3353801": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1051052960",
+          "gid": "8423814190134185130",
+          "size": "3705701719"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25185540",
+        "timebuildupdated": "1788865742",
+        "timeupdated": "1788865904"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Snako Production",
+    "publisher": "Infini Fun"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Snako/GoldenSwirlDemo",
+            "replace": ".config/unity3d/Snako/GoldenSwirl"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Snako/GoldenSwirl",
+        "pattern": "*.es3",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

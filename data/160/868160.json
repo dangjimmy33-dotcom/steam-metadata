@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788969904,
-  "_history": [],
-  "_change_number": 38662741,
-  "_missing_token": true,
-  "_sha": "96db344b6116ba2bbba3574d1f784f5d46d820de",
-  "_size": 2986,
+  "_lastChecked": 1788976745,
+  "_history": [
+    {
+      "buildId": "25164444",
+      "branch": "public",
+      "timeUpdated": 1788774259,
+      "firstSeen": 1788976745,
+      "manifests": {
+        "868161": {
+          "gid": "5693702855358266065",
+          "size": 575838540,
+          "download": 560333136
+        },
+        "868162": {
+          "gid": "1986142353041659145",
+          "size": 794597950,
+          "download": 600708784
+        }
+      }
+    }
+  ],
+  "_change_number": 38734713,
+  "_missing_token": false,
+  "_sha": "7c91a0d93e47f9f6a512832b974e5e847070c613",
+  "_size": 4785,
   "appid": "868160",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +45,8 @@
     },
     "clienticon": "81973bc664f0270632ff755eef32fc56e821f221",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "868160",
     "genres": {
       "0": "4",
@@ -101,10 +120,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f24ea0c07d2790da464b48ce5f997c0792e047cc/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788973128",
     "store_asset_mtime": "1781533099",
     "store_tags": {
       "0": "255534",
@@ -137,5 +157,101 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "CodeTerraform",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "code-terraform.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "./launch-code-terraform.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "868161": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "560333136",
+          "gid": "5693702855358266065",
+          "size": "575838540"
+        }
+      }
+    },
+    "868162": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "600708784",
+          "gid": "1986142353041659145",
+          "size": "794597950"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25164444",
+        "timebuildupdated": "1788774042",
+        "timeupdated": "1788774259"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "AppsMafia",
+    "publisher": "AppsMafia"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "2000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "io.codeterraform.game",
+        "pattern": "save_*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "io.codeterraform.game",
+        "pattern": "slot_*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "io.codeterraform.game",
+        "pattern": "training-progress.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
