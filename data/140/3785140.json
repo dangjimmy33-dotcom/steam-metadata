@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788914555,
+  "_lastChecked": 1788920224,
   "_history": [
     {
       "buildId": "21399439",
@@ -13,12 +13,25 @@
           "download": 16744979856
         }
       }
+    },
+    {
+      "buildId": "20991710",
+      "branch": "debug-game",
+      "timeUpdated": 1764440390,
+      "firstSeen": 1788920224,
+      "manifests": {
+        "3785141": {
+          "gid": "6178201865345848559",
+          "size": 17150439319,
+          "download": 16740871856
+        }
+      }
     }
   ],
-  "_change_number": 34977827,
+  "_change_number": 38712927,
   "_missing_token": false,
-  "_sha": "1d1d456c537158e8d65cf387284d759f34e8127a",
-  "_size": 4133,
+  "_sha": "4807dca3a8a66a0102d319774f7e502872c88f87",
+  "_size": 4404,
   "appid": "3785140",
   "common": {
     "aicontenttype": "1",
@@ -190,6 +203,11 @@
     },
     "3785141": {
       "manifests": {
+        "debug-game": {
+          "download": "16740871856",
+          "gid": "6178201865345848559",
+          "size": "17150439319"
+        },
         "public": {
           "download": "16744979856",
           "gid": "1504103076541220864",
@@ -198,6 +216,12 @@
       }
     },
     "branches": {
+      "debug-game": {
+        "buildid": "20991710",
+        "description": "testing",
+        "timebuildupdated": "1764440330",
+        "timeupdated": "1764440390"
+      },
       "public": {
         "buildid": "21399439",
         "timebuildupdated": "1767721264",

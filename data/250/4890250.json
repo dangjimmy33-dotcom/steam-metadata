@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788915695,
-  "_history": [],
-  "_change_number": 37253204,
-  "_missing_token": true,
-  "_sha": "33d1abde5247a67879ef227760c7ace83d0ebada",
-  "_size": 3072,
+  "_lastChecked": 1788921239,
+  "_history": [
+    {
+      "buildId": "24194425",
+      "branch": "public",
+      "timeUpdated": 1784034586,
+      "firstSeen": 1788921239,
+      "manifests": {
+        "4890251": {
+          "gid": "3000279999246005556",
+          "size": 231442160,
+          "download": 120385600
+        },
+        "4890252": {
+          "gid": "1526653110988928070",
+          "size": 196464912,
+          "download": 111937216
+        },
+        "4890253": {
+          "gid": "8075357674058478080",
+          "size": 295247869,
+          "download": 139460816
+        }
+      }
+    }
+  ],
+  "_change_number": 38713731,
+  "_missing_token": false,
+  "_sha": "ca7cc118f148e76730c0278d537dfe5597087fa9",
+  "_size": 5143,
   "appid": "4890250",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +55,8 @@
     },
     "clienticon": "c673669d554fa47de3ca7481f3ff6f590c6d9e58",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4890250",
     "genres": {
       "0": "1",
@@ -105,10 +129,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6aacd0f22e68664dedb1600b9d3633b8a21b7ab8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1783092433",
     "store_tags": {
       "0": "42804",
@@ -139,5 +164,117 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Suho",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "windows/Suho.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "linux/Suho.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "macos/Suho.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4890251": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "120385600",
+          "gid": "3000279999246005556",
+          "size": "231442160"
+        }
+      }
+    },
+    "4890252": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "111937216",
+          "gid": "1526653110988928070",
+          "size": "196464912"
+        }
+      }
+    },
+    "4890253": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "139460816",
+          "gid": "8075357674058478080",
+          "size": "295247869"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24194425",
+        "timebuildupdated": "1783998404",
+        "timeupdated": "1784034586"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hanamori Labs, LLC",
+    "homepage": "https://suhogame.com",
+    "publisher": "Hanamori Labs, LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "godot/app_userdata/Suho"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Suho",
+        "pattern": "meta.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Suho",
+        "pattern": "settings.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

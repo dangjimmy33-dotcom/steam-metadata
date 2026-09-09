@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788915056,
-  "_history": [],
-  "_change_number": 38709493,
-  "_missing_token": true,
-  "_sha": "0180d94cc01b06cff889188de390c280811a7a09",
-  "_size": 3935,
+  "_lastChecked": 1788920669,
+  "_history": [
+    {
+      "buildId": "25051315",
+      "branch": "public",
+      "timeUpdated": 1788240877,
+      "firstSeen": 1788920669,
+      "manifests": {
+        "4240131": {
+          "gid": "2386317503331090053",
+          "size": 737536396,
+          "download": 212660832
+        }
+      }
+    }
+  ],
+  "_change_number": 38713794,
+  "_missing_token": false,
+  "_sha": "0831e1f5e26e4d8fd67e8dc9d62d3f7efce93316",
+  "_size": 4830,
   "appid": "4240130",
   "common": {
     "associations": {
@@ -33,8 +47,8 @@
     },
     "clienticon": "d400b79446d063d2435830d0aa53b59674913190",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4240130",
     "genres": {
       "0": "1",
@@ -120,11 +134,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "87ccbd920d0f5ae207b3c16672727e1da920acf3/capsule_231x87.jpg",
       "japanese": "5f2d7be9dbd1763a59f9e63aa84328dacb1d556b/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1789398000",
     "store_asset_mtime": "1785984033",
     "store_tags": {
       "0": "122",
@@ -153,5 +168,47 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "エリームプリンスターズ",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows",
+          "ownsdlc": "1484292"
+        },
+        "executable": "エリームプリンスターズ/エリームプリンスターズ.exe",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4240131": {
+      "manifests": {
+        "public": {
+          "download": "212660832",
+          "gid": "2386317503331090053",
+          "size": "737536396"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "25051315",
+        "timebuildupdated": "1788240875",
+        "timeupdated": "1788240877"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "Making_Robot",
+    "publisher": "Making_Robot"
+  },
+  "ufs": {
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
 }

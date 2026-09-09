@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788915637,
+  "_lastChecked": 1788921187,
   "_history": [
     {
       "buildId": "25130115",
@@ -13,12 +13,25 @@
           "download": 230427088
         }
       }
+    },
+    {
+      "buildId": "25199258",
+      "branch": "public",
+      "timeUpdated": 1788919714,
+      "firstSeen": 1788921187,
+      "manifests": {
+        "4832361": {
+          "gid": "6392416196231971707",
+          "size": 511503542,
+          "download": 230059648
+        }
+      }
     }
   ],
-  "_change_number": 38632670,
+  "_change_number": 38713833,
   "_missing_token": false,
-  "_sha": "d26462e86a496d6f6326927a74c307c5b0bf871b",
-  "_size": 4450,
+  "_sha": "9ddde3bbbbfce57819d5e9667638d3fe968954ef",
+  "_size": 4485,
   "appid": "4832360",
   "common": {
     "aicontenttype": "1",
@@ -48,8 +61,7 @@
     "genres": {
       "0": "28",
       "1": "18",
-      "2": "2",
-      "3": "70"
+      "2": "2"
     },
     "header_image": {
       "english": "7d198974661e1d216c45ca1225f802f457c1ee90/header.jpg"
@@ -115,12 +127,12 @@
     "osarch": "64",
     "osextended": "",
     "oslist": "windows",
-    "primary_genre": "70",
+    "primary_genre": "28",
     "releasestate": "released",
     "small_capsule": {
       "english": "faf5b8356ed144d4656710e48b5d60ff5ca78a64/capsule_231x87.jpg"
     },
-    "steam_release_date": "1785172900",
+    "steam_release_date": "1788919943",
     "store_asset_mtime": "1786228154",
     "store_tags": {
       "0": "599",
@@ -141,6 +153,9 @@
     "supported_languages": {
       "english": {
         "full_audio": "true",
+        "supported": "true"
+      },
+      "schinese": {
         "supported": "true"
       }
     },
@@ -179,17 +194,17 @@
       },
       "manifests": {
         "public": {
-          "download": "230427088",
-          "gid": "2765443937318721333",
-          "size": "513036010"
+          "download": "230059648",
+          "gid": "6392416196231971707",
+          "size": "511503542"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25130115",
-        "timebuildupdated": "1788546065",
-        "timeupdated": "1788546123"
+        "buildid": "25199258",
+        "timebuildupdated": "1788919071",
+        "timeupdated": "1788919714"
       }
     },
     "privatebranches": "1"

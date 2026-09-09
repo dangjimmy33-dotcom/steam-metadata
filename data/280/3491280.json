@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788914240,
+  "_lastChecked": 1788919946,
   "_history": [
     {
       "buildId": "25109177",
@@ -126,11 +126,29 @@
           "download": 9679795296
         }
       }
+    },
+    {
+      "buildId": "25198310",
+      "branch": "beta",
+      "timeUpdated": 1788914395,
+      "firstSeen": 1788919946,
+      "manifests": {
+        "3491281": {
+          "gid": "431933864455774337",
+          "size": 25075687788,
+          "download": 9725203552
+        },
+        "3491282": {
+          "gid": "2078473429416267537",
+          "size": 24954456843,
+          "download": 9671521424
+        }
+      }
     }
   ],
-  "_change_number": 38712288,
+  "_change_number": 38712347,
   "_missing_token": false,
-  "_sha": "01526e8b7adff7c2aa5ca31a722357434329a858",
+  "_sha": "bb6fbf8958a5f70ed14c7ca9d582f753de139635",
   "_size": 7625,
   "appid": "3491280",
   "common": {
@@ -379,9 +397,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "9725175136",
-          "gid": "565442911503586556",
-          "size": "25075237100"
+          "download": "9725203552",
+          "gid": "431933864455774337",
+          "size": "25075687788"
         },
         "previous_version": {
           "download": "6298960032",
@@ -402,9 +420,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "9679795296",
-          "gid": "4784655270324526363",
-          "size": "24999307875"
+          "download": "9671521424",
+          "gid": "2078473429416267537",
+          "size": "24954456843"
         },
         "previous_version": {
           "download": "6239552448",
@@ -420,10 +438,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25194511",
+        "buildid": "25198310",
         "description": "test build (unstable)",
-        "timebuildupdated": "1788897228",
-        "timeupdated": "1788901449"
+        "timebuildupdated": "1788914164",
+        "timeupdated": "1788914395"
       },
       "previous_version": {
         "buildid": "23874629",

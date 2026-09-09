@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788915860,
-  "_history": [],
-  "_change_number": 38655456,
-  "_missing_token": true,
-  "_sha": "b7705f8253e5621b774414450e7e4d0e451e0578",
-  "_size": 5041,
+  "_lastChecked": 1788921386,
+  "_history": [
+    {
+      "buildId": "25159963",
+      "branch": "public",
+      "timeUpdated": 1788749522,
+      "firstSeen": 1788921386,
+      "manifests": {
+        "5074521": {
+          "gid": "1661146886971857610",
+          "size": 169090224,
+          "download": 121261920
+        }
+      }
+    }
+  ],
+  "_change_number": 38713597,
+  "_missing_token": false,
+  "_sha": "095f708e5f112b85a524898cc763578ca9d87a5f",
+  "_size": 5781,
   "appid": "5074520",
   "common": {
     "aicontenttype": "2",
@@ -31,8 +45,8 @@
     },
     "clienticon": "43aa17cd0ab5b8869a02d542f10e4681a2e25d7b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5074520",
     "genres": {
       "0": "1",
@@ -132,7 +146,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bd0252a7989756c49e4453e010ef46eb19ae78e2/capsule_231x87.jpg",
       "schinese": "bd0252a7989756c49e4453e010ef46eb19ae78e2/capsule_231x87_schinese.jpg"
@@ -166,5 +180,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "暗黑修个仙",
+    "launch": {
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5074521": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "121261920",
+          "gid": "1661146886971857610",
+          "size": "169090224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25159963",
+        "timebuildupdated": "1788749489",
+        "timeupdated": "1788749522"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "亦如小草",
+    "publisher": "亦如小草"
+  },
+  "ufs": {
+    "maxnumfiles": "32",
+    "quota": "104857600"
+  }
 }

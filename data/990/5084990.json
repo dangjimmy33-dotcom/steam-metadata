@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788915867,
-  "_history": [],
-  "_change_number": 38354931,
-  "_missing_token": true,
-  "_sha": "c99c356a592aadfb156426e37d912a3871a1063d",
-  "_size": 3123,
+  "_lastChecked": 1788921393,
+  "_history": [
+    {
+      "buildId": "24825357",
+      "branch": "public",
+      "timeUpdated": 1787168493,
+      "firstSeen": 1788921393,
+      "manifests": {
+        "5084991": {
+          "gid": "6541162235116268593",
+          "size": 193719138,
+          "download": 113688816
+        }
+      }
+    }
+  ],
+  "_change_number": 38712854,
+  "_missing_token": false,
+  "_sha": "a05f4e911fc5ca0c41edad6d130dff7f33b78074",
+  "_size": 3795,
   "appid": "5084990",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +43,8 @@
     },
     "clienticon": "e072fe07c82955c81b3c13cc9b546828944fba0e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5084990",
     "genres": {
       "0": "4",
@@ -103,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a0ba1075cae1fa51d0871e83b4aac82e9475ef08/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788916504",
     "store_asset_mtime": "1787170341",
     "store_tags": {
       "0": "599",
@@ -141,5 +156,41 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Underkeep",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Underkeep.exe"
+      }
+    }
+  },
+  "depots": {
+    "5084991": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "113688816",
+          "gid": "6541162235116268593",
+          "size": "193719138"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,spanish",
+    "branches": {
+      "public": {
+        "buildid": "24825357",
+        "timebuildupdated": "1787168469",
+        "timeupdated": "1787168493"
+      }
+    }
+  },
+  "extended": {
+    "developer": "chris lee",
+    "publisher": "LSH studio"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788910970,
+  "_lastChecked": 1788917116,
   "_history": [
     {
       "buildId": "2533126",
@@ -54,14 +54,33 @@
           "download": 65178512
         }
       }
+    },
+    {
+      "buildId": "25197541",
+      "branch": "public",
+      "timeUpdated": 1788913740,
+      "firstSeen": 1788917116,
+      "manifests": {
+        "783221": {
+          "gid": "6855151189718267111",
+          "size": 155,
+          "download": 176
+        },
+        "783224": {
+          "gid": "3107117976983516908",
+          "size": 139834202,
+          "download": 65178512
+        }
+      }
     }
   ],
-  "_change_number": 38711308,
+  "_change_number": 38712298,
   "_missing_token": false,
-  "_sha": "269f45033bbb481233416ef48936ccdcd74fd53b",
-  "_size": 4566,
+  "_sha": "ee718fb3fbd662bcb674e150d7873473314111cd",
+  "_size": 3433,
   "appid": "783220",
   "common": {
+    "aicontenttype": "1",
     "associations": {
       "0": {
         "name": "Vox Studios",
@@ -73,12 +92,12 @@
       }
     },
     "category": {
-      "category_16": "1",
       "category_2": "1",
       "category_22": "1",
       "category_62": "1"
     },
-    "clienticon": "8b06db262a52d1a2fdc999c9525709c089c3d93e",
+    "clienticns": "2fd811241501dcc35eafc41b2eb0d6d829a1e364",
+    "clienticon": "16456915b0626bf185ec5baa4755554c131c8d76",
     "clienttga": "bff439eb3f1bbb49978d55bc134c492db55ed522",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
@@ -89,9 +108,10 @@
       "2": "23"
     },
     "header_image": {
-      "english": "header.jpg"
+      "english": "5fbb8c3f22808f56d8dceb5174fff1c8f3111d52/header.jpg"
     },
-    "icon": "1df3b54182dcf205d6ed6b6d9285db21c22d3652",
+    "icon": "cf0220e3024bf7b9a2b56b48d6ba984237bc04e6",
+    "linuxclienticon": "9d041c8bc18337698b398ba7cd94d1e8789950a6",
     "logo": "1f9f26f96858d3816283fb6080048ccb19f03ee6",
     "logo_small": "1f9f26f96858d3816283fb6080048ccb19f03ee6_thumb",
     "metacritic_name": "Blockshock",
@@ -104,11 +124,11 @@
     "review_percentage": "11",
     "review_score": "3",
     "small_capsule": {
-      "english": "capsule_231x87.jpg"
+      "english": "ad9ba1ea255c3a90cd97530d85dbf58709824c9a/capsule_231x87.jpg"
     },
     "steam_release_date": "1517920338",
-    "store_asset_mtime": "1515779241",
-    "store_screenshot": "ss_ce11e87164d52e6e1a8fcdf76b0be4edad42ad17.jpg",
+    "store_asset_mtime": "1788912065",
+    "store_screenshot": "d14f5a20c59e63103264bc656bc06844df5ff047/ss_d14f5a20c59e63103264bc656bc06844df5ff047.jpg",
     "store_tags": {
       "0": "19",
       "1": "492",
@@ -119,93 +139,8 @@
       "6": "1625"
     },
     "supported_languages": {
-      "arabic": {
-        "full_audio": "true"
-      },
-      "brazilian": {
-        "full_audio": "true"
-      },
-      "bulgarian": {
-        "full_audio": "true"
-      },
-      "czech": {
-        "full_audio": "true"
-      },
-      "danish": {
-        "full_audio": "true"
-      },
-      "dutch": {
-        "full_audio": "true"
-      },
       "english": {
-        "full_audio": "true",
         "supported": "true"
-      },
-      "finnish": {
-        "full_audio": "true"
-      },
-      "french": {
-        "full_audio": "true"
-      },
-      "german": {
-        "full_audio": "true"
-      },
-      "greek": {
-        "full_audio": "true"
-      },
-      "hungarian": {
-        "full_audio": "true"
-      },
-      "italian": {
-        "full_audio": "true"
-      },
-      "japanese": {
-        "full_audio": "true"
-      },
-      "koreana": {
-        "full_audio": "true"
-      },
-      "latam": {
-        "full_audio": "true"
-      },
-      "norwegian": {
-        "full_audio": "true"
-      },
-      "polish": {
-        "full_audio": "true"
-      },
-      "portuguese": {
-        "full_audio": "true"
-      },
-      "romanian": {
-        "full_audio": "true"
-      },
-      "russian": {
-        "full_audio": "true"
-      },
-      "schinese": {
-        "full_audio": "true"
-      },
-      "spanish": {
-        "full_audio": "true"
-      },
-      "swedish": {
-        "full_audio": "true"
-      },
-      "tchinese": {
-        "full_audio": "true"
-      },
-      "thai": {
-        "full_audio": "true"
-      },
-      "turkish": {
-        "full_audio": "true"
-      },
-      "ukrainian": {
-        "full_audio": "true"
-      },
-      "vietnamese": {
-        "full_audio": "true"
       }
     },
     "type": "Game"
@@ -234,9 +169,9 @@
           "size": "43263282"
         },
         "public": {
-          "download": "13127728",
-          "gid": "578483504776067489",
-          "size": "43263282"
+          "download": "176",
+          "gid": "6855151189718267111",
+          "size": "155"
         },
         "rebuild-testing": {
           "download": "176",
@@ -261,9 +196,9 @@
           "size": "41585723"
         },
         "public": {
-          "download": "12598432",
-          "gid": "8653889132751660326",
-          "size": "41585723"
+          "download": "65178512",
+          "gid": "3107117976983516908",
+          "size": "139834202"
         },
         "rebuild-testing": {
           "download": "65178512",
@@ -280,9 +215,9 @@
         "timeupdated": "1518812432"
       },
       "public": {
-        "buildid": "2533126",
-        "timebuildupdated": "1518812432",
-        "timeupdated": "1518812432"
+        "buildid": "25197541",
+        "timebuildupdated": "1788910329",
+        "timeupdated": "1788913740"
       },
       "rebuild-testing": {
         "buildid": "25197541",
