@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788949890,
-  "_history": [],
-  "_change_number": 38613734,
-  "_missing_token": true,
-  "_sha": "c9c5bacf554289d280e6e7de49d3d42ae1d835d4",
-  "_size": 2895,
+  "_lastChecked": 1788955445,
+  "_history": [
+    {
+      "buildId": "25131120",
+      "branch": "public",
+      "timeUpdated": 1788550457,
+      "firstSeen": 1788955445,
+      "manifests": {
+        "4380281": {
+          "gid": "6994859736974258129",
+          "size": 144674960,
+          "download": 72129184
+        }
+      }
+    }
+  ],
+  "_change_number": 38725368,
+  "_missing_token": false,
+  "_sha": "a3a90a4953fc87b8ca8f0c62be1bf61cb3e47faf",
+  "_size": 3425,
   "appid": "4380280",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "c9789c7cc92b8ea1924f36317eb78dc1eec0b367",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4380280",
     "genres": {
       "0": "1",
@@ -96,10 +109,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "67eb7b4d25edb835aab1ae32563c996797e678df/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788952908",
     "store_asset_mtime": "1781041579",
     "store_tags": {
       "0": "42804",
@@ -132,5 +146,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Slay the Horde",
+    "launch": {
+      "0": {
+        "executable": "Slay The Horde.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4380281": {
+      "manifests": {
+        "public": {
+          "download": "72129184",
+          "gid": "6994859736974258129",
+          "size": "144674960"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25131120",
+        "timebuildupdated": "1788550455",
+        "timeupdated": "1788550457"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Regretware",
+    "publisher": "Regretware"
+  }
 }

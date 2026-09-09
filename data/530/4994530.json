@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788950420,
-  "_history": [],
-  "_change_number": 38720952,
-  "_missing_token": true,
-  "_sha": "459cf743b3a3773c1310a56d99dd9fec14327888",
-  "_size": 4652,
+  "_lastChecked": 1788955974,
+  "_history": [
+    {
+      "buildId": "25204146",
+      "branch": "public",
+      "timeUpdated": 1788942210,
+      "firstSeen": 1788955974,
+      "manifests": {
+        "4994532": {
+          "gid": "802897889263202802",
+          "size": 241120424,
+          "download": 142919952
+        },
+        "4994536": {
+          "gid": "2375593826160545963",
+          "size": 305919517,
+          "download": 162902640
+        },
+        "4994537": {
+          "gid": "1132948377362299744",
+          "size": 206066760,
+          "download": 134379584
+        }
+      }
+    }
+  ],
+  "_change_number": 38726276,
+  "_missing_token": false,
+  "_sha": "a81da8307491138a169a7dd867814b078cee9b84",
+  "_size": 6085,
   "appid": "4994530",
   "common": {
     "aicontenttype": "1",
@@ -41,9 +65,9 @@
     },
     "clienticon": "52be11022d3bc43c77dcc7efff327b88657e8799",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4994530",
     "genres": {
       "0": "23",
@@ -115,10 +139,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9ca9e36a4daca3e5fc25130049dbe2ff39c08630/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788955209",
     "store_asset_mtime": "1788909028",
     "store_tags": {
       "0": "599",
@@ -221,5 +246,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "KN_Tower",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "KN_Tower_win_x64_v0_1_0.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "KN_Tower_mac_silicon_v0_1_0.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "KN_Tower_linux_x64_v0_1_0.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4994532": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "142919952",
+          "gid": "802897889263202802",
+          "size": "241120424"
+        }
+      }
+    },
+    "4994536": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "162902640",
+          "gid": "2375593826160545963",
+          "size": "305919517"
+        }
+      }
+    },
+    "4994537": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "134379584",
+          "gid": "1132948377362299744",
+          "size": "206066760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25204146",
+        "timebuildupdated": "1788942210",
+        "timeupdated": "1788942210"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kricom Network",
+    "homepage": "https://kricom.de/kn_tower",
+    "publisher": "KN GameStudios"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000"
+  }
 }

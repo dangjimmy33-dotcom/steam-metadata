@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788948910,
+  "_lastChecked": 1788954473,
   "_history": [
     {
       "buildId": "25139307",
@@ -26,12 +26,30 @@
           "download": 855539280
         }
       }
+    },
+    {
+      "buildId": "25206786",
+      "branch": "public",
+      "timeUpdated": 1788951440,
+      "firstSeen": 1788954473,
+      "manifests": {
+        "3365431": {
+          "gid": "5268442043820775786",
+          "size": 1053501861,
+          "download": 855555392
+        },
+        "3365432": {
+          "gid": "8158619615798228153",
+          "size": 1053454508,
+          "download": 869299520
+        }
+      }
     }
   ],
-  "_change_number": 38711093,
+  "_change_number": 38724851,
   "_missing_token": false,
-  "_sha": "9695d91d0a349070f2d6bd8d47b88ea87b248f5b",
-  "_size": 4487,
+  "_sha": "005d4a6d0002aff074b249a3d7d87281c159e55c",
+  "_size": 4766,
   "appid": "3365430",
   "common": {
     "aicontenttype": "1",
@@ -158,6 +176,10 @@
       "9": "4747"
     },
     "supported_languages": {
+      "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "japanese": {
         "subtitles": "true",
         "supported": "true"
@@ -180,19 +202,31 @@
   },
   "depots": {
     "3365431": {
+      "config": {
+        "language": "japanese"
+      },
       "manifests": {
         "public": {
-          "download": "855539280",
-          "gid": "2673709573081529373",
-          "size": "1053479545"
+          "download": "855555392",
+          "gid": "5268442043820775786",
+          "size": "1053501861"
+        }
+      }
+    },
+    "3365432": {
+      "manifests": {
+        "public": {
+          "download": "869299520",
+          "gid": "8158619615798228153",
+          "size": "1053454508"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25197421",
-        "timebuildupdated": "1788909729",
-        "timeupdated": "1788909749"
+        "buildid": "25206786",
+        "timebuildupdated": "1788951424",
+        "timeupdated": "1788951440"
       }
     }
   },

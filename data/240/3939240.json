@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788949471,
+  "_lastChecked": 1788955030,
   "_history": [
     {
       "buildId": "19974588",
@@ -13,12 +13,25 @@
           "download": 58015888
         }
       }
+    },
+    {
+      "buildId": "25207565",
+      "branch": "public",
+      "timeUpdated": 1788954313,
+      "firstSeen": 1788955030,
+      "manifests": {
+        "3939241": {
+          "gid": "4269852466854274590",
+          "size": 82438410,
+          "download": 43313632
+        }
+      }
     }
   ],
-  "_change_number": 37666666,
+  "_change_number": 38725977,
   "_missing_token": false,
-  "_sha": "0c6f99829f35856db8de522433fd3aa35ce042c4",
-  "_size": 3714,
+  "_sha": "6511efd4fb65452ee4a7d40f9188cef5c6b5cf69",
+  "_size": 3831,
   "appid": "3939240",
   "common": {
     "associations": {
@@ -168,20 +181,27 @@
     }
   },
   "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
     "3939241": {
       "manifests": {
         "public": {
-          "download": "58015888",
-          "gid": "4168407324232473474",
-          "size": "92061982"
+          "download": "43313632",
+          "gid": "4269852466854274590",
+          "size": "82438410"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "19974588",
-        "timebuildupdated": "1757846625",
-        "timeupdated": "1757846711"
+        "buildid": "25207565",
+        "timebuildupdated": "1788954170",
+        "timeupdated": "1788954313"
       }
     }
   },

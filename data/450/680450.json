@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788946097,
+  "_lastChecked": 1788951678,
   "_history": [
     {
       "buildId": "2081598",
@@ -31,12 +31,30 @@
           "download": 267207472
         }
       }
+    },
+    {
+      "buildId": "25205610",
+      "branch": "public",
+      "timeUpdated": 1788947320,
+      "firstSeen": 1788951678,
+      "manifests": {
+        "680451": {
+          "gid": "5943245018773791483",
+          "size": 50252368,
+          "download": 36800368
+        },
+        "680452": {
+          "gid": "7756003620522742150",
+          "size": 302557575,
+          "download": 267207936
+        }
+      }
     }
   ],
-  "_change_number": 38721909,
+  "_change_number": 38723044,
   "_missing_token": false,
-  "_sha": "6d335b7a86a60958725ba24f42ae3c932ca3a410",
-  "_size": 2230,
+  "_sha": "27bdb65419240e30e1e42d301bf7cac595fd71f7",
+  "_size": 2323,
   "appid": "680450",
   "common": {
     "associations": {
@@ -106,6 +124,10 @@
         "type": "default"
       },
       "1": {
+        "description": "DAMN 2026",
+        "description_loc": {
+          "english": "DAMN 2026"
+        },
         "executable": "DAMN_2026.exe"
       }
     }
@@ -126,17 +148,17 @@
       },
       "manifests": {
         "public": {
-          "download": "267207472",
-          "gid": "1330979170193078899",
-          "size": "302555527"
+          "download": "267207936",
+          "gid": "7756003620522742150",
+          "size": "302557575"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25204800",
-        "timebuildupdated": "1788944584",
-        "timeupdated": "1788944584"
+        "buildid": "25205610",
+        "timebuildupdated": "1788947320",
+        "timeupdated": "1788947320"
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788948333,
+  "_lastChecked": 1788953899,
   "_history": [
     {
       "buildId": "24310900",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38710163,
+  "_change_number": 38723950,
   "_missing_token": false,
-  "_sha": "15f629bc220dc55429dfd0dc0d682879c00595c1",
-  "_size": 7454,
+  "_sha": "716336192b3cbdfcf9c60ecca113217be9d4a589",
+  "_size": 7803,
   "appid": "2780710",
   "common": {
     "associations": {
@@ -335,11 +335,23 @@
         },
         "root": "WinAppDataLocal",
         "useinstead": "LinuxHome"
+      },
+      "1": {
+        "addpath": ".local/share/Steam/steamapps/compatdata/2780710/pfx/drive_c/users/steamuser/AppData/Local/AsgardsFall/Save Files",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxHome"
       }
     },
     "savefiles": {
       "0": {
         "path": "AsgardsFall/Saves",
+        "pattern": "*",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "AsgardsFall/Save Files",
         "pattern": "*",
         "root": "WinAppDataLocal"
       }

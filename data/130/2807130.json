@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788948358,
+  "_lastChecked": 1788953924,
   "_history": [
     {
       "buildId": "23043344",
@@ -36,12 +36,58 @@
           "download": 254855504
         }
       }
+    },
+    {
+      "buildId": "25207281",
+      "branch": "beta",
+      "timeUpdated": 1788953140,
+      "firstSeen": 1788953924,
+      "manifests": {
+        "2807131": {
+          "gid": "1883570295650854069",
+          "size": 597109271,
+          "download": 273618480
+        },
+        "2807132": {
+          "gid": "2915516578572059495",
+          "size": 521071000,
+          "download": 253646960
+        },
+        "2807133": {
+          "gid": "1768674351972856587",
+          "size": 505494192,
+          "download": 248354832
+        }
+      }
+    },
+    {
+      "buildId": "25207097",
+      "branch": "public",
+      "timeUpdated": 1788952828,
+      "firstSeen": 1788953924,
+      "manifests": {
+        "2807131": {
+          "gid": "1883570295650854069",
+          "size": 597109271,
+          "download": 273618480
+        },
+        "2807132": {
+          "gid": "2915516578572059495",
+          "size": 521071000,
+          "download": 253646960
+        },
+        "2807133": {
+          "gid": "1768674351972856587",
+          "size": 505494192,
+          "download": 248354832
+        }
+      }
     }
   ],
-  "_change_number": 38581007,
+  "_change_number": 38725459,
   "_missing_token": false,
-  "_sha": "2807995857b8a332d2ceea54df80ca2e9bcf8d74",
-  "_size": 5171,
+  "_sha": "663a5dc661fae0f5fea7d43dfb7c1569f094ae36",
+  "_size": 5543,
   "appid": "2807130",
   "common": {
     "associations": {
@@ -190,14 +236,21 @@
         "config": {
           "oslist": "windows"
         },
-        "executable": "game.exe",
+        "executable": "ReforgeFront.exe",
         "type": "default"
       },
       "1": {
         "config": {
           "oslist": "macos"
         },
-        "executable": "game.app/Contents/MacOS/game",
+        "executable": "ReforgeFront.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "ReforgeFront.x86_64",
         "type": "default"
       }
     }
@@ -209,14 +262,14 @@
       },
       "manifests": {
         "beta": {
-          "download": "274827024",
-          "gid": "5505168795654972791",
-          "size": "598277799"
+          "download": "273618480",
+          "gid": "1883570295650854069",
+          "size": "597109271"
         },
         "public": {
-          "download": "274827024",
-          "gid": "5505168795654972791",
-          "size": "598277799"
+          "download": "273618480",
+          "gid": "1883570295650854069",
+          "size": "597109271"
         }
       }
     },
@@ -226,34 +279,46 @@
       },
       "manifests": {
         "beta": {
-          "download": "254855504",
-          "gid": "2823066745951566080",
-          "size": "522239528"
+          "download": "253646960",
+          "gid": "2915516578572059495",
+          "size": "521071000"
         },
         "public": {
-          "download": "254855504",
-          "gid": "2823066745951566080",
-          "size": "522239528"
+          "download": "253646960",
+          "gid": "2915516578572059495",
+          "size": "521071000"
         }
       }
     },
     "2807133": {
       "config": {
         "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "248354832",
+          "gid": "1768674351972856587",
+          "size": "505494192"
+        },
+        "public": {
+          "download": "248354832",
+          "gid": "1768674351972856587",
+          "size": "505494192"
+        }
       }
     },
     "baselanguages": "english",
     "branches": {
       "beta": {
-        "buildid": "23043344",
+        "buildid": "25207281",
         "description": "Public beta branch",
-        "timebuildupdated": "1777622863",
-        "timeupdated": "1777622863"
+        "timebuildupdated": "1788953140",
+        "timeupdated": "1788953140"
       },
       "public": {
-        "buildid": "23030873",
-        "timebuildupdated": "1777557261",
-        "timeupdated": "1777557435"
+        "buildid": "25207097",
+        "timebuildupdated": "1788952575",
+        "timeupdated": "1788952828"
       }
     },
     "hasdepotsindlc": "0"

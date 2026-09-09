@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788950175,
-  "_history": [],
-  "_change_number": 38692731,
-  "_missing_token": true,
-  "_sha": "2ee04087075a453bf5869c872c9febd6650da438",
-  "_size": 3687,
+  "_lastChecked": 1788955730,
+  "_history": [
+    {
+      "buildId": "25184064",
+      "branch": "public",
+      "timeUpdated": 1788860966,
+      "firstSeen": 1788955730,
+      "manifests": {
+        "4698531": {
+          "gid": "4401510910124558679",
+          "size": 2380283968,
+          "download": 586036320
+        }
+      }
+    }
+  ],
+  "_change_number": 38724845,
+  "_missing_token": false,
+  "_sha": "66ac5c35070d5cdaf3178c174b4d960f2b1ccaae",
+  "_size": 4368,
   "appid": "4698530",
   "common": {
     "aicontenttype": "1",
@@ -28,7 +42,6 @@
     "clienticon": "bea71e86d84edd40479d7af9d75362246e30699a",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4698530",
     "genres": {
       "0": "23"
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "81608fc140b107314687846f86182cad87f62a37/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1778205571",
     "store_tags": {
       "0": "122",
@@ -160,5 +174,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mortumn Quest",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Mortumn Quest.exe"
+      }
+    }
+  },
+  "depots": {
+    "4698531": {
+      "manifests": {
+        "public": {
+          "download": "586036320",
+          "gid": "4401510910124558679",
+          "size": "2380283968"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,thai",
+    "branches": {
+      "public": {
+        "buildid": "25184064",
+        "timebuildupdated": "1788860834",
+        "timeupdated": "1788860966"
+      }
+    }
+  },
+  "extended": {
+    "developer": "MLD Game",
+    "homepage": "https://melodevv.itch.io/mortumn-quest",
+    "publisher": "MLD Game"
+  }
 }

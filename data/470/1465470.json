@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788946935,
+  "_lastChecked": 1788952509,
   "_history": [
     {
       "buildId": "23689919",
@@ -67,10 +67,10 @@
       }
     }
   ],
-  "_change_number": 38702081,
+  "_change_number": 38723386,
   "_missing_token": false,
-  "_sha": "88466e03c6be1154f21e9db7953a4bd7a312aa19",
-  "_size": 9118,
+  "_sha": "181888d377915bceb7755ce9598d4fa2dba5900a",
+  "_size": 9593,
   "appid": "1465470",
   "common": {
     "associations": {
@@ -360,6 +360,13 @@
         },
         "executable": "TheCrust-Mac-Shipping.app",
         "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "TheCrust.sh",
+        "type": "default"
       }
     },
     "steamcontrollertouchtemplateindex": "9",
@@ -403,6 +410,11 @@
         "oslist": "macos"
       },
       "manifests": {}
+    },
+    "1465473": {
+      "config": {
+        "oslist": "linux"
+      }
     },
     "228989": {
       "config": {
@@ -463,6 +475,20 @@
   "ufs": {
     "maxnumfiles": "10000",
     "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "TheCrust/Saved/SaveGames",
+            "replace": "Epic/TheCrust/Saved/SaveGames"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "TheCrust/Saved/SaveGames",

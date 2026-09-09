@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788950146,
-  "_history": [],
-  "_change_number": 38722657,
-  "_missing_token": true,
-  "_sha": "76b7b59a6961f6b3927f0d4ec51e74548a5e2785",
-  "_size": 3341,
+  "_lastChecked": 1788955700,
+  "_history": [
+    {
+      "buildId": "25207053",
+      "branch": "public",
+      "timeUpdated": 1788952468,
+      "firstSeen": 1788955700,
+      "manifests": {
+        "4664471": {
+          "gid": "1995341774766914601",
+          "size": 136799352,
+          "download": 59359040
+        }
+      }
+    }
+  ],
+  "_change_number": 38726330,
+  "_missing_token": false,
+  "_sha": "ffad6e7f1b74022b1ec4dcf5c001e2933a326843",
+  "_size": 4403,
   "appid": "4664470",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     },
     "clienticon": "7b7b97113013cc0319b2dbc3756878e458f58e47",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4664470",
     "genres": {
       "0": "23",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "86f33f052639f90a92b9813b8ba18868a58f6020/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788955277",
     "store_asset_mtime": "1788946301",
     "store_tags": {
       "0": "560542",
@@ -155,5 +170,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bookstore Incremental",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Bookstore Incremental.exe"
+      }
+    }
+  },
+  "depots": {
+    "4664471": {
+      "manifests": {
+        "public": {
+          "download": "59359040",
+          "gid": "1995341774766914601",
+          "size": "136799352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25207053",
+        "timebuildupdated": "1788952423",
+        "timeupdated": "1788952468"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Exaeryth",
+    "publisher": "Exaeryth"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "40000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot\\app_userdata\\Bookstore Incremental",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": ".local/share/godot/app_userdata/Bookstore Incremental",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788950461,
-  "_history": [],
-  "_change_number": 38724104,
-  "_missing_token": true,
-  "_sha": "ea46304472c31b822beed2f09b44655f3c6ae781",
-  "_size": 3614,
+  "_lastChecked": 1788956015,
+  "_history": [
+    {
+      "buildId": "25206055",
+      "branch": "public",
+      "timeUpdated": 1788953927,
+      "firstSeen": 1788956015,
+      "manifests": {
+        "5049981": {
+          "gid": "1661639069991498872",
+          "size": 136126133,
+          "download": 60537200
+        }
+      }
+    }
+  ],
+  "_change_number": 38725858,
+  "_missing_token": false,
+  "_sha": "812b9c7a611fa768ffec26ef3b1ad0430ed1e0fe",
+  "_size": 4546,
   "appid": "5049980",
   "common": {
     "aicontenttype": "1",
@@ -21,13 +35,18 @@
     "category": {
       "category_18": "1",
       "category_2": "1",
-      "category_62": "1"
+      "category_62": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_75": "1",
+      "category_76": "1",
+      "category_77": "1"
     },
     "clienticon": "c4680f0cf39db64280abf3c6fbf940c2ec5fd1e1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5049980",
     "genres": {
       "0": "4",
@@ -98,7 +117,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d1d48c65a57ff9f90054ba9235017d9364df65fe/capsule_231x87.jpg"
     },
@@ -173,5 +192,51 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Banana Game",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BananaGame.exe"
+      }
+    }
+  },
+  "depots": {
+    "5049981": {
+      "manifests": {
+        "public": {
+          "download": "60537200",
+          "gid": "1661639069991498872",
+          "size": "136126133"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25206055",
+        "timebuildupdated": "1788948908",
+        "timeupdated": "1788953927"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Mainu Studio",
+    "publisher": "Mainu Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Banana Game/steam/{64BitSteamID}",
+        "pattern": "progress.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
