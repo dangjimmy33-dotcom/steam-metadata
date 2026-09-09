@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788922651,
+  "_lastChecked": 1788928200,
   "_history": [
     {
       "buildId": "2533126",
@@ -72,12 +72,58 @@
           "download": 65178512
         }
       }
+    },
+    {
+      "buildId": "25200109",
+      "branch": "public",
+      "timeUpdated": 1788923823,
+      "firstSeen": 1788928200,
+      "manifests": {
+        "783221": {
+          "gid": "6855151189718267111",
+          "size": 155,
+          "download": 176
+        },
+        "783224": {
+          "gid": "3107117976983516908",
+          "size": 139834202,
+          "download": 65178512
+        },
+        "783226": {
+          "gid": "4397826300561347636",
+          "size": 106979330,
+          "download": 57114992
+        }
+      }
+    },
+    {
+      "buildId": "25200109",
+      "branch": "rebuild-testing",
+      "timeUpdated": 1788923436,
+      "firstSeen": 1788928200,
+      "manifests": {
+        "783221": {
+          "gid": "6855151189718267111",
+          "size": 155,
+          "download": 176
+        },
+        "783224": {
+          "gid": "3107117976983516908",
+          "size": 139834202,
+          "download": 65178512
+        },
+        "783226": {
+          "gid": "4397826300561347636",
+          "size": 106979330,
+          "download": 57114992
+        }
+      }
     }
   ],
-  "_change_number": 38714174,
+  "_change_number": 38715286,
   "_missing_token": false,
-  "_sha": "6bc737b7390041ca6c3a40a7fc9f300e4f6745ee",
-  "_size": 4864,
+  "_sha": "30fa082a1edea6e8fe37137391d9ab493a3947a7",
+  "_size": 5580,
   "appid": "783220",
   "common": {
     "aicontenttype": "1",
@@ -174,7 +220,8 @@
     "name": "Blockshock",
     "original_release_date": "1517904000",
     "osarch": "",
-    "oslist": "windows",
+    "osextended": "",
+    "oslist": "windows,linux",
     "primary_genre": "23",
     "releasestate": "released",
     "review_percentage": "11",
@@ -208,6 +255,22 @@
           "oslist": "windows"
         },
         "executable": "Block Shock.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-- --steam",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "BlockShock.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "-- --steam",
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Blockshock.app",
         "type": "default"
       }
     }
@@ -262,6 +325,28 @@
         }
       }
     },
+    "783225": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "783226": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "57114992",
+          "gid": "4397826300561347636",
+          "size": "106979330"
+        },
+        "rebuild-testing": {
+          "download": "57114992",
+          "gid": "4397826300561347636",
+          "size": "106979330"
+        }
+      }
+    },
     "branches": {
       "legacy-2018": {
         "buildid": "2533126",
@@ -270,15 +355,15 @@
         "timeupdated": "1518812432"
       },
       "public": {
-        "buildid": "25197541",
-        "timebuildupdated": "1788910329",
-        "timeupdated": "1788913740"
+        "buildid": "25200109",
+        "timebuildupdated": "1788923436",
+        "timeupdated": "1788923823"
       },
       "rebuild-testing": {
-        "buildid": "25197541",
+        "buildid": "25200109",
         "description": "Blockshock rebuild preview - Windows",
-        "timebuildupdated": "1788910329",
-        "timeupdated": "1788910486"
+        "timebuildupdated": "1788923436",
+        "timeupdated": "1788923436"
       }
     }
   },

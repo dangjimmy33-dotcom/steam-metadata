@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788922411,
+  "_lastChecked": 1788927961,
   "_history": [
     {
       "buildId": "1418041",
@@ -48,10 +48,10 @@
       }
     }
   ],
-  "_change_number": 38500525,
+  "_change_number": 38715785,
   "_missing_token": false,
-  "_sha": "a0e46adc24537eabfda40a9f77ad31675f2d5aae",
-  "_size": 7360,
+  "_sha": "873debb48e9202eea6a23ceec8d988ae91fba879",
+  "_size": 8205,
   "appid": "545030",
   "common": {
     "associations": {
@@ -360,5 +360,45 @@
     "developer": "GameChanger Studio",
     "homepage": "https://gamechangerstudio.net/games/detail/nsfw-not-a-simulator-for-working/6",
     "publisher": "GameChanger Studio"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "GameChanger Studio/NSFW",
+            "replace": "GameChanger Studio/NSFW"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "GameChanger Studio/NSFW",
+            "replace": ".config/unity3d/GameChanger Studio/NSFW"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "GameChanger Studio/NSFW",
+        "pattern": "save_progress.nsfw",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }

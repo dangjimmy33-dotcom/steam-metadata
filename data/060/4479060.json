@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788926416,
-  "_history": [],
-  "_change_number": 38637787,
-  "_missing_token": true,
-  "_sha": "bf6d2ffa585b842e6d3c9449049040af57206be8",
-  "_size": 2734,
+  "_lastChecked": 1788931954,
+  "_history": [
+    {
+      "buildId": "25147742",
+      "branch": "public",
+      "timeUpdated": 1788660986,
+      "firstSeen": 1788931954,
+      "manifests": {
+        "4479061": {
+          "gid": "3244223252666810330",
+          "size": 2362537748,
+          "download": 2140156160
+        }
+      }
+    }
+  ],
+  "_change_number": 38715989,
+  "_missing_token": false,
+  "_sha": "4817f2698b4082fa03334c5d14fa9fe31f116d49",
+  "_size": 3691,
   "appid": "4479060",
   "common": {
     "associations": {
@@ -24,6 +38,7 @@
     },
     "clienticon": "e90b93fafe7f938798134d3454f51437fab4b339",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -33,7 +48,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4479060",
     "genres": {
       "0": "1",
@@ -95,10 +109,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2eb0168bb274267730dc4704ca099408412f660b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788926519",
     "store_asset_mtime": "1772580249",
     "store_tags": {
       "0": "19",
@@ -126,5 +141,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Iron Wasteland",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Iron_Wasteland.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4479061": {
+      "manifests": {
+        "public": {
+          "download": "2140156160",
+          "gid": "3244223252666810330",
+          "size": "2362537748"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25147742",
+        "timebuildupdated": "1788660965",
+        "timeupdated": "1788660986"
+      }
+    }
+  },
+  "extended": {
+    "developer": " PhantomCore Studio",
+    "homepage": "https://www.patreon.com/c/phantomcorestudio/posts",
+    "publisher": " PhantomCore Publisher"
+  }
 }

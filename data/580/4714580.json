@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788926630,
-  "_history": [],
-  "_change_number": 38421858,
-  "_missing_token": true,
-  "_sha": "f9e74bc252d3711c19d2c96f7f86931dd65ef96f",
-  "_size": 3049,
+  "_lastChecked": 1788932169,
+  "_history": [
+    {
+      "buildId": "25001190",
+      "branch": "public",
+      "timeUpdated": 1787953154,
+      "firstSeen": 1788932169,
+      "manifests": {
+        "4714581": {
+          "gid": "7787733743650610661",
+          "size": 17515931,
+          "download": 8963072
+        },
+        "4714582": {
+          "gid": "4455859723884429997",
+          "size": 10088904,
+          "download": 8133872
+        }
+      }
+    }
+  ],
+  "_change_number": 38716065,
+  "_missing_token": false,
+  "_sha": "a664a13d35d64bae9cd328a74ee526d8e55597c8",
+  "_size": 4109,
   "appid": "4714580",
   "common": {
     "associations": {
@@ -29,8 +48,8 @@
     "clienticns": "f7ab791f722183126182f4fd4e7ede4c767d1c5e",
     "clienticon": "9529f8ef6b2a6bf575f2921b43a69378f33ba3c1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4714580",
     "genres": {
       "0": "23",
@@ -102,7 +121,7 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "54f4943a1724158eaaf83913a04145b3eda6045e/capsule_231x87.jpg"
     },
@@ -133,5 +152,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "NavalStrike",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Naval Strike.app",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "NavalStrike.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4714581": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "8963072",
+          "gid": "7787733743650610661",
+          "size": "17515931"
+        }
+      }
+    },
+    "4714582": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "8133872",
+          "gid": "4455859723884429997",
+          "size": "10088904"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25001190",
+        "timebuildupdated": "1787952710",
+        "timeupdated": "1787953154"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Tencubed Games",
+    "homepage": "http://www.tencubedgames.com/navalstrike",
+    "publisher": "Tencubed Games"
+  }
 }
