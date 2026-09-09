@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788937300,
-  "_history": [],
-  "_change_number": 38718625,
-  "_missing_token": true,
-  "_sha": "8c7e76829a89341397e3b57c97ee6582135c493c",
-  "_size": 5299,
+  "_lastChecked": 1788943746,
+  "_history": [
+    {
+      "buildId": "25202965",
+      "branch": "public",
+      "timeUpdated": 1788939935,
+      "firstSeen": 1788943746,
+      "manifests": {
+        "3971951": {
+          "gid": "1579662376776658587",
+          "size": 7596869519,
+          "download": 7192976592
+        }
+      }
+    }
+  ],
+  "_change_number": 38720273,
+  "_missing_token": false,
+  "_sha": "0b0ddbfb3f1d41d636ac76f6d8eb77e2e4d36267",
+  "_size": 6752,
   "appid": "3971950",
   "common": {
     "associations": {
@@ -29,6 +43,7 @@
     },
     "clienticon": "379612c7988929e407319eddec61d2e6aaf52ed1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -38,7 +53,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "3971950",
     "genres": {
       "0": "1",
@@ -115,7 +129,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "66a587ac94f822cbe272f6cbf3b0ec9d1a344947/capsule_231x87.jpg"
     },
@@ -180,7 +194,8 @@
         }
       }
     },
-    "store_asset_mtime": "1788539075",
+    "steam_release_date": "1788940566",
+    "store_asset_mtime": "1788935359",
     "store_tags": {
       "0": "1752",
       "1": "1621",
@@ -224,5 +239,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "In Falsus",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "infalsus.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3971951": {
+      "manifests": {
+        "public": {
+          "download": "7192976592",
+          "gid": "1579662376776658587",
+          "size": "7596869519"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25202965",
+        "timebuildupdated": "1788937894",
+        "timeupdated": "1788939935"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "lowiro",
+    "homepage": "https://infalsus.lowiro.com/",
+    "publisher": "lowiro"
+  },
+  "ufs": {
+    "maxnumfiles": "512",
+    "quota": "16777216",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "lowiro/infalsus",
+            "replace": ".config/unity3d/lowiro/infalsus"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "lowiro/infalsus/{64BitSteamID}",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

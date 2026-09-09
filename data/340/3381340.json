@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788936685,
-  "_history": [],
-  "_change_number": 38532110,
-  "_missing_token": true,
-  "_sha": "3cafee151b71bf045463f534b39fe5c4d6ffb383",
-  "_size": 3439,
+  "_lastChecked": 1788943065,
+  "_history": [
+    {
+      "buildId": "24752740",
+      "branch": "public",
+      "timeUpdated": 1786867378,
+      "firstSeen": 1788943065,
+      "manifests": {
+        "3381341": {
+          "gid": "4428804506275774751",
+          "size": 4821126881,
+          "download": 1127299216
+        },
+        "3381342": {
+          "gid": "1076255450885650265",
+          "size": 6209781623,
+          "download": 2521334864
+        },
+        "3381343": {
+          "gid": "3074601545283600051",
+          "size": 4800582466,
+          "download": 1116419728
+        }
+      }
+    }
+  ],
+  "_change_number": 38719077,
+  "_missing_token": false,
+  "_sha": "74a15e3f0f9f3d7cc868e06dc21ab022359e9d7a",
+  "_size": 4852,
   "appid": "3381340",
   "common": {
     "associations": {
@@ -18,13 +42,7 @@
       }
     },
     "category": {
-      "category_18": "1",
       "category_2": "1",
-      "category_55": "1",
-      "category_56": "1",
-      "category_57": "1",
-      "category_58": "1",
-      "category_60": "1",
       "category_62": "1",
       "category_68": "1",
       "category_78": "1",
@@ -34,9 +52,7 @@
     "clienticon": "c14eed71be9b1aec232bd7bafab30c5f7c1783ae",
     "clienttga": "9f5a3a2673e8153faadfbb27cab11098054a9338",
     "community_hub_visible": "1",
-    "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3381340",
     "genres": {
       "0": "4",
@@ -114,7 +130,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "748cf20e9495b69d7d787e8b7d2a4892fe7e9998/capsule_231x87.jpg"
     },
@@ -141,5 +157,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TransGenDeer",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "TransGenDeer.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "TransGenDeer Mac OS",
+        "description_loc": {
+          "english": "TransGenDeer Mac OS"
+        },
+        "executable": "TransGenDeer.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "TransGenDeer_Lin.x86_64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "7",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3381341": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1127299216",
+          "gid": "4428804506275774751",
+          "size": "4821126881"
+        }
+      }
+    },
+    "3381342": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2521334864",
+          "gid": "1076255450885650265",
+          "size": "6209781623"
+        }
+      }
+    },
+    "3381343": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1116419728",
+          "gid": "3074601545283600051",
+          "size": "4800582466"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "24752740",
+        "timebuildupdated": "1786809188",
+        "timeupdated": "1786867378"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Bernhard Diemer",
+    "homepage": "https://deerestgames.info",
+    "publisher": "DeerestGames"
+  }
 }

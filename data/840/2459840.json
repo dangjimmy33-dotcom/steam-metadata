@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788935716,
-  "_history": [],
-  "_change_number": 38663695,
-  "_missing_token": true,
-  "_sha": "e1186c304c6f86ade0d03b9d317009b63e43980f",
-  "_size": 3754,
+  "_lastChecked": 1788941977,
+  "_history": [
+    {
+      "buildId": "23059095",
+      "branch": "public",
+      "timeUpdated": 1777734127,
+      "firstSeen": 1788941977,
+      "manifests": {
+        "2459841": {
+          "gid": "4816238907067727217",
+          "size": 6310741200,
+          "download": 597524432
+        }
+      }
+    }
+  ],
+  "_change_number": 38719348,
+  "_missing_token": false,
+  "_sha": "61a1d66e1a65af54d07c5f232905c38087f8ed6c",
+  "_size": 4361,
   "appid": "2459840",
   "common": {
     "associations": {
@@ -34,6 +48,7 @@
     "clienticon": "e12ece926d751f7ebb8808d0a6b792099f414f16",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -44,7 +59,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2459840",
     "genres": {
       "0": "1",
@@ -123,10 +137,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c7d15829234d195e0e3bebe581c9ba5d2144c815/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788938140",
     "store_asset_mtime": "1780988585",
     "store_tags": {
       "0": "1628",
@@ -174,5 +189,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Barbarian Saga The Beastmaster",
+    "launch": {
+      "0": {
+        "executable": "Barbarian Saga The Beastmaster.exe"
+      }
+    }
+  },
+  "depots": {
+    "2459841": {
+      "manifests": {
+        "public": {
+          "download": "597524432",
+          "gid": "4816238907067727217",
+          "size": "6310741200"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "23059095",
+        "timebuildupdated": "1777734051",
+        "timeupdated": "1777734127"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Dormidin Studio",
+    "publisher": "Selecta Play"
+  }
 }

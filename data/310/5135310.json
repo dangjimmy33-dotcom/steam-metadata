@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788938371,
-  "_history": [],
-  "_change_number": 38715867,
-  "_missing_token": true,
-  "_sha": "dc30096fbd50ce609406c902a0e6c8cfd1a06513",
-  "_size": 4467,
+  "_lastChecked": 1788944929,
+  "_history": [
+    {
+      "buildId": "25204707",
+      "branch": "public",
+      "timeUpdated": 1788944259,
+      "firstSeen": 1788944929,
+      "manifests": {
+        "5135311": {
+          "gid": "1608428596282493022",
+          "size": 1420015099,
+          "download": 1280018736
+        }
+      }
+    }
+  ],
+  "_change_number": 38721810,
+  "_missing_token": false,
+  "_sha": "e6562086cd553ed1bb869276f224915dd7b7554b",
+  "_size": 5586,
   "appid": "5135310",
   "common": {
     "aicontenttype": "1",
@@ -29,6 +43,7 @@
     },
     "clienticon": "1ebaa7e01e6e5a18a3023f903ed5837c0c501428",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -38,7 +53,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5135310",
     "genres": {
       "0": "25",
@@ -131,11 +145,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5eda0d97c51093883864df54a13e82c584cffec8/capsule_231x87.jpg",
       "schinese": "35d2cc469c89b9a868476e7c0f916d3ba7c976a6/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787306002",
     "store_tags": {
       "0": "597",
@@ -170,5 +185,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Frontier Ballad Tang Warden (边关长歌：大唐卫)",
+    "launch": {
+      "0": {
+        "executable": "FrontierBallad.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5135311": {
+      "manifests": {
+        "public": {
+          "download": "1280018736",
+          "gid": "1608428596282493022",
+          "size": "1420015099"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25204707",
+        "timebuildupdated": "1788944241",
+        "timeupdated": "1788944259"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "孙红远",
+    "isfreeapp": "1",
+    "publisher": "Hongyuan Sun"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "FrontierBallad/Saved/SaveGames",
+        "pattern": "FBGame.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788938359,
-  "_history": [],
-  "_change_number": 38637916,
-  "_missing_token": true,
-  "_sha": "9ecd6ab064fb9255bbe3732c6e4f8a8331014c11",
-  "_size": 3910,
+  "_lastChecked": 1788944916,
+  "_history": [
+    {
+      "buildId": "25147815",
+      "branch": "public",
+      "timeUpdated": 1788661784,
+      "firstSeen": 1788944916,
+      "manifests": {
+        "5116881": {
+          "gid": "4494210360016563734",
+          "size": 402139200,
+          "download": 165874704
+        }
+      }
+    }
+  ],
+  "_change_number": 38721770,
+  "_missing_token": false,
+  "_sha": "c989bfa907bd0f29f00ab0059067ff88b4a2f594",
+  "_size": 5285,
   "appid": "5116880",
   "common": {
     "aicontenttype": "1",
@@ -27,9 +41,9 @@
     },
     "clienticon": "de82ad9cbabd20317d1b7802726ec69bf718347b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5116880",
     "genres": {
       "0": "25",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "663755e0d2063263ee3ae555c97696a749b63e46/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788944205",
     "store_asset_mtime": "1787199865",
     "store_tags": {
       "0": "3799",
@@ -184,5 +199,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CATAL CARTA",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "CatalCarta.exe"
+      }
+    }
+  },
+  "depots": {
+    "5116881": {
+      "manifests": {
+        "public": {
+          "download": "165874704",
+          "gid": "4494210360016563734",
+          "size": "402139200"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,indonesian,italian,japanese,portuguese,russian,schinese,spanish,tchinese,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "25147815",
+        "timebuildupdated": "1788661685",
+        "timeupdated": "1788661784"
+      }
+    }
+  },
+  "extended": {
+    "developer": "OLC Salon Lab",
+    "publisher": "OLC Salon Lab"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "catalcarta\\saves\\",
+        "pattern": "auto.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "catalcarta\\saves\\",
+        "pattern": "slot-1.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "catalcarta\\saves\\",
+        "pattern": "slot-2.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "catalcarta\\saves\\",
+        "pattern": "slot-3.json",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "catalcarta\\saves\\",
+        "pattern": "settings.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

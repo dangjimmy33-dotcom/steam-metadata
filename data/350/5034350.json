@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788938300,
-  "_history": [],
-  "_change_number": 38370030,
-  "_missing_token": true,
-  "_sha": "73e2755b53a004e3c5f56d42a1918a774ec80b12",
-  "_size": 3191,
+  "_lastChecked": 1788944851,
+  "_history": [
+    {
+      "buildId": "24485125",
+      "branch": "public",
+      "timeUpdated": 1785468018,
+      "firstSeen": 1788944851,
+      "manifests": {
+        "5034351": {
+          "gid": "5239001618275868024",
+          "size": 282672294,
+          "download": 110195472
+        }
+      }
+    }
+  ],
+  "_change_number": 38721152,
+  "_missing_token": false,
+  "_sha": "1b0d84583a64bf9ecbdc440fb9b647012be38d79",
+  "_size": 3817,
   "appid": "5034350",
   "common": {
     "aicontenttype": "1",
@@ -33,7 +47,6 @@
     "clienticon": "673d903e6b1cfcdec93df6b4cc32de77f4b2af06",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5034350",
     "genres": {
       "0": "4",
@@ -104,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "26437a0ab631ac464963188f79467f37beaf4483/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788942728",
     "store_asset_mtime": "1787226661",
     "store_tags": {
       "0": "597",
@@ -142,5 +156,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Custom Puzzle",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "拼图游戏.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5034351": {
+      "manifests": {
+        "public": {
+          "download": "110195472",
+          "gid": "5239001618275868024",
+          "size": "282672294"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "24485125",
+        "timebuildupdated": "1785467745",
+        "timeupdated": "1785468018"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "developer": "Indeveloper",
+    "publisher": "Indeveloper"
+  }
 }

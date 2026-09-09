@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788937479,
+  "_lastChecked": 1788943943,
   "_history": [
     {
       "buildId": "22413285",
@@ -72,12 +72,30 @@
           "download": 58567424
         }
       }
+    },
+    {
+      "buildId": "25203740",
+      "branch": "pre-release",
+      "timeUpdated": 1788940705,
+      "firstSeen": 1788943943,
+      "manifests": {
+        "4152311": {
+          "gid": "7786816141345143410",
+          "size": 143035059,
+          "download": 66558416
+        },
+        "4152312": {
+          "gid": "2856725694434106180",
+          "size": 110190907,
+          "download": 58567328
+        }
+      }
     }
   ],
-  "_change_number": 38705238,
+  "_change_number": 38720713,
   "_missing_token": false,
-  "_sha": "b8166364a27273a16db29806e0c51137f985bb77",
-  "_size": 5006,
+  "_sha": "53fe316e6e15e208c933bbdccca191b91cfb2e3c",
+  "_size": 5114,
   "appid": "4152310",
   "common": {
     "associations": {
@@ -240,9 +258,9 @@
           "size": "111950192"
         },
         "pre-release": {
-          "download": "66558512",
-          "gid": "8115533161511975092",
-          "size": "143034995"
+          "download": "66558416",
+          "gid": "7786816141345143410",
+          "size": "143035059"
         },
         "public": {
           "download": "61653488",
@@ -262,9 +280,9 @@
           "size": "86301088"
         },
         "pre-release": {
-          "download": "58567424",
-          "gid": "6639101671776979431",
-          "size": "110190843"
+          "download": "58567328",
+          "gid": "2856725694434106180",
+          "size": "110190907"
         },
         "public": {
           "download": "53683264",
@@ -281,10 +299,10 @@
         "timeupdated": "1773916180"
       },
       "pre-release": {
-        "buildid": "25193099",
+        "buildid": "25203740",
         "description": "Unreleased versions are sometimes available here for testing.",
-        "timebuildupdated": "1788891688",
-        "timeupdated": "1788891690"
+        "timebuildupdated": "1788940703",
+        "timeupdated": "1788940705"
       },
       "public": {
         "buildid": "24048119",
@@ -301,6 +319,13 @@
   },
   "ufs": {
     "maxnumfiles": "1000",
-    "quota": "400000000"
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "saves",
+        "pattern": "*.dat",
+        "root": "gameinstall"
+      }
+    }
   }
 }
