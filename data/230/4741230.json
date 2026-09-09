@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1788932188,
-  "_history": [],
-  "_change_number": 38717258,
-  "_missing_token": true,
-  "_sha": "52e2f522021af1466e7124b7bc888d2d5c2269f5",
-  "_size": 2935,
+  "_lastChecked": 1788938045,
+  "_history": [
+    {
+      "buildId": "24030480",
+      "branch": "local",
+      "timeUpdated": 1783039006,
+      "firstSeen": 1788938045,
+      "manifests": {
+        "4741231": {
+          "gid": "3484561734974995656",
+          "size": 1133724781,
+          "download": 530691408
+        }
+      }
+    },
+    {
+      "buildId": "25201635",
+      "branch": "public",
+      "timeUpdated": 1788931491,
+      "firstSeen": 1788938045,
+      "manifests": {
+        "4741231": {
+          "gid": "3311170840306215197",
+          "size": 615199451,
+          "download": 469780448
+        }
+      }
+    }
+  ],
+  "_change_number": 38717827,
+  "_missing_token": false,
+  "_sha": "f1cd0bd492ed56cc601c35bc7a51a0c5f1b23037",
+  "_size": 4223,
   "appid": "4741230",
   "common": {
     "aicontenttype": "1",
@@ -27,8 +54,8 @@
     },
     "clienticon": "c5313e2fc08232c7f5977e88f9c524384e1f7370",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4741230",
     "genres": {
       "0": "4",
@@ -102,10 +129,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2e9120319766d29e150d65c65db92c038c41f46b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788933436",
     "store_asset_mtime": "1788830930",
     "store_tags": {
       "0": "597",
@@ -133,5 +161,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CoAnnCo",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "CoAnnCo.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4741231": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "local": {
+          "download": "530691408",
+          "gid": "3484561734974995656",
+          "size": "1133724781"
+        },
+        "public": {
+          "download": "469780448",
+          "gid": "3311170840306215197",
+          "size": "615199451"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "local": {
+        "buildid": "24030480",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1783039006",
+        "timeupdated": "1783039006"
+      },
+      "public": {
+        "buildid": "25201635",
+        "timebuildupdated": "1788931470",
+        "timeupdated": "1788931491"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SKONEC Entertainment",
+    "publisher": "SKONEC Entertainment"
+  }
 }

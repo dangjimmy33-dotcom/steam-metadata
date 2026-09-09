@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788932499,
-  "_history": [],
-  "_change_number": 38692298,
-  "_missing_token": true,
-  "_sha": "ac3d9706989a659fbf6838a4f9f8f02bcf1243ca",
-  "_size": 5266,
+  "_lastChecked": 1788938375,
+  "_history": [
+    {
+      "buildId": "25185205",
+      "branch": "public",
+      "timeUpdated": 1788864663,
+      "firstSeen": 1788938375,
+      "manifests": {
+        "5143751": {
+          "gid": "8179518992457853621",
+          "size": 692739338,
+          "download": 455892096
+        }
+      }
+    }
+  ],
+  "_change_number": 38719012,
+  "_missing_token": false,
+  "_sha": "f616024d4d0b4fd52172a25cfc377cffe9416149",
+  "_size": 6418,
   "appid": "5143750",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "77ca158648cd85e0aad36d6d6b3f8eb8664b8b32",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5143750",
     "genres": {
       "0": "4"
@@ -129,13 +143,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7cd146c5a3140a183ae7cf4efb97feff02c58af1/capsule_231x87.jpg",
       "japanese": "d1eaeb8d47e969d1b8b09f4befe6cb0686166ed8/capsule_231x87_japanese.jpg",
       "koreana": "e8549735221bb3f44d0c40767c3b5dbe06f6c2c7/capsule_231x87_koreana.jpg",
       "schinese": "e49ac2a9d1d1667c6a60fa793c7103c0f729b172/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788790782",
     "store_tags": {
       "0": "597",
@@ -171,5 +186,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HanziBird",
+    "launch": {
+      "0": {
+        "executable": "HanziBird.exe"
+      }
+    }
+  },
+  "depots": {
+    "5143751": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "455892096",
+          "gid": "8179518992457853621",
+          "size": "692739338"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25185205",
+        "timebuildupdated": "1788864661",
+        "timeupdated": "1788864663"
+      }
+    }
+  },
+  "extended": {
+    "developer": "FFSKYChocobo",
+    "disableoverlay": "1",
+    "publisher": "FFSKY"
+  },
+  "ufs": {
+    "maxnumfiles": "16",
+    "quota": "300000000",
+    "savefiles": {
+      "0": {
+        "path": "FFSKY/HanziBird/profiles/steam/{64BitSteamID}/cloud",
+        "pattern": "profile_hans.db",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "FFSKY/HanziBird/profiles/steam/{64BitSteamID}/cloud",
+        "pattern": "profile_hans_backup.db",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

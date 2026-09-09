@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788932377,
-  "_history": [],
-  "_change_number": 38703459,
-  "_missing_token": true,
-  "_sha": "debd11ecf24f940b71781fbd4867c07c4202a754",
-  "_size": 3363,
+  "_lastChecked": 1788938245,
+  "_history": [
+    {
+      "buildId": "25190595",
+      "branch": "public",
+      "timeUpdated": 1788883064,
+      "firstSeen": 1788938245,
+      "manifests": {
+        "4966041": {
+          "gid": "2293896919685143912",
+          "size": 2992201962,
+          "download": 2670315552
+        }
+      }
+    }
+  ],
+  "_change_number": 38719051,
+  "_missing_token": false,
+  "_sha": "14ec2067bc87b2941cb1b6a761035374721dc2e8",
+  "_size": 4170,
   "appid": "4966040",
   "common": {
     "aicontenttype": "1",
@@ -47,10 +61,9 @@
         "id": "4966040_eula_0",
         "name": "RandomShit EULA",
         "url": "https://store.steampowered.com//eula/4966040_eula_0",
-        "version": "1"
+        "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "4966040",
     "genres": {
       "0": "1",
@@ -124,10 +137,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6758a313d0d6432de545005ce1312b55dd1fa4eb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787077318",
     "store_tags": {
       "0": "19",
@@ -155,5 +169,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "RandomShit",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "RandomShit.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4966041": {
+      "manifests": {
+        "public": {
+          "download": "2670315552",
+          "gid": "2293896919685143912",
+          "size": "2992201962"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25190595",
+        "timebuildupdated": "1788882447",
+        "timeupdated": "1788883064"
+      }
+    }
+  },
+  "extended": {
+    "developer": "ShittyDev",
+    "publisher": "ShittyDev"
+  }
 }

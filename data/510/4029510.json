@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788931541,
+  "_lastChecked": 1788937358,
   "_history": [
     {
       "buildId": "25108282",
@@ -52,12 +52,38 @@
           "download": 3655503216
         }
       }
+    },
+    {
+      "buildId": "25202212",
+      "branch": "public",
+      "timeUpdated": 1788934482,
+      "firstSeen": 1788937358,
+      "manifests": {
+        "4029511": {
+          "gid": "4571778782738238791",
+          "size": 4410439253,
+          "download": 3655513136
+        }
+      }
+    },
+    {
+      "buildId": "25202212",
+      "branch": "staging",
+      "timeUpdated": 1788934482,
+      "firstSeen": 1788937358,
+      "manifests": {
+        "4029511": {
+          "gid": "4571778782738238791",
+          "size": 4410439253,
+          "download": 3655513136
+        }
+      }
     }
   ],
-  "_change_number": 38704759,
+  "_change_number": 38718091,
   "_missing_token": false,
-  "_sha": "739bbb286fe7913e335988dcf3651ce6fc0078ba",
-  "_size": 4527,
+  "_sha": "c1521b1f4796ae3f8fe7c8846ed5a4c41bac9a60",
+  "_size": 4528,
   "appid": "4029510",
   "common": {
     "associations": {
@@ -221,28 +247,28 @@
     "4029511": {
       "manifests": {
         "public": {
-          "download": "3869400592",
-          "gid": "2789328904945390254",
-          "size": "4677268549"
+          "download": "3655513136",
+          "gid": "4571778782738238791",
+          "size": "4410439253"
         },
         "staging": {
-          "download": "3655503216",
-          "gid": "337591606969493433",
-          "size": "4410439459"
+          "download": "3655513136",
+          "gid": "4571778782738238791",
+          "size": "4410439253"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25108282",
-        "timebuildupdated": "1788460802",
-        "timeupdated": "1788463755"
+        "buildid": "25202212",
+        "timebuildupdated": "1788934345",
+        "timeupdated": "1788934482"
       },
       "staging": {
-        "buildid": "25192833",
+        "buildid": "25202212",
         "description": "Private staging branch",
-        "timebuildupdated": "1788890483",
-        "timeupdated": "1788890548"
+        "timebuildupdated": "1788934345",
+        "timeupdated": "1788934482"
       }
     }
   },

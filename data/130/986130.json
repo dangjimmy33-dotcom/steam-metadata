@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788928410,
+  "_lastChecked": 1788934002,
   "_history": [
     {
       "buildId": "24616330",
@@ -67,11 +67,29 @@
           "download": 578202864
         }
       }
+    },
+    {
+      "buildId": "25201630",
+      "branch": "experimental",
+      "timeUpdated": 1788931457,
+      "firstSeen": 1788934002,
+      "manifests": {
+        "3229880": {
+          "gid": "1787066928091052239",
+          "size": 44799140,
+          "download": 22610208
+        },
+        "986131": {
+          "gid": "8579770220306744289",
+          "size": 1366818427,
+          "download": 578524432
+        }
+      }
     }
   ],
-  "_change_number": 38184795,
+  "_change_number": 38717250,
   "_missing_token": false,
-  "_sha": "2dc201333f51ea8265358a276e5d3f7606cda6f5",
+  "_sha": "115190ca5ab5d3bb2270b78372d83b75b4f4b59d",
   "_size": 8938,
   "appid": "986130",
   "common": {
@@ -373,9 +391,9 @@
     "986131": {
       "manifests": {
         "experimental": {
-          "download": "578202864",
-          "gid": "1732121106107934301",
-          "size": "1367647301"
+          "download": "578524432",
+          "gid": "8579770220306744289",
+          "size": "1366818427"
         },
         "legacypublic": {
           "download": "691334304",
@@ -397,10 +415,10 @@
     "baselanguages": "english,german,french,spanish,schinese,tchinese,russian,japanese",
     "branches": {
       "experimental": {
-        "buildid": "24616330",
+        "buildid": "25201630",
         "description": "For testing the latest public builds",
-        "timebuildupdated": "1786116636",
-        "timeupdated": "1786116650"
+        "timebuildupdated": "1788931457",
+        "timeupdated": "1788931457"
       },
       "legacypublic": {
         "buildid": "14314304",

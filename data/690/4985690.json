@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788932392,
-  "_history": [],
-  "_change_number": 38716647,
-  "_missing_token": true,
-  "_sha": "b013decc05151a05abeb756679fed2cf14ae9493",
-  "_size": 4519,
+  "_lastChecked": 1788938261,
+  "_history": [
+    {
+      "buildId": "25197542",
+      "branch": "public",
+      "timeUpdated": 1788928988,
+      "firstSeen": 1788938261,
+      "manifests": {
+        "4985691": {
+          "gid": "4936194075941886349",
+          "size": 686189794,
+          "download": 602645584
+        }
+      }
+    }
+  ],
+  "_change_number": 38719043,
+  "_missing_token": false,
+  "_sha": "d070fed3529ea9c804b1cdcf72bfc64eca503989",
+  "_size": 5716,
   "appid": "4985690",
   "common": {
     "aicontenttype": "1",
@@ -38,8 +52,8 @@
     "clienticns": "6b8f7e0c8ef5401bf6030b96d81bb7718ce09cd9",
     "clienticon": "7f0911f030d01e9dbe8203cfaceb357765916394",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4985690",
     "genres": {
       "0": "4",
@@ -122,11 +136,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "71ea8da218ca0ce866bd37ee40691abe288169e8/capsule_231x87.jpg",
       "schinese": "2e8703b926f63262c6187e7bb198bf23bbb19eab/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788904250",
     "store_tags": {
       "0": "3859",
@@ -178,5 +193,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MyHiStory",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play MyHiStory",
+        "description_loc": {
+          "english": "Play MyHiStory",
+          "schinese": "Play MyHiStory"
+        },
+        "executable": "MyHiStory.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4985691": {
+      "manifests": {
+        "public": {
+          "download": "602645584",
+          "gid": "4936194075941886349",
+          "size": "686189794"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25197542",
+        "timebuildupdated": "1788910334",
+        "timeupdated": "1788928988"
+      }
+    }
+  },
+  "extended": {
+    "developer": "BurnRiver",
+    "publisher": "BurnRiver"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/MyHiStory",
+        "pattern": "decks/*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/MyHiStory",
+        "pattern": "settings.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

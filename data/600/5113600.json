@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788932481,
-  "_history": [],
-  "_change_number": 38351190,
-  "_missing_token": true,
-  "_sha": "362c9df84ab273fe36c001cb82e203a94df4c380",
-  "_size": 3355,
+  "_lastChecked": 1788938357,
+  "_history": [
+    {
+      "buildId": "24750119",
+      "branch": "public",
+      "timeUpdated": 1786790140,
+      "firstSeen": 1788938357,
+      "manifests": {
+        "5113601": {
+          "gid": "4542219084340996648",
+          "size": 184931103,
+          "download": 74804992
+        }
+      }
+    }
+  ],
+  "_change_number": 38719407,
+  "_missing_token": false,
+  "_sha": "f69ec7eeb5f10bb8a1d24c5621d67fb615b9110b",
+  "_size": 3957,
   "appid": "5113600",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "6258914c27db4a01c20352b1ff680ed7829d1075",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5113600",
     "genres": {
       "0": "4",
@@ -98,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "07f39bb8782577ec3c2c265fd64f1a40e3f8a9c7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788938305",
     "store_asset_mtime": "1786874537",
     "store_tags": {
       "0": "597",
@@ -153,5 +167,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "All Our Winters",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "All Our Winters.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5113601": {
+      "manifests": {
+        "public": {
+          "download": "74804992",
+          "gid": "4542219084340996648",
+          "size": "184931103"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24750119",
+        "timebuildupdated": "1786789853",
+        "timeupdated": "1786790140"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Distant Hearth Games",
+    "publisher": "Distant Hearth Games"
+  }
 }
