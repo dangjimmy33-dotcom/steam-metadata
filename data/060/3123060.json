@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788979569,
-  "_history": [],
-  "_change_number": 38728334,
-  "_missing_token": true,
-  "_sha": "c496584c7435906b96a154067b4b323d4c36898d",
-  "_size": 4462,
+  "_lastChecked": 1788989752,
+  "_history": [
+    {
+      "buildId": "25217000",
+      "branch": "public",
+      "timeUpdated": 1788986101,
+      "firstSeen": 1788989752,
+      "manifests": {
+        "3123061": {
+          "gid": "6531956541396957511",
+          "size": 5897108127,
+          "download": 2075451456
+        }
+      }
+    }
+  ],
+  "_change_number": 38740846,
+  "_missing_token": false,
+  "_sha": "5b6d79a1ea6c51b52a3e49016dfedbe5aa4d2ff4",
+  "_size": 7108,
   "appid": "3123060",
   "common": {
     "associations": {
@@ -38,6 +52,7 @@
     "clienticon": "f57da54ea47ef1b210a1ad577b36f50f91dee140",
     "clienttga": "be9be2b0a0c0423815fae627e2df82deccd81509",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -45,7 +60,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3123060",
     "genres": {
       "0": "1",
@@ -133,10 +147,70 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "76",
+    "review_score": "6",
     "small_capsule": {
       "english": "ec7841cf95c2a4b8b51d1fd74adce8323dc690de/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        }
+      },
+      "test_timestamp": "1788373098",
+      "tested_build_id": "25059508",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+        }
+      }
+    },
+    "steam_release_date": "1788980420",
     "store_asset_mtime": "1788793392",
     "store_tags": {
       "0": "19",
@@ -218,5 +292,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Warlord Awaji",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Warlord Awaji.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3123061": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2075451456",
+          "gid": "6531956541396957511",
+          "size": "5897108127"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25217000",
+        "timebuildupdated": "1788985910",
+        "timeupdated": "1788986101"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Darkmatter Games",
+    "homepage": "https://darkmattergames.com/",
+    "publisher": "Darkmatter Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "Darkmatter Games\\Warlord Awaji",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

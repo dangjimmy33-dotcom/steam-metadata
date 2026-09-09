@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788976151,
+  "_lastChecked": 1788986040,
   "_history": [
     {
       "buildId": "1445761",
@@ -448,10 +448,10 @@
       }
     }
   ],
-  "_change_number": 38335421,
+  "_change_number": 38736460,
   "_missing_token": false,
-  "_sha": "4e9c732aecacdc67e593a39f5c622ad4e6290b5f",
-  "_size": 21741,
+  "_sha": "91e9d16d1b5f49ee10dc49c13ac8fe4949a200ef",
+  "_size": 21845,
   "appid": "363150",
   "common": {
     "associations": {
@@ -562,8 +562,8 @@
         "hdr_support": "0",
         "non_deck_display_glyphs": "1",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-7.0-6",
-        "requires_h264": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "1",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
         "requires_manual_keyboard_invoke": "1",
@@ -573,8 +573,13 @@
         "small_text": "0",
         "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "1",
+      "steam_machine_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+        }
+      },
       "steamos_compatibility": "1",
       "steamos_tests": {
         "0": {
@@ -582,7 +587,7 @@
           "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
         }
       },
-      "test_timestamp": "1674864000",
+      "test_timestamp": "1788370330",
       "tested_build_id": "4670615",
       "tests": {
         "0": {

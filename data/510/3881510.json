@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788980438,
-  "_history": [],
-  "_change_number": 38726991,
-  "_missing_token": true,
-  "_sha": "50c82fafec1067cc13580c47c41a5e493742206e",
-  "_size": 3677,
+  "_lastChecked": 1788990687,
+  "_history": [
+    {
+      "buildId": "25151734",
+      "branch": "public",
+      "timeUpdated": 1788696887,
+      "firstSeen": 1788990687,
+      "manifests": {
+        "3881511": {
+          "gid": "4806172780689212649",
+          "size": 1977868159,
+          "download": 765164928
+        }
+      }
+    }
+  ],
+  "_change_number": 38740334,
+  "_missing_token": false,
+  "_sha": "78eeb31f746c0aef97fd905dfc1102226dc75131",
+  "_size": 4308,
   "appid": "3881510",
   "common": {
     "associations": {
@@ -31,9 +45,9 @@
     },
     "clienticon": "8903ac85f132e46287fea9514ac1c3d5e1e58720",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3881510",
     "genres": {
       "0": "1",
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "70c79c53efbd39ef1534a112c55b84d11577ad0a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788987548",
     "store_asset_mtime": "1763895921",
     "store_tags": {
       "0": "492",
@@ -171,5 +186,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Reverse T-gotchi",
+    "launch": {
+      "0": {
+        "executable": "Reverse T-gotchi.exe"
+      }
+    }
+  },
+  "depots": {
+    "3881511": {
+      "manifests": {
+        "public": {
+          "download": "765164928",
+          "gid": "4806172780689212649",
+          "size": "1977868159"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,spanish,schinese,tchinese,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "25151734",
+        "timebuildupdated": "1788696871",
+        "timeupdated": "1788696887"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Admia",
+    "publisher": "Admia"
+  }
 }

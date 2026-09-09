@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788979109,
+  "_lastChecked": 1788989252,
   "_history": [
     {
       "buildId": "17520712",
@@ -13,12 +13,30 @@
           "download": 64615664
         }
       }
+    },
+    {
+      "buildId": "25217784",
+      "branch": "public",
+      "timeUpdated": 1788989052,
+      "firstSeen": 1788989252,
+      "manifests": {
+        "2731591": {
+          "gid": "225618980598165063",
+          "size": 193636856,
+          "download": 101426224
+        },
+        "2731592": {
+          "gid": "5369069461311972866",
+          "size": 167722576,
+          "download": 95492480
+        }
+      }
     }
   ],
-  "_change_number": 34917136,
+  "_change_number": 38740888,
   "_missing_token": false,
-  "_sha": "c25ca95a8e74b525dd30c2115f3049c1f6cf6a0c",
-  "_size": 3001,
+  "_sha": "785deae018e1d9f146165f779816c181ef9eedff",
+  "_size": 3382,
   "appid": "2731590",
   "common": {
     "associations": {
@@ -102,7 +120,7 @@
     "name": "Block Shop",
     "osarch": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "2",
     "releasestate": "released",
     "review_percentage": "98",
@@ -135,26 +153,49 @@
     "installdir": "Block Shop",
     "launch": {
       "0": {
-        "executable": "game.exe",
-        "type": "none"
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "game.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "game.x86_64"
       }
     }
   },
   "depots": {
     "2731591": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "64615664",
-          "gid": "6353900478136402927",
-          "size": "145451880"
+          "download": "101426224",
+          "gid": "225618980598165063",
+          "size": "193636856"
+        }
+      }
+    },
+    "2731592": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "95492480",
+          "gid": "5369069461311972866",
+          "size": "167722576"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "17520712",
-        "timebuildupdated": "1740603031",
-        "timeupdated": "1740603133"
+        "buildid": "25217784",
+        "timebuildupdated": "1788988970",
+        "timeupdated": "1788989052"
       }
     }
   },

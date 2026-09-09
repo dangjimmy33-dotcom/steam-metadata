@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788981633,
-  "_history": [],
-  "_change_number": 38735754,
-  "_missing_token": true,
-  "_sha": "898d4b076b276dfbcff28df2010104a4fe99bbd9",
-  "_size": 3119,
+  "_lastChecked": 1788991974,
+  "_history": [
+    {
+      "buildId": "25216363",
+      "branch": "public",
+      "timeUpdated": 1788983440,
+      "firstSeen": 1788991974,
+      "manifests": {
+        "5022691": {
+          "gid": "6787519547111419289",
+          "size": 640775875,
+          "download": 121581152
+        },
+        "5022692": {
+          "gid": "3853353090612806816",
+          "size": 650260900,
+          "download": 125183536
+        }
+      }
+    }
+  ],
+  "_change_number": 38739158,
+  "_missing_token": false,
+  "_sha": "d7ca01ce0cfc734ba1f38f1738b17bc3e9e693b1",
+  "_size": 4065,
   "appid": "5022690",
   "common": {
     "associations": {
@@ -24,6 +43,7 @@
     },
     "clienticon": "e5434e0c3c5aac62fe4791b75865ce6ae7cd71ed",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -31,7 +51,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5022690",
     "genres": {
       "0": "4",
@@ -103,10 +122,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a1e25f00ec4b3c4b06a9788b4ab6254e139bec07/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788984403",
     "store_asset_mtime": "1785761217",
     "store_tags": {
       "0": "597",
@@ -144,5 +164,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "GrillAndSpill",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "GrillAndSpill.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "grillandspill.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5022691": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "121581152",
+          "gid": "6787519547111419289",
+          "size": "640775875"
+        }
+      }
+    },
+    "5022692": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "125183536",
+          "gid": "3853353090612806816",
+          "size": "650260900"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25216363",
+        "timebuildupdated": "1788983422",
+        "timeupdated": "1788983440"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DAIGELWORKS",
+    "publisher": "DAIGELWORKS"
+  }
 }

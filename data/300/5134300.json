@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788981722,
-  "_history": [],
-  "_change_number": 38712905,
-  "_missing_token": true,
-  "_sha": "d97311408b30c76bb41be4f2612614959a63e1f2",
-  "_size": 2792,
+  "_lastChecked": 1788992069,
+  "_history": [
+    {
+      "buildId": "25198779",
+      "branch": "public",
+      "timeUpdated": 1788916642,
+      "firstSeen": 1788992069,
+      "manifests": {
+        "5134301": {
+          "gid": "2227036106141321516",
+          "size": 191560118,
+          "download": 72471136
+        }
+      }
+    }
+  ],
+  "_change_number": 38739888,
+  "_missing_token": false,
+  "_sha": "4e55bf6baf6dcb044159c0807a5ac5ef740dd612",
+  "_size": 3368,
   "appid": "5134300",
   "common": {
     "associations": {
@@ -24,8 +38,8 @@
     },
     "clienticon": "a6dcaa88c6b21cf092a3e9ee68ea3c78f49d5d71",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5134300",
     "genres": {
       "0": "28"
@@ -95,10 +109,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9a5dafa5f6adcdb7ee56d2c7f63304e3f5323aa8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788986274",
     "store_asset_mtime": "1788296342",
     "store_tags": {
       "0": "599",
@@ -119,5 +134,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cubeidle - Incremental Cube Breaker",
+    "launch": {
+      "0": {
+        "executable": "cubeidle.exe"
+      }
+    }
+  },
+  "depots": {
+    "5134301": {
+      "manifests": {
+        "public": {
+          "download": "72471136",
+          "gid": "2227036106141321516",
+          "size": "191560118"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25198779",
+        "timebuildupdated": "1788916566",
+        "timeupdated": "1788916642"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Just Another Gamedev",
+    "publisher": "Just Another Gamedev"
+  }
 }

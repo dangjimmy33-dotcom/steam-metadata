@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788977894,
+  "_lastChecked": 1788987940,
   "_history": [
     {
       "buildId": "11482170",
@@ -26,12 +26,25 @@
           "download": 173085408
         }
       }
+    },
+    {
+      "buildId": "23223710",
+      "branch": "public",
+      "timeUpdated": 1778708754,
+      "firstSeen": 1788987940,
+      "manifests": {
+        "1738541": {
+          "gid": "3221741960898909614",
+          "size": 331685507,
+          "download": 174224480
+        }
+      }
     }
   ],
-  "_change_number": 35798456,
+  "_change_number": 38738098,
   "_missing_token": false,
-  "_sha": "330bc4a01dea7a9ce2f18a63d06039babf9789ce",
-  "_size": 3830,
+  "_sha": "f79d83dbdddeb882a77f07b4704fd519ff0e1a2b",
+  "_size": 4311,
   "appid": "1738540",
   "common": {
     "associations": {
@@ -46,26 +59,33 @@
     },
     "category": {
       "category_1": "1",
+      "category_15": "1",
+      "category_17": "1",
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_24": "1",
       "category_25": "1",
       "category_28": "1",
       "category_37": "1",
       "category_44": "1",
       "category_49": "1",
-      "category_62": "1"
+      "category_62": "1",
+      "category_74": "1",
+      "category_75": "1"
     },
     "clienticon": "1e30821c62ed268e6285adde010fa5aee2d78afe",
     "clienttga": "5985b942b2d2f420f529a072051e4255739ac417",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
     "controller_support": "full",
+    "controllertagwizard": "1",
     "gameid": "1738540",
     "genres": {
       "0": "1",
       "1": "23",
-      "2": "70"
+      "2": "2",
+      "3": "70"
     },
     "header_image": {
       "english": "header.jpg"
@@ -124,7 +144,7 @@
     "osarch": "",
     "osextended": "",
     "oslist": "windows",
-    "primary_genre": "23",
+    "primary_genre": "1",
     "releasestate": "released",
     "review_percentage": "92",
     "review_score": "7",
@@ -156,7 +176,28 @@
       "9": "1775"
     },
     "supported_languages": {
+      "brazilian": {
+        "supported": "true"
+      },
       "english": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "spanish": {
         "supported": "true"
       }
     },
@@ -182,9 +223,9 @@
           "size": "190281724"
         },
         "public": {
-          "download": "173085408",
-          "gid": "3695825155622228090",
-          "size": "320548931"
+          "download": "174224480",
+          "gid": "3221741960898909614",
+          "size": "331685507"
         }
       }
     },
@@ -196,9 +237,9 @@
         "timeupdated": "1777930751"
       },
       "public": {
-        "buildid": "23187485",
-        "timebuildupdated": "1778537276",
-        "timeupdated": "1778539151"
+        "buildid": "23223710",
+        "timebuildupdated": "1778708731",
+        "timeupdated": "1778708754"
       }
     },
     "privatebranches": "1"

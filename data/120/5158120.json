@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788981736,
-  "_history": [],
-  "_change_number": 38724531,
-  "_missing_token": true,
-  "_sha": "ec4b54b13c4d71c9c30fed15d2cfff6f11d15954",
-  "_size": 3914,
+  "_lastChecked": 1788992083,
+  "_history": [
+    {
+      "buildId": "25206631",
+      "branch": "public",
+      "timeUpdated": 1788950882,
+      "firstSeen": 1788992083,
+      "manifests": {
+        "5158121": {
+          "gid": "8942881535684092884",
+          "size": 2816059718,
+          "download": 2649765440
+        }
+      }
+    }
+  ],
+  "_change_number": 38741652,
+  "_missing_token": false,
+  "_sha": "9c9dc16b360cf079628247ee28044741886d265b",
+  "_size": 4784,
   "appid": "5158120",
   "common": {
     "aicontenttype": "1",
@@ -31,7 +45,6 @@
     "clienticon": "4b62288dec2fe92144d2f1cb4d5701984c50d1d9",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5158120",
     "genres": {
       "0": "25",
@@ -113,11 +126,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3d918e6f0cf16e8356eb733f3e53051e7845541c/capsule_231x87.jpg",
       "turkish": "d097d2588c404e81b75c8bbf1b3d62128505db86/capsule_231x87_turkish.jpg"
     },
+    "steam_release_date": "1788991213",
     "store_asset_mtime": "1787421305",
     "store_tags": {
       "0": "21",
@@ -153,5 +167,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ARETIAS Cursed Island",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64"
+        },
+        "executable": "Aretias.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5158121": {
+      "manifests": {
+        "public": {
+          "download": "2649765440",
+          "gid": "8942881535684092884",
+          "size": "2816059718"
+        }
+      }
+    },
+    "baselanguages": "english,turkish",
+    "branches": {
+      "public": {
+        "buildid": "25206631",
+        "timebuildupdated": "1788950835",
+        "timeupdated": "1788950882"
+      }
+    }
+  },
+  "extended": {
+    "developer": "inHeka Studios",
+    "homepage": "https://inheka.com",
+    "publisher": "inHeka Studios"
+  }
 }

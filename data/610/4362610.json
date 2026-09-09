@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788980973,
-  "_history": [],
-  "_change_number": 38579440,
-  "_missing_token": true,
-  "_sha": "84c5f1f2e4645b0300583889ecfaeb46d726bbcd",
-  "_size": 2958,
+  "_lastChecked": 1788991265,
+  "_history": [
+    {
+      "buildId": "25216955",
+      "branch": "public",
+      "timeUpdated": 1788985840,
+      "firstSeen": 1788991265,
+      "manifests": {
+        "4362611": {
+          "gid": "6243166345657460201",
+          "size": 488135168,
+          "download": 182499712
+        }
+      }
+    }
+  ],
+  "_change_number": 38739692,
+  "_missing_token": false,
+  "_sha": "03ab7dd310f5ae360a006c8e97334116266d2f7c",
+  "_size": 3709,
   "appid": "4362610",
   "common": {
     "associations": {
@@ -30,7 +44,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4362610",
     "genres": {
       "0": "1",
@@ -101,7 +114,7 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "388329c2cdce9c8e6ee11320dffac3e54f74c4b0/capsule_231x87.jpg"
     },
@@ -134,5 +147,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blood Bounty",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "windows_bloodbounty/BloodBounty.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "mac_bloodbounty/BloodBounty.app"
+      }
+    }
+  },
+  "depots": {
+    "4362611": {
+      "manifests": {
+        "public": {
+          "download": "182499712",
+          "gid": "6243166345657460201",
+          "size": "488135168"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25216955",
+        "timebuildupdated": "1788985778",
+        "timeupdated": "1788985840"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Deskbird Games",
+    "homepage": "https://deskbird.itch.io/bloody-bounty-demo",
+    "publisher": "Deskbird Games"
+  }
 }

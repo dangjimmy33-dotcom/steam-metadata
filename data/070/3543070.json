@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788980046,
-  "_history": [],
-  "_change_number": 38737108,
-  "_missing_token": true,
-  "_sha": "76e086077aee257fba0115a1455718c6effa025e",
-  "_size": 4495,
+  "_lastChecked": 1788990268,
+  "_history": [
+    {
+      "buildId": "25215148",
+      "branch": "public",
+      "timeUpdated": 1788978944,
+      "firstSeen": 1788990268,
+      "manifests": {
+        "3543071": {
+          "gid": "2017049201764737945",
+          "size": 705418359,
+          "download": 159789296
+        }
+      }
+    }
+  ],
+  "_change_number": 38737959,
+  "_missing_token": false,
+  "_sha": "8b037f4cac837d4ea7992216201f734c7b6e214a",
+  "_size": 5222,
   "appid": "3543070",
   "common": {
     "associations": {
@@ -41,9 +55,9 @@
     "clienticon": "06b89aa8914ceb3ad84784000d4cc3b5da1121b8",
     "clienttga": "04a76e5e69d0aa8456decf1f1222fe32397df384",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3543070",
     "genres": {
       "0": "1",
@@ -123,12 +137,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "82be7f1feb6ddd6d1487ff61090ce3d0418dccda/capsule_231x87.jpg",
       "schinese": "fb171d5dae060b882d99e195af81821296167412/capsule_231x87_schinese.jpg",
       "tchinese": "cff056014cdefffab12ea23184bb585d823dea13/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1788980870",
     "store_asset_mtime": "1776184390",
     "store_tags": {
       "0": "42804",
@@ -196,5 +211,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cordels & Spells",
+    "launch": {
+      "0": {
+        "executable": "Cordels and Spells.exe"
+      }
+    }
+  },
+  "depots": {
+    "3543071": {
+      "manifests": {
+        "public": {
+          "download": "159789296",
+          "gid": "2017049201764737945",
+          "size": "705418359"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25215148",
+        "timebuildupdated": "1788978820",
+        "timeupdated": "1788978944"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Supernova Games",
+    "publisher": "Supernova Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Save Files",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

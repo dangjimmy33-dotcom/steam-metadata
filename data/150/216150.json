@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788976013,
+  "_lastChecked": 1788985892,
   "_history": [
     {
       "buildId": "24701973",
@@ -18,12 +18,30 @@
           "download": 246286000
         }
       }
+    },
+    {
+      "buildId": "25216521",
+      "branch": "public",
+      "timeUpdated": 1788984235,
+      "firstSeen": 1788985892,
+      "manifests": {
+        "216151": {
+          "gid": "5407286467980481190",
+          "size": 71052668060,
+          "download": 66472777776
+        },
+        "216154": {
+          "gid": "5717167105760697862",
+          "size": 1073057690,
+          "download": 246286000
+        }
+      }
     }
   ],
-  "_change_number": 38711656,
+  "_change_number": 38739311,
   "_missing_token": false,
-  "_sha": "59ff8a8037ee4e41b59967c793248ca3947a1c12",
-  "_size": 12133,
+  "_sha": "762ed17949fb157a8250a6cfa25478331be6bca0",
+  "_size": 12069,
   "appid": "216150",
   "common": {
     "aicontenttype": "2",
@@ -181,7 +199,7 @@
       }
     },
     "steam_release_date": "1344546240",
-    "store_asset_mtime": "1784158393",
+    "store_asset_mtime": "1788984286",
     "store_tags": {
       "0": "1754",
       "1": "5379",
@@ -216,7 +234,7 @@
     "installdir": "MapleStory",
     "launch": {
       "0": {
-        "arguments": "MapleStory.exe SteamStart {passport} {country_code} {cloud_platform} --nx:title=Maplestory --nx:serviceId=1049736197 /ticket:{ias_ticket}",
+        "arguments": "MapleStory.exe SteamStart {passport} {country_code} {cloud_platform} --nx:title=Maplestory --nx:serviceId=1049736197",
         "config": {
           "oslist": "windows"
         },
@@ -240,7 +258,7 @@
         "type": "option1"
       },
       "11": {
-        "arguments": "MapleStory.exe SteamStart {passport} {country_code} {cloud_platform} --nx:title=Maplestory --nx:env=live --nx:serviceId=1049736197 /ticket:${ias_ticket} ",
+        "arguments": "MapleStory.exe SteamStart {passport} {country_code} {cloud_platform} --nx:title=Maplestory --nx:env=live --nx:serviceId=1049736197",
         "config": {
           "betakey": "live_macos",
           "oslist": "macos"
@@ -306,7 +324,7 @@
         "executable": "mslauncher\\ms-launcher.exe"
       },
       "3": {
-        "arguments": "MapleStory.exe SteamStart {passport} {country_code} {cloud_platform} --nx:title=Maplestory --nx:env=live --nx:serviceId=1049736197 /ticket:{ias_ticket}",
+        "arguments": "MapleStory.exe SteamStart {passport} {country_code} {cloud_platform} --nx:title=Maplestory --nx:env=live --nx:serviceId=1049736197",
         "config": {
           "oslist": "macos"
         },
@@ -404,9 +422,9 @@
       },
       "manifests": {
         "public": {
-          "download": "63730890480",
-          "gid": "601457347208319046",
-          "size": "68210152996"
+          "download": "66472777776",
+          "gid": "5407286467980481190",
+          "size": "71052668060"
         }
       },
       "systemdefined": "1"
@@ -446,9 +464,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "24701973",
-        "timebuildupdated": "1786573671",
-        "timeupdated": "1786646930"
+        "buildid": "25216521",
+        "timebuildupdated": "1788984193",
+        "timeupdated": "1788984235"
       }
     },
     "hasdepotsindlc": "1",

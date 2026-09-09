@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788979488,
+  "_lastChecked": 1788989665,
   "_history": [
     {
       "buildId": "25137048",
@@ -126,11 +126,29 @@
           "download": 47160496
         }
       }
+    },
+    {
+      "buildId": "25217687",
+      "branch": "harvest",
+      "timeUpdated": 1788988549,
+      "firstSeen": 1788989665,
+      "manifests": {
+        "3056311": {
+          "gid": "3426288996164423439",
+          "size": 68900512,
+          "download": 44217728
+        },
+        "3056312": {
+          "gid": "4562186453054173431",
+          "size": 77572576,
+          "download": 47159680
+        }
+      }
     }
   ],
-  "_change_number": 38736555,
+  "_change_number": 38740702,
   "_missing_token": false,
-  "_sha": "97d7c808c91d82b2ae75ef8d1f3fe2f5cd8f4eac",
+  "_sha": "5bc663166f563195d8e4c362a9fe65e3f3095497",
   "_size": 6039,
   "appid": "3056310",
   "common": {
@@ -353,9 +371,9 @@
       },
       "manifests": {
         "harvest": {
-          "download": "44216288",
-          "gid": "9219969800587656788",
-          "size": "68896080"
+          "download": "44217728",
+          "gid": "3426288996164423439",
+          "size": "68900512"
         },
         "public": {
           "download": "51581632",
@@ -370,9 +388,9 @@
       },
       "manifests": {
         "harvest": {
-          "download": "47160496",
-          "gid": "8904203289136780952",
-          "size": "77568144"
+          "download": "47159680",
+          "gid": "4562186453054173431",
+          "size": "77572576"
         },
         "public": {
           "download": "54501584",
@@ -383,10 +401,10 @@
     },
     "branches": {
       "harvest": {
-        "buildid": "25214808",
+        "buildid": "25217687",
         "description": "Bleeding-edge development server.",
-        "timebuildupdated": "1788977512",
-        "timeupdated": "1788977512"
+        "timebuildupdated": "1788988549",
+        "timeupdated": "1788988549"
       },
       "public": {
         "buildid": "24875779",

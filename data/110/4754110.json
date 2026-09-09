@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788981375,
-  "_history": [],
-  "_change_number": 38538452,
-  "_missing_token": true,
-  "_sha": "82eb7d22381b0997b742762e000f7cee7b8d70ee",
-  "_size": 3278,
+  "_lastChecked": 1788991697,
+  "_history": [
+    {
+      "buildId": "25058306",
+      "branch": "public",
+      "timeUpdated": 1788267543,
+      "firstSeen": 1788991697,
+      "manifests": {
+        "4754111": {
+          "gid": "4386412852471831334",
+          "size": 3231120003,
+          "download": 2054953600
+        }
+      }
+    }
+  ],
+  "_change_number": 38740591,
+  "_missing_token": false,
+  "_sha": "66af8ac895a48d9c5075a348a34e4b1ab85f2285",
+  "_size": 3830,
   "appid": "4754110",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +44,7 @@
     },
     "clienticon": "6e27fd52996468519ab6e6e3acd27b75e8951ec6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -39,7 +54,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4754110",
     "genres": {
       "0": "25",
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "73a775542249df4589aa0cd64d12aecf37b9025c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788988277",
     "store_asset_mtime": "1779212498",
     "store_tags": {
       "0": "1667",
@@ -150,5 +165,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "INKUBO",
+    "launch": {
+      "0": {
+        "executable": "INKUBO.exe"
+      }
+    }
+  },
+  "depots": {
+    "4754111": {
+      "manifests": {
+        "public": {
+          "download": "2054953600",
+          "gid": "4386412852471831334",
+          "size": "3231120003"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25058306",
+        "timebuildupdated": "1788267525",
+        "timeupdated": "1788267543"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DATAPHOBIA INTERACTIVE",
+    "publisher": "DATAPHOBIA INTERACTIVE"
+  }
 }

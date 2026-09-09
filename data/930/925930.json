@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788976818,
+  "_lastChecked": 1788986767,
   "_history": [
     {
       "buildId": "3200567",
@@ -38,10 +38,10 @@
       }
     }
   ],
-  "_change_number": 38701865,
+  "_change_number": 38738789,
   "_missing_token": false,
-  "_sha": "5a6c97301fac5d8fbb0a9dd2763dffa2674f2566",
-  "_size": 11695,
+  "_sha": "11178f7e9a432ef7324456902aa90d5151a5519d",
+  "_size": 11928,
   "appid": "925930",
   "common": {
     "associations": {
@@ -433,12 +433,17 @@
     "steamcontrollerconfigdetails": {
       "3481630216": {
         "controller_type": "controller_neptune",
-        "enabled_branches": "default,internal,patch_2-0-1,staging",
+        "enabled_branches": "default,internal,patch_2-0-1,patch_2-0-3,patch_2-0-5,staging",
         "use_action_block": "false"
       },
       "3481630720": {
         "controller_type": "controller_xboxone",
-        "enabled_branches": "default,internal,patch_2-0-1,staging",
+        "enabled_branches": "default,internal,patch_2-0-1,patch_2-0-3,patch_2-0-5,staging",
+        "use_action_block": "false"
+      },
+      "3798737076": {
+        "controller_type": "controller_ps5",
+        "enabled_branches": "default,internal,patch_2-0-1,patch_2-0-3,patch_2-0-5,staging",
         "use_action_block": "false"
       }
     },
@@ -503,7 +508,7 @@
     "publisher": "Cyan Worlds, Inc."
   },
   "ufs": {
-    "maxnumfiles": "21",
+    "maxnumfiles": "25",
     "quota": "10000000",
     "rootoverrides": {
       "1": {

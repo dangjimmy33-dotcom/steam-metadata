@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788981707,
-  "_history": [],
-  "_change_number": 38406620,
-  "_missing_token": true,
-  "_sha": "ca3dd2b9b6e446490f010541013e10257d309c14",
-  "_size": 3822,
+  "_lastChecked": 1788992053,
+  "_history": [
+    {
+      "buildId": "24886954",
+      "branch": "public",
+      "timeUpdated": 1787457170,
+      "firstSeen": 1788992053,
+      "manifests": {
+        "5113641": {
+          "gid": "6627305052989453687",
+          "size": 426170253,
+          "download": 228334032
+        }
+      }
+    }
+  ],
+  "_change_number": 38741816,
+  "_missing_token": false,
+  "_sha": "4eb28d2bfa74850043c61f8aed060559cd4c4245",
+  "_size": 4494,
   "appid": "5113640",
   "common": {
     "aicontenttype": "1",
@@ -27,7 +41,6 @@
     "clienticon": "bc2137abd24d2ebf57335aea0edc989dbb3fbe00",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5113640",
     "genres": {
       "0": "23",
@@ -110,11 +123,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c87641904b61c89766b78a337962a7e1e8de76df/capsule_231x87.jpg",
       "spanish": "c87641904b61c89766b78a337962a7e1e8de76df/capsule_231x87_spanish.jpg"
     },
+    "steam_release_date": "1788991682",
     "store_asset_mtime": "1787459222",
     "store_tags": {
       "0": "701",
@@ -142,5 +156,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Total Futsal Manager",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Total Futsal Manager.exe"
+      }
+    }
+  },
+  "depots": {
+    "5113641": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "228334032",
+          "gid": "6627305052989453687",
+          "size": "426170253"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "24886954",
+        "timebuildupdated": "1787457099",
+        "timeupdated": "1787457170"
+      }
+    }
+  },
+  "extended": {
+    "developer": "IAA Games",
+    "publisher": "IAA Games"
+  }
 }

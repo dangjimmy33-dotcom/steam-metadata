@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788977162,
+  "_lastChecked": 1788987143,
   "_history": [
     {
       "buildId": "18704522",
@@ -221,12 +221,38 @@
           "download": 143616544
         }
       }
+    },
+    {
+      "buildId": "25215391",
+      "branch": "v04beta",
+      "timeUpdated": 1788981022,
+      "firstSeen": 1788987143,
+      "manifests": {
+        "1184771": {
+          "gid": "4620532958798308879",
+          "size": 561839098,
+          "download": 150914784
+        }
+      }
+    },
+    {
+      "buildId": "25215541",
+      "branch": "v04boldframe",
+      "timeUpdated": 1788981055,
+      "firstSeen": 1788987143,
+      "manifests": {
+        "1184771": {
+          "gid": "4208828899366447873",
+          "size": 337425123,
+          "download": 93723936
+        }
+      }
     }
   ],
-  "_change_number": 37629720,
+  "_change_number": 38737888,
   "_missing_token": false,
-  "_sha": "8494639b507be637e22edb0288f76d7e07d67efd",
-  "_size": 9485,
+  "_sha": "3f36e2c4363ffd35c157d9896f159289dc24d88c",
+  "_size": 10050,
   "appid": "1184770",
   "common": {
     "associations": {
@@ -493,6 +519,16 @@
           "gid": "3324836770036059339",
           "size": "556525635"
         },
+        "v04beta": {
+          "download": "150914784",
+          "gid": "4620532958798308879",
+          "size": "561839098"
+        },
+        "v04boldframe": {
+          "download": "93723936",
+          "gid": "4208828899366447873",
+          "size": "337425123"
+        },
         "version031": {
           "download": "143616544",
           "gid": "2232540559173077115",
@@ -595,6 +631,18 @@
         "description": "Beta Version 0.31 (Judicial)",
         "timebuildupdated": "1755804620",
         "timeupdated": "1755805454"
+      },
+      "v04beta": {
+        "buildid": "25215391",
+        "description": "Beta Version 0.4",
+        "timebuildupdated": "1788979883",
+        "timeupdated": "1788981022"
+      },
+      "v04boldframe": {
+        "buildid": "25215541",
+        "description": "Beta Version 0.4 (Old Framework)",
+        "timebuildupdated": "1788980345",
+        "timeupdated": "1788981055"
       },
       "version031": {
         "buildid": "18704522",

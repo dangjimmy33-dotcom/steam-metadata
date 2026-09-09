@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788980534,
+  "_lastChecked": 1788990790,
   "_history": [
     {
       "buildId": "24826263",
@@ -28,12 +28,40 @@
           "download": 470018688
         }
       }
+    },
+    {
+      "buildId": "25217861",
+      "branch": "public",
+      "timeUpdated": 1788989233,
+      "firstSeen": 1788990790,
+      "manifests": {
+        "3961821": {
+          "gid": "8690984918686687216",
+          "size": 2015,
+          "download": 592
+        },
+        "3961822": {
+          "gid": "4182437968485066070",
+          "size": 1294465680,
+          "download": 715032176
+        },
+        "3961823": {
+          "gid": "6275904330680267250",
+          "size": 1177067125,
+          "download": 577430336
+        },
+        "3961824": {
+          "gid": "1598142995944575569",
+          "size": 1060366476,
+          "download": 544903632
+        }
+      }
     }
   ],
-  "_change_number": 38165594,
+  "_change_number": 38740955,
   "_missing_token": false,
-  "_sha": "02d1cc460e0419b4a1121a9a25eb9dadc29fc78d",
-  "_size": 5946,
+  "_sha": "2f85e135736f4cb74de9bb6583d2aa1e264dc286",
+  "_size": 6214,
   "appid": "3961820",
   "common": {
     "associations": {
@@ -86,10 +114,13 @@
       "german": "1",
       "italian": "1",
       "japanese": "1",
+      "koreana": "1",
       "latam": "1",
+      "polish": "1",
       "russian": "1",
       "schinese": "1",
-      "swedish": "1"
+      "swedish": "1",
+      "tchinese": "1"
     },
     "library_assets": {
       "library_capsule": "en",
@@ -203,7 +234,15 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "koreana": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "latam": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "polish": {
         "subtitles": "true",
         "supported": "true"
       },
@@ -216,6 +255,10 @@
         "supported": "true"
       },
       "swedish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "tchinese": {
         "subtitles": "true",
         "supported": "true"
       }
@@ -268,9 +311,9 @@
       },
       "manifests": {
         "public": {
-          "download": "622657088",
-          "gid": "5160164780409558286",
-          "size": "1151278016"
+          "download": "715032176",
+          "gid": "4182437968485066070",
+          "size": "1294465680"
         }
       }
     },
@@ -281,9 +324,9 @@
       },
       "manifests": {
         "public": {
-          "download": "996187392",
-          "gid": "6941693756092269042",
-          "size": "1584322766"
+          "download": "577430336",
+          "gid": "6275904330680267250",
+          "size": "1177067125"
         }
       }
     },
@@ -293,18 +336,18 @@
       },
       "manifests": {
         "public": {
-          "download": "470018688",
-          "gid": "3157429648154653932",
-          "size": "928665156"
+          "download": "544903632",
+          "gid": "1598142995944575569",
+          "size": "1060366476"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "24826263",
-        "timebuildupdated": "1787172295",
-        "timeupdated": "1787172295"
+        "buildid": "25217861",
+        "timebuildupdated": "1788989233",
+        "timeupdated": "1788989233"
       }
     }
   },

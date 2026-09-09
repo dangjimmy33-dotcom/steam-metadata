@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788981379,
+  "_lastChecked": 1788991702,
   "_history": [
     {
       "buildId": "25139839",
@@ -41,10 +41,10 @@
       }
     }
   ],
-  "_change_number": 38664677,
+  "_change_number": 38738477,
   "_missing_token": false,
-  "_sha": "2f6789b7c8a8b8a09405272a850f68f264953efc",
-  "_size": 4524,
+  "_sha": "dcb1bf383d338f8bf4da8e56a3949522a206ec71",
+  "_size": 4781,
   "appid": "4760020",
   "common": {
     "associations": {
@@ -255,7 +255,19 @@
     "publisher": "DeadLogics"
   },
   "ufs": {
-    "maxnumfiles": "0",
-    "quota": "0"
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "50",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "DeadLogics/Operation Outbreak Idle/save",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

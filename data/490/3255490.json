@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788979719,
+  "_lastChecked": 1788989915,
   "_history": [
     {
       "buildId": "25070350",
@@ -18,12 +18,30 @@
           "download": 422484160
         }
       }
+    },
+    {
+      "buildId": "25215915",
+      "branch": "public",
+      "timeUpdated": 1788981762,
+      "firstSeen": 1788989915,
+      "manifests": {
+        "3255491": {
+          "gid": "8574598656178239963",
+          "size": 795283139,
+          "download": 478876400
+        },
+        "3255492": {
+          "gid": "2220832962765173029",
+          "size": 721701449,
+          "download": 422483536
+        }
+      }
     }
   ],
-  "_change_number": 38712828,
+  "_change_number": 38738373,
   "_missing_token": false,
-  "_sha": "9ec5420cea41104569630e16ebc7c60431d9b804",
-  "_size": 9447,
+  "_sha": "7e2ba7e8be155cbe873f6414ade0e044e1905c5c",
+  "_size": 9052,
   "appid": "3255490",
   "common": {
     "associations": {
@@ -465,25 +483,7 @@
     "installdir": "Fight Flight",
     "launch": {
       "0": {
-        "config": {
-          "oslist": "windows"
-        },
-        "description": "Windows Build",
-        "description_loc": {
-          "english": "Windows Build"
-        },
         "executable": "\\Windows\\FightFlight.exe",
-        "type": "default"
-      },
-      "1": {
-        "config": {
-          "oslist": "linux"
-        },
-        "description": "Steam Deck Build",
-        "description_loc": {
-          "english": "Steam Deck Build"
-        },
-        "executable": "\\Windows\\FightFlightSDB.exe",
         "type": "default"
       }
     },
@@ -521,17 +521,17 @@
       },
       "manifests": {
         "public": {
-          "download": "422484160",
-          "gid": "3434803982709462723",
-          "size": "721699401"
+          "download": "422483536",
+          "gid": "2220832962765173029",
+          "size": "721701449"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25070350",
-        "timebuildupdated": "1788312823",
-        "timeupdated": "1788312870"
+        "buildid": "25215915",
+        "timebuildupdated": "1788981681",
+        "timeupdated": "1788981762"
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788980025,
+  "_lastChecked": 1788990245,
   "_history": [
     {
       "buildId": "24962416",
@@ -23,12 +23,40 @@
           "download": 304271104
         }
       }
+    },
+    {
+      "buildId": "25216720",
+      "branch": "public",
+      "timeUpdated": 1788985030,
+      "firstSeen": 1788990245,
+      "manifests": {
+        "3520821": {
+          "gid": "7675784236048071436",
+          "size": 581856641,
+          "download": 294461936
+        },
+        "4937360": {
+          "gid": "1768329891503226777",
+          "size": 581856641,
+          "download": 306784160
+        },
+        "5056700": {
+          "gid": "7639384849452115194",
+          "size": 581856641,
+          "download": 306798624
+        },
+        "5190220": {
+          "gid": "4951741670581345757",
+          "size": 581856641,
+          "download": 306777008
+        }
+      }
     }
   ],
-  "_change_number": 38412965,
+  "_change_number": 38739396,
   "_missing_token": false,
-  "_sha": "ec7a2d892368db5dbae1d51244b35eaf8e64908b",
-  "_size": 5535,
+  "_sha": "d5af508b260ec9ea3ebfea505fb6c7d07265f187",
+  "_size": 5772,
   "appid": "3520820",
   "common": {
     "aicontenttype": "1",
@@ -193,9 +221,9 @@
     "3520821": {
       "manifests": {
         "public": {
-          "download": "291931360",
-          "gid": "7308667892263890902",
-          "size": "579052641"
+          "download": "294461936",
+          "gid": "7675784236048071436",
+          "size": "581856641"
         }
       }
     },
@@ -206,9 +234,9 @@
       "dlcappid": "4937360",
       "manifests": {
         "public": {
-          "download": "304256640",
-          "gid": "2185495241572618043",
-          "size": "579052641"
+          "download": "306784160",
+          "gid": "1768329891503226777",
+          "size": "581856641"
         }
       }
     },
@@ -219,18 +247,31 @@
       "dlcappid": "5056700",
       "manifests": {
         "public": {
-          "download": "304271104",
-          "gid": "4027635582713099583",
-          "size": "579052641"
+          "download": "306798624",
+          "gid": "7639384849452115194",
+          "size": "581856641"
+        }
+      }
+    },
+    "5190220": {
+      "config": {
+        "oslist": "windows"
+      },
+      "dlcappid": "5190220",
+      "manifests": {
+        "public": {
+          "download": "306777008",
+          "gid": "4951741670581345757",
+          "size": "581856641"
         }
       }
     },
     "baselanguages": "schinese",
     "branches": {
       "public": {
-        "buildid": "24962416",
-        "timebuildupdated": "1787800529",
-        "timeupdated": "1787800902"
+        "buildid": "25216720",
+        "timebuildupdated": "1788984994",
+        "timeupdated": "1788985030"
       }
     },
     "privatebranches": "1"
@@ -238,7 +279,7 @@
   "extended": {
     "developer": "狮子",
     "dlcavailableonstore": "1",
-    "listofdlc": "4937360,5056700",
+    "listofdlc": "4937360,5056700,5190220",
     "publisher": "狮子"
   },
   "ufs": {

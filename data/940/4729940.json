@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788981352,
-  "_history": [],
-  "_change_number": 38702835,
-  "_missing_token": true,
-  "_sha": "e00ff8e002e970b5259e4105bdb045d25c41751f",
-  "_size": 4207,
+  "_lastChecked": 1788991673,
+  "_history": [
+    {
+      "buildId": "25191640",
+      "branch": "public",
+      "timeUpdated": 1788885948,
+      "firstSeen": 1788991673,
+      "manifests": {
+        "4729941": {
+          "gid": "5206528199378312482",
+          "size": 4844879279,
+          "download": 2652704736
+        }
+      }
+    }
+  ],
+  "_change_number": 38741661,
+  "_missing_token": false,
+  "_sha": "006ac8c5b0a5ed86720d1cbabd6027816ae1be58",
+  "_size": 6522,
   "appid": "4729940",
   "common": {
     "aicontenttype": "1",
@@ -47,9 +61,9 @@
     },
     "clienticon": "21d266903eecf13cbe2a66f05e01fd724d954f93",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4729940",
     "genres": {
       "0": "4",
@@ -134,10 +148,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cff2b955e8aca2cb1b6548220e8335469de1b671/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788991225",
     "store_asset_mtime": "1788766477",
     "store_tags": {
       "0": "597",
@@ -203,5 +218,111 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Roomrush Racer",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Start Roomrush Racer",
+        "description_loc": {
+          "english": "Start Roomrush Racer"
+        },
+        "executable": "Roomrush Racer.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4729941": {
+      "manifests": {
+        "public": {
+          "download": "2652704736",
+          "gid": "5206528199378312482",
+          "size": "4844879279"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25191640",
+        "timebuildupdated": "1788885934",
+        "timeupdated": "1788885948"
+      }
+    },
+    "privatebranches": "1",
+    "workshopdepot": "4729940"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Benjamin Recker",
+    "publisher": "Big Bossi Games",
+    "remoteplaytogethertestingbranches": "default"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Roomrush Racer",
+        "pattern": "progress.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Roomrush Racer",
+        "pattern": "time_trail_high_scores.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": ".local/share/godot/app_userdata/Roomrush Racer",
+        "pattern": "progress.cfg",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      },
+      "3": {
+        "path": ".local/share/godot/app_userdata/Roomrush Racer",
+        "pattern": "time_trail_high_scores.cfg",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Roomrush Racer/tracks",
+        "pattern": "*.rrtrack",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Godot/app_userdata/Roomrush Racer/tracks",
+        "pattern": "*.png",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Godot/app_userdata/Roomrush Racer",
+        "pattern": "workshop_items.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

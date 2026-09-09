@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788981714,
-  "_history": [],
-  "_change_number": 38635183,
-  "_missing_token": true,
-  "_sha": "bc20b1e6c58048866bf622c3ce17543ab133fbd8",
-  "_size": 2845,
+  "_lastChecked": 1788992060,
+  "_history": [
+    {
+      "buildId": "25004598",
+      "branch": "public",
+      "timeUpdated": 1788003966,
+      "firstSeen": 1788992060,
+      "manifests": {
+        "5122801": {
+          "gid": "1874470088164849368",
+          "size": 235416655,
+          "download": 205381872
+        }
+      }
+    }
+  ],
+  "_change_number": 38740098,
+  "_missing_token": false,
+  "_sha": "503c93a6d4efdb135e02bad57321e9327a5045aa",
+  "_size": 3424,
   "appid": "5122800",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "5ea1e5c519d97d8ec9d57fa97326d71ed20d7240",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5122800",
     "genres": {
       "0": "1",
@@ -96,10 +109,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "17ea3c75663444bbb36cc9ac488a809dec90571b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788986895",
     "store_asset_mtime": "1787279449",
     "store_tags": {
       "0": "9",
@@ -126,5 +140,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TheForlorn",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TheForlorn.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5122801": {
+      "manifests": {
+        "public": {
+          "download": "205381872",
+          "gid": "1874470088164849368",
+          "size": "235416655"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25004598",
+        "timebuildupdated": "1787970933",
+        "timeupdated": "1788003966"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kyler Pietzyk",
+    "publisher": "Kyler Pietzyk"
+  }
 }

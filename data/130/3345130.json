@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788979821,
+  "_lastChecked": 1788990025,
   "_history": [
     {
       "buildId": "25066606",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38704819,
+  "_change_number": 38737823,
   "_missing_token": false,
-  "_sha": "e8ea289b85f63e1cb3209a3bbd120c40e2c90b1b",
-  "_size": 4407,
+  "_sha": "32be46160a5c115f91f886bbea95c0e7c3530043",
+  "_size": 5635,
   "appid": "3345130",
   "common": {
     "aicontenttype": "1",
@@ -137,6 +137,51 @@
     "review_score": "7",
     "small_capsule": {
       "english": "c16e11cb301a8c19b35d0133b5c520a8d5945573/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "native",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "1",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "1",
+      "steam_machine_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "test_timestamp": "1788374687",
+      "tested_build_id": "25066606",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+        }
+      }
     },
     "steam_release_date": "1787954436",
     "store_asset_mtime": "1779633848",

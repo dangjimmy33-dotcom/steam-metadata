@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788979193,
+  "_lastChecked": 1788989343,
   "_history": [
     {
       "buildId": "21831333",
@@ -26,12 +26,38 @@
           "download": 392152864
         }
       }
+    },
+    {
+      "buildId": "25217680",
+      "branch": "public",
+      "timeUpdated": 1788988897,
+      "firstSeen": 1788989343,
+      "manifests": {
+        "2802541": {
+          "gid": "2729783063353215373",
+          "size": 533787484,
+          "download": 391651168
+        }
+      }
+    },
+    {
+      "buildId": "25217680",
+      "branch": "squaregdev",
+      "timeUpdated": 1788988519,
+      "firstSeen": 1788989343,
+      "manifests": {
+        "2802541": {
+          "gid": "2729783063353215373",
+          "size": 533787484,
+          "download": 391651168
+        }
+      }
     }
   ],
-  "_change_number": 36535810,
+  "_change_number": 38740805,
   "_missing_token": false,
-  "_sha": "073fb27c22d368ea903ac56f1a8a8f8bbab41329",
-  "_size": 4300,
+  "_sha": "00060bd624408a7e4c794c84c3e8257d934014a5",
+  "_size": 4304,
   "appid": "2802540",
   "common": {
     "associations": {
@@ -130,7 +156,7 @@
       }
     },
     "name": "Squareg",
-    "osarch": "",
+    "osarch": "64",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
@@ -202,29 +228,29 @@
     "2802541": {
       "manifests": {
         "public": {
-          "download": "392152864",
-          "gid": "545510180097902427",
-          "size": "534322732"
+          "download": "391651168",
+          "gid": "2729783063353215373",
+          "size": "533787484"
         },
         "squaregdev": {
-          "download": "392152864",
-          "gid": "545510180097902427",
-          "size": "534322732"
+          "download": "391651168",
+          "gid": "2729783063353215373",
+          "size": "533787484"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "21831333",
-        "timebuildupdated": "1770486615",
-        "timeupdated": "1770486659"
+        "buildid": "25217680",
+        "timebuildupdated": "1788988516",
+        "timeupdated": "1788988897"
       },
       "squaregdev": {
-        "buildid": "21831333",
+        "buildid": "25217680",
         "description": "DevBranch",
-        "timebuildupdated": "1770486615",
-        "timeupdated": "1770486619"
+        "timebuildupdated": "1788988516",
+        "timeupdated": "1788988519"
       }
     }
   },
