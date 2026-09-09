@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788955824,
-  "_history": [],
-  "_change_number": 38716845,
-  "_missing_token": true,
-  "_sha": "e8b1837b30e2db485b8c0517d5f3d1ebb6e421af",
-  "_size": 3690,
+  "_lastChecked": 1788962049,
+  "_history": [
+    {
+      "buildId": "25201376",
+      "branch": "public",
+      "timeUpdated": 1788929902,
+      "firstSeen": 1788962049,
+      "manifests": {
+        "4821441": {
+          "gid": "6081710293818172341",
+          "size": 1067916013,
+          "download": 850599824
+        }
+      }
+    }
+  ],
+  "_change_number": 38729149,
+  "_missing_token": false,
+  "_sha": "f22c8213f48c4d09150c4dad3ffcd3088070af96",
+  "_size": 4430,
   "appid": "4821440",
   "common": {
     "associations": {
@@ -43,7 +57,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4821440",
     "genres": {
       "0": "4",
@@ -115,7 +128,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "f8f1216c412f5edccc3df9d96b4834855a25156c/capsule_231x87.jpg"
@@ -180,5 +193,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Spin Me",
+    "launch": {
+      "0": {
+        "executable": "Spin Me.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4821441": {
+      "manifests": {
+        "public": {
+          "download": "850599824",
+          "gid": "6081710293818172341",
+          "size": "1067916013"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25201376",
+        "timebuildupdated": "1788929900",
+        "timeupdated": "1788929902"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Silver gun",
+    "publisher": "Silver gun"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "data/",
+        "pattern": "*.dat",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

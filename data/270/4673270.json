@@ -1,12 +1,27 @@
 {
-  "_lastChecked": 1788955707,
-  "_history": [],
-  "_change_number": 38721979,
-  "_missing_token": true,
-  "_sha": "12c652f106b41412a8fff4d6e1c770496140abd3",
-  "_size": 3500,
+  "_lastChecked": 1788961918,
+  "_history": [
+    {
+      "buildId": "25204724",
+      "branch": "public",
+      "timeUpdated": 1788944774,
+      "firstSeen": 1788961918,
+      "manifests": {
+        "4673271": {
+          "gid": "1097685143202857190",
+          "size": 497414033,
+          "download": 392673504
+        }
+      }
+    }
+  ],
+  "_change_number": 38728979,
+  "_missing_token": false,
+  "_sha": "8914525eb38858bd3781d26cc10dd587370eb84e",
+  "_size": 4368,
   "appid": "4673270",
   "common": {
+    "aicontenttype": "1",
     "associations": {
       "0": {
         "name": "interactive Studio",
@@ -30,6 +45,7 @@
     },
     "clienticon": "7240f29f6b4690649f902ca4161174606365d2c2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -40,7 +56,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4673270",
     "genres": {
       "0": "28"
@@ -110,7 +125,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5a8ef5374d266dcb2a166257f873d8f931cfe92d/capsule_231x87.jpg"
     },
@@ -158,5 +173,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blood Moon Calling Complete Edition",
+    "launch": {
+      "0": {
+        "executable": "blood-moon-serenade.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4673271": {
+      "manifests": {
+        "public": {
+          "download": "392673504",
+          "gid": "1097685143202857190",
+          "size": "497414033"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25204724",
+        "timebuildupdated": "1788944344",
+        "timeupdated": "1788944774"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "interactive Studio",
+    "homepage": "https://www.studio-asahi.jp/games/blood-moon-serenade/",
+    "publisher": "Studio Asahi"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "BloodMoonSerenade/saves",
+        "pattern": "*.json",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

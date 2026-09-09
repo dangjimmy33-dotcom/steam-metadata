@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788952558,
+  "_lastChecked": 1788958308,
   "_history": [
     {
       "buildId": "25189741",
@@ -26,12 +26,25 @@
           "download": 6690366064
         }
       }
+    },
+    {
+      "buildId": "25207860",
+      "branch": "compatibility",
+      "timeUpdated": 1788955199,
+      "firstSeen": 1788958308,
+      "manifests": {
+        "1510441": {
+          "gid": "3343905231691157626",
+          "size": 8524681726,
+          "download": 7122748304
+        }
+      }
     }
   ],
-  "_change_number": 38725118,
+  "_change_number": 38727001,
   "_missing_token": false,
-  "_sha": "67de7bbefea171a7cfaec2b0db487ddf0982f6c0",
-  "_size": 7735,
+  "_sha": "57523c851853f08d5437d864725dff6f3722f1e6",
+  "_size": 8068,
   "appid": "1510440",
   "common": {
     "associations": {
@@ -314,6 +327,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "compatibility": {
+          "download": "7122748304",
+          "gid": "3343905231691157626",
+          "size": "8524681726"
+        },
         "public": {
           "download": "6690366064",
           "gid": "11856991047261177",
@@ -342,6 +360,12 @@
       "dlcappid": "4332180"
     },
     "branches": {
+      "compatibility": {
+        "buildid": "25207860",
+        "description": "Troubleshooting branch for solving hardware compatibility issues.",
+        "timebuildupdated": "1788955199",
+        "timeupdated": "1788955199"
+      },
       "public": {
         "buildid": "25203521",
         "timebuildupdated": "1788940032",

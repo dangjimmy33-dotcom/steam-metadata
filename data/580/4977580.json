@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788955960,
-  "_history": [],
-  "_change_number": 38575028,
-  "_missing_token": true,
-  "_sha": "7aff2c302aee8fe9ec170da02e87b09fac265a58",
-  "_size": 4759,
+  "_lastChecked": 1788962202,
+  "_history": [
+    {
+      "buildId": "25104309",
+      "branch": "public",
+      "timeUpdated": 1788446855,
+      "firstSeen": 1788962202,
+      "manifests": {
+        "4977581": {
+          "gid": "6429428181439900286",
+          "size": 532956008,
+          "download": 322023120
+        }
+      }
+    }
+  ],
+  "_change_number": 38727669,
+  "_missing_token": false,
+  "_sha": "2b9c4afcd4d67a7d3d36e952da76d9773b9047de",
+  "_size": 5601,
   "appid": "4977580",
   "common": {
     "aicontenttype": "1",
@@ -33,9 +47,9 @@
     "clienticns": "e05fd6b843de63c9fe39dd31fb9cee4617e16acf",
     "clienticon": "bb7f1802c50b6c1a9df9095ee02421dc78a468e5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4977580",
     "genres": {
       "0": "25",
@@ -141,11 +155,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "55f10c9cb258258ace0acebda1e6767742690055/capsule_231x87.jpg",
       "japanese": "8cfbf37f60be606aa6997ecccee8a293e1c12c8f/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1788958440",
     "store_asset_mtime": "1785931659",
     "store_tags": {
       "0": "1667",
@@ -212,5 +227,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "LostItem",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "LostItem.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4977581": {
+      "manifests": {
+        "public": {
+          "download": "322023120",
+          "gid": "6429428181439900286",
+          "size": "532956008"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25104309",
+        "timebuildupdated": "1788446852",
+        "timeupdated": "1788446855"
+      }
+    }
+  },
+  "extended": {
+    "developer": "to_teki",
+    "publisher": "to_teki"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/忘れ物/",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

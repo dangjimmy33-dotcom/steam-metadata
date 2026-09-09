@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788955997,
+  "_lastChecked": 1788962243,
   "_history": [
     {
       "buildId": "25060313",
@@ -69,12 +69,58 @@
           "download": 537432944
         }
       }
+    },
+    {
+      "buildId": "25209108",
+      "branch": "public",
+      "timeUpdated": 1788959369,
+      "firstSeen": 1788962243,
+      "manifests": {
+        "5026011": {
+          "gid": "6360293444254765956",
+          "size": 602678356,
+          "download": 540185264
+        },
+        "5026012": {
+          "gid": "2942922378014587619",
+          "size": 655148262,
+          "download": 556544048
+        },
+        "5026013": {
+          "gid": "1967363768473531021",
+          "size": 591376484,
+          "download": 537444944
+        }
+      }
+    },
+    {
+      "buildId": "25209108",
+      "branch": "v2-stable",
+      "timeUpdated": 1788959369,
+      "firstSeen": 1788962243,
+      "manifests": {
+        "5026011": {
+          "gid": "6360293444254765956",
+          "size": 602678356,
+          "download": 540185264
+        },
+        "5026012": {
+          "gid": "2942922378014587619",
+          "size": 655148262,
+          "download": 556544048
+        },
+        "5026013": {
+          "gid": "1967363768473531021",
+          "size": 591376484,
+          "download": 537444944
+        }
+      }
     }
   ],
-  "_change_number": 38511137,
+  "_change_number": 38728173,
   "_missing_token": false,
-  "_sha": "1c88fe5a67322615c2cc85d40934d73c2e0e6e4a",
-  "_size": 10381,
+  "_sha": "67d19e4e28d041939f55b3532001bdf8a48c71c2",
+  "_size": 10414,
   "appid": "5026010",
   "common": {
     "aicontenttype": "1",
@@ -221,7 +267,8 @@
     "name": "Cultivation Road",
     "name_localized": {
       "japanese": "果てなき仙路",
-      "schinese": "修仙塔"
+      "schinese": "万里仙途",
+      "tchinese": "萬里仙途"
     },
     "osarch": "",
     "osextended": "",
@@ -330,9 +377,9 @@
       },
       "manifests": {
         "public": {
-          "download": "540163344",
-          "gid": "2863793929924415718",
-          "size": "602627956"
+          "download": "540185264",
+          "gid": "6360293444254765956",
+          "size": "602678356"
         },
         "v1-stable": {
           "download": "414253056",
@@ -340,9 +387,9 @@
           "size": "476726884"
         },
         "v2-stable": {
-          "download": "540163344",
-          "gid": "2863793929924415718",
-          "size": "602627956"
+          "download": "540185264",
+          "gid": "6360293444254765956",
+          "size": "602678356"
         }
       }
     },
@@ -352,9 +399,9 @@
       },
       "manifests": {
         "public": {
-          "download": "556467536",
-          "gid": "7082361567136416181",
-          "size": "654997046"
+          "download": "556544048",
+          "gid": "2942922378014587619",
+          "size": "655148262"
         },
         "v1-stable": {
           "download": "430399648",
@@ -362,9 +409,9 @@
           "size": "528714982"
         },
         "v2-stable": {
-          "download": "556467536",
-          "gid": "7082361567136416181",
-          "size": "654997046"
+          "download": "556544048",
+          "gid": "2942922378014587619",
+          "size": "655148262"
         }
       }
     },
@@ -374,9 +421,9 @@
       },
       "manifests": {
         "public": {
-          "download": "537432944",
-          "gid": "4427574352684068260",
-          "size": "591340932"
+          "download": "537444944",
+          "gid": "1967363768473531021",
+          "size": "591376484"
         },
         "v1-stable": {
           "download": "411524528",
@@ -384,18 +431,18 @@
           "size": "465442116"
         },
         "v2-stable": {
-          "download": "537432944",
-          "gid": "4427574352684068260",
-          "size": "591340932"
+          "download": "537444944",
+          "gid": "1967363768473531021",
+          "size": "591376484"
         }
       }
     },
     "baselanguages": "english,japanese,schinese,tchinese",
     "branches": {
       "public": {
-        "buildid": "25060313",
-        "timebuildupdated": "1788273791",
-        "timeupdated": "1788274009"
+        "buildid": "25209108",
+        "timebuildupdated": "1788959312",
+        "timeupdated": "1788959369"
       },
       "v1-stable": {
         "buildid": "24507637",
@@ -404,10 +451,10 @@
         "timeupdated": "1785578967"
       },
       "v2-stable": {
-        "buildid": "25060313",
+        "buildid": "25209108",
         "description": "v2-stable",
-        "timebuildupdated": "1788273791",
-        "timeupdated": "1788273831"
+        "timebuildupdated": "1788959312",
+        "timeupdated": "1788959369"
       }
     },
     "privatebranches": "1"

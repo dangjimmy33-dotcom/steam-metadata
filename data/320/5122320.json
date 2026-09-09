@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788956062,
-  "_history": [],
-  "_change_number": 38633996,
-  "_missing_token": true,
-  "_sha": "7b3db7bb2bd88bd04f89bc2e171ea37038a33a7f",
-  "_size": 3156,
+  "_lastChecked": 1788962317,
+  "_history": [
+    {
+      "buildId": "25145090",
+      "branch": "public",
+      "timeUpdated": 1788639776,
+      "firstSeen": 1788962317,
+      "manifests": {
+        "5122321": {
+          "gid": "2980882310642759406",
+          "size": 278064900,
+          "download": 109154576
+        }
+      }
+    }
+  ],
+  "_change_number": 38727701,
+  "_missing_token": false,
+  "_sha": "774605a2bced71300f2b12dded92d163a28c9912",
+  "_size": 3665,
   "appid": "5122320",
   "common": {
     "aicontenttype": "1",
@@ -33,7 +47,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5122320",
     "genres": {
       "0": "1"
@@ -103,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a3a7c6dd42f7784396ddb398de7c918e1920c494/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788958493",
     "store_asset_mtime": "1788614570",
     "store_tags": {
       "0": "4758",
@@ -143,5 +157,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bullet Debt",
+    "launch": {
+      "0": {
+        "executable": "Bullet Debt.exe"
+      }
+    }
+  },
+  "depots": {
+    "5122321": {
+      "manifests": {
+        "public": {
+          "download": "109154576",
+          "gid": "2980882310642759406",
+          "size": "278064900"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25145090",
+        "timebuildupdated": "1788639774",
+        "timeupdated": "1788639776"
+      }
+    }
+  },
+  "extended": {
+    "developer": "David Gamble",
+    "publisher": "Face Won Games"
+  }
 }

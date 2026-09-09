@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788956018,
-  "_history": [],
-  "_change_number": 38483213,
-  "_missing_token": true,
-  "_sha": "037363d400e98ee365d4f31b3a48e90a6e0d5772",
-  "_size": 3676,
+  "_lastChecked": 1788962268,
+  "_history": [
+    {
+      "buildId": "24653709",
+      "branch": "public",
+      "timeUpdated": 1786368964,
+      "firstSeen": 1788962268,
+      "manifests": {
+        "5054381": {
+          "gid": "7740394252738955540",
+          "size": 606503269,
+          "download": 134802912
+        }
+      }
+    }
+  ],
+  "_change_number": 38729373,
+  "_missing_token": false,
+  "_sha": "c82ebd382aa6df96d3b5b5611136d9db1081572a",
+  "_size": 4411,
   "appid": "5054380",
   "common": {
     "associations": {
@@ -37,9 +51,9 @@
     },
     "clienticon": "e0e2096e88bdc3c109a2476fcb918048bd27344c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5054380",
     "genres": {
       "0": "1",
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f1c727ae8987c2c13bb5fde7abc535118b2609a5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788961994",
     "store_asset_mtime": "1786116993",
     "store_tags": {
       "0": "19",
@@ -171,5 +186,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Super Glitch Dash",
+    "launch": {
+      "0": {
+        "executable": "Super Glitch.exe"
+      }
+    }
+  },
+  "depots": {
+    "5054381": {
+      "manifests": {
+        "public": {
+          "download": "134802912",
+          "gid": "7740394252738955540",
+          "size": "606503269"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24653709",
+        "timebuildupdated": "1786368962",
+        "timeupdated": "1786368964"
+      }
+    }
+  },
+  "extended": {
+    "developer": "David Marquardt Studios",
+    "publisher": "David Marquardt Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "30000000",
+    "savefiles": {
+      "0": {
+        "path": "Saves",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788953867,
+  "_lastChecked": 1788959823,
   "_history": [
     {
       "buildId": "25134229",
@@ -20,10 +20,10 @@
       }
     }
   ],
-  "_change_number": 38703059,
+  "_change_number": 38728138,
   "_missing_token": false,
-  "_sha": "0f5f29877ee701188c1cb05f924b1a35d464ec11",
-  "_size": 7541,
+  "_sha": "0f617bdeb6522e94b55884f8ff742b4ff920e181",
+  "_size": 7708,
   "appid": "2749950",
   "common": {
     "aicontenttype": "1",
@@ -347,6 +347,15 @@
   "ufs": {
     "maxnumfiles": "10000",
     "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "NeuronaGames/EsportsManager/Save",

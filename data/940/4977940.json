@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788955961,
+  "_lastChecked": 1788962203,
   "_history": [
     {
       "buildId": "25189736",
@@ -13,14 +13,28 @@
           "download": 190118416
         }
       }
+    },
+    {
+      "buildId": "25208719",
+      "branch": "public",
+      "timeUpdated": 1788958079,
+      "firstSeen": 1788962203,
+      "manifests": {
+        "4977941": {
+          "gid": "6251779874863160824",
+          "size": 691221979,
+          "download": 190201504
+        }
+      }
     }
   ],
-  "_change_number": 38700081,
+  "_change_number": 38728075,
   "_missing_token": false,
-  "_sha": "94a17d941a4e841dd45671f3b885b2ccf51629cc",
-  "_size": 3488,
+  "_sha": "3cae0b2b7818c0e0aa8c564683519333462c8680",
+  "_size": 3838,
   "appid": "4977940",
   "common": {
+    "aicontenttype": "1",
     "associations": {
       "0": {
         "name": "HZGame",
@@ -33,10 +47,17 @@
     },
     "category": {
       "category_2": "1",
-      "category_62": "1"
+      "category_28": "1",
+      "category_55": "1",
+      "category_57": "1",
+      "category_59": "1",
+      "category_62": "1",
+      "category_74": "1",
+      "category_79": "1"
     },
     "clienticon": "520f234c54086182e7a6fd004b40e458754ec44b",
     "community_hub_visible": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
     "gameid": "4977940",
     "genres": {
@@ -118,6 +139,7 @@
     "small_capsule": {
       "english": "a7075349c73c91bd84cd7ce1197cb3743f73b539/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788880017",
     "store_asset_mtime": "1787118147",
     "store_tags": {
       "0": "122",
@@ -156,23 +178,26 @@
         "executable": "game/game.exe"
       }
     },
-    "steamdecktouchscreen": "5"
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "5",
+    "steaminputmanifestpath": "steam_input"
   },
   "depots": {
     "4977941": {
       "manifests": {
         "public": {
-          "download": "190118416",
-          "gid": "223820037498691537",
-          "size": "691134856"
+          "download": "190201504",
+          "gid": "6251779874863160824",
+          "size": "691221979"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25189736",
-        "timebuildupdated": "1788879465",
-        "timeupdated": "1788879496"
+        "buildid": "25208719",
+        "timebuildupdated": "1788958035",
+        "timeupdated": "1788958079"
       }
     }
   },

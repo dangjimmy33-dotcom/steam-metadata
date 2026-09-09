@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788955967,
-  "_history": [],
-  "_change_number": 38373480,
-  "_missing_token": true,
-  "_sha": "5b36436d8d7d0aa96ee44eced6fe5f98076389f9",
-  "_size": 6007,
+  "_lastChecked": 1788962210,
+  "_history": [
+    {
+      "buildId": "25093969",
+      "branch": "public",
+      "timeUpdated": 1788406668,
+      "firstSeen": 1788962210,
+      "manifests": {
+        "4985871": {
+          "gid": "526779596666586810",
+          "size": 533336970,
+          "download": 224914320
+        }
+      }
+    }
+  ],
+  "_change_number": 38728996,
+  "_missing_token": false,
+  "_sha": "fe0258012ea8e410b09f220a0cb2611e5567dd03",
+  "_size": 6738,
   "appid": "4985870",
   "common": {
     "aicontenttype": "2",
@@ -25,7 +39,6 @@
     "clienticon": "0d3a973727b2da625c9e30c324d6bcb16880cbaf",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4985870",
     "genres": {
       "0": "25",
@@ -133,7 +146,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1af8bafc8481aa499110780276049cfbd1e4239d/capsule_231x87.jpg",
       "japanese": "0472f915fa234f73234d2aa6804a38f26dd3deb5/capsule_231x87_japanese.jpg",
@@ -141,6 +154,7 @@
       "schinese": "1761b38569e704510f32208d89bbaaea22bd2caf/capsule_231x87_schinese.jpg",
       "tchinese": "1761b38569e704510f32208d89bbaaea22bd2caf/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1788961213",
     "store_asset_mtime": "1787823167",
     "store_tags": {
       "0": "597",
@@ -177,5 +191,44 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Demon King's Incursion",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "The Demon King's Incursion.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4985871": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "224914320",
+          "gid": "526779596666586810",
+          "size": "533336970"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25093969",
+        "timebuildupdated": "1788406431",
+        "timeupdated": "1788406668"
+      }
+    }
+  },
+  "extended": {
+    "developer": "PWL工作室",
+    "publisher": "PWL工作室"
+  }
 }

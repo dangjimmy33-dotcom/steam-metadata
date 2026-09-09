@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788955031,
-  "_history": [],
-  "_change_number": 38724580,
-  "_missing_token": true,
-  "_sha": "0eeaeb2ae8895b9f5745a44f2ea907fa4b81f8d9",
-  "_size": 3384,
+  "_lastChecked": 1788961155,
+  "_history": [
+    {
+      "buildId": "22764493",
+      "branch": "public",
+      "timeUpdated": 1776088279,
+      "firstSeen": 1788961155,
+      "manifests": {
+        "3939361": {
+          "gid": "860433991637596012",
+          "size": 3482948028,
+          "download": 1569182752
+        }
+      }
+    }
+  ],
+  "_change_number": 38726210,
+  "_missing_token": false,
+  "_sha": "06d6609735845e55699ae339c8482680886bedbe",
+  "_size": 4002,
   "appid": "3939360",
   "common": {
     "associations": {
@@ -30,7 +44,6 @@
     "clienttga": "95e4d9bd1b0f843841f74a096e4351d26a7dbbfd",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3939360",
     "genres": {
       "0": "25"
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "70f4aeb9277fe4f61a1cf805752041524ef4498f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788955070",
     "store_asset_mtime": "1788950991",
     "store_tags": {
       "0": "21",
@@ -154,5 +168,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Detective VR PC",
+    "launch": {
+      "0": {
+        "executable": "Detective VR PC\\Detective VR.exe",
+        "type": "vr"
+      }
+    }
+  },
+  "depots": {
+    "3939361": {
+      "manifests": {
+        "public": {
+          "download": "1569182752",
+          "gid": "860433991637596012",
+          "size": "3482948028"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "22764493",
+        "timebuildupdated": "1776088277",
+        "timeupdated": "1776088279"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Studio CHIPO Y JUAN",
+    "homepage": "https://detective-vr.com/",
+    "publisher": "VRKiwi",
+    "vrheadsetstreaming": "1"
+  }
 }

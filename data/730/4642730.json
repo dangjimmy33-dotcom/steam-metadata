@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788955683,
+  "_lastChecked": 1788961890,
   "_history": [
     {
       "buildId": "24481449",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 37657964,
+  "_change_number": 38726525,
   "_missing_token": false,
-  "_sha": "f604b317a6ebeecc01b07eb3d78504867ea24ce7",
-  "_size": 5781,
+  "_sha": "28ef65a2b183cb6908c551b38e4a404c8f5aee23",
+  "_size": 5775,
   "appid": "4642730",
   "common": {
     "aicontenttype": "1",
@@ -126,7 +126,7 @@
         "hdr_support": "0",
         "non_deck_display_glyphs": "1",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-11.0-beta",
+        "recommended_runtime": "proton-stable",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -134,7 +134,7 @@
         "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
-        "small_text": "1",
+        "small_text": "0",
         "supported_input": "other"
       },
       "steam_machine_compatibility": "2",
@@ -159,20 +159,20 @@
           "token": "#SteamOS_TestResult_GameStartupFunctional"
         }
       },
-      "test_timestamp": "1784678400",
-      "tested_build_id": "24226099",
+      "test_timestamp": "1788348474",
+      "tested_build_id": "24481449",
       "tests": {
         "0": {
           "display": "3",
           "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
         },
         "1": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "2": {
           "display": "4",
-          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
         },
         "3": {
           "display": "4",

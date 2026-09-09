@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788951458,
+  "_lastChecked": 1788957011,
   "_history": [
     {
       "buildId": "20246129",
@@ -253,12 +253,35 @@
           "download": 83245200
         }
       }
+    },
+    {
+      "buildId": "25207549",
+      "branch": "beta",
+      "timeUpdated": 1788954131,
+      "firstSeen": 1788957011,
+      "manifests": {
+        "454101": {
+          "gid": "872386694511284684",
+          "size": 192738985,
+          "download": 76405600
+        },
+        "454102": {
+          "gid": "3775114628951996006",
+          "size": 185708165,
+          "download": 72863424
+        },
+        "454103": {
+          "gid": "3002766928874684404",
+          "size": 206650018,
+          "download": 83333296
+        }
+      }
     }
   ],
-  "_change_number": 38719874,
+  "_change_number": 38725914,
   "_missing_token": false,
-  "_sha": "0fba74e27fd80d9ecf00d3b908e400e75ca4ec40",
-  "_size": 10098,
+  "_sha": "97ce4cb27a94e6685937329c93f3f79b84fffdd4",
+  "_size": 9174,
   "appid": "454100",
   "common": {
     "associations": {
@@ -573,19 +596,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "76315104",
-          "gid": "8629101147720091425",
-          "size": "192147657"
-        },
-        "developer": {
-          "download": "76317456",
-          "gid": "7032542834444350531",
-          "size": "192165273"
-        },
-        "old_version": {
-          "download": "36515792",
-          "gid": "4763581702127589022",
-          "size": "110638972"
+          "download": "76405600",
+          "gid": "872386694511284684",
+          "size": "192738985"
         },
         "public": {
           "download": "60390688",
@@ -605,19 +618,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "72766176",
-          "gid": "6669271644099967732",
-          "size": "185117349"
-        },
-        "developer": {
-          "download": "72769136",
-          "gid": "1262180661158269022",
-          "size": "185134965"
-        },
-        "old_version": {
-          "download": "38513408",
-          "gid": "3335992337863700349",
-          "size": "117320431"
+          "download": "72863424",
+          "gid": "3775114628951996006",
+          "size": "185708165"
         },
         "public": {
           "download": "57078608",
@@ -637,19 +640,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "83242976",
-          "gid": "3149672747196142645",
-          "size": "206059202"
-        },
-        "developer": {
-          "download": "83245200",
-          "gid": "4555458126563103145",
-          "size": "206076818"
-        },
-        "old_version": {
-          "download": "38082048",
-          "gid": "5421033448331345947",
-          "size": "119055546"
+          "download": "83333296",
+          "gid": "3002766928874684404",
+          "size": "206650018"
         },
         "public": {
           "download": "67385504",
@@ -665,20 +658,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25194374",
-        "timebuildupdated": "1788896705",
-        "timeupdated": "1788896708"
-      },
-      "developer": {
-        "buildid": "25194442",
-        "description": "dev",
-        "timebuildupdated": "1788896970",
-        "timeupdated": "1788896972"
-      },
-      "old_version": {
-        "buildid": "3506178",
-        "timebuildupdated": "1548587092",
-        "timeupdated": "1549905325"
+        "buildid": "25207549",
+        "description": "public test build",
+        "timebuildupdated": "1788954130",
+        "timeupdated": "1788954131"
       },
       "public": {
         "buildid": "20246129",

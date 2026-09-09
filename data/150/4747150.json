@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788955768,
-  "_history": [],
-  "_change_number": 37360943,
-  "_missing_token": true,
-  "_sha": "6f0d7a09c8a03bff648c72ec7fb96eaccbc44240",
-  "_size": 3604,
+  "_lastChecked": 1788961986,
+  "_history": [
+    {
+      "buildId": "24275421",
+      "branch": "public",
+      "timeUpdated": 1784392400,
+      "firstSeen": 1788961986,
+      "manifests": {
+        "4747151": {
+          "gid": "1356399313100841062",
+          "size": 5608121307,
+          "download": 5219117072
+        }
+      }
+    }
+  ],
+  "_change_number": 38727820,
+  "_missing_token": false,
+  "_sha": "95c03c4d85f591fec8bfd250bc0ade8e97e76986",
+  "_size": 4571,
   "appid": "4747150",
   "common": {
     "aicontenttype": "2",
@@ -46,7 +60,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4747150",
     "genres": {
       "0": "1",
@@ -122,10 +135,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bc661ac019b86c9be15e68fdb40d4b6c607b26f4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788958773",
     "store_asset_mtime": "1779886817",
     "store_tags": {
       "0": "599",
@@ -170,5 +184,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cockroach Simulation",
+    "launch": {
+      "0": {
+        "executable": "CockroachSimulation.exe"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4747151": {
+      "manifests": {
+        "public": {
+          "download": "5219117072",
+          "gid": "1356399313100841062",
+          "size": "5608121307"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,schinese,thai",
+    "branches": {
+      "public": {
+        "buildid": "24275421",
+        "timebuildupdated": "1784392348",
+        "timeupdated": "1784392400"
+      }
+    }
+  },
+  "extended": {
+    "developer": "WIZWIN",
+    "publisher": "WIZWIN"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "40",
+    "quota": "50000000",
+    "sync_while_suspended": "1"
+  }
 }
