@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788903928,
+  "_lastChecked": 1788910745,
   "_history": [
     {
       "buildId": "8004811",
@@ -644,12 +644,63 @@
           "download": 16221325680
         }
       }
+    },
+    {
+      "buildId": "25196363",
+      "branch": "animgraph2",
+      "timeUpdated": 1788905044,
+      "firstSeen": 1788910745,
+      "manifests": {
+        "590831": {
+          "gid": "4108931857604450695",
+          "size": 3897803598,
+          "download": 2963229728
+        },
+        "590832": {
+          "gid": "1722219774234881683",
+          "size": 582469031,
+          "download": 241080272
+        },
+        "590838": {
+          "gid": "6329466737456331656",
+          "size": 18764479050,
+          "download": 16221325680
+        }
+      }
+    },
+    {
+      "buildId": "25196275",
+      "branch": "staging",
+      "timeUpdated": 1788904690,
+      "firstSeen": 1788910745,
+      "manifests": {
+        "590831": {
+          "gid": "5657197304389183281",
+          "size": 4285357721,
+          "download": 3115599008
+        },
+        "590832": {
+          "gid": "7570914825435918651",
+          "size": 582892951,
+          "download": 243294496
+        },
+        "590833": {
+          "gid": "5139546803369296094",
+          "size": 2523552323,
+          "download": 380110064
+        },
+        "590838": {
+          "gid": "6329466737456331656",
+          "size": 18764479050,
+          "download": 16221325680
+        }
+      }
     }
   ],
-  "_change_number": 38709219,
+  "_change_number": 38709837,
   "_missing_token": false,
-  "_sha": "9a9884638ff4678ff69edc88f98aeecb383f0122",
-  "_size": 11030,
+  "_sha": "f1ae68179316f51dac9525b051859dd150a7de66",
+  "_size": 11031,
   "appid": "590830",
   "common": {
     "aicontenttype": "1",
@@ -962,9 +1013,9 @@
           "size": "3125207021"
         },
         "animgraph2": {
-          "download": "2991828176",
-          "gid": "460808199979921609",
-          "size": "3942047291"
+          "download": "2963229728",
+          "gid": "4108931857604450695",
+          "size": "3897803598"
         },
         "public": {
           "download": "3086755488",
@@ -972,9 +1023,9 @@
           "size": "4251484700"
         },
         "staging": {
-          "download": "3086755616",
-          "gid": "7303298594138332166",
-          "size": "4251484703"
+          "download": "3115599008",
+          "gid": "5657197304389183281",
+          "size": "4285357721"
         }
       }
     },
@@ -985,9 +1036,9 @@
       },
       "manifests": {
         "animgraph2": {
-          "download": "241079952",
-          "gid": "5061462991030209091",
-          "size": "582466125"
+          "download": "241080272",
+          "gid": "1722219774234881683",
+          "size": "582469031"
         },
         "public": {
           "download": "243293712",
@@ -995,9 +1046,9 @@
           "size": "582891005"
         },
         "staging": {
-          "download": "243294160",
-          "gid": "4238295535231539526",
-          "size": "582891005"
+          "download": "243294496",
+          "gid": "7570914825435918651",
+          "size": "582892951"
         }
       }
     },
@@ -1013,9 +1064,9 @@
           "size": "2523218385"
         },
         "staging": {
-          "download": "379963568",
-          "gid": "2572106907406196289",
-          "size": "2523218345"
+          "download": "380110064",
+          "gid": "5139546803369296094",
+          "size": "2523552323"
         }
       }
     },
@@ -1088,10 +1139,10 @@
         "timeupdated": "1749202478"
       },
       "animgraph2": {
-        "buildid": "25195866",
+        "buildid": "25196363",
         "description": "experimental - testing only",
-        "timebuildupdated": "1788902785",
-        "timeupdated": "1788902785"
+        "timebuildupdated": "1788905043",
+        "timeupdated": "1788905044"
       },
       "public": {
         "buildid": "25195672",
@@ -1099,10 +1150,10 @@
         "timeupdated": "1788903019"
       },
       "staging": {
-        "buildid": "25195103",
+        "buildid": "25196275",
         "description": "Bleeding edge builds",
-        "timebuildupdated": "1788899773",
-        "timeupdated": "1788899773"
+        "timebuildupdated": "1788904690",
+        "timeupdated": "1788904690"
       }
     },
     "privatebranches": "1",

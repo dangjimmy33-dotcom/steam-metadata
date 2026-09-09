@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788908712,
-  "_history": [],
-  "_change_number": 38704414,
-  "_missing_token": true,
-  "_sha": "81584f53b645909d11aaa278e813f699e95bef27",
-  "_size": 3477,
+  "_lastChecked": 1788915027,
+  "_history": [
+    {
+      "buildId": "25192652",
+      "branch": "public",
+      "timeUpdated": 1788889668,
+      "firstSeen": 1788915027,
+      "manifests": {
+        "4214831": {
+          "gid": "1602156464623684969",
+          "size": 3704348317,
+          "download": 1052510512
+        }
+      }
+    }
+  ],
+  "_change_number": 38712222,
+  "_missing_token": false,
+  "_sha": "b4a9d5443b93db339593a80414d0ae810f1837f4",
+  "_size": 4030,
   "appid": "4214830",
   "common": {
     "associations": {
@@ -34,7 +48,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4214830",
     "genres": {
       "0": "23",
@@ -76,13 +89,14 @@
     "oslist": "windows",
     "parent": "2678640",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4920280539a49eb9964fd5c7466246c31f22b788/capsule_231x87.jpg",
       "japanese": "ef5bf1869389762ffc429a80c739939fbfe2bbee/capsule_231x87_japanese.jpg",
       "schinese": "ef5bf1869389762ffc429a80c739939fbfe2bbee/capsule_231x87_schinese.jpg",
       "tchinese": "ef5bf1869389762ffc429a80c739939fbfe2bbee/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1788913917",
     "store_asset_mtime": "1783832929",
     "store_screenshot": "63511ac4ae23a5fbe98b78cc289f254eea2789fc/ss_63511ac4ae23a5fbe98b78cc289f254eea2789fc.jpg",
     "store_tags": {
@@ -135,5 +149,31 @@
     },
     "type": "DLC"
   },
-  "public_only": "1"
+  "depots": {
+    "4214831": {
+      "dlcappid": "4214830",
+      "manifests": {
+        "public": {
+          "download": "1052510512",
+          "gid": "1602156464623684969",
+          "size": "3704348317"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25192652",
+        "timebuildupdated": "1788889654",
+        "timeupdated": "1788889668"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": " 葱色兔兔 / Scallion Rabbit",
+    "dlcavailableonstore": "1",
+    "dlcforappid": "2678640",
+    "mustownapptopurchase": "2678640",
+    "publisher": " Anotherindie"
+  }
 }

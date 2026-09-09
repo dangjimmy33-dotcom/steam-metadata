@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788909625,
-  "_history": [],
-  "_change_number": 38670587,
-  "_missing_token": true,
-  "_sha": "e5cbc270dcf2844f48a97f66f2d67c942262c7d3",
-  "_size": 3320,
+  "_lastChecked": 1788915840,
+  "_history": [
+    {
+      "buildId": "24865748",
+      "branch": "public",
+      "timeUpdated": 1787327498,
+      "firstSeen": 1788915840,
+      "manifests": {
+        "5048181": {
+          "gid": "5358548846123406876",
+          "size": 412933598,
+          "download": 148242864
+        }
+      }
+    }
+  ],
+  "_change_number": 38711924,
+  "_missing_token": false,
+  "_sha": "5c24465f6939d38fa7418f52a65c397fed53caa3",
+  "_size": 4027,
   "appid": "5048180",
   "common": {
     "aicontenttype": "1",
@@ -36,9 +50,9 @@
     },
     "clienticon": "b614e3c0ab21d4c1c86e308d8b71ac41cb8aab94",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5048180",
     "genres": {
       "0": "4",
@@ -114,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "700eb133a5528d7f572ab2241d94fe150194e56d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788912781",
     "store_asset_mtime": "1786206184",
     "store_tags": {
       "0": "699",
@@ -150,5 +165,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "VOXEL DRIFT RACER",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "VOXEL DRIFT RACER.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5048181": {
+      "manifests": {
+        "public": {
+          "download": "148242864",
+          "gid": "5358548846123406876",
+          "size": "412933598"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24865748",
+        "timebuildupdated": "1787327446",
+        "timeupdated": "1787327498"
+      }
+    }
+  },
+  "extended": {
+    "developer": "NOVACORE STUDIO",
+    "publisher": "NOVACORE STUDIO"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "16777216"
+  }
 }

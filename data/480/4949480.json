@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788909527,
-  "_history": [],
-  "_change_number": 38396668,
-  "_missing_token": true,
-  "_sha": "3349ba23587d1200276913d25ccc98a435f331bd",
-  "_size": 3099,
+  "_lastChecked": 1788915752,
+  "_history": [
+    {
+      "buildId": "25088253",
+      "branch": "public",
+      "timeUpdated": 1788380941,
+      "firstSeen": 1788915752,
+      "manifests": {
+        "4949481": {
+          "gid": "6853505164145772632",
+          "size": 611954352,
+          "download": 485999952
+        }
+      }
+    }
+  ],
+  "_change_number": 38712054,
+  "_missing_token": false,
+  "_sha": "cc754680a55b4715d03d3241ecc2a1a21a715308",
+  "_size": 3858,
   "appid": "4949480",
   "common": {
     "associations": {
@@ -30,7 +44,6 @@
     "clienticon": "d3c15bc50a35278dea51c5c88ff734bb23ce3b01",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4949480",
     "genres": {
       "0": "25",
@@ -103,11 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f85c04e1c7c2849d5e44f67dc77aca7341b4b01e/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1786481391",
+    "store_asset_mtime": "1788381939",
     "store_tags": {
       "0": "597",
       "1": "599",
@@ -139,5 +152,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Aerovice Frutiger World",
+    "launch": {
+      "0": {
+        "executable": "aerovice.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4949481": {
+      "manifests": {
+        "public": {
+          "download": "485999952",
+          "gid": "6853505164145772632",
+          "size": "611954352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25088253",
+        "timebuildupdated": "1788380940",
+        "timeupdated": "1788380941"
+      }
+    }
+  },
+  "extended": {
+    "developer": "ENA Studios SV",
+    "homepage": "https://aerovicegame.com/",
+    "publisher": "ENA Studios SV"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788904178,
+  "_lastChecked": 1788910970,
   "_history": [
     {
       "buildId": "2533126",
@@ -18,12 +18,48 @@
           "download": 12598432
         }
       }
+    },
+    {
+      "buildId": "2533126",
+      "branch": "legacy-2018",
+      "timeUpdated": 1518812432,
+      "firstSeen": 1788910970,
+      "manifests": {
+        "783221": {
+          "gid": "578483504776067489",
+          "size": 43263282,
+          "download": 13127728
+        },
+        "783224": {
+          "gid": "8653889132751660326",
+          "size": 41585723,
+          "download": 12598432
+        }
+      }
+    },
+    {
+      "buildId": "25197541",
+      "branch": "rebuild-testing",
+      "timeUpdated": 1788910486,
+      "firstSeen": 1788910970,
+      "manifests": {
+        "783221": {
+          "gid": "6855151189718267111",
+          "size": 155,
+          "download": 176
+        },
+        "783224": {
+          "gid": "3107117976983516908",
+          "size": 139834202,
+          "download": 65178512
+        }
+      }
     }
   ],
-  "_change_number": 34838683,
+  "_change_number": 38711308,
   "_missing_token": false,
-  "_sha": "eb0581e3b26392e933c384bf907012069aa0fd27",
-  "_size": 3756,
+  "_sha": "269f45033bbb481233416ef48936ccdcd74fd53b",
+  "_size": 4566,
   "appid": "783220",
   "common": {
     "associations": {
@@ -192,10 +228,20 @@
         "oslist": "windows"
       },
       "manifests": {
+        "legacy-2018": {
+          "download": "13127728",
+          "gid": "578483504776067489",
+          "size": "43263282"
+        },
         "public": {
           "download": "13127728",
           "gid": "578483504776067489",
           "size": "43263282"
+        },
+        "rebuild-testing": {
+          "download": "176",
+          "gid": "6855151189718267111",
+          "size": "155"
         }
       }
     },
@@ -209,18 +255,40 @@
         "oslist": "windows"
       },
       "manifests": {
+        "legacy-2018": {
+          "download": "12598432",
+          "gid": "8653889132751660326",
+          "size": "41585723"
+        },
         "public": {
           "download": "12598432",
           "gid": "8653889132751660326",
           "size": "41585723"
+        },
+        "rebuild-testing": {
+          "download": "65178512",
+          "gid": "3107117976983516908",
+          "size": "139834202"
         }
       }
     },
     "branches": {
+      "legacy-2018": {
+        "buildid": "2533126",
+        "description": "Original 2018 release",
+        "timebuildupdated": "1518812432",
+        "timeupdated": "1518812432"
+      },
       "public": {
         "buildid": "2533126",
         "timebuildupdated": "1518812432",
         "timeupdated": "1518812432"
+      },
+      "rebuild-testing": {
+        "buildid": "25197541",
+        "description": "Blockshock rebuild preview - Windows",
+        "timebuildupdated": "1788910329",
+        "timeupdated": "1788910486"
       }
     }
   },

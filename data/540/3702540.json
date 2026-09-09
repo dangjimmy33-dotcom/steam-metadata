@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788908087,
+  "_lastChecked": 1788914472,
   "_history": [
     {
       "buildId": "25196744",
@@ -13,12 +13,30 @@
           "download": 221342144
         }
       }
+    },
+    {
+      "buildId": "25197223",
+      "branch": "public",
+      "timeUpdated": 1788908906,
+      "firstSeen": 1788914472,
+      "manifests": {
+        "3702541": {
+          "gid": "5519416863525333046",
+          "size": 567021974,
+          "download": 221342144
+        },
+        "3702542": {
+          "gid": "3003698051005881339",
+          "size": 527529841,
+          "download": 215713536
+        }
+      }
     }
   ],
-  "_change_number": 38710539,
+  "_change_number": 38710818,
   "_missing_token": false,
-  "_sha": "6c6aae1e5f8f642fff7a7ee3589a808ededa473a",
-  "_size": 11294,
+  "_sha": "a0954b8d7d43e7d655093bd05dd2f158af6743b7",
+  "_size": 11589,
   "appid": "3702540",
   "common": {
     "associations": {
@@ -350,6 +368,12 @@
           "oslist": "windows"
         },
         "executable": "Between Adventures IDLE.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "mac.app"
       }
     }
   },
@@ -366,11 +390,23 @@
         }
       }
     },
+    "3702542": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "215713536",
+          "gid": "3003698051005881339",
+          "size": "527529841"
+        }
+      }
+    },
     "branches": {
       "public": {
-        "buildid": "25196744",
-        "timebuildupdated": "1788906858",
-        "timeupdated": "1788906859"
+        "buildid": "25197223",
+        "timebuildupdated": "1788908906",
+        "timeupdated": "1788908906"
       }
     }
   },
