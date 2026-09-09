@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788966048,
-  "_history": [],
-  "_change_number": 38730390,
-  "_missing_token": true,
-  "_sha": "b7196c5d1b84bcecba832018592af72275443b1a",
-  "_size": 4656,
+  "_lastChecked": 1788972593,
+  "_history": [
+    {
+      "buildId": "25210698",
+      "branch": "public",
+      "timeUpdated": 1788963971,
+      "firstSeen": 1788972593,
+      "manifests": {
+        "2836741": {
+          "gid": "5597114380480035587",
+          "size": 6038931330,
+          "download": 2721025120
+        }
+      }
+    }
+  ],
+  "_change_number": 38733072,
+  "_missing_token": false,
+  "_sha": "03249534e07d6526bd55bff18fefe8d82392aade",
+  "_size": 6014,
   "appid": "2836740",
   "common": {
     "associations": {
@@ -36,9 +50,9 @@
     "clienticon": "90c5fc4c6d75a33803b5bfecf9e4c664cd95a5b9",
     "clienttga": "0b02deaa3dcd689479731413c07ca1005927f355",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2836740",
     "genres": {
       "0": "25",
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4730e20bb801ac8b4e0015576b6ad899c267080f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788969606",
     "store_asset_mtime": "1788025640",
     "store_tags": {
       "0": "97376",
@@ -226,5 +241,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Olga - Episode 1",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Olga - Episode 1.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65532",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2836741": {
+      "manifests": {
+        "public": {
+          "download": "2721025120",
+          "gid": "5597114380480035587",
+          "size": "6038931330"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25210698",
+        "timebuildupdated": "1788963899",
+        "timeupdated": "1788963971"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Workbench Entertainment",
+    "publisher": "Workbench Entertainment"
+  },
+  "ufs": {
+    "maxnumfiles": "6",
+    "quota": "3000000",
+    "savefiles": {
+      "0": {
+        "path": "Workbench Entertainment/Olga - Episode 1",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Workbench Entertainment/Olga - Episode 1",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": "Workbench Entertainment/Olga - Episode 1",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgConfigHome"
+      }
+    }
+  }
 }

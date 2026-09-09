@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788965404,
+  "_lastChecked": 1788971749,
   "_history": [
     {
       "buildId": "12998503",
@@ -36,12 +36,30 @@
           "download": 43176144
         }
       }
+    },
+    {
+      "buildId": "25211284",
+      "branch": "beta",
+      "timeUpdated": 1788966701,
+      "firstSeen": 1788971749,
+      "manifests": {
+        "2253081": {
+          "gid": "5782444278650735724",
+          "size": 146169719,
+          "download": 64854496
+        },
+        "2253082": {
+          "gid": "3761703332020731047",
+          "size": 105318792,
+          "download": 51811792
+        }
+      }
     }
   ],
-  "_change_number": 34892239,
+  "_change_number": 38731765,
   "_missing_token": false,
-  "_sha": "6a4c0dfb8af8e7bd494d2a27be64cea4dd609034",
-  "_size": 3739,
+  "_sha": "e50b45051fb2da9804e3db1d943d48cb9f5ba283",
+  "_size": 3741,
   "appid": "2253080",
   "common": {
     "associations": {
@@ -184,9 +202,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "41023536",
-          "gid": "6023505364522364470",
-          "size": "89950783"
+          "download": "64854496",
+          "gid": "5782444278650735724",
+          "size": "146169719"
         },
         "public": {
           "download": "41023536",
@@ -201,9 +219,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "43176144",
-          "gid": "479956236337276975",
-          "size": "100991608"
+          "download": "51811792",
+          "gid": "3761703332020731047",
+          "size": "105318792"
         },
         "public": {
           "download": "43176144",
@@ -214,10 +232,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "12998503",
+        "buildid": "25211284",
         "description": "pre-release test branch",
-        "timebuildupdated": "1702975843",
-        "timeupdated": "1702976133"
+        "timebuildupdated": "1788965696",
+        "timeupdated": "1788966701"
       },
       "public": {
         "buildid": "12998503",

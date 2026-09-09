@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788963648,
+  "_lastChecked": 1788969799,
   "_history": [
     {
       "buildId": "2533126",
@@ -118,12 +118,68 @@
           "download": 57114992
         }
       }
+    },
+    {
+      "buildId": "25212273",
+      "branch": "public",
+      "timeUpdated": 1788969003,
+      "firstSeen": 1788969799,
+      "manifests": {
+        "783221": {
+          "gid": "6855151189718267111",
+          "size": 155,
+          "download": 176
+        },
+        "783224": {
+          "gid": "3107117976983516908",
+          "size": 139834202,
+          "download": 65178512
+        },
+        "783225": {
+          "gid": "7277797649633766483",
+          "size": 223922783,
+          "download": 88608288
+        },
+        "783226": {
+          "gid": "4397826300561347636",
+          "size": 106979330,
+          "download": 57114992
+        }
+      }
+    },
+    {
+      "buildId": "25212273",
+      "branch": "rebuild-testing",
+      "timeUpdated": 1788968770,
+      "firstSeen": 1788969799,
+      "manifests": {
+        "783221": {
+          "gid": "6855151189718267111",
+          "size": 155,
+          "download": 176
+        },
+        "783224": {
+          "gid": "3107117976983516908",
+          "size": 139834202,
+          "download": 65178512
+        },
+        "783225": {
+          "gid": "7277797649633766483",
+          "size": 223922783,
+          "download": 88608288
+        },
+        "783226": {
+          "gid": "4397826300561347636",
+          "size": 106979330,
+          "download": 57114992
+        }
+      }
     }
   ],
-  "_change_number": 38715286,
+  "_change_number": 38732866,
   "_missing_token": false,
-  "_sha": "30fa082a1edea6e8fe37137391d9ab493a3947a7",
-  "_size": 5580,
+  "_sha": "00f6ecda1652a57d728ae569c48987508a80ff9e",
+  "_size": 5884,
   "appid": "783220",
   "common": {
     "aicontenttype": "1",
@@ -220,8 +276,8 @@
     "name": "Blockshock",
     "original_release_date": "1517904000",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows,linux",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos,linux",
     "primary_genre": "23",
     "releasestate": "released",
     "review_percentage": "11",
@@ -328,6 +384,18 @@
     "783225": {
       "config": {
         "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "88608288",
+          "gid": "7277797649633766483",
+          "size": "223922783"
+        },
+        "rebuild-testing": {
+          "download": "88608288",
+          "gid": "7277797649633766483",
+          "size": "223922783"
+        }
       }
     },
     "783226": {
@@ -355,15 +423,15 @@
         "timeupdated": "1518812432"
       },
       "public": {
-        "buildid": "25200109",
-        "timebuildupdated": "1788923436",
-        "timeupdated": "1788923823"
+        "buildid": "25212273",
+        "timebuildupdated": "1788968770",
+        "timeupdated": "1788969003"
       },
       "rebuild-testing": {
-        "buildid": "25200109",
+        "buildid": "25212273",
         "description": "Blockshock rebuild preview - Windows",
-        "timebuildupdated": "1788923436",
-        "timeupdated": "1788923436"
+        "timebuildupdated": "1788968770",
+        "timeupdated": "1788968770"
       }
     }
   },

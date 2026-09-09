@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788966507,
-  "_history": [],
-  "_change_number": 38614286,
-  "_missing_token": true,
-  "_sha": "de99d9473fce1e397b0dd1ea32ef816f4d9f787a",
-  "_size": 3148,
+  "_lastChecked": 1788973119,
+  "_history": [
+    {
+      "buildId": "24952862",
+      "branch": "public",
+      "timeUpdated": 1787759757,
+      "firstSeen": 1788973119,
+      "manifests": {
+        "3265561": {
+          "gid": "541739005014116696",
+          "size": 511613880,
+          "download": 428867104
+        }
+      }
+    }
+  ],
+  "_change_number": 38733823,
+  "_missing_token": false,
+  "_sha": "6513007abbafdc9aa17b65f191690da5798c06ce",
+  "_size": 4267,
   "appid": "3265560",
   "common": {
     "associations": {
@@ -32,7 +46,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3265560",
     "genres": {
       "0": "1",
@@ -104,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "385a1ca861a5ff69d1d56cda6544951fed8ab695/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788971047",
     "store_asset_mtime": "1788552097",
     "store_tags": {
       "0": "6621",
@@ -142,5 +156,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TamaJigoku",
+    "launch": {
+      "0": {
+        "executable": "TamaJigoku-BallHell.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "2",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3265561": {
+      "manifests": {
+        "public": {
+          "download": "428867104",
+          "gid": "541739005014116696",
+          "size": "511613880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24952862",
+        "timebuildupdated": "1787759285",
+        "timeupdated": "1787759757"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Deathtrap Arcade",
+    "homepage": "https://www.deathtrapgames.com/",
+    "publisher": "Deathtrap Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "TAMA JIGOKU BALL HELL",
+        "pattern": "*.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

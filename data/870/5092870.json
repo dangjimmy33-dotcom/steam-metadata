@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788968308,
-  "_history": [],
-  "_change_number": 38256806,
-  "_missing_token": true,
-  "_sha": "9285189ff579e8ccb06849b1a4ab15799c5dce4c",
-  "_size": 4183,
+  "_lastChecked": 1788975181,
+  "_history": [
+    {
+      "buildId": "24888195",
+      "branch": "public",
+      "timeUpdated": 1787469085,
+      "firstSeen": 1788975181,
+      "manifests": {
+        "5092871": {
+          "gid": "7786861107738235659",
+          "size": 253336757,
+          "download": 141769808
+        },
+        "5092872": {
+          "gid": "8254528414885259819",
+          "size": 271234027,
+          "download": 149783872
+        }
+      }
+    }
+  ],
+  "_change_number": 38735155,
+  "_missing_token": false,
+  "_sha": "80d4b819d42fda4d034c503a578a17b198efa4c5",
+  "_size": 5645,
   "appid": "5092870",
   "common": {
     "aicontenttype": "1",
@@ -38,8 +57,8 @@
     "clienticns": "ba0d64a67db14a70ab707fffadcfd316cca6f7ef",
     "clienticon": "bb6985bd09c26912b209264a7a4948438c3c3b6b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5092870",
     "genres": {
       "0": "4",
@@ -129,10 +148,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "72e6aa41061fef0cb0d22e5c2e06c32981d6e000/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788973958",
     "store_asset_mtime": "1787222582",
     "store_tags": {
       "0": "599",
@@ -190,5 +210,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fidget Toy Engine",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Fidget Toy Engine - Windows",
+        "description_loc": {
+          "english": "Fidget Toy Engine - Windows"
+        },
+        "executable": "Fidget Toy Engine.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Fidget Toy Engine - macOS",
+        "description_loc": {
+          "english": "Fidget Toy Engine - macOS"
+        },
+        "executable": "Fidget Toy Engine.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5092871": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "141769808",
+          "gid": "7786861107738235659",
+          "size": "253336757"
+        }
+      }
+    },
+    "5092872": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "149783872",
+          "gid": "8254528414885259819",
+          "size": "271234027"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "24888195",
+        "timebuildupdated": "1787469085",
+        "timeupdated": "1787469085"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Fidget Toy Engine Studio",
+    "publisher": "Fidget Toy Engine Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576"
+  }
 }

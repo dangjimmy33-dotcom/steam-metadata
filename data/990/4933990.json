@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788968178,
-  "_history": [],
-  "_change_number": 38719803,
-  "_missing_token": true,
-  "_sha": "a0ec17e53633e0fb79f6890f293da4f5eeb14c5c",
-  "_size": 3552,
+  "_lastChecked": 1788975033,
+  "_history": [
+    {
+      "buildId": "25203335",
+      "branch": "public",
+      "timeUpdated": 1788939388,
+      "firstSeen": 1788975033,
+      "manifests": {
+        "4933991": {
+          "gid": "4444031443373304765",
+          "size": 144649441,
+          "download": 69816016
+        }
+      }
+    }
+  ],
+  "_change_number": 38734779,
+  "_missing_token": false,
+  "_sha": "5c3ccfed9cd747dbf36c4993f6a6a0d5bb6df59c",
+  "_size": 4432,
   "appid": "4933990",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +44,8 @@
     },
     "clienticon": "cfbc5c106f820434db86268f8bd6da5d4adc667f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4933990",
     "genres": {
       "0": "4",
@@ -103,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "88f9899d51d6cea1376ad3af6c6608f014410a6f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788973219",
     "store_asset_mtime": "1787243947",
     "store_tags": {
       "0": "597",
@@ -172,5 +187,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Alembic",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "alembic.exe"
+      }
+    }
+  },
+  "depots": {
+    "4933991": {
+      "manifests": {
+        "public": {
+          "download": "69816016",
+          "gid": "4444031443373304765",
+          "size": "144649441"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25203335",
+        "timebuildupdated": "1788939387",
+        "timeupdated": "1788939388"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Equious",
+    "publisher": "The Bueno Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "5000000",
+    "savefiles": {
+      "0": {
+        "path": "Alembic/saves",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Alembic",
+        "pattern": "profile.dat",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

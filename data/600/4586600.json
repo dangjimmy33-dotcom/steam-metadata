@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788967867,
-  "_history": [],
-  "_change_number": 38708613,
-  "_missing_token": true,
-  "_sha": "d510685b2d7b7075a5f5bdf4da4a0618eae0ceb4",
-  "_size": 3501,
+  "_lastChecked": 1788974672,
+  "_history": [
+    {
+      "buildId": "24263499",
+      "branch": "public",
+      "timeUpdated": 1785791604,
+      "firstSeen": 1788974672,
+      "manifests": {
+        "4586601": {
+          "gid": "2368528053195055935",
+          "size": 1557272336,
+          "download": 760377728
+        }
+      }
+    }
+  ],
+  "_change_number": 38735440,
+  "_missing_token": false,
+  "_sha": "6afa8aeae645e3a5cebcf415cb957d8da5ac2549",
+  "_size": 4364,
   "appid": "4586600",
   "common": {
     "associations": {
@@ -20,7 +34,7 @@
     "category": {
       "category_2": "1",
       "category_35": "1",
-      "category_53": "1",
+      "category_54": "1",
       "category_62": "1",
       "category_68": "1",
       "category_79": "1"
@@ -28,7 +42,6 @@
     "clienticon": "37dec2e115b93f1527835f3b1722a0539bd02552",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4586600",
     "genres": {
       "0": "4",
@@ -96,12 +109,13 @@
       }
     },
     "name": "Squingle Arcade",
+    "onlyvrsupport": "1",
     "openvrsupport": "1",
     "osarch": "",
     "osextended": "",
-    "oslist": "windows,android",
+    "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ef17886fac8501a85824fd289eb10377d432f551/capsule_231x87.jpg"
     },
@@ -161,5 +175,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Squingle Arcade",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Squingle Arcade.exe",
+        "type": "vr"
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4586601": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "760377728",
+          "gid": "2368528053195055935",
+          "size": "1557272336"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24263499",
+        "timebuildupdated": "1784308585",
+        "timeupdated": "1785791604"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Ben Outram",
+    "homepage": "https://www.squingle.com",
+    "isfreeapp": "1",
+    "publisher": "VRAL Games",
+    "vrheadsetstreaming": "1"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788964962,
+  "_lastChecked": 1788971251,
   "_history": [
     {
       "buildId": "24924374",
@@ -39,11 +39,37 @@
           "download": 878972832
         }
       }
+    },
+    {
+      "buildId": "25211575",
+      "branch": "public",
+      "timeUpdated": 1788967237,
+      "firstSeen": 1788971251,
+      "manifests": {
+        "1857091": {
+          "gid": "1228477902981854726",
+          "size": 1121789091,
+          "download": 885244144
+        }
+      }
+    },
+    {
+      "buildId": "25210508",
+      "branch": "unstable",
+      "timeUpdated": 1788966459,
+      "firstSeen": 1788971251,
+      "manifests": {
+        "1857091": {
+          "gid": "9221053703738441080",
+          "size": 1530534674,
+          "download": 878971488
+        }
+      }
     }
   ],
-  "_change_number": 38728427,
+  "_change_number": 38732045,
   "_missing_token": false,
-  "_sha": "fb3263a5bc52f3cd3b794fd67edb3ce8cf4637c3",
+  "_sha": "d712449c5a739da463ffee42bb97179a3bc0b346",
   "_size": 9275,
   "appid": "1857090",
   "common": {
@@ -375,14 +401,14 @@
     "1857091": {
       "manifests": {
         "public": {
-          "download": "885238688",
-          "gid": "9203373092143876616",
-          "size": "1121677638"
+          "download": "885244144",
+          "gid": "1228477902981854726",
+          "size": "1121789091"
         },
         "unstable": {
-          "download": "878972832",
-          "gid": "4997297339258922478",
-          "size": "1530526222"
+          "download": "878971488",
+          "gid": "9221053703738441080",
+          "size": "1530534674"
         }
       }
     },
@@ -403,15 +429,15 @@
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,hungarian,czech,turkish,brazilian,ukrainian",
     "branches": {
       "public": {
-        "buildid": "24924374",
-        "timebuildupdated": "1787648645",
-        "timeupdated": "1787659095"
+        "buildid": "25211575",
+        "timebuildupdated": "1788966476",
+        "timeupdated": "1788967237"
       },
       "unstable": {
-        "buildid": "25182394",
+        "buildid": "25210508",
         "description": "A branch for earlier access to Norland updates. May be unstable, so you should backup your save files. Attention! Saves made in new versions may be incompatible with older versions!",
-        "timebuildupdated": "1788854608",
-        "timeupdated": "1788856697"
+        "timebuildupdated": "1788963358",
+        "timeupdated": "1788966459"
       }
     },
     "privatebranches": "1"

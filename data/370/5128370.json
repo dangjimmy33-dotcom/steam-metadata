@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788968331,
-  "_history": [],
-  "_change_number": 38710211,
-  "_missing_token": true,
-  "_sha": "d37e20082635d6495e1420b47e7fc5f5bf89a1b1",
-  "_size": 3086,
+  "_lastChecked": 1788975209,
+  "_history": [
+    {
+      "buildId": "25196638",
+      "branch": "public",
+      "timeUpdated": 1788906834,
+      "firstSeen": 1788975209,
+      "manifests": {
+        "5128371": {
+          "gid": "1636489884222329619",
+          "size": 287652592,
+          "download": 113596144
+        }
+      }
+    }
+  ],
+  "_change_number": 38734367,
+  "_missing_token": false,
+  "_sha": "e7a78544e82a0b1cd075ab5556dabf85261c2aee",
+  "_size": 4002,
   "appid": "5128370",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +45,8 @@
     },
     "clienticon": "89a4077b3ec73ebac18239488934be78e6281fc6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5128370",
     "genres": {
       "0": "4",
@@ -103,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e482c04eea303c6210c909b58118ec12be7fea29/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788972204",
     "store_asset_mtime": "1788906747",
     "store_tags": {
       "0": "597",
@@ -136,5 +151,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Coquí Crusader Defenders of Borikén",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Coqui Crusader.exe"
+      }
+    }
+  },
+  "depots": {
+    "5128371": {
+      "manifests": {
+        "public": {
+          "download": "113596144",
+          "gid": "1636489884222329619",
+          "size": "287652592"
+        }
+      }
+    },
+    "baselanguages": "english,latam",
+    "branches": {
+      "public": {
+        "buildid": "25196638",
+        "timebuildupdated": "1788906415",
+        "timeupdated": "1788906834"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Yucayeque Games",
+    "publisher": "Yucayeque Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "coqui-crusader",
+        "pattern": "savegame.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

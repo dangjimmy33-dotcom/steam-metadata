@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788968224,
-  "_history": [],
-  "_change_number": 38703342,
-  "_missing_token": true,
-  "_sha": "3ea90a2e2399f9343d2ba2a237377f7f9aa173a5",
-  "_size": 3626,
+  "_lastChecked": 1788975084,
+  "_history": [
+    {
+      "buildId": "25212875",
+      "branch": "public",
+      "timeUpdated": 1788970585,
+      "firstSeen": 1788975084,
+      "manifests": {
+        "4984051": {
+          "gid": "4576458438361115644",
+          "size": 216472475,
+          "download": 92323440
+        }
+      }
+    }
+  ],
+  "_change_number": 38733933,
+  "_missing_token": false,
+  "_sha": "f3fcdeae2664abff92074d70d67c8fbb8ded4d7e",
+  "_size": 4448,
   "appid": "4984050",
   "common": {
     "aicontenttype": "1",
@@ -22,6 +36,7 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_25": "1",
       "category_62": "1",
       "category_64": "1",
       "category_74": "1",
@@ -29,8 +44,8 @@
     },
     "clienticon": "d76fcbb650d6d6fd196cff65393a7bb614839215",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4984050",
     "genres": {
       "0": "4",
@@ -103,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1321553ad0de9dd6c8a406799cfaac7bf2b0c304/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788971275",
     "store_asset_mtime": "1787150417",
     "store_tags": {
       "0": "9",
@@ -169,5 +185,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Villfell",
+    "launch": {
+      "0": {
+        "executable": "Villfell.exe"
+      }
+    }
+  },
+  "depots": {
+    "4984051": {
+      "manifests": {
+        "public": {
+          "download": "92323440",
+          "gid": "4576458438361115644",
+          "size": "216472475"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25212875",
+        "timebuildupdated": "1788970584",
+        "timeupdated": "1788970585"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Greyhearth",
+    "publisher": "Greyhearth"
+  },
+  "ufs": {
+    "maxnumfiles": "19",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Villfell",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

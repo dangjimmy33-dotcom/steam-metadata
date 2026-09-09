@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788963069,
+  "_lastChecked": 1788969152,
   "_history": [
     {
       "buildId": "3184346",
@@ -360,11 +360,29 @@
           "download": 1729413952
         }
       }
+    },
+    {
+      "buildId": "25210480",
+      "branch": "update-36.3.2-dx12-fix",
+      "timeUpdated": 1788963286,
+      "firstSeen": 1788969152,
+      "manifests": {
+        "230291": {
+          "gid": "3334988806597543896",
+          "size": 3317342997,
+          "download": 1760852448
+        },
+        "230292": {
+          "gid": "1671621748374966365",
+          "size": 3241606828,
+          "download": 1729393056
+        }
+      }
     }
   ],
-  "_change_number": 38718865,
+  "_change_number": 38730004,
   "_missing_token": false,
-  "_sha": "f40fcf8504f3886d926a79582f01bd96bc1104bf",
+  "_sha": "ce5cc36ebd3c4d15e12b47a14297b357656ecc2a",
   "_size": 16787,
   "appid": "230290",
   "common": {
@@ -817,9 +835,9 @@
           "size": "3281557375"
         },
         "update-36.3.2-dx12-fix": {
-          "download": "1761321728",
-          "gid": "7438393481775482968",
-          "size": "3320506686"
+          "download": "1760852448",
+          "gid": "3334988806597543896",
+          "size": "3317342997"
         }
       },
       "systemdefined": "1"
@@ -925,9 +943,9 @@
           "size": "3204111577"
         },
         "update-36.3.2-dx12-fix": {
-          "download": "1729413952",
-          "gid": "5011370605679782951",
-          "size": "3243214833"
+          "download": "1729393056",
+          "gid": "1671621748374966365",
+          "size": "3241606828"
         }
       },
       "systemdefined": "1"
@@ -1043,10 +1061,10 @@
         "timeupdated": "1784042740"
       },
       "update-36.3.2-dx12-fix": {
-        "buildid": "25085096",
+        "buildid": "25210480",
         "description": "Attempted fix for crashing integrated GPUs",
-        "timebuildupdated": "1788369634",
-        "timeupdated": "1788371093"
+        "timebuildupdated": "1788963286",
+        "timeupdated": "1788963286"
       }
     },
     "overridescddb": "1",

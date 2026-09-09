@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788967109,
-  "_history": [],
-  "_change_number": 38644974,
-  "_missing_token": true,
-  "_sha": "3932585dd2a85068dd874fd4b581b4810339ba1e",
-  "_size": 3400,
+  "_lastChecked": 1788973804,
+  "_history": [
+    {
+      "buildId": "25212926",
+      "branch": "public",
+      "timeUpdated": 1788970830,
+      "firstSeen": 1788973804,
+      "manifests": {
+        "3840201": {
+          "gid": "8524591985999668806",
+          "size": 143163056,
+          "download": 58880832
+        }
+      }
+    }
+  ],
+  "_change_number": 38734699,
+  "_missing_token": false,
+  "_sha": "efad75768d24d41d31a3a23c810d27bee5de0b50",
+  "_size": 4338,
   "appid": "3840200",
   "common": {
     "associations": {
@@ -19,6 +33,8 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
+      "category_25": "1",
       "category_28": "1",
       "category_62": "1",
       "category_67": "1",
@@ -27,9 +43,9 @@
     },
     "clienticon": "48a4ee31a295d0eda54cb9f61a9662404cfe160f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3840200",
     "genres": {
       "0": "4",
@@ -39,6 +55,18 @@
       "english": "5c58a897de7de22a7b3950b678a9f6f5326fe969/header.jpg"
     },
     "icon": "48a4ee31a295d0eda54cb9f61a9662404cfe160f",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -100,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d5219ac1f31ecbc4442d9980176f5018dcba0fa5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788973097",
     "store_asset_mtime": "1776283799",
     "store_tags": {
       "0": "723991",
@@ -160,5 +189,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Increvaders",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Increvaders.exe"
+      }
+    }
+  },
+  "depots": {
+    "3840201": {
+      "manifests": {
+        "public": {
+          "download": "58880832",
+          "gid": "8524591985999668806",
+          "size": "143163056"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25212926",
+        "timebuildupdated": "1788970746",
+        "timeupdated": "1788970830"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Oblomoverie",
+    "publisher": "Oblomoverie"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788968237,
-  "_history": [],
-  "_change_number": 38501827,
-  "_missing_token": true,
-  "_sha": "2e10a4be4b855a57be1b28705d6b0e60e116bcbd",
-  "_size": 2850,
+  "_lastChecked": 1788975098,
+  "_history": [
+    {
+      "buildId": "25213913",
+      "branch": "public",
+      "timeUpdated": 1788974094,
+      "firstSeen": 1788975098,
+      "manifests": {
+        "4998841": {
+          "gid": "9015049027219498171",
+          "size": 124176294,
+          "download": 117133536
+        }
+      }
+    }
+  ],
+  "_change_number": 38735219,
+  "_missing_token": false,
+  "_sha": "ecd0471e26f95c34131f55fbcf8dae903f032b43",
+  "_size": 3610,
   "appid": "4998840",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "7b6e3fd41c6b8bc58e08e861c544e8c22317368b",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4998840",
     "genres": {
       "0": "4",
@@ -100,11 +113,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "becef6057c88577b3aca6e2506c2a2b684063c0d/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1787044905",
+    "steam_release_date": "1788361457",
+    "store_asset_mtime": "1787221980",
     "store_tags": {
       "0": "597",
       "1": "1665",
@@ -121,12 +135,54 @@
       "9": "492"
     },
     "supported_languages": {
+      "dutch": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "french": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "german": {
         "subtitles": "true",
         "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Spellarium 14",
+    "launch": {
+      "0": {
+        "executable": "Spellarium14CE.exe"
+      }
+    }
+  },
+  "depots": {
+    "4998841": {
+      "manifests": {
+        "public": {
+          "download": "117133536",
+          "gid": "9015049027219498171",
+          "size": "124176294"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25213913",
+        "timebuildupdated": "1788974012",
+        "timeupdated": "1788974094"
+      }
+    }
+  },
+  "extended": {
+    "developer": "LGT SIA",
+    "homepage": "https://www.facebook.com/lgtsia/",
+    "publisher": "LGT SIA"
+  }
 }

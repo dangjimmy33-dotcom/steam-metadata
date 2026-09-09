@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788968214,
+  "_lastChecked": 1788975073,
   "_history": [
     {
       "buildId": "24648432",
@@ -18,12 +18,35 @@
           "download": 169180336
         }
       }
+    },
+    {
+      "buildId": "25213519",
+      "branch": "public",
+      "timeUpdated": 1788972636,
+      "firstSeen": 1788975073,
+      "manifests": {
+        "4971601": {
+          "gid": "2877034958301996753",
+          "size": 281678980,
+          "download": 109009056
+        },
+        "4971602": {
+          "gid": "6799071382092146791",
+          "size": 1309440134,
+          "download": 169180304
+        },
+        "4971603": {
+          "gid": "5436864034232324743",
+          "size": 275862658,
+          "download": 99934112
+        }
+      }
     }
   ],
-  "_change_number": 37983926,
+  "_change_number": 38735160,
   "_missing_token": false,
-  "_sha": "0071f820115c88914969d3bf92f77f6ff30ecf7b",
-  "_size": 3758,
+  "_sha": "fdc0d060083e4a0687b397ecdd6049545b5a4d50",
+  "_size": 3973,
   "appid": "4971600",
   "common": {
     "associations": {
@@ -115,8 +138,8 @@
     },
     "name": "Flux Grid",
     "osarch": "",
-    "osextended": "macosapplesilicon",
-    "oslist": "windows,macos",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos,linux",
     "primary_genre": "4",
     "releasestate": "released",
     "small_capsule": {
@@ -176,17 +199,29 @@
       },
       "manifests": {
         "public": {
-          "download": "169180336",
-          "gid": "5604263338391973652",
-          "size": "1309440240"
+          "download": "169180304",
+          "gid": "6799071382092146791",
+          "size": "1309440134"
+        }
+      }
+    },
+    "4971603": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "99934112",
+          "gid": "5436864034232324743",
+          "size": "275862658"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "24648432",
-        "timebuildupdated": "1786346669",
-        "timeupdated": "1786346669"
+        "buildid": "25213519",
+        "timebuildupdated": "1788972635",
+        "timeupdated": "1788972636"
       }
     }
   },

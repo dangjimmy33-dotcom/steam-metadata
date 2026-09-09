@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788968286,
-  "_history": [],
-  "_change_number": 38706114,
-  "_missing_token": true,
-  "_sha": "8880b972e2eb59ccffba5b627d9933ec80958ae9",
-  "_size": 4389,
+  "_lastChecked": 1788975156,
+  "_history": [
+    {
+      "buildId": "25193689",
+      "branch": "public",
+      "timeUpdated": 1788894005,
+      "firstSeen": 1788975156,
+      "manifests": {
+        "5063211": {
+          "gid": "7328982927562718028",
+          "size": 162507748,
+          "download": 86225536
+        },
+        "5063212": {
+          "gid": "6554027644936201137",
+          "size": 246368818,
+          "download": 109997696
+        },
+        "5063213": {
+          "gid": "7963916287769977281",
+          "size": 129364580,
+          "download": 78000848
+        }
+      }
+    }
+  ],
+  "_change_number": 38734754,
+  "_missing_token": false,
+  "_sha": "782986b09f2e4e04d335905e12ffacc03ff74396",
+  "_size": 7777,
   "appid": "5063210",
   "common": {
     "aicontenttype": "1",
@@ -43,6 +67,7 @@
     "clienticns": "fb7e896cd4509e45c4aa356436324db434b958f8",
     "clienticon": "d7fc09d35791941db73076cb3832029b59d5fe5a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -51,7 +76,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5063210",
     "genres": {
       "0": "4",
@@ -144,10 +168,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d4ef7a9ff522bc07c7146cc5e21d83a45285581c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788973209",
     "store_asset_mtime": "1787074944",
     "store_tags": {
       "0": "9",
@@ -201,5 +226,160 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Last Bastion Protocol",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Last Bastion Protocol.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "LBP.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "LBP.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "4",
+    "steaminputmanifestpath": "steam_input/steam_input_manifest.vdf"
+  },
+  "depots": {
+    "5063211": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "86225536",
+          "gid": "7328982927562718028",
+          "size": "162507748"
+        }
+      }
+    },
+    "5063212": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "109997696",
+          "gid": "6554027644936201137",
+          "size": "246368818"
+        }
+      }
+    },
+    "5063213": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "78000848",
+          "gid": "7963916287769977281",
+          "size": "129364580"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25193689",
+        "timebuildupdated": "1788894003",
+        "timeupdated": "1788894005"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "deckresolutionoverride": "Native",
+    "developer": "mr_pancake",
+    "homepage": "https://last-bastion-protocol.de",
+    "publisher": "mr_pancake",
+    "steammachineresolutionoverride": "Native"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Last Bastion Protocol",
+            "replace": "Godot/app_userdata/Last Bastion Protocol"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Last Bastion Protocol",
+            "replace": "godot/app_userdata/Last Bastion Protocol"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Last Bastion Protocol",
+        "pattern": "progression.save",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Last Bastion Protocol",
+        "pattern": "progression.save.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Last Bastion Protocol",
+        "pattern": "progression.device",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Last Bastion Protocol",
+        "pattern": "achievements.save",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Last Bastion Protocol",
+        "pattern": "achievements.save.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Godot/app_userdata/Last Bastion Protocol",
+        "pattern": "achievements.device",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

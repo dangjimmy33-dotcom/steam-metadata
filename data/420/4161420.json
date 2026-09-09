@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788967443,
-  "_history": [],
-  "_change_number": 38728077,
-  "_missing_token": true,
-  "_sha": "09ecea3cca02813f2aa377323c28e38ecde77681",
-  "_size": 4821,
+  "_lastChecked": 1788974188,
+  "_history": [
+    {
+      "buildId": "25212566",
+      "branch": "public",
+      "timeUpdated": 1788969670,
+      "firstSeen": 1788974188,
+      "manifests": {
+        "4161422": {
+          "gid": "7169257298144318830",
+          "size": 503623048,
+          "download": 421440672
+        }
+      }
+    }
+  ],
+  "_change_number": 38735047,
+  "_missing_token": false,
+  "_sha": "a91c47d2732db50f686fcc2251a3014fc6a81b8f",
+  "_size": 5568,
   "appid": "4161420",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +43,8 @@
     },
     "clienticon": "3bb671920e7a98b8096846442bddc9422e505c60",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4161420",
     "genres": {
       "0": "1",
@@ -122,12 +136,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8017e55302c5f5e72701305660488a7b117c29c0/capsule_231x87.jpg",
       "schinese": "712ec38fd123aee86bcfac2c1947264f3e575dfd/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1788958758",
+    "steam_release_date": "1788973232",
+    "store_asset_mtime": "1788973715",
     "store_tags": {
       "0": "9",
       "1": "492",
@@ -190,5 +205,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "元素巫师",
+    "launch": {
+      "0": {
+        "executable": "ElementalWitches\\ElementalWitches.exe"
+      }
+    }
+  },
+  "depots": {
+    "4161422": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "421440672",
+          "gid": "7169257298144318830",
+          "size": "503623048"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25212566",
+        "timebuildupdated": "1788969669",
+        "timeupdated": "1788969670"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Paidakang",
+    "publisher": "The Bueno Interactive"
+  }
 }
