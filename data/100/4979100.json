@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788944802,
-  "_history": [],
-  "_change_number": 38720575,
-  "_missing_token": true,
-  "_sha": "5e2a7927ca9972a4b24042022d88651a21435763",
-  "_size": 3933,
+  "_lastChecked": 1788950407,
+  "_history": [
+    {
+      "buildId": "25205694",
+      "branch": "public",
+      "timeUpdated": 1788947668,
+      "firstSeen": 1788950407,
+      "manifests": {
+        "4979101": {
+          "gid": "3894990153049443272",
+          "size": 1517993864,
+          "download": 558037856
+        }
+      }
+    }
+  ],
+  "_change_number": 38723345,
+  "_missing_token": false,
+  "_sha": "b6dd95d59042f255177e4981f35d4859cb943c58",
+  "_size": 4796,
   "appid": "4979100",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "82a7eb28214811fcd3f6178615b8cc8b4db5f665",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4979100",
     "genres": {
       "0": "1",
@@ -114,7 +128,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "760963f59a7509dde9568a663b925e5eecafff81/capsule_231x87.jpg",
       "japanese": "a2ede37116c5d813f5ef63290d00ddd729534307/capsule_231x87_japanese.jpg"
@@ -152,5 +166,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Which_I_Master",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Which_I_Master.exe"
+      }
+    }
+  },
+  "depots": {
+    "4979101": {
+      "manifests": {
+        "public": {
+          "download": "558037856",
+          "gid": "3894990153049443272",
+          "size": "1517993864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25205694",
+        "timebuildupdated": "1788947647",
+        "timeupdated": "1788947668"
+      }
+    }
+  },
+  "extended": {
+    "developer": "happyyylemon8",
+    "publisher": "happyyylemon8"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "savefiles": {
+      "0": {
+        "path": "Godot\\app_userdata\\Which_I_Master\\",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

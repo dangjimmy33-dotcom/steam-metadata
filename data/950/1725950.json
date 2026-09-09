@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788941047,
+  "_lastChecked": 1788947239,
   "_history": [
     {
       "buildId": "23559787",
@@ -26,11 +26,37 @@
           "download": 445980400
         }
       }
+    },
+    {
+      "buildId": "24901250",
+      "branch": "old-version",
+      "timeUpdated": 1787563504,
+      "firstSeen": 1788947239,
+      "manifests": {
+        "1725951": {
+          "gid": "6480192272271309089",
+          "size": 885427134,
+          "download": 445980400
+        }
+      }
+    },
+    {
+      "buildId": "25204405",
+      "branch": "public",
+      "timeUpdated": 1788943570,
+      "firstSeen": 1788947239,
+      "manifests": {
+        "1725951": {
+          "gid": "2654937885659771442",
+          "size": 742815950,
+          "download": 354521632
+        }
+      }
     }
   ],
-  "_change_number": 38383348,
+  "_change_number": 38721480,
   "_missing_token": false,
-  "_sha": "3110218895b8b644d7f9a40258794882e6af7ca6",
+  "_sha": "2b13311abc890be1b872e5af19b747ef65f2c9e5",
   "_size": 5891,
   "appid": "1725950",
   "common": {
@@ -238,29 +264,29 @@
     "1725951": {
       "manifests": {
         "old-version": {
-          "download": "354138000",
-          "gid": "7918801191841205356",
-          "size": "744771393"
-        },
-        "public": {
           "download": "445980400",
           "gid": "6480192272271309089",
           "size": "885427134"
+        },
+        "public": {
+          "download": "354521632",
+          "gid": "2654937885659771442",
+          "size": "742815950"
         }
       }
     },
     "baselanguages": "english,schinese",
     "branches": {
       "old-version": {
-        "buildid": "23559787",
-        "description": "老版本，如果无法读取存档请在这个版本转生之后再更新",
-        "timebuildupdated": "1780550710",
-        "timeupdated": "1780550781"
-      },
-      "public": {
         "buildid": "24901250",
+        "description": "老版本，如果无法读取存档请在这个版本转生之后再更新",
         "timebuildupdated": "1787555124",
         "timeupdated": "1787563504"
+      },
+      "public": {
+        "buildid": "25204405",
+        "timebuildupdated": "1788943235",
+        "timeupdated": "1788943570"
       }
     },
     "hasdepotsindlc": "0",

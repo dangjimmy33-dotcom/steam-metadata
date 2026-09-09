@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788944934,
-  "_history": [],
-  "_change_number": 38451727,
-  "_missing_token": true,
-  "_sha": "51fb10ae995a1187bda09e19b4c69eb091bb6a6b",
-  "_size": 4344,
+  "_lastChecked": 1788950520,
+  "_history": [
+    {
+      "buildId": "25021289",
+      "branch": "public",
+      "timeUpdated": 1788096847,
+      "firstSeen": 1788950520,
+      "manifests": {
+        "5142741": {
+          "gid": "503061196174411778",
+          "size": 3447742260,
+          "download": 3385167056
+        },
+        "5142742": {
+          "gid": "423913771538123272",
+          "size": 3483751079,
+          "download": 3395756768
+        }
+      }
+    }
+  ],
+  "_change_number": 38722959,
+  "_missing_token": false,
+  "_sha": "c58aff7fb18641b7e09097e05cb5c2e2b2f3c0d2",
+  "_size": 5398,
   "appid": "5142740",
   "common": {
     "aicontenttype": "1",
@@ -28,8 +47,8 @@
     },
     "clienticon": "0e90db7e0dce5b778fe816915c7c2a4206592a3f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5142740",
     "genres": {
       "0": "25",
@@ -129,10 +148,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f15b08070818e5471c9f958a2d68cb58a0e009c7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788947081",
     "store_asset_mtime": "1787263280",
     "store_tags": {
       "0": "1716",
@@ -198,5 +218,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dungeon Cook",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "DungeonCook.app"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DungeonCook.exe"
+      }
+    }
+  },
+  "depots": {
+    "5142741": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3385167056",
+          "gid": "503061196174411778",
+          "size": "3447742260"
+        }
+      }
+    },
+    "5142742": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "3395756768",
+          "gid": "423913771538123272",
+          "size": "3483751079"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25021289",
+        "timebuildupdated": "1788096479",
+        "timeupdated": "1788096847"
+      }
+    }
+  },
+  "extended": {
+    "developer": "MY AR UNIPESSOAL LDA.",
+    "homepage": "https://dungeoncook.myartechnology.com/",
+    "publisher": "MY AR UNIPESSOAL LDA."
+  }
 }

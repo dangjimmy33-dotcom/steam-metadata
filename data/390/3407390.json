@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788943097,
+  "_lastChecked": 1788948955,
   "_history": [
     {
       "buildId": "25121687",
@@ -36,11 +36,47 @@
           "download": 2042624432
         }
       }
+    },
+    {
+      "buildId": "25191031",
+      "branch": "public",
+      "timeUpdated": 1788944946,
+      "firstSeen": 1788948955,
+      "manifests": {
+        "3407391": {
+          "gid": "3236954724349277012",
+          "size": 11315555704,
+          "download": 7299282624
+        },
+        "3760760": {
+          "gid": "1540147260025707102",
+          "size": 2127647508,
+          "download": 2042624432
+        }
+      }
+    },
+    {
+      "buildId": "25191031",
+      "branch": "public-test-branch",
+      "timeUpdated": 1788944904,
+      "firstSeen": 1788948955,
+      "manifests": {
+        "3407391": {
+          "gid": "3236954724349277012",
+          "size": 11315555704,
+          "download": 7299282624
+        },
+        "3760760": {
+          "gid": "1540147260025707102",
+          "size": 2127647508,
+          "download": 2042624432
+        }
+      }
     }
   ],
-  "_change_number": 38701933,
+  "_change_number": 38722042,
   "_missing_token": false,
-  "_sha": "c7be1ac279f0b3f74762973c55c109f58d1529e6",
+  "_sha": "ff51fd357e79cb07b44e69108b38c40cba506ad1",
   "_size": 12033,
   "appid": "3407390",
   "common": {
@@ -422,14 +458,14 @@
     "3407391": {
       "manifests": {
         "public": {
-          "download": "7299282656",
-          "gid": "3115616535254029225",
-          "size": "11315550101"
+          "download": "7299282624",
+          "gid": "3236954724349277012",
+          "size": "11315555704"
         },
         "public-test-branch": {
-          "download": "7299282656",
-          "gid": "3115616535254029225",
-          "size": "11315550101"
+          "download": "7299282624",
+          "gid": "3236954724349277012",
+          "size": "11315555704"
         }
       }
     },
@@ -451,15 +487,15 @@
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,hungarian,czech,turkish,brazilian,ukrainian",
     "branches": {
       "public": {
-        "buildid": "25121687",
-        "timebuildupdated": "1788517814",
-        "timeupdated": "1788536831"
+        "buildid": "25191031",
+        "timebuildupdated": "1788883824",
+        "timeupdated": "1788944946"
       },
       "public-test-branch": {
-        "buildid": "25121687",
+        "buildid": "25191031",
         "description": "Test the upcoming updates in advance",
-        "timebuildupdated": "1788517814",
-        "timeupdated": "1788536802"
+        "timebuildupdated": "1788883824",
+        "timeupdated": "1788944904"
       }
     },
     "privatebranches": "1",

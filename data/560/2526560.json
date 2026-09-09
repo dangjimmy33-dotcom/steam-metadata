@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788942054,
+  "_lastChecked": 1788948081,
   "_history": [
     {
       "buildId": "23966064",
@@ -156,12 +156,38 @@
           "download": 300156752
         }
       }
+    },
+    {
+      "buildId": "25204862",
+      "branch": "public",
+      "timeUpdated": 1788944875,
+      "firstSeen": 1788948081,
+      "manifests": {
+        "2526561": {
+          "gid": "5253171391019115085",
+          "size": 753697714,
+          "download": 300157152
+        }
+      }
+    },
+    {
+      "buildId": "25204862",
+      "branch": "unstable",
+      "timeUpdated": 1788944824,
+      "firstSeen": 1788948081,
+      "manifests": {
+        "2526561": {
+          "gid": "5253171391019115085",
+          "size": 753697714,
+          "download": 300157152
+        }
+      }
     }
   ],
-  "_change_number": 38696239,
+  "_change_number": 38722014,
   "_missing_token": false,
-  "_sha": "9a682ebd03dc63ee4f946c3a2fce562ee6bb55cc",
-  "_size": 7495,
+  "_sha": "432cc820ca374bc69f167aa538512ddab5e32484",
+  "_size": 7496,
   "appid": "2526560",
   "common": {
     "associations": {
@@ -428,28 +454,28 @@
     "2526561": {
       "manifests": {
         "public": {
-          "download": "300156784",
-          "gid": "5391159230589902627",
-          "size": "753696178"
+          "download": "300157152",
+          "gid": "5253171391019115085",
+          "size": "753697714"
         },
         "unstable": {
-          "download": "300156752",
-          "gid": "237508867301123749",
-          "size": "753696178"
+          "download": "300157152",
+          "gid": "5253171391019115085",
+          "size": "753697714"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25187503",
-        "timebuildupdated": "1788872153",
-        "timeupdated": "1788872309"
+        "buildid": "25204862",
+        "timebuildupdated": "1788944824",
+        "timeupdated": "1788944875"
       },
       "unstable": {
-        "buildid": "25187890",
+        "buildid": "25204862",
         "description": "Automated build, can be unstable, buggy or broken.",
-        "timebuildupdated": "1788873442",
-        "timeupdated": "1788873442"
+        "timebuildupdated": "1788944824",
+        "timeupdated": "1788944824"
       }
     },
     "privatebranches": "1",

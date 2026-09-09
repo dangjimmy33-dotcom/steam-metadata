@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788940101,
+  "_lastChecked": 1788946461,
   "_history": [
     {
       "buildId": "8743686",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 34844122,
+  "_change_number": 38721011,
   "_missing_token": false,
-  "_sha": "dccdd16ac20e87e59bc710a82c9bbc617ddfc574",
-  "_size": 3674,
+  "_sha": "463faacd617660b7ee31e026dc7a9a70ac7f4d3a",
+  "_size": 3831,
   "appid": "1029560",
   "common": {
     "associations": {
@@ -35,6 +35,7 @@
       "category_1": "1",
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_24": "1",
       "category_28": "1",
       "category_37": "1",
@@ -208,6 +209,13 @@
   },
   "ufs": {
     "maxnumfiles": "10",
-    "quota": "10000"
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Bandits\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
   }
 }

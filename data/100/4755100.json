@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788944581,
-  "_history": [],
-  "_change_number": 38332857,
-  "_missing_token": true,
-  "_sha": "7b9b27ed5c95be5c28d863b3c36db06162e72ef8",
-  "_size": 3124,
+  "_lastChecked": 1788950220,
+  "_history": [
+    {
+      "buildId": "24939675",
+      "branch": "public",
+      "timeUpdated": 1787705726,
+      "firstSeen": 1788950220,
+      "manifests": {
+        "4755101": {
+          "gid": "3949430744425267146",
+          "size": 443855141,
+          "download": 235594144
+        }
+      }
+    }
+  ],
+  "_change_number": 38723418,
+  "_missing_token": false,
+  "_sha": "21fb69188df587b857ecd5f68f57e8c76f2320e2",
+  "_size": 3700,
   "appid": "4755100",
   "common": {
     "aicontenttype": "1",
@@ -48,7 +62,6 @@
     "clienticon": "65ccacefa5722f7d1f86244499a7a803ca0bea15",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4755100",
     "genres": {
       "0": "1"
@@ -118,7 +131,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "49a735b3c128e554d6a3ba21b03aa6a55ba54111/capsule_231x87.jpg"
     },
@@ -143,5 +156,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ParryWarrior",
+    "launch": {
+      "0": {
+        "executable": "ParryWarrior.exe"
+      }
+    }
+  },
+  "depots": {
+    "4755101": {
+      "manifests": {
+        "public": {
+          "download": "235594144",
+          "gid": "3949430744425267146",
+          "size": "443855141"
+        }
+      }
+    },
+    "baselanguages": "english,koreana",
+    "branches": {
+      "public": {
+        "buildid": "24939675",
+        "timebuildupdated": "1787705605",
+        "timeupdated": "1787705726"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Hirises",
+    "publisher": "HAJE"
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "1000000"
+  }
 }

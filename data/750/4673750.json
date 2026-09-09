@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1788944503,
-  "_history": [],
-  "_change_number": 38580412,
-  "_missing_token": true,
-  "_sha": "ff29c19ab16507e74127ad04f5eaebdee7416dde",
-  "_size": 2931,
+  "_lastChecked": 1788950153,
+  "_history": [
+    {
+      "buildId": "25010990",
+      "branch": "public",
+      "timeUpdated": 1788015304,
+      "firstSeen": 1788950153,
+      "manifests": {
+        "4673752": {
+          "gid": "4734041103831631521",
+          "size": 5090889,
+          "download": 1595312
+        },
+        "4673753": {
+          "gid": "5481939168774476607",
+          "size": 4815512,
+          "download": 1545456
+        },
+        "4673754": {
+          "gid": "2521208645280244567",
+          "size": 2230776,
+          "download": 1765712
+        }
+      }
+    }
+  ],
+  "_change_number": 38723924,
+  "_missing_token": false,
+  "_sha": "01c2b6346b97fbd5889f42499d717b1ec3635c36",
+  "_size": 4477,
   "appid": "4673750",
   "common": {
     "associations": {
@@ -29,7 +53,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4673750",
     "genres": {
       "0": "25",
@@ -102,10 +125,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6efba452d2252670c6a3f5505a38d8e4ad6a3bad/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788949326",
     "store_asset_mtime": "1788458839",
     "store_tags": {
       "0": "597",
@@ -133,5 +157,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Country Town Trains",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "32",
+          "oslist": "windows"
+        },
+        "executable": "game32.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "game64.exe",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "%command% --appimage-extract-and-run",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "game.AppImage"
+      }
+    }
+  },
+  "depots": {
+    "4673751": {},
+    "4673752": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1595312",
+          "gid": "4734041103831631521",
+          "size": "5090889"
+        }
+      }
+    },
+    "4673753": {
+      "config": {
+        "language": "english",
+        "osarch": "32",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1545456",
+          "gid": "5481939168774476607",
+          "size": "4815512"
+        }
+      }
+    },
+    "4673754": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1765712",
+          "gid": "2521208645280244567",
+          "size": "2230776"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25010990",
+        "timebuildupdated": "1788015155",
+        "timeupdated": "1788015304"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Myles",
+    "isfreeapp": "1",
+    "publisher": "Myles"
+  }
 }

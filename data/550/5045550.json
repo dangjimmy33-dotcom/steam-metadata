@@ -1,12 +1,27 @@
 {
-  "_lastChecked": 1788944861,
-  "_history": [],
-  "_change_number": 38426988,
-  "_missing_token": true,
-  "_sha": "5b390a6814fa07fdf0977e8beef3282e4a7c2654",
-  "_size": 4075,
+  "_lastChecked": 1788950458,
+  "_history": [
+    {
+      "buildId": "25004880",
+      "branch": "public",
+      "timeUpdated": 1787972900,
+      "firstSeen": 1788950458,
+      "manifests": {
+        "5045551": {
+          "gid": "656793952154380824",
+          "size": 330082655,
+          "download": 123162192
+        }
+      }
+    }
+  ],
+  "_change_number": 38723967,
+  "_missing_token": false,
+  "_sha": "e623967ca156a5cc3ce1330ea7538c404cd2d922",
+  "_size": 4615,
   "appid": "5045550",
   "common": {
+    "aicontenttype": "1",
     "associations": {
       "0": {
         "name": "MountainPeople",
@@ -24,7 +39,6 @@
     "clienticon": "3c2fcd657a43c0363c572214b87fd07da922e816",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5045550",
     "genres": {
       "0": "4",
@@ -111,12 +125,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "12d917d5ffc5e09f0c314095b1d54b42bbd36ad6/capsule_231x87.jpg",
       "schinese": "1d8f35a572c3d0028914da8e047ae2cd8dd8f5ea/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1786253943",
+    "store_asset_mtime": "1788430322",
     "store_tags": {
       "0": "597",
       "1": "599",
@@ -148,5 +162,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "XiuXianZhuanJi",
+    "launch": {
+      "0": {
+        "executable": "XiuXianZhuanJi.exe"
+      }
+    }
+  },
+  "depots": {
+    "5045551": {
+      "manifests": {
+        "public": {
+          "download": "123162192",
+          "gid": "656793952154380824",
+          "size": "330082655"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25004880",
+        "timebuildupdated": "1787972812",
+        "timeupdated": "1787972900"
+      }
+    }
+  },
+  "extended": {
+    "developer": "MountainPeople",
+    "publisher": "MountainPeople"
+  }
 }

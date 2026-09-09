@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788941524,
+  "_lastChecked": 1788947636,
   "_history": [
     {
       "buildId": "19387239",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 37105312,
+  "_change_number": 38722131,
   "_missing_token": false,
-  "_sha": "433b6a662864ba25ba715b756921b378d7fbf06a",
-  "_size": 4658,
+  "_sha": "e5f8730744dfa24be421ec858353aa6a7bda56aa",
+  "_size": 5074,
   "appid": "2110700",
   "common": {
     "associations": {
@@ -113,7 +113,7 @@
     "primary_genre": "23",
     "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
-    "review_percentage": "60",
+    "review_percentage": "59",
     "review_score": "5",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
@@ -135,6 +135,21 @@
         "requires_voice_files": "0",
         "small_text": "0",
         "supported_input": "gamepad"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
       },
       "steamos_compatibility": "2",
       "steamos_tests": {

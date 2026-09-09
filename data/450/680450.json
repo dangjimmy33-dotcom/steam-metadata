@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788939661,
+  "_lastChecked": 1788946097,
   "_history": [
     {
       "buildId": "2081598",
@@ -13,12 +13,30 @@
           "download": 36800368
         }
       }
+    },
+    {
+      "buildId": "25204800",
+      "branch": "public",
+      "timeUpdated": 1788944584,
+      "firstSeen": 1788946097,
+      "manifests": {
+        "680451": {
+          "gid": "5943245018773791483",
+          "size": 50252368,
+          "download": 36800368
+        },
+        "680452": {
+          "gid": "1330979170193078899",
+          "size": 302555527,
+          "download": 267207472
+        }
+      }
     }
   ],
-  "_change_number": 26253459,
+  "_change_number": 38721909,
   "_missing_token": false,
-  "_sha": "8e0565c9673ccae3d5a6d828a7cac186e459faf7",
-  "_size": 1938,
+  "_sha": "6d335b7a86a60958725ba24f42ae3c932ca3a410",
+  "_size": 2230,
   "appid": "680450",
   "common": {
     "associations": {
@@ -86,6 +104,9 @@
       "0": {
         "executable": "Damn.exe",
         "type": "default"
+      },
+      "1": {
+        "executable": "DAMN_2026.exe"
       }
     }
   },
@@ -99,10 +120,23 @@
         }
       }
     },
+    "680452": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "267207472",
+          "gid": "1330979170193078899",
+          "size": "302555527"
+        }
+      }
+    },
     "branches": {
       "public": {
-        "buildid": "2081598",
-        "timeupdated": "1504168780"
+        "buildid": "25204800",
+        "timebuildupdated": "1788944584",
+        "timeupdated": "1788944584"
       }
     }
   },
