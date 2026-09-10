@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789011692,
-  "_history": [],
-  "_change_number": 38357294,
-  "_missing_token": true,
-  "_sha": "714ecba761db2e3cf4db326f99aef4297dcfd59f",
-  "_size": 4999,
+  "_lastChecked": 1789017391,
+  "_history": [
+    {
+      "buildId": "24868718",
+      "branch": "public",
+      "timeUpdated": 1787338123,
+      "firstSeen": 1789017391,
+      "manifests": {
+        "5148421": {
+          "gid": "1711796166418765248",
+          "size": 421697475,
+          "download": 266915216
+        }
+      }
+    }
+  ],
+  "_change_number": 38749797,
+  "_missing_token": false,
+  "_sha": "86195e097e1da087cef09dc2d7b5096f616f85fd",
+  "_size": 6217,
   "appid": "5148420",
   "common": {
     "aicontenttype": "1",
@@ -25,6 +39,7 @@
     },
     "clienticon": "b42134077ff147b2786f050e3dda606bea641ef7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -32,7 +47,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5148420",
     "genres": {
       "0": "23",
@@ -103,10 +117,11 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "37c1c8694c05a0f3d5803a7106c71ef71517ed50/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789016013",
     "store_asset_mtime": "1787315503",
     "store_tags": {
       "0": "6971",
@@ -241,5 +256,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Things We Don't See 10 Interactive Stories of Horror, Mystery, and the Unknown",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "TheThingsWeDontSee.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "TheThingsWeDontSee.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "TheThingsWeDontSee.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5148421": {
+      "manifests": {
+        "public": {
+          "download": "266915216",
+          "gid": "1711796166418765248",
+          "size": "421697475"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24868718",
+        "timebuildupdated": "1787338110",
+        "timeupdated": "1787338123"
+      }
+    }
+  },
+  "extended": {
+    "developer": "VisualNovelGames",
+    "publisher": "VisualNovelGames"
+  }
 }

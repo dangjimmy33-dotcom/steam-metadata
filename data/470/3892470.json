@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789010415,
+  "_lastChecked": 1789016289,
   "_history": [
     {
       "buildId": "23845476",
@@ -13,12 +13,38 @@
           "download": 960781344
         }
       }
+    },
+    {
+      "buildId": "21675236",
+      "branch": "classic",
+      "timeUpdated": 1769565598,
+      "firstSeen": 1789016289,
+      "manifests": {
+        "3892479": {
+          "gid": "7959152873951585287",
+          "size": 1240984661,
+          "download": 959909328
+        }
+      }
+    },
+    {
+      "buildId": "23845476",
+      "branch": "modern",
+      "timeUpdated": 1782064256,
+      "firstSeen": 1789016289,
+      "manifests": {
+        "3892479": {
+          "gid": "1604724628548000868",
+          "size": 1241984735,
+          "download": 960781344
+        }
+      }
     }
   ],
-  "_change_number": 37529686,
+  "_change_number": 38749844,
   "_missing_token": false,
-  "_sha": "17059a288b9cf239edebfe899498179c1bb19715",
-  "_size": 5350,
+  "_sha": "86232567299b2870aa86908b5744a6207b1ba231",
+  "_size": 6262,
   "appid": "3892470",
   "common": {
     "associations": {
@@ -207,6 +233,18 @@
         },
         "executable": "Yindy.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "modern,classic",
+          "oslist": "windows"
+        },
+        "description": "Use this option to correctly run the modern or classic version.",
+        "description_loc": {
+          "english": "Use this option to correctly run the modern or classic version."
+        },
+        "executable": "Yindy.exe",
+        "type": "default"
       }
     }
   },
@@ -227,6 +265,16 @@
     },
     "3892479": {
       "manifests": {
+        "classic": {
+          "download": "959909328",
+          "gid": "7959152873951585287",
+          "size": "1240984661"
+        },
+        "modern": {
+          "download": "960781344",
+          "gid": "1604724628548000868",
+          "size": "1241984735"
+        },
         "public": {
           "download": "960781344",
           "gid": "1604724628548000868",
@@ -236,6 +284,18 @@
     },
     "baselanguages": "",
     "branches": {
+      "classic": {
+        "buildid": "21675236",
+        "description": "play yindy before last update",
+        "timebuildupdated": "1769565466",
+        "timeupdated": "1769565598"
+      },
+      "modern": {
+        "buildid": "23845476",
+        "description": "play yindy last update",
+        "timebuildupdated": "1782064176",
+        "timeupdated": "1782064256"
+      },
       "public": {
         "buildid": "23845476",
         "timebuildupdated": "1782064176",

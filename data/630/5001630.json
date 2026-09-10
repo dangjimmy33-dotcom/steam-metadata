@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1789011577,
-  "_history": [],
-  "_change_number": 38737983,
-  "_missing_token": true,
-  "_sha": "5eaa79e9409174c7fa31b81cba4c2c7646a4bd09",
-  "_size": 5436,
+  "_lastChecked": 1789017289,
+  "_history": [
+    {
+      "buildId": "25223328",
+      "branch": "public",
+      "timeUpdated": 1789014434,
+      "firstSeen": 1789017289,
+      "manifests": {
+        "5001631": {
+          "gid": "3902096100489843664",
+          "size": 3354020831,
+          "download": 1460284560
+        },
+        "5074810": {
+          "gid": "468353041800858799",
+          "size": 168925397,
+          "download": 167114656
+        }
+      }
+    },
+    {
+      "buildId": "25223328",
+      "branch": "test-015",
+      "timeUpdated": 1789014075,
+      "firstSeen": 1789017289,
+      "manifests": {
+        "5001631": {
+          "gid": "3902096100489843664",
+          "size": 3354020831,
+          "download": 1460284560
+        },
+        "5074810": {
+          "gid": "468353041800858799",
+          "size": 168925397,
+          "download": 167114656
+        }
+      }
+    }
+  ],
+  "_change_number": 38749404,
+  "_missing_token": false,
+  "_sha": "788ef8979b2a55174b50ea1d8789784d0296851f",
+  "_size": 8665,
   "appid": "5001630",
   "common": {
     "aicontenttype": "1",
@@ -43,8 +80,8 @@
     "clienticns": "7f63a915e87a13b5fdb1ad023f6b144686e7f8b3",
     "clienticon": "6d2ce3f95a4185a8fe923080c0f18bf0b948b799",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5001630",
     "genres": {
       "0": "4",
@@ -138,11 +175,12 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "61818ad820dba0875cb3b2e97d6d177ec89a7c6c/capsule_231x87.jpg",
       "schinese": "61818ad820dba0875cb3b2e97d6d177ec89a7c6c/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789012727",
     "store_asset_mtime": "1788809994",
     "store_tags": {
       "0": "16689",
@@ -246,5 +284,146 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Jiahao",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Jiahao.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "嘉豪.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5001631": {
+      "manifests": {
+        "public": {
+          "download": "1460284560",
+          "gid": "3902096100489843664",
+          "size": "3354020831"
+        },
+        "test-015": {
+          "download": "1460284560",
+          "gid": "3902096100489843664",
+          "size": "3354020831"
+        }
+      }
+    },
+    "5074810": {
+      "dlcappid": "5074810",
+      "manifests": {
+        "public": {
+          "download": "167114656",
+          "gid": "468353041800858799",
+          "size": "168925397"
+        },
+        "test-015": {
+          "download": "167114656",
+          "gid": "468353041800858799",
+          "size": "168925397"
+        }
+      }
+    },
+    "baselanguages": "brazilian,dutch,english,french,german,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,tchinese,thai,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "25223328",
+        "timebuildupdated": "1789014074",
+        "timeupdated": "1789014434"
+      },
+      "test-015": {
+        "buildid": "25223328",
+        "description": "Jiahao 0.1.5 test",
+        "timebuildupdated": "1789014074",
+        "timeupdated": "1789014075"
+      }
+    },
+    "workshopdepot": "5001630"
+  },
+  "extended": {
+    "developer": "豪意有限公司",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5066260,5074810",
+    "publisher": "豪格集团"
+  },
+  "ufs": {
+    "maxnumfiles": "256",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/嘉豪",
+        "pattern": "profile.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/嘉豪",
+        "pattern": "stock_market.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "10": {
+        "path": "Godot/app_userdata/嘉豪/tools",
+        "pattern": "stopwatch.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "11": {
+        "path": "Godot/app_userdata/嘉豪/tools",
+        "pattern": "todo.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "12": {
+        "path": "Godot/app_userdata/嘉豪/tools",
+        "pattern": "white_noise.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/嘉豪/tools",
+        "pattern": "alarm.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Godot/app_userdata/嘉豪/tools",
+        "pattern": "habit_checkin.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Godot/app_userdata/嘉豪/tools",
+        "pattern": "pelvic_floor_reminder.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "7": {
+        "path": "Godot/app_userdata/嘉豪/tools",
+        "pattern": "schedule_reminder.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "8": {
+        "path": "Godot/app_userdata/嘉豪/tools",
+        "pattern": "sedentary_reminder.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "9": {
+        "path": "Godot/app_userdata/嘉豪/tools",
+        "pattern": "sticky_notes.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

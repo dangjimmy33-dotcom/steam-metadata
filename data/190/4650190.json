@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789011238,
-  "_history": [],
-  "_change_number": 38351550,
-  "_missing_token": true,
-  "_sha": "8d418e6f0997fc900a00134297c3fba6b3538d24",
-  "_size": 3735,
+  "_lastChecked": 1789016997,
+  "_history": [
+    {
+      "buildId": "24834822",
+      "branch": "public",
+      "timeUpdated": 1787213227,
+      "firstSeen": 1789016997,
+      "manifests": {
+        "4650191": {
+          "gid": "3627379249247820747",
+          "size": 170688389,
+          "download": 50760816
+        }
+      }
+    }
+  ],
+  "_change_number": 38749915,
+  "_missing_token": false,
+  "_sha": "f413539aadd1f7484bf7e10242d75c310f06aebb",
+  "_size": 4419,
   "appid": "4650190",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +43,8 @@
     },
     "clienticon": "951055f0af806efe14365f6b68335f0c6df9f387",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4650190",
     "genres": {
       "0": "4",
@@ -116,7 +130,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "99fef9e0a747a73876c29f4c05cb41f8eaaf0d34/capsule_231x87.jpg",
       "koreana": "733a3208057280cb547e6550b0a0806236710680/capsule_231x87_koreana.jpg"
@@ -146,5 +160,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Break Snowman",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Break Snowman.exe"
+      }
+    }
+  },
+  "depots": {
+    "4650191": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "50760816",
+          "gid": "3627379249247820747",
+          "size": "170688389"
+        }
+      }
+    },
+    "baselanguages": "english,koreana",
+    "branches": {
+      "public": {
+        "buildid": "24834822",
+        "timebuildupdated": "1787213181",
+        "timeupdated": "1787213227"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "ESE Studio",
+    "publisher": "ESE Studio"
+  }
 }

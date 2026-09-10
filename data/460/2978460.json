@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789009370,
+  "_lastChecked": 1789015396,
   "_history": [
     {
       "buildId": "24280217",
@@ -72,11 +72,29 @@
           "download": 92573728
         }
       }
+    },
+    {
+      "buildId": "25222476",
+      "branch": "beta",
+      "timeUpdated": 1789009790,
+      "firstSeen": 1789015396,
+      "manifests": {
+        "2978461": {
+          "gid": "5930499125653493721",
+          "size": 173074966,
+          "download": 125685104
+        },
+        "2978462": {
+          "gid": "3767673885195492107",
+          "size": 173053486,
+          "download": 125649536
+        }
+      }
     }
   ],
-  "_change_number": 37370520,
+  "_change_number": 38748060,
   "_missing_token": false,
-  "_sha": "e9bb5a680b25a42743eab16987b5197f6340e9dc",
+  "_sha": "2c66b750af131c37540680be9183bf53648f35f8",
   "_size": 5398,
   "appid": "2978460",
   "common": {
@@ -244,9 +262,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "123917120",
-          "gid": "1955722721782528254",
-          "size": "170921078"
+          "download": "125685104",
+          "gid": "5930499125653493721",
+          "size": "173074966"
         },
         "prev_stable": {
           "download": "92498784",
@@ -272,9 +290,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "123877312",
-          "gid": "5907677237592335103",
-          "size": "170898574"
+          "download": "125649536",
+          "gid": "3767673885195492107",
+          "size": "173053486"
         },
         "prev_stable": {
           "download": "92419088",
@@ -296,10 +314,10 @@
     "baselanguages": "english,spanish,latam",
     "branches": {
       "beta": {
-        "buildid": "24280217",
+        "buildid": "25222476",
         "description": "testing",
-        "timebuildupdated": "1784436188",
-        "timeupdated": "1784436188"
+        "timebuildupdated": "1789009790",
+        "timeupdated": "1789009790"
       },
       "prev_stable": {
         "buildid": "23899253",

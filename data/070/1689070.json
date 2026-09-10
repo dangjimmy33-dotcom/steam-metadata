@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789007786,
+  "_lastChecked": 1789014049,
   "_history": [
     {
       "buildId": "24922454",
@@ -26,12 +26,25 @@
           "download": 16777111584
         }
       }
+    },
+    {
+      "buildId": "25222893",
+      "branch": "test",
+      "timeUpdated": 1789012049,
+      "firstSeen": 1789014049,
+      "manifests": {
+        "1689071": {
+          "gid": "6542955060524562446",
+          "size": 17585316515,
+          "download": 16789863936
+        }
+      }
     }
   ],
-  "_change_number": 38308644,
+  "_change_number": 38749280,
   "_missing_token": false,
-  "_sha": "852a71b48ca81469fe067153fb410be99c12dd51",
-  "_size": 10399,
+  "_sha": "3ce07ae62109c3b2f6af72d7e5391a8e1ebeb554",
+  "_size": 10401,
   "appid": "1689070",
   "common": {
     "associations": {
@@ -280,7 +293,7 @@
         "type": "option1"
       },
       "7": {
-        "arguments": "/bgfx /patchver:571 /ip:116.211.2.140 /port:14300 /Lver:2 /use_packing /patchurl:http:\\\\lzg.jijiagames.com\\dn\\ReleaseBuild\\Patch\\ /steam:1",
+        "arguments": "/bgfx /patchver:571 /ip:116.211.21.122 /port:14300 /Lver:2 /use_packing /patchurl:http:\\\\lzg.jijiagames.com\\dn\\ReleaseBuild\\Patch\\ /steam:1",
         "config": {
           "betakey": "test",
           "osarch": "64",
@@ -313,7 +326,7 @@
         "type": "option1"
       },
       "9": {
-        "arguments": "/bgfx /patchver:571 /ip:116.211.2.140 /port:14300 /Lver:2 /use_packing /patchurl:http:\\\\lzg.jijiagames.com\\dn\\ReleaseBuild\\Patch\\ /steam:2",
+        "arguments": "/bgfx /patchver:571 /ip:116.211.21.122 /port:14300 /Lver:2 /use_packing /patchurl:http:\\\\lzg.jijiagames.com\\dn\\ReleaseBuild\\Patch\\ /steam:2",
         "config": {
           "betakey": "test",
           "osarch": "64",
@@ -352,9 +365,9 @@
           "size": "17572194283"
         },
         "test": {
-          "download": "16777111584",
-          "gid": "7099958833583690599",
-          "size": "17572194283"
+          "download": "16789863936",
+          "gid": "6542955060524562446",
+          "size": "17585316515"
         }
       }
     },
@@ -394,10 +407,10 @@
         "timeupdated": "1787646030"
       },
       "test": {
-        "buildid": "24922454",
+        "buildid": "25222893",
         "description": "用于公司内测服分发的分支",
-        "timebuildupdated": "1787641579",
-        "timeupdated": "1787641636"
+        "timebuildupdated": "1789011840",
+        "timeupdated": "1789012049"
       }
     },
     "privatebranches": "1"

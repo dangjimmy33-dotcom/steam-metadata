@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789009989,
+  "_lastChecked": 1789015925,
   "_history": [
     {
       "buildId": "25135075",
@@ -13,12 +13,38 @@
           "download": 51769952
         }
       }
+    },
+    {
+      "buildId": "25135075",
+      "branch": "mod_stable",
+      "timeUpdated": 1788569550,
+      "firstSeen": 1789015925,
+      "manifests": {
+        "3516591": {
+          "gid": "8773734476772213023",
+          "size": 114491559,
+          "download": 51769952
+        }
+      }
+    },
+    {
+      "buildId": "25223194",
+      "branch": "public",
+      "timeUpdated": 1789013477,
+      "firstSeen": 1789015925,
+      "manifests": {
+        "3516591": {
+          "gid": "4772606702363453218",
+          "size": 115953466,
+          "download": 53217344
+        }
+      }
     }
   ],
-  "_change_number": 38738218,
+  "_change_number": 38749385,
   "_missing_token": false,
-  "_sha": "26b31290ddd9af144abbbc391e0626ad7e480a37",
-  "_size": 4624,
+  "_sha": "fb60a5e52ec3852586fc0ef8b54e5f374f498ed2",
+  "_size": 4965,
   "appid": "3516590",
   "common": {
     "associations": {
@@ -185,18 +211,29 @@
   "depots": {
     "3516591": {
       "manifests": {
-        "public": {
+        "mod_stable": {
           "download": "51769952",
           "gid": "8773734476772213023",
           "size": "114491559"
+        },
+        "public": {
+          "download": "53217344",
+          "gid": "4772606702363453218",
+          "size": "115953466"
         }
       }
     },
     "branches": {
-      "public": {
+      "mod_stable": {
         "buildid": "25135075",
+        "description": "A branch that updates less frequently. More bugs but less changes for mod loaders.",
         "timebuildupdated": "1788569119",
         "timeupdated": "1788569550"
+      },
+      "public": {
+        "buildid": "25223194",
+        "timebuildupdated": "1789013403",
+        "timeupdated": "1789013477"
       }
     }
   },

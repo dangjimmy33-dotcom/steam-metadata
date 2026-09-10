@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789011202,
+  "_lastChecked": 1789016966,
   "_history": [
     {
       "buildId": "25045246",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38488007,
-  "_missing_token": false,
-  "_sha": "216de4a67616c16475d95b10e2a81dc5b27c5f4a",
-  "_size": 5113,
+  "_change_number": 38748836,
+  "_missing_token": true,
+  "_sha": "1801a31fd3fc4b4d49ddc92869cf209ced3b560d",
+  "_size": 4219,
   "appid": "4612360",
   "common": {
     "associations": {
@@ -41,6 +41,7 @@
     "clienticon": "a461bc1ecaf252b4989e384722dd82014ac227ff",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
+    "exfgls": "8",
     "gameid": "4612360",
     "genres": {
       "0": "1",
@@ -127,12 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "released",
+    "releasestate": "prerelease",
     "small_capsule": {
       "english": "499824b6ebd003b32b0fad001b003eab443388d8/capsule_231x87.jpg",
       "schinese": "a41f4c1373c0036e1e6e4a0204033ef33d7b5ecc/capsule_231x87_schinese.jpg"
     },
-    "steam_release_date": "1788205127",
     "store_asset_mtime": "1782273900",
     "store_tags": {
       "0": "1100689",
@@ -170,54 +170,5 @@
     },
     "type": "Game"
   },
-  "config": {
-    "installdir": "Emberhaven",
-    "launch": {
-      "0": {
-        "config": {
-          "osarch": "64",
-          "oslist": "windows"
-        },
-        "executable": "SandBox.exe",
-        "type": "default"
-      }
-    }
-  },
-  "depots": {
-    "228988": {
-      "config": {
-        "oslist": "windows"
-      },
-      "depotfromapp": "228980",
-      "sharedinstall": "1"
-    },
-    "228990": {
-      "config": {
-        "oslist": "windows"
-      },
-      "depotfromapp": "228980",
-      "sharedinstall": "1"
-    },
-    "4612361": {
-      "manifests": {
-        "public": {
-          "download": "1060611712",
-          "gid": "7529682653477451893",
-          "size": "1359537302"
-        }
-      }
-    },
-    "baselanguages": "english,schinese",
-    "branches": {
-      "public": {
-        "buildid": "25045246",
-        "timebuildupdated": "1788212055",
-        "timeupdated": "1788212281"
-      }
-    }
-  },
-  "extended": {
-    "developer": "The Third Variable Co., Ltd.",
-    "publisher": "Jexar Games  Co., Ltd."
-  }
+  "public_only": "1"
 }

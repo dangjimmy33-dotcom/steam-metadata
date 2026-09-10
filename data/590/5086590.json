@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789011648,
-  "_history": [],
-  "_change_number": 38270970,
-  "_missing_token": true,
-  "_sha": "1cd60103bf2be25e7aea8a4913f0b00d157fdf04",
-  "_size": 4104,
+  "_lastChecked": 1789017352,
+  "_history": [
+    {
+      "buildId": "24897694",
+      "branch": "public",
+      "timeUpdated": 1787533544,
+      "firstSeen": 1789017352,
+      "manifests": {
+        "5086591": {
+          "gid": "2817928458104467302",
+          "size": 163939632,
+          "download": 109680368
+        }
+      }
+    }
+  ],
+  "_change_number": 38748878,
+  "_missing_token": false,
+  "_sha": "2457ba2ece87c84683967bcb92940e9d4f6fa195",
+  "_size": 5305,
   "appid": "5086590",
   "common": {
     "associations": {
@@ -32,7 +46,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5086590",
     "genres": {
       "0": "1",
@@ -117,11 +130,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "eb2afd7ac0b252534c19354682971876ba2de931/capsule_231x87.jpg",
       "japanese": "f6c6fb48ad7c5f56f773bf481ab2a13ff93721ac/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1789012553",
     "store_asset_mtime": "1786955410",
     "store_tags": {
       "0": "492",
@@ -151,5 +165,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Super Takoyaki Battle",
+    "launch": {
+      "0": {
+        "arguments": "-screen-fullscreen 1",
+        "description": "FullScreen",
+        "description_loc": {
+          "english": "FullScreen"
+        },
+        "executable": "Super_Takoyaki_Battle.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-screen-fullscreen 0 -screen-width 1920 -screen-height 1080",
+        "description": "Windowed (1920 x 1080)",
+        "description_loc": {
+          "english": "Windowed (1920 x 1080)"
+        },
+        "executable": "Super_Takoyaki_Battle.exe"
+      }
+    }
+  },
+  "depots": {
+    "5086591": {
+      "manifests": {
+        "public": {
+          "download": "109680368",
+          "gid": "2817928458104467302",
+          "size": "163939632"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24897694",
+        "timebuildupdated": "1787533421",
+        "timeupdated": "1787533544"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SAT-BOX",
+    "publisher": "SAT-BOX"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "SAT-BOX/Super_Takoyaki_Battle",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

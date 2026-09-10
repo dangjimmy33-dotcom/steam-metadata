@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789011670,
-  "_history": [],
-  "_change_number": 38252780,
-  "_missing_token": true,
-  "_sha": "b32fd440b9cf2a0343267f80a6ab6b0bb1639028",
-  "_size": 3053,
+  "_lastChecked": 1789017371,
+  "_history": [
+    {
+      "buildId": "24781917",
+      "branch": "public",
+      "timeUpdated": 1786991754,
+      "firstSeen": 1789017371,
+      "manifests": {
+        "5116151": {
+          "gid": "1791906332206936738",
+          "size": 123273244,
+          "download": 43333520
+        }
+      }
+    }
+  ],
+  "_change_number": 38748927,
+  "_missing_token": false,
+  "_sha": "c8d1f67707b0f18f2a8f5036e1a9b4ef786ae6f5",
+  "_size": 3684,
   "appid": "5116150",
   "common": {
     "aicontenttype": "1",
@@ -34,8 +48,8 @@
     },
     "clienticon": "3e4a138c688e4a343739fc3a4e676ea761bbac32",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5116150",
     "genres": {
       "0": "4",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "751988aab7e722b7a9bc9dfd6a9d674fe644a65c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789012722",
     "store_asset_mtime": "1786978082",
     "store_tags": {
       "0": "597",
@@ -136,5 +151,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BrickByBrick",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BrickByBrick.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5116151": {
+      "manifests": {
+        "public": {
+          "download": "43333520",
+          "gid": "1791906332206936738",
+          "size": "123273244"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24781917",
+        "timebuildupdated": "1786991543",
+        "timeupdated": "1786991754"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Budder Technology LLC",
+    "publisher": "Budder Technology LLC"
+  }
 }
