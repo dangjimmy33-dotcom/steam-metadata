@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789046641,
-  "_history": [],
-  "_change_number": 38742697,
-  "_missing_token": true,
-  "_sha": "c2e06dcd4ce16cc5ceda78106d5d89b8df3cc0e6",
-  "_size": 3800,
+  "_lastChecked": 1789054085,
+  "_history": [
+    {
+      "buildId": "25219014",
+      "branch": "public",
+      "timeUpdated": 1788994002,
+      "firstSeen": 1789054085,
+      "manifests": {
+        "3611451": {
+          "gid": "1987901082539601488",
+          "size": 3532763396,
+          "download": 833898784
+        }
+      }
+    }
+  ],
+  "_change_number": 38764890,
+  "_missing_token": false,
+  "_sha": "42b9da73a0a01ae90f514a86b865b832754aa5c3",
+  "_size": 4385,
   "appid": "3611450",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +44,8 @@
     "clienticon": "863ca58d089891276b144886eb94c2522ec2d0ac",
     "clienttga": "ad27f26dec71c4ca2430ca8fc983d167ce5a2d4f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3611450",
     "genres": {
       "0": "4",
@@ -103,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3aad60693e2b6696387412cac22fc9df55811c88/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789052429",
     "store_asset_mtime": "1786958023",
     "store_tags": {
       "0": "91114",
@@ -179,5 +194,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Monster Shop Simulator",
+    "launch": {
+      "0": {
+        "executable": "\\windows_content\\Monster Shop Simulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "3611451": {
+      "manifests": {
+        "public": {
+          "download": "833898784",
+          "gid": "1987901082539601488",
+          "size": "3532763396"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25219014",
+        "timebuildupdated": "1788993959",
+        "timeupdated": "1788994002"
+      }
+    }
+  },
+  "extended": {
+    "developer": "For Fun Games",
+    "publisher": "Cheesecake Dev"
+  }
 }

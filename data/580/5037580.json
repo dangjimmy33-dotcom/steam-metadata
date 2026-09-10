@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789047943,
-  "_history": [],
-  "_change_number": 38727579,
-  "_missing_token": true,
-  "_sha": "fb04a79e8e61d75af7b0f78147d422c89148e15e",
-  "_size": 3254,
+  "_lastChecked": 1789055646,
+  "_history": [
+    {
+      "buildId": "25234430",
+      "branch": "public",
+      "timeUpdated": 1789054569,
+      "firstSeen": 1789055646,
+      "manifests": {
+        "5037581": {
+          "gid": "5024391055182120345",
+          "size": 1813834134,
+          "download": 660145760
+        }
+      }
+    }
+  ],
+  "_change_number": 38765962,
+  "_missing_token": false,
+  "_sha": "9a09025bbbdf718d264c65ded890031a6d3d2ab0",
+  "_size": 5009,
   "appid": "5037580",
   "common": {
     "associations": {
@@ -33,9 +47,9 @@
     },
     "clienticon": "9d647ed0f47c38442b9ebb7a18f44dd701af3bd6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5037580",
     "genres": {
       "0": "25",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5206f1e6af632480843930bf244a2926402bb5a9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789054645",
     "store_asset_mtime": "1787588086",
     "store_tags": {
       "0": "21",
@@ -146,5 +161,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BARKO",
+    "launch": {
+      "0": {
+        "executable": "Barko.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "controller_config/game_actions_5037580.vdf"
+  },
+  "depots": {
+    "5037581": {
+      "manifests": {
+        "public": {
+          "download": "660145760",
+          "gid": "5024391055182120345",
+          "size": "1813834134"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25234430",
+        "timebuildupdated": "1789054538",
+        "timeupdated": "1789054569"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Federico Giarratano",
+    "publisher": "Federico Giarratano"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Fed511/Barko",
+        "pattern": "save_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Fed511/Barko",
+        "pattern": "save_*.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Fed511/Barko",
+        "pattern": "challenge.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Fed511/Barko",
+        "pattern": "challenge.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": "Fed511/Barko",
+        "pattern": "settings.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "5": {
+        "path": "Fed511/Barko",
+        "pattern": "settings.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

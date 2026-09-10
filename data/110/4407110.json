@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789047392,
-  "_history": [],
-  "_change_number": 38572534,
-  "_missing_token": true,
-  "_sha": "a58eda7703610be0869686454f94e0d73884a13d",
-  "_size": 2997,
+  "_lastChecked": 1789054996,
+  "_history": [
+    {
+      "buildId": "25101838",
+      "branch": "public",
+      "timeUpdated": 1788439324,
+      "firstSeen": 1789054996,
+      "manifests": {
+        "4407111": {
+          "gid": "3531957220318233192",
+          "size": 1831238310,
+          "download": 1465727520
+        }
+      }
+    }
+  ],
+  "_change_number": 38765401,
+  "_missing_token": false,
+  "_sha": "e8371035c32f3270e479c12ac666a578a254a3a6",
+  "_size": 3907,
   "appid": "4407110",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "897c529d3483605bd2e14ace15664e6f917aad39",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4407110",
     "genres": {
       "0": "1",
@@ -101,7 +115,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b324ee22a5519408e91186732c1fd2de6c81c35f/capsule_231x87.jpg"
     },
@@ -135,5 +149,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Numbskulls",
+    "launch": {
+      "0": {
+        "executable": "Numbskulls.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4407111": {
+      "manifests": {
+        "public": {
+          "download": "1465727520",
+          "gid": "3531957220318233192",
+          "size": "1831238310"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25101838",
+        "timebuildupdated": "1788439266",
+        "timeupdated": "1788439324"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Canalside Studios",
+    "homepage": "https://www.canalsidestudios.com/",
+    "publisher": "Canalside Studios"
+  }
 }

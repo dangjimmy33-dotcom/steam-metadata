@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789044931,
+  "_lastChecked": 1789051994,
   "_history": [
     {
       "buildId": "25072506",
@@ -151,12 +151,35 @@
           "download": 6449185872
         }
       }
+    },
+    {
+      "buildId": "25232946",
+      "branch": "alpha",
+      "timeUpdated": 1789049939,
+      "firstSeen": 1789051994,
+      "manifests": {
+        "1889621": {
+          "gid": "979366602453530500",
+          "size": 907713181,
+          "download": 422100592
+        },
+        "4792270": {
+          "gid": "4348558562125436511",
+          "size": 9313878643,
+          "download": 6467700480
+        },
+        "4792280": {
+          "gid": "1754333128150942564",
+          "size": 9272512334,
+          "download": 6449179152
+        }
+      }
     }
   ],
-  "_change_number": 38735821,
+  "_change_number": 38763603,
   "_missing_token": false,
-  "_sha": "7203f07ec3e21e0c346bf94bb3da939d52c7a51b",
-  "_size": 11407,
+  "_sha": "021c65e9ff1de636768cdd076b87f9cf1a3a0374",
+  "_size": 11406,
   "appid": "1889620",
   "common": {
     "aicontenttype": "2",
@@ -499,9 +522,9 @@
     "1889621": {
       "manifests": {
         "alpha": {
-          "download": "422147216",
-          "gid": "4117027411080534546",
-          "size": "907761876"
+          "download": "422100592",
+          "gid": "979366602453530500",
+          "size": "907713181"
         },
         "beta": {
           "download": "422147216",
@@ -591,10 +614,10 @@
     "baselanguages": "english,german,french,italian,spanish,schinese,tchinese,russian,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,bulgarian,ukrainian,vietnamese,indonesian",
     "branches": {
       "alpha": {
-        "buildid": "25197194",
+        "buildid": "25232946",
         "description": "Alpha: Use at your own risk. May get features earlier than Beta, at the cost of possible bugs or broken saves.",
-        "timebuildupdated": "1788908827",
-        "timeupdated": "1788908827"
+        "timebuildupdated": "1789049939",
+        "timeupdated": "1789049939"
       },
       "beta": {
         "buildid": "25214301",

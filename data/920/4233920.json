@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789047236,
-  "_history": [],
-  "_change_number": 38759446,
-  "_missing_token": true,
-  "_sha": "e7272a99f51557e44f576368d33640d08eef89f8",
-  "_size": 5157,
+  "_lastChecked": 1789054812,
+  "_history": [
+    {
+      "buildId": "25230145",
+      "branch": "public",
+      "timeUpdated": 1789041486,
+      "firstSeen": 1789054812,
+      "manifests": {
+        "4233921": {
+          "gid": "8933536860848729054",
+          "size": 752325552,
+          "download": 690474624
+        },
+        "4233922": {
+          "gid": "9131907907394943069",
+          "size": 771821328,
+          "download": 696923184
+        }
+      }
+    }
+  ],
+  "_change_number": 38762984,
+  "_missing_token": false,
+  "_sha": "db9ed0c1b846b2f2a6265f1bfa3470bda29527a5",
+  "_size": 6895,
   "appid": "4233920",
   "common": {
     "aicontenttype": "1",
@@ -33,9 +52,9 @@
     },
     "clienticon": "a8007bccb6648f0a5f4ab5e2f4ecb94210817fed",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4233920",
     "genres": {
       "0": "23",
@@ -131,7 +150,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2ddf68b7c60da8ce2fb67491e9ada1b561e3f26c/capsule_231x87.jpg"
     },
@@ -252,5 +271,97 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Astralis Dawnblades",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "astralis.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "astralis.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4233921": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "690474624",
+          "gid": "8933536860848729054",
+          "size": "752325552"
+        }
+      }
+    },
+    "4233922": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "696923184",
+          "gid": "9131907907394943069",
+          "size": "771821328"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25230145",
+        "timebuildupdated": "1789041387",
+        "timeupdated": "1789041486"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Studio Gravenoire ",
+    "publisher": "Studio Gravenoire "
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "5000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Astralis",
+            "replace": "godot/app_userdata/Astralis"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Astralis",
+        "pattern": "save*.dat",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Astralis",
+        "pattern": "save*.dat.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Astralis",
+        "pattern": "settings.ini",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

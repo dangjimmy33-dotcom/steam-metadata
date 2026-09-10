@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789047888,
-  "_history": [],
-  "_change_number": 38333009,
-  "_missing_token": true,
-  "_sha": "f0e9110bbaf2a44c0655cfb26a24ebfc68b5f22b",
-  "_size": 2814,
+  "_lastChecked": 1789055586,
+  "_history": [
+    {
+      "buildId": "24279848",
+      "branch": "public",
+      "timeUpdated": 1784432158,
+      "firstSeen": 1789055586,
+      "manifests": {
+        "4971141": {
+          "gid": "1309667118988959207",
+          "size": 76793565,
+          "download": 27866416
+        }
+      }
+    }
+  ],
+  "_change_number": 38764440,
+  "_missing_token": false,
+  "_sha": "11a14287c5ac713e82833f30af7509ce1c267475",
+  "_size": 3787,
   "appid": "4971140",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "88d580818cf70ffd0a31b40448c654c01ae2c064",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4971140",
     "genres": {
       "0": "4",
@@ -97,10 +110,11 @@
     "oslist": "windows",
     "parent": "4978300",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cc52bb93b13aa6ffc95362977018bcccc84b8adc/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789051559",
     "store_asset_mtime": "1785592110",
     "store_tags": {
       "0": "597",
@@ -127,5 +141,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "point line surface",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "point line surface.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4971141": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "27866416",
+          "gid": "1309667118988959207",
+          "size": "76793565"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "24279848",
+        "timebuildupdated": "1784432059",
+        "timeupdated": "1784432158"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "月海",
+    "publisher": "月海"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "2000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

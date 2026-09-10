@@ -1,10 +1,44 @@
 {
-  "_lastChecked": 1789046598,
-  "_history": [],
-  "_change_number": 38758818,
-  "_missing_token": true,
-  "_sha": "604b108e66e1b3450e62594ec22180ed3aa2ee0d",
-  "_size": 5146,
+  "_lastChecked": 1789054033,
+  "_history": [
+    {
+      "buildId": "25232906",
+      "branch": "public",
+      "timeUpdated": 1789049805,
+      "firstSeen": 1789054033,
+      "manifests": {
+        "3570491": {
+          "gid": "1509176309257801149",
+          "size": 1841549752,
+          "download": 779296928
+        },
+        "5101580": {
+          "gid": "4064819076747173709",
+          "size": 66627775,
+          "download": 62293312
+        },
+        "5102000": {
+          "gid": "492815857295064180",
+          "size": 689150003,
+          "download": 645273680
+        },
+        "5102008": {
+          "gid": "274604563817428639",
+          "size": 218625920,
+          "download": 138873472
+        },
+        "5102009": {
+          "gid": "3174043349311041402",
+          "size": 67647625,
+          "download": 63298064
+        }
+      }
+    }
+  ],
+  "_change_number": 38764872,
+  "_missing_token": false,
+  "_sha": "148ce65142798422a73989877efd10e84ca60845",
+  "_size": 6560,
   "appid": "3570490",
   "common": {
     "aicontenttype": "1",
@@ -33,7 +67,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3570490",
     "genres": {
       "0": "23",
@@ -117,11 +150,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b78754a862d4351208b27fd51d915e762b46206f/capsule_231x87.jpg",
       "russian": "2bec0afaae7330e4422ae97fc0f1fd3b567ea806/capsule_231x87_russian.jpg"
     },
+    "steam_release_date": "1789052404",
     "store_asset_mtime": "1789034812",
     "store_tags": {
       "0": "21725",
@@ -205,5 +239,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Фронтир Путем Теней",
+    "launch": {
+      "0": {
+        "executable": "Frontier.exe"
+      }
+    }
+  },
+  "depots": {
+    "3570491": {
+      "manifests": {
+        "public": {
+          "download": "779296928",
+          "gid": "1509176309257801149",
+          "size": "1841549752"
+        }
+      }
+    },
+    "5101580": {
+      "dlcappid": "5101580",
+      "manifests": {
+        "public": {
+          "download": "62293312",
+          "gid": "4064819076747173709",
+          "size": "66627775"
+        }
+      }
+    },
+    "5102000": {
+      "dlcappid": "5102000",
+      "manifests": {
+        "public": {
+          "download": "645273680",
+          "gid": "492815857295064180",
+          "size": "689150003"
+        }
+      }
+    },
+    "5102008": {
+      "config": {
+        "language": "russian"
+      },
+      "dlcappid": "5102000",
+      "manifests": {
+        "public": {
+          "download": "138873472",
+          "gid": "274604563817428639",
+          "size": "218625920"
+        }
+      }
+    },
+    "5102009": {
+      "config": {
+        "language": "russian"
+      },
+      "dlcappid": "5101580",
+      "manifests": {
+        "public": {
+          "download": "63298064",
+          "gid": "3174043349311041402",
+          "size": "67647625"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25232906",
+        "timebuildupdated": "1789049805",
+        "timeupdated": "1789049805"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Oduvan Games",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5101580,5102000",
+    "publisher": "3_PUBLISHING"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789047905,
+  "_lastChecked": 1789055602,
   "_history": [
     {
       "buildId": "25139688",
@@ -18,12 +18,48 @@
           "download": 515515952
         }
       }
+    },
+    {
+      "buildId": "25233244",
+      "branch": "public",
+      "timeUpdated": 1789051091,
+      "firstSeen": 1789055602,
+      "manifests": {
+        "4988131": {
+          "gid": "7890197825137644818",
+          "size": 510263344,
+          "download": 463567600
+        },
+        "4988132": {
+          "gid": "2292133244596185683",
+          "size": 624120304,
+          "download": 524578992
+        }
+      }
+    },
+    {
+      "buildId": "25233244",
+      "branch": "staging",
+      "timeUpdated": 1789050911,
+      "firstSeen": 1789055602,
+      "manifests": {
+        "4988131": {
+          "gid": "7890197825137644818",
+          "size": 510263344,
+          "download": 463567600
+        },
+        "4988132": {
+          "gid": "2292133244596185683",
+          "size": 624120304,
+          "download": 524578992
+        }
+      }
     }
   ],
-  "_change_number": 38625856,
+  "_change_number": 38764204,
   "_missing_token": false,
-  "_sha": "1f38c5d8dc8523cf5b6df438f9c6320681f468c1",
-  "_size": 6583,
+  "_sha": "c12781de8f0548576b80b1ba587d0b09176113b8",
+  "_size": 6997,
   "appid": "4988130",
   "common": {
     "aicontenttype": "1",
@@ -133,8 +169,8 @@
       "koreana": "쉘히어로즈: 어썸 아일랜드"
     },
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "1",
     "releasestate": "released",
     "small_capsule": {
@@ -249,9 +285,14 @@
     "4988131": {
       "manifests": {
         "public": {
-          "download": "452150960",
-          "gid": "88831890734482769",
-          "size": "498847392"
+          "download": "463567600",
+          "gid": "7890197825137644818",
+          "size": "510263344"
+        },
+        "staging": {
+          "download": "463567600",
+          "gid": "7890197825137644818",
+          "size": "510263344"
         }
       }
     },
@@ -261,18 +302,29 @@
       },
       "manifests": {
         "public": {
-          "download": "515515952",
-          "gid": "1593045340876195130",
-          "size": "615057680"
+          "download": "524578992",
+          "gid": "2292133244596185683",
+          "size": "624120304"
+        },
+        "staging": {
+          "download": "524578992",
+          "gid": "2292133244596185683",
+          "size": "624120304"
         }
       }
     },
     "baselanguages": "brazilian,english,french,german,indonesian,italian,japanese,koreana,schinese,spanish,tchinese",
     "branches": {
       "public": {
-        "buildid": "25139688",
-        "timebuildupdated": "1788603576",
-        "timeupdated": "1788603921"
+        "buildid": "25233244",
+        "timebuildupdated": "1789050911",
+        "timeupdated": "1789051091"
+      },
+      "staging": {
+        "buildid": "25233244",
+        "description": "merge win+Mac",
+        "timebuildupdated": "1789050911",
+        "timeupdated": "1789050911"
       }
     }
   },

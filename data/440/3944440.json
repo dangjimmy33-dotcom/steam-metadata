@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789046959,
-  "_history": [],
-  "_change_number": 38736300,
-  "_missing_token": true,
-  "_sha": "f32f57909b39129c8ff0f0ca820fb92f1e3813b2",
-  "_size": 3271,
+  "_lastChecked": 1789054480,
+  "_history": [
+    {
+      "buildId": "25214631",
+      "branch": "public",
+      "timeUpdated": 1788976906,
+      "firstSeen": 1789054480,
+      "manifests": {
+        "3944441": {
+          "gid": "3091750144074452081",
+          "size": 10489262055,
+          "download": 4353200272
+        }
+      }
+    }
+  ],
+  "_change_number": 38762269,
+  "_missing_token": false,
+  "_sha": "e9cdab405b27704b244b71ed66bf9dd7b99ab717",
+  "_size": 3966,
   "appid": "3944440",
   "common": {
     "associations": {
@@ -19,7 +33,6 @@
     },
     "category": {
       "category_1": "1",
-      "category_17": "1",
       "category_20": "1",
       "category_36": "1",
       "category_38": "1",
@@ -39,7 +52,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "3944440",
     "genres": {
       "0": "1",
@@ -112,7 +124,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "29",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "83597877903fe1eb6df23e7ad88d03c3836b2a52/capsule_231x87.jpg"
     },
@@ -147,5 +159,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "loaeternal",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Legends of Aria.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3944441": {
+      "manifests": {
+        "public": {
+          "download": "4353200272",
+          "gid": "3091750144074452081",
+          "size": "10489262055"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25214631",
+        "timebuildupdated": "1788976885",
+        "timeupdated": "1788976906"
+      }
+    },
+    "workshopdepot": "3944440"
+  },
+  "extended": {
+    "developer": "Emergent Worlds",
+    "gamedir": "loaeternal",
+    "publisher": "Emergent Worlds",
+    "serverbrowsername": "Legends of Aria Eternal"
+  },
+  "ufs": {
+    "maxnumfiles": "99",
+    "quota": "1000000000"
+  }
 }

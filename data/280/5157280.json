@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789048019,
-  "_history": [],
-  "_change_number": 38748226,
-  "_missing_token": true,
-  "_sha": "04fe0747b2f2c1f3f07ac0614fcb14d79156e932",
-  "_size": 3788,
+  "_lastChecked": 1789055738,
+  "_history": [
+    {
+      "buildId": "25222460",
+      "branch": "public",
+      "timeUpdated": 1789010049,
+      "firstSeen": 1789055738,
+      "manifests": {
+        "5157281": {
+          "gid": "2552238973739747401",
+          "size": 61921969,
+          "download": 55939888
+        },
+        "5157282": {
+          "gid": "532398893193659297",
+          "size": 78608982,
+          "download": 63097152
+        }
+      }
+    }
+  ],
+  "_change_number": 38763391,
+  "_missing_token": false,
+  "_sha": "4b56aade3442cc4a74a88c7f9c7cb67bfade7627",
+  "_size": 4768,
   "appid": "5157280",
   "common": {
     "associations": {
@@ -23,8 +42,8 @@
     },
     "clienticon": "a47b7b691d98356d0bafc547883c170fcf579c3d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5157280",
     "genres": {
       "0": "4",
@@ -108,7 +127,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8a836081be5e92d43b616dea7c030d87b61f1f2c/capsule_231x87.jpg"
     },
@@ -169,5 +188,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MinesweeperAtelier",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MinesweeperAtelier.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MinesweeperAtelier.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5157281": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "55939888",
+          "gid": "2552238973739747401",
+          "size": "61921969"
+        }
+      }
+    },
+    "5157282": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "63097152",
+          "gid": "532398893193659297",
+          "size": "78608982"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25222460",
+        "timebuildupdated": "1789009714",
+        "timeupdated": "1789010049"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Pixel Dance",
+    "publisher": "Pixel Dance"
+  }
 }

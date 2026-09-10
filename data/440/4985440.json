@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789047902,
-  "_history": [],
-  "_change_number": 38725032,
-  "_missing_token": true,
-  "_sha": "e79d4de5f269718d5c2e6ecf0b9b5e54c211d3e0",
-  "_size": 2928,
+  "_lastChecked": 1789055599,
+  "_history": [
+    {
+      "buildId": "25203086",
+      "branch": "public",
+      "timeUpdated": 1788938613,
+      "firstSeen": 1789055599,
+      "manifests": {
+        "4985441": {
+          "gid": "1276324936389625511",
+          "size": 1018131204,
+          "download": 626463008
+        }
+      }
+    }
+  ],
+  "_change_number": 38765057,
+  "_missing_token": false,
+  "_sha": "bf66e3eb7cf2d40fad94e00a7c9b0f081ad828b7",
+  "_size": 3635,
   "appid": "4985440",
   "common": {
     "associations": {
@@ -26,8 +40,8 @@
     },
     "clienticon": "53fdd77bbd026bda469b82b0f3fcb0a5be0df525",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4985440",
     "genres": {
       "0": "1",
@@ -100,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b7826562d32eabc726c97d9c07efbf8e2c8b0bdc/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789052757",
     "store_asset_mtime": "1786563358",
     "store_tags": {
       "0": "15045",
@@ -130,5 +145,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "First Draft",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "FirstDraft.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4985441": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "626463008",
+          "gid": "1276324936389625511",
+          "size": "1018131204"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25203086",
+        "timebuildupdated": "1788938439",
+        "timeupdated": "1788938613"
+      }
+    }
+  },
+  "extended": {
+    "developer": "KamiFactoryDev",
+    "isfreeapp": "1",
+    "publisher": "KamiFactoryDev"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789044454,
-  "_history": [],
-  "_change_number": 38760486,
-  "_missing_token": true,
-  "_sha": "c17168d48552b93a6d0b3fca1701083b0bd34638",
-  "_size": 5691,
+  "_lastChecked": 1789051411,
+  "_history": [
+    {
+      "buildId": "25230883",
+      "branch": "public",
+      "timeUpdated": 1789043613,
+      "firstSeen": 1789051411,
+      "manifests": {
+        "1473261": {
+          "gid": "407487163286692857",
+          "size": 8140959085,
+          "download": 3935261888
+        }
+      }
+    }
+  ],
+  "_change_number": 38761520,
+  "_missing_token": false,
+  "_sha": "900fcfb75b85cbe41cbddfe1d48e5637b4ad5677",
+  "_size": 7933,
   "appid": "1473260",
   "common": {
     "aicontenttype": "1",
@@ -47,9 +61,9 @@
     "clienticon": "58f8d95da72700a9dc89ce3afdd04dc90c7c2e3b",
     "clienttga": "664c045041fca7ef61fd16e981f3459408b3dbee",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1473260",
     "genres": {
       "0": "4",
@@ -123,10 +137,51 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bc9ffdd5fedd36e153a5089cef64dc592357a4a7/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "0",
+      "steam_machine_tests": {},
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        }
+      },
+      "test_timestamp": "1775174400",
+      "tested_build_id": "22564605",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+        }
+      }
+    },
+    "steam_release_date": "1789044650",
     "store_asset_mtime": "1786476249",
     "store_tags": {
       "0": "599",
@@ -275,5 +330,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Black Gold",
+    "launch": {
+      "0": {
+        "executable": "Black Gold.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam://controllerconfig/1473260/3798555025"
+  },
+  "depots": {
+    "1473261": {
+      "manifests": {
+        "public": {
+          "download": "3935261888",
+          "gid": "407487163286692857",
+          "size": "8140959085"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25230883",
+        "timebuildupdated": "1789043568",
+        "timeupdated": "1789043613"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "CreativeForge Games",
+    "homepage": "https://www.creativeforge.pl/",
+    "publisher": "CreativeForge Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "CreativeForge/Black Gold",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

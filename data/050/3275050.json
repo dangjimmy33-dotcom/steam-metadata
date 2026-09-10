@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789046315,
-  "_history": [],
-  "_change_number": 38754159,
-  "_missing_token": true,
-  "_sha": "9c6ac8f735720ebb95c105234b21622142ab1279",
-  "_size": 7335,
+  "_lastChecked": 1789053686,
+  "_history": [
+    {
+      "buildId": "25182251",
+      "branch": "public",
+      "timeUpdated": 1788853961,
+      "firstSeen": 1789053686,
+      "manifests": {
+        "3275051": {
+          "gid": "6886191864494959431",
+          "size": 3191709700,
+          "download": 2427477040
+        },
+        "5001470": {
+          "gid": "2530174419152907500",
+          "size": 315904810,
+          "download": 314917824
+        }
+      }
+    }
+  ],
+  "_change_number": 38763875,
+  "_missing_token": false,
+  "_sha": "9c79e1e2a722dae7639b4872bb2b4591a1686b1a",
+  "_size": 9027,
   "appid": "3275050",
   "common": {
     "associations": {
@@ -39,6 +58,7 @@
     "clienticon": "b6d1d4e49dfc28067f5480cc33fecfc4f72f8155",
     "clienttga": "f8b1fa33205d070c35cbb9aec2883022a44128c8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -48,7 +68,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3275050",
     "genres": {
       "0": "2",
@@ -140,7 +159,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "20ab195ee0f754d33c3209e9084469c86d803da2/capsule_231x87.jpg",
       "schinese": "97f83213df1f13f899056a0d55ce0663f3ece712/capsule_231x87_schinese.jpg"
@@ -230,7 +249,8 @@
         }
       }
     },
-    "store_asset_mtime": "1786028212",
+    "steam_release_date": "1789050350",
+    "store_asset_mtime": "1789048076",
     "store_tags": {
       "0": "9",
       "1": "1677",
@@ -290,5 +310,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Ex Sanguis",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Ex Sanguis.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3275051": {
+      "manifests": {
+        "public": {
+          "download": "2427477040",
+          "gid": "6886191864494959431",
+          "size": "3191709700"
+        }
+      }
+    },
+    "5001470": {
+      "dlcappid": "5001470",
+      "manifests": {
+        "public": {
+          "download": "314917824",
+          "gid": "2530174419152907500",
+          "size": "315904810"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,russian,schinese,spanish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "25182251",
+        "timebuildupdated": "1788853961",
+        "timeupdated": "1788853961"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Lightbulb Crew",
+    "dlcavailableonstore": "1",
+    "homepage": "https://firesquid.games/games/ex-sanguis",
+    "listofdlc": "5001470",
+    "publisher": "Firesquid"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "40",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "Lightbulb Crew/Ex Sanguis/{64BitSteamID}/0/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Lightbulb Crew/Ex Sanguis/{64BitSteamID}/1/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Lightbulb Crew/Ex Sanguis/{64BitSteamID}/2/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789046702,
+  "_lastChecked": 1789054159,
   "_history": [
     {
       "buildId": "24452851",
@@ -13,12 +13,25 @@
           "download": 2432412880
         }
       }
+    },
+    {
+      "buildId": "25234082",
+      "branch": "public-test-branch",
+      "timeUpdated": 1789053742,
+      "firstSeen": 1789054159,
+      "manifests": {
+        "3672401": {
+          "gid": "56509531768129398",
+          "size": 7050047374,
+          "download": 2632364432
+        }
+      }
     }
   ],
-  "_change_number": 38761917,
+  "_change_number": 38765541,
   "_missing_token": false,
-  "_sha": "419e2a947b5a8d9430199eee5aa0675137affb5a",
-  "_size": 6480,
+  "_sha": "f35fc44ff129a2c7783555b037ffa6834718e4fd",
+  "_size": 6785,
   "appid": "3672400",
   "common": {
     "associations": {
@@ -193,7 +206,7 @@
       }
     },
     "steam_release_date": "1778075361",
-    "store_asset_mtime": "1784109682",
+    "store_asset_mtime": "1789030431",
     "store_tags": {
       "0": "19",
       "1": "122",
@@ -283,6 +296,11 @@
           "download": "2432412880",
           "gid": "5982857837983933262",
           "size": "6383265678"
+        },
+        "public-test-branch": {
+          "download": "2632364432",
+          "gid": "56509531768129398",
+          "size": "7050047374"
         }
       }
     },
@@ -291,6 +309,12 @@
         "buildid": "24452851",
         "timebuildupdated": "1785331697",
         "timeupdated": "1785332088"
+      },
+      "public-test-branch": {
+        "buildid": "25234082",
+        "description": "Major Update Playable Preview",
+        "timebuildupdated": "1789053394",
+        "timeupdated": "1789053742"
       }
     },
     "privatebranches": "1"

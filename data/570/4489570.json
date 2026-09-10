@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789047463,
-  "_history": [],
-  "_change_number": 38744331,
-  "_missing_token": true,
-  "_sha": "b425bbf31a54f20f47b2debdc221a24e09eb25b4",
-  "_size": 3176,
+  "_lastChecked": 1789055083,
+  "_history": [
+    {
+      "buildId": "25220236",
+      "branch": "public",
+      "timeUpdated": 1788999514,
+      "firstSeen": 1789055083,
+      "manifests": {
+        "4489571": {
+          "gid": "2157117530664733320",
+          "size": 1837411644,
+          "download": 473742448
+        }
+      }
+    }
+  ],
+  "_change_number": 38762559,
+  "_missing_token": false,
+  "_sha": "fa0b2a736d77da05b078e1886863e887cc3325c5",
+  "_size": 3890,
   "appid": "4489570",
   "common": {
     "associations": {
@@ -31,9 +45,9 @@
     },
     "clienticon": "ce31a10da3439c9820f43f2d193d753bf92f5bd4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4489570",
     "genres": {
       "0": "1",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "32bc417ce6ee888c4431c5a4c4d59e390b9cadd3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789047821",
     "store_asset_mtime": "1776806320",
     "store_tags": {
       "0": "19",
@@ -142,5 +157,41 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "OneMansTrash Pawnshop After Dark",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "OneMansTrash Pawn Shop After Dark.exe"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4489571": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "473742448",
+          "gid": "2157117530664733320",
+          "size": "1837411644"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25220236",
+        "timebuildupdated": "1788999442",
+        "timeupdated": "1788999514"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Overtime Games",
+    "publisher": "Overtime Games"
+  }
 }

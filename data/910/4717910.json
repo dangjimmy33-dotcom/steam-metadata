@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789047678,
-  "_history": [],
-  "_change_number": 38745116,
-  "_missing_token": true,
-  "_sha": "8d2ddd392ac4c337740145b1c7899212634caa97",
-  "_size": 3893,
+  "_lastChecked": 1789055334,
+  "_history": [
+    {
+      "buildId": "25220734",
+      "branch": "public",
+      "timeUpdated": 1789001921,
+      "firstSeen": 1789055334,
+      "manifests": {
+        "4717911": {
+          "gid": "6155526338185987980",
+          "size": 425332574,
+          "download": 315034336
+        }
+      }
+    }
+  ],
+  "_change_number": 38765186,
+  "_missing_token": false,
+  "_sha": "de17b19a754cb094082215633a867d4074ba1d83",
+  "_size": 4913,
   "appid": "4717910",
   "common": {
     "aicontenttype": "2",
@@ -39,9 +53,9 @@
     },
     "clienticon": "a62999f6c9bce3ee37faffecb99a3e31c823917b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4717910",
     "genres": {
       "0": "25",
@@ -125,10 +139,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "306244a1f0f1f2d993e1c6ffd4fb494ba981ab9d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1786838118",
     "store_tags": {
       "0": "21",
@@ -186,5 +201,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "GeneWorld",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Gene World.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4717911": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "315034336",
+          "gid": "6155526338185987980",
+          "size": "425332574"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25220734",
+        "timebuildupdated": "1789001862",
+        "timeupdated": "1789001921"
+      }
+    }
+  },
+  "extended": {
+    "developer": "GeneWorld Studios",
+    "homepage": "https://geneworld.com.br/",
+    "publisher": "GeneWorld Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "100000000"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789047722,
-  "_history": [],
-  "_change_number": 38604882,
-  "_missing_token": true,
-  "_sha": "606d2fd75ca4a9ab9e3d58d363e9e9f788b16566",
-  "_size": 3055,
+  "_lastChecked": 1789055387,
+  "_history": [
+    {
+      "buildId": "25041157",
+      "branch": "public",
+      "timeUpdated": 1788202079,
+      "firstSeen": 1789055387,
+      "manifests": {
+        "4777611": {
+          "gid": "2629510779550785777",
+          "size": 7083526187,
+          "download": 3365673360
+        }
+      }
+    }
+  ],
+  "_change_number": 38764898,
+  "_missing_token": false,
+  "_sha": "8f00eee91c0d8b5e068288060f8f0dc0b1360d7f",
+  "_size": 3773,
   "appid": "4777610",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "ed25d8d1b0fec3180765167fdd5cbed89e50e180",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4777610",
     "genres": {
       "0": "25",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ac41d4ce8a79a5f94af12608d02c3bfd5615693a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789052434",
     "store_asset_mtime": "1787181197",
     "store_tags": {
       "0": "3834",
@@ -136,5 +151,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Time Gamers Guardians of the Marble Man",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Gaurdians1864.exe"
+      }
+    }
+  },
+  "depots": {
+    "4777611": {
+      "manifests": {
+        "public": {
+          "download": "3365673360",
+          "gid": "2629510779550785777",
+          "size": "7083526187"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25041157",
+        "timebuildupdated": "1788196298",
+        "timeupdated": "1788202079"
+      }
+    }
+  },
+  "extended": {
+    "developer": "David Brinkman",
+    "homepage": "https://historysoft.com/guardians/",
+    "isfreeapp": "1",
+    "publisher": "HistorySoft, LLC"
+  }
 }

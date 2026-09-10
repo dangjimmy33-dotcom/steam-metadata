@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789047759,
-  "_history": [],
-  "_change_number": 38755687,
-  "_missing_token": true,
-  "_sha": "ccd0dcf5344fc708001257b0a8a849e751e3376c",
-  "_size": 3664,
+  "_lastChecked": 1789055428,
+  "_history": [
+    {
+      "buildId": "24960860",
+      "branch": "public",
+      "timeUpdated": 1787793061,
+      "firstSeen": 1789055428,
+      "manifests": {
+        "4822211": {
+          "gid": "2950520080159897982",
+          "size": 1309200143,
+          "download": 1212806784
+        }
+      }
+    }
+  ],
+  "_change_number": 38765284,
+  "_missing_token": false,
+  "_sha": "cfe123c683aa0611d8b3d1665ac8d507750328c2",
+  "_size": 4443,
   "appid": "4822210",
   "common": {
     "aicontenttype": "1",
@@ -26,6 +40,7 @@
     },
     "clienticon": "a547d6b7e92a3403874a0c2a17d8e5117e7e32cc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -39,7 +54,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4822210",
     "genres": {
       "0": "4",
@@ -110,11 +124,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "1be3feb33718c82433a384dba63c4a88e0e1da4b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789053185",
     "store_asset_mtime": "1781171942",
     "store_tags": {
       "0": "12095",
@@ -174,5 +189,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Beats of Lust",
+    "launch": {
+      "0": {
+        "executable": "BeatsOfLust.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4822211": {
+      "manifests": {
+        "public": {
+          "download": "1212806784",
+          "gid": "2950520080159897982",
+          "size": "1309200143"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24960860",
+        "timebuildupdated": "1787793060",
+        "timeupdated": "1787793061"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Zylyx Team",
+    "publisher": "NSFW18 Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "100000",
+    "savefiles": {
+      "0": {
+        "path": "game/saves",
+        "pattern": "*",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

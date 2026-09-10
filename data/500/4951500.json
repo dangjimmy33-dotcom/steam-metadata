@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789047868,
-  "_history": [],
-  "_change_number": 38439692,
-  "_missing_token": true,
-  "_sha": "a332dea2abaa551efb1fd6fecfdd86d3c899cde3",
-  "_size": 5317,
+  "_lastChecked": 1789055564,
+  "_history": [
+    {
+      "buildId": "24955964",
+      "branch": "public",
+      "timeUpdated": 1787770797,
+      "firstSeen": 1789055564,
+      "manifests": {
+        "4951501": {
+          "gid": "4245059928136439811",
+          "size": 926343524,
+          "download": 542406896
+        }
+      }
+    }
+  ],
+  "_change_number": 38765121,
+  "_missing_token": false,
+  "_sha": "7ae68f524e2ec74753dadbafaa96b74fa1b4cdae",
+  "_size": 6167,
   "appid": "4951500",
   "common": {
     "aicontenttype": "1",
@@ -32,6 +46,7 @@
     },
     "clienticon": "d67f09ac58c7da1f7e332adbed7f34820b8987d8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -39,7 +54,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4951500",
     "genres": {
       "0": "25",
@@ -134,12 +148,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4a905224bfcc301f2830224beccb5ab897d97600/capsule_231x87.jpg",
       "japanese": "f97c43e8416b723fbc303c4a61780fb029a650e5/capsule_231x87_japanese.jpg",
       "schinese": "971a3ebb26397e67022b3af928f75e8079cc05f9/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789052865",
     "store_asset_mtime": "1786878441",
     "store_tags": {
       "0": "1667",
@@ -177,5 +192,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "霊障観測シ",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64"
+        },
+        "executable": "anomalogist.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4951501": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "download": "542406896",
+          "gid": "4245059928136439811",
+          "size": "926343524"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,schinese",
+    "branches": {
+      "public": {
+        "buildid": "24955964",
+        "timebuildupdated": "1787770733",
+        "timeupdated": "1787770797"
+      }
+    }
+  },
+  "extended": {
+    "developer": "CoMuCreator",
+    "homepage": "https://comucreator-v2.web.app/games/game5.html",
+    "publisher": "CoMuCreator"
+  }
 }

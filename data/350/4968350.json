@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789047886,
-  "_history": [],
-  "_change_number": 38353481,
-  "_missing_token": true,
-  "_sha": "eb645ea9d8c6d05cc51b97bb93a2c97d95096f52",
-  "_size": 2881,
+  "_lastChecked": 1789055583,
+  "_history": [
+    {
+      "buildId": "24953591",
+      "branch": "public",
+      "timeUpdated": 1787762180,
+      "firstSeen": 1789055583,
+      "manifests": {
+        "4968351": {
+          "gid": "739432517197493726",
+          "size": 601565984,
+          "download": 295708176
+        }
+      }
+    }
+  ],
+  "_change_number": 38763584,
+  "_missing_token": false,
+  "_sha": "2e50a494f5258f7cc7253d0bf097b286e4850d44",
+  "_size": 3567,
   "appid": "4968350",
   "common": {
     "aicontenttype": "1",
@@ -31,7 +45,6 @@
     "clienticon": "1874aac49399d6b697a6da95bcd0acb459ca7145",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4968350",
     "genres": {
       "0": "4"
@@ -101,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9f7b380419354c99776dc693329a5e2daa63c97a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789049894",
     "store_asset_mtime": "1787081086",
     "store_tags": {
       "0": "597",
@@ -125,5 +139,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Piano Warrior",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Piano Warrior",
+        "description_loc": {
+          "english": "Piano Warrior"
+        },
+        "executable": "PianoWarrior.exe"
+      }
+    }
+  },
+  "depots": {
+    "4968351": {
+      "manifests": {
+        "public": {
+          "download": "295708176",
+          "gid": "739432517197493726",
+          "size": "601565984"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24953591",
+        "timebuildupdated": "1787761974",
+        "timeupdated": "1787762180"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Leonid Cebotari",
+    "publisher": "Leonid Cebotari"
+  }
 }

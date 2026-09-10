@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789048018,
-  "_history": [],
-  "_change_number": 38748235,
-  "_missing_token": true,
-  "_sha": "6099e0efb7d8c0a0b04cdfdf15625235a00bd3e1",
-  "_size": 3827,
+  "_lastChecked": 1789055738,
+  "_history": [
+    {
+      "buildId": "25222483",
+      "branch": "public",
+      "timeUpdated": 1789010064,
+      "firstSeen": 1789055738,
+      "manifests": {
+        "5156991": {
+          "gid": "1000761363018990969",
+          "size": 57355357,
+          "download": 51339504
+        },
+        "5156992": {
+          "gid": "5622464693502107726",
+          "size": 73653283,
+          "download": 57823168
+        }
+      }
+    }
+  ],
+  "_change_number": 38763372,
+  "_missing_token": false,
+  "_sha": "06e3357f7a9a9f8c767751fc6eb6af5445c51e42",
+  "_size": 4802,
   "appid": "5156990",
   "common": {
     "associations": {
@@ -27,8 +46,8 @@
     },
     "clienticon": "9e904c1435f9468bf2a6da48f7164acebb44861e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5156990",
     "genres": {
       "0": "4",
@@ -111,7 +130,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "42eb5e42539a009c345ad8ac6e6061513f39684e/capsule_231x87.jpg"
     },
@@ -172,5 +191,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TetrominoAtelier",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TetrominoAtelier.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "TetrominoAtelier.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5156991": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "51339504",
+          "gid": "1000761363018990969",
+          "size": "57355357"
+        }
+      }
+    },
+    "5156992": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "57823168",
+          "gid": "5622464693502107726",
+          "size": "73653283"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25222483",
+        "timebuildupdated": "1789009816",
+        "timeupdated": "1789010064"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Pixel Dance",
+    "publisher": "Pixel Dance"
+  }
 }

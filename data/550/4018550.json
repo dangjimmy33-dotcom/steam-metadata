@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789047037,
+  "_lastChecked": 1789054568,
   "_history": [
     {
       "buildId": "24379231",
@@ -72,12 +72,30 @@
           "download": 115837376
         }
       }
+    },
+    {
+      "buildId": "25232293",
+      "branch": "public",
+      "timeUpdated": 1789048078,
+      "firstSeen": 1789054568,
+      "manifests": {
+        "4018551": {
+          "gid": "5198350145330905935",
+          "size": 163077676,
+          "download": 88862768
+        },
+        "4018552": {
+          "gid": "7810858067241590321",
+          "size": 258280794,
+          "download": 115793776
+        }
+      }
     }
   ],
-  "_change_number": 38755876,
+  "_change_number": 38762700,
   "_missing_token": false,
-  "_sha": "db32208bbf44c9003acbc3e637227d56b1576aea",
-  "_size": 7994,
+  "_sha": "f3fcbd6bcf8603c8ba0cc6becc57800fb373a9df",
+  "_size": 7599,
   "appid": "4018550",
   "common": {
     "associations": {
@@ -348,15 +366,10 @@
         "oslist": "windows"
       },
       "manifests": {
-        "beta_test": {
-          "download": "88894640",
-          "gid": "6312515266054949556",
-          "size": "162952588"
-        },
         "public": {
-          "download": "88775184",
-          "gid": "2581724388531369246",
-          "size": "162753328"
+          "download": "88862768",
+          "gid": "5198350145330905935",
+          "size": "163077676"
         }
       }
     },
@@ -365,29 +378,18 @@
         "oslist": "macos"
       },
       "manifests": {
-        "beta_test": {
-          "download": "115837376",
-          "gid": "529476416072841473",
-          "size": "258155706"
-        },
         "public": {
-          "download": "115717840",
-          "gid": "2007246332326613200",
-          "size": "257954504"
+          "download": "115793776",
+          "gid": "7810858067241590321",
+          "size": "258280794"
         }
       }
     },
     "branches": {
-      "beta_test": {
-        "buildid": "25227755",
-        "description": "Beta test before update",
-        "timebuildupdated": "1789033223",
-        "timeupdated": "1789033235"
-      },
       "public": {
-        "buildid": "24379231",
-        "timebuildupdated": "1784916207",
-        "timeupdated": "1784916327"
+        "buildid": "25232293",
+        "timebuildupdated": "1789048009",
+        "timeupdated": "1789048078"
       }
     },
     "privatebranches": "1"

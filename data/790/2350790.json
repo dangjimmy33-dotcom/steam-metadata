@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789045396,
+  "_lastChecked": 1789052567,
   "_history": [
     {
       "buildId": "24974513",
@@ -23,12 +23,35 @@
           "download": 58458496
         }
       }
+    },
+    {
+      "buildId": "25197724",
+      "branch": "public",
+      "timeUpdated": 1789046820,
+      "firstSeen": 1789052567,
+      "manifests": {
+        "2350792": {
+          "gid": "2919996153714733012",
+          "size": 5593442394,
+          "download": 4769081664
+        },
+        "4935250": {
+          "gid": "2244686517982779087",
+          "size": 4,
+          "download": 64
+        },
+        "5026660": {
+          "gid": "368096255287211972",
+          "size": 61394336,
+          "download": 58458496
+        }
+      }
     }
   ],
-  "_change_number": 38742157,
+  "_change_number": 38763149,
   "_missing_token": false,
-  "_sha": "84f35f1b15e3c31dd1d7dd961cc02f1eeed88aec",
-  "_size": 8267,
+  "_sha": "672024d2151e206829e23b943dfd3810bb2ba3d7",
+  "_size": 9582,
   "appid": "2350790",
   "common": {
     "associations": {
@@ -300,11 +323,59 @@
     "installdir": "Moonlighter 2 The Endless Vault",
     "launch": {
       "2": {
+        "arguments": "-force-d3d11",
         "config": {
+          "osarch": "64",
           "oslist": "windows"
         },
+        "description": "DirectX 11",
+        "description_loc": {
+          "brazilian": "DirectX 11",
+          "bulgarian": "DirectX 11",
+          "czech": "DirectX 11",
+          "danish": "DirectX 11",
+          "dutch": "DirectX 11",
+          "english": "DirectX 11",
+          "finnish": "DirectX 11",
+          "french": "DirectX 11",
+          "german": "DirectX 11",
+          "greek": "DirectX 11",
+          "hungarian": "DirectX 11",
+          "indonesian": "DirectX 11",
+          "italian": "DirectX 11",
+          "japanese": "DirectX 11",
+          "koreana": "DirectX 11",
+          "latam": "DirectX 11",
+          "malay": "DirectX 11",
+          "norwegian": "DirectX 11",
+          "polish": "DirectX 11",
+          "portuguese": "DirectX 11",
+          "romanian": "DirectX 11",
+          "russian": "DirectX 11",
+          "schinese": "DirectX 11",
+          "spanish": "DirectX 11",
+          "swedish": "DirectX 11",
+          "tchinese": "DirectX 11",
+          "thai": "DirectX 11",
+          "turkish": "DirectX 11",
+          "ukrainian": "DirectX 11",
+          "vietnamese": "DirectX 11"
+        },
         "executable": "Moonlighter 2 The Endless Vault.exe",
-        "type": "default"
+        "type": "option1"
+      },
+      "3": {
+        "arguments": "-force-d3d12",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "DirectX 12 (less stable)",
+        "description_loc": {
+          "english": "DirectX 12 (less stable)"
+        },
+        "executable": "Moonlighter 2 The Endless Vault.exe",
+        "type": "option2"
       }
     }
   },
@@ -316,9 +387,9 @@
       },
       "manifests": {
         "public": {
-          "download": "4768237760",
-          "gid": "2799400208547494507",
-          "size": "5592854217"
+          "download": "4769081664",
+          "gid": "2919996153714733012",
+          "size": "5593442394"
         }
       }
     },
@@ -336,7 +407,7 @@
       "manifests": {
         "public": {
           "download": "64",
-          "gid": "1650108853609851068",
+          "gid": "2244686517982779087",
           "size": "4"
         }
       }
@@ -350,7 +421,7 @@
       "manifests": {
         "public": {
           "download": "58458496",
-          "gid": "48311803491939030",
+          "gid": "368096255287211972",
           "size": "61394336"
         }
       }
@@ -358,9 +429,9 @@
     "baselanguages": "english,spanish,schinese",
     "branches": {
       "public": {
-        "buildid": "24974513",
-        "timebuildupdated": "1787846104",
-        "timeupdated": "1788354140"
+        "buildid": "25197724",
+        "timebuildupdated": "1788911173",
+        "timeupdated": "1789046820"
       }
     },
     "hasdepotsindlc": "1",

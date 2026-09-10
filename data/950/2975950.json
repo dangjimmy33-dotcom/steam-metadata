@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789046027,
+  "_lastChecked": 1789053334,
   "_history": [
     {
       "buildId": "22972962",
@@ -52,12 +52,25 @@
           "download": 31998802768
         }
       }
+    },
+    {
+      "buildId": "25225733",
+      "branch": "beta",
+      "timeUpdated": 1789046888,
+      "firstSeen": 1789053334,
+      "manifests": {
+        "2975951": {
+          "gid": "6274057541653057635",
+          "size": 38870197213,
+          "download": 32000460240
+        }
+      }
     }
   ],
-  "_change_number": 38761639,
+  "_change_number": 38762088,
   "_missing_token": false,
-  "_sha": "653140efaf1c6315ba36ef25e99e66cb3fdf34ae",
-  "_size": 8546,
+  "_sha": "aa51da7ef3f5eab6d0db568aeeafc1a8d0d3ad07",
+  "_size": 8825,
   "appid": "2975950",
   "common": {
     "associations": {
@@ -379,6 +392,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "beta": {
+          "download": "32000460240",
+          "gid": "6274057541653057635",
+          "size": "38870197213"
+        },
         "previousversion": {
           "download": "30116459056",
           "gid": "3604749531707800030",
@@ -392,6 +410,12 @@
       }
     },
     "branches": {
+      "beta": {
+        "buildid": "25225733",
+        "description": "Alternative update 1 branch",
+        "timebuildupdated": "1789026422",
+        "timeupdated": "1789046888"
+      },
       "previousversion": {
         "buildid": "24024519",
         "description": "Game version pre-Character Creator Update",

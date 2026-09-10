@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789047396,
-  "_history": [],
-  "_change_number": 38750049,
-  "_missing_token": true,
-  "_sha": "6f58534a98d69736e6d6d22447e3437c6b173ea4",
-  "_size": 6525,
+  "_lastChecked": 1789055001,
+  "_history": [
+    {
+      "buildId": "25221120",
+      "branch": "public",
+      "timeUpdated": 1789047430,
+      "firstSeen": 1789055001,
+      "manifests": {
+        "4412321": {
+          "gid": "4665185612078290290",
+          "size": 5448551438,
+          "download": 2447448256
+        }
+      }
+    }
+  ],
+  "_change_number": 38765141,
+  "_missing_token": false,
+  "_sha": "955e82738d132a2106f8fe002d2ae364ace26cc6",
+  "_size": 7593,
   "appid": "4412320",
   "common": {
     "associations": {
@@ -43,6 +57,7 @@
     },
     "clienticon": "aec67b929be902d817228827f6b52bcbd537bd8d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -53,7 +68,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "4412320",
     "genres": {
       "0": "1",
@@ -142,7 +156,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d0ca58fce7e7bc5a0a87784f18e537adba07d99a/capsule_231x87.jpg"
     },
@@ -207,11 +221,12 @@
         }
       }
     },
-    "store_asset_mtime": "1786929255",
+    "steam_release_date": "1789048725",
+    "store_asset_mtime": "1788785288",
     "store_tags": {
       "0": "19",
       "1": "3843",
-      "10": "4136",
+      "10": "5395",
       "11": "4747",
       "12": "4182",
       "13": "4191",
@@ -223,7 +238,7 @@
       "6": "21",
       "7": "1719",
       "8": "1685",
-      "9": "5395"
+      "9": "4136"
     },
     "supported_languages": {
       "brazilian": {
@@ -289,5 +304,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dumb Ways to Build",
+    "launch": {
+      "0": {
+        "executable": "Dumb Ways to Build.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "8",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4412321": {
+      "manifests": {
+        "public": {
+          "download": "2447448256",
+          "gid": "4665185612078290290",
+          "size": "5448551438"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25221120",
+        "timebuildupdated": "1789003564",
+        "timeupdated": "1789047430"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Dumb Ways to Die",
+    "homepage": "https://www.dumbwaystodie.com/",
+    "publisher": "Dumb Ways to Die"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "PlaySide/Dumb Ways To Build/Steam",
+        "pattern": "*.data",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "PlaySide/Dumb Ways To Build/Steam",
+        "pattern": "*.seen",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

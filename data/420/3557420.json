@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789046585,
+  "_lastChecked": 1789054017,
   "_history": [
     {
       "buildId": "25027051",
@@ -54,12 +54,48 @@
           "download": 743407040
         }
       }
+    },
+    {
+      "buildId": "25086297",
+      "branch": "beta",
+      "timeUpdated": 1788388525,
+      "firstSeen": 1789054017,
+      "manifests": {
+        "3557422": {
+          "gid": "5984956043336060882",
+          "size": 845565018,
+          "download": 754104912
+        },
+        "3557423": {
+          "gid": "2476325393492104032",
+          "size": 845565018,
+          "download": 754104912
+        }
+      }
+    },
+    {
+      "buildId": "25086297",
+      "branch": "development",
+      "timeUpdated": 1788388533,
+      "firstSeen": 1789054017,
+      "manifests": {
+        "3557422": {
+          "gid": "5984956043336060882",
+          "size": 845565018,
+          "download": 754104912
+        },
+        "3557423": {
+          "gid": "2476325393492104032",
+          "size": 845565018,
+          "download": 754104912
+        }
+      }
     }
   ],
-  "_change_number": 38465735,
+  "_change_number": 38764513,
   "_missing_token": false,
-  "_sha": "629390a08519b76b2c47aceab0ba27564224c08a",
-  "_size": 7066,
+  "_sha": "edd5cdf23f0a45daf79c25c9e0a36ceecdc00e62",
+  "_size": 7120,
   "appid": "3557420",
   "common": {
     "aicontenttype": "1",
@@ -307,14 +343,14 @@
       },
       "manifests": {
         "beta": {
-          "download": "743407040",
-          "gid": "6192921351622385251",
-          "size": "834479132"
+          "download": "754104912",
+          "gid": "5984956043336060882",
+          "size": "845565018"
         },
         "development": {
-          "download": "743407040",
-          "gid": "6192921351622385251",
-          "size": "834479132"
+          "download": "754104912",
+          "gid": "5984956043336060882",
+          "size": "845565018"
         },
         "public": {
           "download": "743407040",
@@ -330,14 +366,14 @@
       },
       "manifests": {
         "beta": {
-          "download": "743407040",
-          "gid": "1486741201048680098",
-          "size": "834479132"
+          "download": "754104912",
+          "gid": "2476325393492104032",
+          "size": "845565018"
         },
         "development": {
-          "download": "743407040",
-          "gid": "1486741201048680098",
-          "size": "834479132"
+          "download": "754104912",
+          "gid": "2476325393492104032",
+          "size": "845565018"
         },
         "public": {
           "download": "743407040",
@@ -351,16 +387,16 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25027051",
+        "buildid": "25086297",
         "description": "beta releases",
-        "timebuildupdated": "1788131658",
-        "timeupdated": "1788155473"
+        "timebuildupdated": "1788373770",
+        "timeupdated": "1788388525"
       },
       "development": {
-        "buildid": "25027051",
+        "buildid": "25086297",
         "description": "development branch",
-        "timebuildupdated": "1788131658",
-        "timeupdated": "1788155485"
+        "timebuildupdated": "1788373770",
+        "timeupdated": "1788388533"
       },
       "public": {
         "buildid": "25027051",
@@ -372,6 +408,8 @@
   },
   "extended": {
     "developer": "deepglugs",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5171620",
     "publisher": "deepglugs"
   }
 }

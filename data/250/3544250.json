@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789046572,
+  "_lastChecked": 1789054002,
   "_history": [
     {
       "buildId": "24980940",
@@ -265,12 +265,38 @@
           "download": 5517500784
         }
       }
+    },
+    {
+      "buildId": "25208309",
+      "branch": "beta",
+      "timeUpdated": 1789048738,
+      "firstSeen": 1789054002,
+      "manifests": {
+        "3544250": {
+          "gid": "6899680957366478955",
+          "size": 7802187548,
+          "download": 6514436576
+        }
+      }
+    },
+    {
+      "buildId": "25232618",
+      "branch": "dlcdev",
+      "timeUpdated": 1789049003,
+      "firstSeen": 1789054002,
+      "manifests": {
+        "3544250": {
+          "gid": "6498890557554178771",
+          "size": 7808497432,
+          "download": 6520253648
+        }
+      }
     }
   ],
-  "_change_number": 38753171,
+  "_change_number": 38763158,
   "_missing_token": false,
-  "_sha": "2e0ecd0da56f980d922c34b59d9a4b088a4f9ed1",
-  "_size": 4397,
+  "_sha": "2f440d1bea088c26967fd8a5e97d8a346f6867b3",
+  "_size": 4398,
   "appid": "3544250",
   "common": {
     "aicontenttype": "1",
@@ -393,9 +419,9 @@
       "dlcappid": "3544250",
       "manifests": {
         "beta": {
-          "download": "5518115040",
-          "gid": "612415942197373708",
-          "size": "6720805877"
+          "download": "6514436576",
+          "gid": "6899680957366478955",
+          "size": "7802187548"
         },
         "closed_beta": {
           "download": "6514436576",
@@ -403,9 +429,9 @@
           "size": "7802187548"
         },
         "dlcdev": {
-          "download": "6514436576",
-          "gid": "6899680957366478955",
-          "size": "7802187548"
+          "download": "6520253648",
+          "gid": "6498890557554178771",
+          "size": "7808497432"
         },
         "nightlybuild": {
           "download": "5517500784",
@@ -436,10 +462,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "24980940",
+        "buildid": "25208309",
         "description": "public beta",
-        "timebuildupdated": "1787870873",
-        "timeupdated": "1787902932"
+        "timebuildupdated": "1788956710",
+        "timeupdated": "1789048738"
       },
       "closed_beta": {
         "buildid": "25208309",
@@ -448,10 +474,10 @@
         "timeupdated": "1788960250"
       },
       "dlcdev": {
-        "buildid": "25208309",
+        "buildid": "25232618",
         "description": "DLC Development",
-        "timebuildupdated": "1788956710",
-        "timeupdated": "1788956710"
+        "timebuildupdated": "1789049003",
+        "timeupdated": "1789049003"
       },
       "nightlybuild": {
         "buildid": "25225902",
