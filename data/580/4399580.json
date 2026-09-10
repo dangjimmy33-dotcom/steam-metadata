@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789004399,
-  "_history": [],
-  "_change_number": 36185274,
-  "_missing_token": true,
-  "_sha": "98d78d07466f84044a9d31eda04dc6b0e592bb0b",
-  "_size": 4170,
+  "_lastChecked": 1789010970,
+  "_history": [
+    {
+      "buildId": "22897711",
+      "branch": "public",
+      "timeUpdated": 1776830003,
+      "firstSeen": 1789010970,
+      "manifests": {
+        "4399581": {
+          "gid": "8179843271035948058",
+          "size": 4258573469,
+          "download": 4108021376
+        }
+      }
+    }
+  ],
+  "_change_number": 38747694,
+  "_missing_token": false,
+  "_sha": "119118569354c36fea45fa9ba78af98deea0fedb",
+  "_size": 5445,
   "appid": "4399580",
   "common": {
     "associations": {
@@ -30,9 +44,17 @@
     },
     "clienticon": "bc5df540e5b1d0e40dff53460abf28c0b7d4e5ed",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
+    "eulas": {
+      "0": {
+        "id": "4399580_eula_0",
+        "name": "フルーティモ！ジューシーナイトライド EULA",
+        "url": "https://store.steampowered.com//eula/4399580_eula_0",
+        "version": "1"
+      }
+    },
     "gameid": "4399580",
     "genres": {
       "0": "1",
@@ -121,11 +143,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "aea9bcd938020c9672daa5e8d946a44ef3fb85f4/capsule_231x87.jpg",
       "japanese": "97155b190d13cd92d126feac7c2201dca32ec95c/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1774850550",
     "store_tags": {
       "0": "597",
@@ -156,5 +179,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fruitimo2",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Fruitimo2.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4399581": {
+      "manifests": {
+        "public": {
+          "download": "4108021376",
+          "gid": "8179843271035948058",
+          "size": "4258573469"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "22897711",
+        "timebuildupdated": "1776829631",
+        "timeupdated": "1776830003"
+      }
+    }
+  },
+  "extended": {
+    "developer": "PLANETA",
+    "homepage": "https://pla-neta.co.jp/fruitimo/",
+    "publisher": "PLANETA"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789005071,
-  "_history": [],
-  "_change_number": 38536586,
-  "_missing_token": true,
-  "_sha": "3ce0fd2801d17dfc3ff2b79e763737bd149672a5",
-  "_size": 4024,
+  "_lastChecked": 1789011654,
+  "_history": [
+    {
+      "buildId": "25076792",
+      "branch": "public",
+      "timeUpdated": 1788344301,
+      "firstSeen": 1789011654,
+      "manifests": {
+        "5093741": {
+          "gid": "489352382600780199",
+          "size": 2778294948,
+          "download": 743461792
+        }
+      }
+    }
+  ],
+  "_change_number": 38747684,
+  "_missing_token": false,
+  "_sha": "fda217d685ff53df70af2dac0fe0cd73034f1660",
+  "_size": 4843,
   "appid": "5093740",
   "common": {
     "associations": {
@@ -27,6 +41,7 @@
     },
     "clienticon": "557466d88e54c27530c59d6ba34cb2704c535db0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -36,7 +51,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "5093740",
     "genres": {
       "0": "1",
@@ -118,7 +132,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8e10e98b1f675ecebb2f3bb4d5bfeea45f8d3b4b/capsule_231x87.jpg",
       "tchinese": "3ed562f6d9512ab52ffbd349d571c45bf9983cd3/capsule_231x87_tchinese.jpg"
@@ -141,5 +155,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "FreestyleDunker_TW",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64"
+        },
+        "executable": "Freestyle Dunker.exe"
+      }
+    }
+  },
+  "depots": {
+    "5093741": {
+      "config": {
+        "language": "tchinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "743461792",
+          "gid": "489352382600780199",
+          "size": "2778294948"
+        }
+      }
+    },
+    "baselanguages": "tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25076792",
+        "timebuildupdated": "1788342071",
+        "timeupdated": "1788344301"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Chengdu Fserking sports technology co.LTD",
+    "homepage": "https://freestyle.dunker.uminton.com/",
+    "isfreeapp": "1",
+    "publisher": "Chengdu Fserking sports technology co.LTD"
+  }
 }

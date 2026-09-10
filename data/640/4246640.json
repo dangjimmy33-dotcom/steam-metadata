@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789004241,
-  "_history": [],
-  "_change_number": 38718638,
-  "_missing_token": true,
-  "_sha": "578c674d64f12b1c4917c47d5dc9aaae126b66de",
-  "_size": 5673,
+  "_lastChecked": 1789010812,
+  "_history": [
+    {
+      "buildId": "25222024",
+      "branch": "public",
+      "timeUpdated": 1789007515,
+      "firstSeen": 1789010812,
+      "manifests": {
+        "4246641": {
+          "gid": "3131951722627226087",
+          "size": 4992919119,
+          "download": 1010192912
+        }
+      }
+    }
+  ],
+  "_change_number": 38747643,
+  "_missing_token": false,
+  "_sha": "54ec761b23a014b769125448aeffccd0570c9ac1",
+  "_size": 6507,
   "appid": "4246640",
   "common": {
     "aicontenttype": "1",
@@ -33,7 +47,6 @@
     "clienticon": "b50154496cbd94c5a37c3415614c7442f62bc42a",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4246640",
     "genres": {
       "0": "1",
@@ -114,11 +127,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6ee39ded4114785c45c0564fc411924c65fe1e9c/capsule_231x87.jpg",
       "schinese": "6f8161b4d4682dd345f6baf44129cc2db011c4a9/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789008671",
     "store_asset_mtime": "1788356701",
     "store_tags": {
       "0": "21",
@@ -251,5 +265,49 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "地下城竞技场",
+    "launch": {
+      "0": {
+        "executable": "DungeonBrawl.exe"
+      }
+    }
+  },
+  "depots": {
+    "4246641": {
+      "manifests": {
+        "public": {
+          "download": "1010192912",
+          "gid": "3131951722627226087",
+          "size": "4992919119"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25222024",
+        "timebuildupdated": "1789007507",
+        "timeupdated": "1789007515"
+      }
+    },
+    "privatebranches": "1",
+    "workshopdepot": "4246640"
+  },
+  "extended": {
+    "developer": " Underground Cat",
+    "dlcavailableonstore": "1",
+    "listofdlc": "4817070,4817080",
+    "publisher": "Wise Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "UndergroundCat/DungeonBrawl/",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

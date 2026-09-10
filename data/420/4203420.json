@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789004190,
-  "_history": [],
-  "_change_number": 38745916,
-  "_missing_token": true,
-  "_sha": "63d47edd2037e519c220ecc1fa35291c62ad6f7a",
-  "_size": 3385,
+  "_lastChecked": 1789010761,
+  "_history": [
+    {
+      "buildId": "25221205",
+      "branch": "public",
+      "timeUpdated": 1789003860,
+      "firstSeen": 1789010761,
+      "manifests": {
+        "4203421": {
+          "gid": "6974929612203290458",
+          "size": 2567642371,
+          "download": 2165122032
+        }
+      }
+    }
+  ],
+  "_change_number": 38746163,
+  "_missing_token": false,
+  "_sha": "596f2ab6666680a1adb4ba88e5a7f54f3ccc01ea",
+  "_size": 4265,
   "appid": "4203420",
   "common": {
     "associations": {
@@ -29,6 +43,7 @@
     },
     "clienticon": "780d8c632a6b4aabdc1b575f2e6c25e15f1eb247",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -45,7 +60,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "4203420",
     "genres": {
       "0": "25",
@@ -117,10 +131,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "961b92a134a0a3b514b959b2c9deee717ae36311/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789004438",
     "store_asset_mtime": "1787269175",
     "store_tags": {
       "0": "122",
@@ -152,5 +167,50 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Critical Chaos",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "CriticalChaos.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4203421": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2165122032",
+          "gid": "6974929612203290458",
+          "size": "2567642371"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25221205",
+        "timebuildupdated": "1789003835",
+        "timeupdated": "1789003860"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Red Canopy Games",
+    "homepage": "https://sites.google.com/view/redcanopygames/home",
+    "publisher": "Red Canopy Games"
+  }
 }

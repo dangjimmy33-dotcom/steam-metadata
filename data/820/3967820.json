@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789003933,
-  "_history": [],
-  "_change_number": 38744897,
-  "_missing_token": true,
-  "_sha": "82f25b4197719d57cc1640b85e81876bdac9f2bd",
-  "_size": 4428,
+  "_lastChecked": 1789010505,
+  "_history": [
+    {
+      "buildId": "25220655",
+      "branch": "public",
+      "timeUpdated": 1789001436,
+      "firstSeen": 1789010505,
+      "manifests": {
+        "3967821": {
+          "gid": "2843350561287065180",
+          "size": 1101643064,
+          "download": 485132768
+        }
+      }
+    }
+  ],
+  "_change_number": 38746058,
+  "_missing_token": false,
+  "_sha": "cdf1e9a37a4c4033083e83ad4bb0d038e5ef23d7",
+  "_size": 5101,
   "appid": "3967820",
   "common": {
     "associations": {
@@ -26,8 +40,8 @@
     "clienticon": "2002ea9dc44c4cffeb4c172a59b71d219a1595a8",
     "clienttga": "2cbc5623c60a50734b7fdf0329bad4bb046f1944",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3967820",
     "genres": {
       "0": "4",
@@ -116,11 +130,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3cf6719c1b0faffb1039224991ba8278a0c13565/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1788699181",
+    "store_asset_mtime": "1789003883",
     "store_tags": {
       "0": "597",
       "1": "1320952",
@@ -207,5 +221,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Push Push",
+    "launch": {
+      "0": {
+        "executable": "PushPush.exe"
+      }
+    }
+  },
+  "depots": {
+    "3967821": {
+      "manifests": {
+        "public": {
+          "download": "485132768",
+          "gid": "2843350561287065180",
+          "size": "1101643064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25220655",
+        "timebuildupdated": "1789001435",
+        "timeupdated": "1789001436"
+      }
+    }
+  },
+  "extended": {
+    "developer": "1ceAgain",
+    "publisher": "1ceAgain"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "5000000",
+    "savefiles": {
+      "0": {
+        "path": "saves",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

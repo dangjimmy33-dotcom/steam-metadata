@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789002149,
+  "_lastChecked": 1789008723,
   "_history": [
     {
       "buildId": "23099270",
@@ -13,12 +13,30 @@
           "download": 680847824
         }
       }
+    },
+    {
+      "buildId": "25222145",
+      "branch": "public",
+      "timeUpdated": 1789008184,
+      "firstSeen": 1789008723,
+      "manifests": {
+        "2424302": {
+          "gid": "6437638697626384887",
+          "size": 800976546,
+          "download": 680847824
+        },
+        "2424303": {
+          "gid": "6637914577674293190",
+          "size": 621399120,
+          "download": 596357088
+        }
+      }
     }
   ],
-  "_change_number": 37478216,
+  "_change_number": 38747513,
   "_missing_token": false,
-  "_sha": "3f8411daa7ce433a74402e2fd12bab9a2bcbfcc4",
-  "_size": 5892,
+  "_sha": "8426865a9d23a04d81d87322eb1f0f60c675a0fd",
+  "_size": 6089,
   "appid": "2424300",
   "common": {
     "associations": {
@@ -62,6 +80,10 @@
       "english": "header.jpg"
     },
     "icon": "c4dff4cffa3ec8c6e32627d0fde9a90b4da3c0f4",
+    "languages": {
+      "english": "1",
+      "schinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -260,13 +282,20 @@
     "2424303": {
       "config": {
         "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "download": "596357088",
+          "gid": "6637914577674293190",
+          "size": "621399120"
+        }
       }
     },
     "branches": {
       "public": {
-        "buildid": "23099270",
-        "timebuildupdated": "1778010284",
-        "timeupdated": "1778010334"
+        "buildid": "25222145",
+        "timebuildupdated": "1789008184",
+        "timeupdated": "1789008184"
       }
     }
   },

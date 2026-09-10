@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789004086,
+  "_lastChecked": 1789010657,
   "_history": [
     {
       "buildId": "24299368",
@@ -26,12 +26,48 @@
           "download": 1729701376
         }
       }
+    },
+    {
+      "buildId": "25222016",
+      "branch": "mac-test",
+      "timeUpdated": 1789007704,
+      "firstSeen": 1789010657,
+      "manifests": {
+        "4111501": {
+          "gid": "5884869418200850088",
+          "size": 5312667958,
+          "download": 1728910400
+        },
+        "4111502": {
+          "gid": "2655175837567488016",
+          "size": 5352979621,
+          "download": 1742712032
+        }
+      }
+    },
+    {
+      "buildId": "25222016",
+      "branch": "public",
+      "timeUpdated": 1789009553,
+      "firstSeen": 1789010657,
+      "manifests": {
+        "4111501": {
+          "gid": "5884869418200850088",
+          "size": 5312667958,
+          "download": 1728910400
+        },
+        "4111502": {
+          "gid": "2655175837567488016",
+          "size": 5352979621,
+          "download": 1742712032
+        }
+      }
     }
   ],
-  "_change_number": 38654844,
+  "_change_number": 38747897,
   "_missing_token": false,
-  "_sha": "9bb1436396ef2784437bfcb61eaa736fef60205f",
-  "_size": 3565,
+  "_sha": "b083cc0859ca04e7eb951277c0e18c2de4e76b6b",
+  "_size": 4258,
   "appid": "4111500",
   "common": {
     "associations": {
@@ -163,6 +199,12 @@
           "oslist": "windows"
         },
         "executable": "Sideways.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "SidewaysMacOS.app"
       }
     }
   },
@@ -172,18 +214,46 @@
         "oslist": "windows"
       },
       "manifests": {
+        "mac-test": {
+          "download": "1728910400",
+          "gid": "5884869418200850088",
+          "size": "5312667958"
+        },
         "public": {
-          "download": "1729701376",
-          "gid": "3113743825158303939",
-          "size": "5312652894"
+          "download": "1728910400",
+          "gid": "5884869418200850088",
+          "size": "5312667958"
+        }
+      }
+    },
+    "4111502": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "mac-test": {
+          "download": "1742712032",
+          "gid": "2655175837567488016",
+          "size": "5352979621"
+        },
+        "public": {
+          "download": "1742712032",
+          "gid": "2655175837567488016",
+          "size": "5352979621"
         }
       }
     },
     "branches": {
+      "mac-test": {
+        "buildid": "25222016",
+        "description": "test branch",
+        "timebuildupdated": "1789007462",
+        "timeupdated": "1789007704"
+      },
       "public": {
-        "buildid": "25159500",
-        "timebuildupdated": "1788746458",
-        "timeupdated": "1788746555"
+        "buildid": "25222016",
+        "timebuildupdated": "1789007462",
+        "timeupdated": "1789009553"
       }
     }
   },

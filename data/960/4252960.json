@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789004249,
-  "_history": [],
-  "_change_number": 38745942,
-  "_missing_token": true,
-  "_sha": "5bbc3a2af405b7ddcc46ace2f886800693e1b489",
-  "_size": 3527,
+  "_lastChecked": 1789010819,
+  "_history": [
+    {
+      "buildId": "25221654",
+      "branch": "public",
+      "timeUpdated": 1789005845,
+      "firstSeen": 1789010819,
+      "manifests": {
+        "4252961": {
+          "gid": "7991704318864573210",
+          "size": 1596913072,
+          "download": 1434168864
+        },
+        "4252962": {
+          "gid": "966830190712531263",
+          "size": 1730494303,
+          "download": 1492918512
+        }
+      }
+    }
+  ],
+  "_change_number": 38747533,
+  "_missing_token": false,
+  "_sha": "6cb6401b238e123e5f639866adc9a9ff6c228e5c",
+  "_size": 5745,
   "appid": "4252960",
   "common": {
     "associations": {
@@ -36,9 +55,9 @@
     "clienticns": "ad5c31f202b35e8072f21c2f3c6f4c7aeff6ac82",
     "clienticon": "7f59e55fd50cc766064faef9b8487017f5607bfe",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4252960",
     "genres": {
       "0": "25",
@@ -116,10 +135,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4e43756fba51dd4722b98990e18f02c9d337dd16/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789008713",
     "store_asset_mtime": "1782331319",
     "store_tags": {
       "0": "3799",
@@ -154,5 +174,116 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HoloTrials Case Covered",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "HoloTrials - Case Covered.exe",
+        "workingdir": "/."
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "HoloTrials.app"
+      }
+    }
+  },
+  "depots": {
+    "4252961": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1434168864",
+          "gid": "7991704318864573210",
+          "size": "1596913072"
+        }
+      }
+    },
+    "4252962": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1492918512",
+          "gid": "966830190712531263",
+          "size": "1730494303"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25221654",
+        "timebuildupdated": "1789005845",
+        "timeupdated": "1789005845"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "VTAC Games",
+    "isfreeapp": "1",
+    "publisher": "holo Indie"
+  },
+  "ufs": {
+    "maxnumfiles": "12",
+    "quota": "5000000",
+    "savefiles": {
+      "0": {
+        "path": "HoloTrials/HoloTrials - Case Covered/saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "HoloTrials/HoloTrials - Case Covered",
+        "pattern": "extras_data.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "HoloTrials/HoloTrials - Case Covered/saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "3": {
+        "path": "HoloTrials/HoloTrials - Case Covered",
+        "pattern": "extras_data.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "4": {
+        "path": ".config/unity3d/HoloTrials/HoloTrials - Case Covered/saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      },
+      "5": {
+        "path": ".config/unity3d/HoloTrials/HoloTrials - Case Covered",
+        "pattern": "extras_data.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789004870,
-  "_history": [],
-  "_change_number": 38740950,
-  "_missing_token": true,
-  "_sha": "e1b185f76e0e201dc4d479d6cf4bae6d66e5612d",
-  "_size": 3795,
+  "_lastChecked": 1789011451,
+  "_history": [
+    {
+      "buildId": "25217850",
+      "branch": "public",
+      "timeUpdated": 1788989209,
+      "firstSeen": 1789011451,
+      "manifests": {
+        "4872152": {
+          "gid": "8857186069832417042",
+          "size": 179698093,
+          "download": 115893408
+        }
+      }
+    }
+  ],
+  "_change_number": 38747874,
+  "_missing_token": false,
+  "_sha": "4c35847105e2e978cc5694948be896dd79ab90dd",
+  "_size": 4454,
   "appid": "4872150",
   "common": {
     "associations": {
@@ -28,7 +42,6 @@
     "clienticon": "b07e9d37109d010adc8de35d83545e28ab806bd6",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4872150",
     "genres": {
       "0": "23",
@@ -110,7 +123,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f4b6367806dcb0f76e7997e38920d4b9a60df05b/capsule_231x87.jpg",
       "japanese": "f4b6367806dcb0f76e7997e38920d4b9a60df05b/capsule_231x87_japanese.jpg"
@@ -138,5 +151,44 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Elegorithm",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Elegorithm.exe"
+      }
+    }
+  },
+  "depots": {
+    "4872151": {},
+    "4872152": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "115893408",
+          "gid": "8857186069832417042",
+          "size": "179698093"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "25217850",
+        "timebuildupdated": "1788989194",
+        "timeupdated": "1788989209"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kariya_Zucchini",
+    "publisher": "Kariya_Zucchini"
+  }
 }
