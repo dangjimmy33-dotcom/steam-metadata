@@ -1,10 +1,63 @@
 {
-  "_lastChecked": 1789035317,
-  "_history": [],
-  "_change_number": 38756417,
-  "_missing_token": true,
-  "_sha": "be617e3d72b67f2ab10ed9860f924bc975c341c5",
-  "_size": 4367,
+  "_lastChecked": 1789041912,
+  "_history": [
+    {
+      "buildId": "25228533",
+      "branch": "prod_test",
+      "timeUpdated": 1789035847,
+      "firstSeen": 1789041912,
+      "manifests": {
+        "4734531": {
+          "gid": "1558700284046473789",
+          "size": 7735233251,
+          "download": 6665428832
+        }
+      }
+    },
+    {
+      "buildId": "25228533",
+      "branch": "public",
+      "timeUpdated": 1789040621,
+      "firstSeen": 1789041912,
+      "manifests": {
+        "4734531": {
+          "gid": "1558700284046473789",
+          "size": 7735233251,
+          "download": 6665428832
+        }
+      }
+    },
+    {
+      "buildId": "24040834",
+      "branch": "staging",
+      "timeUpdated": 1783088217,
+      "firstSeen": 1789041912,
+      "manifests": {
+        "4734531": {
+          "gid": "4600501046304553888",
+          "size": 1916892937,
+          "download": 1214955232
+        }
+      }
+    },
+    {
+      "buildId": "25229385",
+      "branch": "test",
+      "timeUpdated": 1789038767,
+      "firstSeen": 1789041912,
+      "manifests": {
+        "4734531": {
+          "gid": "8652001686278479085",
+          "size": 7735700202,
+          "download": 6665648112
+        }
+      }
+    }
+  ],
+  "_change_number": 38759306,
+  "_missing_token": false,
+  "_sha": "567965472d3f2e1cf41cf4d9a211934f42d63102",
+  "_size": 5839,
   "appid": "4734530",
   "common": {
     "aicontenttype": "1",
@@ -38,7 +91,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4734530",
     "genres": {
       "0": "1",
@@ -112,11 +164,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "9e3bcdc914dd7e6d74b9af2f783280f1c81ed1d8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789041134",
     "store_asset_mtime": "1785171247",
     "store_tags": {
       "0": "113",
@@ -213,5 +266,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BabesAndBattles",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "bin/BabesAndBattles.exe",
+        "workingdir": "bin"
+      }
+    }
+  },
+  "depots": {
+    "4734531": {
+      "manifests": {
+        "prod_test": {
+          "download": "6665428832",
+          "gid": "1558700284046473789",
+          "size": "7735233251"
+        },
+        "public": {
+          "download": "6665428832",
+          "gid": "1558700284046473789",
+          "size": "7735233251"
+        },
+        "staging": {
+          "download": "1214955232",
+          "gid": "4600501046304553888",
+          "size": "1916892937"
+        },
+        "test": {
+          "download": "6665648112",
+          "gid": "8652001686278479085",
+          "size": "7735700202"
+        }
+      }
+    },
+    "branches": {
+      "prod_test": {
+        "buildid": "25228533",
+        "description": "prod builds for test",
+        "timebuildupdated": "1789035847",
+        "timeupdated": "1789035847"
+      },
+      "public": {
+        "buildid": "25228533",
+        "timebuildupdated": "1789035847",
+        "timeupdated": "1789040621"
+      },
+      "staging": {
+        "buildid": "24040834",
+        "description": "for staging builds",
+        "timebuildupdated": "1783088217",
+        "timeupdated": "1783088217"
+      },
+      "test": {
+        "buildid": "25229385",
+        "description": "for test",
+        "timebuildupdated": "1789038767",
+        "timeupdated": "1789038767"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Quad Damage Entertainment",
+    "isfreeapp": "1",
+    "publisher": "Quad Damage Entertainment"
+  }
 }

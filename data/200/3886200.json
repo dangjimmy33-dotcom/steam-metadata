@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789034543,
-  "_history": [],
-  "_change_number": 38727335,
-  "_missing_token": true,
-  "_sha": "7c775bbcccc649d20688bd48825d5b95142e1dec",
-  "_size": 6846,
+  "_lastChecked": 1789040996,
+  "_history": [
+    {
+      "buildId": "25187941",
+      "branch": "public",
+      "timeUpdated": 1788873781,
+      "firstSeen": 1789040996,
+      "manifests": {
+        "3886201": {
+          "gid": "1646569095749950351",
+          "size": 6293203832,
+          "download": 6078138496
+        }
+      }
+    }
+  ],
+  "_change_number": 38757920,
+  "_missing_token": false,
+  "_sha": "5f5b59046cf8fdc0d3308ccff29606a8b321069e",
+  "_size": 7865,
   "appid": "3886200",
   "common": {
     "associations": {
@@ -41,9 +55,9 @@
     },
     "clienticon": "8de12734828a62cc77810656f58286fb2fd0d359",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3886200",
     "genres": {
       "0": "1",
@@ -156,14 +170,15 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "be22fb2b62c5d7e7ccf11c014d632c6b27d6a5d0/capsule_231x87.jpg",
       "sc_schinese": "f6e4fa9343811c41b17ffebd470a96eaa440f8a0/capsule_231x87_sc_schinese.jpg",
       "schinese": "f6e4fa9343811c41b17ffebd470a96eaa440f8a0/capsule_231x87_schinese.jpg",
       "tchinese": "06f1718e6819dd52b16debc6bb985b1bb7f1beba/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1788957631",
+    "steam_release_date": "1789037556",
+    "store_asset_mtime": "1789037791",
     "store_tags": {
       "0": "7208",
       "1": "4191",
@@ -251,5 +266,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DON’T LIE",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DontLie.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3886201": {
+      "manifests": {
+        "public": {
+          "download": "6078138496",
+          "gid": "1646569095749950351",
+          "size": "6293203832"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25187941",
+        "timebuildupdated": "1788873617",
+        "timeupdated": "1788873781"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Serafini Productions",
+    "publisher": "Wired Productions"
+  }
 }

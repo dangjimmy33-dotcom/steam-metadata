@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789035639,
-  "_history": [],
-  "_change_number": 38664304,
-  "_missing_token": true,
-  "_sha": "3549c0a20eea98dd95ba4a56f94bbef05b7b99fc",
-  "_size": 3148,
+  "_lastChecked": 1789042290,
+  "_history": [
+    {
+      "buildId": "25159287",
+      "branch": "public",
+      "timeUpdated": 1788745188,
+      "firstSeen": 1789042290,
+      "manifests": {
+        "5154001": {
+          "gid": "3904232607124704460",
+          "size": 246412952,
+          "download": 168253120
+        }
+      }
+    }
+  ],
+  "_change_number": 38756997,
+  "_missing_token": false,
+  "_sha": "03e82af9119b7361bd7070bbb57de4f2281712e6",
+  "_size": 4217,
   "appid": "5154000",
   "common": {
     "aicontenttype": "1",
@@ -33,9 +47,9 @@
     },
     "clienticon": "cb30fa8c1e15a697d6fcf95a1f9d37ac45c5bbfa",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5154000",
     "genres": {
       "0": "1",
@@ -108,7 +122,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "02da43c88e3eead27ffa76a373f725ba128c4580/capsule_231x87.jpg"
     },
@@ -142,5 +156,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Emoji Massacre",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "EmojiMassacre.exe",
+        "type": "none"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5154001": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "168253120",
+          "gid": "3904232607124704460",
+          "size": "246412952"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25159287",
+        "timebuildupdated": "1788745051",
+        "timeupdated": "1788745188"
+      }
+    }
+  },
+  "extended": {
+    "developer": "UndaWirrld Arcade",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5163560,5163570,5163580,5163590",
+    "publisher": "UndaWirrld Arcade"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Emoji Massacre",
+        "pattern": "save.cfg",
+        "platforms": {
+          "1": "windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

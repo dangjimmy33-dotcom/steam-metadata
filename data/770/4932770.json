@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789035480,
-  "_history": [],
-  "_change_number": 38619561,
-  "_missing_token": true,
-  "_sha": "82b253b629cc3bcd9b51bb2d1decb96a87ddad3b",
-  "_size": 3153,
+  "_lastChecked": 1789042103,
+  "_history": [
+    {
+      "buildId": "25135277",
+      "branch": "public",
+      "timeUpdated": 1788570800,
+      "firstSeen": 1789042103,
+      "manifests": {
+        "4932771": {
+          "gid": "1436699483140436222",
+          "size": 1916971627,
+          "download": 1592172048
+        }
+      }
+    }
+  ],
+  "_change_number": 38759522,
+  "_missing_token": false,
+  "_sha": "e5368e8d08ac801975e6da2c699e428322b4dcde",
+  "_size": 4029,
   "appid": "4932770",
   "common": {
     "aicontenttype": "1",
@@ -33,7 +47,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4932770",
     "genres": {
       "0": "1",
@@ -107,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ced9207fa0d2f22c079606dbe9e6ef4843a325ef/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789041625",
     "store_asset_mtime": "1787372376",
     "store_tags": {
       "0": "19",
@@ -143,5 +157,50 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "土下座",
+    "launch": {
+      "1": {
+        "executable": "TenshuPrototype\\Binaries\\Win64\\TenshuPrototype-Win64-Shipping.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4932771": {
+      "manifests": {
+        "public": {
+          "download": "1592172048",
+          "gid": "1436699483140436222",
+          "size": "1916971627"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "25135277",
+        "timebuildupdated": "1788570510",
+        "timeupdated": "1788570800"
+      }
+    }
+  },
+  "extended": {
+    "developer": "MasaKa Studio",
+    "homepage": "https://masaka-studio.com",
+    "publisher": "MasaKa Studio"
+  }
 }

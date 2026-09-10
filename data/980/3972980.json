@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789034631,
+  "_lastChecked": 1789041099,
   "_history": [
     {
       "buildId": "24667939",
@@ -52,12 +52,38 @@
           "download": 319520176
         }
       }
+    },
+    {
+      "buildId": "24811384",
+      "branch": "prev_stableish",
+      "timeUpdated": 1787117903,
+      "firstSeen": 1789041099,
+      "manifests": {
+        "3972981": {
+          "gid": "8627684616196162881",
+          "size": 445105810,
+          "download": 318570240
+        }
+      }
+    },
+    {
+      "buildId": "25228845",
+      "branch": "public",
+      "timeUpdated": 1789036932,
+      "firstSeen": 1789041099,
+      "manifests": {
+        "3972981": {
+          "gid": "8178669701034189473",
+          "size": 446573758,
+          "download": 319516544
+        }
+      }
     }
   ],
-  "_change_number": 38728364,
+  "_change_number": 38757508,
   "_missing_token": false,
-  "_sha": "15f7918b06f2ae90f9cf8e705fd14a2831c43985",
-  "_size": 6722,
+  "_sha": "dd72fe5f59fb56e87d4949e260c7a9b3919fb183",
+  "_size": 6412,
   "appid": "3972980",
   "common": {
     "associations": {
@@ -287,40 +313,29 @@
   "depots": {
     "3972981": {
       "manifests": {
-        "next_version_tester": {
-          "download": "319520176",
-          "gid": "5909668280277710185",
-          "size": "446575918"
-        },
         "prev_stableish": {
-          "download": "318265632",
-          "gid": "2578772190200661567",
-          "size": "416979422"
-        },
-        "public": {
           "download": "318570240",
           "gid": "8627684616196162881",
           "size": "445105810"
+        },
+        "public": {
+          "download": "319516544",
+          "gid": "8178669701034189473",
+          "size": "446573758"
         }
       }
     },
     "branches": {
-      "next_version_tester": {
-        "buildid": "25209284",
-        "description": "The next version, before default",
-        "timebuildupdated": "1788959904",
-        "timeupdated": "1788959934"
-      },
       "prev_stableish": {
-        "buildid": "24667939",
-        "description": "The previous most stable version.",
-        "timebuildupdated": "1786435579",
-        "timeupdated": "1786435609"
-      },
-      "public": {
         "buildid": "24811384",
+        "description": "The previous most stable version.",
         "timebuildupdated": "1787117882",
         "timeupdated": "1787117903"
+      },
+      "public": {
+        "buildid": "25228845",
+        "timebuildupdated": "1789036906",
+        "timeupdated": "1789036932"
       }
     }
   },

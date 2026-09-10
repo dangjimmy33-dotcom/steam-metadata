@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789035641,
-  "_history": [],
-  "_change_number": 38752610,
-  "_missing_token": true,
-  "_sha": "2035328422495d3b4ca2d3f23b0c21d9b1ea6108",
-  "_size": 3431,
+  "_lastChecked": 1789042293,
+  "_history": [
+    {
+      "buildId": "25225484",
+      "branch": "public",
+      "timeUpdated": 1789025455,
+      "firstSeen": 1789042293,
+      "manifests": {
+        "5159601": {
+          "gid": "5117556687110726783",
+          "size": 437922658,
+          "download": 174305280
+        }
+      }
+    }
+  ],
+  "_change_number": 38759376,
+  "_missing_token": false,
+  "_sha": "ba75b5681b92fe647ad635efb887b0496e0f9840",
+  "_size": 4074,
   "appid": "5159600",
   "common": {
     "aicontenttype": "1",
@@ -25,8 +39,8 @@
     },
     "clienticon": "402e935776988a3f1202f2b5106eb31587688ea3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5159600",
     "genres": {
       "0": "23",
@@ -97,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0b75ce5824547f28924d8c6bc231b79f16becb2e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789041316",
     "store_asset_mtime": "1788780159",
     "store_tags": {
       "0": "9",
@@ -162,5 +177,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Refund Me TD",
+    "launch": {
+      "0": {
+        "executable": "Refund Me TD.exe"
+      }
+    }
+  },
+  "depots": {
+    "5159601": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "174305280",
+          "gid": "5117556687110726783",
+          "size": "437922658"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25225484",
+        "timebuildupdated": "1789025350",
+        "timeupdated": "1789025455"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "LoneDragonDev",
+    "publisher": "LoneDragonDev"
+  }
 }

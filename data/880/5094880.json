@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789035604,
-  "_history": [],
-  "_change_number": 38507216,
-  "_missing_token": true,
-  "_sha": "6399a0ea7f9ef1e8316fc3dae36eeb11dd6d078a",
-  "_size": 2876,
+  "_lastChecked": 1789042250,
+  "_history": [
+    {
+      "buildId": "25057896",
+      "branch": "public",
+      "timeUpdated": 1788266383,
+      "firstSeen": 1789042250,
+      "manifests": {
+        "5094881": {
+          "gid": "1563411179290296991",
+          "size": 1331548825,
+          "download": 568847056
+        }
+      }
+    }
+  ],
+  "_change_number": 38759514,
+  "_missing_token": false,
+  "_sha": "9e0b67a2994b76a7ffffbff862f93fc9abec14b5",
+  "_size": 3325,
   "appid": "5094880",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "c2d8d4c00c43d17666507e7f736fe58e91ca421e",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5094880",
     "genres": {
       "0": "1"
@@ -96,7 +109,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7bfcdf9ad0d87bc1b586e3798a1db84c5deb8a5d/capsule_231x87.jpg",
       "japanese": "7bfcdf9ad0d87bc1b586e3798a1db84c5deb8a5d/capsule_231x87_japanese.jpg"
@@ -122,5 +135,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gray Rush",
+    "launch": {
+      "0": {
+        "executable": "GRAY RUSH.exe"
+      }
+    }
+  },
+  "depots": {
+    "5094881": {
+      "manifests": {
+        "public": {
+          "download": "568847056",
+          "gid": "1563411179290296991",
+          "size": "1331548825"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25057896",
+        "timebuildupdated": "1788266068",
+        "timeupdated": "1788266383"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Tzk",
+    "publisher": "Tzk"
+  }
 }

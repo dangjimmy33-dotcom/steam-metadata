@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789035618,
-  "_history": [],
-  "_change_number": 38538813,
-  "_missing_token": true,
-  "_sha": "0a6a575e1c4fa976e9f2221d05f60a380530e99c",
-  "_size": 3003,
+  "_lastChecked": 1789042266,
+  "_history": [
+    {
+      "buildId": "24762240",
+      "branch": "public",
+      "timeUpdated": 1786889083,
+      "firstSeen": 1789042266,
+      "manifests": {
+        "5117331": {
+          "gid": "9045003625828938448",
+          "size": 110906440,
+          "download": 36460112
+        }
+      }
+    }
+  ],
+  "_change_number": 38758161,
+  "_missing_token": false,
+  "_sha": "333294d54ef86b4813f45977537bf48dd861ba12",
+  "_size": 3656,
   "appid": "5117330",
   "common": {
     "aicontenttype": "1",
@@ -38,7 +52,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5117330",
     "genres": {
       "0": "1",
@@ -109,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "327561b60f7f254d16375b9366e5331008044586/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789038421",
     "store_asset_mtime": "1787839217",
     "store_tags": {
       "0": "19",
@@ -138,5 +152,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Asteroid Destroyer",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Asteroid_Destroyer_v1.0.exe"
+      }
+    }
+  },
+  "depots": {
+    "5117331": {
+      "manifests": {
+        "public": {
+          "download": "36460112",
+          "gid": "9045003625828938448",
+          "size": "110906440"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24762240",
+        "timebuildupdated": "1786888656",
+        "timeupdated": "1786889083"
+      }
+    }
+  },
+  "extended": {
+    "developer": "ermu_cz",
+    "homepage": "https://ermu.cz/games/astreoid-destroyer/index.html",
+    "publisher": "ermu_cz"
+  }
 }

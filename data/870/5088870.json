@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789035600,
-  "_history": [],
-  "_change_number": 38706390,
-  "_missing_token": true,
-  "_sha": "04717dd4eb094506f59d0308fb584ad616b89016",
-  "_size": 3014,
+  "_lastChecked": 1789042245,
+  "_history": [
+    {
+      "buildId": "25228876",
+      "branch": "public",
+      "timeUpdated": 1789037072,
+      "firstSeen": 1789042245,
+      "manifests": {
+        "5088871": {
+          "gid": "8986266765903739710",
+          "size": 923407662,
+          "download": 384097936
+        }
+      }
+    }
+  ],
+  "_change_number": 38758083,
+  "_missing_token": false,
+  "_sha": "bcfd1a160d94a00df10099b24f01763ab232b3fa",
+  "_size": 3668,
   "appid": "5088870",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +44,8 @@
     },
     "clienticon": "d98a9d3bc5e8c1fe482a3a0dd192be0f6d5cb53e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5088870",
     "genres": {
       "0": "23",
@@ -102,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "24392e9223f8c4bdf144b1d47d90f99186d611de/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789038223",
     "store_asset_mtime": "1788676315",
     "store_tags": {
       "0": "9",
@@ -132,5 +147,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Send More Monsters",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Send-More-Monsters.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5088871": {
+      "manifests": {
+        "public": {
+          "download": "384097936",
+          "gid": "8986266765903739710",
+          "size": "923407662"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25228876",
+        "timebuildupdated": "1789037054",
+        "timeupdated": "1789037072"
+      }
+    }
+  },
+  "extended": {
+    "developer": "MightyCodeDragon",
+    "publisher": "MightyCodeDragon"
+  }
 }

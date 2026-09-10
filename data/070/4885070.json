@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789035440,
-  "_history": [],
-  "_change_number": 38756317,
-  "_missing_token": true,
-  "_sha": "57d816dbad6ca2f3a4e37507bbfa08c406a1746e",
-  "_size": 5578,
+  "_lastChecked": 1789042056,
+  "_history": [
+    {
+      "buildId": "25228032",
+      "branch": "public",
+      "timeUpdated": 1789034333,
+      "firstSeen": 1789042056,
+      "manifests": {
+        "4885071": {
+          "gid": "7596787520903622912",
+          "size": 2377821785,
+          "download": 1270409104
+        }
+      }
+    }
+  ],
+  "_change_number": 38756887,
+  "_missing_token": false,
+  "_sha": "2272b1c653be3310d5548aef300678da076b17a9",
+  "_size": 7332,
   "appid": "4885070",
   "common": {
     "aicontenttype": "1",
@@ -26,6 +40,7 @@
     },
     "clienticon": "84d62f8dd8870e5b507c5331e93177ada8d7ff06",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -39,7 +54,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4885070",
     "genres": {
       "0": "4",
@@ -139,7 +153,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "cccba2fb63739df2401a17ced2bd37cd205cef01/capsule_231x87.jpg",
@@ -147,6 +161,7 @@
       "schinese": "8110bdd9af89ea4e4d45b0769d6fb571d1a143c3/capsule_231x87_schinese.jpg",
       "tchinese": "a1b727cc1c2c87d3ac83c3edd743b20312ed6e20/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788935049",
     "store_tags": {
       "0": "597",
@@ -187,5 +202,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pay Back Girls",
+    "launch": {
+      "0": {
+        "executable": "Payback Girls.exe"
+      }
+    }
+  },
+  "depots": {
+    "4885071": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1270409104",
+          "gid": "7596787520903622912",
+          "size": "2377821785"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25228032",
+        "timebuildupdated": "1789034259",
+        "timeupdated": "1789034333"
+      }
+    }
+  },
+  "extended": {
+    "developer": "The Platypus",
+    "homepage": "https://weplatypus.com/",
+    "publisher": "The Platypus"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Theplatypus/Pbg",
+        "pattern": "player_profile.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Theplatypus/Pbg",
+        "pattern": "save_slot_1.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Theplatypus/Pbg",
+        "pattern": "save_slot_2.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Theplatypus/Pbg",
+        "pattern": "save_slot_3.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": "Theplatypus/Pbg",
+        "pattern": "save_slot_4.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "5": {
+        "path": "Theplatypus/Pbg",
+        "pattern": "save_data.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

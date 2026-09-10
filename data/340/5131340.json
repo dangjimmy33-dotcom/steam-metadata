@@ -1,10 +1,42 @@
 {
-  "_lastChecked": 1789035627,
-  "_history": [],
-  "_change_number": 38382071,
-  "_missing_token": true,
-  "_sha": "a615b5dab41de5b8806318b31908a72a7231e26a",
-  "_size": 2969,
+  "_lastChecked": 1789042277,
+  "_history": [
+    {
+      "buildId": "24798955",
+      "branch": "local",
+      "timeUpdated": 1787064097,
+      "firstSeen": 1789042277,
+      "manifests": {
+        "5131341": {
+          "gid": "4734114490321390954",
+          "size": 95858611,
+          "download": 38506480
+        }
+      }
+    },
+    {
+      "buildId": "25229810",
+      "branch": "public",
+      "timeUpdated": 1789040231,
+      "firstSeen": 1789042277,
+      "manifests": {
+        "5131341": {
+          "gid": "7504765304822708686",
+          "size": 95858684,
+          "download": 38507680
+        },
+        "5131342": {
+          "gid": "2520303491455368622",
+          "size": 96646066,
+          "download": 38629520
+        }
+      }
+    }
+  ],
+  "_change_number": 38759183,
+  "_missing_token": false,
+  "_sha": "a4320e8dd92d0987b9a4d3f0eca5999a1066d504",
+  "_size": 4565,
   "appid": "5131340",
   "common": {
     "associations": {
@@ -24,6 +56,7 @@
     },
     "clienticon": "50606779c249da97761feb34478c42b63733cf22",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -31,7 +64,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5131340",
     "genres": {
       "0": "4",
@@ -103,10 +135,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "61ff96ca3a3eec17e10df098900d6457c028d6c2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789038649",
     "store_asset_mtime": "1787422311",
     "store_tags": {
       "0": "599",
@@ -135,5 +168,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Crack Smoking Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Crack Smoking Simulator.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Crack Smoking Simulator",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5131341": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "local": {
+          "download": "38506480",
+          "gid": "4734114490321390954",
+          "size": "95858611"
+        },
+        "public": {
+          "download": "38507680",
+          "gid": "7504765304822708686",
+          "size": "95858684"
+        }
+      }
+    },
+    "5131342": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "38629520",
+          "gid": "2520303491455368622",
+          "size": "96646066"
+        }
+      }
+    },
+    "branches": {
+      "local": {
+        "buildid": "24798955",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1787063559",
+        "timeupdated": "1787064097"
+      },
+      "public": {
+        "buildid": "25229810",
+        "timebuildupdated": "1789040185",
+        "timeupdated": "1789040231"
+      }
+    }
+  },
+  "extended": {
+    "developer": "ArgentCombine Games",
+    "publisher": "ArgentCombine Games"
+  }
 }

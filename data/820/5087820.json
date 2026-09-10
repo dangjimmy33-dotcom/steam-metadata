@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789035600,
-  "_history": [],
-  "_change_number": 38375696,
-  "_missing_token": true,
-  "_sha": "a52c28d736791ba79ea72fc9585768f77d57c7ec",
-  "_size": 3820,
+  "_lastChecked": 1789042244,
+  "_history": [
+    {
+      "buildId": "24965840",
+      "branch": "public",
+      "timeUpdated": 1787817646,
+      "firstSeen": 1789042244,
+      "manifests": {
+        "5087821": {
+          "gid": "7902471746732655825",
+          "size": 85588141,
+          "download": 85446096
+        }
+      }
+    }
+  ],
+  "_change_number": 38759074,
+  "_missing_token": false,
+  "_sha": "aa843c3ddc821f7b857871345d17e21fe7489f51",
+  "_size": 4349,
   "appid": "5087820",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "adad4f51591e3d0bf372abbd04f0961655fe33fc",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5087820",
     "genres": {
       "0": "1",
@@ -98,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "29",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e2a287d9027cbfa1c9c3ad5018f71764f551dcb6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787817502",
     "store_tags": {
       "0": "19",
@@ -189,5 +203,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "King Quest",
+    "launch": {
+      "0": {
+        "executable": "Preload Launcher_Installer_Windows_x64.exe"
+      }
+    }
+  },
+  "depots": {
+    "5087821": {
+      "manifests": {
+        "public": {
+          "download": "85446096",
+          "gid": "7902471746732655825",
+          "size": "85588141"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24965840",
+        "timebuildupdated": "1787817400",
+        "timeupdated": "1787817646"
+      }
+    }
+  },
+  "extended": {
+    "developer": "slc studios",
+    "publisher": "slc studios"
+  }
 }

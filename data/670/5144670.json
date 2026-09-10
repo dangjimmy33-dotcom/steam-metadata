@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789035634,
-  "_history": [],
-  "_change_number": 38630362,
-  "_missing_token": true,
-  "_sha": "0bfa4e2fe2f167f3e500876f92a185657a42b52c",
-  "_size": 2740,
+  "_lastChecked": 1789042285,
+  "_history": [
+    {
+      "buildId": "25142720",
+      "branch": "public",
+      "timeUpdated": 1788624107,
+      "firstSeen": 1789042285,
+      "manifests": {
+        "5144671": {
+          "gid": "963012601992246245",
+          "size": 132287888,
+          "download": 51220176
+        }
+      }
+    }
+  ],
+  "_change_number": 38759150,
+  "_missing_token": false,
+  "_sha": "b4f43c7ee941974fd25756502f9407e7ff3a7eba",
+  "_size": 3536,
   "appid": "5144670",
   "common": {
     "associations": {
@@ -25,8 +39,8 @@
     },
     "clienticon": "202c20fc72504216d8530e819c3ec5b4117fcf30",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5144670",
     "genres": {
       "0": "23",
@@ -97,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6ecd7f2f1ff0a08d5347cbf8974b7fca69a5ffc8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789040715",
     "store_asset_mtime": "1787818101",
     "store_tags": {
       "0": "599",
@@ -121,5 +136,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PARROT CLICKER",
+    "launch": {
+      "0": {
+        "executable": "ParrotClicker.exe"
+      }
+    }
+  },
+  "depots": {
+    "5144671": {
+      "manifests": {
+        "public": {
+          "download": "51220176",
+          "gid": "963012601992246245",
+          "size": "132287888"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25142720",
+        "timebuildupdated": "1788624073",
+        "timeupdated": "1788624107"
+      }
+    }
+  },
+  "extended": {
+    "developer": "iroiro",
+    "publisher": "iroiro"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Parrot Clicker",
+        "pattern": "parrot_clicker_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

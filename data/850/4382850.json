@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789035008,
-  "_history": [],
-  "_change_number": 38537481,
-  "_missing_token": true,
-  "_sha": "df88b5b9c60784c27b8da63a5745f2dfb2dadbc8",
-  "_size": 2975,
+  "_lastChecked": 1789041545,
+  "_history": [
+    {
+      "buildId": "25077134",
+      "branch": "public",
+      "timeUpdated": 1788346437,
+      "firstSeen": 1789041545,
+      "manifests": {
+        "4382851": {
+          "gid": "6852724459851490491",
+          "size": 269088301,
+          "download": 143953792
+        }
+      }
+    }
+  ],
+  "_change_number": 38756747,
+  "_missing_token": false,
+  "_sha": "b1dd96a1612f23e5b16c9bebf551e0af7de3aee4",
+  "_size": 4093,
   "appid": "4382850",
   "common": {
     "aicontenttype": "1",
@@ -28,7 +42,6 @@
     "clienticon": "21528eaec8c5f3eafd758068a25ed5bb6f5451f9",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4382850",
     "genres": {
       "0": "1"
@@ -100,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7fa1c91d27bc864764dbbef2182524b4728007cd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789035275",
     "store_asset_mtime": "1775309861",
     "store_tags": {
       "0": "21978",
@@ -131,5 +145,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gunshot Survivors VR",
+    "launch": {
+      "0": {
+        "executable": "GunshotSurvivorsVR.exe",
+        "type": "vr"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4382851": {
+      "manifests": {
+        "public": {
+          "download": "143953792",
+          "gid": "6852724459851490491",
+          "size": "269088301"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "25077134",
+        "timebuildupdated": "1788343069",
+        "timeupdated": "1788346437"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "HachiKuGames",
+    "publisher": "HachiKuGames",
+    "vrheadsetstreaming": "1"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "1024000",
+    "rootoverrides": {
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "HachiKuGames/GunshotSurvivorsVR/",
+        "pattern": "Save.dat",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
