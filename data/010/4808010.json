@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789075540,
-  "_history": [],
-  "_change_number": 38587345,
-  "_missing_token": true,
-  "_sha": "3b77e87424516e98d02d7a5f655a19927a691cb3",
-  "_size": 3845,
+  "_lastChecked": 1789081713,
+  "_history": [
+    {
+      "buildId": "24941647",
+      "branch": "public",
+      "timeUpdated": 1787715100,
+      "firstSeen": 1789081713,
+      "manifests": {
+        "4808011": {
+          "gid": "6405530953768476737",
+          "size": 379496964,
+          "download": 292803888
+        }
+      }
+    }
+  ],
+  "_change_number": 38776469,
+  "_missing_token": false,
+  "_sha": "5f2d5f10a59bfdf77664b22d00483872eb3da10f",
+  "_size": 4830,
   "appid": "4808010",
   "common": {
     "aicontenttype": "1",
@@ -35,8 +49,8 @@
     "clienticns": "7c306a7067d5e88fc808a06cd38af7c8e6579a2e",
     "clienticon": "b2eeff135b9821e17b8654345a1fc9ebf44cd2fe",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4808010",
     "genres": {
       "0": "4"
@@ -117,10 +131,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "88beee4e45f5195417a580bd23376649d5ad99fd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787664658",
     "store_tags": {
       "0": "5379",
@@ -173,5 +188,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sudoku Solace",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Sudoku Solace.exe"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4808011": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "292803888",
+          "gid": "6405530953768476737",
+          "size": "379496964"
+        }
+      }
+    },
+    "baselanguages": "brazilian,dutch,english,french,german,japanese,koreana,latam,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "24941647",
+        "timebuildupdated": "1787715015",
+        "timeupdated": "1787715100"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Bonzeux",
+    "publisher": "Bonzeux"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "SteamSudoku",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

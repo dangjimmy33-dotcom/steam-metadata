@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789072089,
+  "_lastChecked": 1789078042,
   "_history": [
     {
       "buildId": "10352613",
@@ -60,10 +60,10 @@
       }
     }
   ],
-  "_change_number": 38587001,
+  "_change_number": 38774988,
   "_missing_token": false,
-  "_sha": "b78d0b6dc33ae170bdab9927b59469a50947b0c9",
-  "_size": 10575,
+  "_sha": "04ffe48d567e835601a86a90cccad5fb4128d88a",
+  "_size": 10828,
   "appid": "1328670",
   "common": {
     "associations": {
@@ -388,6 +388,16 @@
       "0": {
         "executable": "link2ea://launchgame/1328670?platform=steam&theme=met",
         "type": "none"
+      },
+      "1": {
+        "config": {
+          "betakey": "eax_test"
+        },
+        "description": "New launch method",
+        "description_loc": {
+          "english": "New launch method"
+        },
+        "executable": "steam2ea://launchgame/1328670?platform=steam&theme=met"
       }
     }
   },

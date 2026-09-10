@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789075416,
+  "_lastChecked": 1789081586,
   "_history": [
     {
       "buildId": "25038975",
@@ -36,11 +36,47 @@
           "download": 988060384
         }
       }
+    },
+    {
+      "buildId": "25241443",
+      "branch": "beta",
+      "timeUpdated": 1789080184,
+      "firstSeen": 1789081586,
+      "manifests": {
+        "4653511": {
+          "gid": "3333771303142273769",
+          "size": 1838969038,
+          "download": 378854960
+        },
+        "4653512": {
+          "gid": "3230102524483091047",
+          "size": 4229495729,
+          "download": 988060384
+        }
+      }
+    },
+    {
+      "buildId": "25241443",
+      "branch": "public",
+      "timeUpdated": 1789080700,
+      "firstSeen": 1789081586,
+      "manifests": {
+        "4653511": {
+          "gid": "3333771303142273769",
+          "size": 1838969038,
+          "download": 378854960
+        },
+        "4653512": {
+          "gid": "3230102524483091047",
+          "size": 4229495729,
+          "download": 988060384
+        }
+      }
     }
   ],
-  "_change_number": 38478460,
+  "_change_number": 38776396,
   "_missing_token": false,
-  "_sha": "2f8d6bd63bdfa5d0572b00beaa2fa331f7e79be1",
+  "_sha": "b5289da62539a0db0430585df72201f0ff51b34a",
   "_size": 6208,
   "appid": "4653510",
   "common": {
@@ -288,14 +324,14 @@
       },
       "manifests": {
         "beta": {
-          "download": "378862032",
-          "gid": "4465824086379001514",
-          "size": "1839974996"
+          "download": "378854960",
+          "gid": "3333771303142273769",
+          "size": "1838969038"
         },
         "public": {
-          "download": "378862032",
-          "gid": "4465824086379001514",
-          "size": "1839974996"
+          "download": "378854960",
+          "gid": "3333771303142273769",
+          "size": "1838969038"
         }
       }
     },
@@ -318,15 +354,15 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25038975",
+        "buildid": "25241443",
         "description": "Beta pública para playtest",
-        "timebuildupdated": "1788189397",
-        "timeupdated": "1788189397"
+        "timebuildupdated": "1789080184",
+        "timeupdated": "1789080184"
       },
       "public": {
-        "buildid": "25038968",
-        "timebuildupdated": "1788189378",
-        "timeupdated": "1788189378"
+        "buildid": "25241443",
+        "timebuildupdated": "1789080184",
+        "timeupdated": "1789080700"
       }
     }
   },

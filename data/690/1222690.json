@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789071985,
+  "_lastChecked": 1789077928,
   "_history": [
     {
       "buildId": "10351640",
@@ -65,10 +65,10 @@
       }
     }
   ],
-  "_change_number": 38771770,
+  "_change_number": 38774679,
   "_missing_token": false,
-  "_sha": "a2de99514365f874b02323fae11769515d7b8145",
-  "_size": 9044,
+  "_sha": "3b8b793d781561e0dc91e96d254b4d48c4c0f354",
+  "_size": 9297,
   "appid": "1222690",
   "common": {
     "associations": {
@@ -318,6 +318,16 @@
       "0": {
         "executable": "link2ea://launchgame/1222690?platform=steam&theme=dai",
         "type": "none"
+      },
+      "1": {
+        "config": {
+          "betakey": "eax_test"
+        },
+        "description": "New launch method",
+        "description_loc": {
+          "english": "New launch method"
+        },
+        "executable": "steam2ea://launchgame/1222690?platform=steam&theme=dai"
       }
     }
   },

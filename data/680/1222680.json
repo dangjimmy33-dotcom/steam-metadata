@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789071985,
+  "_lastChecked": 1789077928,
   "_history": [
     {
       "buildId": "10351341",
@@ -85,10 +85,10 @@
       }
     }
   ],
-  "_change_number": 38587001,
+  "_change_number": 38775180,
   "_missing_token": false,
-  "_sha": "ced148f322c1f158a369f52a97f0a06da3621f7f",
-  "_size": 12140,
+  "_sha": "da5834f314a4e3b87597100d2d1312f1b160c874",
+  "_size": 12394,
   "appid": "1222680",
   "common": {
     "associations": {
@@ -425,6 +425,16 @@
       "0": {
         "executable": "link2ea://launchgame/1222680?platform=steam&theme=nfsh",
         "type": "none"
+      },
+      "1": {
+        "config": {
+          "betakey": "eax_test"
+        },
+        "description": "New launch method",
+        "description_loc": {
+          "english": "New launch method"
+        },
+        "executable": "steam2ea://launchgame/1222680?platform=steam&theme=nfsh"
       }
     },
     "steamcontrollertouchconfigdetails": {

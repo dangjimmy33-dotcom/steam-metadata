@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789074601,
+  "_lastChecked": 1789080735,
   "_history": [
     {
       "buildId": "21399439",
@@ -26,12 +26,25 @@
           "download": 16740871856
         }
       }
+    },
+    {
+      "buildId": "25223248",
+      "branch": "debug-game",
+      "timeUpdated": 1789079158,
+      "firstSeen": 1789080735,
+      "manifests": {
+        "3785141": {
+          "gid": "22793838157633524",
+          "size": 12515687461,
+          "download": 6803613568
+        }
+      }
     }
   ],
-  "_change_number": 38712927,
+  "_change_number": 38776051,
   "_missing_token": false,
-  "_sha": "4807dca3a8a66a0102d319774f7e502872c88f87",
-  "_size": 4404,
+  "_sha": "2feb86868bd46f2bcdca869a9a1294de5f534446",
+  "_size": 4533,
   "appid": "3785140",
   "common": {
     "aicontenttype": "1",
@@ -183,6 +196,13 @@
         },
         "executable": "Dominion.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "debug-game"
+        },
+        "executable": "Dreamrise_UMSE.exe",
+        "type": "default"
       }
     }
   },
@@ -204,9 +224,9 @@
     "3785141": {
       "manifests": {
         "debug-game": {
-          "download": "16740871856",
-          "gid": "6178201865345848559",
-          "size": "17150439319"
+          "download": "6803613568",
+          "gid": "22793838157633524",
+          "size": "12515687461"
         },
         "public": {
           "download": "16744979856",
@@ -217,10 +237,10 @@
     },
     "branches": {
       "debug-game": {
-        "buildid": "20991710",
+        "buildid": "25223248",
         "description": "testing",
-        "timebuildupdated": "1764440330",
-        "timeupdated": "1764440390"
+        "timebuildupdated": "1789013633",
+        "timeupdated": "1789079158"
       },
       "public": {
         "buildid": "21399439",
