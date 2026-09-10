@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789028863,
+  "_lastChecked": 1789034580,
   "_history": [
     {
       "buildId": "19649600",
@@ -13,12 +13,25 @@
           "download": 39203232
         }
       }
+    },
+    {
+      "buildId": "19441460",
+      "branch": "public",
+      "timeUpdated": 1789029006,
+      "firstSeen": 1789034580,
+      "manifests": {
+        "3923641": {
+          "gid": "451905258996105788",
+          "size": 331642950,
+          "download": 128926176
+        }
+      }
     }
   ],
-  "_change_number": 38753931,
+  "_change_number": 38754121,
   "_missing_token": false,
-  "_sha": "a7b1055e282d62699780934036876c7fe9640487",
-  "_size": 5759,
+  "_sha": "96f8941a0d0bfec25d8413f89138a7460abf2908",
+  "_size": 5517,
   "appid": "3923640",
   "common": {
     "associations": {
@@ -177,8 +190,7 @@
     "installdir": "霸世狂刀",
     "launch": {
       "0": {
-        "arguments": "eyJuZWVkX2NvbnNvbGUiOiIwIiwib3RoZXJfaW5mbyI6eyJnYW1lX25hbWUiOiJcdTk3MzhcdTRlMTZcdTcyYzJcdTUyMDAiLCJnYW1lX2lkIjo2MiwibWNoX2lkIjoxOSwid2ViX2FwaV9ob3N0IjoiaHR0cDovLzk1LmdtMTcxNy5jb20iLCJzdGVhbV9hcHBpZCI6IjM5MjM2NDAiLCJzdGVhbV9jaGVjayI6MH19",
-        "executable": "Client.exe",
+        "executable": "bskd-win32-x64/bskd.exe",
         "type": "default"
       }
     }
@@ -187,17 +199,17 @@
     "3923641": {
       "manifests": {
         "public": {
-          "download": "39203232",
-          "gid": "3147708460122106404",
-          "size": "57867986"
+          "download": "128926176",
+          "gid": "451905258996105788",
+          "size": "331642950"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "19649600",
-        "timebuildupdated": "1755583875",
-        "timeupdated": "1755583946"
+        "buildid": "19441460",
+        "timebuildupdated": "1754038436",
+        "timeupdated": "1789029006"
       }
     }
   },

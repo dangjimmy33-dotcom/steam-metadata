@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789029435,
-  "_history": [],
-  "_change_number": 38669656,
-  "_missing_token": true,
-  "_sha": "16e5563ccb8e0e9064502fb94540fb4ed018c46a",
-  "_size": 2882,
+  "_lastChecked": 1789035143,
+  "_history": [
+    {
+      "buildId": "23684276",
+      "branch": "public",
+      "timeUpdated": 1781192667,
+      "firstSeen": 1789035143,
+      "manifests": {
+        "4533491": {
+          "gid": "8511724930768182515",
+          "size": 724436807,
+          "download": 478796640
+        }
+      }
+    }
+  ],
+  "_change_number": 38756427,
+  "_missing_token": false,
+  "_sha": "5df9363ff6a418c8cb0fa1d43dd9bfe3f8cb9fd1",
+  "_size": 3727,
   "appid": "4533490",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "6974bb7a2a4c25ab6aa9341814ee012d2326d92c",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4533490",
     "genres": {
       "0": "25",
@@ -102,7 +115,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c10f12b7b55739523ff113f098e7f4e2720bfffe/capsule_231x87.jpg"
     },
@@ -127,5 +140,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "暗渊崛起",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4533491": {
+      "manifests": {
+        "public": {
+          "download": "478796640",
+          "gid": "8511724930768182515",
+          "size": "724436807"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "23684276",
+        "timebuildupdated": "1781192200",
+        "timeupdated": "1781192667"
+      }
+    }
+  },
+  "extended": {
+    "developer": "攸缘游戏",
+    "publisher": "攸缘游戏"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "40",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "save",
+        "pattern": "*.rmmzsave",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

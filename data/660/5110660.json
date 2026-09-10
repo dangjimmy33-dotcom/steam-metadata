@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789029910,
+  "_lastChecked": 1789035614,
   "_history": [
     {
       "buildId": "25126828",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 38746803,
+  "_change_number": 38756616,
   "_missing_token": false,
-  "_sha": "ea925a3ff1bb12483033970a11a6e4f0bf6fadb4",
-  "_size": 5066,
+  "_sha": "a9673cd6a8ba8d6c173e77c1cc56b6a4a04ae9ce",
+  "_size": 5538,
   "appid": "5110660",
   "common": {
     "associations": {
@@ -179,8 +179,27 @@
           "osarch": "64",
           "oslist": "windows"
         },
+        "description": "Normal mode",
+        "description_loc": {
+          "english": "Normal mode",
+          "schinese": "正常模式"
+        },
         "executable": "SlimGirl.exe",
-        "type": "default"
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Low-quality compatibility mode",
+        "description_loc": {
+          "english": "Low-quality compatibility mode",
+          "schinese": "低画质兼容模式"
+        },
+        "executable": "SlimGirl.exe",
+        "type": "option2"
       }
     }
   },

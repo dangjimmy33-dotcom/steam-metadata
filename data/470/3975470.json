@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789028916,
-  "_history": [],
-  "_change_number": 38753819,
-  "_missing_token": true,
-  "_sha": "89e48f17139330c5d85502ab17f6078f71488fed",
-  "_size": 4244,
+  "_lastChecked": 1789034632,
+  "_history": [
+    {
+      "buildId": "25226325",
+      "branch": "public",
+      "timeUpdated": 1789028543,
+      "firstSeen": 1789034632,
+      "manifests": {
+        "3975471": {
+          "gid": "388368281474687170",
+          "size": 3525434285,
+          "download": 1280985168
+        },
+        "3975472": {
+          "gid": "955512529420572736",
+          "size": 3516500172,
+          "download": 1256186320
+        }
+      }
+    }
+  ],
+  "_change_number": 38756372,
+  "_missing_token": false,
+  "_sha": "0298e6bfb9e77e64fb48f2b05e2fb1fe48e8ea0e",
+  "_size": 5588,
   "appid": "3975470",
   "common": {
     "associations": {
@@ -30,13 +49,24 @@
       }
     },
     "category": {
+      "category_13": "1",
       "category_2": "1",
       "category_28": "1",
       "category_55": "1",
       "category_56": "1",
       "category_57": "1",
       "category_58": "1",
-      "category_62": "1"
+      "category_62": "1",
+      "category_65": "1",
+      "category_66": "1",
+      "category_67": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_74": "1",
+      "category_75": "1",
+      "category_76": "1",
+      "category_77": "1",
+      "category_78": "1"
     },
     "clienticon": "b3ae08a54975e84a5d836bfdc15ef78c9c5f46b7",
     "community_hub_visible": "1",
@@ -52,7 +82,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3975470",
     "genres": {
       "0": "25",
@@ -134,11 +163,12 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "df5d8affc404ba88302a00000d765cd28f13f927/capsule_231x87.jpg",
       "german": "d7e2d7bc6a4d2089b276001c22407bf54bfad438/capsule_231x87_german.jpg"
     },
+    "steam_release_date": "1789034440",
     "store_asset_mtime": "1787321649",
     "store_tags": {
       "0": "21",
@@ -157,6 +187,7 @@
     },
     "supported_languages": {
       "english": {
+        "subtitles": "true",
         "supported": "true"
       },
       "german": {
@@ -167,5 +198,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Eine Nacht im Moka Efti",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BabylonBerlin.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "BabylonBerlin.app"
+      }
+    }
+  },
+  "depots": {
+    "3975471": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1280985168",
+          "gid": "388368281474687170",
+          "size": "3525434285"
+        }
+      }
+    },
+    "3975472": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1256186320",
+          "gid": "955512529420572736",
+          "size": "3516500172"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "25226325",
+        "timebuildupdated": "1789028468",
+        "timeupdated": "1789028543"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Paintbucket Games",
+    "homepage": "https://games.ard.de/",
+    "isfreeapp": "1",
+    "publisher": "ARD Gaming"
+  }
 }

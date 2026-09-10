@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789028953,
-  "_history": [],
-  "_change_number": 38722921,
-  "_missing_token": true,
-  "_sha": "69668f44f0c87e62380d8bff04afd59b9b4eaa58",
-  "_size": 5067,
+  "_lastChecked": 1789034670,
+  "_history": [
+    {
+      "buildId": "25205510",
+      "branch": "public",
+      "timeUpdated": 1788947011,
+      "firstSeen": 1789034670,
+      "manifests": {
+        "4013511": {
+          "gid": "3339450091563195737",
+          "size": 785689764,
+          "download": 617079968
+        }
+      }
+    }
+  ],
+  "_change_number": 38756361,
+  "_missing_token": false,
+  "_sha": "c6655e000c9dce4856704b8d3c3cdb55f664fa48",
+  "_size": 6712,
   "appid": "4013510",
   "common": {
     "associations": {
@@ -35,9 +49,9 @@
     },
     "clienticon": "46dae351a7d894bd6328c3ebe7cc318bebf8efb5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4013510",
     "genres": {
       "0": "25",
@@ -135,12 +149,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6fa6bab2da0dfc064586f8d677fbc84f73fca5cc/capsule_231x87.jpg",
       "schinese": "906cf9f5d49eaccf80bdfd2e8b8cca45e37f75ed/capsule_231x87_schinese.jpg",
       "tchinese": "b5dccc56db1261b65e201826f5ca799e1cf6f2ca/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789034428",
     "store_asset_mtime": "1785339926",
     "store_tags": {
       "0": "916648",
@@ -184,5 +199,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Monster Alchemy",
+    "launch": {
+      "0": {
+        "arguments": "-dx12",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "DirectX12 (Default)",
+        "description_loc": {
+          "english": "DirectX12 (Default)"
+        },
+        "executable": "MonsterAlchemy.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "DirectX11 (For older GPUs or if experiencing crashes)",
+        "description_loc": {
+          "english": "DirectX11 (For older GPUs or if experiencing crashes)"
+        },
+        "executable": "MonsterAlchemy.exe",
+        "type": "option2"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4013511": {
+      "manifests": {
+        "public": {
+          "download": "617079968",
+          "gid": "3339450091563195737",
+          "size": "785689764"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25205510",
+        "timebuildupdated": "1788946892",
+        "timeupdated": "1788947011"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Team Metacarpo",
+    "homepage": "https://discord.gg/CgdGgmdems",
+    "publisher": "Team Metacarpo"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "MonsterAlchemy/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789029693,
-  "_history": [],
-  "_change_number": 38740705,
-  "_missing_token": true,
-  "_sha": "479447afd0ad7192580c3a15357d6904191c3e47",
-  "_size": 5763,
+  "_lastChecked": 1789035399,
+  "_history": [
+    {
+      "buildId": "25227424",
+      "branch": "public",
+      "timeUpdated": 1789032110,
+      "firstSeen": 1789035399,
+      "manifests": {
+        "4838461": {
+          "gid": "5774754667498987806",
+          "size": 3207924952,
+          "download": 2978520880
+        }
+      }
+    }
+  ],
+  "_change_number": 38756344,
+  "_missing_token": false,
+  "_sha": "b139b908183c9cab83ce219a05241621cca01b9f",
+  "_size": 6465,
   "appid": "4838460",
   "common": {
     "associations": {
@@ -44,6 +58,7 @@
     },
     "clienticon": "4a36c9eaed646117399d50876d30e1b51f1cc90c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -52,7 +67,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4838460",
     "genres": {
       "0": "25",
@@ -152,12 +166,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "43bc7ee718324e34b4b9b46b204b35899e94c395/capsule_231x87.jpg",
       "schinese": "4469858a6d779ef981aa1e3aea129e93c980961a/capsule_231x87_schinese.jpg",
       "tchinese": "4469858a6d779ef981aa1e3aea129e93c980961a/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789034402",
     "store_asset_mtime": "1784323746",
     "store_tags": {
       "0": "597",
@@ -191,5 +206,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HimaNatsu",
+    "launch": {
+      "0": {
+        "executable": "Himanatsu.exe"
+      }
+    }
+  },
+  "depots": {
+    "4838461": {
+      "manifests": {
+        "public": {
+          "download": "2978520880",
+          "gid": "5774754667498987806",
+          "size": "3207924952"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25227424",
+        "timebuildupdated": "1789032082",
+        "timeupdated": "1789032110"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Makura",
+    "publisher": "Kagami Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "2000000000",
+    "savefiles": {
+      "0": {
+        "path": "game/saves",
+        "pattern": "*",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

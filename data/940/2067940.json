@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789026999,
+  "_lastChecked": 1789032730,
   "_history": [
     {
       "buildId": "24314202",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38050653,
+  "_change_number": 38753301,
   "_missing_token": false,
-  "_sha": "8ab65d764ad001cf76d14a5ff939070ffd839e21",
-  "_size": 6114,
+  "_sha": "94d24399f023f4842f03663c08140afe60629f98",
+  "_size": 6600,
   "appid": "2067940",
   "common": {
     "associations": {
@@ -277,10 +277,8 @@
     "publisher": "Spirit"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
-    "maxnumfiles": "10000",
-    "quota": "100000000000",
+    "maxnumfiles": "100",
+    "quota": "500000000",
     "rootoverrides": {
       "0": {
         "os": "Windows",
@@ -288,7 +286,31 @@
         "pathtransforms": {
           "0": {
             "find": "SiberianVillage/Saved/SaveGames",
-            "replace": "VacationGame/Saved/SaveGames"
+            "replace": "SiberianVillage/Saved/SaveGames"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SiberianVillage/Saved/SaveGames",
+            "replace": "SiberianVillage/Saved/SaveGames"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      },
+      "2": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SiberianVillage/Saved/SaveGames",
+            "replace": "SiberianVillage/Saved/SaveGames"
           }
         },
         "root": "gameinstall",

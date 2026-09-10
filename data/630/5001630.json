@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789029833,
+  "_lastChecked": 1789035538,
   "_history": [
     {
       "buildId": "25223328",
@@ -36,11 +36,47 @@
           "download": 167114656
         }
       }
+    },
+    {
+      "buildId": "25227320",
+      "branch": "public",
+      "timeUpdated": 1789032407,
+      "firstSeen": 1789035538,
+      "manifests": {
+        "5001631": {
+          "gid": "9071906858106819381",
+          "size": 3354026495,
+          "download": 1461188096
+        },
+        "5074810": {
+          "gid": "468353041800858799",
+          "size": 168925397,
+          "download": 167114656
+        }
+      }
+    },
+    {
+      "buildId": "25227320",
+      "branch": "test-015",
+      "timeUpdated": 1789031783,
+      "firstSeen": 1789035538,
+      "manifests": {
+        "5001631": {
+          "gid": "9071906858106819381",
+          "size": 3354026495,
+          "download": 1461188096
+        },
+        "5074810": {
+          "gid": "468353041800858799",
+          "size": 168925397,
+          "download": 167114656
+        }
+      }
     }
   ],
-  "_change_number": 38753789,
+  "_change_number": 38755486,
   "_missing_token": false,
-  "_sha": "13c6ca95316dc6bec114ffcd160787cecc2176d0",
+  "_sha": "f7f0c9e92ba3de0eb40e295c9a294d3605abe945",
   "_size": 8715,
   "appid": "5001630",
   "common": {
@@ -176,7 +212,7 @@
     "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "88",
+    "review_percentage": "90",
     "review_score": "7",
     "small_capsule": {
       "english": "61818ad820dba0875cb3b2e97d6d177ec89a7c6c/capsule_231x87.jpg",
@@ -310,14 +346,14 @@
     "5001631": {
       "manifests": {
         "public": {
-          "download": "1460284560",
-          "gid": "3902096100489843664",
-          "size": "3354020831"
+          "download": "1461188096",
+          "gid": "9071906858106819381",
+          "size": "3354026495"
         },
         "test-015": {
-          "download": "1460284560",
-          "gid": "3902096100489843664",
-          "size": "3354020831"
+          "download": "1461188096",
+          "gid": "9071906858106819381",
+          "size": "3354026495"
         }
       }
     },
@@ -339,15 +375,15 @@
     "baselanguages": "brazilian,dutch,english,french,german,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,tchinese,thai,turkish,ukrainian",
     "branches": {
       "public": {
-        "buildid": "25223328",
-        "timebuildupdated": "1789014074",
-        "timeupdated": "1789014434"
+        "buildid": "25227320",
+        "timebuildupdated": "1789031783",
+        "timeupdated": "1789032407"
       },
       "test-015": {
-        "buildid": "25223328",
+        "buildid": "25227320",
         "description": "Jiahao 0.1.5 test",
-        "timebuildupdated": "1789014074",
-        "timeupdated": "1789014075"
+        "timebuildupdated": "1789031783",
+        "timeupdated": "1789031783"
       }
     },
     "workshopdepot": "5001630"

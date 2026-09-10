@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789029750,
-  "_history": [],
-  "_change_number": 38753583,
-  "_missing_token": true,
-  "_sha": "964e79bad07d942b5ca59a1dae1eeaecc1c935ee",
-  "_size": 2881,
+  "_lastChecked": 1789035456,
+  "_history": [
+    {
+      "buildId": "25225953",
+      "branch": "public",
+      "timeUpdated": 1789027314,
+      "firstSeen": 1789035456,
+      "manifests": {
+        "4903801": {
+          "gid": "7536746088307529880",
+          "size": 719956573,
+          "download": 551568032
+        }
+      }
+    }
+  ],
+  "_change_number": 38754690,
+  "_missing_token": false,
+  "_sha": "99937cd74c6745a26136e5ab760258f002367cb2",
+  "_size": 3484,
   "appid": "4903800",
   "common": {
     "aicontenttype": "1",
@@ -26,7 +40,6 @@
     "clienticon": "b96c54be5115671fcea2f819cedcfc7bcfb6ab08",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4903800",
     "genres": {
       "0": "25",
@@ -97,10 +110,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a8ac07e3751ff74eca6d669406b7ac7e0e4b8bbe/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788122275",
     "store_tags": {
       "0": "4486",
@@ -130,5 +144,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Living on Plain Pasta",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Living_on_Plain_Pasta.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4903801": {
+      "manifests": {
+        "public": {
+          "download": "551568032",
+          "gid": "7536746088307529880",
+          "size": "719956573"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25225953",
+        "timebuildupdated": "1789027218",
+        "timeupdated": "1789027314"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Granité Works",
+    "publisher": "Granité Works"
+  }
 }

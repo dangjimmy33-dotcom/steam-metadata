@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789028433,
+  "_lastChecked": 1789034152,
   "_history": [
     {
       "buildId": "23797984",
@@ -13,12 +13,30 @@
           "download": 134222080
         }
       }
+    },
+    {
+      "buildId": "25227617",
+      "branch": "public",
+      "timeUpdated": 1789032748,
+      "firstSeen": 1789034152,
+      "manifests": {
+        "3478873": {
+          "gid": "1532549220769019696",
+          "size": 364205911,
+          "download": 134222080
+        },
+        "3478874": {
+          "gid": "2543607698227405099",
+          "size": 284793698,
+          "download": 109288400
+        }
+      }
     }
   ],
-  "_change_number": 38602796,
+  "_change_number": 38755622,
   "_missing_token": false,
-  "_sha": "8ce29aa67f52a2f7ae2ec29f5e41084bd9980ad9",
-  "_size": 6619,
+  "_sha": "9c2de332727291258b8aafe74d66e501ee3731c6",
+  "_size": 6732,
   "appid": "3478870",
   "common": {
     "associations": {
@@ -286,14 +304,20 @@
       "config": {
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "109288400",
+          "gid": "2543607698227405099",
+          "size": "284793698"
+        }
+      }
     },
     "baselanguages": "english,german,french,italian,koreana,spanish,japanese,portuguese,polish,danish,dutch,swedish,turkish",
     "branches": {
       "public": {
-        "buildid": "23797984",
-        "timebuildupdated": "1781768142",
-        "timeupdated": "1782120725"
+        "buildid": "25227617",
+        "timebuildupdated": "1789032748",
+        "timeupdated": "1789032748"
       }
     },
     "hasdepotsindlc": "0",

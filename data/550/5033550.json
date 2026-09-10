@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789029856,
-  "_history": [],
-  "_change_number": 38751604,
-  "_missing_token": true,
-  "_sha": "b0b6bad63e4c01fbb91ef0abbdd683df78b8584b",
-  "_size": 2841,
+  "_lastChecked": 1789035561,
+  "_history": [
+    {
+      "buildId": "25224752",
+      "branch": "public",
+      "timeUpdated": 1789022218,
+      "firstSeen": 1789035561,
+      "manifests": {
+        "5033551": {
+          "gid": "2883643600304918285",
+          "size": 1327816575,
+          "download": 537652208
+        },
+        "5033552": {
+          "gid": "5289045843137954544",
+          "size": 1345930688,
+          "download": 545790528
+        }
+      }
+    }
+  ],
+  "_change_number": 38756130,
+  "_missing_token": false,
+  "_sha": "39b54fc010f2fe372b723b635498b21ca9b601d6",
+  "_size": 3859,
   "appid": "5033550",
   "common": {
     "aicontenttype": "1",
@@ -32,7 +51,6 @@
     "clienticon": "28e9856ce6d405995d2ee96f753f00d0a6b1f787",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5033550",
     "genres": {
       "0": "1",
@@ -95,10 +113,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f49f7a2064493a510e1dff5e1e38843f9ba5ff42/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789033847",
     "store_asset_mtime": "1788466268",
     "store_tags": {
       "0": "19",
@@ -130,5 +149,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Murdercartel",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MurderCartel.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Murdercartel.app"
+      }
+    }
+  },
+  "depots": {
+    "5033551": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "537652208",
+          "gid": "2883643600304918285",
+          "size": "1327816575"
+        }
+      }
+    },
+    "5033552": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "545790528",
+          "gid": "5289045843137954544",
+          "size": "1345930688"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25224752",
+        "timebuildupdated": "1789021948",
+        "timeupdated": "1789022218"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Marco van Pelt",
+    "homepage": "https://www.murdercartel.com/",
+    "isfreeapp": "1",
+    "publisher": "Marco van Pelt"
+  }
 }

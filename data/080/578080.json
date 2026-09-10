@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789025412,
+  "_lastChecked": 1789031143,
   "_history": [
     {
       "buildId": "25049128",
@@ -36,11 +36,29 @@
           "download": 405232768
         }
       }
+    },
+    {
+      "buildId": "25225767",
+      "branch": "public",
+      "timeUpdated": 1789026624,
+      "firstSeen": 1789031143,
+      "manifests": {
+        "578081": {
+          "gid": "4730960177439810188",
+          "size": 51364391025,
+          "download": 49263619792
+        },
+        "578082": {
+          "gid": "6163507583479946269",
+          "size": 718556342,
+          "download": 403151344
+        }
+      }
     }
   ],
-  "_change_number": 38752253,
+  "_change_number": 38753011,
   "_missing_token": false,
-  "_sha": "2d904f0cfecdd7cb2658a0b8d4bcba0bfa034d56",
+  "_sha": "5b56ce70a20b380df1bfe29d1a5e1dc22b2daec3",
   "_size": 8875,
   "appid": "578080",
   "common": {
@@ -399,8 +417,8 @@
     "578081": {
       "manifests": {
         "public": {
-          "download": "49263619936",
-          "gid": "2503297298324634676",
+          "download": "49263619792",
+          "gid": "4730960177439810188",
           "size": "51364391025"
         }
       }
@@ -408,18 +426,18 @@
     "578082": {
       "manifests": {
         "public": {
-          "download": "405232768",
-          "gid": "2619371223320018661",
-          "size": "719926454"
+          "download": "403151344",
+          "gid": "6163507583479946269",
+          "size": "718556342"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25199529",
-        "timebuildupdated": "1788920393",
-        "timeupdated": "1788998443"
+        "buildid": "25225767",
+        "timebuildupdated": "1789026547",
+        "timeupdated": "1789026624"
       }
     },
     "depotdeltapatches": "1",
