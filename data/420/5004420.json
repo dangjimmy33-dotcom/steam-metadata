@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788998463,
-  "_history": [],
-  "_change_number": 38600783,
-  "_missing_token": true,
-  "_sha": "f0b915b6bd6293519f4466f0734eb3d5bb8601ff",
-  "_size": 2979,
+  "_lastChecked": 1789004997,
+  "_history": [
+    {
+      "buildId": "25122233",
+      "branch": "public",
+      "timeUpdated": 1788520020,
+      "firstSeen": 1789004997,
+      "manifests": {
+        "5004421": {
+          "gid": "6143505283951944798",
+          "size": 711871993,
+          "download": 531685312
+        }
+      }
+    }
+  ],
+  "_change_number": 38744549,
+  "_missing_token": false,
+  "_sha": "0c638a440d241f4ff81c350d7157783c9c0cdd6e",
+  "_size": 3869,
   "appid": "5004420",
   "common": {
     "aicontenttype": "1",
@@ -32,7 +46,6 @@
     "clienticon": "0d907ab6216141b05dbebffd708fcfa4dfeb1df0",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5004420",
     "genres": {
       "0": "4",
@@ -104,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3e282c16c05b3178a86e722c82fa2f3445856e37/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1786731321",
     "store_tags": {
       "0": "597",
@@ -134,5 +148,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Door Runners",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Door_Runers.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5004421": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "531685312",
+          "gid": "6143505283951944798",
+          "size": "711871993"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25122233",
+        "timebuildupdated": "1788519707",
+        "timeupdated": "1788520020"
+      }
+    }
+  },
+  "extended": {
+    "developer": "NineHold",
+    "homepage": "https://ninehold.com/",
+    "publisher": "NineHold"
+  }
 }

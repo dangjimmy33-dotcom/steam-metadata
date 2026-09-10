@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788997989,
-  "_history": [],
-  "_change_number": 38735441,
-  "_missing_token": true,
-  "_sha": "7a972172efa4bc15bcfd18a0aeb92e2409e3a6c7",
-  "_size": 4407,
+  "_lastChecked": 1789004529,
+  "_history": [
+    {
+      "buildId": "25221083",
+      "branch": "public",
+      "timeUpdated": 1789003413,
+      "firstSeen": 1789004529,
+      "manifests": {
+        "4522481": {
+          "gid": "8921580728458999064",
+          "size": 2610039498,
+          "download": 801525504
+        }
+      }
+    }
+  ],
+  "_change_number": 38745832,
+  "_missing_token": false,
+  "_sha": "c75063de0707a0e3e83417205b885c56d368bc29",
+  "_size": 5731,
   "appid": "4522480",
   "common": {
     "aicontenttype": "1",
@@ -32,8 +46,8 @@
     },
     "clienticon": "838d2fad8c9cc8f8c92d4512d3e01ddfe4226bbd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4522480",
     "genres": {
       "0": "4",
@@ -119,11 +133,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "157c941dbd1901f0f24a3ed093417f2706888de1/capsule_231x87.jpg",
       "schinese": "4c186789751dc4b3a1c29368c5f8cd22a5d462b3/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789003602",
     "store_asset_mtime": "1788597782",
     "store_tags": {
       "0": "4236",
@@ -180,5 +195,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Slime Slayer",
+    "launch": {
+      "0": {
+        "arguments": " -force-d3d11 ",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Default-Dx11",
+        "description_loc": {
+          "english": "Default-Dx11",
+          "schinese": "默认选项Dx11"
+        },
+        "executable": "SlimeSlayer.exe"
+      },
+      "1": {
+        "description": "Black screen / stutter fix: Vulkan shader translation",
+        "description_loc": {
+          "english": "Black screen / stutter fix: Vulkan shader translation",
+          "schinese": "黑屏卡顿等使用此选项 Vulkan着色器"
+        },
+        "executable": "SlimeSlayer.exe"
+      }
+    }
+  },
+  "depots": {
+    "4522481": {
+      "manifests": {
+        "public": {
+          "download": "801525504",
+          "gid": "8921580728458999064",
+          "size": "2610039498"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25221083",
+        "timebuildupdated": "1789003401",
+        "timeupdated": "1789003413"
+      }
+    }
+  },
+  "extended": {
+    "developer": "OOM Games",
+    "publisher": "POE Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "OutOfMemory/SlimeSlayer",
+        "pattern": "*.bin",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

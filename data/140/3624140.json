@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788997008,
+  "_lastChecked": 1789003540,
   "_history": [
     {
       "buildId": "25184250",
@@ -39,12 +39,25 @@
           "download": 561163312
         }
       }
+    },
+    {
+      "buildId": "25219807",
+      "branch": "public",
+      "timeUpdated": 1788999237,
+      "firstSeen": 1789003540,
+      "manifests": {
+        "3624141": {
+          "gid": "6056570286009835170",
+          "size": 736623583,
+          "download": 561069696
+        }
+      }
     }
   ],
-  "_change_number": 38743441,
+  "_change_number": 38744250,
   "_missing_token": false,
-  "_sha": "13783ad19a9f2fb55843b55e0e611349ca553cad",
-  "_size": 9224,
+  "_sha": "3e42855e5efa948eccf5c30c2b59e410569f976a",
+  "_size": 9458,
   "appid": "3624140",
   "common": {
     "associations": {
@@ -377,13 +390,22 @@
         "type": "option1"
       },
       "2": {
-        "arguments": "-force-d3d11",
-        "description": "DX11 - use when game crashes",
+        "arguments": "-force-d3d12",
+        "description": "DX12 - use when game crashes",
         "description_loc": {
-          "english": "DX11 - use when game crashes"
+          "english": "DX12 - use when game crashes"
         },
         "executable": "Wanderburg.exe",
         "type": "option2"
+      },
+      "3": {
+        "arguments": "-force-vulkan",
+        "description": "Vulkan - use with AMD GPUs",
+        "description_loc": {
+          "english": "Vulkan - use with AMD GPUs"
+        },
+        "executable": "Wanderburg.exe",
+        "type": "option3"
       }
     },
     "uselaunchcommandline": "1"
@@ -392,17 +414,17 @@
     "3624141": {
       "manifests": {
         "public": {
-          "download": "561163312",
-          "gid": "6993636854200540102",
-          "size": "736667252"
+          "download": "561069696",
+          "gid": "6056570286009835170",
+          "size": "736623583"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25210496",
-        "timebuildupdated": "1788963323",
-        "timeupdated": "1788971566"
+        "buildid": "25219807",
+        "timebuildupdated": "1788997565",
+        "timeupdated": "1788999237"
       }
     },
     "privatebranches": "1"

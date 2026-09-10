@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788997723,
-  "_history": [],
-  "_change_number": 37213742,
-  "_missing_token": true,
-  "_sha": "81765d5c7d99a6c65cd013de3e15dfad71b99494",
-  "_size": 4678,
+  "_lastChecked": 1789004262,
+  "_history": [
+    {
+      "buildId": "22410436",
+      "branch": "public",
+      "timeUpdated": 1773902629,
+      "firstSeen": 1789004262,
+      "manifests": {
+        "4264271": {
+          "gid": "2702965804386401475",
+          "size": 1066909747,
+          "download": 950349824
+        }
+      }
+    }
+  ],
+  "_change_number": 38745241,
+  "_missing_token": false,
+  "_sha": "1d47b717d84b3f117eadee267bcdb8843ead28a8",
+  "_size": 5401,
   "appid": "4264270",
   "common": {
     "associations": {
@@ -31,7 +45,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4264270",
     "genres": {
       "0": "25"
@@ -119,12 +132,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b56700fde2ce114a536eaf328cc4d672343b46ad/capsule_231x87.jpg",
       "schinese": "0a4d2a92f3586c1e82118444fd7cc1f310158534/capsule_231x87_schinese.jpg",
       "tchinese": "3878a672ff47e2e9c096ad14f366131902f2bdef/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789002000",
     "store_asset_mtime": "1770168738",
     "store_tags": {
       "0": "4726",
@@ -167,5 +181,47 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fuyukuru",
+    "launch": {
+      "0": {
+        "executable": "fuyukuru.exe"
+      }
+    }
+  },
+  "depots": {
+    "4264271": {
+      "manifests": {
+        "public": {
+          "download": "950349824",
+          "gid": "2702965804386401475",
+          "size": "1066909747"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "22410436",
+        "timebuildupdated": "1773902564",
+        "timeupdated": "1773902629"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Silky's Plus",
+    "homepage": "https://shiravune.com/",
+    "publisher": "Shiravune"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Save",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

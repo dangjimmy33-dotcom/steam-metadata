@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788998497,
-  "_history": [],
-  "_change_number": 38436161,
-  "_missing_token": true,
-  "_sha": "046044f916084d524e04664f2528a7df4b27b8cd",
-  "_size": 3107,
+  "_lastChecked": 1789005032,
+  "_history": [
+    {
+      "buildId": "25005598",
+      "branch": "public",
+      "timeUpdated": 1787978311,
+      "firstSeen": 1789005032,
+      "manifests": {
+        "5044341": {
+          "gid": "6574299835540703117",
+          "size": 171767631,
+          "download": 49801488
+        }
+      }
+    }
+  ],
+  "_change_number": 38745398,
+  "_missing_token": false,
+  "_sha": "25fa9594d8602ba020584dfb6db369653f86b611",
+  "_size": 3745,
   "appid": "5044340",
   "common": {
     "associations": {
@@ -30,8 +44,8 @@
     },
     "clienticon": "5a304997793088ec02da0e9f9606efe0ba4a36d1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5044340",
     "genres": {
       "0": "4",
@@ -103,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ec1e959d75e297c81902dfdbdcca768e94d1a6ef/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789002364",
     "store_asset_mtime": "1787977610",
     "store_tags": {
       "0": "3878",
@@ -139,5 +154,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Aura Farming Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Aura Farm Simulator.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5044341": {
+      "manifests": {
+        "public": {
+          "download": "49801488",
+          "gid": "6574299835540703117",
+          "size": "171767631"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25005598",
+        "timebuildupdated": "1787978064",
+        "timeupdated": "1787978311"
+      }
+    }
+  },
+  "extended": {
+    "developer": "ShortStackStudio",
+    "publisher": "ShortStackStudio"
+  }
 }

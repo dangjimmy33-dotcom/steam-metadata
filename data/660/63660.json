@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788992822,
+  "_lastChecked": 1788999353,
   "_history": [
     {
       "buildId": "4937526",
@@ -38,9 +38,9 @@
       }
     }
   ],
-  "_change_number": 38741580,
+  "_change_number": 38743271,
   "_missing_token": false,
-  "_sha": "cc12bab76ceaedd154edec83d085a8f6dd8971b4",
+  "_sha": "d8b249148bd54dbb4015fa9ba6aaab3617a57f27",
   "_size": 11252,
   "appid": "63660",
   "common": {
@@ -255,7 +255,7 @@
     "installdir": "Myst Masterpiece",
     "launch": {
       "13": {
-        "arguments": "-i language-select.ini myst-me",
+        "arguments": "-c language-select.ini myst-me",
         "config": {
           "osarch": "64",
           "oslist": "windows"
@@ -268,7 +268,7 @@
         "type": "default"
       },
       "14": {
-        "arguments": "-i bundle:/language-select.ini myst-me",
+        "arguments": "-c bundle:/language-select.ini myst-me",
         "config": {
           "oslist": "macos"
         },
@@ -280,7 +280,7 @@
         "type": "default"
       },
       "15": {
-        "arguments": "-i language-select.ini myst-me-fr",
+        "arguments": "-c language-select.ini myst-me-fr",
         "config": {
           "osarch": "64",
           "oslist": "windows"
@@ -292,7 +292,7 @@
         "executable": "scummvm.exe"
       },
       "16": {
-        "arguments": "-i bundle:/language-select.ini myst-me-fr",
+        "arguments": "-c bundle:/language-select.ini myst-me-fr",
         "config": {
           "oslist": "macos"
         },
@@ -303,7 +303,7 @@
         "executable": "Myst Masterpiece Edition.app"
       },
       "17": {
-        "arguments": "-i language-select.ini myst-me-es",
+        "arguments": "-c language-select.ini myst-me-es",
         "config": {
           "osarch": "64",
           "oslist": "windows"
@@ -315,7 +315,7 @@
         "executable": "scummvm.exe"
       },
       "18": {
-        "arguments": "-i bundle:/language-select.ini myst-me-es",
+        "arguments": "-c bundle:/language-select.ini myst-me-es",
         "config": {
           "oslist": "macos"
         },
@@ -326,7 +326,7 @@
         "executable": "Myst Masterpiece Edition.app"
       },
       "19": {
-        "arguments": "-i language-select.ini myst-me-de",
+        "arguments": "-c language-select.ini myst-me-de",
         "config": {
           "osarch": "64",
           "oslist": "windows"
@@ -338,7 +338,7 @@
         "executable": "scummvm.exe"
       },
       "20": {
-        "arguments": "-i bundle:/language-select.ini myst-me-de",
+        "arguments": "-c bundle:/language-select.ini myst-me-de",
         "config": {
           "oslist": "macos"
         },
@@ -349,7 +349,7 @@
         "executable": "Myst Masterpiece Edition.app"
       },
       "21": {
-        "arguments": "-i language-select.ini myst-me-pl",
+        "arguments": "-c language-select.ini myst-me-pl",
         "config": {
           "osarch": "64",
           "oslist": "windows"
@@ -361,7 +361,7 @@
         "executable": "scummvm.exe"
       },
       "22": {
-        "arguments": "-i bundle:/language-select.ini myst-me-pl",
+        "arguments": "-c bundle:/language-select.ini myst-me-pl",
         "config": {
           "oslist": "macos"
         },

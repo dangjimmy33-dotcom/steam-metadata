@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788998096,
-  "_history": [],
-  "_change_number": 38743153,
-  "_missing_token": true,
-  "_sha": "dd363fb2cf4f286197c42d4450cdee0e53b623ac",
-  "_size": 4132,
+  "_lastChecked": 1789004635,
+  "_history": [
+    {
+      "buildId": "25220135",
+      "branch": "public",
+      "timeUpdated": 1788999060,
+      "firstSeen": 1789004635,
+      "manifests": {
+        "4622311": {
+          "gid": "7851279148083563721",
+          "size": 832690307,
+          "download": 120462896
+        }
+      }
+    }
+  ],
+  "_change_number": 38744277,
+  "_missing_token": false,
+  "_sha": "be3cbdc28f82670760c3fcc7b0c76b90561e1771",
+  "_size": 5173,
   "appid": "4622310",
   "common": {
     "associations": {
@@ -25,8 +39,8 @@
     },
     "clienticon": "df5935eef692d9034e4292723087ba1dd514bc55",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4622310",
     "genres": {
       "0": "4",
@@ -114,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f1acf0aa1a05937e7f37f22624f41676c70ca2e0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788999335",
     "store_asset_mtime": "1788966319",
     "store_tags": {
       "0": "560542",
@@ -198,5 +213,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Chicken Miner",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ChickenMiner.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4622311": {
+      "manifests": {
+        "public": {
+          "download": "120462896",
+          "gid": "7851279148083563721",
+          "size": "832690307"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,polish,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25220135",
+        "timebuildupdated": "1788999041",
+        "timeupdated": "1788999060"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Team Cloud",
+    "publisher": "Team Cloud"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "40",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "TeamCloud/ChickenMiner/MMData/SaveChicken",
+        "pattern": "ChickenMiner.saves",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
