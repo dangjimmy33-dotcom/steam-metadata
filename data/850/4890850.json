@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789042061,
-  "_history": [],
-  "_change_number": 38650353,
-  "_missing_token": true,
-  "_sha": "c44d022f041a9f7337b4e42f8bba8391dbb0215c",
-  "_size": 2771,
+  "_lastChecked": 1789047818,
+  "_history": [
+    {
+      "buildId": "25156141",
+      "branch": "public",
+      "timeUpdated": 1788724789,
+      "firstSeen": 1789047818,
+      "manifests": {
+        "4890851": {
+          "gid": "2354724253220622145",
+          "size": 1927682155,
+          "download": 870214944
+        }
+      }
+    }
+  ],
+  "_change_number": 38761567,
+  "_missing_token": false,
+  "_sha": "05cc90b29c73c141adf78f662d33a6d7742fd8a1",
+  "_size": 3381,
   "appid": "4890850",
   "common": {
     "aicontenttype": "2",
@@ -27,7 +41,6 @@
     "clienticon": "2d32025525fe6f7d8a211711c91138948798b9fe",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4890850",
     "genres": {
       "0": "4"
@@ -97,11 +110,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "47f5b4e19a5561b4c2ac6f2c8f5fd2f3722065f3/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1783543679",
+    "steam_release_date": "1790751600",
+    "store_asset_mtime": "1789045618",
     "store_tags": {
       "0": "597",
       "1": "7178",
@@ -122,5 +136,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bot or Brush",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Bot or Brush.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4890851": {
+      "manifests": {
+        "public": {
+          "download": "870214944",
+          "gid": "2354724253220622145",
+          "size": "1927682155"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25156141",
+        "timebuildupdated": "1788724758",
+        "timeupdated": "1788724789"
+      }
+    }
+  },
+  "extended": {
+    "developer": "MightyCodeDragon",
+    "publisher": "MightyCodeDragon"
+  }
 }

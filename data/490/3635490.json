@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789040712,
-  "_history": [],
-  "_change_number": 38721469,
-  "_missing_token": true,
-  "_sha": "d47c91aaf95300a2038b70358a5a4809df554420",
-  "_size": 4358,
+  "_lastChecked": 1789046665,
+  "_history": [
+    {
+      "buildId": "25204452",
+      "branch": "public",
+      "timeUpdated": 1788943547,
+      "firstSeen": 1789046665,
+      "manifests": {
+        "3635491": {
+          "gid": "7008567910902716096",
+          "size": 527841558,
+          "download": 245683568
+        },
+        "3635492": {
+          "gid": "4850383523608966349",
+          "size": 441179464,
+          "download": 242593296
+        },
+        "3635493": {
+          "gid": "6502292412275665822",
+          "size": 456161608,
+          "download": 233085856
+        }
+      }
+    }
+  ],
+  "_change_number": 38759544,
+  "_missing_token": false,
+  "_sha": "27568c960b72773c3b303fd6156a9cbf191f2ebe",
+  "_size": 6405,
   "appid": "3635490",
   "common": {
     "associations": {
@@ -35,8 +59,8 @@
     "clienticon": "0bcbd6bf0c10ae197358e5536578f988ea3263b3",
     "clienttga": "702bf44332da94a47dc82a4ef8397f68fa5c80f7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3635490",
     "genres": {
       "0": "4",
@@ -118,11 +142,12 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1b7fdcfc0e6044c3dabd35aec82106e809a8aa7f/capsule_231x87.jpg",
       "schinese": "d236706c96570af41dfe641d108d04fe63f66763/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789041668",
     "store_asset_mtime": "1788771249",
     "store_tags": {
       "0": "560542",
@@ -179,5 +204,117 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Orebits",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Orebits.app"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Orebits.exe"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Orebits"
+      }
+    }
+  },
+  "depots": {
+    "3635491": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "245683568",
+          "gid": "7008567910902716096",
+          "size": "527841558"
+        }
+      }
+    },
+    "3635492": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "242593296",
+          "gid": "4850383523608966349",
+          "size": "441179464"
+        }
+      }
+    },
+    "3635493": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "233085856",
+          "gid": "6502292412275665822",
+          "size": "456161608"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25204452",
+        "timebuildupdated": "1788943389",
+        "timeupdated": "1788943547"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Upgraded Studio",
+    "dlcavailableonstore": "1",
+    "homepage": "https://upgradedstudio.com",
+    "listofdlc": "5139420",
+    "publisher": "Molter"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "Orebits/User Data/Default/IndexedDB",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Orebits/Default/IndexedDB",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": ".config/Orebits/Default/IndexedDB",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

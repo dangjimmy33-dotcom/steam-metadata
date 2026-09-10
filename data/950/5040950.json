@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789042205,
-  "_history": [],
-  "_change_number": 38725594,
-  "_missing_token": true,
-  "_sha": "fae7bea3327ef520362f5f17d1961e855f2eb086",
-  "_size": 4404,
+  "_lastChecked": 1789047945,
+  "_history": [
+    {
+      "buildId": "25207327",
+      "branch": "public",
+      "timeUpdated": 1788953538,
+      "firstSeen": 1789047945,
+      "manifests": {
+        "5040951": {
+          "gid": "5427913231703376489",
+          "size": 290269197,
+          "download": 86131056
+        }
+      }
+    }
+  ],
+  "_change_number": 38761602,
+  "_missing_token": false,
+  "_sha": "c3fe1c1c6bef5cb46fa8b9c1fd654f9b4f1c7e3d",
+  "_size": 5272,
   "appid": "5040950",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5040950",
     "genres": {
       "0": "1",
@@ -100,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e4932c57f43d3f9140b3d08b433bdcc6591a5896/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789045867",
     "store_asset_mtime": "1786195901",
     "store_tags": {
       "0": "4255",
@@ -210,5 +224,44 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Raider Pheasant",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Raider Pheasant.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5040951": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "86131056",
+          "gid": "5427913231703376489",
+          "size": "290269197"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,english,finnish,french,german,indonesian,italian,japanese,koreana,norwegian,polish,russian,schinese,spanish,swedish,tchinese,turkish",
+    "branches": {
+      "public": {
+        "buildid": "25207327",
+        "timebuildupdated": "1788953346",
+        "timeupdated": "1788953538"
+      }
+    }
+  },
+  "extended": {
+    "developer": "PolygonLove International",
+    "publisher": "PolygonLove International"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789042140,
-  "_history": [],
-  "_change_number": 38206121,
-  "_missing_token": true,
-  "_sha": "676f255f3189829b9900ec940429ac69cd94aab6",
-  "_size": 2626,
+  "_lastChecked": 1789047884,
+  "_history": [
+    {
+      "buildId": "24683885",
+      "branch": "public",
+      "timeUpdated": 1786500384,
+      "firstSeen": 1789047884,
+      "manifests": {
+        "4966241": {
+          "gid": "6911814306586848818",
+          "size": 317283828,
+          "download": 190787264
+        }
+      }
+    }
+  ],
+  "_change_number": 38760687,
+  "_missing_token": false,
+  "_sha": "7c4640dd4cdb206065119a256171776adc78000e",
+  "_size": 3117,
   "appid": "4966240",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "3a693a09a962828a1c481c7c25b0f9e772ead43a",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4966240",
     "genres": {
       "0": "3"
@@ -94,10 +107,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "aae8f5204dfcf8e6299a758c3051de7fe1497aba/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789044062",
     "store_asset_mtime": "1787283009",
     "store_tags": {
       "0": "122",
@@ -116,5 +130,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sable of Y",
+    "launch": {
+      "0": {
+        "executable": "doctrine\\Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "4966241": {
+      "manifests": {
+        "public": {
+          "download": "190787264",
+          "gid": "6911814306586848818",
+          "size": "317283828"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24683885",
+        "timebuildupdated": "1786500246",
+        "timeupdated": "1786500384"
+      }
+    }
+  },
+  "extended": {
+    "developer": "YAO",
+    "publisher": "YAO"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789041630,
-  "_history": [],
-  "_change_number": 38732190,
-  "_missing_token": true,
-  "_sha": "492d31c0b3057f996428cbeeab28c8b91f5ffef9",
-  "_size": 3361,
+  "_lastChecked": 1789047442,
+  "_history": [
+    {
+      "buildId": "25169993",
+      "branch": "public",
+      "timeUpdated": 1788794849,
+      "firstSeen": 1789047442,
+      "manifests": {
+        "4461141": {
+          "gid": "3345828021373411048",
+          "size": 214761351,
+          "download": 108926000
+        }
+      }
+    }
+  ],
+  "_change_number": 38761468,
+  "_missing_token": false,
+  "_sha": "a54b95decc54bf1c723cc0cbb8be2d5032160bc1",
+  "_size": 4001,
   "appid": "4461140",
   "common": {
     "associations": {
@@ -33,9 +47,9 @@
     },
     "clienticon": "ddd4624919f2d4ea8785cef5e23941175b7b979b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4461140",
     "genres": {
       "0": "1",
@@ -109,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f1f8f08e919a31fe218ae85df9442c07ee5dc5ff/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789045648",
     "store_asset_mtime": "1788967498",
     "store_tags": {
       "0": "1716",
@@ -156,5 +171,41 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Squadika",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Game\\Squadika.exe"
+      }
+    }
+  },
+  "depots": {
+    "4461141": {
+      "manifests": {
+        "public": {
+          "download": "108926000",
+          "gid": "3345828021373411048",
+          "size": "214761351"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25169993",
+        "timebuildupdated": "1788794563",
+        "timeupdated": "1788794849"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Winterika",
+    "publisher": "Winterika"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000"
+  }
 }

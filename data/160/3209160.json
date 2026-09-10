@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789040224,
-  "_history": [],
-  "_change_number": 38758442,
-  "_missing_token": true,
-  "_sha": "fdd545bb3b37acd19ec884b7b101ea55f48987f7",
-  "_size": 3605,
+  "_lastChecked": 1789046256,
+  "_history": [
+    {
+      "buildId": "25229341",
+      "branch": "public",
+      "timeUpdated": 1789038625,
+      "firstSeen": 1789046256,
+      "manifests": {
+        "3209161": {
+          "gid": "7628059809466245635",
+          "size": 245040186,
+          "download": 98830560
+        },
+        "3209162": {
+          "gid": "7377718346313925737",
+          "size": 262990238,
+          "download": 107437200
+        }
+      }
+    }
+  ],
+  "_change_number": 38759506,
+  "_missing_token": false,
+  "_sha": "55d0ae104cb2b0f09358c3642176ef6293f05077",
+  "_size": 4920,
   "appid": "3209160",
   "common": {
     "associations": {
@@ -26,8 +45,8 @@
     "clienticon": "3340e41ba58b264d163a57d3268b95f92c19f700",
     "clienttga": "a56859fcb7ead4bbd889fc021ff5d863d4cda704",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3209160",
     "genres": {
       "0": "4",
@@ -100,10 +119,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5b05ffcb839beb4db6e90dc43ffc25dc1daf1489/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789041607",
     "store_asset_mtime": "1787911185",
     "store_tags": {
       "0": "1320952",
@@ -170,5 +190,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "GrandpasBeeHaven",
+    "launch": {
+      "0": {
+        "arguments": "--popupwindow",
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "grandpasbeehaven\\grandpasbeehaven\\Grandpa's Bee Haven.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "grandpasbeehavenmac\\grandpasbeehaven.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3209161": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "98830560",
+          "gid": "7628059809466245635",
+          "size": "245040186"
+        }
+      }
+    },
+    "3209162": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "107437200",
+          "gid": "7377718346313925737",
+          "size": "262990238"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,japanese,koreana,portuguese,schinese,spanish,tchinese,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "25229341",
+        "timebuildupdated": "1789038624",
+        "timeupdated": "1789038625"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kickstart Now",
+    "homepage": "https://tap.bio/@GrandpasBeeHaven",
+    "publisher": "Kickstart Now"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "128000000"
+  }
 }

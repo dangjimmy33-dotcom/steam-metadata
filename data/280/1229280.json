@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789037778,
+  "_lastChecked": 1789044199,
   "_history": [
     {
       "buildId": "5007017",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 37646952,
+  "_change_number": 38760272,
   "_missing_token": false,
-  "_sha": "56d7607990481ca5c8b85c7bd8f44e07a20196a5",
-  "_size": 2910,
+  "_sha": "c2bf3a09172c05a2b24c1d80a29dfa99b6d9daf1",
+  "_size": 3382,
   "appid": "1229280",
   "common": {
     "associations": {
@@ -149,6 +149,20 @@
         }
       }
     },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
     "branches": {
       "public": {
         "buildid": "5007017",
@@ -162,5 +176,18 @@
     "homepage": "https://blindsoft.dev/Projects/Projects.html",
     "isfreeapp": "1",
     "publisher": "Blindsoft"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "2",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "\\Hold10\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
   }
 }

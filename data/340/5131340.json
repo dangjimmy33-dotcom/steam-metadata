@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789042277,
+  "_lastChecked": 1789048006,
   "_history": [
     {
       "buildId": "24798955",
@@ -31,12 +31,30 @@
           "download": 38629520
         }
       }
+    },
+    {
+      "buildId": "25231634",
+      "branch": "public",
+      "timeUpdated": 1789046008,
+      "firstSeen": 1789048006,
+      "manifests": {
+        "5131341": {
+          "gid": "7504765304822708686",
+          "size": 95858684,
+          "download": 38507680
+        },
+        "5131342": {
+          "gid": "798601632411611286",
+          "size": 96714862,
+          "download": 38601312
+        }
+      }
     }
   ],
-  "_change_number": 38759183,
+  "_change_number": 38762318,
   "_missing_token": false,
-  "_sha": "a4320e8dd92d0987b9a4d3f0eca5999a1066d504",
-  "_size": 4565,
+  "_sha": "42e5cbd2382616486626f18b8514f3fa399a2062",
+  "_size": 4694,
   "appid": "5131340",
   "common": {
     "associations": {
@@ -133,7 +151,7 @@
     "name": "Crack Smoking Simulator",
     "osarch": "64",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "28",
     "releasestate": "released",
     "small_capsule": {
@@ -169,6 +187,13 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "default",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
     "installdir": "Crack Smoking Simulator",
     "launch": {
       "0": {
@@ -227,9 +252,9 @@
       },
       "manifests": {
         "public": {
-          "download": "38629520",
-          "gid": "2520303491455368622",
-          "size": "96646066"
+          "download": "38601312",
+          "gid": "798601632411611286",
+          "size": "96714862"
         }
       }
     },
@@ -242,9 +267,9 @@
         "timeupdated": "1787064097"
       },
       "public": {
-        "buildid": "25229810",
-        "timebuildupdated": "1789040185",
-        "timeupdated": "1789040231"
+        "buildid": "25231634",
+        "timebuildupdated": "1789045952",
+        "timeupdated": "1789046008"
       }
     }
   },

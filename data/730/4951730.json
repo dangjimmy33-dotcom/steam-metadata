@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789042123,
-  "_history": [],
-  "_change_number": 38393684,
-  "_missing_token": true,
-  "_sha": "1050d1ab3d9f786fb2502647df44152370638caa",
-  "_size": 2824,
+  "_lastChecked": 1789047869,
+  "_history": [
+    {
+      "buildId": "24762060",
+      "branch": "public",
+      "timeUpdated": 1786887304,
+      "firstSeen": 1789047869,
+      "manifests": {
+        "4951731": {
+          "gid": "4908087061054031717",
+          "size": 458761757,
+          "download": 262340128
+        }
+      }
+    }
+  ],
+  "_change_number": 38760550,
+  "_missing_token": false,
+  "_sha": "ca6ef774b879f8b954597dd5952744d85c37ef07",
+  "_size": 3549,
   "appid": "4951730",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "00d965886d7b863a6dc6918f5fe4cf446c956bf6",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4951730",
     "genres": {
       "0": "4"
@@ -95,10 +108,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a5b97f120228c75853e173433de723664089fc16/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789043799",
     "store_asset_mtime": "1786886288",
     "store_tags": {
       "0": "597",
@@ -123,5 +137,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "World of Mist",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "game.exe"
+      }
+    }
+  },
+  "depots": {
+    "4951731": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "262340128",
+          "gid": "4908087061054031717",
+          "size": "458761757"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "24762060",
+        "timebuildupdated": "1786887250",
+        "timeupdated": "1786887304"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Cat and Socks",
+    "publisher": "Cat and Socks"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "sync_while_suspended": "1"
+  }
 }

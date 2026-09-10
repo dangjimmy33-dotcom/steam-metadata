@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789042111,
-  "_history": [],
-  "_change_number": 38070957,
-  "_missing_token": true,
-  "_sha": "7251d1bcf9ec3daaf5f5a88802087706a1419277",
-  "_size": 2625,
+  "_lastChecked": 1789047859,
+  "_history": [
+    {
+      "buildId": "24193818",
+      "branch": "public",
+      "timeUpdated": 1783995235,
+      "firstSeen": 1789047859,
+      "manifests": {
+        "4940061": {
+          "gid": "760318782986168145",
+          "size": 317703777,
+          "download": 191197600
+        }
+      }
+    }
+  ],
+  "_change_number": 38760683,
+  "_missing_token": false,
+  "_sha": "f635b8a3380a96811192e12c162e514ead029e1b",
+  "_size": 3114,
   "appid": "4940060",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "ed2b32ac84ead1ee7891e84bb882f7db47571870",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4940060",
     "genres": {
       "0": "3"
@@ -94,10 +107,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "52e8c7fd8b13e493211de25f6c4a92f9b376820f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789044059",
     "store_asset_mtime": "1786893485",
     "store_tags": {
       "0": "122",
@@ -116,5 +130,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Toll of Y",
+    "launch": {
+      "0": {
+        "executable": "doctrine\\Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "4940061": {
+      "manifests": {
+        "public": {
+          "download": "191197600",
+          "gid": "760318782986168145",
+          "size": "317703777"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24193818",
+        "timebuildupdated": "1783995070",
+        "timeupdated": "1783995235"
+      }
+    }
+  },
+  "extended": {
+    "developer": "YAO",
+    "publisher": "YAO"
+  }
 }

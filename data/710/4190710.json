@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789041337,
-  "_history": [],
-  "_change_number": 38757759,
-  "_missing_token": true,
-  "_sha": "a36af97f978d2d63518172ac2b1794cb8fead2a0",
-  "_size": 4365,
+  "_lastChecked": 1789047194,
+  "_history": [
+    {
+      "buildId": "25230994",
+      "branch": "public",
+      "timeUpdated": 1789044699,
+      "firstSeen": 1789047194,
+      "manifests": {
+        "4190711": {
+          "gid": "504054833920977810",
+          "size": 1382044077,
+          "download": 1165330016
+        },
+        "4190712": {
+          "gid": "8805347041025391289",
+          "size": 1382044077,
+          "download": 1165325632
+        }
+      }
+    }
+  ],
+  "_change_number": 38761878,
+  "_missing_token": false,
+  "_sha": "5f68fb03d99463f9e7ac66abbd8a4a293983806f",
+  "_size": 5550,
   "appid": "4190710",
   "common": {
     "associations": {
@@ -29,8 +48,8 @@
     },
     "clienticon": "db813fc32f0f718465b412833f9c074c241bf49a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4190710",
     "genres": {
       "0": "1",
@@ -119,11 +138,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "563338eeaf27f304e363d69ae260596ae96ecb68/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1783600766",
+    "steam_release_date": "1789045247",
+    "store_asset_mtime": "1789045927",
     "store_tags": {
       "0": "3859",
       "1": "21",
@@ -211,5 +231,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Shady Job",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ShadyJob.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4190711": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1165330016",
+          "gid": "504054833920977810",
+          "size": "1382044077"
+        }
+      }
+    },
+    "4190712": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1165325632",
+          "gid": "8805347041025391289",
+          "size": "1382044077"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25230994",
+        "timebuildupdated": "1789043875",
+        "timeupdated": "1789044699"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "GAZE IN GAMES",
+    "homepage": "https://www.gazeingames.com/",
+    "publisher": "GAZE IN GAMES"
+  }
 }

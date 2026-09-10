@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789041236,
+  "_lastChecked": 1789047109,
   "_history": [
     {
       "buildId": "25187467",
@@ -26,12 +26,38 @@
           "download": 226818032
         }
       }
+    },
+    {
+      "buildId": "25231594",
+      "branch": "betabranch",
+      "timeUpdated": 1789045832,
+      "firstSeen": 1789047109,
+      "manifests": {
+        "4100881": {
+          "gid": "4304704779085436784",
+          "size": 1527619365,
+          "download": 226844480
+        }
+      }
+    },
+    {
+      "buildId": "25231594",
+      "branch": "public",
+      "timeUpdated": 1789046066,
+      "firstSeen": 1789047109,
+      "manifests": {
+        "4100881": {
+          "gid": "4304704779085436784",
+          "size": 1527619365,
+          "download": 226844480
+        }
+      }
     }
   ],
-  "_change_number": 38743353,
+  "_change_number": 38761700,
   "_missing_token": false,
-  "_sha": "7cb10309ba059bfdf90c2cf74e21abb329e87fcd",
-  "_size": 3827,
+  "_sha": "1008600a2558421abf70c70737f4de3f06537efc",
+  "_size": 4107,
   "appid": "4100880",
   "common": {
     "aicontenttype": "1",
@@ -183,18 +209,29 @@
   "depots": {
     "4100881": {
       "manifests": {
+        "betabranch": {
+          "download": "226844480",
+          "gid": "4304704779085436784",
+          "size": "1527619365"
+        },
         "public": {
-          "download": "226818032",
-          "gid": "8055027932098949891",
-          "size": "1527620373"
+          "download": "226844480",
+          "gid": "4304704779085436784",
+          "size": "1527619365"
         }
       }
     },
     "branches": {
+      "betabranch": {
+        "buildid": "25231594",
+        "description": "Beta Branch for BB2",
+        "timebuildupdated": "1789045780",
+        "timeupdated": "1789045832"
+      },
       "public": {
-        "buildid": "25191788",
-        "timebuildupdated": "1788886404",
-        "timeupdated": "1788886462"
+        "buildid": "25231594",
+        "timebuildupdated": "1789045780",
+        "timeupdated": "1789046066"
       }
     }
   },

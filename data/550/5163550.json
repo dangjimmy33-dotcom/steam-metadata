@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789042296,
-  "_history": [],
-  "_change_number": 38638893,
-  "_missing_token": true,
-  "_sha": "70c351c1933c8a6b8315851ee74e6a7f58d80d64",
-  "_size": 2913,
+  "_lastChecked": 1789048021,
+  "_history": [
+    {
+      "buildId": "25148498",
+      "branch": "public",
+      "timeUpdated": 1788668779,
+      "firstSeen": 1789048021,
+      "manifests": {
+        "5163551": {
+          "gid": "1118968144801067129",
+          "size": 155178531,
+          "download": 57723472
+        }
+      }
+    }
+  ],
+  "_change_number": 38761389,
+  "_missing_token": false,
+  "_sha": "261f3dd4dd939c57dcbef958b93b2c637f55263f",
+  "_size": 3534,
   "appid": "5163550",
   "common": {
     "associations": {
@@ -24,8 +38,8 @@
     },
     "clienticon": "a4d4831d89396e137477cd4d9d6b28ce7cd68674",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5163550",
     "genres": {
       "0": "1",
@@ -100,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "68f4c469a3f4fbb0f894572ac5f98b08e1accf50/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789045502",
     "store_asset_mtime": "1787930790",
     "store_tags": {
       "0": "19",
@@ -131,5 +146,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "VRetro",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "VRetro.exe",
+        "type": "openxr"
+      }
+    }
+  },
+  "depots": {
+    "5163551": {
+      "manifests": {
+        "public": {
+          "download": "57723472",
+          "gid": "1118968144801067129",
+          "size": "155178531"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25148498",
+        "timebuildupdated": "1788668709",
+        "timeupdated": "1788668779"
+      }
+    }
+  },
+  "extended": {
+    "developer": "fenigem",
+    "publisher": "fungamesvr",
+    "vrheadsetstreaming": "1"
+  }
 }

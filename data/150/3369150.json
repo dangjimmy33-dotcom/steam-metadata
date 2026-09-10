@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789040406,
-  "_history": [],
-  "_change_number": 38745894,
-  "_missing_token": true,
-  "_sha": "445e1299d68d6457addeecbd6880c822f48542fc",
-  "_size": 3210,
+  "_lastChecked": 1789046409,
+  "_history": [
+    {
+      "buildId": "25230166",
+      "branch": "public",
+      "timeUpdated": 1789041444,
+      "firstSeen": 1789046409,
+      "manifests": {
+        "3369151": {
+          "gid": "6083715955726106289",
+          "size": 419773190,
+          "download": 372991520
+        }
+      }
+    }
+  ],
+  "_change_number": 38761230,
+  "_missing_token": false,
+  "_sha": "487afd1d147f8a595a14c3df39fddbde8b0caac5",
+  "_size": 3948,
   "appid": "3369150",
   "common": {
     "associations": {
@@ -30,14 +44,19 @@
       "category_22": "1",
       "category_28": "1",
       "category_60": "1",
-      "category_62": "1"
+      "category_62": "1",
+      "category_66": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_75": "1",
+      "category_78": "1"
     },
     "clienticon": "155762b4d1714641b37281b4b9072b09325fc5f6",
     "clienttga": "816ba287a885a5eef347ced4db689617a60a5b48",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3369150",
     "genres": {
       "0": "25",
@@ -109,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f6ed330eea94f5c17cc7ee522aa7f588771a69a9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789045257",
     "store_asset_mtime": "1787130399",
     "store_tags": {
       "0": "10695",
@@ -143,5 +163,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Destiny Spire",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "destiny_spire.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3369151": {
+      "manifests": {
+        "public": {
+          "download": "372991520",
+          "gid": "6083715955726106289",
+          "size": "419773190"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25230166",
+        "timebuildupdated": "1789041441",
+        "timeupdated": "1789041444"
+      }
+    }
+  },
+  "extended": {
+    "developer": "r1kGAMES",
+    "publisher": "r1kGAMES"
+  }
 }

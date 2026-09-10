@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789042290,
-  "_history": [],
-  "_change_number": 38570726,
-  "_missing_token": true,
-  "_sha": "b9541996d9ff1761722b988d6c000d83513a7714",
-  "_size": 3114,
+  "_lastChecked": 1789048017,
+  "_history": [
+    {
+      "buildId": "24859403",
+      "branch": "public",
+      "timeUpdated": 1787307780,
+      "firstSeen": 1789048017,
+      "manifests": {
+        "5152451": {
+          "gid": "2852827676148183425",
+          "size": 239238416,
+          "download": 215890976
+        }
+      }
+    }
+  ],
+  "_change_number": 38760314,
+  "_missing_token": false,
+  "_sha": "28ea1da8c467089ff8fafeb2b1582598aaed3fe3",
+  "_size": 4324,
   "appid": "5152450",
   "common": {
     "associations": {
@@ -32,7 +46,6 @@
     "clienticon": "7b594f0328d47c5d7bddfef54df12fb80427d752",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5152450",
     "genres": {
       "0": "4",
@@ -104,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ea4b2d713f5bbff2c8b4637d91f1b4d2fdd03e20/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789043326",
     "store_asset_mtime": "1787812267",
     "store_tags": {
       "0": "597",
@@ -138,5 +152,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cutie Clicker",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launches the game.",
+        "description_loc": {
+          "english": "Launches the game."
+        },
+        "executable": "Cutie Clicker.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229003": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5152451": {
+      "manifests": {
+        "public": {
+          "download": "215890976",
+          "gid": "2852827676148183425",
+          "size": "239238416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24859403",
+        "timebuildupdated": "1787307754",
+        "timeupdated": "1787307780"
+      }
+    }
+  },
+  "extended": {
+    "developer": "WindowsLogic Productions",
+    "homepage": "https://windowslogic.co.uk",
+    "publisher": "WindowsLogic Productions"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "40",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Data",
+        "pattern": "*.ccs",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

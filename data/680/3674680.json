@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789040758,
-  "_history": [],
-  "_change_number": 38735936,
-  "_missing_token": true,
-  "_sha": "dbe804f3ec126b2df0dd30fa726b444273ca139e",
-  "_size": 3267,
+  "_lastChecked": 1789046704,
+  "_history": [
+    {
+      "buildId": "25195566",
+      "branch": "public",
+      "timeUpdated": 1788901841,
+      "firstSeen": 1789046704,
+      "manifests": {
+        "3674681": {
+          "gid": "2968406123349013393",
+          "size": 419814175,
+          "download": 183277168
+        }
+      }
+    }
+  ],
+  "_change_number": 38761350,
+  "_missing_token": false,
+  "_sha": "94c0bdf0c99067a67d85f27bd41fbb7e845e79e5",
+  "_size": 4102,
   "appid": "3674680",
   "common": {
     "associations": {
@@ -26,9 +40,9 @@
     "clienticon": "a0e868fe974545ab232693095d69e6374c406e62",
     "clienttga": "bb8ee72338b3cff8727850a4e9871ee7184228e8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3674680",
     "genres": {
       "0": "4",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a521123227530b785eacbfdbac225cdc6b40d8ae/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789045446",
     "store_asset_mtime": "1788468478",
     "store_tags": {
       "0": "1716",
@@ -150,5 +165,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Roguecraft",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Roguecraft_DX.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3674681": {
+      "manifests": {
+        "public": {
+          "download": "183277168",
+          "gid": "2968406123349013393",
+          "size": "419814175"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25195566",
+        "timebuildupdated": "1788901653",
+        "timeupdated": "1788901841"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Badger Punch Games",
+    "homepage": "https://www.badgerpunch.com/title/roguecraft-pc/",
+    "publisher": "Thalamus Digital"
+  }
 }
