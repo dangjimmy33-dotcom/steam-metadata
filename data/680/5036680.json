@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789055645,
-  "_history": [],
-  "_change_number": 38336658,
-  "_missing_token": true,
-  "_sha": "3060be543e6c4bc9c135ad6260caec5c21b5a845",
-  "_size": 3262,
+  "_lastChecked": 1789062422,
+  "_history": [
+    {
+      "buildId": "24470842",
+      "branch": "public",
+      "timeUpdated": 1785410166,
+      "firstSeen": 1789062422,
+      "manifests": {
+        "5036681": {
+          "gid": "5202870868561455417",
+          "size": 710534572,
+          "download": 607298080
+        }
+      }
+    }
+  ],
+  "_change_number": 38767206,
+  "_missing_token": false,
+  "_sha": "c08f00214f77b439ef540b3319ad873464ad7bca",
+  "_size": 3846,
   "appid": "5036680",
   "common": {
     "aicontenttype": "1",
@@ -41,7 +55,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5036680",
     "genres": {
       "0": "1",
@@ -115,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "89160b001161ed972f2dc8be55de3ac56409dc4f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1785411040",
     "store_tags": {
       "0": "597",
@@ -154,5 +168,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Visual Novel Golden Hostage",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Golden_Hostage.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5036681": {
+      "manifests": {
+        "public": {
+          "download": "607298080",
+          "gid": "5202870868561455417",
+          "size": "710534572"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24470842",
+        "timebuildupdated": "1785410145",
+        "timeupdated": "1785410166"
+      }
+    }
+  },
+  "extended": {
+    "developer": "GiBar",
+    "publisher": "RoBot"
+  }
 }

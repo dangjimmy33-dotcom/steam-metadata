@@ -1,12 +1,37 @@
 {
-  "_lastChecked": 1789055577,
-  "_history": [],
-  "_change_number": 38315909,
-  "_missing_token": true,
-  "_sha": "a12f7476cdd22024ee8131d009211d66432a0f73",
-  "_size": 3561,
+  "_lastChecked": 1789062352,
+  "_history": [
+    {
+      "buildId": "25235262",
+      "branch": "public",
+      "timeUpdated": 1789057310,
+      "firstSeen": 1789062352,
+      "manifests": {
+        "4962551": {
+          "gid": "8466311531681345718",
+          "size": 143782716,
+          "download": 58702304
+        },
+        "4962552": {
+          "gid": "2521794017577090983",
+          "size": 239093945,
+          "download": 83274816
+        },
+        "4962553": {
+          "gid": "7008966844731112361",
+          "size": 110309700,
+          "download": 50284576
+        }
+      }
+    }
+  ],
+  "_change_number": 38767487,
+  "_missing_token": false,
+  "_sha": "3f923005382e17ff7783d6c3974f0b5615009184",
+  "_size": 4811,
   "appid": "4962550",
   "common": {
+    "aicontenttype": "1",
     "associations": {
       "0": {
         "name": "Pixel Ghost",
@@ -35,7 +60,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4962550",
     "genres": {
       "0": "25",
@@ -107,11 +131,12 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "079db6a32d55871dad0cbdf88a33cd38a9542b2a/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1785321474",
+    "steam_release_date": "1790751600",
+    "store_asset_mtime": "1788405711",
     "store_tags": {
       "0": "21",
       "1": "1698",
@@ -158,5 +183,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Life's Too Short On Reflection",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "LTSPC.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "LTSOR.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "LTSLinux.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4962551": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "58702304",
+          "gid": "8466311531681345718",
+          "size": "143782716"
+        }
+      }
+    },
+    "4962552": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "83274816",
+          "gid": "2521794017577090983",
+          "size": "239093945"
+        }
+      }
+    },
+    "4962553": {
+      "manifests": {
+        "public": {
+          "download": "50284576",
+          "gid": "7008966844731112361",
+          "size": "110309700"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,japanese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25235262",
+        "timebuildupdated": "1789057292",
+        "timeupdated": "1789057310"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Pixel Ghost",
+    "publisher": "Pixel Ghost"
+  }
 }

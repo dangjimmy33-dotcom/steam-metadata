@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789055615,
-  "_history": [],
-  "_change_number": 38675586,
-  "_missing_token": true,
-  "_sha": "ea46180c06cc9b214194c58c0b6c489efed392c2",
-  "_size": 3049,
+  "_lastChecked": 1789062390,
+  "_history": [
+    {
+      "buildId": "25173209",
+      "branch": "public",
+      "timeUpdated": 1788808204,
+      "firstSeen": 1789062390,
+      "manifests": {
+        "5003041": {
+          "gid": "6843523567028445701",
+          "size": 152529024,
+          "download": 75288880
+        }
+      }
+    }
+  ],
+  "_change_number": 38766759,
+  "_missing_token": false,
+  "_sha": "a629ba50e8f3998fd37544a86dbe9a782274f738",
+  "_size": 3992,
   "appid": "5003040",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "d0aab78e34e5cf04c123632727656196355e38e6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5003040",
     "genres": {
       "0": "4",
@@ -103,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2330b91b3f773e1390855f18d60b598ca9043b8d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789056011",
     "store_asset_mtime": "1786797433",
     "store_tags": {
       "0": "597",
@@ -136,5 +151,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Aura Farmer 67",
+    "launch": {
+      "0": {
+        "executable": "AuraFarmer67.exe"
+      }
+    }
+  },
+  "depots": {
+    "5003041": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "75288880",
+          "gid": "6843523567028445701",
+          "size": "152529024"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english",
+    "branches": {
+      "public": {
+        "buildid": "25173209",
+        "timebuildupdated": "1788807442",
+        "timeupdated": "1788808204"
+      }
+    }
+  },
+  "extended": {
+    "developer": "saBOR Gamedev",
+    "publisher": "saBOR Gamedev"
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Aura Farmer 67/saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

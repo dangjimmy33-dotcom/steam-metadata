@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789055730,
-  "_history": [],
-  "_change_number": 38748483,
-  "_missing_token": true,
-  "_sha": "a6489e6a58e2ad5e6547ecbafa70c486c1f9332a",
-  "_size": 5162,
+  "_lastChecked": 1789062507,
+  "_history": [
+    {
+      "buildId": "25235987",
+      "branch": "public",
+      "timeUpdated": 1789061212,
+      "firstSeen": 1789062507,
+      "manifests": {
+        "5142271": {
+          "gid": "284086682786979796",
+          "size": 905834276,
+          "download": 575349936
+        }
+      }
+    }
+  ],
+  "_change_number": 38769213,
+  "_missing_token": false,
+  "_sha": "bf1fe83419e3ad6fa6960d672ffc6c37ed2073bf",
+  "_size": 6041,
   "appid": "5142270",
   "common": {
     "associations": {
@@ -27,8 +41,8 @@
     },
     "clienticon": "6657b42ba8da476ddf3bb22518a1a047428bf0f4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5142270",
     "genres": {
       "0": "25",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "04c0142f5ffb7b3b7c77fb798350ba47d7137c22/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789061365",
     "store_asset_mtime": "1788612456",
     "store_tags": {
       "0": "3843",
@@ -256,5 +271,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Car Parkour 3 Together",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Car Parkour 3 Together.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5142271": {
+      "manifests": {
+        "public": {
+          "download": "575349936",
+          "gid": "284086682786979796",
+          "size": "905834276"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25235987",
+        "timebuildupdated": "1789059853",
+        "timeupdated": "1789061212"
+      }
+    }
+  },
+  "extended": {
+    "developer": "cnsgames",
+    "publisher": "cnsgames"
+  }
 }

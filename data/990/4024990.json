@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789054575,
-  "_history": [],
-  "_change_number": 38570109,
-  "_missing_token": true,
-  "_sha": "7da712a5fef6ecb2af8dd066ae847452822a572e",
-  "_size": 4054,
+  "_lastChecked": 1789061333,
+  "_history": [
+    {
+      "buildId": "25065183",
+      "branch": "public",
+      "timeUpdated": 1788290629,
+      "firstSeen": 1789061333,
+      "manifests": {
+        "4024993": {
+          "gid": "1145602224996508524",
+          "size": 6159063225,
+          "download": 3377210656
+        }
+      }
+    }
+  ],
+  "_change_number": 38767105,
+  "_missing_token": false,
+  "_sha": "2e9059b857f4ff0dd00dd5ce98a8b307bc3f72e8",
+  "_size": 5159,
   "appid": "4024990",
   "common": {
     "associations": {
@@ -37,7 +51,6 @@
     "clienticon": "828c8f3eec6107a824e20dd19a4bd26c91d8048f",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4024990",
     "genres": {
       "0": "4",
@@ -109,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "73c30ca53088d0bda435d8904c29c5028dd1a344/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1786904455",
     "store_tags": {
       "0": "599",
@@ -189,5 +203,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Betrayal Banquet",
+    "launch": {
+      "0": {
+        "description": "betrayal banquet launch exe",
+        "description_loc": {
+          "english": "betrayal banquet launch exe"
+        },
+        "executable": "Betrayal Banquet.exe"
+      }
+    }
+  },
+  "depots": {
+    "4024993": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3377210656",
+          "gid": "1145602224996508524",
+          "size": "6159063225"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25065183",
+        "timebuildupdated": "1788290607",
+        "timeupdated": "1788290629"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Rashad Ibrahimli",
+    "publisher": "Rashad Ibrahimli"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "1",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Saves",
+        "pattern": "*.json",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

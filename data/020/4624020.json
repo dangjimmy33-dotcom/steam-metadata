@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789055238,
+  "_lastChecked": 1789062006,
   "_history": [
     {
       "buildId": "23931670",
@@ -23,12 +23,40 @@
           "download": 580782176
         }
       }
+    },
+    {
+      "buildId": "25235915",
+      "branch": "public",
+      "timeUpdated": 1789059852,
+      "firstSeen": 1789062006,
+      "manifests": {
+        "4624021": {
+          "gid": "5709815405707858082",
+          "size": 827240633,
+          "download": 588573872
+        },
+        "4624022": {
+          "gid": "6328278368560675336",
+          "size": 618107109,
+          "download": 471925232
+        },
+        "4624023": {
+          "gid": "3022092654025782902",
+          "size": 827240164,
+          "download": 580782176
+        },
+        "4624024": {
+          "gid": "5666531673579169273",
+          "size": 850020828,
+          "download": 692631792
+        }
+      }
     }
   ],
-  "_change_number": 37707661,
+  "_change_number": 38768567,
   "_missing_token": false,
-  "_sha": "77e6ca09c20bb06f6eba1f84f14337c8656314bb",
-  "_size": 5066,
+  "_sha": "a5ce2caee66ba01ffa12f4e3e6f04bac058b6ef3",
+  "_size": 5224,
   "appid": "4624020",
   "common": {
     "associations": {
@@ -243,11 +271,20 @@
         }
       }
     },
+    "4624024": {
+      "manifests": {
+        "public": {
+          "download": "692631792",
+          "gid": "5666531673579169273",
+          "size": "850020828"
+        }
+      }
+    },
     "branches": {
       "public": {
-        "buildid": "23931670",
-        "timebuildupdated": "1782478667",
-        "timeupdated": "1782478667"
+        "buildid": "25235915",
+        "timebuildupdated": "1789059624",
+        "timeupdated": "1789059852"
       }
     },
     "hasdepotsindlc": "1",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789052927,
+  "_lastChecked": 1789059685,
   "_history": [
     {
       "buildId": "21120371",
@@ -18,12 +18,35 @@
           "download": 288694160
         }
       }
+    },
+    {
+      "buildId": "25235503",
+      "branch": "public",
+      "timeUpdated": 1789058167,
+      "firstSeen": 1789059685,
+      "manifests": {
+        "2642761": {
+          "gid": "2154244616875673904",
+          "size": 767051163,
+          "download": 296332560
+        },
+        "2642762": {
+          "gid": "6512549148130246229",
+          "size": 779114167,
+          "download": 298721888
+        },
+        "2642763": {
+          "gid": "4461386912923835497",
+          "size": 790692542,
+          "download": 301711680
+        }
+      }
     }
   ],
-  "_change_number": 38673179,
+  "_change_number": 38767760,
   "_missing_token": false,
-  "_sha": "3172a1d25971702ee1c8751ff97373d6b8d4fab8",
-  "_size": 7026,
+  "_sha": "e12e260c61456b0a00f8143ea45aa8c9196058a3",
+  "_size": 7139,
   "appid": "2642760",
   "common": {
     "aicontenttype": "1",
@@ -293,9 +316,9 @@
       },
       "manifests": {
         "public": {
-          "download": "277831296",
-          "gid": "4878318612670819257",
-          "size": "702588722"
+          "download": "296332560",
+          "gid": "2154244616875673904",
+          "size": "767051163"
         }
       }
     },
@@ -306,9 +329,9 @@
       },
       "manifests": {
         "public": {
-          "download": "288694160",
-          "gid": "7749921352050824551",
-          "size": "727745428"
+          "download": "298721888",
+          "gid": "6512549148130246229",
+          "size": "779114167"
         }
       }
     },
@@ -316,13 +339,19 @@
       "config": {
         "oslist": "linux"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "301711680",
+          "gid": "4461386912923835497",
+          "size": "790692542"
+        }
+      }
     },
     "branches": {
       "public": {
-        "buildid": "21120371",
-        "timebuildupdated": "1765310797",
-        "timeupdated": "1765310835"
+        "buildid": "25235503",
+        "timebuildupdated": "1789058126",
+        "timeupdated": "1789058167"
       }
     },
     "privatebranches": "1"

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789055727,
-  "_history": [],
-  "_change_number": 38722873,
-  "_missing_token": true,
-  "_sha": "de5ab750a84c201a715c8d9a27a5d6ae375dd54f",
-  "_size": 3091,
+  "_lastChecked": 1789062505,
+  "_history": [
+    {
+      "buildId": "25205484",
+      "branch": "public",
+      "timeUpdated": 1788946866,
+      "firstSeen": 1789062505,
+      "manifests": {
+        "5138151": {
+          "gid": "8562029722033360388",
+          "size": 167333192,
+          "download": 72661696
+        }
+      }
+    }
+  ],
+  "_change_number": 38767641,
+  "_missing_token": false,
+  "_sha": "36982bad19ceb20e96715f14e595dea762d4c467",
+  "_size": 3652,
   "appid": "5138150",
   "common": {
     "associations": {
@@ -31,7 +45,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5138150",
     "genres": {
       "0": "1",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "630b40b80a31a8bd732c9fa2d2398c07ad48bdf1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789057846",
     "store_asset_mtime": "1787328989",
     "store_tags": {
       "0": "19",
@@ -137,5 +151,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Clamor Bounty Hunter Pinball",
+    "launch": {
+      "0": {
+        "executable": "pinball.exe"
+      }
+    }
+  },
+  "depots": {
+    "5138151": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "72661696",
+          "gid": "8562029722033360388",
+          "size": "167333192"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25205484",
+        "timebuildupdated": "1788946800",
+        "timeupdated": "1788946866"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Noisy Crow",
+    "publisher": "Noisy Crow"
+  }
 }

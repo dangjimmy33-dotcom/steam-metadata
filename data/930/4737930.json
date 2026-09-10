@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789055351,
-  "_history": [],
-  "_change_number": 38648723,
-  "_missing_token": true,
-  "_sha": "2e83d5ccc59b93efeacce74bdace7744a10c5b2e",
-  "_size": 3796,
+  "_lastChecked": 1789062119,
+  "_history": [
+    {
+      "buildId": "25155045",
+      "branch": "public",
+      "timeUpdated": 1788718223,
+      "firstSeen": 1789062119,
+      "manifests": {
+        "4737931": {
+          "gid": "1856493652572477831",
+          "size": 1097429295,
+          "download": 917229280
+        },
+        "4737932": {
+          "gid": "1005165763039028344",
+          "size": 1114225665,
+          "download": 925706816
+        },
+        "4737933": {
+          "gid": "53715020310084257",
+          "size": 1094212362,
+          "download": 915072224
+        }
+      }
+    }
+  ],
+  "_change_number": 38768546,
+  "_missing_token": false,
+  "_sha": "014e6a82761965e84842233c46721a3ade2761ab",
+  "_size": 6117,
   "appid": "4737930",
   "common": {
     "aicontenttype": "1",
@@ -32,6 +56,7 @@
     "clienticns": "7975df784471ef4ced24d26c1aa52cdf44bb5749",
     "clienticon": "0781845d7f2cd2bebb6ac74b4a10320f12d85b17",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -53,7 +78,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "4737930",
     "genres": {
       "0": "4"
@@ -124,11 +148,12 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "8099770688bb6cab3c8a98f1427f3951545da460/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789059811",
     "store_asset_mtime": "1785949424",
     "store_tags": {
       "0": "21",
@@ -164,6 +189,22 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "japanese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "polish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "russian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "schinese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "spanish": {
         "subtitles": "true",
         "supported": "true"
@@ -171,5 +212,113 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Under Her Command",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Under Her Command.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Under Her Command.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Under Her Command.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4737931": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "917229280",
+          "gid": "1856493652572477831",
+          "size": "1097429295"
+        }
+      }
+    },
+    "4737932": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "925706816",
+          "gid": "1005165763039028344",
+          "size": "1114225665"
+        }
+      }
+    },
+    "4737933": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "915072224",
+          "gid": "53715020310084257",
+          "size": "1094212362"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25155045",
+        "timebuildupdated": "1788718095",
+        "timeupdated": "1788718223"
+      }
+    }
+  },
+  "extended": {
+    "developer": "MorteDara",
+    "publisher": "MorteDara"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "50000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Morte Dara/Under Her Command/",
+            "replace": "Morte Dara/Under Her Command"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Morte Dara/Under Her Command/",
+            "replace": ".config/unity3d/Morte Dara/Under Her Command"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Morte Dara/Under Her Command/",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

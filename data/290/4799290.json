@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789055407,
-  "_history": [],
-  "_change_number": 36337404,
-  "_missing_token": true,
-  "_sha": "19222a7088bb3bc4fe7f612e3d52342f4615a7e6",
-  "_size": 3122,
+  "_lastChecked": 1789062179,
+  "_history": [
+    {
+      "buildId": "23569084",
+      "branch": "public",
+      "timeUpdated": 1780588718,
+      "firstSeen": 1789062179,
+      "manifests": {
+        "4799291": {
+          "gid": "7319276599079054182",
+          "size": 303966301,
+          "download": 283664096
+        }
+      }
+    }
+  ],
+  "_change_number": 38768409,
+  "_missing_token": false,
+  "_sha": "e6d2130078714d65ded9cda1febe0d27ff5ced53",
+  "_size": 3685,
   "appid": "4799290",
   "common": {
     "aicontenttype": "1",
@@ -24,6 +38,7 @@
     },
     "clienticon": "b3daf3d4ef1aba23fad6d1694650a9a588a43ec5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -37,7 +52,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4799290",
     "genres": {
       "0": "4",
@@ -108,11 +122,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "5ce84485affe4dcf44d62c67bb56645c33c9578d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789059613",
     "store_asset_mtime": "1780159426",
     "store_tags": {
       "0": "597",
@@ -143,5 +158,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sweet Ruins",
+    "launch": {
+      "0": {
+        "executable": "Sweet Ruins.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4799291": {
+      "manifests": {
+        "public": {
+          "download": "283664096",
+          "gid": "7319276599079054182",
+          "size": "303966301"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "23569084",
+        "timebuildupdated": "1780588692",
+        "timeupdated": "1780588718"
+      }
+    }
+  },
+  "extended": {
+    "developer": "King Kong",
+    "publisher": "King Kong Gaming"
+  }
 }

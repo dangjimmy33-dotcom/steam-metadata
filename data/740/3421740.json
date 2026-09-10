@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789053867,
-  "_history": [],
-  "_change_number": 38761757,
-  "_missing_token": true,
-  "_sha": "b10abd722a74ff96b967602c83b5845860a421c8",
-  "_size": 6545,
+  "_lastChecked": 1789060630,
+  "_history": [
+    {
+      "buildId": "25231427",
+      "branch": "public",
+      "timeUpdated": 1789046180,
+      "firstSeen": 1789060630,
+      "manifests": {
+        "3421741": {
+          "gid": "9210209826432854346",
+          "size": 4473216385,
+          "download": 501300464
+        },
+        "3421742": {
+          "gid": "2866898088167783420",
+          "size": 4489660064,
+          "download": 509120000
+        },
+        "3421743": {
+          "gid": "7444639710196734589",
+          "size": 4470024596,
+          "download": 499376320
+        }
+      }
+    }
+  ],
+  "_change_number": 38766773,
+  "_missing_token": false,
+  "_sha": "040678b662eaf8d535ab2ea808fdda9589416767",
+  "_size": 8672,
   "appid": "3421740",
   "common": {
     "associations": {
@@ -34,9 +58,9 @@
     "clienticon": "c447f284bb269cfd0ca4dde904d328db2bf20bb1",
     "clienttga": "c4331d24bc30cbad783a077fbdd6e20ed0819e2c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3421740",
     "genres": {
       "0": "4",
@@ -140,10 +164,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7842b073d8b58f60ca594334e156835d3bb1e80e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789056028",
     "store_asset_mtime": "1787059898",
     "store_tags": {
       "0": "97376",
@@ -311,5 +336,116 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Garen Ink",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "GardenInk.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "mac.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "GardenInk.x86_64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3421741": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "501300464",
+          "gid": "9210209826432854346",
+          "size": "4473216385"
+        }
+      }
+    },
+    "3421742": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "509120000",
+          "gid": "2866898088167783420",
+          "size": "4489660064"
+        }
+      }
+    },
+    "3421743": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "499376320",
+          "gid": "7444639710196734589",
+          "size": "4470024596"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25231427",
+        "timebuildupdated": "1789045233",
+        "timeupdated": "1789046180"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kranich",
+    "publisher": "Kranich"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "\\TalesFromTheGarden\\GardenInk",
+            "replace": "unity.TalesFromTheGarden.GardenInk"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "\\TalesFromTheGarden\\GardenInk",
+            "replace": "unity3d/TalesFromTheGarden/GardenInk"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "\\TalesFromTheGarden\\GardenInk",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

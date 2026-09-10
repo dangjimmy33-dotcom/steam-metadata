@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789055648,
-  "_history": [],
-  "_change_number": 38164509,
-  "_missing_token": true,
-  "_sha": "e48c47c10e9aef205d534bae2883f5d7581814c1",
-  "_size": 2725,
+  "_lastChecked": 1789062424,
+  "_history": [
+    {
+      "buildId": "24825258",
+      "branch": "public",
+      "timeUpdated": 1787168109,
+      "firstSeen": 1789062424,
+      "manifests": {
+        "5039191": {
+          "gid": "3163501505785604751",
+          "size": 1611293882,
+          "download": 531314688
+        }
+      }
+    }
+  ],
+  "_change_number": 38769654,
+  "_missing_token": false,
+  "_sha": "48aadfcb77bceafd0d8ad281538c07f3420dfe5a",
+  "_size": 3571,
   "appid": "5039190",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "5e057b7bc96e35db8d7ced7f7a655ac0cac8b3a6",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5039190",
     "genres": {
       "0": "28"
@@ -95,10 +108,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e5758adaa3a953a5f31982deb498d49ed1bed008/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789062355",
     "store_asset_mtime": "1785529533",
     "store_tags": {
       "0": "599",
@@ -119,5 +133,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dirt Fishing",
+    "launch": {
+      "0": {
+        "executable": "Dirt Fishing.exe"
+      }
+    }
+  },
+  "depots": {
+    "5039191": {
+      "manifests": {
+        "public": {
+          "download": "531314688",
+          "gid": "3163501505785604751",
+          "size": "1611293882"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24825258",
+        "timebuildupdated": "1787168077",
+        "timeupdated": "1787168109"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "CalmBee",
+    "publisher": "CalmBee"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "CalmBee Productions/Dirt Fishing",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789051314,
+  "_lastChecked": 1789058068,
   "_history": [
     {
       "buildId": "25059966",
@@ -13,12 +13,25 @@
           "download": 28965626752
         }
       }
+    },
+    {
+      "buildId": "25232759",
+      "branch": "public",
+      "timeUpdated": 1789051701,
+      "firstSeen": 1789058068,
+      "manifests": {
+        "1401201": {
+          "gid": "5994228647552889413",
+          "size": 29819845838,
+          "download": 28996511136
+        }
+      }
     }
   ],
-  "_change_number": 38763344,
+  "_change_number": 38764500,
   "_missing_token": false,
-  "_sha": "18eb775d9463b962ab06bee7f9a237bcf40d0974",
-  "_size": 6494,
+  "_sha": "eaadaf799a1f9540db31a0b2e1f00ada9477a17f",
+  "_size": 6508,
   "appid": "1401200",
   "common": {
     "associations": {
@@ -219,7 +232,7 @@
           "osarch": "64",
           "oslist": "windows"
         },
-        "executable": "SoSdev.exe",
+        "executable": "start_protected_game.exe",
         "type": "default"
       },
       "2": {
@@ -244,9 +257,9 @@
       },
       "manifests": {
         "public": {
-          "download": "28965626752",
-          "gid": "7972871328973743174",
-          "size": "29778441414"
+          "download": "28996511136",
+          "gid": "5994228647552889413",
+          "size": "29819845838"
         }
       }
     },
@@ -266,9 +279,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "25059966",
-        "timebuildupdated": "1788272665",
-        "timeupdated": "1788444555"
+        "buildid": "25232759",
+        "timebuildupdated": "1789049443",
+        "timeupdated": "1789051701"
       }
     },
     "hasdepotsindlc": "0",

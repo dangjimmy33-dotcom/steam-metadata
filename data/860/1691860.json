@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789051703,
+  "_lastChecked": 1789058455,
   "_history": [
     {
       "buildId": "9781430",
@@ -13,12 +13,25 @@
           "download": 225715472
         }
       }
+    },
+    {
+      "buildId": "25231231",
+      "branch": "beta",
+      "timeUpdated": 1789055337,
+      "firstSeen": 1789058455,
+      "manifests": {
+        "1691863": {
+          "gid": "7633649749822163348",
+          "size": 263846160,
+          "download": 161165488
+        }
+      }
     }
   ],
-  "_change_number": 38760929,
+  "_change_number": 38766347,
   "_missing_token": false,
-  "_sha": "9be67af5697070a9ef316344c374f6decbb76474",
-  "_size": 4908,
+  "_sha": "eb0467eb3b652738978c75f654293b5092be9c5d",
+  "_size": 5139,
   "appid": "1691860",
   "common": {
     "associations": {
@@ -236,6 +249,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "beta": {
+          "download": "161165488",
+          "gid": "7633649749822163348",
+          "size": "263846160"
+        },
         "public": {
           "download": "225715472",
           "gid": "4056719939333743136",
@@ -244,14 +262,19 @@
       }
     },
     "branches": {
+      "beta": {
+        "buildid": "25231231",
+        "description": "2.0 Beta",
+        "timebuildupdated": "1789044577",
+        "timeupdated": "1789055337"
+      },
       "public": {
         "buildid": "9781430",
         "timebuildupdated": "1666548501",
         "timeupdated": "1666554543"
       }
     },
-    "hasdepotsindlc": "0",
-    "privatebranches": "1"
+    "hasdepotsindlc": "0"
   },
   "extended": {
     "developer": "Code Studio",

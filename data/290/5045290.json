@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789055653,
-  "_history": [],
-  "_change_number": 37796240,
-  "_missing_token": true,
-  "_sha": "2baff3cb9564fd397e48a6a6e27973ce6c10cb67",
-  "_size": 8666,
+  "_lastChecked": 1789062430,
+  "_history": [
+    {
+      "buildId": "24507494",
+      "branch": "public",
+      "timeUpdated": 1785580358,
+      "firstSeen": 1789062430,
+      "manifests": {
+        "5045291": {
+          "gid": "1560022120105346188",
+          "size": 244100934,
+          "download": 95307120
+        }
+      }
+    }
+  ],
+  "_change_number": 38769600,
+  "_missing_token": false,
+  "_sha": "32750f79b386c8c17d6c8c91f6b750f37a2ebec0",
+  "_size": 9403,
   "appid": "5045290",
   "common": {
     "aicontenttype": "1",
@@ -33,6 +47,7 @@
     },
     "clienticon": "2ccb9fd0bb2db36e1fa3a01e56445d3b04774ab1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -46,7 +61,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5045290",
     "genres": {
       "0": "4",
@@ -117,11 +131,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "6ad1eb8deac89bce9722fb3403e02b841c7c8bf0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789062191",
     "store_asset_mtime": "1785572408",
     "store_tags": {
       "0": "597",
@@ -480,5 +495,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hentai Step Sister",
+    "launch": {
+      "0": {
+        "executable": "Hentai Step Sister.exe"
+      }
+    }
+  },
+  "depots": {
+    "5045291": {
+      "manifests": {
+        "public": {
+          "download": "95307120",
+          "gid": "1560022120105346188",
+          "size": "244100934"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24507494",
+        "timebuildupdated": "1785577593",
+        "timeupdated": "1785580358"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Cyber Keks",
+    "publisher": "Cyber Keks"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000",
+    "savefiles": {
+      "0": {
+        "path": "Hentai Step Sister_Data",
+        "pattern": "SaveData.json",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

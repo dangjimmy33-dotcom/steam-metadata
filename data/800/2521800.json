@@ -1,10 +1,10 @@
 {
-  "_lastChecked": 1789052787,
+  "_lastChecked": 1789059544,
   "_history": [],
-  "_change_number": 38605448,
+  "_change_number": 38768026,
   "_missing_token": true,
-  "_sha": "3ad5a2da477046034091134a86615c605e1b1004",
-  "_size": 4376,
+  "_sha": "d2cd86a7646fc63d206c54f71f25a09bc7d6212f",
+  "_size": 5572,
   "appid": "2521800",
   "common": {
     "aicontenttype": "1",
@@ -111,6 +111,48 @@
     "releasestate": "prerelease",
     "small_capsule": {
       "english": "6ec17a51fc5a57d2fd9be07e3aecb093553e27c0/capsule_231x87.jpg"
+    },
+    "steam_frame_compatibility": {
+      "category": "3",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "lepton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1789056813",
+      "tested_build_id": "25125604",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
     },
     "store_asset_mtime": "1787153837",
     "store_tags": {

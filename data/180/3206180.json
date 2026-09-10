@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789053611,
-  "_history": [],
-  "_change_number": 38739406,
-  "_missing_token": true,
-  "_sha": "92a804e201381e779423c39d43b938653fb9004c",
-  "_size": 3631,
+  "_lastChecked": 1789060373,
+  "_history": [
+    {
+      "buildId": "25205253",
+      "branch": "public",
+      "timeUpdated": 1788948655,
+      "firstSeen": 1789060373,
+      "manifests": {
+        "3206182": {
+          "gid": "9015890372287927246",
+          "size": 500400288,
+          "download": 341056288
+        },
+        "3206183": {
+          "gid": "727720426775091504",
+          "size": 452287736,
+          "download": 311785024
+        }
+      }
+    }
+  ],
+  "_change_number": 38766765,
+  "_missing_token": false,
+  "_sha": "4045a4304f3f8870556682109a2ebb4838260a64",
+  "_size": 5454,
   "appid": "3206180",
   "common": {
     "aicontenttype": "1",
@@ -25,14 +44,18 @@
       "category_28": "1",
       "category_55": "1",
       "category_57": "1",
-      "category_62": "1"
+      "category_62": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_74": "1",
+      "category_80": "1"
     },
     "clienticon": "f1ae502da33a743aa69eea5159385b08fcda4017",
     "clienttga": "14990daaba3525f94ed5dfac3554d48aabfca3fc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3206180",
     "genres": {
       "0": "4"
@@ -102,11 +125,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5a96cae057feadbd9869c282a9bb85e55ce36cfd/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1780517773",
+    "steam_release_date": "1789056015",
+    "store_asset_mtime": "1788946731",
     "store_tags": {
       "0": "1664",
       "1": "4166",
@@ -168,5 +192,99 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Millumi",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Millumi.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Millumi.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3206182": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "341056288",
+          "gid": "9015890372287927246",
+          "size": "500400288"
+        }
+      }
+    },
+    "3206183": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "311785024",
+          "gid": "727720426775091504",
+          "size": "452287736"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25205253",
+        "timebuildupdated": "1788946088",
+        "timeupdated": "1788948655"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Marcel Kuebler Software",
+    "publisher": "Marcel Kuebler Software"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "8192",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".local/share/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Millumi/",
+        "pattern": "*.sav",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

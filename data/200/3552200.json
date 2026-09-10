@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789054011,
+  "_lastChecked": 1789060774,
   "_history": [
     {
       "buildId": "22244698",
@@ -106,12 +106,43 @@
           "download": 3644038160
         }
       }
+    },
+    {
+      "buildId": "25235111",
+      "branch": "dev_branch",
+      "timeUpdated": 1789056891,
+      "firstSeen": 1789060774,
+      "manifests": {
+        "3552201": {
+          "gid": "2578051936654535908",
+          "size": 5928919340,
+          "download": 3607586752
+        }
+      }
+    },
+    {
+      "buildId": "25235158",
+      "branch": "macos_dev_branch",
+      "timeUpdated": 1789056912,
+      "firstSeen": 1789060774,
+      "manifests": {
+        "3552201": {
+          "gid": "7959947503576931075",
+          "size": 6214084292,
+          "download": 3643581696
+        },
+        "3552202": {
+          "gid": "5532194742773746593",
+          "size": 5854135078,
+          "download": 3700546688
+        }
+      }
     }
   ],
-  "_change_number": 38695404,
+  "_change_number": 38767213,
   "_missing_token": false,
-  "_sha": "3f6c5e8ffeb2bf14f88635cf4f6d5b195a442398",
-  "_size": 5907,
+  "_sha": "50b54580cfbafc07dce7642fe0870340e51af07a",
+  "_size": 5908,
   "appid": "3552200",
   "common": {
     "associations": {
@@ -327,9 +358,9 @@
     "3552201": {
       "manifests": {
         "dev_branch": {
-          "download": "3644038160",
-          "gid": "615570100156925951",
-          "size": "6025215803"
+          "download": "3607586752",
+          "gid": "2578051936654535908",
+          "size": "5928919340"
         },
         "macos_dev_branch": {
           "download": "3643581696",
@@ -349,9 +380,9 @@
       },
       "manifests": {
         "macos_dev_branch": {
-          "download": "3767030096",
-          "gid": "3039162131353789918",
-          "size": "6183451364"
+          "download": "3700546688",
+          "gid": "5532194742773746593",
+          "size": "5854135078"
         }
       }
     },
@@ -362,16 +393,16 @@
     },
     "branches": {
       "dev_branch": {
-        "buildid": "25187346",
+        "buildid": "25235111",
         "description": "Private development branch",
-        "timebuildupdated": "1788871608",
-        "timeupdated": "1788871782"
+        "timebuildupdated": "1789056756",
+        "timeupdated": "1789056891"
       },
       "macos_dev_branch": {
-        "buildid": "25182388",
+        "buildid": "25235158",
         "description": "Private development and testing on MacOS",
-        "timebuildupdated": "1788854589",
-        "timeupdated": "1788854589"
+        "timebuildupdated": "1789056912",
+        "timeupdated": "1789056912"
       },
       "public": {
         "buildid": "22244698",

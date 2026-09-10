@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789053166,
-  "_history": [],
-  "_change_number": 38757412,
-  "_missing_token": true,
-  "_sha": "b477e829c58cc135325ebac92171a75adf5215dd",
-  "_size": 2754,
+  "_lastChecked": 1789059929,
+  "_history": [
+    {
+      "buildId": "25228704",
+      "branch": "public",
+      "timeUpdated": 1789036688,
+      "firstSeen": 1789059929,
+      "manifests": {
+        "2837781": {
+          "gid": "7449691042130966794",
+          "size": 5634157527,
+          "download": 5354631232
+        }
+      }
+    }
+  ],
+  "_change_number": 38768466,
+  "_missing_token": false,
+  "_sha": "8d0800751efe1d480da2ea7292d3bcefc15c1e53",
+  "_size": 3708,
   "appid": "2837780",
   "common": {
     "associations": {
@@ -24,6 +38,7 @@
     "clienticon": "525c9f1cc54ed9c70029cea5604139e195b79270",
     "clienttga": "2e4dd6598b7871c42fdcda231e6e6aae4bb2b509",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -33,7 +48,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2837780",
     "genres": {
       "0": "1",
@@ -99,7 +113,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "41b422561cdd892f138409ce7bad95e55fbc5e2f/capsule_231x87.jpg"
     },
@@ -138,5 +152,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Grand Russian Gangs",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "KARJALA.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2837781": {
+      "manifests": {
+        "public": {
+          "download": "5354631232",
+          "gid": "7449691042130966794",
+          "size": "5634157527"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25228704",
+        "timebuildupdated": "1789036496",
+        "timeupdated": "1789036688"
+      }
+    }
+  },
+  "extended": {
+    "developer": "UWEG",
+    "homepage": "https://gromvel.ru/igry/",
+    "publisher": "SQRT Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "10000000"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789054770,
-  "_history": [],
-  "_change_number": 38743425,
-  "_missing_token": true,
-  "_sha": "50ed7f8949e04e26e25263f4338865d8e4846910",
-  "_size": 3050,
+  "_lastChecked": 1789061532,
+  "_history": [
+    {
+      "buildId": "25005004",
+      "branch": "public",
+      "timeUpdated": 1789055372,
+      "firstSeen": 1789061532,
+      "manifests": {
+        "4200241": {
+          "gid": "3415726313138124216",
+          "size": 2517916466,
+          "download": 2149933600
+        }
+      }
+    }
+  ],
+  "_change_number": 38766428,
+  "_missing_token": false,
+  "_sha": "1b7a3689221d5784199b076ff576bbfa35a5b76d",
+  "_size": 3752,
   "appid": "4200240",
   "common": {
     "associations": {
@@ -26,7 +40,6 @@
     "clienticon": "88bfc0962dd7e57b20c0cf3e18f71715b1c8a02e",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4200240",
     "genres": {
       "0": "1",
@@ -100,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3b49ef493afb7653342f2c2f525894e12c9a47ab/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789055497",
     "store_asset_mtime": "1788893192",
     "store_tags": {
       "0": "21978",
@@ -136,5 +150,41 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fresh Tracks VR",
+    "launch": {
+      "1": {
+        "arguments": "-vr",
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "FreshTracks.exe",
+        "type": "openxr"
+      }
+    }
+  },
+  "depots": {
+    "4200241": {
+      "manifests": {
+        "public": {
+          "download": "2149933600",
+          "gid": "3415726313138124216",
+          "size": "2517916466"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25005004",
+        "timebuildupdated": "1787973722",
+        "timeupdated": "1789055372"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Buffalo Buffalo",
+    "homepage": "https://www.buffalobuffalo.ca/games/freshtracks",
+    "publisher": "Buffalo Buffalo"
+  }
 }

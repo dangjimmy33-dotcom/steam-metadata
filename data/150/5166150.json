@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789055744,
-  "_history": [],
-  "_change_number": 38748375,
-  "_missing_token": true,
-  "_sha": "e0ff2e1c31debfb5dbb4ace8b5fc67cbeab5b603",
-  "_size": 4708,
+  "_lastChecked": 1789062521,
+  "_history": [
+    {
+      "buildId": "25222637",
+      "branch": "public",
+      "timeUpdated": 1789010546,
+      "firstSeen": 1789062521,
+      "manifests": {
+        "5166151": {
+          "gid": "5894376729744353398",
+          "size": 146104231,
+          "download": 139173328
+        }
+      }
+    }
+  ],
+  "_change_number": 38768489,
+  "_missing_token": false,
+  "_sha": "be1d31b7bd62d232414c247e30728bd6647ba81f",
+  "_size": 5850,
   "appid": "5166150",
   "common": {
     "aicontenttype": "1",
@@ -21,6 +35,8 @@
     "category": {
       "category_18": "1",
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
       "category_55": "1",
       "category_56": "1",
       "category_57": "1",
@@ -36,6 +52,7 @@
     },
     "clienticon": "690ef301663cf81716d2186de0de0fa7486b292b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -44,7 +61,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5166150",
     "genres": {
       "0": "4",
@@ -116,10 +132,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7eccbf5bba0ea980df1b7bf8790097f9fec3097e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789059678",
     "store_asset_mtime": "1788917389",
     "store_tags": {
       "0": "5432",
@@ -240,5 +257,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "AgentsPlease",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "AgentsPlease.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input_manifest.vdf"
+  },
+  "depots": {
+    "5166151": {
+      "manifests": {
+        "public": {
+          "download": "139173328",
+          "gid": "5894376729744353398",
+          "size": "146104231"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25222637",
+        "timebuildupdated": "1789010544",
+        "timeupdated": "1789010546"
+      }
+    }
+  },
+  "extended": {
+    "developer": "KIB Games",
+    "homepage": "https://kibgames.com/",
+    "publisher": "KIB Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "16",
+    "quota": "8388608",
+    "savefiles": {
+      "0": {
+        "path": "com.kibgames.agentsplease/cloud/{Steam3AccountID}",
+        "pattern": "*.json",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

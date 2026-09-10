@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789054845,
-  "_history": [],
-  "_change_number": 38764628,
-  "_missing_token": true,
-  "_sha": "5c0d1c0aa9134e86804ebf8912051acbbf5c7943",
-  "_size": 4630,
+  "_lastChecked": 1789061607,
+  "_history": [
+    {
+      "buildId": "25163973",
+      "branch": "public",
+      "timeUpdated": 1789051931,
+      "firstSeen": 1789061607,
+      "manifests": {
+        "4262621": {
+          "gid": "4576398400023738351",
+          "size": 12348131715,
+          "download": 12126475984
+        }
+      }
+    }
+  ],
+  "_change_number": 38766750,
+  "_missing_token": false,
+  "_sha": "7fcc0cc7d2adeea8776b34e6152369b88aba70f4",
+  "_size": 5812,
   "appid": "4262620",
   "common": {
     "associations": {
@@ -44,6 +58,7 @@
     },
     "clienticon": "41788745e2805d5fbde515b4dcf2e1464a0dadbf",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -52,7 +67,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4262620",
     "genres": {
       "0": "25"
@@ -136,11 +150,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2219d7d2ca5a81e653b5aff117c99240777f4ece/capsule_231x87.jpg",
       "japanese": "c6770c29220601c2989346ed29b907182bfbaca2/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1789056003",
     "store_asset_mtime": "1787129801",
     "store_tags": {
       "0": "21",
@@ -206,5 +221,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Alighieri Circle Dante's Bloodline",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TheAlighieriCircle.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4262621": {
+      "manifests": {
+        "public": {
+          "download": "12126475984",
+          "gid": "4576398400023738351",
+          "size": "12348131715"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25163973",
+        "timebuildupdated": "1788772170",
+        "timeupdated": "1789051931"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "ONE-O-ONE GAMES",
+    "homepage": "https://entaltostudios.com/the-alighieri-circle/",
+    "publisher": "Entalto Publishing"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "TheAlighieriCircle",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

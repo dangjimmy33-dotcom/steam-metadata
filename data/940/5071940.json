@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789055676,
+  "_lastChecked": 1789062453,
   "_history": [
     {
       "buildId": "25175910",
@@ -49,12 +49,30 @@
           "download": 330398032
         }
       }
+    },
+    {
+      "buildId": "25235319",
+      "branch": "public",
+      "timeUpdated": 1789057645,
+      "firstSeen": 1789062453,
+      "manifests": {
+        "5071941": {
+          "gid": "691404693886347556",
+          "size": 1083535045,
+          "download": 303091088
+        },
+        "5071943": {
+          "gid": "2603980890345925416",
+          "size": 1196625248,
+          "download": 331598240
+        }
+      }
     }
   ],
-  "_change_number": 38701000,
+  "_change_number": 38767551,
   "_missing_token": false,
-  "_sha": "aef4fc051bcfbec3e08c8b0a1218b9ca86328e22",
-  "_size": 5414,
+  "_sha": "b9e0e8e48194bf2619dfeeda8b8578f9e4682569",
+  "_size": 5024,
   "appid": "5071940",
   "common": {
     "associations": {
@@ -259,15 +277,10 @@
         "oslist": "windows"
       },
       "manifests": {
-        "mac_branch": {
-          "download": "302227440",
-          "gid": "3289008271869093731",
-          "size": "1075437119"
-        },
         "public": {
-          "download": "302227440",
-          "gid": "3289008271869093731",
-          "size": "1075437119"
+          "download": "303091088",
+          "gid": "691404693886347556",
+          "size": "1083535045"
         }
       }
     },
@@ -277,29 +290,18 @@
         "oslist": "macos"
       },
       "manifests": {
-        "mac_branch": {
-          "download": "330398032",
-          "gid": "3372458743191432723",
-          "size": "1188452799"
-        },
         "public": {
-          "download": "330398032",
-          "gid": "3372458743191432723",
-          "size": "1188452799"
+          "download": "331598240",
+          "gid": "2603980890345925416",
+          "size": "1196625248"
         }
       }
     },
     "branches": {
-      "mac_branch": {
-        "buildid": "25186900",
-        "description": "mac branch",
-        "timebuildupdated": "1788870055",
-        "timeupdated": "1788870055"
-      },
       "public": {
-        "buildid": "25186900",
-        "timebuildupdated": "1788870055",
-        "timeupdated": "1788875206"
+        "buildid": "25235319",
+        "timebuildupdated": "1789057472",
+        "timeupdated": "1789057645"
       }
     }
   },

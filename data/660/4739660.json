@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789055353,
-  "_history": [],
-  "_change_number": 38750741,
-  "_missing_token": true,
-  "_sha": "768bd94af1490f2e870db77b78f2b01582941f72",
-  "_size": 3313,
+  "_lastChecked": 1789062121,
+  "_history": [
+    {
+      "buildId": "25224245",
+      "branch": "public",
+      "timeUpdated": 1789019328,
+      "firstSeen": 1789062121,
+      "manifests": {
+        "4739661": {
+          "gid": "8723720246353435001",
+          "size": 1116888368,
+          "download": 365569824
+        },
+        "4739662": {
+          "gid": "5942566728991265206",
+          "size": 1386781114,
+          "download": 443126208
+        },
+        "4739663": {
+          "gid": "5834869580594247526",
+          "size": 1187688373,
+          "download": 380516624
+        }
+      }
+    }
+  ],
+  "_change_number": 38768071,
+  "_missing_token": false,
+  "_sha": "a224b98d7121f62bc514f2f1224092638615822c",
+  "_size": 5356,
   "appid": "4739660",
   "common": {
     "associations": {
@@ -42,7 +66,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4739660",
     "genres": {
       "0": "4",
@@ -115,11 +138,12 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "bc50d239d78353955d8afdd241ceccaeb92e93d2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789058837",
     "store_asset_mtime": "1788839534",
     "store_tags": {
       "0": "12095",
@@ -147,5 +171,110 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Drag'n Wash",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DragNWash.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "DragNWash"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "DragNWash.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "3",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4739661": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "365569824",
+          "gid": "8723720246353435001",
+          "size": "1116888368"
+        }
+      }
+    },
+    "4739662": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "443126208",
+          "gid": "5942566728991265206",
+          "size": "1386781114"
+        }
+      }
+    },
+    "4739663": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "380516624",
+          "gid": "5834869580594247526",
+          "size": "1187688373"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25224245",
+        "timebuildupdated": "1789019147",
+        "timeupdated": "1789019328"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Gator Dragon Games",
+    "publisher": "Gator Dragon Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".config/unity3d/Gator Dragon Games/DragNWash/{64BitSteamID}",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "addpath": "Gator Dragon Games/DragNWash/{64BitSteamID}",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Gator Dragon Games/DragNWash/{64BitSteamID}",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

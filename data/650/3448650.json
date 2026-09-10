@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789053899,
+  "_lastChecked": 1789060663,
   "_history": [
     {
       "buildId": "25057376",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38762959,
+  "_change_number": 38768693,
   "_missing_token": false,
-  "_sha": "d391d874a803cb10fe7a2f027ae8a0cac980153c",
-  "_size": 6395,
+  "_sha": "6a107933377626d966075e532358cb0f0355573c",
+  "_size": 7532,
   "appid": "3448650",
   "common": {
     "associations": {
@@ -168,6 +168,47 @@
     "review_score": "5",
     "small_capsule": {
       "english": "ca75b2be4cfcfbbb74518f8bf963f09bbc111bf5/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "1",
+      "steam_machine_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "steamos_compatibility": "1",
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "test_timestamp": "1788451785",
+      "tested_build_id": "25057376",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+        }
+      }
     },
     "steam_release_date": "1787669682",
     "store_asset_mtime": "1787672709",

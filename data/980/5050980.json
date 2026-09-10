@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789055659,
-  "_history": [],
-  "_change_number": 38740661,
-  "_missing_token": true,
-  "_sha": "1c74d3518dd6b2b771de6bc2fb9a5837b87f34e5",
-  "_size": 2847,
+  "_lastChecked": 1789062435,
+  "_history": [
+    {
+      "buildId": "25217182",
+      "branch": "public",
+      "timeUpdated": 1788986672,
+      "firstSeen": 1789062435,
+      "manifests": {
+        "5050981": {
+          "gid": "7505280538355748393",
+          "size": 4082985575,
+          "download": 1771635872
+        },
+        "5050982": {
+          "gid": "3350248580728689906",
+          "size": 4169144957,
+          "download": 1793044640
+        }
+      }
+    }
+  ],
+  "_change_number": 38768172,
+  "_missing_token": false,
+  "_sha": "b11fb979440038261e4f0b1714a57d7f5a9f2b35",
+  "_size": 3877,
   "appid": "5050980",
   "common": {
     "associations": {
@@ -26,7 +45,6 @@
     "clienticon": "b53fd6e59eacb69a2826050bb0f1d70ae2664f2d",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5050980",
     "genres": {
       "0": "3",
@@ -97,10 +115,11 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0cd9394cd66bb57dba3ef73ed8b9f13ea9459a8d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789059042",
     "store_asset_mtime": "1788988410",
     "store_tags": {
       "0": "4474",
@@ -124,5 +143,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hitherto School of Swordcery and Shieldjuration",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Hitherto.app",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Hitherto.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5050981": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1771635872",
+          "gid": "7505280538355748393",
+          "size": "4082985575"
+        }
+      }
+    },
+    "5050982": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1793044640",
+          "gid": "3350248580728689906",
+          "size": "4169144957"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25217182",
+        "timebuildupdated": "1788986585",
+        "timeupdated": "1788986672"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Goodberry Games",
+    "homepage": "https://goodberry.games",
+    "publisher": "Goodberry Games"
+  }
 }

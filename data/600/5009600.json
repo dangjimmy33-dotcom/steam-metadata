@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789055621,
-  "_history": [],
-  "_change_number": 38638191,
-  "_missing_token": true,
-  "_sha": "5e13e29df1984c033b430e5dbfdbeaed1199ba15",
-  "_size": 3385,
+  "_lastChecked": 1789062396,
+  "_history": [
+    {
+      "buildId": "24869048",
+      "branch": "public",
+      "timeUpdated": 1787339550,
+      "firstSeen": 1789062396,
+      "manifests": {
+        "5009601": {
+          "gid": "6078582525273092193",
+          "size": 136503816,
+          "download": 40503840
+        }
+      }
+    }
+  ],
+  "_change_number": 38768949,
+  "_missing_token": false,
+  "_sha": "bbee2c1720b8708e26db5daca580ab7eeec9c9eb",
+  "_size": 4209,
   "appid": "5009600",
   "common": {
     "associations": {
@@ -27,9 +41,9 @@
     },
     "clienticon": "c0187107387b9774368e394f8d5a364c3c36d885",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5009600",
     "genres": {
       "0": "1",
@@ -100,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "faf1c4f9dcfe0d6f4625951ddf6f09d3a490f69d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789060756",
     "store_asset_mtime": "1786227463",
     "store_tags": {
       "0": "3877",
@@ -162,5 +177,51 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SIX SECOND SHADOW",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SixPlus.exe"
+      }
+    }
+  },
+  "depots": {
+    "5009601": {
+      "manifests": {
+        "public": {
+          "download": "40503840",
+          "gid": "6078582525273092193",
+          "size": "136503816"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24869048",
+        "timebuildupdated": "1787339349",
+        "timeupdated": "1787339550"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Tilewise",
+    "publisher": "Tilewise"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "sixty/Six Second Shadow",
+        "pattern": "save.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

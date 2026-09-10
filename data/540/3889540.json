@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789054413,
-  "_history": [],
-  "_change_number": 38763781,
-  "_missing_token": true,
-  "_sha": "b739df156b4900fa5931147a096c5f7c1c68b6d7",
-  "_size": 4140,
+  "_lastChecked": 1789061168,
+  "_history": [
+    {
+      "buildId": "25233032",
+      "branch": "public",
+      "timeUpdated": 1789050283,
+      "firstSeen": 1789061168,
+      "manifests": {
+        "3889542": {
+          "gid": "2968075853330382312",
+          "size": 3614869567,
+          "download": 2121274704
+        }
+      }
+    }
+  ],
+  "_change_number": 38768917,
+  "_missing_token": false,
+  "_sha": "fcc04781fa9983da5294a13cb1f219327819c2eb",
+  "_size": 6099,
   "appid": "3889540",
   "common": {
     "aicontenttype": "1",
@@ -26,10 +40,17 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_59": "1",
       "category_62": "1"
     },
     "clienticon": "d78e77b799df1949e347c529b76c83e64ca454f4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -38,8 +59,8 @@
       "0": "1",
       "1": "5"
     },
+    "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3889540",
     "genres": {
       "0": "23",
@@ -126,10 +147,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "01fa7f457b0149ece155b5523cf84ded02e8df03/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789060477",
     "store_asset_mtime": "1787829093",
     "store_tags": {
       "0": "599",
@@ -201,5 +223,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "INeed2FixMyDreamCar",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "CarJunkyard.exe"
+      }
+    }
+  },
+  "depots": {
+    "3889541": {},
+    "3889542": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2121274704",
+          "gid": "2968075853330382312",
+          "size": "3614869567"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25233032",
+        "timebuildupdated": "1789050257",
+        "timeupdated": "1789050283"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "GameFactory",
+    "publisher": "GameFactory"
+  },
+  "ufs": {
+    "maxnumfiles": "12",
+    "quota": "20000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Oblocze/CarJunkyard/",
+            "replace": "unity3d/Oblocze/CarJunkyard/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Oblocze/CarJunkyard/",
+        "pattern": "*0",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Oblocze/CarJunkyard/",
+        "pattern": "*settingsSave",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Oblocze/CarJunkyard/",
+        "pattern": "*globalSave",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Oblocze/CarJunkyard/",
+        "pattern": "*0.tmp.bak",
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": "Oblocze/CarJunkyard/",
+        "pattern": "*globalSave.tmp.bak",
+        "root": "WinAppDataLocalLow"
+      },
+      "5": {
+        "path": "Oblocze/CarJunkyard/",
+        "pattern": "*settingsSave.tmp.bak",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789051444,
-  "_history": [],
-  "_change_number": 38762947,
-  "_missing_token": true,
-  "_sha": "72175f4eabdf15dc798f6e4e2fdf8445e6717625",
-  "_size": 6172,
+  "_lastChecked": 1789058198,
+  "_history": [
+    {
+      "buildId": "25234811",
+      "branch": "public",
+      "timeUpdated": 1789055764,
+      "firstSeen": 1789058198,
+      "manifests": {
+        "1498551": {
+          "gid": "2630451759444819923",
+          "size": 10542536807,
+          "download": 4279124032
+        }
+      }
+    }
+  ],
+  "_change_number": 38766823,
+  "_missing_token": false,
+  "_sha": "88c1c63064fe3747a377b1267cbff55ca2b59ae5",
+  "_size": 7641,
   "appid": "1498550",
   "common": {
     "aicontenttype": "1",
@@ -41,9 +55,9 @@
     "clienticon": "0647161bfa718aaa00720073ab14620aeb473ba9",
     "clienttga": "76a7fc033b5dcf68c842a52e2b3d2359f27f4ed0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1498550",
     "genres": {
       "0": "2"
@@ -135,13 +149,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d6397e6681bcdaf7a3f7cc21187cb61a7f15280c/capsule_231x87.jpg",
       "japanese": "547300a0c81901dfcfa6252aec6e1e6381bdf51a/capsule_231x87_japanese.jpg",
       "koreana": "1cdd484b82e162e8333bfc25abd25664c57ff5a7/capsule_231x87_koreana.jpg",
       "schinese": "99da5145d5c420a1b4244bf7c2328217bf4655f5/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789056092",
     "store_asset_mtime": "1788531016",
     "store_tags": {
       "0": "1677",
@@ -219,5 +234,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Hexadome",
+    "launch": {
+      "0": {
+        "arguments": "--backend-env Prod --appid 1498550",
+        "config": {
+          "betakey": "default"
+        },
+        "executable": "TheHexadome.exe"
+      },
+      "1": {
+        "arguments": "--backend-env Dev --appid 1498550",
+        "config": {
+          "betakey": "devel"
+        },
+        "executable": "TheHexadome.exe"
+      },
+      "2": {
+        "arguments": "--backend-env Next --appid 1498550",
+        "config": {
+          "betakey": "next"
+        },
+        "executable": "TheHexadome.exe"
+      },
+      "4": {
+        "arguments": "--backend-env Stg --appid 1498550",
+        "config": {
+          "betakey": "preview"
+        },
+        "executable": "TheHexadome.exe"
+      },
+      "5": {
+        "arguments": "--backend-env Prod --appid 1498550",
+        "config": {
+          "betakey": "prod_test"
+        },
+        "executable": "TheHexadome.exe"
+      }
+    },
+    "steamdecktouchscreen": "5",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "1498551": {
+      "manifests": {
+        "public": {
+          "download": "4279124032",
+          "gid": "2630451759444819923",
+          "size": "10542536807"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25234811",
+        "timebuildupdated": "1789055712",
+        "timeupdated": "1789055764"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Blindspot Games",
+    "homepage": "https://www.thehexadome.com",
+    "publisher": "Blindspot Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000"
+  }
 }

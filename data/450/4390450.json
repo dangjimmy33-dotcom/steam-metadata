@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789054980,
+  "_lastChecked": 1789061743,
   "_history": [
     {
       "buildId": "25123316",
@@ -56,10 +56,10 @@
       }
     }
   ],
-  "_change_number": 38730073,
+  "_change_number": 38768694,
   "_missing_token": false,
-  "_sha": "8aa23a2d58e3d281bfd278e09540073f2ffa1e46",
-  "_size": 4265,
+  "_sha": "fbf770d185843306228548cdca4fc1362e0050d4",
+  "_size": 5420,
   "appid": "4390450",
   "common": {
     "aicontenttype": "1",
@@ -168,6 +168,47 @@
     "review_score": "6",
     "small_capsule": {
       "english": "efb91aba8e99a0fabcbf7398937bf71035706d5f/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "1",
+      "steam_machine_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamMachine_TestResult_UnsupportedGraphicsPerformance"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1788453943",
+      "tested_build_id": "25027997",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+        }
+      }
     },
     "steam_release_date": "1787036888",
     "store_asset_mtime": "1785844128",

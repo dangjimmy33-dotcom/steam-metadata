@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789054020,
-  "_history": [],
-  "_change_number": 38749803,
-  "_missing_token": true,
-  "_sha": "5411834fa334be59112ae5e0fd47f50dbea8b5c3",
-  "_size": 4845,
+  "_lastChecked": 1789060783,
+  "_history": [
+    {
+      "buildId": "25223676",
+      "branch": "public",
+      "timeUpdated": 1789016029,
+      "firstSeen": 1789060783,
+      "manifests": {
+        "3560361": {
+          "gid": "144889383066326953",
+          "size": 20854938744,
+          "download": 8864151616
+        },
+        "3560362": {
+          "gid": "8657044162573763317",
+          "size": 21269502195,
+          "download": 9186255248
+        }
+      }
+    }
+  ],
+  "_change_number": 38766196,
+  "_missing_token": false,
+  "_sha": "d0d0f444ad7e8d2e94afb0469bfc8b52d8849707",
+  "_size": 6972,
   "appid": "3560360",
   "common": {
     "associations": {
@@ -41,9 +60,9 @@
     "clienticon": "a63231eff627e000184fba648d15926827130cbf",
     "clienttga": "24effffa5f6796d4f357856d0dfea78efce10430",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3560360",
     "genres": {
       "0": "23",
@@ -129,11 +148,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c898c2e2b7ca6f6deb12fe3bff991f94796d0b80/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/3560360/eventcomments/589561330618455347?snr=2_9_100000_",
+    "steam_release_date": "1789055127",
     "store_asset_mtime": "1787633334",
     "store_tags": {
       "0": "14139",
@@ -221,5 +241,106 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Forsworn",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Forsworn.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Steamdeck Launcher",
+        "description_loc": {
+          "english": "Steamdeck Launcher"
+        },
+        "executable": "ForswornLinux.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3560361": {
+      "manifests": {
+        "public": {
+          "download": "8864151616",
+          "gid": "144889383066326953",
+          "size": "20854938744"
+        }
+      }
+    },
+    "3560362": {
+      "config": {
+        "oslist": "linux",
+        "steamdeck": "1"
+      },
+      "manifests": {
+        "public": {
+          "download": "9186255248",
+          "gid": "8657044162573763317",
+          "size": "21269502195"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25223676",
+        "timebuildupdated": "1789015923",
+        "timeupdated": "1789016029"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Resummon Studios LLC",
+    "publisher": "Resummon Studios LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "120000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".config/unity3d",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Resummon Studios LLC/Forsworn/SaveSlots",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Resummon Studios LLC/Forsworn/JourneySaves",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Resummon Studios LLC/Forsworn/MPJourneySaves",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Resummon Studios LLC/Forsworn/EndlessHighScores",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": "Resummon Studios LLC/Forsworn/EndlessModeSaves",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "5": {
+        "path": "Resummon Studios LLC/Forsworn/MPEndlessModeSaves",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

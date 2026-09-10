@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789053682,
-  "_history": [],
-  "_change_number": 38765048,
-  "_missing_token": true,
-  "_sha": "aacf8d388e977811435131f8c353717876fe2e3a",
-  "_size": 4013,
+  "_lastChecked": 1789060444,
+  "_history": [
+    {
+      "buildId": "25221077",
+      "branch": "public",
+      "timeUpdated": 1789048658,
+      "firstSeen": 1789060444,
+      "manifests": {
+        "3271281": {
+          "gid": "4260376313794051470",
+          "size": 8441173696,
+          "download": 1362488032
+        },
+        "3271282": {
+          "gid": "6195476667179982986",
+          "size": 9357635464,
+          "download": 1569107792
+        }
+      }
+    }
+  ],
+  "_change_number": 38768011,
+  "_missing_token": false,
+  "_sha": "731af38d575f5d2ca9ca025d3d61bd3df05f29de",
+  "_size": 7263,
   "appid": "3271280",
   "common": {
     "associations": {
@@ -36,8 +55,8 @@
     "clienticon": "3d7f55e5c30bcceb00303b278774ff466aa74915",
     "clienttga": "7d2be70e96fe0db82fa8b9a0eda05960a3e5e34c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3271280",
     "genres": {
       "0": "25",
@@ -119,12 +138,62 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7644c158121c6fdb0bc3040febb616d495c2ce17/capsule_231x87.jpg",
       "schinese": "069e3cf9a7853d19c51e2ba51021490250185672/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1787333119",
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1787942897",
+      "tested_build_id": "24926377",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+        }
+      }
+    },
+    "steam_release_date": "1789055431",
+    "store_asset_mtime": "1789058719",
     "store_tags": {
       "0": "32322",
       "1": "1666",
@@ -157,5 +226,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Shroom and Gloom",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Shroom and Gloom.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Shroom and Gloom.app",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "Shroom and Gloom_Data/StreamingAssets/steam_input_manifest.vdf"
+  },
+  "depots": {
+    "3271281": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1362488032",
+          "gid": "4260376313794051470",
+          "size": "8441173696"
+        }
+      }
+    },
+    "3271282": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1569107792",
+          "gid": "6195476667179982986",
+          "size": "9357635464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25221077",
+        "timebuildupdated": "1789003380",
+        "timeupdated": "1789048658"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Team Lazerbeam",
+    "homepage": "https://www.devolverdigital.com/games/shroom-and-gloom",
+    "publisher": "Devolver Digital"
+  },
+  "ufs": {
+    "maxnumfiles": "16",
+    "quota": "64000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "Team Lazerbeam/Shroom and Gloom/",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataLocalLow"
+      },
+      "1": {
+        "addpath": "Team Lazerbeam/Shroom and Gloom/",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SaveData/Fu{64BitSteamID}/",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

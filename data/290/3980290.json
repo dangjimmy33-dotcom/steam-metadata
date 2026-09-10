@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789054523,
-  "_history": [],
-  "_change_number": 38070721,
-  "_missing_token": true,
-  "_sha": "b2eca81f018bbe720bf5439c2343b9f89cfa68be",
-  "_size": 3980,
+  "_lastChecked": 1789061280,
+  "_history": [
+    {
+      "buildId": "24151948",
+      "branch": "public",
+      "timeUpdated": 1783708400,
+      "firstSeen": 1789061280,
+      "manifests": {
+        "3980291": {
+          "gid": "8135915303752284719",
+          "size": 13809777164,
+          "download": 13404016896
+        }
+      }
+    }
+  ],
+  "_change_number": 38767079,
+  "_missing_token": false,
+  "_sha": "80444e766c1f54128d5c9662564f1790f3233dd7",
+  "_size": 5120,
   "appid": "3980290",
   "common": {
     "aicontenttype": "1",
@@ -43,9 +57,9 @@
     },
     "clienticon": "f0515ecf0c579e8ff872e6b0a7c0654691b4c280",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3980290",
     "genres": {
       "0": "1",
@@ -116,10 +130,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cc35cfffae33936635f6a84e3ce06d5510291048/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789056614",
     "store_asset_mtime": "1768323830",
     "store_tags": {
       "0": "1664",
@@ -191,5 +206,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Solvimus",
+    "launch": {
+      "0": {
+        "executable": "SolvimusGame.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65532",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3980291": {
+      "manifests": {
+        "public": {
+          "download": "13404016896",
+          "gid": "8135915303752284719",
+          "size": "13809777164"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24151948",
+        "timebuildupdated": "1783708358",
+        "timeupdated": "1783708400"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Iocus GmbH",
+    "homepage": "https://iocus.ch/",
+    "publisher": "Iocus GmbH"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Solvimus/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

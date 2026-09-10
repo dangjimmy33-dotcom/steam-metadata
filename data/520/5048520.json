@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789055656,
-  "_history": [],
-  "_change_number": 38501483,
-  "_missing_token": true,
-  "_sha": "1f698a7d73a4a703341871a5dce3f58e65c77999",
-  "_size": 3468,
+  "_lastChecked": 1789062432,
+  "_history": [
+    {
+      "buildId": "25054028",
+      "branch": "public",
+      "timeUpdated": 1788252819,
+      "firstSeen": 1789062432,
+      "manifests": {
+        "5048521": {
+          "gid": "1026956396530792239",
+          "size": 534936287,
+          "download": 410286592
+        }
+      }
+    }
+  ],
+  "_change_number": 38767299,
+  "_missing_token": false,
+  "_sha": "664615d37bac5841e76b08ab7769ada3b7fbcda1",
+  "_size": 4308,
   "appid": "5048520",
   "common": {
     "aicontenttype": "1",
@@ -26,7 +40,6 @@
     "clienticon": "0858f01ebd2c4ff132c0338a6953b6a3409ef4df",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5048520",
     "genres": {
       "0": "25",
@@ -106,7 +119,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8d702d83ebc86625cf60147066eeabde567bcdca/capsule_231x87.jpg",
       "schinese": "8d702d83ebc86625cf60147066eeabde567bcdca/capsule_231x87_schinese.jpg"
@@ -138,5 +151,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "塑风之恋-A Wind-Shaped Love",
+    "launch": {
+      "0": {
+        "executable": "SU.exe"
+      }
+    }
+  },
+  "depots": {
+    "5048521": {
+      "manifests": {
+        "public": {
+          "download": "410286592",
+          "gid": "1026956396530792239",
+          "size": "534936287"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25054028",
+        "timebuildupdated": "1788252793",
+        "timeupdated": "1788252819"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Time",
+    "isfreeapp": "1",
+    "publisher": "Time"
+  },
+  "ufs": {
+    "appidredirect": "5048520",
+    "maxnumfiles": "96",
+    "quota": "5011000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789054493,
-  "_history": [],
-  "_change_number": 38679236,
-  "_missing_token": true,
-  "_sha": "8b80e11bf550023e227a321b6759045ebe01c2a9",
-  "_size": 3244,
+  "_lastChecked": 1789061249,
+  "_history": [
+    {
+      "buildId": "25175906",
+      "branch": "public",
+      "timeUpdated": 1788820532,
+      "firstSeen": 1789061249,
+      "manifests": {
+        "3954461": {
+          "gid": "7200558462629592062",
+          "size": 13222257266,
+          "download": 5584432784
+        }
+      }
+    }
+  ],
+  "_change_number": 38767334,
+  "_missing_token": false,
+  "_sha": "c02a1b480d2fb4e512396f395a4df2dc5a52cca6",
+  "_size": 4109,
   "appid": "3954460",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +44,7 @@
     },
     "clienticon": "65a84613d6d0953bbcc73cfaa0efec0f5061454a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -39,7 +54,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3954460",
     "genres": {
       "0": "1",
@@ -111,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "35662068d3a3c3681508dba00fd2ce1e167924c1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789057202",
     "store_asset_mtime": "1781652600",
     "store_tags": {
       "0": "1667",
@@ -147,5 +162,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Spiritus Sancti",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SpiritusSancti.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3954461": {
+      "manifests": {
+        "public": {
+          "download": "5584432784",
+          "gid": "7200558462629592062",
+          "size": "13222257266"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25175906",
+        "timebuildupdated": "1788820488",
+        "timeupdated": "1788820532"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Divider Studios",
+    "publisher": "Divider Studios"
+  }
 }

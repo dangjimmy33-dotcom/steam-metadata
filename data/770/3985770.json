@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789054529,
+  "_lastChecked": 1789061287,
   "_history": [
     {
       "buildId": "21794287",
@@ -23,12 +23,35 @@
           "download": 40085920
         }
       }
+    },
+    {
+      "buildId": "25233269",
+      "branch": "public",
+      "timeUpdated": 1789054851,
+      "firstSeen": 1789061287,
+      "manifests": {
+        "3985771": {
+          "gid": "5369873228149774891",
+          "size": 93571297,
+          "download": 37682800
+        },
+        "3985772": {
+          "gid": "956106832335417314",
+          "size": 107080823,
+          "download": 41823040
+        },
+        "3985773": {
+          "gid": "8816129336634107876",
+          "size": 104134021,
+          "download": 42175744
+        }
+      }
     }
   ],
-  "_change_number": 38764139,
+  "_change_number": 38767322,
   "_missing_token": false,
-  "_sha": "77db9849cfa2fa0fee73aff740f878d284a2cf95",
-  "_size": 7861,
+  "_sha": "7a1a1f29201a78447f0a9d7e53ebeff3104201a9",
+  "_size": 7832,
   "appid": "3985770",
   "common": {
     "associations": {
@@ -45,6 +68,7 @@
       "category_15": "1",
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "clienticon": "84dd77eeff8863298949c2b8c4ae651d18d1a47d",
@@ -290,9 +314,9 @@
       },
       "manifests": {
         "public": {
-          "download": "35223776",
-          "gid": "2278964516080627630",
-          "size": "87647430"
+          "download": "37682800",
+          "gid": "5369873228149774891",
+          "size": "93571297"
         }
       }
     },
@@ -303,9 +327,9 @@
       },
       "manifests": {
         "public": {
-          "download": "39005024",
-          "gid": "8282728001493998288",
-          "size": "106438076"
+          "download": "41823040",
+          "gid": "956106832335417314",
+          "size": "107080823"
         }
       }
     },
@@ -316,17 +340,17 @@
       },
       "manifests": {
         "public": {
-          "download": "40085920",
-          "gid": "4133247171268045042",
-          "size": "107981682"
+          "download": "42175744",
+          "gid": "8816129336634107876",
+          "size": "104134021"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "21794287",
-        "timebuildupdated": "1770274874",
-        "timeupdated": "1770899544"
+        "buildid": "25233269",
+        "timebuildupdated": "1789050968",
+        "timeupdated": "1789054851"
       }
     },
     "hasdepotsindlc": "1",
@@ -337,8 +361,6 @@
     "publisher": "Kettle Studio"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "100",
     "quota": "10000000",
     "rootoverrides": {
