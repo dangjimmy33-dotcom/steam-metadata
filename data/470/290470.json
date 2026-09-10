@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789012589,
+  "_lastChecked": 1789018316,
   "_history": [
     {
       "buildId": "24965090",
@@ -46,12 +46,58 @@
           "download": 7668338736
         }
       }
+    },
+    {
+      "buildId": "25095937",
+      "branch": "32bit",
+      "timeUpdated": 1788417934,
+      "firstSeen": 1789018316,
+      "manifests": {
+        "1348470": {
+          "gid": "7960574470458266110",
+          "size": 914,
+          "download": 528
+        },
+        "1348500": {
+          "gid": "6858631981622704561",
+          "size": 713,
+          "download": 448
+        },
+        "290471": {
+          "gid": "6396289931195797345",
+          "size": 8373766283,
+          "download": 7667060112
+        }
+      }
+    },
+    {
+      "buildId": "25095925",
+      "branch": "public",
+      "timeUpdated": 1788418054,
+      "firstSeen": 1789018316,
+      "manifests": {
+        "1348470": {
+          "gid": "7960574470458266110",
+          "size": 914,
+          "download": 528
+        },
+        "1348500": {
+          "gid": "6858631981622704561",
+          "size": 713,
+          "download": 448
+        },
+        "290471": {
+          "gid": "2922984024929049396",
+          "size": 8375468243,
+          "download": 7667667696
+        }
+      }
     }
   ],
-  "_change_number": 38370934,
+  "_change_number": 38750072,
   "_missing_token": false,
-  "_sha": "190a58b774c4a2d13b1156fce0ad6f7aff6d8681",
-  "_size": 5990,
+  "_sha": "b50ae1df44f0de41d16c0d669f29b80b867ce368",
+  "_size": 5991,
   "appid": "290470",
   "common": {
     "associations": {
@@ -290,14 +336,14 @@
       },
       "manifests": {
         "32bit": {
-          "download": "7667731152",
-          "gid": "6681236275262209846",
-          "size": "8374409595"
+          "download": "7667060112",
+          "gid": "6396289931195797345",
+          "size": "8373766283"
         },
         "public": {
-          "download": "7668338736",
-          "gid": "290097481399804989",
-          "size": "8376111555"
+          "download": "7667667696",
+          "gid": "2922984024929049396",
+          "size": "8375468243"
         }
       },
       "systemdefined": "1"
@@ -305,15 +351,15 @@
     "baselanguages": "english,tchinese,japanese",
     "branches": {
       "32bit": {
-        "buildid": "24965090",
+        "buildid": "25095937",
         "description": "onigiri 32bit",
-        "timebuildupdated": "1787814333",
-        "timeupdated": "1787816816"
+        "timebuildupdated": "1788417500",
+        "timeupdated": "1788417934"
       },
       "public": {
-        "buildid": "24965075",
-        "timebuildupdated": "1787814276",
-        "timeupdated": "1787816989"
+        "buildid": "25095925",
+        "timebuildupdated": "1788417412",
+        "timeupdated": "1788418054"
       }
     },
     "hasdepotsindlc": "1",

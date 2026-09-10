@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789012674,
+  "_lastChecked": 1789018420,
   "_history": [
     {
       "buildId": "25028760",
@@ -69,12 +69,35 @@
           "download": 109281104
         }
       }
+    },
+    {
+      "buildId": "25223245",
+      "branch": "staging",
+      "timeUpdated": 1789013621,
+      "firstSeen": 1789018420,
+      "manifests": {
+        "378761": {
+          "gid": "5742672527333999220",
+          "size": 844778466,
+          "download": 198853264
+        },
+        "378762": {
+          "gid": "4857005047341581276",
+          "size": 483410595,
+          "download": 131544240
+        },
+        "378763": {
+          "gid": "7049510266703089389",
+          "size": 326831520,
+          "download": 109272800
+        }
+      }
     }
   ],
-  "_change_number": 38718801,
+  "_change_number": 38749174,
   "_missing_token": false,
-  "_sha": "49818ec7c41c8b29a7b9867e4e2f4a529ce44c0c",
-  "_size": 10003,
+  "_sha": "e3bee2a5168cd661259894b183f14f432af55404",
+  "_size": 10005,
   "appid": "378760",
   "common": {
     "associations": {
@@ -442,9 +465,9 @@
           "size": "835059936"
         },
         "staging": {
-          "download": "199169200",
-          "gid": "5821071135829196607",
-          "size": "844775266"
+          "download": "198853264",
+          "gid": "5742672527333999220",
+          "size": "844778466"
         }
       }
     },
@@ -460,9 +483,9 @@
           "size": "479698044"
         },
         "staging": {
-          "download": "131541488",
-          "gid": "3236034637944120992",
-          "size": "483408451"
+          "download": "131544240",
+          "gid": "4857005047341581276",
+          "size": "483410595"
         }
       }
     },
@@ -477,9 +500,9 @@
           "size": "324414757"
         },
         "staging": {
-          "download": "109281104",
-          "gid": "10243944629535432",
-          "size": "326829896"
+          "download": "109272800",
+          "gid": "7049510266703089389",
+          "size": "326831520"
         }
       }
     },
@@ -491,10 +514,10 @@
         "timeupdated": "1788310537"
       },
       "staging": {
-        "buildid": "25161667",
+        "buildid": "25223245",
         "description": "Public Test Realm. Used for testing incoming release builds",
-        "timebuildupdated": "1788760851",
-        "timeupdated": "1788760851"
+        "timebuildupdated": "1789013621",
+        "timeupdated": "1789013621"
       }
     },
     "privatebranches": "1"

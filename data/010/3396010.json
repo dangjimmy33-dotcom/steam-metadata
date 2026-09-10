@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789015809,
-  "_history": [],
-  "_change_number": 38749702,
-  "_missing_token": true,
-  "_sha": "72c81875b3407d1d3385f4031d1bca273d74149d",
-  "_size": 4135,
+  "_lastChecked": 1789022257,
+  "_history": [
+    {
+      "buildId": "25224482",
+      "branch": "public",
+      "timeUpdated": 1789020453,
+      "firstSeen": 1789022257,
+      "manifests": {
+        "3396011": {
+          "gid": "6388870732924836073",
+          "size": 3779129624,
+          "download": 3501778256
+        }
+      }
+    }
+  ],
+  "_change_number": 38751067,
+  "_missing_token": false,
+  "_sha": "93adf010bee0f653d5d8129f728a14609319277d",
+  "_size": 5444,
   "appid": "3396010",
   "common": {
     "associations": {
@@ -32,9 +46,9 @@
     },
     "clienticon": "ccff6b486d3f8d0f9cd16e250edb45a3a68aaded",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3396010",
     "genres": {
       "0": "28"
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3c7d1ec269f80a683065d40c875a32ef1d09b9ea/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789019999",
     "store_asset_mtime": "1788833437",
     "store_tags": {
       "0": "1239876",
@@ -192,5 +207,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "blackfridayjanitor",
+    "launch": {
+      "0": {
+        "arguments": "-dx12",
+        "description": "- DirectX 12 (Recommended)",
+        "description_loc": {
+          "english": "- DirectX 12 (Recommended)"
+        },
+        "executable": "BlackFridayJanitor.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "description": "- DirectX 11 (Only if DirectX 12 doesn't work)",
+        "description_loc": {
+          "english": "- DirectX 11 (Only if DirectX 12 doesn't work)"
+        },
+        "executable": "BlackFridayJanitor.exe",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3396011": {
+      "manifests": {
+        "public": {
+          "download": "3501778256",
+          "gid": "6388870732924836073",
+          "size": "3779129624"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25224482",
+        "timebuildupdated": "1789020423",
+        "timeupdated": "1789020453"
+      }
+    }
+  },
+  "extended": {
+    "developer": "blackfridayjanitor",
+    "publisher": "blackfridayjanitor"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "2000000000"
+  }
 }

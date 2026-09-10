@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789017195,
-  "_history": [],
-  "_change_number": 38750135,
-  "_missing_token": true,
-  "_sha": "d9d66bd61c5e05dd9097d276b7d4b0bd26f0b9bd",
-  "_size": 4475,
+  "_lastChecked": 1789023931,
+  "_history": [
+    {
+      "buildId": "25224970",
+      "branch": "public",
+      "timeUpdated": 1789023145,
+      "firstSeen": 1789023931,
+      "manifests": {
+        "4891321": {
+          "gid": "8650465679621865570",
+          "size": 898036320,
+          "download": 563625952
+        }
+      }
+    }
+  ],
+  "_change_number": 38751990,
+  "_missing_token": false,
+  "_sha": "1b0699b0c04d88af5300c44d1de3abd1f4bdbfe8",
+  "_size": 5265,
   "appid": "4891320",
   "common": {
     "associations": {
@@ -33,6 +47,7 @@
     },
     "clienticon": "a5e9a7dfae70da417c5cd8324ac58c7c0b5e04af",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -42,7 +57,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "4891320",
     "genres": {
       "0": "1",
@@ -139,10 +153,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "38fa6fd404358f1eab2d2391e6b20095a32a17cb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789023604",
     "store_asset_mtime": "1788921065",
     "store_tags": {
       "0": "122",
@@ -217,5 +232,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "War of Genesis Idle Loot",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Genesis.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4891321": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "563625952",
+          "gid": "8650465679621865570",
+          "size": "898036320"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25224970",
+        "timebuildupdated": "1789023131",
+        "timeupdated": "1789023145"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "New Normal Soft Inc.",
+    "isfreeapp": "1",
+    "publisher": "New Normal Soft Inc."
+  }
 }

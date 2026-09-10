@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789014242,
+  "_lastChecked": 1789020351,
   "_history": [
     {
       "buildId": "25142214",
@@ -272,12 +272,48 @@
           "download": 116644400
         }
       }
+    },
+    {
+      "buildId": "25224125",
+      "branch": "beta",
+      "timeUpdated": 1789018560,
+      "firstSeen": 1789020351,
+      "manifests": {
+        "1843731": {
+          "gid": "6396483147368298570",
+          "size": 509313002,
+          "download": 119578688
+        },
+        "1843732": {
+          "gid": "6251059486481013776",
+          "size": 486520438,
+          "download": 116649248
+        }
+      }
+    },
+    {
+      "buildId": "25224160",
+      "branch": "public",
+      "timeUpdated": 1789018690,
+      "firstSeen": 1789020351,
+      "manifests": {
+        "1843731": {
+          "gid": "6396483147368298570",
+          "size": 509313002,
+          "download": 119578688
+        },
+        "1843732": {
+          "gid": "6251059486481013776",
+          "size": 486520438,
+          "download": 116649248
+        }
+      }
     }
   ],
-  "_change_number": 38709142,
+  "_change_number": 38750562,
   "_missing_token": false,
-  "_sha": "5790d74a8987e43f59afc2f578370591e7b79c57",
-  "_size": 8674,
+  "_sha": "3de4b06dac2a02ccb0ab4aab1fd49379c1379812",
+  "_size": 8410,
   "appid": "1843730",
   "common": {
     "associations": {
@@ -569,24 +605,19 @@
       },
       "manifests": {
         "beta": {
-          "download": "119576832",
-          "gid": "1173921405962684101",
-          "size": "509289826"
+          "download": "119578688",
+          "gid": "6396483147368298570",
+          "size": "509313002"
         },
         "classicmode": {
           "download": "95429920",
           "gid": "5806447311636740743",
           "size": "160674326"
         },
-        "mactest": {
-          "download": "119576832",
-          "gid": "1173921405962684101",
-          "size": "509289826"
-        },
         "public": {
-          "download": "119576832",
-          "gid": "1173921405962684101",
-          "size": "509289826"
+          "download": "119578688",
+          "gid": "6396483147368298570",
+          "size": "509313002"
         }
       }
     },
@@ -595,23 +626,23 @@
         "oslist": "macos"
       },
       "manifests": {
-        "mactest": {
-          "download": "116644400",
-          "gid": "8396883775998602976",
-          "size": "486512966"
+        "beta": {
+          "download": "116649248",
+          "gid": "6251059486481013776",
+          "size": "486520438"
         },
         "public": {
-          "download": "116644400",
-          "gid": "8396883775998602976",
-          "size": "486512966"
+          "download": "116649248",
+          "gid": "6251059486481013776",
+          "size": "486520438"
         }
       }
     },
     "branches": {
       "beta": {
-        "buildid": "25193829",
-        "timebuildupdated": "1788894519",
-        "timeupdated": "1788894521"
+        "buildid": "25224125",
+        "timebuildupdated": "1789018559",
+        "timeupdated": "1789018560"
       },
       "classicmode": {
         "buildid": "15310745",
@@ -619,16 +650,10 @@
         "timebuildupdated": "1723155677",
         "timeupdated": "1723155677"
       },
-      "mactest": {
-        "buildid": "25194738",
-        "description": "mactest",
-        "timebuildupdated": "1788898278",
-        "timeupdated": "1788898278"
-      },
       "public": {
-        "buildid": "25195543",
-        "timebuildupdated": "1788901573",
-        "timeupdated": "1788901573"
+        "buildid": "25224160",
+        "timebuildupdated": "1789018690",
+        "timeupdated": "1789018690"
       }
     },
     "privatebranches": "1"

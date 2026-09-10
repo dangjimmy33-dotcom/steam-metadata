@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789016507,
-  "_history": [],
-  "_change_number": 38082407,
-  "_missing_token": true,
-  "_sha": "316224cf3a6d343d8fbedfc753d0123a42fdb547",
-  "_size": 10005,
+  "_lastChecked": 1789023100,
+  "_history": [
+    {
+      "buildId": "24155764",
+      "branch": "public",
+      "timeUpdated": 1783728611,
+      "firstSeen": 1789023100,
+      "manifests": {
+        "4118911": {
+          "gid": "968483249679628113",
+          "size": 265320576,
+          "download": 195259056
+        }
+      }
+    }
+  ],
+  "_change_number": 38750313,
+  "_missing_token": false,
+  "_sha": "8825dcdd85d09c78f94fb3f0b38b10fda615c68a",
+  "_size": 10796,
   "appid": "4118910",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "707890c1a4e542413aaea0b0e7b370e29dc151bc",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4118910",
     "genres": {
       "0": "4",
@@ -173,7 +186,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "brazilian": "f84f881047920654b308b4fb634421fa877c97ad/capsule_231x87_brazilian.jpg",
       "english": "b01eef3ded1a5c318a656245c8800ae576751be5/capsule_231x87.jpg",
@@ -186,6 +199,7 @@
       "spanish": "cf51856ea237ebb3319959ea578eb38ea767bb6b/capsule_231x87_spanish.jpg",
       "tchinese": "5605efe3d9b1f717e717f946c504b96f95da5eb1/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1773824140",
     "store_tags": {
       "0": "1091588",
@@ -243,5 +257,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Ding! Pocket It! Rogue Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Ding! Pocket It! Rogue Simulator",
+        "description_loc": {
+          "english": "Ding! Pocket It! Rogue Simulator"
+        },
+        "executable": "Ding! Pocket It! Rogue Simulator.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4118911": {
+      "manifests": {
+        "public": {
+          "download": "195259056",
+          "gid": "968483249679628113",
+          "size": "265320576"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24155764",
+        "timebuildupdated": "1783728608",
+        "timeupdated": "1783728611"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Handcrank Workshop",
+    "publisher": "Handcrank Workshop"
+  }
 }

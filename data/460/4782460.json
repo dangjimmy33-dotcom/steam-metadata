@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789017104,
-  "_history": [],
-  "_change_number": 38666398,
-  "_missing_token": true,
-  "_sha": "859520d0e7c6322308c761395bd40ef3cef95ba5",
-  "_size": 5030,
+  "_lastChecked": 1789023819,
+  "_history": [
+    {
+      "buildId": "25167037",
+      "branch": "public",
+      "timeUpdated": 1788784318,
+      "firstSeen": 1789023819,
+      "manifests": {
+        "4782461": {
+          "gid": "657785161991803735",
+          "size": 3201231696,
+          "download": 1387519840
+        }
+      }
+    }
+  ],
+  "_change_number": 38751809,
+  "_missing_token": false,
+  "_sha": "b1047048c51884faca684f00056d5ef58d7c5ef8",
+  "_size": 5784,
   "appid": "4782460",
   "common": {
     "associations": {
@@ -26,6 +40,7 @@
     },
     "clienticon": "cac198130f4af28bb7f0ed2f0204d4ff722a84a4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -39,7 +54,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4782460",
     "genres": {
       "0": "4",
@@ -136,13 +150,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "931b2c5ee80d601c70112d9001ef3a463aeb8359/capsule_231x87.jpg",
       "schinese": "31ea0e53b202cc97137aaf8c61a9481f7a357f8d/capsule_231x87_schinese.jpg",
       "tchinese": "4d0badf5389fc8f12ed3296b6cf01e781a9eb21f/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789022911",
     "store_asset_mtime": "1788648902",
     "store_tags": {
       "0": "6650",
@@ -185,5 +200,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "花妖倖存者",
+    "launch": {
+      "0": {
+        "executable": "HuaYao.exe"
+      }
+    }
+  },
+  "depots": {
+    "4782461": {
+      "manifests": {
+        "public": {
+          "download": "1387519840",
+          "gid": "657785161991803735",
+          "size": "3201231696"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25167037",
+        "timebuildupdated": "1788784316",
+        "timeupdated": "1788784318"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Survival Strategy ！",
+    "publisher": "Survival Strategy ！"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

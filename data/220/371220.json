@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789012666,
+  "_lastChecked": 1789018411,
   "_history": [
     {
       "buildId": "1504412",
@@ -18,12 +18,40 @@
           "download": 17337312
         }
       }
+    },
+    {
+      "buildId": "25223536",
+      "branch": "public",
+      "timeUpdated": 1789015161,
+      "firstSeen": 1789018411,
+      "manifests": {
+        "371221": {
+          "gid": "1710619937408406921",
+          "size": 301858880,
+          "download": 213612288
+        },
+        "5216920": {
+          "gid": "1811224392551578595",
+          "size": 379640195,
+          "download": 287717552
+        },
+        "563700": {
+          "gid": "4011806725753559892",
+          "size": 375216094,
+          "download": 283294256
+        },
+        "563720": {
+          "gid": "2691886587538231315",
+          "size": 28150004,
+          "download": 17337312
+        }
+      }
     }
   ],
-  "_change_number": 36719620,
+  "_change_number": 38749897,
   "_missing_token": false,
-  "_sha": "f66cccecac62384adc1ca67a03a60483114bf40c",
-  "_size": 3346,
+  "_sha": "148a64842df21e723e5170e20abd2b30b9146d12",
+  "_size": 4359,
   "appid": "371220",
   "common": {
     "associations": {
@@ -66,7 +94,7 @@
     "logo_small": "4ccf0ad8ba663bbd090dbc0d8a6d0c269bf54af3_thumb",
     "name": "VERLIES II",
     "oslist": "windows",
-    "primary_genre": "23",
+    "primary_genre": "3",
     "releasestate": "released",
     "review_percentage": "58",
     "review_score": "5",
@@ -111,21 +139,44 @@
     "installdir": "VERLIES II",
     "launch": {
       "0": {
-        "config": {
-          "oslist": "windows"
-        },
         "description": "Launch",
-        "executable": "nw.exe",
-        "type": "none"
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "nw.exe"
       },
       "1": {
         "config": {
-          "oslist": "windows",
           "ownsdlc": "563720"
         },
         "description": "VERLIES",
+        "description_loc": {
+          "english": "VERLIES"
+        },
         "executable": "verlies.exe",
         "type": "option1"
+      },
+      "2": {
+        "config": {
+          "ownsdlc": "563700"
+        },
+        "description": "VERLIES II Remaster",
+        "description_loc": {
+          "english": "VERLIES II Remaster"
+        },
+        "executable": "VERLIES II Remaster\\nw.exe",
+        "type": "option2"
+      },
+      "3": {
+        "config": {
+          "ownsdlc": "5216920"
+        },
+        "description": "VERLIES II Remaster SoD",
+        "description_loc": {
+          "english": "VERLIES II Remaster SoD"
+        },
+        "executable": "VERLIES II Remaster SoD\\nw.exe",
+        "type": "option3"
       }
     }
   },
@@ -163,6 +214,32 @@
         }
       }
     },
+    "5216920": {
+      "config": {
+        "language": "english"
+      },
+      "dlcappid": "5216920",
+      "manifests": {
+        "public": {
+          "download": "287717552",
+          "gid": "1811224392551578595",
+          "size": "379640195"
+        }
+      }
+    },
+    "563700": {
+      "config": {
+        "language": "english"
+      },
+      "dlcappid": "563700",
+      "manifests": {
+        "public": {
+          "download": "283294256",
+          "gid": "4011806725753559892",
+          "size": "375216094"
+        }
+      }
+    },
     "563720": {
       "config": {
         "oslist": "windows"
@@ -179,9 +256,9 @@
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "1504412",
-        "timebuildupdated": "1481138976",
-        "timeupdated": "1481140123"
+        "buildid": "25223536",
+        "timebuildupdated": "1789015161",
+        "timeupdated": "1789015161"
       }
     },
     "privatebranches": "1"
@@ -190,7 +267,7 @@
     "developer": "Koya Game",
     "dlcavailableonstore": "1",
     "homepage": "http://verlies2.e-monsite.com/",
-    "listofdlc": "563720",
+    "listofdlc": "563700,563720,5216920",
     "publisher": "Koya Game"
   }
 }

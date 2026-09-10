@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789016818,
+  "_lastChecked": 1789023474,
   "_history": [
     {
       "buildId": "25061379",
@@ -54,12 +54,35 @@
           "download": 861650544
         }
       }
+    },
+    {
+      "buildId": "25224510",
+      "branch": "public",
+      "timeUpdated": 1789020569,
+      "firstSeen": 1789023474,
+      "manifests": {
+        "4453301": {
+          "gid": "7677692564254012250",
+          "size": 2738552629,
+          "download": 1204607664
+        },
+        "4453302": {
+          "gid": "1655183354848825146",
+          "size": 2325530033,
+          "download": 861650544
+        },
+        "4453303": {
+          "gid": "3482204148553384358",
+          "size": 2453103988,
+          "download": 936612944
+        }
+      }
     }
   ],
-  "_change_number": 38745372,
+  "_change_number": 38751110,
   "_missing_token": false,
-  "_sha": "92264c49c1fbd3d5c974a836badb346b212f4a43",
-  "_size": 7493,
+  "_sha": "d02b1384ddc6ce172ef65c5d286364dc0f70d5db",
+  "_size": 7608,
   "appid": "4453300",
   "common": {
     "associations": {
@@ -174,7 +197,7 @@
     "name": "Cup and Counter: Coffee Shop Simulator",
     "osarch": "64",
     "osextended": "macosapplesilicon,macosnotarized",
-    "oslist": "windows,macos",
+    "oslist": "windows,macos,linux",
     "primary_genre": "28",
     "releasestate": "released",
     "review_percentage": "96",
@@ -334,12 +357,11 @@
         "type": "option2"
       },
       "3": {
-        "arguments": "-force-vulkan",
         "config": {
           "osarch": "64",
           "oslist": "linux"
         },
-        "executable": "Cup and Counter.exe",
+        "executable": "Cup and Counter.x86_64",
         "type": "default"
       }
     },
@@ -376,13 +398,20 @@
       "config": {
         "osarch": "64",
         "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "936612944",
+          "gid": "3482204148553384358",
+          "size": "2453103988"
+        }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25203942",
-        "timebuildupdated": "1788941484",
-        "timeupdated": "1788941484"
+        "buildid": "25224510",
+        "timebuildupdated": "1789020569",
+        "timeupdated": "1789020569"
       }
     },
     "privatebranches": "1"
