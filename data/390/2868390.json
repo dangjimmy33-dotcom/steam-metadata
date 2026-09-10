@@ -1,10 +1,10 @@
 {
-  "_lastChecked": 1789021619,
+  "_lastChecked": 1789027827,
   "_history": [],
-  "_change_number": 38750731,
-  "_missing_token": true,
-  "_sha": "c2193f532a872e1d8f014b5a62541d3c57e70aba",
-  "_size": 2542,
+  "_change_number": 38753050,
+  "_missing_token": false,
+  "_sha": "abccdaf1ce726616f66b2c0a1796beb9e14351ad",
+  "_size": 3473,
   "appid": "2868390",
   "common": {
     "associations": {
@@ -42,6 +42,7 @@
     },
     "header_image": {
       "english": "header.jpg",
+      "sc_schinese": "3437f084db283674c7206536e10b82d350e130af/header_sc_schinese.jpg",
       "schinese": "header_schinese.jpg"
     },
     "library_assets": {
@@ -49,12 +50,17 @@
     },
     "library_assets_full": {
       "library_header": {
-        "image": {},
-        "image2x": {}
+        "image": {
+          "sc_schinese": "3437f084db283674c7206536e10b82d350e130af/library_header_sc_schinese.jpg"
+        },
+        "image2x": {
+          "sc_schinese": "3437f084db283674c7206536e10b82d350e130af/library_header_sc_schinese_2x.jpg"
+        }
       }
     },
     "name": "Brotato: Abyssal Terrors",
     "name_localized": {
+      "sc_schinese": "土豆兄弟：深海魔怪 (Brotato: Abyssal Terrors)",
       "schinese": "土豆兄弟：深海魔怪 (Brotato: Abyssal Terrors)"
     },
     "osarch": "",
@@ -63,10 +69,12 @@
     "parent": "1942280",
     "primary_genre": "1",
     "releasestate": "released",
+    "releasestatesteamchina": "prerelease",
     "review_percentage": "63",
     "review_score": "5",
     "small_capsule": {
       "english": "capsule_231x87.jpg",
+      "sc_schinese": "72cde9807f1080878b956f19cb0ace3d4b211c3b/capsule_231x87_sc_schinese.jpg",
       "schinese": "c628dc4d74ed3088a783c6dc827980cb8c66d4ed/capsule_231x87_schinese.jpg"
     },
     "steam_release_date": "1729849807",
@@ -137,5 +145,25 @@
     },
     "type": "DLC"
   },
-  "public_only": "1"
+  "config": {
+    "steam_china_only": {
+      "steam_china_duration_control_show_interstitial": "0",
+      "steam_china_enable_duration_control": "0"
+    }
+  },
+  "depots": {
+    "branches": {
+      "steam_china_only": {
+        "sc_schinese": "仅中国"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Blobfish",
+    "dlcavailableonstore": "1",
+    "dlcforappid": "1942280",
+    "homepage": "https://thomasgervraud.com/press/brotato/",
+    "mustownapptopurchase": "1942280",
+    "publisher": "Blobfish"
+  }
 }

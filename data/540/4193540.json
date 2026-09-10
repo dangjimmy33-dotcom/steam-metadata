@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789023187,
-  "_history": [],
-  "_change_number": 38375414,
-  "_missing_token": true,
-  "_sha": "e61c0179b02786a1b42c0b57bf4cd2b3f683780f",
-  "_size": 3802,
+  "_lastChecked": 1789029123,
+  "_history": [
+    {
+      "buildId": "24968926",
+      "branch": "public",
+      "timeUpdated": 1787828290,
+      "firstSeen": 1789029123,
+      "manifests": {
+        "4193541": {
+          "gid": "6780620738606650697",
+          "size": 600343130,
+          "download": 490806784
+        },
+        "4193542": {
+          "gid": "8004536223963707413",
+          "size": 678606865,
+          "download": 498787440
+        }
+      }
+    }
+  ],
+  "_change_number": 38752339,
+  "_missing_token": false,
+  "_sha": "117da3c1680613d7daa71d252041254d4d59faf3",
+  "_size": 5727,
   "appid": "4193540",
   "common": {
     "associations": {
@@ -35,8 +54,8 @@
     "clienticns": "e5a447acd6ed3d81c4b837ecf17c54c541bc0c38",
     "clienticon": "683812b913760a828a275fae7ef40fe9c51058a7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4193540",
     "genres": {
       "0": "25",
@@ -118,7 +137,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a849596bf561808f6885ffe44f61c793b7a9b126/capsule_231x87.jpg"
     },
@@ -175,5 +194,101 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Delicious Recipe for Renewal",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Delicious Recipe for Renewal/Delicious Recipe for Renewal.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Delicious Recipe for Renewal.app",
+        "type": "default",
+        "workingdir": "Delicious Recipe for Renewal"
+      }
+    }
+  },
+  "depots": {
+    "4193541": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "490806784",
+          "gid": "6780620738606650697",
+          "size": "600343130"
+        }
+      }
+    },
+    "4193542": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "498787440",
+          "gid": "8004536223963707413",
+          "size": "678606865"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24968926",
+        "timebuildupdated": "1787828290",
+        "timeupdated": "1787828290"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SQRT3",
+    "homepage": "https://www.gamehouseoriginalstories.com/",
+    "publisher": "GameHouse"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "SQRT3/Delicious Recipe for Renewal/CloudGameSaves"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SQRT3/Delicious Recipe for Renewal/CloudGameSaves",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "SQRT3/Delicious Recipe for Renewal/CloudGameSaves",
+        "pattern": "*.glsav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

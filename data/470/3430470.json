@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789022298,
+  "_lastChecked": 1789028385,
   "_history": [
     {
       "buildId": "24879255",
@@ -13,12 +13,25 @@
           "download": 7932600864
         }
       }
+    },
+    {
+      "buildId": "25225245",
+      "branch": "public",
+      "timeUpdated": 1789027047,
+      "firstSeen": 1789028385,
+      "manifests": {
+        "3430471": {
+          "gid": "3414010273607931727",
+          "size": 17124357766,
+          "download": 12810006224
+        }
+      }
     }
   ],
-  "_change_number": 38751486,
+  "_change_number": 38753614,
   "_missing_token": false,
-  "_sha": "9c197ea8ff306dbdf91fdf06f9891d87b49d28a8",
-  "_size": 8345,
+  "_sha": "3e4662dfbb0803185c4bdedf0dbebac6ff0288cb",
+  "_size": 8420,
   "appid": "3430470",
   "common": {
     "associations": {
@@ -29,11 +42,14 @@
       "1": {
         "name": "HIGH-END Games",
         "type": "publisher"
+      },
+      "2": {
+        "name": "XD (regional publisher)",
+        "type": "publisher"
       }
     },
     "category": {
       "category_2": "1",
-      "category_22": "1",
       "category_62": "1"
     },
     "clienticon": "f09f9f6cbe8ee4a6b9f146bfe151ddcf209fc4ac",
@@ -230,7 +246,7 @@
       }
     },
     "steam_release_date": "1789009247",
-    "store_asset_mtime": "1789015928",
+    "store_asset_mtime": "1789027820",
     "store_tags": {
       "0": "599",
       "1": "19",
@@ -289,17 +305,17 @@
     "3430471": {
       "manifests": {
         "public": {
-          "download": "7932600864",
-          "gid": "2259080165800817232",
-          "size": "9411057115"
+          "download": "12810006224",
+          "gid": "3414010273607931727",
+          "size": "17124357766"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "24879255",
-        "timebuildupdated": "1787401879",
-        "timeupdated": "1787406146"
+        "buildid": "25225245",
+        "timebuildupdated": "1789024391",
+        "timeupdated": "1789027047"
       }
     },
     "privatebranches": "1"
@@ -308,7 +324,7 @@
     "developer": "HIGH-END Games",
     "dlcavailableonstore": "1",
     "homepage": "https://platinalab.net/",
-    "listofdlc": "3900890,4143860,4340790,4340800",
+    "listofdlc": "3900890,4143860,4340790,4340800,4886890,5058960",
     "publisher": "HIGH-END Games"
   }
 }

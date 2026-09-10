@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789021696,
+  "_lastChecked": 1789027890,
   "_history": [
     {
       "buildId": "24218075",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38048797,
+  "_change_number": 38753338,
   "_missing_token": false,
-  "_sha": "bbed7e77e34fa9f017b72eed37dbc4c7ace79d98",
-  "_size": 5305,
+  "_sha": "5b8dcaf71cadc888152a43960a334782b744ac12",
+  "_size": 5831,
   "appid": "2933360",
   "common": {
     "associations": {
@@ -260,8 +260,8 @@
     "publisher": "Spirit"
   },
   "ufs": {
-    "maxnumfiles": "5",
-    "quota": "10000000000",
+    "maxnumfiles": "100",
+    "quota": "500000000",
     "rootoverrides": {
       "0": {
         "os": "Windows",
@@ -273,6 +273,30 @@
           }
         },
         "root": "SteamCloudDocuments",
+        "useinstead": "gameinstall"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "VacationGame/Saved/SaveGames",
+            "replace": "VacationGame/Saved/SaveGames"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      },
+      "2": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "VacationGame/Saved/SaveGames",
+            "replace": "VacationGame/Saved/SaveGames"
+          }
+        },
+        "root": "gameinstall",
         "useinstead": "gameinstall"
       }
     },

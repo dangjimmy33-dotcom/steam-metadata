@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789024153,
-  "_history": [],
-  "_change_number": 38388165,
-  "_missing_token": true,
-  "_sha": "6e3719ba344e0f70fa7a87dd79f32a4421644500",
-  "_size": 2773,
+  "_lastChecked": 1789029924,
+  "_history": [
+    {
+      "buildId": "24804444",
+      "branch": "public",
+      "timeUpdated": 1787083893,
+      "firstSeen": 1789029924,
+      "manifests": {
+        "5132201": {
+          "gid": "3581791921756633638",
+          "size": 98063461,
+          "download": 52719040
+        }
+      }
+    }
+  ],
+  "_change_number": 38752445,
+  "_missing_token": false,
+  "_sha": "29c2db1b17fb9b44366c9fe3ff1270cb83cde123",
+  "_size": 3340,
   "appid": "5132200",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "236bfd1f3d0b2b0eddd4bc922a0cfda41e9ea0f2",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5132200",
     "genres": {
       "0": "25",
@@ -100,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e69b9eedd982f250c1c217adb8cec2263cb2b3a6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789024958",
     "store_asset_mtime": "1787669730",
     "store_tags": {
       "0": "597",
@@ -125,5 +139,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "naiwadexiao",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "NaiWaLaughFactory.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5132201": {
+      "manifests": {
+        "public": {
+          "download": "52719040",
+          "gid": "3581791921756633638",
+          "size": "98063461"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24804444",
+        "timebuildupdated": "1787083684",
+        "timeupdated": "1787083893"
+      }
+    }
+  },
+  "extended": {
+    "developer": "ZikL",
+    "publisher": "ZikL"
+  }
 }

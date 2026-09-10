@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789022106,
-  "_history": [],
-  "_change_number": 38728098,
-  "_missing_token": true,
-  "_sha": "86be517574f9e0d990ffe161f894dce695c440b5",
-  "_size": 3591,
+  "_lastChecked": 1789028226,
+  "_history": [
+    {
+      "buildId": "25209102",
+      "branch": "public",
+      "timeUpdated": 1789022995,
+      "firstSeen": 1789028226,
+      "manifests": {
+        "3273881": {
+          "gid": "2510216027038157875",
+          "size": 10161407592,
+          "download": 4007812448
+        }
+      }
+    }
+  ],
+  "_change_number": 38753546,
+  "_missing_token": false,
+  "_sha": "50dcaf70af8f28d117dfdb1b6972151aece73560",
+  "_size": 4439,
   "appid": "3273880",
   "common": {
     "aicontenttype": "1",
@@ -43,9 +57,9 @@
     "clienticon": "1c48d7f60e8ee97f43fe45307b381546aaa8b9f1",
     "clienttga": "ab3c2b557dcc0bd7d071a67671c6587f81cdc1c6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3273880",
     "genres": {
       "0": "1",
@@ -120,10 +134,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3be650ace5057a28b14a4f78afc5595b57bcdf38/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787581308",
     "store_tags": {
       "0": "3834",
@@ -156,5 +171,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Under a Desert Sun - TD",
+    "launch": {
+      "0": {
+        "executable": "UDS-TD.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3273881": {
+      "manifests": {
+        "public": {
+          "download": "4007812448",
+          "gid": "2510216027038157875",
+          "size": "10161407592"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25209102",
+        "timebuildupdated": "1788959283",
+        "timeupdated": "1789022995"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Revolving Gear Studios",
+    "homepage": "https://discord.gg/WJZT6HPSH8",
+    "publisher": "Revolving Gear Studios"
+  }
 }

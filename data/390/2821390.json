@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789021562,
-  "_history": [],
-  "_change_number": 38734809,
-  "_missing_token": true,
-  "_sha": "38d5e7293f154ceb559f9816e2f0817015e565ca",
-  "_size": 4420,
+  "_lastChecked": 1789027780,
+  "_history": [
+    {
+      "buildId": "24981395",
+      "branch": "public",
+      "timeUpdated": 1788515844,
+      "firstSeen": 1789027780,
+      "manifests": {
+        "2821391": {
+          "gid": "3016116472031217073",
+          "size": 18390500893,
+          "download": 15431137328
+        }
+      }
+    }
+  ],
+  "_change_number": 38752897,
+  "_missing_token": false,
+  "_sha": "f1667597e7303fd87cde533cda763244ada30e0c",
+  "_size": 5807,
   "appid": "2821390",
   "common": {
     "associations": {
@@ -29,6 +43,7 @@
       "category_24": "1",
       "category_27": "1",
       "category_28": "1",
+      "category_29": "1",
       "category_36": "1",
       "category_37": "1",
       "category_45": "1",
@@ -50,6 +65,7 @@
     },
     "clienticon": "620605afad3b3a440f54eba7aa39e69e955122b8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -60,7 +76,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "2821390",
     "genres": {
       "0": "9"
@@ -144,11 +159,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0ee8151e968302c236c072eb4eeaa11eda2ea48b/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1784126992",
+    "steam_release_date": "1789023614",
+    "store_asset_mtime": "1788864045",
     "store_tags": {
       "0": "699",
       "1": "1773",
@@ -209,5 +225,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HOT WHEELS™ Infinite Rush",
+    "launch": {
+      "0": {
+        "executable": "hotwheels3.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65532",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "Engine\\Binaries\\ThirdParty\\Steamworks\\controller_manifest.vdf"
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2821391": {
+      "manifests": {
+        "public": {
+          "download": "15431137328",
+          "gid": "3016116472031217073",
+          "size": "18390500893"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24981395",
+        "timebuildupdated": "1787872793",
+        "timeupdated": "1788515844"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Milestone S.r.l.",
+    "dlcavailableonstore": "1",
+    "homepage": "https://hotwheelsinfiniterush.com/",
+    "listofdlc": "4715520,4795590",
+    "publisher": "Milestone S.r.l."
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Hotwheels3/Saved/SaveGames/",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789023930,
-  "_history": [],
-  "_change_number": 38395752,
-  "_missing_token": true,
-  "_sha": "e03eeb388b9eb2434deb68c810c499198df7cd38",
-  "_size": 3026,
+  "_lastChecked": 1789029738,
+  "_history": [
+    {
+      "buildId": "24606785",
+      "branch": "public",
+      "timeUpdated": 1786079973,
+      "firstSeen": 1789029738,
+      "manifests": {
+        "4890182": {
+          "gid": "3968702802507805631",
+          "size": 216253438,
+          "download": 187513568
+        }
+      }
+    }
+  ],
+  "_change_number": 38752380,
+  "_missing_token": false,
+  "_sha": "dd2f1ac27dac7a041e1b19f8a75d5839fb16b6e5",
+  "_size": 3925,
   "appid": "4890180",
   "common": {
     "associations": {
@@ -32,9 +46,9 @@
     },
     "clienticon": "f79e095fcdcc539dca42d4aa00eaeea4d8aee556",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4890180",
     "genres": {
       "0": "4",
@@ -105,7 +119,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2844c6a846172d66ac3a6c659501e6ada8420d26/capsule_231x87.jpg"
     },
@@ -130,5 +144,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "激 J パチスロ ハナハナ祭り！",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "HANST.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4890182": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "187513568",
+          "gid": "3968702802507805631",
+          "size": "216253438"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "24606785",
+        "timebuildupdated": "1786079973",
+        "timeupdated": "1786079973"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "株式会社ドラス",
+    "gamemanualurl": "https://store.steampowered.com/manual/4890180/",
+    "publisher": "株式会社ドラス"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789021464,
+  "_lastChecked": 1789027699,
   "_history": [
     {
       "buildId": "25123641",
@@ -144,12 +144,48 @@
           "download": 999841120
         }
       }
+    },
+    {
+      "buildId": "25224792",
+      "branch": "experimental",
+      "timeUpdated": 1789022178,
+      "firstSeen": 1789027699,
+      "manifests": {
+        "2740171": {
+          "gid": "208715543459071429",
+          "size": 724168848,
+          "download": 467329248
+        },
+        "2740172": {
+          "gid": "9061849845755623184",
+          "size": 1311245817,
+          "download": 1000934944
+        }
+      }
+    },
+    {
+      "buildId": "25224792",
+      "branch": "public",
+      "timeUpdated": 1789022351,
+      "firstSeen": 1789027699,
+      "manifests": {
+        "2740171": {
+          "gid": "208715543459071429",
+          "size": 724168848,
+          "download": 467329248
+        },
+        "2740172": {
+          "gid": "9061849845755623184",
+          "size": 1311245817,
+          "download": 1000934944
+        }
+      }
     }
   ],
-  "_change_number": 38742429,
+  "_change_number": 38751642,
   "_missing_token": false,
-  "_sha": "2e7192bf0c5b4e7812f7cd11a2812478fa38e0bd",
-  "_size": 9168,
+  "_sha": "811bbf5abdf5ba32c33f2ae8bf23f2f4f780e939",
+  "_size": 9170,
   "appid": "2740170",
   "common": {
     "aicontenttype": "1",
@@ -471,14 +507,14 @@
       },
       "manifests": {
         "experimental": {
-          "download": "466875728",
-          "gid": "676167336085128676",
-          "size": "721652912"
+          "download": "467329248",
+          "gid": "208715543459071429",
+          "size": "724168848"
         },
         "public": {
-          "download": "466875728",
-          "gid": "676167336085128676",
-          "size": "721652912"
+          "download": "467329248",
+          "gid": "208715543459071429",
+          "size": "724168848"
         }
       }
     },
@@ -489,28 +525,28 @@
       },
       "manifests": {
         "experimental": {
-          "download": "999841120",
-          "gid": "2310926087656012805",
-          "size": "1308154102"
+          "download": "1000934944",
+          "gid": "9061849845755623184",
+          "size": "1311245817"
         },
         "public": {
-          "download": "999841120",
-          "gid": "2310926087656012805",
-          "size": "1308154102"
+          "download": "1000934944",
+          "gid": "9061849845755623184",
+          "size": "1311245817"
         }
       }
     },
     "branches": {
       "experimental": {
-        "buildid": "25218801",
+        "buildid": "25224792",
         "description": "An experimental branch, where users can test out more drastic changes before they are released to the main branch. Do not use with your main save.",
-        "timebuildupdated": "1788993040",
-        "timeupdated": "1788993040"
+        "timebuildupdated": "1789022178",
+        "timeupdated": "1789022178"
       },
       "public": {
-        "buildid": "25218801",
-        "timebuildupdated": "1788993040",
-        "timeupdated": "1788993223"
+        "buildid": "25224792",
+        "timebuildupdated": "1789022178",
+        "timeupdated": "1789022351"
       }
     },
     "privatebranches": "1",

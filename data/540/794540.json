@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789018926,
+  "_lastChecked": 1789025629,
   "_history": [
     {
       "buildId": "8158598",
@@ -20,10 +20,10 @@
       }
     }
   ],
-  "_change_number": 37628767,
+  "_change_number": 38750876,
   "_missing_token": false,
-  "_sha": "397ff3661a760b959ccf90efac6c2f8f3a80b741",
-  "_size": 8135,
+  "_sha": "09072a4234b3b42cf1b855165309daa45df04e0e",
+  "_size": 8568,
   "appid": "794540",
   "common": {
     "associations": {
@@ -379,11 +379,32 @@
   "ufs": {
     "maxnumfiles": "500",
     "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "Chance Agency\\Neo Cab",
         "pattern": "*",
         "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "CHANCE AGENCY/NeoCab/{64BitSteamID}",
+        "pattern": "neo-cab-*.json",
         "root": "WinAppDataLocalLow"
       }
     }

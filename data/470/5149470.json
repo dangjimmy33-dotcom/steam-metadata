@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789024165,
-  "_history": [],
-  "_change_number": 38378245,
-  "_missing_token": true,
-  "_sha": "6983264071e0e283d6539baaca712298d5cb438e",
-  "_size": 3248,
+  "_lastChecked": 1789029933,
+  "_history": [
+    {
+      "buildId": "24856751",
+      "branch": "public",
+      "timeUpdated": 1787298646,
+      "firstSeen": 1789029933,
+      "manifests": {
+        "5149471": {
+          "gid": "7477344189412503341",
+          "size": 189684552,
+          "download": 89774816
+        }
+      }
+    }
+  ],
+  "_change_number": 38754207,
+  "_missing_token": false,
+  "_sha": "b99ec676d16e020112073f1655e64e437e1a16f8",
+  "_size": 3701,
   "appid": "5149470",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "282b0ca0948d455bec8ad77aad55af3532dbcbc6",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5149470",
     "genres": {
       "0": "4",
@@ -95,7 +108,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1448c35f72db00da0999a2ffa292f2391f003a98/capsule_231x87.jpg"
     },
@@ -148,5 +161,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Nostalgia Farm",
+    "launch": {
+      "0": {
+        "executable": "Farm.exe"
+      }
+    }
+  },
+  "depots": {
+    "5149471": {
+      "manifests": {
+        "public": {
+          "download": "89774816",
+          "gid": "7477344189412503341",
+          "size": "189684552"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24856751",
+        "timebuildupdated": "1787298644",
+        "timeupdated": "1787298646"
+      }
+    }
+  },
+  "extended": {
+    "developer": "No One",
+    "publisher": "No One"
+  }
 }

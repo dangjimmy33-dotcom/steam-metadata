@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789024120,
-  "_history": [],
-  "_change_number": 38686446,
-  "_missing_token": true,
-  "_sha": "ef9a226da787061e4471829b6cabd7539f5681e6",
-  "_size": 3926,
+  "_lastChecked": 1789029896,
+  "_history": [
+    {
+      "buildId": "24754007",
+      "branch": "public",
+      "timeUpdated": 1786817765,
+      "firstSeen": 1789029896,
+      "manifests": {
+        "5088081": {
+          "gid": "4269695603194372443",
+          "size": 148964942,
+          "download": 92866368
+        },
+        "5088082": {
+          "gid": "4481880793125898295",
+          "size": 109803961,
+          "download": 78102000
+        }
+      }
+    }
+  ],
+  "_change_number": 38753120,
+  "_missing_token": false,
+  "_sha": "c57e6dea6962423c48a028facab97cfa5f6c00bf",
+  "_size": 4926,
   "appid": "5088080",
   "common": {
     "aicontenttype": "1",
@@ -30,7 +49,6 @@
     "clienticon": "63d05dc57c8ad1b94862c590651bc7c76f4ceb96",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5088080",
     "genres": {
       "0": "25",
@@ -109,7 +127,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "df2c72eff090ef287357a550e75431c6d6750a01/capsule_231x87.jpg"
     },
@@ -185,5 +203,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Before the Fireworks",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "notelove.app"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "note_love.exe"
+      }
+    }
+  },
+  "depots": {
+    "5088081": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "92866368",
+          "gid": "4269695603194372443",
+          "size": "148964942"
+        }
+      }
+    },
+    "5088082": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "78102000",
+          "gid": "4481880793125898295",
+          "size": "109803961"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "24754007",
+        "timebuildupdated": "1786817592",
+        "timeupdated": "1786817765"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "NoteLove",
+    "homepage": "https://www.note-love.com/",
+    "publisher": "fly-nervermore"
+  }
 }

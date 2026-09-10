@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789023561,
-  "_history": [],
-  "_change_number": 38728903,
-  "_missing_token": true,
-  "_sha": "3e8a271a39886693465a34ec43a811419eeffbd5",
-  "_size": 3439,
+  "_lastChecked": 1789029433,
+  "_history": [
+    {
+      "buildId": "25209639",
+      "branch": "public",
+      "timeUpdated": 1788961021,
+      "firstSeen": 1789029433,
+      "manifests": {
+        "4531321": {
+          "gid": "1982068348323994665",
+          "size": 528082807,
+          "download": 285772464
+        },
+        "4531322": {
+          "gid": "289619911764142054",
+          "size": 477462624,
+          "download": 260778656
+        }
+      }
+    }
+  ],
+  "_change_number": 38753075,
+  "_missing_token": false,
+  "_sha": "480c6010f552f2580981e84337d6dd0bbd481646",
+  "_size": 4725,
   "appid": "4531320",
   "common": {
     "associations": {
@@ -32,8 +51,8 @@
     },
     "clienticon": "397b1ec15503e0d6a371d953af8391140b27e491",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4531320",
     "genres": {
       "0": "4",
@@ -113,10 +132,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5b88f2cd96a38346619b13800932212f74b1b8c7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789026785",
     "store_asset_mtime": "1787215871",
     "store_tags": {
       "0": "615955",
@@ -159,5 +179,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gambit Loop",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Gambit Loop.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "gambit-loop",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4531321": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "285772464",
+          "gid": "1982068348323994665",
+          "size": "528082807"
+        }
+      }
+    },
+    "4531322": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "260778656",
+          "gid": "289619911764142054",
+          "size": "477462624"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,russian,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25209639",
+        "timebuildupdated": "1788960975",
+        "timeupdated": "1788961021"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Delirium Tremens Games",
+    "publisher": "Delirium Tremens Games"
+  },
+  "ufs": {
+    "appidredirect": "4962730",
+    "maxnumfiles": "30",
+    "quota": "52428800"
+  }
 }

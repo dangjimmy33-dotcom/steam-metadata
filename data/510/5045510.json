@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789024084,
-  "_history": [],
-  "_change_number": 38426416,
-  "_missing_token": true,
-  "_sha": "ced38cf999de67c3e4d1f55422028941b2ba0ac5",
-  "_size": 2883,
+  "_lastChecked": 1789029866,
+  "_history": [
+    {
+      "buildId": "24873548",
+      "branch": "public",
+      "timeUpdated": 1787360764,
+      "firstSeen": 1789029866,
+      "manifests": {
+        "5045511": {
+          "gid": "4851138239361955213",
+          "size": 2109926029,
+          "download": 1952988720
+        }
+      }
+    }
+  ],
+  "_change_number": 38753010,
+  "_missing_token": false,
+  "_sha": "ef4340608b95ef78e102d57b62382cc6ee95be96",
+  "_size": 3741,
   "appid": "5045510",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "c372bc7c86f2004ee919367398fb9296c1432337",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5045510",
     "genres": {
       "0": "25",
@@ -98,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b7d94b20151e96f2f3619be5a9a93459c108e5d0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787462862",
     "store_tags": {
       "0": "21",
@@ -128,5 +142,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "WinterSeed",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "WinterSeed_Beta_1.0\\WinterSeed_workfile.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5045511": {
+      "manifests": {
+        "public": {
+          "download": "1952988720",
+          "gid": "4851138239361955213",
+          "size": "2109926029"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24873548",
+        "timebuildupdated": "1787359735",
+        "timeupdated": "1787360764"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Wolf Studio",
+    "isfreeapp": "1",
+    "publisher": "Wolf Studio"
+  }
 }

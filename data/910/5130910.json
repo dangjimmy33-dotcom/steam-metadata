@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789024152,
-  "_history": [],
-  "_change_number": 38649557,
-  "_missing_token": true,
-  "_sha": "65dcb7af2348c051c8b05add8e4a6e1670bca4b5",
-  "_size": 12913,
+  "_lastChecked": 1789029923,
+  "_history": [
+    {
+      "buildId": "25107422",
+      "branch": "public",
+      "timeUpdated": 1788457911,
+      "firstSeen": 1789029923,
+      "manifests": {
+        "5130911": {
+          "gid": "3207304836215620632",
+          "size": 584470415,
+          "download": 581265280
+        }
+      }
+    }
+  ],
+  "_change_number": 38753072,
+  "_missing_token": false,
+  "_sha": "629d30a2eadee08e93864261edd50df39e756cac",
+  "_size": 13876,
   "appid": "5130910",
   "common": {
     "aicontenttype": "1",
@@ -35,8 +49,8 @@
     },
     "clienticon": "c1efa598f0ef5075d6f60a3e576e815d8290956d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5130910",
     "genres": {
       "0": "4"
@@ -106,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c0a1c49a98240868adbe4ff65b53e9ce3700df85/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789026783",
     "store_asset_mtime": "1787315852",
     "store_tags": {
       "0": "597",
@@ -651,5 +666,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Chronime Puzzle Animals",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Chronime Puzzle Animals.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5130911": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "581265280",
+          "gid": "3207304836215620632",
+          "size": "584470415"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25107422",
+        "timebuildupdated": "1788457887",
+        "timeupdated": "1788457911"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Quantum Quiver Games",
+    "publisher": "Quantum Quiver Games"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "100000",
+    "savefiles": {
+      "0": {
+        "path": ".",
+        "pattern": "save.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

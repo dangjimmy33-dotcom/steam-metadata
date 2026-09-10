@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789018657,
+  "_lastChecked": 1789025412,
   "_history": [
     {
       "buildId": "25049128",
@@ -38,10 +38,10 @@
       }
     }
   ],
-  "_change_number": 38744007,
+  "_change_number": 38752253,
   "_missing_token": false,
-  "_sha": "9bfcce3fe45880903d0efe192ff4d734474eab00",
-  "_size": 8748,
+  "_sha": "2d904f0cfecdd7cb2658a0b8d4bcba0bfa034d56",
+  "_size": 8875,
   "appid": "578080",
   "common": {
     "aicontenttype": "1",
@@ -322,13 +322,13 @@
         "type": "default"
       },
       "1": {
-        "arguments": "-LobbyUrl=https://prod-live-front.playbattlegrounds.com/index.html",
+        "arguments": "-LobbyUrl=https://prod-live-front.playbattlegrounds.com?provider=steam -EnableScreenshotWhenCrash -CrashSendLog -HitchFpsPercentage=5 -NoAce -EnableIntegrityCheck -CohDiskCache -KoreanRating",
         "config": {
-          "betakey": "internal",
+          "betakey": "internal-test",
           "osarch": "64",
           "oslist": "windows"
         },
-        "executable": "TslGame\\Binaries\\Win64\\TslGame_BE.exe",
+        "executable": "TslGame\\Binaries\\Win64\\ExecPubg.exe",
         "type": "default"
       },
       "2": {

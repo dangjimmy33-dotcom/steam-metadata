@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789020114,
+  "_lastChecked": 1789026591,
   "_history": [
     {
       "buildId": "24922454",
@@ -39,11 +39,24 @@
           "download": 16789863936
         }
       }
+    },
+    {
+      "buildId": "25222893",
+      "branch": "public",
+      "timeUpdated": 1789024576,
+      "firstSeen": 1789026591,
+      "manifests": {
+        "1689071": {
+          "gid": "6542955060524562446",
+          "size": 17585316515,
+          "download": 16789863936
+        }
+      }
     }
   ],
-  "_change_number": 38749280,
+  "_change_number": 38752321,
   "_missing_token": false,
-  "_sha": "3ce07ae62109c3b2f6af72d7e5391a8e1ebeb554",
+  "_sha": "fae43d20c5b5d9be2889d7afbbec7e740633221a",
   "_size": 10401,
   "appid": "1689070",
   "common": {
@@ -293,7 +306,7 @@
         "type": "option1"
       },
       "7": {
-        "arguments": "/bgfx /patchver:571 /ip:116.211.21.122 /port:14300 /Lver:2 /use_packing /patchurl:http:\\\\lzg.jijiagames.com\\dn\\ReleaseBuild\\Patch\\ /steam:1",
+        "arguments": "/bgfx /patchver:571 /ip:116.211.21.122 /port:14301 /Lver:2 /use_packing /patchurl:http:\\\\lzg.jijiagames.com\\dn\\ReleaseBuild\\Patch\\ /steam:1",
         "config": {
           "betakey": "test",
           "osarch": "64",
@@ -326,7 +339,7 @@
         "type": "option1"
       },
       "9": {
-        "arguments": "/bgfx /patchver:571 /ip:116.211.21.122 /port:14300 /Lver:2 /use_packing /patchurl:http:\\\\lzg.jijiagames.com\\dn\\ReleaseBuild\\Patch\\ /steam:2",
+        "arguments": "/bgfx /patchver:571 /ip:116.211.21.122 /port:14301 /Lver:2 /use_packing /patchurl:http:\\\\lzg.jijiagames.com\\dn\\ReleaseBuild\\Patch\\ /steam:2",
         "config": {
           "betakey": "test",
           "osarch": "64",
@@ -360,9 +373,9 @@
       },
       "manifests": {
         "public": {
-          "download": "16777111584",
-          "gid": "7099958833583690599",
-          "size": "17572194283"
+          "download": "16789863936",
+          "gid": "6542955060524562446",
+          "size": "17585316515"
         },
         "test": {
           "download": "16789863936",
@@ -402,9 +415,9 @@
     "baselanguages": "schinese",
     "branches": {
       "public": {
-        "buildid": "24922454",
-        "timebuildupdated": "1787641579",
-        "timeupdated": "1787646030"
+        "buildid": "25222893",
+        "timebuildupdated": "1789011840",
+        "timeupdated": "1789024576"
       },
       "test": {
         "buildid": "25222893",
