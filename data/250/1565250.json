@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788987666,
+  "_lastChecked": 1788994500,
   "_history": [
     {
       "buildId": "16260591",
@@ -20,10 +20,10 @@
       }
     }
   ],
-  "_change_number": 38670079,
+  "_change_number": 38742437,
   "_missing_token": false,
-  "_sha": "5bfdcf244aa97756565f430d1c5f523a4c6ea27c",
-  "_size": 3365,
+  "_sha": "39d1459b0269376c78094cdd882ef23c14a6bcee",
+  "_size": 3657,
   "appid": "1565250",
   "common": {
     "associations": {
@@ -196,5 +196,21 @@
     "developer": "LFB Studios",
     "homepage": "https://risingspire.com",
     "publisher": "LFB Studios"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "800",
+    "quota": "8000000000",
+    "savefiles": {
+      "0": {
+        "path": "LFB Studios/Rising Spire",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

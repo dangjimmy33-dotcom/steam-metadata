@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788988124,
-  "_history": [],
-  "_change_number": 38739447,
-  "_missing_token": true,
-  "_sha": "d3c623135846bd0d32213e9a2121b29816c5b412",
-  "_size": 4041,
+  "_lastChecked": 1788994927,
+  "_history": [
+    {
+      "buildId": "25218131",
+      "branch": "public",
+      "timeUpdated": 1788993457,
+      "firstSeen": 1788994927,
+      "manifests": {
+        "1867242": {
+          "gid": "6572594836693250544",
+          "size": 45386859343,
+          "download": 44788351392
+        }
+      }
+    }
+  ],
+  "_change_number": 38742520,
+  "_missing_token": false,
+  "_sha": "6ba1ccc0f8231d24fe087612f7d4149ce8d264a8",
+  "_size": 13439,
   "appid": "1867240",
   "common": {
     "associations": {
@@ -48,7 +62,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1867240",
     "genres": {
       "0": "1",
@@ -122,7 +135,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "preloadonly",
     "small_capsule": {
       "english": "11d3bb7607c5568c61108fe70e7c670b4940269e/capsule_231x87.jpg"
     },
@@ -196,5 +209,297 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Wardogs",
+    "launch": {
+      "60": {
+        "arguments": "-PragmaEnvironment=live",
+        "executable": "WardogsLauncher-Shipping.exe",
+        "type": "default"
+      },
+      "62": {
+        "arguments": "-PragmaEnvironment=playtest",
+        "config": {
+          "betakey": "main,playtest,banked_staging,x-astro,x-bolt,x-clifford,x-droopy,x-fang,x-gromit,x-lassie,x-marley,x-scooby,x-toto,milestone_dev_latest,qa_testing"
+        },
+        "description": "WARDOGS // Development // Playtest",
+        "description_loc": {
+          "english": "WARDOGS // Development // Playtest"
+        },
+        "executable": "Wardogs/Binaries/Win64/WardogsClient.exe"
+      },
+      "63": {
+        "arguments": "-PragmaEnvironment=Staging",
+        "config": {
+          "betakey": "main,playtest,banked_staging,x-astro,x-bolt,x-clifford,x-droopy,x-fang,x-gromit,x-lassie,x-marley,x-scooby,x-toto,milestone_dev_latest,qa_testing"
+        },
+        "description": "WARDOGS // Development // Staging",
+        "description_loc": {
+          "english": "WARDOGS // Development // Staging"
+        },
+        "executable": "Wardogs/Binaries/Win64/WardogsClient.exe"
+      },
+      "65": {
+        "arguments": "-LogPSO -OnlineConfigTags=playtest -PragmaEnvironment=playtest",
+        "config": {
+          "betakey": "main,playtest,banked_staging,x-astro,x-bolt,x-clifford,x-droopy,x-fang,x-gromit,x-lassie,x-marley,x-scooby,x-toto,milestone_dev_latest,qa_testing,qa_verified,main_internal,early_access_0_1_internal"
+        },
+        "description": "WARDOGS // Test // Playtest",
+        "description_loc": {
+          "english": "WARDOGS // Test // Playtest"
+        },
+        "executable": "Wardogs/Binaries/Win64/WardogsClient-Win64-Test.exe"
+      },
+      "66": {
+        "arguments": "-col -PragmaEnvironment=staging",
+        "config": {
+          "betakey": "main,playtest,banked_staging,x-astro,x-bolt,x-clifford,x-droopy,x-fang,x-gromit,x-lassie,x-marley,x-scooby,x-toto,early_access_0_1_internal,any_brain,qa_testing,qa_verified,live_staging_internal"
+        },
+        "description": "WARDOGS // Test // Staging",
+        "description_loc": {
+          "english": "WARDOGS // Test // Staging"
+        },
+        "executable": "Wardogs/Binaries/Win64/WardogsClient-Win64-Test.exe"
+      },
+      "68": {
+        "arguments": "-PragmaEnvironment=playtest",
+        "config": {
+          "betakey": "main,playtest,banked_staging,x-astro,x-bolt,x-clifford,x-droopy,x-fang,x-gromit,x-lassie,x-marley,x-scooby,x-toto,icarus_bronze,icarus_silver,icarus_gold,milestone_shipping_latest,milestone_dev_latest,qa_testing,release_staging,qa_verified"
+        },
+        "description": "WARDOGS // Shipping // Playtest",
+        "description_loc": {
+          "english": "WARDOGS // Shipping // Playtest"
+        },
+        "executable": "start_protected_game.exe"
+      },
+      "69": {
+        "arguments": "-col -PragmaEnvironment=staging",
+        "config": {
+          "betakey": "main,playtest,banked_staging,community_provider_client,x-astro,x-bolt,x-clifford,x-droopy,x-fang,x-gromit,x-lassie,x-marley,x-scooby,x-toto,icarus_bronze,icarus_silver,icarus_gold,milestone_shipping_latest,qa_testing,qa_verified,early_access_0_1_internal,live_staging_internal,any_brain"
+        },
+        "description": "WARDOGS // Shipping // Staging",
+        "description_loc": {
+          "english": "WARDOGS // Shipping // Staging"
+        },
+        "executable": "WardogsLauncher-Shipping.exe"
+      },
+      "71": {
+        "arguments": "-PragmaEnvironment=playtest",
+        "config": {
+          "betakey": "early_access_0_1_internal, x-marley, any_brain"
+        },
+        "description": "WARDOGS // Shipping // Playtest",
+        "description_loc": {
+          "english": "WARDOGS // Shipping // Playtest"
+        },
+        "executable": "start_protected_game.exe"
+      },
+      "72": {
+        "arguments": "-PragmaEnvironment=public",
+        "config": {
+          "betakey": "release_staging,x-scooby"
+        },
+        "description": "WARDOGS // Shipping // Public",
+        "description_loc": {
+          "english": "WARDOGS // Shipping // Public"
+        },
+        "executable": "start_protected_game.exe"
+      },
+      "74": {
+        "arguments": "-PragmaEnvironment=staging",
+        "config": {
+          "betakey": "x-lassie,x-marley"
+        },
+        "description": "WARDOGS // Shipping // Elytra",
+        "description_loc": {
+          "english": "WARDOGS // Shipping // Elytra"
+        },
+        "executable": "WardogsLauncher-Shipping.exe"
+      },
+      "76": {
+        "arguments": "-securelogs -PragmaEnvironment=staging",
+        "config": {
+          "betakey": "external_test_partner,etp_two"
+        },
+        "description": "WARDOGS // Shipping // Staging",
+        "description_loc": {
+          "english": "WARDOGS // Shipping // Staging"
+        },
+        "executable": "Wardogs/Binaries/Win64/WardogsClient-Win64-Shipping.exe"
+      },
+      "77": {
+        "config": {
+          "betakey": "main,playtest,banked_staging,community_provider_client,x-astro,x-bolt,x-clifford,x-droopy,x-fang,x-gromit,x-lassie,x-marley,x-scooby,x-toto,icarus_bronze,icarus_silver,icarus_gold,milestone_shipping_latest,qa_testing,qa_verified,early_access_0_1_internal,any_brain,main_internal"
+        },
+        "description": "WARDOGS // Test // Functest",
+        "description_loc": {
+          "english": "WARDOGS // Test // Functest"
+        },
+        "executable": "Wardogs\\Binaries\\Win64\\WardogsClient-Win64-Test.exe"
+      },
+      "78": {
+        "arguments": "-PragmaEnvironment=live",
+        "config": {
+          "betakey": "live_staging_internal,live_staging_external"
+        },
+        "description": "WARDOGS // Shipping // Live",
+        "description_loc": {
+          "english": "WARDOGS // Shipping // Live"
+        },
+        "executable": "start_protected_game.exe"
+      },
+      "79": {
+        "arguments": "-PragmaEnvironment=staging",
+        "config": {
+          "betakey": "early_access_0_1_external"
+        },
+        "description": "WARDOGS // Shipping // Staging",
+        "description_loc": {
+          "english": "WARDOGS // Shipping // Staging"
+        },
+        "executable": "WardogsLauncher-Shipping.exe"
+      },
+      "80": {
+        "arguments": "-PragmaEnvironment=staging -AntiCheat -EnableAnyBrain",
+        "config": {
+          "betakey": "live_staging_internal"
+        },
+        "description": "Test // Staging // Staging",
+        "description_loc": {
+          "english": "Test // Staging // Staging"
+        },
+        "executable": "WardogsLauncher-Test.exe"
+      },
+      "81": {
+        "arguments": "-PragmaEnvironment=staging -AntiCheat -EnableAnyBrain",
+        "config": {
+          "betakey": "live_staging_internal,live_staging_external,default_internal"
+        },
+        "description": "Shipping // Staging // Staging",
+        "description_loc": {
+          "english": "Shipping // Staging // Staging"
+        },
+        "executable": "WardogsLauncher-Shipping.exe"
+      },
+      "82": {
+        "arguments": "-PragmaEnvironment=staging",
+        "config": {
+          "betakey": "live_staging_internal,"
+        },
+        "description": "Shipping // Staging // None",
+        "description_loc": {
+          "english": "Shipping // Staging // None"
+        },
+        "executable": "Wardogs/Binaries/Win64/WardogsClient-Win64-Shipping.exe"
+      },
+      "83": {
+        "arguments": "-PragmaEnvironment=live",
+        "config": {
+          "betakey": "live_staging_internal"
+        },
+        "description": "Shipping // Live // None",
+        "description_loc": {
+          "english": "Shipping // Live // None"
+        },
+        "executable": "Wardogs/Binaries/Win64/WardogsClient-Win64-Shipping.exe"
+      },
+      "84": {
+        "arguments": "-PragmaEnvironment=live -AntiCheat -EnableAnyBrain",
+        "config": {
+          "betakey": "live_staging_internal"
+        },
+        "description": "Test // Live // Prod",
+        "description_loc": {
+          "english": "Test // Live // Prod"
+        },
+        "executable": "WardogsLauncher-Test-Prod.exe"
+      },
+      "85": {
+        "arguments": "-PragmaEnvironment=live -AntiCheat -EnableAnyBrain",
+        "config": {
+          "betakey": "live_staging_internal"
+        },
+        "description": "Shipping // Live // Prod",
+        "description_loc": {
+          "english": "Shipping // Live // Prod"
+        },
+        "executable": "WardogsLauncher-Shipping-Prod.exe"
+      },
+      "86": {
+        "arguments": "-PragmaEnvironment=live -AntiCheat -EnableAnyBrain",
+        "config": {
+          "betakey": "live_prod_external,banked_internal,default_internal,banked_default"
+        },
+        "description": "Shipping // Live // Prod",
+        "description_loc": {
+          "english": "Shipping // Live // Prod"
+        },
+        "executable": "WardogsLauncher-Shipping.exe"
+      },
+      "87": {
+        "arguments": "-PragmaEnvironment=live",
+        "config": {
+          "betakey": "live_prod_external"
+        },
+        "description": "default_test",
+        "description_loc": {
+          "english": "default_test"
+        },
+        "executable": "WardogsLauncher-Shipping.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "7",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "1867242": {
+      "manifests": {
+        "public": {
+          "download": "44788351392",
+          "gid": "6572594836693250544",
+          "size": "45386859343"
+        }
+      }
+    },
+    "1867243": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {}
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4496820": {
+      "dlcappid": "4496820"
+    },
+    "branches": {
+      "public": {
+        "buildid": "25218131",
+        "timebuildupdated": "1788990216",
+        "timeupdated": "1788993457"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "BULKHEAD",
+    "dlcavailableonstore": "1",
+    "gamedir": "Wardogs",
+    "listofdlc": "4809960",
+    "publisher": "Team17",
+    "serverbrowsername": "WARDOGS: King of the Hill"
+  }
 }

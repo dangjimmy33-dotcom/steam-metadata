@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1788991985,
-  "_history": [],
-  "_change_number": 38252767,
-  "_missing_token": true,
-  "_sha": "51fc40562ed57dd5d23a8318c93fa3e8d06541f3",
-  "_size": 2997,
+  "_lastChecked": 1788998487,
+  "_history": [
+    {
+      "buildId": "25219489",
+      "branch": "public",
+      "timeUpdated": 1788996435,
+      "firstSeen": 1788998487,
+      "manifests": {
+        "5034071": {
+          "gid": "8380751043701418151",
+          "size": 395752734,
+          "download": 160390640
+        }
+      }
+    }
+  ],
+  "_change_number": 38743586,
+  "_missing_token": false,
+  "_sha": "9b9e8d4b945f6ed752f3b037327104d5422fd58d",
+  "_size": 3504,
   "appid": "5034070",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "c914bbfb6183e9ef0d62dd58482f29098092eba7",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5034070",
     "genres": {
       "0": "4"
@@ -95,10 +108,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "20b18f1e37f1e0f0ebcc0fe9069b922b06d31608/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788996938",
     "store_asset_mtime": "1785879510",
     "store_tags": {
       "0": "597",
@@ -135,5 +149,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "LED HEARTS",
+    "launch": {
+      "0": {
+        "executable": "LED HEARTS.exe"
+      }
+    }
+  },
+  "depots": {
+    "5034071": {
+      "manifests": {
+        "public": {
+          "download": "160390640",
+          "gid": "8380751043701418151",
+          "size": "395752734"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25219489",
+        "timebuildupdated": "1788996016",
+        "timeupdated": "1788996435"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Fugas Kitsune",
+    "publisher": "Fugas Kitsune"
+  }
 }

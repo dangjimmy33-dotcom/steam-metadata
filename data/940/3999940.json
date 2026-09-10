@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788990837,
+  "_lastChecked": 1788997434,
   "_history": [
     {
       "buildId": "25064641",
@@ -13,12 +13,25 @@
           "download": 1527494688
         }
       }
+    },
+    {
+      "buildId": "25218781",
+      "branch": "public",
+      "timeUpdated": 1788993082,
+      "firstSeen": 1788997434,
+      "manifests": {
+        "3999942": {
+          "gid": "5129853835909512699",
+          "size": 1708217937,
+          "download": 1542292032
+        }
+      }
     }
   ],
-  "_change_number": 38517861,
+  "_change_number": 38742373,
   "_missing_token": false,
-  "_sha": "b6faca8d3fe51f8f05dcd02d9081e2e8107830e3",
-  "_size": 6793,
+  "_sha": "d14d76a9562972a814cdecfd3c08b438f18d5fb8",
+  "_size": 7765,
   "appid": "3999940",
   "common": {
     "aicontenttype": "1",
@@ -34,6 +47,8 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
       "category_62": "1",
       "category_65": "1",
       "category_66": "1",
@@ -300,18 +315,18 @@
     "3999942": {
       "manifests": {
         "public": {
-          "download": "1527494688",
-          "gid": "2066736785026553109",
-          "size": "1673648794"
+          "download": "1542292032",
+          "gid": "5129853835909512699",
+          "size": "1708217937"
         }
       }
     },
     "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,polish,russian,schinese,turkish,ukrainian",
     "branches": {
       "public": {
-        "buildid": "25064641",
-        "timebuildupdated": "1788288335",
-        "timeupdated": "1788288367"
+        "buildid": "25218781",
+        "timebuildupdated": "1788992925",
+        "timeupdated": "1788993082"
       }
     },
     "hasdepotsindlc": "0"
@@ -320,5 +335,49 @@
     "developer": "The Sexy Chinaman",
     "homepage": "https://thesexychinaman.com",
     "publisher": "The Sexy Chinaman"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "66",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/TheSuburbs-1762804433",
+            "replace": ".renpy/TheSuburbs-1762804433"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/TheSuburbs-1762804433",
+            "replace": "/Library/RenPy/TheSuburbs-1762804433"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RenPy/TheSuburbs-1762804433",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "RenPy/TheSuburbs-1762804433",
+        "pattern": "persistent",
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

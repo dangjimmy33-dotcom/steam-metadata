@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1788991295,
-  "_history": [],
-  "_change_number": 38738991,
-  "_missing_token": true,
-  "_sha": "5dd36e45fbd50d84ca1e527d674eeaf402bdf41b",
-  "_size": 3727,
+  "_lastChecked": 1788997852,
+  "_history": [
+    {
+      "buildId": "25219526",
+      "branch": "public",
+      "timeUpdated": 1788996914,
+      "firstSeen": 1788997852,
+      "manifests": {
+        "4391381": {
+          "gid": "5709714952589896792",
+          "size": 823299995,
+          "download": 154616368
+        },
+        "5080640": {
+          "gid": "2305289819205815843",
+          "size": 823340155,
+          "download": 154364608
+        }
+      }
+    }
+  ],
+  "_change_number": 38743573,
+  "_missing_token": false,
+  "_sha": "01e412fea6307ebe72ac57241b807eabf0bf62af",
+  "_size": 5355,
   "appid": "4391380",
   "common": {
     "associations": {
@@ -30,8 +49,8 @@
     },
     "clienticon": "a0640e0b3da3d1494b5fd39550939b976b9d4ce1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4391380",
     "genres": {
       "0": "4",
@@ -115,10 +134,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a6a4cc6a95f6bd8487743eb46beac733d3467a06/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788991710",
     "store_asset_mtime": "1782670579",
     "store_tags": {
       "0": "560542",
@@ -179,5 +199,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Artillery Miner",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Artillery Miner",
+        "description_loc": {
+          "english": "Artillery Miner"
+        },
+        "executable": "Artillery Miner.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows",
+          "ownsdlc": "5080640"
+        },
+        "description": "Artillery Miner - Regal Skin Pack",
+        "description_loc": {
+          "english": "Artillery Miner - Regal Skin Pack"
+        },
+        "executable": "Artillery Miner.exe"
+      }
+    }
+  },
+  "depots": {
+    "4391381": {
+      "manifests": {
+        "public": {
+          "download": "154616368",
+          "gid": "5709714952589896792",
+          "size": "823299995"
+        }
+      }
+    },
+    "5080640": {
+      "config": {
+        "oslist": "windows"
+      },
+      "dlcappid": "5080640",
+      "manifests": {
+        "public": {
+          "download": "154364608",
+          "gid": "2305289819205815843",
+          "size": "823340155"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,polish,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25219526",
+        "timebuildupdated": "1788996197",
+        "timeupdated": "1788996914"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "developer": "Alextgr8",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5080640",
+    "publisher": "Alextgr8"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "\\Alex Young\\Artillery Miner\\",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
