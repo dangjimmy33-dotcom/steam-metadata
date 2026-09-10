@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789066955,
+  "_lastChecked": 1789073508,
   "_history": [
     {
       "buildId": "23068225",
@@ -52,11 +52,24 @@
           "download": 4520607584
         }
       }
+    },
+    {
+      "buildId": "25238839",
+      "branch": "developenv",
+      "timeUpdated": 1789070228,
+      "firstSeen": 1789073508,
+      "manifests": {
+        "2666291": {
+          "gid": "1128438813200353642",
+          "size": 4695098023,
+          "download": 4520616624
+        }
+      }
     }
   ],
-  "_change_number": 38771236,
+  "_change_number": 38772828,
   "_missing_token": false,
-  "_sha": "c81686b947677ffaf0c916cc6c254f7561bc395f",
+  "_sha": "6af939423b3beaeeea723e596343197de67058af",
   "_size": 4541,
   "appid": "2666290",
   "common": {
@@ -239,9 +252,9 @@
     "2666291": {
       "manifests": {
         "developenv": {
-          "download": "4520607584",
-          "gid": "2599761889181154226",
-          "size": "4695100071"
+          "download": "4520616624",
+          "gid": "1128438813200353642",
+          "size": "4695098023"
         },
         "public": {
           "download": "4520552736",
@@ -252,10 +265,10 @@
     },
     "branches": {
       "developenv": {
-        "buildid": "25237844",
+        "buildid": "25238839",
         "description": "Latest patches, but expect bugs.",
-        "timebuildupdated": "1789066348",
-        "timeupdated": "1789066356"
+        "timebuildupdated": "1789069787",
+        "timeupdated": "1789070228"
       },
       "public": {
         "buildid": "23068225",

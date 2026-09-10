@@ -1,21 +1,39 @@
 {
-  "_lastChecked": 1789069205,
-  "_history": [],
-  "_change_number": 36318284,
-  "_missing_token": true,
-  "_sha": "ddc5ed00a323c9d525488a3fb609657d3cb3abbf",
-  "_size": 3780,
+  "_lastChecked": 1789075249,
+  "_history": [
+    {
+      "buildId": "22193541",
+      "branch": "public",
+      "timeUpdated": 1772622289,
+      "firstSeen": 1789075249,
+      "manifests": {
+        "4466831": {
+          "gid": "4370212291676323038",
+          "size": 132802528,
+          "download": 70226144
+        }
+      }
+    }
+  ],
+  "_change_number": 38773437,
+  "_missing_token": false,
+  "_sha": "360104bb97ca3539e32baf5a72c7d640698c2ff4",
+  "_size": 4373,
   "appid": "4466830",
   "common": {
     "aicontenttype": "2",
     "associations": {
       "0": {
-        "name": "Wildtooth Studios",
+        "name": "DIG Games",
         "type": "developer"
       },
       "1": {
-        "name": "Wildtooth Studios",
+        "name": "DIG Games",
         "type": "publisher"
+      },
+      "2": {
+        "name": "DIG Games",
+        "type": "franchise"
       }
     },
     "category": {
@@ -30,9 +48,9 @@
     },
     "clienticon": "f9a66e72b211aaa6afbb91bedb0bf4c1c837e8bc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4466830",
     "genres": {
       "0": "1",
@@ -114,10 +132,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2ddb85359270eef640b2449214ee8cffc37b4e08/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789071596",
     "store_asset_mtime": "1777015044",
     "store_tags": {
       "0": "4106",
@@ -177,5 +196,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Axe And Claw",
+    "launch": {
+      "0": {
+        "executable": "Axe And Claw_demo_pck.exe"
+      }
+    }
+  },
+  "depots": {
+    "4466831": {
+      "manifests": {
+        "public": {
+          "download": "70226144",
+          "gid": "4370212291676323038",
+          "size": "132802528"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "22193541",
+        "timebuildupdated": "1772622170",
+        "timeupdated": "1772622289"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DIG Games",
+    "publisher": "DIG Games"
+  }
 }

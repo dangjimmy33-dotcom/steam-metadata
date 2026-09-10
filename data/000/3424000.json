@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789067928,
-  "_history": [],
-  "_change_number": 38518373,
-  "_missing_token": true,
-  "_sha": "8cc1496beefd8a39608da51272b60ab40e994bdb",
-  "_size": 2751,
+  "_lastChecked": 1789074259,
+  "_history": [
+    {
+      "buildId": "25044968",
+      "branch": "public",
+      "timeUpdated": 1788211180,
+      "firstSeen": 1789074259,
+      "manifests": {
+        "3424001": {
+          "gid": "8762632575250907792",
+          "size": 143295315,
+          "download": 53014912
+        }
+      }
+    }
+  ],
+  "_change_number": 38771957,
+  "_missing_token": false,
+  "_sha": "d2d7136eee6cace0d65b14e53a6e2b6dd9a3d5c2",
+  "_size": 3296,
   "appid": "3424000",
   "common": {
     "associations": {
@@ -24,8 +38,8 @@
     "clienticon": "8ca83be9c808b060251dfcaf3ce8352e08074a9d",
     "clienttga": "634618fdce0c03267c83a65666b45fac8630dff0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3424000",
     "genres": {
       "0": "25",
@@ -93,7 +107,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0a9fd79775edf12e703984f3475598b388aa8da5/capsule_231x87.jpg"
     },
@@ -126,5 +140,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Horrors Glade",
+    "launch": {
+      "0": {
+        "executable": "Horrors Glade.exe"
+      }
+    }
+  },
+  "depots": {
+    "3424001": {
+      "manifests": {
+        "public": {
+          "download": "53014912",
+          "gid": "8762632575250907792",
+          "size": "143295315"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "25044968",
+        "timebuildupdated": "1788211090",
+        "timeupdated": "1788211180"
+      }
+    }
+  },
+  "extended": {
+    "developer": "djva caravana",
+    "publisher": "djva caravana"
+  }
 }

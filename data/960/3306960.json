@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789067772,
-  "_history": [],
-  "_change_number": 38010058,
-  "_missing_token": true,
-  "_sha": "45427ba64beb64a43e7a3e5c2f3bd46e8fe2afaa",
-  "_size": 3082,
+  "_lastChecked": 1789074139,
+  "_history": [
+    {
+      "buildId": "25239287",
+      "branch": "public",
+      "timeUpdated": 1789071447,
+      "firstSeen": 1789074139,
+      "manifests": {
+        "3306961": {
+          "gid": "6518738865547952299",
+          "size": 67568427,
+          "download": 54335152
+        }
+      }
+    }
+  ],
+  "_change_number": 38773395,
+  "_missing_token": false,
+  "_sha": "6df2743f7a786edb57d36b60e7fb87f87c96adaf",
+  "_size": 3855,
   "appid": "3306960",
   "common": {
     "associations": {
@@ -31,7 +45,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3306960",
     "genres": {
       "0": "25",
@@ -103,7 +116,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d411cd81dd63a3c5c26fae9b87298a18590ac95c/capsule_231x87.jpg"
     },
@@ -138,5 +151,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tinymon RPG",
+    "launch": {
+      "0": {
+        "executable": "Tinymon RPG.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3306961": {
+      "manifests": {
+        "public": {
+          "download": "54335152",
+          "gid": "6518738865547952299",
+          "size": "67568427"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25239287",
+        "timebuildupdated": "1789071437",
+        "timeupdated": "1789071447"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Tinymon Dev",
+    "publisher": "Tinymon Dev"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000",
+    "savefiles": {
+      "0": {
+        "path": "tinymon_rpg",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

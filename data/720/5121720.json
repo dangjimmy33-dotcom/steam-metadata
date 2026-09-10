@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789069896,
-  "_history": [],
-  "_change_number": 38716775,
-  "_missing_token": true,
-  "_sha": "e18332325353e8de5a0213ca752e99a143e16dd6",
-  "_size": 3238,
+  "_lastChecked": 1789075790,
+  "_history": [
+    {
+      "buildId": "25129453",
+      "branch": "public",
+      "timeUpdated": 1788543519,
+      "firstSeen": 1789075790,
+      "manifests": {
+        "5121721": {
+          "gid": "5079400608078842258",
+          "size": 5186978337,
+          "download": 5119214528
+        }
+      }
+    }
+  ],
+  "_change_number": 38773516,
+  "_missing_token": false,
+  "_sha": "3deed002dce5a80efb389557f6fbb56ee44fb2f4",
+  "_size": 3902,
   "appid": "5121720",
   "common": {
     "aicontenttype": "1",
@@ -34,6 +48,7 @@
     },
     "clienticon": "899b43cec78cf7671f4f6e9945a3336da7ee0adc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -41,7 +56,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5121720",
     "genres": {
       "0": "1",
@@ -115,7 +129,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0942cd6c49061ad8812acd770b024978f447449a/capsule_231x87.jpg"
     },
@@ -150,5 +164,42 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bugs Billions of Bugs",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Bugs Billions of Bugs.exe"
+      }
+    }
+  },
+  "depots": {
+    "5121721": {
+      "manifests": {
+        "public": {
+          "download": "5119214528",
+          "gid": "5079400608078842258",
+          "size": "5186978337"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25129453",
+        "timebuildupdated": "1788543509",
+        "timeupdated": "1788543519"
+      }
+    },
+    "workshopdepot": "5121720"
+  },
+  "extended": {
+    "developer": "Recoil Mojo",
+    "publisher": "Mojo Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000"
+  }
 }

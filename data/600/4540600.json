@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1789069291,
-  "_history": [],
-  "_change_number": 38771107,
-  "_missing_token": true,
-  "_sha": "48435039119d939310f81e2a913a3cd1e6298144",
-  "_size": 3011,
+  "_lastChecked": 1789075316,
+  "_history": [
+    {
+      "buildId": "25239614",
+      "branch": "development",
+      "timeUpdated": 1789073560,
+      "firstSeen": 1789075316,
+      "manifests": {
+        "4540601": {
+          "gid": "8584295996436498683",
+          "size": 14203030376,
+          "download": 12356319824
+        }
+      }
+    },
+    {
+      "buildId": "25239614",
+      "branch": "public",
+      "timeUpdated": 1789073560,
+      "firstSeen": 1789075316,
+      "manifests": {
+        "4540601": {
+          "gid": "8584295996436498683",
+          "size": 14203030376,
+          "download": 12356319824
+        }
+      }
+    }
+  ],
+  "_change_number": 38774667,
+  "_missing_token": false,
+  "_sha": "269b8b236da5462ce6d7c37b16b251bc9f2444c8",
+  "_size": 4256,
   "appid": "4540600",
   "common": {
     "associations": {
@@ -35,7 +62,6 @@
     "clienticon": "10f88c493c3edad4136fe647d5c2cf3d9ffcd017",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4540600",
     "genres": {
       "0": "1",
@@ -108,7 +134,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9344f741c3fd3123a6eb62ad6d331819ffe7689f/capsule_231x87.jpg"
     },
@@ -132,5 +158,72 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Thumper Chess",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ThumperChess.exe",
+        "workingdir": "."
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4540601": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "development": {
+          "download": "12356319824",
+          "gid": "8584295996436498683",
+          "size": "14203030376"
+        },
+        "public": {
+          "download": "12356319824",
+          "gid": "8584295996436498683",
+          "size": "14203030376"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "development": {
+        "buildid": "25239614",
+        "description": "development",
+        "timebuildupdated": "1789072750",
+        "timeupdated": "1789073560"
+      },
+      "public": {
+        "buildid": "25239614",
+        "timebuildupdated": "1789072750",
+        "timeupdated": "1789073560"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Thumper Games",
+    "isfreeapp": "1",
+    "publisher": "Thumper Games"
+  }
 }

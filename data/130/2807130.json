@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789067139,
+  "_lastChecked": 1789073649,
   "_history": [
     {
       "buildId": "23043344",
@@ -107,10 +107,10 @@
       }
     }
   ],
-  "_change_number": 38767903,
+  "_change_number": 38772321,
   "_missing_token": false,
-  "_sha": "c5071302cfbd66e4282d0b3dcd6f5caba1a8a3f2",
-  "_size": 5543,
+  "_sha": "aa01a4116424d2830ab51b13c2a35a48917fde20",
+  "_size": 5709,
   "appid": "2807130",
   "common": {
     "associations": {
@@ -213,7 +213,7 @@
     "name": "Reforge Front",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "oslist": "windows,macos",
+    "oslist": "windows,macos,linux",
     "primary_genre": "2",
     "releasestate": "released",
     "small_capsule": {
@@ -369,6 +369,14 @@
           "1": "MacOS"
         },
         "root": "MacAppSupport"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Reforge Front",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
       }
     }
   }

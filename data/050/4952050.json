@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789069737,
-  "_history": [],
-  "_change_number": 38650731,
-  "_missing_token": true,
-  "_sha": "d2f95cffda22c43b206f15647dc361e3d2c1eb04",
-  "_size": 3889,
+  "_lastChecked": 1789075665,
+  "_history": [
+    {
+      "buildId": "25156419",
+      "branch": "public",
+      "timeUpdated": 1788726440,
+      "firstSeen": 1789075665,
+      "manifests": {
+        "4952051": {
+          "gid": "3679006640899254218",
+          "size": 3934038762,
+          "download": 3479413248
+        }
+      }
+    }
+  ],
+  "_change_number": 38773397,
+  "_missing_token": false,
+  "_sha": "be909bcc6642090ef654f375a7c187d7fb961c27",
+  "_size": 4814,
   "appid": "4952050",
   "common": {
     "associations": {
@@ -23,8 +37,8 @@
     },
     "clienticon": "79f2108bfe27ca562842196a82e0617559503dbc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4952050",
     "genres": {
       "0": "1",
@@ -96,11 +110,12 @@
     "osarch": "",
     "osextended": "",
     "oslist": "windows",
-    "primary_genre": "37",
-    "releasestate": "prerelease",
+    "primary_genre": "25",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f7999729854cb49430635ef01293029cfab0ee0b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1784752926",
     "store_tags": {
       "0": "19",
@@ -186,5 +201,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Primitive Shades",
+    "launch": {
+      "0": {
+        "executable": "PrimitiveShades.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4952051": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3479413248",
+          "gid": "3679006640899254218",
+          "size": "3934038762"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25156419",
+        "timebuildupdated": "1788726394",
+        "timeupdated": "1788726440"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Nilan Funcke",
+    "homepage": "https://nilanfunckegames.com/games/primitive-shades/",
+    "isfreeapp": "1",
+    "publisher": "Nilan Funcke Games"
+  }
 }

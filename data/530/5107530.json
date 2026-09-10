@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789069885,
-  "_history": [],
-  "_change_number": 38582872,
-  "_missing_token": true,
-  "_sha": "84deaac6c8d5c5707cc1c6d6eb3d991794220290",
-  "_size": 3428,
+  "_lastChecked": 1789075781,
+  "_history": [
+    {
+      "buildId": "25109410",
+      "branch": "public",
+      "timeUpdated": 1788465165,
+      "firstSeen": 1789075781,
+      "manifests": {
+        "5107531": {
+          "gid": "4839252640651898106",
+          "size": 359467094,
+          "download": 277185216
+        },
+        "5107532": {
+          "gid": "2371106759829941560",
+          "size": 360505189,
+          "download": 277494784
+        },
+        "5107533": {
+          "gid": "3465678068014563447",
+          "size": 360715232,
+          "download": 277907968
+        }
+      }
+    }
+  ],
+  "_change_number": 38774388,
+  "_missing_token": false,
+  "_sha": "ae346ef94b08eed551c2e22516cf35bd40ec90a0",
+  "_size": 5678,
   "appid": "5107530",
   "common": {
     "associations": {
@@ -37,6 +61,7 @@
     "clienticns": "863096550b161b5e99055474bedb6502c561e59a",
     "clienticon": "7441ff87b29d85050515327c8ff46ecfcf7f58a1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -46,7 +71,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5107530",
     "genres": {
       "0": "1",
@@ -117,7 +141,7 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6a01d451ca97189e3450768692a4f301887d5d2d/capsule_231x87.jpg"
     },
@@ -153,5 +177,138 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Steeled",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "steeled.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "./steeled",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "./Steeled.app/Contents/MacOS/steeled",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5107531": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "277185216",
+          "gid": "4839252640651898106",
+          "size": "359467094"
+        }
+      }
+    },
+    "5107532": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "277494784",
+          "gid": "2371106759829941560",
+          "size": "360505189"
+        }
+      }
+    },
+    "5107533": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "277907968",
+          "gid": "3465678068014563447",
+          "size": "360715232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25109410",
+        "timebuildupdated": "1788464989",
+        "timeupdated": "1788465165"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Navid M.",
+    "publisher": "endseven"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "40000000",
+    "savefiles": {
+      "0": {
+        "path": ".steeled",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WindowsHome"
+      },
+      "1": {
+        "path": ".steeled",
+        "pattern": "*.bin",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WindowsHome"
+      },
+      "2": {
+        "path": ".steeled",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      },
+      "4": {
+        "path": ".steeled",
+        "pattern": "*.bin",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      },
+      "5": {
+        "path": "/.steeled",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacHome"
+      },
+      "6": {
+        "path": "/.steeled",
+        "pattern": "*.bin",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacHome"
+      }
+    }
+  }
 }
