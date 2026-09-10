@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789061885,
+  "_lastChecked": 1789069264,
   "_history": [
     {
       "buildId": "24499532",
@@ -23,12 +23,35 @@
           "download": 29138560
         }
       }
+    },
+    {
+      "buildId": "25236917",
+      "branch": "public",
+      "timeUpdated": 1789063270,
+      "firstSeen": 1789069264,
+      "manifests": {
+        "4519131": {
+          "gid": "3987869497544318599",
+          "size": 399243432,
+          "download": 327917152
+        },
+        "4519132": {
+          "gid": "3303850529587493335",
+          "size": 91591660,
+          "download": 28615376
+        },
+        "4519133": {
+          "gid": "2881775969188565843",
+          "size": 83218660,
+          "download": 29138560
+        }
+      }
     }
   ],
-  "_change_number": 38753407,
+  "_change_number": 38770023,
   "_missing_token": false,
-  "_sha": "1439d95e5b79384cf9d5ee1ac036037cee8c9199",
-  "_size": 7495,
+  "_sha": "d93e4f5fe1a8e1f6f5a4e3c565a47739b7f5c6e8",
+  "_size": 7743,
   "appid": "4519130",
   "common": {
     "associations": {
@@ -78,7 +101,8 @@
     "icon": "1bb44054602102843b21e6ea16ffe3e33ce6466b",
     "languages": {
       "english": "1",
-      "german": "1"
+      "german": "1",
+      "spanish": "1"
     },
     "library_assets": {
       "library_capsule": "en",
@@ -283,9 +307,9 @@
     "4519131": {
       "manifests": {
         "public": {
-          "download": "310211008",
-          "gid": "1170326622235935306",
-          "size": "397845652"
+          "download": "327917152",
+          "gid": "3987869497544318599",
+          "size": "399243432"
         }
       }
     },
@@ -317,9 +341,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "24499532",
-        "timebuildupdated": "1785525978",
-        "timeupdated": "1785526039"
+        "buildid": "25236917",
+        "timebuildupdated": "1789063001",
+        "timeupdated": "1789063270"
       }
     },
     "privatebranches": "1"
@@ -350,6 +374,16 @@
       "1": {
         "path": "Raffa/MOLDRISE_FULL/autosaves",
         "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Raffa/MOLDRISE_FULL",
+        "pattern": "settings_shared.txt",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Raffa/MOLDRISE_FULL",
+        "pattern": "input.cfg",
         "root": "WinAppDataRoaming"
       }
     }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789062079,
-  "_history": [],
-  "_change_number": 38769096,
-  "_missing_token": true,
-  "_sha": "d11fc1f3e9bc4b9546ba63927bfbf1bc5487f6a7",
-  "_size": 3441,
+  "_lastChecked": 1789069467,
+  "_history": [
+    {
+      "buildId": "25236248",
+      "branch": "public",
+      "timeUpdated": 1789061102,
+      "firstSeen": 1789069467,
+      "manifests": {
+        "4697111": {
+          "gid": "7296564381344887161",
+          "size": 469178737,
+          "download": 338081376
+        }
+      }
+    }
+  ],
+  "_change_number": 38771883,
+  "_missing_token": false,
+  "_sha": "23595457e245b629eeaef70cff4143da094fe1b1",
+  "_size": 4321,
   "appid": "4697110",
   "common": {
     "aicontenttype": "1",
@@ -32,8 +46,8 @@
     },
     "clienticon": "24522579b844828f68d2ae6794d87c52a8da5597",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4697110",
     "genres": {
       "0": "4",
@@ -112,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5b0f62d1b01ef01fd84b126f6a51aabc01011fe9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789067846",
     "store_asset_mtime": "1788269537",
     "store_tags": {
       "0": "597",
@@ -163,5 +178,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Quiet Hour",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Quiet Hour.exe"
+      }
+    }
+  },
+  "depots": {
+    "4697111": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "338081376",
+          "gid": "7296564381344887161",
+          "size": "469178737"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25236248",
+        "timebuildupdated": "1789060730",
+        "timeupdated": "1789061102"
+      }
+    }
+  },
+  "extended": {
+    "developer": "FAB",
+    "publisher": "FAB"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "Fab/Quiet Hour",
+        "pattern": "save*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

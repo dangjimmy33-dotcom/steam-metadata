@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789061710,
+  "_lastChecked": 1789069081,
   "_history": [
     {
       "buildId": "21647233",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 36779947,
+  "_change_number": 38769917,
   "_missing_token": false,
-  "_sha": "f53ea8e84909e4bf43cf3e37213ae8b29faf5d20",
-  "_size": 6218,
+  "_sha": "722f0d5910493c9c06f76f5e9854ec6adbc6e16f",
+  "_size": 7062,
   "appid": "4358240",
   "common": {
     "aicontenttype": "1",
@@ -34,10 +34,21 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_25": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_59": "1",
       "category_62": "1"
     },
     "clienticon": "e3db6db2228b7164b5d860304109f3893e6d9606",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
     "gameid": "4358240",
     "genres": {
@@ -143,7 +154,7 @@
     "small_capsule": {
       "english": "1aff1fd146101e5f50c4bc8539dbc2694e535fbc/capsule_231x87.jpg"
     },
-    "steam_release_date": "1782802800",
+    "steam_release_date": "1782198335",
     "store_asset_mtime": "1769420861",
     "store_tags": {
       "0": "9",
@@ -217,6 +228,9 @@
       "latam": {
         "supported": "true"
       },
+      "malay": {
+        "supported": "true"
+      },
       "norwegian": {
         "supported": "true"
       },
@@ -265,7 +279,11 @@
       "0": {
         "executable": "Fortress of the Fallen.exe"
       }
-    }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "Fortress of the Fallen_Data/StreamingAssets/steam_input_manifest.vdf"
   },
   "depots": {
     "4358241": {
@@ -289,5 +307,21 @@
   "extended": {
     "developer": "Iron Crown Studio",
     "publisher": "Iron Crown Studio"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "Iron Keep Studio/Fortress of the Fallen",
+        "pattern": "empireio_save*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

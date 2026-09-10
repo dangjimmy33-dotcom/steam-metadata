@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789060755,
+  "_lastChecked": 1789068060,
   "_history": [
     {
       "buildId": "24399197",
@@ -13,12 +13,25 @@
           "download": 129746336
         }
       }
+    },
+    {
+      "buildId": "25237493",
+      "branch": "localization_update_testing",
+      "timeUpdated": 1789065179,
+      "firstSeen": 1789068060,
+      "manifests": {
+        "3534791": {
+          "gid": "2784539155471231806",
+          "size": 146399297,
+          "download": 129977344
+        }
+      }
     }
   ],
-  "_change_number": 38743108,
+  "_change_number": 38771050,
   "_missing_token": false,
-  "_sha": "ed3b5a2e07d0d9744fc54688c2fc581cfc7ccf10",
-  "_size": 6563,
+  "_sha": "37c749432d72266e8e22a7aaad3628f3809b39b1",
+  "_size": 6939,
   "appid": "3534790",
   "common": {
     "associations": {
@@ -251,6 +264,11 @@
   "depots": {
     "3534791": {
       "manifests": {
+        "localization_update_testing": {
+          "download": "129977344",
+          "gid": "2784539155471231806",
+          "size": "146399297"
+        },
         "public": {
           "download": "129746336",
           "gid": "3327582393627912369",
@@ -258,7 +276,18 @@
         }
       }
     },
+    "3534792": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
     "branches": {
+      "localization_update_testing": {
+        "buildid": "25237493",
+        "description": "public 1.7 testing",
+        "timebuildupdated": "1789065177",
+        "timeupdated": "1789065179"
+      },
       "public": {
         "buildid": "24399197",
         "timebuildupdated": "1785076823",

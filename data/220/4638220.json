@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789062020,
+  "_lastChecked": 1789069404,
   "_history": [
     {
       "buildId": "24870161",
@@ -115,12 +115,35 @@
           "download": 19470448
         }
       }
+    },
+    {
+      "buildId": "25237442",
+      "branch": "beta",
+      "timeUpdated": 1789065586,
+      "firstSeen": 1789069404,
+      "manifests": {
+        "4638221": {
+          "gid": "5797327190575009022",
+          "size": 19983287,
+          "download": 9356016
+        },
+        "4638222": {
+          "gid": "4396135335962387239",
+          "size": 44680002,
+          "download": 7884352
+        },
+        "4638223": {
+          "gid": "2067331487851100093",
+          "size": 50438466,
+          "download": 19470448
+        }
+      }
     }
   ],
-  "_change_number": 38752955,
+  "_change_number": 38770911,
   "_missing_token": false,
-  "_sha": "a9fcbea73baf2ae00a40b0bf60573385fdb08a9c",
-  "_size": 4451,
+  "_sha": "26f1ebdd34aa24b327b89b2fb4c01c633da0a58f",
+  "_size": 4924,
   "appid": "4638220",
   "common": {
     "aicontenttype": "1",
@@ -276,6 +299,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "beta": {
+          "download": "9356016",
+          "gid": "5797327190575009022",
+          "size": "19983287"
+        },
         "public": {
           "download": "9352112",
           "gid": "195260060101002398",
@@ -288,6 +316,11 @@
         "oslist": "macos"
       },
       "manifests": {
+        "beta": {
+          "download": "7884352",
+          "gid": "4396135335962387239",
+          "size": "44680002"
+        },
         "public": {
           "download": "7884352",
           "gid": "4396135335962387239",
@@ -300,6 +333,11 @@
         "oslist": "linux"
       },
       "manifests": {
+        "beta": {
+          "download": "19470448",
+          "gid": "2067331487851100093",
+          "size": "50438466"
+        },
         "public": {
           "download": "19470448",
           "gid": "2067331487851100093",
@@ -308,6 +346,12 @@
       }
     },
     "branches": {
+      "beta": {
+        "buildid": "25237442",
+        "description": "beta branch",
+        "timebuildupdated": "1789065023",
+        "timeupdated": "1789065586"
+      },
       "public": {
         "buildid": "25224965",
         "timebuildupdated": "1789023080",

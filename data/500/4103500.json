@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789061420,
-  "_history": [],
-  "_change_number": 38769206,
-  "_missing_token": true,
-  "_sha": "71c698ecb2a0469982b7046467023d15a0576daf",
-  "_size": 3922,
+  "_lastChecked": 1789068771,
+  "_history": [
+    {
+      "buildId": "25236433",
+      "branch": "public",
+      "timeUpdated": 1789061356,
+      "firstSeen": 1789068771,
+      "manifests": {
+        "4103501": {
+          "gid": "1566339658477004717",
+          "size": 2578535922,
+          "download": 1041843648
+        }
+      }
+    }
+  ],
+  "_change_number": 38769558,
+  "_missing_token": false,
+  "_sha": "18d1e7bac033c0bc09a20a5410035ba7310abb2d",
+  "_size": 4649,
   "appid": "4103500",
   "common": {
     "aicontenttype": "1",
@@ -39,7 +53,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4103500",
     "genres": {
       "0": "25",
@@ -111,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7fcaf38b73aa92cdda1dcb5e421f1268d7a7b6e8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1789060996",
     "store_tags": {
       "0": "1254546",
@@ -183,5 +197,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Football Club Inside",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Football Club Inside.exe"
+      }
+    }
+  },
+  "depots": {
+    "4103501": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1041843648",
+          "gid": "1566339658477004717",
+          "size": "2578535922"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25236433",
+        "timebuildupdated": "1789061353",
+        "timeupdated": "1789061356"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Vladimir Pliashkun",
+    "homepage": "https://vladimirplyashkun.github.io/",
+    "publisher": "Vladimir Pliashkun"
+  }
 }

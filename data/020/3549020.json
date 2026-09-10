@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789060769,
+  "_lastChecked": 1789068076,
   "_history": [
     {
       "buildId": "25068048",
@@ -54,12 +54,30 @@
           "download": 886144
         }
       }
+    },
+    {
+      "buildId": "24457649",
+      "branch": "legacy_v1.1.2",
+      "timeUpdated": 1785366840,
+      "firstSeen": 1789068076,
+      "manifests": {
+        "3549021": {
+          "gid": "5741520916121213134",
+          "size": 48530043892,
+          "download": 22170289808
+        },
+        "3549022": {
+          "gid": "663016823467430445",
+          "size": 4170094,
+          "download": 886144
+        }
+      }
     }
   ],
-  "_change_number": 38715149,
+  "_change_number": 38771709,
   "_missing_token": false,
-  "_sha": "c39b4c2ff80cc2788db0d47e6b5b13549fe93102",
-  "_size": 9608,
+  "_sha": "2991f0a8c96411e67baff119f719b9f663d6e504",
+  "_size": 10005,
   "appid": "3549020",
   "common": {
     "associations": {
@@ -391,6 +409,11 @@
           "gid": "2659922139563721366",
           "size": "47899086657"
         },
+        "legacy_v1.1.2": {
+          "download": "22170289808",
+          "gid": "5741520916121213134",
+          "size": "48530043892"
+        },
         "public": {
           "download": "22170289808",
           "gid": "5741520916121213134",
@@ -409,6 +432,11 @@
           "size": "4170094"
         },
         "legacy_v1.0.3": {
+          "download": "886144",
+          "gid": "663016823467430445",
+          "size": "4170094"
+        },
+        "legacy_v1.1.2": {
           "download": "886144",
           "gid": "663016823467430445",
           "size": "4170094"
@@ -432,6 +460,12 @@
         "description": "Legacy v1.0.3",
         "timebuildupdated": "1777398586",
         "timeupdated": "1777402961"
+      },
+      "legacy_v1.1.2": {
+        "buildid": "24457649",
+        "description": "Legacy v1.1.2",
+        "timebuildupdated": "1785349072",
+        "timeupdated": "1785366840"
       },
       "public": {
         "buildid": "24457649",

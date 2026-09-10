@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789058152,
+  "_lastChecked": 1789065292,
   "_history": [
     {
       "buildId": "23689919",
@@ -65,12 +65,43 @@
           "download": 7108939936
         }
       }
+    },
+    {
+      "buildId": "24352397",
+      "branch": "previous",
+      "timeUpdated": 1784839495,
+      "firstSeen": 1789065292,
+      "manifests": {
+        "1465471": {
+          "gid": "1500361964648739652",
+          "size": 7336178796,
+          "download": 7108939936
+        }
+      }
+    },
+    {
+      "buildId": "25236929",
+      "branch": "public",
+      "timeUpdated": 1789063051,
+      "firstSeen": 1789065292,
+      "manifests": {
+        "1465471": {
+          "gid": "3066015324986983144",
+          "size": 8753228251,
+          "download": 8480463056
+        },
+        "1465472": {
+          "gid": "2121409793316940357",
+          "size": 8972523032,
+          "download": 8513577744
+        }
+      }
     }
   ],
-  "_change_number": 38765250,
+  "_change_number": 38770588,
   "_missing_token": false,
-  "_sha": "5de97ebb042d353dd66147d76c67352292fd2a04",
-  "_size": 9689,
+  "_sha": "9e3bdb01eee1ff2ad1c2e60d73fd2aa6b59ecdf4",
+  "_size": 10092,
   "appid": "1465470",
   "common": {
     "associations": {
@@ -103,8 +134,7 @@
     "gameid": "1465470",
     "genres": {
       "0": "28",
-      "1": "2",
-      "2": "70"
+      "1": "2"
     },
     "header_image": {
       "english": "header.jpg"
@@ -146,12 +176,12 @@
       },
       "library_header": {
         "image": {
-          "english": "68113ca0b82a1e7ee177082e3b1b09460715d66f/library_header.jpg",
-          "russian": "df89869ee28c0277eb897d5fb8e0468ffbf5c943/library_header_russian.jpg"
+          "english": "7458a8b466e5b906e4ddf1a13a0d0c0c6fb65d37/library_header.jpg",
+          "russian": "eb4b747405ee9d8a170c08db9169a333db420348/library_header_russian.jpg"
         },
         "image2x": {
-          "english": "68113ca0b82a1e7ee177082e3b1b09460715d66f/library_header_2x.jpg",
-          "russian": "df89869ee28c0277eb897d5fb8e0468ffbf5c943/library_header_russian_2x.jpg"
+          "english": "7458a8b466e5b906e4ddf1a13a0d0c0c6fb65d37/library_header_2x.jpg",
+          "russian": "eb4b747405ee9d8a170c08db9169a333db420348/library_header_russian_2x.jpg"
         }
       },
       "library_hero": {
@@ -180,8 +210,8 @@
     "logo_small": "fbb679ab78a51ee85154156e05e604c2cf547189_thumb",
     "name": "The Crust",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "2",
     "releasestate": "released",
     "review_percentage": "77",
@@ -266,8 +296,8 @@
         }
       }
     },
-    "steam_release_date": "1721056092",
-    "store_asset_mtime": "1788872463",
+    "steam_release_date": "1789059892",
+    "store_asset_mtime": "1789064654",
     "store_tags": {
       "0": "7332",
       "1": "1755",
@@ -383,9 +413,9 @@
       },
       "manifests": {
         "previous": {
-          "download": "7108768416",
-          "gid": "6603979965163687964",
-          "size": "7335981318"
+          "download": "7108939936",
+          "gid": "1500361964648739652",
+          "size": "7336178796"
         },
         "previous2": {
           "download": "7187296096",
@@ -403,9 +433,9 @@
           "size": "7364151625"
         },
         "public": {
-          "download": "7108939936",
-          "gid": "1500361964648739652",
-          "size": "7336178796"
+          "download": "8480463056",
+          "gid": "3066015324986983144",
+          "size": "8753228251"
         }
       }
     },
@@ -413,7 +443,13 @@
       "config": {
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "8513577744",
+          "gid": "2121409793316940357",
+          "size": "8972523032"
+        }
+      }
     },
     "1465473": {
       "config": {
@@ -438,10 +474,10 @@
     "baselanguages": "english,russian",
     "branches": {
       "previous": {
-        "buildid": "23689919",
+        "buildid": "24352397",
         "description": "Old 0.99.82.8",
-        "timebuildupdated": "1781214197",
-        "timeupdated": "1781218647"
+        "timebuildupdated": "1784804639",
+        "timeupdated": "1784839495"
       },
       "previous2": {
         "buildid": "22052838",
@@ -462,9 +498,9 @@
         "timeupdated": "1780087215"
       },
       "public": {
-        "buildid": "24352397",
-        "timebuildupdated": "1784804639",
-        "timeupdated": "1784839495"
+        "buildid": "25236929",
+        "timebuildupdated": "1789063051",
+        "timeupdated": "1789063051"
       }
     },
     "hasdepotsindlc": "1",
@@ -492,6 +528,18 @@
         },
         "root": "WinAppDataLocal",
         "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "TheCrust/Saved/SaveGames",
+            "replace": ".config/Epic/TheCrust/Saved/SaveGames"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxHome"
       }
     },
     "savefiles": {

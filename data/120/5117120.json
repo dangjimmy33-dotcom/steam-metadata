@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789062488,
-  "_history": [],
-  "_change_number": 38649706,
-  "_missing_token": true,
-  "_sha": "7ba45fc56968df890bc38bc5cd3a8daf60c2f77e",
-  "_size": 2872,
+  "_lastChecked": 1789069892,
+  "_history": [
+    {
+      "buildId": "25091833",
+      "branch": "public",
+      "timeUpdated": 1788396202,
+      "firstSeen": 1789069892,
+      "manifests": {
+        "5117121": {
+          "gid": "2614886812094713568",
+          "size": 1364177209,
+          "download": 296565088
+        }
+      }
+    }
+  ],
+  "_change_number": 38771481,
+  "_missing_token": false,
+  "_sha": "fc26154fac94c966e27deddd21a56b309baeafe7",
+  "_size": 3449,
   "appid": "5117120",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "5aefc8a68f24983aab632e5dd1dfaf2ed563fe77",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5117120",
     "genres": {
       "0": "1",
@@ -96,10 +109,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8794845c6417139650b4fa603ee572172a84952e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789066866",
     "store_asset_mtime": "1788722123",
     "store_tags": {
       "0": "19",
@@ -132,5 +146,36 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blackmere",
+    "launch": {
+      "0": {
+        "executable": "Blackmere.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5117121": {
+      "manifests": {
+        "public": {
+          "download": "296565088",
+          "gid": "2614886812094713568",
+          "size": "1364177209"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25091833",
+        "timebuildupdated": "1788396191",
+        "timeupdated": "1788396202"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Najaf Ali Jokhio",
+    "homepage": "https://casayonastudio.com/",
+    "publisher": "Casayona Studio"
+  }
 }

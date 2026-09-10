@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789062377,
-  "_history": [],
-  "_change_number": 38468976,
-  "_missing_token": true,
-  "_sha": "b9fd5bb78f07600a8af7bd530c99be1feefa3edc",
-  "_size": 2900,
+  "_lastChecked": 1789069777,
+  "_history": [
+    {
+      "buildId": "25238244",
+      "branch": "public",
+      "timeUpdated": 1789067608,
+      "firstSeen": 1789069777,
+      "manifests": {
+        "4989781": {
+          "gid": "6743526104521376668",
+          "size": 2869852081,
+          "download": 1514656144
+        }
+      }
+    }
+  ],
+  "_change_number": 38772481,
+  "_missing_token": false,
+  "_sha": "efb87a557fd741092aa280deecc9cd7a1be0c7a3",
+  "_size": 3516,
   "appid": "4989780",
   "common": {
     "aicontenttype": "1",
@@ -28,7 +42,6 @@
     "clienticon": "42788be989ed0fc955ca6bb706889c6b5384a89b",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4989780",
     "genres": {
       "0": "25",
@@ -99,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5cc941d8c5bb09adb43e5b9095e9c71b5acbd180/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788165889",
     "store_tags": {
       "0": "3834",
@@ -129,5 +143,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "After Work",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "After Work.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4989781": {
+      "manifests": {
+        "public": {
+          "download": "1514656144",
+          "gid": "6743526104521376668",
+          "size": "2869852081"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25238244",
+        "timebuildupdated": "1789067592",
+        "timeupdated": "1789067608"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Wenvio",
+    "publisher": "Wenvio"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789060877,
+  "_lastChecked": 1789068191,
   "_history": [
     {
       "buildId": "25135209",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 38709844,
+  "_change_number": 38771665,
   "_missing_token": false,
-  "_sha": "6d4c5a6e8ac329ee31e17cde28f67a9dc3561d4c",
-  "_size": 4322,
+  "_sha": "7308c37eec95401164df717c5796f9984f4f5035",
+  "_size": 5459,
   "appid": "3635510",
   "common": {
     "associations": {
@@ -151,6 +151,47 @@
     "review_score": "5",
     "small_capsule": {
       "english": "c2abca04388637dbaaceda30fc49a1df4e3e8b26/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "1",
+      "steam_machine_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "steamos_compatibility": "1",
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "test_timestamp": "1788461699",
+      "tested_build_id": "25068286",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+        }
+      }
     },
     "steam_release_date": "1787335103",
     "store_asset_mtime": "1765300250",

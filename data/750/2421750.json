@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789059424,
-  "_history": [],
-  "_change_number": 38768204,
-  "_missing_token": true,
-  "_sha": "b92449dd9693e0eda44d9e193898d548ff4d0150",
-  "_size": 5135,
+  "_lastChecked": 1789066644,
+  "_history": [
+    {
+      "buildId": "25234835",
+      "branch": "public",
+      "timeUpdated": 1789055824,
+      "firstSeen": 1789066644,
+      "manifests": {
+        "2421751": {
+          "gid": "8662959616963266158",
+          "size": 20438072119,
+          "download": 9677857968
+        }
+      }
+    }
+  ],
+  "_change_number": 38770526,
+  "_missing_token": false,
+  "_sha": "7fc89fed127c7578d7dd55275e56ada64aefe9bc",
+  "_size": 6771,
   "appid": "2421750",
   "common": {
     "associations": {
@@ -32,6 +46,7 @@
     "clienticon": "2914f8fae362525de533eaf93162a65d2788c774",
     "clienttga": "072cd009d391e0d69e035912e891bec6f33ff283",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -42,7 +57,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2421750",
     "genres": {
       "0": "1",
@@ -115,7 +129,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "79",
+    "review_score": "6",
     "small_capsule": {
       "english": "c9af0a70e3d357013cc9056acdd2730489c83d47/capsule_231x87.jpg"
     },
@@ -180,6 +196,7 @@
         }
       }
     },
+    "steam_release_date": "1789059638",
     "store_asset_mtime": "1788130562",
     "store_tags": {
       "0": "19",
@@ -216,5 +233,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gunman Contracts - Stand Alone",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Gunman Contracts - Stand Alone VR",
+        "description_loc": {
+          "english": "Gunman Contracts - Stand Alone VR",
+          "german": "Gunman Contracts - Stand Alone VR"
+        },
+        "executable": "GunmanContracts.exe",
+        "type": "openxr"
+      },
+      "1": {
+        "arguments": "-NonVR",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Gunman Contracts - Stand Alone Non-VR",
+        "description_loc": {
+          "english": "Gunman Contracts - Stand Alone Non-VR",
+          "german": "Gunman Contracts - Stand Alone Non-VR"
+        },
+        "executable": "GunmanContracts.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2421751": {
+      "manifests": {
+        "public": {
+          "download": "9677857968",
+          "gid": "8662959616963266158",
+          "size": "20438072119"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25234835",
+        "timebuildupdated": "1789055798",
+        "timeupdated": "1789055824"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "ANB_Seth",
+    "publisher": "2080 Games",
+    "vrheadsetstreaming": "1"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "ANB_Seth/GunmanContracts/Data",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

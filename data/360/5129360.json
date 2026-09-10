@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789062498,
-  "_history": [],
-  "_change_number": 38393062,
-  "_missing_token": true,
-  "_sha": "2c2760003636c05364df2a5865d17ab5d5595889",
-  "_size": 3004,
+  "_lastChecked": 1789069902,
+  "_history": [
+    {
+      "buildId": "24810017",
+      "branch": "public",
+      "timeUpdated": 1787109995,
+      "firstSeen": 1789069902,
+      "manifests": {
+        "5129361": {
+          "gid": "1022957003477181509",
+          "size": 136264936,
+          "download": 58833024
+        }
+      }
+    }
+  ],
+  "_change_number": 38771333,
+  "_missing_token": false,
+  "_sha": "5b9cf6d5b970d5e42379655aa4518530699691cd",
+  "_size": 4062,
   "appid": "5129360",
   "common": {
     "associations": {
@@ -32,9 +46,9 @@
     },
     "clienticon": "f77b7e51f0cc715f19f7705f05a2865614ede328",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5129360",
     "genres": {
       "0": "4",
@@ -106,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "38892db0c71ab7233034d8a8759d3e7c78665ef2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787543596",
     "store_tags": {
       "0": "9",
@@ -132,5 +147,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sweepers Luck",
+    "launch": {
+      "0": {
+        "executable": "Sweeper.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5129361": {
+      "manifests": {
+        "public": {
+          "download": "58833024",
+          "gid": "1022957003477181509",
+          "size": "136264936"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24810017",
+        "timebuildupdated": "1787109974",
+        "timeupdated": "1787109995"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Default Studios",
+    "publisher": "Default Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "1048576",
+    "savefiles": {
+      "0": {
+        "path": "SweepersLuck",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "SweepersLuck",
+        "pattern": "settings.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

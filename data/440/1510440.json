@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789058214,
+  "_lastChecked": 1789065357,
   "_history": [
     {
       "buildId": "25189741",
@@ -52,12 +52,38 @@
           "download": 7123001840
         }
       }
+    },
+    {
+      "buildId": "25236321",
+      "branch": "compatibility",
+      "timeUpdated": 1789060986,
+      "firstSeen": 1789065357,
+      "manifests": {
+        "1510441": {
+          "gid": "2432547471995142906",
+          "size": 8524699040,
+          "download": 7123059120
+        }
+      }
+    },
+    {
+      "buildId": "25235855",
+      "branch": "public",
+      "timeUpdated": 1789059584,
+      "firstSeen": 1789065357,
+      "manifests": {
+        "1510441": {
+          "gid": "8373477628410242761",
+          "size": 7298090359,
+          "download": 6690480000
+        }
+      }
     }
   ],
-  "_change_number": 38765646,
+  "_change_number": 38770518,
   "_missing_token": false,
-  "_sha": "b460feebbb9bcbca4afc98adfdd1c6e3c832442d",
-  "_size": 8090,
+  "_sha": "f74eef5fd0707241d9af4163ad6e615fff901535",
+  "_size": 8092,
   "appid": "1510440",
   "common": {
     "associations": {
@@ -171,8 +197,8 @@
     "oslist": "windows",
     "primary_genre": "25",
     "releasestate": "released",
-    "review_percentage": "81",
-    "review_score": "8",
+    "review_percentage": "78",
+    "review_score": "6",
     "small_capsule": {
       "english": "666100d453277cbc43c756d091f57470147b7064/capsule_231x87.jpg"
     },
@@ -342,14 +368,14 @@
       },
       "manifests": {
         "compatibility": {
-          "download": "7123001840",
-          "gid": "4444575475131806249",
-          "size": "8524698110"
+          "download": "7123059120",
+          "gid": "2432547471995142906",
+          "size": "8524699040"
         },
         "public": {
-          "download": "6690366064",
-          "gid": "11856991047261177",
-          "size": "7297937217"
+          "download": "6690480000",
+          "gid": "8373477628410242761",
+          "size": "7298090359"
         }
       }
     },
@@ -375,15 +401,15 @@
     },
     "branches": {
       "compatibility": {
-        "buildid": "25218238",
+        "buildid": "25236321",
         "description": "Troubleshooting branch for solving hardware compatibility issues.",
-        "timebuildupdated": "1788990716",
-        "timeupdated": "1788990716"
+        "timebuildupdated": "1789060986",
+        "timeupdated": "1789060986"
       },
       "public": {
-        "buildid": "25203521",
-        "timebuildupdated": "1788940032",
-        "timeupdated": "1788950471"
+        "buildid": "25235855",
+        "timebuildupdated": "1789059341",
+        "timeupdated": "1789059584"
       }
     },
     "hasdepotsindlc": "1",

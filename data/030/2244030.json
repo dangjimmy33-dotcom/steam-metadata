@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789059188,
+  "_lastChecked": 1789066392,
   "_history": [
     {
       "buildId": "22472381",
@@ -39,12 +39,38 @@
           "download": 660875824
         }
       }
+    },
+    {
+      "buildId": "25236655",
+      "branch": "experimentalvmbranchv12b",
+      "timeUpdated": 1789062640,
+      "firstSeen": 1789066392,
+      "manifests": {
+        "2244031": {
+          "gid": "3018258035081875242",
+          "size": 815347587,
+          "download": 651050576
+        }
+      }
+    },
+    {
+      "buildId": "25236549",
+      "branch": "public",
+      "timeUpdated": 1789061916,
+      "firstSeen": 1789066392,
+      "manifests": {
+        "2244031": {
+          "gid": "390933842395514642",
+          "size": 860060407,
+          "download": 660878496
+        }
+      }
     }
   ],
-  "_change_number": 38589033,
+  "_change_number": 38769778,
   "_missing_token": false,
-  "_sha": "682f6f4e1d2b90f903288a4ff9181e4a4d28623b",
-  "_size": 6670,
+  "_sha": "e40b5b4f393a1a4072d130bb031664593ff3670a",
+  "_size": 6986,
   "appid": "2244030",
   "common": {
     "associations": {
@@ -276,15 +302,20 @@
           "gid": "3365976570006648670",
           "size": "814274657"
         },
+        "experimentalvmbranchv12b": {
+          "download": "651050576",
+          "gid": "3018258035081875242",
+          "size": "815347587"
+        },
         "old-v11": {
           "download": "645876464",
           "gid": "9071871383025636619",
           "size": "857002965"
         },
         "public": {
-          "download": "660875824",
-          "gid": "6719735227025443503",
-          "size": "860047095"
+          "download": "660878496",
+          "gid": "390933842395514642",
+          "size": "860060407"
         }
       }
     },
@@ -295,6 +326,12 @@
         "timebuildupdated": "1774312169",
         "timeupdated": "1774313227"
       },
+      "experimentalvmbranchv12b": {
+        "buildid": "25236655",
+        "description": "RUBATO V1.2B compiled with VM",
+        "timebuildupdated": "1789062093",
+        "timeupdated": "1789062640"
+      },
       "old-v11": {
         "buildid": "22502532",
         "description": "Version 1.1 of RUBATO",
@@ -302,9 +339,9 @@
         "timeupdated": "1774462659"
       },
       "public": {
-        "buildid": "24081551",
-        "timebuildupdated": "1783380908",
-        "timeupdated": "1783380938"
+        "buildid": "25236549",
+        "timebuildupdated": "1789061777",
+        "timeupdated": "1789061916"
       }
     },
     "privatebranches": "1"

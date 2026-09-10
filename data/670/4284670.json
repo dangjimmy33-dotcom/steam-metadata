@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789061635,
-  "_history": [],
-  "_change_number": 38658648,
-  "_missing_token": true,
-  "_sha": "f237ce88203b0e381a06b6dcf05631613dd2dd21",
-  "_size": 3464,
+  "_lastChecked": 1789069000,
+  "_history": [
+    {
+      "buildId": "25238348",
+      "branch": "public",
+      "timeUpdated": 1789067932,
+      "firstSeen": 1789069000,
+      "manifests": {
+        "4284671": {
+          "gid": "7398337444255135109",
+          "size": 752339618,
+          "download": 739654880
+        }
+      }
+    }
+  ],
+  "_change_number": 38772069,
+  "_missing_token": false,
+  "_sha": "ddb9486e9d8ec8f7c47d2c3045816efee85670a7",
+  "_size": 4132,
   "appid": "4284670",
   "common": {
     "associations": {
@@ -29,9 +43,9 @@
     },
     "clienticon": "14264e555af530a62f25f0b363f77ce7e688119e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4284670",
     "genres": {
       "0": "4",
@@ -103,7 +117,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "41f8bc70df50dbcde655a37357ba6ddcbf9b979f/capsule_231x87.jpg"
     },
@@ -160,5 +174,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Would You Love Me If I Was a Snake",
+    "launch": {
+      "0": {
+        "executable": "SnakeOut.exe"
+      }
+    }
+  },
+  "depots": {
+    "4284671": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "739654880",
+          "gid": "7398337444255135109",
+          "size": "752339618"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25238348",
+        "timebuildupdated": "1789067915",
+        "timeupdated": "1789067932"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Andrea Boroni Grazioli",
+    "publisher": "Andrea Boroni Grazioli"
+  },
+  "ufs": {
+    "maxnumfiles": "600",
+    "quota": "1000000000"
+  }
 }

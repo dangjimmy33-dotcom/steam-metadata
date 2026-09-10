@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789062058,
-  "_history": [],
-  "_change_number": 38765761,
-  "_missing_token": true,
-  "_sha": "20fd6501c6f379d2a2a667e87c3618ddd49a850f",
-  "_size": 4150,
+  "_lastChecked": 1789069444,
+  "_history": [
+    {
+      "buildId": "25237078",
+      "branch": "public",
+      "timeUpdated": 1789063673,
+      "firstSeen": 1789069444,
+      "manifests": {
+        "4677981": {
+          "gid": "1315201728740124813",
+          "size": 2490223618,
+          "download": 2309893680
+        }
+      }
+    }
+  ],
+  "_change_number": 38770806,
+  "_missing_token": false,
+  "_sha": "9db70a6e142634c76f89594a0e2efd60be2c7cb4",
+  "_size": 4908,
   "appid": "4677980",
   "common": {
     "aicontenttype": "1",
@@ -22,10 +36,9 @@
       "category_2": "1",
       "category_62": "1"
     },
-    "clienticon": "51e992b2ba509024767910b203a87b18bcd9da31",
+    "clienticon": "ca4b864f55d6fe9f1650cedc447f2e019af6fe3a",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4677980",
     "genres": {
       "0": "23",
@@ -35,7 +48,7 @@
     "header_image": {
       "english": "ed3572bb814205fad449d9c13932f05c24ae8071/header.jpg"
     },
-    "icon": "51e992b2ba509024767910b203a87b18bcd9da31",
+    "icon": "ca4b864f55d6fe9f1650cedc447f2e019af6fe3a",
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -112,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ec8f9d736679fdbfed6912492659813376215c61/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789065318",
     "store_asset_mtime": "1787947469",
     "store_tags": {
       "0": "3799",
@@ -187,5 +201,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "AETHER CROWN",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "AETHER_CROWN.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4677981": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2309893680",
+          "gid": "1315201728740124813",
+          "size": "2490223618"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,indonesian,italian,japanese,koreana,russian,schinese,spanish,tchinese,thai,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "25237078",
+        "timebuildupdated": "1789063603",
+        "timeupdated": "1789063673"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DEVPHAN",
+    "publisher": "DEVPHAN"
+  }
 }
