@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789113505,
+  "_lastChecked": 1789121173,
   "_history": [
     {
       "buildId": "25122605",
@@ -46,12 +46,35 @@
           "download": 434872848
         }
       }
+    },
+    {
+      "buildId": "25248871",
+      "branch": "public",
+      "timeUpdated": 1789116576,
+      "firstSeen": 1789121173,
+      "manifests": {
+        "4514931": {
+          "gid": "4350433169592307755",
+          "size": 306955107,
+          "download": 247137856
+        },
+        "4514932": {
+          "gid": "3462736119133543779",
+          "size": 322093502,
+          "download": 252062384
+        },
+        "4514933": {
+          "gid": "3986601200564930417",
+          "size": 385245203,
+          "download": 273818240
+        }
+      }
     }
   ],
-  "_change_number": 38776450,
+  "_change_number": 38787298,
   "_missing_token": false,
-  "_sha": "8c5a2f3fc7c9054caabaa7cf3a2c04995f2b880b",
-  "_size": 5038,
+  "_sha": "766220635f779ed29fbc09e50d20c21de286cadd",
+  "_size": 5064,
   "appid": "4514930",
   "common": {
     "aicontenttype": "1",
@@ -205,7 +228,8 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
   "config": {
     "installdir": "The Undercut Racing Manager",
@@ -240,9 +264,9 @@
       },
       "manifests": {
         "public": {
-          "download": "263730000",
-          "gid": "2458285367138914543",
-          "size": "408626960"
+          "download": "247137856",
+          "gid": "4350433169592307755",
+          "size": "306955107"
         }
       }
     },
@@ -253,9 +277,9 @@
       },
       "manifests": {
         "public": {
-          "download": "255592272",
-          "gid": "4923425522494710455",
-          "size": "328375929"
+          "download": "252062384",
+          "gid": "3462736119133543779",
+          "size": "322093502"
         }
       }
     },
@@ -266,18 +290,18 @@
       },
       "manifests": {
         "public": {
-          "download": "434872848",
-          "gid": "1702288791570061646",
-          "size": "846672543"
+          "download": "273818240",
+          "gid": "3986601200564930417",
+          "size": "385245203"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25152102",
-        "timebuildupdated": "1788699489",
-        "timeupdated": "1788700447"
+        "buildid": "25248871",
+        "timebuildupdated": "1789115314",
+        "timeupdated": "1789116576"
       }
     },
     "workshopdepot": "4514930"

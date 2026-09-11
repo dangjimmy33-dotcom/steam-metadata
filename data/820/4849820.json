@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789113796,
-  "_history": [],
-  "_change_number": 38432610,
-  "_missing_token": true,
-  "_sha": "3ebabcfb940dbd1660eeb5354fe8c9f0809fde21",
-  "_size": 1423,
+  "_lastChecked": 1789121505,
+  "_history": [
+    {
+      "buildId": "23730503",
+      "branch": "public",
+      "timeUpdated": 1781474406,
+      "firstSeen": 1789121505,
+      "manifests": {
+        "4849820": {
+          "gid": "433443106958705930",
+          "size": 3112629311,
+          "download": 3111411024
+        }
+      }
+    }
+  ],
+  "_change_number": 38787536,
+  "_missing_token": false,
+  "_sha": "fd937281f4c3cc011c36818c3e639d5fec1a8a09",
+  "_size": 1996,
   "appid": "4849820",
   "common": {
     "aicontenttype": "1",
@@ -39,10 +53,11 @@
     "oslist": "windows",
     "parent": "2893580",
     "primary_genre": "51",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "905c2a4ef4022333f6a42d9b330ac95570dc2e30/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789117228",
     "store_asset_mtime": "1781443010",
     "store_screenshot": "8c3942ec6202b88c13ee628272a94934ccb0bfa8/ss_8c3942ec6202b88c13ee628272a94934ccb0bfa8.jpg",
     "store_tags": {
@@ -70,5 +85,31 @@
     },
     "type": "DLC"
   },
-  "public_only": "1"
+  "depots": {
+    "4849820": {
+      "dlcappid": "4849820",
+      "manifests": {
+        "public": {
+          "download": "3111411024",
+          "gid": "433443106958705930",
+          "size": "3112629311"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "23730503",
+        "timebuildupdated": "1781469808",
+        "timeupdated": "1781474406"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Intuition Technology",
+    "dlcavailableonstore": "1",
+    "dlcforappid": "2893580",
+    "homepage": "https://ai-vj.com",
+    "mustownapptopurchase": "2893580",
+    "publisher": "Intuition Technology"
+  }
 }

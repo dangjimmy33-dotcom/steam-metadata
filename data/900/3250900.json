@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789112271,
-  "_history": [],
-  "_change_number": 38624458,
-  "_missing_token": true,
-  "_sha": "a554b8dcefde66b967eb691322a56435eddd3432",
-  "_size": 6282,
+  "_lastChecked": 1789119745,
+  "_history": [
+    {
+      "buildId": "25249256",
+      "branch": "public",
+      "timeUpdated": 1789116714,
+      "firstSeen": 1789119745,
+      "manifests": {
+        "3250902": {
+          "gid": "7813514799547732853",
+          "size": 2226162785,
+          "download": 404661568
+        }
+      }
+    }
+  ],
+  "_change_number": 38787896,
+  "_missing_token": false,
+  "_sha": "1b9f2073c14dc8f4f888f5566c3ab382a00f3639",
+  "_size": 7148,
   "appid": "3250900",
   "common": {
     "associations": {
@@ -21,13 +35,15 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_28": "1",
       "category_62": "1"
     },
     "clienticns": "ead3b012b2077fe74aab39c86dc591759c328062",
     "clienticon": "ee9558a77aa673cc405e22307f5de4d65bf7d236",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3250900",
     "genres": {
       "0": "4",
@@ -136,13 +152,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "170acb6a76a89d1eb03c01935f3a1eb7ce554858/capsule_231x87.jpg",
       "japanese": "170acb6a76a89d1eb03c01935f3a1eb7ce554858/capsule_231x87_japanese.jpg",
       "schinese": "866a3de153535c8708f89d94ae701061bae60178/capsule_231x87_schinese.jpg",
       "tchinese": "866a3de153535c8708f89d94ae701061bae60178/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789117005",
     "store_asset_mtime": "1787569032",
     "store_tags": {
       "0": "597",
@@ -179,5 +196,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "StackEpoch",
+    "launch": {
+      "0": {
+        "executable": "StackEpoch.exe"
+      }
+    }
+  },
+  "depots": {
+    "3250902": {
+      "manifests": {
+        "public": {
+          "download": "404661568",
+          "gid": "7813514799547732853",
+          "size": "2226162785"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25249256",
+        "timebuildupdated": "1789116662",
+        "timeupdated": "1789116714"
+      }
+    }
+  },
+  "extended": {
+    "developer": "StonegrassStudio",
+    "publisher": "StonegrassStudio"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "1024000000",
+    "savefiles": {
+      "0": {
+        "path": "data",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    }
+  }
 }

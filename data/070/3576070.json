@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789112593,
+  "_lastChecked": 1789120118,
   "_history": [
     {
       "buildId": "24962033",
@@ -54,10 +54,10 @@
       }
     }
   ],
-  "_change_number": 38757655,
+  "_change_number": 38787972,
   "_missing_token": false,
-  "_sha": "5fe97c211c4e17bbd240b77b0e366908095e8463",
-  "_size": 5556,
+  "_sha": "a4b76a16800fa19dc7f5627e9e3489b2dec0255e",
+  "_size": 5825,
   "appid": "3576070",
   "common": {
     "aicontenttype": "1",
@@ -266,6 +266,17 @@
       "0": {
         "arguments": "--AppID=3576070",
         "config": {
+          "betakey": "default",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "SAZLauncher.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--AppID=3576070 --beta",
+        "config": {
+          "betakey": "tcperrortest",
           "osarch": "64",
           "oslist": "windows"
         },
@@ -291,7 +302,8 @@
         "timebuildupdated": "1789037205",
         "timeupdated": "1789037252"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "NEXON Games Co., Ltd.",

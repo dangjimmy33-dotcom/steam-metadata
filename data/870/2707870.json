@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789111712,
+  "_lastChecked": 1789119105,
   "_history": [
     {
       "buildId": "21569412",
@@ -39,12 +39,48 @@
           "download": 1838872400
         }
       }
+    },
+    {
+      "buildId": "25080084",
+      "branch": "mac-beta",
+      "timeUpdated": 1789113442,
+      "firstSeen": 1789119105,
+      "manifests": {
+        "2707871": {
+          "gid": "3420732235008232329",
+          "size": 5472404332,
+          "download": 1838872400
+        },
+        "2707873": {
+          "gid": "8671168898488275775",
+          "size": 5929189602,
+          "download": 1955786928
+        }
+      }
+    },
+    {
+      "buildId": "25080084",
+      "branch": "macbeta",
+      "timeUpdated": 1788352963,
+      "firstSeen": 1789119105,
+      "manifests": {
+        "2707871": {
+          "gid": "3420732235008232329",
+          "size": 5472404332,
+          "download": 1838872400
+        },
+        "2707873": {
+          "gid": "8671168898488275775",
+          "size": 5929189602,
+          "download": 1955786928
+        }
+      }
     }
   ],
-  "_change_number": 38758863,
+  "_change_number": 38787221,
   "_missing_token": false,
-  "_sha": "68ff463c55af93d8c93989d5a2cf78f7bc1a106e",
-  "_size": 7733,
+  "_sha": "a351093d9d9cc0286ee9a0d04d463d83dc01e0eb",
+  "_size": 8766,
   "appid": "2707870",
   "common": {
     "associations": {
@@ -282,12 +318,14 @@
     "installdir": "Street Dog BMX",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "streetdogbmx.exe",
         "type": "default"
       },
       "1": {
         "config": {
-          "betakey": "macbeta",
           "oslist": "macos"
         },
         "description": "Streetdog BMX (Mac)",
@@ -296,6 +334,13 @@
         },
         "executable": "Streetdog BMX.app",
         "type": "option1"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "streetdogbmx.exe",
+        "type": "default"
       }
     }
   },
@@ -306,6 +351,16 @@
       },
       "manifests": {
         "beta": {
+          "download": "1838872400",
+          "gid": "3420732235008232329",
+          "size": "5472404332"
+        },
+        "mac-beta": {
+          "download": "1838872400",
+          "gid": "3420732235008232329",
+          "size": "5472404332"
+        },
+        "macbeta": {
           "download": "1838872400",
           "gid": "3420732235008232329",
           "size": "5472404332"
@@ -327,7 +382,18 @@
       "config": {
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "mac-beta": {
+          "download": "1955786928",
+          "gid": "8671168898488275775",
+          "size": "5929189602"
+        },
+        "macbeta": {
+          "download": "1955786928",
+          "gid": "8671168898488275775",
+          "size": "5929189602"
+        }
+      }
     },
     "branches": {
       "beta": {
@@ -335,6 +401,18 @@
         "description": "Beta",
         "timebuildupdated": "1768911131",
         "timeupdated": "1768911217"
+      },
+      "mac-beta": {
+        "buildid": "25080084",
+        "description": "Mac Beta Version",
+        "timebuildupdated": "1788352963",
+        "timeupdated": "1789113442"
+      },
+      "macbeta": {
+        "buildid": "25080084",
+        "description": "Mac Beta",
+        "timebuildupdated": "1788352963",
+        "timeupdated": "1788352963"
       },
       "mono": {
         "buildid": "25102902",
@@ -360,9 +438,14 @@
     "quota": "10000000",
     "rootoverrides": {
       "1": {
-        "addpath": "",
         "os": "MacOS",
         "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "yeahus/streetdogbmx",
+            "replace": "yeahus/Streetdog BMX"
+          }
+        },
         "root": "WinAppDataLocalLow",
         "useinstead": "MacAppSupport"
       },

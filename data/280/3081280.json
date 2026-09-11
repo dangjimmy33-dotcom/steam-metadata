@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789112098,
+  "_lastChecked": 1789119546,
   "_history": [
     {
       "buildId": "24019953",
@@ -36,12 +36,35 @@
           "download": 460436736
         }
       }
+    },
+    {
+      "buildId": "25249058",
+      "branch": "public",
+      "timeUpdated": 1789115963,
+      "firstSeen": 1789119546,
+      "manifests": {
+        "3081281": {
+          "gid": "8817769223509909404",
+          "size": 2297910985,
+          "download": 1930844496
+        },
+        "4133890": {
+          "gid": "4503839362187007189",
+          "size": 460594752,
+          "download": 460436736
+        },
+        "5024860": {
+          "gid": "4657836749389247238",
+          "size": 578909457,
+          "download": 471876320
+        }
+      }
     }
   ],
-  "_change_number": 38784752,
+  "_change_number": 38787512,
   "_missing_token": false,
-  "_sha": "a7471538887550cf020333c34ddfbd833f7f5955",
-  "_size": 11848,
+  "_sha": "3531d7b5403054edb72a2cbf5cf1354b9fc77e6e",
+  "_size": 11969,
   "appid": "3081280",
   "common": {
     "associations": {
@@ -390,14 +413,20 @@
         "oslist": "windows"
       },
       "dlcappid": "5024860",
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "471876320",
+          "gid": "4657836749389247238",
+          "size": "578909457"
+        }
+      }
     },
     "baselanguages": "english,schinese",
     "branches": {
       "public": {
-        "buildid": "24019953",
-        "timebuildupdated": "1782994100",
-        "timeupdated": "1782994100"
+        "buildid": "25249058",
+        "timebuildupdated": "1789115963",
+        "timeupdated": "1789115963"
       },
       "publictest": {
         "buildid": "23695636",
@@ -413,7 +442,7 @@
   "extended": {
     "developer": "Ogopogo",
     "dlcavailableonstore": "1",
-    "listofdlc": "4133880,4133890,4252530",
+    "listofdlc": "4133880,4133890,4252530,5024860",
     "publisher": "SapStaR Games"
   },
   "ufs": {

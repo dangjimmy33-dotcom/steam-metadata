@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789110849,
+  "_lastChecked": 1789118100,
   "_history": [
     {
       "buildId": "25138627",
@@ -168,12 +168,68 @@
           "download": 87315408
         }
       }
+    },
+    {
+      "buildId": "25247863",
+      "branch": "public",
+      "timeUpdated": 1789113278,
+      "firstSeen": 1789118100,
+      "manifests": {
+        "1890311": {
+          "gid": "5119804911756869139",
+          "size": 6057138450,
+          "download": 1615800976
+        },
+        "1890312": {
+          "gid": "4992602999815871004",
+          "size": 6089416117,
+          "download": 1626899120
+        },
+        "1890313": {
+          "gid": "3284831493940723610",
+          "size": 5981932268,
+          "download": 1579748272
+        },
+        "4970460": {
+          "gid": "5678122328357133642",
+          "size": 95873205,
+          "download": 87315408
+        }
+      }
+    },
+    {
+      "buildId": "25247863",
+      "branch": "public-beta",
+      "timeUpdated": 1789111411,
+      "firstSeen": 1789118100,
+      "manifests": {
+        "1890311": {
+          "gid": "5119804911756869139",
+          "size": 6057138450,
+          "download": 1615800976
+        },
+        "1890312": {
+          "gid": "4992602999815871004",
+          "size": 6089416117,
+          "download": 1626899120
+        },
+        "1890313": {
+          "gid": "3284831493940723610",
+          "size": 5981932268,
+          "download": 1579748272
+        },
+        "4970460": {
+          "gid": "5678122328357133642",
+          "size": 95873205,
+          "download": 87315408
+        }
+      }
     }
   ],
-  "_change_number": 38784460,
+  "_change_number": 38786655,
   "_missing_token": false,
-  "_sha": "f58e635d352267d371978e12f6f2bedb4ad316df",
-  "_size": 8640,
+  "_sha": "90c663cddf9c77aa89016f98beac34dd81f6ef6f",
+  "_size": 8685,
   "appid": "1890310",
   "common": {
     "associations": {
@@ -192,6 +248,8 @@
       "category_23": "1",
       "category_25": "1",
       "category_28": "1",
+      "category_55": "1",
+      "category_57": "1",
       "category_62": "1",
       "category_68": "1",
       "category_69": "1",
@@ -406,7 +464,7 @@
         "executable": "RogueBlight.x86_64"
       }
     },
-    "steamconfigurator3rdpartynative": "65533",
+    "steamconfigurator3rdpartynative": "65532",
     "steamcontrollertemplateindex": "4",
     "steamdecktouchscreen": "1"
   },
@@ -417,14 +475,14 @@
       },
       "manifests": {
         "public": {
-          "download": "1580145440",
-          "gid": "877100458633854115",
-          "size": "5981869677"
+          "download": "1615800976",
+          "gid": "5119804911756869139",
+          "size": "6057138450"
         },
         "public-beta": {
-          "download": "1588228256",
-          "gid": "7045007492923100426",
-          "size": "6005600378"
+          "download": "1615800976",
+          "gid": "5119804911756869139",
+          "size": "6057138450"
         }
       }
     },
@@ -434,14 +492,14 @@
       },
       "manifests": {
         "public": {
-          "download": "1591247536",
-          "gid": "4555676851584129204",
-          "size": "6014147164"
+          "download": "1626899120",
+          "gid": "4992602999815871004",
+          "size": "6089416117"
         },
         "public-beta": {
-          "download": "1591191664",
-          "gid": "3844235728953108567",
-          "size": "6014154421"
+          "download": "1626899120",
+          "gid": "4992602999815871004",
+          "size": "6089416117"
         }
       }
     },
@@ -451,14 +509,14 @@
       },
       "manifests": {
         "public": {
-          "download": "1615544752",
-          "gid": "6485565266321826043",
-          "size": "6057120779"
+          "download": "1579748272",
+          "gid": "3284831493940723610",
+          "size": "5981932268"
         },
         "public-beta": {
-          "download": "1615515184",
-          "gid": "3580497465440546739",
-          "size": "6057194196"
+          "download": "1579748272",
+          "gid": "3284831493940723610",
+          "size": "5981932268"
         }
       }
     },
@@ -479,15 +537,15 @@
     },
     "branches": {
       "public": {
-        "buildid": "25169797",
-        "timebuildupdated": "1788793920",
-        "timeupdated": "1788801413"
+        "buildid": "25247863",
+        "timebuildupdated": "1789111404",
+        "timeupdated": "1789113278"
       },
       "public-beta": {
-        "buildid": "25247466",
+        "buildid": "25247863",
         "description": "Usually one patch ahead of the current release. May be less stable and could contain bugs or other issues.",
-        "timebuildupdated": "1789109767",
-        "timeupdated": "1789109768"
+        "timebuildupdated": "1789111404",
+        "timeupdated": "1789111411"
       }
     },
     "hasdepotsindlc": "1",

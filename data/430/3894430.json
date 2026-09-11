@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789112912,
+  "_lastChecked": 1789120488,
   "_history": [
     {
       "buildId": "25118569",
@@ -91,12 +91,38 @@
           "download": 1421912832
         }
       }
+    },
+    {
+      "buildId": "25249530",
+      "branch": "beta",
+      "timeUpdated": 1789117572,
+      "firstSeen": 1789120488,
+      "manifests": {
+        "3894430": {
+          "gid": "177881569462217338",
+          "size": 4125220080,
+          "download": 1422271920
+        }
+      }
+    },
+    {
+      "buildId": "25249530",
+      "branch": "insider",
+      "timeUpdated": 1789117563,
+      "firstSeen": 1789120488,
+      "manifests": {
+        "3894430": {
+          "gid": "177881569462217338",
+          "size": 4125220080,
+          "download": 1422271920
+        }
+      }
     }
   ],
-  "_change_number": 38701448,
+  "_change_number": 38787713,
   "_missing_token": false,
-  "_sha": "ef2e75f116c8c5949172f8a04602227254c31fa6",
-  "_size": 3390,
+  "_sha": "1af89d184aec0695ccde60f23445f27edef8c083",
+  "_size": 3388,
   "appid": "3894430",
   "common": {
     "associations": {
@@ -189,14 +215,14 @@
       "dlcappid": "3894430",
       "manifests": {
         "beta": {
-          "download": "1422269264",
-          "gid": "2165616798231725470",
-          "size": "4125208846"
+          "download": "1422271920",
+          "gid": "177881569462217338",
+          "size": "4125220080"
         },
         "insider": {
-          "download": "1422269264",
-          "gid": "2165616798231725470",
-          "size": "4125208846"
+          "download": "1422271920",
+          "gid": "177881569462217338",
+          "size": "4125220080"
         },
         "public": {
           "download": "1422269264",
@@ -217,16 +243,16 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25118569",
+        "buildid": "25249530",
         "description": "Beta Test",
-        "timebuildupdated": "1788506563",
-        "timeupdated": "1788782012"
+        "timebuildupdated": "1789117543",
+        "timeupdated": "1789117572"
       },
       "insider": {
-        "buildid": "25118569",
+        "buildid": "25249530",
         "description": "Insider Preview",
-        "timebuildupdated": "1788506563",
-        "timeupdated": "1788695669"
+        "timebuildupdated": "1789117543",
+        "timeupdated": "1789117563"
       },
       "public": {
         "buildid": "25118569",

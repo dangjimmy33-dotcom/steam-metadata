@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789111126,
+  "_lastChecked": 1789118421,
   "_history": [
     {
       "buildId": "24969189",
@@ -156,11 +156,37 @@
           "download": 4683445712
         }
       }
+    },
+    {
+      "buildId": "25248478",
+      "branch": "public",
+      "timeUpdated": 1789114447,
+      "firstSeen": 1789118421,
+      "manifests": {
+        "2163331": {
+          "gid": "8833317469152774742",
+          "size": 6628696886,
+          "download": 4683441312
+        }
+      }
+    },
+    {
+      "buildId": "25248478",
+      "branch": "public-beta",
+      "timeUpdated": 1789114431,
+      "firstSeen": 1789118421,
+      "manifests": {
+        "2163331": {
+          "gid": "8833317469152774742",
+          "size": 6628696886,
+          "download": 4683441312
+        }
+      }
     }
   ],
-  "_change_number": 38763800,
+  "_change_number": 38787654,
   "_missing_token": false,
-  "_sha": "3fdfb880ac60dc0640b0eb8d8aa0af86c1bb2f1b",
+  "_sha": "fd6a4b6c9c6dc43463d77c5ad19712156cc07d97",
   "_size": 8862,
   "appid": "2163330",
   "common": {
@@ -476,28 +502,28 @@
     "2163331": {
       "manifests": {
         "public": {
-          "download": "4681610944",
-          "gid": "6587898556167808074",
-          "size": "6623337779"
+          "download": "4683441312",
+          "gid": "8833317469152774742",
+          "size": "6628696886"
         },
         "public-beta": {
-          "download": "4683445712",
-          "gid": "7246533769301206176",
-          "size": "6628698222"
+          "download": "4683441312",
+          "gid": "8833317469152774742",
+          "size": "6628696886"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25228599",
-        "timebuildupdated": "1789036060",
-        "timeupdated": "1789036374"
+        "buildid": "25248478",
+        "timebuildupdated": "1789113830",
+        "timeupdated": "1789114447"
       },
       "public-beta": {
-        "buildid": "25232888",
+        "buildid": "25248478",
         "description": "Branch for public beta tests",
-        "timebuildupdated": "1789049775",
-        "timeupdated": "1789050309"
+        "timebuildupdated": "1789113830",
+        "timeupdated": "1789114431"
       }
     },
     "privatebranches": "1"

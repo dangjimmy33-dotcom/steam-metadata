@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789113886,
-  "_history": [],
-  "_change_number": 38785257,
-  "_missing_token": true,
-  "_sha": "c10bfc508e9e14bcba4b191f0b123798799b646d",
-  "_size": 3967,
+  "_lastChecked": 1789121609,
+  "_history": [
+    {
+      "buildId": "25248003",
+      "branch": "public",
+      "timeUpdated": 1789112030,
+      "firstSeen": 1789121609,
+      "manifests": {
+        "4951672": {
+          "gid": "2921438328824864931",
+          "size": 1024857363,
+          "download": 97504176
+        },
+        "4951673": {
+          "gid": "3276169861597330608",
+          "size": 1017071869,
+          "download": 94392208
+        }
+      }
+    }
+  ],
+  "_change_number": 38788616,
+  "_missing_token": false,
+  "_sha": "c67ac2b42d9f936c2e810105a842ea4008472ea4",
+  "_size": 4994,
   "appid": "4951670",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +45,8 @@
     "clienticns": "a2a9ab0f0cc5a507e5d2f4ced78938ebeab50f72",
     "clienticon": "d3334a080d8115ebf43facf9749806bc338cfcac",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4951670",
     "genres": {
       "0": "25",
@@ -114,11 +133,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d00bd4dde21ab453506951c3bc76f4b452541683/capsule_231x87.jpg",
       "japanese": "6dfb9eb182829463e6e97c9d59d1b2cdf2a19731/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1789119705",
     "store_asset_mtime": "1787951971",
     "store_tags": {
       "0": "21",
@@ -154,5 +174,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "謎解きゲーム",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Game2_Win/lab.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Game2_Mac.app"
+      }
+    }
+  },
+  "depots": {
+    "4951671": {},
+    "4951672": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "97504176",
+          "gid": "2921438328824864931",
+          "size": "1024857363"
+        }
+      }
+    },
+    "4951673": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "94392208",
+          "gid": "3276169861597330608",
+          "size": "1017071869"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "25248003",
+        "timebuildupdated": "1789112028",
+        "timeupdated": "1789112030"
+      }
+    }
+  },
+  "extended": {
+    "developer": "P.E.G",
+    "homepage": "https://peg-dev.com/",
+    "publisher": "P.E.G"
+  }
 }

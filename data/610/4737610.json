@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789113705,
-  "_history": [],
-  "_change_number": 38624969,
-  "_missing_token": true,
-  "_sha": "e37625921ea6bfbfeeed00e7c4fdc713c8d1e2e0",
-  "_size": 3255,
+  "_lastChecked": 1789121400,
+  "_history": [
+    {
+      "buildId": "25138968",
+      "branch": "public",
+      "timeUpdated": 1788598232,
+      "firstSeen": 1789121400,
+      "manifests": {
+        "4737611": {
+          "gid": "4878815468533945562",
+          "size": 185216142,
+          "download": 60056096
+        },
+        "4737612": {
+          "gid": "3728503299066433458",
+          "size": 178421649,
+          "download": 57715584
+        }
+      }
+    }
+  ],
+  "_change_number": 38786236,
+  "_missing_token": false,
+  "_sha": "c419ebf5b8cdde8787528df0c4cbdf0588ff1083",
+  "_size": 4459,
   "appid": "4737610",
   "common": {
     "aicontenttype": "1",
@@ -39,9 +58,9 @@
     },
     "clienticon": "3afed71da322f9507a1fb344740cf8638f9cfa08",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4737610",
     "genres": {
       "0": "4"
@@ -114,7 +133,7 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9a354a226ff3315a0d336940119fa3218862ddee/capsule_231x87.jpg"
     },
@@ -146,5 +165,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PegPigeon",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "PegPigeon_Steam_Win/pegpigeon.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "PegPigeon_Steam_Mac.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "StreamingAssets/SteamInput/steam_input_manifest.vdf"
+  },
+  "depots": {
+    "4737611": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "60056096",
+          "gid": "4878815468533945562",
+          "size": "185216142"
+        }
+      }
+    },
+    "4737612": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "57715584",
+          "gid": "3728503299066433458",
+          "size": "178421649"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25138968",
+        "timebuildupdated": "1788598226",
+        "timeupdated": "1788598232"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Erenyx",
+    "homepage": "http://erenyx.fun",
+    "publisher": "Erenyx"
+  }
 }

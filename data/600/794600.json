@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789109585,
+  "_lastChecked": 1789116630,
   "_history": [
     {
       "buildId": "25030302",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 38782652,
+  "_change_number": 38786949,
   "_missing_token": false,
-  "_sha": "4ca1b659854d3307539f354085d91d4441807284",
-  "_size": 7610,
+  "_sha": "1eaa150cf24d90dd37bfc75fc87092e8c9db3fd9",
+  "_size": 7616,
   "appid": "794600",
   "common": {
     "associations": {
@@ -350,8 +350,8 @@
     "quota": "100000000",
     "savefiles": {
       "0": {
-        "path": "Savedata",
-        "pattern": "{64BitSteamID}.sav",
+        "path": "Savedata/{64BitSteamID}",
+        "pattern": "brggame.*",
         "root": "gameinstall"
       }
     }

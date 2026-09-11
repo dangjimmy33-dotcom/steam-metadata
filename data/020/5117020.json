@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789114011,
-  "_history": [],
-  "_change_number": 38432602,
-  "_missing_token": true,
-  "_sha": "78c61a2f59b08a9ae831b63e2579bb12e9291c35",
-  "_size": 2856,
+  "_lastChecked": 1789121751,
+  "_history": [
+    {
+      "buildId": "24876572",
+      "branch": "public",
+      "timeUpdated": 1787382698,
+      "firstSeen": 1789121751,
+      "manifests": {
+        "5117021": {
+          "gid": "1839393280974473064",
+          "size": 310423732,
+          "download": 236402752
+        }
+      }
+    }
+  ],
+  "_change_number": 38788284,
+  "_missing_token": false,
+  "_sha": "c1524191bfa116de5b5da294da9516f369ac399f",
+  "_size": 3607,
   "appid": "5117020",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "cb8ebaecfe36982fb62a94b2fb449ec81476435f",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5117020",
     "genres": {
       "0": "1",
@@ -100,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2a9f603d52f3b92319ff4d8bb0488909c4abcfb9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789118985",
     "store_asset_mtime": "1787994338",
     "store_tags": {
       "0": "3871",
@@ -129,5 +143,47 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "RIPGRAZE",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play",
+        "description_loc": {
+          "english": "Play"
+        },
+        "executable": "RIPGRAZE.exe"
+      }
+    }
+  },
+  "depots": {
+    "5117021": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "236402752",
+          "gid": "1839393280974473064",
+          "size": "310423732"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "24876572",
+        "timebuildupdated": "1787382261",
+        "timeupdated": "1787382698"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hullspark",
+    "publisher": "Hullspark"
+  }
 }

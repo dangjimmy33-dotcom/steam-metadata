@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789113972,
-  "_history": [],
-  "_change_number": 38428756,
-  "_missing_token": true,
-  "_sha": "fe327b2d403464b2990b6fafce2e65a98ee6254d",
-  "_size": 3006,
+  "_lastChecked": 1789121706,
+  "_history": [
+    {
+      "buildId": "24907172",
+      "branch": "public",
+      "timeUpdated": 1787577882,
+      "firstSeen": 1789121706,
+      "manifests": {
+        "5059231": {
+          "gid": "6607323000469203760",
+          "size": 705423292,
+          "download": 418455664
+        }
+      }
+    }
+  ],
+  "_change_number": 38788044,
+  "_missing_token": false,
+  "_sha": "a09117f5a8bfff15d42097486fafd72119d16f36",
+  "_size": 3865,
   "appid": "5059230",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "47e25fd548a0d1ea5baaffce2ec95c605c29e12f",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5059230",
     "genres": {
       "0": "1",
@@ -101,7 +114,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6eb064481d3fe755374dc505dcd9a7fdd2b4c4ea/capsule_231x87.jpg"
     },
@@ -137,5 +150,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Backrooms Escape",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5059231": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "418455664",
+          "gid": "6607323000469203760",
+          "size": "705423292"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24907172",
+        "timebuildupdated": "1787577337",
+        "timeupdated": "1787577882"
+      }
+    }
+  },
+  "extended": {
+    "developer": "高伟崴",
+    "isfreeapp": "1",
+    "publisher": "高伟崴"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789113370,
-  "_history": [],
-  "_change_number": 38783438,
-  "_missing_token": true,
-  "_sha": "635264808aafc9c02b6c7e744b8f80ceebde380e",
-  "_size": 7404,
+  "_lastChecked": 1789121018,
+  "_history": [
+    {
+      "buildId": "25249877",
+      "branch": "public",
+      "timeUpdated": 1789119887,
+      "firstSeen": 1789121018,
+      "manifests": {
+        "4368641": {
+          "gid": "5442403060201547236",
+          "size": 6275329721,
+          "download": 5956493904
+        }
+      }
+    }
+  ],
+  "_change_number": 38788689,
+  "_missing_token": false,
+  "_sha": "dc31c638f0046e37bad4f08a204b907310f3cc7d",
+  "_size": 9152,
   "appid": "4368640",
   "common": {
     "aicontenttype": "1",
@@ -39,6 +53,7 @@
     },
     "clienticon": "67d5cdf6e486fbb48bbdc04403c09e4c7fc0d722",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -48,7 +63,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "4368640",
     "genres": {
       "0": "1",
@@ -170,13 +184,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "brazilian": "f30243e8f970e90fc3be7504809b308f355cae9a/capsule_231x87_brazilian.jpg",
       "english": "c9895fd6a39f94ff79e6f789382fc267c24715a7/capsule_231x87.jpg",
       "latam": "03b0b2c07cbab04bdf711f21a4b96fe8bc8215f1/capsule_231x87_latam.jpg",
       "schinese": "47d4460810b924068615f68f46cfa185a3220dfa/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789117234",
     "store_asset_mtime": "1789101300",
     "store_tags": {
       "0": "19",
@@ -284,5 +299,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DIG Raiders",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "td_digging.exe"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "DX11 Compatible",
+        "description_loc": {
+          "english": "DX11 Compatible",
+          "schinese": "DX11 兼容模式"
+        },
+        "executable": "td_digging.exe"
+      },
+      "2": {
+        "arguments": "-lan -port=7777",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "LAN Mode",
+        "description_loc": {
+          "english": "LAN Mode",
+          "schinese": "局域网联机"
+        },
+        "executable": "td_digging.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4368641": {
+      "manifests": {
+        "public": {
+          "download": "5956493904",
+          "gid": "5442403060201547236",
+          "size": "6275329721"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25249877",
+        "timebuildupdated": "1789118644",
+        "timeupdated": "1789119887"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Soda Game Studio",
+    "homepage": "https://soda-game.com",
+    "publisher": "Soda Game Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "2147483648",
+    "savefiles": {
+      "0": {
+        "path": "td_digging/Saved/SaveGames",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

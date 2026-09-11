@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789113795,
-  "_history": [],
-  "_change_number": 38655661,
-  "_missing_token": true,
-  "_sha": "4149fea804a303779735880f1ebac2bda059c536",
-  "_size": 3797,
+  "_lastChecked": 1789121504,
+  "_history": [
+    {
+      "buildId": "25160100",
+      "branch": "public",
+      "timeUpdated": 1788750355,
+      "firstSeen": 1789121504,
+      "manifests": {
+        "4848081": {
+          "gid": "8154892298734227044",
+          "size": 1408278368,
+          "download": 550463408
+        }
+      }
+    }
+  ],
+  "_change_number": 38787493,
+  "_missing_token": false,
+  "_sha": "5a3f1816d3a5a5a4316c6bb42478ae0fe065ea4e",
+  "_size": 4462,
   "appid": "4848080",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "5da1ee19066c3a008999066d6bf1323bf876e7f3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4848080",
     "genres": {
       "0": "23",
@@ -110,11 +124,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8d29be2040819c567853b300cc5ea391e8b42aea/capsule_231x87.jpg",
       "schinese": "8d29be2040819c567853b300cc5ea391e8b42aea/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789117131",
     "store_asset_mtime": "1781749526",
     "store_tags": {
       "0": "9",
@@ -150,5 +165,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "仙路漫漫",
+    "launch": {
+      "0": {
+        "executable": "xlmm.exe"
+      }
+    }
+  },
+  "depots": {
+    "4848081": {
+      "manifests": {
+        "public": {
+          "download": "550463408",
+          "gid": "8154892298734227044",
+          "size": "1408278368"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25160100",
+        "timebuildupdated": "1788750353",
+        "timeupdated": "1788750355"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Fengshi Games",
+    "publisher": "Fengshi Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760"
+  }
 }

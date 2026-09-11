@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789113765,
-  "_history": [],
-  "_change_number": 37031569,
-  "_missing_token": true,
-  "_sha": "06c8ac5152244a44ca8021e35b45c83cf5786b0d",
-  "_size": 3412,
+  "_lastChecked": 1789121469,
+  "_history": [
+    {
+      "buildId": "23560700",
+      "branch": "public",
+      "timeUpdated": 1780555775,
+      "firstSeen": 1789121469,
+      "manifests": {
+        "4815611": {
+          "gid": "7805437176020042102",
+          "size": 494611003,
+          "download": 337958560
+        }
+      }
+    }
+  ],
+  "_change_number": 38788736,
+  "_missing_token": false,
+  "_sha": "dd164842aa994a86f9e6f59f2a01147cbf53a23c",
+  "_size": 4423,
   "appid": "4815610",
   "common": {
     "associations": {
@@ -47,7 +61,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4815610",
     "genres": {
       "0": "23",
@@ -121,11 +134,12 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "253271f0ea8e99dba3d7b8dc5c91d4bbfb19eff3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789119994",
     "store_asset_mtime": "1780656346",
     "store_tags": {
       "0": "21",
@@ -156,5 +170,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Kingdom Come",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "KingdomCome.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "KingdomCome.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "KingdomCome.sh"
+      }
+    },
+    "steamconfigurator3rdpartynative": "6",
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4815611": {
+      "manifests": {
+        "public": {
+          "download": "337958560",
+          "gid": "7805437176020042102",
+          "size": "494611003"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "23560700",
+        "timebuildupdated": "1780555764",
+        "timeupdated": "1780555775"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Thunder Rangers",
+    "publisher": "Thunder Rangers"
+  }
 }
