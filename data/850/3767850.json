@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789100825,
+  "_lastChecked": 1789106829,
   "_history": [
     {
       "buildId": "24938008",
@@ -52,11 +52,24 @@
           "download": 3863737968
         }
       }
+    },
+    {
+      "buildId": "25246455",
+      "branch": "publictest",
+      "timeUpdated": 1789105548,
+      "firstSeen": 1789106829,
+      "manifests": {
+        "3767852": {
+          "gid": "6590672040647560180",
+          "size": 9348323925,
+          "download": 3863729072
+        }
+      }
     }
   ],
-  "_change_number": 38776445,
+  "_change_number": 38783242,
   "_missing_token": false,
-  "_sha": "b2b89bca1542311a6cbf3c60175ab2d740ba311e",
+  "_sha": "6dfd6abb9d3395fa9d66d7be357a90df3a5630a7",
   "_size": 7751,
   "appid": "3767850",
   "common": {
@@ -361,9 +374,9 @@
           "size": "9321060365"
         },
         "publictest": {
-          "download": "3863737968",
-          "gid": "2783684891806680289",
-          "size": "9348321913"
+          "download": "3863729072",
+          "gid": "6590672040647560180",
+          "size": "9348323925"
         }
       }
     },
@@ -375,10 +388,10 @@
         "timeupdated": "1787699836"
       },
       "publictest": {
-        "buildid": "25240406",
+        "buildid": "25246455",
         "description": "Public Test Realm",
-        "timebuildupdated": "1789075744",
-        "timeupdated": "1789075744"
+        "timebuildupdated": "1789105127",
+        "timeupdated": "1789105548"
       }
     },
     "privatebranches": "1"

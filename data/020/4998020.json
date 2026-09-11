@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789102122,
-  "_history": [],
-  "_change_number": 38613402,
-  "_missing_token": true,
-  "_sha": "3be9715d0671da77efcd6408ecff365aa2c3b427",
-  "_size": 3912,
+  "_lastChecked": 1789107937,
+  "_history": [
+    {
+      "buildId": "25128861",
+      "branch": "public",
+      "timeUpdated": 1788547405,
+      "firstSeen": 1789107937,
+      "manifests": {
+        "4998021": {
+          "gid": "7048010146795741178",
+          "size": 426275345,
+          "download": 224006912
+        }
+      }
+    }
+  ],
+  "_change_number": 38783895,
+  "_missing_token": false,
+  "_sha": "ee9cd0d7d987b67a2897a705b09b3597ecf20dc8",
+  "_size": 4594,
   "appid": "4998020",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "22d23188fd408ebe35d7a5ce758078ade814d53f",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4998020",
     "genres": {
       "0": "4"
@@ -105,7 +118,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "71aea8b127d29b94067657f0d44841fc155529de/capsule_231x87.jpg",
       "sc_schinese": "4d2bcaaef3ef289ba080d25391e9e2a7f148afed/capsule_231x87_sc_schinese.jpg"
@@ -137,5 +150,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Temporal Anomaly Bureau",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Temporal Anomaly Bureau.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4998021": {
+      "manifests": {
+        "public": {
+          "download": "224006912",
+          "gid": "7048010146795741178",
+          "size": "426275345"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25128861",
+        "timebuildupdated": "1788541249",
+        "timeupdated": "1788547405"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "wing",
+    "publisher": "wing"
+  },
+  "ufs": {
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
 }

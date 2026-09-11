@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789101417,
+  "_lastChecked": 1789107331,
   "_history": [
     {
       "buildId": "22280283",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38762880,
+  "_change_number": 38783340,
   "_missing_token": false,
-  "_sha": "e75f8d0f8ff7a017ab9f3a78c945fb85277d87fe",
-  "_size": 3802,
+  "_sha": "5df3044a6f88eafe1f7772fa63f89c29584c4a76",
+  "_size": 4088,
   "appid": "4289710",
   "common": {
     "associations": {
@@ -151,18 +151,36 @@
     "installdir": "Dicement",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "dicement.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "dicement.app",
+        "type": "default"
       }
     }
   },
   "depots": {
     "4289711": {
+      "config": {
+        "oslist": "windows,linux"
+      },
       "manifests": {
         "public": {
           "download": "39994480",
           "gid": "8422344661431623530",
           "size": "109102569"
         }
+      }
+    },
+    "4289712": {
+      "config": {
+        "oslist": "macos"
       }
     },
     "baselanguages": "english,russian",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789102126,
+  "_lastChecked": 1789107940,
   "_history": [
     {
       "buildId": "25223328",
@@ -180,11 +180,29 @@
           "download": 167114656
         }
       }
+    },
+    {
+      "buildId": "25245986",
+      "branch": "test-015",
+      "timeUpdated": 1789102361,
+      "firstSeen": 1789107940,
+      "manifests": {
+        "5001631": {
+          "gid": "5486582613046636181",
+          "size": 3354970673,
+          "download": 1461441552
+        },
+        "5074810": {
+          "gid": "468353041800858799",
+          "size": 168925397,
+          "download": 167114656
+        }
+      }
     }
   ],
-  "_change_number": 38782177,
+  "_change_number": 38783353,
   "_missing_token": false,
-  "_sha": "226faebc94cd751bc243467a59a2d02881d5832f",
+  "_sha": "29b4eb892e0808a906f3d4b150e5fd341b2b0b7b",
   "_size": 8715,
   "appid": "5001630",
   "common": {
@@ -320,7 +338,7 @@
     "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "89",
+    "review_percentage": "90",
     "review_score": "8",
     "small_capsule": {
       "english": "61818ad820dba0875cb3b2e97d6d177ec89a7c6c/capsule_231x87.jpg",
@@ -459,9 +477,9 @@
           "size": "3354968303"
         },
         "test-015": {
-          "download": "1429343664",
-          "gid": "3327715179862100985",
-          "size": "3274182808"
+          "download": "1461441552",
+          "gid": "5486582613046636181",
+          "size": "3354970673"
         }
       }
     },
@@ -488,10 +506,10 @@
         "timeupdated": "1789101416"
       },
       "test-015": {
-        "buildid": "25245647",
+        "buildid": "25245986",
         "description": "Jiahao 0.1.5 test",
-        "timebuildupdated": "1789100332",
-        "timeupdated": "1789100332"
+        "timebuildupdated": "1789102361",
+        "timeupdated": "1789102361"
       }
     },
     "workshopdepot": "5001630"

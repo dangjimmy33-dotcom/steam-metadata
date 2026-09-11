@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789101408,
-  "_history": [],
-  "_change_number": 38781911,
-  "_missing_token": true,
-  "_sha": "15f106b736de64488fd5c5dea8f2bc924dfc3e2d",
-  "_size": 3080,
+  "_lastChecked": 1789107324,
+  "_history": [
+    {
+      "buildId": "25245591",
+      "branch": "public",
+      "timeUpdated": 1789100244,
+      "firstSeen": 1789107324,
+      "manifests": {
+        "4282361": {
+          "gid": "5663702719763328133",
+          "size": 134153991,
+          "download": 60490144
+        }
+      }
+    }
+  ],
+  "_change_number": 38782257,
+  "_missing_token": false,
+  "_sha": "5bb6948401c82cbd9544c2e175118365e4054300",
+  "_size": 4114,
   "appid": "4282360",
   "common": {
     "associations": {
@@ -25,7 +39,6 @@
     "clienticon": "b73cce6acb15825f4a4605c387a88aa020847a04",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4282360",
     "genres": {
       "0": "4",
@@ -97,10 +110,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ed166d835819ac80e3bca33613edefc5d153f457/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1788240491",
     "store_tags": {
       "0": "597",
@@ -138,5 +152,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "KillSpewy",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "main.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "main.exe"
+      }
+    }
+  },
+  "depots": {
+    "4282361": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "60490144",
+          "gid": "5663702719763328133",
+          "size": "134153991"
+        }
+      }
+    },
+    "4282363": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25245591",
+        "timebuildupdated": "1789099969",
+        "timeupdated": "1789100244"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Sun Monster FxxL",
+    "publisher": "Sun Monster FxxL"
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "200000",
+    "savefiles": {
+      "0": {
+        "path": "save",
+        "pattern": "sav_*_0000",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    }
+  }
 }

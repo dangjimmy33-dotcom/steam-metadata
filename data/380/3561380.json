@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789100590,
+  "_lastChecked": 1789106629,
   "_history": [
     {
       "buildId": "25137511",
@@ -38,10 +38,10 @@
       }
     }
   ],
-  "_change_number": 38781146,
+  "_change_number": 38783036,
   "_missing_token": false,
-  "_sha": "bf822087ff9fa12293a49b4cd1966e75063a9fa3",
-  "_size": 7499,
+  "_sha": "48355cb06c29579935eae304606cb326a5277957",
+  "_size": 6452,
   "appid": "3561380",
   "common": {
     "associations": {
@@ -300,83 +300,29 @@
   },
   "ufs": {
     "maxnumfiles": "10000",
-    "quota": "150000000",
+    "quota": "2500000000",
     "savefiles": {
-      "0": {
-        "path": "GalacticProspectors/Saves",
-        "pattern": "*.roid",
-        "platforms": {
-          "1": "Windows"
-        },
-        "recursive": "1",
-        "root": "WinAppDataRoaming"
-      },
-      "1": {
-        "path": "GalacticProspectors/Saves",
-        "pattern": "*.yaml",
-        "platforms": {
-          "1": "Windows"
-        },
-        "recursive": "1",
-        "root": "WinAppDataRoaming"
-      },
-      "2": {
-        "path": "GalacticProspectors/Saves",
+      "10": {
+        "path": "VyrexEngine/GalacticProspectors/",
         "pattern": "*.vrxch",
         "platforms": {
-          "1": "Windows"
+          "1": "Linux"
         },
         "recursive": "1",
-        "root": "WinAppDataRoaming"
+        "root": "LinuxXdgDataHome"
       },
       "3": {
-        "path": "GalacticProspectors/Saves",
-        "pattern": "*.json",
+        "path": "VyrexEngine/GalacticProspectors/",
+        "pattern": "*.vrxsav",
         "platforms": {
           "1": "Windows"
         },
         "recursive": "1",
         "root": "WinAppDataRoaming"
       },
-      "4": {
-        "path": "GalacticProspectors/Saves",
-        "pattern": "*.roid",
-        "platforms": {
-          "1": "Linux"
-        },
-        "recursive": "1",
-        "root": "LinuxXdgDataHome"
-      },
-      "5": {
-        "path": "GalacticProspectors/Saves",
-        "pattern": "*.yaml",
-        "platforms": {
-          "1": "Linux"
-        },
-        "recursive": "1",
-        "root": "LinuxXdgDataHome"
-      },
-      "6": {
-        "path": "GalacticProspectors/Saves",
-        "pattern": "*.vrxch",
-        "platforms": {
-          "1": "Linux"
-        },
-        "recursive": "1",
-        "root": "LinuxXdgDataHome"
-      },
-      "7": {
-        "path": "GalacticProspectors/Saves",
-        "pattern": "*.json",
-        "platforms": {
-          "1": "Linux"
-        },
-        "recursive": "1",
-        "root": "LinuxXdgDataHome"
-      },
       "8": {
-        "path": "GalacticProspectors/Saves",
-        "pattern": "*.txt",
+        "path": "VyrexEngine/GalacticProspectors/",
+        "pattern": "*.vrxch",
         "platforms": {
           "1": "Windows"
         },
@@ -384,8 +330,8 @@
         "root": "WinAppDataRoaming"
       },
       "9": {
-        "path": "GalacticProspectors/Saves",
-        "pattern": "*.txt",
+        "path": "VyrexEngine/GalacticProspectors/",
+        "pattern": "*.vrxsav",
         "platforms": {
           "1": "Linux"
         },

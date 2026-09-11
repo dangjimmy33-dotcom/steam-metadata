@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789097971,
+  "_lastChecked": 1789104438,
   "_history": [
     {
       "buildId": "22325331",
@@ -90,12 +90,30 @@
           "download": 2325073536
         }
       }
+    },
+    {
+      "buildId": "25245378",
+      "branch": "experimental",
+      "timeUpdated": 1789104401,
+      "firstSeen": 1789104438,
+      "manifests": {
+        "1419851": {
+          "gid": "8463099137858624690",
+          "size": 5219604215,
+          "download": 2286328784
+        },
+        "1419852": {
+          "gid": "3222247341231808883",
+          "size": 5335888449,
+          "download": 2325502192
+        }
+      }
     }
   ],
-  "_change_number": 38780685,
+  "_change_number": 38782930,
   "_missing_token": false,
-  "_sha": "37614b888d665b706515344a2c0c58ea77d2d3fa",
-  "_size": 11441,
+  "_sha": "4c6173e944ef11bac33f39a422959d7ec76afd8a",
+  "_size": 11881,
   "appid": "1419850",
   "common": {
     "associations": {
@@ -476,6 +494,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "experimental": {
+          "download": "2286328784",
+          "gid": "8463099137858624690",
+          "size": "5219604215"
+        },
         "legacy": {
           "download": "2254046224",
           "gid": "847993660558687629",
@@ -493,6 +516,11 @@
         "oslist": "macos"
       },
       "manifests": {
+        "experimental": {
+          "download": "2325502192",
+          "gid": "3222247341231808883",
+          "size": "5335888449"
+        },
         "legacy": {
           "download": "2307079056",
           "gid": "5392900025705848899",
@@ -521,6 +549,12 @@
     },
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,danish,dutch,finnish,norwegian,swedish,czech,turkish,brazilian,greek,vietnamese",
     "branches": {
+      "experimental": {
+        "buildid": "25245378",
+        "description": "For early testing of upcoming patches when available.",
+        "timebuildupdated": "1789098852",
+        "timeupdated": "1789104401"
+      },
       "legacy": {
         "buildid": "22325331",
         "description": "Saleblazers Legacy, before The Immersion Update. Warning: not supported, so back up your saves.",

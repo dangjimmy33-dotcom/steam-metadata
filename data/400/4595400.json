@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789101735,
+  "_lastChecked": 1789107604,
   "_history": [
     {
       "buildId": "25075189",
@@ -23,12 +23,50 @@
           "download": 943029936
         }
       }
+    },
+    {
+      "buildId": "25246673",
+      "branch": "public",
+      "timeUpdated": 1789107185,
+      "firstSeen": 1789107604,
+      "manifests": {
+        "4595401": {
+          "gid": "5850397808731056379",
+          "size": 4071434143,
+          "download": 3918018656
+        },
+        "5129330": {
+          "gid": "8076307347307930999",
+          "size": 549661788,
+          "download": 548919840
+        },
+        "5213090": {
+          "gid": "2603657114329320062",
+          "size": 950487102,
+          "download": 943029936
+        },
+        "5213100": {
+          "gid": "4037008908807895737",
+          "size": 528255265,
+          "download": 520998400
+        },
+        "5213110": {
+          "gid": "1956385220886212658",
+          "size": 538334075,
+          "download": 529385488
+        },
+        "5213120": {
+          "gid": "9157794161818422087",
+          "size": 1009802156,
+          "download": 995451328
+        }
+      }
     }
   ],
-  "_change_number": 38685306,
+  "_change_number": 38783711,
   "_missing_token": false,
-  "_sha": "e5cf7001ed444b573e3606fd1855e2b40a0d8b48",
-  "_size": 9911,
+  "_sha": "a3fe7095c3b8346705396803eeb2c342c591eefe",
+  "_size": 10326,
   "appid": "4595400",
   "common": {
     "aicontenttype": "1",
@@ -412,9 +450,9 @@
     "4595401": {
       "manifests": {
         "public": {
-          "download": "3918017360",
-          "gid": "7307432912137153556",
-          "size": "4071431061"
+          "download": "3918018656",
+          "gid": "5850397808731056379",
+          "size": "4071434143"
         }
       }
     },
@@ -451,28 +489,49 @@
         "language": "english",
         "oslist": "windows"
       },
-      "dlcappid": "5213100"
+      "dlcappid": "5213100",
+      "manifests": {
+        "public": {
+          "download": "520998400",
+          "gid": "4037008908807895737",
+          "size": "528255265"
+        }
+      }
     },
     "5213110": {
       "config": {
         "language": "english",
         "oslist": "windows"
       },
-      "dlcappid": "5213110"
+      "dlcappid": "5213110",
+      "manifests": {
+        "public": {
+          "download": "529385488",
+          "gid": "1956385220886212658",
+          "size": "538334075"
+        }
+      }
     },
     "5213120": {
       "config": {
         "language": "english",
         "oslist": "windows"
       },
-      "dlcappid": "5213120"
+      "dlcappid": "5213120",
+      "manifests": {
+        "public": {
+          "download": "995451328",
+          "gid": "9157794161818422087",
+          "size": "1009802156"
+        }
+      }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25075189",
-        "timebuildupdated": "1788336306",
-        "timeupdated": "1788336307"
+        "buildid": "25246673",
+        "timebuildupdated": "1789106120",
+        "timeupdated": "1789107185"
       }
     },
     "hasdepotsindlc": "1",

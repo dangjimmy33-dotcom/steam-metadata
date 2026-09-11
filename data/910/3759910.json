@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789100816,
+  "_lastChecked": 1789106822,
   "_history": [
     {
       "buildId": "21844631",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38651515,
+  "_change_number": 38783076,
   "_missing_token": false,
-  "_sha": "b916601c7153735e6997289915d349e9232696d9",
-  "_size": 8513,
+  "_sha": "387697dde5ec780b56a484f7642f0c5cc00c09b4",
+  "_size": 8733,
   "appid": "3759910",
   "common": {
     "aicontenttype": "1",
@@ -371,16 +371,26 @@
     "quota": "10000000",
     "rootoverrides": {
       "0": {
-        "addpath": ".renpy/BunkeredwithFemboy-1744715716",
         "os": "Linux",
         "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/BunkeredwithFemboy-1744715716",
+            "replace": ".renpy/BunkeredwithFemboy-1744715716"
+          }
+        },
         "root": "WinAppDataRoaming",
         "useinstead": "LinuxHome"
       },
       "1": {
-        "addpath": "Library/RenPy/BunkeredwithFemboy-1744715716",
         "os": "MacOS",
         "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/BunkeredwithFemboy-1744715716",
+            "replace": "Library/RenPy/BunkeredwithFemboy-1744715716"
+          }
+        },
         "root": "WinAppDataRoaming",
         "useinstead": "MacHome"
       }

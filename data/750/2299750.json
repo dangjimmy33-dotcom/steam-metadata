@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789099107,
+  "_lastChecked": 1789105384,
   "_history": [
     {
       "buildId": "13890869",
@@ -28,12 +28,40 @@
           "download": 243943760
         }
       }
+    },
+    {
+      "buildId": "25246378",
+      "branch": "public",
+      "timeUpdated": 1789104998,
+      "firstSeen": 1789105384,
+      "manifests": {
+        "2299752": {
+          "gid": "920442235989404260",
+          "size": 575949529,
+          "download": 288356688
+        },
+        "2299753": {
+          "gid": "2143221758931545202",
+          "size": 0,
+          "download": 0
+        },
+        "2299754": {
+          "gid": "3342784586197874919",
+          "size": 0,
+          "download": 0
+        },
+        "2299755": {
+          "gid": "8948427350269889268",
+          "size": 0,
+          "download": 0
+        }
+      }
     }
   ],
-  "_change_number": 38781168,
+  "_change_number": 38783086,
   "_missing_token": false,
-  "_sha": "04d7fb3b0af15be60e02475137110a6cd166ca70",
-  "_size": 5176,
+  "_sha": "d6a4ea19f0bf303644ad48668a0fcfeadc767efb",
+  "_size": 5089,
   "appid": "2299750",
   "common": {
     "associations": {
@@ -48,6 +76,8 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
       "category_28": "1",
       "category_55": "1",
       "category_62": "1"
@@ -74,6 +104,7 @@
     "languages": {
       "english": "1",
       "japanese": "1",
+      "schinese": "1",
       "tchinese": "1"
     },
     "library_assets": {
@@ -168,6 +199,10 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "schinese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "tchinese": {
         "subtitles": "true",
         "supported": "true"
@@ -191,22 +226,21 @@
       },
       "manifests": {
         "public": {
-          "download": "243694784",
-          "gid": "3964540207318174868",
-          "size": "527496910"
+          "download": "288356688",
+          "gid": "920442235989404260",
+          "size": "575949529"
         }
       }
     },
     "2299753": {
       "config": {
-        "language": "tchinese",
-        "oslist": "windows"
+        "oslist": "macos"
       },
       "manifests": {
         "public": {
-          "download": "243837264",
-          "gid": "4590260360532724882",
-          "size": "527578843"
+          "download": "0",
+          "gid": "2143221758931545202",
+          "size": "0"
         }
       }
     },
@@ -217,31 +251,31 @@
       },
       "manifests": {
         "public": {
-          "download": "243837264",
-          "gid": "660444560448991013",
-          "size": "527578843"
+          "download": "0",
+          "gid": "3342784586197874919",
+          "size": "0"
         }
       }
     },
     "2299755": {
       "config": {
         "language": "japanese",
-        "oslist": "windows"
+        "oslist": "macos"
       },
       "manifests": {
         "public": {
-          "download": "243943760",
-          "gid": "5278669698036753573",
-          "size": "527781871"
+          "download": "0",
+          "gid": "8948427350269889268",
+          "size": "0"
         }
       }
     },
-    "baselanguages": "english,tchinese,japanese",
+    "baselanguages": "english,japanese,schinese,tchinese",
     "branches": {
       "public": {
-        "buildid": "13890869",
-        "timebuildupdated": "1711688646",
-        "timeupdated": "1711701386"
+        "buildid": "25246378",
+        "timebuildupdated": "1789104755",
+        "timeupdated": "1789104998"
       }
     },
     "hasdepotsindlc": "0",
@@ -252,16 +286,9 @@
     "publisher": "錯落交織 Interweave"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "50",
     "quota": "104857600",
     "savefiles": {
-      "0": {
-        "path": "alicehouse/save/",
-        "pattern": "*.rmmzsave",
-        "root": "gameinstall"
-      },
       "1": {
         "path": "save/",
         "pattern": "*.rmmzsave",

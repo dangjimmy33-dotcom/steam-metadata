@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789102240,
-  "_history": [],
-  "_change_number": 38342281,
-  "_missing_token": true,
-  "_sha": "27960e9086ad4b16e0539eba9ac8230dd99f2ade",
-  "_size": 3181,
+  "_lastChecked": 1789108039,
+  "_history": [
+    {
+      "buildId": "24853498",
+      "branch": "public",
+      "timeUpdated": 1787281722,
+      "firstSeen": 1789108039,
+      "manifests": {
+        "5147111": {
+          "gid": "1581249436596585504",
+          "size": 206487664,
+          "download": 147722432
+        }
+      }
+    }
+  ],
+  "_change_number": 38783943,
+  "_missing_token": false,
+  "_sha": "d679883d17ccc72aeb5d0a278f4d69fd68a19015",
+  "_size": 3779,
   "appid": "5147110",
   "common": {
     "associations": {
@@ -39,7 +53,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5147110",
     "genres": {
       "0": "23"
@@ -109,7 +122,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b618fb9f4e62e479ca41aa91c80c7a2533cc0e8a/capsule_231x87.jpg"
     },
@@ -144,5 +157,41 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Nano Punk Mecht",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "NanoPunkMecht.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5147111": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "147722432",
+          "gid": "1581249436596585504",
+          "size": "206487664"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24853498",
+        "timebuildupdated": "1787281555",
+        "timeupdated": "1787281722"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Empty Exposure",
+    "publisher": "Empty Exposure"
+  }
 }

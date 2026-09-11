@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789101368,
+  "_lastChecked": 1789107289,
   "_history": [
     {
       "buildId": "25128843",
@@ -56,10 +56,10 @@
       }
     }
   ],
-  "_change_number": 38772423,
+  "_change_number": 38783064,
   "_missing_token": false,
-  "_sha": "9220ba06de3c52e9941c95bafcf389fbf721424e",
-  "_size": 8307,
+  "_sha": "d168b70e64f7b32b9c80ba39ef979dd5deb475fb",
+  "_size": 8537,
   "appid": "4246910",
   "common": {
     "aicontenttype": "1",
@@ -416,16 +416,26 @@
     "quota": "10000000",
     "rootoverrides": {
       "0": {
-        "addpath": ".renpy/FemboyFutaCozyCafe-1761719712_FULL",
         "os": "Linux",
         "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/FemboyFutaCozyCafe-1761719712_FULL",
+            "replace": ".renpy/FemboyFutaCozyCafe-1761719712_FULL"
+          }
+        },
         "root": "WinAppDataRoaming",
         "useinstead": "LinuxHome"
       },
       "1": {
-        "addpath": "Library/RenPy/FemboyFutaCozyCafe-1761719712_FULL",
         "os": "MacOS",
         "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/FemboyFutaCozyCafe-1761719712_FULL",
+            "replace": "Library/RenPy/FemboyFutaCozyCafe-1761719712_FULL"
+          }
+        },
         "root": "WinAppDataRoaming",
         "useinstead": "MacHome"
       }
