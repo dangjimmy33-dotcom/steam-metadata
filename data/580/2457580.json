@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789118808,
+  "_lastChecked": 1789125571,
   "_history": [
     {
       "buildId": "25140136",
@@ -78,11 +78,37 @@
           "download": 4661850752
         }
       }
+    },
+    {
+      "buildId": "25250772",
+      "branch": "lowend_graphics",
+      "timeUpdated": 1789121585,
+      "firstSeen": 1789125571,
+      "manifests": {
+        "2457581": {
+          "gid": "1239420661837841442",
+          "size": 6370376562,
+          "download": 5425634176
+        }
+      }
+    },
+    {
+      "buildId": "25250371",
+      "branch": "public",
+      "timeUpdated": 1789121111,
+      "firstSeen": 1789125571,
+      "manifests": {
+        "2457581": {
+          "gid": "8794929133738198773",
+          "size": 5496241207,
+          "download": 4662079920
+        }
+      }
     }
   ],
-  "_change_number": 38750831,
+  "_change_number": 38789412,
   "_missing_token": false,
-  "_sha": "ed6d0102660116bdd5525e395540d4727dd68b3d",
+  "_sha": "3a2ec7098a85bdd0dbcd3c3739d51820b3b8d3fa",
   "_size": 6778,
   "appid": "2457580",
   "common": {
@@ -339,28 +365,28 @@
     "2457581": {
       "manifests": {
         "lowend_graphics": {
-          "download": "5425752352",
-          "gid": "1540676712799435219",
-          "size": "6370619301"
+          "download": "5425634176",
+          "gid": "1239420661837841442",
+          "size": "6370376562"
         },
         "public": {
-          "download": "4661850752",
-          "gid": "5417918073040008884",
-          "size": "5495614251"
+          "download": "4662079920",
+          "gid": "8794929133738198773",
+          "size": "5496241207"
         }
       }
     },
     "branches": {
       "lowend_graphics": {
-        "buildid": "25224232",
+        "buildid": "25250772",
         "description": "Universal Render Pipeline Version",
-        "timebuildupdated": "1789019031",
-        "timeupdated": "1789019046"
+        "timebuildupdated": "1789121557",
+        "timeupdated": "1789121585"
       },
       "public": {
-        "buildid": "25224328",
-        "timebuildupdated": "1789019615",
-        "timeupdated": "1789019702"
+        "buildid": "25250371",
+        "timebuildupdated": "1789120191",
+        "timeupdated": "1789121111"
       }
     },
     "privatebranches": "1"

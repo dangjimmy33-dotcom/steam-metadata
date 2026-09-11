@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789121793,
-  "_history": [],
-  "_change_number": 38706988,
-  "_missing_token": true,
-  "_sha": "b28902b8bd45bbe5bd3637d764287789e07bc2be",
-  "_size": 2926,
+  "_lastChecked": 1789128535,
+  "_history": [
+    {
+      "buildId": "25142246",
+      "branch": "public",
+      "timeUpdated": 1788621248,
+      "firstSeen": 1789128535,
+      "manifests": {
+        "5180471": {
+          "gid": "8232067167813801595",
+          "size": 539613698,
+          "download": 162796704
+        }
+      }
+    }
+  ],
+  "_change_number": 38790196,
+  "_missing_token": false,
+  "_sha": "e87c564384cf569e53fee765c629d13bb26047f1",
+  "_size": 3586,
   "appid": "5180470",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "89cf3e668ebc933127712979f4f558f7a2d47c4e",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5180470",
     "genres": {
       "0": "25",
@@ -98,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f17a038f2d31058a9895cbc78654afa1a3ded5e0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789123472",
     "store_asset_mtime": "1788601384",
     "store_tags": {
       "0": "1687",
@@ -133,5 +147,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Shadowlight",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "win-unpacked\\Dim Path Rogue.exe"
+      }
+    }
+  },
+  "depots": {
+    "5180471": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "162796704",
+          "gid": "8232067167813801595",
+          "size": "539613698"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25142246",
+        "timebuildupdated": "1788621246",
+        "timeupdated": "1788621248"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Unangwata",
+    "publisher": "Rogue"
+  }
 }

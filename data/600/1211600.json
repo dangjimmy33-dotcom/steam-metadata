@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789117184,
+  "_lastChecked": 1789123979,
   "_history": [
     {
       "buildId": "25140984",
@@ -221,11 +221,37 @@
           "download": 320368448
         }
       }
+    },
+    {
+      "buildId": "25250007",
+      "branch": "public",
+      "timeUpdated": 1789119071,
+      "firstSeen": 1789123979,
+      "manifests": {
+        "1211602": {
+          "gid": "8631821444048132454",
+          "size": 1580679452,
+          "download": 320365216
+        }
+      }
+    },
+    {
+      "buildId": "25250007",
+      "branch": "publicplaytest",
+      "timeUpdated": 1789119051,
+      "firstSeen": 1789123979,
+      "manifests": {
+        "1211602": {
+          "gid": "8631821444048132454",
+          "size": 1580679452,
+          "download": 320365216
+        }
+      }
     }
   ],
-  "_change_number": 38773526,
+  "_change_number": 38788328,
   "_missing_token": false,
-  "_sha": "19c9da76144786246088e3cbfb2da8a03d044a68",
+  "_sha": "61b6b0276573caa8c2fd84942af810b053ad3b79",
   "_size": 8519,
   "appid": "1211600",
   "common": {
@@ -531,29 +557,29 @@
     "1211602": {
       "manifests": {
         "public": {
-          "download": "320368448",
-          "gid": "8368201882004377055",
-          "size": "1580628251"
+          "download": "320365216",
+          "gid": "8631821444048132454",
+          "size": "1580679452"
         },
         "publicplaytest": {
-          "download": "320368448",
-          "gid": "8368201882004377055",
-          "size": "1580628251"
+          "download": "320365216",
+          "gid": "8631821444048132454",
+          "size": "1580679452"
         }
       }
     },
     "baselanguages": "english,schinese,tchinese",
     "branches": {
       "public": {
-        "buildid": "25239292",
-        "timebuildupdated": "1789071449",
-        "timeupdated": "1789071467"
+        "buildid": "25250007",
+        "timebuildupdated": "1789119049",
+        "timeupdated": "1789119071"
       },
       "publicplaytest": {
-        "buildid": "25239292",
+        "buildid": "25250007",
         "description": "Playtest 测试版",
-        "timebuildupdated": "1789071449",
-        "timeupdated": "1789071450"
+        "timebuildupdated": "1789119049",
+        "timeupdated": "1789119051"
       }
     },
     "privatebranches": "1",

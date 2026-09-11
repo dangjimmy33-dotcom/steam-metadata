@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789119654,
-  "_history": [],
-  "_change_number": 38788229,
-  "_missing_token": true,
-  "_sha": "b6247dd2c6e38b214b72c189cc4fd640eeaa2b00",
-  "_size": 3231,
+  "_lastChecked": 1789126407,
+  "_history": [
+    {
+      "buildId": "25249342",
+      "branch": "public",
+      "timeUpdated": 1789117016,
+      "firstSeen": 1789126407,
+      "manifests": {
+        "3170461": {
+          "gid": "4877859027515371461",
+          "size": 31195015692,
+          "download": 30253223616
+        }
+      }
+    }
+  ],
+  "_change_number": 38789591,
+  "_missing_token": false,
+  "_sha": "59a6ce70317a484f56cbbb86a74040f9f3684bef",
+  "_size": 5004,
   "appid": "3170460",
   "common": {
     "associations": {
@@ -30,7 +44,6 @@
     "clienticon": "c668a98dbcfc902e986f826a056f61213df8d461",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3170460",
     "genres": {
       "0": "1",
@@ -108,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0a2ee837828b9e830014da600c7bbe66348c85b3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789121998",
     "store_asset_mtime": "1789117450",
     "store_tags": {
       "0": "1667",
@@ -144,5 +158,93 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TheLittleMasterEternalChimefromhongnan",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Little Shifu",
+        "description_loc": {
+          "english": "Play Little Shifu",
+          "schinese": "启动《小先生》"
+        },
+        "executable": "project_A.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows",
+          "ownsdlc": "5046780"
+        },
+        "description": "Play Little Shifu: Old Days",
+        "description_loc": {
+          "english": "Play Little Shifu: Old Days",
+          "schinese": "启动《小先生：旧日篇》"
+        },
+        "executable": "OldDays\\小先生：旧日篇.exe",
+        "workingdir": "OldDays"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3170461": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "30253223616",
+          "gid": "4877859027515371461",
+          "size": "31195015692"
+        }
+      }
+    },
+    "5046781": {
+      "config": {
+        "oslist": "windows"
+      },
+      "dlcappid": "5046780",
+      "manifests": {}
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "25249342",
+        "timebuildupdated": "1789116956",
+        "timeupdated": "1789117016"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Liminal Factory",
+    "publisher": "Liminal Factory"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789121780,
-  "_history": [],
-  "_change_number": 38401013,
-  "_missing_token": true,
-  "_sha": "b7b15c6e093a45b557872bbd044320764e04e266",
-  "_size": 3000,
+  "_lastChecked": 1789128523,
+  "_history": [
+    {
+      "buildId": "24985175",
+      "branch": "public",
+      "timeUpdated": 1787893714,
+      "firstSeen": 1789128523,
+      "manifests": {
+        "5159991": {
+          "gid": "8605899102267938570",
+          "size": 109135115,
+          "download": 85867968
+        }
+      }
+    }
+  ],
+  "_change_number": 38790305,
+  "_missing_token": false,
+  "_sha": "ae37b5ee93ace277a612ef4fbe4fa90f7a8e3fd0",
+  "_size": 3562,
   "appid": "5159990",
   "common": {
     "associations": {
@@ -27,7 +41,6 @@
     "clienticon": "d20274dab12abeaecca576a84f753583bc85e323",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5159990",
     "genres": {
       "0": "1",
@@ -100,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "66d4ad8c6d91bd0a424b5c2992b137a7cca808b0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789123717",
     "store_asset_mtime": "1787896641",
     "store_tags": {
       "0": "19",
@@ -130,12 +144,44 @@
     "supported_languages": {
       "latam": {
         "supported": "true"
-      },
-      "spanish": {
-        "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Arduz",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ARDUZ.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5159991": {
+      "manifests": {
+        "public": {
+          "download": "85867968",
+          "gid": "8605899102267938570",
+          "size": "109135115"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24985175",
+        "timebuildupdated": "1787892200",
+        "timeupdated": "1787893714"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Nosetu",
+    "homepage": "https://arduzao.com",
+    "isfreeapp": "1",
+    "publisher": "Nosetu"
+  }
 }

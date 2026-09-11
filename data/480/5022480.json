@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789121674,
+  "_lastChecked": 1789128417,
   "_history": [
     {
       "buildId": "25062920",
@@ -70,12 +70,35 @@
           "download": 607792
         }
       }
+    },
+    {
+      "buildId": "25252031",
+      "branch": "public",
+      "timeUpdated": 1789125515,
+      "firstSeen": 1789128417,
+      "manifests": {
+        "5022481": {
+          "gid": "426589316117429340",
+          "size": 1303851461,
+          "download": 264630432
+        },
+        "5022482": {
+          "gid": "3170748184758466214",
+          "size": 88316425,
+          "download": 85859472
+        },
+        "5022483": {
+          "gid": "448871324010970611",
+          "size": 819327,
+          "download": 607792
+        }
+      }
     }
   ],
-  "_change_number": 38782174,
+  "_change_number": 38791082,
   "_missing_token": false,
-  "_sha": "152e7bf3e5be2d8197b0f716e4d2fd14cb467d86",
-  "_size": 5428,
+  "_sha": "3898cf2c5a88c91109f5a25168a60e0a1c3ac7d6",
+  "_size": 5564,
   "appid": "5022480",
   "common": {
     "associations": {
@@ -259,7 +282,14 @@
         "language": "koreana",
         "oslist": "windows"
       },
-      "dlcappid": "5084820"
+      "dlcappid": "5084820",
+      "manifests": {
+        "public": {
+          "download": "85859472",
+          "gid": "3170748184758466214",
+          "size": "88316425"
+        }
+      }
     },
     "5022483": {
       "config": {
@@ -278,9 +308,9 @@
     "baselanguages": "koreana",
     "branches": {
       "public": {
-        "buildid": "25245706",
-        "timebuildupdated": "1789100653",
-        "timeupdated": "1789100654"
+        "buildid": "25252031",
+        "timebuildupdated": "1789125515",
+        "timeupdated": "1789125515"
       }
     },
     "hasdepotsindlc": "1"

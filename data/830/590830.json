@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789116381,
+  "_lastChecked": 1789123197,
   "_history": [
     {
       "buildId": "8004811",
@@ -993,12 +993,63 @@
           "download": 16221325680
         }
       }
+    },
+    {
+      "buildId": "25251062",
+      "branch": "animgraph2",
+      "timeUpdated": 1789122503,
+      "firstSeen": 1789123197,
+      "manifests": {
+        "590831": {
+          "gid": "5332419718150975045",
+          "size": 3942215674,
+          "download": 2989112320
+        },
+        "590832": {
+          "gid": "6416798550106633720",
+          "size": 582599105,
+          "download": 241118224
+        },
+        "590838": {
+          "gid": "6329466737456331656",
+          "size": 18764479050,
+          "download": 16221325680
+        }
+      }
+    },
+    {
+      "buildId": "25249706",
+      "branch": "staging",
+      "timeUpdated": 1789118033,
+      "firstSeen": 1789123197,
+      "manifests": {
+        "590831": {
+          "gid": "1901844662069617695",
+          "size": 4251542127,
+          "download": 3086777024
+        },
+        "590832": {
+          "gid": "7302920004190218269",
+          "size": 582981495,
+          "download": 243320368
+        },
+        "590833": {
+          "gid": "6974917162712858587",
+          "size": 2523640907,
+          "download": 380137168
+        },
+        "590838": {
+          "gid": "6329466737456331656",
+          "size": 18764479050,
+          "download": 16221325680
+        }
+      }
     }
   ],
-  "_change_number": 38772348,
+  "_change_number": 38789816,
   "_missing_token": false,
-  "_sha": "a2dd794c9d60ca52cae0dbbffe05a35b7efab11e",
-  "_size": 11030,
+  "_sha": "7f7c3edf698d667e8e16d2966aed7f61b688006b",
+  "_size": 11031,
   "appid": "590830",
   "common": {
     "aicontenttype": "1",
@@ -1311,9 +1362,9 @@
           "size": "3125207021"
         },
         "animgraph2": {
-          "download": "2963256256",
-          "gid": "5708981180378780541",
-          "size": "3897865929"
+          "download": "2989112320",
+          "gid": "5332419718150975045",
+          "size": "3942215674"
         },
         "public": {
           "download": "3086757376",
@@ -1321,9 +1372,9 @@
           "size": "4251484755"
         },
         "staging": {
-          "download": "3086777568",
-          "gid": "443301003216310060",
-          "size": "4251539883"
+          "download": "3086777024",
+          "gid": "1901844662069617695",
+          "size": "4251542127"
         }
       }
     },
@@ -1334,9 +1385,9 @@
       },
       "manifests": {
         "animgraph2": {
-          "download": "241104640",
-          "gid": "6170661255050633998",
-          "size": "582558711"
+          "download": "241118224",
+          "gid": "6416798550106633720",
+          "size": "582599105"
         },
         "public": {
           "download": "243299184",
@@ -1344,9 +1395,9 @@
           "size": "582902269"
         },
         "staging": {
-          "download": "243320864",
-          "gid": "6159014814580095193",
-          "size": "582982031"
+          "download": "243320368",
+          "gid": "7302920004190218269",
+          "size": "582981495"
         }
       }
     },
@@ -1362,9 +1413,9 @@
           "size": "2523561649"
         },
         "staging": {
-          "download": "380136928",
-          "gid": "1745047876007992851",
-          "size": "2523640891"
+          "download": "380137168",
+          "gid": "6974917162712858587",
+          "size": "2523640907"
         }
       }
     },
@@ -1437,10 +1488,10 @@
         "timeupdated": "1749202478"
       },
       "animgraph2": {
-        "buildid": "25238642",
+        "buildid": "25251062",
         "description": "experimental - testing only",
-        "timebuildupdated": "1789069129",
-        "timeupdated": "1789069129"
+        "timebuildupdated": "1789122503",
+        "timeupdated": "1789122503"
       },
       "public": {
         "buildid": "25231158",
@@ -1448,10 +1499,10 @@
         "timeupdated": "1789044793"
       },
       "staging": {
-        "buildid": "25232494",
+        "buildid": "25249706",
         "description": "Bleeding edge builds",
-        "timebuildupdated": "1789048646",
-        "timeupdated": "1789048646"
+        "timebuildupdated": "1789118033",
+        "timeupdated": "1789118033"
       }
     },
     "privatebranches": "1",

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789121758,
-  "_history": [],
-  "_change_number": 38595174,
-  "_missing_token": true,
-  "_sha": "8ce2d11e77521d8c1bbf75fd6a652f5727fb5664",
-  "_size": 3893,
+  "_lastChecked": 1789128501,
+  "_history": [
+    {
+      "buildId": "25118457",
+      "branch": "public",
+      "timeUpdated": 1788506017,
+      "firstSeen": 1789128501,
+      "manifests": {
+        "5125021": {
+          "gid": "4517751290970085552",
+          "size": 390558090,
+          "download": 154847008
+        }
+      }
+    }
+  ],
+  "_change_number": 38790041,
+  "_missing_token": false,
+  "_sha": "1a29ba29d23d9ab23ecbcc2e7174eb52342e5635",
+  "_size": 4416,
   "appid": "5125020",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "15ddc6ea7352563c84d18af77b7d40555572c692",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5125020",
     "genres": {
       "0": "4",
@@ -108,11 +121,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cb921d816b10866401f87ad65ea53e64f290cefb/capsule_231x87.jpg",
       "schinese": "cb921d816b10866401f87ad65ea53e64f290cefb/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788504791",
     "store_tags": {
       "0": "91114",
@@ -139,5 +153,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "YiLingRestaurant",
+    "launch": {
+      "0": {
+        "executable": "YiLingRestaurant.exe"
+      }
+    }
+  },
+  "depots": {
+    "5125021": {
+      "manifests": {
+        "public": {
+          "download": "154847008",
+          "gid": "4517751290970085552",
+          "size": "390558090"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25118457",
+        "timebuildupdated": "1788506015",
+        "timeupdated": "1788506017"
+      }
+    }
+  },
+  "extended": {
+    "developer": "依灵工作室",
+    "publisher": "依灵工作室"
+  }
 }

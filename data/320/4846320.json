@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1789121502,
-  "_history": [],
-  "_change_number": 38091368,
-  "_missing_token": true,
-  "_sha": "ac576649989659613d8530b7f643b07b2fc0c44c",
-  "_size": 5656,
+  "_lastChecked": 1789128244,
+  "_history": [
+    {
+      "buildId": "24776344",
+      "branch": "public",
+      "timeUpdated": 1786970711,
+      "firstSeen": 1789128244,
+      "manifests": {
+        "4846321": {
+          "gid": "1680719979317487565",
+          "size": 297884237,
+          "download": 203301440
+        },
+        "4846322": {
+          "gid": "6921186400399387960",
+          "size": 462742149,
+          "download": 190488272
+        }
+      }
+    },
+    {
+      "buildId": "24776344",
+      "branch": "test",
+      "timeUpdated": 1786970287,
+      "firstSeen": 1789128244,
+      "manifests": {
+        "4846321": {
+          "gid": "1680719979317487565",
+          "size": 297884237,
+          "download": 203301440
+        },
+        "4846322": {
+          "gid": "6921186400399387960",
+          "size": 462742149,
+          "download": 190488272
+        }
+      }
+    }
+  ],
+  "_change_number": 38790634,
+  "_missing_token": false,
+  "_sha": "222f696aa9d5f7bb047318ea5e4d4c252ad64b7d",
+  "_size": 7564,
   "appid": "4846320",
   "common": {
     "aicontenttype": "1",
@@ -26,6 +63,7 @@
     },
     "clienticon": "6faf0785b1b2fba7c1182f7b9541e2feab433f02",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -33,7 +71,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4846320",
     "genres": {
       "0": "25",
@@ -138,7 +175,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ac82353e2f1151cb7f014daddfeb1e371f0a0fb6/capsule_231x87.jpg",
       "japanese": "089de0c8ee35df80d3bbe1a8d0b25309b1317a7c/capsule_231x87_japanese.jpg",
@@ -188,5 +225,100 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "신에게 닿는 밤",
+    "launch": {
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "The Night That Reaches a God.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "The Night That Reaches a God.app/Contents/MacOS/The Night That Reaches a God",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4846321": {
+      "manifests": {
+        "public": {
+          "download": "203301440",
+          "gid": "1680719979317487565",
+          "size": "297884237"
+        },
+        "test": {
+          "download": "203301440",
+          "gid": "1680719979317487565",
+          "size": "297884237"
+        }
+      }
+    },
+    "4846322": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "190488272",
+          "gid": "6921186400399387960",
+          "size": "462742149"
+        },
+        "test": {
+          "download": "190488272",
+          "gid": "6921186400399387960",
+          "size": "462742149"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24776344",
+        "timebuildupdated": "1786970211",
+        "timeupdated": "1786970711"
+      },
+      "test": {
+        "buildid": "24776344",
+        "description": "testbuild",
+        "timebuildupdated": "1786970211",
+        "timeupdated": "1786970287"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DiveCat",
+    "publisher": "DiveCat"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "DiveCat\\The Night That Reaches a God",
+            "replace": " DiveCat/The Night That Reaches a God"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "DiveCat\\The Night That Reaches a God",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

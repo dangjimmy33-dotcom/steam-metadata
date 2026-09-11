@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789116630,
+  "_lastChecked": 1789123439,
   "_history": [
     {
       "buildId": "25030302",
@@ -26,12 +26,25 @@
           "download": 28215120416
         }
       }
+    },
+    {
+      "buildId": "25244463",
+      "branch": "public",
+      "timeUpdated": 1789119482,
+      "firstSeen": 1789123439,
+      "manifests": {
+        "794601": {
+          "gid": "4352307005161378952",
+          "size": 43875345315,
+          "download": 28215494384
+        }
+      }
     }
   ],
-  "_change_number": 38786949,
+  "_change_number": 38788510,
   "_missing_token": false,
-  "_sha": "1eaa150cf24d90dd37bfc75fc87092e8c9db3fd9",
-  "_size": 7616,
+  "_sha": "ed18f2c48924b5c4c9bf6157c4f740a7a648a0b4",
+  "_size": 7664,
   "appid": "794600",
   "common": {
     "associations": {
@@ -318,18 +331,18 @@
       },
       "manifests": {
         "public": {
-          "download": "28215120416",
-          "gid": "7643383255127835305",
-          "size": "43875344984"
+          "download": "28215494384",
+          "gid": "4352307005161378952",
+          "size": "43875345315"
         }
       }
     },
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,japanese,brazilian",
     "branches": {
       "public": {
-        "buildid": "25136512",
-        "timebuildupdated": "1788578456",
-        "timeupdated": "1788835185"
+        "buildid": "25244463",
+        "timebuildupdated": "1789094065",
+        "timeupdated": "1789119482"
       }
     },
     "privatebranches": "1"
@@ -352,6 +365,9 @@
       "0": {
         "path": "Savedata/{64BitSteamID}",
         "pattern": "brggame.*",
+        "platforms": {
+          "1": "Windows"
+        },
         "root": "gameinstall"
       }
     }

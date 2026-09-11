@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789120753,
-  "_history": [],
-  "_change_number": 38783160,
-  "_missing_token": true,
-  "_sha": "b6fcd9590b265ade8182c894a9fca6dbbe90c961",
-  "_size": 6167,
+  "_lastChecked": 1789127496,
+  "_history": [
+    {
+      "buildId": "25246456",
+      "branch": "public",
+      "timeUpdated": 1789105233,
+      "firstSeen": 1789127496,
+      "manifests": {
+        "4129601": {
+          "gid": "7308094914381903554",
+          "size": 200480484,
+          "download": 84611008
+        }
+      }
+    }
+  ],
+  "_change_number": 38790951,
+  "_missing_token": false,
+  "_sha": "a221bf1a50cf23d64a4ae1c1272919debf6185f5",
+  "_size": 7158,
   "appid": "4129600",
   "common": {
     "associations": {
@@ -25,8 +39,8 @@
     },
     "clienticon": "52d74c4c9f0255c84ff9758dbcb5ff431b4432be",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4129600",
     "genres": {
       "0": "4",
@@ -139,13 +153,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8497be24f67137e7a47e6fb0519815fd38057ef0/capsule_231x87.jpg",
       "japanese": "2181506fa77dd91ff689a20157c5395f17021ae2/capsule_231x87_japanese.jpg",
       "schinese": "b559a5be8a4535bb4887210038ca9feefdfedb53/capsule_231x87_schinese.jpg",
       "tchinese": "d34c4b964ca70dc496565f320c0d33657b1a7ffc/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787579910",
     "store_tags": {
       "0": "597",
@@ -177,5 +192,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TotoMiniHouse",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TotoMiniHouse.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4129601": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "84611008",
+          "gid": "7308094914381903554",
+          "size": "200480484"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25246456",
+        "timebuildupdated": "1789105127",
+        "timeupdated": "1789105233"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Catwell",
+    "publisher": "Catwell"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "1048576",
+    "savefiles": {
+      "0": {
+        "path": "TotoMiniHouse",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
