@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789092556,
+  "_lastChecked": 1789099022,
   "_history": [
     {
       "buildId": "24520807",
@@ -52,12 +52,38 @@
           "download": 3241872
         }
       }
+    },
+    {
+      "buildId": "25244144",
+      "branch": "public",
+      "timeUpdated": 1789093409,
+      "firstSeen": 1789099022,
+      "manifests": {
+        "2230571": {
+          "gid": "147173106607549269",
+          "size": 6971456,
+          "download": 3241872
+        }
+      }
+    },
+    {
+      "buildId": "25244144",
+      "branch": "test",
+      "timeUpdated": 1789092590,
+      "firstSeen": 1789099022,
+      "manifests": {
+        "2230571": {
+          "gid": "147173106607549269",
+          "size": 6971456,
+          "download": 3241872
+        }
+      }
     }
   ],
-  "_change_number": 38779675,
+  "_change_number": 38779917,
   "_missing_token": false,
-  "_sha": "69a073973d20fc95e63a0fe783893501d0f92aa8",
-  "_size": 2689,
+  "_sha": "152ee12c3660b070885702a30c0642c15eafa316",
+  "_size": 2687,
   "appid": "2230570",
   "common": {
     "associations": {
@@ -146,13 +172,13 @@
       "dlcappid": "2230570",
       "manifests": {
         "public": {
-          "download": "2751776",
-          "gid": "1575579131640956694",
-          "size": "5577897"
+          "download": "3241872",
+          "gid": "147173106607549269",
+          "size": "6971456"
         },
         "test": {
           "download": "3241872",
-          "gid": "4162864396639746719",
+          "gid": "147173106607549269",
           "size": "6971456"
         },
         "testb": {
@@ -164,15 +190,15 @@
     },
     "branches": {
       "public": {
-        "buildid": "24520807",
-        "timebuildupdated": "1785692454",
-        "timeupdated": "1785693718"
+        "buildid": "25244144",
+        "timebuildupdated": "1789092590",
+        "timeupdated": "1789093409"
       },
       "test": {
-        "buildid": "25244111",
+        "buildid": "25244144",
         "description": "testing",
-        "timebuildupdated": "1789092494",
-        "timeupdated": "1789092494"
+        "timebuildupdated": "1789092590",
+        "timeupdated": "1789092590"
       },
       "testb": {
         "buildid": "23892751",

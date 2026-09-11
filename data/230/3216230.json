@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789093616,
+  "_lastChecked": 1789100202,
   "_history": [
     {
       "buildId": "24772127",
@@ -117,11 +117,37 @@
           "download": 271584448
         }
       }
+    },
+    {
+      "buildId": "25244934",
+      "branch": "public",
+      "timeUpdated": 1789098236,
+      "firstSeen": 1789100202,
+      "manifests": {
+        "3216231": {
+          "gid": "6519886260243466135",
+          "size": 659643283,
+          "download": 271590208
+        }
+      }
+    },
+    {
+      "buildId": "25244934",
+      "branch": "testing",
+      "timeUpdated": 1789096668,
+      "firstSeen": 1789100202,
+      "manifests": {
+        "3216231": {
+          "gid": "6519886260243466135",
+          "size": 659643283,
+          "download": 271590208
+        }
+      }
     }
   ],
-  "_change_number": 38778421,
+  "_change_number": 38781344,
   "_missing_token": false,
-  "_sha": "181ff775e51c3987f28d1cef8df1bca77bf4309b",
+  "_sha": "726feb82a1695f0d5ad49c9612acc5dff38a36c4",
   "_size": 4537,
   "appid": "3216230",
   "common": {
@@ -296,28 +322,28 @@
     "3216231": {
       "manifests": {
         "public": {
-          "download": "271584448",
-          "gid": "1574868685866829812",
-          "size": "659612563"
+          "download": "271590208",
+          "gid": "6519886260243466135",
+          "size": "659643283"
         },
         "testing": {
-          "download": "271584448",
-          "gid": "1574868685866829812",
-          "size": "659612563"
+          "download": "271590208",
+          "gid": "6519886260243466135",
+          "size": "659643283"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25243132",
-        "timebuildupdated": "1789088087",
-        "timeupdated": "1789088107"
+        "buildid": "25244934",
+        "timebuildupdated": "1789096666",
+        "timeupdated": "1789098236"
       },
       "testing": {
-        "buildid": "25243132",
+        "buildid": "25244934",
         "description": "testing branch for meat train",
-        "timebuildupdated": "1789088087",
-        "timeupdated": "1789088088"
+        "timebuildupdated": "1789096666",
+        "timeupdated": "1789096668"
       }
     }
   },

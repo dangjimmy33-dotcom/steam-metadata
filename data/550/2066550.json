@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789092365,
+  "_lastChecked": 1789098810,
   "_history": [
     {
       "buildId": "24521267",
@@ -38,12 +38,50 @@
           "download": 982864
         }
       }
+    },
+    {
+      "buildId": "25243951",
+      "branch": "public",
+      "timeUpdated": 1789093444,
+      "firstSeen": 1789098810,
+      "manifests": {
+        "2066551": {
+          "gid": "6483165615342081576",
+          "size": 4118899357,
+          "download": 3770039552
+        },
+        "2230571": {
+          "gid": "147173106607549269",
+          "size": 6971456,
+          "download": 3241872
+        },
+        "3815661": {
+          "gid": "2742251807635748450",
+          "size": 3735198,
+          "download": 1751568
+        },
+        "3815671": {
+          "gid": "9173175835602175511",
+          "size": 3466236,
+          "download": 1555472
+        },
+        "3815681": {
+          "gid": "8438896475698872745",
+          "size": 3621839,
+          "download": 1821040
+        },
+        "3815691": {
+          "gid": "159199666942605073",
+          "size": 3541770,
+          "download": 1595296
+        }
+      }
     }
   ],
-  "_change_number": 38779467,
+  "_change_number": 38780069,
   "_missing_token": false,
-  "_sha": "9d378806e0325b03a13874057ef4b7cddebf3345",
-  "_size": 8472,
+  "_sha": "5fc6dc63af986145372ac517a3b05494b18cd9a5",
+  "_size": 8861,
   "appid": "2066550",
   "common": {
     "associations": {
@@ -332,9 +370,9 @@
     "2066551": {
       "manifests": {
         "public": {
-          "download": "3769552224",
-          "gid": "8882929016168710250",
-          "size": "4121989351"
+          "download": "3770039552",
+          "gid": "6483165615342081576",
+          "size": "4118899357"
         }
       }
     },
@@ -343,9 +381,9 @@
       "dlcappid": "2230570",
       "manifests": {
         "public": {
-          "download": "2751776",
-          "gid": "1575579131640956694",
-          "size": "5577897"
+          "download": "3241872",
+          "gid": "147173106607549269",
+          "size": "6971456"
         }
       }
     },
@@ -354,9 +392,9 @@
       "dlcappid": "3815660",
       "manifests": {
         "public": {
-          "download": "1168992",
-          "gid": "747755298292512478",
-          "size": "2344031"
+          "download": "1751568",
+          "gid": "2742251807635748450",
+          "size": "3735198"
         }
       }
     },
@@ -365,9 +403,9 @@
       "dlcappid": "3815670",
       "manifests": {
         "public": {
-          "download": "1062464",
-          "gid": "8824292950919700673",
-          "size": "2178321"
+          "download": "1555472",
+          "gid": "9173175835602175511",
+          "size": "3466236"
         }
       }
     },
@@ -376,9 +414,9 @@
       "dlcappid": "3815680",
       "manifests": {
         "public": {
-          "download": "1024464",
-          "gid": "660873263134457446",
-          "size": "2022308"
+          "download": "1821040",
+          "gid": "8438896475698872745",
+          "size": "3621839"
         }
       }
     },
@@ -387,18 +425,18 @@
       "dlcappid": "3815690",
       "manifests": {
         "public": {
-          "download": "982864",
-          "gid": "4288909913730825897",
-          "size": "2079685"
+          "download": "1595296",
+          "gid": "159199666942605073",
+          "size": "3541770"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "24521267",
-        "timebuildupdated": "1785695755",
-        "timeupdated": "1785695827"
+        "buildid": "25243951",
+        "timebuildupdated": "1789091707",
+        "timeupdated": "1789093444"
       }
     },
     "hasdepotsindlc": "1",
@@ -413,7 +451,28 @@
     "publisher": "Jenny Vi Pham"
   },
   "ufs": {
-    "maxnumfiles": "0",
-    "quota": "0"
+    "maxnumfiles": "500",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "game/saves",
+            "replace": "Library/Renpy/HackMe-1649909750"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "game/saves",
+        "pattern": "*",
+        "root": "gameinstall"
+      }
+    }
   }
 }

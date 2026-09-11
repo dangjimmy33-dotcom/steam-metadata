@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789092566,
+  "_lastChecked": 1789099034,
   "_history": [
     {
       "buildId": "24941095",
@@ -54,12 +54,30 @@
           "download": 6552838320
         }
       }
+    },
+    {
+      "buildId": "25240150",
+      "branch": "experimental_0.18",
+      "timeUpdated": 1789092776,
+      "firstSeen": 1789099034,
+      "manifests": {
+        "2239711": {
+          "gid": "2880641648548903041",
+          "size": 6529314452,
+          "download": 5805496720
+        },
+        "2239712": {
+          "gid": "3866483845012334754",
+          "size": 7435725644,
+          "download": 6532933744
+        }
+      }
     }
   ],
-  "_change_number": 38775378,
+  "_change_number": 38779750,
   "_missing_token": false,
-  "_sha": "d89f749239d6a9617ba8bb7e2057fc8fae2ad9e8",
-  "_size": 11047,
+  "_sha": "3435c81ee34cb16158ca979b636c6972fc62e4d8",
+  "_size": 11489,
   "appid": "2239710",
   "common": {
     "associations": {
@@ -394,6 +412,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "experimental_0.18": {
+          "download": "5805496720",
+          "gid": "2880641648548903041",
+          "size": "6529314452"
+        },
         "local": {
           "download": "6506987712",
           "gid": "498289148772873187",
@@ -417,6 +440,11 @@
         "oslist": "macos"
       },
       "manifests": {
+        "experimental_0.18": {
+          "download": "6532933744",
+          "gid": "3866483845012334754",
+          "size": "7435725644"
+        },
         "local": {
           "download": "7613444256",
           "gid": "1973306917067470767",
@@ -436,6 +464,12 @@
     },
     "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,russian,schinese,spanish,tchinese,thai",
     "branches": {
+      "experimental_0.18": {
+        "buildid": "25240150",
+        "description": "Experimental branch for the 0.18 update.",
+        "timebuildupdated": "1789074808",
+        "timeupdated": "1789092776"
+      },
       "local": {
         "buildid": "24941095",
         "description": "Local Content Server",

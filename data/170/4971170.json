@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789095340,
-  "_history": [],
-  "_change_number": 37838721,
-  "_missing_token": true,
-  "_sha": "14e902fcc3cbbac1247b1ebc705971efe8663587",
-  "_size": 3011,
+  "_lastChecked": 1789102098,
+  "_history": [
+    {
+      "buildId": "24251591",
+      "branch": "public",
+      "timeUpdated": 1784257742,
+      "firstSeen": 1789102098,
+      "manifests": {
+        "4971171": {
+          "gid": "8687860160193671159",
+          "size": 519283127,
+          "download": 425670688
+        }
+      }
+    }
+  ],
+  "_change_number": 38780815,
+  "_missing_token": false,
+  "_sha": "9def5c063ca63bd5d4cdeb0c0120fe44cf15b44e",
+  "_size": 3587,
   "appid": "4971170",
   "common": {
     "aicontenttype": "1",
@@ -24,8 +38,8 @@
     },
     "clienticon": "97575c584fc71e7de82249eb8b3042901ccc8458",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4971170",
     "genres": {
       "0": "1",
@@ -103,11 +117,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "02b5dedae6e5909914f098cfb8109b15356b17ab/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1784802625",
+    "steam_release_date": "1789096377",
+    "store_asset_mtime": "1785490464",
     "store_tags": {
       "0": "122",
       "1": "42804",
@@ -136,5 +151,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "zhongkuiSurvivors",
+    "launch": {
+      "0": {
+        "executable": "bloods.exe"
+      }
+    }
+  },
+  "depots": {
+    "4971171": {
+      "manifests": {
+        "public": {
+          "download": "425670688",
+          "gid": "8687860160193671159",
+          "size": "519283127"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24251591",
+        "timebuildupdated": "1784255995",
+        "timeupdated": "1784257742"
+      }
+    }
+  },
+  "extended": {
+    "developer": "fanyifan",
+    "homepage": "https://survivor.elser.ai/",
+    "publisher": "fanyifan"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789094292,
-  "_history": [],
-  "_change_number": 38779593,
-  "_missing_token": true,
-  "_sha": "c332c643eb52700b33a8f79afb755b5c81bec8eb",
-  "_size": 4507,
+  "_lastChecked": 1789100947,
+  "_history": [
+    {
+      "buildId": "25244042",
+      "branch": "public",
+      "timeUpdated": 1789092231,
+      "firstSeen": 1789100947,
+      "manifests": {
+        "3874891": {
+          "gid": "2305278127211543984",
+          "size": 5462700603,
+          "download": 2072409920
+        }
+      }
+    }
+  ],
+  "_change_number": 38780891,
+  "_missing_token": false,
+  "_sha": "d4d2f3c23a4d164a6c58a5b193a96579d9ad20bc",
+  "_size": 5619,
   "appid": "3874890",
   "common": {
     "aicontenttype": "1",
@@ -29,6 +43,7 @@
     "clienticon": "0b4367e4d409f8a84ec3d116be654c94e7ee8d62",
     "clienttga": "698d2acbaddd9e0c13017081e709a3da0af80702",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -38,7 +53,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3874890",
     "genres": {
       "0": "23"
@@ -122,11 +136,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "43383db3b3b4a1460b8f90b3f89671ca4ada7605/capsule_231x87.jpg",
       "japanese": "51384158a5f4d3c8ce74a95dc4983d92a77cffa0/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1789096605",
     "store_asset_mtime": "1755538251",
     "store_tags": {
       "0": "1667",
@@ -183,5 +198,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Riruri Tachibana  Reincarnated",
+    "launch": {
+      "0": {
+        "executable": "Riruri Tachibana Reincarnated.exe"
+      }
+    }
+  },
+  "depots": {
+    "3874891": {
+      "manifests": {
+        "public": {
+          "download": "2072409920",
+          "gid": "2305278127211543984",
+          "size": "5462700603"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "25244042",
+        "timebuildupdated": "1789092180",
+        "timeupdated": "1789092231"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "OTL GAME",
+    "publisher": "OTL GAME"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "OTLGAME/Riruri Tachibana Reincarnated",
+        "pattern": "vt.data",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "OTLGAME/Riruri Tachibana Reincarnated",
+        "pattern": "vt.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789095381,
+  "_lastChecked": 1789102143,
   "_history": [
     {
       "buildId": "25062920",
@@ -52,12 +52,30 @@
           "download": 264630432
         }
       }
+    },
+    {
+      "buildId": "25245706",
+      "branch": "public",
+      "timeUpdated": 1789100654,
+      "firstSeen": 1789102143,
+      "manifests": {
+        "5022481": {
+          "gid": "426589316117429340",
+          "size": 1303851461,
+          "download": 264630432
+        },
+        "5022483": {
+          "gid": "448871324010970611",
+          "size": 819327,
+          "download": 607792
+        }
+      }
     }
   ],
-  "_change_number": 38758751,
+  "_change_number": 38782174,
   "_missing_token": false,
-  "_sha": "5d030ab3f0c1af95cce76abb0ca2b82f4f01a1e6",
-  "_size": 5289,
+  "_sha": "152e7bf3e5be2d8197b0f716e4d2fd14cb467d86",
+  "_size": 5428,
   "appid": "5022480",
   "common": {
     "associations": {
@@ -248,14 +266,21 @@
         "language": "koreana",
         "oslist": "windows"
       },
-      "dlcappid": "5085760"
+      "dlcappid": "5085760",
+      "manifests": {
+        "public": {
+          "download": "607792",
+          "gid": "448871324010970611",
+          "size": "819327"
+        }
+      }
     },
     "baselanguages": "koreana",
     "branches": {
       "public": {
-        "buildid": "25229664",
-        "timebuildupdated": "1789039652",
-        "timeupdated": "1789039727"
+        "buildid": "25245706",
+        "timebuildupdated": "1789100653",
+        "timeupdated": "1789100654"
       }
     },
     "hasdepotsindlc": "1"
@@ -263,7 +288,7 @@
   "extended": {
     "developer": "Studio Hwanil",
     "dlcavailableonstore": "1",
-    "listofdlc": "5085760",
+    "listofdlc": "5084820,5085760",
     "publisher": "Studio Hwanil"
   }
 }

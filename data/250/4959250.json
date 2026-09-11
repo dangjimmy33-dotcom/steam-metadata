@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789095329,
-  "_history": [],
-  "_change_number": 37862850,
-  "_missing_token": true,
-  "_sha": "94548b32e4b07aadb8c952a2e2f6fd2f6c3d6e9a",
-  "_size": 3185,
+  "_lastChecked": 1789102086,
+  "_history": [
+    {
+      "buildId": "24382610",
+      "branch": "public",
+      "timeUpdated": 1784932100,
+      "firstSeen": 1789102086,
+      "manifests": {
+        "4959251": {
+          "gid": "8024557619854804607",
+          "size": 666482647,
+          "download": 222290592
+        }
+      }
+    }
+  ],
+  "_change_number": 38781695,
+  "_missing_token": false,
+  "_sha": "89c74990a69965a9e2541877fcd3b5e8cd0fa400",
+  "_size": 3942,
   "appid": "4959250",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "a0742060aae3cd39e81fef029619abc4a7cffc95",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4959250",
     "genres": {
       "0": "25",
@@ -101,7 +114,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4f2c1db610a1a88d31b5783e433c54b70bd02108/capsule_231x87.jpg"
     },
@@ -144,5 +157,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Maze Mischief",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Maze Mischief",
+        "description_loc": {
+          "brazilian": "Jogar Maze Mischief",
+          "english": "Play Maze Mischief",
+          "latam": "Juega a Maze Mischief"
+        },
+        "executable": "Maze Mischief.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4959251": {
+      "manifests": {
+        "public": {
+          "download": "222290592",
+          "gid": "8024557619854804607",
+          "size": "666482647"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24382610",
+        "timebuildupdated": "1784931891",
+        "timeupdated": "1784932100"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Gleison Souza",
+    "publisher": "Gleison Souza"
+  }
 }
