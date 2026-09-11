@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789108020,
-  "_history": [],
-  "_change_number": 38428320,
-  "_missing_token": true,
-  "_sha": "cd6cd8216ad323b33d5488f9464bcf7412db934c",
-  "_size": 3003,
+  "_lastChecked": 1789114010,
+  "_history": [
+    {
+      "buildId": "24756996",
+      "branch": "public",
+      "timeUpdated": 1786840432,
+      "firstSeen": 1789114010,
+      "manifests": {
+        "5116131": {
+          "gid": "2361773412762086600",
+          "size": 78915810,
+          "download": 78252528
+        }
+      }
+    }
+  ],
+  "_change_number": 38784959,
+  "_missing_token": false,
+  "_sha": "8eff3ad8037b572a9d2f8a2cc0701864f50d9aa2",
+  "_size": 3654,
   "appid": "5116130",
   "common": {
     "associations": {
@@ -27,7 +41,6 @@
     "clienticon": "d05d4668e2b9c26e43f1dc96b2f36075c1254eea",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5116130",
     "genres": {
       "0": "1",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c09e3c7af0999435dc24b2454c430c099ffda5b8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789111147",
     "store_asset_mtime": "1787446881",
     "store_tags": {
       "0": "4486",
@@ -137,5 +151,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Samgood Chronicles dragon fall",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "samgoodChronicles_DF.exe"
+      }
+    }
+  },
+  "depots": {
+    "5116131": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "78252528",
+          "gid": "2361773412762086600",
+          "size": "78915810"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24756996",
+        "timebuildupdated": "1786839813",
+        "timeupdated": "1786840432"
+      }
+    }
+  },
+  "extended": {
+    "developer": "sammy chainsaws studios",
+    "publisher": "sammy chainsaws studios"
+  }
 }

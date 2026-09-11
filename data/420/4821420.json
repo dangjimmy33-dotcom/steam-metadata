@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789107784,
-  "_history": [],
-  "_change_number": 38783208,
-  "_missing_token": true,
-  "_sha": "6751f74b0025136b2affd170c2c1e41201f38e90",
-  "_size": 2970,
+  "_lastChecked": 1789113769,
+  "_history": [
+    {
+      "buildId": "25224420",
+      "branch": "public",
+      "timeUpdated": 1789020561,
+      "firstSeen": 1789113769,
+      "manifests": {
+        "4821421": {
+          "gid": "7140069127294740131",
+          "size": 470631014,
+          "download": 388168576
+        }
+      }
+    }
+  ],
+  "_change_number": 38786090,
+  "_missing_token": false,
+  "_sha": "71638aa3bd1abb0dd0d69b6e65af603c64f7b384",
+  "_size": 3617,
   "appid": "4821420",
   "common": {
     "associations": {
@@ -20,14 +34,13 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
-      "category_23": "1",
       "category_25": "1",
       "category_62": "1"
     },
     "clienticon": "c9073681d512fb1cf4613ea5446987aad9536e8c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4821420",
     "genres": {
       "0": "4",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0ddd95bd48a2999523169a6c55ea2891497fd807/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788860300",
     "store_tags": {
       "0": "597",
@@ -133,5 +147,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "赌石之王",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Jade Stall PC.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4821421": {
+      "manifests": {
+        "public": {
+          "download": "388168576",
+          "gid": "7140069127294740131",
+          "size": "470631014"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25224420",
+        "timebuildupdated": "1789020135",
+        "timeupdated": "1789020561"
+      }
+    }
+  },
+  "extended": {
+    "developer": "909Game",
+    "publisher": "lvlv"
+  }
 }

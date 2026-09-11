@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789108043,
-  "_history": [],
-  "_change_number": 38751881,
-  "_missing_token": true,
-  "_sha": "12eb5acef4715c4e953fd46b5ae6f835fc031a58",
-  "_size": 2933,
+  "_lastChecked": 1789114034,
+  "_history": [
+    {
+      "buildId": "25225002",
+      "branch": "public",
+      "timeUpdated": 1789023288,
+      "firstSeen": 1789114034,
+      "manifests": {
+        "5157141": {
+          "gid": "1074862458081057405",
+          "size": 191194776,
+          "download": 55889424
+        }
+      }
+    }
+  ],
+  "_change_number": 38784596,
+  "_missing_token": false,
+  "_sha": "fbf1f362d1680529b86a2ef5fbbfe837a398b569",
+  "_size": 3748,
   "appid": "5157140",
   "common": {
     "aicontenttype": "1",
@@ -28,8 +42,8 @@
     },
     "clienticon": "7b91dfc79420623e137ea13201d4cb1f8f04a228",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5157140",
     "genres": {
       "0": "1",
@@ -106,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0c86bbcb3b4ffcbfaa958708ad33a32e37c71977/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789110124",
     "store_asset_mtime": "1787665377",
     "store_tags": {
       "0": "19",
@@ -132,5 +147,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SIMPLE ACTION",
+    "launch": {
+      "0": {
+        "executable": "SimpleAction.exe"
+      }
+    }
+  },
+  "depots": {
+    "5157141": {
+      "manifests": {
+        "public": {
+          "download": "55889424",
+          "gid": "1074862458081057405",
+          "size": "191194776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25225002",
+        "timebuildupdated": "1789023286",
+        "timeupdated": "1789023288"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Untiteld Folder",
+    "isfreeapp": "1",
+    "publisher": "Untiteld Folder"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Untitled Folder/SimpleAction",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

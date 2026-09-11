@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789107500,
-  "_history": [],
-  "_change_number": 38775797,
-  "_missing_token": true,
-  "_sha": "ab2092875d496ca6a79b72f13e8eb19b9caeef76",
-  "_size": 3372,
+  "_lastChecked": 1789113475,
+  "_history": [
+    {
+      "buildId": "25241112",
+      "branch": "public",
+      "timeUpdated": 1789078564,
+      "firstSeen": 1789113475,
+      "manifests": {
+        "4487761": {
+          "gid": "469571850822498473",
+          "size": 630880179,
+          "download": 277459984
+        },
+        "4487762": {
+          "gid": "7548841509713033119",
+          "size": 626473008,
+          "download": 278145104
+        }
+      }
+    }
+  ],
+  "_change_number": 38784735,
+  "_missing_token": false,
+  "_sha": "4c144bc74d13d106545a49bf6f03ea43648f1dc7",
+  "_size": 5227,
   "appid": "4487760",
   "common": {
     "associations": {
@@ -35,8 +54,8 @@
     },
     "clienticon": "2fb8ac1078e3695cdd55d78a7e53cf966e7e08d8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4487760",
     "genres": {
       "0": "4",
@@ -121,10 +140,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3dae74bbaee1ace6b90dd949bc2cb21d6cf52cbb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789110185",
     "store_asset_mtime": "1788252241",
     "store_tags": {
       "0": "699",
@@ -155,5 +175,98 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blurry Shopping",
+    "launch": {
+      "0": {
+        "arguments": "--rendering-driver vulkan",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Vulkan",
+        "description_loc": {
+          "english": "Vulkan"
+        },
+        "executable": "BlurryShopping.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "--rendering-driver d3d12",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "DirectX12",
+        "description_loc": {
+          "english": "DirectX12"
+        },
+        "executable": "BlurryShopping.exe",
+        "type": "option2"
+      },
+      "2": {
+        "arguments": "--rendering-driver vulkan",
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Vulkan",
+        "description_loc": {
+          "english": "Vulkan"
+        },
+        "executable": "BlurryShopping.x86_64",
+        "type": "option1"
+      },
+      "3": {
+        "arguments": "--rendering-driver d3d12",
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "DirectX12",
+        "description_loc": {
+          "english": "DirectX12"
+        },
+        "executable": "BlurryShopping.x86_64",
+        "type": "option2"
+      }
+    }
+  },
+  "depots": {
+    "4487761": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "277459984",
+          "gid": "469571850822498473",
+          "size": "630880179"
+        }
+      }
+    },
+    "4487762": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "278145104",
+          "gid": "7548841509713033119",
+          "size": "626473008"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25241112",
+        "timebuildupdated": "1789078556",
+        "timeupdated": "1789078564"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Yūgen Interactive",
+    "publisher": "Yūgen Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "8",
+    "quota": "27000"
+  }
 }

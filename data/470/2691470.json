@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789105783,
+  "_lastChecked": 1789111695,
   "_history": [
     {
       "buildId": "23521534",
@@ -90,12 +90,30 @@
           "download": 9371376688
         }
       }
+    },
+    {
+      "buildId": "25239510",
+      "branch": "beta",
+      "timeUpdated": 1789110124,
+      "firstSeen": 1789111695,
+      "manifests": {
+        "2691472": {
+          "gid": "3665742582729991360",
+          "size": 10464374226,
+          "download": 10179686960
+        },
+        "2691473": {
+          "gid": "6264232232019758422",
+          "size": 10451919330,
+          "download": 10174591984
+        }
+      }
     }
   ],
-  "_change_number": 38605130,
+  "_change_number": 38784593,
   "_missing_token": false,
-  "_sha": "ad6ad1995710cb73abf04d844fb8d8e2136bb1c7",
-  "_size": 8635,
+  "_sha": "5d8055fb63eb3fb9b385578f344bbfbef187a037",
+  "_size": 8639,
   "appid": "2691470",
   "common": {
     "associations": {
@@ -369,9 +387,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "9376174928",
-          "gid": "8870138200676296995",
-          "size": "9636963560"
+          "download": "10179686960",
+          "gid": "3665742582729991360",
+          "size": "10464374226"
         },
         "previous_main_version": {
           "download": "5822811936",
@@ -401,9 +419,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "9371378544",
-          "gid": "8490998053714628978",
-          "size": "9624614505"
+          "download": "10174591984",
+          "gid": "6264232232019758422",
+          "size": "10451919330"
         },
         "previous_main_version": {
           "download": "5818015552",
@@ -430,10 +448,10 @@
     "baselanguages": "english,german,french,italian,spanish,tchinese,russian,portuguese,turkish",
     "branches": {
       "beta": {
-        "buildid": "23521534",
+        "buildid": "25239510",
         "description": "Beta testing",
-        "timebuildupdated": "1780384643",
-        "timeupdated": "1780384815"
+        "timebuildupdated": "1789072313",
+        "timeupdated": "1789110124"
       },
       "previous_main_version": {
         "buildid": "21373325",

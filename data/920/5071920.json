@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789107991,
-  "_history": [],
-  "_change_number": 38767326,
-  "_missing_token": true,
-  "_sha": "580ea859ab33d92ab26bc749e50bb79befda489d",
-  "_size": 3269,
+  "_lastChecked": 1789113981,
+  "_history": [
+    {
+      "buildId": "25235166",
+      "branch": "public",
+      "timeUpdated": 1789057196,
+      "firstSeen": 1789113981,
+      "manifests": {
+        "5071922": {
+          "gid": "3138086791055523065",
+          "size": 1865193845,
+          "download": 1638654384
+        }
+      }
+    }
+  ],
+  "_change_number": 38785126,
+  "_missing_token": false,
+  "_sha": "e5ccf7df487a551b5b9547b2935013db0b8a5cd1",
+  "_size": 4214,
   "appid": "5071920",
   "common": {
     "associations": {
@@ -38,7 +52,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5071920",
     "genres": {
       "0": "1",
@@ -110,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "96ac8e4e46037c9965496a4b5ba2cf9b663a037a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789111704",
     "store_asset_mtime": "1787052818",
     "store_tags": {
       "0": "21",
@@ -148,5 +162,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Temple 13 - Time Collapse Demo",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Temple 13 - Time Collapse.exe",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5071921": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      }
+    },
+    "5071922": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1638654384",
+          "gid": "3138086791055523065",
+          "size": "1865193845"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "25235166",
+        "timebuildupdated": "1789056968",
+        "timeupdated": "1789057196"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Myhail Systems Studio",
+    "publisher": "Myhail Systems Studio"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789108020,
-  "_history": [],
-  "_change_number": 38361952,
-  "_missing_token": true,
-  "_sha": "0bb0676af0f82514c542aafc7ae870abd139b576",
-  "_size": 3040,
+  "_lastChecked": 1789114010,
+  "_history": [
+    {
+      "buildId": "24787748",
+      "branch": "public",
+      "timeUpdated": 1787018051,
+      "firstSeen": 1789114010,
+      "manifests": {
+        "5116161": {
+          "gid": "1963540817959722132",
+          "size": 27867181,
+          "download": 21769904
+        }
+      }
+    }
+  ],
+  "_change_number": 38784559,
+  "_missing_token": false,
+  "_sha": "4ee00371fd85d8813ecadf040684058e4f3f372a",
+  "_size": 3769,
   "appid": "5116160",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "465a3214f1deb63e4ba39d1d6df35d5a969ff800",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5116160",
     "genres": {
       "0": "25",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3517cc04e9c343b00d672923d7dcdebdd3d237cf/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789110028",
     "store_asset_mtime": "1787021428",
     "store_tags": {
       "0": "21",
@@ -138,5 +152,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "She Sucked Me Once, and Dry",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SHE SUCKED ME ONCE, AND DRY.exe"
+      }
+    }
+  },
+  "depots": {
+    "229020": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5116161": {
+      "manifests": {
+        "public": {
+          "download": "21769904",
+          "gid": "1963540817959722132",
+          "size": "27867181"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24787748",
+        "timebuildupdated": "1787017766",
+        "timeupdated": "1787018051"
+      }
+    }
+  },
+  "extended": {
+    "developer": "ProgenitorWorks",
+    "isfreeapp": "1",
+    "publisher": "ProgenitorWorks"
+  }
 }

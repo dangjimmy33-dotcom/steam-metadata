@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789108049,
-  "_history": [],
-  "_change_number": 38412828,
-  "_missing_token": true,
-  "_sha": "e86c93d4432e7e3b5e1cb1a831badb3640b315de",
-  "_size": 3131,
+  "_lastChecked": 1789114040,
+  "_history": [
+    {
+      "buildId": "24908442",
+      "branch": "public",
+      "timeUpdated": 1787581663,
+      "firstSeen": 1789114040,
+      "manifests": {
+        "5168911": {
+          "gid": "6412130704832240718",
+          "size": 1887740014,
+          "download": 1741634768
+        }
+      }
+    }
+  ],
+  "_change_number": 38784643,
+  "_missing_token": false,
+  "_sha": "73b3709d938a61c8f7e1c2d0985f8e311ddf0962",
+  "_size": 4136,
   "appid": "5168910",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +47,8 @@
     },
     "clienticon": "975949dc06b85994ff76452964c370f1c0d8aba6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5168910",
     "genres": {
       "0": "25",
@@ -106,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "aa2cf6be374cfa79a5d701c7667be38bdf44bd7e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789110219",
     "store_asset_mtime": "1787581579",
     "store_tags": {
       "0": "21",
@@ -140,5 +155,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sad Virus Ruined Land",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "virusruined.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229000": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5168911": {
+      "manifests": {
+        "public": {
+          "download": "1741634768",
+          "gid": "6412130704832240718",
+          "size": "1887740014"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24908442",
+        "timebuildupdated": "1787581479",
+        "timeupdated": "1787581663"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Valkeala Software",
+    "publisher": "Valkeala Software"
+  }
 }

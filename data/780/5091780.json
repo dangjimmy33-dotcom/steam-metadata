@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789108005,
-  "_history": [],
-  "_change_number": 38709333,
-  "_missing_token": true,
-  "_sha": "e8802d93251985de07d6f1dd0c8d4d47cacea44a",
-  "_size": 3291,
+  "_lastChecked": 1789113995,
+  "_history": [
+    {
+      "buildId": "25195983",
+      "branch": "public",
+      "timeUpdated": 1788903375,
+      "firstSeen": 1789113995,
+      "manifests": {
+        "5091781": {
+          "gid": "2876804091598074736",
+          "size": 2799873964,
+          "download": 887683136
+        }
+      }
+    }
+  ],
+  "_change_number": 38786101,
+  "_missing_token": false,
+  "_sha": "146f9aaffa8205e16f1ea54b51b3c7695583d390",
+  "_size": 3825,
   "appid": "5091780",
   "common": {
     "aicontenttype": "1",
@@ -42,7 +56,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5091780",
     "genres": {
       "0": "28"
@@ -112,11 +125,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "889a226fade7ce6eefac737019c135d0c852a576/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789110105",
     "store_asset_mtime": "1787662330",
     "store_tags": {
       "0": "12095",
@@ -149,5 +163,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BeachGirlsAndIceCream.exe",
+    "launch": {
+      "0": {
+        "executable": "BeachGirlsAndIceCream.exe"
+      }
+    }
+  },
+  "depots": {
+    "5091781": {
+      "manifests": {
+        "public": {
+          "download": "887683136",
+          "gid": "2876804091598074736",
+          "size": "2799873964"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25195983",
+        "timebuildupdated": "1788903362",
+        "timeupdated": "1788903375"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DreamsPlace18",
+    "publisher": "DreamsPlace18"
+  }
 }

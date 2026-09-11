@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789107152,
+  "_lastChecked": 1789113117,
   "_history": [
     {
       "buildId": "25091457",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 38632682,
+  "_change_number": 38784888,
   "_missing_token": false,
-  "_sha": "e44a06f27fc0bbbf23682b4b00ce8f62e4c44f0a",
-  "_size": 4471,
+  "_sha": "a49476a5b2502ab1b820ea702cb6a612196b82d5",
+  "_size": 4267,
   "appid": "4105470",
   "common": {
     "associations": {
@@ -209,28 +209,17 @@
     "publisher": "Curious Nessie Club"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "500",
     "quota": "100000000",
-    "rootoverrides": {
-      "0": {
-        "addpath": "",
-        "os": "Windows",
-        "oscompare": "=",
-        "root": "gameinstall",
-        "useinstead": "gameinstall"
-      }
-    },
     "savefiles": {
       "0": {
-        "path": "Curious Nessie Club\\We Are Gum",
+        "path": "Curious Nessie Club/We Are Gum",
         "pattern": "*.json",
         "platforms": {
           "1": "Windows"
         },
         "recursive": "1",
-        "root": "gameinstall"
+        "root": "WinAppDataLocalLow"
       }
     },
     "sync_while_suspended": "1"

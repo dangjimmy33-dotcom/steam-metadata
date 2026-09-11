@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789107672,
-  "_history": [],
-  "_change_number": 38742643,
-  "_missing_token": true,
-  "_sha": "673f87d3efdc07d5da06d703780800b326ca69e1",
-  "_size": 3336,
+  "_lastChecked": 1789113653,
+  "_history": [
+    {
+      "buildId": "25247868",
+      "branch": "public",
+      "timeUpdated": 1789111488,
+      "firstSeen": 1789113653,
+      "manifests": {
+        "4677611": {
+          "gid": "8681787386837861769",
+          "size": 231816920,
+          "download": 89997184
+        }
+      }
+    }
+  ],
+  "_change_number": 38785819,
+  "_missing_token": false,
+  "_sha": "732f5e29caab8f0a282917cc42d35422ca86cb85",
+  "_size": 4557,
   "appid": "4677610",
   "common": {
     "associations": {
@@ -32,8 +46,8 @@
     },
     "clienticon": "f0bca19985fb27a77118ea536a01cfe820e6e833",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4677610",
     "genres": {
       "0": "1",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a5d8899bd5c69d337de1a5d0b31965f0e9cb5849/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789113049",
     "store_asset_mtime": "1779403527",
     "store_tags": {
       "0": "9",
@@ -158,5 +173,72 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Increbouncer",
+    "launch": {
+      "0": {
+        "arguments": "-force-d3d11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "DirectX 11",
+        "description_loc": {
+          "english": "DirectX 11"
+        },
+        "executable": "Increbouncer.exe"
+      },
+      "1": {
+        "arguments": "-force-d3d12",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "DirectX 12",
+        "description_loc": {
+          "english": "DirectX 12"
+        },
+        "executable": "Increbouncer.exe"
+      }
+    }
+  },
+  "depots": {
+    "4677611": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "89997184",
+          "gid": "8681787386837861769",
+          "size": "231816920"
+        }
+      }
+    },
+    "4677612": {
+      "config": {
+        "osarch": "32",
+        "oslist": "windows"
+      }
+    },
+    "4677613": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25247868",
+        "timebuildupdated": "1789111431",
+        "timeupdated": "1789111488"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Blasted Games",
+    "publisher": "Blasted Games"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "10000000"
+  }
 }

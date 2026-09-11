@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789107671,
-  "_history": [],
-  "_change_number": 38690824,
-  "_missing_token": true,
-  "_sha": "d743de8ebe39c7c95e5fa47e36d291053a4f02f1",
-  "_size": 3116,
+  "_lastChecked": 1789113652,
+  "_history": [
+    {
+      "buildId": "25183906",
+      "branch": "public",
+      "timeUpdated": 1788861006,
+      "firstSeen": 1789113652,
+      "manifests": {
+        "4676401": {
+          "gid": "2054941727651816466",
+          "size": 1684121666,
+          "download": 1425985648
+        }
+      }
+    }
+  ],
+  "_change_number": 38785039,
+  "_missing_token": false,
+  "_sha": "d7a40f6a7c6bf212dedf354d4c90ae51c34fdbb8",
+  "_size": 4031,
   "appid": "4676400",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "e8ab94f3c9d7c9d567b6cedf164bd59379b7c844",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4676400",
     "genres": {
       "0": "4",
@@ -101,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "03ed5404a9977f60407737148fb5eed64b440e28/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787591069",
     "store_tags": {
       "0": "9",
@@ -137,5 +151,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MomImReallyLearningEnglish",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "妈妈，我真的在学外语.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4676401": {
+      "manifests": {
+        "public": {
+          "download": "1425985648",
+          "gid": "2054941727651816466",
+          "size": "1684121666"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25183906",
+        "timebuildupdated": "1788860267",
+        "timeupdated": "1788861006"
+      }
+    }
+  },
+  "extended": {
+    "developer": "MiracleHeart Studio",
+    "publisher": "MiracleHeart Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

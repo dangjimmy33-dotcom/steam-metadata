@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789107899,
-  "_history": [],
-  "_change_number": 38783636,
-  "_missing_token": true,
-  "_sha": "47a8384dda4d23e33198caff67fbdb01b253558a",
-  "_size": 4153,
+  "_lastChecked": 1789113886,
+  "_history": [
+    {
+      "buildId": "25246825",
+      "branch": "public",
+      "timeUpdated": 1789106936,
+      "firstSeen": 1789113886,
+      "manifests": {
+        "4951591": {
+          "gid": "4040996005277512322",
+          "size": 5340879788,
+          "download": 2375559792
+        }
+      }
+    }
+  ],
+  "_change_number": 38784483,
+  "_missing_token": false,
+  "_sha": "884af08700dea631c444930e67e2ba77d3afa020",
+  "_size": 6192,
   "appid": "4951590",
   "common": {
     "aicontenttype": "1",
@@ -35,6 +49,7 @@
     },
     "clienticon": "18ae77e30ec86cb2f90651a65774e75954268d53",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -44,7 +59,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4951590",
     "genres": {
       "0": "28"
@@ -131,10 +145,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "09cf60751a10654d0fd8197b0169831890392632/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789109832",
     "store_asset_mtime": "1789050461",
     "store_tags": {
       "0": "1719",
@@ -201,5 +216,96 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Ball Scratch Simulator",
+    "launch": {
+      "0": {
+        "arguments": "--xr-mode off -- --novr",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Ball Scratch Simulator",
+        "description_loc": {
+          "english": "Play Ball Scratch Simulator"
+        },
+        "executable": "ballscratch.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--xr-mode on -- --vr",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Ball Scratch Simulator in VR",
+        "description_loc": {
+          "english": "Ball Scratch Simulator in VR"
+        },
+        "executable": "ballscratch.exe",
+        "type": "openxr"
+      }
+    }
+  },
+  "depots": {
+    "4951591": {
+      "manifests": {
+        "public": {
+          "download": "2375559792",
+          "gid": "4040996005277512322",
+          "size": "5340879788"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25246825",
+        "timebuildupdated": "1789106862",
+        "timeupdated": "1789106936"
+      }
+    },
+    "workshopdepot": "4951590"
+  },
+  "extended": {
+    "developer": "10ft Games",
+    "homepage": "https://tenftgames.dev/",
+    "publisher": "10ft Games"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "500000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Ball Scratch Simulator",
+            "replace": "Godot/app_userdata/Ball Scratch Simulator"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Ball Scratch Simulator",
+            "replace": "godot/app_userdata/Ball Scratch Simulator"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Ball Scratch Simulator",
+        "pattern": "local_scores.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

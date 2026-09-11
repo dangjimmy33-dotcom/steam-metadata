@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789107001,
-  "_history": [],
-  "_change_number": 38779375,
-  "_missing_token": true,
-  "_sha": "7f436b5c505efa74208e35bb2bce27629326b528",
-  "_size": 3163,
+  "_lastChecked": 1789112961,
+  "_history": [
+    {
+      "buildId": "25248005",
+      "branch": "public",
+      "timeUpdated": 1789112034,
+      "firstSeen": 1789112961,
+      "manifests": {
+        "3942571": {
+          "gid": "4035074065527726462",
+          "size": 745681227,
+          "download": 501232976
+        }
+      }
+    }
+  ],
+  "_change_number": 38785265,
+  "_missing_token": false,
+  "_sha": "729a9c825453f7d4e57ce92e17d40916d222239b",
+  "_size": 3706,
   "appid": "3942570",
   "common": {
     "associations": {
@@ -33,7 +47,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3942570",
     "genres": {
       "0": "25",
@@ -107,7 +120,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f49614b7a0d572a4fcd85d24623655e938484d66/capsule_231x87.jpg"
     },
@@ -142,5 +155,36 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DARKODAI",
+    "launch": {
+      "0": {
+        "arguments": "-windowed",
+        "executable": "\\DARKODAI\\Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3942571": {
+      "manifests": {
+        "public": {
+          "download": "501232976",
+          "gid": "4035074065527726462",
+          "size": "745681227"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25248005",
+        "timebuildupdated": "1789112033",
+        "timeupdated": "1789112034"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Logan TimeLierG Eberly",
+    "publisher": "Logan TimeLierG Eberly"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789108002,
-  "_history": [],
-  "_change_number": 38702488,
-  "_missing_token": true,
-  "_sha": "f95691df10c6bdc6b4c92c5789cf0a7014a426c3",
-  "_size": 3327,
+  "_lastChecked": 1789113991,
+  "_history": [
+    {
+      "buildId": "25248222",
+      "branch": "public",
+      "timeUpdated": 1789112953,
+      "firstSeen": 1789113991,
+      "manifests": {
+        "5087441": {
+          "gid": "1394796563727420218",
+          "size": 3625950821,
+          "download": 1057239040
+        }
+      }
+    }
+  ],
+  "_change_number": 38785783,
+  "_missing_token": false,
+  "_sha": "a9022c7b0eed0026f0aed38be7fe9ede98b6f3cd",
+  "_size": 4227,
   "appid": "5087440",
   "common": {
     "associations": {
@@ -36,7 +50,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5087440",
     "genres": {
       "0": "1",
@@ -108,10 +121,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fde5bd430326937dff2a8a8ed0ccef4ca1874e20/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788885083",
     "store_tags": {
       "0": "19",
@@ -146,5 +160,47 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Untergrund Raceways - Arena",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Start Game",
+        "description_loc": {
+          "english": "Start Game"
+        },
+        "executable": "Untergrund Raceways - Arena.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5087441": {
+      "manifests": {
+        "public": {
+          "download": "1057239040",
+          "gid": "1394796563727420218",
+          "size": "3625950821"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "25248222",
+        "timebuildupdated": "1789112868",
+        "timeupdated": "1789112953"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Vantech Studios",
+    "homepage": "https://vantechstudios.xyz ",
+    "publisher": "Vantech Studios Publishing"
+  }
 }

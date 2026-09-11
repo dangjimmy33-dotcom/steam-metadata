@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789107850,
-  "_history": [],
-  "_change_number": 38778973,
-  "_missing_token": true,
-  "_sha": "d89a7c29c7fde6672a442e0b4849bc4d946f50fb",
-  "_size": 3442,
+  "_lastChecked": 1789113836,
+  "_history": [
+    {
+      "buildId": "25243573",
+      "branch": "public",
+      "timeUpdated": 1789090070,
+      "firstSeen": 1789113836,
+      "manifests": {
+        "4895561": {
+          "gid": "4395181028243399763",
+          "size": 6512577096,
+          "download": 3440200112
+        }
+      }
+    }
+  ],
+  "_change_number": 38784580,
+  "_missing_token": false,
+  "_sha": "6dd52a6cdeef9a36fc04a5e6982169cab614f464",
+  "_size": 4030,
   "appid": "4895560",
   "common": {
     "aicontenttype": "1",
@@ -29,6 +43,7 @@
     },
     "clienticon": "4c1fde9c8a0bc9b5dba9128df39329478e6441da",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -38,7 +53,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4895560",
     "genres": {
       "0": "25",
@@ -109,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f3829ae34815e9d2b381c326494e31661426f5a7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789110088",
     "store_asset_mtime": "1788444570",
     "store_tags": {
       "0": "1662",
@@ -158,5 +173,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Journey to Echo",
+    "launch": {
+      "0": {
+        "executable": "Journey To Echo.exe"
+      }
+    }
+  },
+  "depots": {
+    "4895561": {
+      "manifests": {
+        "public": {
+          "download": "3440200112",
+          "gid": "4395181028243399763",
+          "size": "6512577096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25243573",
+        "timebuildupdated": "1789090041",
+        "timeupdated": "1789090070"
+      }
+    }
+  },
+  "extended": {
+    "developer": "North Ruins",
+    "homepage": "https://northruins.com/",
+    "publisher": "North Ruins"
+  }
 }

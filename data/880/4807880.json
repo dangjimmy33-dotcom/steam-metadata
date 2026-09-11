@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789107775,
-  "_history": [],
-  "_change_number": 38747787,
-  "_missing_token": true,
-  "_sha": "75fdeceb9551edd946d47a39877794b43f16ed64",
-  "_size": 3962,
+  "_lastChecked": 1789113759,
+  "_history": [
+    {
+      "buildId": "24329209",
+      "branch": "public",
+      "timeUpdated": 1784704044,
+      "firstSeen": 1789113759,
+      "manifests": {
+        "4807881": {
+          "gid": "217476729347968125",
+          "size": 674258932,
+          "download": 551903136
+        }
+      }
+    }
+  ],
+  "_change_number": 38784450,
+  "_missing_token": false,
+  "_sha": "d20e86d3d68c8675df8781b078f836632471fcc9",
+  "_size": 4622,
   "appid": "4807880",
   "common": {
     "associations": {
@@ -31,7 +45,6 @@
     "clienticon": "4653c184fce3c1d29ff47c00a94f8836970786ec",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4807880",
     "genres": {
       "0": "1",
@@ -45,8 +58,8 @@
       "8": "70"
     },
     "header_image": {
-      "english": "09083bf082453bb76a1ec3e121b2ebd000d49b12/header.jpg",
-      "schinese": "65b1c2ea2afda32b377d3213019db6b101d51244/header_schinese.jpg"
+      "english": "a1e75001f3fce05637b6502b4c091f18d63f3dd8/header.jpg",
+      "schinese": "09083bf082453bb76a1ec3e121b2ebd000d49b12/header_schinese.jpg"
     },
     "icon": "4653c184fce3c1d29ff47c00a94f8836970786ec",
     "library_assets": {
@@ -64,22 +77,22 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "a831809fdc080a7fdb9c8dd58e6ea5780a71a7b0/library_capsule.jpg",
+          "english": "c4af2885e31b726d07ae694988ceea037fd89c2e/library_capsule.jpg",
           "schinese": "9ada5e56e352f5db2ad1ca6d902f9e14b2a54aa9/library_capsule_schinese.jpg"
         },
         "image2x": {
-          "english": "a831809fdc080a7fdb9c8dd58e6ea5780a71a7b0/library_capsule_2x.jpg",
+          "english": "c4af2885e31b726d07ae694988ceea037fd89c2e/library_capsule_2x.jpg",
           "schinese": "9ada5e56e352f5db2ad1ca6d902f9e14b2a54aa9/library_capsule_schinese_2x.jpg"
         }
       },
       "library_header": {
         "image": {
-          "english": "09083bf082453bb76a1ec3e121b2ebd000d49b12/library_header.jpg",
-          "schinese": "65b1c2ea2afda32b377d3213019db6b101d51244/library_header_schinese.jpg"
+          "english": "a1e75001f3fce05637b6502b4c091f18d63f3dd8/library_header.jpg",
+          "schinese": "09083bf082453bb76a1ec3e121b2ebd000d49b12/library_header_schinese.jpg"
         },
         "image2x": {
-          "english": "09083bf082453bb76a1ec3e121b2ebd000d49b12/library_header_2x.jpg",
-          "schinese": "65b1c2ea2afda32b377d3213019db6b101d51244/library_header_schinese_2x.jpg"
+          "english": "a1e75001f3fce05637b6502b4c091f18d63f3dd8/library_header_2x.jpg",
+          "schinese": "09083bf082453bb76a1ec3e121b2ebd000d49b12/library_header_schinese_2x.jpg"
         }
       },
       "library_hero": {
@@ -119,12 +132,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
-      "english": "242229699796ec37223883be241945a4c59fd8a6/capsule_231x87.jpg",
-      "schinese": "7b58d436a59f32f41cfa29f8774cecc15bd2c27c/capsule_231x87_schinese.jpg"
+      "english": "d3e405363fb586d75f21cc2c37a8eafacf4749ae/capsule_231x87.jpg",
+      "schinese": "242229699796ec37223883be241945a4c59fd8a6/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1789009161",
+    "steam_release_date": "1789108364",
+    "store_asset_mtime": "1789109492",
     "store_tags": {
       "0": "597",
       "1": "21",
@@ -161,5 +175,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Adventurers Guild",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4807881": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "551903136",
+          "gid": "217476729347968125",
+          "size": "674258932"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24329209",
+        "timebuildupdated": "1784704042",
+        "timeupdated": "1784704044"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "AG Studio",
+    "isfreeapp": "1",
+    "publisher": "AG Studio"
+  }
 }
