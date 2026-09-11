@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789148826,
-  "_history": [],
-  "_change_number": 38738963,
-  "_missing_token": true,
-  "_sha": "278940f01336eb5dfe51f30068312c95a1fff784",
-  "_size": 3128,
+  "_lastChecked": 1789156213,
+  "_history": [
+    {
+      "buildId": "25203373",
+      "branch": "public",
+      "timeUpdated": 1788983808,
+      "firstSeen": 1789156213,
+      "manifests": {
+        "5023031": {
+          "gid": "7564676854755111531",
+          "size": 529845233,
+          "download": 252318432
+        }
+      }
+    }
+  ],
+  "_change_number": 38802035,
+  "_missing_token": false,
+  "_sha": "e4735d7ee234a070a7f9cf9fa6bc7abfd7e9508b",
+  "_size": 3932,
   "appid": "5023030",
   "common": {
     "aicontenttype": "1",
@@ -40,7 +54,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5023030",
     "genres": {
       "0": "25",
@@ -112,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d9c70994adde7e123e8b6844ab15c179c97e2bc0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789150349",
     "store_asset_mtime": "1788664115",
     "store_tags": {
       "0": "9",
@@ -140,5 +154,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Clipped Reality",
+    "launch": {
+      "0": {
+        "arguments": "--steam",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Clipped Reality.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5023031": {
+      "manifests": {
+        "public": {
+          "download": "252318432",
+          "gid": "7564676854755111531",
+          "size": "529845233"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25203373",
+        "timebuildupdated": "1788939519",
+        "timeupdated": "1788983808"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Random Llama",
+    "homepage": "https://www.randomllama.dev",
+    "publisher": "Random Llama Software"
+  }
 }

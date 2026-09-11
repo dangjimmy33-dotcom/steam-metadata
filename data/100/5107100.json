@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789148903,
-  "_history": [],
-  "_change_number": 38538243,
-  "_missing_token": true,
-  "_sha": "d7443338ec55a9c6b05149ee4995eb76d9f4d075",
-  "_size": 3188,
+  "_lastChecked": 1789156291,
+  "_history": [
+    {
+      "buildId": "25078486",
+      "branch": "public",
+      "timeUpdated": 1788347740,
+      "firstSeen": 1789156291,
+      "manifests": {
+        "5107101": {
+          "gid": "1898848966825392437",
+          "size": 348372898,
+          "download": 191502528
+        }
+      }
+    }
+  ],
+  "_change_number": 38803332,
+  "_missing_token": false,
+  "_sha": "9d1f9652b0c3875e4d269a09721b1200ced38f27",
+  "_size": 3816,
   "appid": "5107100",
   "common": {
     "aicontenttype": "1",
@@ -25,6 +39,7 @@
     },
     "clienticon": "79ee93cda058ac317748d07f27368343c2a37ca4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -38,7 +53,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5107100",
     "genres": {
       "0": "1",
@@ -114,11 +128,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "c630e5e423be778437686c29381bad1bbc6b56cc/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789153709",
     "store_asset_mtime": "1788347181",
     "store_tags": {
       "0": "19",
@@ -149,5 +164,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SEX POLICE",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SEX POLICE.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5107101": {
+      "manifests": {
+        "public": {
+          "download": "191502528",
+          "gid": "1898848966825392437",
+          "size": "348372898"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25078486",
+        "timebuildupdated": "1788347738",
+        "timeupdated": "1788347740"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SWEET LIPS Publishing",
+    "publisher": "SWEET LIPS Publishing"
+  }
 }

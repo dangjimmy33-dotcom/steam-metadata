@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789148797,
-  "_history": [],
-  "_change_number": 38797456,
-  "_missing_token": true,
-  "_sha": "4eaae9b1339916f6046c898170f53fb079ea62a6",
-  "_size": 3636,
+  "_lastChecked": 1789156184,
+  "_history": [
+    {
+      "buildId": "25256512",
+      "branch": "public",
+      "timeUpdated": 1789139853,
+      "firstSeen": 1789156184,
+      "manifests": {
+        "4992741": {
+          "gid": "1507754875127341256",
+          "size": 156457504,
+          "download": 74127520
+        },
+        "4992742": {
+          "gid": "3420677449852854082",
+          "size": 127388792,
+          "download": 66836880
+        }
+      }
+    }
+  ],
+  "_change_number": 38803941,
+  "_missing_token": false,
+  "_sha": "9b8be53201b5997a4117d5616893e5f56cb97f95",
+  "_size": 5636,
   "appid": "4992740",
   "common": {
     "associations": {
@@ -28,14 +47,13 @@
       "category_69": "1",
       "category_70": "1",
       "category_74": "1",
-      "category_76": "1",
       "category_80": "1"
     },
     "clienticon": "5203b391ec190d848ed3b9b3bfa9ace54084f805",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4992740",
     "genres": {
       "0": "4",
@@ -107,11 +125,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0fecdf4af5a12d13dee6097c08813ff0b525b937/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/4992740/discussions/0/582807198746540668/",
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788044546",
     "store_tags": {
       "0": "597",
@@ -163,5 +182,109 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dwarf Core",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "dwarfcore.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "dwarfcore.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "1",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4992741": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "74127520",
+          "gid": "1507754875127341256",
+          "size": "156457504"
+        }
+      }
+    },
+    "4992742": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "66836880",
+          "gid": "3420677449852854082",
+          "size": "127388792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25256512",
+        "timebuildupdated": "1789139826",
+        "timeupdated": "1789139853"
+      }
+    }
+  },
+  "extended": {
+    "developer": "IncludeSpark",
+    "publisher": "IncludeSpark"
+  },
+  "ufs": {
+    "maxnumfiles": "60",
+    "quota": "5000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".local/share/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "DwarfCore/save",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "DwarfCore/save",
+        "pattern": "*.tree",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "DwarfCore/save",
+        "pattern": "*.inv",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "DwarfCore/save",
+        "pattern": "core.destroyed",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "DwarfCore/save/yggdrasil_v2",
+        "pattern": "*.tree",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

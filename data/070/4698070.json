@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1789148484,
-  "_history": [],
-  "_change_number": 38678072,
-  "_missing_token": true,
-  "_sha": "e9ffde9eeb3c2d676e7b7066e17e3b22f12e892c",
-  "_size": 3463,
+  "_lastChecked": 1789155870,
+  "_history": [
+    {
+      "buildId": "24828234",
+      "branch": "legacy",
+      "timeUpdated": 1787181694,
+      "firstSeen": 1789155870,
+      "manifests": {
+        "4698071": {
+          "gid": "7242837249970039663",
+          "size": 4695444391,
+          "download": 874836560
+        }
+      }
+    },
+    {
+      "buildId": "25259871",
+      "branch": "public",
+      "timeUpdated": 1789151550,
+      "firstSeen": 1789155870,
+      "manifests": {
+        "4698071": {
+          "gid": "3245915691043445585",
+          "size": 4731039692,
+          "download": 897271664
+        }
+      }
+    }
+  ],
+  "_change_number": 38803155,
+  "_missing_token": false,
+  "_sha": "d81c2d84cbda233a80cff9328f191040a90c9fbc",
+  "_size": 4396,
   "appid": "4698070",
   "common": {
     "associations": {
@@ -39,9 +66,9 @@
     "clienticns": "e4c9cb3788c7f2a6acb6d10a8f6198ea7ccef18d",
     "clienticon": "530d60246a59789bbf6720754295cb426d7d4859",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4698070",
     "genres": {
       "0": "1",
@@ -119,10 +146,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ae417866e54092c62ff51a4484359424d95a873e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1782420807",
     "store_tags": {
       "0": "1625",
@@ -158,5 +186,50 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TomoTomo",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TomoTomo.exe"
+      }
+    }
+  },
+  "depots": {
+    "4698071": {
+      "manifests": {
+        "legacy": {
+          "download": "874836560",
+          "gid": "7242837249970039663",
+          "size": "4695444391"
+        },
+        "public": {
+          "download": "897271664",
+          "gid": "3245915691043445585",
+          "size": "4731039692"
+        }
+      }
+    },
+    "branches": {
+      "legacy": {
+        "buildid": "24828234",
+        "description": "Previous build version",
+        "timebuildupdated": "1787180906",
+        "timeupdated": "1787181694"
+      },
+      "public": {
+        "buildid": "25259871",
+        "timebuildupdated": "1789151511",
+        "timeupdated": "1789151550"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Gamagora ICOM",
+    "homepage": "https://icom.univ-lyon2.fr/gamagora",
+    "isfreeapp": "1",
+    "publisher": "Gamagora ICOM"
+  }
 }

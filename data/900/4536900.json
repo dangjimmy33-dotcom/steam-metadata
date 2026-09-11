@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789148301,
+  "_lastChecked": 1789155688,
   "_history": [
     {
       "buildId": "25140430",
@@ -108,12 +108,30 @@
           "download": 107411200
         }
       }
+    },
+    {
+      "buildId": "25260234",
+      "branch": "public",
+      "timeUpdated": 1789154025,
+      "firstSeen": 1789155688,
+      "manifests": {
+        "4536901": {
+          "gid": "7985576722292012438",
+          "size": 200857236,
+          "download": 115210816
+        },
+        "4536902": {
+          "gid": "2162823116957937981",
+          "size": 168697452,
+          "download": 107415424
+        }
+      }
     }
   ],
-  "_change_number": 38787297,
+  "_change_number": 38803455,
   "_missing_token": false,
-  "_sha": "07c33fc1d4a7810d752625c61be595a67533becf",
-  "_size": 6638,
+  "_sha": "2227f6d69c73d1e85f46a0ee9249e719b8adb3f2",
+  "_size": 7071,
   "appid": "4536900",
   "common": {
     "associations": {
@@ -216,7 +234,7 @@
     "oslist": "windows,linux",
     "primary_genre": "2",
     "releasestate": "released",
-    "review_percentage": "91",
+    "review_percentage": "92",
     "review_score": "8",
     "small_capsule": {
       "english": "35fc611ec1eb5cd23e51813eeba38f4b01a2b208/capsule_231x87.jpg",
@@ -331,11 +349,25 @@
           "osarch": "64",
           "oslist": "linux"
         },
-        "description": "OpenGL Compatibility (Recommended for Linux crash issues)",
+        "description": "OpenGL Compatibility (Recommended for GPU related crash issues)",
         "description_loc": {
-          "english": "OpenGL Compatibility (Recommended for Linux crash issues)"
+          "english": "OpenGL Compatibility (Recommended for GPU related crash issues)"
         },
         "executable": "next-reign-kingdom.x86_64",
+        "type": "option1",
+        "workingdir": "."
+      },
+      "3": {
+        "arguments": "--rendering-driver opengl3",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "OpenGL Compatibility (Recommended for GPU related crash issues)",
+        "description_loc": {
+          "english": "OpenGL Compatibility (Recommended for GPU related crash issues)"
+        },
+        "executable": "next-reign-kingdom.exe",
         "type": "option1",
         "workingdir": "."
       }
@@ -349,9 +381,9 @@
       },
       "manifests": {
         "public": {
-          "download": "115206592",
-          "gid": "4816425298989290655",
-          "size": "200853156"
+          "download": "115210816",
+          "gid": "7985576722292012438",
+          "size": "200857236"
         }
       }
     },
@@ -362,17 +394,17 @@
       },
       "manifests": {
         "public": {
-          "download": "107411200",
-          "gid": "3042703499780872085",
-          "size": "168693372"
+          "download": "107415424",
+          "gid": "2162823116957937981",
+          "size": "168697452"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25213105",
-        "timebuildupdated": "1788971283",
-        "timeupdated": "1788972175"
+        "buildid": "25260234",
+        "timebuildupdated": "1789152888",
+        "timeupdated": "1789154025"
       }
     },
     "privatebranches": "1"

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789147988,
+  "_lastChecked": 1789155375,
   "_history": [
     {
       "buildId": "25136942",
@@ -67,10 +67,10 @@
       }
     }
   ],
-  "_change_number": 38767228,
+  "_change_number": 38802431,
   "_missing_token": false,
-  "_sha": "1553d7b3dcd00212ff1e1ebc49a0efbef32f020b",
-  "_size": 4107,
+  "_sha": "5299f84b9e5b02024c3d082abaafb004230d8799",
+  "_size": 4791,
   "appid": "4264250",
   "common": {
     "aicontenttype": "1",
@@ -264,5 +264,37 @@
     "developer": "Polymorph Self",
     "homepage": "http://steamcommunity.com/groups/polymorphself",
     "publisher": "Polymorph Self"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/HEXCRAWL/saves",
+        "pattern": "camp_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/HEXCRAWL/saves",
+        "pattern": "quicksave_campaign_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/HEXCRAWL/saves",
+        "pattern": "autosave_campaign_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789148920,
-  "_history": [],
-  "_change_number": 38571315,
-  "_missing_token": true,
-  "_sha": "7ceb17603115fab57d6c1947f6fa6f346cb817a4",
-  "_size": 2990,
+  "_lastChecked": 1789156307,
+  "_history": [
+    {
+      "buildId": "24817416",
+      "branch": "public",
+      "timeUpdated": 1787141659,
+      "firstSeen": 1789156307,
+      "manifests": {
+        "5126931": {
+          "gid": "7915728824788453970",
+          "size": 120779532,
+          "download": 49133488
+        }
+      }
+    }
+  ],
+  "_change_number": 38802197,
+  "_missing_token": false,
+  "_sha": "1d0e5f479895afeb0cf6cf12dd2565e5dc073ad2",
+  "_size": 4207,
   "appid": "5126930",
   "common": {
     "aicontenttype": "1",
@@ -27,7 +41,6 @@
     "clienticon": "be0aec1d9d50db459104996c4a48948d92c94744",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5126930",
     "genres": {
       "0": "1",
@@ -101,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d7c3053d6f9c9fb93132de7f8c4b9db14e8c058c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789150736",
     "store_asset_mtime": "1787595948",
     "store_tags": {
       "0": "19",
@@ -134,5 +148,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Arcanefall  Darklands",
+    "launch": {
+      "0": {
+        "executable": "Arcanefall.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229012": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229020": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229030": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5126931": {
+      "manifests": {
+        "public": {
+          "download": "49133488",
+          "gid": "7915728824788453970",
+          "size": "120779532"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24817416",
+        "timebuildupdated": "1787141376",
+        "timeupdated": "1787141659"
+      }
+    }
+  },
+  "extended": {
+    "developer": "zak1aN",
+    "publisher": "Arcanefall Studios"
+  }
 }

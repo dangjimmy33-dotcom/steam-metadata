@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789144993,
+  "_lastChecked": 1789152391,
   "_history": [
     {
       "buildId": "12142996",
@@ -80,10 +80,10 @@
       }
     }
   ],
-  "_change_number": 38776802,
+  "_change_number": 38801934,
   "_missing_token": false,
-  "_sha": "45a8f1718c820c01014a6e0333595f3c3cea9554",
-  "_size": 9162,
+  "_sha": "e65fcedda7def23165ba426a39a3c8fe521ece73",
+  "_size": 9257,
   "appid": "1938010",
   "common": {
     "associations": {
@@ -225,20 +225,25 @@
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
         "non_deck_display_glyphs": "0",
-        "primary_player_is_controller_slot_0": "1",
-        "recommended_runtime": "proton-experimental",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
         "requires_h264": "0",
-        "requires_internet_for_setup": "1",
-        "requires_internet_for_singleplayer": "1",
-        "requires_manual_keyboard_invoke": "1",
-        "requires_non_controller_launcher_nav": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "0",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "1",
+      "steam_machine_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+        }
+      },
       "steamos_compatibility": "1",
       "steamos_tests": {
         "0": {
@@ -246,8 +251,8 @@
           "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
         }
       },
-      "test_timestamp": "1676505600",
-      "tested_build_id": "10421000",
+      "test_timestamp": "1788544545",
+      "tested_build_id": "12142996",
       "tests": {
         "0": {
           "display": "2",

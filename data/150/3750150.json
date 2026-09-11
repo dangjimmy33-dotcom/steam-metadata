@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789147345,
-  "_history": [],
-  "_change_number": 38588155,
-  "_missing_token": true,
-  "_sha": "67fc117adee596145d9691bb86364b83bb4de28e",
-  "_size": 3164,
+  "_lastChecked": 1789154730,
+  "_history": [
+    {
+      "buildId": "25113653",
+      "branch": "public",
+      "timeUpdated": 1788481908,
+      "firstSeen": 1789154730,
+      "manifests": {
+        "3750151": {
+          "gid": "2290185738665354895",
+          "size": 14898339319,
+          "download": 10783214416
+        }
+      }
+    }
+  ],
+  "_change_number": 38801606,
+  "_missing_token": false,
+  "_sha": "c0732f33af45d647676a23be74f015efb3399b43",
+  "_size": 3843,
   "appid": "3750150",
   "common": {
     "aicontenttype": "2",
@@ -31,7 +45,6 @@
     "clienttga": "a352fa19f12069678e766a0ca3a603a8f1380c50",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3750150",
     "genres": {
       "0": "25",
@@ -106,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0fea92b1b6185507704ae6138d78179988b6976f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789149290",
     "store_asset_mtime": "1782752346",
     "store_tags": {
       "0": "122",
@@ -141,5 +155,41 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Boundless AI Fantasy",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BoundlessAIFantasy.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3750151": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "10783214416",
+          "gid": "2290185738665354895",
+          "size": "14898339319"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25113653",
+        "timebuildupdated": "1788481643",
+        "timeupdated": "1788481908"
+      }
+    }
+  },
+  "extended": {
+    "developer": "João Vitor Andrioli de Souza",
+    "publisher": "João Vitor Andrioli de Souza"
+  }
 }

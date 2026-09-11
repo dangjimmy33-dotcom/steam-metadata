@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789143427,
+  "_lastChecked": 1789150830,
   "_history": [
     {
       "buildId": "24055484",
@@ -126,12 +126,48 @@
           "download": 403654624
         }
       }
+    },
+    {
+      "buildId": "25258960",
+      "branch": "beta",
+      "timeUpdated": 1789148019,
+      "firstSeen": 1789150830,
+      "manifests": {
+        "858211": {
+          "gid": "3083615954328884885",
+          "size": 852260536,
+          "download": 399290080
+        },
+        "858212": {
+          "gid": "2003130220611074915",
+          "size": 911378747,
+          "download": 436832864
+        }
+      }
+    },
+    {
+      "buildId": "25258933",
+      "branch": "experimental",
+      "timeUpdated": 1789147925,
+      "firstSeen": 1789150830,
+      "manifests": {
+        "858211": {
+          "gid": "3083615954328884885",
+          "size": 852260536,
+          "download": 399290080
+        },
+        "858212": {
+          "gid": "2003130220611074915",
+          "size": 911378747,
+          "download": 436832864
+        }
+      }
     }
   ],
-  "_change_number": 38797359,
+  "_change_number": 38801141,
   "_missing_token": false,
-  "_sha": "c3fcefd8aadc092804f823f45f5327780abf500a",
-  "_size": 8474,
+  "_sha": "2c19a3ee2283158f000301c39b7d6f601568e3b6",
+  "_size": 8475,
   "appid": "858210",
   "common": {
     "associations": {
@@ -435,14 +471,14 @@
       },
       "manifests": {
         "beta": {
-          "download": "403657536",
-          "gid": "8173298630894466231",
-          "size": "865218229"
+          "download": "436832864",
+          "gid": "2003130220611074915",
+          "size": "911378747"
         },
         "experimental": {
-          "download": "403654624",
-          "gid": "396078024427572261",
-          "size": "865218505"
+          "download": "436832864",
+          "gid": "2003130220611074915",
+          "size": "911378747"
         },
         "legacy_syzygy": {
           "download": "253031664",
@@ -463,16 +499,16 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25256388",
+        "buildid": "25258960",
         "description": "Open beta testing",
-        "timebuildupdated": "1789139451",
-        "timeupdated": "1789139451"
+        "timebuildupdated": "1789148019",
+        "timeupdated": "1789148019"
       },
       "experimental": {
-        "buildid": "25256436",
+        "buildid": "25258933",
         "description": "Early beta testing",
-        "timebuildupdated": "1789139625",
-        "timeupdated": "1789139625"
+        "timebuildupdated": "1789147925",
+        "timeupdated": "1789147925"
       },
       "legacy_syzygy": {
         "buildid": "6568309",

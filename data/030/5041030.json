@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789148844,
-  "_history": [],
-  "_change_number": 38790824,
-  "_missing_token": true,
-  "_sha": "d1f8e4f77b2b30bfed894681f956c496e3631f93",
-  "_size": 5113,
+  "_lastChecked": 1789156231,
+  "_history": [
+    {
+      "buildId": "25251747",
+      "branch": "public",
+      "timeUpdated": 1789124906,
+      "firstSeen": 1789156231,
+      "manifests": {
+        "5041031": {
+          "gid": "7223145954175076971",
+          "size": 1819939506,
+          "download": 1639277888
+        }
+      }
+    }
+  ],
+  "_change_number": 38802058,
+  "_missing_token": false,
+  "_sha": "fa854ede2d7e2fd9433c032fbf21576900ab42f7",
+  "_size": 6339,
   "appid": "5041030",
   "common": {
     "associations": {
@@ -33,8 +47,8 @@
     },
     "clienticon": "a707cc8421b02ec3868d8a361fd0f3115a60f0b4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5041030",
     "genres": {
       "0": "4",
@@ -138,11 +152,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6ccb00eab21127d9cfe89acdae6f407b0202415f/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1787229666",
+    "steam_release_date": "1790751600",
+    "store_asset_mtime": "1789150147",
     "store_tags": {
       "0": "597",
       "1": "176981",
@@ -262,5 +277,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cubiciousflage",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Cubiciousflage.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5041031": {
+      "manifests": {
+        "public": {
+          "download": "1639277888",
+          "gid": "7223145954175076971",
+          "size": "1819939506"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25251747",
+        "timebuildupdated": "1789124553",
+        "timeupdated": "1789124906"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kubrick",
+    "dlcavailableonstore": "1",
+    "homepage": "https://discord.gg/BRuB9MyBUK",
+    "listofdlc": "5102500,5102510,5102520",
+    "publisher": "Kubrick"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Cubiciousflage\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789146903,
-  "_history": [],
-  "_change_number": 38775681,
-  "_missing_token": true,
-  "_sha": "c817500758a0333d2b1b5228014571f6cd387b97",
-  "_size": 4342,
+  "_lastChecked": 1789154288,
+  "_history": [
+    {
+      "buildId": "25258893",
+      "branch": "public",
+      "timeUpdated": 1789147783,
+      "firstSeen": 1789154288,
+      "manifests": {
+        "3393281": {
+          "gid": "3337129054419991422",
+          "size": 2113793825,
+          "download": 1084406016
+        }
+      }
+    }
+  ],
+  "_change_number": 38801297,
+  "_missing_token": false,
+  "_sha": "d53e9f969febc1efde2dfeee3063cf3d72d4e9b6",
+  "_size": 5219,
   "appid": "3393280",
   "common": {
     "aicontenttype": "1",
@@ -36,11 +50,11 @@
     "clienticon": "6c67bfab21a872ce82807552383a43c330b03337",
     "clienttga": "7ad3e5d6915f390d3d76bd2bb09a19bb7e547f56",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3393280",
     "genres": {
       "0": "1",
@@ -119,11 +133,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e177a9406f08239d5d8d2f85f3a93abbcdf5c500/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1789078213",
+    "steam_release_date": "1789148415",
+    "store_asset_mtime": "1789148304",
     "store_tags": {
       "0": "599",
       "1": "4085",
@@ -206,5 +221,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Anime Shop Simulator",
+    "launch": {
+      "0": {
+        "executable": "Anime Shop Simulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "3393281": {
+      "manifests": {
+        "public": {
+          "download": "1084406016",
+          "gid": "3337129054419991422",
+          "size": "2113793825"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25258893",
+        "timebuildupdated": "1789147770",
+        "timeupdated": "1789147783"
+      }
+    }
+  },
+  "extended": {
+    "developer": " One More Time",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5175820,5175830",
+    "publisher": " One More Time"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "30",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "\\OneMoreTime\\Anime Shop Simulator",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

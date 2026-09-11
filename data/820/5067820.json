@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789148868,
-  "_history": [],
-  "_change_number": 38800995,
-  "_missing_token": true,
-  "_sha": "cdbdafcf22a5277bccc45e564fb5d1e514d9cd5f",
-  "_size": 5227,
+  "_lastChecked": 1789156255,
+  "_history": [
+    {
+      "buildId": "25259864",
+      "branch": "public",
+      "timeUpdated": 1789151548,
+      "firstSeen": 1789156255,
+      "manifests": {
+        "5067821": {
+          "gid": "6214569673886430620",
+          "size": 361119802,
+          "download": 286807008
+        },
+        "5067822": {
+          "gid": "1433258170023559639",
+          "size": 400428534,
+          "download": 302210336
+        },
+        "5067823": {
+          "gid": "5200812805125585567",
+          "size": 358053862,
+          "download": 285221216
+        }
+      }
+    }
+  ],
+  "_change_number": 38802703,
+  "_missing_token": false,
+  "_sha": "128c4e11fd4af83fca98b07cc92f66a9767af246",
+  "_size": 6810,
   "appid": "5067820",
   "common": {
     "aicontenttype": "1",
@@ -40,8 +64,8 @@
     "clienticns": "2337064e2c5698d0e133c93d649a19cb70b1d443",
     "clienticon": "06a0fcc7b85b3e2dae7ed97db965685c728da1ef",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5067820",
     "genres": {
       "0": "23",
@@ -128,12 +152,13 @@
     "name": "Cyber Academy",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "oslist": "windows,macos",
+    "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a9efdf01949e880e23dec17c7e4b85ce8a985545/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789152083",
     "store_asset_mtime": "1789092017",
     "store_tags": {
       "0": "5502",
@@ -253,5 +278,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cyber Academy",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CyberAcademy.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Cyber Academy.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "cyberquest_academy"
+      }
+    }
+  },
+  "depots": {
+    "5067821": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "286807008",
+          "gid": "6214569673886430620",
+          "size": "361119802"
+        }
+      }
+    },
+    "5067822": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "302210336",
+          "gid": "1433258170023559639",
+          "size": "400428534"
+        }
+      }
+    },
+    "5067823": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "285221216",
+          "gid": "5200812805125585567",
+          "size": "358053862"
+        }
+      }
+    },
+    "baselanguages": "brazilian,bulgarian,czech,english,french,german,greek,hungarian,italian,japanese,koreana,latam,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "25259864",
+        "timebuildupdated": "1789151488",
+        "timeupdated": "1789151548"
+      }
+    }
+  },
+  "extended": {
+    "developer": "JinjaGames",
+    "homepage": "https://jinjagames.com",
+    "publisher": "JinjaGames"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000"
+  }
 }

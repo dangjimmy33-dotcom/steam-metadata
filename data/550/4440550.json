@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789148185,
+  "_lastChecked": 1789155571,
   "_history": [
     {
       "buildId": "22419486",
@@ -39,12 +39,25 @@
           "download": 150942448
         }
       }
+    },
+    {
+      "buildId": "25258770",
+      "branch": "public",
+      "timeUpdated": 1789148736,
+      "firstSeen": 1789155571,
+      "manifests": {
+        "4440551": {
+          "gid": "7017924097577852209",
+          "size": 438528197,
+          "download": 150942880
+        }
+      }
     }
   ],
-  "_change_number": 38800182,
+  "_change_number": 38803417,
   "_missing_token": false,
-  "_sha": "7feb9b7d20668ee74354eb5a22b76d47635a0a6e",
-  "_size": 3865,
+  "_sha": "b8a40c254f86e0e3b929fc228db18f8a96601304",
+  "_size": 3920,
   "appid": "4440550",
   "common": {
     "aicontenttype": "1",
@@ -163,12 +176,12 @@
       "13": "3871",
       "14": "4400",
       "2": "6129",
-      "3": "9",
-      "4": "1664",
-      "5": "8122",
-      "6": "4305",
-      "7": "6869",
-      "8": "1714",
+      "3": "1664",
+      "4": "8122",
+      "5": "4305",
+      "6": "6869",
+      "7": "1714",
+      "8": "9",
       "9": "3964"
     },
     "supported_languages": {
@@ -176,7 +189,8 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
   "config": {
     "installdir": "eethCross",
@@ -199,20 +213,21 @@
       },
       "manifests": {
         "public": {
-          "download": "150942448",
-          "gid": "3394190512275175261",
-          "size": "438526717"
+          "download": "150942880",
+          "gid": "7017924097577852209",
+          "size": "438528197"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25258159",
-        "timebuildupdated": "1789145099",
-        "timeupdated": "1789145671"
+        "buildid": "25258770",
+        "timebuildupdated": "1789147261",
+        "timeupdated": "1789148736"
       }
-    }
+    },
+    "workshopdepot": "4440550"
   },
   "extended": {
     "developer": "eeth",

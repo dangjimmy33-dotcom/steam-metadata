@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789145692,
+  "_lastChecked": 1789153077,
   "_history": [
     {
       "buildId": "24536137",
@@ -13,12 +13,25 @@
           "download": 26823168880
         }
       }
+    },
+    {
+      "buildId": "25258939",
+      "branch": "public",
+      "timeUpdated": 1789148038,
+      "firstSeen": 1789153077,
+      "manifests": {
+        "2445981": {
+          "gid": "5476663428814277037",
+          "size": 23856145074,
+          "download": 23540473152
+        }
+      }
     }
   ],
-  "_change_number": 38675493,
+  "_change_number": 38801847,
   "_missing_token": false,
-  "_sha": "97aaaeeb6b0550b710399a31abf1812e4aedd056",
-  "_size": 5919,
+  "_sha": "be74341c7c8f0890bf866d4f301262158600d9b0",
+  "_size": 5824,
   "appid": "2445980",
   "common": {
     "aicontenttype": "1",
@@ -221,13 +234,14 @@
         "executable": "G_Rebels.exe"
       },
       "1": {
+        "arguments": "-vr",
         "config": {
           "osarch": "64",
           "oslist": "windows"
         },
-        "description": "Optional VR Mode will be offered within the game if VR device is deteced ",
+        "description": "G-Rebels in VR",
         "description_loc": {
-          "english": "Optional VR Mode will be offered within the game if VR device is deteced "
+          "english": "G-Rebels in VR"
         },
         "executable": "G_Rebels.exe",
         "type": "openxr"
@@ -252,17 +266,17 @@
     "2445981": {
       "manifests": {
         "public": {
-          "download": "26823168880",
-          "gid": "1090699887744445316",
-          "size": "27153004699"
+          "download": "23540473152",
+          "gid": "5476663428814277037",
+          "size": "23856145074"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "24536137",
-        "timebuildupdated": "1785774840",
-        "timeupdated": "1785775717"
+        "buildid": "25258939",
+        "timebuildupdated": "1789147948",
+        "timeupdated": "1789148038"
       }
     }
   },
