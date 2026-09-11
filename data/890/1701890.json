@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789078492,
+  "_lastChecked": 1789085108,
   "_history": [
     {
       "buildId": "25053686",
@@ -72,11 +72,29 @@
           "download": 2918758512
         }
       }
+    },
+    {
+      "buildId": "25241208",
+      "branch": "beta_unstable",
+      "timeUpdated": 1789080229,
+      "firstSeen": 1789085108,
+      "manifests": {
+        "1701891": {
+          "gid": "3770726513512841182",
+          "size": 10373355915,
+          "download": 2519189312
+        },
+        "1701892": {
+          "gid": "6508605944874975085",
+          "size": 10900514601,
+          "download": 2924283984
+        }
+      }
     }
   ],
-  "_change_number": 38743510,
+  "_change_number": 38776286,
   "_missing_token": false,
-  "_sha": "3612a3f838cf3e80e57889ea69cf57507fa6e436",
+  "_sha": "48fa3cd33e8d617acf922c4d2bbc67c770ad77d8",
   "_size": 8962,
   "appid": "1701890",
   "common": {
@@ -321,9 +339,9 @@
       },
       "manifests": {
         "beta_unstable": {
-          "download": "2513612272",
-          "gid": "7382571743261295676",
-          "size": "10371526313"
+          "download": "2519189312",
+          "gid": "3770726513512841182",
+          "size": "10373355915"
         },
         "legacy": {
           "download": "1340582272",
@@ -348,9 +366,9 @@
       },
       "manifests": {
         "beta_unstable": {
-          "download": "2918759664",
-          "gid": "6676069958257144722",
-          "size": "10898693297"
+          "download": "2924283984",
+          "gid": "6508605944874975085",
+          "size": "10900514601"
         },
         "legacy": {
           "download": "1331990640",
@@ -406,10 +424,10 @@
     "baselanguages": "english,russian",
     "branches": {
       "beta_unstable": {
-        "buildid": "25053686",
+        "buildid": "25241208",
         "description": "Unstable channel for testing new updates.",
-        "timebuildupdated": "1788251495",
-        "timeupdated": "1788299092"
+        "timebuildupdated": "1789078946",
+        "timeupdated": "1789080229"
       },
       "legacy": {
         "buildid": "11972847",

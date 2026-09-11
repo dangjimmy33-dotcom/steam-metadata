@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789081952,
-  "_history": [],
-  "_change_number": 38626129,
-  "_missing_token": true,
-  "_sha": "73b2c4eb36706bce12295c43b86e33fd36ae3c1e",
-  "_size": 3288,
+  "_lastChecked": 1789089305,
+  "_history": [
+    {
+      "buildId": "25139904",
+      "branch": "public",
+      "timeUpdated": 1788605241,
+      "firstSeen": 1789089305,
+      "manifests": {
+        "5089561": {
+          "gid": "3293644037304496128",
+          "size": 2279707968,
+          "download": 904685968
+        }
+      }
+    }
+  ],
+  "_change_number": 38776922,
+  "_missing_token": false,
+  "_sha": "f001975e3d4a69928707c7dba4706a83891ee6f5",
+  "_size": 3895,
   "appid": "5089560",
   "common": {
     "aicontenttype": "1",
@@ -28,7 +42,6 @@
     "clienticon": "9144c5d055069d7732c246d8dc1a9117455b8754",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5089560",
     "genres": {
       "0": "4",
@@ -100,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f5e357245b22de2da355e2ef16059eeb2d4651f2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789082319",
     "store_asset_mtime": "1788272380",
     "store_tags": {
       "0": "599",
@@ -155,5 +169,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Electronics Depot Simulator",
+    "launch": {
+      "0": {
+        "executable": "Electronics Depot Simulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "5089561": {
+      "manifests": {
+        "public": {
+          "download": "904685968",
+          "gid": "3293644037304496128",
+          "size": "2279707968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25139904",
+        "timebuildupdated": "1788605209",
+        "timeupdated": "1788605241"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Last Bullet Games",
+    "publisher": "Last Bullet Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "15000000"
+  }
 }

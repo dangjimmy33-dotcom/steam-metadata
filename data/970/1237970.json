@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789077944,
+  "_lastChecked": 1789084453,
   "_history": [
     {
       "buildId": "10350970",
@@ -75,10 +75,10 @@
       }
     }
   ],
-  "_change_number": 38587001,
+  "_change_number": 38776802,
   "_missing_token": false,
-  "_sha": "c36097283a529ba9c90e2b6181301973cb088716",
-  "_size": 11701,
+  "_sha": "c22c5ddb0d4e85db9897c7ee089d85309eefb0f4",
+  "_size": 11954,
   "appid": "1237970",
   "common": {
     "associations": {
@@ -396,6 +396,16 @@
       "0": {
         "executable": "link2ea://launchgame/1237970?platform=steam&theme=tf2",
         "type": "none"
+      },
+      "1": {
+        "config": {
+          "betakey": "eax_test"
+        },
+        "description": "New launch method",
+        "description_loc": {
+          "english": "New launch method"
+        },
+        "executable": "steam2ea://launchgame/1237970?platform=steam&theme=tf2"
       }
     },
     "steamcontrollertouchconfigdetails": {
@@ -574,9 +584,9 @@
       "depotfromapp": "3340990",
       "manifests": {
         "public": {
-          "download": "246482576",
-          "gid": "5874704072306837744",
-          "size": "246793391"
+          "download": "246722480",
+          "gid": "3755387105551220105",
+          "size": "247033311"
         }
       }
     },

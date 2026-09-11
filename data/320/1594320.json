@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789078355,
+  "_lastChecked": 1789084944,
   "_history": [
     {
       "buildId": "7546314",
@@ -226,11 +226,57 @@
           "download": 384340960
         }
       }
+    },
+    {
+      "buildId": "25241544",
+      "branch": "experimental",
+      "timeUpdated": 1789081906,
+      "firstSeen": 1789084944,
+      "manifests": {
+        "1594321": {
+          "gid": "8671839514955861417",
+          "size": 3751762896,
+          "download": 3329851184
+        },
+        "2004740": {
+          "gid": "2614224281471897589",
+          "size": 18169604,
+          "download": 16482016
+        },
+        "4349830": {
+          "gid": "1851894814959267220",
+          "size": 420646163,
+          "download": 384101472
+        }
+      }
+    },
+    {
+      "buildId": "24876254",
+      "branch": "public",
+      "timeUpdated": 1789081397,
+      "firstSeen": 1789084944,
+      "manifests": {
+        "1594321": {
+          "gid": "7114462889834617875",
+          "size": 3751662023,
+          "download": 3329823552
+        },
+        "2004740": {
+          "gid": "7031609665574253041",
+          "size": 18169604,
+          "download": 16481984
+        },
+        "4349830": {
+          "gid": "4269206658089884517",
+          "size": 420646163,
+          "download": 384101536
+        }
+      }
     }
   ],
-  "_change_number": 38737866,
+  "_change_number": 38776797,
   "_missing_token": false,
-  "_sha": "f9f19691719594353905f5b5fdc013dea419d243",
+  "_sha": "cfbd95392a1ccb0d581f8027161f1683cd809e2e",
   "_size": 13436,
   "appid": "1594320",
   "common": {
@@ -549,9 +595,9 @@
           "size": "1006088607"
         },
         "experimental": {
-          "download": "3329823552",
-          "gid": "7114462889834617875",
-          "size": "3751662023"
+          "download": "3329851184",
+          "gid": "8671839514955861417",
+          "size": "3751762896"
         },
         "pre-alpha-legacy": {
           "download": "334997888",
@@ -559,9 +605,9 @@
           "size": "438934032"
         },
         "public": {
-          "download": "3329792496",
-          "gid": "6265590129150821136",
-          "size": "3751560155"
+          "download": "3329823552",
+          "gid": "7114462889834617875",
+          "size": "3751662023"
         },
         "update1-legacy": {
           "download": "1151341040",
@@ -608,13 +654,13 @@
           "size": "8517139"
         },
         "experimental": {
-          "download": "16481984",
-          "gid": "7031609665574253041",
+          "download": "16482016",
+          "gid": "2614224281471897589",
           "size": "18169604"
         },
         "public": {
-          "download": "16482000",
-          "gid": "5026221012306694212",
+          "download": "16481984",
+          "gid": "7031609665574253041",
           "size": "18169604"
         },
         "update1-legacy": {
@@ -657,13 +703,13 @@
       "dlcappid": "4349830",
       "manifests": {
         "experimental": {
-          "download": "384101536",
-          "gid": "4269206658089884517",
+          "download": "384101472",
+          "gid": "1851894814959267220",
           "size": "420646163"
         },
         "public": {
-          "download": "384101440",
-          "gid": "3588577377178619199",
+          "download": "384101536",
+          "gid": "4269206658089884517",
           "size": "420646163"
         },
         "v0-8-2-legacy": {
@@ -703,10 +749,10 @@
         "timeupdated": "1687643980"
       },
       "experimental": {
-        "buildid": "24876254",
+        "buildid": "25241544",
         "description": "Testing of experimental features, not stable",
-        "timebuildupdated": "1787379180",
-        "timeupdated": "1787379728"
+        "timebuildupdated": "1789080617",
+        "timeupdated": "1789081906"
       },
       "pre-alpha-legacy": {
         "buildid": "7344310",
@@ -715,9 +761,9 @@
         "timeupdated": "1631411171"
       },
       "public": {
-        "buildid": "24719404",
-        "timebuildupdated": "1786644357",
-        "timeupdated": "1787379235"
+        "buildid": "24876254",
+        "timebuildupdated": "1787379180",
+        "timeupdated": "1789081397"
       },
       "update1-legacy": {
         "buildid": "13643163",

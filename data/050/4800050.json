@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789081707,
-  "_history": [],
-  "_change_number": 38004917,
-  "_missing_token": true,
-  "_sha": "6551b47da187863483be9214159a1322dd2f6fb5",
-  "_size": 3597,
+  "_lastChecked": 1789089005,
+  "_history": [
+    {
+      "buildId": "24696467",
+      "branch": "public",
+      "timeUpdated": 1786641534,
+      "firstSeen": 1789089005,
+      "manifests": {
+        "4800051": {
+          "gid": "1601645698748192030",
+          "size": 931659566,
+          "download": 401007488
+        }
+      }
+    }
+  ],
+  "_change_number": 38778147,
+  "_missing_token": false,
+  "_sha": "00b65825cb8e457a9301753d561010bc1ab02b6e",
+  "_size": 4234,
   "appid": "4800050",
   "common": {
     "associations": {
@@ -28,9 +42,9 @@
     },
     "clienticon": "6154044ebf19e48b5c620791152c85fbf6e7b516",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4800050",
     "genres": {
       "0": "4",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3e117aa5b0eddd5f63051ab93d815a24a46dbbcb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789087199",
     "store_asset_mtime": "1781015621",
     "store_tags": {
       "0": "10437",
@@ -137,22 +152,10 @@
       "german": {
         "supported": "true"
       },
-      "greek": {
-        "supported": "true"
-      },
       "hungarian": {
         "supported": "true"
       },
       "italian": {
-        "supported": "true"
-      },
-      "polish": {
-        "supported": "true"
-      },
-      "romanian": {
-        "supported": "true"
-      },
-      "russian": {
         "supported": "true"
       },
       "slovak": {
@@ -163,12 +166,52 @@
       },
       "spanish": {
         "supported": "true"
-      },
-      "swedish": {
-        "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "AnswerForGlory",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Answer For Glory",
+        "description_loc": {
+          "english": "Play Answer For Glory"
+        },
+        "executable": "Answer for Glory.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4800051": {
+      "manifests": {
+        "public": {
+          "download": "401007488",
+          "gid": "1601645698748192030",
+          "size": "931659566"
+        }
+      }
+    },
+    "baselanguages": "english,german,hungarian",
+    "branches": {
+      "public": {
+        "buildid": "24696467",
+        "timebuildupdated": "1786551746",
+        "timeupdated": "1786641534"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Glory Forge Games",
+    "publisher": "Glory Forge Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "20971520"
+  }
 }

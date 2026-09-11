@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789077977,
+  "_lastChecked": 1789084493,
   "_history": [
     {
       "buildId": "25098149",
@@ -20,10 +20,10 @@
       }
     }
   ],
-  "_change_number": 38681486,
+  "_change_number": 38776607,
   "_missing_token": false,
-  "_sha": "c4711a2c35e1f591495f6dab4380c1cb126abe8c",
-  "_size": 7537,
+  "_sha": "fde802a363ba53b40bc6a6284182e1417c3a3d63",
+  "_size": 7532,
   "appid": "1266470",
   "common": {
     "aicontenttype": "1",
@@ -189,12 +189,12 @@
       }
     },
     "steam_frame_compatibility": {
-      "category": "2",
+      "category": "3",
       "configuration": {
         "fdm_debug": "",
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
-        "non_deck_display_glyphs": "1",
+        "non_deck_display_glyphs": "0",
         "primary_player_is_controller_slot_0": "0",
         "recommended_runtime": "lepton-stable",
         "requires_h264": "0",
@@ -209,16 +209,16 @@
         "supported_input": "other",
         "tso_enable": "0"
       },
-      "test_timestamp": "1786457307",
-      "tested_build_id": "24344673",
+      "test_timestamp": "1789068131",
+      "tested_build_id": "25098149",
       "tests": {
         "0": {
-          "display": "3",
-          "token": "#SteamFrame_TestResult_ControllerGlyphsDoNotMatchDevice"
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "1": {
           "display": "4",
-          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+          "token": "#SteamFrame_TestResult_ControllerGlyphsMatchDevice"
         },
         "2": {
           "display": "4",

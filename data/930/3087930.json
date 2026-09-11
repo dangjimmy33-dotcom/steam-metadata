@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789080023,
+  "_lastChecked": 1789086955,
   "_history": [
     {
       "buildId": "25119848",
@@ -20,10 +20,10 @@
       }
     }
   ],
-  "_change_number": 38758558,
+  "_change_number": 38778011,
   "_missing_token": false,
-  "_sha": "f9a93606c2facdb030715091b503ba3a4a3e38fd",
-  "_size": 9667,
+  "_sha": "bb7340125bf4e3057bd91db98affaddca133471d",
+  "_size": 9260,
   "appid": "3087930",
   "common": {
     "associations": {
@@ -183,7 +183,7 @@
       "schinese": "e7699c1efcc2fc74aceae6d3894a22217f5f044c/capsule_231x87_schinese.jpg"
     },
     "steam_deck_compatibility": {
-      "category": "2",
+      "category": "3",
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
@@ -192,13 +192,13 @@
         "recommended_runtime": "proton-stable",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
-        "requires_internet_for_singleplayer": "1",
+        "requires_internet_for_singleplayer": "0",
         "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
-        "small_text": "1",
-        "supported_input": "gamepad"
+        "small_text": "0",
+        "supported_input": "other"
       },
       "steam_machine_compatibility": "3",
       "steam_machine_tests": {
@@ -213,10 +213,6 @@
         "2": {
           "display": "4",
           "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
-        },
-        "3": {
-          "display": "1",
-          "token": "#SteamMachine_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
         }
       },
       "steamos_compatibility": "2",
@@ -224,34 +220,26 @@
         "0": {
           "display": "3",
           "token": "#SteamOS_TestResult_GameStartupFunctional"
-        },
-        "1": {
-          "display": "1",
-          "token": "#SteamOS_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
         }
       },
-      "test_timestamp": "1776124800",
-      "tested_build_id": "22761204",
+      "test_timestamp": "1789048998",
+      "tested_build_id": "25119848",
       "tests": {
         "0": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
-        },
-        "1": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
-        "2": {
+        "1": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
         },
         "3": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
-        },
-        "4": {
-          "display": "1",
-          "token": "#SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
         }
       }
     },
