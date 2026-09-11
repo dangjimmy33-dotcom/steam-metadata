@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789088501,
+  "_lastChecked": 1789094764,
   "_history": [
     {
       "buildId": "25117592",
@@ -104,12 +104,30 @@
           "download": 347943456
         }
       }
+    },
+    {
+      "buildId": "25244311",
+      "branch": "macos-beta",
+      "timeUpdated": 1789093314,
+      "firstSeen": 1789094764,
+      "manifests": {
+        "4340602": {
+          "gid": "6748715554308083645",
+          "size": 689868844,
+          "download": 347943456
+        },
+        "4340603": {
+          "gid": "5515421818341154429",
+          "size": 580085632,
+          "download": 292648512
+        }
+      }
     }
   ],
-  "_change_number": 38745658,
+  "_change_number": 38779899,
   "_missing_token": false,
-  "_sha": "6d2991f0794a436db3a103f1e94762f2b6dc9206",
-  "_size": 4572,
+  "_sha": "bbbca23623367e4f8f7357f624ae607ba556197f",
+  "_size": 5397,
   "appid": "4340600",
   "common": {
     "aicontenttype": "1",
@@ -242,7 +260,22 @@
     "installdir": "Team Principal A Racing Manager",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "TeamPrincipal.exe"
+      },
+      "1": {
+        "config": {
+          "betakey": "macos-beta",
+          "oslist": "macos"
+        },
+        "description": "Play Team Principal (Apple Silicon)",
+        "description_loc": {
+          "english": "Play Team Principal (Apple Silicon)"
+        },
+        "executable": "TeamPrincipal.app",
+        "type": "default"
       }
     },
     "steamdecktouchscreen": "1"
@@ -254,6 +287,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "macos-beta": {
+          "download": "347943456",
+          "gid": "6748715554308083645",
+          "size": "689868844"
+        },
         "public": {
           "download": "347943456",
           "gid": "6748715554308083645",
@@ -271,8 +309,26 @@
         }
       }
     },
+    "4340603": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "macos-beta": {
+          "download": "292648512",
+          "gid": "5515421818341154429",
+          "size": "580085632"
+        }
+      }
+    },
     "baselanguages": "english",
     "branches": {
+      "macos-beta": {
+        "buildid": "25244311",
+        "description": "MacOS Beta",
+        "timebuildupdated": "1789093314",
+        "timeupdated": "1789093314"
+      },
       "public": {
         "buildid": "25220944",
         "timebuildupdated": "1789002842",

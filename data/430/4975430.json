@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1789089198,
-  "_history": [],
-  "_change_number": 38777160,
-  "_missing_token": true,
-  "_sha": "034c9732181e2423fd1ee0877f4e1aa07f697fdf",
-  "_size": 3014,
+  "_lastChecked": 1789095343,
+  "_history": [
+    {
+      "buildId": "25242108",
+      "branch": "beta",
+      "timeUpdated": 1789083271,
+      "firstSeen": 1789095343,
+      "manifests": {
+        "4975431": {
+          "gid": "740811896917800373",
+          "size": 1043140400,
+          "download": 622823456
+        },
+        "4975432": {
+          "gid": "5113096524857197807",
+          "size": 1008040776,
+          "download": 614216704
+        }
+      }
+    },
+    {
+      "buildId": "25242108",
+      "branch": "public",
+      "timeUpdated": 1789083319,
+      "firstSeen": 1789095343,
+      "manifests": {
+        "4975431": {
+          "gid": "740811896917800373",
+          "size": 1043140400,
+          "download": 622823456
+        },
+        "4975432": {
+          "gid": "5113096524857197807",
+          "size": 1008040776,
+          "download": 614216704
+        }
+      }
+    }
+  ],
+  "_change_number": 38779478,
+  "_missing_token": false,
+  "_sha": "997d529dc9433ce18bb040e45610492a09a7abdc",
+  "_size": 5405,
   "appid": "4975430",
   "common": {
     "aicontenttype": "1",
@@ -28,9 +65,9 @@
     },
     "clienticon": "b3f04134e28f7dbd50b31fce1510c94948c883d6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4975430",
     "genres": {
       "0": "1",
@@ -101,10 +138,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d4812bcfc1b3964e3605314da1e2b1d940f58f76/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788980963",
     "store_tags": {
       "0": "19",
@@ -133,5 +171,121 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gunmetal Orbit",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "GunmetalOrbit.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "GunmetalOrbit.x86_64",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4975431": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "622823456",
+          "gid": "740811896917800373",
+          "size": "1043140400"
+        },
+        "public": {
+          "download": "622823456",
+          "gid": "740811896917800373",
+          "size": "1043140400"
+        }
+      }
+    },
+    "4975432": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "614216704",
+          "gid": "5113096524857197807",
+          "size": "1008040776"
+        },
+        "public": {
+          "download": "614216704",
+          "gid": "5113096524857197807",
+          "size": "1008040776"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "25242108",
+        "description": "Staging - builds land here before promotion to default",
+        "timebuildupdated": "1789083271",
+        "timeupdated": "1789083271"
+      },
+      "public": {
+        "buildid": "25242108",
+        "timebuildupdated": "1789083271",
+        "timeupdated": "1789083319"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Austin Spraggins",
+    "homepage": "https://games.linecrush.com/gunmetal-orbit",
+    "publisher": "LineCrush Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "GunmetalOrbit",
+        "pattern": "spaceminer_save_slot_*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "GunmetalOrbit",
+        "pattern": "spaceminer_history.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "GunmetalOrbit",
+        "pattern": "spaceminer_lifetime.json",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

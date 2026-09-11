@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789089276,
-  "_history": [],
-  "_change_number": 38686543,
-  "_missing_token": true,
-  "_sha": "43e3cdef841b4b5d9ef7e31ddf828212a30260bf",
-  "_size": 4740,
+  "_lastChecked": 1789095409,
+  "_history": [
+    {
+      "buildId": "24920986",
+      "branch": "public",
+      "timeUpdated": 1787644396,
+      "firstSeen": 1789095409,
+      "manifests": {
+        "5057561": {
+          "gid": "5347125669257474300",
+          "size": 408762613,
+          "download": 335694256
+        }
+      }
+    }
+  ],
+  "_change_number": 38779456,
+  "_missing_token": false,
+  "_sha": "ced9deceedbea210499c773ff6cc12ffc3a79180",
+  "_size": 5694,
   "appid": "5057560",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +45,8 @@
     },
     "clienticon": "9c09f247e987b5037f9196107772e1f02cb33fa6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5057560",
     "genres": {
       "0": "23",
@@ -128,12 +142,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5c48048def493bce76025acf94e42cca4524b410/capsule_231x87.jpg",
       "schinese": "4742f4ed295a0626d75179cc8433903e4720f8d1/capsule_231x87_schinese.jpg",
       "tchinese": "4349d485d0bc0ab59ef520a99a5d4ac13a2064ca/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789091654",
     "store_asset_mtime": "1787644825",
     "store_tags": {
       "0": "9",
@@ -168,5 +183,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "仙门问长生",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "PickedUpDisciples.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5057561": {
+      "manifests": {
+        "public": {
+          "download": "335694256",
+          "gid": "5347125669257474300",
+          "size": "408762613"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "24920986",
+        "timebuildupdated": "1787633496",
+        "timeupdated": "1787644396"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "FunPlaceGame",
+    "publisher": "FunPlaceGame"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "PickedUpDisciples",
+        "pattern": "save_v16.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

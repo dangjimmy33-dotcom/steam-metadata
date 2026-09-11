@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789089198,
-  "_history": [],
-  "_change_number": 38760942,
-  "_missing_token": true,
-  "_sha": "706b72fd23d44f562b41bb247529deb98924fb7f",
-  "_size": 3201,
+  "_lastChecked": 1789095344,
+  "_history": [
+    {
+      "buildId": "25228804",
+      "branch": "public",
+      "timeUpdated": 1789036864,
+      "firstSeen": 1789095344,
+      "manifests": {
+        "4976641": {
+          "gid": "4281095100326362001",
+          "size": 2662659555,
+          "download": 2110637920
+        }
+      }
+    }
+  ],
+  "_change_number": 38779590,
+  "_missing_token": false,
+  "_sha": "c47b9ad81749ed048b9d05acc8bb36a438f0ccc7",
+  "_size": 3744,
   "appid": "4976640",
   "common": {
     "associations": {
@@ -30,7 +44,6 @@
     "clienticon": "d70faf3b14d22ddb651d7e54188b82a8d8478d00",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4976640",
     "genres": {
       "0": "3",
@@ -106,7 +119,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "971461e35bef0e460ab6cf2fedfd54eb04f47f9e/capsule_231x87.jpg"
     },
@@ -145,5 +158,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "封神归来",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Fengshen Returning Steam.exe"
+      }
+    }
+  },
+  "depots": {
+    "4976641": {
+      "manifests": {
+        "public": {
+          "download": "2110637920",
+          "gid": "4281095100326362001",
+          "size": "2662659555"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25228804",
+        "timebuildupdated": "1789036781",
+        "timeupdated": "1789036864"
+      }
+    }
+  },
+  "extended": {
+    "developer": "ruirui",
+    "isfreeapp": "1",
+    "publisher": "ruirui"
+  }
 }

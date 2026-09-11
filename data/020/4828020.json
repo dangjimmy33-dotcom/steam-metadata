@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789089032,
-  "_history": [],
-  "_change_number": 38778548,
-  "_missing_token": true,
-  "_sha": "613cd9b23e110c6087e0fcff11f06b3800841429",
-  "_size": 2836,
+  "_lastChecked": 1789095206,
+  "_history": [
+    {
+      "buildId": "25238644",
+      "branch": "public",
+      "timeUpdated": 1789069204,
+      "firstSeen": 1789095206,
+      "manifests": {
+        "4828021": {
+          "gid": "6894355234976379610",
+          "size": 2669230057,
+          "download": 2256254032
+        }
+      }
+    }
+  ],
+  "_change_number": 38778854,
+  "_missing_token": false,
+  "_sha": "16f33dd4640ed16177f38fceec00199cfc8012e5",
+  "_size": 3711,
   "appid": "4828020",
   "common": {
     "associations": {
@@ -32,7 +46,6 @@
     "clienticon": "a7aa2de599bc098f6b24175fae76735b08012b3b",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4828020",
     "genres": {
       "0": "1",
@@ -96,10 +109,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e4d646a92d9548319f826bdd37668a002aaf6e17/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789089645",
     "store_asset_mtime": "1786343175",
     "store_tags": {
       "0": "597",
@@ -131,5 +145,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Miss Killer Dream Rhythm Island",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Miss Killer Dream Rhythm Island/Miss Killer Dream Rhythm Island.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4828021": {
+      "manifests": {
+        "public": {
+          "download": "2256254032",
+          "gid": "6894355234976379610",
+          "size": "2669230057"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25238644",
+        "timebuildupdated": "1789069152",
+        "timeupdated": "1789069204"
+      }
+    }
+  },
+  "extended": {
+    "developer": "kaming",
+    "publisher": "kaming"
+  }
 }

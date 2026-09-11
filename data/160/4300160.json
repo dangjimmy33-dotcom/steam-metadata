@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789088457,
-  "_history": [],
-  "_change_number": 38659699,
-  "_missing_token": true,
-  "_sha": "9d0ce0eec05c16cd801a23bd70225a08d9b65615",
-  "_size": 3087,
+  "_lastChecked": 1789094726,
+  "_history": [
+    {
+      "buildId": "25162586",
+      "branch": "public",
+      "timeUpdated": 1788766340,
+      "firstSeen": 1789094726,
+      "manifests": {
+        "4300161": {
+          "gid": "7893785579114745380",
+          "size": 846118638,
+          "download": 670355392
+        },
+        "4300162": {
+          "gid": "4688865391546638447",
+          "size": 956380887,
+          "download": 708393984
+        }
+      }
+    }
+  ],
+  "_change_number": 38779017,
+  "_missing_token": false,
+  "_sha": "9613aa51cbdd5adbcc96707389a04bc6acca7883",
+  "_size": 4040,
   "appid": "4300160",
   "common": {
     "associations": {
@@ -36,7 +55,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4300160",
     "genres": {
       "0": "25",
@@ -107,11 +125,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "f4e05c4ab6765d08f858c3a8e9bad63f3e02dca2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789090210",
     "store_asset_mtime": "1768384496",
     "store_tags": {
       "0": "12095",
@@ -142,5 +161,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Goblin Gnight Garuru",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Game.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Game.app"
+      }
+    }
+  },
+  "depots": {
+    "4300161": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "670355392",
+          "gid": "7893785579114745380",
+          "size": "846118638"
+        }
+      }
+    },
+    "4300162": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "708393984",
+          "gid": "4688865391546638447",
+          "size": "956380887"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25162586",
+        "timebuildupdated": "1788766340",
+        "timeupdated": "1788766340"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Sleepy Mog Studio",
+    "homepage": "https://shadycorner.com/",
+    "publisher": "Shady Corner Games"
+  }
 }

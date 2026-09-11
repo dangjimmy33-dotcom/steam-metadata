@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789087656,
-  "_history": [],
-  "_change_number": 38753586,
-  "_missing_token": true,
-  "_sha": "6ee4c3706ed7d7f4f222ac97a705ba52adaa5f37",
-  "_size": 4429,
+  "_lastChecked": 1789094064,
+  "_history": [
+    {
+      "buildId": "25095413",
+      "branch": "public",
+      "timeUpdated": 1789093368,
+      "firstSeen": 1789094064,
+      "manifests": {
+        "3649691": {
+          "gid": "6919605426389980236",
+          "size": 405433712,
+          "download": 297751728
+        }
+      }
+    }
+  ],
+  "_change_number": 38780049,
+  "_missing_token": false,
+  "_sha": "e74addc5f56ae39f48c9980338b72b1524683f84",
+  "_size": 6330,
   "appid": "3649690",
   "common": {
     "associations": {
@@ -36,8 +50,8 @@
     "clienticon": "9f5dcfd2546ed571b7d5a3d782b2412919d43909",
     "clienttga": "355ba97229c1c462b48020be59942c132d3d4077",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3649690",
     "genres": {
       "0": "25",
@@ -129,11 +143,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "86e82377a0c554dc4fef0118fda3447fa3ffd1c9/capsule_231x87.jpg",
       "schinese": "86e82377a0c554dc4fef0118fda3447fa3ffd1c9/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789093916",
     "store_asset_mtime": "1788158530",
     "store_tags": {
       "0": "1091588",
@@ -169,5 +184,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "NightParkJournal",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "NightparkJournal.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3649691": {
+      "manifests": {
+        "public": {
+          "download": "297751728",
+          "gid": "6919605426389980236",
+          "size": "405433712"
+        }
+      }
+    },
+    "baselanguages": "schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25095413",
+        "timebuildupdated": "1788414694",
+        "timeupdated": "1789093368"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "升海宫",
+    "publisher": "OFF LAB"
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "5000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Hysendia/NightparkJournal/{64BitSteamID}",
+            "replace": "unity.Hysendia.NightparkJournal/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Hysendia/NightparkJournal/{64BitSteamID}",
+            "replace": ".config/unity3d/Hysendia/NightparkJournal/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Hysendia/NightparkJournal/{64BitSteamID}",
+        "pattern": "NightparkJournal_AutoSave.sav",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Hysendia/NightparkJournal/{64BitSteamID}",
+        "pattern": "NightparkJournal_AutoSave.sav.autocloud_migration_v1",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Hysendia/NightparkJournal/{64BitSteamID}",
+        "pattern": "NightparkJournal_AutoSave.sav.legacy_cloud_migration_pending",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789089181,
-  "_history": [],
-  "_change_number": 38710834,
-  "_missing_token": true,
-  "_sha": "abd71bacbad7183c01d0589f26cf59098fbde44f",
-  "_size": 3083,
+  "_lastChecked": 1789095329,
+  "_history": [
+    {
+      "buildId": "25243752",
+      "branch": "public",
+      "timeUpdated": 1789091031,
+      "firstSeen": 1789095329,
+      "manifests": {
+        "4959801": {
+          "gid": "2747926407237803269",
+          "size": 422572865,
+          "download": 413125712
+        },
+        "4959802": {
+          "gid": "3024312753530288442",
+          "size": 439661859,
+          "download": 419561616
+        }
+      }
+    }
+  ],
+  "_change_number": 38779996,
+  "_missing_token": false,
+  "_sha": "ffc16fbb1fc6e41baf18d483936544be71d5c820",
+  "_size": 4145,
   "appid": "4959800",
   "common": {
     "aicontenttype": "1",
@@ -28,12 +47,12 @@
     "clienticon": "f97fb4de1b55912c471a2b7a903ad5f70bcf7e7f",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4959800",
     "genres": {
       "0": "4",
       "1": "23",
-      "2": "18"
+      "2": "18",
+      "3": "37"
     },
     "header_image": {
       "english": "bf38c1ec45f49a8cf9e65164c1e0c386a417527d/header.jpg"
@@ -100,11 +119,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f9b7499c7c3c798c2851792a8472d75207a05413/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1787028214",
+    "steam_release_date": "1789091388",
+    "store_asset_mtime": "1789093604",
     "store_tags": {
       "0": "701",
       "1": "3959",
@@ -136,5 +156,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pool Shark",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "PoolShark.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Pool Shark.app"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4959801": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "413125712",
+          "gid": "2747926407237803269",
+          "size": "422572865"
+        }
+      }
+    },
+    "4959802": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "419561616",
+          "gid": "3024312753530288442",
+          "size": "439661859"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25243752",
+        "timebuildupdated": "1789090775",
+        "timeupdated": "1789091031"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Motivation Stack LLC",
+    "homepage": "https://motivationstack.com",
+    "isfreeapp": "1",
+    "publisher": "Motivation Stack LLC"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789089182,
-  "_history": [],
-  "_change_number": 37924271,
-  "_missing_token": true,
-  "_sha": "aac0cc1d82bcea5be1195a068fe3456765d60a76",
-  "_size": 4679,
+  "_lastChecked": 1789095330,
+  "_history": [
+    {
+      "buildId": "24546890",
+      "branch": "public",
+      "timeUpdated": 1785828153,
+      "firstSeen": 1789095330,
+      "manifests": {
+        "4960781": {
+          "gid": "3363006891536090237",
+          "size": 266633787,
+          "download": 99444480
+        }
+      }
+    }
+  ],
+  "_change_number": 38779404,
+  "_missing_token": false,
+  "_sha": "e68bb2c99f0812f7b246f73999096566608a13cf",
+  "_size": 5238,
   "appid": "4960780",
   "common": {
     "aicontenttype": "1",
@@ -38,8 +52,8 @@
     },
     "clienticon": "bdacbac6b3fd555492bf5aadbc97a2383c46eb83",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4960780",
     "genres": {
       "0": "4"
@@ -132,12 +146,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5bae9f6ece8d703856773963aea98467bc14e918/capsule_231x87.jpg",
       "schinese": "136a87f35ac9e3305b23d47f4d440c173c9d2054/capsule_231x87_schinese.jpg",
       "tchinese": "136a87f35ac9e3305b23d47f4d440c173c9d2054/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789091519",
     "store_asset_mtime": "1784975020",
     "store_tags": {
       "0": "597",
@@ -165,5 +180,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Solitaire Adventure",
+    "launch": {
+      "0": {
+        "executable": "Solitaire Adventure.exe"
+      }
+    }
+  },
+  "depots": {
+    "4960781": {
+      "manifests": {
+        "public": {
+          "download": "99444480",
+          "gid": "3363006891536090237",
+          "size": "266633787"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24546890",
+        "timebuildupdated": "1785828024",
+        "timeupdated": "1785828153"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SKYREACH INTERACTIVE",
+    "publisher": "S399TEAM"
+  }
 }

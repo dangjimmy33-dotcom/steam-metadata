@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789086633,
+  "_lastChecked": 1789093213,
   "_history": [
     {
       "buildId": "25016444",
@@ -26,11 +26,37 @@
           "download": 17452000
         }
       }
+    },
+    {
+      "buildId": "25243081",
+      "branch": "nosteamworks",
+      "timeUpdated": 1789087807,
+      "firstSeen": 1789093213,
+      "manifests": {
+        "2836071": {
+          "gid": "8251898565508477052",
+          "size": 45073422,
+          "download": 17408960
+        }
+      }
+    },
+    {
+      "buildId": "25243088",
+      "branch": "public",
+      "timeUpdated": 1789087940,
+      "firstSeen": 1789093213,
+      "manifests": {
+        "2836071": {
+          "gid": "3462379554613235799",
+          "size": 45286702,
+          "download": 17491040
+        }
+      }
     }
   ],
-  "_change_number": 38777186,
+  "_change_number": 38778369,
   "_missing_token": false,
-  "_sha": "b6bec68066cea2957e66588388c8e1c7e0b3a01f",
+  "_sha": "ffe46c9a01038f424455c1364c55eb58d0de15df",
   "_size": 6764,
   "appid": "2836070",
   "common": {
@@ -275,28 +301,28 @@
     "2836071": {
       "manifests": {
         "nosteamworks": {
-          "download": "17367504",
-          "gid": "8656334682122608949",
-          "size": "44946462"
+          "download": "17408960",
+          "gid": "8251898565508477052",
+          "size": "45073422"
         },
         "public": {
-          "download": "17452000",
-          "gid": "6112433221980054635",
-          "size": "45167934"
+          "download": "17491040",
+          "gid": "3462379554613235799",
+          "size": "45286702"
         }
       }
     },
     "branches": {
       "nosteamworks": {
-        "buildid": "25016444",
+        "buildid": "25243081",
         "description": "Version without steamworks, to fix any compatibility issues. Achievements, skirmishes and cloud saves will not work.",
-        "timebuildupdated": "1788054196",
-        "timeupdated": "1788054197"
+        "timebuildupdated": "1789087806",
+        "timeupdated": "1789087807"
       },
       "public": {
-        "buildid": "25016450",
-        "timebuildupdated": "1788054226",
-        "timeupdated": "1788054282"
+        "buildid": "25243088",
+        "timebuildupdated": "1789087853",
+        "timeupdated": "1789087940"
       }
     }
   },

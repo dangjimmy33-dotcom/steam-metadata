@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789087572,
+  "_lastChecked": 1789093995,
   "_history": [
     {
       "buildId": "24827183",
@@ -41,10 +41,10 @@
       }
     }
   ],
-  "_change_number": 38710613,
+  "_change_number": 38779180,
   "_missing_token": false,
-  "_sha": "dd9b32971e38aaf6dc30b811e9a489130ebbf872",
-  "_size": 5611,
+  "_sha": "e941cab1d83044739aac67995e2493a05cfe31cb",
+  "_size": 5838,
   "appid": "3583790",
   "common": {
     "associations": {
@@ -140,12 +140,11 @@
     },
     "linuxclienticon": "22b3008030540291e9df0a5f6fb4b226a93d55a0",
     "name": "Virtual Skate",
-    "onlyvrsupport": "1",
     "openvrsupport": "1",
     "openxrsupport": "1",
     "osarch": "64",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,android",
     "othervrsupport": "1",
     "othervrsupport_rift_13": "1",
     "primary_genre": "18",
@@ -262,11 +261,20 @@
         },
         "executable": "Virtual Skate.exe",
         "type": "othervr"
+      },
+      "3": {
+        "config": {
+          "oslist": "android"
+        },
+        "executable": "Virtual Skate.apk"
       }
     }
   },
   "depots": {
     "3583791": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "download": "3636047440",
@@ -274,6 +282,12 @@
           "size": "7033217644"
         }
       }
+    },
+    "3583792": {
+      "config": {
+        "oslist": "android"
+      },
+      "manifests": {}
     },
     "branches": {
       "public": {

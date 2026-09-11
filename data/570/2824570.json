@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789086619,
-  "_history": [],
-  "_change_number": 38721259,
-  "_missing_token": true,
-  "_sha": "ed95eb9a1b070382b3dfcf2fbc397d64af5b7d48",
-  "_size": 6774,
+  "_lastChecked": 1789093200,
+  "_history": [
+    {
+      "buildId": "25243503",
+      "branch": "public",
+      "timeUpdated": 1789090298,
+      "firstSeen": 1789093200,
+      "manifests": {
+        "2824571": {
+          "gid": "6067441795616093520",
+          "size": 7822082788,
+          "download": 1959395488
+        }
+      }
+    }
+  ],
+  "_change_number": 38779614,
+  "_missing_token": false,
+  "_sha": "fe4adb73886ef34c7a762212eb448fc7c9fe77d3",
+  "_size": 8094,
   "appid": "2824570",
   "common": {
     "associations": {
@@ -33,6 +47,7 @@
     },
     "clienticon": "cd5b6e284da209bbb8df78b3a4f1bb04a733730e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -48,7 +63,6 @@
       "4": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2824570",
     "genres": {
       "0": "25",
@@ -164,7 +178,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "28a6cd79cb2139a3a88361b89436148c85dcbf6e/capsule_231x87.jpg",
@@ -173,6 +187,7 @@
       "schinese": "8058f36c2fbf787e19fe6484e668ef87fb80989f/capsule_231x87_schinese.jpg",
       "tchinese": "ccd847aade3e95d2d223840937063feee993a5f7/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789092325",
     "store_asset_mtime": "1781792575",
     "store_tags": {
       "0": "9130",
@@ -221,5 +236,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "StarbornReturn",
+    "launch": {
+      "0": {
+        "executable": "The Starborn Return.exe"
+      }
+    }
+  },
+  "depots": {
+    "2824571": {
+      "manifests": {
+        "public": {
+          "download": "1959395488",
+          "gid": "6067441795616093520",
+          "size": "7822082788"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25243503",
+        "timebuildupdated": "1789089762",
+        "timeupdated": "1789090298"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "developer": "Backflip WildCAT",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5030110",
+    "publisher": "Mango Party"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "Tanoshi/The Starborn Return/Full/Save",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Tanoshi/The Starborn Return/Full/Config",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Tanoshi/The Starborn Return/NaninovelData/Saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
