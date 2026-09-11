@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789126419,
-  "_history": [],
-  "_change_number": 38678483,
-  "_missing_token": true,
-  "_sha": "d92820f06ecf73383ed38b0e4f8946411112b214",
-  "_size": 2998,
+  "_lastChecked": 1789132621,
+  "_history": [
+    {
+      "buildId": "25025839",
+      "branch": "public",
+      "timeUpdated": 1788124427,
+      "firstSeen": 1789132621,
+      "manifests": {
+        "3182011": {
+          "gid": "37759861056955443",
+          "size": 866321334,
+          "download": 591768032
+        }
+      }
+    }
+  ],
+  "_change_number": 38793720,
+  "_missing_token": false,
+  "_sha": "84f61c7bbe5459fc4f070a2a8aeaf8d4d1947f2c",
+  "_size": 3961,
   "appid": "3182010",
   "common": {
     "associations": {
@@ -24,6 +38,7 @@
     },
     "clienticon": "aba8e8492bfd0a6145ec5cb1ae2796f448dd3d10",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -31,7 +46,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3182010",
     "genres": {
       "0": "4",
@@ -102,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "91e4cd13f71a26e4b6d9d472f06a6d3aa4dd1fcb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789131630",
     "store_asset_mtime": "1787469455",
     "store_tags": {
       "0": "597",
@@ -134,5 +149,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MadMadsMadsen",
+    "launch": {
+      "0": {
+        "executable": "MadMadsMadsen.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3182011": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "591768032",
+          "gid": "37759861056955443",
+          "size": "866321334"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25025839",
+        "timebuildupdated": "1788124357",
+        "timeupdated": "1788124427"
+      }
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Tomas Fawkes",
+    "publisher": "Tomas Fawkes",
+    "remoteplaytogethertestingbranches": "default"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "500000000"
+  }
 }

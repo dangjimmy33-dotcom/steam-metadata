@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789128299,
+  "_lastChecked": 1789134231,
   "_history": [
     {
       "buildId": "25208390",
@@ -13,12 +13,25 @@
           "download": 1399384000
         }
       }
+    },
+    {
+      "buildId": "25253889",
+      "branch": "public",
+      "timeUpdated": 1789131618,
+      "firstSeen": 1789134231,
+      "manifests": {
+        "4900941": {
+          "gid": "8544422298313971015",
+          "size": 1709054650,
+          "download": 1562217216
+        }
+      }
     }
   ],
-  "_change_number": 38757158,
+  "_change_number": 38793765,
   "_missing_token": false,
-  "_sha": "a3714a07a437a7e9b6f7a935328c31881e39559a",
-  "_size": 4805,
+  "_sha": "18a3ae5ff3ce624dcc54fb427ed99a1e2c1947a3",
+  "_size": 4928,
   "appid": "4900940",
   "common": {
     "aicontenttype": "1",
@@ -210,6 +223,12 @@
           "oslist": "windows"
         },
         "executable": "CollegeCasual-1.0-pc\\CollegeCasual.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "CollegeCasual-1.0-pc/CollegeCasual.sh"
       }
     }
   },
@@ -217,17 +236,17 @@
     "4900941": {
       "manifests": {
         "public": {
-          "download": "1399384000",
-          "gid": "6010431214622644396",
-          "size": "1542994238"
+          "download": "1562217216",
+          "gid": "8544422298313971015",
+          "size": "1709054650"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25208390",
-        "timebuildupdated": "1788957003",
-        "timeupdated": "1788957005"
+        "buildid": "25253889",
+        "timebuildupdated": "1789131579",
+        "timeupdated": "1789131618"
       }
     }
   },

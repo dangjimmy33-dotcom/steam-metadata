@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789128007,
+  "_lastChecked": 1789133980,
   "_history": [
     {
       "buildId": "22846827",
@@ -26,12 +26,25 @@
           "download": 339132336
         }
       }
+    },
+    {
+      "buildId": "25253654",
+      "branch": "public",
+      "timeUpdated": 1789131141,
+      "firstSeen": 1789133980,
+      "manifests": {
+        "4598941": {
+          "gid": "2700516700320436535",
+          "size": 1529899200,
+          "download": 343745184
+        }
+      }
     }
   ],
-  "_change_number": 38790803,
+  "_change_number": 38793705,
   "_missing_token": false,
-  "_sha": "94b2ed4ed1a1048516fcd73dedf89b0d6f6e5c92",
-  "_size": 7199,
+  "_sha": "2ddb768f98c9f58dfbd3e6589a81a48d1fdf3caf",
+  "_size": 7288,
   "appid": "4598940",
   "common": {
     "aicontenttype": "1",
@@ -53,11 +66,6 @@
       "category_28": "1",
       "category_52": "1",
       "category_53": "1",
-      "category_55": "1",
-      "category_56": "1",
-      "category_57": "1",
-      "category_58": "1",
-      "category_59": "1",
       "category_62": "1"
     },
     "clienticon": "47e3ad69248cbaff02ea01b21951e32f36a8ed86",
@@ -290,35 +298,49 @@
     "installdir": "Last Dive Echo Trench",
     "launch": {
       "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Last Dive: Echo Trench",
+        "description_loc": {
+          "english": "Play Last Dive: Echo Trench"
+        },
         "executable": "Last Dive Echo Trench.exe",
         "type": "default"
       },
       "1": {
+        "arguments": "-vr",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play in VR",
+        "description_loc": {
+          "english": "Play in VR"
+        },
         "executable": "Last Dive Echo Trench.exe",
         "type": "openxr"
       }
     },
-    "steamconfigurator3rdpartynative": "65535",
-    "steamcontrollertemplateindex": "13",
-    "steamdecktouchscreen": "1",
-    "steaminputmanifestpath": "Last Dive Echo Trench_Data/StreamingAssets/SteamInput/lastdive_actions.vdf"
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "4598941": {
       "manifests": {
         "public": {
-          "download": "339132336",
-          "gid": "234621069593956141",
-          "size": "1528543724"
+          "download": "343745184",
+          "gid": "2700516700320436535",
+          "size": "1529899200"
         }
       }
     },
     "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
     "branches": {
       "public": {
-        "buildid": "25251565",
-        "timebuildupdated": "1789124006",
-        "timeupdated": "1789124048"
+        "buildid": "25253654",
+        "timebuildupdated": "1789130858",
+        "timeupdated": "1789131141"
       }
     }
   },

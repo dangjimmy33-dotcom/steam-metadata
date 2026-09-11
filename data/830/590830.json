@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789123197,
+  "_lastChecked": 1789129908,
   "_history": [
     {
       "buildId": "8004811",
@@ -1044,12 +1044,63 @@
           "download": 16221325680
         }
       }
+    },
+    {
+      "buildId": "25253137",
+      "branch": "animgraph2",
+      "timeUpdated": 1789129246,
+      "firstSeen": 1789129908,
+      "manifests": {
+        "590831": {
+          "gid": "6360509659667392415",
+          "size": 3897995549,
+          "download": 2963335168
+        },
+        "590832": {
+          "gid": "6818209502408305129",
+          "size": 582598593,
+          "download": 241118048
+        },
+        "590838": {
+          "gid": "6329466737456331656",
+          "size": 18764479050,
+          "download": 16221325680
+        }
+      }
+    },
+    {
+      "buildId": "25252641",
+      "branch": "staging",
+      "timeUpdated": 1789127633,
+      "firstSeen": 1789129908,
+      "manifests": {
+        "590831": {
+          "gid": "6143298879402133944",
+          "size": 4251662798,
+          "download": 3086855600
+        },
+        "590832": {
+          "gid": "201189135479624286",
+          "size": 583025200,
+          "download": 243330592
+        },
+        "590833": {
+          "gid": "3267127556523273842",
+          "size": 2297058164,
+          "download": 379688752
+        },
+        "590838": {
+          "gid": "6329466737456331656",
+          "size": 18764479050,
+          "download": 16221325680
+        }
+      }
     }
   ],
-  "_change_number": 38789816,
+  "_change_number": 38792620,
   "_missing_token": false,
-  "_sha": "7f7c3edf698d667e8e16d2966aed7f61b688006b",
-  "_size": 11031,
+  "_sha": "bb9106b320ed29fc2ef44e0864600fd157c96898",
+  "_size": 11153,
   "appid": "590830",
   "common": {
     "aicontenttype": "1",
@@ -1276,8 +1327,14 @@
   "config": {
     "app_mappings": {
       "0": {
+        "branch": "default",
         "platform": "linux",
         "tool": "SteamLinuxRuntime_sniper"
+      },
+      "1": {
+        "branch": "staging",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
       }
     },
     "installdir": "sbox",
@@ -1362,9 +1419,9 @@
           "size": "3125207021"
         },
         "animgraph2": {
-          "download": "2989112320",
-          "gid": "5332419718150975045",
-          "size": "3942215674"
+          "download": "2963335168",
+          "gid": "6360509659667392415",
+          "size": "3897995549"
         },
         "public": {
           "download": "3086757376",
@@ -1372,9 +1429,9 @@
           "size": "4251484755"
         },
         "staging": {
-          "download": "3086777024",
-          "gid": "1901844662069617695",
-          "size": "4251542127"
+          "download": "3086855600",
+          "gid": "6143298879402133944",
+          "size": "4251662798"
         }
       }
     },
@@ -1385,9 +1442,9 @@
       },
       "manifests": {
         "animgraph2": {
-          "download": "241118224",
-          "gid": "6416798550106633720",
-          "size": "582599105"
+          "download": "241118048",
+          "gid": "6818209502408305129",
+          "size": "582598593"
         },
         "public": {
           "download": "243299184",
@@ -1395,9 +1452,9 @@
           "size": "582902269"
         },
         "staging": {
-          "download": "243320368",
-          "gid": "7302920004190218269",
-          "size": "582981495"
+          "download": "243330592",
+          "gid": "201189135479624286",
+          "size": "583025200"
         }
       }
     },
@@ -1413,9 +1470,9 @@
           "size": "2523561649"
         },
         "staging": {
-          "download": "380137168",
-          "gid": "6974917162712858587",
-          "size": "2523640907"
+          "download": "379688752",
+          "gid": "3267127556523273842",
+          "size": "2297058164"
         }
       }
     },
@@ -1488,10 +1545,10 @@
         "timeupdated": "1749202478"
       },
       "animgraph2": {
-        "buildid": "25251062",
+        "buildid": "25253137",
         "description": "experimental - testing only",
-        "timebuildupdated": "1789122503",
-        "timeupdated": "1789122503"
+        "timebuildupdated": "1789129246",
+        "timeupdated": "1789129246"
       },
       "public": {
         "buildid": "25231158",
@@ -1499,10 +1556,10 @@
         "timeupdated": "1789044793"
       },
       "staging": {
-        "buildid": "25249706",
+        "buildid": "25252641",
         "description": "Bleeding edge builds",
-        "timebuildupdated": "1789118033",
-        "timeupdated": "1789118033"
+        "timebuildupdated": "1789127633",
+        "timeupdated": "1789127633"
       }
     },
     "privatebranches": "1",

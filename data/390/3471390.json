@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789126754,
+  "_lastChecked": 1789132906,
   "_history": [
     {
       "buildId": "18910029",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 37468798,
+  "_change_number": 38794080,
   "_missing_token": false,
-  "_sha": "e26f543c7bd49e1c0d8c444ca250950946c3cffc",
-  "_size": 5143,
+  "_sha": "f17b53521f10243aa50ea63257437eb6d0d70134",
+  "_size": 5523,
   "appid": "3471390",
   "common": {
     "associations": {
@@ -110,9 +110,10 @@
     "name": "Escaping Wonderland",
     "onlyvrsupport": "1",
     "openvrsupport": "1",
+    "openxrsupport": "1",
     "osarch": "64",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,android",
     "primary_genre": "25",
     "releasestate": "released",
     "review_percentage": "87",
@@ -216,8 +217,22 @@
     "installdir": "Escaping Wonderland",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "Spectre.exe",
         "type": "vr"
+      },
+      "1": {
+        "config": {
+          "oslist": "android"
+        },
+        "description": "Escaping Wonderland",
+        "description_loc": {
+          "english": "Escaping Wonderland"
+        },
+        "executable": "Spectre.apk",
+        "type": "openxr"
       }
     }
   },
@@ -229,6 +244,11 @@
           "gid": "6146706643407546780",
           "size": "1186647588"
         }
+      }
+    },
+    "3471392": {
+      "config": {
+        "oslist": "android"
       }
     },
     "branches": {

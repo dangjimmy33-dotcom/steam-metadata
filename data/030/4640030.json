@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789128050,
+  "_lastChecked": 1789134016,
   "_history": [
     {
       "buildId": "23387329",
@@ -36,12 +36,30 @@
           "download": 39651552
         }
       }
+    },
+    {
+      "buildId": "25254051",
+      "branch": "beta",
+      "timeUpdated": 1789132158,
+      "firstSeen": 1789134016,
+      "manifests": {
+        "4640031": {
+          "gid": "8913211943472617521",
+          "size": 37238273,
+          "download": 23764640
+        },
+        "4640032": {
+          "gid": "7722866148678112656",
+          "size": 53444295,
+          "download": 32131872
+        }
+      }
     }
   ],
-  "_change_number": 38791312,
+  "_change_number": 38793958,
   "_missing_token": false,
-  "_sha": "95ea302f2ee8e5b9c51efd2f66983983f9175d22",
-  "_size": 5063,
+  "_sha": "a6a2cf795029fb15ccc3470d7433b2d2a8933a6a",
+  "_size": 5058,
   "appid": "4640030",
   "common": {
     "associations": {
@@ -177,7 +195,7 @@
     "app_mappings": {
       "0": {
         "platform": "linux",
-        "tool": "SteamLinuxRuntime_sniper"
+        "tool": "SteamLinuxRuntime_4"
       }
     },
     "installdir": "TeeworldsArchive",
@@ -203,9 +221,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "33053248",
-          "gid": "5157381038351187307",
-          "size": "57304562"
+          "download": "23764640",
+          "gid": "8913211943472617521",
+          "size": "37238273"
         },
         "public": {
           "download": "33053248",
@@ -220,9 +238,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "39651552",
-          "gid": "5717871688656117907",
-          "size": "52308672"
+          "download": "32131872",
+          "gid": "7722866148678112656",
+          "size": "53444295"
         },
         "public": {
           "download": "39651552",
@@ -234,10 +252,10 @@
     "baselanguages": "english,schinese,tchinese",
     "branches": {
       "beta": {
-        "buildid": "23387329",
+        "buildid": "25254051",
         "description": "Github latest build",
-        "timebuildupdated": "1779643354",
-        "timeupdated": "1779643428"
+        "timebuildupdated": "1789132158",
+        "timeupdated": "1789132158"
       },
       "public": {
         "buildid": "23387329",

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789128473,
-  "_history": [],
-  "_change_number": 38769927,
-  "_missing_token": true,
-  "_sha": "5afd87fe0a9ba7674353ed75eb40ad804b892de8",
-  "_size": 3610,
+  "_lastChecked": 1789134381,
+  "_history": [
+    {
+      "buildId": "25236901",
+      "branch": "public",
+      "timeUpdated": 1789063029,
+      "firstSeen": 1789134381,
+      "manifests": {
+        "5088711": {
+          "gid": "8210235473543638958",
+          "size": 7041753607,
+          "download": 1169609728
+        }
+      }
+    }
+  ],
+  "_change_number": 38792618,
+  "_missing_token": false,
+  "_sha": "d3a2f86f6eafa3b0291d9695f877f7f5a2e62d4f",
+  "_size": 4452,
   "appid": "5088710",
   "common": {
     "associations": {
@@ -38,7 +52,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5088710",
     "genres": {
       "0": "25",
@@ -111,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fddb2fadcbf8d7a5d8f79ffc5e506c8fae14e194/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789129237",
     "store_asset_mtime": "1788513292",
     "store_tags": {
       "0": "599",
@@ -172,5 +186,51 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Good Job - Prologue",
+    "launch": {
+      "0": {
+        "executable": "GoodJob.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5088711": {
+      "manifests": {
+        "public": {
+          "download": "1169609728",
+          "gid": "8210235473543638958",
+          "size": "7041753607"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25236901",
+        "timebuildupdated": "1789062961",
+        "timeupdated": "1789063029"
+      }
+    }
+  },
+  "extended": {
+    "developer": "GiggleFart Studio",
+    "homepage": "https://www.goodjobsimulator.com",
+    "isfreeapp": "1",
+    "publisher": "PlayWay S.A."
+  }
 }

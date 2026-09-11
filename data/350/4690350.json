@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789128098,
-  "_history": [],
-  "_change_number": 38475258,
-  "_missing_token": true,
-  "_sha": "e474b6189f81984190a3a2f5ab8bb8a4bf7f843f",
-  "_size": 3194,
+  "_lastChecked": 1789134058,
+  "_history": [
+    {
+      "buildId": "24501601",
+      "branch": "public",
+      "timeUpdated": 1785535831,
+      "firstSeen": 1789134058,
+      "manifests": {
+        "4690351": {
+          "gid": "2495859953706491464",
+          "size": 114648056,
+          "download": 43962608
+        }
+      }
+    }
+  ],
+  "_change_number": 38792275,
+  "_missing_token": false,
+  "_sha": "cfe2f3cd8e8b604d6012e3aaf17406c96f013105",
+  "_size": 4245,
   "appid": "4690350",
   "common": {
     "associations": {
@@ -19,14 +33,11 @@
     },
     "category": {
       "category_2": "1",
-      "category_22": "1",
-      "category_23": "1",
       "category_62": "1"
     },
     "clienticon": "b2124b1f420116f25fb44413913e7ccf1f36448b",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4690350",
     "genres": {
       "0": "1",
@@ -99,7 +110,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "00e2e9aa7536c26cbf873cf5a49fcb765e041ed4/capsule_231x87.jpg"
     },
@@ -146,5 +157,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Rungeon_Tails_PC",
+    "launch": {
+      "0": {
+        "arguments": "Rungeon_Tails",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Rungeon Tails",
+        "description_loc": {
+          "english": "Rungeon Tails"
+        },
+        "executable": "Rungeon_Tails.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "3",
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4690351": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "43962608",
+          "gid": "2495859953706491464",
+          "size": "114648056"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24501601",
+        "timebuildupdated": "1785535759",
+        "timeupdated": "1785535831"
+      }
+    }
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "Yazan ili pika",
+    "publisher": "QuanticXero"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "100000000",
+    "sync_while_suspended": "1"
+  }
 }

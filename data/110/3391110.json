@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789126660,
+  "_lastChecked": 1789132826,
   "_history": [
     {
       "buildId": "17934871",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38290762,
+  "_change_number": 38793945,
   "_missing_token": false,
-  "_sha": "9af84ba4d95042bf1479ecf2f649376cf13046b7",
-  "_size": 3835,
+  "_sha": "1e687e92909299b5a51eff6e3f5c954173f96c01",
+  "_size": 4972,
   "appid": "3391110",
   "common": {
     "associations": {
@@ -121,6 +121,47 @@
     "review_score": "5",
     "small_capsule": {
       "english": "0af0c5833cbe33f8173340de5c72a42babb9cbd5/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "1",
+      "steam_machine_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "steamos_compatibility": "1",
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "test_timestamp": "1788526905",
+      "tested_build_id": "17934871",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+        }
+      }
     },
     "steam_release_date": "1738332502",
     "store_asset_mtime": "1737345221",

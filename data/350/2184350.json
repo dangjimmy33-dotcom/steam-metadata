@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789125221,
+  "_lastChecked": 1789131606,
   "_history": [
     {
       "buildId": "22444892",
@@ -57,12 +57,38 @@
           "download": 1278339984
         }
       }
+    },
+    {
+      "buildId": "24496320",
+      "branch": "legacy",
+      "timeUpdated": 1785536227,
+      "firstSeen": 1789131606,
+      "manifests": {
+        "2184351": {
+          "gid": "7516274201988656725",
+          "size": 7907841512,
+          "download": 1278339984
+        }
+      }
+    },
+    {
+      "buildId": "25253237",
+      "branch": "public",
+      "timeUpdated": 1789131423,
+      "firstSeen": 1789131606,
+      "manifests": {
+        "2184351": {
+          "gid": "7605807471235547572",
+          "size": 9129073326,
+          "download": 1602070624
+        }
+      }
     }
   ],
-  "_change_number": 38766233,
+  "_change_number": 38793688,
   "_missing_token": false,
-  "_sha": "b0b999d31dc3f387982528dc0d56c0703c6a85ca",
-  "_size": 8673,
+  "_sha": "99dd31f8e4683fbfb78698ac504a59cd484f4586",
+  "_size": 8695,
   "appid": "2184350",
   "common": {
     "associations": {
@@ -115,6 +141,7 @@
     },
     "icon": "6f166664cc3311531cd69b5dcf6fc5adc168c1d9",
     "languages": {
+      "brazilian": "1",
       "english": "1",
       "schinese": "1"
     },
@@ -323,9 +350,9 @@
           "size": "7729745526"
         },
         "legacy": {
-          "download": "647255968",
-          "gid": "345004584084304176",
-          "size": "6500457341"
+          "download": "1278339984",
+          "gid": "7516274201988656725",
+          "size": "7907841512"
         },
         "local": {
           "download": "202630048",
@@ -333,9 +360,9 @@
           "size": "3284124439"
         },
         "public": {
-          "download": "1278339984",
-          "gid": "7516274201988656725",
-          "size": "7907841512"
+          "download": "1602070624",
+          "gid": "7605807471235547572",
+          "size": "9129073326"
         }
       }
     },
@@ -364,10 +391,10 @@
         "timeupdated": "1774089225"
       },
       "legacy": {
-        "buildid": "20722502",
+        "buildid": "24496320",
         "description": "Keep playing where you left off with full save compatibility.",
-        "timebuildupdated": "1762612505",
-        "timeupdated": "1773960052"
+        "timebuildupdated": "1785512849",
+        "timeupdated": "1785536227"
       },
       "local": {
         "buildid": "10738914",
@@ -377,9 +404,9 @@
         "timeupdated": "1678450015"
       },
       "public": {
-        "buildid": "24496320",
-        "timebuildupdated": "1785512849",
-        "timeupdated": "1785536227"
+        "buildid": "25253237",
+        "timebuildupdated": "1789129539",
+        "timeupdated": "1789131423"
       }
     },
     "privatebranches": "1"

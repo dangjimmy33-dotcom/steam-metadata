@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789127692,
-  "_history": [],
-  "_change_number": 38787424,
-  "_missing_token": true,
-  "_sha": "b8c48be233985e1338c286bfe751a94011fcf75c",
-  "_size": 3047,
+  "_lastChecked": 1789133711,
+  "_history": [
+    {
+      "buildId": "25252729",
+      "branch": "public",
+      "timeUpdated": 1789127894,
+      "firstSeen": 1789133711,
+      "manifests": {
+        "4300471": {
+          "gid": "2231721132417859374",
+          "size": 332013658,
+          "download": 188905872
+        }
+      }
+    }
+  ],
+  "_change_number": 38792219,
+  "_missing_token": false,
+  "_sha": "f211fdf1105fe9250f5269d543a3f2e9f36f0cac",
+  "_size": 3745,
   "appid": "4300470",
   "common": {
     "aicontenttype": "1",
@@ -38,7 +52,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4300470",
     "genres": {
       "0": "4"
@@ -108,11 +121,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "e33fb94cc057d6bc579cf23cd60b3362f63732da/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789128285",
     "store_asset_mtime": "1785924250",
     "store_tags": {
       "0": "12095",
@@ -130,14 +144,55 @@
       "english": {
         "supported": "true"
       },
+      "french": {
+        "supported": "true"
+      },
       "japanese": {
         "supported": "true"
       },
+      "koreana": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
       "spanish": {
+        "supported": "true"
+      },
+      "tchinese": {
         "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Look at our Cyber-butts",
+    "launch": {
+      "0": {
+        "executable": "LookAtOurXXX.exe"
+      }
+    }
+  },
+  "depots": {
+    "4300471": {
+      "manifests": {
+        "public": {
+          "download": "188905872",
+          "gid": "2231721132417859374",
+          "size": "332013658"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25252729",
+        "timebuildupdated": "1789127891",
+        "timeupdated": "1789127894"
+      }
+    }
+  },
+  "extended": {
+    "developer": "H-Waifu",
+    "publisher": "H-Waifu"
+  }
 }

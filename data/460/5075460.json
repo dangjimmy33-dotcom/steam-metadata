@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789128463,
-  "_history": [],
-  "_change_number": 38423430,
-  "_missing_token": true,
-  "_sha": "92fc9d60f10994cb705afd46e07c99657c84f2ec",
-  "_size": 2849,
+  "_lastChecked": 1789134372,
+  "_history": [
+    {
+      "buildId": "24613936",
+      "branch": "public",
+      "timeUpdated": 1786108391,
+      "firstSeen": 1789134372,
+      "manifests": {
+        "5075461": {
+          "gid": "2513040839162993849",
+          "size": 16453632,
+          "download": 7951872
+        },
+        "5075462": {
+          "gid": "8928416767973699424",
+          "size": 16992976,
+          "download": 8133152
+        }
+      }
+    }
+  ],
+  "_change_number": 38794416,
+  "_missing_token": false,
+  "_sha": "e24334e3f6268e256be353580d02117d045654fc",
+  "_size": 3853,
   "appid": "5075460",
   "common": {
     "associations": {
@@ -28,7 +47,6 @@
     "clienticon": "9eb1541425baab89cec3f46dcd0c3f18a9db4813",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5075460",
     "genres": {
       "0": "4",
@@ -100,10 +118,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7a252f8d6eec4283bb0ee15d2046b7db663ef5d1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789133270",
     "store_asset_mtime": "1786102322",
     "store_tags": {
       "0": "597",
@@ -128,5 +147,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pentavex 2",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "pentavex2.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "pentavex2"
+      }
+    }
+  },
+  "depots": {
+    "5075461": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "7951872",
+          "gid": "2513040839162993849",
+          "size": "16453632"
+        }
+      }
+    },
+    "5075462": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "8133152",
+          "gid": "8928416767973699424",
+          "size": "16992976"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24613936",
+        "timebuildupdated": "1786108321",
+        "timeupdated": "1786108391"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Christian Baune",
+    "publisher": "Christian Baune"
+  }
 }

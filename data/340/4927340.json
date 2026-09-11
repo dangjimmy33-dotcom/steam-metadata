@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789128326,
-  "_history": [],
-  "_change_number": 38774997,
-  "_missing_token": true,
-  "_sha": "8d1bfa7d70418db8468b32bcb4adc6c593aa413e",
-  "_size": 3585,
+  "_lastChecked": 1789134254,
+  "_history": [
+    {
+      "buildId": "25240400",
+      "branch": "public",
+      "timeUpdated": 1789076184,
+      "firstSeen": 1789134254,
+      "manifests": {
+        "4927341": {
+          "gid": "3522277285676196923",
+          "size": 6332747921,
+          "download": 5998782176
+        }
+      }
+    }
+  ],
+  "_change_number": 38793754,
+  "_missing_token": false,
+  "_sha": "de5010b9fa934d9baf812ea11d94e6b8ff9e2073",
+  "_size": 4712,
   "appid": "4927340",
   "common": {
     "aicontenttype": "1",
@@ -44,6 +58,7 @@
     },
     "clienticon": "41ef3e8dc9d25f5c1364d55ef2a4cd9b076dd24b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -52,7 +67,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4927340",
     "genres": {
       "0": "25",
@@ -124,10 +138,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9bff45f13fa2f2768eb5650c2a34a44888524cfd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789131686",
     "store_asset_mtime": "1788308483",
     "store_tags": {
       "0": "1698",
@@ -163,5 +178,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "La gran aventura de David Santiso",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "La gran aventura de David Santiso.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4927341": {
+      "manifests": {
+        "public": {
+          "download": "5998782176",
+          "gid": "3522277285676196923",
+          "size": "6332747921"
+        }
+      }
+    },
+    "baselanguages": "spanish",
+    "branches": {
+      "public": {
+        "buildid": "25240400",
+        "timebuildupdated": "1789075719",
+        "timeupdated": "1789076184"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Clave 45 LLC",
+    "homepage": "https://www.clave45.com/articulos/la-gran-aventura-de-david-santiso-ya-en-steam",
+    "publisher": "Clave 45 LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "save",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

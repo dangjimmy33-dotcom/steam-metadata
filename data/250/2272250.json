@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789125335,
+  "_lastChecked": 1789131702,
   "_history": [
     {
       "buildId": "20588830",
@@ -28,12 +28,40 @@
           "download": 293509904
         }
       }
+    },
+    {
+      "buildId": "25253786",
+      "branch": "public",
+      "timeUpdated": 1789131300,
+      "firstSeen": 1789131702,
+      "manifests": {
+        "2272251": {
+          "gid": "9140493162975383009",
+          "size": 8601534200,
+          "download": 8140889632
+        },
+        "2272252": {
+          "gid": "183168534989640539",
+          "size": 70061614,
+          "download": 70990832
+        },
+        "3297180": {
+          "gid": "8598155171965694044",
+          "size": 322085206,
+          "download": 316045104
+        },
+        "4110790": {
+          "gid": "3651780981305825477",
+          "size": 293636937,
+          "download": 293509904
+        }
+      }
     }
   ],
-  "_change_number": 38753341,
+  "_change_number": 38793566,
   "_missing_token": false,
-  "_sha": "d61556ef954acc898e0d02b81b25e33d49c97af0",
-  "_size": 7209,
+  "_sha": "a1061b1b9a815d27312a93fbf88f1c2cd5252886",
+  "_size": 7567,
   "appid": "2272250",
   "common": {
     "associations": {
@@ -235,6 +263,10 @@
       "9": "4191"
     },
     "supported_languages": {
+      "brazilian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "english": {
         "full_audio": "true",
         "subtitles": "true",
@@ -245,6 +277,18 @@
         "supported": "true"
       },
       "german": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "italian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "japanese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "koreana": {
         "subtitles": "true",
         "supported": "true"
       },
@@ -261,6 +305,10 @@
         "supported": "true"
       },
       "spanish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "turkish": {
         "subtitles": "true",
         "supported": "true"
       }
@@ -291,9 +339,9 @@
     "2272251": {
       "manifests": {
         "public": {
-          "download": "8118257424",
-          "gid": "4518380546291687187",
-          "size": "8578887124"
+          "download": "8140889632",
+          "gid": "9140493162975383009",
+          "size": "8601534200"
         }
       }
     },
@@ -342,9 +390,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "20588830",
-        "timebuildupdated": "1761737265",
-        "timeupdated": "1761737265"
+        "buildid": "25253786",
+        "timebuildupdated": "1789131300",
+        "timeupdated": "1789131300"
       }
     },
     "privatebranches": "1"
