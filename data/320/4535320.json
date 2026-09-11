@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789155686,
-  "_history": [],
-  "_change_number": 38679248,
-  "_missing_token": true,
-  "_sha": "311e606f5f84a8733f607f379526e1f9848fea0b",
-  "_size": 3051,
+  "_lastChecked": 1789163134,
+  "_history": [
+    {
+      "buildId": "24995350",
+      "branch": "public",
+      "timeUpdated": 1787953515,
+      "firstSeen": 1789163134,
+      "manifests": {
+        "4535321": {
+          "gid": "941254333355111597",
+          "size": 7396969028,
+          "download": 7216706608
+        }
+      }
+    }
+  ],
+  "_change_number": 38806133,
+  "_missing_token": false,
+  "_sha": "abc7d571b1efa179eda1ad917e6b856d3902dcd4",
+  "_size": 3862,
   "appid": "4535320",
   "common": {
     "associations": {
@@ -36,7 +50,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4535320",
     "genres": {
       "0": "1",
@@ -108,7 +121,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0fc620bbe6ca87ead74533da0eb5aaa0829dacca/capsule_231x87.jpg"
     },
@@ -142,5 +155,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Rotfang The House",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DogHorror.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4535321": {
+      "manifests": {
+        "public": {
+          "download": "7216706608",
+          "gid": "941254333355111597",
+          "size": "7396969028"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24995350",
+        "timebuildupdated": "1787930084",
+        "timeupdated": "1787953515"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Horrid Vision LLC",
+    "publisher": "Horrid Vision LLC"
+  }
 }

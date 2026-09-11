@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789152441,
+  "_lastChecked": 1789159891,
   "_history": [
     {
       "buildId": "17946542",
@@ -26,12 +26,51 @@
           "download": 610118848
         }
       }
+    },
+    {
+      "buildId": "9816952",
+      "branch": "old_v0.4.2",
+      "timeUpdated": 1666914202,
+      "firstSeen": 1789159891,
+      "manifests": {
+        "1968341": {
+          "gid": "3235096788685625296",
+          "size": 3917173107,
+          "download": 1464208384
+        }
+      }
+    },
+    {
+      "buildId": "11068271",
+      "branch": "old_v0.5",
+      "timeUpdated": 1682198333,
+      "firstSeen": 1789159891,
+      "manifests": {
+        "1968341": {
+          "gid": "6168833694890158712",
+          "size": 6315551762,
+          "download": 3286034720
+        }
+      }
+    },
+    {
+      "buildId": "13003598",
+      "branch": "old_v0.6.8",
+      "timeUpdated": 1703014159,
+      "firstSeen": 1789159891,
+      "manifests": {
+        "1968341": {
+          "gid": "4945591952427527562",
+          "size": 8338955006,
+          "download": 4033227312
+        }
+      }
     }
   ],
-  "_change_number": 38802352,
+  "_change_number": 38803033,
   "_missing_token": false,
-  "_sha": "9a2d3e3397c6d53dee3ffe2566fc05a0b0d57b6c",
-  "_size": 4820,
+  "_sha": "210c210b8164051dcdb30d3115c411ec246b27fd",
+  "_size": 5652,
   "appid": "1968340",
   "common": {
     "associations": {
@@ -213,6 +252,21 @@
   "depots": {
     "1968341": {
       "manifests": {
+        "old_v0.4.2": {
+          "download": "1464208384",
+          "gid": "3235096788685625296",
+          "size": "3917173107"
+        },
+        "old_v0.5": {
+          "download": "3286034720",
+          "gid": "6168833694890158712",
+          "size": "6315551762"
+        },
+        "old_v0.6.8": {
+          "download": "4033227312",
+          "gid": "4945591952427527562",
+          "size": "8338955006"
+        },
         "public": {
           "download": "2181942080",
           "gid": "8229788662900244780",
@@ -240,6 +294,24 @@
       "sharedinstall": "1"
     },
     "branches": {
+      "old_v0.4.2": {
+        "buildid": "9816952",
+        "description": "Old Version 0.4.2",
+        "timebuildupdated": "1666914105",
+        "timeupdated": "1666914202"
+      },
+      "old_v0.5": {
+        "buildid": "11068271",
+        "description": "Old Version 0.5.9",
+        "timebuildupdated": "1682198300",
+        "timeupdated": "1682198333"
+      },
+      "old_v0.6.8": {
+        "buildid": "13003598",
+        "description": "Old Version 0.6.8",
+        "timebuildupdated": "1703014078",
+        "timeupdated": "1703014159"
+      },
       "public": {
         "buildid": "17946542",
         "timebuildupdated": "1743548632",

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789156327,
-  "_history": [],
-  "_change_number": 38646483,
-  "_missing_token": true,
-  "_sha": "e9a1f5874a42b3e9dd824fcb02e4771f5ba9189f",
-  "_size": 3352,
+  "_lastChecked": 1789163776,
+  "_history": [
+    {
+      "buildId": "25153459",
+      "branch": "public",
+      "timeUpdated": 1788709161,
+      "firstSeen": 1789163776,
+      "manifests": {
+        "5155701": {
+          "gid": "7763340876569190863",
+          "size": 123848472,
+          "download": 45656720
+        }
+      }
+    }
+  ],
+  "_change_number": 38806191,
+  "_missing_token": false,
+  "_sha": "43f5fabd666ada1dcf0fe7c5d884dd1b974f5aec",
+  "_size": 4123,
   "appid": "5155700",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "8abed3c191a9dc073c2b0fe157ea316db2a4afca",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5155700",
     "genres": {
       "0": "1"
@@ -99,7 +113,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0111083ee590ae907d8384230cfadba4f63d8b2d/capsule_231x87.jpg"
     },
@@ -158,5 +172,51 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Grauwall",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Grauwall.exe"
+      }
+    }
+  },
+  "depots": {
+    "5155701": {
+      "manifests": {
+        "public": {
+          "download": "45656720",
+          "gid": "7763340876569190863",
+          "size": "123848472"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25153459",
+        "timebuildupdated": "1788708360",
+        "timeupdated": "1788709161"
+      }
+    }
+  },
+  "extended": {
+    "developer": "AP",
+    "publisher": "AP"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Grauwall",
+        "pattern": "save.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

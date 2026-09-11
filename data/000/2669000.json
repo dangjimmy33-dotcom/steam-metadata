@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789153358,
+  "_lastChecked": 1789160809,
   "_history": [
     {
       "buildId": "25135342",
@@ -364,12 +364,38 @@
           "download": 706573488
         }
       }
+    },
+    {
+      "buildId": "25262056",
+      "branch": "beta",
+      "timeUpdated": 1789159806,
+      "firstSeen": 1789160809,
+      "manifests": {
+        "2669001": {
+          "gid": "1573607614497834704",
+          "size": 938131795,
+          "download": 706579840
+        }
+      }
+    },
+    {
+      "buildId": "25262056",
+      "branch": "public",
+      "timeUpdated": 1789159839,
+      "firstSeen": 1789160809,
+      "manifests": {
+        "2669001": {
+          "gid": "1573607614497834704",
+          "size": 938131795,
+          "download": 706579840
+        }
+      }
     }
   ],
-  "_change_number": 38775597,
+  "_change_number": 38805511,
   "_missing_token": false,
-  "_sha": "23a14d81c2dfab47e108677580451fbf6b00087d",
-  "_size": 4132,
+  "_sha": "d14b8675ba3c76dff7690aee11aa235b12600b0c",
+  "_size": 4134,
   "appid": "2669000",
   "common": {
     "associations": {
@@ -472,7 +498,7 @@
       "english": "0b46a2bf9f03b97df0e41165d55d71de7374ea8f/capsule_231x87.jpg"
     },
     "steam_release_date": "1700684802",
-    "store_asset_mtime": "1788388524",
+    "store_asset_mtime": "1789159493",
     "store_tags": {
       "0": "597",
       "1": "1773",
@@ -524,29 +550,29 @@
     "2669001": {
       "manifests": {
         "beta": {
-          "download": "706573488",
-          "gid": "728434564226015309",
-          "size": "938129747"
+          "download": "706579840",
+          "gid": "1573607614497834704",
+          "size": "938131795"
         },
         "public": {
-          "download": "706573488",
-          "gid": "728434564226015309",
-          "size": "938129747"
+          "download": "706579840",
+          "gid": "1573607614497834704",
+          "size": "938131795"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "beta": {
-        "buildid": "25240941",
+        "buildid": "25262056",
         "description": "Beta",
-        "timebuildupdated": "1789078048",
-        "timeupdated": "1789078050"
+        "timebuildupdated": "1789159801",
+        "timeupdated": "1789159806"
       },
       "public": {
-        "buildid": "25240941",
-        "timebuildupdated": "1789078048",
-        "timeupdated": "1789078066"
+        "buildid": "25262056",
+        "timebuildupdated": "1789159801",
+        "timeupdated": "1789159839"
       }
     }
   },

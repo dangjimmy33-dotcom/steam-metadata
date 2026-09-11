@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789154728,
-  "_history": [],
-  "_change_number": 38737646,
-  "_missing_token": true,
-  "_sha": "56ae32f0f258174937aa13e5c1498a6fd122a7c7",
-  "_size": 2944,
+  "_lastChecked": 1789162175,
+  "_history": [
+    {
+      "buildId": "24483215",
+      "branch": "public",
+      "timeUpdated": 1785458380,
+      "firstSeen": 1789162175,
+      "manifests": {
+        "3747331": {
+          "gid": "4806875987406302912",
+          "size": 215369497,
+          "download": 94712944
+        }
+      }
+    }
+  ],
+  "_change_number": 38804146,
+  "_missing_token": false,
+  "_sha": "44f83d46ac17684eead1e5fafdaa608b3681f1d9",
+  "_size": 3707,
   "appid": "3747330",
   "common": {
     "associations": {
@@ -26,8 +40,8 @@
     "clienticon": "b2827449364dd85e3764ec9971b202a81df0663d",
     "clienttga": "305d048ced0d2e33518f4ac703ba91173d5618e1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3747330",
     "genres": {
       "0": "1",
@@ -100,7 +114,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a29370a8887d5fed97674d4e150911bb04f720bd/capsule_231x87.jpg"
     },
@@ -124,5 +138,44 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "cavernrusher",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "cavern-rusher-v2_2\\cavern-rusher-v2_2.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3747331": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "94712944",
+          "gid": "4806875987406302912",
+          "size": "215369497"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24483215",
+        "timebuildupdated": "1785458379",
+        "timeupdated": "1785458380"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Paradroid1793",
+    "gamemanualurl": "https://store.steampowered.com/manual/3747330/",
+    "isfreeapp": "1",
+    "publisher": "Paradroid1793"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789151688,
+  "_lastChecked": 1789159137,
   "_history": [
     {
       "buildId": "22902130",
@@ -41,10 +41,10 @@
       }
     }
   ],
-  "_change_number": 38801472,
+  "_change_number": 38803212,
   "_missing_token": false,
-  "_sha": "26f039d37ece2f7cad298bc6e2d40115ae8ec49b",
-  "_size": 6774,
+  "_sha": "3cdc4404598290bb2782a2f3615a3b3b5deb742f",
+  "_size": 6894,
   "appid": "1462520",
   "common": {
     "associations": {
@@ -147,7 +147,7 @@
     "openxrsupport": "1",
     "osarch": "64",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,android",
     "playareavr": {
       "roomscale": {
         "360_required": "0",
@@ -296,6 +296,9 @@
   },
   "depots": {
     "1462521": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "earlyaccess": {
           "download": "2930050944",
@@ -312,6 +315,11 @@
           "gid": "6977974278810091559",
           "size": "4493365369"
         }
+      }
+    },
+    "1462522": {
+      "config": {
+        "oslist": "android"
       }
     },
     "branches": {

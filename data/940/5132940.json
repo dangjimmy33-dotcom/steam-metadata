@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789156312,
-  "_history": [],
-  "_change_number": 38674983,
-  "_missing_token": true,
-  "_sha": "64288b64c9a31b10d40b647a54488fe4147bdec4",
-  "_size": 3296,
+  "_lastChecked": 1789163761,
+  "_history": [
+    {
+      "buildId": "25172951",
+      "branch": "public",
+      "timeUpdated": 1788806376,
+      "firstSeen": 1789163761,
+      "manifests": {
+        "5132941": {
+          "gid": "9044293720055960924",
+          "size": 115506712,
+          "download": 37048816
+        }
+      }
+    }
+  ],
+  "_change_number": 38804341,
+  "_missing_token": false,
+  "_sha": "553433ad85bb5bda031c89b71de3a7e15724bd23",
+  "_size": 4081,
   "appid": "5132940",
   "common": {
     "aicontenttype": "1",
@@ -31,7 +45,6 @@
     "clienticon": "a2ce1ebbd253608e83799e047dd31f8fd7651bdd",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5132940",
     "genres": {
       "0": "4",
@@ -105,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5b4811b9269374fab09ec27ded3233b2a6207fc2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789156472",
     "store_asset_mtime": "1788476626",
     "store_tags": {
       "0": "1741",
@@ -154,5 +168,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Chessplosion",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Chessplosion.exe",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "5132941": {
+      "manifests": {
+        "public": {
+          "download": "37048816",
+          "gid": "9044293720055960924",
+          "size": "115506712"
+        }
+      }
+    },
+    "baselanguages": "arabic,english,french,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25172951",
+        "timebuildupdated": "1788806324",
+        "timeupdated": "1788806376"
+      }
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "François Duchesne",
+    "publisher": "François Duchesne",
+    "remoteplaytogethertestingbranches": "default"
+  }
 }

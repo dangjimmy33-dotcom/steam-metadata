@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789155571,
+  "_lastChecked": 1789163019,
   "_history": [
     {
       "buildId": "22419486",
@@ -54,10 +54,10 @@
       }
     }
   ],
-  "_change_number": 38803417,
+  "_change_number": 38805786,
   "_missing_token": false,
-  "_sha": "b8a40c254f86e0e3b929fc228db18f8a96601304",
-  "_size": 3920,
+  "_sha": "d79e26befd2c1d419b7faf5c9d6a86d1e742cdeb",
+  "_size": 4291,
   "appid": "4440550",
   "common": {
     "aicontenttype": "1",
@@ -74,6 +74,7 @@
     "category": {
       "category_17": "1",
       "category_2": "1",
+      "category_23": "1",
       "category_62": "1",
       "category_66": "1",
       "category_67": "1",
@@ -89,6 +90,7 @@
     "clienticns": "7ca5a515acb8066d4ecdc4e0335398f81e276fbb",
     "clienticon": "e904585b711f728e3dfd6e2fbca8daa3dd77e60c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "gameid": "4440550",
     "genres": {
@@ -235,6 +237,23 @@
   },
   "ufs": {
     "maxnumfiles": "10000",
-    "quota": "10000000"
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "",
+        "pattern": "pycross-saves.json",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "",
+        "pattern": "pycross-settings.json",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "",
+        "pattern": "pycross-custom-puzzles.json",
+        "root": "gameinstall"
+      }
+    }
   }
 }

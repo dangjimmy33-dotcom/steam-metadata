@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789156234,
-  "_history": [],
-  "_change_number": 38321084,
-  "_missing_token": true,
-  "_sha": "a98cfe8b930f824ac170246fd4ef31bb0862bff8",
-  "_size": 3383,
+  "_lastChecked": 1789163684,
+  "_history": [
+    {
+      "buildId": "24932265",
+      "branch": "public",
+      "timeUpdated": 1787674284,
+      "firstSeen": 1789163684,
+      "manifests": {
+        "5044221": {
+          "gid": "1394664856205076594",
+          "size": 7023407638,
+          "download": 5605756496
+        }
+      }
+    }
+  ],
+  "_change_number": 38805299,
+  "_missing_token": false,
+  "_sha": "d6e8dc983e17d283e90a9ef0b50ffab6a1fffbb3",
+  "_size": 4505,
   "appid": "5044220",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "40371d711813798a48ea27f0b8f4b348b22216d0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5044220",
     "genres": {
       "0": "4",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "18d510df9bbe1ea0574817e6f13a564f42049037/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789159161",
     "store_asset_mtime": "1786054552",
     "store_tags": {
       "0": "560542",
@@ -159,5 +174,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Proper Tosser",
+    "launch": {
+      "0": {
+        "executable": "Warehouse.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5044221": {
+      "manifests": {
+        "public": {
+          "download": "5605756496",
+          "gid": "1394664856205076594",
+          "size": "7023407638"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,portuguese,russian,schinese,spanish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "24932265",
+        "timebuildupdated": "1787674260",
+        "timeupdated": "1787674284"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Utilitarium Interactive Development",
+    "publisher": "Utilitarium Interactive Development"
+  },
+  "ufs": {
+    "maxnumfiles": "16",
+    "quota": "26214400",
+    "savefiles": {
+      "0": {
+        "path": "Warehouse/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

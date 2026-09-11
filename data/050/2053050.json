@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789152524,
+  "_lastChecked": 1789159974,
   "_history": [
     {
       "buildId": "23885850",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 38238237,
+  "_change_number": 38803559,
   "_missing_token": false,
-  "_sha": "809d56714a04b0d84db7a3e166a4ac3d8f2ae6b6",
-  "_size": 3717,
+  "_sha": "038945895a038455181d1327f0da71f9a3b3bf77",
+  "_size": 3955,
   "appid": "2053050",
   "common": {
     "associations": {
@@ -217,7 +217,19 @@
     "vrheadsetstreaming": "1"
   },
   "ufs": {
-    "maxnumfiles": "10000",
-    "quota": "100000000000"
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "2",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "TWhippp Games/Nightly Maintenance/saves",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

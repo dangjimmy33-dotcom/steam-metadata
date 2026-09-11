@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789151356,
+  "_lastChecked": 1789158808,
   "_history": [
     {
       "buildId": "22490848",
@@ -72,11 +72,29 @@
           "download": 0
         }
       }
+    },
+    {
+      "buildId": "25260556",
+      "branch": "crossplay",
+      "timeUpdated": 1789154119,
+      "firstSeen": 1789158808,
+      "manifests": {
+        "1221481": {
+          "gid": "8965868322394186890",
+          "size": 3814504805,
+          "download": 1063936016
+        },
+        "1221482": {
+          "gid": "4126831740574189559",
+          "size": 0,
+          "download": 0
+        }
+      }
     }
   ],
-  "_change_number": 38776415,
+  "_change_number": 38803497,
   "_missing_token": false,
-  "_sha": "e07778be49682a9a2ffad8b464ac7f17e14e868c",
+  "_sha": "e29f4041f5b395d6a65acd22d36b27164c6026ff",
   "_size": 8811,
   "appid": "1221480",
   "common": {
@@ -344,9 +362,9 @@
           "size": "3687454426"
         },
         "crossplay": {
-          "download": "1063950688",
-          "gid": "4938519209449445300",
-          "size": "3814285336"
+          "download": "1063936016",
+          "gid": "8965868322394186890",
+          "size": "3814504805"
         },
         "public": {
           "download": "1064001408",
@@ -396,10 +414,10 @@
         "timeupdated": "1774711327"
       },
       "crossplay": {
-        "buildid": "25241561",
+        "buildid": "25260556",
         "description": "for interop with other platforms",
-        "timebuildupdated": "1789080711",
-        "timeupdated": "1789080741"
+        "timebuildupdated": "1789154026",
+        "timeupdated": "1789154119"
       },
       "public": {
         "buildid": "25046464",

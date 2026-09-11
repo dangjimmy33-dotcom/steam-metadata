@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789155974,
-  "_history": [],
-  "_change_number": 38803186,
-  "_missing_token": true,
-  "_sha": "68f68edcc028afa52bf9d72ef7919eec1122546d",
-  "_size": 3690,
+  "_lastChecked": 1789163424,
+  "_history": [
+    {
+      "buildId": "25126580",
+      "branch": "public",
+      "timeUpdated": 1788537809,
+      "firstSeen": 1789163424,
+      "manifests": {
+        "4802191": {
+          "gid": "3328939582229741229",
+          "size": 231318047,
+          "download": 147791616
+        }
+      }
+    }
+  ],
+  "_change_number": 38805191,
+  "_missing_token": false,
+  "_sha": "d72b4070648cb084a06622d62460d867deba5966",
+  "_size": 4330,
   "appid": "4802190",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "48dddf257a26f4fe2837d036ff82d3180b8d3081",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4802190",
     "genres": {
       "0": "4",
@@ -97,10 +110,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "39da1b92f0b56b0185d53ae80dcde4bb89b44cc1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789158753",
     "store_asset_mtime": "1789153295",
     "store_tags": {
       "0": "9",
@@ -179,5 +193,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Scoundrel The Descent",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "scoundrel.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4802191": {
+      "manifests": {
+        "public": {
+          "download": "147791616",
+          "gid": "3328939582229741229",
+          "size": "231318047"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25126580",
+        "timebuildupdated": "1788533589",
+        "timeupdated": "1788537809"
+      }
+    }
+  },
+  "extended": {
+    "developer": "BetterSIM LLC",
+    "homepage": "https://www.scoundrelcardgame.com/",
+    "publisher": "BetterSIM LLC"
+  }
 }

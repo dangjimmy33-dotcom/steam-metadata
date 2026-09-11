@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789152328,
+  "_lastChecked": 1789159777,
   "_history": [
     {
       "buildId": "25138627",
@@ -224,11 +224,67 @@
           "download": 87315408
         }
       }
+    },
+    {
+      "buildId": "25261444",
+      "branch": "public",
+      "timeUpdated": 1789158103,
+      "firstSeen": 1789159777,
+      "manifests": {
+        "1890311": {
+          "gid": "3368552524717084747",
+          "size": 6057072730,
+          "download": 1615803408
+        },
+        "1890312": {
+          "gid": "8368250889718617266",
+          "size": 6089350397,
+          "download": 1626899504
+        },
+        "1890313": {
+          "gid": "2658557333454280489",
+          "size": 5981972036,
+          "download": 1579772624
+        },
+        "4970460": {
+          "gid": "5678122328357133642",
+          "size": 95873205,
+          "download": 87315408
+        }
+      }
+    },
+    {
+      "buildId": "25261444",
+      "branch": "public-beta",
+      "timeUpdated": 1789157364,
+      "firstSeen": 1789159777,
+      "manifests": {
+        "1890311": {
+          "gid": "3368552524717084747",
+          "size": 6057072730,
+          "download": 1615803408
+        },
+        "1890312": {
+          "gid": "8368250889718617266",
+          "size": 6089350397,
+          "download": 1626899504
+        },
+        "1890313": {
+          "gid": "2658557333454280489",
+          "size": 5981972036,
+          "download": 1579772624
+        },
+        "4970460": {
+          "gid": "5678122328357133642",
+          "size": 95873205,
+          "download": 87315408
+        }
+      }
     }
   ],
-  "_change_number": 38799795,
+  "_change_number": 38804945,
   "_missing_token": false,
-  "_sha": "aebd62fffd3144c4e6ac76b69a0551e0c459bccd",
+  "_sha": "904fde96d7731bee41373aaea2402e1ae823b615",
   "_size": 10779,
   "appid": "1890310",
   "common": {
@@ -548,14 +604,14 @@
       },
       "manifests": {
         "public": {
-          "download": "1615800976",
-          "gid": "5119804911756869139",
-          "size": "6057138450"
+          "download": "1615803408",
+          "gid": "3368552524717084747",
+          "size": "6057072730"
         },
         "public-beta": {
-          "download": "1615800976",
-          "gid": "5119804911756869139",
-          "size": "6057138450"
+          "download": "1615803408",
+          "gid": "3368552524717084747",
+          "size": "6057072730"
         }
       }
     },
@@ -565,14 +621,14 @@
       },
       "manifests": {
         "public": {
-          "download": "1626899120",
-          "gid": "4992602999815871004",
-          "size": "6089416117"
+          "download": "1626899504",
+          "gid": "8368250889718617266",
+          "size": "6089350397"
         },
         "public-beta": {
-          "download": "1626899120",
-          "gid": "4992602999815871004",
-          "size": "6089416117"
+          "download": "1626899504",
+          "gid": "8368250889718617266",
+          "size": "6089350397"
         }
       }
     },
@@ -582,14 +638,14 @@
       },
       "manifests": {
         "public": {
-          "download": "1579748272",
-          "gid": "3284831493940723610",
-          "size": "5981932268"
+          "download": "1579772624",
+          "gid": "2658557333454280489",
+          "size": "5981972036"
         },
         "public-beta": {
-          "download": "1579748272",
-          "gid": "3284831493940723610",
-          "size": "5981932268"
+          "download": "1579772624",
+          "gid": "2658557333454280489",
+          "size": "5981972036"
         }
       }
     },
@@ -610,15 +666,15 @@
     },
     "branches": {
       "public": {
-        "buildid": "25247863",
-        "timebuildupdated": "1789111404",
-        "timeupdated": "1789113278"
+        "buildid": "25261444",
+        "timebuildupdated": "1789157364",
+        "timeupdated": "1789158103"
       },
       "public-beta": {
-        "buildid": "25247863",
+        "buildid": "25261444",
         "description": "Usually one patch ahead of the current release. May be less stable and could contain bugs or other issues.",
-        "timebuildupdated": "1789111404",
-        "timeupdated": "1789111411"
+        "timebuildupdated": "1789157364",
+        "timeupdated": "1789157364"
       }
     },
     "hasdepotsindlc": "1",

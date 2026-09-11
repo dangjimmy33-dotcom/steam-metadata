@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789155419,
+  "_lastChecked": 1789162866,
   "_history": [
     {
       "buildId": "24956746",
@@ -26,12 +26,25 @@
           "download": 797271376
         }
       }
+    },
+    {
+      "buildId": "25262667",
+      "branch": "beta",
+      "timeUpdated": 1789162493,
+      "firstSeen": 1789162866,
+      "manifests": {
+        "4299632": {
+          "gid": "2626301175152601631",
+          "size": 913262148,
+          "download": 796745824
+        }
+      }
     }
   ],
-  "_change_number": 38668299,
+  "_change_number": 38806346,
   "_missing_token": false,
-  "_sha": "ae8d9ea25849b01e7ee01b07c7741c1a294edc40",
-  "_size": 5466,
+  "_sha": "831f467b26c90e051da76ce68810808fe39bb3cc",
+  "_size": 5725,
   "appid": "4299630",
   "common": {
     "aicontenttype": "1",
@@ -234,6 +247,11 @@
         "oslist": "android"
       },
       "manifests": {
+        "beta": {
+          "download": "796745824",
+          "gid": "2626301175152601631",
+          "size": "913262148"
+        },
         "public": {
           "download": "797271376",
           "gid": "7957453636479832586",
@@ -242,6 +260,12 @@
       }
     },
     "branches": {
+      "beta": {
+        "buildid": "25262667",
+        "description": "Beta branch",
+        "timebuildupdated": "1789162444",
+        "timeupdated": "1789162493"
+      },
       "public": {
         "buildid": "25145432",
         "timebuildupdated": "1788641833",

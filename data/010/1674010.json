@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789151982,
+  "_lastChecked": 1789159432,
   "_history": [
     {
       "buildId": "25141431",
@@ -828,12 +828,48 @@
           "download": 859073680
         }
       }
+    },
+    {
+      "buildId": "25261806",
+      "branch": "beta",
+      "timeUpdated": 1789158721,
+      "firstSeen": 1789159432,
+      "manifests": {
+        "1674011": {
+          "gid": "33962785755915033",
+          "size": 708274240,
+          "download": 257719200
+        },
+        "1674012": {
+          "gid": "3467058633206820544",
+          "size": 900582961,
+          "download": 859166336
+        }
+      }
+    },
+    {
+      "buildId": "25261806",
+      "branch": "public",
+      "timeUpdated": 1789159112,
+      "firstSeen": 1789159432,
+      "manifests": {
+        "1674011": {
+          "gid": "33962785755915033",
+          "size": 708274240,
+          "download": 257719200
+        },
+        "1674012": {
+          "gid": "3467058633206820544",
+          "size": 900582961,
+          "download": 859166336
+        }
+      }
     }
   ],
-  "_change_number": 38802466,
+  "_change_number": 38805280,
   "_missing_token": false,
-  "_sha": "6d8a16a3aa686c46abc770a595d6d8c95b020a47",
-  "_size": 8662,
+  "_sha": "914390f01b791176492e074a41448459ce3ce957",
+  "_size": 9158,
   "appid": "1674010",
   "common": {
     "associations": {
@@ -855,6 +891,7 @@
       "category_36": "1",
       "category_38": "1",
       "category_49": "1",
+      "category_62": "1",
       "category_64": "1",
       "category_66": "1",
       "category_67": "1",
@@ -890,43 +927,49 @@
       "6": "70"
     },
     "header_image": {
-      "english": "1002cecd39da99b108adc707b45c5f20b7d78394/header.jpg"
+      "english": "cdab451b6eab6241de965b86936402e57d444b31/header.jpg"
     },
     "icon": "61e3c673e377996902e9faad77c7b347ab12dc10",
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
       "library_hero": "en",
+      "library_hero_blur": "en",
       "library_logo": "en",
       "logo_position": {
-        "height_pct": "77.87930023724968",
+        "height_pct": "83.93417251728752",
         "pinned_position": "BottomLeft",
-        "width_pct": "57.67491437758841"
+        "width_pct": "43.06082275515403"
       }
     },
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "library_600x900.jpg"
+          "english": "82cb47906936e6133d7240776008667478285b24/library_capsule.jpg"
         },
         "image2x": {
-          "english": "library_600x900_2x.jpg"
+          "english": "82cb47906936e6133d7240776008667478285b24/library_capsule_2x.jpg"
         }
       },
       "library_header": {
         "image": {
-          "english": "ed0a8063cae03cf1b8486fd4ec98f8e14065e573/library_header.jpg"
+          "english": "c9e1de2591658254892a057ebbcf6aee4e18c062/library_header.jpg"
         },
         "image2x": {
-          "english": "ed0a8063cae03cf1b8486fd4ec98f8e14065e573/library_header_2x.jpg"
+          "english": "c9e1de2591658254892a057ebbcf6aee4e18c062/library_header_2x.jpg"
         }
       },
       "library_hero": {
         "image": {
-          "english": "library_hero.jpg"
+          "english": "aa553522e9b4a0673893158a4619ab1e238214bc/library_hero.jpg"
         },
         "image2x": {
-          "english": "library_hero_2x.jpg"
+          "english": "aa553522e9b4a0673893158a4619ab1e238214bc/library_hero_2x.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "aa553522e9b4a0673893158a4619ab1e238214bc/library_hero_blur.jpg"
         }
       },
       "library_logo": {
@@ -937,9 +980,9 @@
           "english": "logo_2x.png"
         },
         "logo_position": {
-          "height_pct": "77.87930023724968",
+          "height_pct": "83.93417251728752",
           "pinned_position": "BottomLeft",
-          "width_pct": "57.67491437758841"
+          "width_pct": "43.06082275515403"
         }
       }
     },
@@ -955,7 +998,7 @@
     "review_percentage": "76",
     "review_score": "6",
     "small_capsule": {
-      "english": "2c2fadfa6bd47a68ce65d09d3e11d345bf03d151/capsule_231x87.jpg"
+      "english": "eaa86785b4f9c0dc134effb804a05127799c07ef/capsule_231x87.jpg"
     },
     "steam_deck_compatibility": {
       "category": "2",
@@ -1035,7 +1078,7 @@
       }
     },
     "steam_release_date": "1749749549",
-    "store_asset_mtime": "1770739824",
+    "store_asset_mtime": "1789155084",
     "store_tags": {
       "0": "1688",
       "1": "1754",
@@ -1064,6 +1107,38 @@
         "supported": "true"
       },
       "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "french": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "german": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "japanese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "koreana": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "latam": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "polish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "schinese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "tchinese": {
         "subtitles": "true",
         "supported": "true"
       }
@@ -1111,38 +1186,28 @@
       },
       "manifests": {
         "beta": {
-          "download": "257717056",
-          "gid": "4981940785415349628",
-          "size": "708276288"
+          "download": "257719200",
+          "gid": "33962785755915033",
+          "size": "708274240"
         },
         "public": {
-          "download": "257717056",
-          "gid": "4981940785415349628",
-          "size": "708276288"
-        },
-        "testserver": {
-          "download": "260357184",
-          "gid": "2799853159028154101",
-          "size": "722675371"
+          "download": "257719200",
+          "gid": "33962785755915033",
+          "size": "708274240"
         }
       }
     },
     "1674012": {
       "manifests": {
         "beta": {
-          "download": "859073680",
-          "gid": "836882069865024796",
-          "size": "900490516"
+          "download": "859166336",
+          "gid": "3467058633206820544",
+          "size": "900582961"
         },
         "public": {
-          "download": "859071888",
-          "gid": "3544636142247695974",
-          "size": "900489047"
-        },
-        "testserver": {
-          "download": "854444992",
-          "gid": "5521212330613577847",
-          "size": "895826083"
+          "download": "859166336",
+          "gid": "3467058633206820544",
+          "size": "900582961"
         }
       }
     },
@@ -1156,21 +1221,15 @@
     "baselanguages": "english,brazilian",
     "branches": {
       "beta": {
-        "buildid": "25259870",
+        "buildid": "25261806",
         "description": "Test Builds (Graphic Updates)",
-        "timebuildupdated": "1789151510",
-        "timeupdated": "1789151510"
+        "timebuildupdated": "1789158721",
+        "timeupdated": "1789158721"
       },
       "public": {
-        "buildid": "25253207",
-        "timebuildupdated": "1789129450",
-        "timeupdated": "1789129486"
-      },
-      "testserver": {
-        "buildid": "25128447",
-        "description": "Test Server (Only for Testing Code Changes)",
-        "timebuildupdated": "1788539832",
-        "timeupdated": "1788539832"
+        "buildid": "25261806",
+        "timebuildupdated": "1789158721",
+        "timeupdated": "1789159112"
       }
     }
   },

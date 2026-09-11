@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789156187,
-  "_history": [],
-  "_change_number": 38750728,
-  "_missing_token": true,
-  "_sha": "56d0379460729d1851fc12c5783840587af8ea16",
-  "_size": 3141,
+  "_lastChecked": 1789163636,
+  "_history": [
+    {
+      "buildId": "25224256",
+      "branch": "public",
+      "timeUpdated": 1789019273,
+      "firstSeen": 1789163636,
+      "manifests": {
+        "4995251": {
+          "gid": "7321504303075958827",
+          "size": 398308419,
+          "download": 174011792
+        }
+      }
+    }
+  ],
+  "_change_number": 38806452,
+  "_missing_token": false,
+  "_sha": "7e63f7abd910d55f87b7dcfdee7a5ad4d070fde4",
+  "_size": 4835,
   "appid": "4995250",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "33e3cc884e966ce3e2ef5aaa3e9cc62748be9152",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4995250",
     "genres": {
       "0": "2"
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ebfbf2bdb74d018ee11e86e8c1d353386f6982c5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789162771",
     "store_asset_mtime": "1788325503",
     "store_tags": {
       "0": "9",
@@ -143,5 +158,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Horizon Ring",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Horizon Ring.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4995251": {
+      "manifests": {
+        "public": {
+          "download": "174011792",
+          "gid": "7321504303075958827",
+          "size": "398308419"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25224256",
+        "timebuildupdated": "1789019222",
+        "timeupdated": "1789019273"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Mahhouse Games",
+    "publisher": "Mahhouse Games"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "Mahhouse Games/Horizon Ring/game-data",
+        "pattern": "bootstrap.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Mahhouse Games/Horizon Ring/game-data",
+        "pattern": "profile.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Mahhouse Games/Horizon Ring/game-data",
+        "pattern": "autosave.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Mahhouse Games/Horizon Ring/game-data",
+        "pattern": "highest-waves.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Mahhouse Games/Horizon Ring/game-data/manual-saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
