@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789141443,
-  "_history": [],
-  "_change_number": 38737875,
-  "_missing_token": true,
-  "_sha": "6790ec915c81ec2d6284ba5ae6ee3d0c15c8af2e",
-  "_size": 1595,
+  "_lastChecked": 1789148924,
+  "_history": [
+    {
+      "buildId": "24809000",
+      "branch": "public",
+      "timeUpdated": 1787105096,
+      "firstSeen": 1789148924,
+      "manifests": {
+        "5132821": {
+          "gid": "7053520358110349179",
+          "size": 347801,
+          "download": 190592
+        }
+      }
+    }
+  ],
+  "_change_number": 38799380,
+  "_missing_token": false,
+  "_sha": "1c37e8643f409fa9bf97f532401d64a02d90343a",
+  "_size": 2183,
   "appid": "5132820",
   "common": {
     "associations": {
@@ -22,6 +36,7 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_62": "1",
       "category_68": "1",
       "category_69": "1",
       "category_74": "1",
@@ -33,7 +48,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "9",
     "gameid": "5132820",
     "genres": {
       "0": "1",
@@ -50,12 +64,13 @@
     "oslist": "windows",
     "parent": "5054120",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8f0d6c3b7d35a84b53964b1cd8588f77c548f49f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789143886",
     "store_asset_mtime": "1788413634",
-    "store_screenshot": "2304efd45d0d231337f9c2c9783cb26c17702b51/ss_2304efd45d0d231337f9c2c9783cb26c17702b51.jpg",
+    "store_screenshot": "236cc450cd89e3041374775ab697c2feac048daf/ss_236cc450cd89e3041374775ab697c2feac048daf.jpg",
     "store_tags": {
       "0": "597",
       "1": "599",
@@ -84,5 +99,32 @@
     },
     "type": "DLC"
   },
-  "public_only": "1"
+  "depots": {
+    "5132821": {
+      "dlcappid": "5132820",
+      "manifests": {
+        "public": {
+          "download": "190592",
+          "gid": "7053520358110349179",
+          "size": "347801"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24809000",
+        "timebuildupdated": "1787105069",
+        "timeupdated": "1787105096"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Chaotactics",
+    "dlcavailableonstore": "1",
+    "dlcforappid": "5054120",
+    "homepage": "https://chaotactics.ct.ws/",
+    "mustownapptopurchase": "5054120",
+    "publisher": "Chaotactics"
+  }
 }

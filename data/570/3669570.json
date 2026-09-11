@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789139846,
+  "_lastChecked": 1789147250,
   "_history": [
     {
       "buildId": "23962166",
@@ -169,11 +169,37 @@
           "download": 3615589360
         }
       }
+    },
+    {
+      "buildId": "25257476",
+      "branch": "public",
+      "timeUpdated": 1789144211,
+      "firstSeen": 1789147250,
+      "manifests": {
+        "3669571": {
+          "gid": "2223850391292947706",
+          "size": 3689000392,
+          "download": 3509210608
+        }
+      }
+    },
+    {
+      "buildId": "25257476",
+      "branch": "test",
+      "timeUpdated": 1789144211,
+      "firstSeen": 1789147250,
+      "manifests": {
+        "3669571": {
+          "gid": "2223850391292947706",
+          "size": 3689000392,
+          "download": 3509210608
+        }
+      }
     }
   ],
-  "_change_number": 38752047,
+  "_change_number": 38799512,
   "_missing_token": false,
-  "_sha": "57492a0379cd909a77aa5825e2b680997cdb76f5",
+  "_sha": "2522f810da462dcbb8e3a5bd8a7cc72e27ae3c68",
   "_size": 10191,
   "appid": "3669570",
   "common": {
@@ -474,9 +500,9 @@
     "3669571": {
       "manifests": {
         "public": {
-          "download": "3615589360",
-          "gid": "8995474890197001524",
-          "size": "3814678832"
+          "download": "3509210608",
+          "gid": "2223850391292947706",
+          "size": "3689000392"
         },
         "stable-3692": {
           "download": "3249822336",
@@ -484,9 +510,9 @@
           "size": "3450000951"
         },
         "test": {
-          "download": "3615589360",
-          "gid": "8995474890197001524",
-          "size": "3814678832"
+          "download": "3509210608",
+          "gid": "2223850391292947706",
+          "size": "3689000392"
         },
         "v0.4.2.3946": {
           "download": "3292334480",
@@ -513,9 +539,9 @@
     "baselanguages": "english,schinese",
     "branches": {
       "public": {
-        "buildid": "25224823",
-        "timebuildupdated": "1789022321",
-        "timeupdated": "1789023693"
+        "buildid": "25257476",
+        "timebuildupdated": "1789142857",
+        "timeupdated": "1789144211"
       },
       "stable-3692": {
         "buildid": "21192277",
@@ -524,10 +550,10 @@
         "timeupdated": "1766307197"
       },
       "test": {
-        "buildid": "25224823",
+        "buildid": "25257476",
         "description": "Latest beta",
-        "timebuildupdated": "1789022321",
-        "timeupdated": "1789023693"
+        "timebuildupdated": "1789142857",
+        "timeupdated": "1789144211"
       },
       "v0.4.2.3946": {
         "buildid": "21505893",

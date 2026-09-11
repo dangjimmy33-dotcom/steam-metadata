@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789141101,
-  "_history": [],
-  "_change_number": 38789157,
-  "_missing_token": true,
-  "_sha": "bdd4bdb59a17360e8ed6ed9f5a5d5062a5043056",
-  "_size": 2790,
+  "_lastChecked": 1789148565,
+  "_history": [
+    {
+      "buildId": "25258179",
+      "branch": "public",
+      "timeUpdated": 1789145203,
+      "firstSeen": 1789148565,
+      "manifests": {
+        "4779431": {
+          "gid": "705540623617914978",
+          "size": 67122929,
+          "download": 57255520
+        }
+      }
+    }
+  ],
+  "_change_number": 38800049,
+  "_missing_token": false,
+  "_sha": "876c795abeadb862ba05053c7f2ca8b2596de504",
+  "_size": 3322,
   "appid": "4779430",
   "common": {
     "associations": {
@@ -24,8 +38,8 @@
     },
     "clienticon": "9a95f165bddabace659b8ea2eedcdb39f81b9a4d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4779430",
     "genres": {
       "0": "4",
@@ -97,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "52974607f39dec5e736a0b1989ecef7fb893cd16/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1786778848",
     "store_tags": {
       "0": "597",
@@ -125,5 +140,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Chess Pawn",
+    "launch": {
+      "0": {
+        "executable": "chess.exe"
+      }
+    }
+  },
+  "depots": {
+    "4779431": {
+      "manifests": {
+        "public": {
+          "download": "57255520",
+          "gid": "705540623617914978",
+          "size": "67122929"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25258179",
+        "timebuildupdated": "1789145153",
+        "timeupdated": "1789145203"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Tomasz Gorski",
+    "publisher": "Tomasz Gorski"
+  }
 }

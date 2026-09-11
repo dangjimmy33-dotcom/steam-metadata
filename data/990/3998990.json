@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789140238,
-  "_history": [],
-  "_change_number": 38691444,
-  "_missing_token": true,
-  "_sha": "ed9704339419bb13334bba50a25c8c091356ab1a",
-  "_size": 4520,
+  "_lastChecked": 1789147662,
+  "_history": [
+    {
+      "buildId": "25184587",
+      "branch": "public",
+      "timeUpdated": 1788862541,
+      "firstSeen": 1789147662,
+      "manifests": {
+        "3998991": {
+          "gid": "6773337924011110950",
+          "size": 2544817807,
+          "download": 1992640368
+        },
+        "3998992": {
+          "gid": "4687526568290364648",
+          "size": 2722340018,
+          "download": 2126625280
+        }
+      }
+    }
+  ],
+  "_change_number": 38799897,
+  "_missing_token": false,
+  "_sha": "0fb91829d74f75f579f95db591952189cf8cc7d6",
+  "_size": 5624,
   "appid": "3998990",
   "common": {
     "aicontenttype": "1",
@@ -40,6 +59,7 @@
     },
     "clienticon": "870df4eeb756ba521ec581acfc8647cf2df1c82e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -50,7 +70,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3998990",
     "genres": {
       "0": "1",
@@ -137,10 +156,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "555142ec23ceb6ecb2736f9557482892b453e577/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789145013",
     "store_asset_mtime": "1784577070",
     "store_tags": {
       "0": "3916",
@@ -216,5 +236,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Deep Sheol",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "deep_sheol.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "deep_sheol.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3998991": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1992640368",
+          "gid": "6773337924011110950",
+          "size": "2544817807"
+        }
+      }
+    },
+    "3998992": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2126625280",
+          "gid": "4687526568290364648",
+          "size": "2722340018"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25184587",
+        "timebuildupdated": "1788862541",
+        "timeupdated": "1788862541"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Acid Arrow Studio",
+    "publisher": "Acid Arrow Studio"
+  }
 }

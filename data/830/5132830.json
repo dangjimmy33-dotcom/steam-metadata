@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789141443,
-  "_history": [],
-  "_change_number": 38737850,
-  "_missing_token": true,
-  "_sha": "314e37458082c7fd5c1f916de6ea5bb7f31fc0cf",
-  "_size": 1594,
+  "_lastChecked": 1789148924,
+  "_history": [
+    {
+      "buildId": "24808988",
+      "branch": "public",
+      "timeUpdated": 1787105014,
+      "firstSeen": 1789148924,
+      "manifests": {
+        "5132831": {
+          "gid": "5047386984027903010",
+          "size": 256320,
+          "download": 103424
+        }
+      }
+    }
+  ],
+  "_change_number": 38799330,
+  "_missing_token": false,
+  "_sha": "35dcbf2758adf36c252a416290fc6e0fae3880e4",
+  "_size": 2123,
   "appid": "5132830",
   "common": {
     "associations": {
@@ -33,7 +47,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "9",
     "gameid": "5132830",
     "genres": {
       "0": "1",
@@ -50,7 +63,7 @@
     "oslist": "windows",
     "parent": "5054120",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ab3ba5514f0d4fb95ddc51e7dc4f15033b0ed9fb/capsule_231x87.jpg"
     },
@@ -84,5 +97,32 @@
     },
     "type": "DLC"
   },
-  "public_only": "1"
+  "depots": {
+    "5132831": {
+      "dlcappid": "5132830",
+      "manifests": {
+        "public": {
+          "download": "103424",
+          "gid": "5047386984027903010",
+          "size": "256320"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24808988",
+        "timebuildupdated": "1787104995",
+        "timeupdated": "1787105014"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Chaotactics",
+    "dlcavailableonstore": "1",
+    "dlcforappid": "5054120",
+    "homepage": "https://chaotactics.ct.ws/",
+    "mustownapptopurchase": "5054120",
+    "publisher": "Chaotactics"
+  }
 }

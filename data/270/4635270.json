@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789140960,
-  "_history": [],
-  "_change_number": 38772732,
-  "_missing_token": true,
-  "_sha": "a7db35840ae8b4668b81b3653651a70f900db31a",
-  "_size": 3844,
+  "_lastChecked": 1789148416,
+  "_history": [
+    {
+      "buildId": "25238889",
+      "branch": "public",
+      "timeUpdated": 1789070036,
+      "firstSeen": 1789148416,
+      "manifests": {
+        "4635271": {
+          "gid": "8308133348414481071",
+          "size": 1928672911,
+          "download": 1756284160
+        }
+      }
+    }
+  ],
+  "_change_number": 38799002,
+  "_missing_token": false,
+  "_sha": "04fdfeada003cf50d78557692aff64fc6666a32a",
+  "_size": 4690,
   "appid": "4635270",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     },
     "clienticon": "d1cf8f266a345580b9df87aa31f77587d780c2df",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4635270",
     "genres": {
       "0": "25",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c1c3041ae9db617cb20bdf80100251a2d3029c0e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789143119",
     "store_asset_mtime": "1783955602",
     "store_tags": {
       "0": "1667",
@@ -189,5 +204,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "EXITRANCE",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "EXITRANCE.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4635271": {
+      "manifests": {
+        "public": {
+          "download": "1756284160",
+          "gid": "8308133348414481071",
+          "size": "1928672911"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25238889",
+        "timebuildupdated": "1789069983",
+        "timeupdated": "1789070036"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Saddler Studio",
+    "publisher": "Saddler Studio"
+  }
 }

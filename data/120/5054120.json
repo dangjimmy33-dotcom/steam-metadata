@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789141379,
-  "_history": [],
-  "_change_number": 38766492,
-  "_missing_token": true,
-  "_sha": "4ee985c0a47550cedad976565c187c1659e0d98d",
-  "_size": 3603,
+  "_lastChecked": 1789148857,
+  "_history": [
+    {
+      "buildId": "24913489",
+      "branch": "public",
+      "timeUpdated": 1787598849,
+      "firstSeen": 1789148857,
+      "manifests": {
+        "5054121": {
+          "gid": "2627279049741924180",
+          "size": 253817704,
+          "download": 246145760
+        }
+      }
+    }
+  ],
+  "_change_number": 38800967,
+  "_missing_token": false,
+  "_sha": "1e44e5e93abdb81c27da1954a0fa2e9cd6b5791c",
+  "_size": 4509,
   "appid": "5054120",
   "common": {
     "associations": {
@@ -33,6 +47,7 @@
     },
     "clienticon": "94ecfdebbd525bfd53457b5ab885372d3e8bbd7e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
     "eulas": {
@@ -43,7 +58,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "5054120",
     "genres": {
       "0": "1",
@@ -116,10 +130,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ca9709c5e8bc9fd7ebf80053c514aec515fd7cab/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789143832",
     "store_asset_mtime": "1787945609",
     "store_tags": {
       "0": "597",
@@ -166,5 +181,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Kumatopia",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "kumatopia.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5054121": {
+      "manifests": {
+        "public": {
+          "download": "246145760",
+          "gid": "2627279049741924180",
+          "size": "253817704"
+        }
+      }
+    },
+    "baselanguages": "english,malay,schinese,tchinese,thai",
+    "branches": {
+      "public": {
+        "buildid": "24913489",
+        "timebuildupdated": "1787598658",
+        "timeupdated": "1787598849"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Chaotactics",
+    "dlcavailableonstore": "1",
+    "homepage": "https://chaotactics.ct.ws/",
+    "listofdlc": "5103910,5132820,5132830",
+    "publisher": "Chaotactics"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000"
+  }
 }

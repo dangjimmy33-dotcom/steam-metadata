@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789141208,
-  "_history": [],
-  "_change_number": 38797006,
-  "_missing_token": true,
-  "_sha": "99bde0a605e3c66f7abd0ca92b42af92ac1cbad2",
-  "_size": 5685,
+  "_lastChecked": 1789148677,
+  "_history": [
+    {
+      "buildId": "25238779",
+      "branch": "public",
+      "timeUpdated": 1789069604,
+      "firstSeen": 1789148677,
+      "manifests": {
+        "4883591": {
+          "gid": "532171515597485845",
+          "size": 62021554647,
+          "download": 60253158608
+        }
+      }
+    }
+  ],
+  "_change_number": 38800249,
+  "_missing_token": false,
+  "_sha": "ae7feb55bbc5e3741789d11d0f539dbcef331cb7",
+  "_size": 6961,
   "appid": "4883590",
   "common": {
     "aicontenttype": "1",
@@ -50,7 +64,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "4883590",
     "genres": {
       "0": "9",
@@ -122,7 +135,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "preloadonly",
     "small_capsule": {
       "english": "4ae8a0d97d6f411d09f80b11af56d98fd4408d71/capsule_231x87.jpg"
     },
@@ -225,5 +238,72 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "NASCAR 26",
+    "launch": {
+      "0": {
+        "description": "Launch the game.",
+        "description_loc": {
+          "english": "Launch the game."
+        },
+        "executable": "NASCAR26_Steam.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4883591": {
+      "manifests": {
+        "public": {
+          "download": "60253158608",
+          "gid": "532171515597485845",
+          "size": "62021554647"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25238779",
+        "timebuildupdated": "1789069591",
+        "timeupdated": "1789069604"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "iRacing.com Motorsport Simulations, LLC",
+    "dlcavailableonstore": "1",
+    "homepage": "https://nascar26.com/",
+    "listofdlc": "4899500,4899550",
+    "publisher": "iRacing.com Motorsport Simulations, LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "32",
+    "quota": "33554432",
+    "savefiles": {
+      "0": {
+        "path": "NASCAR26/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

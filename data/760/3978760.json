@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789140214,
-  "_history": [],
-  "_change_number": 38498717,
-  "_missing_token": true,
-  "_sha": "558a8ced4dda21cb90cb5f69b8878758ece1457c",
-  "_size": 3376,
+  "_lastChecked": 1789147636,
+  "_history": [
+    {
+      "buildId": "25052527",
+      "branch": "public",
+      "timeUpdated": 1788247410,
+      "firstSeen": 1789147636,
+      "manifests": {
+        "3978761": {
+          "gid": "1769534323448867827",
+          "size": 2704320255,
+          "download": 2548486432
+        }
+      }
+    }
+  ],
+  "_change_number": 38800165,
+  "_missing_token": false,
+  "_sha": "62e264e433d60d39dc8f99c844f648f21427c050",
+  "_size": 4262,
   "appid": "3978760",
   "common": {
     "associations": {
@@ -31,8 +45,8 @@
     },
     "clienticon": "5b82be33c282b64032567d32ca17b5333bd908fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3978760",
     "genres": {
       "0": "4",
@@ -103,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7ef6c05348bd70c397d8424047ae7196ec7e1274/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789145603",
     "store_asset_mtime": "1763287764",
     "store_tags": {
       "0": "769306",
@@ -154,5 +169,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Antscape Room",
+    "launch": {
+      "0": {
+        "executable": "EscapeRoom01.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3978761": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2548486432",
+          "gid": "1769534323448867827",
+          "size": "2704320255"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25052527",
+        "timebuildupdated": "1788247373",
+        "timeupdated": "1788247410"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Oxbone Studio",
+    "publisher": "Oxbone Studio"
+  }
 }

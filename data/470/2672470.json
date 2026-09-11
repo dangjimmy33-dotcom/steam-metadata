@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789138631,
+  "_lastChecked": 1789145976,
   "_history": [
     {
       "buildId": "24533580",
@@ -54,10 +54,10 @@
       }
     }
   ],
-  "_change_number": 38770469,
+  "_change_number": 38798178,
   "_missing_token": false,
-  "_sha": "13ecc7d03bcf5798315757ab5cf4f4a1f29fb9d1",
-  "_size": 5622,
+  "_sha": "cbcf3f00d5350b185b7eb4e999144336c53abf5f",
+  "_size": 5807,
   "appid": "2672470",
   "common": {
     "associations": {
@@ -158,7 +158,6 @@
     },
     "linuxclienticon": "efea3a4d5d18bf4a96a00b89d024bb04079c8942",
     "name": "Unloop",
-    "onlyvrsupport": "1",
     "openxrsupport": "1",
     "osarch": "64",
     "osextended": "",
@@ -260,6 +259,12 @@
         },
         "executable": "Unloop.exe",
         "type": "openxr"
+      },
+      "1": {
+        "config": {
+          "oslist": "android"
+        },
+        "executable": "Unloop.apk"
       }
     }
   },
@@ -291,6 +296,13 @@
           "size": "1841592732"
         }
       }
+    },
+    "2672472": {
+      "config": {
+        "osarch": "64",
+        "oslist": "android"
+      },
+      "manifests": {}
     },
     "branches": {
       "beta_test": {

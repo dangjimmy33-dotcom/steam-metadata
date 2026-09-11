@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789140371,
-  "_history": [],
-  "_change_number": 38793026,
-  "_missing_token": true,
-  "_sha": "117ae051598746abf9b2c9e16a650cb54d0f3a19",
-  "_size": 7824,
+  "_lastChecked": 1789147805,
+  "_history": [
+    {
+      "buildId": "25253440",
+      "branch": "public",
+      "timeUpdated": 1789130150,
+      "firstSeen": 1789147805,
+      "manifests": {
+        "4118371": {
+          "gid": "1305061284683704467",
+          "size": 266815282,
+          "download": 41416000
+        },
+        "4322540": {
+          "gid": "7536402982847075823",
+          "size": 34977386,
+          "download": 34383632
+        }
+      }
+    }
+  ],
+  "_change_number": 38797881,
+  "_missing_token": false,
+  "_sha": "0aed4bfd9d7b00f41a5d441995f3fd5915c797b2",
+  "_size": 8573,
   "appid": "4118370",
   "common": {
     "associations": {
@@ -36,8 +55,8 @@
     },
     "clienticon": "89b5c938033d3bc3a9d4bb5a0e31c25990afd24f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4118370",
     "genres": {
       "0": "4",
@@ -108,7 +127,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b1b58cb7a3060e62860d35acbf86df0dbb688493/capsule_231x87.jpg"
     },
@@ -447,5 +466,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "100 Tavern Cats",
+    "launch": {
+      "0": {
+        "executable": "100 Tavern Cats.exe"
+      }
+    }
+  },
+  "depots": {
+    "4118371": {
+      "manifests": {
+        "public": {
+          "download": "41416000",
+          "gid": "1305061284683704467",
+          "size": "266815282"
+        }
+      }
+    },
+    "4322540": {
+      "dlcappid": "4322540",
+      "manifests": {
+        "public": {
+          "download": "34383632",
+          "gid": "7536402982847075823",
+          "size": "34977386"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25253440",
+        "timebuildupdated": "1789130150",
+        "timeupdated": "1789130150"
+      }
+    }
+  },
+  "extended": {
+    "developer": "100 Cozy Games",
+    "dlcavailableonstore": "1",
+    "listofdlc": "4322540",
+    "publisher": "100 Cozy Games"
+  }
 }

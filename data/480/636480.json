@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789135950,
+  "_lastChecked": 1789143132,
   "_history": [
     {
       "buildId": "24946803",
@@ -196,12 +196,96 @@
           "download": 1748791024
         }
       }
+    },
+    {
+      "buildId": "25257516",
+      "branch": "beta",
+      "timeUpdated": 1789142966,
+      "firstSeen": 1789143132,
+      "manifests": {
+        "636481": {
+          "gid": "7513073361847896462",
+          "size": 4394108854,
+          "download": 1726885152
+        },
+        "636482": {
+          "gid": "5853032206268781451",
+          "size": 4386690950,
+          "download": 1724309168
+        },
+        "636483": {
+          "gid": "7931300017001263744",
+          "size": 4424407446,
+          "download": 1741418032
+        },
+        "636484": {
+          "gid": "1778278612741137443",
+          "size": 4498671756,
+          "download": 1764167616
+        }
+      }
+    },
+    {
+      "buildId": "24946803",
+      "branch": "previous-ea",
+      "timeUpdated": 1787739039,
+      "firstSeen": 1789143132,
+      "manifests": {
+        "636481": {
+          "gid": "582646804279172459",
+          "size": 4324615666,
+          "download": 1711686944
+        },
+        "636482": {
+          "gid": "4020750670495131517",
+          "size": 4317197250,
+          "download": 1709111632
+        },
+        "636483": {
+          "gid": "2439268733209880894",
+          "size": 4354889634,
+          "download": 1726160096
+        },
+        "636484": {
+          "gid": "4916389863366824294",
+          "size": 4428970296,
+          "download": 1748791024
+        }
+      }
+    },
+    {
+      "buildId": "25257516",
+      "branch": "public",
+      "timeUpdated": 1789143020,
+      "firstSeen": 1789143132,
+      "manifests": {
+        "636481": {
+          "gid": "7513073361847896462",
+          "size": 4394108854,
+          "download": 1726885152
+        },
+        "636482": {
+          "gid": "5853032206268781451",
+          "size": 4386690950,
+          "download": 1724309168
+        },
+        "636483": {
+          "gid": "7931300017001263744",
+          "size": 4424407446,
+          "download": 1741418032
+        },
+        "636484": {
+          "gid": "1778278612741137443",
+          "size": 4498671756,
+          "download": 1764167616
+        }
+      }
     }
   ],
-  "_change_number": 38788594,
+  "_change_number": 38798933,
   "_missing_token": false,
-  "_sha": "48d72bad59be8facfdb08605d39f8666f243662b",
-  "_size": 13497,
+  "_sha": "14a4049d01f1e1b4b17a7db9e0bef7326158644a",
+  "_size": 13498,
   "appid": "636480",
   "common": {
     "associations": {
@@ -566,9 +650,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "1711686944",
-          "gid": "582646804279172459",
-          "size": "4324615666"
+          "download": "1726885152",
+          "gid": "7513073361847896462",
+          "size": "4394108854"
         },
         "legacy-ea25": {
           "download": "594449424",
@@ -591,14 +675,14 @@
           "size": "1999434252"
         },
         "previous-ea": {
-          "download": "1688785680",
-          "gid": "6744957605397028496",
-          "size": "4253897446"
-        },
-        "public": {
           "download": "1711686944",
           "gid": "582646804279172459",
           "size": "4324615666"
+        },
+        "public": {
+          "download": "1726885152",
+          "gid": "7513073361847896462",
+          "size": "4394108854"
         }
       }
     },
@@ -609,9 +693,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "1709111632",
-          "gid": "4020750670495131517",
-          "size": "4317197250"
+          "download": "1724309168",
+          "gid": "5853032206268781451",
+          "size": "4386690950"
         },
         "legacy-ea25": {
           "download": "590316432",
@@ -634,14 +718,14 @@
           "size": "1992021798"
         },
         "previous-ea": {
-          "download": "1686209504",
-          "gid": "4064820451634398756",
-          "size": "4246479030"
-        },
-        "public": {
           "download": "1709111632",
           "gid": "4020750670495131517",
           "size": "4317197250"
+        },
+        "public": {
+          "download": "1724309168",
+          "gid": "5853032206268781451",
+          "size": "4386690950"
         }
       }
     },
@@ -651,9 +735,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "1726160096",
-          "gid": "2439268733209880894",
-          "size": "4354889634"
+          "download": "1741418032",
+          "gid": "7931300017001263744",
+          "size": "4424407446"
         },
         "legacy-ea25": {
           "download": "595774368",
@@ -676,14 +760,14 @@
           "size": "2026950099"
         },
         "previous-ea": {
-          "download": "1703340288",
-          "gid": "7926463845179445793",
-          "size": "4284142136"
-        },
-        "public": {
           "download": "1726160096",
           "gid": "2439268733209880894",
           "size": "4354889634"
+        },
+        "public": {
+          "download": "1741418032",
+          "gid": "7931300017001263744",
+          "size": "4424407446"
         }
       }
     },
@@ -693,9 +777,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "1748791024",
-          "gid": "4916389863366824294",
-          "size": "4428970296"
+          "download": "1764167616",
+          "gid": "1778278612741137443",
+          "size": "4498671756"
         },
         "legacy-ea25": {
           "download": "607950592",
@@ -718,23 +802,23 @@
           "size": "2077168376"
         },
         "previous-ea": {
-          "download": "1726226960",
-          "gid": "9027528839892727573",
-          "size": "4358366812"
-        },
-        "public": {
           "download": "1748791024",
           "gid": "4916389863366824294",
           "size": "4428970296"
+        },
+        "public": {
+          "download": "1764167616",
+          "gid": "1778278612741137443",
+          "size": "4498671756"
         }
       }
     },
     "branches": {
       "beta": {
-        "buildid": "24946803",
+        "buildid": "25257516",
         "description": "Latest builds, might be buggy!!!",
-        "timebuildupdated": "1787738730",
-        "timeupdated": "1787738730"
+        "timebuildupdated": "1789142966",
+        "timeupdated": "1789142966"
       },
       "legacy-ea25": {
         "buildid": "7077555",
@@ -761,15 +845,15 @@
         "timeupdated": "1772907548"
       },
       "previous-ea": {
-        "buildid": "23858474",
-        "description": "The previous EA update, use when running mods that haven't yet been updated.",
-        "timebuildupdated": "1782141786",
-        "timeupdated": "1782141822"
-      },
-      "public": {
         "buildid": "24946803",
+        "description": "The previous EA update, use when running mods that haven't yet been updated.",
         "timebuildupdated": "1787738730",
         "timeupdated": "1787739039"
+      },
+      "public": {
+        "buildid": "25257516",
+        "timebuildupdated": "1789142966",
+        "timeupdated": "1789143020"
       }
     },
     "privatebranches": "1",

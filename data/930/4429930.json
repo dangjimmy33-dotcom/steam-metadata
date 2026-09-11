@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789140724,
+  "_lastChecked": 1789148173,
   "_history": [
     {
       "buildId": "25019382",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38678127,
+  "_change_number": 38800611,
   "_missing_token": false,
-  "_sha": "8d84670ea30d4377e236acfc6660f38f17a1ad97",
-  "_size": 7093,
+  "_sha": "df68c8fa3fd452d757bef0d51cd0d1c6882823be",
+  "_size": 8369,
   "appid": "4429930",
   "common": {
     "aicontenttype": "1",
@@ -154,6 +154,51 @@
     "review_score": "5",
     "small_capsule": {
       "english": "111a36e77a7eb23c2776c187d14ef2b85c00ab4f/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "1",
+      "steam_machine_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamMachine_TestResult_UnsupportedGraphicsPerformance"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1788540053",
+      "tested_build_id": "25019382",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+        }
+      }
     },
     "steam_release_date": "1787756643",
     "store_asset_mtime": "1787051920",

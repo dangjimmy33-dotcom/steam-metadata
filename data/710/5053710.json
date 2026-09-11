@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789141379,
-  "_history": [],
-  "_change_number": 38795367,
-  "_missing_token": true,
-  "_sha": "26012bd50b86ab51c8f7ff857ca4b36c208f669b",
-  "_size": 4281,
+  "_lastChecked": 1789148857,
+  "_history": [
+    {
+      "buildId": "24954125",
+      "branch": "public",
+      "timeUpdated": 1787763793,
+      "firstSeen": 1789148857,
+      "manifests": {
+        "5053711": {
+          "gid": "172486910280033396",
+          "size": 512546661,
+          "download": 342581312
+        }
+      }
+    }
+  ],
+  "_change_number": 38800187,
+  "_missing_token": false,
+  "_sha": "bcf5b913464cdd5ee99ca5ed9697d8ad68125937",
+  "_size": 5184,
   "appid": "5053710",
   "common": {
     "aicontenttype": "1",
@@ -29,6 +43,7 @@
     },
     "clienticon": "f459f788c085ead081b002fed11a584e63f60854",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -42,7 +57,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5053710",
     "genres": {
       "0": "4",
@@ -117,11 +131,12 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "bf03fb642d6e22c890b159a7ef4b551457d69cb0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789145681",
     "store_asset_mtime": "1786140370",
     "store_tags": {
       "0": "12095",
@@ -209,5 +224,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Soul Stake",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SoulStake.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "SoulStake.app\\Contents\\MacOS\\SoulStake",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "lib\\py3-linux-x86_64\\SoulStake",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5053711": {
+      "manifests": {
+        "public": {
+          "download": "342581312",
+          "gid": "172486910280033396",
+          "size": "512546661"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24954125",
+        "timebuildupdated": "1787763790",
+        "timeupdated": "1787763793"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Tap-Tap Legends",
+    "publisher": "Tap-Tap Legends"
+  }
 }

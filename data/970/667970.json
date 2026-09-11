@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789135989,
+  "_lastChecked": 1789143173,
   "_history": [
     {
       "buildId": "12181504",
@@ -182,12 +182,38 @@
           "download": 838232624
         }
       }
+    },
+    {
+      "buildId": "25257255",
+      "branch": "public_testing",
+      "timeUpdated": 1789142621,
+      "firstSeen": 1789143173,
+      "manifests": {
+        "667971": {
+          "gid": "5748347237134694777",
+          "size": 3520840189,
+          "download": 844558304
+        }
+      }
+    },
+    {
+      "buildId": "20275350",
+      "branch": "v1.12.6f1",
+      "timeUpdated": 1759783968,
+      "firstSeen": 1789143173,
+      "manifests": {
+        "667971": {
+          "gid": "809774009354886606",
+          "size": 3488450479,
+          "download": 818346400
+        }
+      }
     }
   ],
-  "_change_number": 38769913,
+  "_change_number": 38798791,
   "_missing_token": false,
-  "_sha": "549eead113ec58a22a5a5c4f8faa280e0b25e67d",
-  "_size": 8740,
+  "_sha": "db278ba605ed984a94d32ff89b1cd7216719cbd0",
+  "_size": 7674,
   "appid": "667970",
   "common": {
     "aicontenttype": "1",
@@ -440,9 +466,9 @@
           "size": "3488450479"
         },
         "public_testing": {
-          "download": "838232624",
-          "gid": "4906668746899105951",
-          "size": "3499957770"
+          "download": "844558304",
+          "gid": "5748347237134694777",
+          "size": "3520840189"
         },
         "v1.10.3f1": {
           "download": "810903808",
@@ -454,30 +480,10 @@
           "gid": "4747219937798258531",
           "size": "3476578982"
         },
-        "v1.2.1f5": {
-          "download": "667850496",
-          "gid": "7246267185801553853",
-          "size": "2154164473"
-        },
-        "v1.5.7f1": {
-          "download": "719137520",
-          "gid": "4731458148418571753",
-          "size": "2618674586"
-        },
-        "v1.6.8f1": {
-          "download": "765266848",
-          "gid": "7344288395719387372",
-          "size": "3019590124"
-        },
-        "v1.8.7f1": {
-          "download": "827055216",
-          "gid": "6002016101160367610",
-          "size": "3472855662"
-        },
-        "v1.9.6": {
-          "download": "804638768",
-          "gid": "9074396703847468923",
-          "size": "3459835111"
+        "v1.12.6f1": {
+          "download": "818346400",
+          "gid": "809774009354886606",
+          "size": "3488450479"
         }
       }
     },
@@ -501,10 +507,10 @@
         "timeupdated": "1759783968"
       },
       "public_testing": {
-        "buildid": "25236810",
+        "buildid": "25257255",
         "description": "Public unstable build testing",
-        "timebuildupdated": "1789062568",
-        "timeupdated": "1789063008"
+        "timebuildupdated": "1789142162",
+        "timeupdated": "1789142621"
       },
       "v1.10.3f1": {
         "buildid": "15494726",
@@ -518,35 +524,11 @@
         "timebuildupdated": "1733787241",
         "timeupdated": "1744929440"
       },
-      "v1.2.1f5": {
-        "buildid": "7063903",
+      "v1.12.6f1": {
+        "buildid": "20275350",
         "description": "old version",
-        "timebuildupdated": "1626874032",
-        "timeupdated": "1641487684"
-      },
-      "v1.5.7f1": {
-        "buildid": "10323418",
-        "description": "old version",
-        "timebuildupdated": "1673721687",
-        "timeupdated": "1679684181"
-      },
-      "v1.6.8f1": {
-        "buildid": "11193814",
-        "description": "old version",
-        "timebuildupdated": "1683677485",
-        "timeupdated": "1692907390"
-      },
-      "v1.8.7f1": {
-        "buildid": "13286382",
-        "description": "old version",
-        "timebuildupdated": "1706305441",
-        "timeupdated": "1711503084"
-      },
-      "v1.9.6": {
-        "buildid": "14657368",
-        "description": "old version",
-        "timebuildupdated": "1717959976",
-        "timeupdated": "1721938270"
+        "timebuildupdated": "1759777878",
+        "timeupdated": "1759783968"
       }
     },
     "hasdepotsindlc": "1",

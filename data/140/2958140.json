@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789138987,
+  "_lastChecked": 1789146346,
   "_history": [
     {
       "buildId": "25102091",
@@ -255,10 +255,10 @@
       }
     }
   ],
-  "_change_number": 38767497,
+  "_change_number": 38797227,
   "_missing_token": false,
-  "_sha": "8249b94bb06d66139bd6d69da2a8b9746c748fca",
-  "_size": 8424,
+  "_sha": "6629990184bd0621e583e3e0ee17c53b86f3a2e9",
+  "_size": 8793,
   "appid": "2958140",
   "common": {
     "associations": {
@@ -380,7 +380,7 @@
         "non_deck_display_glyphs": "1",
         "primary_player_is_controller_slot_0": "0",
         "recommended_runtime": "proton-stable",
-        "requires_h264": "0",
+        "requires_h264": "1",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
         "requires_manual_keyboard_invoke": "1",
@@ -394,17 +394,21 @@
       "steam_machine_tests": {
         "0": {
           "display": "3",
-          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
         },
         "1": {
           "display": "3",
-          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
         },
         "2": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "3": {
           "display": "4",
           "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
         },
-        "3": {
+        "4": {
           "display": "4",
           "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
         }
@@ -417,29 +421,37 @@
         },
         "1": {
           "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "2": {
+          "display": "1",
           "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
         }
       },
-      "test_timestamp": "1770854400",
-      "tested_build_id": "21840957",
+      "test_timestamp": "1788532989",
+      "tested_build_id": "25102112",
       "tests": {
         "0": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
         },
         "1": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
         },
         "2": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
         },
         "3": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "4": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
-        "4": {
+        "5": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
         }

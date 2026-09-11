@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789141418,
-  "_history": [],
-  "_change_number": 38702447,
-  "_missing_token": true,
-  "_sha": "772bb53c48f0b9060ffdcdfd3c04d77654fd0d18",
-  "_size": 4397,
+  "_lastChecked": 1789148898,
+  "_history": [
+    {
+      "buildId": "25257194",
+      "branch": "public",
+      "timeUpdated": 1789141944,
+      "firstSeen": 1789148898,
+      "manifests": {
+        "5100781": {
+          "gid": "3915889506595028716",
+          "size": 496777556,
+          "download": 323308816
+        },
+        "5100782": {
+          "gid": "6875983539800353702",
+          "size": 496868413,
+          "download": 323319728
+        }
+      }
+    }
+  ],
+  "_change_number": 38800816,
+  "_missing_token": false,
+  "_sha": "6e9c016ca97e85fc09dd053da18829450a455f35",
+  "_size": 5445,
   "appid": "5100780",
   "common": {
     "aicontenttype": "1",
@@ -26,7 +45,6 @@
     "clienticon": "f60e870619cde15a42e2782542cbeeda3a0a18fb",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5100780",
     "genres": {
       "0": "25",
@@ -115,12 +133,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ecdb5a518dbbf7dc3695db72e45e4db2daead77e/capsule_231x87.jpg",
       "sc_schinese": "bbc041579d7997155a411d96b84625dda2cb5c0b/capsule_231x87_sc_schinese.jpg",
       "schinese": "bbc041579d7997155a411d96b84625dda2cb5c0b/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789143644",
     "store_asset_mtime": "1788635747",
     "store_tags": {
       "0": "21",
@@ -145,5 +164,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Yi Ti Shuang Sheng",
+    "launch": {
+      "0": {
+        "executable": "Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "5100781": {
+      "manifests": {
+        "public": {
+          "download": "323308816",
+          "gid": "3915889506595028716",
+          "size": "496777556"
+        }
+      }
+    },
+    "5100782": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "download": "323319728",
+          "gid": "6875983539800353702",
+          "size": "496868413"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25257194",
+        "timebuildupdated": "1789141944",
+        "timeupdated": "1789141944"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "苍穹星炎",
+    "publisher": "苍穹星炎"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "save",
+        "pattern": "*.rmmzsave",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

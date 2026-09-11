@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789140701,
-  "_history": [],
-  "_change_number": 37445536,
-  "_missing_token": true,
-  "_sha": "3b4570451f324c623d135b9a47f6dfadc92595c6",
-  "_size": 8054,
+  "_lastChecked": 1789148149,
+  "_history": [
+    {
+      "buildId": "21984754",
+      "branch": "public",
+      "timeUpdated": 1771421650,
+      "firstSeen": 1789148149,
+      "manifests": {
+        "4407101": {
+          "gid": "3946286677868329226",
+          "size": 7960499047,
+          "download": 358003280
+        }
+      }
+    }
+  ],
+  "_change_number": 38799438,
+  "_missing_token": false,
+  "_sha": "531f92c62a66f0a35dcf47c29680ff43a3cc6697",
+  "_size": 8806,
   "appid": "4407100",
   "common": {
     "associations": {
@@ -41,7 +55,6 @@
     "clienticon": "7cefe1b212a7a081beb13f719fd798358d00b966",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4407100",
     "genres": {
       "0": "25",
@@ -114,7 +127,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2a5e74f0a408de9cbcddb647a6c79c60fccb3e08/capsule_231x87.jpg"
     },
@@ -452,5 +465,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "lichtung",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "lichtung.exe",
+        "type": "openxr"
+      }
+    }
+  },
+  "depots": {
+    "4407101": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "358003280",
+          "gid": "3946286677868329226",
+          "size": "7960499047"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "21984754",
+        "timebuildupdated": "1771421534",
+        "timeupdated": "1771421650"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Filmakademie Baden-Württemberg",
+    "homepage": "https://animationsinstitut.de",
+    "isfreeapp": "1",
+    "publisher": "Filmakademie Baden-Württemberg",
+    "vrheadsetstreaming": "1"
+  }
 }

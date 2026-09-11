@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789141342,
-  "_history": [],
-  "_change_number": 38725035,
-  "_missing_token": true,
-  "_sha": "e953cbda32bda24952076ae66a133d4c10ce52ec",
-  "_size": 3454,
+  "_lastChecked": 1789148819,
+  "_history": [
+    {
+      "buildId": "25187757",
+      "branch": "public",
+      "timeUpdated": 1788873100,
+      "firstSeen": 1789148819,
+      "manifests": {
+        "5014841": {
+          "gid": "2282194026494293387",
+          "size": 3704623847,
+          "download": 3309029920
+        }
+      }
+    }
+  ],
+  "_change_number": 38800564,
+  "_missing_token": false,
+  "_sha": "1a929080a24c1ee240f8baed60a9152a5ab82e62",
+  "_size": 4110,
   "appid": "5014840",
   "common": {
     "aicontenttype": "2",
@@ -28,7 +42,6 @@
     "clienticon": "d019fc0df33ce2284c9b47969ef2a6c1306131da",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5014840",
     "genres": {
       "0": "4",
@@ -99,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "379dde9c048d6a2a917318133a116157781af443/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789146421",
     "store_asset_mtime": "1788621826",
     "store_tags": {
       "0": "9626",
@@ -160,5 +174,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pixie - Desktop Pet That Mirrors You",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Pixie.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5014841": {
+      "manifests": {
+        "public": {
+          "download": "3309029920",
+          "gid": "2282194026494293387",
+          "size": "3704623847"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25187757",
+        "timebuildupdated": "1788873015",
+        "timeupdated": "1788873100"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Abdullah Sanberk EKER",
+    "homepage": "https://getpixie.app/",
+    "publisher": "Abdullah Sanberk EKER"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789137119,
+  "_lastChecked": 1789144373,
   "_history": [
     {
       "buildId": "24560172",
@@ -72,12 +72,48 @@
           "download": 217555648
         }
       }
+    },
+    {
+      "buildId": "25256009",
+      "branch": "beta",
+      "timeUpdated": 1789138376,
+      "firstSeen": 1789144373,
+      "manifests": {
+        "1521581": {
+          "gid": "6833597978256217957",
+          "size": 6303812224,
+          "download": 1091701328
+        },
+        "1521582": {
+          "gid": "4168765983783726904",
+          "size": 9194314901,
+          "download": 1481754128
+        }
+      }
+    },
+    {
+      "buildId": "25256009",
+      "branch": "public",
+      "timeUpdated": 1789138376,
+      "firstSeen": 1789144373,
+      "manifests": {
+        "1521581": {
+          "gid": "6833597978256217957",
+          "size": 6303812224,
+          "download": 1091701328
+        },
+        "1521582": {
+          "gid": "4168765983783726904",
+          "size": 9194314901,
+          "download": 1481754128
+        }
+      }
     }
   ],
-  "_change_number": 38581757,
+  "_change_number": 38796778,
   "_missing_token": false,
-  "_sha": "1e4b506cfa1ca846dce47837cb1d293c10915a11",
-  "_size": 7755,
+  "_sha": "e6893e945f90a7ca201457d965fce6a0de551bba",
+  "_size": 7763,
   "appid": "1521580",
   "common": {
     "associations": {
@@ -337,9 +373,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "1091673536",
-          "gid": "6378308973099576823",
-          "size": "6303775360"
+          "download": "1091701328",
+          "gid": "6833597978256217957",
+          "size": "6303812224"
         },
         "debug": {
           "download": "1395758176",
@@ -347,9 +383,9 @@
           "size": "8445168090"
         },
         "public": {
-          "download": "1083543792",
-          "gid": "4102064134734302661",
-          "size": "6235641569"
+          "download": "1091701328",
+          "gid": "6833597978256217957",
+          "size": "6303812224"
         },
         "raytracing-test": {
           "download": "312851360",
@@ -401,10 +437,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "24560172",
+        "buildid": "25256009",
         "description": "beta",
-        "timebuildupdated": "1785878386",
-        "timeupdated": "1785878386"
+        "timebuildupdated": "1789138376",
+        "timeupdated": "1789138376"
       },
       "debug": {
         "buildid": "16646163",
@@ -413,9 +449,9 @@
         "timeupdated": "1733867413"
       },
       "public": {
-        "buildid": "23069477",
-        "timebuildupdated": "1777841728",
-        "timeupdated": "1777842260"
+        "buildid": "25256009",
+        "timebuildupdated": "1789138376",
+        "timeupdated": "1789138376"
       },
       "raytracing-test": {
         "buildid": "7255059",
@@ -430,7 +466,7 @@
   "extended": {
     "developer": "yeswecamp",
     "dlcavailableonstore": "1",
-    "listofdlc": "2661580",
+    "listofdlc": "2661580,5139890",
     "publisher": "yeswecamp"
   },
   "ufs": {

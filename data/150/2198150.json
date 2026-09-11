@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789138027,
+  "_lastChecked": 1789145330,
   "_history": [
     {
       "buildId": "23057099",
@@ -341,12 +341,58 @@
           "download": 1699825456
         }
       }
+    },
+    {
+      "buildId": "25256948",
+      "branch": "1_14_2-custom-cursor",
+      "timeUpdated": 1789141167,
+      "firstSeen": 1789145330,
+      "manifests": {
+        "2198151": {
+          "gid": "3330873514976725221",
+          "size": 2691029855,
+          "download": 1577009184
+        },
+        "2198152": {
+          "gid": "224158896558245070",
+          "size": 2807898853,
+          "download": 1579340496
+        },
+        "2198153": {
+          "gid": "8898327245825255910",
+          "size": 2427752696,
+          "download": 1564372320
+        }
+      }
+    },
+    {
+      "buildId": "25256994",
+      "branch": "beta-1_16_0",
+      "timeUpdated": 1789141575,
+      "firstSeen": 1789145330,
+      "manifests": {
+        "2198151": {
+          "gid": "3515927796994709260",
+          "size": 3243120359,
+          "download": 1730411792
+        },
+        "2198152": {
+          "gid": "3334273693906874978",
+          "size": 3343732214,
+          "download": 1727703280
+        },
+        "2198153": {
+          "gid": "1884354696830440500",
+          "size": 2958551361,
+          "download": 1699805136
+        }
+      }
     }
   ],
-  "_change_number": 38770244,
+  "_change_number": 38798267,
   "_missing_token": false,
-  "_sha": "1ac6aac2a52f460ce3269ed004f203e9231e1563",
-  "_size": 14856,
+  "_sha": "9e338587eec77f896cde8e11b7069b789caf393f",
+  "_size": 14553,
   "appid": "2198150",
   "common": {
     "associations": {
@@ -687,11 +733,6 @@
           "gid": "9211182952746859705",
           "size": "2676379600"
         },
-        "1_13_2a-morwal": {
-          "download": "1330608656",
-          "gid": "5333173579986449531",
-          "size": "2475046266"
-        },
         "1_14_2-custom-cursor": {
           "download": "1577009184",
           "gid": "3330873514976725221",
@@ -713,9 +754,9 @@
           "size": "2690160507"
         },
         "beta-1_16_0": {
-          "download": "1730338176",
-          "gid": "8460708054704538933",
-          "size": "3242772394"
+          "download": "1730411792",
+          "gid": "3515927796994709260",
+          "size": "3243120359"
         },
         "beta-swapchain-timeout": {
           "download": "1576136688",
@@ -760,11 +801,6 @@
           "gid": "8120768899526563634",
           "size": "2767695876"
         },
-        "1_13_2a-morwal": {
-          "download": "1335281376",
-          "gid": "5337575770099144106",
-          "size": "2562496348"
-        },
         "1_14_2-custom-cursor": {
           "download": "1579340496",
           "gid": "224158896558245070",
@@ -786,9 +822,9 @@
           "size": "2807388961"
         },
         "beta-1_16_0": {
-          "download": "1727760448",
-          "gid": "9023950878824010640",
-          "size": "3343725297"
+          "download": "1727703280",
+          "gid": "3334273693906874978",
+          "size": "3343732214"
         },
         "beta-swapchain-timeout": {
           "download": "1577957520",
@@ -833,10 +869,15 @@
           "gid": "1881635757402940142",
           "size": "2427686915"
         },
+        "1_14_2-custom-cursor": {
+          "download": "1564372320",
+          "gid": "8898327245825255910",
+          "size": "2427752696"
+        },
         "beta-1_16_0": {
-          "download": "1699825456",
-          "gid": "3850020474496058310",
-          "size": "2958585812"
+          "download": "1699805136",
+          "gid": "1884354696830440500",
+          "size": "2958551361"
         },
         "public": {
           "download": "1564372320",
@@ -865,17 +906,11 @@
         "timebuildupdated": "1777713306",
         "timeupdated": "1777715532"
       },
-      "1_13_2a-morwal": {
-        "buildid": "18180088",
-        "description": "(temp) 1.13.2a with 2x wall count limit",
-        "timebuildupdated": "1745236545",
-        "timeupdated": "1745236642"
-      },
       "1_14_2-custom-cursor": {
-        "buildid": "19485715",
+        "buildid": "25256948",
         "description": "Custom cursor rendering to work around OS bugs",
-        "timebuildupdated": "1754407826",
-        "timeupdated": "1754409603"
+        "timebuildupdated": "1789141167",
+        "timeupdated": "1789141167"
       },
       "1_14_2-fix-stair-lantern-nan": {
         "buildid": "19473545",
@@ -896,10 +931,10 @@
         "timeupdated": "1753718315"
       },
       "beta-1_16_0": {
-        "buildid": "25236630",
+        "buildid": "25256994",
         "description": "[BETA] Wooden walls",
-        "timebuildupdated": "1789062015",
-        "timeupdated": "1789063742"
+        "timebuildupdated": "1789141261",
+        "timeupdated": "1789141575"
       },
       "beta-swapchain-timeout": {
         "buildid": "19145416",

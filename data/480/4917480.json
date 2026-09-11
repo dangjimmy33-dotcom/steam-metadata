@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789141243,
-  "_history": [],
-  "_change_number": 38501221,
-  "_missing_token": true,
-  "_sha": "84c8212db790f4967ea07302ceaebc7c9305ad7d",
-  "_size": 3011,
+  "_lastChecked": 1789148715,
+  "_history": [
+    {
+      "buildId": "25258670",
+      "branch": "public",
+      "timeUpdated": 1789147225,
+      "firstSeen": 1789148715,
+      "manifests": {
+        "4917481": {
+          "gid": "8214953500566301628",
+          "size": 684576551,
+          "download": 411198160
+        }
+      }
+    }
+  ],
+  "_change_number": 38800871,
+  "_missing_token": false,
+  "_sha": "b9c2d043a9ac3016af2b9e94ec8a0d9255b50347",
+  "_size": 3826,
   "appid": "4917480",
   "common": {
     "associations": {
@@ -26,7 +40,6 @@
     "clienticon": "5087d75997b0581ac5cbb7be3dc3f6712fe4caca",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4917480",
     "genres": {
       "0": "1",
@@ -100,7 +113,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5c84fc9aca71627918c937c0c8d3fe70f683e7f2/capsule_231x87.jpg"
     },
@@ -136,5 +149,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MECH DISTRICT",
+    "launch": {
+      "0": {
+        "description": "Play MECH DISTRICT",
+        "description_loc": {
+          "english": "Play MECH DISTRICT"
+        },
+        "executable": "MECH DISTRICT.exe"
+      }
+    }
+  },
+  "depots": {
+    "4917481": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "411198160",
+          "gid": "8214953500566301628",
+          "size": "684576551"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25258670",
+        "timebuildupdated": "1789146880",
+        "timeupdated": "1789147225"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Stands to Reason Games",
+    "publisher": "Stands to Reason Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "200",
+    "quota": "500000000"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789141410,
-  "_history": [],
-  "_change_number": 38796319,
-  "_missing_token": true,
-  "_sha": "cafd339b06fc1af7c208b931f9459238556c6a8e",
-  "_size": 3002,
+  "_lastChecked": 1789148889,
+  "_history": [
+    {
+      "buildId": "25257327",
+      "branch": "public",
+      "timeUpdated": 1789142828,
+      "firstSeen": 1789148889,
+      "manifests": {
+        "5090561": {
+          "gid": "6930754855910406466",
+          "size": 161308090,
+          "download": 68095440
+        }
+      }
+    }
+  ],
+  "_change_number": 38800655,
+  "_missing_token": false,
+  "_sha": "f81737a833523ea3e0f1c8c009456888a588b1b4",
+  "_size": 3508,
   "appid": "5090560",
   "common": {
     "associations": {
@@ -27,7 +41,6 @@
     "clienticon": "5be1ddddfff809a7e896a97670da32e604b2c060",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5090560",
     "genres": {
       "0": "1",
@@ -100,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "02a016fbee79b1554bfa5f8cd0c91f2e6202f75f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787151063",
     "store_tags": {
       "0": "597",
@@ -136,5 +150,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Quinn",
+    "launch": {
+      "0": {
+        "executable": "Quinn.exe"
+      }
+    }
+  },
+  "depots": {
+    "5090561": {
+      "manifests": {
+        "public": {
+          "download": "68095440",
+          "gid": "6930754855910406466",
+          "size": "161308090"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25257327",
+        "timebuildupdated": "1789142351",
+        "timeupdated": "1789142828"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Wrong_Swich_Studio",
+    "publisher": "Wrong_Swich_Studio"
+  }
 }

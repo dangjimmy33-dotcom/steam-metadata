@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789140735,
+  "_lastChecked": 1789148185,
   "_history": [
     {
       "buildId": "22419486",
@@ -26,12 +26,25 @@
           "download": 151001504
         }
       }
+    },
+    {
+      "buildId": "25258159",
+      "branch": "public",
+      "timeUpdated": 1789145671,
+      "firstSeen": 1789148185,
+      "manifests": {
+        "4440551": {
+          "gid": "3394190512275175261",
+          "size": 438526717,
+          "download": 150942448
+        }
+      }
     }
   ],
-  "_change_number": 38797273,
+  "_change_number": 38800182,
   "_missing_token": false,
-  "_sha": "f272cfeaaa86ac3e6556a54f22970b5a974eaffc",
-  "_size": 3893,
+  "_sha": "7feb9b7d20668ee74354eb5a22b76d47635a0a6e",
+  "_size": 3865,
   "appid": "4440550",
   "common": {
     "aicontenttype": "1",
@@ -67,8 +80,7 @@
     "gameid": "4440550",
     "genres": {
       "0": "4",
-      "1": "23",
-      "2": "2"
+      "1": "23"
     },
     "header_image": {
       "english": "ca02741f1e8093181a55fc755d6ff1795ef9b881/header.jpg"
@@ -173,7 +185,7 @@
         "config": {
           "oslist": "windows"
         },
-        "executable": "\\win-unpacked\\eethCross.exe",
+        "executable": "eethCross.exe",
         "type": "default"
       }
     },
@@ -187,18 +199,18 @@
       },
       "manifests": {
         "public": {
-          "download": "151001504",
-          "gid": "4760211036855491734",
-          "size": "438629976"
+          "download": "150942448",
+          "gid": "3394190512275175261",
+          "size": "438526717"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25256250",
-        "timebuildupdated": "1789139042",
-        "timeupdated": "1789139413"
+        "buildid": "25258159",
+        "timebuildupdated": "1789145099",
+        "timeupdated": "1789145671"
       }
     }
   },

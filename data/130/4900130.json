@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789141225,
-  "_history": [],
-  "_change_number": 38756433,
-  "_missing_token": true,
-  "_sha": "f47504cd70b156566fe5fd4ac96dddfad504931d",
-  "_size": 2604,
+  "_lastChecked": 1789148696,
+  "_history": [
+    {
+      "buildId": "25228132",
+      "branch": "public",
+      "timeUpdated": 1789034566,
+      "firstSeen": 1789148696,
+      "manifests": {
+        "4900130": {
+          "gid": "6910158286043667357",
+          "size": 8414,
+          "download": 8464
+        }
+      }
+    }
+  ],
+  "_change_number": 38801339,
+  "_missing_token": false,
+  "_sha": "71d3a60412dc501144c5629049f70fbff9e5ae62",
+  "_size": 3105,
   "appid": "4900130",
   "common": {
     "aicontenttype": "1",
@@ -37,7 +51,6 @@
     "content_descriptors_including_dlc": {
       "0": "5"
     },
-    "exfgls": "8",
     "gameid": "4900130",
     "genres": {
       "0": "3"
@@ -54,11 +67,12 @@
     "oslist": "windows,macos,linux",
     "parent": "687800",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "95ae495b0f53dd83be6588b7c3d611f667d9c385/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1787271088",
+    "steam_release_date": "1789148523",
+    "store_asset_mtime": "1788987238",
     "store_screenshot": "94d4f832ba70412e7de9b81a71c661be18dc3b91/ss_94d4f832ba70412e7de9b81a71c661be18dc3b91.jpg",
     "store_tags": {
       "0": "4711",
@@ -134,5 +148,30 @@
     },
     "type": "DLC"
   },
-  "public_only": "1"
+  "depots": {
+    "4900130": {
+      "dlcappid": "4900130",
+      "manifests": {
+        "public": {
+          "download": "8464",
+          "gid": "6910158286043667357",
+          "size": "8414"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25228132",
+        "timebuildupdated": "1789034551",
+        "timeupdated": "1789034566"
+      }
+    }
+  },
+  "extended": {
+    "developer": "1917 Studios",
+    "dlcavailableonstore": "1",
+    "dlcforappid": "687800",
+    "mustownapptopurchase": "687800",
+    "publisher": "Valkyrie Initiative"
+  }
 }

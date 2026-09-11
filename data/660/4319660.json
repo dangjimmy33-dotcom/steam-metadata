@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789140614,
-  "_history": [],
-  "_change_number": 38790459,
-  "_missing_token": true,
-  "_sha": "700c5ce72006d93fe3711a85400bb80bf398ae74",
-  "_size": 3562,
+  "_lastChecked": 1789148057,
+  "_history": [
+    {
+      "buildId": "25257629",
+      "branch": "public",
+      "timeUpdated": 1789143290,
+      "firstSeen": 1789148057,
+      "manifests": {
+        "4319661": {
+          "gid": "4822238425872065137",
+          "size": 256069375,
+          "download": 93434752
+        }
+      }
+    }
+  ],
+  "_change_number": 38800396,
+  "_missing_token": false,
+  "_sha": "f3eda5ce8c313275169b2f613025a7fcac4484f3",
+  "_size": 4527,
   "appid": "4319660",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "af512722cd47fdb6bfb405cc81239ca6bf5137ef",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4319660",
     "genres": {
       "0": "23"
@@ -99,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cbfbab17bea33d3281b6a317e487dde6cea4c80e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789146045",
     "store_asset_mtime": "1775143230",
     "store_tags": {
       "0": "615955",
@@ -164,5 +179,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Moon Garden",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Moon Garden/Moon Garden.exe"
+      }
+    }
+  },
+  "depots": {
+    "4319661": {
+      "manifests": {
+        "public": {
+          "download": "93434752",
+          "gid": "4822238425872065137",
+          "size": "256069375"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25257629",
+        "timebuildupdated": "1789143288",
+        "timeupdated": "1789143290"
+      }
+    }
+  },
+  "extended": {
+    "developer": " Kairos Games LLC",
+    "publisher": " Kairos Games LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "DefaultCompany/Moon Garden",
+        "pattern": "*.es3",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

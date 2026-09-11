@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789136227,
+  "_lastChecked": 1789143427,
   "_history": [
     {
       "buildId": "24055484",
@@ -90,12 +90,48 @@
           "download": 403657536
         }
       }
+    },
+    {
+      "buildId": "25256388",
+      "branch": "beta",
+      "timeUpdated": 1789139451,
+      "firstSeen": 1789143427,
+      "manifests": {
+        "858211": {
+          "gid": "3083615954328884885",
+          "size": 852260536,
+          "download": 399290080
+        },
+        "858212": {
+          "gid": "8173298630894466231",
+          "size": 865218229,
+          "download": 403657536
+        }
+      }
+    },
+    {
+      "buildId": "25256436",
+      "branch": "experimental",
+      "timeUpdated": 1789139625,
+      "firstSeen": 1789143427,
+      "manifests": {
+        "858211": {
+          "gid": "3083615954328884885",
+          "size": 852260536,
+          "download": 399290080
+        },
+        "858212": {
+          "gid": "396078024427572261",
+          "size": 865218505,
+          "download": 403654624
+        }
+      }
     }
   ],
-  "_change_number": 38420575,
+  "_change_number": 38797359,
   "_missing_token": false,
-  "_sha": "b494d9d3c1333d1e4325541195341b99e28d2fd5",
-  "_size": 8429,
+  "_sha": "c3fcefd8aadc092804f823f45f5327780abf500a",
+  "_size": 8474,
   "appid": "858210",
   "common": {
     "associations": {
@@ -358,20 +394,23 @@
     "steamdecktouchscreen": "1"
   },
   "depots": {
+    "5217190": {
+      "dlcappid": "5217190"
+    },
     "858211": {
       "config": {
         "oslist": "windows"
       },
       "manifests": {
         "beta": {
-          "download": "399258432",
-          "gid": "2938477016656490420",
-          "size": "852099730"
+          "download": "399290080",
+          "gid": "3083615954328884885",
+          "size": "852260536"
         },
         "experimental": {
-          "download": "399288080",
-          "gid": "3533762720624428892",
-          "size": "852212169"
+          "download": "399290080",
+          "gid": "3083615954328884885",
+          "size": "852260536"
         },
         "legacy_syzygy": {
           "download": "255008064",
@@ -424,16 +463,16 @@
     },
     "branches": {
       "beta": {
-        "buildid": "24055484",
+        "buildid": "25256388",
         "description": "Open beta testing",
-        "timebuildupdated": "1783196119",
-        "timeupdated": "1783196119"
+        "timebuildupdated": "1789139451",
+        "timeupdated": "1789139451"
       },
       "experimental": {
-        "buildid": "24533420",
+        "buildid": "25256436",
         "description": "Early beta testing",
-        "timebuildupdated": "1785765231",
-        "timeupdated": "1785765231"
+        "timebuildupdated": "1789139625",
+        "timeupdated": "1789139625"
       },
       "legacy_syzygy": {
         "buildid": "6568309",
