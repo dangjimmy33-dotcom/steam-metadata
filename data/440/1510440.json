@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789130876,
+  "_lastChecked": 1789137105,
   "_history": [
     {
       "buildId": "25189741",
@@ -78,12 +78,38 @@
           "download": 6690480000
         }
       }
+    },
+    {
+      "buildId": "25254418",
+      "branch": "compatibility",
+      "timeUpdated": 1789133300,
+      "firstSeen": 1789137105,
+      "manifests": {
+        "1510441": {
+          "gid": "1285669254569325276",
+          "size": 8524701872,
+          "download": 7123048208
+        }
+      }
+    },
+    {
+      "buildId": "25253631",
+      "branch": "public",
+      "timeUpdated": 1789131083,
+      "firstSeen": 1789137105,
+      "manifests": {
+        "1510441": {
+          "gid": "601642318524817879",
+          "size": 7297975431,
+          "download": 6690523888
+        }
+      }
     }
   ],
-  "_change_number": 38793332,
+  "_change_number": 38796081,
   "_missing_token": false,
-  "_sha": "aa01bb4ecb9b7f39e17862c575542f5db22ed733",
-  "_size": 8092,
+  "_sha": "24891055f9a8dee6c5aa8cf882452dc5c207f848",
+  "_size": 8091,
   "appid": "1510440",
   "common": {
     "associations": {
@@ -368,14 +394,14 @@
       },
       "manifests": {
         "compatibility": {
-          "download": "7123059120",
-          "gid": "2432547471995142906",
-          "size": "8524699040"
+          "download": "7123048208",
+          "gid": "1285669254569325276",
+          "size": "8524701872"
         },
         "public": {
-          "download": "6690480000",
-          "gid": "8373477628410242761",
-          "size": "7298090359"
+          "download": "6690523888",
+          "gid": "601642318524817879",
+          "size": "7297975431"
         }
       }
     },
@@ -401,15 +427,15 @@
     },
     "branches": {
       "compatibility": {
-        "buildid": "25236321",
+        "buildid": "25254418",
         "description": "Troubleshooting branch for solving hardware compatibility issues.",
-        "timebuildupdated": "1789060986",
-        "timeupdated": "1789060986"
+        "timebuildupdated": "1789133300",
+        "timeupdated": "1789133300"
       },
       "public": {
-        "buildid": "25235855",
-        "timebuildupdated": "1789059341",
-        "timeupdated": "1789059584"
+        "buildid": "25253631",
+        "timebuildupdated": "1789130819",
+        "timeupdated": "1789131083"
       }
     },
     "hasdepotsindlc": "1",

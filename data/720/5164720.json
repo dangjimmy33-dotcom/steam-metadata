@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789134426,
-  "_history": [],
-  "_change_number": 38418895,
-  "_missing_token": true,
-  "_sha": "f025345bd83816fb03455ea6bab20a7873c2b140",
-  "_size": 3234,
+  "_lastChecked": 1789141463,
+  "_history": [
+    {
+      "buildId": "24976066",
+      "branch": "public",
+      "timeUpdated": 1787852021,
+      "firstSeen": 1789141463,
+      "manifests": {
+        "5164721": {
+          "gid": "4588513526950076514",
+          "size": 268650156,
+          "download": 218054064
+        }
+      }
+    }
+  ],
+  "_change_number": 38797752,
+  "_missing_token": false,
+  "_sha": "03ce831c723f071076ca66653d99fa005727aa85",
+  "_size": 3587,
   "appid": "5164720",
   "common": {
     "associations": {
@@ -19,18 +33,11 @@
     },
     "category": {
       "category_2": "1",
-      "category_28": "1",
-      "category_55": "1",
-      "category_56": "1",
-      "category_57": "1",
-      "category_58": "1",
       "category_62": "1"
     },
     "clienticon": "a5971c89930fa479858a66deaf699e2b13684813",
     "community_hub_visible": "1",
-    "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5164720",
     "genres": {
       "0": "25",
@@ -102,10 +109,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e07429a82c2de29a493a7062581cb14fa484381f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789140480",
     "store_asset_mtime": "1787606325",
     "store_tags": {
       "0": "21",
@@ -134,16 +142,43 @@
         "subtitles": "true",
         "supported": "true"
       },
-      "latam": {
-        "subtitles": "true",
-        "supported": "true"
-      },
       "spanish": {
-        "subtitles": "true",
-        "supported": "true"
+        "subtitles": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Book of Revelation Apocalypse",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TheBookofRevelation.exe"
+      }
+    }
+  },
+  "depots": {
+    "5164721": {
+      "manifests": {
+        "public": {
+          "download": "218054064",
+          "gid": "4588513526950076514",
+          "size": "268650156"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24976066",
+        "timebuildupdated": "1787851846",
+        "timeupdated": "1787852021"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Always Right",
+    "publisher": "Always Right"
+  }
 }

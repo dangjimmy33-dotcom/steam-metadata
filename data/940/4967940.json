@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789134291,
-  "_history": [],
-  "_change_number": 38792877,
-  "_missing_token": true,
-  "_sha": "b066dd0bce7513e59eb2832527e40e29194ba3cf",
-  "_size": 1917,
+  "_lastChecked": 1789141299,
+  "_history": [
+    {
+      "buildId": "25253163",
+      "branch": "public",
+      "timeUpdated": 1789129345,
+      "firstSeen": 1789141299,
+      "manifests": {
+        "4967940": {
+          "gid": "3583317848156221610",
+          "size": 713503992,
+          "download": 713382560
+        }
+      }
+    }
+  ],
+  "_change_number": 38796991,
+  "_missing_token": false,
+  "_sha": "b46af56aef9b7d4f8ce30be129a4eae1c71e5060",
+  "_size": 2402,
   "appid": "4967940",
   "common": {
     "aicontenttype": "1",
@@ -34,7 +48,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "9",
     "gameid": "4967940",
     "genres": {
       "0": "25",
@@ -63,7 +76,7 @@
     "oslist": "windows",
     "parent": "4934050",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "4932c32627a1a68d53c2db62872192e770d192cc/capsule_231x87.jpg"
@@ -99,5 +112,30 @@
     },
     "type": "DLC"
   },
-  "public_only": "1"
+  "depots": {
+    "4967940": {
+      "dlcappid": "4967940",
+      "manifests": {
+        "public": {
+          "download": "713382560",
+          "gid": "3583317848156221610",
+          "size": "713503992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25253163",
+        "timebuildupdated": "1789129316",
+        "timeupdated": "1789129345"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kinky Business Group",
+    "dlcavailableonstore": "1",
+    "dlcforappid": "4934050",
+    "mustownapptopurchase": "4934050",
+    "publisher": "Kinky Business Group"
+  }
 }

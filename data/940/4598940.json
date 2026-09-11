@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789133980,
+  "_lastChecked": 1789140920,
   "_history": [
     {
       "buildId": "22846827",
@@ -39,12 +39,25 @@
           "download": 343745184
         }
       }
+    },
+    {
+      "buildId": "25255284",
+      "branch": "public",
+      "timeUpdated": 1789136077,
+      "firstSeen": 1789140920,
+      "manifests": {
+        "4598941": {
+          "gid": "6263361880870355205",
+          "size": 1528860320,
+          "download": 343725344
+        }
+      }
     }
   ],
-  "_change_number": 38793705,
+  "_change_number": 38795901,
   "_missing_token": false,
-  "_sha": "2ddb768f98c9f58dfbd3e6589a81a48d1fdf3caf",
-  "_size": 7288,
+  "_sha": "9131b2ae69f34eb712e392e843ecd1803989f9ec",
+  "_size": 7292,
   "appid": "4598940",
   "common": {
     "aicontenttype": "1",
@@ -329,18 +342,18 @@
     "4598941": {
       "manifests": {
         "public": {
-          "download": "343745184",
-          "gid": "2700516700320436535",
-          "size": "1529899200"
+          "download": "343725344",
+          "gid": "6263361880870355205",
+          "size": "1528860320"
         }
       }
     },
     "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
     "branches": {
       "public": {
-        "buildid": "25253654",
-        "timebuildupdated": "1789130858",
-        "timeupdated": "1789131141"
+        "buildid": "25255284",
+        "timebuildupdated": "1789136043",
+        "timeupdated": "1789136077"
       }
     }
   },
@@ -349,7 +362,7 @@
     "publisher": "Trenchveil Studio"
   },
   "ufs": {
-    "maxnumfiles": "10",
-    "quota": "10485760"
+    "maxnumfiles": "100",
+    "quota": "10000000000"
   }
 }

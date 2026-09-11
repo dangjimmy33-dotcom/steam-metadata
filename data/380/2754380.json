@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789132194,
+  "_lastChecked": 1789138733,
   "_history": [
     {
       "buildId": "23896151",
@@ -23,12 +23,35 @@
           "download": 647801920
         }
       }
+    },
+    {
+      "buildId": "25235501",
+      "branch": "public",
+      "timeUpdated": 1789133721,
+      "firstSeen": 1789138733,
+      "manifests": {
+        "2754381": {
+          "gid": "8584553446426696065",
+          "size": 933688798,
+          "download": 655685152
+        },
+        "2754382": {
+          "gid": "4416266300028046882",
+          "size": 1015253434,
+          "download": 665592096
+        },
+        "2754383": {
+          "gid": "1322896998819551129",
+          "size": 906180384,
+          "download": 650009600
+        }
+      }
     }
   ],
-  "_change_number": 38767741,
+  "_change_number": 38795423,
   "_missing_token": false,
-  "_sha": "631d1d68f8ebc7492bef5221a170e7a3be57a9ac",
-  "_size": 9334,
+  "_sha": "288369793bc8b8851a2e41313ed7c8742b216605",
+  "_size": 9480,
   "appid": "2754380",
   "common": {
     "associations": {
@@ -70,6 +93,7 @@
       "german": "1",
       "italian": "1",
       "latam": "1",
+      "russian": "1",
       "schinese": "1"
     },
     "library_assets": {
@@ -139,10 +163,11 @@
     "metacritic_score": "86",
     "name": "The Roottrees are Dead",
     "name_localized": {
+      "russian": "Руттри мертвы",
       "schinese": "鲁特里一家死了（The Roottrees are Dead）"
     },
     "osarch": "64",
-    "osextended": "macos64,macosapplesilicon",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
     "releasestate": "released",
@@ -275,6 +300,10 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "russian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "schinese": {
         "full_audio": "true",
         "subtitles": "true",
@@ -332,9 +361,9 @@
       },
       "manifests": {
         "public": {
-          "download": "653475920",
-          "gid": "6319422680076939883",
-          "size": "925001182"
+          "download": "655685152",
+          "gid": "8584553446426696065",
+          "size": "933688798"
         }
       }
     },
@@ -345,9 +374,9 @@
       },
       "manifests": {
         "public": {
-          "download": "663369616",
-          "gid": "8573609045154482072",
-          "size": "1006565389"
+          "download": "665592096",
+          "gid": "4416266300028046882",
+          "size": "1015253434"
         }
       }
     },
@@ -358,17 +387,17 @@
       },
       "manifests": {
         "public": {
-          "download": "647801920",
-          "gid": "7162062451633398737",
-          "size": "897492768"
+          "download": "650009600",
+          "gid": "1322896998819551129",
+          "size": "906180384"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "23896151",
-        "timebuildupdated": "1782314592",
-        "timeupdated": "1782316423"
+        "buildid": "25235501",
+        "timebuildupdated": "1789058117",
+        "timeupdated": "1789133721"
       }
     },
     "privatebranches": "1"

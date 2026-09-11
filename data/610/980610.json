@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789130301,
+  "_lastChecked": 1789136387,
   "_history": [
     {
       "buildId": "24896643",
@@ -84,12 +84,40 @@
           "download": 137370624
         }
       }
+    },
+    {
+      "buildId": "25254045",
+      "branch": "canary",
+      "timeUpdated": 1789132177,
+      "firstSeen": 1789136387,
+      "manifests": {
+        "980611": {
+          "gid": "505151855095857313",
+          "size": 243192750,
+          "download": 140407088
+        },
+        "980612": {
+          "gid": "7999512293901989026",
+          "size": 261714727,
+          "download": 142698624
+        },
+        "980613": {
+          "gid": "2829443515455227706",
+          "size": 242749745,
+          "download": 139472960
+        },
+        "980614": {
+          "gid": "3832160614568646197",
+          "size": 235563791,
+          "download": 137370624
+        }
+      }
     }
   ],
-  "_change_number": 38439704,
+  "_change_number": 38793971,
   "_missing_token": false,
-  "_sha": "aa62ff0030df2f51fad699e089016cfa46b02828",
-  "_size": 8155,
+  "_sha": "88d720c140ef461454ef5afb927d1ce3d3124623",
+  "_size": 8156,
   "appid": "980610",
   "common": {
     "associations": {
@@ -345,9 +373,9 @@
       },
       "manifests": {
         "canary": {
-          "download": "140397856",
-          "gid": "2175199392778011425",
-          "size": "243173806"
+          "download": "140407088",
+          "gid": "505151855095857313",
+          "size": "243192750"
         },
         "macos_intel": {
           "download": "128280768",
@@ -367,9 +395,9 @@
       },
       "manifests": {
         "canary": {
-          "download": "142689376",
-          "gid": "8258658917909209625",
-          "size": "261695783"
+          "download": "142698624",
+          "gid": "7999512293901989026",
+          "size": "261714727"
         },
         "macos_intel": {
           "download": "128086720",
@@ -390,9 +418,9 @@
       },
       "manifests": {
         "canary": {
-          "download": "139463712",
-          "gid": "23492463811443389",
-          "size": "242730801"
+          "download": "139472960",
+          "gid": "2829443515455227706",
+          "size": "242749745"
         },
         "macos_intel": {
           "download": "127781184",
@@ -431,10 +459,10 @@
     },
     "branches": {
       "canary": {
-        "buildid": "24896643",
+        "buildid": "25254045",
         "description": "Canary Testing",
-        "timebuildupdated": "1787526428",
-        "timeupdated": "1787526466"
+        "timebuildupdated": "1789132136",
+        "timeupdated": "1789132177"
       },
       "macos_intel": {
         "buildid": "24896500",

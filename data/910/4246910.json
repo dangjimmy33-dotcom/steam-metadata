@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789133658,
+  "_lastChecked": 1789140526,
   "_history": [
     {
       "buildId": "25128843",
@@ -54,12 +54,30 @@
           "download": 396640144
         }
       }
+    },
+    {
+      "buildId": "25254406",
+      "branch": "public",
+      "timeUpdated": 1789134562,
+      "firstSeen": 1789140526,
+      "manifests": {
+        "4246911": {
+          "gid": "633378846091279285",
+          "size": 1043173662,
+          "download": 887287536
+        },
+        "5059820": {
+          "gid": "4824277425495690982",
+          "size": 402205349,
+          "download": 396640144
+        }
+      }
     }
   ],
-  "_change_number": 38794413,
+  "_change_number": 38795632,
   "_missing_token": false,
-  "_sha": "d168b70e64f7b32b9c80ba39ef979dd5deb475fb",
-  "_size": 8537,
+  "_sha": "f37d67ae156be92c76f949bc454d0a3ac6ebc97f",
+  "_size": 8539,
   "appid": "4246910",
   "common": {
     "aicontenttype": "1",
@@ -380,9 +398,9 @@
     "4246911": {
       "manifests": {
         "public": {
-          "download": "887299616",
-          "gid": "816463345581394091",
-          "size": "1043133295"
+          "download": "887287536",
+          "gid": "633378846091279285",
+          "size": "1043173662"
         }
       }
     },
@@ -398,9 +416,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "25236687",
-        "timebuildupdated": "1789062211",
-        "timeupdated": "1789062383"
+        "buildid": "25254406",
+        "timebuildupdated": "1789133268",
+        "timeupdated": "1789134562"
       }
     },
     "privatebranches": "1"
@@ -413,7 +431,7 @@
   },
   "ufs": {
     "maxnumfiles": "500",
-    "quota": "10000000",
+    "quota": "1000000000",
     "rootoverrides": {
       "0": {
         "os": "Linux",

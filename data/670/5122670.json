@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789134403,
-  "_history": [],
-  "_change_number": 38427021,
-  "_missing_token": true,
-  "_sha": "a2b4daa933a37e161972253a8ad1780055309975",
-  "_size": 4263,
+  "_lastChecked": 1789141435,
+  "_history": [
+    {
+      "buildId": "24910777",
+      "branch": "public",
+      "timeUpdated": 1787588818,
+      "firstSeen": 1789141435,
+      "manifests": {
+        "5122671": {
+          "gid": "5647006523969056764",
+          "size": 256241779,
+          "download": 178942752
+        }
+      }
+    }
+  ],
+  "_change_number": 38795121,
+  "_missing_token": false,
+  "_sha": "69185881f3e88ac5282add6fff857370149ead32",
+  "_size": 4867,
   "appid": "5122670",
   "common": {
     "aicontenttype": "1",
@@ -30,7 +44,6 @@
     "clienticon": "132040d39a25d094da8e0cc4d949687d3b207fb6",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5122670",
     "genres": {
       "0": "25",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d048f385f387075a9ec85e4c5da30dc6285eba58/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787590191",
     "store_tags": {
       "0": "21",
@@ -207,5 +221,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Garbage Incident",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "trash_incident.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5122671": {
+      "manifests": {
+        "public": {
+          "download": "178942752",
+          "gid": "5647006523969056764",
+          "size": "256241779"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24910777",
+        "timebuildupdated": "1787588648",
+        "timeupdated": "1787588818"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Empty Pixel",
+    "isfreeapp": "1",
+    "publisher": "Empty Pixel"
+  }
 }

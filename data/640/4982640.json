@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789134302,
-  "_history": [],
-  "_change_number": 38765108,
-  "_missing_token": true,
-  "_sha": "9e75bfe7d0dd2a07376d2193c9165fc64b420c9f",
-  "_size": 3404,
+  "_lastChecked": 1789141312,
+  "_history": [
+    {
+      "buildId": "25150989",
+      "branch": "public",
+      "timeUpdated": 1788691001,
+      "firstSeen": 1789141312,
+      "manifests": {
+        "4982641": {
+          "gid": "8185870457044315264",
+          "size": 186569757,
+          "download": 173148256
+        }
+      }
+    }
+  ],
+  "_change_number": 38797457,
+  "_missing_token": false,
+  "_sha": "7edc115afe604374060156d67ecd48e9ea23445d",
+  "_size": 3944,
   "appid": "4982640",
   "common": {
     "associations": {
@@ -25,8 +39,8 @@
     },
     "clienticon": "b383e14d4aeff062a20b8091a788131813dc489e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4982640",
     "genres": {
       "0": "23",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d509e5ee775f848a065a0a34fe8cda7704b0dc64/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789139772",
     "store_asset_mtime": "1789037454",
     "store_tags": {
       "0": "5030",
@@ -156,5 +171,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Groober",
+    "launch": {
+      "0": {
+        "executable": "groober.exe"
+      }
+    }
+  },
+  "depots": {
+    "4982641": {
+      "manifests": {
+        "public": {
+          "download": "173148256",
+          "gid": "8185870457044315264",
+          "size": "186569757"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25150989",
+        "timebuildupdated": "1788690925",
+        "timeupdated": "1788691001"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SMART PUNK GAMES",
+    "publisher": "SMART PUNK GAMES"
+  }
 }

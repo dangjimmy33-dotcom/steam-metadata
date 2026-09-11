@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789133274,
-  "_history": [],
-  "_change_number": 38754872,
-  "_missing_token": true,
-  "_sha": "ae9e6edccaf87b2603b98cfbf5ca64a948e5fb83",
-  "_size": 3751,
+  "_lastChecked": 1789140062,
+  "_history": [
+    {
+      "buildId": "25254637",
+      "branch": "public",
+      "timeUpdated": 1789134072,
+      "firstSeen": 1789140062,
+      "manifests": {
+        "3856242": {
+          "gid": "96103040701066940",
+          "size": 2193934146,
+          "download": 443982176
+        },
+        "3856243": {
+          "gid": "5596575741168636457",
+          "size": 2699794712,
+          "download": 533176272
+        }
+      }
+    }
+  ],
+  "_change_number": 38794835,
+  "_missing_token": false,
+  "_sha": "4b80ce67f48df6460030f5dc8115ee8b9f2d3198",
+  "_size": 5505,
   "appid": "3856240",
   "common": {
     "associations": {
@@ -33,8 +52,8 @@
     "clienticns": "354fc3d75bddb6bd009c524a47ad48ea732b716d",
     "clienticon": "1309107e1f71cfec66d26c32000f4e6970a1092c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3856240",
     "genres": {
       "0": "23",
@@ -116,10 +135,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c33961e9e5d1ab916fb52ab8d152465816236d4e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1761994992",
     "store_tags": {
       "0": "9",
@@ -171,5 +191,99 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pieces of the Kingdom",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Pieces of the Kingdom.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Pieces of the Kingdom.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3856242": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "443982176",
+          "gid": "96103040701066940",
+          "size": "2193934146"
+        }
+      }
+    },
+    "3856243": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "533176272",
+          "gid": "5596575741168636457",
+          "size": "2699794712"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25254637",
+        "timebuildupdated": "1789134014",
+        "timeupdated": "1789134072"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Birdworks",
+    "homepage": "https://birdworks.io/games/potk/",
+    "publisher": "Birdworks"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "Birdworks/Pieces of the Kingdom"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "WinAppDataLocalLow"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "Birdworks/Pieces of the Kingdom"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "",
+        "pattern": "*.json",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

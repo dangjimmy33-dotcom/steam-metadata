@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789134301,
-  "_history": [],
-  "_change_number": 38792203,
-  "_missing_token": true,
-  "_sha": "f70638e6e66da66cc0820fbd54081de773f00703",
-  "_size": 3135,
+  "_lastChecked": 1789141312,
+  "_history": [
+    {
+      "buildId": "25256695",
+      "branch": "public",
+      "timeUpdated": 1789140375,
+      "firstSeen": 1789141312,
+      "manifests": {
+        "4982261": {
+          "gid": "7550081959178595540",
+          "size": 2302243502,
+          "download": 2114520816
+        }
+      }
+    }
+  ],
+  "_change_number": 38797913,
+  "_missing_token": false,
+  "_sha": "170129d5cc9604cd58487a938747353c64be235a",
+  "_size": 4245,
   "appid": "4982260",
   "common": {
     "aicontenttype": "2",
@@ -31,8 +45,8 @@
     },
     "clienticon": "6e999683f49030ee81f91952e0c3030a184629e6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4982260",
     "genres": {
       "0": "25",
@@ -103,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9901bdbc0f6f30a7cdd66eb74608f1fca2bd3961/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789140779",
     "store_asset_mtime": "1788246168",
     "store_tags": {
       "0": "21",
@@ -143,5 +158,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Loop 9",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Loop9.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4982261": {
+      "manifests": {
+        "public": {
+          "download": "2114520816",
+          "gid": "7550081959178595540",
+          "size": "2302243502"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25256695",
+        "timebuildupdated": "1789140361",
+        "timeupdated": "1789140375"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "SMENA",
+    "publisher": "SMENA"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "Loop9/Saved/Config/Windows/",
+        "pattern": "Game.ini",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

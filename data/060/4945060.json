@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789134270,
-  "_history": [],
-  "_change_number": 38607832,
-  "_missing_token": true,
-  "_sha": "0f7f3c5d1cbd85754d5fcff2a687e7c61b0fd6dd",
-  "_size": 3029,
+  "_lastChecked": 1789141273,
+  "_history": [
+    {
+      "buildId": "25256686",
+      "branch": "public",
+      "timeUpdated": 1789140350,
+      "firstSeen": 1789141273,
+      "manifests": {
+        "4945061": {
+          "gid": "1713306918869177645",
+          "size": 316012912,
+          "download": 144461360
+        }
+      }
+    }
+  ],
+  "_change_number": 38797686,
+  "_missing_token": false,
+  "_sha": "922297b6300db0b2f6db504bc42a4449253680ef",
+  "_size": 3911,
   "appid": "4945060",
   "common": {
     "associations": {
@@ -30,8 +44,8 @@
     },
     "clienticon": "4fc58e80d8430eb93807163fa5f32c9c22d20a62",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4945060",
     "genres": {
       "0": "4",
@@ -103,7 +117,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0c742710344999e9ebf2819a78c12bbc8d561acb/capsule_231x87.jpg"
     },
@@ -138,5 +152,54 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Temporarium",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Temporarium.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4945061": {
+      "manifests": {
+        "public": {
+          "download": "144461360",
+          "gid": "1713306918869177645",
+          "size": "316012912"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25256686",
+        "timebuildupdated": "1789140320",
+        "timeupdated": "1789140350"
+      }
+    },
+    "workshopdepot": "4945060"
+  },
+  "extended": {
+    "developer": "Landon Baker",
+    "publisher": "Celestial Fluff"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Temporarium/save_slots",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

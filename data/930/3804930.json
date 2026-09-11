@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789133222,
-  "_history": [],
-  "_change_number": 38743091,
-  "_missing_token": true,
-  "_sha": "9882648385fa3c3134ba3fea2602a1e195594ed2",
-  "_size": 4746,
+  "_lastChecked": 1789139999,
+  "_history": [
+    {
+      "buildId": "25208173",
+      "branch": "public",
+      "timeUpdated": 1788956462,
+      "firstSeen": 1789139999,
+      "manifests": {
+        "3804931": {
+          "gid": "7445690594471799711",
+          "size": 5248137543,
+          "download": 5037221152
+        }
+      }
+    }
+  ],
+  "_change_number": 38796936,
+  "_missing_token": false,
+  "_sha": "36617f63c0a412eb944797328d0fb9ad7d827e34",
+  "_size": 6066,
   "appid": "3804930",
   "common": {
     "aicontenttype": "1",
@@ -38,8 +52,8 @@
     "clienticon": "4b41f634cca9f2a0a03231e1898c740b5d026b70",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3804930",
     "genres": {
       "0": "23",
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1f815eadc7f75cc74b005b6c4311f1c473437449/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789138731",
     "store_asset_mtime": "1753994965",
     "store_tags": {
       "0": "599",
@@ -229,5 +244,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Burger Shift Team Rush",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Burger Shift: Team Rush",
+        "description_loc": {
+          "english": "Burger Shift: Team Rush"
+        },
+        "executable": "BurgerShift.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3804931": {
+      "manifests": {
+        "public": {
+          "download": "5037221152",
+          "gid": "7445690594471799711",
+          "size": "5248137543"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25208173",
+        "timebuildupdated": "1788956221",
+        "timeupdated": "1788956462"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Nova Telum Studio",
+    "publisher": "Nova Telum Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "DDS_With_Exterior/Saved/SaveGames/{64BitSteamID}",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

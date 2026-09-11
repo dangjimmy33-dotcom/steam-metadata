@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789134394,
-  "_history": [],
-  "_change_number": 38241151,
-  "_missing_token": true,
-  "_sha": "531f8a8a7f113c539dde449b238ab900b8ec791e",
-  "_size": 3406,
+  "_lastChecked": 1789141424,
+  "_history": [
+    {
+      "buildId": "24782380",
+      "branch": "public",
+      "timeUpdated": 1786993590,
+      "firstSeen": 1789141424,
+      "manifests": {
+        "5108841": {
+          "gid": "5835600331027253753",
+          "size": 154354411,
+          "download": 146090144
+        }
+      }
+    }
+  ],
+  "_change_number": 38797182,
+  "_missing_token": false,
+  "_sha": "3b51deea5d12d4a73292327ff2d8a994cdb80378",
+  "_size": 3956,
   "appid": "5108840",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "60727c650eaea83cfd75d79124c4ed071d40f350",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5108840",
     "genres": {
       "0": "4"
@@ -97,31 +111,32 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d645660bf286bca0c5e17a86819d46b63b139bd3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788429402",
     "store_asset_mtime": "1786804543",
     "store_tags": {
-      "0": "17894",
-      "1": "597",
-      "10": "97376",
-      "11": "5608",
-      "12": "4136",
-      "13": "1654",
-      "14": "46348",
-      "15": "4182",
-      "16": "5125",
-      "17": "8945",
+      "0": "87918",
+      "1": "1220528",
+      "10": "3964",
+      "11": "97376",
+      "12": "5608",
+      "13": "4136",
+      "14": "1654",
+      "15": "46348",
+      "16": "4182",
+      "17": "5125",
       "18": "1320952",
-      "2": "4234",
-      "3": "615955",
-      "4": "1698",
-      "5": "560542",
-      "6": "4085",
-      "7": "220585",
-      "8": "3871",
-      "9": "3964"
+      "2": "17894",
+      "3": "4234",
+      "4": "597",
+      "5": "615955",
+      "6": "1698",
+      "7": "560542",
+      "8": "4085",
+      "9": "3871"
     },
     "supported_languages": {
       "english": {
@@ -155,5 +170,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Kitty Needs A Home!",
+    "launch": {
+      "0": {
+        "executable": "kwh.exe"
+      }
+    }
+  },
+  "depots": {
+    "5108841": {
+      "manifests": {
+        "public": {
+          "download": "146090144",
+          "gid": "5835600331027253753",
+          "size": "154354411"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24782380",
+        "timebuildupdated": "1786993552",
+        "timeupdated": "1786993590"
+      }
+    }
+  },
+  "extended": {
+    "developer": "VIBELUTELY GAMES",
+    "publisher": "VIBELUTELY GAMES"
+  }
 }

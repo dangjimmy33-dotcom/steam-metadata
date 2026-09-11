@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789133384,
+  "_lastChecked": 1789140196,
   "_history": [
     {
       "buildId": "25233748",
@@ -13,12 +13,25 @@
           "download": 12854953008
         }
       }
+    },
+    {
+      "buildId": "25255812",
+      "branch": "public",
+      "timeUpdated": 1789137789,
+      "firstSeen": 1789140196,
+      "manifests": {
+        "3962841": {
+          "gid": "7605012441335378331",
+          "size": 13826677293,
+          "download": 12854934064
+        }
+      }
     }
   ],
-  "_change_number": 38791846,
+  "_change_number": 38796566,
   "_missing_token": false,
-  "_sha": "479076258f2d7e6e9bd663b8355f89eff8266a54",
-  "_size": 5903,
+  "_sha": "9fc43d3895016d7273c27824741b469497a0a7a4",
+  "_size": 5935,
   "appid": "3962840",
   "common": {
     "aicontenttype": "1",
@@ -139,6 +152,8 @@
     "primary_genre": "25",
     "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "77f4697e4c0de0fa3fc743a384d4a1801e7348f9/capsule_231x87.jpg"
     },
@@ -237,20 +252,20 @@
         "config": {
           "oslist": "macos"
         },
-        "executable": "tacos\\TACOSSeason1Remastered.app",
+        "executable": "TACOSSeason1Remastered.app",
         "type": "default"
       },
       "1": {
         "config": {
           "oslist": "windows"
         },
-        "executable": "tacos\\TACOSSeason1Remastered.exe"
+        "executable": "TACOSSeason1Remastered.exe"
       },
       "2": {
         "config": {
           "oslist": "linux"
         },
-        "executable": "tacos\\TACOSSeason1Remastered.sh",
+        "executable": "TACOSSeason1Remastered.sh",
         "type": "default"
       }
     }
@@ -259,17 +274,17 @@
     "3962841": {
       "manifests": {
         "public": {
-          "download": "12854953008",
-          "gid": "86759892375792426",
-          "size": "13826677538"
+          "download": "12854934064",
+          "gid": "7605012441335378331",
+          "size": "13826677293"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25233748",
-        "timebuildupdated": "1789052346",
-        "timeupdated": "1789052484"
+        "buildid": "25255812",
+        "timebuildupdated": "1789137732",
+        "timeupdated": "1789137789"
       }
     }
   },
