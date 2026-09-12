@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789160989,
+  "_lastChecked": 1789168375,
   "_history": [
     {
       "buildId": "25012592",
@@ -94,10 +94,10 @@
       }
     }
   ],
-  "_change_number": 38804530,
+  "_change_number": 38806192,
   "_missing_token": false,
-  "_sha": "b9a25a6734070aa8ce56378664fa8a1cd9adadfb",
-  "_size": 14948,
+  "_sha": "439592fdbe41488c04c8aa3b70bf8e306d3185e4",
+  "_size": 15812,
   "appid": "2807430",
   "common": {
     "associations": {
@@ -872,7 +872,49 @@
     "publisher": "Sky Cypher"
   },
   "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
     "maxnumfiles": "1000",
-    "quota": "100000000"
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SkyCypher/Gravity",
+            "replace": "SkyCypher/Gravity"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SkyCypher/Gravity",
+            "replace": "unity3d/SkyCypher/Gravity"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SkyCypher/Gravity",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "SkyCypher/Gravity",
+        "pattern": "*.jpg",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

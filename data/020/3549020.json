@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789161924,
+  "_lastChecked": 1789169308,
   "_history": [
     {
       "buildId": "25068048",
@@ -90,12 +90,30 @@
           "download": 886144
         }
       }
+    },
+    {
+      "buildId": "25263431",
+      "branch": "public",
+      "timeUpdated": 1789165683,
+      "firstSeen": 1789169308,
+      "manifests": {
+        "3549021": {
+          "gid": "1658901217910237305",
+          "size": 54057600817,
+          "download": 24480174192
+        },
+        "3549022": {
+          "gid": "663016823467430445",
+          "size": 4170094,
+          "download": 886144
+        }
+      }
     }
   ],
-  "_change_number": 38806109,
+  "_change_number": 38807343,
   "_missing_token": false,
-  "_sha": "ab737ffcac79bff6571d7a14d39c041126133c04",
-  "_size": 10005,
+  "_sha": "70bea2db725a81de29059f3146c580350be316f9",
+  "_size": 9618,
   "appid": "3549020",
   "common": {
     "associations": {
@@ -417,11 +435,6 @@
     },
     "3549021": {
       "manifests": {
-        "beta_1.2": {
-          "download": "24412053312",
-          "gid": "6916455094131602083",
-          "size": "54031423316"
-        },
         "legacy_v1.0.3": {
           "download": "22066854496",
           "gid": "2659922139563721366",
@@ -433,9 +446,9 @@
           "size": "48530043892"
         },
         "public": {
-          "download": "24480170160",
-          "gid": "2813124356901939732",
-          "size": "54057571352"
+          "download": "24480174192",
+          "gid": "1658901217910237305",
+          "size": "54057600817"
         }
       }
     },
@@ -444,11 +457,6 @@
         "oslist": "windows"
       },
       "manifests": {
-        "beta_1.2": {
-          "download": "886144",
-          "gid": "663016823467430445",
-          "size": "4170094"
-        },
         "legacy_v1.0.3": {
           "download": "886144",
           "gid": "663016823467430445",
@@ -467,12 +475,6 @@
       }
     },
     "branches": {
-      "beta_1.2": {
-        "buildid": "25068048",
-        "description": "Open beta test 1.2",
-        "timebuildupdated": "1788302124",
-        "timeupdated": "1788302520"
-      },
       "legacy_v1.0.3": {
         "buildid": "22997780",
         "description": "Legacy v1.0.3",
@@ -486,9 +488,9 @@
         "timeupdated": "1785366840"
       },
       "public": {
-        "buildid": "25262303",
-        "timebuildupdated": "1789160815",
-        "timeupdated": "1789161712"
+        "buildid": "25263431",
+        "timebuildupdated": "1789165683",
+        "timeupdated": "1789165683"
       }
     },
     "privatebranches": "1",

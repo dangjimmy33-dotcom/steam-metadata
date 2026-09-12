@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789162693,
+  "_lastChecked": 1789170072,
   "_history": [
     {
       "buildId": "24761666",
@@ -13,12 +13,25 @@
           "download": 342391904
         }
       }
+    },
+    {
+      "buildId": "25263110",
+      "branch": "public",
+      "timeUpdated": 1789164264,
+      "firstSeen": 1789170072,
+      "manifests": {
+        "4162091": {
+          "gid": "5349159336062905164",
+          "size": 1155900191,
+          "download": 396847664
+        }
+      }
     }
   ],
-  "_change_number": 38200423,
+  "_change_number": 38806963,
   "_missing_token": false,
-  "_sha": "9236e71ac8f2604704dc0b3f0d78f8a47a10e6d2",
-  "_size": 4131,
+  "_sha": "550451270ebf1dec6b51a2eca96e714376957e13",
+  "_size": 4366,
   "appid": "4162090",
   "common": {
     "aicontenttype": "1",
@@ -38,6 +51,7 @@
     },
     "clienticon": "e1506ca733aacdd3aaab36e8f05db0e113c00a10",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "gameid": "4162090",
     "genres": {
@@ -201,17 +215,17 @@
     "4162091": {
       "manifests": {
         "public": {
-          "download": "342391904",
-          "gid": "1264056800201037443",
-          "size": "1035584172"
+          "download": "396847664",
+          "gid": "5349159336062905164",
+          "size": "1155900191"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "24761666",
-        "timebuildupdated": "1786884087",
-        "timeupdated": "1786884210"
+        "buildid": "25263110",
+        "timebuildupdated": "1789164228",
+        "timeupdated": "1789164264"
       }
     }
   },
@@ -219,5 +233,16 @@
     "developer": "DodoModo",
     "homepage": "https://realifygames.com/",
     "publisher": "RealifyGames"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "DodoModo/DragonFireDefense",
+        "pattern": "savedata.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789158830,
+  "_lastChecked": 1789166223,
   "_history": [
     {
       "buildId": "17371042",
@@ -90,10 +90,10 @@
       }
     }
   ],
-  "_change_number": 38776802,
+  "_change_number": 38805224,
   "_missing_token": false,
-  "_sha": "cb2b19c922f16d2c8942cffb7588bb2ebc780f33",
-  "_size": 9653,
+  "_sha": "7059eea96a13943f560c8b96b51eca99276f0eea",
+  "_size": 9906,
   "appid": "1238840",
   "common": {
     "associations": {
@@ -363,6 +363,16 @@
       "0": {
         "executable": "link2ea://launchgame/1238840?platform=steam&theme=bf1",
         "type": "none"
+      },
+      "1": {
+        "config": {
+          "betakey": "eax_test"
+        },
+        "description": "New launch method",
+        "description_loc": {
+          "english": "New launch method"
+        },
+        "executable": "steam2ea://launchgame/1238840?platform=steam&theme=bf1"
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789159215,
+  "_lastChecked": 1789166608,
   "_history": [
     {
       "buildId": "19798118",
@@ -95,10 +95,10 @@
       }
     }
   ],
-  "_change_number": 38776802,
+  "_change_number": 38805424,
   "_missing_token": false,
-  "_sha": "0ee12f50914735e351c26ed1962e462fd2d27ac1",
-  "_size": 11071,
+  "_sha": "be116bc1e255d70e992b4228289fe2b44a4f8fc5",
+  "_size": 11327,
   "appid": "1517290",
   "common": {
     "associations": {
@@ -405,6 +405,16 @@
       "0": {
         "executable": "link2ea://launchgame/1517290?platform=steam&theme=bf2042",
         "type": "none"
+      },
+      "1": {
+        "config": {
+          "betakey": "eax_test"
+        },
+        "description": "New launch method",
+        "description_loc": {
+          "english": "New launch method"
+        },
+        "executable": "steam2ea://launchgame/1517290?platform=steam&theme=bf2042"
       }
     }
   },

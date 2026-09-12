@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789163753,
-  "_history": [],
-  "_change_number": 38782013,
-  "_missing_token": true,
-  "_sha": "ea9ba6659d7f99bea24ee25cca7d7d219a220b8a",
-  "_size": 4309,
+  "_lastChecked": 1789171134,
+  "_history": [
+    {
+      "buildId": "25245669",
+      "branch": "public",
+      "timeUpdated": 1789100497,
+      "firstSeen": 1789171134,
+      "manifests": {
+        "5123961": {
+          "gid": "8625418079868301436",
+          "size": 330322161,
+          "download": 136693248
+        }
+      }
+    }
+  ],
+  "_change_number": 38807553,
+  "_missing_token": false,
+  "_sha": "1128ef8cf73fe207cb03c1585745ebe15fed444d",
+  "_size": 4916,
   "appid": "5123960",
   "common": {
     "aicontenttype": "1",
@@ -31,6 +45,7 @@
     },
     "clienticon": "51e1fd11c42775139a23667016d391d84d9b733a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -44,7 +59,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5123960",
     "genres": {
       "0": "1",
@@ -116,11 +130,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "834c34b9c06b46904d445845520c282d6d4317d8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789166514",
     "store_asset_mtime": "1786952234",
     "store_tags": {
       "0": "12095",
@@ -207,5 +222,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hentai Age Mystic",
+    "launch": {
+      "0": {
+        "executable": "Hentai Age Mystic.exe"
+      }
+    }
+  },
+  "depots": {
+    "5123961": {
+      "manifests": {
+        "public": {
+          "download": "136693248",
+          "gid": "8625418079868301436",
+          "size": "330322161"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25245669",
+        "timebuildupdated": "1789100472",
+        "timeupdated": "1789100497"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Genene Game",
+    "publisher": "Genene Game"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000"
+  }
 }

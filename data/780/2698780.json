@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789160849,
+  "_lastChecked": 1789168235,
   "_history": [
     {
       "buildId": "17285134",
@@ -26,15 +26,27 @@
           "download": 8834306512
         }
       }
+    },
+    {
+      "buildId": "25262625",
+      "branch": "public",
+      "timeUpdated": 1789162930,
+      "firstSeen": 1789168235,
+      "manifests": {
+        "2698781": {
+          "gid": "5059187893259448596",
+          "size": 9509100078,
+          "download": 9127494000
+        }
+      }
     }
   ],
-  "_change_number": 38805462,
+  "_change_number": 38806896,
   "_missing_token": false,
-  "_sha": "44020deb6904dfc4a510b8088cf67069614d6a9f",
-  "_size": 9510,
+  "_sha": "4f85ab1552082374adce1c950494457ab5cccb09",
+  "_size": 10019,
   "appid": "2698780",
   "common": {
-    "aicontenttype": "1",
     "associations": {
       "0": {
         "name": "MYM Games Studios",
@@ -170,43 +182,63 @@
       "tchinese": "capsule_231x87_tchinese.jpg"
     },
     "steam_deck_compatibility": {
-      "category": "1",
+      "category": "2",
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
-        "non_deck_display_glyphs": "0",
+        "non_deck_display_glyphs": "1",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-9.0-2RC",
-        "requires_h264": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "1",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "requires_manual_keyboard_invoke": "1",
+        "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "1",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "1",
+      "steam_machine_compatibility": "2",
       "steam_machine_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
         }
       },
-      "steamos_compatibility": "1",
+      "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
         }
       },
-      "test_timestamp": "1725494400",
-      "tested_build_id": "14678343",
+      "test_timestamp": "1788457659",
+      "tested_build_id": "25053770",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
         }
       }
     },
@@ -332,13 +364,13 @@
         "executable": "ContractVille.exe"
       },
       "2": {
-        "arguments": "-ngxdisableota -ngxdisable",
+        "arguments": "-DP=SteamDeck_DX11 -dx11",
         "config": {
           "oslist": "windows"
         },
-        "description": "May resolve Black Screen Issue - DX12 NGX Disabled (Can't Use DLSS)",
+        "description": "Steam Deck Launch Option",
         "description_loc": {
-          "english": "May resolve Black Screen Issue - DX12 NGX Disabled (Can't Use DLSS)"
+          "english": "Steam Deck Launch Option"
         },
         "executable": "ContractVille.exe"
       },
@@ -396,9 +428,9 @@
           "size": "16914931487"
         },
         "public": {
-          "download": "8834306512",
-          "gid": "4687331526367633672",
-          "size": "22113836258"
+          "download": "9127494000",
+          "gid": "5059187893259448596",
+          "size": "9509100078"
         }
       }
     },
@@ -410,9 +442,9 @@
         "timeupdated": "1740755438"
       },
       "public": {
-        "buildid": "24413282",
-        "timebuildupdated": "1785160073",
-        "timeupdated": "1785161865"
+        "buildid": "25262625",
+        "timebuildupdated": "1789162244",
+        "timeupdated": "1789162930"
       }
     },
     "privatebranches": "1"
@@ -421,7 +453,7 @@
     "developer": "MYM Games Studios",
     "dlcavailableonstore": "1",
     "homepage": "https://www.fiftyeightstudios.com/",
-    "listofdlc": "3969000,4075310,4207210,4376710",
+    "listofdlc": "3969000,4075310,4207210,4376710,5112520",
     "publisher": "FiftyEight Studios"
   },
   "ufs": {

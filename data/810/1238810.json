@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789158830,
+  "_lastChecked": 1789166223,
   "_history": [
     {
       "buildId": "15984572",
@@ -95,10 +95,10 @@
       }
     }
   ],
-  "_change_number": 38776802,
+  "_change_number": 38805580,
   "_missing_token": false,
-  "_sha": "cf08ad8380edba3788631d0fb92d16f9829f2b0b",
-  "_size": 9859,
+  "_sha": "53b3400c06a45bc00f3e03b5d292543e78187b98",
+  "_size": 10112,
   "appid": "1238810",
   "common": {
     "associations": {
@@ -369,6 +369,16 @@
       "0": {
         "executable": "link2ea://launchgame/1238810?platform=steam&theme=bfv",
         "type": "none"
+      },
+      "1": {
+        "config": {
+          "betakey": "eax_test"
+        },
+        "description": "New launch method",
+        "description_loc": {
+          "english": "New launch method"
+        },
+        "executable": "steam2ea://launchgame/1238810?platform=steam&theme=bfv"
       }
     }
   },

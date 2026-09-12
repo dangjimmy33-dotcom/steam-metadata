@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789158490,
+  "_lastChecked": 1789165888,
   "_history": [
     {
       "buildId": "4466712",
@@ -350,11 +350,47 @@
           "download": 1836501536
         }
       }
+    },
+    {
+      "buildId": "25263356",
+      "branch": "indev",
+      "timeUpdated": 1789165312,
+      "firstSeen": 1789165888,
+      "manifests": {
+        "1013541": {
+          "gid": "5949807342226399339",
+          "size": 1963955015,
+          "download": 1711177200
+        },
+        "1013542": {
+          "gid": "6252293159447523702",
+          "size": 2560275769,
+          "download": 1836503136
+        }
+      }
+    },
+    {
+      "buildId": "25263361",
+      "branch": "stable",
+      "timeUpdated": 1789165343,
+      "firstSeen": 1789165888,
+      "manifests": {
+        "1013541": {
+          "gid": "5949807342226399339",
+          "size": 1963955015,
+          "download": 1711177200
+        },
+        "1013542": {
+          "gid": "6252293159447523702",
+          "size": 2560275769,
+          "download": 1836503136
+        }
+      }
     }
   ],
-  "_change_number": 38802967,
+  "_change_number": 38807259,
   "_missing_token": false,
-  "_sha": "d76b2fe1045936eab636abc9e5835bedc3e6c255",
+  "_sha": "0185e1ef8eab6becc5b66ad036189c0a359a7096",
   "_size": 10348,
   "appid": "1013540",
   "common": {
@@ -695,9 +731,9 @@
           "size": "2251395102"
         },
         "indev": {
-          "download": "1836501536",
-          "gid": "9119918508809019402",
-          "size": "2560278931"
+          "download": "1836503136",
+          "gid": "6252293159447523702",
+          "size": "2560275769"
         },
         "public": {
           "download": "1588145760",
@@ -705,9 +741,9 @@
           "size": "2251395102"
         },
         "stable": {
-          "download": "1836501536",
-          "gid": "9119918508809019402",
-          "size": "2560278931"
+          "download": "1836503136",
+          "gid": "6252293159447523702",
+          "size": "2560275769"
         },
         "test": {
           "download": "1829734016",
@@ -769,10 +805,10 @@
         "timeupdated": "1777478094"
       },
       "indev": {
-        "buildid": "25260193",
+        "buildid": "25263356",
         "description": "latest indev version",
-        "timebuildupdated": "1789152757",
-        "timeupdated": "1789152757"
+        "timebuildupdated": "1789165311",
+        "timeupdated": "1789165312"
       },
       "public": {
         "buildid": "23014048",
@@ -780,10 +816,10 @@
         "timeupdated": "1777478094"
       },
       "stable": {
-        "buildid": "25260211",
+        "buildid": "25263361",
         "description": "stable branch",
-        "timebuildupdated": "1789152819",
-        "timeupdated": "1789152819"
+        "timebuildupdated": "1789165343",
+        "timeupdated": "1789165343"
       },
       "test": {
         "buildid": "25111641",

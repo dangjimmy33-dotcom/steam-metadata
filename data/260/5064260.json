@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789163702,
+  "_lastChecked": 1789171082,
   "_history": [
     {
       "buildId": "25106321",
@@ -72,11 +72,47 @@
           "download": 113051040
         }
       }
+    },
+    {
+      "buildId": "25263112",
+      "branch": "patch-test",
+      "timeUpdated": 1789164236,
+      "firstSeen": 1789171082,
+      "manifests": {
+        "5064261": {
+          "gid": "7780617199710829010",
+          "size": 1196553029,
+          "download": 936273888
+        },
+        "5074440": {
+          "gid": "6624387425655629221",
+          "size": 120458867,
+          "download": 113051040
+        }
+      }
+    },
+    {
+      "buildId": "25263112",
+      "branch": "public",
+      "timeUpdated": 1789164863,
+      "firstSeen": 1789171082,
+      "manifests": {
+        "5064261": {
+          "gid": "7780617199710829010",
+          "size": 1196553029,
+          "download": 936273888
+        },
+        "5074440": {
+          "gid": "6624387425655629221",
+          "size": 120458867,
+          "download": 113051040
+        }
+      }
     }
   ],
-  "_change_number": 38776622,
+  "_change_number": 38807671,
   "_missing_token": false,
-  "_sha": "8c0b202d7c7707b83ac9b524ebd0ee844a54a5a9",
+  "_sha": "6ec257836334bc9937a410b0169f75ef4a74b1f9",
   "_size": 5151,
   "appid": "5064260",
   "common": {
@@ -181,7 +217,7 @@
       "english": "b6b1f7d1215759969a4879e3cd0879f77f593cca/capsule_231x87.jpg"
     },
     "steam_release_date": "1788471664",
-    "store_asset_mtime": "1789081356",
+    "store_asset_mtime": "1789166975",
     "store_tags": {
       "0": "15564",
       "1": "615955",
@@ -257,14 +293,14 @@
     "5064261": {
       "manifests": {
         "patch-test": {
-          "download": "873155760",
-          "gid": "1723725470417481133",
-          "size": "1132607978"
+          "download": "936273888",
+          "gid": "7780617199710829010",
+          "size": "1196553029"
         },
         "public": {
-          "download": "873155760",
-          "gid": "1723725470417481133",
-          "size": "1132607978"
+          "download": "936273888",
+          "gid": "7780617199710829010",
+          "size": "1196553029"
         }
       }
     },
@@ -286,15 +322,15 @@
     "baselanguages": "english,turkish",
     "branches": {
       "patch-test": {
-        "buildid": "25211267",
+        "buildid": "25263112",
         "description": "CRETA v1.0.1 Test Branch",
-        "timebuildupdated": "1788965657",
-        "timeupdated": "1788965657"
+        "timebuildupdated": "1789164236",
+        "timeupdated": "1789164236"
       },
       "public": {
-        "buildid": "25211267",
-        "timebuildupdated": "1788965657",
-        "timeupdated": "1788968766"
+        "buildid": "25263112",
+        "timebuildupdated": "1789164236",
+        "timeupdated": "1789164863"
       }
     }
   },

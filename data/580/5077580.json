@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789163714,
-  "_history": [],
-  "_change_number": 38806118,
-  "_missing_token": true,
-  "_sha": "f6729e71d30333c8a4384b3b6e12e159fd05be44",
-  "_size": 5259,
+  "_lastChecked": 1789171094,
+  "_history": [
+    {
+      "buildId": "24831637",
+      "branch": "public",
+      "timeUpdated": 1787333663,
+      "firstSeen": 1789171094,
+      "manifests": {
+        "5077581": {
+          "gid": "8868105317970752855",
+          "size": 332893688,
+          "download": 255416384
+        }
+      }
+    }
+  ],
+  "_change_number": 38808129,
+  "_missing_token": false,
+  "_sha": "fce77537a8c568581fa6cd31346cfefd40ab8c78",
+  "_size": 6169,
   "appid": "5077580",
   "common": {
     "aicontenttype": "1",
@@ -25,6 +39,7 @@
     },
     "clienticon": "a76d1f3cbb7acfff85d4265dd4f1ed7452b4f0f2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -34,7 +49,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "5077580",
     "genres": {
       "0": "4",
@@ -134,13 +148,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "brazilian": "bd5df29303058b91baf3645ebd1e32af25bd4cfb/capsule_231x87_brazilian.jpg",
       "english": "d44f075a72b7ec70293e339b56bcb2289ee45215/capsule_231x87.jpg",
       "latam": "503c4b00764fa8666474ad16db76ca33c37d5fb6/capsule_231x87_latam.jpg",
       "tchinese": "28b1caedc9da90023f9e5dce9a3c837bae494862/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789168578",
     "store_asset_mtime": "1789161641",
     "store_tags": {
       "0": "560542",
@@ -178,5 +193,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "A Vila Sobre o Poço",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "A Vila Sobre o Poco.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5077581": {
+      "manifests": {
+        "public": {
+          "download": "255416384",
+          "gid": "8868105317970752855",
+          "size": "332893688"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24831637",
+        "timebuildupdated": "1787197323",
+        "timeupdated": "1787333663"
+      }
+    }
+  },
+  "extended": {
+    "developer": "STREAM ON",
+    "publisher": "STREAM ON"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/A Vila Sobre o Poço",
+        "pattern": "savegame_v1.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
