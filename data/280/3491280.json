@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789243350,
+  "_lastChecked": 1789249895,
   "_history": [
     {
       "buildId": "25109177",
@@ -203,12 +203,35 @@
           "download": 9687431984
         }
       }
+    },
+    {
+      "buildId": "25275066",
+      "branch": "public",
+      "timeUpdated": 1789243402,
+      "firstSeen": 1789249895,
+      "manifests": {
+        "3491281": {
+          "gid": "431933864455774337",
+          "size": 25075687788,
+          "download": 9725203552
+        },
+        "3491282": {
+          "gid": "2078473429416267537",
+          "size": 24954456843,
+          "download": 9671521424
+        },
+        "3491283": {
+          "gid": "1188312159439671264",
+          "size": 24965868187,
+          "download": 9687431984
+        }
+      }
     }
   ],
-  "_change_number": 38824656,
+  "_change_number": 38824688,
   "_missing_token": false,
-  "_sha": "8aca51b278fee317481de1e8821c91ef04912daa",
-  "_size": 8145,
+  "_sha": "0767f7e89215a9e4d8fe1c79326c0143cc2c73f2",
+  "_size": 8210,
   "appid": "3491280",
   "common": {
     "aicontenttype": "1",
@@ -413,7 +436,6 @@
   "config": {
     "app_mappings": {
       "0": {
-        "branch": "alpha",
         "platform": "linux",
         "tool": "SteamLinuxRuntime_4"
       }
@@ -453,7 +475,6 @@
       },
       "3": {
         "config": {
-          "betakey": "alpha,beta",
           "osarch": "64",
           "oslist": "linux"
         },
@@ -521,6 +542,11 @@
           "download": "9687431984",
           "gid": "1188312159439671264",
           "size": "24965868187"
+        },
+        "public": {
+          "download": "9687431984",
+          "gid": "1188312159439671264",
+          "size": "24965868187"
         }
       }
     },
@@ -538,9 +564,9 @@
         "timeupdated": "1786981855"
       },
       "public": {
-        "buildid": "25198310",
-        "timebuildupdated": "1788914164",
-        "timeupdated": "1788951658"
+        "buildid": "25275066",
+        "timebuildupdated": "1789242726",
+        "timeupdated": "1789243402"
       }
     },
     "privatebranches": "1"

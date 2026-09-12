@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789243187,
+  "_lastChecked": 1789249753,
   "_history": [
     {
       "buildId": "24929191",
@@ -114,12 +114,48 @@
           "download": 12746573184
         }
       }
+    },
+    {
+      "buildId": "25275855",
+      "branch": "livegame",
+      "timeUpdated": 1789248191,
+      "firstSeen": 1789249753,
+      "manifests": {
+        "3356871": {
+          "gid": "7144598916172854765",
+          "size": 21202999788,
+          "download": 12746503952
+        },
+        "3356872": {
+          "gid": "3704052850058486952",
+          "size": 21206796209,
+          "download": 12746523440
+        }
+      }
+    },
+    {
+      "buildId": "25275855",
+      "branch": "public",
+      "timeUpdated": 1789248233,
+      "firstSeen": 1789249753,
+      "manifests": {
+        "3356871": {
+          "gid": "7144598916172854765",
+          "size": 21202999788,
+          "download": 12746503952
+        },
+        "3356872": {
+          "gid": "3704052850058486952",
+          "size": 21206796209,
+          "download": 12746523440
+        }
+      }
     }
   ],
-  "_change_number": 38824443,
+  "_change_number": 38825745,
   "_missing_token": false,
-  "_sha": "100035a8dd3a8fb8d5c3d416c27b3abb6c05bb7d",
-  "_size": 6176,
+  "_sha": "4f8b2e1e6b341da57d89df433d63b2b397e448a1",
+  "_size": 6295,
   "appid": "3356870",
   "common": {
     "aicontenttype": "1",
@@ -384,14 +420,14 @@
       },
       "manifests": {
         "livegame": {
-          "download": "12746552464",
-          "gid": "28444367880790145",
-          "size": "21202997764"
+          "download": "12746503952",
+          "gid": "7144598916172854765",
+          "size": "21202999788"
         },
         "public": {
-          "download": "12741764016",
-          "gid": "1259198685087071907",
-          "size": "21104458539"
+          "download": "12746503952",
+          "gid": "7144598916172854765",
+          "size": "21202999788"
         }
       }
     },
@@ -402,24 +438,29 @@
       },
       "manifests": {
         "livegame": {
-          "download": "12746573184",
-          "gid": "5249522388561110269",
-          "size": "21206794185"
+          "download": "12746523440",
+          "gid": "3704052850058486952",
+          "size": "21206796209"
+        },
+        "public": {
+          "download": "12746523440",
+          "gid": "3704052850058486952",
+          "size": "21206796209"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "livegame": {
-        "buildid": "25275015",
+        "buildid": "25275855",
         "description": "live",
-        "timebuildupdated": "1789242455",
-        "timeupdated": "1789242455"
+        "timebuildupdated": "1789248191",
+        "timeupdated": "1789248191"
       },
       "public": {
-        "buildid": "25264464",
-        "timebuildupdated": "1789170720",
-        "timeupdated": "1789170773"
+        "buildid": "25275855",
+        "timebuildupdated": "1789248191",
+        "timeupdated": "1789248233"
       }
     }
   },

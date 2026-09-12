@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789243935,
+  "_lastChecked": 1789250413,
   "_history": [
     {
       "buildId": "25142843",
@@ -180,12 +180,66 @@
           "download": 879095280
         }
       }
+    },
+    {
+      "buildId": "25275446",
+      "branch": "beta",
+      "timeUpdated": 1789245435,
+      "firstSeen": 1789250413,
+      "manifests": {
+        "3992261": {
+          "gid": "5894871625357742816",
+          "size": 2611277257,
+          "download": 1924055104
+        },
+        "3992262": {
+          "gid": "6837722157401042295",
+          "size": 2523180683,
+          "download": 1889813664
+        }
+      }
+    },
+    {
+      "buildId": "25202327",
+      "branch": "legacy-0.7.11",
+      "timeUpdated": 1788935049,
+      "firstSeen": 1789250413,
+      "manifests": {
+        "3992261": {
+          "gid": "3078118157804193433",
+          "size": 1589077757,
+          "download": 913180640
+        },
+        "3992262": {
+          "gid": "6892910015599278893",
+          "size": 1500981183,
+          "download": 879099120
+        }
+      }
+    },
+    {
+      "buildId": "25275446",
+      "branch": "public",
+      "timeUpdated": 1789245712,
+      "firstSeen": 1789250413,
+      "manifests": {
+        "3992261": {
+          "gid": "5894871625357742816",
+          "size": 2611277257,
+          "download": 1924055104
+        },
+        "3992262": {
+          "gid": "6837722157401042295",
+          "size": 2523180683,
+          "download": 1889813664
+        }
+      }
     }
   ],
-  "_change_number": 38816251,
+  "_change_number": 38825198,
   "_missing_token": false,
-  "_sha": "656d058c0796b1d62748ee334f54a521acb85079",
-  "_size": 13270,
+  "_sha": "06ca0ee5f76f5cfa9a85f7a7af23f90384432c18",
+  "_size": 13294,
   "appid": "3992260",
   "common": {
     "aicontenttype": "1",
@@ -538,19 +592,19 @@
       },
       "manifests": {
         "beta": {
+          "download": "1924055104",
+          "gid": "5894871625357742816",
+          "size": "2611277257"
+        },
+        "legacy-0.7.11": {
           "download": "913180640",
           "gid": "3078118157804193433",
           "size": "1589077757"
         },
         "public": {
-          "download": "913180640",
-          "gid": "3078118157804193433",
-          "size": "1589077757"
-        },
-        "unified-health": {
-          "download": "913194656",
-          "gid": "1367848142767590074",
-          "size": "1589111996"
+          "download": "1924055104",
+          "gid": "5894871625357742816",
+          "size": "2611277257"
         }
       }
     },
@@ -560,40 +614,40 @@
       },
       "manifests": {
         "beta": {
+          "download": "1889813664",
+          "gid": "6837722157401042295",
+          "size": "2523180683"
+        },
+        "legacy-0.7.11": {
           "download": "879099120",
           "gid": "6892910015599278893",
           "size": "1500981183"
         },
         "public": {
-          "download": "879099120",
-          "gid": "6892910015599278893",
-          "size": "1500981183"
-        },
-        "unified-health": {
-          "download": "879095280",
-          "gid": "7042620362140963038",
-          "size": "1501015437"
+          "download": "1889813664",
+          "gid": "6837722157401042295",
+          "size": "2523180683"
         }
       }
     },
     "baselanguages": "brazilian,english,finnish,french,german,japanese,koreana,polish,russian,schinese,spanish,tchinese,thai,vietnamese",
     "branches": {
       "beta": {
-        "buildid": "25202327",
+        "buildid": "25275446",
         "description": "Beta test branch",
-        "timebuildupdated": "1788934910",
-        "timeupdated": "1788934910"
+        "timebuildupdated": "1789245435",
+        "timeupdated": "1789245435"
       },
-      "public": {
+      "legacy-0.7.11": {
         "buildid": "25202327",
+        "description": "Version 0.7.11 for comparing health update",
         "timebuildupdated": "1788934910",
         "timeupdated": "1788935049"
       },
-      "unified-health": {
-        "buildid": "25204506",
-        "description": "Unified health test",
-        "timebuildupdated": "1788943594",
-        "timeupdated": "1788943594"
+      "public": {
+        "buildid": "25275446",
+        "timebuildupdated": "1789245435",
+        "timeupdated": "1789245712"
       }
     },
     "privatebranches": "1",

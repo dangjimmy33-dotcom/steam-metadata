@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789245060,
-  "_history": [],
-  "_change_number": 38650741,
-  "_missing_token": true,
-  "_sha": "ca6049cb7c0151f6ee5a4408c812d96a72e44f03",
-  "_size": 3001,
+  "_lastChecked": 1789251407,
+  "_history": [
+    {
+      "buildId": "25067008",
+      "branch": "public",
+      "timeUpdated": 1789250960,
+      "firstSeen": 1789251407,
+      "manifests": {
+        "5050291": {
+          "gid": "4466215379648945006",
+          "size": 473100024,
+          "download": 95345744
+        }
+      }
+    }
+  ],
+  "_change_number": 38826382,
+  "_missing_token": false,
+  "_sha": "387ca2daab09cadc859905bb1f49ea32fa2d48dc",
+  "_size": 3751,
   "appid": "5050290",
   "common": {
     "aicontenttype": "1",
@@ -23,7 +37,6 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
-      "category_28": "1",
       "category_38": "1",
       "category_62": "1",
       "category_74": "1",
@@ -33,9 +46,8 @@
     },
     "clienticon": "fbb7c9049a038bca0293f30fcaf50dd7fd201ffc",
     "community_hub_visible": "1",
-    "controller_support": "full",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5050290",
     "genres": {
       "0": "28"
@@ -105,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "00b2be65394d057c26ee178bd8ab6c904e3b03d6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789250928",
     "store_asset_mtime": "1787702918",
     "store_tags": {
       "0": "91114",
@@ -129,5 +142,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Strip Mall Simulator",
+    "launch": {
+      "0": {
+        "executable": "Strip Mall Simulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "5050291": {
+      "manifests": {
+        "public": {
+          "download": "95345744",
+          "gid": "4466215379648945006",
+          "size": "473100024"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25067008",
+        "timebuildupdated": "1788297701",
+        "timeupdated": "1789250960"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Just Another Gamedev",
+    "publisher": "Just Another Gamedev"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "StripMall",
+        "pattern": "savegame_*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

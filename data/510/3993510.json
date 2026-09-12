@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789243937,
+  "_lastChecked": 1789250414,
   "_history": [
     {
       "buildId": "24895371",
@@ -18,12 +18,30 @@
           "download": 2331968
         }
       }
+    },
+    {
+      "buildId": "25276000",
+      "branch": "public",
+      "timeUpdated": 1789249356,
+      "firstSeen": 1789250414,
+      "manifests": {
+        "3993511": {
+          "gid": "3591682292648508441",
+          "size": 710083538,
+          "download": 267495264
+        },
+        "4935070": {
+          "gid": "6231112421172212832",
+          "size": 7564231,
+          "download": 2331968
+        }
+      }
     }
   ],
-  "_change_number": 38672218,
+  "_change_number": 38825967,
   "_missing_token": false,
-  "_sha": "9698977ea33f2cde33d68e6418dc12fd050347c3",
-  "_size": 4873,
+  "_sha": "8f023b19fd03339d8d0013e37495293fa3535b6d",
+  "_size": 5449,
   "appid": "3993510",
   "common": {
     "associations": {
@@ -209,9 +227,9 @@
     "3993511": {
       "manifests": {
         "public": {
-          "download": "160197328",
-          "gid": "5246136922317137467",
-          "size": "404880430"
+          "download": "267495264",
+          "gid": "3591682292648508441",
+          "size": "710083538"
         }
       }
     },
@@ -228,9 +246,9 @@
     "baselanguages": "brazilian,dutch,english,french,german,japanese,koreana,polish,russian,schinese,spanish,swedish",
     "branches": {
       "public": {
-        "buildid": "24895371",
-        "timebuildupdated": "1787518658",
-        "timeupdated": "1787518755"
+        "buildid": "25276000",
+        "timebuildupdated": "1789249297",
+        "timeupdated": "1789249356"
       }
     },
     "hasdepotsindlc": "0",
@@ -239,6 +257,7 @@
   "extended": {
     "developer": "Arboraeternum",
     "dlcavailableonstore": "1",
+    "homepage": "https://chromatacodex.com/",
     "isfreeapp": "1",
     "listofdlc": "4935070",
     "publisher": "GamezEternal"
@@ -250,6 +269,27 @@
       "0": {
         "path": "project-chromata",
         "pattern": "save.dat",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Chroma Void",
+        "pattern": "chroma_void*.save",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Chroma Void",
+        "pattern": "keybindings.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Project VoidCrash/saves",
+        "pattern": "*.dat",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Project VoidCrash",
+        "pattern": "player_id",
         "root": "WinAppDataRoaming"
       }
     }

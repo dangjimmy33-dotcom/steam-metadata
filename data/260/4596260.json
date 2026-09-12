@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789244607,
+  "_lastChecked": 1789251007,
   "_history": [
     {
       "buildId": "24979652",
@@ -414,12 +414,35 @@
           "download": 2208179472
         }
       }
+    },
+    {
+      "buildId": "25276016",
+      "branch": "tester",
+      "timeUpdated": 1789249426,
+      "firstSeen": 1789251007,
+      "manifests": {
+        "4596261": {
+          "gid": "353502125139919196",
+          "size": 10577856,
+          "download": 4523808
+        },
+        "4596262": {
+          "gid": "6085761436012105176",
+          "size": 11945943,
+          "download": 4854496
+        },
+        "4596263": {
+          "gid": "1461355513006235772",
+          "size": 2229836250,
+          "download": 2206938288
+        }
+      }
     }
   ],
-  "_change_number": 38807424,
+  "_change_number": 38825988,
   "_missing_token": false,
-  "_sha": "26a12c58185df4371024635f9f6c262582f3e508",
-  "_size": 4678,
+  "_sha": "72a5a97191cbb85e00e7645601863aeec445ed5e",
+  "_size": 4677,
   "appid": "4596260",
   "common": {
     "aicontenttype": "1",
@@ -584,8 +607,8 @@
           "size": "10514368"
         },
         "tester": {
-          "download": "4523840",
-          "gid": "8883805404640857550",
+          "download": "4523808",
+          "gid": "353502125139919196",
           "size": "10577856"
         }
       }
@@ -615,9 +638,9 @@
           "size": "2124455804"
         },
         "tester": {
-          "download": "2208179472",
-          "gid": "7072079862703681355",
-          "size": "2231077323"
+          "download": "2206938288",
+          "gid": "1461355513006235772",
+          "size": "2229836250"
         }
       }
     },
@@ -628,10 +651,10 @@
         "timeupdated": "1789050035"
       },
       "tester": {
-        "buildid": "25263493",
+        "buildid": "25276016",
         "description": "Tester Branch",
-        "timebuildupdated": "1789166024",
-        "timeupdated": "1789166039"
+        "timebuildupdated": "1789249379",
+        "timeupdated": "1789249426"
       }
     }
   },

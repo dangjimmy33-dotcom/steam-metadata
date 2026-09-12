@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789244447,
+  "_lastChecked": 1789250866,
   "_history": [
     {
       "buildId": "25201932",
@@ -207,12 +207,35 @@
           "download": 259843216
         }
       }
+    },
+    {
+      "buildId": "25275816",
+      "branch": "public",
+      "timeUpdated": 1789247975,
+      "firstSeen": 1789250866,
+      "manifests": {
+        "4454431": {
+          "gid": "8471797789246160442",
+          "size": 344758140,
+          "download": 267850144
+        },
+        "4454432": {
+          "gid": "6365161960123973751",
+          "size": 428979081,
+          "download": 291676784
+        },
+        "4454433": {
+          "gid": "496494941038898526",
+          "size": 311910524,
+          "download": 259861888
+        }
+      }
     }
   ],
-  "_change_number": 38823751,
+  "_change_number": 38825709,
   "_missing_token": false,
-  "_sha": "f9036f244690ef9e8b8f46a965c9e5a08573cd2b",
-  "_size": 4551,
+  "_sha": "2d2049e76d04a6c1cc42ffff184e1409815ba1bb",
+  "_size": 4606,
   "appid": "4454430",
   "common": {
     "aicontenttype": "1",
@@ -379,9 +402,9 @@
       },
       "manifests": {
         "public": {
-          "download": "267831472",
-          "gid": "2929202932357791408",
-          "size": "344746520"
+          "download": "267850144",
+          "gid": "8471797789246160442",
+          "size": "344758140"
         }
       }
     },
@@ -391,9 +414,9 @@
       },
       "manifests": {
         "public": {
-          "download": "291658128",
-          "gid": "9089126873670010488",
-          "size": "428967461"
+          "download": "291676784",
+          "gid": "6365161960123973751",
+          "size": "428979081"
         }
       }
     },
@@ -403,18 +426,18 @@
       },
       "manifests": {
         "public": {
-          "download": "259843216",
-          "gid": "8188125802494715365",
-          "size": "311898904"
+          "download": "259861888",
+          "gid": "496494941038898526",
+          "size": "311910524"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25265627",
-        "timebuildupdated": "1789177382",
-        "timeupdated": "1789177382"
+        "buildid": "25275816",
+        "timebuildupdated": "1789247975",
+        "timeupdated": "1789247975"
       }
     },
     "hasdepotsindlc": "0"
@@ -423,5 +446,9 @@
     "developer": "Talisman One Studio",
     "homepage": "https://talismanonestudio.vercel.app/",
     "publisher": "Talisman One Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "20000000"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789244337,
+  "_lastChecked": 1789250770,
   "_history": [
     {
       "buildId": "24966230",
@@ -46,11 +46,34 @@
           "download": 113705184
         }
       }
+    },
+    {
+      "buildId": "25275496",
+      "branch": "beta",
+      "timeUpdated": 1789245941,
+      "firstSeen": 1789250770,
+      "manifests": {
+        "4347782": {
+          "gid": "4342596525249058241",
+          "size": 205647376,
+          "download": 113214816
+        },
+        "4347783": {
+          "gid": "7048920916526263791",
+          "size": 187976640,
+          "download": 102569968
+        },
+        "4347784": {
+          "gid": "1375385446902856840",
+          "size": 296903302,
+          "download": 113976960
+        }
+      }
     }
   ],
-  "_change_number": 38824844,
+  "_change_number": 38825258,
   "_missing_token": false,
-  "_sha": "40da64279524878ec65f23ad04f79f12f098bcbd",
+  "_sha": "8df8986cb515ebf9bd7613bb3bc964447ea30eb2",
   "_size": 7315,
   "appid": "4347780",
   "common": {
@@ -345,9 +368,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "100916240",
-          "gid": "7130828011836836904",
-          "size": "170531819"
+          "download": "113214816",
+          "gid": "4342596525249058241",
+          "size": "205647376"
         },
         "public": {
           "download": "100916240",
@@ -362,9 +385,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "102270352",
-          "gid": "8817073798089326983",
-          "size": "184695915"
+          "download": "102569968",
+          "gid": "7048920916526263791",
+          "size": "187976640"
         },
         "public": {
           "download": "102270352",
@@ -379,9 +402,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "113705184",
-          "gid": "1492191964408643886",
-          "size": "290891612"
+          "download": "113976960",
+          "gid": "1375385446902856840",
+          "size": "296903302"
         },
         "public": {
           "download": "113705184",
@@ -393,10 +416,10 @@
     "baselanguages": "english,german",
     "branches": {
       "beta": {
-        "buildid": "24966230",
+        "buildid": "25275496",
         "description": "Beta Branch for debugging",
-        "timebuildupdated": "1787818888",
-        "timeupdated": "1787822235"
+        "timebuildupdated": "1789245759",
+        "timeupdated": "1789245941"
       },
       "public": {
         "buildid": "24966230",
