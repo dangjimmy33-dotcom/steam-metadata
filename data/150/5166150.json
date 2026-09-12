@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789190798,
+  "_lastChecked": 1789196761,
   "_history": [
     {
       "buildId": "25222637",
@@ -13,12 +13,30 @@
           "download": 139173328
         }
       }
+    },
+    {
+      "buildId": "25268041",
+      "branch": "public",
+      "timeUpdated": 1789195156,
+      "firstSeen": 1789196761,
+      "manifests": {
+        "5166151": {
+          "gid": "364110026486236014",
+          "size": 146104743,
+          "download": 139178992
+        },
+        "5166152": {
+          "gid": "2415585979723703924",
+          "size": 537782078,
+          "download": 277562304
+        }
+      }
     }
   ],
-  "_change_number": 38768489,
+  "_change_number": 38813734,
   "_missing_token": false,
-  "_sha": "be1d31b7bd62d232414c247e30728bd6647ba81f",
-  "_size": 5850,
+  "_sha": "27c19a4cdbd6845b65d2bc0ffeff129a114f2519",
+  "_size": 6442,
   "appid": "5166150",
   "common": {
     "aicontenttype": "1",
@@ -130,7 +148,7 @@
     "name": "Agents! Please?",
     "osarch": "64",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "28",
     "releasestate": "released",
     "small_capsule": {
@@ -267,6 +285,14 @@
         },
         "executable": "AgentsPlease.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "AppRun",
+        "type": "default"
       }
     },
     "steamconfigurator3rdpartynative": "65535",
@@ -276,19 +302,36 @@
   },
   "depots": {
     "5166151": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "139173328",
-          "gid": "5894376729744353398",
-          "size": "146104231"
+          "download": "139178992",
+          "gid": "364110026486236014",
+          "size": "146104743"
+        }
+      }
+    },
+    "5166152": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "277562304",
+          "gid": "2415585979723703924",
+          "size": "537782078"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25222637",
-        "timebuildupdated": "1789010544",
-        "timeupdated": "1789010546"
+        "buildid": "25268041",
+        "timebuildupdated": "1789195156",
+        "timeupdated": "1789195156"
       }
     }
   },
@@ -302,6 +345,15 @@
     "ignoreexternalfiles": "1",
     "maxnumfiles": "16",
     "quota": "8388608",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "com.kibgames.agentsplease/cloud/{Steam3AccountID}",

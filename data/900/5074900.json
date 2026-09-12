@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789190734,
-  "_history": [],
-  "_change_number": 38812571,
-  "_missing_token": true,
-  "_sha": "a48f7aeee7ec051039aaa6fefc8e1f16fd76f018",
-  "_size": 3392,
+  "_lastChecked": 1789196704,
+  "_history": [
+    {
+      "buildId": "25267187",
+      "branch": "public",
+      "timeUpdated": 1789189141,
+      "firstSeen": 1789196704,
+      "manifests": {
+        "5074901": {
+          "gid": "6680258625745326888",
+          "size": 1069944119,
+          "download": 832075472
+        }
+      }
+    }
+  ],
+  "_change_number": 38812931,
+  "_missing_token": false,
+  "_sha": "d09914a23ac002d5d6db75b93265c05e769f73cb",
+  "_size": 5627,
   "appid": "5074900",
   "common": {
     "associations": {
@@ -23,6 +37,8 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
       "category_62": "1",
       "category_68": "1",
       "category_74": "1",
@@ -33,6 +49,7 @@
     "clienticns": "f697c82afbd71425a24dbc5187a44a11afd3afc9",
     "clienticon": "87a14d4cf04d5baec2886b307df64ecac9c83c31",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -40,7 +57,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5074900",
     "genres": {
       "0": "25",
@@ -127,11 +143,12 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "eb517a96f178c355c654ae6df731686407770643/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1786192905",
+    "steam_release_date": "1789190930",
+    "store_asset_mtime": "1789190621",
     "store_tags": {
       "0": "21",
       "1": "3799",
@@ -146,12 +163,132 @@
       "9": "6971"
     },
     "supported_languages": {
+      "brazilian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "french": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "german": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "italian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "japanese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "koreana": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "polish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "russian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "schinese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "spanish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "tchinese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "turkish": {
         "subtitles": "true",
         "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MotherAbove",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "launch",
+        "description_loc": {
+          "english": "launch"
+        },
+        "executable": "MotherAbove.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "launch",
+        "description_loc": {
+          "english": "launch"
+        },
+        "executable": "MotherAbove.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "launch",
+        "description_loc": {
+          "english": "launch"
+        },
+        "executable": "MotherAbove.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5074901": {
+      "manifests": {
+        "public": {
+          "download": "832075472",
+          "gid": "6680258625745326888",
+          "size": "1069944119"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25267187",
+        "timebuildupdated": "1789188822",
+        "timeupdated": "1789189141"
+      }
+    }
+  },
+  "extended": {
+    "developer": "VAINSANE",
+    "homepage": "https://vainsane.com/",
+    "publisher": "VAINSANE"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "game/saves",
+        "pattern": "*.",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

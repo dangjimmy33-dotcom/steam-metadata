@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789190672,
+  "_lastChecked": 1789196650,
   "_history": [
     {
       "buildId": "25223328",
@@ -252,12 +252,66 @@
           "download": 167114656
         }
       }
+    },
+    {
+      "buildId": "25239977",
+      "branch": "legacy",
+      "timeUpdated": 1789194171,
+      "firstSeen": 1789196650,
+      "manifests": {
+        "5001631": {
+          "gid": "3398664149997954621",
+          "size": 3354886367,
+          "download": 1460475792
+        },
+        "5074810": {
+          "gid": "468353041800858799",
+          "size": 168925397,
+          "download": 167114656
+        }
+      }
+    },
+    {
+      "buildId": "25267532",
+      "branch": "public",
+      "timeUpdated": 1789191674,
+      "firstSeen": 1789196650,
+      "manifests": {
+        "5001631": {
+          "gid": "775697001375161395",
+          "size": 3355097105,
+          "download": 1460442704
+        },
+        "5074810": {
+          "gid": "468353041800858799",
+          "size": 168925397,
+          "download": 167114656
+        }
+      }
+    },
+    {
+      "buildId": "25267532",
+      "branch": "test-0110",
+      "timeUpdated": 1789191466,
+      "firstSeen": 1789196650,
+      "manifests": {
+        "5001631": {
+          "gid": "775697001375161395",
+          "size": 3355097105,
+          "download": 1460442704
+        },
+        "5074810": {
+          "gid": "468353041800858799",
+          "size": 168925397,
+          "download": 167114656
+        }
+      }
     }
   ],
-  "_change_number": 38811985,
+  "_change_number": 38813540,
   "_missing_token": false,
-  "_sha": "9e9d16d153e39346321cdc11cd3deed157670398",
-  "_size": 9108,
+  "_sha": "da2ce13697bc6a268a988c4f51f1cc4a91a952fd",
+  "_size": 9478,
   "appid": "5001630",
   "common": {
     "aicontenttype": "1",
@@ -525,15 +579,20 @@
   "depots": {
     "5001631": {
       "manifests": {
+        "legacy": {
+          "download": "1460475792",
+          "gid": "3398664149997954621",
+          "size": "3354886367"
+        },
         "public": {
-          "download": "1461479616",
-          "gid": "4526746433157436677",
-          "size": "3354968303"
+          "download": "1460442704",
+          "gid": "775697001375161395",
+          "size": "3355097105"
         },
         "test-0110": {
-          "download": "1461507248",
-          "gid": "2018869968403107506",
-          "size": "3355031433"
+          "download": "1460442704",
+          "gid": "775697001375161395",
+          "size": "3355097105"
         },
         "test-015": {
           "download": "1460442704",
@@ -545,6 +604,11 @@
     "5074810": {
       "dlcappid": "5074810",
       "manifests": {
+        "legacy": {
+          "download": "167114656",
+          "gid": "468353041800858799",
+          "size": "168925397"
+        },
         "public": {
           "download": "167114656",
           "gid": "468353041800858799",
@@ -564,16 +628,22 @@
     },
     "baselanguages": "brazilian,dutch,english,french,german,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,tchinese,thai,turkish,ukrainian",
     "branches": {
+      "legacy": {
+        "buildid": "25239977",
+        "description": "legacy",
+        "timebuildupdated": "1789074161",
+        "timeupdated": "1789194171"
+      },
       "public": {
-        "buildid": "25242311",
-        "timebuildupdated": "1789084345",
-        "timeupdated": "1789101416"
+        "buildid": "25267532",
+        "timebuildupdated": "1789191466",
+        "timeupdated": "1789191674"
       },
       "test-0110": {
-        "buildid": "25252314",
+        "buildid": "25267532",
         "description": "Jiahao 0.1.10 test",
-        "timebuildupdated": "1789126487",
-        "timeupdated": "1789126487"
+        "timebuildupdated": "1789191466",
+        "timeupdated": "1789191466"
       },
       "test-015": {
         "buildid": "25254731",

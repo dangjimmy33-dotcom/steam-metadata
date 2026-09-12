@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789189669,
+  "_lastChecked": 1789195766,
   "_history": [
     {
       "buildId": "20281088",
@@ -23,12 +23,35 @@
           "download": 49424848
         }
       }
+    },
+    {
+      "buildId": "25268107",
+      "branch": "impact-beta",
+      "timeUpdated": 1789195753,
+      "firstSeen": 1789195766,
+      "manifests": {
+        "4009981": {
+          "gid": "1004721551201021948",
+          "size": 182087308,
+          "download": 99811376
+        },
+        "4009982": {
+          "gid": "8451683543731842198",
+          "size": 268237292,
+          "download": 121326896
+        },
+        "4009983": {
+          "gid": "2480077726454456026",
+          "size": 149203220,
+          "download": 91845360
+        }
+      }
     }
   ],
-  "_change_number": 38803513,
+  "_change_number": 38813786,
   "_missing_token": false,
-  "_sha": "b426af165cd95a51950dafacc766ceb9792b5e9a",
-  "_size": 6284,
+  "_sha": "b1cb9d2e255d9ac5fb925de642502739a6f14dce",
+  "_size": 6855,
   "appid": "4009980",
   "common": {
     "aicontenttype": "1",
@@ -278,6 +301,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "impact-beta": {
+          "download": "99811376",
+          "gid": "1004721551201021948",
+          "size": "182087308"
+        },
         "public": {
           "download": "55990528",
           "gid": "704386971413973956",
@@ -290,6 +318,11 @@
         "oslist": "macos"
       },
       "manifests": {
+        "impact-beta": {
+          "download": "121326896",
+          "gid": "8451683543731842198",
+          "size": "268237292"
+        },
         "public": {
           "download": "81431040",
           "gid": "1434381273338551920",
@@ -303,6 +336,11 @@
         "oslist": "linux"
       },
       "manifests": {
+        "impact-beta": {
+          "download": "91845360",
+          "gid": "2480077726454456026",
+          "size": "149203220"
+        },
         "public": {
           "download": "49424848",
           "gid": "9143459010655474895",
@@ -311,6 +349,12 @@
       }
     },
     "branches": {
+      "impact-beta": {
+        "buildid": "25268107",
+        "description": "IMPACT public beta - Experimental gameplay, content and balance may change.",
+        "timebuildupdated": "1789195753",
+        "timeupdated": "1789195753"
+      },
       "public": {
         "buildid": "20281088",
         "timebuildupdated": "1759813796",
