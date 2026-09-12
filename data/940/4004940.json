@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789208574,
+  "_lastChecked": 1789215444,
   "_history": [
     {
       "buildId": "25107922",
@@ -126,12 +126,30 @@
           "download": 283607424
         }
       }
+    },
+    {
+      "buildId": "25270204",
+      "branch": "public",
+      "timeUpdated": 1789212060,
+      "firstSeen": 1789215444,
+      "manifests": {
+        "4004941": {
+          "gid": "4273641327959589316",
+          "size": 839800867,
+          "download": 226906624
+        },
+        "4004942": {
+          "gid": "4667334436765622322",
+          "size": 861042238,
+          "download": 236751888
+        }
+      }
     }
   ],
-  "_change_number": 38816252,
+  "_change_number": 38817759,
   "_missing_token": false,
-  "_sha": "3dab659bc620f3fd133f5776728f45fccfeb8915",
-  "_size": 4473,
+  "_sha": "276f639f847ee21a04ac80129b46255c33eddb1e",
+  "_size": 4113,
   "appid": "4004940",
   "common": {
     "associations": {
@@ -165,7 +183,7 @@
       "0": "9"
     },
     "header_image": {
-      "english": "229061ea5a716da58ad1849b90599b366a471a0a/header.jpg"
+      "english": "94aa4720889e2ae708aacde165fa9befe8b20137/header.jpg"
     },
     "icon": "06d06d6dc3c8a4bbab6e75184c1829fdd4eb4e0e",
     "library_assets": {
@@ -183,18 +201,18 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "850eb1efe5b400017c77bf2952d27aa28738ca89/library_capsule.jpg"
+          "english": "c95e9a35bfbaa8db3d1c7bd0cdf5931d831ba255/library_capsule.jpg"
         },
         "image2x": {
-          "english": "850eb1efe5b400017c77bf2952d27aa28738ca89/library_capsule_2x.jpg"
+          "english": "c95e9a35bfbaa8db3d1c7bd0cdf5931d831ba255/library_capsule_2x.jpg"
         }
       },
       "library_header": {
         "image": {
-          "english": "229061ea5a716da58ad1849b90599b366a471a0a/library_header.jpg"
+          "english": "94aa4720889e2ae708aacde165fa9befe8b20137/library_header.jpg"
         },
         "image2x": {
-          "english": "229061ea5a716da58ad1849b90599b366a471a0a/library_header_2x.jpg"
+          "english": "94aa4720889e2ae708aacde165fa9befe8b20137/library_header_2x.jpg"
         }
       },
       "library_hero": {
@@ -212,10 +230,10 @@
       },
       "library_logo": {
         "image": {
-          "english": "a26d8633dfcf8fbb83572a8097d0807b49d84658/logo.png"
+          "english": "d65397f87bbf26dd7ec33efb39aca6dc27c57ddf/logo.png"
         },
         "image2x": {
-          "english": "a26d8633dfcf8fbb83572a8097d0807b49d84658/logo_2x.png"
+          "english": "d65397f87bbf26dd7ec33efb39aca6dc27c57ddf/logo_2x.png"
         },
         "logo_position": {
           "height_pct": "78.49679411066255",
@@ -233,10 +251,10 @@
     "review_percentage": "97",
     "review_score": "7",
     "small_capsule": {
-      "english": "cadff1786fdde68d3df0e8b341dff7df946c25b7/capsule_231x87.jpg"
+      "english": "7c9ddfd48477781933ee44c9ff6bc8a9b862b962/capsule_231x87.jpg"
     },
     "steam_release_date": "1781759793",
-    "store_asset_mtime": "1788187243",
+    "store_asset_mtime": "1789212734",
     "store_tags": {
       "0": "699",
       "1": "1773",
@@ -282,15 +300,10 @@
         "oslist": "windows"
       },
       "manifests": {
-        "beta": {
-          "download": "256321024",
-          "gid": "3249342694542732138",
-          "size": "904698376"
-        },
         "public": {
-          "download": "256321024",
-          "gid": "3249342694542732138",
-          "size": "904698376"
+          "download": "226906624",
+          "gid": "4273641327959589316",
+          "size": "839800867"
         }
       }
     },
@@ -299,31 +312,21 @@
         "oslist": "macos"
       },
       "manifests": {
-        "beta": {
-          "download": "283607424",
-          "gid": "2903221296363808597",
-          "size": "1075564388"
-        },
         "public": {
-          "download": "283404320",
-          "gid": "1562839009600841523",
-          "size": "1072591945"
+          "download": "236751888",
+          "gid": "4667334436765622322",
+          "size": "861042238"
         }
       }
     },
     "branches": {
-      "beta": {
-        "buildid": "25269713",
-        "description": "for beta release testing",
-        "timebuildupdated": "1789208031",
-        "timeupdated": "1789208031"
-      },
       "public": {
-        "buildid": "25173400",
-        "timebuildupdated": "1788808281",
-        "timeupdated": "1788808718"
+        "buildid": "25270204",
+        "timebuildupdated": "1789211584",
+        "timeupdated": "1789212060"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Light Hearted Tech",

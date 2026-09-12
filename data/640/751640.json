@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789205023,
+  "_lastChecked": 1789211790,
   "_history": [
     {
       "buildId": "20246040",
@@ -230,12 +230,58 @@
           "download": 82670144
         }
       }
+    },
+    {
+      "buildId": "25269743",
+      "branch": "beta",
+      "timeUpdated": 1789208309,
+      "firstSeen": 1789211790,
+      "manifests": {
+        "751641": {
+          "gid": "3376485883687636529",
+          "size": 249966424,
+          "download": 86448704
+        },
+        "751642": {
+          "gid": "8658017063881909066",
+          "size": 264618312,
+          "download": 93863664
+        },
+        "751643": {
+          "gid": "466929237757218971",
+          "size": 242954470,
+          "download": 82670144
+        }
+      }
+    },
+    {
+      "buildId": "25269743",
+      "branch": "public",
+      "timeUpdated": 1789208309,
+      "firstSeen": 1789211790,
+      "manifests": {
+        "751641": {
+          "gid": "3376485883687636529",
+          "size": 249966424,
+          "download": 86448704
+        },
+        "751642": {
+          "gid": "8658017063881909066",
+          "size": 264618312,
+          "download": 93863664
+        },
+        "751643": {
+          "gid": "466929237757218971",
+          "size": 242954470,
+          "download": 82670144
+        }
+      }
     }
   ],
-  "_change_number": 38790796,
+  "_change_number": 38816419,
   "_missing_token": false,
-  "_sha": "038ecb435336d4f3532e10c7e9059bbb829ddec5",
-  "_size": 6956,
+  "_sha": "cffe13ff3a1877fbcc341c1e395abaf24ae4ba17",
+  "_size": 6972,
   "appid": "751640",
   "common": {
     "associations": {
@@ -352,7 +398,7 @@
     "metacritic_name": "Dead Dungeon",
     "name": "Dead Dungeon",
     "osarch": "64",
-    "osextended": "macos64",
+    "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
     "releasestate": "released",
@@ -494,14 +540,14 @@
       },
       "manifests": {
         "beta": {
-          "download": "86448560",
-          "gid": "8499865785635813138",
-          "size": "249966328"
+          "download": "86448704",
+          "gid": "3376485883687636529",
+          "size": "249966424"
         },
         "public": {
-          "download": "59677328",
-          "gid": "8903876943835194347",
-          "size": "200899651"
+          "download": "86448704",
+          "gid": "3376485883687636529",
+          "size": "249966424"
         }
       }
     },
@@ -512,13 +558,13 @@
       "manifests": {
         "beta": {
           "download": "93863664",
-          "gid": "8843638622364920062",
+          "gid": "8658017063881909066",
           "size": "264618312"
         },
         "public": {
-          "download": "57186400",
-          "gid": "8529035152310670655",
-          "size": "195646933"
+          "download": "93863664",
+          "gid": "8658017063881909066",
+          "size": "264618312"
         }
       }
     },
@@ -529,26 +575,26 @@
       "manifests": {
         "beta": {
           "download": "82670144",
-          "gid": "1041404554019619911",
+          "gid": "466929237757218971",
           "size": "242954470"
         },
         "public": {
-          "download": "59592832",
-          "gid": "6621319238105334571",
-          "size": "242236861"
+          "download": "82670144",
+          "gid": "466929237757218971",
+          "size": "242954470"
         }
       }
     },
     "branches": {
       "beta": {
-        "buildid": "25237706",
-        "timebuildupdated": "1789065890",
-        "timeupdated": "1789065893"
+        "buildid": "25269743",
+        "timebuildupdated": "1789208262",
+        "timeupdated": "1789208309"
       },
       "public": {
-        "buildid": "20246040",
-        "timebuildupdated": "1759526943",
-        "timeupdated": "1759526980"
+        "buildid": "25269743",
+        "timebuildupdated": "1789208262",
+        "timeupdated": "1789208309"
       }
     }
   },

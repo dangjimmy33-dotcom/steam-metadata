@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789209578,
-  "_history": [],
-  "_change_number": 38751777,
-  "_missing_token": true,
-  "_sha": "1ee013f4239a9340425946e70b55efb02d0bc9a0",
-  "_size": 4234,
+  "_lastChecked": 1789216445,
+  "_history": [
+    {
+      "buildId": "25224859",
+      "branch": "public",
+      "timeUpdated": 1789022608,
+      "firstSeen": 1789216445,
+      "manifests": {
+        "5092581": {
+          "gid": "5444451839084538497",
+          "size": 57857396,
+          "download": 39196560
+        }
+      }
+    }
+  ],
+  "_change_number": 38817002,
+  "_missing_token": false,
+  "_sha": "ba6c9f886aadc204b2bd7522c93dab74a6b9acba",
+  "_size": 4999,
   "appid": "5092580",
   "common": {
     "aicontenttype": "1",
@@ -32,7 +46,6 @@
     "clienticon": "43fe35d63f590f2491768f5b7df0dcea6d232eae",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5092580",
     "genres": {
       "0": "1",
@@ -120,7 +133,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "86d99be3dff0dc282d3b07bdae5096281deeb9db/capsule_231x87.jpg",
       "schinese": "86d99be3dff0dc282d3b07bdae5096281deeb9db/capsule_231x87_schinese.jpg"
@@ -162,5 +175,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "骷髅传奇",
+    "launch": {
+      "0": {
+        "arguments": "eyJuZWVkX2NvbnNvbGUiOiIwIiwib3RoZXJfaW5mbyI6eyJnYW1lX25hbWUiOiJcdTlhYjdcdTlhYzVcdTRmMjBcdTU5NDciLCJnYW1lX2lkIjoxMDYsIm1jaF9pZCI6MTksIndlYl9hcGlfaG9zdCI6Imh0dHA6Ly85NS5nbTE3MTcuY29tIiwic3RlYW1fYXBwaWQiOiI1MDkyNTgwIiwic3RlYW1fY2hlY2siOjB9fQ==",
+        "executable": "Client.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5092581": {
+      "manifests": {
+        "public": {
+          "download": "39196560",
+          "gid": "5444451839084538497",
+          "size": "57857396"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25224859",
+        "timebuildupdated": "1789022519",
+        "timeupdated": "1789022608"
+      }
+    }
+  },
+  "extended": {
+    "developer": "骷髅传奇",
+    "isfreeapp": "1",
+    "publisher": "骷髅传奇"
+  }
 }

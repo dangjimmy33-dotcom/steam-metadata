@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789209604,
-  "_history": [],
-  "_change_number": 38769749,
-  "_missing_token": true,
-  "_sha": "4baccb6722a2a1d4e5ad29789b2f3e2816a3afda",
-  "_size": 3062,
+  "_lastChecked": 1789216471,
+  "_history": [
+    {
+      "buildId": "25236804",
+      "branch": "public",
+      "timeUpdated": 1789062578,
+      "firstSeen": 1789216471,
+      "manifests": {
+        "5131121": {
+          "gid": "1249460160582602954",
+          "size": 287133487,
+          "download": 110376272
+        }
+      }
+    }
+  ],
+  "_change_number": 38817861,
+  "_missing_token": false,
+  "_sha": "12ee9e44f5281ef5812c900a0b70e412f509ca7e",
+  "_size": 4079,
   "appid": "5131120",
   "common": {
     "aicontenttype": "1",
@@ -31,7 +45,6 @@
     "clienticon": "bc47a28584ef5f3e65ff5be3b614a82e8ea207fd",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5131120",
     "genres": {
       "0": "23",
@@ -104,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bff6a50acbe152c7dd4c67cf18ed550df5cbac59/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787691215",
     "store_tags": {
       "0": "599",
@@ -138,5 +152,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fear and Greed - Trading Empire",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play Fear & Greed: Trading Empire",
+        "description_loc": {
+          "english": "Play Fear & Greed: Trading Empire"
+        },
+        "executable": "Fear and Greed - Trading Empire.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5131121": {
+      "manifests": {
+        "public": {
+          "download": "110376272",
+          "gid": "1249460160582602954",
+          "size": "287133487"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25236804",
+        "timebuildupdated": "1789062547",
+        "timeupdated": "1789062578"
+      }
+    }
+  },
+  "extended": {
+    "developer": "AL Interactive",
+    "publisher": "AL Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Fear and Greed - Trading Empire/saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

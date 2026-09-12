@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789209404,
-  "_history": [],
-  "_change_number": 37437249,
-  "_missing_token": true,
-  "_sha": "c5416ec772f359cf4ad917069232b057ef299adb",
-  "_size": 3481,
+  "_lastChecked": 1789216273,
+  "_history": [
+    {
+      "buildId": "24160144",
+      "branch": "public",
+      "timeUpdated": 1783766092,
+      "firstSeen": 1789216273,
+      "manifests": {
+        "4886631": {
+          "gid": "332255642099448574",
+          "size": 206867744,
+          "download": 82637344
+        }
+      }
+    }
+  ],
+  "_change_number": 38817964,
+  "_missing_token": false,
+  "_sha": "8caad5db4ff8833e9b48957f7ab9cb9ad198b404",
+  "_size": 3957,
   "appid": "4886630",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     "clienticns": "adf67fa52c4fffc97b47bca929d69e2223d62b6f",
     "clienticon": "52bed5069b7e97f678bbe94fab6d157c75045497",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4886630",
     "genres": {
       "0": "1",
@@ -43,11 +57,7 @@
     },
     "icon": "52bed5069b7e97f678bbe94fab6d157c75045497",
     "languages": {
-      "english": "1",
-      "japanese": "1",
-      "koreana": "1",
-      "schinese": "1",
-      "spanish": "1"
+      "english": "1"
     },
     "library_assets": {
       "library_capsule": "en",
@@ -114,7 +124,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f57eaf77e532e9d17dabbc6a96a595d4eb7a17c2/capsule_231x87.jpg"
     },
@@ -160,5 +170,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "I Have Only MP",
+    "launch": {
+      "0": {
+        "executable": "I Have Only MP.exe"
+      }
+    }
+  },
+  "depots": {
+    "4886631": {
+      "manifests": {
+        "public": {
+          "download": "82637344",
+          "gid": "332255642099448574",
+          "size": "206867744"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24160144",
+        "timebuildupdated": "1783765681",
+        "timeupdated": "1783766092"
+      }
+    }
+  },
+  "extended": {
+    "developer": "PINKPOK",
+    "homepage": "https://www.youtube.com/@PinkPok-g9s",
+    "publisher": "PINKPOK"
+  }
 }

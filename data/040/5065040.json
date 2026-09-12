@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789209557,
-  "_history": [],
-  "_change_number": 38442691,
-  "_missing_token": true,
-  "_sha": "24f6be7dcc08b16d1eb7779643a972aa6a6455d7",
-  "_size": 2709,
+  "_lastChecked": 1789216424,
+  "_history": [
+    {
+      "buildId": "24577456",
+      "branch": "public",
+      "timeUpdated": 1785951395,
+      "firstSeen": 1789216424,
+      "manifests": {
+        "5065041": {
+          "gid": "6627142241029576268",
+          "size": 370148623,
+          "download": 139554624
+        }
+      }
+    }
+  ],
+  "_change_number": 38816623,
+  "_missing_token": false,
+  "_sha": "a861a2b43ac96897fd5baaa281db394d9254930c",
+  "_size": 3388,
   "appid": "5065040",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "ea91e64a550f446afeafd095ec75149522793456",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5065040",
     "genres": {
       "0": "4",
@@ -96,10 +109,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "45fac66179fe364ce1f28b6d4b78f1a1a1945668/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789209864",
     "store_asset_mtime": "1787520507",
     "store_tags": {
       "0": "597",
@@ -119,5 +133,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Nova Drop",
+    "launch": {
+      "0": {
+        "description": "Play Nova Drop",
+        "description_loc": {
+          "english": "Play Nova Drop"
+        },
+        "executable": "Nova Drop.exe"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5065041": {
+      "manifests": {
+        "public": {
+          "download": "139554624",
+          "gid": "6627142241029576268",
+          "size": "370148623"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24577456",
+        "timebuildupdated": "1785951112",
+        "timeupdated": "1785951395"
+      }
+    }
+  },
+  "extended": {
+    "developer": "GenTake Studio",
+    "homepage": "https://gentake.studio",
+    "publisher": "GenTake Studio"
+  }
 }
