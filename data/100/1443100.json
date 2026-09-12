@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789233431,
+  "_lastChecked": 1789240784,
   "_history": [
     {
       "buildId": "8252199",
@@ -48,10 +48,10 @@
       }
     }
   ],
-  "_change_number": 38769575,
+  "_change_number": 38823715,
   "_missing_token": false,
-  "_sha": "b147c5704722e1aed8616925d7322eb78d3ec459",
-  "_size": 5510,
+  "_sha": "faa3c58e0a40ccfd42cafed64b4617dbd89e1ee1",
+  "_size": 5241,
   "appid": "1443100",
   "common": {
     "associations": {
@@ -135,7 +135,7 @@
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "90",
+    "review_percentage": "88",
     "review_score": "7",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
@@ -230,16 +230,14 @@
           "oslist": "windows"
         },
         "executable": "RogueSlide-Windows.exe",
-        "type": "default",
-        "workingdir": "windows64"
+        "type": "default"
       },
       "1": {
         "config": {
           "oslist": "macos"
         },
         "executable": "RogueSlide-macOS.app",
-        "type": "default",
-        "workingdir": "mac"
+        "type": "default"
       }
     },
     "steamconfigurator3rdpartynative": "65535",
@@ -250,26 +248,13 @@
     "1443101": {
       "config": {
         "osarch": "64",
-        "oslist": "windows"
+        "oslist": "windows,linux"
       },
       "manifests": {
         "public": {
           "download": "81627104",
           "gid": "4070528364007327870",
           "size": "161227896"
-        }
-      }
-    },
-    "1443102": {
-      "config": {
-        "osarch": "64",
-        "oslist": "linux"
-      },
-      "manifests": {
-        "public": {
-          "download": "112586880",
-          "gid": "4716190033849592846",
-          "size": "147259921"
         }
       }
     },

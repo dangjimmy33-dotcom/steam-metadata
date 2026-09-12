@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789234683,
+  "_lastChecked": 1789241959,
   "_history": [
     {
       "buildId": "24440288",
@@ -90,12 +90,30 @@
           "download": 397499920
         }
       }
+    },
+    {
+      "buildId": "25274303",
+      "branch": "beta",
+      "timeUpdated": 1789237700,
+      "firstSeen": 1789241959,
+      "manifests": {
+        "2336332": {
+          "gid": "2458014088166975127",
+          "size": 881733463,
+          "download": 500502944
+        },
+        "2336333": {
+          "gid": "295267875186989551",
+          "size": 514249405,
+          "download": 397501952
+        }
+      }
     }
   ],
-  "_change_number": 38820450,
+  "_change_number": 38823381,
   "_missing_token": false,
-  "_sha": "8845bd2d5cf342b3dcff3c23ea7e891282394f7b",
-  "_size": 6910,
+  "_sha": "faa01227513eddfe61628471425330d114974367",
+  "_size": 6911,
   "appid": "2336330",
   "common": {
     "associations": {
@@ -330,9 +348,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "500500880",
-          "gid": "4612276878097500239",
-          "size": "881724976"
+          "download": "500502944",
+          "gid": "2458014088166975127",
+          "size": "881733463"
         },
         "public": {
           "download": "499499376",
@@ -347,9 +365,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "397499920",
-          "gid": "34509992574549792",
-          "size": "514241034"
+          "download": "397501952",
+          "gid": "295267875186989551",
+          "size": "514249405"
         },
         "public": {
           "download": "497408336",
@@ -360,10 +378,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25272391",
+        "buildid": "25274303",
         "description": "Public beta test for the next game update!",
-        "timebuildupdated": "1789225621",
-        "timeupdated": "1789225651"
+        "timebuildupdated": "1789237684",
+        "timeupdated": "1789237700"
       },
       "public": {
         "buildid": "24440288",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789235060,
+  "_lastChecked": 1789242314,
   "_history": [
     {
       "buildId": "25116341",
@@ -93,10 +93,10 @@
       }
     }
   ],
-  "_change_number": 38736283,
+  "_change_number": 38823058,
   "_missing_token": false,
-  "_sha": "369e8f2ab8845f57856e49de1f9b7d89c8b0aefe",
-  "_size": 6936,
+  "_sha": "1c6b8af24fcdb4c79db43ae52f055b69019eea27",
+  "_size": 7739,
   "appid": "2624080",
   "common": {
     "associations": {
@@ -401,6 +401,40 @@
     "hidecloudui": "1",
     "ignoreexternalfiles": "1",
     "maxnumfiles": "1000",
-    "quota": "400000000"
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "PotBuilders/Saved/SaveGames",
+        "pattern": "player_save_slots.sav",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "PotBuilders/Saved/SaveGames",
+        "pattern": "*_player.sav",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "PotBuilders/Saved/SaveGames",
+        "pattern": "*_inventory.sav",
+        "root": "WinAppDataLocal"
+      },
+      "3": {
+        "path": "PotBuilders/Saved/SaveGames",
+        "pattern": "*_world.sav",
+        "root": "WinAppDataLocal"
+      },
+      "4": {
+        "path": "PotBuilders/Saved/SaveGames",
+        "pattern": "SaveMetadata.sav",
+        "root": "WinAppDataLocal"
+      },
+      "5": {
+        "path": "PotBuilders/Saved/SaveGames/backups",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }

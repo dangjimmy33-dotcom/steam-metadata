@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789233751,
+  "_lastChecked": 1789241083,
   "_history": [
     {
       "buildId": "25141431",
@@ -972,11 +972,47 @@
           "download": 859179760
         }
       }
+    },
+    {
+      "buildId": "25274497",
+      "branch": "beta",
+      "timeUpdated": 1789238917,
+      "firstSeen": 1789241083,
+      "manifests": {
+        "1674011": {
+          "gid": "6895876846291308511",
+          "size": 708282432,
+          "download": 257724736
+        },
+        "1674012": {
+          "gid": "2679218837875423529",
+          "size": 900595985,
+          "download": 859179760
+        }
+      }
+    },
+    {
+      "buildId": "25274497",
+      "branch": "public",
+      "timeUpdated": 1789239216,
+      "firstSeen": 1789241083,
+      "manifests": {
+        "1674011": {
+          "gid": "6895876846291308511",
+          "size": 708282432,
+          "download": 257724736
+        },
+        "1674012": {
+          "gid": "2679218837875423529",
+          "size": 900595985,
+          "download": 859179760
+        }
+      }
     }
   ],
-  "_change_number": 38820111,
+  "_change_number": 38823759,
   "_missing_token": false,
-  "_sha": "9b63a7d082d0d5b966531e56f6bdc60a03a7f1c2",
+  "_sha": "3bae52239f07d65dbad53ba5854066a2f03fead2",
   "_size": 9162,
   "appid": "1674010",
   "common": {
@@ -1294,14 +1330,14 @@
       },
       "manifests": {
         "beta": {
-          "download": "257714160",
-          "gid": "7025968820426789865",
-          "size": "708269120"
+          "download": "257724736",
+          "gid": "6895876846291308511",
+          "size": "708282432"
         },
         "public": {
-          "download": "257714160",
-          "gid": "7025968820426789865",
-          "size": "708269120"
+          "download": "257724736",
+          "gid": "6895876846291308511",
+          "size": "708282432"
         }
       }
     },
@@ -1329,15 +1365,15 @@
     "baselanguages": "english,brazilian",
     "branches": {
       "beta": {
-        "buildid": "25272027",
+        "buildid": "25274497",
         "description": "Test Builds (Graphic Updates)",
-        "timebuildupdated": "1789223708",
-        "timeupdated": "1789223708"
+        "timebuildupdated": "1789238917",
+        "timeupdated": "1789238917"
       },
       "public": {
-        "buildid": "25272027",
-        "timebuildupdated": "1789223708",
-        "timeupdated": "1789224557"
+        "buildid": "25274497",
+        "timebuildupdated": "1789238917",
+        "timeupdated": "1789239216"
       }
     }
   },

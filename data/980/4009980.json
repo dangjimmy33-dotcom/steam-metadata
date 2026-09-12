@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789236807,
+  "_lastChecked": 1789243957,
   "_history": [
     {
       "buildId": "20281088",
@@ -115,12 +115,58 @@
           "download": 92192912
         }
       }
+    },
+    {
+      "buildId": "25274383",
+      "branch": "impact-beta",
+      "timeUpdated": 1789238160,
+      "firstSeen": 1789243957,
+      "manifests": {
+        "4009981": {
+          "gid": "2222521512276487893",
+          "size": 183143780,
+          "download": 100160448
+        },
+        "4009982": {
+          "gid": "680645540283450521",
+          "size": 269315972,
+          "download": 121686192
+        },
+        "4009983": {
+          "gid": "4243570527674158404",
+          "size": 150259692,
+          "download": 92194528
+        }
+      }
+    },
+    {
+      "buildId": "25274383",
+      "branch": "public",
+      "timeUpdated": 1789238392,
+      "firstSeen": 1789243957,
+      "manifests": {
+        "4009981": {
+          "gid": "2222521512276487893",
+          "size": 183143780,
+          "download": 100160448
+        },
+        "4009982": {
+          "gid": "680645540283450521",
+          "size": 269315972,
+          "download": 121686192
+        },
+        "4009983": {
+          "gid": "4243570527674158404",
+          "size": 150259692,
+          "download": 92194528
+        }
+      }
     }
   ],
-  "_change_number": 38822906,
+  "_change_number": 38823548,
   "_missing_token": false,
-  "_sha": "8b08b1f9db52ff8a405428844820e1b1f4a2fc93",
-  "_size": 7473,
+  "_sha": "3538c65287e0cbbfde94466be5f7da891db98610",
+  "_size": 7471,
   "appid": "4009980",
   "common": {
     "aicontenttype": "1",
@@ -377,14 +423,14 @@
       },
       "manifests": {
         "impact-beta": {
-          "download": "100158816",
-          "gid": "3215259420632799943",
-          "size": "183141636"
+          "download": "100160448",
+          "gid": "2222521512276487893",
+          "size": "183143780"
         },
         "public": {
-          "download": "100158816",
-          "gid": "3215259420632799943",
-          "size": "183141636"
+          "download": "100160448",
+          "gid": "2222521512276487893",
+          "size": "183143780"
         }
       }
     },
@@ -394,14 +440,14 @@
       },
       "manifests": {
         "impact-beta": {
-          "download": "121684256",
-          "gid": "7059338777745978658",
-          "size": "269311636"
+          "download": "121686192",
+          "gid": "680645540283450521",
+          "size": "269315972"
         },
         "public": {
-          "download": "121684256",
-          "gid": "7059338777745978658",
-          "size": "269311636"
+          "download": "121686192",
+          "gid": "680645540283450521",
+          "size": "269315972"
         }
       }
     },
@@ -412,28 +458,28 @@
       },
       "manifests": {
         "impact-beta": {
-          "download": "92192912",
-          "gid": "5221913260247021226",
-          "size": "150257548"
+          "download": "92194528",
+          "gid": "4243570527674158404",
+          "size": "150259692"
         },
         "public": {
-          "download": "92192912",
-          "gid": "5221913260247021226",
-          "size": "150257548"
+          "download": "92194528",
+          "gid": "4243570527674158404",
+          "size": "150259692"
         }
       }
     },
     "branches": {
       "impact-beta": {
-        "buildid": "25273925",
+        "buildid": "25274383",
         "description": "IMPACT public beta - Experimental gameplay, content and balance may change.",
-        "timebuildupdated": "1789235209",
-        "timeupdated": "1789235209"
+        "timebuildupdated": "1789238160",
+        "timeupdated": "1789238160"
       },
       "public": {
-        "buildid": "25273925",
-        "timebuildupdated": "1789235209",
-        "timeupdated": "1789235548"
+        "buildid": "25274383",
+        "timebuildupdated": "1789238160",
+        "timeupdated": "1789238392"
       }
     }
   },

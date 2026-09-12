@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789236019,
+  "_lastChecked": 1789243213,
   "_history": [
     {
       "buildId": "25169107",
@@ -128,10 +128,10 @@
       }
     }
   ],
-  "_change_number": 38822969,
+  "_change_number": 38823200,
   "_missing_token": false,
-  "_sha": "3234a989a8b94eae2f64c7b2efd4d806339e3ab9",
-  "_size": 8043,
+  "_sha": "3361745884c7ce1255684695de0ebf7997220fdd",
+  "_size": 8394,
   "appid": "3375110",
   "common": {
     "associations": {
@@ -417,7 +417,10 @@
         "executable": "CGH.sh",
         "type": "default"
       }
-    }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "228989": {
@@ -477,13 +480,24 @@
   "ufs": {
     "maxnumfiles": "100",
     "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "CGH/Saved/SaveGames",
+            "replace": ".config/Epic/CGH/Saved/SaveGames"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "CGH/Saved/SaveGames",
         "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocal"
       }
     }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789236966,
+  "_lastChecked": 1789244107,
   "_history": [
     {
       "buildId": "24836175",
@@ -41,10 +41,10 @@
       }
     }
   ],
-  "_change_number": 38818331,
+  "_change_number": 38824770,
   "_missing_token": false,
-  "_sha": "45281ba44c27fc190fc7ed08338e247ffedcc443",
-  "_size": 4703,
+  "_sha": "3e12cecbcdc833fa0b960aad65bf6dbac2240da6",
+  "_size": 4829,
   "appid": "4147100",
   "common": {
     "associations": {
@@ -214,14 +214,18 @@
     "installdir": "KnightsOfFiona",
     "launch": {
       "0": {
+        "arguments": "-screen-fullscreen 0 -screen-width 1920 -screen-height 1080",
+        "description": "Works for most setups.",
+        "description_loc": {
+          "english": "Works for most setups."
+        },
         "executable": "KnightsOfFiona.exe",
         "type": "vr"
       },
       "1": {
-        "arguments": "-screen -fullscreen 0 -screen-width 1920 -screen-height 1080",
-        "description": "Windowed Mode",
+        "description": "Non Windowed Mode",
         "description_loc": {
-          "english": "Windowed Mode"
+          "english": "Non Windowed Mode"
         },
         "executable": "KnightsOfFiona.exe",
         "type": "vr"

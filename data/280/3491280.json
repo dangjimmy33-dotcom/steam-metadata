@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789236164,
+  "_lastChecked": 1789243350,
   "_history": [
     {
       "buildId": "25109177",
@@ -180,12 +180,35 @@
           "download": 7428257664
         }
       }
+    },
+    {
+      "buildId": "25275066",
+      "branch": "beta",
+      "timeUpdated": 1789243252,
+      "firstSeen": 1789243350,
+      "manifests": {
+        "3491281": {
+          "gid": "431933864455774337",
+          "size": 25075687788,
+          "download": 9725203552
+        },
+        "3491282": {
+          "gid": "2078473429416267537",
+          "size": 24954456843,
+          "download": 9671521424
+        },
+        "3491283": {
+          "gid": "1188312159439671264",
+          "size": 24965868187,
+          "download": 9687431984
+        }
+      }
     }
   ],
-  "_change_number": 38822964,
+  "_change_number": 38824656,
   "_missing_token": false,
-  "_sha": "b57e47d29ee736c34b7faac70449215f0d1b4ff2",
-  "_size": 7903,
+  "_sha": "8aca51b278fee317481de1e8821c91ef04912daa",
+  "_size": 8145,
   "appid": "3491280",
   "common": {
     "aicontenttype": "1",
@@ -283,7 +306,7 @@
     "name": "The Zone",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "oslist": "windows,macos",
+    "oslist": "windows,macos,linux",
     "primary_genre": "28",
     "releasestate": "released",
     "review_percentage": "97",
@@ -388,6 +411,13 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "alpha",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
     "installdir": "The Zone FPV",
     "launch": {
       "0": {
@@ -486,14 +516,20 @@
         "osarch": "64",
         "oslist": "linux"
       },
-      "manifests": {}
+      "manifests": {
+        "beta": {
+          "download": "9687431984",
+          "gid": "1188312159439671264",
+          "size": "24965868187"
+        }
+      }
     },
     "branches": {
       "beta": {
-        "buildid": "25198310",
+        "buildid": "25275066",
         "description": "test build (unstable)",
-        "timebuildupdated": "1788914164",
-        "timeupdated": "1788914395"
+        "timebuildupdated": "1789242726",
+        "timeupdated": "1789243252"
       },
       "previous_version": {
         "buildid": "24779375",
