@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789221393,
+  "_lastChecked": 1789228720,
   "_history": [
     {
       "buildId": "24929191",
@@ -78,12 +78,30 @@
           "download": 12741764016
         }
       }
+    },
+    {
+      "buildId": "25272534",
+      "branch": "livegame",
+      "timeUpdated": 1789226690,
+      "firstSeen": 1789228720,
+      "manifests": {
+        "3356871": {
+          "gid": "4272780681692371251",
+          "size": 21187572404,
+          "download": 12744845008
+        },
+        "3356872": {
+          "gid": "1851670020992486179",
+          "size": 21191368825,
+          "download": 12744864464
+        }
+      }
     }
   ],
-  "_change_number": 38808707,
+  "_change_number": 38820686,
   "_missing_token": false,
-  "_sha": "84c781cdb96027d10704e2b3272e99fa1f58f23a",
-  "_size": 5683,
+  "_sha": "b4bd8c0c355c34720692d136f999ecba2b713cc2",
+  "_size": 6178,
   "appid": "3356870",
   "common": {
     "aicontenttype": "1",
@@ -191,7 +209,7 @@
     "name": "Amaranth Source Online",
     "osarch": "64",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "29",
     "releasestate": "released",
     "small_capsule": {
@@ -307,6 +325,12 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "Amaranth Source Online",
     "launch": {
       "0": {
@@ -315,6 +339,14 @@
           "oslist": "windows"
         },
         "executable": "Binaries\\AmaranthSourceOnline.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Binaries/AmaranthSourceOnline",
         "type": "default"
       }
     }
@@ -334,9 +366,9 @@
       },
       "manifests": {
         "livegame": {
-          "download": "12741764016",
-          "gid": "1259198685087071907",
-          "size": "21104458539"
+          "download": "12744845008",
+          "gid": "4272780681692371251",
+          "size": "21187572404"
         },
         "public": {
           "download": "12741764016",
@@ -345,13 +377,26 @@
         }
       }
     },
+    "3356872": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "livegame": {
+          "download": "12744864464",
+          "gid": "1851670020992486179",
+          "size": "21191368825"
+        }
+      }
+    },
     "baselanguages": "english",
     "branches": {
       "livegame": {
-        "buildid": "25264464",
+        "buildid": "25272534",
         "description": "live",
-        "timebuildupdated": "1789170720",
-        "timeupdated": "1789170720"
+        "timebuildupdated": "1789226690",
+        "timeupdated": "1789226690"
       },
       "public": {
         "buildid": "25264464",

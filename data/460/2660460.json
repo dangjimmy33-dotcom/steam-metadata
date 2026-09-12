@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789220650,
+  "_lastChecked": 1789227876,
   "_history": [
     {
       "buildId": "25037343",
@@ -26,12 +26,38 @@
           "download": 107379152
         }
       }
+    },
+    {
+      "buildId": "25271654",
+      "branch": "experimental",
+      "timeUpdated": 1789221453,
+      "firstSeen": 1789227876,
+      "manifests": {
+        "2660461": {
+          "gid": "2311326486709978852",
+          "size": 349884790,
+          "download": 107402368
+        }
+      }
+    },
+    {
+      "buildId": "25271654",
+      "branch": "public",
+      "timeUpdated": 1789221453,
+      "firstSeen": 1789227876,
+      "manifests": {
+        "2660461": {
+          "gid": "2311326486709978852",
+          "size": 349884790,
+          "download": 107402368
+        }
+      }
     }
   ],
-  "_change_number": 38600755,
+  "_change_number": 38819292,
   "_missing_token": false,
-  "_sha": "7f070fa2e015267eeac3f63c1b5d4a894ff3c1e9",
-  "_size": 6155,
+  "_sha": "a50e4f68fd2c42d0ccd0fdeac9a826b787935f0a",
+  "_size": 6554,
   "appid": "2660460",
   "common": {
     "associations": {
@@ -253,28 +279,28 @@
       },
       "manifests": {
         "experimental": {
-          "download": "107379152",
-          "gid": "5201168121260188955",
-          "size": "349812998"
+          "download": "107402368",
+          "gid": "2311326486709978852",
+          "size": "349884790"
         },
         "public": {
-          "download": "107379152",
-          "gid": "5201168121260188955",
-          "size": "349812998"
+          "download": "107402368",
+          "gid": "2311326486709978852",
+          "size": "349884790"
         }
       }
     },
     "branches": {
       "experimental": {
-        "buildid": "25037343",
+        "buildid": "25271654",
         "description": "Early but unstable builds of updates",
-        "timebuildupdated": "1788183573",
-        "timeupdated": "1788183622"
+        "timebuildupdated": "1789221404",
+        "timeupdated": "1789221453"
       },
       "public": {
-        "buildid": "25037343",
-        "timebuildupdated": "1788183573",
-        "timeupdated": "1788183622"
+        "buildid": "25271654",
+        "timebuildupdated": "1789221404",
+        "timeupdated": "1789221453"
       }
     },
     "privatebranches": "1",
@@ -287,6 +313,25 @@
   },
   "ufs": {
     "maxnumfiles": "1000",
-    "quota": "500000000"
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "Aviassembly\\Aviassembly\\SaveGames",
+        "pattern": "*.plane",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Aviassembly\\Aviassembly\\Plane Designs",
+        "pattern": "*.planedesign",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789219305,
+  "_lastChecked": 1789226345,
   "_history": [
     {
       "buildId": "6255738",
@@ -36,12 +36,35 @@
           "download": 22154176
         }
       }
+    },
+    {
+      "buildId": "25259462",
+      "branch": "public",
+      "timeUpdated": 1789226066,
+      "firstSeen": 1789226345,
+      "manifests": {
+        "1506611": {
+          "gid": "4319063143458656103",
+          "size": 390803981,
+          "download": 149685936
+        },
+        "1506612": {
+          "gid": "2126340567179511671",
+          "size": 538370621,
+          "download": 216076096
+        },
+        "1506613": {
+          "gid": "2906842409504651366",
+          "size": 363774003,
+          "download": 135025552
+        }
+      }
     }
   ],
-  "_change_number": 38801893,
+  "_change_number": 38820559,
   "_missing_token": false,
-  "_sha": "122ee00e23741af205dcf078c18aa781cb1f733b",
-  "_size": 4937,
+  "_sha": "3f9be7e36b15018f41f76e03f9b3ff664bbeb300",
+  "_size": 5090,
   "appid": "1506610",
   "common": {
     "associations": {
@@ -56,6 +79,7 @@
     },
     "category": {
       "category_1": "1",
+      "category_22": "1",
       "category_36": "1",
       "category_49": "1",
       "category_62": "1"
@@ -73,7 +97,8 @@
     "gameid": "1506610",
     "genres": {
       "0": "4",
-      "1": "70"
+      "1": "28",
+      "2": "70"
     },
     "header_image": {
       "english": "4ec28fe3f9ca9918e54b587c75b8933413763bc3/header.jpg"
@@ -150,7 +175,7 @@
       "english": "3b191189b38b0c0335f2810241ff1f57fd4282a8/capsule_231x87.jpg"
     },
     "steam_release_date": "1610825333",
-    "store_asset_mtime": "1788837498",
+    "store_asset_mtime": "1789057218",
     "store_tags": {
       "0": "597",
       "1": "1666",
@@ -214,9 +239,9 @@
           "size": "271440013"
         },
         "public": {
-          "download": "19929328",
-          "gid": "2670493580557912535",
-          "size": "82335405"
+          "download": "149685936",
+          "gid": "4319063143458656103",
+          "size": "390803981"
         }
       }
     },
@@ -231,9 +256,9 @@
           "size": "94781051"
         },
         "public": {
-          "download": "22154176",
-          "gid": "8126513824799352709",
-          "size": "94781051"
+          "download": "216076096",
+          "gid": "2126340567179511671",
+          "size": "538370621"
         }
       }
     },
@@ -241,7 +266,13 @@
       "config": {
         "oslist": "linux"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "135025552",
+          "gid": "2906842409504651366",
+          "size": "363774003"
+        }
+      }
     },
     "branches": {
       "beta": {
@@ -251,9 +282,9 @@
         "timeupdated": "1613608812"
       },
       "public": {
-        "buildid": "6203959",
-        "timebuildupdated": "1612733729",
-        "timeupdated": "1612733767"
+        "buildid": "25259462",
+        "timebuildupdated": "1789150026",
+        "timeupdated": "1789226066"
       }
     },
     "privatebranches": "1"

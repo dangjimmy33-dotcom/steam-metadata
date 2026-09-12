@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789221513,
+  "_lastChecked": 1789228860,
   "_history": [
     {
       "buildId": "24788751",
@@ -52,12 +52,38 @@
           "download": 2547641200
         }
       }
+    },
+    {
+      "buildId": "25272802",
+      "branch": "experimental",
+      "timeUpdated": 1789228695,
+      "firstSeen": 1789228860,
+      "manifests": {
+        "3467041": {
+          "gid": "139775426040304261",
+          "size": 6621608093,
+          "download": 2547267568
+        }
+      }
+    },
+    {
+      "buildId": "25272802",
+      "branch": "public",
+      "timeUpdated": 1789228726,
+      "firstSeen": 1789228860,
+      "manifests": {
+        "3467041": {
+          "gid": "139775426040304261",
+          "size": 6621608093,
+          "download": 2547267568
+        }
+      }
     }
   ],
-  "_change_number": 38819058,
+  "_change_number": 38821155,
   "_missing_token": false,
-  "_sha": "1d5182b6a8e17ab4ac5ecf2f1f91a4a61972cc60",
-  "_size": 7600,
+  "_sha": "23544ba0d9e2efb249529be79bcc2d1ddbf158dd",
+  "_size": 7598,
   "appid": "3467040",
   "common": {
     "associations": {
@@ -322,29 +348,29 @@
       },
       "manifests": {
         "experimental": {
-          "download": "2547641200",
-          "gid": "1222333074960237533",
-          "size": "6622008242"
+          "download": "2547267568",
+          "gid": "139775426040304261",
+          "size": "6621608093"
         },
         "public": {
-          "download": "2563763680",
-          "gid": "1736719281250630251",
-          "size": "6582498430"
+          "download": "2547267568",
+          "gid": "139775426040304261",
+          "size": "6621608093"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "experimental": {
-        "buildid": "25265775",
+        "buildid": "25272802",
         "description": "Experimental branch for public upcoming releases",
-        "timebuildupdated": "1789178117",
-        "timeupdated": "1789178254"
+        "timebuildupdated": "1789228516",
+        "timeupdated": "1789228695"
       },
       "public": {
-        "buildid": "24788751",
-        "timebuildupdated": "1787022835",
-        "timeupdated": "1787023603"
+        "buildid": "25272802",
+        "timebuildupdated": "1789228516",
+        "timeupdated": "1789228726"
       }
     },
     "privatebranches": "1",

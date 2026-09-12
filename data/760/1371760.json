@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789219146,
+  "_lastChecked": 1789226163,
   "_history": [
     {
       "buildId": "25140643",
@@ -247,11 +247,24 @@
           "download": 37667045888
         }
       }
+    },
+    {
+      "buildId": "25271250",
+      "branch": "experimental",
+      "timeUpdated": 1789225866,
+      "firstSeen": 1789226163,
+      "manifests": {
+        "1371761": {
+          "gid": "8728902805725093107",
+          "size": 40083427501,
+          "download": 37666968736
+        }
+      }
     }
   ],
-  "_change_number": 38772073,
+  "_change_number": 38820506,
   "_missing_token": false,
-  "_sha": "62ea5e81cbab6ac2be530b72d15668612060bd87",
+  "_sha": "6981f26712fff7554a2611415560c3af234f12b2",
   "_size": 7155,
   "appid": "1371760",
   "common": {
@@ -418,9 +431,9 @@
       },
       "manifests": {
         "experimental": {
-          "download": "37667045888",
-          "gid": "7187908647766792761",
-          "size": "40083340585"
+          "download": "37666968736",
+          "gid": "8728902805725093107",
+          "size": "40083427501"
         },
         "experimental-dev": {
           "download": "37535332992",
@@ -495,10 +508,10 @@
     },
     "branches": {
       "experimental": {
-        "buildid": "25238421",
+        "buildid": "25271250",
         "description": "Experimental branch following daily Development more closely. Lots of errors and problems.",
-        "timebuildupdated": "1789068261",
-        "timeupdated": "1789068330"
+        "timebuildupdated": "1789219075",
+        "timeupdated": "1789225866"
       },
       "experimental-dev": {
         "buildid": "24639180",

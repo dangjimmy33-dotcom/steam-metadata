@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789222843,
+  "_lastChecked": 1789230364,
   "_history": [
     {
       "buildId": "25176797",
@@ -141,12 +141,35 @@
           "download": 78837984
         }
       }
+    },
+    {
+      "buildId": "25272082",
+      "branch": "aw-network",
+      "timeUpdated": 1789224059,
+      "firstSeen": 1789230364,
+      "manifests": {
+        "4820771": {
+          "gid": "9178224474014951299",
+          "size": 113976280,
+          "download": 40396992
+        },
+        "4820772": {
+          "gid": "3647512206750359169",
+          "size": 85898711,
+          "download": 33956928
+        },
+        "4820773": {
+          "gid": "8923988311454038985",
+          "size": 219623763,
+          "download": 71647024
+        }
+      }
     }
   ],
-  "_change_number": 38819199,
+  "_change_number": 38819969,
   "_missing_token": false,
-  "_sha": "9c1d2838bc67a2b49026a1157d876997b05354db",
-  "_size": 4526,
+  "_sha": "db036a13c4e519d1b6575f8dbd1399e84d47b6b4",
+  "_size": 4755,
   "appid": "4820770",
   "common": {
     "associations": {
@@ -238,8 +261,8 @@
     "linuxclienticon": "b0faf1857fe83949e98b4f9f4dc94198823ee51e",
     "name": "Archie's War",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows,linux",
+    "osextended": "macos64",
+    "oslist": "windows,macos,linux",
     "primary_genre": "28",
     "releasestate": "released",
     "small_capsule": {
@@ -280,6 +303,16 @@
           "oslist": "linux"
         },
         "executable": "ArchiesWar.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch Archie's War",
+        "description_loc": {
+          "english": "Launch Archie's War"
+        },
+        "executable": "Archie's War.app"
       }
     }
   },
@@ -324,18 +357,18 @@
       },
       "manifests": {
         "aw-network": {
-          "download": "78837984",
-          "gid": "6245499148581138070",
-          "size": "79814015"
+          "download": "71647024",
+          "gid": "8923988311454038985",
+          "size": "219623763"
         }
       }
     },
     "branches": {
       "aw-network": {
-        "buildid": "25271612",
+        "buildid": "25272082",
         "description": "Archie's War with networked play",
-        "timebuildupdated": "1789221140",
-        "timeupdated": "1789221149"
+        "timebuildupdated": "1789224047",
+        "timeupdated": "1789224059"
       },
       "public": {
         "buildid": "25028747",

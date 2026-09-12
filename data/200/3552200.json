@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789221593,
+  "_lastChecked": 1789228950,
   "_history": [
     {
       "buildId": "22244698",
@@ -137,12 +137,43 @@
           "download": 3700546688
         }
       }
+    },
+    {
+      "buildId": "25272234",
+      "branch": "dev_branch",
+      "timeUpdated": 1789224951,
+      "firstSeen": 1789228950,
+      "manifests": {
+        "3552201": {
+          "gid": "3404377963090396252",
+          "size": 5961315052,
+          "download": 3630648304
+        }
+      }
+    },
+    {
+      "buildId": "25272205",
+      "branch": "macos_dev_branch",
+      "timeUpdated": 1789224696,
+      "firstSeen": 1789228950,
+      "manifests": {
+        "3552201": {
+          "gid": "7959947503576931075",
+          "size": 6214084292,
+          "download": 3643581696
+        },
+        "3552202": {
+          "gid": "7023896051709908915",
+          "size": 5882790714,
+          "download": 3727927408
+        }
+      }
     }
   ],
-  "_change_number": 38767213,
+  "_change_number": 38820926,
   "_missing_token": false,
-  "_sha": "50b54580cfbafc07dce7642fe0870340e51af07a",
-  "_size": 5908,
+  "_sha": "59f6fe2b346848a79d52b74d64df2ad73a859de0",
+  "_size": 6019,
   "appid": "3552200",
   "common": {
     "associations": {
@@ -346,7 +377,12 @@
         "config": {
           "oslist": "macos"
         },
-        "executable": "It's John's House"
+        "description": "macOS",
+        "description_loc": {
+          "english": "macOS"
+        },
+        "executable": "It's John's House.app",
+        "type": "default"
       }
     },
     "steamconfigurator3rdpartynative": "7",
@@ -358,9 +394,9 @@
     "3552201": {
       "manifests": {
         "dev_branch": {
-          "download": "3607586752",
-          "gid": "2578051936654535908",
-          "size": "5928919340"
+          "download": "3630648304",
+          "gid": "3404377963090396252",
+          "size": "5961315052"
         },
         "macos_dev_branch": {
           "download": "3643581696",
@@ -380,9 +416,9 @@
       },
       "manifests": {
         "macos_dev_branch": {
-          "download": "3700546688",
-          "gid": "5532194742773746593",
-          "size": "5854135078"
+          "download": "3727927408",
+          "gid": "7023896051709908915",
+          "size": "5882790714"
         }
       }
     },
@@ -393,16 +429,16 @@
     },
     "branches": {
       "dev_branch": {
-        "buildid": "25235111",
+        "buildid": "25272234",
         "description": "Private development branch",
-        "timebuildupdated": "1789056756",
-        "timeupdated": "1789056891"
+        "timebuildupdated": "1789224863",
+        "timeupdated": "1789224951"
       },
       "macos_dev_branch": {
-        "buildid": "25235158",
+        "buildid": "25272205",
         "description": "Private development and testing on MacOS",
-        "timebuildupdated": "1789056912",
-        "timeupdated": "1789056912"
+        "timebuildupdated": "1789224696",
+        "timeupdated": "1789224696"
       },
       "public": {
         "buildid": "22244698",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789221500,
+  "_lastChecked": 1789228845,
   "_history": [
     {
       "buildId": "21637594",
@@ -18,12 +18,30 @@
           "download": 294395360
         }
       }
+    },
+    {
+      "buildId": "25272625",
+      "branch": "public",
+      "timeUpdated": 1789227351,
+      "firstSeen": 1789228845,
+      "manifests": {
+        "3454181": {
+          "gid": "4602200240002720067",
+          "size": 361915729,
+          "download": 297200816
+        },
+        "3454182": {
+          "gid": "480415229179047373",
+          "size": 356627637,
+          "download": 294397408
+        }
+      }
     }
   ],
-  "_change_number": 37468798,
+  "_change_number": 38820830,
   "_missing_token": false,
-  "_sha": "81baa7b9d2eb7645e08e8e4f56f24fd1be2736d6",
-  "_size": 6427,
+  "_sha": "ee2d0088b85b83c9932aff6797102c6f18975fee",
+  "_size": 6429,
   "appid": "3454180",
   "common": {
     "associations": {
@@ -238,7 +256,7 @@
           "osarch": "64",
           "oslist": "linux"
         },
-        "executable": "NoRestForLex.exe",
+        "executable": "NoRestForLex.x86_64",
         "type": "default"
       }
     }
@@ -251,9 +269,9 @@
       },
       "manifests": {
         "public": {
-          "download": "297195744",
-          "gid": "5766433942089085197",
-          "size": "361906325"
+          "download": "297200816",
+          "gid": "4602200240002720067",
+          "size": "361915729"
         }
       }
     },
@@ -264,17 +282,17 @@
       },
       "manifests": {
         "public": {
-          "download": "294395360",
-          "gid": "7163034206451564220",
-          "size": "356618553"
+          "download": "294397408",
+          "gid": "480415229179047373",
+          "size": "356627637"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "21637594",
-        "timebuildupdated": "1769335745",
-        "timeupdated": "1769335811"
+        "buildid": "25272625",
+        "timebuildupdated": "1789227297",
+        "timeupdated": "1789227351"
       }
     }
   },

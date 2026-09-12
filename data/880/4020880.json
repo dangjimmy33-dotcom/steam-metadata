@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789222086,
+  "_lastChecked": 1789229512,
   "_history": [
     {
       "buildId": "24270931",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38124490,
+  "_change_number": 38820214,
   "_missing_token": false,
-  "_sha": "380504403e5ae689179aa24ed857e484c00ffa1d",
-  "_size": 9604,
+  "_sha": "4684b4a9fec8e56b06752eb13b976b5fbe5a70e2",
+  "_size": 9839,
   "appid": "4020880",
   "common": {
     "associations": {
@@ -44,6 +44,13 @@
     "community_hub_visible": "1",
     "community_visible_stats": "1",
     "controllertagwizard": "1",
+    "eulas": {
+      "0": {
+        "id": "4020880_eula_0",
+        "name": "Maids of Storm EULA",
+        "url": "https://store.steampowered.com//eula/4020880_eula_0"
+      }
+    },
     "gameid": "4020880",
     "genres": {
       "0": "25",
@@ -332,11 +339,15 @@
   },
   "ufs": {
     "maxnumfiles": "100",
-    "quota": "10000000",
+    "quota": "100000000",
     "savefiles": {
       "0": {
-        "path": "BurgerDuckGames/Maids Of Storm/",
+        "path": "\\BurgerDuckGames\\Maids Of Storm\\",
         "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
         "root": "WinAppDataLocalLow"
       }
     }

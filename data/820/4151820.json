@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789222214,
+  "_lastChecked": 1789229655,
   "_history": [
     {
       "buildId": "25016055",
@@ -78,12 +78,51 @@
           "download": 149761264
         }
       }
+    },
+    {
+      "buildId": "25271977",
+      "branch": "preview",
+      "timeUpdated": 1789223400,
+      "firstSeen": 1789229655,
+      "manifests": {
+        "4151822": {
+          "gid": "7162560240209531114",
+          "size": 1065604617,
+          "download": 149267520
+        }
+      }
+    },
+    {
+      "buildId": "25271977",
+      "branch": "public",
+      "timeUpdated": 1789224097,
+      "firstSeen": 1789229655,
+      "manifests": {
+        "4151822": {
+          "gid": "7162560240209531114",
+          "size": 1065604617,
+          "download": 149267520
+        }
+      }
+    },
+    {
+      "buildId": "24493533",
+      "branch": "rollback",
+      "timeUpdated": 1785503488,
+      "firstSeen": 1789229655,
+      "manifests": {
+        "4151822": {
+          "gid": "2756568430746230399",
+          "size": 934968802,
+          "download": 125396496
+        }
+      }
     }
   ],
-  "_change_number": 38804043,
+  "_change_number": 38819993,
   "_missing_token": false,
-  "_sha": "0b8312aceb757a2650e31cc4a511026a62ae8a10",
-  "_size": 4446,
+  "_sha": "af47f892513208d8dd053c31858c803129318e6f",
+  "_size": 4447,
   "appid": "4151820",
   "common": {
     "associations": {
@@ -242,39 +281,39 @@
     "4151822": {
       "manifests": {
         "preview": {
-          "download": "149761264",
-          "gid": "5730817580046230803",
-          "size": "1065944621"
+          "download": "149267520",
+          "gid": "7162560240209531114",
+          "size": "1065604617"
         },
         "public": {
+          "download": "149267520",
+          "gid": "7162560240209531114",
+          "size": "1065604617"
+        },
+        "rollback": {
           "download": "125396496",
           "gid": "2756568430746230399",
           "size": "934968802"
-        },
-        "rollback": {
-          "download": "125340064",
-          "gid": "3716358767450853752",
-          "size": "928438071"
         }
       }
     },
     "branches": {
       "preview": {
-        "buildid": "25232882",
+        "buildid": "25271977",
         "description": "For Incoming Updates",
-        "timebuildupdated": "1789049772",
-        "timeupdated": "1789049825"
+        "timebuildupdated": "1789223377",
+        "timeupdated": "1789223400"
       },
       "public": {
-        "buildid": "24493533",
-        "timebuildupdated": "1785503451",
-        "timeupdated": "1785503488"
+        "buildid": "25271977",
+        "timebuildupdated": "1789223377",
+        "timeupdated": "1789224097"
       },
       "rollback": {
-        "buildid": "24278695",
+        "buildid": "24493533",
         "description": "Use in case of game breaking bug",
-        "timebuildupdated": "1784419712",
-        "timeupdated": "1784419767"
+        "timebuildupdated": "1785503451",
+        "timeupdated": "1785503488"
       }
     }
   },

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789222940,
-  "_history": [],
-  "_change_number": 38047010,
-  "_missing_token": true,
-  "_sha": "1ffd5d99c8bbf9d2183d376e8bae463b50b68f68",
-  "_size": 2686,
+  "_lastChecked": 1789230473,
+  "_history": [
+    {
+      "buildId": "24410855",
+      "branch": "public",
+      "timeUpdated": 1785151768,
+      "firstSeen": 1789230473,
+      "manifests": {
+        "4924851": {
+          "gid": "4544489963350282494",
+          "size": 129448784,
+          "download": 51929456
+        }
+      }
+    }
+  ],
+  "_change_number": 38820062,
+  "_missing_token": false,
+  "_sha": "41042d0d13a3e1cb2c2b26e99a5d35604f0f5dd6",
+  "_size": 3364,
   "appid": "4924850",
   "common": {
     "aicontenttype": "1",
@@ -27,7 +41,6 @@
     "clienticon": "314f3e8ca78c8114828211faa2d7271fd73f8b11",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4924850",
     "genres": {
       "0": "1"
@@ -97,10 +110,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "61cbaa158768216c81db057da4c77ad590a5a490/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789224341",
     "store_asset_mtime": "1785769302",
     "store_tags": {
       "0": "19",
@@ -119,5 +133,41 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TRAP LAB",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TRAPLAB.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4924851": {
+      "manifests": {
+        "public": {
+          "download": "51929456",
+          "gid": "4544489963350282494",
+          "size": "129448784"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24410855",
+        "timebuildupdated": "1785150777",
+        "timeupdated": "1785151768"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Boohsted ",
+    "publisher": "Boohsted "
+  }
 }
