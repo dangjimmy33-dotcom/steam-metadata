@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789203047,
+  "_lastChecked": 1789209342,
   "_history": [
     {
       "buildId": "25268972",
@@ -13,12 +13,25 @@
           "download": 35343616
         }
       }
+    },
+    {
+      "buildId": "25269159",
+      "branch": "public",
+      "timeUpdated": 1789204108,
+      "firstSeen": 1789209342,
+      "manifests": {
+        "4820711": {
+          "gid": "481148630820019029",
+          "size": 109762132,
+          "download": 35343616
+        }
+      }
     }
   ],
-  "_change_number": 38815097,
+  "_change_number": 38815490,
   "_missing_token": false,
-  "_sha": "48837bb6a8f2a1ae2dc69bfcc5d17fb0637af696",
-  "_size": 3565,
+  "_sha": "fc1e7e3a143f9c6ad5085d637021af7c4d4e946e",
+  "_size": 3721,
   "appid": "4820710",
   "common": {
     "aicontenttype": "1",
@@ -144,6 +157,14 @@
     "installdir": "KeyWalker",
     "launch": {
       "0": {
+        "description": "Default",
+        "description_loc": {
+          "english": "Default"
+        },
+        "executable": "KeyWalker.exe",
+        "type": "default"
+      },
+      "1": {
         "arguments": "--rendering-driver opengl3",
         "description": "Compatibility (OpenGl)",
         "description_loc": {
@@ -157,7 +178,7 @@
     "4820711": {
       "config": {
         "osarch": "64",
-        "oslist": "windows,linux"
+        "oslist": "windows"
       },
       "manifests": {
         "public": {
@@ -170,9 +191,9 @@
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25268972",
-        "timebuildupdated": "1789202631",
-        "timeupdated": "1789202647"
+        "buildid": "25269159",
+        "timebuildupdated": "1789204056",
+        "timeupdated": "1789204108"
       }
     }
   },

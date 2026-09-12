@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789202973,
-  "_history": [],
-  "_change_number": 38614225,
-  "_missing_token": true,
-  "_sha": "ae77dd6e8bede8a112f132c993d0d2169eed82a2",
-  "_size": 2770,
+  "_lastChecked": 1789209272,
+  "_history": [
+    {
+      "buildId": "25131478",
+      "branch": "public",
+      "timeUpdated": 1788552021,
+      "firstSeen": 1789209272,
+      "manifests": {
+        "4733001": {
+          "gid": "8704504255668347999",
+          "size": 114672606,
+          "download": 35981984
+        }
+      }
+    }
+  ],
+  "_change_number": 38816129,
+  "_missing_token": false,
+  "_sha": "895e3fa15220a908f9eb2dd11451237d3dbef831",
+  "_size": 3530,
   "appid": "4733000",
   "common": {
     "associations": {
@@ -28,7 +42,6 @@
     "clienticon": "a8f3015a078a64f605e8c909495937163d9948ef",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4733000",
     "genres": {
       "0": "1",
@@ -101,7 +114,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c2a68b2923b091387266bdd4ff24dde56d99d58b/capsule_231x87.jpg"
     },
@@ -125,5 +138,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "NEONFALL",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "NEONFALL.exe"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4733001": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "35981984",
+          "gid": "8704504255668347999",
+          "size": "114672606"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25131478",
+        "timebuildupdated": "1788552003",
+        "timeupdated": "1788552021"
+      }
+    }
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "VOIDBLOOM",
+    "publisher": "VOIDBLOOM"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "sync_while_suspended": "1"
+  }
 }

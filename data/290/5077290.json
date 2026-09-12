@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789203285,
-  "_history": [],
-  "_change_number": 38504613,
-  "_missing_token": true,
-  "_sha": "9e5dd26612ffb188020bc64aa658919a79b005eb",
-  "_size": 3441,
+  "_lastChecked": 1789209567,
+  "_history": [
+    {
+      "buildId": "25039808",
+      "branch": "public",
+      "timeUpdated": 1788192388,
+      "firstSeen": 1789209567,
+      "manifests": {
+        "5077291": {
+          "gid": "8488937815119029740",
+          "size": 85498431,
+          "download": 83265664
+        },
+        "5077292": {
+          "gid": "3576445851313933279",
+          "size": 90056096,
+          "download": 88013536
+        }
+      }
+    }
+  ],
+  "_change_number": 38815309,
+  "_missing_token": false,
+  "_sha": "5c8b4c4b2dd5d1d634e680bc9857cf38eddc7cac",
+  "_size": 5103,
   "appid": "5077290",
   "common": {
     "associations": {
@@ -43,9 +62,9 @@
     },
     "clienticon": "1adb68fba29284f23be151366957e24cb5f13f04",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5077290",
     "genres": {
       "0": "1",
@@ -120,7 +139,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f1f364a42c802d0452e90fd6a37ba7384bded7fc/capsule_231x87.jpg"
     },
@@ -155,5 +174,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "AshfallKeep",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Launch the game on Windows",
+        "description_loc": {
+          "english": "Launch the game on Windows"
+        },
+        "executable": "AshfallKeep.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Launch the game on Linux",
+        "description_loc": {
+          "english": "Launch the game on Linux"
+        },
+        "executable": "AshfallKeep",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5077291": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "83265664",
+          "gid": "8488937815119029740",
+          "size": "85498431"
+        }
+      }
+    },
+    "5077292": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "88013536",
+          "gid": "3576445851313933279",
+          "size": "90056096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25039808",
+        "timebuildupdated": "1788192036",
+        "timeupdated": "1788192388"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DoctorEnilno",
+    "publisher": "DoctorEnilno"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "AshfallKeep/saves",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

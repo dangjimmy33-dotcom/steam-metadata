@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789203261,
-  "_history": [],
-  "_change_number": 38741965,
-  "_missing_token": true,
-  "_sha": "83f60d7a0197779c2e39455f28bc0e555b33f9d5",
-  "_size": 4295,
+  "_lastChecked": 1789209544,
+  "_history": [
+    {
+      "buildId": "25218576",
+      "branch": "public",
+      "timeUpdated": 1788992010,
+      "firstSeen": 1789209544,
+      "manifests": {
+        "5046991": {
+          "gid": "8806678114438323358",
+          "size": 307786369,
+          "download": 219246832
+        }
+      }
+    }
+  ],
+  "_change_number": 38816265,
+  "_missing_token": false,
+  "_sha": "762b529cf21758c33fffb734dd0685b8eb05dca2",
+  "_size": 5070,
   "appid": "5046990",
   "common": {
     "aicontenttype": "1",
@@ -25,8 +39,8 @@
     },
     "clienticon": "145846e2c8031e097379b908360b22e9088241d8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5046990",
     "genres": {
       "0": "25",
@@ -112,11 +126,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "61e4ad623875b3345f156c54f522cc0bd07e0667/capsule_231x87.jpg",
       "spanish": "61e4ad623875b3345f156c54f522cc0bd07e0667/capsule_231x87_spanish.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787676527",
     "store_tags": {
       "0": "21",
@@ -163,5 +178,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "lamansiondecampanillas",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "lamansiondecampanillas.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5046991": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "219246832",
+          "gid": "8806678114438323358",
+          "size": "307786369"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25218576",
+        "timebuildupdated": "1788992007",
+        "timeupdated": "1788992010"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Lacinia Estudio",
+    "homepage": "https://lacinia-estudio.base44.app/",
+    "publisher": "Lacinia Estudio"
+  }
 }

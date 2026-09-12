@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789203077,
-  "_history": [],
-  "_change_number": 38815147,
-  "_missing_token": true,
-  "_sha": "dae04b4959e267347ee830a8d72e07118cf61ca4",
-  "_size": 2878,
+  "_lastChecked": 1789209371,
+  "_history": [
+    {
+      "buildId": "25268343",
+      "branch": "public",
+      "timeUpdated": 1789202961,
+      "firstSeen": 1789209371,
+      "manifests": {
+        "4849671": {
+          "gid": "6216830579302627775",
+          "size": 150954712,
+          "download": 58518464
+        }
+      }
+    }
+  ],
+  "_change_number": 38815747,
+  "_missing_token": false,
+  "_sha": "f5e8454f9099f11b944dd615e713a9408a1cefef",
+  "_size": 3363,
   "appid": "4849670",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "7fcf9d75188ef636afec0090d28a2ea6a071a485",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4849670",
     "genres": {
       "0": "2"
@@ -40,9 +53,9 @@
       "library_hero_blur": "en",
       "library_logo": "en",
       "logo_position": {
-        "height_pct": "60.97934564901566",
-        "pinned_position": "BottomLeft",
-        "width_pct": "33.41283211814769"
+        "height_pct": "86.2280043467114",
+        "pinned_position": "CenterCenter",
+        "width_pct": "81.07401120862428"
       }
     },
     "library_assets_full": {
@@ -64,15 +77,15 @@
       },
       "library_hero": {
         "image": {
-          "english": "526ebbcd0edb3801c8dcecfb5c8a0fa7f8877122/library_hero.jpg"
+          "english": "3cb3ca6c541f72e64226a3032ed9fa4612995bc6/library_hero.jpg"
         },
         "image2x": {
-          "english": "526ebbcd0edb3801c8dcecfb5c8a0fa7f8877122/library_hero_2x.jpg"
+          "english": "3cb3ca6c541f72e64226a3032ed9fa4612995bc6/library_hero_2x.jpg"
         }
       },
       "library_hero_blur": {
         "image": {
-          "english": "526ebbcd0edb3801c8dcecfb5c8a0fa7f8877122/library_hero_blur.jpg"
+          "english": "3cb3ca6c541f72e64226a3032ed9fa4612995bc6/library_hero_blur.jpg"
         }
       },
       "library_logo": {
@@ -83,9 +96,9 @@
           "english": "87a60b0c3caccfd36b04169eac6c85d29af91cfa/logo_2x.png"
         },
         "logo_position": {
-          "height_pct": "60.97934564901566",
-          "pinned_position": "BottomLeft",
-          "width_pct": "33.41283211814769"
+          "height_pct": "86.2280043467114",
+          "pinned_position": "CenterCenter",
+          "width_pct": "81.07401120862428"
         }
       }
     },
@@ -94,11 +107,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "643e60fe481d6129e1391bc2537779dda9b605d6/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1789202816",
+    "steam_release_date": "1789204296",
+    "store_asset_mtime": "1789203517",
     "store_tags": {
       "0": "3964",
       "1": "9",
@@ -129,5 +143,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dark Avos",
+    "launch": {
+      "0": {
+        "executable": "DarkAvos.exe"
+      }
+    }
+  },
+  "depots": {
+    "4849671": {
+      "manifests": {
+        "public": {
+          "download": "58518464",
+          "gid": "6216830579302627775",
+          "size": "150954712"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25268343",
+        "timebuildupdated": "1789197615",
+        "timeupdated": "1789202961"
+      }
+    }
+  },
+  "extended": {
+    "developer": "V1S",
+    "publisher": "V1S"
+  }
 }

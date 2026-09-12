@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789202164,
+  "_lastChecked": 1789208505,
   "_history": [
     {
       "buildId": "24626465",
@@ -23,12 +23,35 @@
           "download": 396945696
         }
       }
+    },
+    {
+      "buildId": "25269059",
+      "branch": "beta",
+      "timeUpdated": 1789203211,
+      "firstSeen": 1789208505,
+      "manifests": {
+        "3938641": {
+          "gid": "4883097677465801416",
+          "size": 1599385747,
+          "download": 399256448
+        },
+        "3938642": {
+          "gid": "228498117397396147",
+          "size": 1615824115,
+          "download": 407187968
+        },
+        "3938643": {
+          "gid": "309873775643321362",
+          "size": 1595570984,
+          "download": 397048400
+        }
+      }
     }
   ],
-  "_change_number": 38622533,
+  "_change_number": 38815217,
   "_missing_token": false,
-  "_sha": "3254d668b3ac12aab19037563e7d103213c13ce8",
-  "_size": 12983,
+  "_sha": "327581df877f6e64be80efb172aa5a3fb3b8fa51",
+  "_size": 13475,
   "appid": "3938640",
   "common": {
     "associations": {
@@ -402,6 +425,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "beta": {
+          "download": "399256448",
+          "gid": "4883097677465801416",
+          "size": "1599385747"
+        },
         "public": {
           "download": "399157616",
           "gid": "5646310588455841179",
@@ -414,6 +442,11 @@
         "oslist": "macos"
       },
       "manifests": {
+        "beta": {
+          "download": "407187968",
+          "gid": "228498117397396147",
+          "size": "1615824115"
+        },
         "public": {
           "download": "407087456",
           "gid": "6645983082959585778",
@@ -426,6 +459,11 @@
         "oslist": "linux"
       },
       "manifests": {
+        "beta": {
+          "download": "397048400",
+          "gid": "309873775643321362",
+          "size": "1595570984"
+        },
         "public": {
           "download": "396945696",
           "gid": "4869100273791037790",
@@ -434,6 +472,12 @@
       }
     },
     "branches": {
+      "beta": {
+        "buildid": "25269059",
+        "description": "usually full of bugs!",
+        "timebuildupdated": "1789203166",
+        "timeupdated": "1789203211"
+      },
       "public": {
         "buildid": "24626465",
         "timebuildupdated": "1786174581",

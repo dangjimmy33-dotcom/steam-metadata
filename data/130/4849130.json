@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789203076,
-  "_history": [],
-  "_change_number": 38329691,
-  "_missing_token": true,
-  "_sha": "bf3100b686e2fd7e17a9e06e46dc6062ef58352b",
-  "_size": 2937,
+  "_lastChecked": 1789209370,
+  "_history": [
+    {
+      "buildId": "24937146",
+      "branch": "public",
+      "timeUpdated": 1787693757,
+      "firstSeen": 1789209370,
+      "manifests": {
+        "4849131": {
+          "gid": "6060897558209197052",
+          "size": 457432465,
+          "download": 133107824
+        }
+      }
+    }
+  ],
+  "_change_number": 38816147,
+  "_missing_token": false,
+  "_sha": "202cd80b9efaa7030b2524a39772b6e14c7bc467",
+  "_size": 3785,
   "appid": "4849130",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "18979be79062fa468a3b572eab592abe5be8d2c8",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4849130",
     "genres": {
       "0": "4",
@@ -100,7 +113,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1672fd5a0266b38b0748fe20b8e80b5beff07f8f/capsule_231x87.jpg"
     },
@@ -130,5 +143,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Kıvam",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Kivam.exe"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4849131": {
+      "manifests": {
+        "public": {
+          "download": "133107824",
+          "gid": "6060897558209197052",
+          "size": "457432465"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24937146",
+        "timebuildupdated": "1787693398",
+        "timeupdated": "1787693757"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Gestus",
+    "publisher": "Gestus"
+  }
 }

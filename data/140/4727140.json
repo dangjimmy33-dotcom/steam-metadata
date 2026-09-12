@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789202967,
-  "_history": [],
-  "_change_number": 36212773,
-  "_missing_token": true,
-  "_sha": "5119579323e0c2907c0f4e7807a0c0e4199c57c8",
-  "_size": 3755,
+  "_lastChecked": 1789209267,
+  "_history": [
+    {
+      "buildId": "23359878",
+      "branch": "public",
+      "timeUpdated": 1779439992,
+      "firstSeen": 1789209267,
+      "manifests": {
+        "4727141": {
+          "gid": "2178469769108622487",
+          "size": 2242938165,
+          "download": 1047622560
+        }
+      }
+    }
+  ],
+  "_change_number": 38815222,
+  "_missing_token": false,
+  "_sha": "e24e2cada57c5a7982ff46bd20585e557f023e72",
+  "_size": 4263,
   "appid": "4727140",
   "common": {
     "associations": {
@@ -20,6 +34,7 @@
     "category": {
       "category_1": "1",
       "category_2": "1",
+      "category_38": "1",
       "category_48": "1",
       "category_62": "1",
       "category_9": "1"
@@ -27,7 +42,6 @@
     "clienticon": "54f3a52707ca2be4d01a3a24dfb7d7d5ab794a61",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4727140",
     "genres": {
       "0": "25",
@@ -101,11 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3a272839d054f030f29ffbf41d1c4daf9b8b6899/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1779449193",
+    "store_asset_mtime": "1789202983",
     "store_tags": {
       "0": "21",
       "1": "597",
@@ -177,5 +191,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Backrooms The Entity",
+    "launch": {
+      "0": {
+        "executable": "Backrooms The Entity.exe"
+      }
+    }
+  },
+  "depots": {
+    "4727141": {
+      "manifests": {
+        "public": {
+          "download": "1047622560",
+          "gid": "2178469769108622487",
+          "size": "2242938165"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "23359878",
+        "timebuildupdated": "1779439972",
+        "timeupdated": "1779439992"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SUDT Games",
+    "publisher": "SUDT Games"
+  }
 }

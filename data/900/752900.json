@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789198468,
+  "_lastChecked": 1789205025,
   "_history": [
     {
       "buildId": "23196303",
@@ -54,10 +54,10 @@
       }
     }
   ],
-  "_change_number": 38803073,
+  "_change_number": 38815328,
   "_missing_token": false,
-  "_sha": "c6fa1c11d0d1e923323d84c900bdf0136a74489f",
-  "_size": 6324,
+  "_sha": "372f6a14ed9f7442b97e6fa8ef2f58d4d637a0d1",
+  "_size": 6660,
   "appid": "752900",
   "common": {
     "associations": {
@@ -119,6 +119,7 @@
     },
     "library_assets": {
       "library_capsule": "en",
+      "library_header": "en",
       "library_hero": "en",
       "library_logo": "en",
       "logo_position": {
@@ -134,6 +135,14 @@
         },
         "image2x": {
           "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "e1fa33301f8cbf5e9669bc84e701ed1917cf4eda/library_header.jpg"
+        },
+        "image2x": {
+          "english": "e1fa33301f8cbf5e9669bc84e701ed1917cf4eda/library_header_2x.jpg"
         }
       },
       "library_hero": {
@@ -229,7 +238,7 @@
       }
     },
     "steam_release_date": "1606835785",
-    "store_asset_mtime": "1758372183",
+    "store_asset_mtime": "1789201011",
     "store_tags": {
       "0": "5160",
       "1": "9564",
@@ -279,6 +288,10 @@
         "supported": "true"
       },
       "latvian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "russian": {
         "subtitles": "true",
         "supported": "true"
       },
