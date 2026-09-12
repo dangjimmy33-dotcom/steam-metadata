@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789216459,
-  "_history": [],
-  "_change_number": 38699630,
-  "_missing_token": true,
-  "_sha": "ea6aff7584e1e1a3e0e5f05178dca5b3bb567108",
-  "_size": 3170,
+  "_lastChecked": 1789223094,
+  "_history": [
+    {
+      "buildId": "25145716",
+      "branch": "public",
+      "timeUpdated": 1788644407,
+      "firstSeen": 1789223094,
+      "manifests": {
+        "5113811": {
+          "gid": "8777826296372539669",
+          "size": 4147655890,
+          "download": 3968935520
+        }
+      }
+    }
+  ],
+  "_change_number": 38818147,
+  "_missing_token": false,
+  "_sha": "4130af3c95835c862ac55bdf3d5a233bbfaa719f",
+  "_size": 4058,
   "appid": "5113810",
   "common": {
     "associations": {
@@ -33,7 +47,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5113810",
     "genres": {
       "0": "1",
@@ -106,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "35fb11b7c95b79d4685debd1dedf2913bc7b589c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1786740342",
     "store_tags": {
       "0": "19",
@@ -140,5 +154,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Code Name Boogeyman",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "JW_V02.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5113811": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3968935520",
+          "gid": "8777826296372539669",
+          "size": "4147655890"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25145716",
+        "timebuildupdated": "1788644018",
+        "timeupdated": "1788644407"
+      }
+    }
+  },
+  "extended": {
+    "developer": "MM3 production",
+    "publisher": "MM3 production"
+  }
 }

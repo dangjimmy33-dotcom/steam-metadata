@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789213254,
+  "_lastChecked": 1789219861,
   "_history": [
     {
       "buildId": "25133360",
@@ -54,11 +54,29 @@
           "download": 57248784
         }
       }
+    },
+    {
+      "buildId": "25270817",
+      "branch": "beta",
+      "timeUpdated": 1789215984,
+      "firstSeen": 1789219861,
+      "manifests": {
+        "1946561": {
+          "gid": "4813700124182593398",
+          "size": 147969088,
+          "download": 65814176
+        },
+        "1946562": {
+          "gid": "8133242951262153477",
+          "size": 112693457,
+          "download": 57260240
+        }
+      }
     }
   ],
-  "_change_number": 38708893,
+  "_change_number": 38817958,
   "_missing_token": false,
-  "_sha": "006e68cdf2e1b72b9bc4f1758334dbae6265e4b0",
+  "_sha": "f8af7350342f468f19143ada14bd67fb56163502",
   "_size": 4175,
   "appid": "1946560",
   "common": {
@@ -212,9 +230,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "65802720",
-          "gid": "1546791898153901140",
-          "size": "147956184"
+          "download": "65814176",
+          "gid": "4813700124182593398",
+          "size": "147969088"
         },
         "public": {
           "download": "65802720",
@@ -229,9 +247,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "57248784",
-          "gid": "8635042040254255282",
-          "size": "112680553"
+          "download": "57260240",
+          "gid": "8133242951262153477",
+          "size": "112693457"
         },
         "public": {
           "download": "57248784",
@@ -243,10 +261,10 @@
     "baselanguages": "english",
     "branches": {
       "beta": {
-        "buildid": "25133360",
+        "buildid": "25270817",
         "description": "Test the next sobosuba update to make sure I haven't broken everything",
-        "timebuildupdated": "1788560449",
-        "timeupdated": "1788560451"
+        "timebuildupdated": "1789215983",
+        "timeupdated": "1789215984"
       },
       "public": {
         "buildid": "25133360",

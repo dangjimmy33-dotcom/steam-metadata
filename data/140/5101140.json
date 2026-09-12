@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789216451,
-  "_history": [],
-  "_change_number": 38436169,
-  "_missing_token": true,
-  "_sha": "b3669427c72f66521c6a00681b224e6a165d8c2f",
-  "_size": 2878,
+  "_lastChecked": 1789223085,
+  "_history": [
+    {
+      "buildId": "24694197",
+      "branch": "public",
+      "timeUpdated": 1786642292,
+      "firstSeen": 1789223085,
+      "manifests": {
+        "5101141": {
+          "gid": "8292829841499665372",
+          "size": 5664505404,
+          "download": 2759924704
+        }
+      }
+    }
+  ],
+  "_change_number": 38819499,
+  "_missing_token": false,
+  "_sha": "cfd8ab143175592b410badf58379959dc80cf655",
+  "_size": 3498,
   "appid": "5101140",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "6014b12929c74893a6860157a82df68059c49922",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5101140",
     "genres": {
       "0": "4",
@@ -98,7 +111,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d8bc54a6adc818a4d4ca8983f8b1679830a48fd9/capsule_231x87.jpg"
     },
@@ -128,5 +141,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "EGO X The Truth",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64"
+        },
+        "executable": "EGO X The Truth.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5101141": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2759924704",
+          "gid": "8292829841499665372",
+          "size": "5664505404"
+        }
+      }
+    },
+    "baselanguages": "turkish",
+    "branches": {
+      "public": {
+        "buildid": "24694197",
+        "timebuildupdated": "1786543984",
+        "timeupdated": "1786642292"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Elif Dalmis",
+    "publisher": "Elif Dalmis"
+  }
 }

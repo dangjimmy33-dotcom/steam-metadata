@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789212148,
+  "_lastChecked": 1789218766,
   "_history": [
     {
       "buildId": "25122728",
@@ -20,10 +20,10 @@
       }
     }
   ],
-  "_change_number": 38809483,
+  "_change_number": 38817349,
   "_missing_token": false,
-  "_sha": "f5aebc927984e9d86f138d4f439f6b1d9dafe4c0",
-  "_size": 12350,
+  "_sha": "de945453d9c88f13d36da98aafd7b4e365fcfea1",
+  "_size": 12658,
   "appid": "1059220",
   "common": {
     "associations": {
@@ -366,6 +366,16 @@
           "oslist": "windows"
         },
         "executable": "XV83\\Binaries\\Win64\\XV83-Win64-Test.exe",
+        "type": "default"
+      },
+      "17": {
+        "arguments": "-STEAM_BRANCH=daily-test -culture=en",
+        "config": {
+          "betakey": "83-preflight_1, 83-preflight_2, 83-preflight_3, 83-preflight_4, 83-preflight_5",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "start_protected_game.exe",
         "type": "default"
       },
       "2": {

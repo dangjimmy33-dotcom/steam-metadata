@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1789216025,
-  "_history": [],
-  "_change_number": 38791743,
-  "_missing_token": true,
-  "_sha": "bcf05e73445d9e49460c39e5dc5f20b9544d0f8d",
-  "_size": 5225,
+  "_lastChecked": 1789222657,
+  "_history": [
+    {
+      "buildId": "25251484",
+      "branch": "public",
+      "timeUpdated": 1789123804,
+      "firstSeen": 1789222657,
+      "manifests": {
+        "4602301": {
+          "gid": "965278517150058457",
+          "size": 5778163100,
+          "download": 1478430624
+        },
+        "4602302": {
+          "gid": "4973367245917521296",
+          "size": 5801702931,
+          "download": 1488569744
+        },
+        "4602303": {
+          "gid": "7682579680619075529",
+          "size": 5780264919,
+          "download": 1477625344
+        },
+        "5174070": {
+          "gid": "5141390344361600051",
+          "size": 136627984,
+          "download": 136639200
+        }
+      }
+    }
+  ],
+  "_change_number": 38819038,
+  "_missing_token": false,
+  "_sha": "ec6014c90deeef39b22e91377c2699b670585c1c",
+  "_size": 6765,
   "appid": "4602300",
   "common": {
     "aicontenttype": "1",
@@ -29,6 +58,7 @@
     },
     "clienticon": "8ffe0f42f1cacd8d1396bb4d3645cc03395111af",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -42,7 +72,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4602300",
     "genres": {
       "0": "4",
@@ -114,11 +143,12 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "dce915599af724a788f4d4f2671b870ffee383b1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789220560",
     "store_asset_mtime": "1789079467",
     "store_tags": {
       "0": "6650",
@@ -263,5 +293,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Next Girl, Please 🎬",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Next Girl Please.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "NextGirlPlease.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "NextGirlPlease.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4602301": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1478430624",
+          "gid": "965278517150058457",
+          "size": "5778163100"
+        }
+      }
+    },
+    "4602302": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1488569744",
+          "gid": "4973367245917521296",
+          "size": "5801702931"
+        }
+      }
+    },
+    "4602303": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1477625344",
+          "gid": "7682579680619075529",
+          "size": "5780264919"
+        }
+      }
+    },
+    "5174070": {
+      "dlcappid": "5174070",
+      "manifests": {
+        "public": {
+          "download": "136639200",
+          "gid": "5141390344361600051",
+          "size": "136627984"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25251484",
+        "timebuildupdated": "1789123804",
+        "timeupdated": "1789123804"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Lewd Star",
+    "publisher": "Lewd Star"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789216381,
-  "_history": [],
-  "_change_number": 38235471,
-  "_missing_token": true,
-  "_sha": "589deaf50e30d4a1d7fe45749cdd1d8d7cff6e8e",
-  "_size": 3175,
+  "_lastChecked": 1789223017,
+  "_history": [
+    {
+      "buildId": "25271274",
+      "branch": "public",
+      "timeUpdated": 1789219457,
+      "firstSeen": 1789223017,
+      "manifests": {
+        "5011731": {
+          "gid": "6019622921350107984",
+          "size": 3469344407,
+          "download": 1255129216
+        }
+      }
+    }
+  ],
+  "_change_number": 38818855,
+  "_missing_token": false,
+  "_sha": "49fbe1552590fd263b5f34bc36ea38f49959e6e1",
+  "_size": 4174,
   "appid": "5011730",
   "common": {
     "associations": {
@@ -26,6 +40,7 @@
     },
     "clienticon": "0e17c663b05bc0ad954cf01a5ababb74318489e2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -33,7 +48,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5011730",
     "genres": {
       "0": "1",
@@ -108,7 +122,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bf5c4f23763880868ea1791df7b25b4942f1b16b/capsule_231x87.jpg"
     },
@@ -144,5 +158,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Girlfriend Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Regular/Non VR",
+        "description_loc": {
+          "english": "Play Regular/Non VR"
+        },
+        "executable": "Gf Sim.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-vr",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play in VR",
+        "description_loc": {
+          "english": "Play in VR"
+        },
+        "executable": "Gf Sim.exe",
+        "type": "openxr"
+      }
+    }
+  },
+  "depots": {
+    "5011731": {
+      "manifests": {
+        "public": {
+          "download": "1255129216",
+          "gid": "6019622921350107984",
+          "size": "3469344407"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25271274",
+        "timebuildupdated": "1789219229",
+        "timeupdated": "1789219457"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Dr.Drastic",
+    "publisher": "A Drastic Game",
+    "vrheadsetstreaming": "1"
+  }
 }
