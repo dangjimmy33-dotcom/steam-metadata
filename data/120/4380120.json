@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789196109,
+  "_lastChecked": 1789202625,
   "_history": [
     {
       "buildId": "24977831",
@@ -23,12 +23,35 @@
           "download": 873929200
         }
       }
+    },
+    {
+      "buildId": "25268779",
+      "branch": "public",
+      "timeUpdated": 1789201174,
+      "firstSeen": 1789202625,
+      "manifests": {
+        "4380121": {
+          "gid": "1320299432389600298",
+          "size": 834347744,
+          "download": 677615088
+        },
+        "4380122": {
+          "gid": "7392701110946044129",
+          "size": 1038755024,
+          "download": 866932528
+        },
+        "4380123": {
+          "gid": "4167921267558885893",
+          "size": 1109253301,
+          "download": 886105520
+        }
+      }
     }
   ],
-  "_change_number": 38388456,
+  "_change_number": 38814780,
   "_missing_token": false,
-  "_sha": "f81af61531532f8cdd3f49a5514547c3c24fa3c0",
-  "_size": 5228,
+  "_sha": "12089fbfc1e3a30e840fbd532db83d8ec36f4b88",
+  "_size": 5365,
   "appid": "4380120",
   "common": {
     "associations": {
@@ -210,9 +233,9 @@
       },
       "manifests": {
         "public": {
-          "download": "854745360",
-          "gid": "3910125421094535194",
-          "size": "1026549008"
+          "download": "866932528",
+          "gid": "7392701110946044129",
+          "size": "1038755024"
         }
       }
     },
@@ -223,18 +246,18 @@
       },
       "manifests": {
         "public": {
-          "download": "873929200",
-          "gid": "7243909898303233027",
-          "size": "1097047285"
+          "download": "886105520",
+          "gid": "4167921267558885893",
+          "size": "1109253301"
         }
       }
     },
     "baselanguages": "brazilian,english,german,polish",
     "branches": {
       "public": {
-        "buildid": "24977831",
-        "timebuildupdated": "1787858591",
-        "timeupdated": "1787858591"
+        "buildid": "25268779",
+        "timebuildupdated": "1789201174",
+        "timeupdated": "1789201174"
       }
     },
     "privatebranches": "1"
@@ -269,6 +292,11 @@
       "1": {
         "path": "Godot/app_userdata/HornOfTheWarlord",
         "pattern": "settings.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/HornOfTheWarlord",
+        "pattern": "upgrade_progress.cfg",
         "root": "WinAppDataRoaming"
       }
     }

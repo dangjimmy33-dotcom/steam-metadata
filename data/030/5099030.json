@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789196721,
-  "_history": [],
-  "_change_number": 38628718,
-  "_missing_token": true,
-  "_sha": "68b495f08c50414a12dec655de1ae8f6f9e8fc93",
-  "_size": 3169,
+  "_lastChecked": 1789203301,
+  "_history": [
+    {
+      "buildId": "25141675",
+      "branch": "public",
+      "timeUpdated": 1788617600,
+      "firstSeen": 1789203301,
+      "manifests": {
+        "5099031": {
+          "gid": "169004048010748493",
+          "size": 119588971,
+          "download": 92347920
+        }
+      }
+    }
+  ],
+  "_change_number": 38815168,
+  "_missing_token": false,
+  "_sha": "c23eaff4443e97d2525d2b1b7863e10c61e4601f",
+  "_size": 3816,
   "appid": "5099030",
   "common": {
     "associations": {
@@ -31,8 +45,8 @@
     },
     "clienticon": "9cf49d4058d574ca4cba6e317163173ac3999600",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5099030",
     "genres": {
       "0": "1",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8ef7c5d1d97ccd65f57e32a4a7d67f329b121e91/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787963398",
     "store_tags": {
       "0": "9",
@@ -144,5 +159,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Vegeteamble",
+    "launch": {
+      "0": {
+        "executable": "VegeTeamble.exe"
+      }
+    }
+  },
+  "depots": {
+    "5099031": {
+      "manifests": {
+        "public": {
+          "download": "92347920",
+          "gid": "169004048010748493",
+          "size": "119588971"
+        }
+      }
+    },
+    "baselanguages": "english,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "25141675",
+        "timebuildupdated": "1788617527",
+        "timeupdated": "1788617600"
+      }
+    }
+  },
+  "extended": {
+    "developer": "KBTECH GAME STUDIO",
+    "publisher": "KBTECH GAME STUDIO"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000"
+  }
 }

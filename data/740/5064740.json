@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789196697,
-  "_history": [],
-  "_change_number": 38703314,
-  "_missing_token": true,
-  "_sha": "e07c19b9fa3b2b8261446040a3fbbb80654144cb",
-  "_size": 3435,
+  "_lastChecked": 1789203275,
+  "_history": [
+    {
+      "buildId": "25153987",
+      "branch": "public",
+      "timeUpdated": 1788711851,
+      "firstSeen": 1789203275,
+      "manifests": {
+        "5064741": {
+          "gid": "2664884619449924719",
+          "size": 524315141,
+          "download": 360812432
+        }
+      }
+    }
+  ],
+  "_change_number": 38814096,
+  "_missing_token": false,
+  "_sha": "1321dd5e09aa0146fa0680099c532966e6fb5fd2",
+  "_size": 4252,
   "appid": "5064740",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +43,8 @@
     },
     "clienticon": "c7e87db5ebaff659b044962370d4c4ebd789ddc5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5064740",
     "genres": {
       "0": "25",
@@ -102,7 +116,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0cb96e968964ca4ef2d739d68a37737d3429a197/capsule_231x87.jpg"
     },
@@ -162,5 +176,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BULBIT",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BULBIT.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5064741": {
+      "manifests": {
+        "public": {
+          "download": "360812432",
+          "gid": "2664884619449924719",
+          "size": "524315141"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25153987",
+        "timebuildupdated": "1788711724",
+        "timeupdated": "1788711851"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hoon Arcade",
+    "publisher": "Hoon Arcade"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789196088,
+  "_lastChecked": 1789202601,
   "_history": [
     {
       "buildId": "25258243",
@@ -13,12 +13,30 @@
           "download": 36338742352
         }
       }
+    },
+    {
+      "buildId": "25268753",
+      "branch": "public",
+      "timeUpdated": 1789200891,
+      "firstSeen": 1789202601,
+      "manifests": {
+        "4354462": {
+          "gid": "2916029916063945821",
+          "size": 36758543705,
+          "download": 36338742400
+        },
+        "4354463": {
+          "gid": "3544373165308914061",
+          "size": 35015976773,
+          "download": 34699390880
+        }
+      }
     }
   ],
-  "_change_number": 38813741,
+  "_change_number": 38814733,
   "_missing_token": false,
-  "_sha": "12a955a6204d9fbfdb84b32eb42978cfe12c4d14",
-  "_size": 6241,
+  "_sha": "e4a550dfe69499f1930bba94d7fc4254d6eff625",
+  "_size": 6359,
   "appid": "4354460",
   "common": {
     "aicontenttype": "1",
@@ -151,7 +169,7 @@
     "oslist": "windows,macos",
     "primary_genre": "25",
     "releasestate": "released",
-    "review_percentage": "98",
+    "review_percentage": "97",
     "review_score": "8",
     "small_capsule": {
       "english": "c8a2c6510d4b481e5dba3bc45082e6b7ec8357cf/capsule_231x87.jpg",
@@ -256,9 +274,9 @@
       },
       "manifests": {
         "public": {
-          "download": "36338742352",
-          "gid": "466831761429861241",
-          "size": "36758543631"
+          "download": "36338742400",
+          "gid": "2916029916063945821",
+          "size": "36758543705"
         }
       }
     },
@@ -267,13 +285,19 @@
         "osarch": "64",
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "34699390880",
+          "gid": "3544373165308914061",
+          "size": "35015976773"
+        }
+      }
     },
     "branches": {
       "public": {
-        "buildid": "25258243",
-        "timebuildupdated": "1789145392",
-        "timeupdated": "1789145406"
+        "buildid": "25268753",
+        "timebuildupdated": "1789200891",
+        "timeupdated": "1789200891"
       }
     },
     "privatebranches": "1"

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789196220,
+  "_lastChecked": 1789202748,
   "_history": [
     {
       "buildId": "24974202",
@@ -65,11 +65,24 @@
           "download": 23066743376
         }
       }
+    },
+    {
+      "buildId": "25268690",
+      "branch": "beta",
+      "timeUpdated": 1789201202,
+      "firstSeen": 1789202748,
+      "manifests": {
+        "4502181": {
+          "gid": "5866470964760850879",
+          "size": 23599488171,
+          "download": 23067973392
+        }
+      }
     }
   ],
-  "_change_number": 38801658,
+  "_change_number": 38814786,
   "_missing_token": false,
-  "_sha": "66ba868b31f8020b0da0225a77bdce38079480b1",
+  "_sha": "41436e6cbe303b2d6dc2ff8a966e47604d51053a",
   "_size": 5542,
   "appid": "4502180",
   "common": {
@@ -282,9 +295,9 @@
     "4502181": {
       "manifests": {
         "beta": {
-          "download": "23066743376",
-          "gid": "9101929497054651371",
-          "size": "23599461547"
+          "download": "23067973392",
+          "gid": "5866470964760850879",
+          "size": "23599488171"
         },
         "public": {
           "download": "22682361312",
@@ -295,10 +308,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25259292",
+        "buildid": "25268690",
         "description": "Для тестирования - возможны баги.",
-        "timebuildupdated": "1789149333",
-        "timeupdated": "1789149450"
+        "timebuildupdated": "1789200372",
+        "timeupdated": "1789201202"
       },
       "public": {
         "buildid": "24974202",

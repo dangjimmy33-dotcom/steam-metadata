@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789196765,
-  "_history": [],
-  "_change_number": 38436162,
-  "_missing_token": true,
-  "_sha": "4e64b06d4bb97ad1cb2ce984e8b5a8c670712c7c",
-  "_size": 2879,
+  "_lastChecked": 1789203350,
+  "_history": [
+    {
+      "buildId": "24928602",
+      "branch": "public",
+      "timeUpdated": 1787662701,
+      "firstSeen": 1789203350,
+      "manifests": {
+        "5173961": {
+          "gid": "5396142847253529305",
+          "size": 141490469,
+          "download": 47481920
+        },
+        "5173962": {
+          "gid": "8720708182329791214",
+          "size": 126887263,
+          "download": 40354096
+        }
+      }
+    }
+  ],
+  "_change_number": 38814119,
+  "_missing_token": false,
+  "_sha": "00dcc7bcfb795e04b0f1aacd283934b43b82f4d0",
+  "_size": 3916,
   "appid": "5173960",
   "common": {
     "associations": {
@@ -24,8 +43,8 @@
     },
     "clienticon": "db208d60c79fb2c5eb8785aa8feb19e9ac55803f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5173960",
     "genres": {
       "0": "4",
@@ -97,10 +116,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "997a6dc536033a134c74c9fc63d44eff2043f5d0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789197451",
     "store_asset_mtime": "1787660950",
     "store_tags": {
       "0": "597",
@@ -131,5 +151,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "groky",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "groky.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "groky.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5173961": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "47481920",
+          "gid": "5396142847253529305",
+          "size": "141490469"
+        }
+      }
+    },
+    "5173962": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "40354096",
+          "gid": "8720708182329791214",
+          "size": "126887263"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24928602",
+        "timebuildupdated": "1787662687",
+        "timeupdated": "1787662701"
+      }
+    }
+  },
+  "extended": {
+    "developer": "XSGames",
+    "homepage": "https://xsgames.co/groky.php",
+    "publisher": "XSGames"
+  }
 }

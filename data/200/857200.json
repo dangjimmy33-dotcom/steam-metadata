@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789192506,
+  "_lastChecked": 1789198591,
   "_history": [
     {
       "buildId": "5422604",
@@ -36,12 +36,30 @@
           "download": 365567920
         }
       }
+    },
+    {
+      "buildId": "25268366",
+      "branch": "public",
+      "timeUpdated": 1789197860,
+      "firstSeen": 1789198591,
+      "manifests": {
+        "1255120": {
+          "gid": "2424665074488409464",
+          "size": 4376881,
+          "download": 4341664
+        },
+        "857201": {
+          "gid": "2282204268955345448",
+          "size": 515703089,
+          "download": 365801008
+        }
+      }
     }
   ],
-  "_change_number": 37438766,
+  "_change_number": 38814205,
   "_missing_token": false,
-  "_sha": "bea293ae706ab6d659c1ef9121964ad113639ca9",
-  "_size": 6352,
+  "_sha": "3437c52fecacb6b4d23d7a40af29d67886c309f4",
+  "_size": 6712,
   "appid": "857200",
   "common": {
     "associations": {
@@ -82,15 +100,17 @@
     },
     "gameid": "857200",
     "genres": {
-      "0": "23",
-      "1": "3"
+      "0": "25",
+      "1": "23",
+      "2": "3"
     },
     "header_image": {
-      "english": "header.jpg"
+      "english": "c32539c72f8829692220581307e88fc417ff5add/header.jpg"
     },
     "icon": "511abf6f70b6fd11e264036d5d03cb675fa3ae35",
     "library_assets": {
       "library_capsule": "en",
+      "library_header": "en",
       "library_hero": "en",
       "library_logo": "en",
       "logo_position": {
@@ -106,6 +126,14 @@
         },
         "image2x": {
           "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "c32539c72f8829692220581307e88fc417ff5add/library_header.jpg"
+        },
+        "image2x": {
+          "english": "c32539c72f8829692220581307e88fc417ff5add/library_header_2x.jpg"
         }
       },
       "library_hero": {
@@ -143,7 +171,7 @@
     "review_percentage": "91",
     "review_score": "7",
     "small_capsule": {
-      "english": "capsule_231x87.jpg"
+      "english": "3578ef258c10b07e089f22b6efeeca5c08990cf6/capsule_231x87.jpg"
     },
     "steam_deck_compatibility": {
       "category": "2",
@@ -211,28 +239,28 @@
       }
     },
     "steam_release_date": "1585659303",
-    "store_asset_mtime": "1667116329",
+    "store_asset_mtime": "1788415474",
     "store_tags": {
-      "0": "4434",
-      "1": "4486",
-      "10": "3871",
-      "11": "44868",
-      "12": "4726",
-      "13": "4947",
-      "14": "4325",
-      "15": "6971",
-      "16": "4085",
-      "17": "1695",
-      "18": "3942",
+      "0": "10695",
+      "1": "6426",
+      "10": "122",
+      "11": "3799",
+      "12": "9551",
+      "13": "44868",
+      "14": "7208",
+      "15": "4434",
+      "16": "11014",
+      "17": "4085",
+      "18": "3871",
       "19": "4182",
-      "2": "9551",
-      "3": "6426",
-      "4": "3799",
-      "5": "1742",
-      "6": "11014",
-      "7": "10695",
-      "8": "7208",
-      "9": "122"
+      "2": "1742",
+      "3": "4325",
+      "4": "3942",
+      "5": "4947",
+      "6": "4747",
+      "7": "3834",
+      "8": "1702",
+      "9": "6971"
     },
     "supported_languages": {
       "english": {
@@ -290,9 +318,9 @@
           "size": "262480641"
         },
         "public": {
-          "download": "365567920",
-          "gid": "6758449672659433717",
-          "size": "517690837"
+          "download": "365801008",
+          "gid": "2282204268955345448",
+          "size": "515703089"
         }
       }
     },
@@ -304,9 +332,9 @@
         "timeupdated": "1733650605"
       },
       "public": {
-        "buildid": "20929946",
-        "timebuildupdated": "1764050382",
-        "timeupdated": "1764050494"
+        "buildid": "25268366",
+        "timebuildupdated": "1789197763",
+        "timeupdated": "1789197860"
       }
     }
   },

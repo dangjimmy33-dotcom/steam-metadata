@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789196492,
-  "_history": [],
-  "_change_number": 38605632,
-  "_missing_token": true,
-  "_sha": "904bcef24ac2bc94bc82b7b7eb845edd103eabf1",
-  "_size": 2779,
+  "_lastChecked": 1789203047,
+  "_history": [
+    {
+      "buildId": "25268972",
+      "branch": "public",
+      "timeUpdated": 1789202647,
+      "firstSeen": 1789203047,
+      "manifests": {
+        "4820711": {
+          "gid": "481148630820019029",
+          "size": 109762132,
+          "download": 35343616
+        }
+      }
+    }
+  ],
+  "_change_number": 38815097,
+  "_missing_token": false,
+  "_sha": "48837bb6a8f2a1ae2dc69bfcc5d17fb0637af696",
+  "_size": 3565,
   "appid": "4820710",
   "common": {
     "aicontenttype": "1",
@@ -26,12 +40,12 @@
     "clienticon": "1139ab00da7fd1cda1c3a6023b8b2dd2f69504ac",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4820710",
     "genres": {
       "0": "1",
       "1": "23",
-      "2": "70"
+      "2": "70",
+      "3": "37"
     },
     "header_image": {
       "english": "6219ae8c75efa6c24a8a40dc1f333550972d332f/header.jpg"
@@ -98,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6d7ad77d15b82d7371237a47b9ba371e39f110b4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1782590803",
     "store_tags": {
       "0": "19",
@@ -125,5 +140,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "KeyWalker",
+    "launch": {
+      "0": {
+        "arguments": "--rendering-driver opengl3",
+        "description": "Compatibility (OpenGl)",
+        "description_loc": {
+          "english": "Compatibility (OpenGl)"
+        },
+        "executable": "KeyWalker.exe"
+      }
+    }
+  },
+  "depots": {
+    "4820711": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "35343616",
+          "gid": "481148630820019029",
+          "size": "109762132"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25268972",
+        "timebuildupdated": "1789202631",
+        "timeupdated": "1789202647"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Repron",
+    "isfreeapp": "1",
+    "publisher": "Repron"
+  }
 }
