@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789177619,
-  "_history": [],
-  "_change_number": 38649528,
-  "_missing_token": true,
-  "_sha": "27e9effd18cd135301976364d9736e33e14d6a74",
-  "_size": 3016,
+  "_lastChecked": 1789183619,
+  "_history": [
+    {
+      "buildId": "25059711",
+      "branch": "public",
+      "timeUpdated": 1788272151,
+      "firstSeen": 1789183619,
+      "manifests": {
+        "4773941": {
+          "gid": "1446593539926195495",
+          "size": 889347245,
+          "download": 356730832
+        }
+      }
+    }
+  ],
+  "_change_number": 38810694,
+  "_missing_token": false,
+  "_sha": "449768492164a5895c4825122a459ea972fbb553",
+  "_size": 3515,
   "appid": "4773940",
   "common": {
     "aicontenttype": "1",
@@ -28,7 +42,6 @@
     "clienticon": "30ccf16fa8414ae08817c4c10dea0c2ad6efa3f7",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4773940",
     "genres": {
       "0": "1",
@@ -101,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "412e92b0241bedc9d98e5ddfd412b756df8482e5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789179673",
     "store_asset_mtime": "1783489288",
     "store_tags": {
       "0": "19",
@@ -136,5 +150,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "THE LAST LOGIN",
+    "launch": {
+      "0": {
+        "executable": "The Last Login.exe"
+      }
+    }
+  },
+  "depots": {
+    "4773941": {
+      "manifests": {
+        "public": {
+          "download": "356730832",
+          "gid": "1446593539926195495",
+          "size": "889347245"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25059711",
+        "timebuildupdated": "1788271972",
+        "timeupdated": "1788272151"
+      }
+    }
+  },
+  "extended": {
+    "developer": "IS-TL",
+    "publisher": "IS-TL"
+  }
 }

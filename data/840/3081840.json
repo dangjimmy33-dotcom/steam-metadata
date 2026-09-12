@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789175748,
+  "_lastChecked": 1789182015,
   "_history": [
     {
       "buildId": "24266936",
@@ -59,12 +59,35 @@
           "download": 1016002592
         }
       }
+    },
+    {
+      "buildId": "25265623",
+      "branch": "testing",
+      "timeUpdated": 1789177431,
+      "firstSeen": 1789182015,
+      "manifests": {
+        "3081841": {
+          "gid": "9106033290356221832",
+          "size": 1187506978,
+          "download": 973913504
+        },
+        "3081842": {
+          "gid": "6854564033448642789",
+          "size": 1162468703,
+          "download": 967588944
+        },
+        "3081843": {
+          "gid": "7554525337327620437",
+          "size": 1268453482,
+          "download": 1015160528
+        }
+      }
     }
   ],
-  "_change_number": 38809392,
+  "_change_number": 38810193,
   "_missing_token": false,
-  "_sha": "ff8089ca22239923537cabd2d451664989316ca4",
-  "_size": 7687,
+  "_sha": "59ce83560281859abc438f1ab036f2752091488a",
+  "_size": 7670,
   "appid": "3081840",
   "common": {
     "associations": {
@@ -316,7 +339,7 @@
         "config": {
           "oslist": "macos"
         },
-        "executable": "Chrono Gear- Warden of Time.app",
+        "executable": "ChronoGear.app",
         "type": "default"
       }
     }
@@ -333,9 +356,9 @@
           "size": "1159697730"
         },
         "testing": {
-          "download": "973916032",
-          "gid": "4641181075732063703",
-          "size": "1187506930"
+          "download": "973913504",
+          "gid": "9106033290356221832",
+          "size": "1187506978"
         }
       }
     },
@@ -350,9 +373,9 @@
           "size": "1134659487"
         },
         "testing": {
-          "download": "967586400",
-          "gid": "3629773914921042911",
-          "size": "1162468751"
+          "download": "967588944",
+          "gid": "6854564033448642789",
+          "size": "1162468703"
         }
       }
     },
@@ -362,9 +385,9 @@
       },
       "manifests": {
         "testing": {
-          "download": "1016002592",
-          "gid": "6608441490537388254",
-          "size": "1269304441"
+          "download": "1015160528",
+          "gid": "7554525337327620437",
+          "size": "1268453482"
         }
       }
     },
@@ -376,10 +399,10 @@
         "timeupdated": "1784386062"
       },
       "testing": {
-        "buildid": "25259080",
+        "buildid": "25265623",
         "description": "For new experimental builds",
-        "timebuildupdated": "1789148429",
-        "timeupdated": "1789173724"
+        "timebuildupdated": "1789177363",
+        "timeupdated": "1789177431"
       }
     }
   },

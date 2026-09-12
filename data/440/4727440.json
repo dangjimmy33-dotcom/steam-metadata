@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789177578,
-  "_history": [],
-  "_change_number": 38779973,
-  "_missing_token": true,
-  "_sha": "7544d12b24f794f845c97adb16e52cc5008b3b11",
-  "_size": 3771,
+  "_lastChecked": 1789183583,
+  "_history": [
+    {
+      "buildId": "25244343",
+      "branch": "public",
+      "timeUpdated": 1789093600,
+      "firstSeen": 1789183583,
+      "manifests": {
+        "4727441": {
+          "gid": "8293312688202801962",
+          "size": 425053493,
+          "download": 182976512
+        }
+      }
+    }
+  ],
+  "_change_number": 38811419,
+  "_missing_token": false,
+  "_sha": "5c128c4157b3c27fa43178088ea8b1ab20568bb0",
+  "_size": 5131,
   "appid": "4727440",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +45,8 @@
     },
     "clienticon": "939cbc6aba38a2bb8c1c1df0fe0a70a8d6d4c39e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4727440",
     "genres": {
       "0": "4",
@@ -118,10 +132,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3567681d61f324eac00f48171a4839d2aec5364a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789183011",
     "store_asset_mtime": "1788360801",
     "store_tags": {
       "0": "9",
@@ -182,5 +197,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PlaytheWor!d",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Play the World.exe"
+      }
+    }
+  },
+  "depots": {
+    "4727441": {
+      "manifests": {
+        "public": {
+          "download": "182976512",
+          "gid": "8293312688202801962",
+          "size": "425053493"
+        }
+      }
+    },
+    "baselanguages": "english,koreana",
+    "branches": {
+      "public": {
+        "buildid": "25244343",
+        "timebuildupdated": "1789093466",
+        "timeupdated": "1789093600"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Sweet Turtles",
+    "publisher": "Sweet Turtles"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "Play the World/saves",
+        "pattern": "run.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Play the World/saves",
+        "pattern": "profile.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Play the World/saves",
+        "pattern": "run.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Play the World/saves",
+        "pattern": "profile.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

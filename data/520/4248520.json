@@ -1,10 +1,10 @@
 {
-  "_lastChecked": 1789177080,
+  "_lastChecked": 1789183154,
   "_history": [],
-  "_change_number": 38653890,
+  "_change_number": 38810460,
   "_missing_token": true,
-  "_sha": "3784627a41591a93fa138d99a010e5381547aaa5",
-  "_size": 2928,
+  "_sha": "73c53d1e688db2ec8b76a818a8c1291bb672939d",
+  "_size": 4089,
   "appid": "4248520",
   "common": {
     "associations": {
@@ -19,11 +19,14 @@
     },
     "category": {
       "category_2": "1",
+      "category_28": "1",
+      "category_55": "1",
       "category_62": "1",
       "category_74": "1"
     },
     "clienticon": "ce8d9787c7d3f93633563b0fa03387428910743b",
     "community_hub_visible": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
     "exfgls": "8",
     "gameid": "4248520",
@@ -33,15 +36,16 @@
       "2": "3"
     },
     "header_image": {
-      "english": "c7b7cab92c9f31ff6c3b69eec36e0c3599745c89/header.jpg"
+      "english": "c7b7cab92c9f31ff6c3b69eec36e0c3599745c89/header.jpg",
+      "schinese": "960a4cc086bf60a43724890aeb917ba6cb76cf9b/header_schinese.jpg"
     },
     "icon": "ce8d9787c7d3f93633563b0fa03387428910743b",
     "library_assets": {
-      "library_capsule": "en",
-      "library_header": "en",
+      "library_capsule": "en,zh-cn",
+      "library_header": "en,zh-cn",
       "library_hero": "en",
       "library_hero_blur": "en",
-      "library_logo": "en",
+      "library_logo": "en,zh-cn",
       "logo_position": {
         "height_pct": "93.45925329402687",
         "pinned_position": "BottomLeft",
@@ -51,18 +55,22 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "60b24a9f88d95830b11e50e38c9c94aece454e9d/library_capsule.jpg"
+          "english": "60b24a9f88d95830b11e50e38c9c94aece454e9d/library_capsule.jpg",
+          "schinese": "b54fe9d1a5b5c6298fd387209fe8954c234f9a95/library_capsule_schinese.jpg"
         },
         "image2x": {
-          "english": "60b24a9f88d95830b11e50e38c9c94aece454e9d/library_capsule_2x.jpg"
+          "english": "60b24a9f88d95830b11e50e38c9c94aece454e9d/library_capsule_2x.jpg",
+          "schinese": "b54fe9d1a5b5c6298fd387209fe8954c234f9a95/library_capsule_schinese_2x.jpg"
         }
       },
       "library_header": {
         "image": {
-          "english": "c7b7cab92c9f31ff6c3b69eec36e0c3599745c89/library_header.jpg"
+          "english": "c7b7cab92c9f31ff6c3b69eec36e0c3599745c89/library_header.jpg",
+          "schinese": "960a4cc086bf60a43724890aeb917ba6cb76cf9b/library_header_schinese.jpg"
         },
         "image2x": {
-          "english": "c7b7cab92c9f31ff6c3b69eec36e0c3599745c89/library_header_2x.jpg"
+          "english": "c7b7cab92c9f31ff6c3b69eec36e0c3599745c89/library_header_2x.jpg",
+          "schinese": "960a4cc086bf60a43724890aeb917ba6cb76cf9b/library_header_schinese_2x.jpg"
         }
       },
       "library_hero": {
@@ -80,10 +88,12 @@
       },
       "library_logo": {
         "image": {
-          "english": "8c8166f25b4e779332253f6bb1540000be9203b1/logo.png"
+          "english": "8c8166f25b4e779332253f6bb1540000be9203b1/logo.png",
+          "schinese": "06473d70106cb2b04ca5ee3c9b949f21e7b4b6ff/logo_schinese.png"
         },
         "image2x": {
-          "english": "8c8166f25b4e779332253f6bb1540000be9203b1/logo_2x.png"
+          "english": "8c8166f25b4e779332253f6bb1540000be9203b1/logo_2x.png",
+          "schinese": "06473d70106cb2b04ca5ee3c9b949f21e7b4b6ff/logo_schinese_2x.png"
         },
         "logo_position": {
           "height_pct": "93.45925329402687",
@@ -99,9 +109,10 @@
     "primary_genre": "3",
     "releasestate": "prerelease",
     "small_capsule": {
-      "english": "8c9db1db5014a63b25ede30516eeb6196b7b8236/capsule_231x87.jpg"
+      "english": "8c9db1db5014a63b25ede30516eeb6196b7b8236/capsule_231x87.jpg",
+      "schinese": "981de00bce9dd9028ce787c8ddb015ff010dad31/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1788194818",
+    "store_asset_mtime": "1789178413",
     "store_tags": {
       "0": "122",
       "1": "4791",
@@ -126,6 +137,26 @@
     },
     "supported_languages": {
       "english": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "italian": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "russian": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "schinese": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "turkish": {
         "full_audio": "true",
         "subtitles": "true",
         "supported": "true"

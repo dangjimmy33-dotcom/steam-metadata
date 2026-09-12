@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789177661,
+  "_lastChecked": 1789183655,
   "_history": [
     {
       "buildId": "25176797",
@@ -72,12 +72,35 @@
           "download": 33950720
         }
       }
+    },
+    {
+      "buildId": "25266540",
+      "branch": "aw-network",
+      "timeUpdated": 1789183205,
+      "firstSeen": 1789183655,
+      "manifests": {
+        "4820771": {
+          "gid": "1853353570410650896",
+          "size": 113975992,
+          "download": 40396432
+        },
+        "4820772": {
+          "gid": "6903873676281681007",
+          "size": 85898423,
+          "download": 33956224
+        },
+        "4820773": {
+          "gid": "135724490927366961",
+          "size": 79813681,
+          "download": 78830368
+        }
+      }
     }
   ],
-  "_change_number": 38712924,
+  "_change_number": 38811451,
   "_missing_token": false,
-  "_sha": "98ec8ea91713d081455c663e117337773219dad4",
-  "_size": 4322,
+  "_sha": "74500ccf4a080604ad6d986e87ae528cc90e2935",
+  "_size": 4525,
   "appid": "4820770",
   "common": {
     "associations": {
@@ -221,9 +244,9 @@
       },
       "manifests": {
         "aw-network": {
-          "download": "40393232",
-          "gid": "2380409408161238076",
-          "size": "113971944"
+          "download": "40396432",
+          "gid": "1853353570410650896",
+          "size": "113975992"
         },
         "public": {
           "download": "41044528",
@@ -238,9 +261,9 @@
       },
       "manifests": {
         "aw-network": {
-          "download": "33950720",
-          "gid": "3147394923144141136",
-          "size": "85894375"
+          "download": "33956224",
+          "gid": "6903873676281681007",
+          "size": "85898423"
         },
         "public": {
           "download": "32842960",
@@ -249,12 +272,24 @@
         }
       }
     },
+    "4820773": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "aw-network": {
+          "download": "78830368",
+          "gid": "135724490927366961",
+          "size": "79813681"
+        }
+      }
+    },
     "branches": {
       "aw-network": {
-        "buildid": "25198813",
+        "buildid": "25266540",
         "description": "Archie's War with networked play",
-        "timebuildupdated": "1788916716",
-        "timeupdated": "1788916730"
+        "timebuildupdated": "1789183194",
+        "timeupdated": "1789183205"
       },
       "public": {
         "buildid": "25028747",

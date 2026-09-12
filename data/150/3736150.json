@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789176499,
+  "_lastChecked": 1789182656,
   "_history": [
     {
       "buildId": "22950378",
@@ -13,12 +13,30 @@
           "download": 158464896
         }
       }
+    },
+    {
+      "buildId": "25266217",
+      "branch": "public",
+      "timeUpdated": 1789180786,
+      "firstSeen": 1789182656,
+      "manifests": {
+        "3736151": {
+          "gid": "3332001769135495927",
+          "size": 368687338,
+          "download": 158799952
+        },
+        "4821030": {
+          "gid": "7079155254243822829",
+          "size": 698547027,
+          "download": 478071536
+        }
+      }
     }
   ],
-  "_change_number": 36349109,
+  "_change_number": 38810943,
   "_missing_token": false,
-  "_sha": "9f86e84e5a6bc44648bb10583244b295bc49d795",
-  "_size": 4902,
+  "_sha": "9b32c14d4c2e56763c2d080cee9e0e60be3c2a96",
+  "_size": 5049,
   "appid": "3736150",
   "common": {
     "associations": {
@@ -49,7 +67,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "3",
     "gameid": "3736150",
     "genres": {
       "0": "25",
@@ -187,19 +204,28 @@
     "3736151": {
       "manifests": {
         "public": {
-          "download": "158464896",
-          "gid": "1074332422590194579",
+          "download": "158799952",
+          "gid": "3332001769135495927",
           "size": "368687338"
         }
       }
     },
-    "3736152": {},
+    "4821030": {
+      "dlcappid": "4821030",
+      "manifests": {
+        "public": {
+          "download": "478071536",
+          "gid": "7079155254243822829",
+          "size": "698547027"
+        }
+      }
+    },
     "baselanguages": "japanese",
     "branches": {
       "public": {
-        "buildid": "22950378",
-        "timebuildupdated": "1777079183",
-        "timeupdated": "1777079295"
+        "buildid": "25266217",
+        "timebuildupdated": "1789180763",
+        "timeupdated": "1789180786"
       }
     }
   },

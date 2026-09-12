@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789177747,
-  "_history": [],
-  "_change_number": 38796331,
-  "_missing_token": true,
-  "_sha": "795f9c9acc1c169384bec2043558aedcc95b92e2",
-  "_size": 3803,
+  "_lastChecked": 1789183729,
+  "_history": [
+    {
+      "buildId": "25252748",
+      "branch": "public",
+      "timeUpdated": 1789137459,
+      "firstSeen": 1789183729,
+      "manifests": {
+        "4903681": {
+          "gid": "1226386336965491005",
+          "size": 858050461,
+          "download": 134670496
+        }
+      }
+    }
+  ],
+  "_change_number": 38811447,
+  "_missing_token": false,
+  "_sha": "b4440c80e657bf460cb67ad6442d97844d3f0d72",
+  "_size": 4886,
   "appid": "4903680",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "4d267c647907bf17eac17cdc0855b694f49ea1f5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4903680",
     "genres": {
       "0": "25",
@@ -39,6 +53,10 @@
       "sc_schinese": "a51a6f92ab6b50d6e4786c90e6423d0028940b28/header_sc_schinese.jpg"
     },
     "icon": "4d267c647907bf17eac17cdc0855b694f49ea1f5",
+    "languages": {
+      "english": "1",
+      "schinese": "1"
+    },
     "library_assets": {
       "library_capsule": "zh-xc,en",
       "library_header": "en,zh-xc",
@@ -109,11 +127,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "45eb78d7367f5c4ba1fc6ba32ecf9ab1ec82b0e0/capsule_231x87.jpg",
       "sc_schinese": "69829f0b5376bd24c1a4b681df190d1c502d9215/capsule_231x87_sc_schinese.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787995546",
     "store_tags": {
       "0": "560542",
@@ -144,5 +163,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "像素修仙录",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "XiangSuXiuXianLu.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4903681": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "134670496",
+          "gid": "1226386336965491005",
+          "size": "858050461"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25252748",
+        "timebuildupdated": "1789127944",
+        "timeupdated": "1789137459"
+      }
+    }
+  },
+  "extended": {
+    "developer": "BAILAICHUANGYUE",
+    "publisher": "BAILAICHUANGYUE"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "BOLAICHUANGYUE/XiangSuXiuXianLu",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

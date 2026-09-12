@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789177644,
-  "_history": [],
-  "_change_number": 38606359,
-  "_missing_token": true,
-  "_sha": "38cfe496337436439d0956fe3a56ed39a12d18f3",
-  "_size": 4175,
+  "_lastChecked": 1789183641,
+  "_history": [
+    {
+      "buildId": "25126271",
+      "branch": "public",
+      "timeUpdated": 1788532717,
+      "firstSeen": 1789183641,
+      "manifests": {
+        "4801241": {
+          "gid": "7697917480054934998",
+          "size": 161490676,
+          "download": 79320688
+        }
+      }
+    }
+  ],
+  "_change_number": 38810760,
+  "_missing_token": false,
+  "_sha": "bccb307ceba6d57112ec57fc3b4cac5207408560",
+  "_size": 4924,
   "appid": "4801240",
   "common": {
     "associations": {
@@ -27,7 +41,6 @@
     "clienticon": "def20282bab3c964e9030b0f837bc15e82a7a8de",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4801240",
     "genres": {
       "0": "1",
@@ -100,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e5bee08e98db94795468e32d872fdc461824ae03/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787420536",
     "store_tags": {
       "0": "597",
@@ -195,5 +209,47 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Memes Battle",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Memes Battle.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4801241": {
+      "manifests": {
+        "public": {
+          "download": "79320688",
+          "gid": "7697917480054934998",
+          "size": "161490676"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25126271",
+        "timebuildupdated": "1788532689",
+        "timeupdated": "1788532717"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Liu lirui",
+    "publisher": "Liu lirui"
+  }
 }

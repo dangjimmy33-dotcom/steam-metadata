@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789177193,
+  "_lastChecked": 1789183251,
   "_history": [
     {
       "buildId": "25258243",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38808782,
+  "_change_number": 38810335,
   "_missing_token": false,
-  "_sha": "7450de0d65c2dc342488e8c55294d81a8884753b",
-  "_size": 5840,
+  "_sha": "b00f44a98d786868a95abe0da30ff3b40a00b620",
+  "_size": 6166,
   "appid": "4354460",
   "common": {
     "aicontenttype": "1",
@@ -147,8 +147,8 @@
       "english": "Survivor's Notes"
     },
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "25",
     "releasestate": "released",
     "small_capsule": {
@@ -234,6 +234,14 @@
         },
         "executable": "Survivor's Notes.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "SurvivorsNotes.app/Contents/MacOS/Survivor's Notes",
+        "type": "default",
+        "workingdir": "SurvivorsNotes.app/Contents/MacOS"
       }
     }
   },
@@ -250,6 +258,12 @@
           "gid": "466831761429861241",
           "size": "36758543631"
         }
+      }
+    },
+    "4354463": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
       }
     },
     "branches": {

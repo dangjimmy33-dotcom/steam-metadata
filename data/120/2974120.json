@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789175625,
+  "_lastChecked": 1789181908,
   "_history": [
     {
       "buildId": "16984363",
@@ -13,12 +13,25 @@
           "download": 832298560
         }
       }
+    },
+    {
+      "buildId": "25266038",
+      "branch": "public",
+      "timeUpdated": 1789179839,
+      "firstSeen": 1789181908,
+      "manifests": {
+        "2974121": {
+          "gid": "4044336162465740364",
+          "size": 1532756949,
+          "download": 1277744896
+        }
+      }
     }
   ],
-  "_change_number": 38699167,
+  "_change_number": 38810738,
   "_missing_token": false,
-  "_sha": "cbe54451464c2e02ab6e13aab6bf7030ddd801a2",
-  "_size": 4059,
+  "_sha": "e78e0d25baf8b7ce446716241a95b5aad6018113",
+  "_size": 5114,
   "appid": "2974120",
   "common": {
     "associations": {
@@ -52,16 +65,17 @@
       "0": "25"
     },
     "header_image": {
-      "english": "header.jpg",
-      "japanese": "header_japanese.jpg"
+      "english": "9d6a7e242a05969e539af35ce39696cf331b8b0a/header.jpg",
+      "japanese": "9d6a7e242a05969e539af35ce39696cf331b8b0a/header_japanese.jpg",
+      "schinese": "9d6a7e242a05969e539af35ce39696cf331b8b0a/header_schinese.jpg"
     },
     "icon": "7a386a93f8a10e8e093ecc054ee7ef16161741ea",
     "library_assets": {
-      "library_capsule": "en,ja",
-      "library_header": "ja,en",
+      "library_capsule": "en,ja,zh-cn",
+      "library_header": "en,ja,zh-cn",
       "library_hero": "en",
       "library_hero_blur": "en",
-      "library_logo": "en,ja",
+      "library_logo": "en,ja,zh-cn",
       "logo_position": {
         "height_pct": "60.25884587983851",
         "pinned_position": "BottomLeft",
@@ -71,18 +85,26 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "be3402d854464928933a1d663d62807d58589694/library_600x900.jpg",
-          "japanese": "4a238f7ab757bcfe3f3058602b1397c25f8449a6/library_600x900_japanese.jpg"
+          "english": "4a238f7ab757bcfe3f3058602b1397c25f8449a6/library_capsule.jpg",
+          "japanese": "4a238f7ab757bcfe3f3058602b1397c25f8449a6/library_600x900_japanese.jpg",
+          "schinese": "4a238f7ab757bcfe3f3058602b1397c25f8449a6/library_capsule_schinese.jpg"
         },
         "image2x": {
-          "english": "be3402d854464928933a1d663d62807d58589694/library_600x900_2x.jpg",
-          "japanese": "4a238f7ab757bcfe3f3058602b1397c25f8449a6/library_600x900_japanese_2x.jpg"
+          "english": "4a238f7ab757bcfe3f3058602b1397c25f8449a6/library_capsule_2x.jpg",
+          "japanese": "4a238f7ab757bcfe3f3058602b1397c25f8449a6/library_600x900_japanese_2x.jpg",
+          "schinese": "4a238f7ab757bcfe3f3058602b1397c25f8449a6/library_capsule_schinese_2x.jpg"
         }
       },
       "library_header": {
         "image": {
-          "english": "e9f0982327c892af966c46dd9231e63653cb8500/library_header.jpg",
-          "japanese": "751b66c11ee837b57a25746c9e69571db1871897/library_header_japanese.jpg"
+          "english": "9d6a7e242a05969e539af35ce39696cf331b8b0a/library_header.jpg",
+          "japanese": "9d6a7e242a05969e539af35ce39696cf331b8b0a/library_header_japanese.jpg",
+          "schinese": "9d6a7e242a05969e539af35ce39696cf331b8b0a/library_header_schinese.jpg"
+        },
+        "image2x": {
+          "english": "9d6a7e242a05969e539af35ce39696cf331b8b0a/library_header_2x.jpg",
+          "japanese": "9d6a7e242a05969e539af35ce39696cf331b8b0a/library_header_japanese_2x.jpg",
+          "schinese": "9d6a7e242a05969e539af35ce39696cf331b8b0a/library_header_schinese_2x.jpg"
         }
       },
       "library_hero": {
@@ -101,11 +123,13 @@
       "library_logo": {
         "image": {
           "english": "19446533d3fc0452053fbc1cead90f74ecc3f4ac/logo.png",
-          "japanese": "99f04202edc4f7f05dcdf104f717d30aa5168cc9/logo_japanese.png"
+          "japanese": "99f04202edc4f7f05dcdf104f717d30aa5168cc9/logo_japanese.png",
+          "schinese": "99f04202edc4f7f05dcdf104f717d30aa5168cc9/logo_schinese.png"
         },
         "image2x": {
           "english": "19446533d3fc0452053fbc1cead90f74ecc3f4ac/logo_2x.png",
-          "japanese": "99f04202edc4f7f05dcdf104f717d30aa5168cc9/logo_japanese_2x.png"
+          "japanese": "99f04202edc4f7f05dcdf104f717d30aa5168cc9/logo_japanese_2x.png",
+          "schinese": "99f04202edc4f7f05dcdf104f717d30aa5168cc9/logo_schinese_2x.png"
         },
         "logo_position": {
           "height_pct": "60.25884587983851",
@@ -128,11 +152,12 @@
     "review_percentage": "100",
     "review_score": "7",
     "small_capsule": {
-      "english": "a73cb077e120617598c18fbe963594d5c5ac2cb3/capsule_231x87.jpg",
-      "japanese": "7f0a1afa24b1af78793d508192c53c5143ba3ef5/capsule_231x87_japanese.jpg"
+      "english": "719bb62a077d5b2b2e3212b1b4ef28a85e103854/capsule_231x87.jpg",
+      "japanese": "719bb62a077d5b2b2e3212b1b4ef28a85e103854/capsule_231x87_japanese.jpg",
+      "schinese": "719bb62a077d5b2b2e3212b1b4ef28a85e103854/capsule_231x87_schinese.jpg"
     },
     "steam_release_date": "1736866288",
-    "store_asset_mtime": "1736853808",
+    "store_asset_mtime": "1789178816",
     "store_tags": {
       "0": "21",
       "1": "3799",
@@ -152,6 +177,10 @@
         "full_audio": "true",
         "subtitles": "true",
         "supported": "true"
+      },
+      "schinese": {
+        "subtitles": "true",
+        "supported": "true"
       }
     },
     "type": "Game"
@@ -168,17 +197,17 @@
     "2974121": {
       "manifests": {
         "public": {
-          "download": "832298560",
-          "gid": "9070819365097917455",
-          "size": "972097465"
+          "download": "1277744896",
+          "gid": "4044336162465740364",
+          "size": "1532756949"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "16984363",
-        "timebuildupdated": "1736751356",
-        "timeupdated": "1736751415"
+        "buildid": "25266038",
+        "timebuildupdated": "1789179631",
+        "timeupdated": "1789179839"
       }
     }
   },

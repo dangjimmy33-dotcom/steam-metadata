@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789176880,
-  "_history": [],
-  "_change_number": 38808925,
-  "_missing_token": true,
-  "_sha": "1e89ba8c2d92cabcde89d0c2d31fd4dcae5deed2",
-  "_size": 3311,
+  "_lastChecked": 1789182982,
+  "_history": [
+    {
+      "buildId": "25194865",
+      "branch": "public",
+      "timeUpdated": 1788898861,
+      "firstSeen": 1789182982,
+      "manifests": {
+        "4071461": {
+          "gid": "2309369273153576371",
+          "size": 167409233,
+          "download": 95217104
+        }
+      }
+    }
+  ],
+  "_change_number": 38810801,
+  "_missing_token": false,
+  "_sha": "4229b139cf799520ac4139028c54f1b4fbd0b407",
+  "_size": 3938,
   "appid": "4071460",
   "common": {
     "associations": {
@@ -28,10 +42,10 @@
     },
     "clienticon": "68da633681e903193e9ae2bc4fcd22e82c426b6d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "disable_user_facing_ugc": "1",
     "disable_user_media_upload": "",
-    "exfgls": "8",
     "gameid": "4071460",
     "genres": {
       "0": "4",
@@ -109,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b1c4a73c9690551bfad2a89258a54a008b5c499e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789180135",
     "store_asset_mtime": "1788999765",
     "store_tags": {
       "0": "12095",
@@ -153,5 +168,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tentacle Locker 2",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "4071461": {
+      "manifests": {
+        "public": {
+          "download": "95217104",
+          "gid": "2309369273153576371",
+          "size": "167409233"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25194865",
+        "timebuildupdated": "1788898795",
+        "timeupdated": "1788898861"
+      }
+    }
+  },
+  "extended": {
+    "developer": "HotPink",
+    "homepage": "https://saikeystudios.com",
+    "publisher": "Saikey Studios"
+  }
 }
