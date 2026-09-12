@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789170618,
-  "_history": [],
-  "_change_number": 38761426,
-  "_missing_token": true,
-  "_sha": "c7910b1c68ccadcff84958285fbbed0171a10a7a",
-  "_size": 3034,
+  "_lastChecked": 1789177478,
+  "_history": [
+    {
+      "buildId": "25231512",
+      "branch": "public",
+      "timeUpdated": 1789045555,
+      "firstSeen": 1789177478,
+      "manifests": {
+        "4624471": {
+          "gid": "8949132517126438162",
+          "size": 835868573,
+          "download": 347322240
+        }
+      }
+    }
+  ],
+  "_change_number": 38808851,
+  "_missing_token": false,
+  "_sha": "ace5a6ce8ef7a45f3648321fdeba5971b844b880",
+  "_size": 3520,
   "appid": "4624470",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "cabf60e773d63e957ae41f43f4d61d1cb58ad247",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4624470",
     "genres": {
       "0": "25",
@@ -98,7 +111,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8d3d29174ba1bf71b022984a2107134f281ee16f/capsule_231x87.jpg"
     },
@@ -137,5 +150,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pengzle Arctic Arcane",
+    "launch": {
+      "0": {
+        "executable": "Builds\\Pengzle.exe"
+      }
+    }
+  },
+  "depots": {
+    "4624471": {
+      "manifests": {
+        "public": {
+          "download": "347322240",
+          "gid": "8949132517126438162",
+          "size": "835868573"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25231512",
+        "timebuildupdated": "1789045554",
+        "timeupdated": "1789045555"
+      }
+    }
+  },
+  "extended": {
+    "developer": "NOOTNOOT CREW",
+    "publisher": "NOOTNOOT CREW"
+  }
 }

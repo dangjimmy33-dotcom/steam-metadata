@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789168725,
+  "_lastChecked": 1789175748,
   "_history": [
     {
       "buildId": "24266936",
@@ -36,12 +36,35 @@
           "download": 957578992
         }
       }
+    },
+    {
+      "buildId": "25259080",
+      "branch": "testing",
+      "timeUpdated": 1789173724,
+      "firstSeen": 1789175748,
+      "manifests": {
+        "3081841": {
+          "gid": "4641181075732063703",
+          "size": 1187506930,
+          "download": 973916032
+        },
+        "3081842": {
+          "gid": "3629773914921042911",
+          "size": 1162468751,
+          "download": 967586400
+        },
+        "3081843": {
+          "gid": "6608441490537388254",
+          "size": 1269304441,
+          "download": 1016002592
+        }
+      }
     }
   ],
-  "_change_number": 38801190,
+  "_change_number": 38809392,
   "_missing_token": false,
-  "_sha": "4579c7b540533f27accf2fd5b5528a7c96f234da",
-  "_size": 7546,
+  "_sha": "ff8089ca22239923537cabd2d451664989316ca4",
+  "_size": 7687,
   "appid": "3081840",
   "common": {
     "associations": {
@@ -310,9 +333,9 @@
           "size": "1159697730"
         },
         "testing": {
-          "download": "963898512",
-          "gid": "4152217890600697470",
-          "size": "1159697730"
+          "download": "973916032",
+          "gid": "4641181075732063703",
+          "size": "1187506930"
         }
       }
     },
@@ -327,15 +350,22 @@
           "size": "1134659487"
         },
         "testing": {
-          "download": "957578992",
-          "gid": "1694177478258257162",
-          "size": "1134659487"
+          "download": "967586400",
+          "gid": "3629773914921042911",
+          "size": "1162468751"
         }
       }
     },
     "3081843": {
       "config": {
         "oslist": "macos"
+      },
+      "manifests": {
+        "testing": {
+          "download": "1016002592",
+          "gid": "6608441490537388254",
+          "size": "1269304441"
+        }
       }
     },
     "baselanguages": "english,japanese",
@@ -346,10 +376,10 @@
         "timeupdated": "1784386062"
       },
       "testing": {
-        "buildid": "24266936",
+        "buildid": "25259080",
         "description": "For new experimental builds",
-        "timebuildupdated": "1784325260",
-        "timeupdated": "1784325269"
+        "timebuildupdated": "1789148429",
+        "timeupdated": "1789173724"
       }
     }
   },

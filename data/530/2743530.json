@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789168293,
+  "_lastChecked": 1789175354,
   "_history": [
     {
       "buildId": "24917923",
@@ -26,12 +26,38 @@
           "download": 7530967088
         }
       }
+    },
+    {
+      "buildId": "25264471",
+      "branch": "closedbeta",
+      "timeUpdated": 1789170790,
+      "firstSeen": 1789175354,
+      "manifests": {
+        "2743531": {
+          "gid": "809985658734401727",
+          "size": 17921504168,
+          "download": 7533422560
+        }
+      }
+    },
+    {
+      "buildId": "25264471",
+      "branch": "public",
+      "timeUpdated": 1789170819,
+      "firstSeen": 1789175354,
+      "manifests": {
+        "2743531": {
+          "gid": "809985658734401727",
+          "size": 17921504168,
+          "download": 7533422560
+        }
+      }
     }
   ],
-  "_change_number": 38300514,
+  "_change_number": 38808726,
   "_missing_token": false,
-  "_sha": "c20f8d4a8960698ff09f8f1351f81d9b12ce751d",
-  "_size": 5017,
+  "_sha": "52946a38376de57ac599bbdefbfdf2f8bba378f2",
+  "_size": 5015,
   "appid": "2743530",
   "common": {
     "associations": {
@@ -213,29 +239,29 @@
       },
       "manifests": {
         "closedbeta": {
-          "download": "7530967088",
-          "gid": "7434780482978173537",
-          "size": "17909813656"
+          "download": "7533422560",
+          "gid": "809985658734401727",
+          "size": "17921504168"
         },
         "public": {
-          "download": "7530967088",
-          "gid": "7434780482978173537",
-          "size": "17909813656"
+          "download": "7533422560",
+          "gid": "809985658734401727",
+          "size": "17921504168"
         }
       }
     },
     "baselanguages": "english,french",
     "branches": {
       "closedbeta": {
-        "buildid": "24917923",
+        "buildid": "25264471",
         "description": "Test version",
-        "timebuildupdated": "1787617910",
-        "timeupdated": "1787618028"
+        "timebuildupdated": "1789170754",
+        "timeupdated": "1789170790"
       },
       "public": {
-        "buildid": "24917923",
-        "timebuildupdated": "1787617910",
-        "timeupdated": "1787618086"
+        "buildid": "25264471",
+        "timebuildupdated": "1789170754",
+        "timeupdated": "1789170819"
       }
     }
   },

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789171054,
-  "_history": [],
-  "_change_number": 38396997,
-  "_missing_token": true,
-  "_sha": "759150c8ccc77da576a4045190c2e60816364814",
-  "_size": 2794,
+  "_lastChecked": 1789177874,
+  "_history": [
+    {
+      "buildId": "24486062",
+      "branch": "public",
+      "timeUpdated": 1785473319,
+      "firstSeen": 1789177874,
+      "manifests": {
+        "5034931": {
+          "gid": "6973582216165411259",
+          "size": 6684672,
+          "download": 5404832
+        }
+      }
+    }
+  ],
+  "_change_number": 38809548,
+  "_missing_token": false,
+  "_sha": "125509ff77004882473d0156f9e7d748b43350ee",
+  "_size": 3456,
   "appid": "5034930",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "5b9f09c1d2d2446d35fb69021514368d84fa8ca7",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5034930",
     "genres": {
       "0": "25",
@@ -95,10 +108,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5f4d521530004bde4103efb6a552f0fe98cbd9d5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789174404",
     "store_asset_mtime": "1787474178",
     "store_tags": {
       "0": "3877",
@@ -123,5 +137,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fall Queen",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "fall queen.exe"
+      }
+    }
+  },
+  "depots": {
+    "5034931": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "5404832",
+          "gid": "6973582216165411259",
+          "size": "6684672"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24486062",
+        "timebuildupdated": "1785472981",
+        "timeupdated": "1785473319"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DBR",
+    "isfreeapp": "1",
+    "publisher": "Glitch Stars"
+  }
 }

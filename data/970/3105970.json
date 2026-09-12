@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789168757,
-  "_history": [],
-  "_change_number": 38427002,
-  "_missing_token": true,
-  "_sha": "b8a1148950555d8c233d277bc22653a16ad84236",
-  "_size": 3293,
+  "_lastChecked": 1789175777,
+  "_history": [
+    {
+      "buildId": "24918195",
+      "branch": "public",
+      "timeUpdated": 1787619272,
+      "firstSeen": 1789175777,
+      "manifests": {
+        "3105971": {
+          "gid": "7634283670872857725",
+          "size": 4464333530,
+          "download": 4084799632
+        }
+      }
+    }
+  ],
+  "_change_number": 38808885,
+  "_missing_token": false,
+  "_sha": "f4fd9506dcd7325d6e71c932372e11bb64700419",
+  "_size": 4491,
   "appid": "3105970",
   "common": {
     "associations": {
@@ -25,7 +39,6 @@
     "clienticon": "37424d42eef8adb2b535923cee21b64306cd5729",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3105970",
     "genres": {
       "0": "1",
@@ -107,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2deaf5ec62e92048df8fd73fb8bb7067526d8323/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789171524",
     "store_asset_mtime": "1787062587",
     "store_tags": {
       "0": "353880",
@@ -151,5 +165,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ArmedAbyss",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ArmedAbyss\\ArmedAbyss.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3105971": {
+      "manifests": {
+        "public": {
+          "download": "4084799632",
+          "gid": "7634283670872857725",
+          "size": "4464333530"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "24918195",
+        "timebuildupdated": "1787619238",
+        "timeupdated": "1787619272"
+      }
+    }
+  },
+  "extended": {
+    "developer": "GUO NINGNING",
+    "publisher": "GUO NINGNING"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "6000000",
+    "savefiles": {
+      "0": {
+        "path": "ZMSH",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

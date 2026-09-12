@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1789170884,
-  "_history": [],
-  "_change_number": 38803329,
-  "_missing_token": true,
-  "_sha": "9212a85850a6708854eff8a466f30b9d8061b301",
-  "_size": 2937,
+  "_lastChecked": 1789177719,
+  "_history": [
+    {
+      "buildId": "25260402",
+      "branch": "beta",
+      "timeUpdated": 1789153504,
+      "firstSeen": 1789177719,
+      "manifests": {
+        "4874591": {
+          "gid": "1769096313377360149",
+          "size": 235122619,
+          "download": 149644336
+        },
+        "4874592": {
+          "gid": "1057159205453391679",
+          "size": 244839591,
+          "download": 149213504
+        }
+      }
+    },
+    {
+      "buildId": "25260457",
+      "branch": "public",
+      "timeUpdated": 1789153707,
+      "firstSeen": 1789177719,
+      "manifests": {
+        "4874591": {
+          "gid": "2530233663675188460",
+          "size": 241084816,
+          "download": 154079008
+        },
+        "4874592": {
+          "gid": "1057159205453391679",
+          "size": 244839591,
+          "download": 149213504
+        }
+      }
+    }
+  ],
+  "_change_number": 38809564,
+  "_missing_token": false,
+  "_sha": "ec5886117e03d9a009fea396066550a6db59f5db",
+  "_size": 4356,
   "appid": "4874590",
   "common": {
     "associations": {
@@ -34,7 +71,6 @@
     "clienticon": "7aed95c7a63835cb957bb32750a644ab71216b72",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4874590",
     "genres": {
       "0": "28",
@@ -106,10 +142,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "14e2e708280074703f3279cc5323e9db9e5d7812/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789174489",
     "store_asset_mtime": "1786388663",
     "store_tags": {
       "0": "599",
@@ -128,5 +165,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Basketball Legacy Manager 27",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Basketball Legacy Manager 27.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Basketball Legacy Manager 27.app"
+      }
+    }
+  },
+  "depots": {
+    "4874591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "149644336",
+          "gid": "1769096313377360149",
+          "size": "235122619"
+        },
+        "public": {
+          "download": "154079008",
+          "gid": "2530233663675188460",
+          "size": "241084816"
+        }
+      }
+    },
+    "4874592": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "149213504",
+          "gid": "1057159205453391679",
+          "size": "244839591"
+        },
+        "public": {
+          "download": "149213504",
+          "gid": "1057159205453391679",
+          "size": "244839591"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "25260402",
+        "description": "Beta",
+        "timebuildupdated": "1789153504",
+        "timeupdated": "1789153504"
+      },
+      "public": {
+        "buildid": "25260457",
+        "timebuildupdated": "1789153707",
+        "timeupdated": "1789153707"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Basketball Legacy Manager",
+    "homepage": "https://basketballlegacymanager.com/",
+    "publisher": "Basketball Legacy Manager"
+  }
 }

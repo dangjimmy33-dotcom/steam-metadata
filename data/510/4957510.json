@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789170977,
+  "_lastChecked": 1789177803,
   "_history": [
     {
       "buildId": "24544037",
@@ -26,12 +26,38 @@
           "download": 714694688
         }
       }
+    },
+    {
+      "buildId": "25265366",
+      "branch": "private_testing",
+      "timeUpdated": 1789175857,
+      "firstSeen": 1789177803,
+      "manifests": {
+        "4957511": {
+          "gid": "7743579935032377734",
+          "size": 993737705,
+          "download": 715695616
+        }
+      }
+    },
+    {
+      "buildId": "25265366",
+      "branch": "public",
+      "timeUpdated": 1789176141,
+      "firstSeen": 1789177803,
+      "manifests": {
+        "4957511": {
+          "gid": "7743579935032377734",
+          "size": 993737705,
+          "download": 715695616
+        }
+      }
     }
   ],
-  "_change_number": 38661557,
+  "_change_number": 38809910,
   "_missing_token": false,
-  "_sha": "d67fb5e5d1f58a9162b906f460db45b58d0e2052",
-  "_size": 3999,
+  "_sha": "523024ec92dcae4ba402fcd2a595dd2642e46c4e",
+  "_size": 4291,
   "appid": "4957510",
   "common": {
     "aicontenttype": "1",
@@ -182,18 +208,29 @@
   "depots": {
     "4957511": {
       "manifests": {
+        "private_testing": {
+          "download": "715695616",
+          "gid": "7743579935032377734",
+          "size": "993737705"
+        },
         "public": {
-          "download": "714694688",
-          "gid": "9009331124625342142",
-          "size": "988601873"
+          "download": "715695616",
+          "gid": "7743579935032377734",
+          "size": "993737705"
         }
       }
     },
     "branches": {
+      "private_testing": {
+        "buildid": "25265366",
+        "description": "Private testing builds",
+        "timebuildupdated": "1789175857",
+        "timeupdated": "1789175857"
+      },
       "public": {
-        "buildid": "25148729",
-        "timebuildupdated": "1788671436",
-        "timeupdated": "1788671523"
+        "buildid": "25265366",
+        "timebuildupdated": "1789175857",
+        "timeupdated": "1789176141"
       }
     }
   },

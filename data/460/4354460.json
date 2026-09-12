@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789170306,
-  "_history": [],
-  "_change_number": 38808163,
-  "_missing_token": true,
-  "_sha": "f02839d05c2546f7094c4caa089cd1f96e391463",
-  "_size": 5083,
+  "_lastChecked": 1789177193,
+  "_history": [
+    {
+      "buildId": "25258243",
+      "branch": "public",
+      "timeUpdated": 1789145406,
+      "firstSeen": 1789177193,
+      "manifests": {
+        "4354462": {
+          "gid": "466831761429861241",
+          "size": 36758543631,
+          "download": 36338742352
+        }
+      }
+    }
+  ],
+  "_change_number": 38808782,
+  "_missing_token": false,
+  "_sha": "7450de0d65c2dc342488e8c55294d81a8884753b",
+  "_size": 5840,
   "appid": "4354460",
   "common": {
     "aicontenttype": "1",
@@ -31,6 +45,7 @@
     },
     "clienticon": "8ffbe0f2b163be8a9722b1ba4ab3f6f553a8ce50",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -38,7 +53,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4354460",
     "genres": {
       "0": "25",
@@ -136,11 +150,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c8a2c6510d4b481e5dba3bc45082e6b7ec8357cf/capsule_231x87.jpg",
       "schinese": "a3b4d282b102e1f7d0da155755801dedbb7c6fd2/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789171099",
     "store_asset_mtime": "1789168674",
     "store_tags": {
       "0": "122",
@@ -209,5 +224,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Survivor's Notes",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Survivor's Notes.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4354461": {},
+    "4354462": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "36338742352",
+          "gid": "466831761429861241",
+          "size": "36758543631"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25258243",
+        "timebuildupdated": "1789145392",
+        "timeupdated": "1789145406"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "MYSTERY CROWN",
+    "publisher": "MYSTERY CROWN"
+  }
 }

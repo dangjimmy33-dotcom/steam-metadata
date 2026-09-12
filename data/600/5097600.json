@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789171111,
-  "_history": [],
-  "_change_number": 38805810,
-  "_missing_token": true,
-  "_sha": "118cfaa921c38dc4d25fd29f9ee08e6d0f3c9d57",
-  "_size": 3384,
+  "_lastChecked": 1789177926,
+  "_history": [
+    {
+      "buildId": "25106908",
+      "branch": "public",
+      "timeUpdated": 1788455856,
+      "firstSeen": 1789177926,
+      "manifests": {
+        "5097601": {
+          "gid": "7053400873101907314",
+          "size": 141916432,
+          "download": 89142304
+        }
+      }
+    }
+  ],
+  "_change_number": 38809602,
+  "_missing_token": false,
+  "_sha": "1eda33b5190d01a84bd68d47ea8fe97baa985179",
+  "_size": 4142,
   "appid": "5097600",
   "common": {
     "aicontenttype": "1",
@@ -28,8 +42,8 @@
     },
     "clienticon": "6a580166e61bd8438aab7dff8cc799e6c6b63885",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5097600",
     "genres": {
       "0": "4",
@@ -100,7 +114,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c5bc3d8d1bcbab2b065fdea30337b7a0e31ab86c/capsule_231x87.jpg"
     },
@@ -162,5 +176,47 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Minip",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Minip.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5097601": {
+      "manifests": {
+        "public": {
+          "download": "89142304",
+          "gid": "7053400873101907314",
+          "size": "141916432"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25106908",
+        "timebuildupdated": "1788455846",
+        "timeupdated": "1788455856"
+      }
+    }
+  },
+  "extended": {
+    "developer": "NorthIron Studios",
+    "homepage": "https://www.northironstudios.com",
+    "publisher": "NorthIron Studios"
+  }
 }
