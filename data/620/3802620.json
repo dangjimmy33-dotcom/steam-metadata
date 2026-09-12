@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789182716,
-  "_history": [],
-  "_change_number": 38770306,
-  "_missing_token": true,
-  "_sha": "8906baa9a79f1103559cd90ddcf548cf0c41d442",
-  "_size": 3052,
+  "_lastChecked": 1789189426,
+  "_history": [
+    {
+      "buildId": "25267155",
+      "branch": "public",
+      "timeUpdated": 1789188573,
+      "firstSeen": 1789189426,
+      "manifests": {
+        "3802621": {
+          "gid": "6003042213941898121",
+          "size": 515546997,
+          "download": 127521568
+        }
+      }
+    }
+  ],
+  "_change_number": 38812522,
+  "_missing_token": false,
+  "_sha": "41e8b4797f2b3f4b6e6da1af638f3b33e49a74b7",
+  "_size": 3614,
   "appid": "3802620",
   "common": {
     "associations": {
@@ -25,8 +39,8 @@
     "clienticon": "89314188698eaa2ea2f32886a4ce894a19661c80",
     "clienttga": "7d8a551d46839bf5d95f81fa8385a4dd86b16cb6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3802620",
     "genres": {
       "0": "1",
@@ -99,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "edab755eb7d7bc03dc6daeac9e5f97d403578006/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789188680",
     "store_asset_mtime": "1789063878",
     "store_tags": {
       "0": "6730",
@@ -135,5 +150,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Chud Logic's Gockbound",
+    "launch": {
+      "0": {
+        "executable": "Chud Logic's Gockbound.exe"
+      }
+    }
+  },
+  "depots": {
+    "3802621": {
+      "manifests": {
+        "public": {
+          "download": "127521568",
+          "gid": "6003042213941898121",
+          "size": "515546997"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25267155",
+        "timebuildupdated": "1789188546",
+        "timeupdated": "1789188573"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Anarky Games",
+    "publisher": "Anarky Games"
+  }
 }

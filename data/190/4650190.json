@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789183518,
+  "_lastChecked": 1789190338,
   "_history": [
     {
       "buildId": "24834822",
@@ -13,12 +13,30 @@
           "download": 50760816
         }
       }
+    },
+    {
+      "buildId": "25267235",
+      "branch": "public",
+      "timeUpdated": 1789190253,
+      "firstSeen": 1789190338,
+      "manifests": {
+        "4650191": {
+          "gid": "3627379249247820747",
+          "size": 170688389,
+          "download": 50760816
+        },
+        "4650192": {
+          "gid": "679123111117395652",
+          "size": 176510721,
+          "download": 54319664
+        }
+      }
     }
   ],
-  "_change_number": 38749915,
+  "_change_number": 38812787,
   "_missing_token": false,
-  "_sha": "f413539aadd1f7484bf7e10242d75c310f06aebb",
-  "_size": 4419,
+  "_sha": "e5ea7b8184a6a820075af3aa0f47c4590fa4a41e",
+  "_size": 4750,
   "appid": "4650190",
   "common": {
     "aicontenttype": "1",
@@ -128,7 +146,7 @@
     },
     "osarch": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
     "small_capsule": {
@@ -168,6 +186,13 @@
           "oslist": "windows"
         },
         "executable": "Break Snowman.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Break Snowman.app",
+        "type": "default"
       }
     }
   },
@@ -184,12 +209,24 @@
         }
       }
     },
+    "4650192": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "54319664",
+          "gid": "679123111117395652",
+          "size": "176510721"
+        }
+      }
+    },
     "baselanguages": "english,koreana",
     "branches": {
       "public": {
-        "buildid": "24834822",
-        "timebuildupdated": "1787213181",
-        "timeupdated": "1787213227"
+        "buildid": "25267235",
+        "timebuildupdated": "1789189193",
+        "timeupdated": "1789190253"
       }
     },
     "hasdepotsindlc": "0",

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789181436,
-  "_history": [],
-  "_change_number": 38657299,
-  "_missing_token": true,
-  "_sha": "4fbb23abdc0b7ef727415ab679a190ae59d05ec8",
-  "_size": 3502,
+  "_lastChecked": 1789187954,
+  "_history": [
+    {
+      "buildId": "25161068",
+      "branch": "public",
+      "timeUpdated": 1788756900,
+      "firstSeen": 1789187954,
+      "manifests": {
+        "2499541": {
+          "gid": "7604512430325488659",
+          "size": 273011903,
+          "download": 110513744
+        }
+      }
+    }
+  ],
+  "_change_number": 38812025,
+  "_missing_token": false,
+  "_sha": "28f13c7eec0c6a8b8dfeff185fb9ff332c6f3df7",
+  "_size": 4154,
   "appid": "2499540",
   "common": {
     "associations": {
@@ -30,7 +44,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2499540",
     "genres": {
       "0": "1",
@@ -108,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b4def203a09c74dce444a37764f7f2e163996441/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789186312",
     "store_asset_mtime": "1788602893",
     "store_tags": {
       "0": "122",
@@ -155,5 +169,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Yandere Party",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Yandere Party.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2499541": {
+      "manifests": {
+        "public": {
+          "download": "110513744",
+          "gid": "7604512430325488659",
+          "size": "273011903"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,russian,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25161068",
+        "timebuildupdated": "1788756898",
+        "timeupdated": "1788756900"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Stelemura",
+    "publisher": "Stelemura"
+  }
 }

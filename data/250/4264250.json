@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789183170,
+  "_lastChecked": 1789189943,
   "_history": [
     {
       "buildId": "25136942",
@@ -80,10 +80,10 @@
       }
     }
   ],
-  "_change_number": 38809236,
+  "_change_number": 38811950,
   "_missing_token": false,
-  "_sha": "0446dcf1e05f7483ac08d608e773073f27e525e5",
-  "_size": 4741,
+  "_sha": "ccfbdac7fc8dc4a717b9502ad24230957ee56362",
+  "_size": 5335,
   "appid": "4264250",
   "common": {
     "aicontenttype": "1",
@@ -300,6 +300,30 @@
       },
       "2": {
         "path": "Godot/app_userdata/HEXCRAWL/saves",
+        "pattern": "autosave_campaign_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/HEXCRAWL/saves/{64BitSteamID}",
+        "pattern": "camp_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/HEXCRAWL/saves/{64BitSteamID}",
+        "pattern": "quicksave_campaign_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Godot/app_userdata/HEXCRAWL/saves/{64BitSteamID}",
         "pattern": "autosave_campaign_*.json",
         "platforms": {
           "1": "Windows"

@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1789182971,
-  "_history": [],
-  "_change_number": 38629331,
-  "_missing_token": true,
-  "_sha": "18909197bd3bf212a1314b8527dca44cb6a98caa",
-  "_size": 3056,
+  "_lastChecked": 1789189717,
+  "_history": [
+    {
+      "buildId": "25128181",
+      "branch": "public",
+      "timeUpdated": 1788538857,
+      "firstSeen": 1789189717,
+      "manifests": {
+        "4057951": {
+          "gid": "8579440502127735242",
+          "size": 126034280,
+          "download": 47459152
+        },
+        "4057952": {
+          "gid": "5922071969696780963",
+          "size": 91096328,
+          "download": 39010912
+        },
+        "4057953": {
+          "gid": "4118890709570765323",
+          "size": 93669940,
+          "download": 39513824
+        },
+        "4057954": {
+          "gid": "1667095506734043528",
+          "size": 139716968,
+          "download": 47969296
+        }
+      }
+    }
+  ],
+  "_change_number": 38812485,
+  "_missing_token": false,
+  "_sha": "08ab4d52df8e3a14544905d531820739de835130",
+  "_size": 4507,
   "appid": "4057950",
   "common": {
     "associations": {
@@ -35,7 +64,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4057950",
     "genres": {
       "0": "4",
@@ -106,10 +134,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b7757443a20103471d3417ed66c4895da56af956/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1765880470",
     "store_tags": {
       "0": "597",
@@ -134,5 +163,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "scale2fit",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "scale2fit.x86_64"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "scale2fit.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4057951": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "47459152",
+          "gid": "8579440502127735242",
+          "size": "126034280"
+        }
+      }
+    },
+    "4057952": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "39010912",
+          "gid": "5922071969696780963",
+          "size": "91096328"
+        }
+      }
+    },
+    "4057953": {
+      "config": {
+        "osarch": "32",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "39513824",
+          "gid": "4118890709570765323",
+          "size": "93669940"
+        }
+      }
+    },
+    "4057954": {
+      "config": {
+        "osarch": "32",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "47969296",
+          "gid": "1667095506734043528",
+          "size": "139716968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25128181",
+        "timebuildupdated": "1788538857",
+        "timeupdated": "1788538857"
+      }
+    }
+  },
+  "extended": {
+    "developer": "thisisnowtaken",
+    "publisher": "thisisnowtaken"
+  }
 }

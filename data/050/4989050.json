@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789183807,
-  "_history": [],
-  "_change_number": 38264108,
-  "_missing_token": true,
-  "_sha": "01c1e196bc99557d6fb5842ecbd69234538e7465",
-  "_size": 2914,
+  "_lastChecked": 1789190661,
+  "_history": [
+    {
+      "buildId": "24876429",
+      "branch": "public",
+      "timeUpdated": 1787416883,
+      "firstSeen": 1789190661,
+      "manifests": {
+        "4989051": {
+          "gid": "4140700031539891647",
+          "size": 691244528,
+          "download": 318792432
+        }
+      }
+    }
+  ],
+  "_change_number": 38811625,
+  "_missing_token": false,
+  "_sha": "7b480603d5e9c5f8add044f03de1e136b46e5c17",
+  "_size": 3514,
   "appid": "4989050",
   "common": {
     "aicontenttype": "1",
@@ -27,7 +41,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4989050",
     "genres": {
       "0": "4",
@@ -101,7 +114,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3217dacb1e4c279961a9a2c028095a0b81c85e1c/capsule_231x87.jpg"
     },
@@ -126,5 +139,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DarkTrial of Witchcraft",
+    "launch": {
+      "0": {
+        "executable": "DarkTrial of Witchcraft.exe"
+      }
+    }
+  },
+  "depots": {
+    "4989051": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "318792432",
+          "gid": "4140700031539891647",
+          "size": "691244528"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "24876429",
+        "timebuildupdated": "1787380951",
+        "timeupdated": "1787416883"
+      }
+    }
+  },
+  "extended": {
+    "developer": "旧未来フォークロア",
+    "publisher": "旧未来フォークロア"
+  }
 }

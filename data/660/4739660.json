@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789183594,
+  "_lastChecked": 1789190423,
   "_history": [
     {
       "buildId": "25224245",
@@ -25,10 +25,10 @@
       }
     }
   ],
-  "_change_number": 38810633,
+  "_change_number": 38812043,
   "_missing_token": false,
-  "_sha": "711e7974a0512da28c5bd94bff4da1e29a7ecd69",
-  "_size": 5486,
+  "_sha": "4e3fb7968601be69e20404037da82e6537c39e28",
+  "_size": 5771,
   "appid": "4739660",
   "common": {
     "associations": {
@@ -43,7 +43,6 @@
     },
     "category": {
       "category_2": "1",
-      "category_23": "1",
       "category_28": "1",
       "category_55": "1",
       "category_56": "1",
@@ -154,15 +153,15 @@
       "10": "4947",
       "11": "4182",
       "12": "492",
-      "13": "1654",
-      "14": "4252",
+      "13": "4252",
+      "14": "1654",
       "15": "42152",
       "16": "23491",
       "17": "9130",
       "2": "6650",
-      "3": "599",
-      "4": "597",
-      "5": "44868",
+      "3": "44868",
+      "4": "599",
+      "5": "597",
       "6": "4191",
       "7": "3810",
       "8": "3839",
@@ -257,20 +256,32 @@
     "publisher": "Gator Dragon Games"
   },
   "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
     "maxnumfiles": "1000",
     "quota": "1000000000",
     "rootoverrides": {
       "0": {
-        "addpath": ".config/unity3d/Gator Dragon Games/DragNWash/{64BitSteamID}",
         "os": "Linux",
         "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Gator Dragon Games/DragNWash/{64BitSteamID}",
+            "replace": ".config/unity3d/Gator Dragon Games/DragNWash/{64BitSteamID}"
+          }
+        },
         "root": "WinAppDataLocalLow",
         "useinstead": "LinuxHome"
       },
       "1": {
-        "addpath": "Gator Dragon Games/DragNWash/{64BitSteamID}",
         "os": "MacOS",
         "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Gator Dragon Games/DragNWash/{64BitSteamID}",
+            "replace": "Gator Dragon Games/DragNWash/{64BitSteamID}"
+          }
+        },
         "root": "WinAppDataLocalLow",
         "useinstead": "MacAppSupport"
       }
@@ -279,6 +290,7 @@
       "0": {
         "path": "Gator Dragon Games/DragNWash/{64BitSteamID}",
         "pattern": "*",
+        "recursive": "1",
         "root": "WinAppDataLocalLow"
       }
     }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789183484,
+  "_lastChecked": 1789190300,
   "_history": [
     {
       "buildId": "25115847",
@@ -182,12 +182,25 @@
           "download": 1651700512
         }
       }
+    },
+    {
+      "buildId": "25266977",
+      "branch": "public",
+      "timeUpdated": 1789187162,
+      "firstSeen": 1789190300,
+      "manifests": {
+        "4609771": {
+          "gid": "7621483898498791836",
+          "size": 1832424008,
+          "download": 1641286240
+        }
+      }
     }
   ],
-  "_change_number": 38772396,
+  "_change_number": 38812218,
   "_missing_token": false,
-  "_sha": "4aee5b5bbb79e139b1c969bc64cc98e27565a7ab",
-  "_size": 5121,
+  "_sha": "e32d845fa746d611d0513a3c83167a181809317a",
+  "_size": 5259,
   "appid": "4609770",
   "common": {
     "associations": {
@@ -316,6 +329,10 @@
       "9": "3859"
     },
     "supported_languages": {
+      "arabic": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "brazilian": {
         "subtitles": "true",
         "supported": "true"
@@ -361,6 +378,10 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "thai": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "turkish": {
         "subtitles": "true",
         "supported": "true"
@@ -398,9 +419,9 @@
     "4609771": {
       "manifests": {
         "public": {
-          "download": "1651700512",
-          "gid": "6668233737765173481",
-          "size": "1842924116"
+          "download": "1641286240",
+          "gid": "7621483898498791836",
+          "size": "1832424008"
         },
         "testing": {
           "download": "1651874288",
@@ -411,9 +432,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "25238593",
-        "timebuildupdated": "1789068922",
-        "timeupdated": "1789069219"
+        "buildid": "25266977",
+        "timebuildupdated": "1789186826",
+        "timeupdated": "1789187162"
       },
       "testing": {
         "buildid": "25222550",

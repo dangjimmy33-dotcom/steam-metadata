@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789183676,
-  "_history": [],
-  "_change_number": 38780721,
-  "_missing_token": true,
-  "_sha": "262d331668d18a1c9ec500209bcf37cbbd54abd9",
-  "_size": 4053,
+  "_lastChecked": 1789190516,
+  "_history": [
+    {
+      "buildId": "25267191",
+      "branch": "public",
+      "timeUpdated": 1789188838,
+      "firstSeen": 1789190516,
+      "manifests": {
+        "4842471": {
+          "gid": "664767421500144221",
+          "size": 1080185250,
+          "download": 755834736
+        }
+      }
+    }
+  ],
+  "_change_number": 38812633,
+  "_missing_token": false,
+  "_sha": "ebd658b67ddf7bcaf96d5755a3fb9acd0db82eed",
+  "_size": 4636,
   "appid": "4842470",
   "common": {
     "associations": {
@@ -32,15 +46,11 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4842470",
     "genres": {
       "0": "1",
       "1": "25",
-      "2": "4",
-      "3": "23",
-      "4": "3",
-      "5": "2"
+      "2": "23"
     },
     "header_image": {
       "english": "612ed356b50a524b1a6784b6185db8f62631b5c9/header.jpg",
@@ -117,12 +127,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "012eb519586885eba26e201446ba64df34152542/capsule_231x87.jpg",
       "schinese": "464873bba3946df8d0a29903e4af41777409e145/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1781759785",
+    "steam_release_date": "1789189092",
+    "store_asset_mtime": "1789129402",
     "store_tags": {
       "0": "21",
       "1": "19",
@@ -146,6 +157,10 @@
       "9": "3993"
     },
     "supported_languages": {
+      "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "schinese": {
         "subtitles": "true",
         "supported": "true"
@@ -153,5 +168,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Last Glimmer of the Martial Way",
+    "launch": {
+      "0": {
+        "executable": "Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "4842471": {
+      "manifests": {
+        "public": {
+          "download": "755834736",
+          "gid": "664767421500144221",
+          "size": "1080185250"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "25267191",
+        "timebuildupdated": "1789188836",
+        "timeupdated": "1789188838"
+      }
+    }
+  },
+  "extended": {
+    "developer": "rebel1999",
+    "publisher": "rebel1999"
+  }
 }

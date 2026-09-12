@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789183465,
-  "_history": [],
-  "_change_number": 38795298,
-  "_missing_token": true,
-  "_sha": "089a3fa37293e4db9e3fe1d4d11c78a899b99611",
-  "_size": 3700,
+  "_lastChecked": 1789190278,
+  "_history": [
+    {
+      "buildId": "25255008",
+      "branch": "public",
+      "timeUpdated": 1789135220,
+      "firstSeen": 1789190278,
+      "manifests": {
+        "4587711": {
+          "gid": "7036240491365446339",
+          "size": 132661682,
+          "download": 52523488
+        }
+      }
+    }
+  ],
+  "_change_number": 38812637,
+  "_missing_token": false,
+  "_sha": "8db72eac0c8288cfd2de5163f5d52544a1379d95",
+  "_size": 5107,
   "appid": "4587710",
   "common": {
     "associations": {
@@ -31,8 +45,8 @@
     },
     "clienticon": "b0d220ef14ca3314c8188d6064afbedeaff1e4c4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4587710",
     "genres": {
       "0": "1",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6c6c66fdc123be86fe5b114f408f0d81e338c905/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789189442",
     "store_asset_mtime": "1784132653",
     "store_tags": {
       "0": "9",
@@ -178,5 +193,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "AstroDig",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "AstroDig.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4587711": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "52523488",
+          "gid": "7036240491365446339",
+          "size": "132661682"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25255008",
+        "timebuildupdated": "1789135203",
+        "timeupdated": "1789135220"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Only4Gamers",
+    "homepage": "https://only4gamers.net",
+    "publisher": "Only4Gamers"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Only4Gamers/AstroDig/Save Files",
+            "replace": ".config/unity3d/Only4Gamers/AstroDig/Save Files"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Only4Gamers/AstroDig/Save Files",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

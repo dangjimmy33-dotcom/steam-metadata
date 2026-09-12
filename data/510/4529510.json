@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789183409,
+  "_lastChecked": 1789190215,
   "_history": [
     {
       "buildId": "25004824",
@@ -130,12 +130,38 @@
           "download": 18724595568
         }
       }
+    },
+    {
+      "buildId": "25267023",
+      "branch": "beta",
+      "timeUpdated": 1789188860,
+      "firstSeen": 1789190215,
+      "manifests": {
+        "4529511": {
+          "gid": "5739635013948260976",
+          "size": 28654338905,
+          "download": 18745968208
+        }
+      }
+    },
+    {
+      "buildId": "25267023",
+      "branch": "public",
+      "timeUpdated": 1789188892,
+      "firstSeen": 1789190215,
+      "manifests": {
+        "4529511": {
+          "gid": "5739635013948260976",
+          "size": 28654338905,
+          "download": 18745968208
+        }
+      }
     }
   ],
-  "_change_number": 38810817,
+  "_change_number": 38812490,
   "_missing_token": false,
-  "_sha": "a9cc3fe83874d7295efe9a9c137bf09b9a6f64fe",
-  "_size": 7477,
+  "_sha": "8403d743a6b2aba427c81fa3cf6139868a617ae5",
+  "_size": 7478,
   "appid": "4529510",
   "common": {
     "aicontenttype": "2",
@@ -360,9 +386,9 @@
     "4529511": {
       "manifests": {
         "beta": {
-          "download": "18724595568",
-          "gid": "7136102283837092240",
-          "size": "28625227806"
+          "download": "18745968208",
+          "gid": "5739635013948260976",
+          "size": "28654338905"
         },
         "compact": {
           "download": "10259862464",
@@ -390,19 +416,19 @@
           "size": "16204335739"
         },
         "public": {
-          "download": "18724544128",
-          "gid": "675030971023588292",
-          "size": "28624960302"
+          "download": "18745968208",
+          "gid": "5739635013948260976",
+          "size": "28654338905"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "beta": {
-        "buildid": "25256313",
+        "buildid": "25267023",
         "description": "A place to try new upcoming updates early.",
-        "timebuildupdated": "1789139214",
-        "timeupdated": "1789141032"
+        "timebuildupdated": "1789187196",
+        "timeupdated": "1789188860"
       },
       "compact": {
         "buildid": "25005261",
@@ -435,9 +461,9 @@
         "timeupdated": "1787640363"
       },
       "public": {
-        "buildid": "25004824",
-        "timebuildupdated": "1787972387",
-        "timeupdated": "1787972815"
+        "buildid": "25267023",
+        "timebuildupdated": "1789187196",
+        "timeupdated": "1789188892"
       }
     },
     "privatebranches": "1",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789183897,
+  "_lastChecked": 1789190763,
   "_history": [
     {
       "buildId": "25203816",
@@ -54,12 +54,30 @@
           "download": 90167088
         }
       }
+    },
+    {
+      "buildId": "25266705",
+      "branch": "public",
+      "timeUpdated": 1789184455,
+      "firstSeen": 1789190763,
+      "manifests": {
+        "5111791": {
+          "gid": "5807213989665946430",
+          "size": 317736941,
+          "download": 80239200
+        },
+        "5111792": {
+          "gid": "571855461299254131",
+          "size": 426959089,
+          "download": 106390480
+        }
+      }
     }
   ],
-  "_change_number": 38749019,
+  "_change_number": 38812719,
   "_missing_token": false,
-  "_sha": "c10a41286699e179884ed9252a09e7e2b9b2b88a",
-  "_size": 4533,
+  "_sha": "70313ebe7c1485b604412d7313bbbcaac2faad52",
+  "_size": 4629,
   "appid": "5111790",
   "common": {
     "aicontenttype": "1",
@@ -193,6 +211,12 @@
       },
       "japanese": {
         "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "tchinese": {
+        "supported": "true"
       }
     },
     "type": "Game"
@@ -221,9 +245,9 @@
       },
       "manifests": {
         "public": {
-          "download": "64311600",
-          "gid": "6576527295703358295",
-          "size": "288633885"
+          "download": "80239200",
+          "gid": "5807213989665946430",
+          "size": "317736941"
         }
       }
     },
@@ -233,17 +257,17 @@
       },
       "manifests": {
         "public": {
-          "download": "90167088",
-          "gid": "6787082939391789647",
-          "size": "397757033"
+          "download": "106390480",
+          "gid": "571855461299254131",
+          "size": "426959089"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25223115",
-        "timebuildupdated": "1789012971",
-        "timeupdated": "1789013016"
+        "buildid": "25266705",
+        "timebuildupdated": "1789184421",
+        "timeupdated": "1789184455"
       }
     }
   },

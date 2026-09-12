@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789179019,
+  "_lastChecked": 1789185104,
   "_history": [
     {
       "buildId": "24935044",
@@ -97,11 +97,34 @@
           "download": 51373152
         }
       }
+    },
+    {
+      "buildId": "25265926",
+      "branch": "beta",
+      "timeUpdated": 1789179225,
+      "firstSeen": 1789185104,
+      "manifests": {
+        "1501": {
+          "gid": "3431308373979138229",
+          "size": 62423164,
+          "download": 44613616
+        },
+        "1503": {
+          "gid": "1576338048178496307",
+          "size": 68841344,
+          "download": 46052336
+        },
+        "1505": {
+          "gid": "9044363769324564866",
+          "size": 89987004,
+          "download": 51472352
+        }
+      }
     }
   ],
-  "_change_number": 38810547,
+  "_change_number": 38810599,
   "_missing_token": false,
-  "_sha": "1e6404d541a42d20053820ce49e61f0d0f7250f9",
+  "_sha": "82cf4febd0f2e090dde5a33254285aee988d77cb",
   "_size": 10002,
   "appid": "1500",
   "common": {
@@ -381,9 +404,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "44573312",
-          "gid": "8896993598887459176",
-          "size": "62316722"
+          "download": "44613616",
+          "gid": "3431308373979138229",
+          "size": "62423164"
         },
         "legacy": {
           "download": "0",
@@ -409,9 +432,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "46002880",
-          "gid": "4014571401701584544",
-          "size": "68745038"
+          "download": "46052336",
+          "gid": "1576338048178496307",
+          "size": "68841344"
         },
         "legacy": {
           "download": "0",
@@ -437,9 +460,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "51373152",
-          "gid": "3366065440198573563",
-          "size": "89833808"
+          "download": "51472352",
+          "gid": "9044363769324564866",
+          "size": "89987004"
         },
         "legacy": {
           "download": "35384192",
@@ -468,10 +491,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "24935044",
+        "buildid": "25265926",
         "description": "Prerelease Open Beta",
-        "timebuildupdated": "1787684915",
-        "timeupdated": "1787685090"
+        "timebuildupdated": "1789179020",
+        "timeupdated": "1789179225"
       },
       "legacy": {
         "buildid": "4316058",
