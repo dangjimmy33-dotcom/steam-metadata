@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789230372,
+  "_lastChecked": 1789237735,
   "_history": [
     {
       "buildId": "25137889",
@@ -117,12 +117,25 @@
           "download": 314681856
         }
       }
+    },
+    {
+      "buildId": "25270037",
+      "branch": "public",
+      "timeUpdated": 1789231278,
+      "firstSeen": 1789237735,
+      "manifests": {
+        "4827941": {
+          "gid": "8997424200537673358",
+          "size": 794434912,
+          "download": 314681856
+        }
+      }
     }
   ],
-  "_change_number": 38816761,
+  "_change_number": 38821856,
   "_missing_token": false,
-  "_sha": "a022c47c4ab2d6bb70245fa613b4bd3f7422c690",
-  "_size": 4516,
+  "_sha": "4a7da0d4819bc4ce684c114e4c923bd8a6894643",
+  "_size": 4247,
   "appid": "4827940",
   "common": {
     "aicontenttype": "1",
@@ -280,30 +293,19 @@
   "depots": {
     "4827941": {
       "manifests": {
-        "lastest": {
+        "public": {
           "download": "314681856",
           "gid": "8997424200537673358",
           "size": "794434912"
-        },
-        "public": {
-          "download": "300391248",
-          "gid": "2413734043133264016",
-          "size": "778003711"
         }
       }
     },
     "baselanguages": "english,schinese",
     "branches": {
-      "lastest": {
-        "buildid": "25270037",
-        "description": "最新版游戏",
-        "timebuildupdated": "1789210339",
-        "timeupdated": "1789210441"
-      },
       "public": {
-        "buildid": "25186313",
-        "timebuildupdated": "1788868139",
-        "timeupdated": "1788871024"
+        "buildid": "25270037",
+        "timebuildupdated": "1789210339",
+        "timeupdated": "1789231278"
       }
     },
     "privatebranches": "1",

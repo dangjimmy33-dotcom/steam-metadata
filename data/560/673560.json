@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789225214,
+  "_lastChecked": 1789232367,
   "_history": [
     {
       "buildId": "25133492",
@@ -65,11 +65,37 @@
           "download": 2159892128
         }
       }
+    },
+    {
+      "buildId": "25272833",
+      "branch": "public",
+      "timeUpdated": 1789230546,
+      "firstSeen": 1789232367,
+      "manifests": {
+        "673561": {
+          "gid": "3645739038501137019",
+          "size": 4947997161,
+          "download": 2159892048
+        }
+      }
+    },
+    {
+      "buildId": "25272833",
+      "branch": "public-test",
+      "timeUpdated": 1789230546,
+      "firstSeen": 1789232367,
+      "manifests": {
+        "673561": {
+          "gid": "3645739038501137019",
+          "size": 4947997161,
+          "download": 2159892048
+        }
+      }
     }
   ],
-  "_change_number": 38695797,
+  "_change_number": 38821631,
   "_missing_token": false,
-  "_sha": "17c0f5b0697adbbc496e3809f73f973c7ec101af",
+  "_sha": "f54935c989fcf16003a651db0804b659365636da",
   "_size": 6417,
   "appid": "673560",
   "common": {
@@ -296,13 +322,13 @@
       },
       "manifests": {
         "public": {
-          "download": "2159892128",
-          "gid": "7358515788112821467",
+          "download": "2159892048",
+          "gid": "3645739038501137019",
           "size": "4947997161"
         },
         "public-test": {
-          "download": "2159892128",
-          "gid": "7358515788112821467",
+          "download": "2159892048",
+          "gid": "3645739038501137019",
           "size": "4947997161"
         },
         "sdk2007": {
@@ -314,15 +340,15 @@
     },
     "branches": {
       "public": {
-        "buildid": "25187625",
-        "timebuildupdated": "1788872502",
-        "timeupdated": "1788872554"
+        "buildid": "25272833",
+        "timebuildupdated": "1789228703",
+        "timeupdated": "1789230546"
       },
       "public-test": {
-        "buildid": "25187625",
+        "buildid": "25272833",
         "description": " public test build",
-        "timebuildupdated": "1788872502",
-        "timeupdated": "1788872531"
+        "timebuildupdated": "1789228703",
+        "timeupdated": "1789230546"
       },
       "sdk2007": {
         "buildid": "21540951",

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789230277,
-  "_history": [],
-  "_change_number": 38518623,
-  "_missing_token": true,
-  "_sha": "454061f75f97576ea71fb7bf50686abff1d7da56",
-  "_size": 2908,
+  "_lastChecked": 1789237634,
+  "_history": [
+    {
+      "buildId": "25273228",
+      "branch": "public",
+      "timeUpdated": 1789231132,
+      "firstSeen": 1789237634,
+      "manifests": {
+        "4724911": {
+          "gid": "6682030046606154889",
+          "size": 2673153649,
+          "download": 1593025536
+        }
+      }
+    }
+  ],
+  "_change_number": 38822125,
+  "_missing_token": false,
+  "_sha": "f2fbf18117fc9c32ffa039b631668fc27c28f8c1",
+  "_size": 3733,
   "appid": "4724910",
   "common": {
     "associations": {
@@ -21,7 +35,7 @@
       "category_2": "1",
       "category_62": "1"
     },
-    "clienticon": "0f2fdb8ceacd88f317b0d4f3edef0ec6d8cbcb36",
+    "clienticon": "dd860757417f24aa39043afa218d9589643985bb",
     "community_hub_visible": "1",
     "content_descriptors": {
       "0": "5"
@@ -30,7 +44,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4724910",
     "genres": {
       "0": "1",
@@ -40,7 +53,7 @@
     "header_image": {
       "english": "d2922570693bb950eef07a47842e79e27b53fbef/header.jpg"
     },
-    "icon": "0f2fdb8ceacd88f317b0d4f3edef0ec6d8cbcb36",
+    "icon": "dd860757417f24aa39043afa218d9589643985bb",
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "dfaed86a5327743235e8b60a74ed2c81d5f09c1f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789231955",
     "store_asset_mtime": "1787809989",
     "store_tags": {
       "0": "3839",
@@ -134,5 +148,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Level P",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "LevelP.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4724911": {
+      "manifests": {
+        "public": {
+          "download": "1593025536",
+          "gid": "6682030046606154889",
+          "size": "2673153649"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25273228",
+        "timebuildupdated": "1789230900",
+        "timeupdated": "1789231132"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Jinakuma",
+    "publisher": "Jinakuma"
+  },
+  "ufs": {
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
 }

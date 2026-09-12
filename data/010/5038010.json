@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789230583,
-  "_history": [],
-  "_change_number": 38050665,
-  "_missing_token": true,
-  "_sha": "c84dba728f51d9a1c89ea867319fa4c7dd6bae8b",
-  "_size": 3102,
+  "_lastChecked": 1789237965,
+  "_history": [
+    {
+      "buildId": "24637979",
+      "branch": "public",
+      "timeUpdated": 1786272039,
+      "firstSeen": 1789237965,
+      "manifests": {
+        "5038011": {
+          "gid": "4959534482216689173",
+          "size": 1525845237,
+          "download": 1407563680
+        }
+      }
+    }
+  ],
+  "_change_number": 38822551,
+  "_missing_token": false,
+  "_sha": "60b3393357f09856d17d3e6e09ed0d4eb63c63bb",
+  "_size": 4083,
   "appid": "5038010",
   "common": {
     "associations": {
@@ -39,7 +53,6 @@
     "clienticon": "6fba57f3f7b35a5a14104c894e8018fbe3142017",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5038010",
     "genres": {
       "0": "2"
@@ -109,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5541268469a4e2180f00418300d6312048bad5aa/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789234098",
     "store_asset_mtime": "1786220564",
     "store_tags": {
       "0": "9",
@@ -139,5 +153,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Barrel Chess",
+    "launch": {
+      "0": {
+        "executable": "BarrelChess.exe"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5038011": {
+      "manifests": {
+        "public": {
+          "download": "1407563680",
+          "gid": "4959534482216689173",
+          "size": "1525845237"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24637979",
+        "timebuildupdated": "1786272024",
+        "timeupdated": "1786272039"
+      }
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "domax studios",
+    "gamedir": "",
+    "publisher": "domax studios",
+    "remoteplaytogethertestingbranches": "default",
+    "vrheadsetstreaming": "1"
+  },
+  "ufs": {
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
 }

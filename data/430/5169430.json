@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789230688,
-  "_history": [],
-  "_change_number": 38464161,
-  "_missing_token": true,
-  "_sha": "f27e571518a449c2853bc893af69628c23dbd879",
-  "_size": 9441,
+  "_lastChecked": 1789238073,
+  "_history": [
+    {
+      "buildId": "24926643",
+      "branch": "public",
+      "timeUpdated": 1787674028,
+      "firstSeen": 1789238073,
+      "manifests": {
+        "5169431": {
+          "gid": "8471933740309582813",
+          "size": 194668443,
+          "download": 53098528
+        }
+      }
+    }
+  ],
+  "_change_number": 38821761,
+  "_missing_token": false,
+  "_sha": "678c916f3a21e11008a87918cbc92ebaa2c4834c",
+  "_size": 10069,
   "appid": "5169430",
   "common": {
     "aicontenttype": "1",
@@ -25,8 +39,8 @@
     },
     "clienticon": "d929293a5ebd96764362a3c6516314fbcb4ee338",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5169430",
     "genres": {
       "0": "4",
@@ -175,7 +189,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "45e98433460cedfabea6c3ed497e8ea312d885c5/capsule_231x87.jpg",
       "french": "8aaf8bf2d041f5a1fb6a746035d43de98afa9ecc/capsule_231x87_french.jpg",
@@ -187,6 +201,7 @@
       "spanish": "51c6a0496074be8eba14271314991f1f4dfded80/capsule_231x87_spanish.jpg",
       "tchinese": "7b6dce6a8eaa0ffc47c0eb278c226d238334d1f0/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789231018",
     "store_asset_mtime": "1787673982",
     "store_tags": {
       "0": "597",
@@ -242,5 +257,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "You Will Get Rich!",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "You Will Get Rich.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5169431": {
+      "manifests": {
+        "public": {
+          "download": "53098528",
+          "gid": "8471933740309582813",
+          "size": "194668443"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24926643",
+        "timebuildupdated": "1787656346",
+        "timeupdated": "1787674028"
+      }
+    }
+  },
+  "extended": {
+    "developer": "fortunate bull",
+    "publisher": "fortunate bull"
+  }
 }

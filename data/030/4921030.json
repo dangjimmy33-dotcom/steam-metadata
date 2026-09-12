@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1789230469,
-  "_history": [],
-  "_change_number": 38821586,
-  "_missing_token": true,
-  "_sha": "d29179488d349a59848a04d9e1ee0e2b9e036ee6",
-  "_size": 3028,
+  "_lastChecked": 1789237843,
+  "_history": [
+    {
+      "buildId": "25273244",
+      "branch": "public",
+      "timeUpdated": 1789231058,
+      "firstSeen": 1789237843,
+      "manifests": {
+        "4921031": {
+          "gid": "3526938901004049870",
+          "size": 3786595696,
+          "download": 579942624
+        },
+        "4921032": {
+          "gid": "5589936483321511542",
+          "size": 3124716444,
+          "download": 565006640
+        }
+      }
+    },
+    {
+      "buildId": "24265428",
+      "branch": "standalone",
+      "timeUpdated": 1784317984,
+      "firstSeen": 1789237843,
+      "manifests": {
+        "4921031": {
+          "gid": "6408778489055468979",
+          "size": 2862510668,
+          "download": 558897360
+        },
+        "4921032": {
+          "gid": "7562242276638192070",
+          "size": 2893896168,
+          "download": 561107424
+        }
+      }
+    }
+  ],
+  "_change_number": 38821866,
+  "_missing_token": false,
+  "_sha": "1ac9dd029dde0b397487ece019add072fd95e1bf",
+  "_size": 4337,
   "appid": "4921030",
   "common": {
     "associations": {
@@ -26,6 +63,7 @@
     },
     "clienticon": "8e630b4b18b0b04cf9d7526f565514d31b6f4a2b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -34,7 +72,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4921030",
     "genres": {
       "0": "3",
@@ -105,10 +142,11 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "dcfda76fdc05f0ed9f199fdd7b23cc566a359aee/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789231511",
     "store_asset_mtime": "1788797544",
     "store_tags": {
       "0": "122",
@@ -134,5 +172,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Splimbo City",
+    "launch": {
+      "0": {
+        "description": "Windows",
+        "description_loc": {
+          "english": "Windows"
+        },
+        "executable": "SplimboCity 91226build.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4921031": {
+      "manifests": {
+        "public": {
+          "download": "579942624",
+          "gid": "3526938901004049870",
+          "size": "3786595696"
+        },
+        "standalone": {
+          "download": "558897360",
+          "gid": "6408778489055468979",
+          "size": "2862510668"
+        }
+      }
+    },
+    "4921032": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "565006640",
+          "gid": "5589936483321511542",
+          "size": "3124716444"
+        },
+        "standalone": {
+          "download": "561107424",
+          "gid": "7562242276638192070",
+          "size": "2893896168"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25273244",
+        "timebuildupdated": "1789231012",
+        "timeupdated": "1789231058"
+      },
+      "standalone": {
+        "buildid": "24265428",
+        "description": "beta",
+        "timebuildupdated": "1784317877",
+        "timeupdated": "1784317984"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Splimbo Works",
+    "publisher": "Splimbo Works"
+  }
 }

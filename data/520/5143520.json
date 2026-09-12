@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789230672,
-  "_history": [],
-  "_change_number": 38613161,
-  "_missing_token": true,
-  "_sha": "63ec774c7dd17590e7c12625d776002c2161b9bd",
-  "_size": 3038,
+  "_lastChecked": 1789238056,
+  "_history": [
+    {
+      "buildId": "25043021",
+      "branch": "public",
+      "timeUpdated": 1788203404,
+      "firstSeen": 1789238056,
+      "manifests": {
+        "5143521": {
+          "gid": "3947295046331588019",
+          "size": 81370600,
+          "download": 17602832
+        }
+      }
+    }
+  ],
+  "_change_number": 38821740,
+  "_missing_token": false,
+  "_sha": "2adad2c28f7e0fd65510aa1c5b7ae0236ded92c8",
+  "_size": 4295,
   "appid": "5143520",
   "common": {
     "associations": {
@@ -35,7 +49,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5143520",
     "genres": {
       "0": "1",
@@ -107,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8bee159c9e7a42b9d1f5e55b8a8322b276cf01e5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789230914",
     "store_asset_mtime": "1787349235",
     "store_tags": {
       "0": "19",
@@ -137,5 +151,72 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ESCAPEAWAY!",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "ESCAPEAWAY!",
+        "description_loc": {
+          "english": "ESCAPEAWAY!"
+        },
+        "executable": "Release/Escapeaway.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "ESCAPEAWAY! Game Jam (1.0.0)",
+        "description_loc": {
+          "english": "ESCAPEAWAY! Game Jam (1.0.0)"
+        },
+        "executable": "GameJamEdition/Escapeaway.exe"
+      }
+    }
+  },
+  "depots": {
+    "5143521": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "17602832",
+          "gid": "3947295046331588019",
+          "size": "81370600"
+        }
+      }
+    },
+    "5143522": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25043021",
+        "timebuildupdated": "1788203392",
+        "timeupdated": "1788203404"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Snowman64",
+    "isfreeapp": "1",
+    "publisher": "Snowman64"
+  },
+  "ufs": {
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
 }

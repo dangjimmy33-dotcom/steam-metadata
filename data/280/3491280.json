@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789228886,
+  "_lastChecked": 1789236164,
   "_history": [
     {
       "buildId": "25109177",
@@ -182,10 +182,10 @@
       }
     }
   ],
-  "_change_number": 38733357,
+  "_change_number": 38822964,
   "_missing_token": false,
-  "_sha": "e91f28db4e6ec63f2a333775917b3819d5cd04ba",
-  "_size": 7624,
+  "_sha": "b57e47d29ee736c34b7faac70449215f0d1b4ff2",
+  "_size": 7903,
   "appid": "3491280",
   "common": {
     "aicontenttype": "1",
@@ -420,6 +420,15 @@
           "english": "DirectX 12 (use in case of graphics issues)"
         },
         "executable": "thezone.exe"
+      },
+      "3": {
+        "config": {
+          "betakey": "alpha,beta",
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "thezone.x86_64",
+        "type": "default"
       }
     },
     "steamcontrollertemplateindex": "4",
@@ -471,6 +480,13 @@
           "size": "24954456843"
         }
       }
+    },
+    "3491283": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {}
     },
     "branches": {
       "beta": {

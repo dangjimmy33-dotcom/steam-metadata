@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789228950,
+  "_lastChecked": 1789236232,
   "_history": [
     {
       "buildId": "22244698",
@@ -168,12 +168,30 @@
           "download": 3727927408
         }
       }
+    },
+    {
+      "buildId": "25272955",
+      "branch": "macos_dev_branch",
+      "timeUpdated": 1789229376,
+      "firstSeen": 1789236232,
+      "manifests": {
+        "3552201": {
+          "gid": "7959947503576931075",
+          "size": 6214084292,
+          "download": 3643581696
+        },
+        "3552202": {
+          "gid": "5928333647160895889",
+          "size": 5880737720,
+          "download": 3728929984
+        }
+      }
     }
   ],
-  "_change_number": 38820926,
+  "_change_number": 38821594,
   "_missing_token": false,
-  "_sha": "59f6fe2b346848a79d52b74d64df2ad73a859de0",
-  "_size": 6019,
+  "_sha": "aaf6056316842739e38fe69147af4f3c8c675181",
+  "_size": 6137,
   "appid": "3552200",
   "common": {
     "associations": {
@@ -371,7 +389,11 @@
     "installdir": "It's John's House",
     "launch": {
       "0": {
-        "executable": "It's John's House.exe"
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "It's John's House.exe",
+        "type": "default"
       },
       "1": {
         "config": {
@@ -392,6 +414,9 @@
   },
   "depots": {
     "3552201": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "dev_branch": {
           "download": "3630648304",
@@ -416,9 +441,9 @@
       },
       "manifests": {
         "macos_dev_branch": {
-          "download": "3727927408",
-          "gid": "7023896051709908915",
-          "size": "5882790714"
+          "download": "3728929984",
+          "gid": "5928333647160895889",
+          "size": "5880737720"
         }
       }
     },
@@ -435,10 +460,10 @@
         "timeupdated": "1789224951"
       },
       "macos_dev_branch": {
-        "buildid": "25272205",
+        "buildid": "25272955",
         "description": "Private development and testing on MacOS",
-        "timebuildupdated": "1789224696",
-        "timeupdated": "1789224696"
+        "timebuildupdated": "1789229376",
+        "timeupdated": "1789229376"
       },
       "public": {
         "buildid": "22244698",
