@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789310372,
-  "_history": [],
-  "_change_number": 38816263,
-  "_missing_token": true,
-  "_sha": "b2f4294680a44465382f3a16f63b01ffe02fa6de",
-  "_size": 3342,
+  "_lastChecked": 1789317513,
+  "_history": [
+    {
+      "buildId": "25269719",
+      "branch": "public",
+      "timeUpdated": 1789208095,
+      "firstSeen": 1789317513,
+      "manifests": {
+        "5114531": {
+          "gid": "1650383120911221359",
+          "size": 812449838,
+          "download": 208396848
+        }
+      }
+    }
+  ],
+  "_change_number": 38838182,
+  "_missing_token": false,
+  "_sha": "49da474bd7f8870057a5897e336f7e0b09d5ea11",
+  "_size": 4183,
   "appid": "5114530",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "b461d553ae208236bd18d18a5622b6ae9946d4e2",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5114530",
     "genres": {
       "0": "23"
@@ -95,10 +108,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bbfea5490e770ddb28765a0bdc5566cfc99e28a9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789312866",
     "store_asset_mtime": "1788561147",
     "store_tags": {
       "0": "16250",
@@ -153,5 +167,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "GAMBLE LIFE",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Start your gambling life",
+        "description_loc": {
+          "english": "Start your gambling life",
+          "japanese": "ギャンブルライフを起動"
+        },
+        "executable": "GAMBLE LIFE\\ギャンブルライフ.exe"
+      }
+    }
+  },
+  "depots": {
+    "5114531": {
+      "manifests": {
+        "public": {
+          "download": "208396848",
+          "gid": "1650383120911221359",
+          "size": "812449838"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25269719",
+        "timebuildupdated": "1789208094",
+        "timeupdated": "1789208095"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Wingless",
+    "publisher": "Win"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789304994,
+  "_lastChecked": 1789312667,
   "_history": [
     {
       "buildId": "25038723",
@@ -36,11 +36,47 @@
           "download": 3010951184
         }
       }
+    },
+    {
+      "buildId": "25283861",
+      "branch": "preview",
+      "timeUpdated": 1789310474,
+      "firstSeen": 1789312667,
+      "manifests": {
+        "906471": {
+          "gid": "4388781825262855387",
+          "size": 7983628887,
+          "download": 3544732032
+        },
+        "906472": {
+          "gid": "6263933691090660857",
+          "size": 8182164566,
+          "download": 3010951184
+        }
+      }
+    },
+    {
+      "buildId": "25283861",
+      "branch": "public",
+      "timeUpdated": 1789311117,
+      "firstSeen": 1789312667,
+      "manifests": {
+        "906471": {
+          "gid": "4388781825262855387",
+          "size": 7983628887,
+          "download": 3544732032
+        },
+        "906472": {
+          "gid": "6263933691090660857",
+          "size": 8182164566,
+          "download": 3010951184
+        }
+      }
     }
   ],
-  "_change_number": 38478122,
+  "_change_number": 38837727,
   "_missing_token": false,
-  "_sha": "a7af056af081dc7911ac32f36bc4bf0610197bcc",
+  "_sha": "1d202cfd0127d9459c959db799a915708a0f1202",
   "_size": 5718,
   "appid": "906470",
   "common": {
@@ -191,14 +227,14 @@
       },
       "manifests": {
         "preview": {
-          "download": "3544324640",
-          "gid": "4913695996143146404",
-          "size": "7983360806"
+          "download": "3544732032",
+          "gid": "4388781825262855387",
+          "size": "7983628887"
         },
         "public": {
-          "download": "3544324640",
-          "gid": "4913695996143146404",
-          "size": "7983360806"
+          "download": "3544732032",
+          "gid": "4388781825262855387",
+          "size": "7983628887"
         }
       }
     },
@@ -221,15 +257,15 @@
     },
     "branches": {
       "preview": {
-        "buildid": "25038723",
+        "buildid": "25283861",
         "description": "A less stable release channel, updated more often, but more  likely to have bugs.",
-        "timebuildupdated": "1788188394",
-        "timeupdated": "1788188437"
+        "timebuildupdated": "1789309452",
+        "timeupdated": "1789310474"
       },
       "public": {
-        "buildid": "25038723",
-        "timebuildupdated": "1788188394",
-        "timeupdated": "1788188644"
+        "buildid": "25283861",
+        "timebuildupdated": "1789309452",
+        "timeupdated": "1789311117"
       }
     }
   },

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789310284,
-  "_history": [],
-  "_change_number": 38792511,
-  "_missing_token": true,
-  "_sha": "2917678c715f8a996335b6e7124110e637983c22",
-  "_size": 3960,
+  "_lastChecked": 1789317434,
+  "_history": [
+    {
+      "buildId": "25253023",
+      "branch": "public",
+      "timeUpdated": 1789128981,
+      "firstSeen": 1789317434,
+      "manifests": {
+        "5018391": {
+          "gid": "7087058017113484300",
+          "size": 8778519802,
+          "download": 8550440992
+        }
+      }
+    }
+  ],
+  "_change_number": 38838943,
+  "_missing_token": false,
+  "_sha": "a0b11af2353b02b848dbeb8ffcdcc279f95c0066",
+  "_size": 4737,
   "appid": "5018390",
   "common": {
     "associations": {
@@ -32,7 +46,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "5018390",
     "genres": {
       "0": "4",
@@ -105,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4cdeeef34b4ce50505cb5696020ddb6015060ee2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789315599",
     "store_asset_mtime": "1788202299",
     "store_tags": {
       "0": "597",
@@ -185,5 +199,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Beyond Yardwork Simulator Prologue",
+    "launch": {
+      "0": {
+        "executable": "BeyondYardwork.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5018391": {
+      "manifests": {
+        "public": {
+          "download": "8550440992",
+          "gid": "7087058017113484300",
+          "size": "8778519802"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25253023",
+        "timebuildupdated": "1789128882",
+        "timeupdated": "1789128981"
+      }
+    }
+  },
+  "extended": {
+    "developer": "JoyDev",
+    "isfreeapp": "1",
+    "publisher": "PlayWay"
+  }
 }

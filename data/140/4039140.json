@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789309175,
+  "_lastChecked": 1789316440,
   "_history": [
     {
       "buildId": "25132368",
@@ -198,12 +198,45 @@
           "download": 234628048
         }
       }
+    },
+    {
+      "buildId": "25284860",
+      "branch": "beta",
+      "timeUpdated": 1789315313,
+      "firstSeen": 1789316440,
+      "manifests": {
+        "4039141": {
+          "gid": "6592847412116264866",
+          "size": 653494154,
+          "download": 244663376
+        },
+        "4039142": {
+          "gid": "5939682556537626286",
+          "size": 560747447,
+          "download": 211442032
+        },
+        "4039143": {
+          "gid": "4859023585460889655",
+          "size": 824838797,
+          "download": 316155728
+        },
+        "4039144": {
+          "gid": "3731313724569602745",
+          "size": 634859856,
+          "download": 228768000
+        },
+        "4039145": {
+          "gid": "9003906380144377269",
+          "size": 624871589,
+          "download": 234628048
+        }
+      }
     }
   ],
-  "_change_number": 38800152,
+  "_change_number": 38838862,
   "_missing_token": false,
-  "_sha": "6f80daedbce6da13434ed6034a3d69526c5a344d",
-  "_size": 9924,
+  "_sha": "336343048a48ef23c1848e32e2d0173d49c8bfa3",
+  "_size": 9925,
   "appid": "4039140",
   "common": {
     "associations": {
@@ -539,9 +572,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "244629776",
-          "gid": "7532402665717275278",
-          "size": "653369375"
+          "download": "244663376",
+          "gid": "6592847412116264866",
+          "size": "653494154"
         },
         "public": {
           "download": "244984608",
@@ -574,9 +607,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "316116560",
-          "gid": "723430390234602927",
-          "size": "824727513"
+          "download": "316155728",
+          "gid": "4859023585460889655",
+          "size": "824838797"
         },
         "public": {
           "download": "316466352",
@@ -591,9 +624,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "228744960",
-          "gid": "7252662980485466191",
-          "size": "634726542"
+          "download": "228768000",
+          "gid": "3731313724569602745",
+          "size": "634859856"
         },
         "public": {
           "download": "229108496",
@@ -621,10 +654,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25258306",
+        "buildid": "25284860",
         "description": "CI test and staging branch for automated Steam deploys",
-        "timebuildupdated": "1789145580",
-        "timeupdated": "1789145580"
+        "timebuildupdated": "1789315313",
+        "timeupdated": "1789315313"
       },
       "public": {
         "buildid": "25082504",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789310314,
+  "_lastChecked": 1789317461,
   "_history": [
     {
       "buildId": "25192216",
@@ -52,12 +52,38 @@
           "download": 583941584
         }
       }
+    },
+    {
+      "buildId": "25284978",
+      "branch": "develop",
+      "timeUpdated": 1789315912,
+      "firstSeen": 1789317461,
+      "manifests": {
+        "5049041": {
+          "gid": "2021371424331700193",
+          "size": 731231200,
+          "download": 595334448
+        }
+      }
+    },
+    {
+      "buildId": "25284978",
+      "branch": "public",
+      "timeUpdated": 1789317161,
+      "firstSeen": 1789317461,
+      "manifests": {
+        "5049041": {
+          "gid": "2021371424331700193",
+          "size": 731231200,
+          "download": 595334448
+        }
+      }
     }
   ],
-  "_change_number": 38833661,
+  "_change_number": 38839353,
   "_missing_token": false,
-  "_sha": "efb60294309b557659ac1cdc2f4c4865f2e02a8e",
-  "_size": 3974,
+  "_sha": "e7948a186ab3620b73a009e32dec85949fd5132b",
+  "_size": 4253,
   "appid": "5049040",
   "common": {
     "aicontenttype": "1",
@@ -211,19 +237,30 @@
   "depots": {
     "5049041": {
       "manifests": {
+        "develop": {
+          "download": "595334448",
+          "gid": "2021371424331700193",
+          "size": "731231200"
+        },
         "public": {
-          "download": "583941584",
-          "gid": "3277648230973578012",
-          "size": "718150376"
+          "download": "595334448",
+          "gid": "2021371424331700193",
+          "size": "731231200"
         }
       }
     },
     "baselanguages": "english,french",
     "branches": {
+      "develop": {
+        "buildid": "25284978",
+        "description": "Branche de développement",
+        "timebuildupdated": "1789315873",
+        "timeupdated": "1789315912"
+      },
       "public": {
-        "buildid": "25217937",
-        "timebuildupdated": "1788989577",
-        "timeupdated": "1788989640"
+        "buildid": "25284978",
+        "timebuildupdated": "1789315873",
+        "timeupdated": "1789317161"
       }
     }
   },

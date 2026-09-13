@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789307536,
-  "_history": [],
-  "_change_number": 38702439,
-  "_missing_token": true,
-  "_sha": "a962ba0df1fc69c203ea3be3c5593323a8d56492",
-  "_size": 3274,
+  "_lastChecked": 1789314962,
+  "_history": [
+    {
+      "buildId": "25082502",
+      "branch": "public",
+      "timeUpdated": 1788360942,
+      "firstSeen": 1789314962,
+      "manifests": {
+        "2736902": {
+          "gid": "2188034510089007175",
+          "size": 258820864,
+          "download": 106298480
+        }
+      }
+    }
+  ],
+  "_change_number": 38837723,
+  "_missing_token": false,
+  "_sha": "88d0a7c0a916083ee931d1bb5e1411e53638558e",
+  "_size": 4238,
   "appid": "2736900",
   "common": {
     "associations": {
@@ -32,8 +46,8 @@
     "clienticon": "d2469623ecb9d1fea0180b8362a8e82eb4b4c6f5",
     "clienttga": "aa9bff1efc665255f1b4ed5fedde8c04052a2acc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2736900",
     "genres": {
       "0": "25",
@@ -104,7 +118,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e560304e299867c729b266052cb2c1192daac29d/capsule_231x87.jpg"
     },
@@ -162,5 +176,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Quest Industries",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Quest Industries.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2736902": {
+      "manifests": {
+        "public": {
+          "download": "106298480",
+          "gid": "2188034510089007175",
+          "size": "258820864"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25082502",
+        "timebuildupdated": "1788360938",
+        "timeupdated": "1788360942"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Damask",
+    "homepage": "https://damaskentertainment.com",
+    "publisher": "Damask"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Quest Industries",
+        "pattern": "*.res",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

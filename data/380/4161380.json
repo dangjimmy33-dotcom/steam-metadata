@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789309319,
+  "_lastChecked": 1789316569,
   "_history": [
     {
       "buildId": "23483683",
@@ -13,12 +13,25 @@
           "download": 57438016
         }
       }
+    },
+    {
+      "buildId": "25284238",
+      "branch": "public",
+      "timeUpdated": 1789311927,
+      "firstSeen": 1789316569,
+      "manifests": {
+        "4161381": {
+          "gid": "4983276212649178852",
+          "size": 258601929,
+          "download": 86369632
+        }
+      }
     }
   ],
-  "_change_number": 38357278,
+  "_change_number": 38838957,
   "_missing_token": false,
-  "_sha": "334058afba7c611b4feb3ee356750ba58880bce9",
-  "_size": 3398,
+  "_sha": "6fb3a71a1d1ccab0bbfd6ae3a8b488f2ad0f1c48",
+  "_size": 3898,
   "appid": "4161380",
   "common": {
     "associations": {
@@ -138,6 +151,28 @@
     },
     "supported_languages": {
       "english": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "japanese": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "koreana": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "schinese": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "tchinese": {
+        "full_audio": "true",
+        "subtitles": "true",
         "supported": "true"
       }
     },
@@ -155,17 +190,18 @@
     "4161381": {
       "manifests": {
         "public": {
-          "download": "57438016",
-          "gid": "1050286003005374383",
-          "size": "207627656"
+          "download": "86369632",
+          "gid": "4983276212649178852",
+          "size": "258601929"
         }
       }
     },
+    "baselanguages": "english,japanese,koreana,schinese,tchinese",
     "branches": {
       "public": {
-        "buildid": "23483683",
-        "timebuildupdated": "1780126716",
-        "timeupdated": "1780126985"
+        "buildid": "25284238",
+        "timebuildupdated": "1789311735",
+        "timeupdated": "1789311927"
       }
     }
   },

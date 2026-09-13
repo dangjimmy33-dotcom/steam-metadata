@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789310398,
-  "_history": [],
-  "_change_number": 38724794,
-  "_missing_token": true,
-  "_sha": "d1a683ae0d09d4b5879ede176f6b7027d7595454",
-  "_size": 3183,
+  "_lastChecked": 1789317537,
+  "_history": [
+    {
+      "buildId": "25206680",
+      "branch": "public",
+      "timeUpdated": 1788951562,
+      "firstSeen": 1789317537,
+      "manifests": {
+        "5147561": {
+          "gid": "2808941650833994805",
+          "size": 4104288717,
+          "download": 2932955552
+        },
+        "5147562": {
+          "gid": "5679568823321531459",
+          "size": 4084423087,
+          "download": 2907190560
+        },
+        "5147563": {
+          "gid": "2553708999204946722",
+          "size": 4130172991,
+          "download": 2924269616
+        }
+      }
+    }
+  ],
+  "_change_number": 38838874,
+  "_missing_token": false,
+  "_sha": "72c8c1b301b5d3632b59f561d3265b886dc8b552",
+  "_size": 5110,
   "appid": "5147560",
   "common": {
     "aicontenttype": "1",
@@ -35,9 +59,9 @@
     "clienticns": "c50e45e6c0756375b4ac63a133eebe37c9c21d85",
     "clienticon": "c50a93288ea49d29f8ebc25c1f155f913b3d1a32",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5147560",
     "genres": {
       "0": "3"
@@ -108,10 +132,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ddf8288868fcbce78d3d7e87db245c0a76e94156/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789315322",
     "store_asset_mtime": "1787306838",
     "store_tags": {
       "0": "122",
@@ -138,5 +163,101 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hushed Ledger",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "macos"
+        },
+        "description": "Play The Hushed Ledger",
+        "description_loc": {
+          "english": "Play The Hushed Ledger"
+        },
+        "executable": "The Hushed Ledger.app",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play The Hushed Ledger",
+        "description_loc": {
+          "english": "Play The Hushed Ledger"
+        },
+        "executable": "hushed3d.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Play The Hushed Ledger",
+        "description_loc": {
+          "english": "Play The Hushed Ledger"
+        },
+        "executable": "hushed3d",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5147561": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "2932955552",
+          "gid": "2808941650833994805",
+          "size": "4104288717"
+        }
+      }
+    },
+    "5147562": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2907190560",
+          "gid": "5679568823321531459",
+          "size": "4084423087"
+        }
+      }
+    },
+    "5147563": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2924269616",
+          "gid": "2553708999204946722",
+          "size": "4130172991"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25206680",
+        "timebuildupdated": "1788951008",
+        "timeupdated": "1788951562"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Morass",
+    "homepage": "https://morass.github.io/hushed-ledger/",
+    "publisher": "Morass"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789310410,
-  "_history": [],
-  "_change_number": 38832061,
-  "_missing_token": true,
-  "_sha": "7d07d669b77325cedd68e2fe10a75c8483942535",
-  "_size": 4049,
+  "_lastChecked": 1789317548,
+  "_history": [
+    {
+      "buildId": "25250038",
+      "branch": "public",
+      "timeUpdated": 1789119434,
+      "firstSeen": 1789317548,
+      "manifests": {
+        "5166892": {
+          "gid": "928762073264662873",
+          "size": 385082533,
+          "download": 93745296
+        }
+      }
+    }
+  ],
+  "_change_number": 38837875,
+  "_missing_token": false,
+  "_sha": "a1a8e47a1f14ad7180bb50dbb9724177128c1431",
+  "_size": 5131,
   "appid": "5166890",
   "common": {
     "aicontenttype": "1",
@@ -32,9 +46,9 @@
     },
     "clienticon": "c06dc1afa63b5f6fbb886d1e590d201489f39fc6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5166890",
     "genres": {
       "0": "4",
@@ -106,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "dc6877432bc40df26d3b017a2a07dd5c51a7afb5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788337271",
     "store_tags": {
       "0": "1654",
@@ -190,5 +205,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Post Office Tidy Up!",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Post Office Tidy Up!.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5166891": {},
+    "5166892": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "93745296",
+          "gid": "928762073264662873",
+          "size": "385082533"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25250038",
+        "timebuildupdated": "1789119151",
+        "timeupdated": "1789119434"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Mao Den Games",
+    "publisher": "Mao Den Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Mao Den Games/Post Office_ Tidy Up!",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

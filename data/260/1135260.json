@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789305321,
+  "_lastChecked": 1789312964,
   "_history": [
     {
       "buildId": "22296505",
@@ -52,11 +52,37 @@
           "download": 1436153968
         }
       }
+    },
+    {
+      "buildId": "25284183",
+      "branch": "public",
+      "timeUpdated": 1789311350,
+      "firstSeen": 1789312964,
+      "manifests": {
+        "1135261": {
+          "gid": "6561999238883186275",
+          "size": 3865430351,
+          "download": 1201653760
+        }
+      }
+    },
+    {
+      "buildId": "25284183",
+      "branch": "remaster",
+      "timeUpdated": 1789311320,
+      "firstSeen": 1789312964,
+      "manifests": {
+        "1135261": {
+          "gid": "6561999238883186275",
+          "size": 3865430351,
+          "download": 1201653760
+        }
+      }
     }
   ],
-  "_change_number": 38828247,
+  "_change_number": 38837816,
   "_missing_token": false,
-  "_sha": "a8cd9140183cad19ac9e0a32957946270ba6a329",
+  "_sha": "e85cf231ad99b0c50e0e996c0d5f77ddc9219060",
   "_size": 9514,
   "appid": "1135260",
   "common": {
@@ -403,14 +429,14 @@
       },
       "manifests": {
         "public": {
-          "download": "1436153968",
-          "gid": "1604522672806770393",
-          "size": "4907869120"
+          "download": "1201653760",
+          "gid": "6561999238883186275",
+          "size": "3865430351"
         },
         "remaster": {
-          "download": "1436153968",
-          "gid": "1604522672806770393",
-          "size": "4907869120"
+          "download": "1201653760",
+          "gid": "6561999238883186275",
+          "size": "3865430351"
         }
       }
     },
@@ -419,15 +445,15 @@
     },
     "branches": {
       "public": {
-        "buildid": "25257038",
-        "timebuildupdated": "1789141438",
-        "timeupdated": "1789260941"
+        "buildid": "25284183",
+        "timebuildupdated": "1789311320",
+        "timeupdated": "1789311350"
       },
       "remaster": {
-        "buildid": "25257038",
+        "buildid": "25284183",
         "description": "Hotfixes and Patches will beta here",
-        "timebuildupdated": "1789141438",
-        "timeupdated": "1789141438"
+        "timebuildupdated": "1789311320",
+        "timeupdated": "1789311320"
       }
     },
     "hasdepotsindlc": "1"

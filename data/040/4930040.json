@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789310191,
-  "_history": [],
-  "_change_number": 38836289,
-  "_missing_token": true,
-  "_sha": "5df079e284722e9017a2ed776ba6f578c5b04c3e",
-  "_size": 5073,
+  "_lastChecked": 1789317350,
+  "_history": [
+    {
+      "buildId": "25283194",
+      "branch": "public",
+      "timeUpdated": 1789305561,
+      "firstSeen": 1789317350,
+      "manifests": {
+        "4930041": {
+          "gid": "939665326973699309",
+          "size": 40440272,
+          "download": 36139840
+        }
+      }
+    }
+  ],
+  "_change_number": 38837886,
+  "_missing_token": false,
+  "_sha": "56236975e1c877df99b7e48bcd472b0e1bb33df7",
+  "_size": 5664,
   "appid": "4930040",
   "common": {
     "aicontenttype": "1",
@@ -32,8 +46,8 @@
     },
     "clienticon": "1deeeafa109d72872e96d1f97d4c20009e84119c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4930040",
     "genres": {
       "0": "1",
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2b03f3054b3bac02a0b704fd4740c051cdae1c32/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789311642",
     "store_asset_mtime": "1788274304",
     "store_tags": {
       "0": "1663",
@@ -254,5 +269,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MAINLINE",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "mainline.exe"
+      }
+    }
+  },
+  "depots": {
+    "4930041": {
+      "manifests": {
+        "public": {
+          "download": "36139840",
+          "gid": "939665326973699309",
+          "size": "40440272"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25283194",
+        "timebuildupdated": "1789305438",
+        "timeupdated": "1789305561"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Bakuevo",
+    "publisher": "Bakuevo"
+  }
 }

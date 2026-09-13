@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789304181,
+  "_lastChecked": 1789311931,
   "_history": [
     {
       "buildId": "25136248",
@@ -207,12 +207,35 @@
           "download": 319084240
         }
       }
+    },
+    {
+      "buildId": "21748506",
+      "branch": "legacy",
+      "timeUpdated": 1770041180,
+      "firstSeen": 1789311931,
+      "manifests": {
+        "270451": {
+          "gid": "6405916619517442242",
+          "size": 531200366,
+          "download": 282835408
+        },
+        "270452": {
+          "gid": "369316824084237298",
+          "size": 552517807,
+          "download": 291377200
+        },
+        "270453": {
+          "gid": "6226531637500992930",
+          "size": 557634368,
+          "download": 297722992
+        }
+      }
     }
   ],
-  "_change_number": 38827022,
+  "_change_number": 38836393,
   "_missing_token": false,
-  "_sha": "995570328e3e906391d85daa50c1005f50c6c421",
-  "_size": 4754,
+  "_sha": "adf21b4f4721f3edf703e5028cd4b1c65aa25aa6",
+  "_size": 5262,
   "appid": "270450",
   "common": {
     "associations": {
@@ -366,6 +389,11 @@
           "gid": "5431507735795623255",
           "size": "582984733"
         },
+        "legacy": {
+          "download": "282835408",
+          "gid": "6405916619517442242",
+          "size": "531200366"
+        },
         "public": {
           "download": "282835408",
           "gid": "6405916619517442242",
@@ -384,6 +412,11 @@
           "gid": "7782322319875220596",
           "size": "595680821"
         },
+        "legacy": {
+          "download": "291377200",
+          "gid": "369316824084237298",
+          "size": "552517807"
+        },
         "public": {
           "download": "291377200",
           "gid": "369316824084237298",
@@ -401,6 +434,11 @@
           "gid": "6123696178277357031",
           "size": "608372548"
         },
+        "legacy": {
+          "download": "297722992",
+          "gid": "6226531637500992930",
+          "size": "557634368"
+        },
         "public": {
           "download": "297722992",
           "gid": "6226531637500992930",
@@ -413,6 +451,12 @@
         "buildid": "25276754",
         "timebuildupdated": "1789254106",
         "timeupdated": "1789254150"
+      },
+      "legacy": {
+        "buildid": "21748506",
+        "description": "Version 9 that allows Windows 7",
+        "timebuildupdated": "1770040995",
+        "timeupdated": "1770041180"
       },
       "public": {
         "buildid": "21748506",
