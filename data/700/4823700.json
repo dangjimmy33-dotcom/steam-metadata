@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789330951,
-  "_history": [],
-  "_change_number": 38572000,
-  "_missing_token": true,
-  "_sha": "40eec9d68609c7a4c7c77bb46d84cf11895bc3b4",
-  "_size": 2907,
+  "_lastChecked": 1789337796,
+  "_history": [
+    {
+      "buildId": "25288264",
+      "branch": "public",
+      "timeUpdated": 1789334343,
+      "firstSeen": 1789337796,
+      "manifests": {
+        "4823701": {
+          "gid": "6539998960551587793",
+          "size": 602209673,
+          "download": 242298544
+        }
+      }
+    }
+  ],
+  "_change_number": 38843947,
+  "_missing_token": false,
+  "_sha": "fcdc271bc74a4b5378e8923f830f553d3a685190",
+  "_size": 3484,
   "appid": "4823700",
   "common": {
     "aicontenttype": "1",
@@ -27,7 +41,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4823700",
     "genres": {
       "0": "25",
@@ -98,7 +111,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "dc3bb66f628a2ab2afb0d5f66b118df85e036cbb/capsule_231x87.jpg"
     },
@@ -127,5 +140,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Flourishing",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Flourishing.exe"
+      }
+    }
+  },
+  "depots": {
+    "4823701": {
+      "manifests": {
+        "public": {
+          "download": "242298544",
+          "gid": "6539998960551587793",
+          "size": "602209673"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25288264",
+        "timebuildupdated": "1789334161",
+        "timeupdated": "1789334343"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Splintercat Studio",
+    "homepage": "https://flourishinggame.com/",
+    "publisher": "Splintercat Studio"
+  }
 }

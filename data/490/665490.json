@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789326554,
+  "_lastChecked": 1789333145,
   "_history": [
     {
       "buildId": "2041174",
@@ -23,12 +23,35 @@
           "download": 57825184
         }
       }
+    },
+    {
+      "buildId": "25287226",
+      "branch": "public",
+      "timeUpdated": 1789329531,
+      "firstSeen": 1789333145,
+      "manifests": {
+        "665491": {
+          "gid": "828262849944789123",
+          "size": 207278058,
+          "download": 57800992
+        },
+        "665492": {
+          "gid": "6126316510489670172",
+          "size": 209389909,
+          "download": 57710032
+        },
+        "665493": {
+          "gid": "6783238678396394607",
+          "size": 211751246,
+          "download": 50978336
+        }
+      }
     }
   ],
-  "_change_number": 38840958,
+  "_change_number": 38842699,
   "_missing_token": false,
-  "_sha": "4ab6a3752bdd74b3204b7357c65bdd009dd5b117",
-  "_size": 5019,
+  "_sha": "8c1e8f73d6b1241715af1e8ec5423ea6b3945fda",
+  "_size": 5219,
   "appid": "665490",
   "common": {
     "associations": {
@@ -111,6 +134,7 @@
     "metacritic_name": "The Monster Inside",
     "name": "The Monster Inside",
     "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
     "releasestate": "released",
@@ -208,7 +232,11 @@
         "executable": "The Monster Inside.x86",
         "type": "default"
       }
-    }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "665491": {
@@ -217,9 +245,9 @@
       },
       "manifests": {
         "public": {
-          "download": "46576624",
-          "gid": "2053811332862899936",
-          "size": "130273378"
+          "download": "57800992",
+          "gid": "828262849944789123",
+          "size": "207278058"
         }
       }
     },
@@ -229,9 +257,9 @@
       },
       "manifests": {
         "public": {
-          "download": "58330000",
-          "gid": "4725476980467009994",
-          "size": "173883310"
+          "download": "57710032",
+          "gid": "6126316510489670172",
+          "size": "209389909"
         }
       }
     },
@@ -241,17 +269,17 @@
       },
       "manifests": {
         "public": {
-          "download": "57825184",
-          "gid": "2327555877066306065",
-          "size": "168293883"
+          "download": "50978336",
+          "gid": "6783238678396394607",
+          "size": "211751246"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "2041174",
-        "timebuildupdated": "1502849953",
-        "timeupdated": "1502850385"
+        "buildid": "25287226",
+        "timebuildupdated": "1789328711",
+        "timeupdated": "1789329531"
       }
     },
     "privatebranches": "1"

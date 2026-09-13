@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789330516,
+  "_lastChecked": 1789337338,
   "_history": [
     {
       "buildId": "25117592",
@@ -122,12 +122,48 @@
           "download": 292648512
         }
       }
+    },
+    {
+      "buildId": "25288221",
+      "branch": "macos-beta",
+      "timeUpdated": 1789333950,
+      "firstSeen": 1789337338,
+      "manifests": {
+        "4340602": {
+          "gid": "6748715554308083645",
+          "size": 689868844,
+          "download": 347943456
+        },
+        "4340603": {
+          "gid": "914292823493693980",
+          "size": 594270418,
+          "download": 294307440
+        }
+      }
+    },
+    {
+      "buildId": "25288243",
+      "branch": "macos-intel-beta",
+      "timeUpdated": 1789334026,
+      "firstSeen": 1789337338,
+      "manifests": {
+        "4340602": {
+          "gid": "6748715554308083645",
+          "size": 689868844,
+          "download": 347943456
+        },
+        "4340603": {
+          "gid": "8569902016920914286",
+          "size": 597136152,
+          "download": 296454816
+        }
+      }
     }
   ],
-  "_change_number": 38842685,
+  "_change_number": 38843874,
   "_missing_token": false,
-  "_sha": "2f947593ef2215e6bfdad4412aa8db3a618a6b11",
-  "_size": 7528,
+  "_sha": "d7f9c501dcaf83e3174167546d4ddd7400f60838",
+  "_size": 7990,
   "appid": "4340600",
   "common": {
     "aicontenttype": "1",
@@ -340,12 +376,12 @@
       },
       "1": {
         "config": {
-          "betakey": "macos-beta",
+          "betakey": "macos-beta,macos-intel-beta",
           "oslist": "macos"
         },
-        "description": "Play Team Principal (Apple Silicon)",
+        "description": "Play Team Principal (macOS Beta)",
         "description_loc": {
-          "english": "Play Team Principal (Apple Silicon)"
+          "english": "Play Team Principal (macOS Beta)"
         },
         "executable": "TeamPrincipal.app",
         "type": "default"
@@ -361,6 +397,11 @@
       },
       "manifests": {
         "macos-beta": {
+          "download": "347943456",
+          "gid": "6748715554308083645",
+          "size": "689868844"
+        },
+        "macos-intel-beta": {
           "download": "347943456",
           "gid": "6748715554308083645",
           "size": "689868844"
@@ -388,19 +429,30 @@
       },
       "manifests": {
         "macos-beta": {
-          "download": "292648512",
-          "gid": "5515421818341154429",
-          "size": "580085632"
+          "download": "294307440",
+          "gid": "914292823493693980",
+          "size": "594270418"
+        },
+        "macos-intel-beta": {
+          "download": "296454816",
+          "gid": "8569902016920914286",
+          "size": "597136152"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "macos-beta": {
-        "buildid": "25244311",
-        "description": "MacOS Beta",
-        "timebuildupdated": "1789093314",
-        "timeupdated": "1789093314"
+        "buildid": "25288221",
+        "description": "Apple Silicon (M-series) beta - macOS 14+",
+        "timebuildupdated": "1789333950",
+        "timeupdated": "1789333950"
+      },
+      "macos-intel-beta": {
+        "buildid": "25288243",
+        "description": "Intel Mac beta - macOS 14+",
+        "timebuildupdated": "1789334026",
+        "timeupdated": "1789334026"
       },
       "public": {
         "buildid": "25220944",

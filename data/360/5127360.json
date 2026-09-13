@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789331208,
-  "_history": [],
-  "_change_number": 38841376,
-  "_missing_token": true,
-  "_sha": "e402551a42b566305fd67b39cbf72c9a20fa61b7",
-  "_size": 3199,
+  "_lastChecked": 1789338067,
+  "_history": [
+    {
+      "buildId": "25288045",
+      "branch": "public",
+      "timeUpdated": 1789333110,
+      "firstSeen": 1789338067,
+      "manifests": {
+        "5127361": {
+          "gid": "3396233619446006361",
+          "size": 132360693,
+          "download": 54426128
+        }
+      }
+    }
+  ],
+  "_change_number": 38843620,
+  "_missing_token": false,
+  "_sha": "1ecd4ab17e6516d7222e66ea4d3552e4696b21fc",
+  "_size": 4089,
   "appid": "5127360",
   "common": {
     "associations": {
@@ -27,8 +41,8 @@
     },
     "clienticon": "b1c9dd527bb130916da43a07a5056663e2aa9002",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5127360",
     "genres": {
       "0": "4",
@@ -100,11 +114,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "87cfceb4d9c38b8ee59f5fe079be953c0aff471c/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1787601965",
+    "steam_release_date": "1789332232",
+    "store_asset_mtime": "1789331975",
     "store_tags": {
       "0": "597",
       "1": "1698",
@@ -152,5 +167,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Clickoire",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Clickoire.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5127361": {
+      "manifests": {
+        "public": {
+          "download": "54426128",
+          "gid": "3396233619446006361",
+          "size": "132360693"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25288045",
+        "timebuildupdated": "1789333063",
+        "timeupdated": "1789333110"
+      }
+    }
+  },
+  "extended": {
+    "developer": "JJMWorld",
+    "homepage": "https://clickoire.com",
+    "publisher": "JJMWorld"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "savefiles": {
+      "0": {
+        "path": "JJMWorld/Clickoire",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

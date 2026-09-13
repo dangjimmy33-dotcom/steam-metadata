@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789327968,
+  "_lastChecked": 1789334644,
   "_history": [
     {
       "buildId": "25072506",
@@ -197,11 +197,57 @@
           "download": 6449185872
         }
       }
+    },
+    {
+      "buildId": "25287549",
+      "branch": "alpha",
+      "timeUpdated": 1789330432,
+      "firstSeen": 1789334644,
+      "manifests": {
+        "1889621": {
+          "gid": "979366602453530500",
+          "size": 907713181,
+          "download": 422100592
+        },
+        "4792270": {
+          "gid": "4348558562125436511",
+          "size": 9313878643,
+          "download": 6467700480
+        },
+        "4792280": {
+          "gid": "1912035018419297772",
+          "size": 9272121238,
+          "download": 6449108752
+        }
+      }
+    },
+    {
+      "buildId": "25287552",
+      "branch": "beta",
+      "timeUpdated": 1789330439,
+      "firstSeen": 1789334644,
+      "manifests": {
+        "1889621": {
+          "gid": "979366602453530500",
+          "size": 907713181,
+          "download": 422100592
+        },
+        "4792270": {
+          "gid": "151187000019348339",
+          "size": 9313940030,
+          "download": 6467089872
+        },
+        "4792280": {
+          "gid": "1912035018419297772",
+          "size": 9272121238,
+          "download": 6449108752
+        }
+      }
     }
   ],
-  "_change_number": 38768598,
+  "_change_number": 38842935,
   "_missing_token": false,
-  "_sha": "e84925b44ae075d6b1a810c9004490c788b30138",
+  "_sha": "20af8eb49ebc28d5b2439e402c89ce262bac1def",
   "_size": 11405,
   "appid": "1889620",
   "common": {
@@ -613,14 +659,14 @@
       "dlcappid": "4792280",
       "manifests": {
         "alpha": {
-          "download": "6449179152",
-          "gid": "1754333128150942564",
-          "size": "9272512334"
+          "download": "6449108752",
+          "gid": "1912035018419297772",
+          "size": "9272121238"
         },
         "beta": {
-          "download": "6449185872",
-          "gid": "7852469598115029624",
-          "size": "9272553157"
+          "download": "6449108752",
+          "gid": "1912035018419297772",
+          "size": "9272121238"
         },
         "older_build": {
           "download": "6449185872",
@@ -637,16 +683,16 @@
     "baselanguages": "english,german,french,italian,spanish,schinese,tchinese,russian,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,bulgarian,ukrainian,vietnamese,indonesian",
     "branches": {
       "alpha": {
-        "buildid": "25232946",
+        "buildid": "25287549",
         "description": "Alpha: Use at your own risk. May get features earlier than Beta, at the cost of possible bugs or broken saves.",
-        "timebuildupdated": "1789049939",
-        "timeupdated": "1789049939"
+        "timebuildupdated": "1789330432",
+        "timeupdated": "1789330432"
       },
       "beta": {
-        "buildid": "25236004",
+        "buildid": "25287552",
         "description": "Beta: Get new features sooner than default, with less chance of broken saves than Alpha",
-        "timebuildupdated": "1789059891",
-        "timeupdated": "1789059891"
+        "timebuildupdated": "1789330439",
+        "timeupdated": "1789330439"
       },
       "debug": {
         "buildid": "20909499",
