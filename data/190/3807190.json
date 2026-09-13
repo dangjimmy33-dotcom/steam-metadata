@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1789323376,
-  "_history": [],
-  "_change_number": 38827545,
-  "_missing_token": true,
-  "_sha": "3566ae1bc6373b077afe28fd0899f69ddc503cd9",
-  "_size": 3096,
+  "_lastChecked": 1789329975,
+  "_history": [
+    {
+      "buildId": "25277146",
+      "branch": "beta",
+      "timeUpdated": 1789257060,
+      "firstSeen": 1789329975,
+      "manifests": {
+        "3807191": {
+          "gid": "1377568106728675078",
+          "size": 1235773782,
+          "download": 975552752
+        }
+      }
+    },
+    {
+      "buildId": "25287267",
+      "branch": "public",
+      "timeUpdated": 1789329352,
+      "firstSeen": 1789329975,
+      "manifests": {
+        "3807191": {
+          "gid": "3422359991750275978",
+          "size": 1230112732,
+          "download": 970889520
+        }
+      }
+    }
+  ],
+  "_change_number": 38842736,
+  "_missing_token": false,
+  "_sha": "202d53c3ef37a9f1f1b7a82cb829d4f96dbcda8e",
+  "_size": 4287,
   "appid": "3807190",
   "common": {
     "associations": {
@@ -30,7 +57,6 @@
     "clienttga": "ba0400344d69cc231c5440423de249d156f2723b",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3807190",
     "genres": {
       "0": "1",
@@ -102,11 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9dc1001a3ad6d5492bd0fe3a45912471d67661e6/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1755127128",
+    "store_asset_mtime": "1789327833",
     "store_tags": {
       "0": "19",
       "1": "1774",
@@ -137,5 +163,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Daemon",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Daemon.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3807191": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "975552752",
+          "gid": "1377568106728675078",
+          "size": "1235773782"
+        },
+        "public": {
+          "download": "970889520",
+          "gid": "3422359991750275978",
+          "size": "1230112732"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "25277146",
+        "description": "invite only beta testing",
+        "timebuildupdated": "1789257025",
+        "timeupdated": "1789257060"
+      },
+      "public": {
+        "buildid": "25287267",
+        "timebuildupdated": "1789328905",
+        "timeupdated": "1789329352"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Floating Point",
+    "homepage": "https://floatingpointinteractive.com/work/daemon",
+    "isfreeapp": "1",
+    "publisher": "Floating Point"
+  }
 }

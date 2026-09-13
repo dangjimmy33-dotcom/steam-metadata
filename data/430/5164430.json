@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789324805,
-  "_history": [],
-  "_change_number": 38738798,
-  "_missing_token": true,
-  "_sha": "15dd9f7a6fd299637f55bdd54391de58282e93b6",
-  "_size": 2966,
+  "_lastChecked": 1789331229,
+  "_history": [
+    {
+      "buildId": "24941365",
+      "branch": "public",
+      "timeUpdated": 1787713808,
+      "firstSeen": 1789331229,
+      "manifests": {
+        "5164431": {
+          "gid": "4461376768014155013",
+          "size": 374597901,
+          "download": 140845216
+        }
+      }
+    }
+  ],
+  "_change_number": 38841848,
+  "_missing_token": false,
+  "_sha": "ab2a6490a86360dc4cda09c2566ce8e48fcb2b0a",
+  "_size": 3811,
   "appid": "5164430",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +43,8 @@
     },
     "clienticon": "4212054e54015ef4ce466da9d82b39202f9b577e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5164430",
     "genres": {
       "0": "1",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "95477d03e3f3977bd87950d968e62599551e7ba5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789326621",
     "store_asset_mtime": "1788107503",
     "store_tags": {
       "0": "19",
@@ -135,5 +150,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BWAG",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BWAG.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5164431": {
+      "manifests": {
+        "public": {
+          "download": "140845216",
+          "gid": "4461376768014155013",
+          "size": "374597901"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24941365",
+        "timebuildupdated": "1787713807",
+        "timeupdated": "1787713808"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Dev-Solo Studio",
+    "publisher": "Deadline Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "bwag/Local Storage/leveldb",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

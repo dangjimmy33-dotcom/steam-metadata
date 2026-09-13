@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789324257,
-  "_history": [],
-  "_change_number": 38841186,
-  "_missing_token": true,
-  "_sha": "60c43846e783b4fdd632bf9b9e3aee3357a46d44",
-  "_size": 4428,
+  "_lastChecked": 1789330743,
+  "_history": [
+    {
+      "buildId": "25259686",
+      "branch": "public",
+      "timeUpdated": 1789234182,
+      "firstSeen": 1789330743,
+      "manifests": {
+        "4580601": {
+          "gid": "8016045262191953966",
+          "size": 2698237424,
+          "download": 2403494720
+        }
+      }
+    }
+  ],
+  "_change_number": 38841580,
+  "_missing_token": false,
+  "_sha": "94ef626d1de7e2a16edeb01e59b77be12ff95126",
+  "_size": 5290,
   "appid": "4580600",
   "common": {
     "associations": {
@@ -24,8 +38,8 @@
     },
     "clienticon": "30cfea2432d9428af4cee3c9393a9096033e977a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4580600",
     "genres": {
       "0": "1",
@@ -97,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f1dece535a247043a470893348109ac067626b63/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789325642",
     "store_asset_mtime": "1789324230",
     "store_tags": {
       "0": "599",
@@ -214,5 +229,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Animaly Bar NO HUMANITY!",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "AnimalyBarNOHUMANITY.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4580601": {
+      "manifests": {
+        "public": {
+          "download": "2403494720",
+          "gid": "8016045262191953966",
+          "size": "2698237424"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25259686",
+        "timebuildupdated": "1789150881",
+        "timeupdated": "1789234182"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Domnaier",
+    "publisher": "Domnaier"
+  }
 }
