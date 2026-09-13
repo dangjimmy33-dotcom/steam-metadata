@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789252711,
+  "_lastChecked": 1789259689,
   "_history": [
     {
       "buildId": "21322359",
@@ -232,10 +232,10 @@
       }
     }
   ],
-  "_change_number": 38821725,
+  "_change_number": 38827389,
   "_missing_token": false,
-  "_sha": "859490ca18c2bf4fa5654d447a9a63915a34e56c",
-  "_size": 7066,
+  "_sha": "58889cd10dd4a6a8cb164d5102eb91bab6b4ea0c",
+  "_size": 7267,
   "appid": "206500",
   "common": {
     "associations": {
@@ -469,10 +469,23 @@
         "description": "Launch Game",
         "executable": "AirMech.exe",
         "workingdir": ""
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "AirMech.app",
+        "type": "default"
       }
     }
   },
   "depots": {
+    "206501": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      }
+    },
     "206503": {
       "config": {
         "oslist": "windows"

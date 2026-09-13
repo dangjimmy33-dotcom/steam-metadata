@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789255054,
+  "_lastChecked": 1789262066,
   "_history": [
     {
       "buildId": "24574422",
@@ -25,10 +25,10 @@
       }
     }
   ],
-  "_change_number": 38773444,
+  "_change_number": 38827509,
   "_missing_token": false,
-  "_sha": "2db14566678c408e60ffb425f3855680f0694594",
-  "_size": 7352,
+  "_sha": "def2256b3aeec293cee8e090b7be4e4f6b0c9193",
+  "_size": 7765,
   "appid": "2094070",
   "common": {
     "associations": {
@@ -247,19 +247,43 @@
         "config": {
           "oslist": "windows"
         },
-        "executable": "Quest Master.exe"
+        "executable": "Quest Master.exe",
+        "type": "default"
       },
       "1": {
         "config": {
           "oslist": "macos"
         },
-        "executable": "Quest Master.app"
+        "executable": "Quest Master.app",
+        "type": "default"
       },
       "2": {
         "config": {
           "oslist": "linux"
         },
-        "executable": "Quest Master.x86_64"
+        "executable": "Quest Master.x86_64",
+        "type": "default"
+      },
+      "3": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "qm.exe",
+        "type": "default"
+      },
+      "4": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "qm.app",
+        "type": "default"
+      },
+      "5": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "qm.x86_64",
+        "type": "default"
       }
     },
     "steamconfigurator3rdpartynative": "6",

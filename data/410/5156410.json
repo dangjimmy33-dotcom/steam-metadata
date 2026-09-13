@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789258459,
-  "_history": [],
-  "_change_number": 38539491,
-  "_missing_token": true,
-  "_sha": "04024b609fabf2524bfc73cec01c0120333f300c",
-  "_size": 3332,
+  "_lastChecked": 1789265559,
+  "_history": [
+    {
+      "buildId": "25277838",
+      "branch": "public",
+      "timeUpdated": 1789262288,
+      "firstSeen": 1789265559,
+      "manifests": {
+        "5156411": {
+          "gid": "8708771522201876694",
+          "size": 118844136,
+          "download": 41175040
+        },
+        "5156412": {
+          "gid": "2435739890112235026",
+          "size": 83187736,
+          "download": 32559408
+        }
+      }
+    }
+  ],
+  "_change_number": 38828735,
+  "_missing_token": false,
+  "_sha": "2abe29635245a87563458fc50120aac56f2bc109",
+  "_size": 4961,
   "appid": "5156410",
   "common": {
     "aicontenttype": "1",
@@ -27,9 +46,9 @@
     },
     "clienticon": "5f6d0c2cb25be6c39cdcaeb1f401acb279287738",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5156410",
     "genres": {
       "0": "1",
@@ -106,11 +125,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f4086f895ef25009c582f7729163677875de217e/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1787575975",
+    "store_asset_mtime": "1789261894",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -161,5 +180,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DAKENSHI",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DAKENSHI.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "DAKENSHI.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5156411": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "41175040",
+          "gid": "8708771522201876694",
+          "size": "118844136"
+        }
+      }
+    },
+    "5156412": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "32559408",
+          "gid": "2435739890112235026",
+          "size": "83187736"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25277838",
+        "timebuildupdated": "1789262267",
+        "timeupdated": "1789262288"
+      }
+    }
+  },
+  "extended": {
+    "developer": "rspepe",
+    "publisher": "Sakamo Productions"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "DAKENSHI",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "DAKENSHI",
+        "pattern": "*.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

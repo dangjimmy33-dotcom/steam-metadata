@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789257291,
-  "_history": [],
-  "_change_number": 38343682,
-  "_missing_token": true,
-  "_sha": "2c49f96f2ac4b53487be88d2520f7963654dfc45",
-  "_size": 4783,
+  "_lastChecked": 1789264356,
+  "_history": [
+    {
+      "buildId": "24947059",
+      "branch": "public",
+      "timeUpdated": 1787739683,
+      "firstSeen": 1789264356,
+      "manifests": {
+        "3991331": {
+          "gid": "7087299426093484961",
+          "size": 246253103,
+          "download": 97144080
+        }
+      }
+    }
+  ],
+  "_change_number": 38828068,
+  "_missing_token": false,
+  "_sha": "c42feda316daa0523cb4b3c78be47098ab9e0399",
+  "_size": 5275,
   "appid": "3991330",
   "common": {
     "aicontenttype": "1",
@@ -30,7 +44,6 @@
     "clienticon": "df4095d17f08f345859c08bf7c879ca9385f8f94",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3991330",
     "genres": {
       "0": "1",
@@ -124,7 +137,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "032d7eb1d6bd92ea5d460d90ee3e900111b6abcf/capsule_231x87.jpg",
       "schinese": "fef00855693844f9911a7966ee4ea7cfea413038/capsule_231x87_schinese.jpg"
@@ -179,5 +192,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "elegyForAViolet",
+    "launch": {
+      "0": {
+        "executable": "elegy for a violet.exe"
+      }
+    }
+  },
+  "depots": {
+    "3991331": {
+      "manifests": {
+        "public": {
+          "download": "97144080",
+          "gid": "7087299426093484961",
+          "size": "246253103"
+        }
+      }
+    },
+    "3991332": {},
+    "branches": {
+      "public": {
+        "buildid": "24947059",
+        "timebuildupdated": "1787739608",
+        "timeupdated": "1787739683"
+      }
+    }
+  },
+  "extended": {
+    "developer": "nrcashew",
+    "publisher": "nrcashew"
+  }
 }
