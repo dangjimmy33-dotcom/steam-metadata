@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789264909,
+  "_lastChecked": 1789271548,
   "_history": [
     {
       "buildId": "23162219",
@@ -13,12 +13,25 @@
           "download": 188073328
         }
       }
+    },
+    {
+      "buildId": "25278114",
+      "branch": "public",
+      "timeUpdated": 1789264948,
+      "firstSeen": 1789271548,
+      "manifests": {
+        "4492941": {
+          "gid": "8546070828553185705",
+          "size": 311999500,
+          "download": 191753664
+        }
+      }
     }
   ],
-  "_change_number": 38828896,
+  "_change_number": 38829016,
   "_missing_token": false,
-  "_sha": "0d240cfcb213872491995761c8d685621cbd9aae",
-  "_size": 6017,
+  "_sha": "7161967285a2465a1f985b1e4f45f4310b3813f8",
+  "_size": 5875,
   "appid": "4492940",
   "common": {
     "aicontenttype": "1",
@@ -175,19 +188,12 @@
   "config": {
     "installdir": "FTS Frontline Tank Survivor",
     "launch": {
-      "0": {
-        "config": {
-          "betakey": "default",
-          "oslist": "windows"
-        },
-        "executable": "FTS/windows/FTS_EA0.1.1.exe"
-      },
       "1": {
         "config": {
-          "betakey": "test",
           "oslist": "windows"
         },
-        "executable": "FTS.exe"
+        "executable": "FTS.exe",
+        "type": "default"
       }
     }
   },
@@ -195,17 +201,17 @@
     "4492941": {
       "manifests": {
         "public": {
-          "download": "188073328",
-          "gid": "8140302025915805244",
-          "size": "821794536"
+          "download": "191753664",
+          "gid": "8546070828553185705",
+          "size": "311999500"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "23162219",
-        "timebuildupdated": "1778354496",
-        "timeupdated": "1778354796"
+        "buildid": "25278114",
+        "timebuildupdated": "1789264442",
+        "timeupdated": "1789264948"
       }
     },
     "privatebranches": "1"

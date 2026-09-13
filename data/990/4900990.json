@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789265330,
+  "_lastChecked": 1789271925,
   "_history": [
     {
       "buildId": "25192682",
@@ -13,12 +13,30 @@
           "download": 362701056
         }
       }
+    },
+    {
+      "buildId": "25278616",
+      "branch": "public",
+      "timeUpdated": 1789268665,
+      "firstSeen": 1789271925,
+      "manifests": {
+        "4900991": {
+          "gid": "1693526830808177539",
+          "size": 987241380,
+          "download": 362701008
+        },
+        "4900992": {
+          "gid": "1495527547522187216",
+          "size": 1005755632,
+          "download": 367035056
+        }
+      }
     }
   ],
-  "_change_number": 38704829,
+  "_change_number": 38829574,
   "_missing_token": false,
-  "_sha": "4cd781fc83d2f7c522698ea4523e0f0bc9467aed",
-  "_size": 3693,
+  "_sha": "a1bb89bf29112acf4cc5181e8e5d4fd1fdecb833",
+  "_size": 4041,
   "appid": "4900990",
   "common": {
     "aicontenttype": "1",
@@ -158,7 +176,16 @@
     "installdir": "MOR",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "CombinedMultiplayer.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Mac.app"
       }
     }
   },
@@ -166,17 +193,29 @@
     "4900991": {
       "manifests": {
         "public": {
-          "download": "362701056",
-          "gid": "72426806332879908",
-          "size": "987299945"
+          "download": "362701008",
+          "gid": "1693526830808177539",
+          "size": "987241380"
+        }
+      }
+    },
+    "4900992": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "367035056",
+          "gid": "1495527547522187216",
+          "size": "1005755632"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25192682",
-        "timebuildupdated": "1788889805",
-        "timeupdated": "1788889860"
+        "buildid": "25278616",
+        "timebuildupdated": "1789268525",
+        "timeupdated": "1789268665"
       }
     }
   },

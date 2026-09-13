@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789261955,
+  "_lastChecked": 1789268903,
   "_history": [
     {
       "buildId": "25042599",
@@ -13,12 +13,25 @@
           "download": 307759888
         }
       }
+    },
+    {
+      "buildId": "25278525",
+      "branch": "public",
+      "timeUpdated": 1789267906,
+      "firstSeen": 1789268903,
+      "manifests": {
+        "1982072": {
+          "gid": "2050910281114716806",
+          "size": 558978368,
+          "download": 344260224
+        }
+      }
     }
   ],
-  "_change_number": 38586331,
+  "_change_number": 38829364,
   "_missing_token": false,
-  "_sha": "f012f5703f84faffec50f7d798e086acd0fc70c2",
-  "_size": 3698,
+  "_sha": "6a43eb5c01e0c490c10e4c45de84660b1ac004bd",
+  "_size": 3986,
   "appid": "1982070",
   "common": {
     "aicontenttype": "1",
@@ -114,7 +127,6 @@
       }
     },
     "name": "wozitdev's 3D Reaper",
-    "onlyvrsupport": "1",
     "openxrsupport": "1",
     "osarch": "",
     "osextended": "",
@@ -162,6 +174,18 @@
         },
         "executable": "wozitdev's 3D Reaper.exe",
         "type": "openxr"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "wozitdev's 3D Reaper Desktop Bible",
+        "description_loc": {
+          "english": "wozitdev's 3D Reaper Desktop Bible"
+        },
+        "executable": "wozitdev's 3D Reaper Desktop Bible.exe",
+        "type": "option2"
       }
     }
   },
@@ -169,18 +193,18 @@
     "1982072": {
       "manifests": {
         "public": {
-          "download": "307759888",
-          "gid": "5683525424773969297",
-          "size": "444873732"
+          "download": "344260224",
+          "gid": "2050910281114716806",
+          "size": "558978368"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25042599",
-        "timebuildupdated": "1788201897",
-        "timeupdated": "1788201942"
+        "buildid": "25278525",
+        "timebuildupdated": "1789267875",
+        "timeupdated": "1789267906"
       }
     }
   },
