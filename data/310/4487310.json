@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789250894,
+  "_lastChecked": 1789257820,
   "_history": [
     {
       "buildId": "25021574",
@@ -90,11 +90,29 @@
           "download": 509440160
         }
       }
+    },
+    {
+      "buildId": "25277243",
+      "branch": "beta",
+      "timeUpdated": 1789257602,
+      "firstSeen": 1789257820,
+      "manifests": {
+        "4487311": {
+          "gid": "2070166010910893882",
+          "size": 385925918,
+          "download": 184173856
+        },
+        "4487312": {
+          "gid": "2280411898435763545",
+          "size": 786503804,
+          "download": 509554032
+        }
+      }
     }
   ],
-  "_change_number": 38810825,
+  "_change_number": 38827663,
   "_missing_token": false,
-  "_sha": "f29ddb5b11a52652a6a9615402765f89a6dab75a",
+  "_sha": "838412b10edc100c264ddb9a720dfb65e56888e0",
   "_size": 5900,
   "appid": "4487310",
   "common": {
@@ -269,9 +287,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "184125472",
-          "gid": "3048114577082579980",
-          "size": "385886730"
+          "download": "184173856",
+          "gid": "2070166010910893882",
+          "size": "385925918"
         },
         "old_version": {
           "download": "169867488",
@@ -291,9 +309,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "509440160",
-          "gid": "5301497719010236197",
-          "size": "786485255"
+          "download": "509554032",
+          "gid": "2280411898435763545",
+          "size": "786503804"
         },
         "old_version": {
           "download": "482201168",
@@ -310,10 +328,10 @@
     "baselanguages": "english,japanese,russian,schinese,spanish",
     "branches": {
       "beta": {
-        "buildid": "25266133",
+        "buildid": "25277243",
         "description": "beta for devs",
-        "timebuildupdated": "1789180245",
-        "timeupdated": "1789180245"
+        "timebuildupdated": "1789257602",
+        "timeupdated": "1789257602"
       },
       "old_version": {
         "buildid": "24779630",

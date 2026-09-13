@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789250808,
+  "_lastChecked": 1789257725,
   "_history": [
     {
       "buildId": "24191202",
@@ -13,12 +13,25 @@
           "download": 92519520
         }
       }
+    },
+    {
+      "buildId": "25276382",
+      "branch": "public",
+      "timeUpdated": 1789251985,
+      "firstSeen": 1789257725,
+      "manifests": {
+        "4392381": {
+          "gid": "3064398176349150428",
+          "size": 893660572,
+          "download": 776890288
+        }
+      }
     }
   ],
-  "_change_number": 38744478,
+  "_change_number": 38826601,
   "_missing_token": false,
-  "_sha": "5d69b3e905370b9d2e4c71d13f5062c5cb6005a7",
-  "_size": 4722,
+  "_sha": "b6e0b643ab94a8b15340274287e706830e3c77e5",
+  "_size": 5044,
   "appid": "4392380",
   "common": {
     "associations": {
@@ -67,6 +80,14 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
+    "eulas": {
+      "0": {
+        "id": "4392380_eula_0",
+        "name": "Sunrise EULA",
+        "url": "https://store.steampowered.com//eula/4392380_eula_0",
+        "version": "1"
+      }
+    },
     "gameid": "4392380",
     "genres": {
       "0": "25",
@@ -205,18 +226,18 @@
       },
       "manifests": {
         "public": {
-          "download": "92519520",
-          "gid": "4661016218753602465",
-          "size": "123972413"
+          "download": "776890288",
+          "gid": "3064398176349150428",
+          "size": "893660572"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "24191202",
-        "timebuildupdated": "1783981118",
-        "timeupdated": "1783981372"
+        "buildid": "25276382",
+        "timebuildupdated": "1789251693",
+        "timeupdated": "1789251985"
       }
     },
     "privatebranches": "1",
@@ -234,6 +255,14 @@
       "0": {
         "path": "Sunrise",
         "pattern": "*.ini",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Sunrise/levels",
+        "pattern": "*.sr",
         "platforms": {
           "1": "Windows"
         },

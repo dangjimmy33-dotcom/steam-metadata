@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789251447,
-  "_history": [],
-  "_change_number": 38594779,
-  "_missing_token": true,
-  "_sha": "4975f7ce3ec32df34120a25fccb5da56a888052e",
-  "_size": 3019,
+  "_lastChecked": 1789258423,
+  "_history": [
+    {
+      "buildId": "24705966",
+      "branch": "public",
+      "timeUpdated": 1786592664,
+      "firstSeen": 1789258423,
+      "manifests": {
+        "5104331": {
+          "gid": "2659972517987210888",
+          "size": 1110778428,
+          "download": 346019392
+        }
+      }
+    }
+  ],
+  "_change_number": 38827420,
+  "_missing_token": false,
+  "_sha": "485db92a23a2640eb19900fcc8825b1b4266ed25",
+  "_size": 3647,
   "appid": "5104330",
   "common": {
     "associations": {
@@ -36,7 +50,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5104330",
     "genres": {
       "0": "1",
@@ -107,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8761f77a086274438bf7d82a6f03f14b73a8c1e4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789256398",
     "store_asset_mtime": "1787168931",
     "store_tags": {
       "0": "19",
@@ -136,5 +150,41 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Kilnborn",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Kilnborn.exe"
+      }
+    }
+  },
+  "depots": {
+    "5104331": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "346019392",
+          "gid": "2659972517987210888",
+          "size": "1110778428"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24705966",
+        "timebuildupdated": "1786592577",
+        "timeupdated": "1786592664"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kilnfire Games",
+    "publisher": "Kilnfire Games"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789249080,
+  "_lastChecked": 1789255820,
   "_history": [
     {
       "buildId": "25015692",
@@ -38,10 +38,10 @@
       }
     }
   ],
-  "_change_number": 38825861,
+  "_change_number": 38826856,
   "_missing_token": false,
-  "_sha": "ce936b1f01afa3f06fed505db5ab5a6839ebb403",
-  "_size": 8995,
+  "_sha": "13a20241620628b6a473d9578a3ba86d1d246b48",
+  "_size": 8985,
   "appid": "2712380",
   "common": {
     "associations": {
@@ -295,7 +295,8 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
   "config": {
     "installdir": "Legends of Dragaea Idle Dungeons",
@@ -304,49 +305,47 @@
         "config": {
           "oslist": "windows"
         },
-        "description": "Launch Game",
+        "description": "Legends of Dragaea: Idle Dungeons",
         "description_loc": {
-          "english": "Launch Game"
+          "english": "Legends of Dragaea: Idle Dungeons"
         },
         "executable": "Legends Of Dragaea Idle Dungeons.exe",
-        "type": "default"
+        "type": "option1"
       },
       "1": {
         "config": {
           "osarch": "64",
           "oslist": "linux"
         },
-        "description": "Launch Game",
+        "description": "Legends of Dragaea: Idle Dungeons",
         "description_loc": {
-          "english": "Launch Game"
+          "english": "Legends of Dragaea: Idle Dungeons"
         },
         "executable": "Dragaea.x86_64",
-        "type": "default"
+        "type": "option1"
       },
       "2": {
         "config": {
-          "betakey": "development",
           "oslist": "windows"
         },
-        "description": "Launch Workshop Uploader (WINDOWS)",
+        "description": "Workshop Uploader",
         "description_loc": {
-          "english": "Launch Workshop Uploader (WINDOWS)"
+          "english": "Workshop Uploader"
         },
         "executable": "Workshop Uploader/Workshop Uploader.exe",
-        "type": "option1"
+        "type": "option2"
       },
       "3": {
         "config": {
-          "betakey": "development",
           "osarch": "64",
           "oslist": "linux"
         },
-        "description": "Launch Workshop Uploader (LINUX)",
+        "description": "Workshop Uploader",
         "description_loc": {
-          "english": "Launch Workshop Uploader (LINUX)"
+          "english": "Workshop Uploader"
         },
         "executable": "Workshop Uploader/Workshop Uploader.x86_64",
-        "type": "option1"
+        "type": "option2"
       }
     },
     "steamcontrollertouchtemplateindex": "9",

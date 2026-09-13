@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789251418,
+  "_lastChecked": 1789258391,
   "_history": [
     {
       "buildId": "25106321",
@@ -108,11 +108,47 @@
           "download": 113051040
         }
       }
+    },
+    {
+      "buildId": "25276506",
+      "branch": "patch-test",
+      "timeUpdated": 1789252466,
+      "firstSeen": 1789258391,
+      "manifests": {
+        "5064261": {
+          "gid": "7506347320608709867",
+          "size": 1233357278,
+          "download": 972364016
+        },
+        "5074440": {
+          "gid": "6624387425655629221",
+          "size": 120458867,
+          "download": 113051040
+        }
+      }
+    },
+    {
+      "buildId": "25276506",
+      "branch": "public",
+      "timeUpdated": 1789253899,
+      "firstSeen": 1789258391,
+      "manifests": {
+        "5064261": {
+          "gid": "7506347320608709867",
+          "size": 1233357278,
+          "download": 972364016
+        },
+        "5074440": {
+          "gid": "6624387425655629221",
+          "size": 120458867,
+          "download": 113051040
+        }
+      }
     }
   ],
-  "_change_number": 38807671,
+  "_change_number": 38826985,
   "_missing_token": false,
-  "_sha": "6ec257836334bc9937a410b0169f75ef4a74b1f9",
+  "_sha": "e71c651a896fdc03f008f4c430cc2f48a8d55513",
   "_size": 5151,
   "appid": "5064260",
   "common": {
@@ -293,14 +329,14 @@
     "5064261": {
       "manifests": {
         "patch-test": {
-          "download": "936273888",
-          "gid": "7780617199710829010",
-          "size": "1196553029"
+          "download": "972364016",
+          "gid": "7506347320608709867",
+          "size": "1233357278"
         },
         "public": {
-          "download": "936273888",
-          "gid": "7780617199710829010",
-          "size": "1196553029"
+          "download": "972364016",
+          "gid": "7506347320608709867",
+          "size": "1233357278"
         }
       }
     },
@@ -322,15 +358,15 @@
     "baselanguages": "english,turkish",
     "branches": {
       "patch-test": {
-        "buildid": "25263112",
+        "buildid": "25276506",
         "description": "CRETA v1.0.1 Test Branch",
-        "timebuildupdated": "1789164236",
-        "timeupdated": "1789164236"
+        "timebuildupdated": "1789252466",
+        "timeupdated": "1789252466"
       },
       "public": {
-        "buildid": "25263112",
-        "timebuildupdated": "1789164236",
-        "timeupdated": "1789164863"
+        "buildid": "25276506",
+        "timebuildupdated": "1789252466",
+        "timeupdated": "1789253899"
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789250900,
+  "_lastChecked": 1789257827,
   "_history": [
     {
       "buildId": "23162219",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 35762780,
+  "_change_number": 38827042,
   "_missing_token": false,
-  "_sha": "297f16b7c40d0012024761eedef8308d3118ee3a",
-  "_size": 5848,
+  "_sha": "e1264735e37630e225ccb2c164095a8b5dbbe936",
+  "_size": 6017,
   "appid": "4492940",
   "common": {
     "aicontenttype": "1",
@@ -177,9 +177,17 @@
     "launch": {
       "0": {
         "config": {
+          "betakey": "default",
           "oslist": "windows"
         },
         "executable": "FTS/windows/FTS_EA0.1.1.exe"
+      },
+      "1": {
+        "config": {
+          "betakey": "test",
+          "oslist": "windows"
+        },
+        "executable": "FTS.exe"
       }
     }
   },
@@ -199,7 +207,8 @@
         "timebuildupdated": "1778354496",
         "timeupdated": "1778354796"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Rookie 7 Studio",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789249335,
+  "_lastChecked": 1789256104,
   "_history": [
     {
       "buildId": "24884539",
@@ -18,12 +18,30 @@
           "download": 3716002368
         }
       }
+    },
+    {
+      "buildId": "25275457",
+      "branch": "public",
+      "timeUpdated": 1789251786,
+      "firstSeen": 1789256104,
+      "manifests": {
+        "2956722": {
+          "gid": "8040021720153455636",
+          "size": 4077429173,
+          "download": 3835872256
+        },
+        "2956723": {
+          "gid": "1739042270993547836",
+          "size": 4086426577,
+          "download": 3728394544
+        }
+      }
     }
   ],
-  "_change_number": 38825146,
+  "_change_number": 38826595,
   "_missing_token": false,
-  "_sha": "d121ea883882b0b110dcf9dcb496c4dba0ce80a2",
-  "_size": 6750,
+  "_sha": "9e0d72b0f5f6b97075fd551236cb2d45925a3b00",
+  "_size": 7728,
   "appid": "2956720",
   "common": {
     "aicontenttype": "1",
@@ -38,9 +56,12 @@
       }
     },
     "category": {
+      "category_18": "1",
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_55": "1",
+      "category_57": "1",
       "category_61": "1",
       "category_62": "1",
       "category_64": "1",
@@ -48,12 +69,15 @@
       "category_67": "1",
       "category_68": "1",
       "category_69": "1",
-      "category_78": "1"
+      "category_74": "1",
+      "category_78": "1",
+      "category_80": "1"
     },
     "clienticon": "fd735d15c150998507f3ced7613234b057f009bd",
     "clienttga": "d6b79d7df8cd3ffeeeb05e12ec5e42a697582430",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
+    "controller_support": "partial",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -145,6 +169,7 @@
     "small_capsule": {
       "english": "5aef97286211ba4b4add8ba6f704f32e2f10dfdc/capsule_231x87.jpg"
     },
+    "steam_deck_blog_url": "https://steamcommunity.com/games/2956720/announcements/detail/692020124159312250",
     "steam_release_date": "1786550530",
     "store_asset_mtime": "1786549600",
     "store_tags": {
@@ -235,7 +260,32 @@
         "executable": "StarChefSimulator.sh",
         "type": "default"
       }
-    }
+    },
+    "steamconfigurator3rdpartynative": "15",
+    "steamcontrollerconfigdetails": {
+      "3800489474": {
+        "controller_type": "controller_ps5",
+        "enabled_branches": "default,preview",
+        "use_action_block": "false"
+      },
+      "3800506159": {
+        "controller_type": "controller_switch_pro",
+        "enabled_branches": "default,preview",
+        "use_action_block": "false"
+      },
+      "3800523841": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default,preview",
+        "use_action_block": "false"
+      },
+      "3800542592": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default,preview",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "228989": {
@@ -259,9 +309,9 @@
       },
       "manifests": {
         "public": {
-          "download": "3819070336",
-          "gid": "1228032791119178639",
-          "size": "4060180530"
+          "download": "3835872256",
+          "gid": "8040021720153455636",
+          "size": "4077429173"
         }
       }
     },
@@ -272,18 +322,18 @@
       },
       "manifests": {
         "public": {
-          "download": "3716002368",
-          "gid": "1423577946118983070",
-          "size": "4072949736"
+          "download": "3728394544",
+          "gid": "1739042270993547836",
+          "size": "4086426577"
         }
       }
     },
     "baselanguages": "english,german,french,spanish,schinese,russian",
     "branches": {
       "public": {
-        "buildid": "24884539",
-        "timebuildupdated": "1787436528",
-        "timeupdated": "1787436914"
+        "buildid": "25275457",
+        "timebuildupdated": "1789245515",
+        "timeupdated": "1789251786"
       }
     },
     "hasdepotsindlc": "1",

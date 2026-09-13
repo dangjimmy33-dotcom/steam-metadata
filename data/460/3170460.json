@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789249563,
+  "_lastChecked": 1789256357,
   "_history": [
     {
       "buildId": "25249342",
@@ -26,12 +26,30 @@
           "download": 30253337056
         }
       }
+    },
+    {
+      "buildId": "25276050",
+      "branch": "public",
+      "timeUpdated": 1789249592,
+      "firstSeen": 1789256357,
+      "manifests": {
+        "3170461": {
+          "gid": "8158867550593418525",
+          "size": 31195017740,
+          "download": 30253337056
+        },
+        "5046781": {
+          "gid": "868722780314023421",
+          "size": 7517170012,
+          "download": 6894184928
+        }
+      }
     }
   ],
-  "_change_number": 38821083,
+  "_change_number": 38826597,
   "_missing_token": false,
-  "_sha": "43d51976197cd17187b1b035fc7a375dd57c1acd",
-  "_size": 5054,
+  "_sha": "515c5a3f49188d4ce82510c8cf05d0e8498e7815",
+  "_size": 5156,
   "appid": "3170460",
   "common": {
     "associations": {
@@ -200,7 +218,7 @@
           "english": "Play Little Shifu: Old Days",
           "schinese": "启动《小先生：旧日篇》"
         },
-        "executable": "OldDays\\小先生：旧日篇.exe",
+        "executable": "OldDays\\小先生.exe",
         "workingdir": "OldDays"
       }
     }
@@ -245,14 +263,20 @@
         "oslist": "windows"
       },
       "dlcappid": "5046780",
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "6894184928",
+          "gid": "868722780314023421",
+          "size": "7517170012"
+        }
+      }
     },
     "baselanguages": "schinese",
     "branches": {
       "public": {
-        "buildid": "25256730",
-        "timebuildupdated": "1789140467",
-        "timeupdated": "1789140544"
+        "buildid": "25276050",
+        "timebuildupdated": "1789249592",
+        "timeupdated": "1789249592"
       }
     },
     "hasdepotsindlc": "1",
