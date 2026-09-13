@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789316639,
+  "_lastChecked": 1789323862,
   "_history": [
     {
       "buildId": "24454477",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38312415,
+  "_change_number": 38840728,
   "_missing_token": false,
-  "_sha": "9e723b2c1d2b9e74e9d4cc719e3cc31ef4eebafa",
-  "_size": 4140,
+  "_sha": "3111d8f0d1994d61faf4e7b5267011aae4c9524b",
+  "_size": 4774,
   "appid": "4222910",
   "common": {
     "associations": {
@@ -204,5 +204,38 @@
     "developer": " Snot Bubbles Productions",
     "homepage": "https://x.com/to_be_from",
     "publisher": " Snot Bubbles Productions"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Snot Bubbles\\Boreal Tenebrae ACT 0",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Snot Bubbles\\Boreal Tenebrae ACT 0",
+        "pattern": "*.jpg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

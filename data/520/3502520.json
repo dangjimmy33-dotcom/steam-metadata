@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789315839,
+  "_lastChecked": 1789323026,
   "_history": [
     {
       "buildId": "19037494",
@@ -13,12 +13,30 @@
           "download": 54130528
         }
       }
+    },
+    {
+      "buildId": "25286164",
+      "branch": "beta",
+      "timeUpdated": 1789322991,
+      "firstSeen": 1789323026,
+      "manifests": {
+        "3502521": {
+          "gid": "104341122222979830",
+          "size": 208828636,
+          "download": 76406224
+        },
+        "3502522": {
+          "gid": "7857609296757800330",
+          "size": 172642786,
+          "download": 68515600
+        }
+      }
     }
   ],
-  "_change_number": 36897839,
+  "_change_number": 38840927,
   "_missing_token": false,
-  "_sha": "97df4237d6b6194fe6d0c563e13c3a412d903778",
-  "_size": 3656,
+  "_sha": "11e810f0bbc91b99d276a18f602f5793558a4962",
+  "_size": 4313,
   "appid": "3502520",
   "common": {
     "associations": {
@@ -146,13 +164,30 @@
     "installdir": "Math Attack",
     "launch": {
       "0": {
-        "executable": "mathgame.exe"
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MathAttack.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "MathAttack.x86_64"
       }
     }
   },
   "depots": {
     "3502521": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
+        "beta": {
+          "download": "76406224",
+          "gid": "104341122222979830",
+          "size": "208828636"
+        },
         "public": {
           "download": "54130528",
           "gid": "6070375299251728533",
@@ -160,7 +195,25 @@
         }
       }
     },
+    "3502522": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "68515600",
+          "gid": "7857609296757800330",
+          "size": "172642786"
+        }
+      }
+    },
     "branches": {
+      "beta": {
+        "buildid": "25286164",
+        "description": "beta branch",
+        "timebuildupdated": "1789322972",
+        "timeupdated": "1789322991"
+      },
       "public": {
         "buildid": "19037494",
         "timebuildupdated": "1751122505",

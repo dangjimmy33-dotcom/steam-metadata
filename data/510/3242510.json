@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789315544,
-  "_history": [],
-  "_change_number": 38629159,
-  "_missing_token": true,
-  "_sha": "b40ae8c4b6deb82e81b7bb000c13f4e22bc566b5",
-  "_size": 4791,
+  "_lastChecked": 1789322717,
+  "_history": [
+    {
+      "buildId": "25285064",
+      "branch": "public",
+      "timeUpdated": 1789316563,
+      "firstSeen": 1789322717,
+      "manifests": {
+        "3242511": {
+          "gid": "6947291702031360195",
+          "size": 4143778206,
+          "download": 535637344
+        }
+      }
+    }
+  ],
+  "_change_number": 38839411,
+  "_missing_token": false,
+  "_sha": "103a09c936555d076876b961a4405c22eabd2ee6",
+  "_size": 5514,
   "appid": "3242510",
   "common": {
     "aicontenttype": "1",
@@ -26,7 +40,6 @@
     "clienttga": "5d7af80bba47508e51a038af2c3ced17fb08b267",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3242510",
     "genres": {
       "0": "1",
@@ -115,12 +128,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "77aaea88d1d6943621ce77fc427cc17726f160ad/capsule_231x87.jpg",
       "schinese": "cc7d557eb05d5345086e9ecaee8e9db320283cb3/capsule_231x87_schinese.jpg",
       "tchinese": "f283e5ba4be9f0c63ca06229da9b25101debfec1/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789317381",
     "store_asset_mtime": "1779375856",
     "store_tags": {
       "0": "122",
@@ -160,5 +174,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gun Of Fate  The Silver Gun Of Ylia",
+    "launch": {
+      "0": {
+        "executable": "Gun Of Fate The Silver Gun Of Ylia.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3242511": {
+      "manifests": {
+        "public": {
+          "download": "535637344",
+          "gid": "6947291702031360195",
+          "size": "4143778206"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25285064",
+        "timebuildupdated": "1789316515",
+        "timeupdated": "1789316563"
+      }
+    }
+  },
+  "extended": {
+    "developer": "NiceandSimple Gaming",
+    "homepage": "https://www.facebook.com/people/NiceSimple-Gaming/100093548599128/",
+    "publisher": "NiceandSimple Gaming"
+  }
 }

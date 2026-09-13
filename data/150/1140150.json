@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789312969,
+  "_lastChecked": 1789319990,
   "_history": [
     {
       "buildId": "20552480",
@@ -69,12 +69,35 @@
           "download": 51719008
         }
       }
+    },
+    {
+      "buildId": "25284489",
+      "branch": "beta",
+      "timeUpdated": 1789313115,
+      "firstSeen": 1789319990,
+      "manifests": {
+        "1140151": {
+          "gid": "4345828400280389512",
+          "size": 10564021804,
+          "download": 2122686496
+        },
+        "1140152": {
+          "gid": "5307895407872629226",
+          "size": 10583747868,
+          "download": 2132308512
+        },
+        "1140159": {
+          "gid": "9040816952781435953",
+          "size": 113049157,
+          "download": 51719008
+        }
+      }
     }
   ],
-  "_change_number": 38837366,
+  "_change_number": 38838301,
   "_missing_token": false,
-  "_sha": "d499863fe1e3ae4e114d75d6adc45689b0d58d27",
-  "_size": 10397,
+  "_sha": "d126fc911eb7455c9582abdd796d4928f35cb943",
+  "_size": 10651,
   "appid": "1140150",
   "common": {
     "associations": {
@@ -395,6 +418,17 @@
           "schinese": "运行Mod启动器"
         },
         "executable": "ModTheLBoL.Desktop.exe"
+      },
+      "3": {
+        "arguments": "--allmod",
+        "config": {
+          "betakey": "develop"
+        },
+        "description": "Start with All mod loaded.",
+        "description_loc": {
+          "english": "Start with All mod loaded."
+        },
+        "executable": "LBoL.exe"
       }
     }
   },
@@ -405,9 +439,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "1763820880",
-          "gid": "2262922701688309341",
-          "size": "5158930244"
+          "download": "2122686496",
+          "gid": "4345828400280389512",
+          "size": "10564021804"
         },
         "older": {
           "download": "1729580992",
@@ -427,9 +461,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "1757829008",
-          "gid": "9087029170994327570",
-          "size": "5142759073"
+          "download": "2132308512",
+          "gid": "5307895407872629226",
+          "size": "10583747868"
         },
         "older": {
           "download": "1724633328",
@@ -468,10 +502,10 @@
     "baselanguages": "",
     "branches": {
       "beta": {
-        "buildid": "20552480",
-        "description": "v1.8.0",
-        "timebuildupdated": "1761530571",
-        "timeupdated": "1761530571"
+        "buildid": "25284489",
+        "description": "v1.8.1",
+        "timebuildupdated": "1789313115",
+        "timeupdated": "1789313115"
       },
       "older": {
         "buildid": "22727602",

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789317422,
-  "_history": [],
-  "_change_number": 38495819,
-  "_missing_token": true,
-  "_sha": "f3b74c2e358f13c66c69d48b20bb4165ee9be880",
-  "_size": 2968,
+  "_lastChecked": 1789324678,
+  "_history": [
+    {
+      "buildId": "25050684",
+      "branch": "public",
+      "timeUpdated": 1788237448,
+      "firstSeen": 1789324678,
+      "manifests": {
+        "5004721": {
+          "gid": "8248746347417814542",
+          "size": 1789558972,
+          "download": 1334780512
+        }
+      }
+    }
+  ],
+  "_change_number": 38839770,
+  "_missing_token": false,
+  "_sha": "dedae5890c5c2cc0c48c8f93337314d1d674e322",
+  "_size": 3721,
   "appid": "5004720",
   "common": {
     "associations": {
@@ -35,7 +49,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5004720",
     "genres": {
       "0": "4"
@@ -105,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bf3d74de0e29410b84c61434120e7bbd4100ffb0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789318741",
     "store_asset_mtime": "1788125872",
     "store_tags": {
       "0": "1775",
@@ -132,5 +146,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sticky Fingers",
+    "launch": {
+      "0": {
+        "executable": "LankyLooters.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5004721": {
+      "manifests": {
+        "public": {
+          "download": "1334780512",
+          "gid": "8248746347417814542",
+          "size": "1789558972"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25050684",
+        "timebuildupdated": "1788237335",
+        "timeupdated": "1788237448"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Foxmoon Studios",
+    "publisher": "Foxmoon Studios"
+  }
 }

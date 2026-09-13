@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789316642,
+  "_lastChecked": 1789323865,
   "_history": [
     {
       "buildId": "24803873",
@@ -18,12 +18,35 @@
           "download": 356066800
         }
       }
+    },
+    {
+      "buildId": "25248598",
+      "branch": "public",
+      "timeUpdated": 1789323348,
+      "firstSeen": 1789323865,
+      "manifests": {
+        "4225401": {
+          "gid": "3130552153426237979",
+          "size": 544756928,
+          "download": 347158160
+        },
+        "4225402": {
+          "gid": "8180500398735074474",
+          "size": 522373683,
+          "download": 332159904
+        },
+        "4225403": {
+          "gid": "590617702476231590",
+          "size": 491407155,
+          "download": 324847168
+        }
+      }
     }
   ],
-  "_change_number": 38786340,
+  "_change_number": 38841071,
   "_missing_token": false,
-  "_sha": "317a46d4f3c6183e3577f5fdd7e65e248467cd6b",
-  "_size": 7620,
+  "_sha": "a9d33d61a67d97930e17a181fe8bbbc24aec0cd9",
+  "_size": 7770,
   "appid": "4225400",
   "common": {
     "associations": {
@@ -116,8 +139,8 @@
     "linuxclienticon": "4d31286277daa1d028b09c4ea131818a639fe6ed",
     "name": "I.T. Never Ends",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows,linux",
+    "osextended": "macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos,linux",
     "primary_genre": "28",
     "releasestate": "released",
     "review_percentage": "98",
@@ -285,9 +308,9 @@
       },
       "manifests": {
         "public": {
-          "download": "322317056",
-          "gid": "7734247702377999137",
-          "size": "519082819"
+          "download": "347158160",
+          "gid": "3130552153426237979",
+          "size": "544756928"
         }
       }
     },
@@ -297,9 +320,9 @@
       },
       "manifests": {
         "public": {
-          "download": "356066800",
-          "gid": "5518332903457929235",
-          "size": "943096458"
+          "download": "332159904",
+          "gid": "8180500398735074474",
+          "size": "522373683"
         }
       }
     },
@@ -308,13 +331,19 @@
         "osarch": "64",
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "324847168",
+          "gid": "590617702476231590",
+          "size": "491407155"
+        }
+      }
     },
     "branches": {
       "public": {
-        "buildid": "24803873",
-        "timebuildupdated": "1787081330",
-        "timeupdated": "1787088304"
+        "buildid": "25248598",
+        "timebuildupdated": "1789114264",
+        "timeupdated": "1789323348"
       }
     },
     "privatebranches": "1"

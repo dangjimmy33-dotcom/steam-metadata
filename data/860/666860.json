@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789312378,
+  "_lastChecked": 1789319353,
   "_history": [
     {
       "buildId": "23857892",
@@ -44,11 +44,29 @@
           "download": 91134400
         }
       }
+    },
+    {
+      "buildId": "24916005",
+      "branch": "mac-beta",
+      "timeUpdated": 1789316352,
+      "firstSeen": 1789319353,
+      "manifests": {
+        "666861": {
+          "gid": "6661701416107901782",
+          "size": 351149692,
+          "download": 91134400
+        },
+        "666862": {
+          "gid": "3795229966589212265",
+          "size": 374975499,
+          "download": 100781632
+        }
+      }
     }
   ],
-  "_change_number": 38675563,
+  "_change_number": 38839158,
   "_missing_token": false,
-  "_sha": "7110baede1a4312570dbe6ed005035a6963eebf9",
+  "_sha": "4afcec578c24a050aaea4e9bc58bee3b254235aa",
   "_size": 6390,
   "appid": "666860",
   "common": {
@@ -288,9 +306,9 @@
       },
       "manifests": {
         "mac-beta": {
-          "download": "91319648",
-          "gid": "9146881147888412427",
-          "size": "351109212"
+          "download": "91134400",
+          "gid": "6661701416107901782",
+          "size": "351149692"
         },
         "public": {
           "download": "91134400",
@@ -305,19 +323,19 @@
       },
       "manifests": {
         "mac-beta": {
-          "download": "101242320",
-          "gid": "6077338737213280282",
-          "size": "375402312"
+          "download": "100781632",
+          "gid": "3795229966589212265",
+          "size": "374975499"
         }
       }
     },
     "baselanguages": "english,german,french,italian,spanish,portuguese",
     "branches": {
       "mac-beta": {
-        "buildid": "23857892",
+        "buildid": "24916005",
         "description": "mac beta version",
-        "timebuildupdated": "1782139493",
-        "timeupdated": "1782139558"
+        "timebuildupdated": "1787609032",
+        "timeupdated": "1789316352"
       },
       "public": {
         "buildid": "24916011",

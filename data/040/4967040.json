@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789317389,
+  "_lastChecked": 1789324644,
   "_history": [
     {
       "buildId": "24902172",
@@ -26,12 +26,38 @@
           "download": 65223936
         }
       }
+    },
+    {
+      "buildId": "25141902",
+      "branch": "legacy_0.2.0",
+      "timeUpdated": 1788620945,
+      "firstSeen": 1789324644,
+      "manifests": {
+        "4967041": {
+          "gid": "1608037216030938405",
+          "size": 67499025,
+          "download": 65223936
+        }
+      }
+    },
+    {
+      "buildId": "25285381",
+      "branch": "public",
+      "timeUpdated": 1789319725,
+      "firstSeen": 1789324644,
+      "manifests": {
+        "4967041": {
+          "gid": "4659990235145976334",
+          "size": 70547512,
+          "download": 68264064
+        }
+      }
     }
   ],
-  "_change_number": 38629512,
+  "_change_number": 38840072,
   "_missing_token": false,
-  "_sha": "af7523b97b283cc3c706953132e008dabadefcd9",
-  "_size": 4384,
+  "_sha": "cfcf23221aeecdeb42e6fdb6021336b66d41f12e",
+  "_size": 4689,
   "appid": "4967040",
   "common": {
     "aicontenttype": "1",
@@ -198,10 +224,15 @@
           "gid": "1918333830487228076",
           "size": "67465353"
         },
-        "public": {
+        "legacy_0.2.0": {
           "download": "65223936",
           "gid": "1608037216030938405",
           "size": "67499025"
+        },
+        "public": {
+          "download": "68264064",
+          "gid": "4659990235145976334",
+          "size": "70547512"
         }
       }
     },
@@ -212,10 +243,16 @@
         "timebuildupdated": "1787559265",
         "timeupdated": "1787565652"
       },
-      "public": {
+      "legacy_0.2.0": {
         "buildid": "25141902",
+        "description": "Legacy v0.2.0 for continuing old save files",
         "timebuildupdated": "1788619118",
         "timeupdated": "1788620945"
+      },
+      "public": {
+        "buildid": "25285381",
+        "timebuildupdated": "1789318421",
+        "timeupdated": "1789319725"
       }
     }
   },

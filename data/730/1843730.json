@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789313899,
+  "_lastChecked": 1789320980,
   "_history": [
     {
       "buildId": "25142214",
@@ -470,12 +470,30 @@
           "download": 116648192
         }
       }
+    },
+    {
+      "buildId": "25285579",
+      "branch": "beta",
+      "timeUpdated": 1789319531,
+      "firstSeen": 1789320980,
+      "manifests": {
+        "1843731": {
+          "gid": "7757911203566872050",
+          "size": 519341359,
+          "download": 119772384
+        },
+        "1843732": {
+          "gid": "2597468655903287577",
+          "size": 486531654,
+          "download": 116648192
+        }
+      }
     }
   ],
-  "_change_number": 38831509,
+  "_change_number": 38840016,
   "_missing_token": false,
-  "_sha": "3e268c4f69c9040681ca2a9b802c943519c961d8",
-  "_size": 8464,
+  "_sha": "cdfae5c52772b50fc36827d75c3981fa93f92f00",
+  "_size": 8461,
   "appid": "1843730",
   "common": {
     "associations": {
@@ -767,9 +785,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "119753424",
-          "gid": "5876902847808376709",
-          "size": "519310203"
+          "download": "119772384",
+          "gid": "7757911203566872050",
+          "size": "519341359"
         },
         "classicmode": {
           "download": "95429920",
@@ -802,9 +820,9 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25280034",
-        "timebuildupdated": "1789281198",
-        "timeupdated": "1789281198"
+        "buildid": "25285579",
+        "timebuildupdated": "1789319531",
+        "timeupdated": "1789319531"
       },
       "classicmode": {
         "buildid": "15310745",
@@ -827,8 +845,8 @@
     "publisher": "Woodland Development"
   },
   "ufs": {
-    "maxnumfiles": "5000",
-    "quota": "50000000000",
+    "maxnumfiles": "100",
+    "quota": "500000000",
     "savefiles": {
       "0": {
         "path": "Woodland Development/Last Group Out/",

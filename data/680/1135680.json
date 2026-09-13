@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789312964,
+  "_lastChecked": 1789319985,
   "_history": [
     {
       "buildId": "17554939",
@@ -13,12 +13,25 @@
           "download": 1276574688
         }
       }
+    },
+    {
+      "buildId": "25285447",
+      "branch": "playtest",
+      "timeUpdated": 1789319568,
+      "firstSeen": 1789319985,
+      "manifests": {
+        "1135681": {
+          "gid": "7524605659252750226",
+          "size": 1122642046,
+          "download": 854326928
+        }
+      }
     }
   ],
-  "_change_number": 38211731,
+  "_change_number": 38840025,
   "_missing_token": false,
-  "_sha": "cf561d01443e0ac82f9d03470f5b2c799dd5c322",
-  "_size": 6130,
+  "_sha": "fce72f662924ad6db2cf488326d174f44c67a73a",
+  "_size": 6395,
   "appid": "1135680",
   "common": {
     "associations": {
@@ -248,6 +261,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "playtest": {
+          "download": "854326928",
+          "gid": "7524605659252750226",
+          "size": "1122642046"
+        },
         "public": {
           "download": "1276574688",
           "gid": "7355146656355421998",
@@ -263,6 +281,12 @@
     },
     "baselanguages": "english,latam",
     "branches": {
+      "playtest": {
+        "buildid": "25285447",
+        "description": "Playtest",
+        "timebuildupdated": "1789318778",
+        "timeupdated": "1789319568"
+      },
       "public": {
         "buildid": "17554939",
         "timebuildupdated": "1740790418",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789317455,
+  "_lastChecked": 1789324712,
   "_history": [
     {
       "buildId": "25174581",
@@ -26,12 +26,25 @@
           "download": 35672160
         }
       }
+    },
+    {
+      "buildId": "25285616",
+      "branch": "public",
+      "timeUpdated": 1789319936,
+      "firstSeen": 1789324712,
+      "manifests": {
+        "5042311": {
+          "gid": "713180805944878982",
+          "size": 82843048,
+          "download": 35743744
+        }
+      }
     }
   ],
-  "_change_number": 38824850,
+  "_change_number": 38840124,
   "_missing_token": false,
-  "_sha": "9cd3235efbc5c0fae1f744fe2b1724c40c176539",
-  "_size": 4085,
+  "_sha": "783155b1bb17ae6aaa82f7cce78f27c5fabf4ada",
+  "_size": 4973,
   "appid": "5042310",
   "common": {
     "aicontenttype": "1",
@@ -183,17 +196,17 @@
     "5042311": {
       "manifests": {
         "public": {
-          "download": "35672160",
-          "gid": "3243484843598862813",
-          "size": "82665896"
+          "download": "35743744",
+          "gid": "713180805944878982",
+          "size": "82843048"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25275251",
-        "timebuildupdated": "1789244097",
-        "timeupdated": "1789244205"
+        "buildid": "25285616",
+        "timebuildupdated": "1789319818",
+        "timeupdated": "1789319936"
       }
     }
   },
@@ -208,6 +221,46 @@
       "0": {
         "path": "Mothership",
         "pattern": "mothership.save.v1.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Mothership",
+        "pattern": "mothership.save.v2.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Mothership",
+        "pattern": "mothership.save.v2.initialized.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Mothership",
+        "pattern": "mothership.profile.*.mothership.save.v2.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Mothership",
+        "pattern": "mothership.profile.*.mothership.save.v2.initialized.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Mothership",
+        "pattern": "mothership.profiles.active.json",
         "platforms": {
           "1": "Windows"
         },

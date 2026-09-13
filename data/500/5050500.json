@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789317462,
-  "_history": [],
-  "_change_number": 38424399,
-  "_missing_token": true,
-  "_sha": "5c17058d827358e7b749186af30eaea3015d9475",
-  "_size": 4425,
+  "_lastChecked": 1789324719,
+  "_history": [
+    {
+      "buildId": "25285862",
+      "branch": "public",
+      "timeUpdated": 1789321378,
+      "firstSeen": 1789324719,
+      "manifests": {
+        "5050501": {
+          "gid": "2944506215993806962",
+          "size": 82433310,
+          "download": 31653920
+        },
+        "5050502": {
+          "gid": "6908647116358840389",
+          "size": 104439276,
+          "download": 38658512
+        }
+      }
+    }
+  ],
+  "_change_number": 38840769,
+  "_missing_token": false,
+  "_sha": "814e21f89533318b052bd97fd94b018cb3185502",
+  "_size": 6137,
   "appid": "5050500",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +49,7 @@
     },
     "clienticon": "7b5f1ede35d437ac16a4f6e5e400ee63792da3b5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -39,7 +59,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5050500",
     "genres": {
       "0": "4",
@@ -131,12 +150,13 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fcbb5713dce1e2034696685f0ec216b93f95268e/capsule_231x87.jpg",
       "japanese": "50b34a12b0b72602be04791e4683555be75261f6/capsule_231x87_japanese.jpg",
       "schinese": "cde6c302ecb097334504a5d29484efd96972744d/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1785987447",
     "store_tags": {
       "0": "597",
@@ -175,5 +195,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Chronicles-of-the-Layered-Realms",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Chronicles-of-the-Layered-Realms.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Chronicles-of-the-Layered-Realms.app/Contents/MacOS/Chronicles-of-the-Layered-Realms",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5050501": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "31653920",
+          "gid": "2944506215993806962",
+          "size": "82433310"
+        }
+      }
+    },
+    "5050502": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "38658512",
+          "gid": "6908647116358840389",
+          "size": "104439276"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25285862",
+        "timebuildupdated": "1789321217",
+        "timeupdated": "1789321378"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "添壹",
+    "isfreeapp": "1",
+    "publisher": "添壹"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/Chronicles-Layered-Realms-5050500avesDir",
+            "replace": "Library/RenPy/Chronicles-Layered-Realms-5050500"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RenPy/Chronicles-Layered-Realms-5050500",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

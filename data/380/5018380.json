@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789317434,
-  "_history": [],
-  "_change_number": 38677704,
-  "_missing_token": true,
-  "_sha": "723340aaa80beeb6aaf2366886eea8973350f168",
-  "_size": 2969,
+  "_lastChecked": 1789324689,
+  "_history": [
+    {
+      "buildId": "24819296",
+      "branch": "public",
+      "timeUpdated": 1787149550,
+      "firstSeen": 1789324689,
+      "manifests": {
+        "5018381": {
+          "gid": "2922706402927526726",
+          "size": 457481821,
+          "download": 331641584
+        }
+      }
+    }
+  ],
+  "_change_number": 38839798,
+  "_missing_token": false,
+  "_sha": "8cad12a9e56e431fb026af62003129e93a75b88e",
+  "_size": 3878,
   "appid": "5018380",
   "common": {
     "associations": {
@@ -34,7 +48,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5018380",
     "genres": {
       "0": "23",
@@ -105,7 +118,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "10a64e0a44e20f712ea9c04044604d6d4287a55f/capsule_231x87.jpg"
     },
@@ -131,5 +144,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gravity Knight",
+    "launch": {
+      "0": {
+        "executable": "Gravity Knight.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5018381": {
+      "manifests": {
+        "public": {
+          "download": "331641584",
+          "gid": "2922706402927526726",
+          "size": "457481821"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24819296",
+        "timebuildupdated": "1787147494",
+        "timeupdated": "1787149550"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Graviteam",
+    "isfreeapp": "1",
+    "publisher": "Graviteam"
+  },
+  "ufs": {
+    "maxnumfiles": "15",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "GROUP_11_Collab_Proj/Saved",
+        "pattern": "*",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
