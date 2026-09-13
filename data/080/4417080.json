@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789290987,
+  "_lastChecked": 1789302120,
   "_history": [
     {
       "buildId": "22479729",
@@ -13,12 +13,25 @@
           "download": 517128144
         }
       }
+    },
+    {
+      "buildId": "25281818",
+      "branch": "public",
+      "timeUpdated": 1789296162,
+      "firstSeen": 1789302120,
+      "manifests": {
+        "4417081": {
+          "gid": "8318978522673270293",
+          "size": 991344618,
+          "download": 518739008
+        }
+      }
     }
   ],
-  "_change_number": 38831177,
+  "_change_number": 38834141,
   "_missing_token": false,
-  "_sha": "c54327b6dc8e48dcbfa4abede70f1d8001c20624",
-  "_size": 7722,
+  "_sha": "4ad3543db968a8c3ceb44feaf5a4c525ed03bf10",
+  "_size": 7745,
   "appid": "4417080",
   "common": {
     "aicontenttype": "1",
@@ -278,18 +291,18 @@
     "4417081": {
       "manifests": {
         "public": {
-          "download": "517128144",
-          "gid": "5436932620557914581",
-          "size": "989491967"
+          "download": "518739008",
+          "gid": "8318978522673270293",
+          "size": "991344618"
         }
       }
     },
     "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
     "branches": {
       "public": {
-        "buildid": "22479729",
-        "timebuildupdated": "1774352277",
-        "timeupdated": "1774352304"
+        "buildid": "25281818",
+        "timebuildupdated": "1789296139",
+        "timeupdated": "1789296162"
       }
     }
   },
@@ -302,8 +315,8 @@
     "quota": "10000000000",
     "savefiles": {
       "0": {
-        "path": "Softlight Studio\\They Left in a Hurry",
-        "pattern": "*.json",
+        "path": "Softlight Studio/They Left in a Hurry/Steam/{64BitSteamID}",
+        "pattern": "save.json",
         "root": "WinAppDataLocalLow"
       }
     }

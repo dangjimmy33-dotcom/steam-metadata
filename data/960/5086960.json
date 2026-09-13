@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789291560,
-  "_history": [],
-  "_change_number": 38463688,
-  "_missing_token": true,
-  "_sha": "c02179650cb60db84e4c14338ea225faa10a7bef",
-  "_size": 2990,
+  "_lastChecked": 1789302786,
+  "_history": [
+    {
+      "buildId": "24922334",
+      "branch": "public",
+      "timeUpdated": 1787641275,
+      "firstSeen": 1789302786,
+      "manifests": {
+        "5086961": {
+          "gid": "6106421719929461526",
+          "size": 958440744,
+          "download": 409396272
+        }
+      }
+    }
+  ],
+  "_change_number": 38835362,
+  "_missing_token": false,
+  "_sha": "f86513fd17f158a923d189b48069b6a82f7b5b0a",
+  "_size": 3726,
   "appid": "5086960",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "81d8d2d59ef7a02ee10a8e1f3933ee9c34d60bf2",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5086960",
     "genres": {
       "0": "25",
@@ -96,7 +109,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8637b28dc4aaaf36dd5cf11824aaf705962a30c7/capsule_231x87.jpg"
     },
@@ -135,5 +148,47 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "WhyDidYouComeToMyHouse",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "WhyDidYouComeToMyHouse.exe"
+      }
+    }
+  },
+  "depots": {
+    "5086961": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "409396272",
+          "gid": "6106421719929461526",
+          "size": "958440744"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,schinese",
+    "branches": {
+      "public": {
+        "buildid": "24922334",
+        "timebuildupdated": "1787641106",
+        "timeupdated": "1787641275"
+      }
+    }
+  },
+  "extended": {
+    "developer": "JG Studio",
+    "publisher": "JG Studio"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
 }

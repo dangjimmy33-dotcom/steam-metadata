@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789290946,
+  "_lastChecked": 1789302072,
   "_history": [
     {
       "buildId": "22523933",
@@ -13,12 +13,51 @@
           "download": 2260458672
         }
       }
+    },
+    {
+      "buildId": "22523933",
+      "branch": "0.4.98.2",
+      "timeUpdated": 1789296941,
+      "firstSeen": 1789302072,
+      "manifests": {
+        "4368361": {
+          "gid": "178293203111704398",
+          "size": 5702531120,
+          "download": 2260458672
+        }
+      }
+    },
+    {
+      "buildId": "25281790",
+      "branch": "beta",
+      "timeUpdated": 1789296025,
+      "firstSeen": 1789302072,
+      "manifests": {
+        "4368361": {
+          "gid": "535987256588295861",
+          "size": 7136363251,
+          "download": 2673938880
+        }
+      }
+    },
+    {
+      "buildId": "25281790",
+      "branch": "public",
+      "timeUpdated": 1789299101,
+      "firstSeen": 1789302072,
+      "manifests": {
+        "4368361": {
+          "gid": "535987256588295861",
+          "size": 7136363251,
+          "download": 2673938880
+        }
+      }
     }
   ],
-  "_change_number": 37472789,
+  "_change_number": 38834807,
   "_missing_token": false,
-  "_sha": "c1ea347df840856e7d34c9155d538b4cbbdc3104",
-  "_size": 5238,
+  "_sha": "de72c35a7d885a803e64fd09aa120646098c69b3",
+  "_size": 5763,
   "appid": "4368360",
   "common": {
     "aicontenttype": "1",
@@ -211,18 +250,40 @@
         "oslist": "windows"
       },
       "manifests": {
-        "public": {
+        "0.4.98.2": {
           "download": "2260458672",
           "gid": "178293203111704398",
           "size": "5702531120"
+        },
+        "beta": {
+          "download": "2673938880",
+          "gid": "535987256588295861",
+          "size": "7136363251"
+        },
+        "public": {
+          "download": "2673938880",
+          "gid": "535987256588295861",
+          "size": "7136363251"
         }
       }
     },
     "branches": {
-      "public": {
+      "0.4.98.2": {
         "buildid": "22523933",
+        "description": "0.4.98.2",
         "timebuildupdated": "1774563426",
-        "timeupdated": "1774563557"
+        "timeupdated": "1789296941"
+      },
+      "beta": {
+        "buildid": "25281790",
+        "description": "Beta Branch",
+        "timebuildupdated": "1789295979",
+        "timeupdated": "1789296025"
+      },
+      "public": {
+        "buildid": "25281790",
+        "timebuildupdated": "1789295979",
+        "timeupdated": "1789299101"
       }
     }
   },

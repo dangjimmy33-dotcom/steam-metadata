@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789290926,
-  "_history": [],
-  "_change_number": 38625762,
-  "_missing_token": true,
-  "_sha": "f1164f3bfa62ccc661f7d0b93b2af58a30b75cc7",
-  "_size": 2891,
+  "_lastChecked": 1789302048,
+  "_history": [
+    {
+      "buildId": "24934912",
+      "branch": "public",
+      "timeUpdated": 1787684630,
+      "firstSeen": 1789302048,
+      "manifests": {
+        "4342671": {
+          "gid": "4983686513149699247",
+          "size": 954131657,
+          "download": 503139632
+        }
+      }
+    }
+  ],
+  "_change_number": 38834396,
+  "_missing_token": false,
+  "_sha": "c330db1686a47643c079e17a949351b87feecb82",
+  "_size": 3810,
   "appid": "4342670",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "7c85160c896224527d11e5b5bcdea6150e85c48f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4342670",
     "genres": {
       "0": "1",
@@ -99,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "21a015c6af3faef1be8403fb109630e4ca093e51/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789297268",
     "store_asset_mtime": "1787599361",
     "store_tags": {
       "0": "699",
@@ -127,5 +142,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Rallying Ball",
+    "launch": {
+      "0": {
+        "description": "Play The Rallying Ball",
+        "description_loc": {
+          "english": "Play The Rallying Ball"
+        },
+        "executable": "The Rallying Ball.exe"
+      }
+    }
+  },
+  "depots": {
+    "4342671": {
+      "manifests": {
+        "public": {
+          "download": "503139632",
+          "gid": "4983686513149699247",
+          "size": "954131657"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24934912",
+        "timebuildupdated": "1787684331",
+        "timeupdated": "1787684630"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Damian Michalski",
+    "publisher": "Damian Michalski"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "TRBGame/The Rallying Ball",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

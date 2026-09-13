@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789291614,
-  "_history": [],
-  "_change_number": 38539920,
-  "_missing_token": true,
-  "_sha": "d1ccaa563b3c0e9e6eb3a9b7af73d5db024fa3c1",
-  "_size": 2877,
+  "_lastChecked": 1789302850,
+  "_history": [
+    {
+      "buildId": "25079922",
+      "branch": "public",
+      "timeUpdated": 1788352467,
+      "firstSeen": 1789302850,
+      "manifests": {
+        "5177741": {
+          "gid": "5887914165436081221",
+          "size": 166084371,
+          "download": 50060992
+        }
+      }
+    }
+  ],
+  "_change_number": 38835461,
+  "_missing_token": false,
+  "_sha": "7b411d5ff4339d1409cb88c0607e0d5e39d33afa",
+  "_size": 3345,
   "appid": "5177740",
   "common": {
     "associations": {
@@ -30,7 +44,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5177740",
     "genres": {
       "0": "25"
@@ -100,7 +113,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "34330e9c43513d8a15f02e167a7e66cb2830c29c/capsule_231x87.jpg"
     },
@@ -127,5 +140,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "No Eyes See You",
+    "launch": {
+      "0": {
+        "executable": "NoEyesSeeYou.exe"
+      }
+    }
+  },
+  "depots": {
+    "5177741": {
+      "manifests": {
+        "public": {
+          "download": "50060992",
+          "gid": "5887914165436081221",
+          "size": "166084371"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25079922",
+        "timebuildupdated": "1788352405",
+        "timeupdated": "1788352467"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Crying ++",
+    "publisher": "Crying ++"
+  }
 }

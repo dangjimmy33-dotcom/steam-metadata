@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789291417,
-  "_history": [],
-  "_change_number": 38827898,
-  "_missing_token": true,
-  "_sha": "35dc5d974688fdbaf794ded234fe522aadc66245",
-  "_size": 3067,
+  "_lastChecked": 1789302622,
+  "_history": [
+    {
+      "buildId": "24747160",
+      "branch": "public",
+      "timeUpdated": 1786765357,
+      "firstSeen": 1789302622,
+      "manifests": {
+        "4908981": {
+          "gid": "6292929892874810209",
+          "size": 621556476,
+          "download": 216713328
+        }
+      }
+    }
+  ],
+  "_change_number": 38833767,
+  "_missing_token": false,
+  "_sha": "6778041fb521bdc7f9788bc34bfab403d2390bbf",
+  "_size": 3719,
   "appid": "4908980",
   "common": {
     "aicontenttype": "1",
@@ -32,7 +46,6 @@
     "clienticon": "4bb29361ba84593b00cb30e6fc45e21d1edec3ba",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4908980",
     "genres": {
       "0": "23",
@@ -104,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6f6684aaa9d80b320c398da41a98cb14b928510d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789294227",
     "store_asset_mtime": "1787153507",
     "store_tags": {
       "0": "122",
@@ -138,5 +152,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Aethercrypt",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Aethercrypt.exe"
+      }
+    }
+  },
+  "depots": {
+    "4908981": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "216713328",
+          "gid": "6292929892874810209",
+          "size": "621556476"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24747160",
+        "timebuildupdated": "1786765031",
+        "timeupdated": "1786765357"
+      }
+    }
+  },
+  "extended": {
+    "developer": "AtneGames",
+    "publisher": "AtneGames"
+  }
 }
