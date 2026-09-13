@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789267663,
+  "_lastChecked": 1789274475,
   "_history": [
     {
       "buildId": "24168885",
@@ -26,12 +26,25 @@
           "download": 268677376
         }
       }
+    },
+    {
+      "buildId": "25278659",
+      "branch": "coop",
+      "timeUpdated": 1789268866,
+      "firstSeen": 1789274475,
+      "manifests": {
+        "968531": {
+          "gid": "8462369574364721701",
+          "size": 317030856,
+          "download": 270887376
+        }
+      }
     }
   ],
-  "_change_number": 37368206,
+  "_change_number": 38829538,
   "_missing_token": false,
-  "_sha": "d7bad16b99774a1a28b8fe56e6b5f448500b7e62",
-  "_size": 6848,
+  "_sha": "cea0c9033cc91d6e417f4a34e419cd2f1b3e3bdf",
+  "_size": 7115,
   "appid": "968530",
   "common": {
     "associations": {
@@ -267,6 +280,11 @@
   "depots": {
     "968531": {
       "manifests": {
+        "coop": {
+          "download": "270887376",
+          "gid": "8462369574364721701",
+          "size": "317030856"
+        },
         "public": {
           "download": "269714352",
           "gid": "3607051773007733467",
@@ -280,6 +298,12 @@
       }
     },
     "branches": {
+      "coop": {
+        "buildid": "25278659",
+        "description": "Co-op Beta Versions",
+        "timebuildupdated": "1789268794",
+        "timeupdated": "1789268866"
+      },
       "public": {
         "buildid": "24168885",
         "timebuildupdated": "1783847276",

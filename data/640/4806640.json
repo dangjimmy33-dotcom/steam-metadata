@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789271838,
+  "_lastChecked": 1789279035,
   "_history": [
     {
       "buildId": "25222401",
@@ -222,10 +222,10 @@
       }
     }
   ],
-  "_change_number": 38814668,
+  "_change_number": 38830716,
   "_missing_token": false,
-  "_sha": "2c4bf4d98fdca51ab8d9dae773de4d4094c358a7",
-  "_size": 7328,
+  "_sha": "86968b0c6b0f19e0167f3507333ce2bd44bd90f5",
+  "_size": 7668,
   "appid": "4806640",
   "common": {
     "aicontenttype": "2",
@@ -384,6 +384,18 @@
         },
         "executable": "rhythm-nebula",
         "type": "default"
+      },
+      "2": {
+        "arguments": "env -u WAYLAND_DISPLAY -u WAYLAND_SOCKET %command%",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Run without Wayland (may fix crashes!)",
+        "description_loc": {
+          "english": "Run without Wayland (may fix crashes!)"
+        },
+        "executable": "rhythm-nebula"
       }
     }
   },
