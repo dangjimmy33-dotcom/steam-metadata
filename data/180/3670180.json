@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789284131,
+  "_lastChecked": 1789290283,
   "_history": [
     {
       "buildId": "25140119",
@@ -92,11 +92,57 @@
           "download": 472054576
         }
       }
+    },
+    {
+      "buildId": "25280986",
+      "branch": "public",
+      "timeUpdated": 1789290167,
+      "firstSeen": 1789290283,
+      "manifests": {
+        "3670181": {
+          "gid": "5643274425784133814",
+          "size": 3390206341,
+          "download": 472077376
+        },
+        "3670182": {
+          "gid": "3562864489783204998",
+          "size": 3407349471,
+          "download": 480093568
+        },
+        "3670183": {
+          "gid": "3464923447885762971",
+          "size": 3433589151,
+          "download": 472054944
+        }
+      }
+    },
+    {
+      "buildId": "25280986",
+      "branch": "qatest",
+      "timeUpdated": 1789289189,
+      "firstSeen": 1789290283,
+      "manifests": {
+        "3670181": {
+          "gid": "5643274425784133814",
+          "size": 3390206341,
+          "download": 472077376
+        },
+        "3670182": {
+          "gid": "3562864489783204998",
+          "size": 3407349471,
+          "download": 480093568
+        },
+        "3670183": {
+          "gid": "3464923447885762971",
+          "size": 3433589151,
+          "download": 472054944
+        }
+      }
     }
   ],
-  "_change_number": 38671216,
+  "_change_number": 38833058,
   "_missing_token": false,
-  "_sha": "ad5625a271b49404a0f4eb4c4bc62aafe6afb7bf",
+  "_sha": "f243863ea5248ee02489d00e12ed720adcab4acf",
   "_size": 7068,
   "appid": "3670180",
   "common": {
@@ -229,7 +275,7 @@
       "english": "2deb99a5b05f65754b861b4edb2e926ae2838578/capsule_231x87.jpg"
     },
     "steam_release_date": "1786640412",
-    "store_asset_mtime": "1788252044",
+    "store_asset_mtime": "1789284752",
     "store_tags": {
       "0": "3859",
       "1": "3843",
@@ -363,14 +409,14 @@
       },
       "manifests": {
         "public": {
-          "download": "472077248",
-          "gid": "4750725245009458078",
-          "size": "3390246709"
+          "download": "472077376",
+          "gid": "5643274425784133814",
+          "size": "3390206341"
         },
         "qatest": {
-          "download": "472077248",
-          "gid": "4750725245009458078",
-          "size": "3390246709"
+          "download": "472077376",
+          "gid": "5643274425784133814",
+          "size": "3390206341"
         }
       }
     },
@@ -381,14 +427,14 @@
       },
       "manifests": {
         "public": {
-          "download": "480093184",
-          "gid": "1338289998760151120",
-          "size": "3407389839"
+          "download": "480093568",
+          "gid": "3562864489783204998",
+          "size": "3407349471"
         },
         "qatest": {
-          "download": "480093184",
-          "gid": "1338289998760151120",
-          "size": "3407389839"
+          "download": "480093568",
+          "gid": "3562864489783204998",
+          "size": "3407349471"
         }
       }
     },
@@ -398,29 +444,29 @@
       },
       "manifests": {
         "public": {
-          "download": "472054576",
-          "gid": "7686582893032303736",
-          "size": "3433629519"
+          "download": "472054944",
+          "gid": "3464923447885762971",
+          "size": "3433589151"
         },
         "qatest": {
-          "download": "472054576",
-          "gid": "7686582893032303736",
-          "size": "3433629519"
+          "download": "472054944",
+          "gid": "3464923447885762971",
+          "size": "3433589151"
         }
       }
     },
     "baselanguages": "brazilian,czech,english,french,german,italian,japanese,koreana,polish,romanian,russian,schinese,spanish,tchinese,thai,turkish,ukrainian",
     "branches": {
       "public": {
-        "buildid": "25170199",
-        "timebuildupdated": "1788795296",
-        "timeupdated": "1788795708"
+        "buildid": "25280986",
+        "timebuildupdated": "1789289189",
+        "timeupdated": "1789290167"
       },
       "qatest": {
-        "buildid": "25170199",
+        "buildid": "25280986",
         "description": "QA testing",
-        "timebuildupdated": "1788795296",
-        "timeupdated": "1788795296"
+        "timebuildupdated": "1789289189",
+        "timeupdated": "1789289189"
       }
     }
   },

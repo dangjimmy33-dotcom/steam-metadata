@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789284934,
-  "_history": [],
-  "_change_number": 38814416,
-  "_missing_token": true,
-  "_sha": "f9924b8208f0375e53ef0953253f556c7243aae6",
-  "_size": 3044,
+  "_lastChecked": 1789291088,
+  "_history": [
+    {
+      "buildId": "25268530",
+      "branch": "public",
+      "timeUpdated": 1789199232,
+      "firstSeen": 1789291088,
+      "manifests": {
+        "4526431": {
+          "gid": "6522605293387197961",
+          "size": 73721844,
+          "download": 49486608
+        },
+        "4526432": {
+          "gid": "3318468515142783642",
+          "size": 74633792,
+          "download": 50134032
+        }
+      }
+    }
+  ],
+  "_change_number": 38833113,
+  "_missing_token": false,
+  "_sha": "49aab308e8a8caf43e672635d69ead3c75cbcd60",
+  "_size": 4408,
   "appid": "4526430",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +52,8 @@
     },
     "clienticon": "74aac8d89063824234faeaa9186c6b0dcc285370",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4526430",
     "genres": {
       "0": "2"
@@ -104,7 +123,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2c38c3ca0e748cc089efec5e981494f6b3a61655/capsule_231x87.jpg"
     },
@@ -134,5 +153,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "FaultLines",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "faultlines.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "faultlines",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4526431": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "49486608",
+          "gid": "6522605293387197961",
+          "size": "73721844"
+        }
+      }
+    },
+    "4526432": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "50134032",
+          "gid": "3318468515142783642",
+          "size": "74633792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25268530",
+        "timebuildupdated": "1789199221",
+        "timeupdated": "1789199232"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Andreas Müller",
+    "homepage": "https://mein.online-impressum.de/faultlines-game/",
+    "publisher": "Andreas Müller"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000"
+  }
 }

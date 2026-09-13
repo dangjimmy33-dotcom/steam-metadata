@@ -1,10 +1,77 @@
 {
-  "_lastChecked": 1789283984,
-  "_history": [],
-  "_change_number": 38831142,
-  "_missing_token": true,
-  "_sha": "50b96a0acd49c660a404dba3c0e41570d861649a",
-  "_size": 3330,
+  "_lastChecked": 1789290135,
+  "_history": [
+    {
+      "buildId": "25279825",
+      "branch": "beta",
+      "timeUpdated": 1789279151,
+      "firstSeen": 1789290135,
+      "manifests": {
+        "3520604": {
+          "gid": "9100788956699188201",
+          "size": 192346904,
+          "download": 93338592
+        },
+        "3520605": {
+          "gid": "2620001693866017592",
+          "size": 158257656,
+          "download": 84098224
+        },
+        "3520606": {
+          "gid": "6010111911392213617",
+          "size": 158257656,
+          "download": 84098240
+        },
+        "3520607": {
+          "gid": "5435352728988259428",
+          "size": 204568344,
+          "download": 93927776
+        },
+        "3520608": {
+          "gid": "3141760566850397556",
+          "size": 160342956,
+          "download": 84558912
+        }
+      }
+    },
+    {
+      "buildId": "25279825",
+      "branch": "public",
+      "timeUpdated": 1789279198,
+      "firstSeen": 1789290135,
+      "manifests": {
+        "3520604": {
+          "gid": "9100788956699188201",
+          "size": 192346904,
+          "download": 93338592
+        },
+        "3520605": {
+          "gid": "2620001693866017592",
+          "size": 158257656,
+          "download": 84098224
+        },
+        "3520606": {
+          "gid": "6010111911392213617",
+          "size": 158257656,
+          "download": 84098240
+        },
+        "3520607": {
+          "gid": "5435352728988259428",
+          "size": 204568344,
+          "download": 93927776
+        },
+        "3520608": {
+          "gid": "3141760566850397556",
+          "size": 160342956,
+          "download": 84558912
+        }
+      }
+    }
+  ],
+  "_change_number": 38832290,
+  "_missing_token": false,
+  "_sha": "064f17f58fecfdce2f060d5224529ea962433835",
+  "_size": 6632,
   "appid": "3520600",
   "common": {
     "associations": {
@@ -35,9 +102,9 @@
     "clienticon": "f4ea4a30f8d66ed1bac3e471dd3ede020c1e2707",
     "clienttga": "b8b5ccc247ac3ee2668835430114c8fd3978c2a8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3520600",
     "genres": {
       "0": "1",
@@ -113,10 +180,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "523ef25255a55575716ef4f3727c36db928628b3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789285930",
     "store_asset_mtime": "1783085058",
     "store_tags": {
       "0": "1625",
@@ -148,5 +216,174 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ORBA",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ORBA.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "ORBA.x86_64"
+      },
+      "2": {
+        "config": {
+          "osarch": "32",
+          "oslist": "linux"
+        },
+        "executable": "ORBA.x86"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3520604": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "93338592",
+          "gid": "9100788956699188201",
+          "size": "192346904"
+        },
+        "public": {
+          "download": "93338592",
+          "gid": "9100788956699188201",
+          "size": "192346904"
+        }
+      }
+    },
+    "3520605": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "84098224",
+          "gid": "2620001693866017592",
+          "size": "158257656"
+        },
+        "public": {
+          "download": "84098224",
+          "gid": "2620001693866017592",
+          "size": "158257656"
+        }
+      }
+    },
+    "3520606": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "84098240",
+          "gid": "6010111911392213617",
+          "size": "158257656"
+        },
+        "public": {
+          "download": "84098240",
+          "gid": "6010111911392213617",
+          "size": "158257656"
+        }
+      }
+    },
+    "3520607": {
+      "config": {
+        "osarch": "32",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "93927776",
+          "gid": "5435352728988259428",
+          "size": "204568344"
+        },
+        "public": {
+          "download": "93927776",
+          "gid": "5435352728988259428",
+          "size": "204568344"
+        }
+      }
+    },
+    "3520608": {
+      "config": {
+        "osarch": "32",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "84558912",
+          "gid": "3141760566850397556",
+          "size": "160342956"
+        },
+        "public": {
+          "download": "84558912",
+          "gid": "3141760566850397556",
+          "size": "160342956"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "25279825",
+        "description": "Use this branch to test the latest changes!",
+        "timebuildupdated": "1789279151",
+        "timeupdated": "1789279151"
+      },
+      "public": {
+        "buildid": "25279825",
+        "timebuildupdated": "1789279151",
+        "timeupdated": "1789279198"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Robro Games",
+    "homepage": "https://sites.google.com/view/impressum-legal-notice/startseite",
+    "publisher": "Robro Games"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "5000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".local/share/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "addpath": "/Library/Application Support/",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "godot/app_userdata/ORBA/data",
+        "pattern": "*.game",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "godot/app_userdata/ORBA/replay",
+        "pattern": "*.replay",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

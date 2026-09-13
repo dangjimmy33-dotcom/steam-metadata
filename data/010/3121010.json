@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789283597,
-  "_history": [],
-  "_change_number": 38371190,
-  "_missing_token": true,
-  "_sha": "a4620777748772d553f09a12746707d415e5e386",
-  "_size": 3959,
+  "_lastChecked": 1789289744,
+  "_history": [
+    {
+      "buildId": "25280389",
+      "branch": "public",
+      "timeUpdated": 1789284296,
+      "firstSeen": 1789289744,
+      "manifests": {
+        "3121012": {
+          "gid": "7601156551242027567",
+          "size": 899371720,
+          "download": 428576944
+        },
+        "3121013": {
+          "gid": "2757378671286426040",
+          "size": 891528920,
+          "download": 423389680
+        }
+      }
+    }
+  ],
+  "_change_number": 38832011,
+  "_missing_token": false,
+  "_sha": "20d2e99fe803407faab4db8aeea602cecaccc8ae",
+  "_size": 5831,
   "appid": "3121010",
   "common": {
     "aicontenttype": "1",
@@ -40,8 +59,8 @@
     "clienticon": "655720cdca06413cd6f34d32a3c6ec7ee3a3bb61",
     "clienttga": "58a33ee9b43c891e0a64a2252913d251933e9eb2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3121010",
     "genres": {
       "0": "1",
@@ -117,10 +136,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d9408fcc361bc83a41e04b8c3770baac36c0d4ba/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788378568",
     "store_asset_mtime": "1786915745",
     "store_tags": {
       "0": "599",
@@ -185,5 +205,101 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Code My Robot Vacuum",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "code-my-robot-vacuum.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "code-my-robot-vacuum"
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "3121012": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "428576944",
+          "gid": "7601156551242027567",
+          "size": "899371720"
+        }
+      }
+    },
+    "3121013": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "423389680",
+          "gid": "2757378671286426040",
+          "size": "891528920"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25280389",
+        "timebuildupdated": "1789284296",
+        "timeupdated": "1789284296"
+      }
+    },
+    "workshopdepot": "3121010"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Umit Canbolat",
+    "publisher": "BoostedSquad Games",
+    "remoteplaytogethertestingbranches": "beta"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "Code My Robot Vacuum",
+        "pattern": "save_slots.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Code My Robot Vacuum",
+        "pattern": "achievement_progress.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Code My Robot Vacuum",
+        "pattern": "saves/*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Code My Robot Vacuum",
+        "pattern": "settings.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

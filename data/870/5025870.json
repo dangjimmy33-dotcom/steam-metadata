@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789285354,
-  "_history": [],
-  "_change_number": 38644128,
-  "_missing_token": true,
-  "_sha": "ac132f71c0c92f03c260a28361b6e5870a6dc22f",
-  "_size": 2949,
+  "_lastChecked": 1789291514,
+  "_history": [
+    {
+      "buildId": "24760819",
+      "branch": "public",
+      "timeUpdated": 1786877264,
+      "firstSeen": 1789291514,
+      "manifests": {
+        "5025871": {
+          "gid": "3683637146700211741",
+          "size": 2132019717,
+          "download": 768856256
+        }
+      }
+    }
+  ],
+  "_change_number": 38832305,
+  "_missing_token": false,
+  "_sha": "f0a07038a73c86e1700856d4561e1ed4a34857d7",
+  "_size": 3499,
   "appid": "5025870",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "9db274ed3b582ae7751bc3f1bffd0f874a550a80",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5025870",
     "genres": {
       "0": "2"
@@ -98,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3d33b5bda5801abe2c5146b6b2b5d0ea02ca0daa/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789286010",
     "store_asset_mtime": "1788699336",
     "store_tags": {
       "0": "9",
@@ -129,5 +143,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DEPTH STRIKE",
+    "launch": {
+      "0": {
+        "executable": "depthstrike.exe"
+      }
+    }
+  },
+  "depots": {
+    "5025871": {
+      "manifests": {
+        "public": {
+          "download": "768856256",
+          "gid": "3683637146700211741",
+          "size": "2132019717"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "24760819",
+        "timebuildupdated": "1786877261",
+        "timeupdated": "1786877264"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Victoria Games",
+    "publisher": "Victoria Games"
+  }
 }

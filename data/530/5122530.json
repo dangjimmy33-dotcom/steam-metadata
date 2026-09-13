@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789285422,
-  "_history": [],
-  "_change_number": 38775108,
-  "_missing_token": true,
-  "_sha": "798e58549baf68fea5b57d3b422fa168b69b5fe5",
-  "_size": 4670,
+  "_lastChecked": 1789291583,
+  "_history": [
+    {
+      "buildId": "25240576",
+      "branch": "public",
+      "timeUpdated": 1789076415,
+      "firstSeen": 1789291583,
+      "manifests": {
+        "5122531": {
+          "gid": "8885847058323259801",
+          "size": 266869620,
+          "download": 110645744
+        },
+        "5122532": {
+          "gid": "6734878375268820964",
+          "size": 442442111,
+          "download": 177105008
+        }
+      }
+    }
+  ],
+  "_change_number": 38833044,
+  "_missing_token": false,
+  "_sha": "cd4e6076530c78e168bc72e21da67aa84f7a8214",
+  "_size": 6389,
   "appid": "5122530",
   "common": {
     "aicontenttype": "1",
@@ -32,8 +51,8 @@
     },
     "clienticon": "fea9f6ce8e2ad7a678f6c8281ab5b797d0be2077",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5122530",
     "genres": {
       "0": "4",
@@ -141,10 +160,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "335fc971b0fe1bb645674eec4a1b648564a8c452/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789290049",
     "store_asset_mtime": "1787410400",
     "store_tags": {
       "0": "597",
@@ -214,5 +234,98 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Water SortAlchemy",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "WaterSort.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "WaterSort.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5122531": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "110645744",
+          "gid": "8885847058323259801",
+          "size": "266869620"
+        }
+      }
+    },
+    "5122532": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "177105008",
+          "gid": "6734878375268820964",
+          "size": "442442111"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25240576",
+        "timebuildupdated": "1789076415",
+        "timeupdated": "1789076415"
+      }
+    }
+  },
+  "extended": {
+    "developer": "FWGames",
+    "publisher": "FWGames"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "FWGames/WaterSort",
+            "replace": "FWGames/WaterSort"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "FWGames/WaterSort",
+            "replace": "config/unity3d/FWGames/WaterSort"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "FWGames/WaterSort",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

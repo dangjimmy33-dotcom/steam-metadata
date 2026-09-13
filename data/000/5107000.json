@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789285413,
-  "_history": [],
-  "_change_number": 38786810,
-  "_missing_token": true,
-  "_sha": "a8be97cb9ba15d39bbee89b272716267b89251ea",
-  "_size": 8550,
+  "_lastChecked": 1789291574,
+  "_history": [
+    {
+      "buildId": "25248890",
+      "branch": "public",
+      "timeUpdated": 1789115419,
+      "firstSeen": 1789291574,
+      "manifests": {
+        "5107001": {
+          "gid": "2830812055635878417",
+          "size": 119746435,
+          "download": 42552880
+        }
+      }
+    }
+  ],
+  "_change_number": 38832685,
+  "_missing_token": false,
+  "_sha": "1f83f231ef22316924321ba4ef5bfd329f7bd699",
+  "_size": 9672,
   "appid": "5107000",
   "common": {
     "aicontenttype": "1",
@@ -35,8 +49,8 @@
     },
     "clienticon": "0c513dfa3cca2557281d2130ff11f5a0ee18cd1a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5107000",
     "genres": {
       "0": "4",
@@ -141,7 +155,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e22cbb2e67fb13410f83ad23f20f265029a78e18/capsule_231x87.jpg"
     },
@@ -481,5 +495,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Desert Vein",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Desert Vein.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5107001": {
+      "manifests": {
+        "public": {
+          "download": "42552880",
+          "gid": "2830812055635878417",
+          "size": "119746435"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25248890",
+        "timebuildupdated": "1789115355",
+        "timeupdated": "1789115419"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Beijing Mayfly And Grain Technology Co.,Ltd",
+    "homepage": "http://fuyouyisu.com",
+    "publisher": "Beijing Mayfly And Grain Technology Co.,Ltd"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "52428800",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Desert Vein/save",
+        "pattern": "autosave.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Desert Vein",
+        "pattern": "settings.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789282424,
+  "_lastChecked": 1789288564,
   "_history": [
     {
       "buildId": "10213923",
@@ -130,11 +130,24 @@
           "download": 595589536
         }
       }
+    },
+    {
+      "buildId": "25280491",
+      "branch": "nightly",
+      "timeUpdated": 1789285259,
+      "firstSeen": 1789288564,
+      "manifests": {
+        "1949741": {
+          "gid": "5364025799534887482",
+          "size": 1441702840,
+          "download": 595591168
+        }
+      }
     }
   ],
-  "_change_number": 38817679,
+  "_change_number": 38832174,
   "_missing_token": false,
-  "_sha": "b5942428b2be8546bf755d4216df1776ba054099",
+  "_sha": "68c6b6e295803ec3c0b2b4f9951a820a1841c159",
   "_size": 7087,
   "appid": "1949740",
   "common": {
@@ -367,9 +380,9 @@
     "1949741": {
       "manifests": {
         "nightly": {
-          "download": "595589536",
-          "gid": "8055134918095623892",
-          "size": "1441702928"
+          "download": "595591168",
+          "gid": "5364025799534887482",
+          "size": "1441702840"
         },
         "previous_version": {
           "download": "325218848",
@@ -393,10 +406,10 @@
     "baselanguages": "english,schinese,russian",
     "branches": {
       "nightly": {
-        "buildid": "25268058",
+        "buildid": "25280491",
         "description": "unstable updates will be here first before its stabled",
-        "timebuildupdated": "1789195310",
-        "timeupdated": "1789195343"
+        "timebuildupdated": "1789285119",
+        "timeupdated": "1789285259"
       },
       "previous_version": {
         "buildid": "10213923",
