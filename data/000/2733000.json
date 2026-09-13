@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789276734,
+  "_lastChecked": 1789283212,
   "_history": [
     {
       "buildId": "24226572",
@@ -23,12 +23,58 @@
           "download": 114588432
         }
       }
+    },
+    {
+      "buildId": "25279841",
+      "branch": "beta",
+      "timeUpdated": 1789279311,
+      "firstSeen": 1789283212,
+      "manifests": {
+        "2733001": {
+          "gid": "4737435639784342303",
+          "size": 215859492,
+          "download": 139803344
+        },
+        "2733002": {
+          "gid": "3857660007974267105",
+          "size": 182393310,
+          "download": 131660464
+        },
+        "2733003": {
+          "gid": "736659712051720268",
+          "size": 297787658,
+          "download": 163250752
+        }
+      }
+    },
+    {
+      "buildId": "25279841",
+      "branch": "public",
+      "timeUpdated": 1789279629,
+      "firstSeen": 1789283212,
+      "manifests": {
+        "2733001": {
+          "gid": "4737435639784342303",
+          "size": 215859492,
+          "download": 139803344
+        },
+        "2733002": {
+          "gid": "3857660007974267105",
+          "size": 182393310,
+          "download": 131660464
+        },
+        "2733003": {
+          "gid": "736659712051720268",
+          "size": 297787658,
+          "download": 163250752
+        }
+      }
     }
   ],
-  "_change_number": 38044848,
+  "_change_number": 38831221,
   "_missing_token": false,
-  "_sha": "452999b08153df18cc86198da5c7ee778fc90fd5",
-  "_size": 4391,
+  "_sha": "57ad405d02084676aac063ebd1052cc163ea9725",
+  "_size": 4870,
   "appid": "2733000",
   "common": {
     "aicontenttype": "1",
@@ -162,7 +208,7 @@
         "config": {
           "oslist": "linux"
         },
-        "executable": "FootballTycoon.x86_64",
+        "executable": "ClubChairman.x86_64",
         "type": "default"
       },
       "1": {
@@ -176,7 +222,7 @@
         "config": {
           "oslist": "windows"
         },
-        "executable": "FootballTycoon.exe",
+        "executable": "ClubChairman.exe",
         "type": "default"
       }
     }
@@ -187,10 +233,15 @@
         "oslist": "windows"
       },
       "manifests": {
+        "beta": {
+          "download": "139803344",
+          "gid": "4737435639784342303",
+          "size": "215859492"
+        },
         "public": {
-          "download": "94313200",
-          "gid": "4202278616990296509",
-          "size": "172602680"
+          "download": "139803344",
+          "gid": "4737435639784342303",
+          "size": "215859492"
         }
       }
     },
@@ -199,10 +250,15 @@
         "oslist": "linux"
       },
       "manifests": {
+        "beta": {
+          "download": "131660464",
+          "gid": "3857660007974267105",
+          "size": "182393310"
+        },
         "public": {
-          "download": "84560224",
-          "gid": "6785587944503525644",
-          "size": "134418069"
+          "download": "131660464",
+          "gid": "3857660007974267105",
+          "size": "182393310"
         }
       }
     },
@@ -211,18 +267,29 @@
         "oslist": "macos"
       },
       "manifests": {
+        "beta": {
+          "download": "163250752",
+          "gid": "736659712051720268",
+          "size": "297787658"
+        },
         "public": {
-          "download": "114588432",
-          "gid": "142176497678731559",
-          "size": "235980233"
+          "download": "163250752",
+          "gid": "736659712051720268",
+          "size": "297787658"
         }
       }
     },
     "branches": {
+      "beta": {
+        "buildid": "25279841",
+        "description": "beta testing",
+        "timebuildupdated": "1789279251",
+        "timeupdated": "1789279311"
+      },
       "public": {
-        "buildid": "24226572",
-        "timebuildupdated": "1784143057",
-        "timeupdated": "1784143057"
+        "buildid": "25279841",
+        "timebuildupdated": "1789279251",
+        "timeupdated": "1789279629"
       }
     }
   },

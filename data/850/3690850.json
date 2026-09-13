@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789277846,
+  "_lastChecked": 1789284149,
   "_history": [
     {
       "buildId": "25131822",
@@ -126,12 +126,30 @@
           "download": 398102816
         }
       }
+    },
+    {
+      "buildId": "25279520",
+      "branch": "public",
+      "timeUpdated": 1789278371,
+      "firstSeen": 1789284149,
+      "manifests": {
+        "3690852": {
+          "gid": "8806660950734687689",
+          "size": 566036053,
+          "download": 384184064
+        },
+        "3690853": {
+          "gid": "3364668366872181734",
+          "size": 606696873,
+          "download": 398125600
+        }
+      }
     }
   ],
-  "_change_number": 38830711,
+  "_change_number": 38831127,
   "_missing_token": false,
-  "_sha": "9043e1b35f9a696334496db316a8a3ac9e48c145",
-  "_size": 5763,
+  "_sha": "9101553555ea05d2912cf64dd3d8b47c8ed49063",
+  "_size": 7503,
   "appid": "3690850",
   "common": {
     "associations": {
@@ -247,6 +265,67 @@
     "small_capsule": {
       "english": "3a99f87270a606d65180a30b486d68264d86ae79/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "3",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1788961882",
+      "tested_build_id": "25171099",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
     "steam_release_date": "1788393897",
     "store_asset_mtime": "1788392069",
     "store_tags": {
@@ -322,9 +401,9 @@
       },
       "manifests": {
         "public": {
-          "download": "384169008",
-          "gid": "4897917211753235661",
-          "size": "565986801"
+          "download": "384184064",
+          "gid": "8806660950734687689",
+          "size": "566036053"
         }
       }
     },
@@ -334,17 +413,17 @@
       },
       "manifests": {
         "public": {
-          "download": "398102816",
-          "gid": "7099257062487097933",
-          "size": "606647621"
+          "download": "398125600",
+          "gid": "3364668366872181734",
+          "size": "606696873"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25242760",
-        "timebuildupdated": "1789086340",
-        "timeupdated": "1789087434"
+        "buildid": "25279520",
+        "timebuildupdated": "1789276417",
+        "timeupdated": "1789278371"
       }
     },
     "privatebranches": "1"

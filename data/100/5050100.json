@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789279274,
-  "_history": [],
-  "_change_number": 38429672,
-  "_missing_token": true,
-  "_sha": "bfb9789ab4e076f6f11194eb39ce475b1dbe782a",
-  "_size": 3338,
+  "_lastChecked": 1789285373,
+  "_history": [
+    {
+      "buildId": "25006615",
+      "branch": "public",
+      "timeUpdated": 1787986239,
+      "firstSeen": 1789285373,
+      "manifests": {
+        "5050101": {
+          "gid": "3735850617145340753",
+          "size": 112140756,
+          "download": 36826624
+        }
+      }
+    }
+  ],
+  "_change_number": 38831918,
+  "_missing_token": false,
+  "_sha": "6dc22f5498ad06f1caa3107449f1da8f6b407c74",
+  "_size": 3842,
   "appid": "5050100",
   "common": {
     "aicontenttype": "1",
@@ -31,7 +45,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5050100",
     "genres": {
       "0": "25",
@@ -103,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "812c3c1e10f10b92410f036d70d5ffb3f65cc40e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787727091",
     "store_tags": {
       "0": "21",
@@ -156,5 +170,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "NO RECEIPT",
+    "launch": {
+      "0": {
+        "executable": "NO-RECEIPT.exe"
+      }
+    }
+  },
+  "depots": {
+    "5050101": {
+      "manifests": {
+        "public": {
+          "download": "36826624",
+          "gid": "3735850617145340753",
+          "size": "112140756"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25006615",
+        "timebuildupdated": "1787986166",
+        "timeupdated": "1787986239"
+      }
+    }
+  },
+  "extended": {
+    "developer": "MFA Software",
+    "publisher": "MFA Software"
+  }
 }

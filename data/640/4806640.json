@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789279035,
+  "_lastChecked": 1789285170,
   "_history": [
     {
       "buildId": "25222401",
@@ -220,12 +220,55 @@
           "download": 46530032
         }
       }
+    },
+    {
+      "buildId": "25280030",
+      "branch": "biahoi",
+      "timeUpdated": 1789281171,
+      "firstSeen": 1789285170,
+      "manifests": {
+        "4806641": {
+          "gid": "2201661860437820898",
+          "size": 321889800,
+          "download": 200245072
+        },
+        "4806642": {
+          "gid": "8751003179840067560",
+          "size": 1609011923,
+          "download": 1481668896
+        },
+        "4806643": {
+          "gid": "5215253896916907601",
+          "size": 306588856,
+          "download": 196472112
+        },
+        "4806644": {
+          "gid": "7687159190967113607",
+          "size": 779144251,
+          "download": 232310144
+        },
+        "4806645": {
+          "gid": "5048826282285341201",
+          "size": 511931827,
+          "download": 511817024
+        },
+        "4806648": {
+          "gid": "3806741289307237513",
+          "size": 139779375,
+          "download": 55255392
+        },
+        "4806649": {
+          "gid": "8211978984068698108",
+          "size": 115608777,
+          "download": 46530032
+        }
+      }
     }
   ],
-  "_change_number": 38830716,
+  "_change_number": 38831553,
   "_missing_token": false,
-  "_sha": "86968b0c6b0f19e0167f3507333ce2bd44bd90f5",
-  "_size": 7668,
+  "_sha": "551d0d180788a3e50d7180589ec524b56299f3cc",
+  "_size": 7609,
   "appid": "4806640",
   "common": {
     "aicontenttype": "2",
@@ -386,7 +429,6 @@
         "type": "default"
       },
       "2": {
-        "arguments": "env -u WAYLAND_DISPLAY -u WAYLAND_SOCKET %command%",
         "config": {
           "osarch": "64",
           "oslist": "linux"
@@ -395,7 +437,7 @@
         "description_loc": {
           "english": "Run without Wayland (may fix crashes!)"
         },
-        "executable": "rhythm-nebula"
+        "executable": "rhythm-nebula-no-wayland"
       }
     }
   },
@@ -406,9 +448,9 @@
       },
       "manifests": {
         "biahoi": {
-          "download": "200244800",
-          "gid": "1780633562027231125",
-          "size": "321889469"
+          "download": "200245072",
+          "gid": "2201661860437820898",
+          "size": "321889800"
         },
         "mac-latest": {
           "download": "210267392",
@@ -563,10 +605,10 @@
     "baselanguages": "english",
     "branches": {
       "biahoi": {
-        "buildid": "25265026",
+        "buildid": "25280030",
         "description": "freshly brewed!",
-        "timebuildupdated": "1789173847",
-        "timeupdated": "1789173847"
+        "timebuildupdated": "1789281171",
+        "timeupdated": "1789281171"
       },
       "mac-latest": {
         "buildid": "25089479",

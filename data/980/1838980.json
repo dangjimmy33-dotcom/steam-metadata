@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789275646,
+  "_lastChecked": 1789282304,
   "_history": [
     {
       "buildId": "17086679",
@@ -26,12 +26,25 @@
           "download": 29709200
         }
       }
+    },
+    {
+      "buildId": "25279859",
+      "branch": "test",
+      "timeUpdated": 1789279413,
+      "firstSeen": 1789282304,
+      "manifests": {
+        "1838981": {
+          "gid": "6998054034048675710",
+          "size": 212771611,
+          "download": 73359136
+        }
+      }
     }
   ],
-  "_change_number": 34874626,
+  "_change_number": 38831178,
   "_missing_token": false,
-  "_sha": "5f95855c5fda5f50f43655c3d6d8d0e5d9ff12f6",
-  "_size": 4054,
+  "_sha": "a7fcb1b73332f2ee8b1ec29c01bfaef6aafdb32c",
+  "_size": 4022,
   "appid": "1838980",
   "common": {
     "associations": {
@@ -52,7 +65,6 @@
     "clienticon": "9fe74ed27c7e18f038724773a0e3abd345848364",
     "clienttga": "fb58b092265cc6529423f7adc7e4f051cf8c3c29",
     "community_hub_visible": "1",
-    "community_visible_stats": "1",
     "gameid": "1838980",
     "genres": {
       "0": "4",
@@ -190,9 +202,9 @@
           "size": "228655733"
         },
         "test": {
-          "download": "29709200",
-          "gid": "1978894695910463679",
-          "size": "105389123"
+          "download": "73359136",
+          "gid": "6998054034048675710",
+          "size": "212771611"
         }
       }
     },
@@ -203,10 +215,10 @@
         "timeupdated": "1737521410"
       },
       "test": {
-        "buildid": "9902563",
+        "buildid": "25279859",
         "description": "Testing branch for new features",
-        "timebuildupdated": "1668011025",
-        "timeupdated": "1668011812"
+        "timebuildupdated": "1789279379",
+        "timeupdated": "1789279413"
       }
     }
   },
