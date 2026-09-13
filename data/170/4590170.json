@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789302309,
+  "_lastChecked": 1789309830,
   "_history": [
     {
       "buildId": "25137639",
@@ -13,12 +13,35 @@
           "download": 318149920
         }
       }
+    },
+    {
+      "buildId": "25283258",
+      "branch": "public",
+      "timeUpdated": 1789307902,
+      "firstSeen": 1789309830,
+      "manifests": {
+        "4590171": {
+          "gid": "8641958864524322593",
+          "size": 414628272,
+          "download": 318477632
+        },
+        "4590172": {
+          "gid": "7271234935178991434",
+          "size": 381190112,
+          "download": 310378592
+        },
+        "4590173": {
+          "gid": "2164188310410504660",
+          "size": 496135704,
+          "download": 341314784
+        }
+      }
     }
   ],
-  "_change_number": 38681028,
+  "_change_number": 38836898,
   "_missing_token": false,
-  "_sha": "3f45f0c1579dc52c4fbc6691f432283eca484c76",
-  "_size": 4353,
+  "_sha": "05b3be3dfeb3ea0328549100c6d4bae524e3b503",
+  "_size": 4616,
   "appid": "4590170",
   "common": {
     "associations": {
@@ -112,15 +135,15 @@
     },
     "name": "Launch Window: 1961",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos,linux",
     "primary_genre": "2",
     "releasestate": "released",
     "small_capsule": {
       "english": "016afd84122cc514c97c1bc4f49eec15f45fa815/capsule_231x87.jpg"
     },
     "steam_release_date": "1788532224",
-    "store_asset_mtime": "1788532131",
+    "store_asset_mtime": "1789286935",
     "store_tags": {
       "0": "599",
       "1": "9",
@@ -176,9 +199,9 @@
     "4590171": {
       "manifests": {
         "public": {
-          "download": "318149920",
-          "gid": "5126238281618345073",
-          "size": "414303553"
+          "download": "318477632",
+          "gid": "8641958864524322593",
+          "size": "414628272"
         }
       }
     },
@@ -187,20 +210,32 @@
         "osarch": "64",
         "oslist": "linux"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "310378592",
+          "gid": "7271234935178991434",
+          "size": "381190112"
+        }
+      }
     },
     "4590173": {
       "config": {
         "osarch": "64",
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "341314784",
+          "gid": "2164188310410504660",
+          "size": "496135704"
+        }
+      }
     },
     "branches": {
       "public": {
-        "buildid": "25137639",
-        "timebuildupdated": "1788587306",
-        "timeupdated": "1788587413"
+        "buildid": "25283258",
+        "timebuildupdated": "1789305881",
+        "timeupdated": "1789307902"
       }
     },
     "privatebranches": "1"

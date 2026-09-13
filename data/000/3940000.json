@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789301601,
-  "_history": [],
-  "_change_number": 34986915,
-  "_missing_token": true,
-  "_sha": "daa91d5d103583b3a6f00dcb5cd7030e9ce7a5bc",
-  "_size": 3051,
+  "_lastChecked": 1789309052,
+  "_history": [
+    {
+      "buildId": "25283183",
+      "branch": "public",
+      "timeUpdated": 1789305946,
+      "firstSeen": 1789309052,
+      "manifests": {
+        "3940004": {
+          "gid": "7737082449073086651",
+          "size": 665993971,
+          "download": 315954016
+        }
+      }
+    }
+  ],
+  "_change_number": 38836822,
+  "_missing_token": false,
+  "_sha": "414a1fa44fa56b478585123251867614513dbf0a",
+  "_size": 4198,
   "appid": "3940000",
   "common": {
     "aicontenttype": "1",
@@ -20,19 +34,19 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
       "category_62": "1",
       "category_68": "1",
       "category_74": "1",
-      "category_76": "1",
-      "category_77": "1",
-      "category_79": "1"
+      "category_76": "1"
     },
     "clienticns": "f65aab51db927dcdbf7d608c67ccc271d7647969",
     "clienticon": "f65aab51db927dcdbf7d608c67ccc271d7647969",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3940000",
     "genres": {
       "0": "4",
@@ -106,7 +120,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "16c12e6844704473aa6acce5ef86644017684c26/capsule_231x87.jpg"
     },
@@ -130,5 +144,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Backyard Defenders",
+    "launch": {
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Backyard Defenders.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3940004": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "315954016",
+          "gid": "7737082449073086651",
+          "size": "665993971"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25283183",
+        "timebuildupdated": "1789305393",
+        "timeupdated": "1789305946"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "developer": "Theodore Hauenstein",
+    "homepage": "https://backyarddefenders.com/",
+    "publisher": "Mitomjo Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Backyard Defenders/profiles/{64BitSteamID}",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

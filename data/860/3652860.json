@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789301274,
+  "_lastChecked": 1789308696,
   "_history": [
     {
       "buildId": "24567423",
@@ -13,12 +13,25 @@
           "download": 2523808256
         }
       }
+    },
+    {
+      "buildId": "25283090",
+      "branch": "public",
+      "timeUpdated": 1789304879,
+      "firstSeen": 1789308696,
+      "manifests": {
+        "3652861": {
+          "gid": "800201510931173818",
+          "size": 12004785628,
+          "download": 2520288528
+        }
+      }
     }
   ],
-  "_change_number": 37984595,
+  "_change_number": 38836134,
   "_missing_token": false,
-  "_sha": "7f87cf825a0e042fdc9893674603366e6ab847ee",
-  "_size": 5191,
+  "_sha": "9952a1d61329730df92be0482169d1a10a1c3089",
+  "_size": 5165,
   "appid": "3652860",
   "common": {
     "aicontenttype": "1",
@@ -196,12 +209,12 @@
         "config": {
           "oslist": "windows"
         },
-        "description": "Touhou Eternal Frontier main story",
+        "description": "Touhou Eternal Frontier",
         "description_loc": {
-          "english": "Touhou Eternal Frontier main story",
+          "english": "Touhou Eternal Frontier",
           "japanese": "東方エターナルフロンティアー本編ー"
         },
-        "executable": "EternalFrontierWeb.exe"
+        "executable": "EternalFrontier.exe"
       }
     }
   },
@@ -214,18 +227,18 @@
       },
       "manifests": {
         "public": {
-          "download": "2523808256",
-          "gid": "6254676497181653771",
-          "size": "12107745931"
+          "download": "2520288528",
+          "gid": "800201510931173818",
+          "size": "12004785628"
         }
       }
     },
     "baselanguages": "japanese",
     "branches": {
       "public": {
-        "buildid": "24567423",
-        "timebuildupdated": "1785914765",
-        "timeupdated": "1785914794"
+        "buildid": "25283090",
+        "timebuildupdated": "1789304797",
+        "timeupdated": "1789304879"
       }
     },
     "hasdepotsindlc": "1",

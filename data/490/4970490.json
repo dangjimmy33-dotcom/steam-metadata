@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789302686,
+  "_lastChecked": 1789310238,
   "_history": [
     {
       "buildId": "24883179",
@@ -52,11 +52,37 @@
           "download": 160996656
         }
       }
+    },
+    {
+      "buildId": "25283708",
+      "branch": "public",
+      "timeUpdated": 1789308567,
+      "firstSeen": 1789310238,
+      "manifests": {
+        "4970491": {
+          "gid": "5030242793178604013",
+          "size": 437180017,
+          "download": 160901632
+        }
+      }
+    },
+    {
+      "buildId": "25283708",
+      "branch": "test_branch",
+      "timeUpdated": 1789308567,
+      "firstSeen": 1789310238,
+      "manifests": {
+        "4970491": {
+          "gid": "5030242793178604013",
+          "size": 437180017,
+          "download": 160901632
+        }
+      }
     }
   ],
-  "_change_number": 38686558,
+  "_change_number": 38837088,
   "_missing_token": false,
-  "_sha": "889c95c8e793cf9dac23cbf8de5783c3161c70d3",
+  "_sha": "a30966997fd6e2ed94ad52f6578c7c3186e9d3e3",
   "_size": 4444,
   "appid": "4970490",
   "common": {
@@ -236,28 +262,28 @@
     "4970491": {
       "manifests": {
         "public": {
-          "download": "160878816",
-          "gid": "3639592915636845844",
-          "size": "437036677"
+          "download": "160901632",
+          "gid": "5030242793178604013",
+          "size": "437180017"
         },
         "test_branch": {
-          "download": "160996656",
-          "gid": "3707019405444481684",
-          "size": "437277819"
+          "download": "160901632",
+          "gid": "5030242793178604013",
+          "size": "437180017"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "24883179",
-        "timebuildupdated": "1787427541",
-        "timeupdated": "1787427671"
+        "buildid": "25283708",
+        "timebuildupdated": "1789308507",
+        "timeupdated": "1789308567"
       },
       "test_branch": {
-        "buildid": "25174517",
+        "buildid": "25283708",
         "description": "test",
-        "timebuildupdated": "1788813522",
-        "timeupdated": "1788849781"
+        "timebuildupdated": "1789308507",
+        "timeupdated": "1789308567"
       }
     }
   },
