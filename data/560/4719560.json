@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789364761,
-  "_history": [],
-  "_change_number": 38794395,
-  "_missing_token": true,
-  "_sha": "fc9eefce8796eddd518ebea9a5d6a2b3a3d74f0f",
-  "_size": 4829,
+  "_lastChecked": 1789372424,
+  "_history": [
+    {
+      "buildId": "25294437",
+      "branch": "public",
+      "timeUpdated": 1789370811,
+      "firstSeen": 1789372424,
+      "manifests": {
+        "4719561": {
+          "gid": "5209387236198013391",
+          "size": 176931082,
+          "download": 46651216
+        }
+      }
+    }
+  ],
+  "_change_number": 38852864,
+  "_missing_token": false,
+  "_sha": "fdbca98abd10bdb3154926df184ad37831c83eb8",
+  "_size": 5439,
   "appid": "4719560",
   "common": {
     "aicontenttype": "1",
@@ -28,6 +42,7 @@
     },
     "clienticon": "a9d4fbc7333f6393774e6b2d7911c8ba0161e992",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -35,7 +50,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4719560",
     "genres": {
       "0": "25",
@@ -130,12 +144,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f31b9eb377526259245717b771e0218923d9bc09/capsule_231x87.jpg",
       "japanese": "47e3c4a6bbac9fefe90eb887700f4a20369d8c2a/capsule_231x87_japanese.jpg",
       "koreana": "83c8a60e92cd07a9f6e311e7cb18f8b793feb9ae/capsule_231x87_koreana.jpg"
     },
+    "steam_release_date": "1789370921",
     "store_asset_mtime": "1787831462",
     "store_tags": {
       "0": "769306",
@@ -175,5 +190,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Escape House of Bonds",
+    "launch": {
+      "0": {
+        "executable": "EscapeHouse.exe"
+      }
+    }
+  },
+  "depots": {
+    "4719561": {
+      "manifests": {
+        "public": {
+          "download": "46651216",
+          "gid": "5209387236198013391",
+          "size": "176931082"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25294437",
+        "timebuildupdated": "1789370369",
+        "timeupdated": "1789370811"
+      }
+    }
+  },
+  "extended": {
+    "developer": "UNYAUNYA GAMES",
+    "publisher": "UNYAUNYA GAMES"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000"
+  }
 }

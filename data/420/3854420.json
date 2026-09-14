@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789363953,
+  "_lastChecked": 1789371394,
   "_history": [
     {
       "buildId": "25095941",
@@ -18,12 +18,30 @@
           "download": 285976320
         }
       }
+    },
+    {
+      "buildId": "25292876",
+      "branch": "public",
+      "timeUpdated": 1789364891,
+      "firstSeen": 1789371394,
+      "manifests": {
+        "3854421": {
+          "gid": "2750942928916586397",
+          "size": 1214727137,
+          "download": 397202496
+        },
+        "5099350": {
+          "gid": "2266899026783003080",
+          "size": 289226822,
+          "download": 286249488
+        }
+      }
     }
   ],
-  "_change_number": 38790580,
+  "_change_number": 38851980,
   "_missing_token": false,
-  "_sha": "1efb0a1dda680c806d8f02811f53d70db41119a4",
-  "_size": 6928,
+  "_sha": "69ef12e0fe9e1dc03515da3771a96f8a92dedfaf",
+  "_size": 7022,
   "appid": "3854420",
   "common": {
     "associations": {
@@ -75,6 +93,7 @@
     },
     "icon": "0a9717d6ac9e9cacdeaf8d2e0de6ad81b180dca8",
     "languages": {
+      "brazilian": "1",
       "english": "1",
       "russian": "1",
       "schinese": "1",
@@ -246,6 +265,10 @@
       "9": "9551"
     },
     "supported_languages": {
+      "brazilian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "english": {
         "subtitles": "true",
         "supported": "true"
@@ -283,9 +306,9 @@
       },
       "manifests": {
         "public": {
-          "download": "384776544",
-          "gid": "108676146058972240",
-          "size": "1147055361"
+          "download": "397202496",
+          "gid": "2750942928916586397",
+          "size": "1214727137"
         }
       }
     },
@@ -293,17 +316,17 @@
       "dlcappid": "5099350",
       "manifests": {
         "public": {
-          "download": "285976320",
-          "gid": "4464108052613684078",
-          "size": "288947200"
+          "download": "286249488",
+          "gid": "2266899026783003080",
+          "size": "289226822"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25095941",
-        "timebuildupdated": "1788417515",
-        "timeupdated": "1788417564"
+        "buildid": "25292876",
+        "timebuildupdated": "1789361993",
+        "timeupdated": "1789364891"
       }
     },
     "hasdepotsindlc": "0"

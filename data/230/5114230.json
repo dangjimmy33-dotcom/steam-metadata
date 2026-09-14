@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789365079,
-  "_history": [],
-  "_change_number": 38500422,
-  "_missing_token": true,
-  "_sha": "a26e9f1bc6f11e6e5a9c452088feb0bc99347228",
-  "_size": 3083,
+  "_lastChecked": 1789372827,
+  "_history": [
+    {
+      "buildId": "24764805",
+      "branch": "public",
+      "timeUpdated": 1786905454,
+      "firstSeen": 1789372827,
+      "manifests": {
+        "5114231": {
+          "gid": "1817765653193377933",
+          "size": 635826246,
+          "download": 104136544
+        }
+      }
+    }
+  ],
+  "_change_number": 38852833,
+  "_missing_token": false,
+  "_sha": "3eec7de8a7646a7eb0af2984789ff9325d398cac",
+  "_size": 3719,
   "appid": "5114230",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     "clienticns": "cd934c09bf03c2ab6c674f9d17aa3c31f7f91cb4",
     "clienticon": "cd934c09bf03c2ab6c674f9d17aa3c31f7f91cb4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5114230",
     "genres": {
       "0": "1",
@@ -102,7 +116,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7e313e52fc216af6d4e9612006451a7699265197/capsule_231x87.jpg"
     },
@@ -138,5 +152,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Out of Range",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "OutOfRange.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5114231": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "104136544",
+          "gid": "1817765653193377933",
+          "size": "635826246"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24764805",
+        "timebuildupdated": "1786905337",
+        "timeupdated": "1786905454"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Yoho Games",
+    "isfreeapp": "1",
+    "publisher": "Yoho Games"
+  }
 }

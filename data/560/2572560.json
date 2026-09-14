@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789362694,
+  "_lastChecked": 1789369780,
   "_history": [
     {
       "buildId": "21241841",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38831673,
-  "_missing_token": true,
-  "_sha": "90879922cec2f5c5e406f06f32a6ef3294728cef",
-  "_size": 4151,
+  "_change_number": 38852251,
+  "_missing_token": false,
+  "_sha": "43011c3a5d61635f5e940a582265c79866cc27e6",
+  "_size": 6881,
   "appid": "2572560",
   "common": {
     "associations": {
@@ -76,8 +76,9 @@
       "4": "28"
     },
     "header_image": {
-      "english": "header.jpg",
-      "schinese": "header_schinese.jpg"
+      "english": "2eb9da91e1b7ebcbdaecc95a27dba7c6495372b5/header.jpg",
+      "sc_schinese": "172125f0aa73558aecf174bda67cda16e0e19eeb/header_sc_schinese.jpg",
+      "schinese": "172125f0aa73558aecf174bda67cda16e0e19eeb/header_schinese.jpg"
     },
     "icon": "aa79fe342eea3658c9b9462b971783f906034421",
     "languages": {
@@ -86,7 +87,7 @@
     },
     "library_assets": {
       "library_capsule": "en,zh-cn,zh-xc",
-      "library_header": "en,zh-cn",
+      "library_header": "en,zh-cn,zh-xc",
       "library_hero": "en",
       "library_logo": "en,zh-cn,zh-xc",
       "logo_position": {
@@ -98,18 +99,26 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "library_600x900.jpg",
-          "schinese": "library_600x900_schinese.jpg"
+          "english": "49c722d05931d37947bffd5a173eedeb11b4a872/library_capsule.jpg",
+          "sc_schinese": "74b154e482eaa62fc3b1845b267ae29572158032/library_capsule_sc_schinese.jpg",
+          "schinese": "74b154e482eaa62fc3b1845b267ae29572158032/library_capsule_schinese.jpg"
         },
         "image2x": {
-          "english": "library_600x900_2x.jpg",
-          "schinese": "library_600x900_schinese_2x.jpg"
+          "english": "49c722d05931d37947bffd5a173eedeb11b4a872/library_capsule_2x.jpg",
+          "sc_schinese": "74b154e482eaa62fc3b1845b267ae29572158032/library_capsule_sc_schinese_2x.jpg",
+          "schinese": "74b154e482eaa62fc3b1845b267ae29572158032/library_capsule_schinese_2x.jpg"
         }
       },
       "library_header": {
         "image": {
-          "english": "library_header.jpg",
-          "schinese": "library_header_schinese.jpg"
+          "english": "2eb9da91e1b7ebcbdaecc95a27dba7c6495372b5/library_header.jpg",
+          "sc_schinese": "172125f0aa73558aecf174bda67cda16e0e19eeb/library_header_sc_schinese.jpg",
+          "schinese": "172125f0aa73558aecf174bda67cda16e0e19eeb/library_header_schinese.jpg"
+        },
+        "image2x": {
+          "english": "2eb9da91e1b7ebcbdaecc95a27dba7c6495372b5/library_header_2x.jpg",
+          "sc_schinese": "172125f0aa73558aecf174bda67cda16e0e19eeb/library_header_sc_schinese_2x.jpg",
+          "schinese": "172125f0aa73558aecf174bda67cda16e0e19eeb/library_header_schinese_2x.jpg"
         }
       },
       "library_hero": {
@@ -123,10 +132,12 @@
       "library_logo": {
         "image": {
           "english": "logo.png",
+          "sc_schinese": "logo_sc_schinese.png",
           "schinese": "logo_schinese.png"
         },
         "image2x": {
           "english": "logo_2x.png",
+          "sc_schinese": "logo_sc_schinese_2x.png",
           "schinese": "logo_schinese_2x.png"
         },
         "logo_position": {
@@ -138,6 +149,7 @@
     },
     "name": "Messy Up",
     "name_localized": {
+      "sc_schinese": "萌宠拆拆乐",
       "schinese": "萌宠拆拆乐",
       "tchinese": "萌寵拆拆樂"
     },
@@ -146,14 +158,16 @@
     "oslist": "windows",
     "primary_genre": "4",
     "releasestate": "released",
+    "releasestatesteamchina": "prerelease",
     "review_percentage": "84",
     "review_score": "8",
     "small_capsule": {
-      "english": "capsule_231x87.jpg",
-      "schinese": "capsule_231x87_schinese.jpg"
+      "english": "aa008caa3e22599f44d114fbe9c188878e38a96c/capsule_231x87.jpg",
+      "sc_schinese": "abc34bc6d7707799ef3ebbebfb3eed3009c9a9b1/capsule_231x87_sc_schinese.jpg",
+      "schinese": "abc34bc6d7707799ef3ebbebfb3eed3009c9a9b1/capsule_231x87_schinese.jpg"
     },
     "steam_release_date": "1718330344",
-    "store_asset_mtime": "1749199648",
+    "store_asset_mtime": "1789360590",
     "store_tags": {
       "0": "492",
       "1": "7178",
@@ -220,5 +234,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Messy Up",
+    "launch": {
+      "0": {
+        "executable": "Messy Up\\Messy Up.exe"
+      }
+    },
+    "steam_china_only": {
+      "steam_china_enable_duration_control": "1"
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "2572561": {
+      "manifests": {
+        "public": {
+          "download": "1452399168",
+          "gid": "4744111174997228074",
+          "size": "2474150582"
+        }
+      }
+    },
+    "3345370": {
+      "dlcappid": "3345370"
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese",
+    "branches": {
+      "public": {
+        "buildid": "21241841",
+        "timebuildupdated": "1766066864",
+        "timeupdated": "1766567051"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Liquid Meow",
+    "dlcavailableonstore": "1",
+    "listofdlc": "3345370,3380560",
+    "publisher": "Liquid Meow",
+    "remoteplaytogethertestingbranches": "default,external_testing,steam_china_only"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "5120000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "LiquidMeowGames/Messy Up/{64BitSteamID}/PlayerBinaryData",
+        "pattern": "*.bytes",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

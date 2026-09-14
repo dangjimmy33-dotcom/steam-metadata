@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789365103,
-  "_history": [],
-  "_change_number": 38632875,
-  "_missing_token": true,
-  "_sha": "a9d614ad23e23dd2f1741e4520ae2f38471cc146",
-  "_size": 3299,
+  "_lastChecked": 1789372858,
+  "_history": [
+    {
+      "buildId": "24957939",
+      "branch": "public",
+      "timeUpdated": 1787779404,
+      "firstSeen": 1789372858,
+      "manifests": {
+        "5153851": {
+          "gid": "7513905874036800983",
+          "size": 287996147,
+          "download": 113384688
+        }
+      }
+    }
+  ],
+  "_change_number": 38853247,
+  "_missing_token": false,
+  "_sha": "c6a0fef89908105689e97232ce446ad9df087d94",
+  "_size": 4439,
   "appid": "5153850",
   "common": {
     "associations": {
@@ -40,9 +54,9 @@
     },
     "clienticon": "c33fd4f1ebf9641c24c7feeb8f35cf7cc9637f99",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5153850",
     "genres": {
       "0": "4",
@@ -113,10 +127,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "76a02ce1307f578c55027c6e1ae6658a1ed88fbe/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789372052",
     "store_asset_mtime": "1788420473",
     "store_tags": {
       "0": "597",
@@ -147,5 +162,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Infinite Music Game",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "the-infinite-music-game.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "15",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5153851": {
+      "manifests": {
+        "public": {
+          "download": "113384688",
+          "gid": "7513905874036800983",
+          "size": "287996147"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24957939",
+        "timebuildupdated": "1787779254",
+        "timeupdated": "1787779404"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kiyo Arts",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5156030,5156040,5156050,5156060",
+    "publisher": "Kiyo Arts"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "924288000",
+    "savefiles": {
+      "0": {
+        "path": "Infinite Music Game",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

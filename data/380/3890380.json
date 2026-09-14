@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789363992,
+  "_lastChecked": 1789371444,
   "_history": [
     {
       "buildId": "24771676",
@@ -36,11 +36,29 @@
           "download": 157372352
         }
       }
+    },
+    {
+      "buildId": "25293822",
+      "branch": "beta",
+      "timeUpdated": 1789367418,
+      "firstSeen": 1789371444,
+      "manifests": {
+        "3890381": {
+          "gid": "8875509505933979596",
+          "size": 592835519,
+          "download": 216683360
+        },
+        "3890382": {
+          "gid": "5695807688923584222",
+          "size": 477402324,
+          "download": 164864176
+        }
+      }
     }
   ],
-  "_change_number": 38083850,
+  "_change_number": 38851739,
   "_missing_token": false,
-  "_sha": "eb0d9265940397993b9de693c4fab524d6e499f6",
+  "_sha": "3231e116a47307aa8826e3dad1306a500035e1a8",
   "_size": 6297,
   "appid": "3890380",
   "common": {
@@ -292,9 +310,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "210091008",
-          "gid": "1432261904656483096",
-          "size": "577194228"
+          "download": "216683360",
+          "gid": "8875509505933979596",
+          "size": "592835519"
         },
         "public": {
           "download": "210091008",
@@ -310,9 +328,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "157372352",
-          "gid": "4340691918725727690",
-          "size": "456858325"
+          "download": "164864176",
+          "gid": "5695807688923584222",
+          "size": "477402324"
         },
         "public": {
           "download": "157372352",
@@ -323,10 +341,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "24771676",
+        "buildid": "25293822",
         "description": "Early test builds for upcoming fixes and features. These land here before the default branch — expect rough edges. Great for trying fixes early and reporting back.",
-        "timebuildupdated": "1786951148",
-        "timeupdated": "1786951148"
+        "timebuildupdated": "1789367418",
+        "timeupdated": "1789367418"
       },
       "public": {
         "buildid": "24771709",

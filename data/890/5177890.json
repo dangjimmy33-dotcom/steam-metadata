@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789365116,
-  "_history": [],
-  "_change_number": 38496100,
-  "_missing_token": true,
-  "_sha": "fe6af7009c529c98e3a57e50f9452e9397e29391",
-  "_size": 2763,
+  "_lastChecked": 1789372874,
+  "_history": [
+    {
+      "buildId": "24941626",
+      "branch": "public",
+      "timeUpdated": 1787714946,
+      "firstSeen": 1789372874,
+      "manifests": {
+        "5177891": {
+          "gid": "4091368398299801423",
+          "size": 254723428,
+          "download": 95019072
+        }
+      }
+    }
+  ],
+  "_change_number": 38853043,
+  "_missing_token": false,
+  "_sha": "7e4b3c59cbf45a5c86774cd146c9b782e0ed2244",
+  "_size": 3352,
   "appid": "5177890",
   "common": {
     "associations": {
@@ -24,8 +38,8 @@
     },
     "clienticon": "1949c35649d50914bf64cc9098af7210e54e9008",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5177890",
     "genres": {
       "0": "4",
@@ -96,10 +110,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "85d7d2a234d192d2185c4e96f3c74398ff3c4a33/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787716290",
     "store_tags": {
       "0": "16250",
@@ -122,5 +137,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blackjack Simulator 2027",
+    "launch": {
+      "0": {
+        "executable": "Blackjack Simulator 2027.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5177891": {
+      "manifests": {
+        "public": {
+          "download": "95019072",
+          "gid": "4091368398299801423",
+          "size": "254723428"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24941626",
+        "timebuildupdated": "1787714932",
+        "timeupdated": "1787714946"
+      }
+    }
+  },
+  "extended": {
+    "developer": "FlagmanJeremy",
+    "publisher": "FlagmanJeremy"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789365090,
-  "_history": [],
-  "_change_number": 38830255,
-  "_missing_token": true,
-  "_sha": "9530aa1c55faaa217035204a811d993ccd14434a",
-  "_size": 3181,
+  "_lastChecked": 1789372841,
+  "_history": [
+    {
+      "buildId": "25279181",
+      "branch": "public",
+      "timeUpdated": 1789273169,
+      "firstSeen": 1789372841,
+      "manifests": {
+        "5130151": {
+          "gid": "1220675493118723924",
+          "size": 322557930,
+          "download": 127172160
+        }
+      }
+    }
+  ],
+  "_change_number": 38851234,
+  "_missing_token": false,
+  "_sha": "3321e21e2582d3af10c61251d0b5e415b1e17c9a",
+  "_size": 3943,
   "appid": "5130150",
   "common": {
     "associations": {
@@ -38,9 +52,9 @@
     },
     "clienticon": "66108aa89e27f3a85535362bd0732d78f1310ad1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5130150",
     "genres": {
       "0": "4"
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5616883b79afb56d1db75eee7f5c6235c71f5769/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789365590",
     "store_asset_mtime": "1788875281",
     "store_tags": {
       "0": "597",
@@ -140,5 +155,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Put Back Stuff",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Put Back Stuff\\Put Back Stuff.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5130151": {
+      "manifests": {
+        "public": {
+          "download": "127172160",
+          "gid": "1220675493118723924",
+          "size": "322557930"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25279181",
+        "timebuildupdated": "1789273168",
+        "timeupdated": "1789273169"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Shellbunny",
+    "publisher": "Shellbunny"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "300",
+    "quota": "500"
+  }
 }

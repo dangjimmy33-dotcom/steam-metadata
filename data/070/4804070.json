@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789364825,
-  "_history": [],
-  "_change_number": 38655445,
-  "_missing_token": true,
-  "_sha": "ca2aafe36ad0d2aeabaef26db2f5cb8ad7b86313",
-  "_size": 5728,
+  "_lastChecked": 1789372505,
+  "_history": [
+    {
+      "buildId": "25050512",
+      "branch": "public",
+      "timeUpdated": 1788236476,
+      "firstSeen": 1789372505,
+      "manifests": {
+        "4804071": {
+          "gid": "6613497966532199645",
+          "size": 675301186,
+          "download": 435159312
+        }
+      }
+    }
+  ],
+  "_change_number": 38853240,
+  "_missing_token": false,
+  "_sha": "b9fb5f0b8a89b3b511744a82bbecb1809132ca9f",
+  "_size": 6627,
   "appid": "4804070",
   "common": {
     "associations": {
@@ -25,8 +39,8 @@
     },
     "clienticon": "861c75aa45fba3d16973207b25252de84da57cd1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4804070",
     "genres": {
       "0": "25",
@@ -125,13 +139,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bba4a59d82aedf87c37a2738c9b9bb6032e36f28/capsule_231x87.jpg",
       "japanese": "7b425258c2f93c620c9ee4c03a078d9bc66e960b/capsule_231x87_japanese.jpg",
       "sc_schinese": "4475a29af7145f013e628aa9e6ef6527113fc6c8/capsule_231x87_sc_schinese.jpg",
       "tchinese": "4475a29af7145f013e628aa9e6ef6527113fc6c8/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1785919631",
     "store_tags": {
       "0": "21",
@@ -156,14 +171,6 @@
       "9": "16689"
     },
     "supported_languages": {
-      "english": {
-        "subtitles": "true",
-        "supported": "true"
-      },
-      "japanese": {
-        "subtitles": "true",
-        "supported": "true"
-      },
       "schinese": {
         "subtitles": "true",
         "supported": "true"
@@ -171,5 +178,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "嘘！超能少女代购中",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "bin_release\\Game\\超能少女（demo260724）.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4804071": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "435159312",
+          "gid": "6613497966532199645",
+          "size": "675301186"
+        }
+      }
+    },
+    "4804072": {},
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25050512",
+        "timebuildupdated": "1788236340",
+        "timeupdated": "1788236476"
+      }
+    }
+  },
+  "extended": {
+    "developer": "纸皮便当工作室",
+    "homepage": "https://space.bilibili.com/27399428?spm_id_from=333.1007.0.0",
+    "publisher": "纸皮便当工作室"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }
