@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789378568,
-  "_history": [],
-  "_change_number": 38856182,
-  "_missing_token": true,
-  "_sha": "85cd47b318ea15609b19887c238611c46da877cd",
-  "_size": 10592,
+  "_lastChecked": 1789384990,
+  "_history": [
+    {
+      "buildId": "25282720",
+      "branch": "public",
+      "timeUpdated": 1789302586,
+      "firstSeen": 1789384990,
+      "manifests": {
+        "4300091": {
+          "gid": "7757528828253104442",
+          "size": 1053384499,
+          "download": 248233920
+        },
+        "4300092": {
+          "gid": "3047331291237001141",
+          "size": 1049694992,
+          "download": 256197936
+        }
+      }
+    }
+  ],
+  "_change_number": 38856402,
+  "_missing_token": false,
+  "_sha": "796823365bb632dfdd340797dd2533f6ab4ceb0b",
+  "_size": 12104,
   "appid": "4300090",
   "common": {
     "associations": {
@@ -46,9 +65,9 @@
     },
     "clienticon": "5fca0bfa454d32d9b1bd92d304a2949ce06fb4be",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4300090",
     "genres": {
       "0": "4",
@@ -181,7 +200,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a4a50d00853628344d13ab3442f70787ad5bc1d6/capsule_231x87.jpg",
       "japanese": "7f41d573643f48b25767296a330a14ae20d3dc94/capsule_231x87_japanese.jpg",
@@ -258,6 +277,7 @@
         }
       }
     },
+    "steam_release_date": "1789378893",
     "store_asset_mtime": "1789378119",
     "store_tags": {
       "0": "1239876",
@@ -333,5 +353,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Neat",
+    "launch": {
+      "0": {
+        "arguments": "-window-mode borderless",
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Neat.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Neat.app"
+      }
+    }
+  },
+  "depots": {
+    "4300091": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "248233920",
+          "gid": "7757528828253104442",
+          "size": "1053384499"
+        }
+      }
+    },
+    "4300092": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "256197936",
+          "gid": "3047331291237001141",
+          "size": "1049694992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25282720",
+        "timebuildupdated": "1789302586",
+        "timeupdated": "1789302586"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Korova Games",
+    "homepage": "https://neatga.me/",
+    "publisher": "Rogue Duck Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "97",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Korova games/Neat/Saves",
+            "replace": "Korova games/Neat/Saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Korova games/Neat/Saves",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

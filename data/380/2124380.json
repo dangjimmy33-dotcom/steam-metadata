@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789376393,
+  "_lastChecked": 1789382814,
   "_history": [
     {
       "buildId": "12547655",
@@ -13,12 +13,25 @@
           "download": 644054800
         }
       }
+    },
+    {
+      "buildId": "11206873",
+      "branch": "legacy121",
+      "timeUpdated": 1683839108,
+      "firstSeen": 1789382814,
+      "manifests": {
+        "2124381": {
+          "gid": "6503465221643299535",
+          "size": 667733897,
+          "download": 643947200
+        }
+      }
     }
   ],
-  "_change_number": 37456071,
+  "_change_number": 38856711,
   "_missing_token": false,
-  "_sha": "3816df072458cc4d6d19ef7a6527d33045c48749",
-  "_size": 5848,
+  "_sha": "514bc209e85078e46691a6d3b790c8059627aff6",
+  "_size": 6160,
   "appid": "2124380",
   "common": {
     "associations": {
@@ -240,6 +253,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "legacy121": {
+          "download": "643947200",
+          "gid": "6503465221643299535",
+          "size": "667733897"
+        },
         "public": {
           "download": "644054800",
           "gid": "3750163204170038062",
@@ -256,6 +274,12 @@
     },
     "baselanguages": "english",
     "branches": {
+      "legacy121": {
+        "buildid": "11206873",
+        "description": "Version 1.2.1, old build with bug used by speedrunners",
+        "timebuildupdated": "1683795150",
+        "timeupdated": "1683839108"
+      },
       "public": {
         "buildid": "12547655",
         "timebuildupdated": "1698361669",

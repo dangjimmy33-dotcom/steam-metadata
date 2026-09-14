@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789377994,
-  "_history": [],
-  "_change_number": 38835230,
-  "_missing_token": true,
-  "_sha": "907803ec6abbcb6f728081b76f8ec098c3533ef6",
-  "_size": 3885,
+  "_lastChecked": 1789384416,
+  "_history": [
+    {
+      "buildId": "25281193",
+      "branch": "public",
+      "timeUpdated": 1789291067,
+      "firstSeen": 1789384416,
+      "manifests": {
+        "3711101": {
+          "gid": "7012602838447251361",
+          "size": 216906208,
+          "download": 123086176
+        }
+      }
+    }
+  ],
+  "_change_number": 38856036,
+  "_missing_token": false,
+  "_sha": "46a707d6733b83fa103ebfc0d5ea409673ab1661",
+  "_size": 4579,
   "appid": "3711100",
   "common": {
     "associations": {
@@ -32,6 +46,7 @@
     "clienticon": "d95d13647fd4c1e3b5d7a2ac57438c4bccd795a9",
     "clienttga": "c8e5ff886ba5f67aa06fe0ce10f8442c2d088525",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -39,7 +54,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3711100",
     "genres": {
       "0": "23",
@@ -120,10 +134,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e2728e491b875ed740f55ac84eaf8da4963b2034/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789378102",
     "store_asset_mtime": "1788945095",
     "store_tags": {
       "0": "1716",
@@ -181,5 +196,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Depth of Mind",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "depthOfMind.exe"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3711101": {
+      "manifests": {
+        "public": {
+          "download": "123086176",
+          "gid": "7012602838447251361",
+          "size": "216906208"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25281193",
+        "timebuildupdated": "1789291066",
+        "timeupdated": "1789291067"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "FunB4nan",
+    "publisher": "FunB4nan"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "150000"
+  }
 }

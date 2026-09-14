@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789378950,
+  "_lastChecked": 1789385374,
   "_history": [
     {
       "buildId": "25228533",
@@ -117,11 +117,37 @@
           "download": 6641178416
         }
       }
+    },
+    {
+      "buildId": "25296883",
+      "branch": "prod_test",
+      "timeUpdated": 1789379278,
+      "firstSeen": 1789385374,
+      "manifests": {
+        "4734531": {
+          "gid": "7374721231972177869",
+          "size": 7472716389,
+          "download": 6567984240
+        }
+      }
+    },
+    {
+      "buildId": "25296898",
+      "branch": "test",
+      "timeUpdated": 1789379338,
+      "firstSeen": 1789385374,
+      "manifests": {
+        "4734531": {
+          "gid": "2333318105612506846",
+          "size": 7473181804,
+          "download": 6568203408
+        }
+      }
     }
   ],
-  "_change_number": 38849462,
+  "_change_number": 38858034,
   "_missing_token": false,
-  "_sha": "f90108c8c8b637662bd4e068d41b82b4dc28141e",
+  "_sha": "f1a7ec353d97ed04d961fecf0b277ee6190273e3",
   "_size": 5889,
   "appid": "4734530",
   "common": {
@@ -231,7 +257,7 @@
     "primary_genre": "37",
     "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
-    "review_percentage": "69",
+    "review_percentage": "68",
     "review_score": "5",
     "small_capsule": {
       "english": "9e3bcdc914dd7e6d74b9af2f783280f1c81ed1d8/capsule_231x87.jpg"
@@ -350,9 +376,9 @@
     "4734531": {
       "manifests": {
         "prod_test": {
-          "download": "6641178416",
-          "gid": "4308786706061414084",
-          "size": "7545902801"
+          "download": "6567984240",
+          "gid": "7374721231972177869",
+          "size": "7472716389"
         },
         "public": {
           "download": "6653754496",
@@ -365,18 +391,18 @@
           "size": "1916892937"
         },
         "test": {
-          "download": "6665648112",
-          "gid": "8652001686278479085",
-          "size": "7735700202"
+          "download": "6568203408",
+          "gid": "2333318105612506846",
+          "size": "7473181804"
         }
       }
     },
     "branches": {
       "prod_test": {
-        "buildid": "25269445",
+        "buildid": "25296883",
         "description": "prod builds for test",
-        "timebuildupdated": "1789206038",
-        "timeupdated": "1789206038"
+        "timebuildupdated": "1789379278",
+        "timeupdated": "1789379278"
       },
       "public": {
         "buildid": "25233895",
@@ -390,10 +416,10 @@
         "timeupdated": "1783088217"
       },
       "test": {
-        "buildid": "25229385",
+        "buildid": "25296898",
         "description": "for test",
-        "timebuildupdated": "1789038767",
-        "timeupdated": "1789038767"
+        "timebuildupdated": "1789379338",
+        "timeupdated": "1789379338"
       }
     }
   },

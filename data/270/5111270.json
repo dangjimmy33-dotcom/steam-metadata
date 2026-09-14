@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789379254,
-  "_history": [],
-  "_change_number": 38822605,
-  "_missing_token": true,
-  "_sha": "7980a8f32be1b654265e92c1ecab85c464d128dc",
-  "_size": 6406,
+  "_lastChecked": 1789385683,
+  "_history": [
+    {
+      "buildId": "25273707",
+      "branch": "public",
+      "timeUpdated": 1789234282,
+      "firstSeen": 1789385683,
+      "manifests": {
+        "5111271": {
+          "gid": "8195225629845312687",
+          "size": 195421619,
+          "download": 80060944
+        }
+      }
+    }
+  ],
+  "_change_number": 38857688,
+  "_missing_token": false,
+  "_sha": "fdfd14259f4575739e28f3c3b066cae905d27ac7",
+  "_size": 7166,
   "appid": "5111270",
   "common": {
     "aicontenttype": "1",
@@ -31,9 +45,9 @@
     },
     "clienticon": "171cc5c0fb7034ebc9ad43176df0e5d096e5da09",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5111270",
     "genres": {
       "0": "4",
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1ffce4acb28e810e00b86e9a992963a9257210d7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789382047",
     "store_asset_mtime": "1788587262",
     "store_tags": {
       "0": "597",
@@ -351,5 +366,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SlimeMerge",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SlimeMerge.exe",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5111271": {
+      "manifests": {
+        "public": {
+          "download": "80060944",
+          "gid": "8195225629845312687",
+          "size": "195421619"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25273707",
+        "timebuildupdated": "1789233844",
+        "timeupdated": "1789234282"
+      }
+    }
+  },
+  "extended": {
+    "developer": "QuietQuickCollapseGames",
+    "publisher": "QuietQuickCollapseGames"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
 }
