@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789390542,
+  "_lastChecked": 1789396857,
   "_history": [
     {
       "buildId": "23820029",
@@ -54,11 +54,29 @@
           "download": 1247680880
         }
       }
+    },
+    {
+      "buildId": "25300770",
+      "branch": "beta_test",
+      "timeUpdated": 1789394370,
+      "firstSeen": 1789396857,
+      "manifests": {
+        "3428791": {
+          "gid": "5897416937181394383",
+          "size": 2481077990,
+          "download": 1380473440
+        },
+        "3428792": {
+          "gid": "9101371326425720011",
+          "size": 2731607669,
+          "download": 1460937520
+        }
+      }
     }
   ],
-  "_change_number": 38684529,
+  "_change_number": 38863201,
   "_missing_token": false,
-  "_sha": "ec6b66351b48abda918951255c23805ea0c3b166",
+  "_sha": "782a241fc9029bc3c3f6b55cce553e3f769b0bfe",
   "_size": 7108,
   "appid": "3428790",
   "common": {
@@ -316,9 +334,9 @@
       },
       "manifests": {
         "beta_test": {
-          "download": "1185285120",
-          "gid": "6744714164533115882",
-          "size": "1924143619"
+          "download": "1380473440",
+          "gid": "5897416937181394383",
+          "size": "2481077990"
         },
         "hot_fix": {
           "download": "1182627776",
@@ -338,9 +356,9 @@
       },
       "manifests": {
         "beta_test": {
-          "download": "1210753328",
-          "gid": "8651288507407181462",
-          "size": "2026719361"
+          "download": "1460937520",
+          "gid": "9101371326425720011",
+          "size": "2731607669"
         },
         "hot_fix": {
           "download": "1208572416",
@@ -356,10 +374,10 @@
     },
     "branches": {
       "beta_test": {
-        "buildid": "23820029",
+        "buildid": "25300770",
         "description": "for beta testing",
-        "timebuildupdated": "1781866577",
-        "timeupdated": "1781868751"
+        "timebuildupdated": "1789392604",
+        "timeupdated": "1789394370"
       },
       "hot_fix": {
         "buildid": "23663229",

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789392050,
-  "_history": [],
-  "_change_number": 38415246,
-  "_missing_token": true,
-  "_sha": "730b2dd5719ef506db9e75321261fd67bafdd841",
-  "_size": 3282,
+  "_lastChecked": 1789398291,
+  "_history": [
+    {
+      "buildId": "24893871",
+      "branch": "public",
+      "timeUpdated": 1787509794,
+      "firstSeen": 1789398291,
+      "manifests": {
+        "5068521": {
+          "gid": "8532913284337587480",
+          "size": 15143538777,
+          "download": 12524398080
+        }
+      }
+    }
+  ],
+  "_change_number": 38862522,
+  "_missing_token": false,
+  "_sha": "513a142784df7d05cedcfbb3de2ff547beeca190",
+  "_size": 3889,
   "appid": "5068520",
   "common": {
     "aicontenttype": "1",
@@ -32,7 +46,6 @@
     "clienticon": "caabbac2bbf54fbba3721949e353a4304daeb781",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5068520",
     "genres": {
       "0": "23",
@@ -105,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c8a65e301f009a0c8af70b9b5e27fb99100f203f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789393172",
     "store_asset_mtime": "1786001168",
     "store_tags": {
       "0": "122",
@@ -151,5 +165,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "RPG System",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "RPG System.exe"
+      }
+    }
+  },
+  "depots": {
+    "5068521": {
+      "manifests": {
+        "public": {
+          "download": "12524398080",
+          "gid": "8532913284337587480",
+          "size": "15143538777"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24893871",
+        "timebuildupdated": "1787509650",
+        "timeupdated": "1787509794"
+      }
+    }
+  },
+  "extended": {
+    "developer": "J&amp;V ENTERTAINMENT LTDA",
+    "publisher": "J&amp;V ENTERTAINMENT LTDA"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789392048,
-  "_history": [],
-  "_change_number": 38439870,
-  "_missing_token": true,
-  "_sha": "7b9ece7ebae6fb0eb2f5450a03e458051d4aa62b",
-  "_size": 3024,
+  "_lastChecked": 1789398290,
+  "_history": [
+    {
+      "buildId": "25302387",
+      "branch": "public",
+      "timeUpdated": 1789397396,
+      "firstSeen": 1789398290,
+      "manifests": {
+        "5065701": {
+          "gid": "7888024881626272219",
+          "size": 642066759,
+          "download": 175226224
+        }
+      }
+    }
+  ],
+  "_change_number": 38864745,
+  "_missing_token": false,
+  "_sha": "443ba965b7884df5d790f6831e571a926b56679f",
+  "_size": 3807,
   "appid": "5065700",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "4f8ab497b438d2896462829a8a552a6e704d5541",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5065700",
     "genres": {
       "0": "1",
@@ -102,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f57cd7402439875f420964a6dd93c14d8e0baa08/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789397551",
     "store_asset_mtime": "1787840407",
     "store_tags": {
       "0": "1716",
@@ -138,5 +153,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DiceRoll",
+    "launch": {
+      "0": {
+        "executable": "Dice Roll - Roguelite.exe"
+      }
+    }
+  },
+  "depots": {
+    "5065701": {
+      "manifests": {
+        "public": {
+          "download": "175226224",
+          "gid": "7888024881626272219",
+          "size": "642066759"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25302387",
+        "timebuildupdated": "1789397225",
+        "timeupdated": "1789397396"
+      }
+    }
+  },
+  "extended": {
+    "developer": "MuDev",
+    "publisher": "MuDev"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "ManLanterna/Dice Roll - Roguelite",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

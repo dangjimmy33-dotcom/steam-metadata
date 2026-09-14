@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789392105,
-  "_history": [],
-  "_change_number": 38608005,
-  "_missing_token": true,
-  "_sha": "226c8728378eeb4240415d4068390b76be68bf3e",
-  "_size": 3184,
+  "_lastChecked": 1789398344,
+  "_history": [
+    {
+      "buildId": "25127389",
+      "branch": "public",
+      "timeUpdated": 1788536276,
+      "firstSeen": 1789398344,
+      "manifests": {
+        "5151891": {
+          "gid": "2192584390267960427",
+          "size": 1042175217,
+          "download": 872002608
+        }
+      }
+    }
+  ],
+  "_change_number": 38864310,
+  "_missing_token": false,
+  "_sha": "9efba4e52e5b8520eb3957ac2a5d5f199e5a7a3c",
+  "_size": 3941,
   "appid": "5151890",
   "common": {
     "associations": {
@@ -32,6 +46,7 @@
     "clienticns": "0387f425618ea61d8b092f8aa793bab56a041ed6",
     "clienticon": "0387f425618ea61d8b092f8aa793bab56a041ed6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -41,7 +56,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5151890",
     "genres": {
       "0": "23"
@@ -111,7 +125,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9d8745ac82f5e495fd3b61a64892228cd1ee09a9/capsule_231x87.jpg"
     },
@@ -142,5 +156,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "In The Vroms In Clones",
+    "launch": {
+      "0": {
+        "executable": "IntheVoromsInClones.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5151891": {
+      "manifests": {
+        "public": {
+          "download": "872002608",
+          "gid": "2192584390267960427",
+          "size": "1042175217"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25127389",
+        "timebuildupdated": "1788536225",
+        "timeupdated": "1788536276"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Lucas Jardeu",
+    "publisher": "Lucas Jardeu"
+  }
 }

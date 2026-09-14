@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789391970,
-  "_history": [],
-  "_change_number": 38504405,
-  "_missing_token": true,
-  "_sha": "f926cbd3669764c6cee1b8036f34655e3e7c6604",
-  "_size": 4433,
+  "_lastChecked": 1789398216,
+  "_history": [
+    {
+      "buildId": "25301076",
+      "branch": "public",
+      "timeUpdated": 1789393496,
+      "firstSeen": 1789398216,
+      "manifests": {
+        "4964761": {
+          "gid": "6283840659004501426",
+          "size": 849574202,
+          "download": 165479760
+        },
+        "4964762": {
+          "gid": "7438894848527226075",
+          "size": 815883267,
+          "download": 150807728
+        }
+      }
+    }
+  ],
+  "_change_number": 38862740,
+  "_missing_token": false,
+  "_sha": "d42cab7c5edfc92aa67f9c4bee9dea5865898dd6",
+  "_size": 5379,
   "appid": "4964760",
   "common": {
     "associations": {
@@ -26,7 +45,6 @@
     "clienticon": "d8a031d8d665af6f96bc6c565a450e060b7d554f",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4964760",
     "genres": {
       "0": "1",
@@ -131,10 +149,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "21a1f326f6de4c09823f2b61d4d68a68a8f44a66/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788259963",
     "store_tags": {
       "0": "597",
@@ -183,5 +202,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Assassin Seek",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "AssassinSeek.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "AssassinSeek.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4964761": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "165479760",
+          "gid": "6283840659004501426",
+          "size": "849574202"
+        }
+      }
+    },
+    "4964762": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "150807728",
+          "gid": "7438894848527226075",
+          "size": "815883267"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25301076",
+        "timebuildupdated": "1789393463",
+        "timeupdated": "1789393496"
+      }
+    }
+  },
+  "extended": {
+    "developer": "LKHGames",
+    "publisher": "LKHGames"
+  }
 }

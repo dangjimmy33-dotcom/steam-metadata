@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789392078,
-  "_history": [],
-  "_change_number": 38656649,
-  "_missing_token": true,
-  "_sha": "0499bc484cb958149a82eb32190478e8f0e78d44",
-  "_size": 3464,
+  "_lastChecked": 1789398318,
+  "_history": [
+    {
+      "buildId": "25160737",
+      "branch": "public",
+      "timeUpdated": 1788754536,
+      "firstSeen": 1789398318,
+      "manifests": {
+        "5108041": {
+          "gid": "7783328972147821349",
+          "size": 1434476509,
+          "download": 1152719584
+        }
+      }
+    }
+  ],
+  "_change_number": 38864064,
+  "_missing_token": false,
+  "_sha": "f63ad923c3605d4bc5c529a3f2e15f79e11bbc15",
+  "_size": 4656,
   "appid": "5108040",
   "common": {
     "associations": {
@@ -26,6 +40,7 @@
     },
     "clienticon": "86f1a1b8f968409d7f4bf53dcf80b2478e00bdd5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -40,7 +55,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5108040",
     "genres": {
       "0": "1",
@@ -112,11 +126,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "cf7c29ad5f5b07ec32dcf9fa8354c297363c5f14/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789396186",
     "store_asset_mtime": "1788221227",
     "store_tags": {
       "0": "597",
@@ -162,5 +177,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Smack Your Balls",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Launch in DirectX 12",
+        "description_loc": {
+          "english": "Launch in DirectX 12"
+        },
+        "executable": "SmackYourBalls.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5108041": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1152719584",
+          "gid": "7783328972147821349",
+          "size": "1434476509"
+        }
+      }
+    },
+    "baselanguages": "english,french,japanese,koreana,latam,portuguese,russian,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25160737",
+        "timebuildupdated": "1788754514",
+        "timeupdated": "1788754536"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kelli Rose Studios",
+    "homepage": "https://www.smackyourballs.com",
+    "publisher": "Kelli Rose Studios"
+  }
 }

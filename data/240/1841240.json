@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789388934,
+  "_lastChecked": 1789395305,
   "_history": [
     {
       "buildId": "20235055",
@@ -71,10 +71,10 @@
       }
     }
   ],
-  "_change_number": 38811884,
+  "_change_number": 38863116,
   "_missing_token": false,
-  "_sha": "c9576868dcdeb3c51fb937a0a9c8a2924db771b2",
-  "_size": 12455,
+  "_sha": "7fd61059d3fe2c7b1c38ce4353d5f438aeed6567",
+  "_size": 12468,
   "appid": "1841240",
   "common": {
     "associations": {
@@ -508,7 +508,7 @@
         "pathtransforms": {
           "0": {
             "find": "/Godot/app_userdata/Fountains/saves_RELEASE/",
-            "replace": "/.local/share/godot/app_userdata/Fountains/saves_RELEASE/"
+            "replace": ".local/share/godot/app_userdata/Fountains/saves_RELEASE/"
           }
         },
         "root": "WinAppDataRoaming",
@@ -517,8 +517,9 @@
     },
     "savefiles": {
       "0": {
-        "path": "/Godot/app_userdata/Fountains/saves_RELEASE/",
-        "pattern": "*.fsave",
+        "path": "Godot/app_userdata/Fountains/saves_RELEASE/",
+        "pattern": "*",
+        "recursive": "1",
         "root": "WinAppDataRoaming"
       }
     }

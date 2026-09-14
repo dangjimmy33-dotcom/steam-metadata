@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789389734,
+  "_lastChecked": 1789396077,
   "_history": [
     {
       "buildId": "23882481",
@@ -18,12 +18,30 @@
           "download": 2430428976
         }
       }
+    },
+    {
+      "buildId": "25238570",
+      "branch": "public",
+      "timeUpdated": 1789391606,
+      "firstSeen": 1789396077,
+      "manifests": {
+        "2618161": {
+          "gid": "2478282663782678762",
+          "size": 0,
+          "download": 0
+        },
+        "2618163": {
+          "gid": "9110150641061277566",
+          "size": 5767133010,
+          "download": 2435942976
+        }
+      }
     }
   ],
-  "_change_number": 38840646,
+  "_change_number": 38863324,
   "_missing_token": false,
-  "_sha": "0e7428b33e4c06525677c8f0241f461495141ef4",
-  "_size": 3711,
+  "_sha": "a31802e4d2e801ad0eeccd05ef3c67e7c2dfa222",
+  "_size": 3734,
   "appid": "2618160",
   "common": {
     "associations": {
@@ -48,8 +66,7 @@
     "controllertagwizard": "1",
     "gameid": "2618160",
     "genres": {
-      "0": "3",
-      "1": "37"
+      "0": "3"
     },
     "header_image": {
       "english": "2400e306c82f04e892000cb74ec17494cad821b1/header.jpg"
@@ -116,7 +133,7 @@
     "small_capsule": {
       "english": "a4728751a692b4de2235ba51de3113451be6cf0b/capsule_231x87.jpg"
     },
-    "steam_release_date": "1783432901",
+    "steam_release_date": "1783432860",
     "store_asset_mtime": "1781556164",
     "store_tags": {
       "0": "122",
@@ -183,25 +200,26 @@
       },
       "manifests": {
         "public": {
-          "download": "2430428976",
-          "gid": "167974595660658954",
-          "size": "5744450701"
+          "download": "2435942976",
+          "gid": "9110150641061277566",
+          "size": "5767133010"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "23882481",
-        "timebuildupdated": "1782248932",
-        "timeupdated": "1782251685"
+        "buildid": "25238570",
+        "timebuildupdated": "1789068819",
+        "timeupdated": "1789391606"
       }
     },
     "privatebranches": "1"
   },
   "extended": {
     "developer": "Doom Turtle",
+    "dlcavailableonstore": "1",
     "homepage": "https://doomturtle.ca/",
-    "isfreeapp": "1",
+    "listofdlc": "5243840",
     "publisher": "Doom Turtle"
   }
 }

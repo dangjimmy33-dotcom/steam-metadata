@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789391390,
-  "_history": [],
-  "_change_number": 38840565,
-  "_missing_token": true,
-  "_sha": "593526b49706cb2d9b41a9ff44f7b4b462b00a1f",
-  "_size": 4190,
+  "_lastChecked": 1789397664,
+  "_history": [
+    {
+      "buildId": "25301998",
+      "branch": "public",
+      "timeUpdated": 1789396007,
+      "firstSeen": 1789397664,
+      "manifests": {
+        "4301111": {
+          "gid": "1981207290291049836",
+          "size": 1093055713,
+          "download": 492769216
+        },
+        "4301112": {
+          "gid": "4975996252761468902",
+          "size": 1112201775,
+          "download": 502370880
+        }
+      }
+    }
+  ],
+  "_change_number": 38863974,
+  "_missing_token": false,
+  "_sha": "c1b0ff15a096af01ea9cf778bd8e597ccff69449",
+  "_size": 5149,
   "appid": "4301110",
   "common": {
     "aicontenttype": "1",
@@ -21,14 +40,15 @@
     "category": {
       "category_2": "1",
       "category_62": "1",
+      "category_67": "1",
       "category_74": "1",
       "category_76": "1",
-      "category_79": "1"
+      "category_79": "1",
+      "category_80": "1"
     },
     "clienticon": "d87ab60dbb5308cbed2d7d0080eb5f6a0ce2b3b7",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4301110",
     "genres": {
       "0": "2",
@@ -99,10 +119,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a066dccf6b27b9056aba03d59932c1b7f07d181f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789394459",
     "store_asset_mtime": "1788191989",
     "store_tags": {
       "0": "87918",
@@ -195,5 +216,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Headlands",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TheHeadlands.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "The Headlands.app"
+      }
+    }
+  },
+  "depots": {
+    "4301111": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "492769216",
+          "gid": "1981207290291049836",
+          "size": "1093055713"
+        }
+      }
+    },
+    "4301112": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "502370880",
+          "gid": "4975996252761468902",
+          "size": "1112201775"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25301998",
+        "timebuildupdated": "1789396007",
+        "timeupdated": "1789396007"
+      }
+    }
+  },
+  "extended": {
+    "developer": "TessaraOxygen",
+    "publisher": "TessaraOxygen"
+  }
 }

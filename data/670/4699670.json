@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789391747,
-  "_history": [],
-  "_change_number": 38843225,
-  "_missing_token": true,
-  "_sha": "e73301289a096d40683f8f7a2832a452ceac36c7",
-  "_size": 2859,
+  "_lastChecked": 1789398003,
+  "_history": [
+    {
+      "buildId": "25213471",
+      "branch": "public",
+      "timeUpdated": 1789331547,
+      "firstSeen": 1789398003,
+      "manifests": {
+        "4699671": {
+          "gid": "4669776862344924434",
+          "size": 160412168,
+          "download": 82058048
+        }
+      }
+    }
+  ],
+  "_change_number": 38864818,
+  "_missing_token": false,
+  "_sha": "4f7a47d1ff2927bd7dad7d21a9054c6c74db1c7a",
+  "_size": 3682,
   "appid": "4699670",
   "common": {
     "associations": {
@@ -24,8 +38,8 @@
     },
     "clienticon": "bf8198944c43a48f5d28cc57c9ab5a3b34a4649a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4699670",
     "genres": {
       "0": "4"
@@ -95,10 +109,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4c702baa01e3724bdb8057b70b6d92b3ba14c426/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789397697",
     "store_asset_mtime": "1787606114",
     "store_tags": {
       "0": "597",
@@ -123,5 +138,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Of Nooks and Nonsense A Pirate Hidden Object Game",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Pirates - Hidden Object Legacy.exe"
+      }
+    }
+  },
+  "depots": {
+    "4699671": {
+      "manifests": {
+        "public": {
+          "download": "82058048",
+          "gid": "4669776862344924434",
+          "size": "160412168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25213471",
+        "timebuildupdated": "1788972474",
+        "timeupdated": "1789331547"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Weird Pumpkins Studios",
+    "publisher": "Weird Pumpkins Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "3",
+    "quota": "20000",
+    "savefiles": {
+      "0": {
+        "path": "",
+        "pattern": "*.tres",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789391931,
-  "_history": [],
-  "_change_number": 38849356,
-  "_missing_token": true,
-  "_sha": "365d98b0b9528a11570203f74a1d0e5b3ee1e6ef",
-  "_size": 3833,
+  "_lastChecked": 1789398178,
+  "_history": [
+    {
+      "buildId": "25254016",
+      "branch": "public",
+      "timeUpdated": 1789132035,
+      "firstSeen": 1789398178,
+      "manifests": {
+        "4921591": {
+          "gid": "3596887440496064487",
+          "size": 146338748,
+          "download": 65488816
+        }
+      }
+    }
+  ],
+  "_change_number": 38865009,
+  "_missing_token": false,
+  "_sha": "bb0dd3de902aced8ef97929d9cdad8b22f37a2c6",
+  "_size": 4390,
   "appid": "4921590",
   "common": {
     "aicontenttype": "1",
@@ -30,9 +44,9 @@
     },
     "clienticon": "1e10c8deb01f993ed68043fc2fe3975bbe1487ef",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4921590",
     "genres": {
       "0": "1"
@@ -116,11 +130,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "76374ec6144f70b37627192dda13be0aa13e669d/capsule_231x87.jpg",
       "japanese": "c980eb7fb1122d71bc3fe792267146cd1c0215cc/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1789398000",
     "store_asset_mtime": "1788189772",
     "store_tags": {
       "0": "19",
@@ -148,5 +163,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "KasMind",
+    "launch": {
+      "0": {
+        "executable": "KasMind.exe"
+      }
+    }
+  },
+  "depots": {
+    "4921591": {
+      "manifests": {
+        "public": {
+          "download": "65488816",
+          "gid": "3596887440496064487",
+          "size": "146338748"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "25254016",
+        "timebuildupdated": "1789132031",
+        "timeupdated": "1789132035"
+      }
+    }
+  },
+  "extended": {
+    "developer": "kgrdev",
+    "publisher": "kgrdev"
+  }
 }

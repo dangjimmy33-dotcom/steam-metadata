@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789390092,
+  "_lastChecked": 1789396427,
   "_history": [
     {
       "buildId": "22972962",
@@ -65,12 +65,25 @@
           "download": 32000460240
         }
       }
+    },
+    {
+      "buildId": "25225733",
+      "branch": "public",
+      "timeUpdated": 1789394744,
+      "firstSeen": 1789396427,
+      "manifests": {
+        "2975951": {
+          "gid": "6274057541653057635",
+          "size": 38870197213,
+          "download": 32000460240
+        }
+      }
     }
   ],
-  "_change_number": 38859852,
+  "_change_number": 38863706,
   "_missing_token": false,
-  "_sha": "c56ee3a7639090e53e2c00e6c72e04cd39a7da6d",
-  "_size": 8829,
+  "_sha": "6fa0199eb0dfefac660844dd6dc784b4dfa3f30f",
+  "_size": 8550,
   "appid": "2975950",
   "common": {
     "associations": {
@@ -392,30 +405,19 @@
         "oslist": "windows"
       },
       "manifests": {
-        "beta": {
-          "download": "32000460240",
-          "gid": "6274057541653057635",
-          "size": "38870197213"
-        },
         "previousversion": {
           "download": "30116459056",
           "gid": "3604749531707800030",
           "size": "36800601225"
         },
         "public": {
-          "download": "31998802768",
-          "gid": "7293348834666696385",
-          "size": "38870056615"
+          "download": "32000460240",
+          "gid": "6274057541653057635",
+          "size": "38870197213"
         }
       }
     },
     "branches": {
-      "beta": {
-        "buildid": "25225733",
-        "description": "Alternative update 1 branch",
-        "timebuildupdated": "1789026422",
-        "timeupdated": "1789046888"
-      },
       "previousversion": {
         "buildid": "24024519",
         "description": "Game version pre-Character Creator Update",
@@ -423,9 +425,9 @@
         "timeupdated": "1783517887"
       },
       "public": {
-        "buildid": "25208587",
-        "timebuildupdated": "1788957599",
-        "timeupdated": "1789045395"
+        "buildid": "25225733",
+        "timebuildupdated": "1789026422",
+        "timeupdated": "1789394744"
       }
     },
     "privatebranches": "1"

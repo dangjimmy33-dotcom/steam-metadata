@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789390666,
-  "_history": [],
-  "_change_number": 38766053,
-  "_missing_token": true,
-  "_sha": "2097ecd3b3282bb870e409feff79b1fe2fff3d81",
-  "_size": 6680,
+  "_lastChecked": 1789396976,
+  "_history": [
+    {
+      "buildId": "25166374",
+      "branch": "public",
+      "timeUpdated": 1788881640,
+      "firstSeen": 1789396976,
+      "manifests": {
+        "3562201": {
+          "gid": "367559560354326212",
+          "size": 1374703596,
+          "download": 301497488
+        }
+      }
+    }
+  ],
+  "_change_number": 38864242,
+  "_missing_token": false,
+  "_sha": "85494da93a643bb978990a4393cf7eccef4b4c96",
+  "_size": 7698,
   "appid": "3562200",
   "common": {
     "associations": {
@@ -37,9 +51,9 @@
     "clienticon": "140eb6691f117b33565056109c2531af7536468b",
     "clienttga": "95c80aa3f6f6f066343257bb0c018d7b94b9efeb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3562200",
     "genres": {
       "0": "4",
@@ -135,8 +149,8 @@
     "osarch": "",
     "osextended": "",
     "oslist": "windows",
-    "primary_genre": "23",
-    "releasestate": "prerelease",
+    "primary_genre": "4",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cdc566855685fd7599a1f34c0172d3dfc8bf927e/capsule_231x87.jpg",
       "schinese": "24ce4922694226cfd9089820e90fb309d5b2b596/capsule_231x87_schinese.jpg"
@@ -202,7 +216,8 @@
         }
       }
     },
-    "store_asset_mtime": "1788791975",
+    "steam_release_date": "1789390801",
+    "store_asset_mtime": "1789396464",
     "store_tags": {
       "0": "597",
       "1": "4328",
@@ -259,5 +274,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cloudscrapers",
+    "launch": {
+      "0": {
+        "executable": "Cloudscrapers.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65524",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3562201": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "301497488",
+          "gid": "367559560354326212",
+          "size": "1374703596"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25166374",
+        "timebuildupdated": "1788781716",
+        "timeupdated": "1788881640"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Nementic Games",
+    "homepage": "https://cloudscrapersgame.com/",
+    "publisher": "Curve Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Nementic Games/Cloudscrapers/release",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
