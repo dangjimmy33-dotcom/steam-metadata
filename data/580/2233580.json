@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789410407,
+  "_lastChecked": 1789421134,
   "_history": [
     {
       "buildId": "21323712",
@@ -26,12 +26,38 @@
           "download": 1927932176
         }
       }
+    },
+    {
+      "buildId": "25307410",
+      "branch": "openbeta",
+      "timeUpdated": 1789414507,
+      "firstSeen": 1789421134,
+      "manifests": {
+        "2233581": {
+          "gid": "1693320512777571928",
+          "size": 9111212774,
+          "download": 2024339232
+        }
+      }
+    },
+    {
+      "buildId": "25308245",
+      "branch": "public",
+      "timeUpdated": 1789417392,
+      "firstSeen": 1789421134,
+      "manifests": {
+        "2233581": {
+          "gid": "4717378948365950818",
+          "size": 9149547829,
+          "download": 2032616688
+        }
+      }
     }
   ],
-  "_change_number": 37457512,
+  "_change_number": 38873952,
   "_missing_token": false,
-  "_sha": "4a654c36038207072587a010d32b5b4bb5092f97",
-  "_size": 4726,
+  "_sha": "f5cddcfff6659ed690d44d8fc4c5721e44382e62",
+  "_size": 4704,
   "appid": "2233580",
   "common": {
     "aicontenttype": "1",
@@ -76,9 +102,9 @@
       "library_hero": "en",
       "library_logo": "en",
       "logo_position": {
-        "height_pct": "50",
-        "pinned_position": "BottomLeft",
-        "width_pct": "17.43088334457181"
+        "height_pct": "100",
+        "pinned_position": "CenterCenter",
+        "width_pct": "100"
       }
     },
     "library_assets_full": {
@@ -111,9 +137,9 @@
           "english": "logo_2x.png"
         },
         "logo_position": {
-          "height_pct": "50",
-          "pinned_position": "BottomLeft",
-          "width_pct": "17.43088334457181"
+          "height_pct": "100",
+          "pinned_position": "CenterCenter",
+          "width_pct": "100"
         }
       }
     },
@@ -217,29 +243,29 @@
       },
       "manifests": {
         "openbeta": {
-          "download": "1927932176",
-          "gid": "6746834063125320216",
-          "size": "8190634649"
+          "download": "2024339232",
+          "gid": "1693320512777571928",
+          "size": "9111212774"
         },
         "public": {
-          "download": "1927932176",
-          "gid": "6746834063125320216",
-          "size": "8190634649"
+          "download": "2032616688",
+          "gid": "4717378948365950818",
+          "size": "9149547829"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "openbeta": {
-        "buildid": "21323712",
+        "buildid": "25307410",
         "description": "Test Channel for the public that owns the game",
-        "timebuildupdated": "1766835483",
-        "timeupdated": "1766836524"
+        "timebuildupdated": "1789414488",
+        "timeupdated": "1789414507"
       },
       "public": {
-        "buildid": "21323712",
-        "timebuildupdated": "1766835483",
-        "timeupdated": "1766837485"
+        "buildid": "25308245",
+        "timebuildupdated": "1789417328",
+        "timeupdated": "1789417392"
       }
     },
     "privatebranches": "1"

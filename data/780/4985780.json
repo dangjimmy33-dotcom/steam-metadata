@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789415831,
-  "_history": [],
-  "_change_number": 38835272,
-  "_missing_token": true,
-  "_sha": "1081ab2f69b1d843e1c6e9f319705adbe37e7205",
-  "_size": 3961,
+  "_lastChecked": 1789423947,
+  "_history": [
+    {
+      "buildId": "25282526",
+      "branch": "public",
+      "timeUpdated": 1789301439,
+      "firstSeen": 1789423947,
+      "manifests": {
+        "4985781": {
+          "gid": "1026602035963465660",
+          "size": 542602810,
+          "download": 395727584
+        }
+      }
+    }
+  ],
+  "_change_number": 38876059,
+  "_missing_token": false,
+  "_sha": "861aec6a9c7a08ab3c4af104237da72969dfb712",
+  "_size": 4966,
   "appid": "4985780",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +44,8 @@
     },
     "clienticon": "a1c4e710ff6efb3e2f6f2d59e18e6c5408df5571",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4985780",
     "genres": {
       "0": "1",
@@ -118,10 +132,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "37fe1ae1714099afa15215873c5698f45a734b26/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789423680",
     "store_asset_mtime": "1787920242",
     "store_tags": {
       "0": "19",
@@ -157,5 +172,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "AreYouChicken",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Egg.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4985781": {
+      "manifests": {
+        "public": {
+          "download": "395727584",
+          "gid": "1026602035963465660",
+          "size": "542602810"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25282526",
+        "timebuildupdated": "1789301410",
+        "timeupdated": "1789301439"
+      }
+    }
+  },
+  "extended": {
+    "developer": "ギュルダンゲームズ",
+    "homepage": "https://sites.google.com/view/guldinusgames",
+    "publisher": "ギュルダンゲームズ"
+  }
 }

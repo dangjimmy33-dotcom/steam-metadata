@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789414078,
+  "_lastChecked": 1789423579,
   "_history": [
     {
       "buildId": "24651936",
@@ -26,11 +26,24 @@
           "download": 90245264
         }
       }
+    },
+    {
+      "buildId": "25308583",
+      "branch": "debug",
+      "timeUpdated": 1789418788,
+      "firstSeen": 1789423579,
+      "manifests": {
+        "4574891": {
+          "gid": "4504554729128823741",
+          "size": 362311787,
+          "download": 90499440
+        }
+      }
     }
   ],
-  "_change_number": 38871294,
+  "_change_number": 38874414,
   "_missing_token": false,
-  "_sha": "d83a6a029561a2f7f06e9b29b8e25884e64822d4",
+  "_sha": "6b7c8983cfeb338259416ce401d805f45a414b99",
   "_size": 4358,
   "appid": "4574890",
   "common": {
@@ -184,9 +197,9 @@
     "4574891": {
       "manifests": {
         "debug": {
-          "download": "88450384",
-          "gid": "7232185817536639380",
-          "size": "341096145"
+          "download": "90499440",
+          "gid": "4504554729128823741",
+          "size": "362311787"
         },
         "public": {
           "download": "90245264",
@@ -198,10 +211,10 @@
     "baselanguages": "english,japanese",
     "branches": {
       "debug": {
-        "buildid": "24651936",
+        "buildid": "25308583",
         "description": "デバッグ用ブランチ",
-        "timebuildupdated": "1786361920",
-        "timeupdated": "1786361940"
+        "timebuildupdated": "1789418699",
+        "timeupdated": "1789418788"
       },
       "public": {
         "buildid": "25021962",

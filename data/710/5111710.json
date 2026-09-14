@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789415927,
-  "_history": [],
-  "_change_number": 38482458,
-  "_missing_token": true,
-  "_sha": "1b17238fdc0a2b56dd6f62bb39c6eda52b2f804e",
-  "_size": 3272,
+  "_lastChecked": 1789424047,
+  "_history": [
+    {
+      "buildId": "24980894",
+      "branch": "public",
+      "timeUpdated": 1787870603,
+      "firstSeen": 1789424047,
+      "manifests": {
+        "5111712": {
+          "gid": "5839119254327710638",
+          "size": 393881829,
+          "download": 114523152
+        }
+      }
+    }
+  ],
+  "_change_number": 38873561,
+  "_missing_token": false,
+  "_sha": "3bb87eb388add634df813423f2b4929d9302261a",
+  "_size": 4233,
   "appid": "5111710",
   "common": {
     "aicontenttype": "1",
@@ -34,7 +48,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5111710",
     "genres": {
       "0": "25",
@@ -113,7 +126,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "74e5daa71a9717385d1fead80da4ad97e8863a48/capsule_231x87.jpg"
     },
@@ -148,5 +161,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The_Grimhand",
+    "launch": {
+      "0": {
+        "executable": "Grimhand_Game\\Grimhand.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5111712": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "114523152",
+          "gid": "5839119254327710638",
+          "size": "393881829"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "24980894",
+        "timebuildupdated": "1787870602",
+        "timeupdated": "1787870603"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kelthuzad",
+    "isfreeapp": "1",
+    "publisher": "Kelthuzad"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

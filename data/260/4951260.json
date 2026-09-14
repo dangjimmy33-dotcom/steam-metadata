@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789415801,
+  "_lastChecked": 1789423917,
   "_history": [
     {
       "buildId": "25139293",
@@ -119,10 +119,10 @@
       }
     }
   ],
-  "_change_number": 38853428,
+  "_change_number": 38875685,
   "_missing_token": false,
-  "_sha": "c3051edd7307119c4eea9c685b95be9d138c74fa",
-  "_size": 4898,
+  "_sha": "8806286d8c08df87880bc9eae08246e6374bca27",
+  "_size": 5141,
   "appid": "4951260",
   "common": {
     "associations": {
@@ -286,7 +286,16 @@
     "installdir": "Banana Kingdom",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "BananaKingdom.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Banana Kingdom.app"
       }
     }
   },
@@ -299,6 +308,12 @@
           "size": "161786982"
         }
       }
+    },
+    "4951262": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {}
     },
     "branches": {
       "public": {

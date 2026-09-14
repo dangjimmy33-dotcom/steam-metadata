@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789412490,
+  "_lastChecked": 1789422337,
   "_history": [
     {
       "buildId": "24818842",
@@ -56,12 +56,91 @@
           "download": 1359609184
         }
       }
+    },
+    {
+      "buildId": "25307264",
+      "branch": "local",
+      "timeUpdated": 1789413819,
+      "firstSeen": 1789422337,
+      "manifests": {
+        "3355422": {
+          "gid": "6175503792697094126",
+          "size": 4974044921,
+          "download": 2061683760
+        },
+        "3355423": {
+          "gid": "4592085241686304080",
+          "size": 4958068942,
+          "download": 2054653312
+        },
+        "3355424": {
+          "gid": "2446925553219822105",
+          "size": 4955451340,
+          "download": 2053970400
+        }
+      }
+    },
+    {
+      "buildId": "25309319",
+      "branch": "public",
+      "timeUpdated": 1789421599,
+      "firstSeen": 1789422337,
+      "manifests": {
+        "3355421": {
+          "gid": "5024519054676975514",
+          "size": 29,
+          "download": 80
+        },
+        "3355422": {
+          "gid": "4117684292982499854",
+          "size": 4974044921,
+          "download": 2055547152
+        },
+        "3355423": {
+          "gid": "7759111794255463229",
+          "size": 4958068942,
+          "download": 2046843712
+        },
+        "3355424": {
+          "gid": "3995864778789180548",
+          "size": 4955451340,
+          "download": 2046173440
+        }
+      }
+    },
+    {
+      "buildId": "25309319",
+      "branch": "release_all_platforms",
+      "timeUpdated": 1789421599,
+      "firstSeen": 1789422337,
+      "manifests": {
+        "3355421": {
+          "gid": "5024519054676975514",
+          "size": 29,
+          "download": 80
+        },
+        "3355422": {
+          "gid": "4117684292982499854",
+          "size": 4974044921,
+          "download": 2055547152
+        },
+        "3355423": {
+          "gid": "7759111794255463229",
+          "size": 4958068942,
+          "download": 2046843712
+        },
+        "3355424": {
+          "gid": "3995864778789180548",
+          "size": 4955451340,
+          "download": 2046173440
+        }
+      }
     }
   ],
-  "_change_number": 38517717,
+  "_change_number": 38875420,
   "_missing_token": false,
-  "_sha": "b26cecb542f217e537344320f7e9f3ee2d548d4d",
-  "_size": 5710,
+  "_sha": "20b48abc8f1dd802d2ba601f99951a5ad5f01973",
+  "_size": 6233,
   "appid": "3355420",
   "common": {
     "aicontenttype": "1",
@@ -262,15 +341,20 @@
         "oslist": "macos"
       },
       "manifests": {
+        "local": {
+          "download": "2061683760",
+          "gid": "6175503792697094126",
+          "size": "4974044921"
+        },
         "public": {
-          "download": "1368969104",
-          "gid": "8232518783711390696",
-          "size": "3500716332"
+          "download": "2055547152",
+          "gid": "4117684292982499854",
+          "size": "4974044921"
         },
         "release_all_platforms": {
-          "download": "1368969104",
-          "gid": "8232518783711390696",
-          "size": "3500716332"
+          "download": "2055547152",
+          "gid": "4117684292982499854",
+          "size": "4974044921"
         }
       }
     },
@@ -279,15 +363,20 @@
         "oslist": "linux"
       },
       "manifests": {
+        "local": {
+          "download": "2054653312",
+          "gid": "4592085241686304080",
+          "size": "4958068942"
+        },
         "public": {
-          "download": "1360257856",
-          "gid": "5501006932856878877",
-          "size": "3484740665"
+          "download": "2046843712",
+          "gid": "7759111794255463229",
+          "size": "4958068942"
         },
         "release_all_platforms": {
-          "download": "1360257856",
-          "gid": "5501006932856878877",
-          "size": "3484740665"
+          "download": "2046843712",
+          "gid": "7759111794255463229",
+          "size": "4958068942"
         }
       }
     },
@@ -296,29 +385,41 @@
         "oslist": "windows"
       },
       "manifests": {
+        "local": {
+          "download": "2053970400",
+          "gid": "2446925553219822105",
+          "size": "4955451340"
+        },
         "public": {
-          "download": "1359609184",
-          "gid": "7301647610029763615",
-          "size": "3482124495"
+          "download": "2046173440",
+          "gid": "3995864778789180548",
+          "size": "4955451340"
         },
         "release_all_platforms": {
-          "download": "1359609184",
-          "gid": "7301647610029763615",
-          "size": "3482124495"
+          "download": "2046173440",
+          "gid": "3995864778789180548",
+          "size": "4955451340"
         }
       }
     },
     "branches": {
+      "local": {
+        "buildid": "25307264",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1789413819",
+        "timeupdated": "1789413819"
+      },
       "public": {
-        "buildid": "24818842",
-        "timebuildupdated": "1787146080",
-        "timeupdated": "1787146106"
+        "buildid": "25309319",
+        "timebuildupdated": "1789421599",
+        "timeupdated": "1789421599"
       },
       "release_all_platforms": {
-        "buildid": "24818842",
+        "buildid": "25309319",
         "description": "all platforms merged",
-        "timebuildupdated": "1787146080",
-        "timeupdated": "1787146080"
+        "timebuildupdated": "1789421599",
+        "timeupdated": "1789421599"
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789415606,
+  "_lastChecked": 1789423727,
   "_history": [
     {
       "buildId": "25224245",
@@ -48,10 +48,10 @@
       }
     }
   ],
-  "_change_number": 38872864,
+  "_change_number": 38873886,
   "_missing_token": false,
-  "_sha": "459141d6b381fefac93fc456b785882cc38cf44d",
-  "_size": 5742,
+  "_sha": "a903bf62ac1dc567b095e4924186c7e0f06798ce",
+  "_size": 7475,
   "appid": "4739660",
   "common": {
     "associations": {
@@ -168,6 +168,67 @@
     "review_score": "9",
     "small_capsule": {
       "english": "bc50d239d78353955d8afdd241ceccaeb92e93d2/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "3",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "native",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1789408933",
+      "tested_build_id": "25286774",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
     },
     "steam_release_date": "1789058837",
     "store_asset_mtime": "1788839534",

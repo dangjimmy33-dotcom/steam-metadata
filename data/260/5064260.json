@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789415893,
+  "_lastChecked": 1789424011,
   "_history": [
     {
       "buildId": "25106321",
@@ -198,11 +198,29 @@
           "download": 113051040
         }
       }
+    },
+    {
+      "buildId": "25308917",
+      "branch": "patch-test",
+      "timeUpdated": 1789420040,
+      "firstSeen": 1789424011,
+      "manifests": {
+        "5064261": {
+          "gid": "5391610663240952378",
+          "size": 1264736859,
+          "download": 1003186272
+        },
+        "5074440": {
+          "gid": "6624387425655629221",
+          "size": 120458867,
+          "download": 113051040
+        }
+      }
     }
   ],
-  "_change_number": 38872432,
+  "_change_number": 38874870,
   "_missing_token": false,
-  "_sha": "658af99b26e959df7ff03817ede6ad6e496a5bb3",
+  "_sha": "e2513b148c0f773920c57c3f0247daa0826767fb",
   "_size": 5152,
   "appid": "5064260",
   "common": {
@@ -383,9 +401,9 @@
     "5064261": {
       "manifests": {
         "patch-test": {
-          "download": "1003186256",
-          "gid": "3718600408792723260",
-          "size": "1264736850"
+          "download": "1003186272",
+          "gid": "5391610663240952378",
+          "size": "1264736859"
         },
         "public": {
           "download": "972392496",
@@ -412,10 +430,10 @@
     "baselanguages": "english,turkish",
     "branches": {
       "patch-test": {
-        "buildid": "25307228",
+        "buildid": "25308917",
         "description": "CRETA v1.0.1 Test Branch",
-        "timebuildupdated": "1789413675",
-        "timeupdated": "1789413675"
+        "timebuildupdated": "1789420040",
+        "timeupdated": "1789420040"
       },
       "public": {
         "buildid": "25284812",

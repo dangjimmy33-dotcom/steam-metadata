@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789410128,
+  "_lastChecked": 1789420865,
   "_history": [
     {
       "buildId": "17255427",
@@ -104,12 +104,25 @@
           "download": 385516128
         }
       }
+    },
+    {
+      "buildId": "25307280",
+      "branch": "repair-test",
+      "timeUpdated": 1789413898,
+      "firstSeen": 1789420865,
+      "manifests": {
+        "1975521": {
+          "gid": "8580127649279466456",
+          "size": 1409475167,
+          "download": 385528144
+        }
+      }
     }
   ],
-  "_change_number": 38870814,
+  "_change_number": 38873433,
   "_missing_token": false,
-  "_sha": "aca0b7ac5c0b49e6010ad752274aa4b3f9536ce3",
-  "_size": 6306,
+  "_sha": "3666eb2e3c5e78c4e483fceed8029a86acc00d88",
+  "_size": 6588,
   "appid": "1975520",
   "common": {
     "associations": {
@@ -334,6 +347,11 @@
           "download": "385516128",
           "gid": "7277789619706421637",
           "size": "1409396519"
+        },
+        "repair-test": {
+          "download": "385528144",
+          "gid": "8580127649279466456",
+          "size": "1409475167"
         }
       }
     },
@@ -354,6 +372,12 @@
         "buildid": "25306152",
         "timebuildupdated": "1789409427",
         "timeupdated": "1789409446"
+      },
+      "repair-test": {
+        "buildid": "25307280",
+        "description": "Testing Repair Tool",
+        "timebuildupdated": "1789413896",
+        "timeupdated": "1789413898"
       }
     },
     "privatebranches": "1"

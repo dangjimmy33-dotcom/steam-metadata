@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789409802,
+  "_lastChecked": 1789420544,
   "_history": [
     {
       "buildId": "25116255",
@@ -104,12 +104,38 @@
           "download": 21934468000
         }
       }
+    },
+    {
+      "buildId": "25294169",
+      "branch": "public",
+      "timeUpdated": 1789415885,
+      "firstSeen": 1789420544,
+      "manifests": {
+        "1705391": {
+          "gid": "748494760167587106",
+          "size": 23182603909,
+          "download": 21934583856
+        }
+      }
+    },
+    {
+      "buildId": "25294169",
+      "branch": "publicbeta",
+      "timeUpdated": 1789415885,
+      "firstSeen": 1789420544,
+      "manifests": {
+        "1705391": {
+          "gid": "748494760167587106",
+          "size": 23182603909,
+          "download": 21934583856
+        }
+      }
     }
   ],
-  "_change_number": 38825895,
+  "_change_number": 38873668,
   "_missing_token": false,
-  "_sha": "9dbd084592920890a67be8036cf31e3c3113c6e0",
-  "_size": 5778,
+  "_sha": "bee7d00811d8b9ef87cc93c947f9f663122259dc",
+  "_size": 5776,
   "appid": "1705390",
   "common": {
     "associations": {
@@ -318,14 +344,14 @@
     "1705391": {
       "manifests": {
         "public": {
-          "download": "21934468000",
-          "gid": "3463565948326307875",
-          "size": "23182593163"
+          "download": "21934583856",
+          "gid": "748494760167587106",
+          "size": "23182603909"
         },
         "publicbeta": {
-          "download": "21934468000",
-          "gid": "3463565948326307875",
-          "size": "23182593163"
+          "download": "21934583856",
+          "gid": "748494760167587106",
+          "size": "23182603909"
         }
       }
     },
@@ -352,15 +378,15 @@
     },
     "branches": {
       "public": {
-        "buildid": "25275939",
-        "timebuildupdated": "1789248889",
-        "timeupdated": "1789248990"
+        "buildid": "25294169",
+        "timebuildupdated": "1789369236",
+        "timeupdated": "1789415885"
       },
       "publicbeta": {
-        "buildid": "25275939",
+        "buildid": "25294169",
         "description": "The public Beta channel to test new versions before the full release",
-        "timebuildupdated": "1789248889",
-        "timeupdated": "1789248990"
+        "timebuildupdated": "1789369236",
+        "timeupdated": "1789415885"
       }
     },
     "privatebranches": "1"

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789415710,
-  "_history": [],
-  "_change_number": 38873023,
-  "_missing_token": true,
-  "_sha": "77fb9533b2ebeef51d194d8ea704d57b2c2396b2",
-  "_size": 4357,
+  "_lastChecked": 1789423833,
+  "_history": [
+    {
+      "buildId": "25308976",
+      "branch": "public",
+      "timeUpdated": 1789420348,
+      "firstSeen": 1789423833,
+      "manifests": {
+        "4860931": {
+          "gid": "6581218717630870423",
+          "size": 4475579654,
+          "download": 3820473376
+        }
+      }
+    }
+  ],
+  "_change_number": 38874979,
+  "_missing_token": false,
+  "_sha": "146cedf4e561fc7aab6443acc1788e09cc6f4f8e",
+  "_size": 5570,
   "appid": "4860930",
   "common": {
     "aicontenttype": "1",
@@ -37,6 +51,7 @@
     "clienticns": "1d8a74f5f1bd8bb94c905894df97c0ad287e2381",
     "clienticon": "13721a4a1ba148b0c3758329800825536c72a79f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -51,7 +66,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4860930",
     "genres": {
       "0": "1",
@@ -123,11 +137,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "e6c136b9d192be9887315e666f4236018833500d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789416032",
     "store_asset_mtime": "1789414007",
     "store_tags": {
       "0": "12095",
@@ -204,5 +219,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HentaiMayhem",
+    "launch": {
+      "0": {
+        "executable": "Hentai Mayhem.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4860931": {
+      "manifests": {
+        "public": {
+          "download": "3820473376",
+          "gid": "6581218717630870423",
+          "size": "4475579654"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25308976",
+        "timebuildupdated": "1789420290",
+        "timeupdated": "1789420348"
+      }
+    }
+  },
+  "extended": {
+    "developer": "FleshForge Studio",
+    "homepage": "https://www.fleshforgestudio.com",
+    "publisher": "FleshForge Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "FleshForgeStudio/Hentai Mayhem",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "FleshForgeStudio/Hentai Mayhem",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789414012,
-  "_history": [],
-  "_change_number": 38651307,
-  "_missing_token": true,
-  "_sha": "556ade7212d905af992b098bdb9097e8b902fb39",
-  "_size": 3015,
+  "_lastChecked": 1789423510,
+  "_history": [
+    {
+      "buildId": "25156577",
+      "branch": "public",
+      "timeUpdated": 1788727471,
+      "firstSeen": 1789423510,
+      "manifests": {
+        "4506951": {
+          "gid": "1923340001426126255",
+          "size": 27218818332,
+          "download": 5144890480
+        }
+      }
+    }
+  ],
+  "_change_number": 38874419,
+  "_missing_token": false,
+  "_sha": "411159f5bd71213546aa93664be1d4103960d03d",
+  "_size": 4031,
   "appid": "4506950",
   "common": {
     "associations": {
@@ -24,13 +38,14 @@
       "category_38": "1",
       "category_39": "1",
       "category_44": "1",
+      "category_62": "1",
       "category_9": "1"
     },
     "clienticon": "986beb033bbf6660fe11b23edfd29a25901a8684",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4506950",
     "genres": {
       "0": "25",
@@ -71,15 +86,15 @@
       },
       "library_hero": {
         "image": {
-          "english": "fa6fa8e2c69797f1f6b9ea697900976629c07db0/library_hero.jpg"
+          "english": "8eb2e25831227d082a0049bc828e97f4398cb94e/library_hero.jpg"
         },
         "image2x": {
-          "english": "fa6fa8e2c69797f1f6b9ea697900976629c07db0/library_hero_2x.jpg"
+          "english": "8eb2e25831227d082a0049bc828e97f4398cb94e/library_hero_2x.jpg"
         }
       },
       "library_hero_blur": {
         "image": {
-          "english": "fa6fa8e2c69797f1f6b9ea697900976629c07db0/library_hero_blur.jpg"
+          "english": "8eb2e25831227d082a0049bc828e97f4398cb94e/library_hero_blur.jpg"
         }
       },
       "library_logo": {
@@ -101,11 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2a3f00c343788be41bccbad44d5b76d25b432f1a/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1778009050",
+    "store_asset_mtime": "1778009417",
     "store_tags": {
       "0": "4106",
       "1": "5395",
@@ -137,5 +152,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lucky Duckies",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "LuckyDuckies.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4506951": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "5144890480",
+          "gid": "1923340001426126255",
+          "size": "27218818332"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25156577",
+        "timebuildupdated": "1788727319",
+        "timeupdated": "1788727471"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Motherduckers",
+    "isfreeapp": "1",
+    "publisher": "USC Games"
+  }
 }

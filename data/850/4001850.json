@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789413195,
-  "_history": [],
-  "_change_number": 38643324,
-  "_missing_token": true,
-  "_sha": "a907fdee6e0854b1f507edf413fc067a41708748",
-  "_size": 3198,
+  "_lastChecked": 1789423011,
+  "_history": [
+    {
+      "buildId": "24515636",
+      "branch": "public",
+      "timeUpdated": 1788148922,
+      "firstSeen": 1789423011,
+      "manifests": {
+        "4001851": {
+          "gid": "5218969619519989653",
+          "size": 1605598001,
+          "download": 821615056
+        }
+      }
+    }
+  ],
+  "_change_number": 38875793,
+  "_missing_token": false,
+  "_sha": "edd29f83ee357b887cf5a8b6ec1a03721e58ee4d",
+  "_size": 3925,
   "appid": "4001850",
   "common": {
     "aicontenttype": "1",
@@ -33,9 +47,9 @@
     },
     "clienticon": "3ab3487f3e55df555b737b1b44a62e8efb3f59ba",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4001850",
     "genres": {
       "0": "4",
@@ -108,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6fb0afbff09ea8dcca84a139245bb9a0d63e4595/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789422857",
     "store_asset_mtime": "1785657560",
     "store_tags": {
       "0": "597",
@@ -144,5 +159,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SIQIL",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "SIQIL.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "7",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4001851": {
+      "manifests": {
+        "public": {
+          "download": "821615056",
+          "gid": "5218969619519989653",
+          "size": "1605598001"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24515636",
+        "timebuildupdated": "1785644708",
+        "timeupdated": "1788148922"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Arcerus",
+    "publisher": "Arcerus"
+  }
 }

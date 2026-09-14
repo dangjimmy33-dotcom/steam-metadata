@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789410360,
+  "_lastChecked": 1789421093,
   "_history": [
     {
       "buildId": "23057099",
@@ -433,12 +433,35 @@
           "download": 1699857584
         }
       }
+    },
+    {
+      "buildId": "25308235",
+      "branch": "beta-1_16_0-desert-fix",
+      "timeUpdated": 1789417300,
+      "firstSeen": 1789421093,
+      "manifests": {
+        "2198151": {
+          "gid": "6309965668830602390",
+          "size": 3245467001,
+          "download": 1730649408
+        },
+        "2198152": {
+          "gid": "2507433300108172420",
+          "size": 3345900238,
+          "download": 1728059968
+        },
+        "2198153": {
+          "gid": "7734620777927126195",
+          "size": 2959130297,
+          "download": 1699857584
+        }
+      }
     }
   ],
-  "_change_number": 38870299,
+  "_change_number": 38873842,
   "_missing_token": false,
-  "_sha": "38dd8de845c79861684bc947633cca12e36339bd",
-  "_size": 14553,
+  "_sha": "6425b0ae836aca3315cbc81862c58d4bbccad2d5",
+  "_size": 15152,
   "appid": "2198150",
   "common": {
     "associations": {
@@ -804,6 +827,11 @@
           "gid": "8479811875256981313",
           "size": "3245472543"
         },
+        "beta-1_16_0-desert-fix": {
+          "download": "1730649408",
+          "gid": "6309965668830602390",
+          "size": "3245467001"
+        },
         "beta-swapchain-timeout": {
           "download": "1576136688",
           "gid": "5539600080393508089",
@@ -872,6 +900,11 @@
           "gid": "2507433300108172420",
           "size": "3345900238"
         },
+        "beta-1_16_0-desert-fix": {
+          "download": "1728059968",
+          "gid": "2507433300108172420",
+          "size": "3345900238"
+        },
         "beta-swapchain-timeout": {
           "download": "1577957520",
           "gid": "3903368485364565933",
@@ -921,6 +954,11 @@
           "size": "2427752696"
         },
         "beta-1_16_0": {
+          "download": "1699857584",
+          "gid": "7734620777927126195",
+          "size": "2959130297"
+        },
+        "beta-1_16_0-desert-fix": {
           "download": "1699857584",
           "gid": "7734620777927126195",
           "size": "2959130297"
@@ -981,6 +1019,12 @@
         "description": "[BETA] Wooden walls",
         "timebuildupdated": "1789408024",
         "timeupdated": "1789408310"
+      },
+      "beta-1_16_0-desert-fix": {
+        "buildid": "25308235",
+        "description": "[BETA] Wooden walls + desert edge fix; Windows only",
+        "timebuildupdated": "1789417300",
+        "timeupdated": "1789417300"
       },
       "beta-swapchain-timeout": {
         "buildid": "19145416",

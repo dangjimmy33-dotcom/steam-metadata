@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1789405746,
-  "_history": [],
-  "_change_number": 38661854,
-  "_missing_token": true,
-  "_sha": "d13903f6b3d8142cb1587e4aee550ff350f310b3",
-  "_size": 4577,
+  "_lastChecked": 1789423683,
+  "_history": [
+    {
+      "buildId": "24814103",
+      "branch": "dev-latest",
+      "timeUpdated": 1787129675,
+      "firstSeen": 1789423683,
+      "manifests": {
+        "4688291": {
+          "gid": "5490382302564888538",
+          "size": 5701361645,
+          "download": 5544658880
+        }
+      }
+    },
+    {
+      "buildId": "24814103",
+      "branch": "public",
+      "timeUpdated": 1787130556,
+      "firstSeen": 1789423683,
+      "manifests": {
+        "4688291": {
+          "gid": "5490382302564888538",
+          "size": 5701361645,
+          "download": 5544658880
+        }
+      }
+    }
+  ],
+  "_change_number": 38869078,
+  "_missing_token": false,
+  "_sha": "4fa84f0332c350b3539c60be069e8eaf1f2c6485",
+  "_size": 5687,
   "appid": "4688290",
   "common": {
     "associations": {
@@ -26,7 +53,6 @@
     "clienticon": "1f2341bf9f0afe2e0dafa5525e77f04dcfd99571",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4688290",
     "genres": {
       "0": "1",
@@ -99,7 +125,7 @@
     "osextended": "",
     "oslist": "android",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "36212e590de9eb2970a6bca4c12946da291ef713/capsule_231x87.jpg"
     },
@@ -145,6 +171,7 @@
         }
       }
     },
+    "steam_release_date": "1789405755",
     "store_asset_mtime": "1787051678",
     "store_tags": {
       "0": "19",
@@ -196,5 +223,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Action Hero",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "android"
+        },
+        "description": "Android",
+        "description_loc": {
+          "english": "Android"
+        },
+        "executable": "Solero-Android-Shipping-arm64.apk",
+        "type": "openxr"
+      }
+    }
+  },
+  "depots": {
+    "4688291": {
+      "config": {
+        "oslist": "android"
+      },
+      "manifests": {
+        "dev-latest": {
+          "download": "5544658880",
+          "gid": "5490382302564888538",
+          "size": "5701361645"
+        },
+        "public": {
+          "download": "5544658880",
+          "gid": "5490382302564888538",
+          "size": "5701361645"
+        }
+      }
+    },
+    "branches": {
+      "dev-latest": {
+        "buildid": "24814103",
+        "description": "This is where we dev",
+        "timebuildupdated": "1787129675",
+        "timeupdated": "1787129675"
+      },
+      "public": {
+        "buildid": "24814103",
+        "timebuildupdated": "1787129675",
+        "timeupdated": "1787130556"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Fast Travel Games",
+    "homepage": "https://www.fasttravelgames.com/games/actionhero",
+    "publisher": "Fast Travel Games"
+  }
 }

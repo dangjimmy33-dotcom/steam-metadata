@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789409623,
+  "_lastChecked": 1789420370,
   "_history": [
     {
       "buildId": "23703806",
@@ -52,11 +52,24 @@
           "download": 2577402112
         }
       }
+    },
+    {
+      "buildId": "25307163",
+      "branch": "beta",
+      "timeUpdated": 1789413998,
+      "firstSeen": 1789420370,
+      "manifests": {
+        "1574901": {
+          "gid": "2221665244620256702",
+          "size": 3258344701,
+          "download": 2577403248
+        }
+      }
     }
   ],
-  "_change_number": 38866108,
+  "_change_number": 38872578,
   "_missing_token": false,
-  "_sha": "876539e50823230dbca1b6fbae10c5aa96373ee6",
+  "_sha": "129087f8a2e81d65b4afe3c324c17015cd03a21a",
   "_size": 7580,
   "appid": "1574900",
   "common": {
@@ -324,9 +337,9 @@
     "1574901": {
       "manifests": {
         "beta": {
-          "download": "2577402112",
-          "gid": "1366387613044291428",
-          "size": "3258344177"
+          "download": "2577403248",
+          "gid": "2221665244620256702",
+          "size": "3258344701"
         },
         "previous": {
           "download": "2517682512",
@@ -349,10 +362,10 @@
     "baselanguages": "english,german,french,italian,spanish,schinese,russian,brazilian,latam",
     "branches": {
       "beta": {
-        "buildid": "25275409",
+        "buildid": "25307163",
         "description": "Test upcoming patches",
-        "timebuildupdated": "1789245176",
-        "timeupdated": "1789400242"
+        "timebuildupdated": "1789413424",
+        "timeupdated": "1789413998"
       },
       "previous": {
         "buildid": "23325553",

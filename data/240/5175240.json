@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789415966,
-  "_history": [],
-  "_change_number": 38872951,
-  "_missing_token": true,
-  "_sha": "ea00aa62c3bc7a6af09c89d6baba28e033ccc839",
-  "_size": 3219,
+  "_lastChecked": 1789424087,
+  "_history": [
+    {
+      "buildId": "25308425",
+      "branch": "public",
+      "timeUpdated": 1789418161,
+      "firstSeen": 1789424087,
+      "manifests": {
+        "5175241": {
+          "gid": "8378098957458248110",
+          "size": 8207990123,
+          "download": 6943505936
+        }
+      }
+    }
+  ],
+  "_change_number": 38874269,
+  "_missing_token": false,
+  "_sha": "56d042e85aff542206b280b54176378285d826cd",
+  "_size": 3921,
   "appid": "5175240",
   "common": {
     "aicontenttype": "1",
@@ -39,7 +53,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5175240",
     "genres": {
       "0": "3"
@@ -109,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "61f622d618358ee4676b529b14d4476795784f23/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789418404",
     "store_asset_mtime": "1788747507",
     "store_tags": {
       "0": "122",
@@ -145,5 +159,41 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Burrows of Cairntir",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play Burrows of Cairntir",
+        "description_loc": {
+          "english": "Play Burrows of Cairntir"
+        },
+        "executable": "Burrows of Cairntir.exe"
+      }
+    }
+  },
+  "depots": {
+    "5175241": {
+      "manifests": {
+        "public": {
+          "download": "6943505936",
+          "gid": "8378098957458248110",
+          "size": "8207990123"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25308425",
+        "timebuildupdated": "1789418125",
+        "timeupdated": "1789418161"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Cairntir Games",
+    "publisher": "Cairntir Games"
+  }
 }

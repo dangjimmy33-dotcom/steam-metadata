@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789412352,
-  "_history": [],
-  "_change_number": 38866972,
-  "_missing_token": true,
-  "_sha": "85e86e0df1e757c88178bc5739d4a2b856b57d77",
-  "_size": 3307,
+  "_lastChecked": 1789422200,
+  "_history": [
+    {
+      "buildId": "25303862",
+      "branch": "public",
+      "timeUpdated": 1789401745,
+      "firstSeen": 1789422200,
+      "manifests": {
+        "3220371": {
+          "gid": "9007315122355975594",
+          "size": 0,
+          "download": 0
+        },
+        "3220372": {
+          "gid": "1788416339248667034",
+          "size": 4130913740,
+          "download": 1952712848
+        },
+        "3220373": {
+          "gid": "4307798996489219003",
+          "size": 5226772990,
+          "download": 2071736192
+        }
+      }
+    }
+  ],
+  "_change_number": 38873804,
+  "_missing_token": false,
+  "_sha": "140a50ed4f413d1460fc4050fb81dcbb478fbfd0",
+  "_size": 5518,
   "appid": "3220370",
   "common": {
     "associations": {
@@ -33,6 +57,7 @@
     "clienticon": "47c5bd5d40404f788ac7b4571d03e33b85847e23",
     "clienttga": "379b568423928b1697b26b8490e891da68a8368d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -41,7 +66,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3220370",
     "genres": {
       "0": "1",
@@ -113,10 +137,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "46201dc064b932fe82f0dd6bb32f884f7fb91954/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1769089713",
     "store_tags": {
       "0": "19",
@@ -149,5 +174,118 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "default",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Soul Injector Commando",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "SoulInjectorCommando.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "SoulInjectorCommando.sh",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65527",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3220371": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "9007315122355975594",
+          "size": "0"
+        }
+      }
+    },
+    "3220372": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1952712848",
+          "gid": "1788416339248667034",
+          "size": "4130913740"
+        }
+      }
+    },
+    "3220373": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2071736192",
+          "gid": "4307798996489219003",
+          "size": "5226772990"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25303862",
+        "timebuildupdated": "1789401732",
+        "timeupdated": "1789401745"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Jeremy Couillard",
+    "homepage": "https://www.jeremycouillard.com",
+    "publisher": "Jeremy Couillard"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "24117248",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".local/share/Steam/steamapps/SoulInjectorCommando/Saved/SaveGames",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SoulInjectorCommando/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

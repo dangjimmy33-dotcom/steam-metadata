@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789413994,
-  "_history": [],
-  "_change_number": 38284870,
-  "_missing_token": true,
-  "_sha": "be14399a17ad97f789b34e0d1f9a5a7df7af630b",
-  "_size": 3471,
+  "_lastChecked": 1789423492,
+  "_history": [
+    {
+      "buildId": "24885373",
+      "branch": "public",
+      "timeUpdated": 1787443561,
+      "firstSeen": 1789423492,
+      "manifests": {
+        "4492691": {
+          "gid": "8990407251530840357",
+          "size": 101378817,
+          "download": 35470448
+        },
+        "4492692": {
+          "gid": "1503777708922013677",
+          "size": 117303350,
+          "download": 43245200
+        }
+      }
+    }
+  ],
+  "_change_number": 38874763,
+  "_missing_token": false,
+  "_sha": "81305a1b259e86eeb8ffea1bebd9e9c68f34281f",
+  "_size": 4454,
   "appid": "4492690",
   "common": {
     "aicontenttype": "1",
@@ -37,8 +56,8 @@
     },
     "clienticon": "d3c791bf79b098cc643a35c0a85ea30cb1699201",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4492690",
     "genres": {
       "0": "4",
@@ -111,10 +130,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3e6f75326bcf0d7a44386f7ea4a2cf946e743f60/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789419667",
     "store_asset_mtime": "1787404410",
     "store_tags": {
       "0": "701",
@@ -159,5 +179,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Rikogol",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Rikogol.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Rikogol.app"
+      }
+    }
+  },
+  "depots": {
+    "4492691": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "35470448",
+          "gid": "8990407251530840357",
+          "size": "101378817"
+        }
+      }
+    },
+    "4492692": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "43245200",
+          "gid": "1503777708922013677",
+          "size": "117303350"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24885373",
+        "timebuildupdated": "1787443544",
+        "timeupdated": "1787443561"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Deniz Durusoy",
+    "publisher": "Deniz Durusoy"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789413095,
-  "_history": [],
-  "_change_number": 38871182,
-  "_missing_token": true,
-  "_sha": "a68cbf8e715ac05003c6cf6634a68b69915b3a87",
-  "_size": 4549,
+  "_lastChecked": 1789422919,
+  "_history": [
+    {
+      "buildId": "25307487",
+      "branch": "public",
+      "timeUpdated": 1789414915,
+      "firstSeen": 1789422919,
+      "manifests": {
+        "3916441": {
+          "gid": "2287206464484111729",
+          "size": 4060592772,
+          "download": 2264674368
+        }
+      }
+    }
+  ],
+  "_change_number": 38874757,
+  "_missing_token": false,
+  "_sha": "74ca30edc04c1efe782d19493b405f213b1750cd",
+  "_size": 5049,
   "appid": "3916440",
   "common": {
     "associations": {
@@ -21,15 +35,15 @@
         "type": "publisher"
       },
       "11": {
-        "name": "Ranwog",
+        "name": "N4bA",
         "type": "publisher"
       },
       "12": {
-        "name": "MrGD",
+        "name": "Notex",
         "type": "publisher"
       },
       "13": {
-        "name": "Nikitosik53",
+        "name": "MrGD",
         "type": "publisher"
       },
       "2": {
@@ -41,15 +55,15 @@
         "type": "developer"
       },
       "4": {
-        "name": "Ranwog",
+        "name": "N4bA",
         "type": "developer"
       },
       "5": {
-        "name": "MrGD",
+        "name": "Notex",
         "type": "developer"
       },
       "6": {
-        "name": "Nikitosik53",
+        "name": "MrGD",
         "type": "developer"
       },
       "7": {
@@ -78,7 +92,6 @@
     "clienticon": "72ca0fe61d4c6cb14289243367eaaef2d773009b",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3916440",
     "genres": {
       "0": "23"
@@ -148,10 +161,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ff04e534d1eea4b25a5e5f9976a29d54ec5161eb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789419657",
     "store_asset_mtime": "1787297168",
     "store_tags": {
       "0": "492",
@@ -227,5 +241,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "771",
+    "launch": {
+      "0": {
+        "executable": "771.exe"
+      }
+    }
+  },
+  "depots": {
+    "3916441": {
+      "manifests": {
+        "public": {
+          "download": "2264674368",
+          "gid": "2287206464484111729",
+          "size": "4060592772"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "25307487",
+        "timebuildupdated": "1789414775",
+        "timeupdated": "1789414915"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Admia",
+    "publisher": "Admia"
+  }
 }

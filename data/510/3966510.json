@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789413150,
+  "_lastChecked": 1789422975,
   "_history": [
     {
       "buildId": "25099011",
@@ -78,12 +78,25 @@
           "download": 956816544
         }
       }
+    },
+    {
+      "buildId": "25306577",
+      "branch": "public",
+      "timeUpdated": 1789414057,
+      "firstSeen": 1789422975,
+      "manifests": {
+        "3966511": {
+          "gid": "568934221392046607",
+          "size": 1068659362,
+          "download": 956816544
+        }
+      }
     }
   ],
-  "_change_number": 38871449,
+  "_change_number": 38872603,
   "_missing_token": false,
-  "_sha": "72c670398692064701fb12319c18a2e7fc49f135",
-  "_size": 8912,
+  "_sha": "54dad8d7d16165985d752281ad9a4e915ffcbfb5",
+  "_size": 8649,
   "appid": "3966510",
   "common": {
     "associations": {
@@ -374,11 +387,6 @@
       },
       "manifests": {
         "public": {
-          "download": "646462768",
-          "gid": "495164868140442212",
-          "size": "725904787"
-        },
-        "testing": {
           "download": "956816544",
           "gid": "568934221392046607",
           "size": "1068659362"
@@ -392,15 +400,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "25282452",
-        "timebuildupdated": "1789300676",
-        "timeupdated": "1789331809"
-      },
-      "testing": {
         "buildid": "25306577",
-        "description": "Test build",
         "timebuildupdated": "1789411018",
-        "timeupdated": "1789411066"
+        "timeupdated": "1789414057"
       },
       "v1.0": {
         "buildid": "24824466",
