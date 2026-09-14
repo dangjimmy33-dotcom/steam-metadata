@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789345042,
-  "_history": [],
-  "_change_number": 38790322,
-  "_missing_token": true,
-  "_sha": "0a68ca5bfd143dc63b9177a8d95131cfde8fb0f4",
-  "_size": 3975,
+  "_lastChecked": 1789351760,
+  "_history": [
+    {
+      "buildId": "25251401",
+      "branch": "public",
+      "timeUpdated": 1789123753,
+      "firstSeen": 1789351760,
+      "manifests": {
+        "4486351": {
+          "gid": "8507203522916508169",
+          "size": 506297734,
+          "download": 151066512
+        }
+      }
+    }
+  ],
+  "_change_number": 38847808,
+  "_missing_token": false,
+  "_sha": "65558dee6cf89bb1bcca3c64f953849933e6bcbc",
+  "_size": 4868,
   "appid": "4486350",
   "common": {
     "associations": {
@@ -31,8 +45,8 @@
     },
     "clienticon": "0b0ee1af316361feea7ae9c6840614004dc60b8d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4486350",
     "genres": {
       "0": "4",
@@ -118,11 +132,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3145cb4fc901e4cf0944aa96c4d5251719bd898d/capsule_231x87.jpg",
       "schinese": "a03c2ce4d537692e6fce97069546cde4cc5d2e59/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789351137",
     "store_asset_mtime": "1787822295",
     "store_tags": {
       "0": "560542",
@@ -157,5 +172,51 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fantasy Bird Woods",
+    "launch": {
+      "0": {
+        "executable": "Fantasy Bird Woods.exe"
+      }
+    }
+  },
+  "depots": {
+    "4486351": {
+      "manifests": {
+        "public": {
+          "download": "151066512",
+          "gid": "8507203522916508169",
+          "size": "506297734"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25251401",
+        "timebuildupdated": "1789123613",
+        "timeupdated": "1789123753"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SouthBoat Games",
+    "publisher": "SouthBoat Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "6",
+    "quota": "184320",
+    "savefiles": {
+      "0": {
+        "path": "SouthBoatGames/Fantasy Bird Woods",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

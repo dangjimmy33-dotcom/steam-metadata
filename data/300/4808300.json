@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789345397,
-  "_history": [],
-  "_change_number": 38671726,
-  "_missing_token": true,
-  "_sha": "e403a8029475e3ecafdb04ad7a9215662a649241",
-  "_size": 2892,
+  "_lastChecked": 1789352053,
+  "_history": [
+    {
+      "buildId": "25170701",
+      "branch": "public",
+      "timeUpdated": 1788797118,
+      "firstSeen": 1789352053,
+      "manifests": {
+        "4808301": {
+          "gid": "3491627842129146738",
+          "size": 3659282233,
+          "download": 1877654416
+        }
+      }
+    }
+  ],
+  "_change_number": 38846690,
+  "_missing_token": false,
+  "_sha": "3ed166901fe371de2c6f13411966d551f398aa9a",
+  "_size": 3533,
   "appid": "4808300",
   "common": {
     "associations": {
@@ -31,7 +45,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4808300",
     "genres": {
       "0": "1",
@@ -104,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0a906acb13c106ddd602bcc022d7ec4f9ca82593/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789346393",
     "store_asset_mtime": "1780895135",
     "store_tags": {
       "0": "5547",
@@ -130,5 +144,44 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CLUBX",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ClubX.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4808301": {
+      "manifests": {
+        "public": {
+          "download": "1877654416",
+          "gid": "3491627842129146738",
+          "size": "3659282233"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25170701",
+        "timebuildupdated": "1788797116",
+        "timeupdated": "1788797118"
+      }
+    }
+  },
+  "extended": {
+    "developer": "XRUN",
+    "isfreeapp": "1",
+    "publisher": "XRUN"
+  },
+  "ufs": {
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
 }

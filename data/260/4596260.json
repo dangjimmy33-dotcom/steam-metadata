@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789345179,
+  "_lastChecked": 1789351873,
   "_history": [
     {
       "buildId": "24979652",
@@ -460,11 +460,34 @@
           "download": 2208646528
         }
       }
+    },
+    {
+      "buildId": "25290327",
+      "branch": "tester",
+      "timeUpdated": 1789346728,
+      "firstSeen": 1789351873,
+      "manifests": {
+        "4596261": {
+          "gid": "7073150832553896361",
+          "size": 10578368,
+          "download": 4523712
+        },
+        "4596262": {
+          "gid": "4161419795870218860",
+          "size": 11946519,
+          "download": 4854320
+        },
+        "4596263": {
+          "gid": "8334136020311503904",
+          "size": 2231578349,
+          "download": 2208680560
+        }
+      }
     }
   ],
-  "_change_number": 38828030,
+  "_change_number": 38846766,
   "_missing_token": false,
-  "_sha": "41ebb7ed9f44af30545ee45cf6c7a234bc640722",
+  "_sha": "98d28ad70a4857a7aff0313d1dc5f4ee91f0f10c",
   "_size": 4678,
   "appid": "4596260",
   "common": {
@@ -630,8 +653,8 @@
           "size": "10514368"
         },
         "tester": {
-          "download": "4523696",
-          "gid": "2187690322144278742",
+          "download": "4523712",
+          "gid": "7073150832553896361",
           "size": "10578368"
         }
       }
@@ -661,9 +684,9 @@
           "size": "2124455804"
         },
         "tester": {
-          "download": "2208646528",
-          "gid": "5691958699769318745",
-          "size": "2231544320"
+          "download": "2208680560",
+          "gid": "8334136020311503904",
+          "size": "2231578349"
         }
       }
     },
@@ -674,10 +697,10 @@
         "timeupdated": "1789050035"
       },
       "tester": {
-        "buildid": "25277496",
+        "buildid": "25290327",
         "description": "Tester Branch",
-        "timebuildupdated": "1789259430",
-        "timeupdated": "1789259725"
+        "timebuildupdated": "1789346685",
+        "timeupdated": "1789346728"
       }
     }
   },

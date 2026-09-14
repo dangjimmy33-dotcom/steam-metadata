@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789345531,
-  "_history": [],
-  "_change_number": 38779736,
-  "_missing_token": true,
-  "_sha": "f032ffc45225da9b2a01703c0d793191348295f8",
-  "_size": 3021,
+  "_lastChecked": 1789352165,
+  "_history": [
+    {
+      "buildId": "25165991",
+      "branch": "public",
+      "timeUpdated": 1788780082,
+      "firstSeen": 1789352165,
+      "manifests": {
+        "4930401": {
+          "gid": "2606094004656919833",
+          "size": 294719046,
+          "download": 68796704
+        },
+        "4930402": {
+          "gid": "984068647594244192",
+          "size": 304854529,
+          "download": 69083568
+        }
+      }
+    }
+  ],
+  "_change_number": 38847089,
+  "_missing_token": false,
+  "_sha": "d9a863c3330ee195514742d717d482fd5aa8afee",
+  "_size": 4072,
   "appid": "4930400",
   "common": {
     "associations": {
@@ -28,8 +47,8 @@
     },
     "clienticon": "b387920c39b6a7d86025253dc45c8a3126575d29",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4930400",
     "genres": {
       "0": "4"
@@ -99,10 +118,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0943c4f02acb6e0194e0ae087fe668cb3ca91bde/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789348102",
     "store_asset_mtime": "1787641839",
     "store_tags": {
       "0": "597",
@@ -131,5 +151,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cat Idle",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TaskPaw.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "TaskPaw.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4930401": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "68796704",
+          "gid": "2606094004656919833",
+          "size": "294719046"
+        }
+      }
+    },
+    "4930402": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "69083568",
+          "gid": "984068647594244192",
+          "size": "304854529"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25165991",
+        "timebuildupdated": "1788780082",
+        "timeupdated": "1788780082"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Singular Sunshine Studios",
+    "publisher": "Singular Sunshine Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "2048576"
+  }
 }

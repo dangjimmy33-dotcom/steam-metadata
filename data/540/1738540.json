@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789341558,
+  "_lastChecked": 1789348893,
   "_history": [
     {
       "buildId": "11482170",
@@ -54,10 +54,10 @@
       }
     }
   ],
-  "_change_number": 38773766,
+  "_change_number": 38846518,
   "_missing_token": false,
-  "_sha": "97751c14a140da98b9307ae2f062499f06eb1816",
-  "_size": 4311,
+  "_sha": "c1a8e941cce785ba01e9e8534ba55b6f9cfbbcd7",
+  "_size": 4694,
   "appid": "1738540",
   "common": {
     "associations": {
@@ -269,6 +269,22 @@
       "0": {
         "path": "Soft Mountain/Dancing Cube/gamedata",
         "pattern": "highscores",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Soft Mountain/Dancing Cube/gamedata/{64BitSteamID}",
+        "pattern": "highscores",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Soft Mountain/Dancing Cube/gamedata/{64BitSteamID}",
+        "pattern": "progression",
         "platforms": {
           "1": "Windows"
         },
