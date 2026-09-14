@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789352270,
-  "_history": [],
-  "_change_number": 38813858,
-  "_missing_token": true,
-  "_sha": "dbfdadb6f2bdfb47d19c31d8410a19327e758382",
-  "_size": 3179,
+  "_lastChecked": 1789358613,
+  "_history": [
+    {
+      "buildId": "25268120",
+      "branch": "public",
+      "timeUpdated": 1789195889,
+      "firstSeen": 1789358613,
+      "manifests": {
+        "5052251": {
+          "gid": "6746460689957682673",
+          "size": 190370602,
+          "download": 59692352
+        },
+        "5052252": {
+          "gid": "1514295715772523930",
+          "size": 176364806,
+          "download": 59553584
+        }
+      }
+    }
+  ],
+  "_change_number": 38848618,
+  "_missing_token": false,
+  "_sha": "d57fe1f044b1c3a0b78a2a01e33b91ba73c23f30",
+  "_size": 4146,
   "appid": "5052250",
   "common": {
     "associations": {
@@ -28,8 +47,8 @@
     "clienticns": "51b2352e48a9c6fe739735eec933660ea9f1704a",
     "clienticon": "51b2352e48a9c6fe739735eec933660ea9f1704a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5052250",
     "genres": {
       "0": "1",
@@ -107,10 +126,11 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ccbb5fc8f7419873c031f9c33b8ef946c4470128/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789354460",
     "store_asset_mtime": "1786520089",
     "store_tags": {
       "0": "4026",
@@ -143,5 +163,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SubaPogo",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SUBAPOGO.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "SubaPogo_Mac.app"
+      }
+    }
+  },
+  "depots": {
+    "5052251": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "59692352",
+          "gid": "6746460689957682673",
+          "size": "190370602"
+        }
+      }
+    },
+    "5052252": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "59553584",
+          "gid": "1514295715772523930",
+          "size": "176364806"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25268120",
+        "timebuildupdated": "1789195870",
+        "timeupdated": "1789195889"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DanggeunOi",
+    "publisher": " holo Indie"
+  }
 }

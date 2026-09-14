@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789352208,
-  "_history": [],
-  "_change_number": 38396965,
-  "_missing_token": true,
-  "_sha": "3de2618f79671abd93970aa52f73e1d79d192f1d",
-  "_size": 3199,
+  "_lastChecked": 1789358554,
+  "_history": [
+    {
+      "buildId": "24795956",
+      "branch": "public",
+      "timeUpdated": 1787060713,
+      "firstSeen": 1789358554,
+      "manifests": {
+        "4976681": {
+          "gid": "1215588555495736628",
+          "size": 7522153570,
+          "download": 6451085136
+        },
+        "4976682": {
+          "gid": "1213647588891227771",
+          "size": 7505455932,
+          "download": 6445528608
+        }
+      }
+    }
+  ],
+  "_change_number": 38849322,
+  "_missing_token": false,
+  "_sha": "66418ecce9bc71cc2b53dc4ee3df81785262d567",
+  "_size": 4319,
   "appid": "4976680",
   "common": {
     "aicontenttype": "1",
@@ -34,7 +53,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4976680",
     "genres": {
       "0": "25",
@@ -106,10 +124,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4c5058780894a062db009f084731779ef7254782/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789357206",
     "store_asset_mtime": "1787048138",
     "store_tags": {
       "0": "21",
@@ -140,5 +159,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Black Lotus",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "black-lotus-local-standalone.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "black-lotus-local-standalone.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4976681": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "6451085136",
+          "gid": "1215588555495736628",
+          "size": "7522153570"
+        }
+      }
+    },
+    "4976682": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "6445528608",
+          "gid": "1213647588891227771",
+          "size": "7505455932"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24795956",
+        "timebuildupdated": "1787054144",
+        "timeupdated": "1787060713"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "VNhub",
+    "homepage": "https://www.farmmx.com/",
+    "publisher": "VNhub"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1048576000"
+  }
 }

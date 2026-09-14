@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789349023,
+  "_lastChecked": 1789355539,
   "_history": [
     {
       "buildId": "19675283",
@@ -30,10 +30,10 @@
       }
     }
   ],
-  "_change_number": 38837417,
+  "_change_number": 38848397,
   "_missing_token": false,
-  "_sha": "c092e83fd860db28a0152224be9403f7a47ce1a2",
-  "_size": 10386,
+  "_sha": "00cbd38ebd98e16d23779a2c7cfd8660d065c8f7",
+  "_size": 11539,
   "appid": "1848520",
   "common": {
     "associations": {
@@ -267,18 +267,26 @@
     "steam_release_date": "1700368019",
     "store_asset_mtime": "1701120169",
     "store_tags": {
-      "0": "1665",
-      "1": "597",
-      "10": "3968",
-      "11": "4182",
-      "2": "1664",
-      "3": "1773",
-      "4": "3871",
-      "5": "4726",
-      "6": "7481",
-      "7": "4305",
-      "8": "5350",
-      "9": "492"
+      "0": "37376",
+      "1": "1664",
+      "10": "597",
+      "11": "4305",
+      "12": "4195",
+      "13": "5350",
+      "14": "5154",
+      "15": "3968",
+      "16": "4182",
+      "17": "7368",
+      "18": "3859",
+      "19": "492",
+      "2": "1775",
+      "3": "4026",
+      "4": "1773",
+      "5": "3871",
+      "6": "4726",
+      "7": "97376",
+      "8": "1654",
+      "9": "7481"
     },
     "supported_languages": {
       "english": {
@@ -345,6 +353,44 @@
         },
         "executable": "Fruit Salad.app\\Contents\\MacOS\\Fruit Salad",
         "type": "default"
+      },
+      "3": {
+        "arguments": "--rendering-method forward_plus",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Fruit Salad with Forward+ Rendering",
+        "description_loc": {
+          "english": "Fruit Salad with Forward+ Rendering"
+        },
+        "executable": "FruitSalad.exe",
+        "type": "option1"
+      },
+      "4": {
+        "arguments": "--rendering-method forward_plus",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Fruit Salad with Forward+ Rendering",
+        "description_loc": {
+          "english": "Fruit Salad with Forward+ Rendering"
+        },
+        "executable": "FruitSalad",
+        "type": "option1"
+      },
+      "5": {
+        "arguments": "--rendering-method forward_plus",
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Fruit Salad with Forward+ Rendering",
+        "description_loc": {
+          "english": "Fruit Salad with Forward+ Rendering"
+        },
+        "executable": "Fruit Salad.app\\Contents\\MacOS\\Fruit Salad",
+        "type": "option1"
       }
     },
     "steamcontrollertemplateindex": "4",
