@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789337726,
+  "_lastChecked": 1789345331,
   "_history": [
     {
       "buildId": "25224245",
@@ -23,12 +23,35 @@
           "download": 380516624
         }
       }
+    },
+    {
+      "buildId": "25286774",
+      "branch": "public",
+      "timeUpdated": 1789341780,
+      "firstSeen": 1789345331,
+      "manifests": {
+        "4739661": {
+          "gid": "150301502614871079",
+          "size": 1109680420,
+          "download": 363728432
+        },
+        "4739662": {
+          "gid": "5564139455311205071",
+          "size": 1294756478,
+          "download": 415739312
+        },
+        "4739663": {
+          "gid": "3369098096864564165",
+          "size": 1146365466,
+          "download": 372552096
+        }
+      }
     }
   ],
-  "_change_number": 38841804,
+  "_change_number": 38845714,
   "_missing_token": false,
-  "_sha": "a98f39138a0c34dca097407d101de0d770711363",
-  "_size": 5771,
+  "_sha": "df53308bbf0cde1e4b2621ecc2e70d777584f95c",
+  "_size": 5742,
   "appid": "4739660",
   "common": {
     "associations": {
@@ -43,6 +66,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_23": "1",
       "category_28": "1",
       "category_55": "1",
       "category_56": "1",
@@ -154,9 +178,9 @@
       "11": "91114",
       "12": "492",
       "13": "1654",
-      "14": "4252",
-      "15": "9130",
-      "16": "23491",
+      "14": "9130",
+      "15": "23491",
+      "16": "4252",
       "17": "42152",
       "2": "6650",
       "3": "44868",
@@ -210,9 +234,9 @@
       },
       "manifests": {
         "public": {
-          "download": "365569824",
-          "gid": "8723720246353435001",
-          "size": "1116888368"
+          "download": "363728432",
+          "gid": "150301502614871079",
+          "size": "1109680420"
         }
       }
     },
@@ -223,9 +247,9 @@
       },
       "manifests": {
         "public": {
-          "download": "443126208",
-          "gid": "5942566728991265206",
-          "size": "1386781114"
+          "download": "415739312",
+          "gid": "5564139455311205071",
+          "size": "1294756478"
         }
       }
     },
@@ -236,17 +260,17 @@
       },
       "manifests": {
         "public": {
-          "download": "380516624",
-          "gid": "5834869580594247526",
-          "size": "1187688373"
+          "download": "372552096",
+          "gid": "3369098096864564165",
+          "size": "1146365466"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25224245",
-        "timebuildupdated": "1789019147",
-        "timeupdated": "1789019328"
+        "buildid": "25286774",
+        "timebuildupdated": "1789326391",
+        "timeupdated": "1789341780"
       }
     },
     "privatebranches": "1"
@@ -256,8 +280,6 @@
     "publisher": "Gator Dragon Games"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "1000",
     "quota": "1000000000",
     "rootoverrides": {

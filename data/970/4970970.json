@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789337941,
-  "_history": [],
-  "_change_number": 38252664,
-  "_missing_token": true,
-  "_sha": "83f257ac92ef2ed5c15fb564a2d3cdc7117ea3e7",
-  "_size": 2972,
+  "_lastChecked": 1789345578,
+  "_history": [
+    {
+      "buildId": "24364776",
+      "branch": "public",
+      "timeUpdated": 1784855039,
+      "firstSeen": 1789345578,
+      "manifests": {
+        "4970971": {
+          "gid": "7558956331414569852",
+          "size": 132945222,
+          "download": 52670992
+        },
+        "4970972": {
+          "gid": "6864827249356729479",
+          "size": 150957323,
+          "download": 60511120
+        }
+      }
+    }
+  ],
+  "_change_number": 38846412,
+  "_missing_token": false,
+  "_sha": "7d88f6f99e2aa1fc88664bfc7be8d8b94ad99c6b",
+  "_size": 3690,
   "appid": "4970970",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +48,6 @@
     "clienticon": "7b77b192fa4921cfcc76106726fe1ba7a19b69c6",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4970970",
     "genres": {
       "0": "4",
@@ -104,7 +122,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "888f5217af64d785e055133be413fc32dccd63f2/capsule_231x87.jpg"
     },
@@ -127,5 +145,47 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "gomimandara",
+    "launch": {
+      "0": {
+        "executable": "sin-gomimandaradaradara.exe"
+      }
+    }
+  },
+  "depots": {
+    "4970971": {
+      "manifests": {
+        "public": {
+          "download": "52670992",
+          "gid": "7558956331414569852",
+          "size": "132945222"
+        }
+      }
+    },
+    "4970972": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "60511120",
+          "gid": "6864827249356729479",
+          "size": "150957323"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "24364776",
+        "timebuildupdated": "1784855039",
+        "timeupdated": "1784855039"
+      }
+    }
+  },
+  "extended": {
+    "developer": "akiyahunter",
+    "publisher": "akiyahunter"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789335908,
+  "_lastChecked": 1789343238,
   "_history": [
     {
       "buildId": "24984828",
@@ -72,12 +72,30 @@
           "download": 305269616
         }
       }
+    },
+    {
+      "buildId": "25289438",
+      "branch": "nightly",
+      "timeUpdated": 1789340961,
+      "firstSeen": 1789343238,
+      "manifests": {
+        "3009461": {
+          "gid": "5153872513506092689",
+          "size": 571670482,
+          "download": 252351888
+        },
+        "3009462": {
+          "gid": "743870358020282678",
+          "size": 914309091,
+          "download": 305283936
+        }
+      }
     }
   ],
-  "_change_number": 38839592,
+  "_change_number": 38845507,
   "_missing_token": false,
-  "_sha": "a9b9fdaf18be16d147c0da9b0004545ed74e6846",
-  "_size": 6248,
+  "_sha": "d2a025cb7c81932154686d2d6714d13178c841e2",
+  "_size": 6247,
   "appid": "3009460",
   "common": {
     "associations": {
@@ -303,9 +321,9 @@
       },
       "manifests": {
         "nightly": {
-          "download": "252351680",
-          "gid": "8497973407923485174",
-          "size": "571669768"
+          "download": "252351888",
+          "gid": "5153872513506092689",
+          "size": "571670482"
         },
         "public": {
           "download": "252337568",
@@ -320,9 +338,9 @@
       },
       "manifests": {
         "nightly": {
-          "download": "305283728",
-          "gid": "2966431892871977124",
-          "size": "914307663"
+          "download": "305283936",
+          "gid": "743870358020282678",
+          "size": "914309091"
         },
         "public": {
           "download": "305269616",
@@ -333,10 +351,10 @@
     },
     "branches": {
       "nightly": {
-        "buildid": "25285331",
+        "buildid": "25289438",
         "description": "Generally unstable, often fun",
-        "timebuildupdated": "1789318193",
-        "timeupdated": "1789318193"
+        "timebuildupdated": "1789340961",
+        "timeupdated": "1789340961"
       },
       "public": {
         "buildid": "25285188",

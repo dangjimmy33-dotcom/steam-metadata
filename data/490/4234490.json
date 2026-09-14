@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789337228,
-  "_history": [],
-  "_change_number": 38842211,
-  "_missing_token": true,
-  "_sha": "5b9e33b20b3af4b6c81c653fccab190342ace991",
-  "_size": 2948,
+  "_lastChecked": 1789344760,
+  "_history": [
+    {
+      "buildId": "25286966",
+      "branch": "public",
+      "timeUpdated": 1789327330,
+      "firstSeen": 1789344760,
+      "manifests": {
+        "4234491": {
+          "gid": "8203282413224468499",
+          "size": 11740320204,
+          "download": 5313972288
+        }
+      }
+    }
+  ],
+  "_change_number": 38846208,
+  "_missing_token": false,
+  "_sha": "e73cd06be30b33aa5010529bc366b55e00b363e7",
+  "_size": 3474,
   "appid": "4234490",
   "common": {
     "aicontenttype": "1",
@@ -36,7 +50,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4234490",
     "genres": {
       "0": "1",
@@ -107,7 +120,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c458949f013e4e044bbf81a745fa98a78de0f345/capsule_231x87.jpg"
     },
@@ -130,5 +143,36 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Skate Felon",
+    "launch": {
+      "0": {
+        "executable": "Skate Felon.exe"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4234491": {
+      "manifests": {
+        "public": {
+          "download": "5313972288",
+          "gid": "8203282413224468499",
+          "size": "11740320204"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25286966",
+        "timebuildupdated": "1789327292",
+        "timeupdated": "1789327330"
+      }
+    }
+  },
+  "extended": {
+    "developer": "VHS Games",
+    "publisher": "VHS Games"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789335304,
+  "_lastChecked": 1789342537,
   "_history": [
     {
       "buildId": "25140136",
@@ -104,11 +104,24 @@
           "download": 4662079920
         }
       }
+    },
+    {
+      "buildId": "25289428",
+      "branch": "lowend_graphics",
+      "timeUpdated": 1789340959,
+      "firstSeen": 1789342537,
+      "manifests": {
+        "2457581": {
+          "gid": "3740897548519159210",
+          "size": 6370745597,
+          "download": 5425812496
+        }
+      }
     }
   ],
-  "_change_number": 38789412,
+  "_change_number": 38845505,
   "_missing_token": false,
-  "_sha": "3a2ec7098a85bdd0dbcd3c3739d51820b3b8d3fa",
+  "_sha": "b81d30ab0291fdacf164e4868a1b3549373cd064",
   "_size": 6778,
   "appid": "2457580",
   "common": {
@@ -365,9 +378,9 @@
     "2457581": {
       "manifests": {
         "lowend_graphics": {
-          "download": "5425634176",
-          "gid": "1239420661837841442",
-          "size": "6370376562"
+          "download": "5425812496",
+          "gid": "3740897548519159210",
+          "size": "6370745597"
         },
         "public": {
           "download": "4662079920",
@@ -378,10 +391,10 @@
     },
     "branches": {
       "lowend_graphics": {
-        "buildid": "25250772",
+        "buildid": "25289428",
         "description": "Universal Render Pipeline Version",
-        "timebuildupdated": "1789121557",
-        "timeupdated": "1789121585"
+        "timebuildupdated": "1789340889",
+        "timeupdated": "1789340959"
       },
       "public": {
         "buildid": "25250371",

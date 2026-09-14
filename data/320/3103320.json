@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789336012,
+  "_lastChecked": 1789343358,
   "_history": [
     {
       "buildId": "25063762",
@@ -13,12 +13,25 @@
           "download": 454063968
         }
       }
+    },
+    {
+      "buildId": "25289729",
+      "branch": "public",
+      "timeUpdated": 1789342922,
+      "firstSeen": 1789343358,
+      "manifests": {
+        "3103321": {
+          "gid": "630617852219661584",
+          "size": 1856397002,
+          "download": 454027408
+        }
+      }
     }
   ],
-  "_change_number": 38649082,
+  "_change_number": 38845891,
   "_missing_token": false,
-  "_sha": "31f6520ffb86006b6b513946f199cdfe3e40e1ef",
-  "_size": 6662,
+  "_sha": "620e07378c6cefb71631473f4d1b3aa8c78f00ac",
+  "_size": 6120,
   "appid": "3103320",
   "common": {
     "aicontenttype": "1",
@@ -230,46 +243,25 @@
       }
     },
     "steamconfigurator3rdpartynative": "15",
-    "steamcontrollerconfigdetails": {
-      "3656489946": {
-        "controller_type": "controller_xboxone",
-        "enabled_branches": "default",
-        "use_action_block": "false"
-      },
-      "3796915150": {
-        "controller_type": "controller_generic",
-        "enabled_branches": "default",
-        "use_action_block": "false"
-      },
-      "3796920857": {
-        "controller_type": "controller_ps5",
-        "enabled_branches": "default",
-        "use_action_block": "false"
-      },
-      "3797002124": {
-        "controller_type": "controller_switch_pro",
-        "enabled_branches": "default",
-        "use_action_block": "false"
-      }
-    },
-    "steamcontrollertemplateindex": "1",
-    "steamdecktouchscreen": "1"
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "actions.vdf"
   },
   "depots": {
     "3103321": {
       "manifests": {
         "public": {
-          "download": "454063968",
-          "gid": "6192861604542736905",
-          "size": "1857109560"
+          "download": "454027408",
+          "gid": "630617852219661584",
+          "size": "1856397002"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25063762",
-        "timebuildupdated": "1788285032",
-        "timeupdated": "1788285061"
+        "buildid": "25289729",
+        "timebuildupdated": "1789342898",
+        "timeupdated": "1789342922"
       }
     }
   },
