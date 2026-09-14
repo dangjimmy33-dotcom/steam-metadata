@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789394287,
+  "_lastChecked": 1789400771,
   "_history": [
     {
       "buildId": "4576511",
@@ -13,12 +13,25 @@
           "download": 23008800
         }
       }
+    },
+    {
+      "buildId": "25302742",
+      "branch": "public",
+      "timeUpdated": 1789398381,
+      "firstSeen": 1789400771,
+      "manifests": {
+        "908661": {
+          "gid": "769763695462254113",
+          "size": 31114278,
+          "download": 13558080
+        }
+      }
     }
   ],
-  "_change_number": 26253459,
+  "_change_number": 38865220,
   "_missing_token": false,
-  "_sha": "9ee369de15594252c26d97eb3b52d2cf22095613",
-  "_size": 1953,
+  "_sha": "e32c3930b1c6648ab4fa0cbe4fc84463e931e308",
+  "_size": 1984,
   "appid": "908660",
   "common": {
     "associations": {
@@ -86,7 +99,7 @@
         "config": {
           "oslist": "windows"
         },
-        "executable": "Circle Brawl.exe",
+        "executable": "client.exe",
         "type": "config"
       }
     }
@@ -98,17 +111,18 @@
       },
       "manifests": {
         "public": {
-          "download": "23008800",
-          "gid": "8943133867437327105",
-          "size": "71729915"
+          "download": "13558080",
+          "gid": "769763695462254113",
+          "size": "31114278"
         }
       }
     },
     "baselanguages": "english,schinese",
     "branches": {
       "public": {
-        "buildid": "4576511",
-        "timeupdated": "1579177017"
+        "buildid": "25302742",
+        "timebuildupdated": "1789398263",
+        "timeupdated": "1789398381"
       }
     }
   },

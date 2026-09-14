@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789398254,
-  "_history": [],
-  "_change_number": 38853928,
-  "_missing_token": true,
-  "_sha": "ce007af93df00af8a5a13da0d8ceeab036f89ccf",
-  "_size": 3374,
+  "_lastChecked": 1789406095,
+  "_history": [
+    {
+      "buildId": "25295225",
+      "branch": "public",
+      "timeUpdated": 1789373583,
+      "firstSeen": 1789406095,
+      "manifests": {
+        "5016921": {
+          "gid": "3697055185865384876",
+          "size": 625716165,
+          "download": 532333008
+        }
+      }
+    }
+  ],
+  "_change_number": 38866612,
+  "_missing_token": false,
+  "_sha": "7c6116e9dfc0255b61a19413020cebd9d3021003",
+  "_size": 4742,
   "appid": "5016920",
   "common": {
     "aicontenttype": "1",
@@ -35,8 +49,8 @@
     },
     "clienticon": "0820e6d8d82afd6cc87e56c8a15e53b1726161a2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5016920",
     "genres": {
       "0": "4",
@@ -108,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "90403cd48a811ab40d0939a285e101f6d7c40e2e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1789142294",
     "store_tags": {
       "0": "1664",
@@ -155,5 +170,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hearthpiece",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Hearthpiece.exe"
+      }
+    }
+  },
+  "depots": {
+    "5016921": {
+      "manifests": {
+        "public": {
+          "download": "532333008",
+          "gid": "3697055185865384876",
+          "size": "625716165"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25295225",
+        "timebuildupdated": "1789373558",
+        "timeupdated": "1789373583"
+      }
+    }
+  },
+  "extended": {
+    "developer": "3dGecko GmbH",
+    "dlcavailableonstore": "1",
+    "homepage": "https://3dgeckostudio.com/en/games/hearthpiece",
+    "isfreeapp": "1",
+    "listofdlc": "5045750",
+    "publisher": "3dGecko GmbH"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "150000000",
+    "savefiles": {
+      "0": {
+        "path": "Hearthpiece",
+        "pattern": "profile.save*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Hearthpiece/puzzles",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Hearthpiece/custom",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

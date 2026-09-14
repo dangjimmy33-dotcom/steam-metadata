@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789397865,
-  "_history": [],
-  "_change_number": 38861032,
-  "_missing_token": true,
-  "_sha": "ba10805f6b62338e8537f227527ba559a753731f",
-  "_size": 3860,
+  "_lastChecked": 1789405574,
+  "_history": [
+    {
+      "buildId": "25299911",
+      "branch": "public",
+      "timeUpdated": 1789389810,
+      "firstSeen": 1789405574,
+      "manifests": {
+        "4538141": {
+          "gid": "3708663162166667712",
+          "size": 11105774823,
+          "download": 10433790832
+        }
+      }
+    }
+  ],
+  "_change_number": 38866871,
+  "_missing_token": false,
+  "_sha": "4d1f595f8d7c7e9d18418e657b9bf4389b6037fa",
+  "_size": 4881,
   "appid": "4538140",
   "common": {
     "associations": {
@@ -33,9 +47,9 @@
     },
     "clienticon": "805f47db9039ca11ad5e65f47f810a4a2676cbfe",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4538140",
     "genres": {
       "0": "25"
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "dd1f350bb71e50e1213e3ad5f259efbe0681ee2a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789401593",
     "store_asset_mtime": "1789289163",
     "store_tags": {
       "0": "1667",
@@ -181,5 +196,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Rehaunted",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Rehaunted.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4538141": {
+      "manifests": {
+        "public": {
+          "download": "10433790832",
+          "gid": "3708663162166667712",
+          "size": "11105774823"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25299911",
+        "timebuildupdated": "1789389782",
+        "timeupdated": "1789389810"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Cauchemar",
+    "homepage": "https://cauchemarstudio.com",
+    "publisher": "Cauchemar"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789398342,
-  "_history": [],
-  "_change_number": 38478333,
-  "_missing_token": true,
-  "_sha": "eb35189ead69a8f55a49574f74f2524f71ecf557",
-  "_size": 2994,
+  "_lastChecked": 1789406212,
+  "_history": [
+    {
+      "buildId": "24881965",
+      "branch": "public",
+      "timeUpdated": 1787419227,
+      "firstSeen": 1789406212,
+      "manifests": {
+        "5147391": {
+          "gid": "1504860000213065994",
+          "size": 205914996,
+          "download": 141904288
+        }
+      }
+    }
+  ],
+  "_change_number": 38865327,
+  "_missing_token": false,
+  "_sha": "a538442ae05f9d9e377bb6960adacf0cf149f1f8",
+  "_size": 3586,
   "appid": "5147390",
   "common": {
     "associations": {
@@ -27,7 +41,6 @@
     "clienticon": "ffbd7abcaafbcd5df5866745582da4d3a7f7763a",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5147390",
     "genres": {
       "0": "25",
@@ -100,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f5f36bd36d971cc268e3910a4bf9e9a28e2dfcd5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787695001",
     "store_tags": {
       "0": "21",
@@ -134,5 +148,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Monky OS",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MonkyOS.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5147391": {
+      "manifests": {
+        "public": {
+          "download": "141904288",
+          "gid": "1504860000213065994",
+          "size": "205914996"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24881965",
+        "timebuildupdated": "1787419101",
+        "timeupdated": "1787419227"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Monky Gaming Community",
+    "publisher": "Monky Gaming Community"
+  }
 }

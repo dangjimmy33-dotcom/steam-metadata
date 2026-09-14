@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789397612,
-  "_history": [],
-  "_change_number": 38862302,
-  "_missing_token": true,
-  "_sha": "a1b35b63592c9ea4b6076825a3aec6862183ee2e",
-  "_size": 3379,
+  "_lastChecked": 1789405232,
+  "_history": [
+    {
+      "buildId": "25284914",
+      "branch": "public",
+      "timeUpdated": 1789315583,
+      "firstSeen": 1789405232,
+      "manifests": {
+        "4244591": {
+          "gid": "4963205848579941955",
+          "size": 862291424,
+          "download": 594716592
+        },
+        "4244592": {
+          "gid": "8716194501978631251",
+          "size": 901428683,
+          "download": 407231232
+        }
+      }
+    }
+  ],
+  "_change_number": 38865003,
+  "_missing_token": false,
+  "_sha": "f2da3fcbe4f1ba3c020ccff8c8c214e24587b4d8",
+  "_size": 4751,
   "appid": "4244590",
   "common": {
     "aicontenttype": "1",
@@ -28,9 +47,9 @@
     },
     "clienticon": "ea023a456916774217f6e1f6565d598d762d804b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4244590",
     "genres": {
       "0": "1",
@@ -107,10 +126,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e1c1044fe733911c2a03f0df444ec85bbf3bd5ab/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789398002",
     "store_asset_mtime": "1789392666",
     "store_tags": {
       "0": "11095",
@@ -159,5 +179,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "GRIDSLASH_prd",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "GRIDSLASH.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "GRIDSLASH.app"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4244591": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "594716592",
+          "gid": "4963205848579941955",
+          "size": "862291424"
+        }
+      }
+    },
+    "4244592": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "407231232",
+          "gid": "8716194501978631251",
+          "size": "901428683"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "25284914",
+        "timebuildupdated": "1789315583",
+        "timeupdated": "1789315583"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "NoeNoe Games",
+    "homepage": "https://x.com/noenoe_games",
+    "publisher": "NoeNoe Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000"
+  }
 }

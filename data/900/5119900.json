@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789398325,
-  "_history": [],
-  "_change_number": 38839312,
-  "_missing_token": true,
-  "_sha": "668d10ad1d8108350bf09353b05de68f963d12d3",
-  "_size": 3825,
+  "_lastChecked": 1789406190,
+  "_history": [
+    {
+      "buildId": "25303279",
+      "branch": "public",
+      "timeUpdated": 1789400105,
+      "firstSeen": 1789406190,
+      "manifests": {
+        "5119901": {
+          "gid": "393831745300445504",
+          "size": 360880885,
+          "download": 287693088
+        }
+      }
+    }
+  ],
+  "_change_number": 38866110,
+  "_missing_token": false,
+  "_sha": "10c8f9fce9207358030b0fc5670b76bc0a23db01",
+  "_size": 4332,
   "appid": "5119900",
   "common": {
     "aicontenttype": "1",
@@ -27,7 +41,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5119900",
     "genres": {
       "0": "4",
@@ -99,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e526f217a3903bd32049a4cb5c98b2698252e81e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787845625",
     "store_tags": {
       "0": "597",
@@ -187,5 +201,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Endless Roadtrip",
+    "launch": {
+      "0": {
+        "executable": "EndlessRoadtrip.exe"
+      }
+    }
+  },
+  "depots": {
+    "5119901": {
+      "manifests": {
+        "public": {
+          "download": "287693088",
+          "gid": "393831745300445504",
+          "size": "360880885"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25303279",
+        "timebuildupdated": "1789399850",
+        "timeupdated": "1789400105"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Halfsnow",
+    "publisher": "Halfsnow"
+  }
 }

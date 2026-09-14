@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789398294,
-  "_history": [],
-  "_change_number": 38577275,
-  "_missing_token": true,
-  "_sha": "19250b0008be6b532d074e3785d69bff2ca4edad",
-  "_size": 3675,
+  "_lastChecked": 1789406148,
+  "_history": [
+    {
+      "buildId": "24921953",
+      "branch": "public",
+      "timeUpdated": 1787639127,
+      "firstSeen": 1789406148,
+      "manifests": {
+        "5071761": {
+          "gid": "7000545473935248977",
+          "size": 135627824,
+          "download": 44289056
+        }
+      }
+    }
+  ],
+  "_change_number": 38868723,
+  "_missing_token": false,
+  "_sha": "f107e7a61230514b197f69d9d1f4030eaf86cc26",
+  "_size": 4459,
   "appid": "5071760",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +45,8 @@
     },
     "clienticon": "752878339416adb5c15e9a149897e98d7b925367",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5071760",
     "genres": {
       "0": "4",
@@ -115,10 +129,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0c88b9d88d577f884e82b31fe9bc45a74f5a92a1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789405276",
     "store_asset_mtime": "1786360308",
     "store_tags": {
       "0": "597",
@@ -174,5 +189,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "KICKSLAUGHT",
+    "launch": {
+      "0": {
+        "executable": "KICKSLAUGHT.exe"
+      }
+    }
+  },
+  "depots": {
+    "5071761": {
+      "manifests": {
+        "public": {
+          "download": "44289056",
+          "gid": "7000545473935248977",
+          "size": "135627824"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24921953",
+        "timebuildupdated": "1787639125",
+        "timeupdated": "1787639127"
+      }
+    }
+  },
+  "extended": {
+    "developer": "RedenelGO",
+    "publisher": "RedenelGO"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "RedenelGO/KICKSLAUGHT",
+        "pattern": "KickSlaughtSave.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

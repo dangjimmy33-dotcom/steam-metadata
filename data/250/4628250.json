@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789397944,
-  "_history": [],
-  "_change_number": 38836348,
-  "_missing_token": true,
-  "_sha": "3ed5fb06e358bd19b74b25ddea36e88c7fa2031b",
-  "_size": 6574,
+  "_lastChecked": 1789405680,
+  "_history": [
+    {
+      "buildId": "25304969",
+      "branch": "public",
+      "timeUpdated": 1789405611,
+      "firstSeen": 1789405680,
+      "manifests": {
+        "4628251": {
+          "gid": "274230449334225698",
+          "size": 113552405,
+          "download": 33045696
+        }
+      }
+    }
+  ],
+  "_change_number": 38868930,
+  "_missing_token": false,
+  "_sha": "de9288c5207e4b03958f30b5f9d3c4247f219231",
+  "_size": 7614,
   "appid": "4628250",
   "common": {
     "associations": {
@@ -35,8 +49,8 @@
     },
     "clienticon": "8900efd8d5bd266d60d72f27be0aa5077adfe81b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4628250",
     "genres": {
       "0": "4",
@@ -150,7 +164,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "brazilian": "a61089e3f2a9be8a17059c94ccabe7d0f13bf6b6/capsule_231x87_brazilian.jpg",
       "english": "a2bb1db1d6d2070ee4da3157dd716960ab42fe69/capsule_231x87.jpg",
@@ -158,6 +172,7 @@
       "latam": "22dd9662843c476bfcf506cbff2ffda2f3a6bcdd/capsule_231x87_latam.jpg",
       "spanish": "fe26ae59d0e738566bfbda5b5f7e1cda459913cf/capsule_231x87_spanish.jpg"
     },
+    "steam_release_date": "1789398137",
     "store_asset_mtime": "1788183322",
     "store_tags": {
       "0": "597",
@@ -205,5 +220,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HowToGrowYourSausage",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "HowToGrowYourSausage.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4628251": {
+      "manifests": {
+        "public": {
+          "download": "33045696",
+          "gid": "274230449334225698",
+          "size": "113552405"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,german,latam,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25304969",
+        "timebuildupdated": "1789405247",
+        "timeupdated": "1789405611"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Little Horror Studios",
+    "homepage": "https://bit.ly/GrowSausagePressKit",
+    "publisher": "Little Horror Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Little Horror Studios\\HowToGrowYourSausage",
+        "pattern": "*.data",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

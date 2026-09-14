@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789397590,
-  "_history": [],
-  "_change_number": 38843538,
-  "_missing_token": true,
-  "_sha": "8dd4483dc5939b45377f90e9b72823af1db11fd0",
-  "_size": 4474,
+  "_lastChecked": 1789405203,
+  "_history": [
+    {
+      "buildId": "25287959",
+      "branch": "public",
+      "timeUpdated": 1789332782,
+      "firstSeen": 1789405203,
+      "manifests": {
+        "4221991": {
+          "gid": "285016730580034312",
+          "size": 406977192,
+          "download": 293763472
+        }
+      }
+    }
+  ],
+  "_change_number": 38866946,
+  "_missing_token": false,
+  "_sha": "93f51a83e7c98e6542d3f7023c9fb211b57b3f30",
+  "_size": 5501,
   "appid": "4221990",
   "common": {
     "aicontenttype": "1",
@@ -32,9 +46,9 @@
     },
     "clienticon": "6fa3bbb7f363ab5e7dd03b03b4dd761c199045f7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4221990",
     "genres": {
       "0": "1",
@@ -106,10 +120,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2c7bafdc90acf46b2d17cc6c1135546063e527d3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789401711",
     "store_asset_mtime": "1788949228",
     "store_tags": {
       "0": "19",
@@ -228,5 +243,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fish Lab",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Fishlab.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "fishlab",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Fishlab.app"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4221991": {
+      "manifests": {
+        "public": {
+          "download": "293763472",
+          "gid": "285016730580034312",
+          "size": "406977192"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25287959",
+        "timebuildupdated": "1789332710",
+        "timeupdated": "1789332782"
+      }
+    }
+  },
+  "extended": {
+    "developer": "stonecodes",
+    "publisher": "stonecodes"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "50000000"
+  }
 }

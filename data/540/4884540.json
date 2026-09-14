@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789398147,
-  "_history": [],
-  "_change_number": 38860909,
-  "_missing_token": true,
-  "_sha": "e3eb786256221cba61705c075837c0f49461a10c",
-  "_size": 3598,
+  "_lastChecked": 1789405951,
+  "_history": [
+    {
+      "buildId": "24443778",
+      "branch": "public",
+      "timeUpdated": 1785292099,
+      "firstSeen": 1789405951,
+      "manifests": {
+        "4884542": {
+          "gid": "1110742754928450451",
+          "size": 2373146764,
+          "download": 2207655648
+        }
+      }
+    }
+  ],
+  "_change_number": 38869057,
+  "_missing_token": false,
+  "_sha": "c2c9b6327af32c8b5a72555facd71327ee1f6827",
+  "_size": 6445,
   "appid": "4884540",
   "common": {
     "aicontenttype": "1",
@@ -46,7 +60,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4884540",
     "genres": {
       "0": "1",
@@ -119,9 +132,51 @@
     "osextended": "",
     "oslist": "android",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fa11eb073844dcd48e961a49c71b6ba93ee67674/capsule_231x87.jpg"
+    },
+    "steam_frame_compatibility": {
+      "category": "3",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "lepton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1786464074",
+      "tested_build_id": "24443778",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
     },
     "store_asset_mtime": "1788250478",
     "store_tags": {
@@ -166,5 +221,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Thrill of the Fight 2",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "android"
+        },
+        "description": "The Thrill Of The Fight 2",
+        "description_loc": {
+          "english": "The Thrill Of The Fight 2"
+        },
+        "executable": "The_Thrill_of_the_Fight_2.apk",
+        "type": "openxr"
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "4884542": {
+      "config": {
+        "oslist": "android"
+      },
+      "manifests": {
+        "public": {
+          "download": "2207655648",
+          "gid": "1110742754928450451",
+          "size": "2373146764"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,japanese,koreana,spanish",
+    "branches": {
+      "public": {
+        "buildid": "24443778",
+        "timebuildupdated": "1785291294",
+        "timeupdated": "1785292099"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Halfbrick Studios Pty Ltd",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.thethrillofthefight2.com/",
+    "listofdlc": "4885220,4885230,4885240,4885250,4932980,4932990,4933000,4933010,4933020,4933030,4933040,4933050,4933060,4933070,4933080,4933090,4933100,4933110,4933120,4933130,4933140,4933150,4933160,4933170,4933190,4933200,4933210,4933220,4933230,4933240,4933250,4933260,4933270,4933280",
+    "publisher": "Halfbrick Studios Pty Ltd",
+    "vrheadsetstreaming": "1"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "40000000",
+    "savefiles": {
+      "0": {
+        "path": "Android/data/com.HalfbrickStudios.TheThrilloftheFight2/files/SteamAutoCloud/{64BitSteamID}",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Android"
+        },
+        "recursive": "1",
+        "root": "AndroidExternalData"
+      }
+    }
+  }
 }

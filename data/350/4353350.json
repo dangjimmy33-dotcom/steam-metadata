@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789397707,
-  "_history": [],
-  "_change_number": 38845394,
-  "_missing_token": true,
-  "_sha": "910fd9c7381958435ff5665b823ff0108876589b",
-  "_size": 3910,
+  "_lastChecked": 1789405360,
+  "_history": [
+    {
+      "buildId": "25289276",
+      "branch": "public",
+      "timeUpdated": 1789340449,
+      "firstSeen": 1789405360,
+      "manifests": {
+        "4353351": {
+          "gid": "2582471629809915505",
+          "size": 151994309,
+          "download": 69286128
+        },
+        "4353352": {
+          "gid": "5765472904700419134",
+          "size": 144538805,
+          "download": 71496688
+        },
+        "4353353": {
+          "gid": "115142659414651007",
+          "size": 190428227,
+          "download": 73396672
+        }
+      }
+    }
+  ],
+  "_change_number": 38868388,
+  "_missing_token": false,
+  "_sha": "9809607b53144cefcf02037e4e251720d1b823ed",
+  "_size": 6915,
   "appid": "4353350",
   "common": {
     "associations": {
@@ -34,8 +58,8 @@
     "clienticns": "ce0748a5d480f81c0cc87d905580727a0ef2082f",
     "clienticon": "c08850f0ca56235fc409cd7ca4dda49b002cc4b8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4353350",
     "genres": {
       "0": "4",
@@ -120,12 +144,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bf9da73a65f48796e7ca48c057029c2083990538/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/4353350/discussions/0/802341826354868013/",
-    "store_asset_mtime": "1788930516",
+    "steam_release_date": "1789404620",
+    "store_asset_mtime": "1789363730",
     "store_tags": {
       "0": "597",
       "1": "560542",
@@ -175,5 +200,140 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Meeple Incremental",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Meeple Incremental",
+        "description_loc": {
+          "english": "Play Meeple Incremental"
+        },
+        "executable": "Meeple Incremental.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Play Meeple Incremental",
+        "description_loc": {
+          "english": "Play Meeple Incremental"
+        },
+        "executable": "Meeple Incremental.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Play Meeple Incremental",
+        "description_loc": {
+          "english": "Play Meeple Incremental"
+        },
+        "executable": "Meeple Incremental.x86_64",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4353351": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "69286128",
+          "gid": "2582471629809915505",
+          "size": "151994309"
+        }
+      }
+    },
+    "4353352": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "71496688",
+          "gid": "5765472904700419134",
+          "size": "144538805"
+        }
+      }
+    },
+    "4353353": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "73396672",
+          "gid": "115142659414651007",
+          "size": "190428227"
+        }
+      }
+    },
+    "4360720": {
+      "dlcappid": "4360720"
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25289276",
+        "timebuildupdated": "1789339946",
+        "timeupdated": "1789340449"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Simply Artizan",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.simplyartizan.com",
+    "listofdlc": "4360720",
+    "publisher": "Simply Artizan"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Simply Artizan/Meeple Incremental/{64BitSteamID}/cloud",
+            "replace": "unity.Simply Artizan.Meeple Incremental.{64BitSteamID}.cloud"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Simply Artizan/Meeple Incremental/{64BitSteamID}/cloud",
+            "replace": ".config/unity3d/Simply Artizan/Meeple Incremental/{64BitSteamID}/cloud"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Simply Artizan/Meeple Incremental/{64BitSteamID}/cloud",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

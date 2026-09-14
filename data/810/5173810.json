@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789398355,
-  "_history": [],
-  "_change_number": 38824230,
-  "_missing_token": true,
-  "_sha": "eb38e0f8d297c759119e97c61ac52611b1176733",
-  "_size": 3248,
+  "_lastChecked": 1789406229,
+  "_history": [
+    {
+      "buildId": "25248743",
+      "branch": "public",
+      "timeUpdated": 1789114788,
+      "firstSeen": 1789406229,
+      "manifests": {
+        "5173811": {
+          "gid": "1853381403601149091",
+          "size": 269609856,
+          "download": 140007568
+        }
+      }
+    }
+  ],
+  "_change_number": 38867860,
+  "_missing_token": false,
+  "_sha": "14ee28110c62e79edc07b4b3cada29c3dc79a786",
+  "_size": 3982,
   "appid": "5173810",
   "common": {
     "aicontenttype": "1",
@@ -33,7 +47,6 @@
     "clienticon": "1151c57c3a76d53afa4cf081dbb1acb0d52017ab",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5173810",
     "genres": {
       "0": "29",
@@ -109,10 +122,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "29",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fd99c97cc4f45aefff7cabfb264b4006eac50ee3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789403571",
     "store_asset_mtime": "1787928480",
     "store_tags": {
       "0": "122",
@@ -143,5 +157,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Trumps Of Albion",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "albion.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "albion.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5173811": {
+      "manifests": {
+        "public": {
+          "download": "140007568",
+          "gid": "1853381403601149091",
+          "size": "269609856"
+        }
+      }
+    },
+    "baselanguages": "english,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25248743",
+        "timebuildupdated": "1789114785",
+        "timeupdated": "1789114788"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Ka Yan Liu",
+    "publisher": "Ka Yan Liu"
+  }
 }

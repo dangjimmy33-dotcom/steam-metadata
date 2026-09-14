@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1789397755,
-  "_history": [],
-  "_change_number": 38799827,
-  "_missing_token": true,
-  "_sha": "a33c0103602b7e3be66e8ebe59d0f7b20fad7e18",
-  "_size": 6429,
+  "_lastChecked": 1789405426,
+  "_history": [
+    {
+      "buildId": "25257969",
+      "branch": "public",
+      "timeUpdated": 1789144874,
+      "firstSeen": 1789405426,
+      "manifests": {
+        "4415131": {
+          "gid": "3116664984481264700",
+          "size": 2216830906,
+          "download": 808851184
+        },
+        "4415132": {
+          "gid": "791883966031889741",
+          "size": 316417962,
+          "download": 310290256
+        }
+      }
+    },
+    {
+      "buildId": "22198628",
+      "branch": "staging",
+      "timeUpdated": 1772644670,
+      "firstSeen": 1789405426,
+      "manifests": {
+        "4415131": {
+          "gid": "6877547440123794476",
+          "size": 2216027382,
+          "download": 808920192
+        },
+        "4415132": {
+          "gid": "4538930216972029462",
+          "size": 359049662,
+          "download": 350570976
+        }
+      }
+    }
+  ],
+  "_change_number": 38868727,
+  "_missing_token": false,
+  "_sha": "fd552373b3919c865bda0377ce63c8a18bf23bb6",
+  "_size": 8795,
   "appid": "4415130",
   "common": {
     "aicontenttype": "2",
@@ -39,6 +76,7 @@
     },
     "clienticon": "9aba849a6fa785edd177df86db11980c7a9d5038",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -49,7 +87,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "4415130",
     "genres": {
       "0": "4",
@@ -121,7 +158,7 @@
     "osextended": "",
     "oslist": "windows,android",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d1057913646d4ed7ab2cf140be4f0440cb3b077a/capsule_231x87.jpg"
     },
@@ -258,5 +295,120 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Stellar Cafe",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "StellarCafe.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "android"
+        },
+        "description": "Launch as VR App",
+        "description_loc": {
+          "english": "Launch as VR App"
+        },
+        "executable": "StellarCafe.apk",
+        "type": "openxr"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4415131": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "808851184",
+          "gid": "3116664984481264700",
+          "size": "2216830906"
+        },
+        "staging": {
+          "download": "808920192",
+          "gid": "6877547440123794476",
+          "size": "2216027382"
+        }
+      }
+    },
+    "4415132": {
+      "config": {
+        "oslist": "android"
+      },
+      "manifests": {
+        "public": {
+          "download": "310290256",
+          "gid": "791883966031889741",
+          "size": "316417962"
+        },
+        "staging": {
+          "download": "350570976",
+          "gid": "4538930216972029462",
+          "size": "359049662"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25257969",
+        "timebuildupdated": "1789144453",
+        "timeupdated": "1789144874"
+      },
+      "staging": {
+        "buildid": "22198628",
+        "description": "test branch before release",
+        "timebuildupdated": "1772644072",
+        "timeupdated": "1772644670"
+      }
+    }
+  },
+  "extended": {
+    "developer": "AstroBeam",
+    "homepage": "https://www.stellarcafe.com/",
+    "publisher": "AstroBeam"
+  },
+  "ufs": {
+    "maxnumfiles": "26",
+    "quota": "49152",
+    "rootoverrides": {
+      "0": {
+        "os": "Android",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "AstroBeam/Stellar Cafe",
+            "replace": "Android/data/com.AstroBeam.StellarCafe/files"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "AndroidExternalData"
+      }
+    },
+    "savefiles": {
+      "6": {
+        "path": "AstroBeam/Stellar Cafe",
+        "pattern": "SaveSlot_0.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "7": {
+        "path": "AstroBeam/Stellar Cafe",
+        "pattern": "SaveSlot_1.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "8": {
+        "path": "AstroBeam/Stellar Cafe",
+        "pattern": "SaveSlot_2.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789397927,
+  "_lastChecked": 1789405658,
   "_history": [
     {
       "buildId": "25130296",
@@ -65,12 +65,38 @@
           "download": 28533680
         }
       }
+    },
+    {
+      "buildId": "25304916",
+      "branch": "build",
+      "timeUpdated": 1789405056,
+      "firstSeen": 1789405658,
+      "manifests": {
+        "4607491": {
+          "gid": "2273222488327075973",
+          "size": 62062123,
+          "download": 28791472
+        }
+      }
+    },
+    {
+      "buildId": "25304916",
+      "branch": "public",
+      "timeUpdated": 1789405456,
+      "firstSeen": 1789405658,
+      "manifests": {
+        "4607491": {
+          "gid": "2273222488327075973",
+          "size": 62062123,
+          "download": 28791472
+        }
+      }
     }
   ],
-  "_change_number": 38613690,
+  "_change_number": 38868835,
   "_missing_token": false,
-  "_sha": "ec1b48d3fe915cd6857e7d42e61c8ba3927cbdba",
-  "_size": 5809,
+  "_sha": "6fcb3d3dd6ef2231663b9f6699fed7531cf996d7",
+  "_size": 5811,
   "appid": "4607490",
   "common": {
     "aicontenttype": "1",
@@ -270,9 +296,9 @@
     "4607491": {
       "manifests": {
         "build": {
-          "download": "28533680",
-          "gid": "182895198722147070",
-          "size": "61468601"
+          "download": "28791472",
+          "gid": "2273222488327075973",
+          "size": "62062123"
         },
         "old_v117": {
           "download": "24413760",
@@ -290,19 +316,19 @@
           "size": "57006101"
         },
         "public": {
-          "download": "28533680",
-          "gid": "182895198722147070",
-          "size": "61468601"
+          "download": "28791472",
+          "gid": "2273222488327075973",
+          "size": "62062123"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "build": {
-        "buildid": "25130296",
+        "buildid": "25304916",
         "description": "build machine",
-        "timebuildupdated": "1788546789",
-        "timeupdated": "1788546789"
+        "timebuildupdated": "1789405056",
+        "timeupdated": "1789405056"
       },
       "old_v117": {
         "buildid": "23934954",
@@ -323,9 +349,9 @@
         "timeupdated": "1787803885"
       },
       "public": {
-        "buildid": "25130296",
-        "timebuildupdated": "1788546789",
-        "timeupdated": "1788550332"
+        "buildid": "25304916",
+        "timebuildupdated": "1789405056",
+        "timeupdated": "1789405456"
       }
     }
   },

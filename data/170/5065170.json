@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789398289,
+  "_lastChecked": 1789406141,
   "_history": [
     {
       "buildId": "25125155",
@@ -195,12 +195,30 @@
           "download": 535072352
         }
       }
+    },
+    {
+      "buildId": "25303941",
+      "branch": "public",
+      "timeUpdated": 1789402056,
+      "firstSeen": 1789406141,
+      "manifests": {
+        "5065171": {
+          "gid": "7192664069671575568",
+          "size": 632848652,
+          "download": 534485648
+        },
+        "5250690": {
+          "gid": "2629041252051285456",
+          "size": 108057845,
+          "download": 107168016
+        }
+      }
     }
   ],
-  "_change_number": 38865065,
+  "_change_number": 38867115,
   "_missing_token": false,
-  "_sha": "aa515525cedd94e41c6f270599c35d3f55ec8aa5",
-  "_size": 4622,
+  "_sha": "64920b8f31c30b4b7f24d71ee30eb114af2b7df5",
+  "_size": 4829,
   "appid": "5065170",
   "common": {
     "aicontenttype": "1",
@@ -373,19 +391,30 @@
     "5065171": {
       "manifests": {
         "public": {
-          "download": "535072352",
-          "gid": "2136734559692234484",
-          "size": "655730296"
+          "download": "534485648",
+          "gid": "7192664069671575568",
+          "size": "632848652"
+        }
+      }
+    },
+    "5250690": {
+      "dlcappid": "5250690",
+      "manifests": {
+        "public": {
+          "download": "107168016",
+          "gid": "2629041252051285456",
+          "size": "108057845"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25282748",
-        "timebuildupdated": "1789302771",
-        "timeupdated": "1789302793"
+        "buildid": "25303941",
+        "timebuildupdated": "1789402011",
+        "timeupdated": "1789402056"
       }
-    }
+    },
+    "hasdepotsindlc": "0"
   },
   "extended": {
     "developer": "Pick Huang",

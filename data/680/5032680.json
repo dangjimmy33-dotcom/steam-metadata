@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789398266,
-  "_history": [],
-  "_change_number": 38438568,
-  "_missing_token": true,
-  "_sha": "d5fc5575575d7dc481fbbbcc64f3afc9f38c1895",
-  "_size": 3392,
+  "_lastChecked": 1789406110,
+  "_history": [
+    {
+      "buildId": "25012108",
+      "branch": "public",
+      "timeUpdated": 1788022740,
+      "firstSeen": 1789406110,
+      "manifests": {
+        "5032681": {
+          "gid": "765377692819462738",
+          "size": 339514528,
+          "download": 128170272
+        },
+        "5032682": {
+          "gid": "4487668887159393958",
+          "size": 120460211,
+          "download": 37621056
+        },
+        "5032683": {
+          "gid": "1304808821291213197",
+          "size": 148656398,
+          "download": 45844128
+        }
+      }
+    }
+  ],
+  "_change_number": 38867682,
+  "_missing_token": false,
+  "_sha": "1fdf10d661795f39a73ddafe2f1722e070aae543",
+  "_size": 5788,
   "appid": "5032680",
   "common": {
     "associations": {
@@ -37,7 +61,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "5032680",
     "genres": {
       "0": "25",
@@ -110,10 +133,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "df808377b4b6639a946ab6fb53a1a904cd3c2efa/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788025906",
     "store_tags": {
       "0": "21",
@@ -148,5 +172,127 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "WorldCraft",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play WorldCraft",
+        "description_loc": {
+          "english": "Play WorldCraft"
+        },
+        "executable": "WorldCraft/WorldCraft.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Play WorldCraft intel ",
+        "description_loc": {
+          "english": "Play WorldCraft intel "
+        },
+        "executable": "WorldCraft.app/Contents/MacOS/WorldCraft",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Play WorldCraft",
+        "description_loc": {
+          "english": "Play WorldCraft"
+        },
+        "executable": "WorldCraft/WorldCraft",
+        "type": "default"
+      },
+      "3": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Play WorldCraft M-series",
+        "description_loc": {
+          "english": "Play WorldCraft M-series"
+        },
+        "executable": "WorldCraft.app/Contents/MacOS/WorldCraft",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5032681": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "128170272",
+          "gid": "765377692819462738",
+          "size": "339514528"
+        }
+      }
+    },
+    "5032682": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "37621056",
+          "gid": "4487668887159393958",
+          "size": "120460211"
+        }
+      }
+    },
+    "5032683": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "45844128",
+          "gid": "1304808821291213197",
+          "size": "148656398"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "25012108",
+        "timebuildupdated": "1788022738",
+        "timeupdated": "1788022740"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Sven Kraus",
+    "homepage": "https://componentsave.com/WorldCraft.html",
+    "publisher": "Sven Kraus"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000"
+  }
 }

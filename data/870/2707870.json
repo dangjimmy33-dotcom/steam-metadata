@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789396164,
+  "_lastChecked": 1789403288,
   "_history": [
     {
       "buildId": "21569412",
@@ -75,12 +75,30 @@
           "download": 1955786928
         }
       }
+    },
+    {
+      "buildId": "25080084",
+      "branch": "public",
+      "timeUpdated": 1789397818,
+      "firstSeen": 1789403288,
+      "manifests": {
+        "2707871": {
+          "gid": "3420732235008232329",
+          "size": 5472404332,
+          "download": 1838872400
+        },
+        "2707873": {
+          "gid": "8671168898488275775",
+          "size": 5929189602,
+          "download": 1955786928
+        }
+      }
     }
   ],
-  "_change_number": 38787221,
+  "_change_number": 38864941,
   "_missing_token": false,
-  "_sha": "a351093d9d9cc0286ee9a0d04d463d83dc01e0eb",
-  "_size": 8766,
+  "_sha": "1f67315884fa4cee3d7d3658e6366a25a481d2d1",
+  "_size": 8501,
   "appid": "2707870",
   "common": {
     "associations": {
@@ -360,11 +378,6 @@
           "gid": "3420732235008232329",
           "size": "5472404332"
         },
-        "macbeta": {
-          "download": "1838872400",
-          "gid": "3420732235008232329",
-          "size": "5472404332"
-        },
         "mono": {
           "download": "1843622928",
           "gid": "6969901185832038737",
@@ -388,7 +401,7 @@
           "gid": "8671168898488275775",
           "size": "5929189602"
         },
-        "macbeta": {
+        "public": {
           "download": "1955786928",
           "gid": "8671168898488275775",
           "size": "5929189602"
@@ -408,12 +421,6 @@
         "timebuildupdated": "1788352963",
         "timeupdated": "1789113442"
       },
-      "macbeta": {
-        "buildid": "25080084",
-        "description": "Mac Beta",
-        "timebuildupdated": "1788352963",
-        "timeupdated": "1788352963"
-      },
       "mono": {
         "buildid": "25102902",
         "description": "PC Mono Build",
@@ -421,9 +428,9 @@
         "timeupdated": "1788442742"
       },
       "public": {
-        "buildid": "21569412",
-        "timebuildupdated": "1768911131",
-        "timeupdated": "1769605847"
+        "buildid": "25080084",
+        "timebuildupdated": "1788352963",
+        "timeupdated": "1789397818"
       }
     },
     "privatebranches": "1"

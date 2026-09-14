@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789396481,
-  "_history": [],
-  "_change_number": 38845321,
-  "_missing_token": true,
-  "_sha": "03575dfe5ba07dc11973f63787f37838ca17da2a",
-  "_size": 3267,
+  "_lastChecked": 1789403711,
+  "_history": [
+    {
+      "buildId": "25285887",
+      "branch": "public",
+      "timeUpdated": 1789340171,
+      "firstSeen": 1789403711,
+      "manifests": {
+        "3034661": {
+          "gid": "3226871878657526402",
+          "size": 2327981326,
+          "download": 837004320
+        }
+      }
+    }
+  ],
+  "_change_number": 38867093,
+  "_missing_token": false,
+  "_sha": "fb1a2ded907ec4164fb89aea3d6dca886d6055d7",
+  "_size": 4039,
   "appid": "3034660",
   "common": {
     "associations": {
@@ -32,6 +46,7 @@
     "clienticon": "9e733cb9f97c11b44fda5dc84ec571a76a61962f",
     "clienttga": "ffce9fe6937a391c9ff0001a7a4ca31a7d23fa3c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -39,7 +54,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3034660",
     "genres": {
       "0": "23",
@@ -111,11 +125,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3bf87a88b4f720501f156ec5905a055b761bc033/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1787686054",
+    "steam_release_date": "1789401488",
+    "store_asset_mtime": "1789402006",
     "store_tags": {
       "0": "3835",
       "1": "3959",
@@ -147,5 +162,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dunebound Tactics",
+    "launch": {
+      "0": {
+        "executable": "Dunebound Tactics.exe"
+      }
+    }
+  },
+  "depots": {
+    "3034661": {
+      "manifests": {
+        "public": {
+          "download": "837004320",
+          "gid": "3226871878657526402",
+          "size": "2327981326"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25285887",
+        "timebuildupdated": "1789321361",
+        "timeupdated": "1789340171"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Terahard Ltd",
+    "publisher": "indie.io"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Terahard Ltd/Dunebound Tactics",
+        "pattern": "*.tera",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

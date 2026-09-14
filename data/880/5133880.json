@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789398334,
-  "_history": [],
-  "_change_number": 38363254,
-  "_missing_token": true,
-  "_sha": "bcc86e68ea532b07a1fb7badd749259519392602",
-  "_size": 5210,
+  "_lastChecked": 1789406202,
+  "_history": [
+    {
+      "buildId": "24960363",
+      "branch": "public",
+      "timeUpdated": 1787790583,
+      "firstSeen": 1789406202,
+      "manifests": {
+        "5133881": {
+          "gid": "1093889360055482189",
+          "size": 2256791144,
+          "download": 1779494784
+        }
+      }
+    }
+  ],
+  "_change_number": 38868439,
+  "_missing_token": false,
+  "_sha": "c113aa3e990cc733a5c250b05a9dcc0fa435dbc6",
+  "_size": 6213,
   "appid": "5133880",
   "common": {
     "aicontenttype": "1",
@@ -28,6 +42,7 @@
     },
     "clienticon": "68f66a8bda93cb4df45fc66523397b3eb2197dee",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -35,7 +50,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5133880",
     "genres": {
       "0": "1",
@@ -106,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "db4f67131ac7b64d00a1db04ac652de454d1ad9d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789403223",
     "store_asset_mtime": "1787344699",
     "store_tags": {
       "0": "19",
@@ -258,5 +273,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "911 Dispatcher Unknown Caller",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Dispatcher911.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5133881": {
+      "manifests": {
+        "public": {
+          "download": "1779494784",
+          "gid": "1093889360055482189",
+          "size": "2256791144"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24960363",
+        "timebuildupdated": "1787790547",
+        "timeupdated": "1787790583"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Room13Games",
+    "publisher": "Room13Games"
+  }
 }

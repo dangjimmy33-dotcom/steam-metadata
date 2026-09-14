@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789396853,
-  "_history": [],
-  "_change_number": 38613462,
-  "_missing_token": true,
-  "_sha": "c3e13ef921431d43140bfb2c85a74d0df81d62c7",
-  "_size": 3169,
+  "_lastChecked": 1789404211,
+  "_history": [
+    {
+      "buildId": "25130931",
+      "branch": "public",
+      "timeUpdated": 1788549656,
+      "firstSeen": 1789404211,
+      "manifests": {
+        "3424651": {
+          "gid": "8003647353517815633",
+          "size": 1363172074,
+          "download": 1214732688
+        }
+      }
+    }
+  ],
+  "_change_number": 38866270,
+  "_missing_token": false,
+  "_sha": "ee19aef743bb9fde21c964d21ab420b577f4043e",
+  "_size": 3918,
   "appid": "3424650",
   "common": {
     "aicontenttype": "1",
@@ -33,7 +47,6 @@
     "clienticon": "45b68dd0087dcf741ea33b9d0090ffb808c2d7ef",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3424650",
     "genres": {
       "0": "1",
@@ -105,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a8378c73bed2f59079de86037da5c4aea0fed5f6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789400471",
     "store_asset_mtime": "1787174241",
     "store_tags": {
       "0": "5537",
@@ -141,5 +155,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "StackTogether",
+    "launch": {
+      "0": {
+        "executable": "StackTogether.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3424651": {
+      "manifests": {
+        "public": {
+          "download": "1214732688",
+          "gid": "8003647353517815633",
+          "size": "1363172074"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25130931",
+        "timebuildupdated": "1788549557",
+        "timeupdated": "1788549656"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Simnetic Game",
+    "publisher": "Simnetic Game"
+  }
 }

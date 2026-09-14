@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789397322,
+  "_lastChecked": 1789404842,
   "_history": [
     {
       "buildId": "24880315",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38838711,
+  "_change_number": 38868412,
   "_missing_token": false,
-  "_sha": "b7bf6d4f8e8145e02021da5f24494d38c2f9b181",
-  "_size": 7159,
+  "_sha": "c8be0404e9c6ef51f31afbbb42602ce4177298ff",
+  "_size": 7403,
   "appid": "3930150",
   "common": {
     "aicontenttype": "1",
@@ -331,7 +331,20 @@
     "publisher": "FreeMind S.A."
   },
   "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
     "maxnumfiles": "1000",
-    "quota": "10000"
+    "quota": "10000",
+    "savefiles": {
+      "0": {
+        "path": "Radikate\\Mr Toilet",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }
