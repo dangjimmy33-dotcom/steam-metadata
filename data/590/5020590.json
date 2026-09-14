@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789372739,
-  "_history": [],
-  "_change_number": 37961890,
-  "_missing_token": true,
-  "_sha": "eee27e7e66473e337398fff5a10edfb1ec61413c",
-  "_size": 3992,
+  "_lastChecked": 1789379188,
+  "_history": [
+    {
+      "buildId": "24689678",
+      "branch": "public",
+      "timeUpdated": 1786527845,
+      "firstSeen": 1789379188,
+      "manifests": {
+        "5020591": {
+          "gid": "1824814598206394506",
+          "size": 274281162,
+          "download": 160088656
+        }
+      }
+    }
+  ],
+  "_change_number": 38854620,
+  "_missing_token": false,
+  "_sha": "a991a759f0f542c20210fe2f186ebf858e5566fb",
+  "_size": 5067,
   "appid": "5020590",
   "common": {
     "associations": {
@@ -35,7 +49,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5020590",
     "genres": {
       "0": "4",
@@ -106,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fb3c1c2d8bdd4cbc2e7a1c16cc10dfbed48883f4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1785241139",
     "store_tags": {
       "0": "597",
@@ -187,5 +201,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blackout Murder",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BlackoutM.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "12",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5020591": {
+      "manifests": {
+        "public": {
+          "download": "160088656",
+          "gid": "1824814598206394506",
+          "size": "274281162"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,tchinese,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "24689678",
+        "timebuildupdated": "1786527778",
+        "timeupdated": "1786527845"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Party2Games",
+    "publisher": "Party2Games"
+  }
 }

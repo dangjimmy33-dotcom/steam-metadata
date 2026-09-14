@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789372877,
-  "_history": [],
-  "_change_number": 38720772,
-  "_missing_token": true,
-  "_sha": "ef6044bcdb7b60b75b8a43aadd73b2a54e50778a",
-  "_size": 2844,
+  "_lastChecked": 1789379295,
+  "_history": [
+    {
+      "buildId": "25295688",
+      "branch": "public",
+      "timeUpdated": 1789375250,
+      "firstSeen": 1789379295,
+      "manifests": {
+        "5180901": {
+          "gid": "4779980333533305699",
+          "size": 304015643,
+          "download": 238789744
+        },
+        "5180902": {
+          "gid": "8676069712270452033",
+          "size": 364739416,
+          "download": 253198496
+        }
+      }
+    }
+  ],
+  "_change_number": 38854888,
+  "_missing_token": false,
+  "_sha": "37e41e8a4c15450fd4d99dfe5d0f910d3f41fa83",
+  "_size": 3904,
   "appid": "5180900",
   "common": {
     "aicontenttype": "1",
@@ -27,7 +46,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5180900",
     "genres": {
       "0": "23",
@@ -89,10 +107,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "96b3a77c06a1377e8ca196a6af2a05855a2d833c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789375775",
     "store_asset_mtime": "1788332434",
     "store_tags": {
       "0": "699",
@@ -130,5 +149,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Rogue Circuit",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "RogueCircuit.exe",
+        "type": "none"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "bin/RogueCircuit",
+        "type": "none"
+      }
+    }
+  },
+  "depots": {
+    "5180901": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "238789744",
+          "gid": "4779980333533305699",
+          "size": "304015643"
+        }
+      }
+    },
+    "5180902": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "253198496",
+          "gid": "8676069712270452033",
+          "size": "364739416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25295688",
+        "timebuildupdated": "1789375174",
+        "timeupdated": "1789375250"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Jorge Francisco Bescos Gascon",
+    "publisher": "Jorge Francisco Bescos Gascon"
+  }
 }

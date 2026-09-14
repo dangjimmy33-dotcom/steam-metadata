@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789369722,
+  "_lastChecked": 1789376824,
   "_history": [
     {
       "buildId": "23966064",
@@ -299,11 +299,37 @@
           "download": 300157488
         }
       }
+    },
+    {
+      "buildId": "25295712",
+      "branch": "public",
+      "timeUpdated": 1789375716,
+      "firstSeen": 1789376824,
+      "manifests": {
+        "2526561": {
+          "gid": "3823862325912119004",
+          "size": 753700250,
+          "download": 300157584
+        }
+      }
+    },
+    {
+      "buildId": "25295712",
+      "branch": "unstable",
+      "timeUpdated": 1789375264,
+      "firstSeen": 1789376824,
+      "manifests": {
+        "2526561": {
+          "gid": "3823862325912119004",
+          "size": 753700250,
+          "download": 300157584
+        }
+      }
     }
   ],
-  "_change_number": 38785583,
+  "_change_number": 38854847,
   "_missing_token": false,
-  "_sha": "bc199abcdaccffd7a026916fbb8003a471722096",
+  "_sha": "423911fd720fd5a82d878ef5febd2f2651663926",
   "_size": 7496,
   "appid": "2526560",
   "common": {
@@ -571,28 +597,28 @@
     "2526561": {
       "manifests": {
         "public": {
-          "download": "300157488",
-          "gid": "8179265617199379700",
-          "size": "753700762"
+          "download": "300157584",
+          "gid": "3823862325912119004",
+          "size": "753700250"
         },
         "unstable": {
-          "download": "300157488",
-          "gid": "8179265617199379700",
-          "size": "753700762"
+          "download": "300157584",
+          "gid": "3823862325912119004",
+          "size": "753700250"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25248090",
-        "timebuildupdated": "1789112354",
-        "timeupdated": "1789112433"
+        "buildid": "25295712",
+        "timebuildupdated": "1789375263",
+        "timeupdated": "1789375716"
       },
       "unstable": {
-        "buildid": "25248090",
+        "buildid": "25295712",
         "description": "Automated build, can be unstable, buggy or broken.",
-        "timebuildupdated": "1789112354",
-        "timeupdated": "1789112354"
+        "timebuildupdated": "1789375263",
+        "timeupdated": "1789375264"
       }
     },
     "privatebranches": "1",

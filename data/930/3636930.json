@@ -1,10 +1,10 @@
 {
-  "_lastChecked": 1789371130,
+  "_lastChecked": 1789377922,
   "_history": [],
-  "_change_number": 38818943,
+  "_change_number": 38853463,
   "_missing_token": true,
-  "_sha": "83634ca144846e4e46a9434821e072d2d8eb7d62",
-  "_size": 4094,
+  "_sha": "40eb16c920f92725d181009bdb4fa576f519b348",
+  "_size": 5231,
   "appid": "3636930",
   "common": {
     "aicontenttype": "1",
@@ -120,6 +120,47 @@
     "releasestate": "prerelease",
     "small_capsule": {
       "english": "cb6de297ba53e214058abb8907eadae2b5258067/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "1",
+      "steam_machine_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "steamos_compatibility": "1",
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "test_timestamp": "1788454744",
+      "tested_build_id": "20992486",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+        }
+      }
     },
     "store_asset_mtime": "1789051413",
     "store_tags": {

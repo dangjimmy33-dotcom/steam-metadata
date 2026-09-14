@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789372221,
-  "_history": [],
-  "_change_number": 38840948,
-  "_missing_token": true,
-  "_sha": "80adde3d7ee0de906ab2a9c4e41239761f1e003d",
-  "_size": 4285,
+  "_lastChecked": 1789378781,
+  "_history": [
+    {
+      "buildId": "25295105",
+      "branch": "public",
+      "timeUpdated": 1789373266,
+      "firstSeen": 1789378781,
+      "manifests": {
+        "4540131": {
+          "gid": "5812411796877952940",
+          "size": 2152418860,
+          "download": 1898641360
+        }
+      }
+    }
+  ],
+  "_change_number": 38855445,
+  "_missing_token": false,
+  "_sha": "9633683def1994bee55e10d028b3da2c0412cbae",
+  "_size": 5040,
   "appid": "4540130",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "cbe1280ed42f12d082420a6a00f7f41021b0abe0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4540130",
     "genres": {
       "0": "1",
@@ -112,11 +126,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8da954c8828d264d5d5cdf23eedf4ba5f4e0f00e/capsule_231x87.jpg",
       "schinese": "cffd7713528a58e5d6381d804111d5b429ed937b/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789376938",
     "store_asset_mtime": "1789153625",
     "store_tags": {
       "0": "723991",
@@ -183,5 +198,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Samll KUNKUN",
+    "launch": {
+      "0": {
+        "executable": "KunFu.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4540131": {
+      "manifests": {
+        "public": {
+          "download": "1898641360",
+          "gid": "5812411796877952940",
+          "size": "2152418860"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25295105",
+        "timebuildupdated": "1789373155",
+        "timeupdated": "1789373266"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Seal",
+    "publisher": "Seal"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789368943,
+  "_lastChecked": 1789376220,
   "_history": [
     {
       "buildId": "23910303",
@@ -26,12 +26,51 @@
           "download": 19166362704
         }
       }
+    },
+    {
+      "buildId": "23980378",
+      "branch": "public",
+      "timeUpdated": 1789374329,
+      "firstSeen": 1789376220,
+      "manifests": {
+        "1942111": {
+          "gid": "953115787549581677",
+          "size": 19368816542,
+          "download": 19167987696
+        }
+      }
+    },
+    {
+      "buildId": "23980378",
+      "branch": "steam_frame",
+      "timeUpdated": 1788427468,
+      "firstSeen": 1789376220,
+      "manifests": {
+        "1942111": {
+          "gid": "953115787549581677",
+          "size": 19368816542,
+          "download": 19167987696
+        }
+      }
+    },
+    {
+      "buildId": "23980398",
+      "branch": "virtual_desktop",
+      "timeUpdated": 1789374090,
+      "firstSeen": 1789376220,
+      "manifests": {
+        "1942111": {
+          "gid": "7114735671625430607",
+          "size": 19374586118,
+          "download": 19171066576
+        }
+      }
     }
   ],
-  "_change_number": 38664423,
+  "_change_number": 38854292,
   "_missing_token": false,
-  "_sha": "073de1fe84c5b686adf9288e75db085a05e623bf",
-  "_size": 6877,
+  "_sha": "597b901804000306bbb98972916fead2abfb0a61",
+  "_size": 7165,
   "appid": "1942110",
   "common": {
     "associations": {
@@ -207,7 +246,7 @@
       }
     },
     "steam_release_date": "1773334003",
-    "store_asset_mtime": "1788447154",
+    "store_asset_mtime": "1789373321",
     "store_tags": {
       "0": "1662",
       "1": "21",
@@ -299,28 +338,39 @@
     "1942111": {
       "manifests": {
         "public": {
-          "download": "19163283824",
-          "gid": "338050991889440548",
-          "size": "19363507090"
+          "download": "19167987696",
+          "gid": "953115787549581677",
+          "size": "19368816542"
+        },
+        "steam_frame": {
+          "download": "19167987696",
+          "gid": "953115787549581677",
+          "size": "19368816542"
         },
         "virtual_desktop": {
-          "download": "19166362704",
-          "gid": "5887559449411324225",
-          "size": "19369276666"
+          "download": "19171066576",
+          "gid": "7114735671625430607",
+          "size": "19374586118"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "23910303",
-        "timebuildupdated": "1782383403",
-        "timeupdated": "1782461993"
+        "buildid": "23980378",
+        "timebuildupdated": "1782809176",
+        "timeupdated": "1789374329"
+      },
+      "steam_frame": {
+        "buildid": "23980378",
+        "description": "Steam Frame test branch",
+        "timebuildupdated": "1782809176",
+        "timeupdated": "1788427468"
       },
       "virtual_desktop": {
-        "buildid": "23910391",
+        "buildid": "23980398",
         "description": "Compatible with Virtual Desktop VDXR",
-        "timebuildupdated": "1782383730",
-        "timeupdated": "1782462092"
+        "timebuildupdated": "1782809275",
+        "timeupdated": "1789374090"
       }
     },
     "privatebranches": "1"

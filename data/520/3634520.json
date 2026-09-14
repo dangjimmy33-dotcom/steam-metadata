@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789371127,
+  "_lastChecked": 1789377920,
   "_history": [
     {
       "buildId": "23910388",
@@ -25,10 +25,10 @@
       }
     }
   ],
-  "_change_number": 38852000,
+  "_change_number": 38854778,
   "_missing_token": false,
-  "_sha": "b60f44da5275d863764e9a5cda21fcb0b9ebdac6",
-  "_size": 7570,
+  "_sha": "4f15c957ee544f5baf486e0529c516f023dfd921",
+  "_size": 8058,
   "appid": "3634520",
   "common": {
     "associations": {
@@ -294,6 +294,30 @@
           "oslist": "windows"
         },
         "executable": "CJSteam.exe"
+      },
+      "1": {
+        "config": {
+          "betakey": "qa-test-steamdeck",
+          "osarch": "64"
+        },
+        "description": "Steam Deck",
+        "description_loc": {
+          "english": "Steam Deck"
+        },
+        "executable": "CJSteamDeck.exe",
+        "type": "option2"
+      },
+      "2": {
+        "config": {
+          "betakey": "qa-test-steamdeck",
+          "osarch": "64"
+        },
+        "description": "Win64",
+        "description_loc": {
+          "english": "Win64"
+        },
+        "executable": "CJSteam.exe",
+        "type": "option1"
       }
     },
     "steamconfigurator3rdpartynative": "65532",

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789369099,
-  "_history": [],
-  "_change_number": 38837553,
-  "_missing_token": true,
-  "_sha": "c7c8737e4cdbcfa2342bdaf630a97aa8503a8dd6",
-  "_size": 3194,
+  "_lastChecked": 1789376341,
+  "_history": [
+    {
+      "buildId": "25294795",
+      "branch": "public",
+      "timeUpdated": 1789372426,
+      "firstSeen": 1789376341,
+      "manifests": {
+        "2076542": {
+          "gid": "2115136950296669191",
+          "size": 24043816618,
+          "download": 8753758672
+        }
+      }
+    }
+  ],
+  "_change_number": 38853538,
+  "_missing_token": false,
+  "_sha": "bec22de3e7dca5e8da20a7d8eb8f43f83c75d692",
+  "_size": 4133,
   "appid": "2076540",
   "common": {
     "associations": {
@@ -31,6 +45,7 @@
     "clienticon": "ef348b0798a769ed1e4a9c8387ed0de30006f6da",
     "clienttga": "b33514cf98fe1b1b38293978fb9cf49e7dbb3e00",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -40,7 +55,6 @@
         "version": "8"
       }
     },
-    "exfgls": "8",
     "gameid": "2076540",
     "genres": {
       "0": "23",
@@ -113,10 +127,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "04e2406014610457e162f2fcb4373490aec4d734/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789372742",
     "store_asset_mtime": "1788779324",
     "store_tags": {
       "0": "5125",
@@ -147,5 +162,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SpiritusAstrum",
+    "launch": {
+      "0": {
+        "executable": "P0-SPIRITUSASTRUM.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2076542": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "download": "8753758672",
+          "gid": "2115136950296669191",
+          "size": "24043816618"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25294795",
+        "timebuildupdated": "1789371959",
+        "timeupdated": "1789372426"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Phoenix Game Development",
+    "gamemanualurl": "https://store.steampowered.com/manual/2076540/",
+    "homepage": "http://www.PhoenixGameDevelopment.com",
+    "publisher": "Phoenix Game Development"
+  },
+  "ufs": {
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
 }

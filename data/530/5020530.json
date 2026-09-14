@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789372739,
-  "_history": [],
-  "_change_number": 38853420,
-  "_missing_token": true,
-  "_sha": "799cfc86907a071317e93de89bd4834107ef5eb7",
-  "_size": 3365,
+  "_lastChecked": 1789379188,
+  "_history": [
+    {
+      "buildId": "25244656",
+      "branch": "public",
+      "timeUpdated": 1789372463,
+      "firstSeen": 1789379188,
+      "manifests": {
+        "5020531": {
+          "gid": "7891023382612118193",
+          "size": 443968276,
+          "download": 115702512
+        }
+      }
+    }
+  ],
+  "_change_number": 38855124,
+  "_missing_token": false,
+  "_sha": "67d702450b4277eff208f40b128938e7c1a4b0a3",
+  "_size": 3989,
   "appid": "5020530",
   "common": {
     "aicontenttype": "1",
@@ -39,7 +53,6 @@
       "2": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5020530",
     "genres": {
       "0": "2",
@@ -110,7 +123,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "d69b616e8e08bea31792b774367d4ded16cabc28/capsule_231x87.jpg"
@@ -153,5 +166,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Joker Master",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Joker Master.exe"
+      }
+    }
+  },
+  "depots": {
+    "5020531": {
+      "manifests": {
+        "public": {
+          "download": "115702512",
+          "gid": "7891023382612118193",
+          "size": "443968276"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana",
+    "branches": {
+      "public": {
+        "buildid": "25244656",
+        "timebuildupdated": "1789095189",
+        "timeupdated": "1789372463"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "QuantumAI Solution",
+    "isfreeapp": "1",
+    "publisher": "QuantumAI Solution"
+  }
 }

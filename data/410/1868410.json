@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789368842,
+  "_lastChecked": 1789376142,
   "_history": [
     {
       "buildId": "18681971",
@@ -20,10 +20,10 @@
       }
     }
   ],
-  "_change_number": 37452352,
+  "_change_number": 38853838,
   "_missing_token": false,
-  "_sha": "d72dc01a59012726420276b6b87bdc748db57673",
-  "_size": 5383,
+  "_sha": "723600cc208f6d55a2a29ee4d70c90101ba74b03",
+  "_size": 5047,
   "appid": "1868410",
   "common": {
     "associations": {
@@ -116,9 +116,9 @@
     "logo": "3317907b9512766c6790ab4a383a13644112d061",
     "logo_small": "3317907b9512766c6790ab4a383a13644112d061_thumb",
     "name": "Movie Night",
-    "osarch": "",
+    "osarch": "64",
     "osextended": "",
-    "oslist": "windows,linux",
+    "oslist": "windows",
     "primary_genre": "4",
     "releasestate": "released",
     "review_percentage": "67",
@@ -205,14 +205,7 @@
         "config": {
           "oslist": "windows"
         },
-        "executable": "Movie Night.exe",
-        "type": "default"
-      },
-      "1": {
-        "config": {
-          "oslist": "linux"
-        },
-        "executable": "./MovieNight.x86_64",
+        "executable": "MovieNight.exe",
         "type": "default"
       }
     }
@@ -227,18 +220,6 @@
           "download": "1115102640",
           "gid": "7114509830215566043",
           "size": "1351624208"
-        }
-      }
-    },
-    "1868414": {
-      "config": {
-        "oslist": "linux"
-      },
-      "manifests": {
-        "public": {
-          "download": "1126970672",
-          "gid": "6701345914259382499",
-          "size": "1371210853"
         }
       }
     },

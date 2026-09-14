@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789372568,
-  "_history": [],
-  "_change_number": 38494818,
-  "_missing_token": true,
-  "_sha": "3a21db8a76780053b9e8e6e9d5014e5a627324fc",
-  "_size": 3862,
+  "_lastChecked": 1789379053,
+  "_history": [
+    {
+      "buildId": "24255672",
+      "branch": "public",
+      "timeUpdated": 1784278611,
+      "firstSeen": 1789379053,
+      "manifests": {
+        "4860161": {
+          "gid": "8271154086391884894",
+          "size": 112147242,
+          "download": 39656000
+        }
+      }
+    }
+  ],
+  "_change_number": 38854488,
+  "_missing_token": false,
+  "_sha": "229d66fe3530032bcc69e18551b04c339f48fc7b",
+  "_size": 4804,
   "appid": "4860160",
   "common": {
     "associations": {
@@ -29,7 +43,6 @@
     "clienticon": "5a42113dd5b59bbe2ae093bda38af1d3448f4683",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4860160",
     "genres": {
       "0": "4",
@@ -111,7 +124,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "10ea192c696d1c1d24b3cafa28b3612f5ad45518/capsule_231x87.jpg",
       "sc_schinese": "ff4899a955b03c1cfbabf5e34fa4ebd0cac8a883/capsule_231x87_sc_schinese.jpg"
@@ -145,5 +158,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ZongMenHouQinChu",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ZongMenHouQinChu\\HouqingYaoyuan.exe",
+        "workingdir": "ZongMenHouQinChu"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ZongMenHouQinChu\\HouqingYaoyuan.exe",
+        "workingdir": "ZongMenHouQinChu"
+      }
+    }
+  },
+  "depots": {
+    "4860161": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "39656000",
+          "gid": "8271154086391884894",
+          "size": "112147242"
+        }
+      }
+    },
+    "4860162": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "24255672",
+        "timebuildupdated": "1784278594",
+        "timeupdated": "1784278611"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Youdianhan",
+    "publisher": "Youdianhan"
+  }
 }

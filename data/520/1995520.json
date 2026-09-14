@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789369021,
+  "_lastChecked": 1789376280,
   "_history": [
     {
       "buildId": "25081473",
@@ -52,11 +52,24 @@
           "download": 24599154160
         }
       }
+    },
+    {
+      "buildId": "25245113",
+      "branch": "arcadia_pts",
+      "timeUpdated": 1789373604,
+      "firstSeen": 1789376280,
+      "manifests": {
+        "1995521": {
+          "gid": "2380337975218607939",
+          "size": 29135542018,
+          "download": 24599228352
+        }
+      }
     }
   ],
-  "_change_number": 38786437,
+  "_change_number": 38853942,
   "_missing_token": false,
-  "_sha": "f3a2bc6484ee1f8cfa33ee664e16bcccac935561",
+  "_sha": "1608adaae6cef39a3d576483dc5af9a5626ae475",
   "_size": 5965,
   "appid": "1995520",
   "common": {
@@ -295,9 +308,9 @@
       },
       "manifests": {
         "arcadia_pts": {
-          "download": "24599154160",
-          "gid": "4566713983791815869",
-          "size": "29136610636"
+          "download": "24599228352",
+          "gid": "2380337975218607939",
+          "size": "29135542018"
         },
         "public": {
           "download": "24577632640",
@@ -309,10 +322,10 @@
     "baselanguages": "english",
     "branches": {
       "arcadia_pts": {
-        "buildid": "25221712",
+        "buildid": "25245113",
         "description": "Arcadia - Public Test Shard",
-        "timebuildupdated": "1789006107",
-        "timeupdated": "1789112110"
+        "timebuildupdated": "1789097493",
+        "timeupdated": "1789373604"
       },
       "public": {
         "buildid": "24790527",
