@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789358655,
-  "_history": [],
-  "_change_number": 38693027,
-  "_missing_token": true,
-  "_sha": "27abdc42697f0d4a94604debf0a6244300c9b0d6",
-  "_size": 3217,
+  "_lastChecked": 1789365078,
+  "_history": [
+    {
+      "buildId": "25185572",
+      "branch": "public",
+      "timeUpdated": 1788866459,
+      "firstSeen": 1789365078,
+      "manifests": {
+        "5112691": {
+          "gid": "1735546693577508793",
+          "size": 1513437274,
+          "download": 1399550240
+        }
+      }
+    }
+  ],
+  "_change_number": 38849832,
+  "_missing_token": false,
+  "_sha": "c1041f17cff8947fb054834abcb3601f365d5ddc",
+  "_size": 3867,
   "appid": "5112690",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "428373e019028256c8fe2a500a12e26c1130dad0",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5112690",
     "genres": {
       "0": "23",
@@ -98,10 +111,11 @@
     "oslist": "windows",
     "pluginlist": "",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "51de8457a7788fd0f04d5aca30426d7dca550a5a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787300305",
     "store_tags": {
       "0": "122",
@@ -145,5 +159,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Soul Monsters Dice RPG - Radan's Journey",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "SoulMonstersDiceRPG.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5112691": {
+      "manifests": {
+        "public": {
+          "download": "1399550240",
+          "gid": "1735546693577508793",
+          "size": "1513437274"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25185572",
+        "timebuildupdated": "1788865813",
+        "timeupdated": "1788866459"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Industrial Miracle",
+    "publisher": "Industrial Miracle"
+  }
 }

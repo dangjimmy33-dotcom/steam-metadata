@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789356479,
+  "_lastChecked": 1789362893,
   "_history": [
     {
       "buildId": "24545387",
@@ -18,12 +18,30 @@
           "download": 940430928
         }
       }
+    },
+    {
+      "buildId": "25278150",
+      "branch": "open-preview",
+      "timeUpdated": 1789357891,
+      "firstSeen": 1789362893,
+      "manifests": {
+        "2773281": {
+          "gid": "625834618898899171",
+          "size": 1193664205,
+          "download": 954285280
+        },
+        "2773282": {
+          "gid": "3138682232893045821",
+          "size": 1212440788,
+          "download": 976249072
+        }
+      }
     }
   ],
-  "_change_number": 38844420,
+  "_change_number": 38849475,
   "_missing_token": false,
-  "_sha": "42101ef73ed3448b2e297a7613b00c8e121bd7b9",
-  "_size": 6626,
+  "_sha": "6a7d0c0dde68b04ab6e1b9b4bddceec8cf171743",
+  "_size": 7024,
   "appid": "2773280",
   "common": {
     "associations": {
@@ -287,6 +305,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "open-preview": {
+          "download": "954285280",
+          "gid": "625834618898899171",
+          "size": "1193664205"
+        },
         "public": {
           "download": "937840272",
           "gid": "2705362144371560368",
@@ -299,6 +322,11 @@
         "oslist": "macos"
       },
       "manifests": {
+        "open-preview": {
+          "download": "976249072",
+          "gid": "3138682232893045821",
+          "size": "1212440788"
+        },
         "public": {
           "download": "940430928",
           "gid": "4223682457586264782",
@@ -307,6 +335,12 @@
       }
     },
     "branches": {
+      "open-preview": {
+        "buildid": "25278150",
+        "description": "Public preview",
+        "timebuildupdated": "1789264700",
+        "timeupdated": "1789357891"
+      },
       "public": {
         "buildid": "24545387",
         "timebuildupdated": "1785819951",

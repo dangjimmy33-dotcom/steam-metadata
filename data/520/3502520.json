@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789357199,
+  "_lastChecked": 1789363612,
   "_history": [
     {
       "buildId": "19037494",
@@ -67,12 +67,30 @@
           "download": 68516800
         }
       }
+    },
+    {
+      "buildId": "25292197",
+      "branch": "public",
+      "timeUpdated": 1789357778,
+      "firstSeen": 1789363612,
+      "manifests": {
+        "3502521": {
+          "gid": "6105066418205534",
+          "size": 208839676,
+          "download": 76408704
+        },
+        "3502522": {
+          "gid": "8532351307997239318",
+          "size": 172653826,
+          "download": 68518112
+        }
+      }
     }
   ],
-  "_change_number": 38842368,
+  "_change_number": 38850248,
   "_missing_token": false,
-  "_sha": "2f17064c324505fdd22f4a52e1e1f648f68fd768",
-  "_size": 4602,
+  "_sha": "2e6715964eb337caa108a5008c3e36925a5018df",
+  "_size": 4985,
   "appid": "3502520",
   "common": {
     "associations": {
@@ -166,7 +184,7 @@
     "name": "Math Attack",
     "osarch": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "37",
     "releasestate": "released",
     "review_percentage": "81",
@@ -229,9 +247,9 @@
           "size": "208829148"
         },
         "public": {
-          "download": "76407408",
-          "gid": "1859617657421251007",
-          "size": "208832220"
+          "download": "76408704",
+          "gid": "6105066418205534",
+          "size": "208839676"
         }
       }
     },
@@ -246,9 +264,9 @@
           "size": "172643298"
         },
         "public": {
-          "download": "68516800",
-          "gid": "1458024835355556135",
-          "size": "172646370"
+          "download": "68518112",
+          "gid": "8532351307997239318",
+          "size": "172653826"
         }
       }
     },
@@ -260,9 +278,9 @@
         "timeupdated": "1789323743"
       },
       "public": {
-        "buildid": "25287148",
-        "timebuildupdated": "1789328301",
-        "timeupdated": "1789328365"
+        "buildid": "25292197",
+        "timebuildupdated": "1789357685",
+        "timeupdated": "1789357778"
       }
     }
   },
@@ -274,13 +292,29 @@
   "ufs": {
     "maxnumfiles": "10",
     "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Math Attack",
+            "replace": "godot/app_userdata/Math Attack"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
     "savefiles": {
       "0": {
-        "path": "godot/app_userdata/mathgame/",
+        "path": "Godot/app_userdata/Math Attack",
+        "pattern": "progress.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "godot/app_userdata/mathgame",
         "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataRoaming"
       }
     }

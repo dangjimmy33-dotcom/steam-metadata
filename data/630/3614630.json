@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789357306,
+  "_lastChecked": 1789363721,
   "_history": [
     {
       "buildId": "18008215",
@@ -13,12 +13,25 @@
           "download": 78432432
         }
       }
+    },
+    {
+      "buildId": "25292417",
+      "branch": "public",
+      "timeUpdated": 1789359131,
+      "firstSeen": 1789363721,
+      "manifests": {
+        "3614631": {
+          "gid": "4844664136023938740",
+          "size": 32348592,
+          "download": 19381456
+        }
+      }
     }
   ],
-  "_change_number": 38849102,
+  "_change_number": 38849788,
   "_missing_token": false,
-  "_sha": "fa85e62a3d231a48131f5eb8bd04a28d79c96516",
-  "_size": 3585,
+  "_sha": "721e005860ac50e923144ca350c9751fd205bd7e",
+  "_size": 3595,
   "appid": "3614630",
   "common": {
     "associations": {
@@ -154,7 +167,7 @@
         "config": {
           "oslist": "windows"
         },
-        "executable": "SantasLastStand1.1.exe",
+        "executable": "sas56.exe",
         "type": "default"
       }
     }
@@ -163,19 +176,20 @@
     "3614631": {
       "manifests": {
         "public": {
-          "download": "78432432",
-          "gid": "8585363256463014974",
-          "size": "102112701"
+          "download": "19381456",
+          "gid": "4844664136023938740",
+          "size": "32348592"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "18008215",
-        "timebuildupdated": "1744012494",
-        "timeupdated": "1744012494"
+        "buildid": "25292417",
+        "timebuildupdated": "1789359103",
+        "timeupdated": "1789359131"
       }
-    }
+    },
+    "hasdepotsindlc": "0"
   },
   "extended": {
     "developer": "DeathWishGames",

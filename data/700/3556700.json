@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789357247,
-  "_history": [],
-  "_change_number": 38843352,
-  "_missing_token": true,
-  "_sha": "15f0f4037e5601291c2a4fc20f85c839bce34d1b",
-  "_size": 3155,
+  "_lastChecked": 1789363661,
+  "_history": [
+    {
+      "buildId": "25292181",
+      "branch": "public",
+      "timeUpdated": 1789357754,
+      "firstSeen": 1789363661,
+      "manifests": {
+        "3556701": {
+          "gid": "4759192012212499208",
+          "size": 5627655408,
+          "download": 998977312
+        }
+      }
+    }
+  ],
+  "_change_number": 38850375,
+  "_missing_token": false,
+  "_sha": "5981cdd35b65942a1807e21bab6fffb10f7db602",
+  "_size": 3979,
   "appid": "3556700",
   "common": {
     "associations": {
@@ -35,7 +49,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3556700",
     "genres": {
       "0": "1",
@@ -107,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "221a4f7564ed5f57c963e43ca01cfa778a5e96e0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789362007",
     "store_asset_mtime": "1784291471",
     "store_tags": {
       "0": "1646",
@@ -142,5 +156,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Legends of Azamar",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "LegendsOfAzamar.exe"
+      }
+    }
+  },
+  "depots": {
+    "3556701": {
+      "manifests": {
+        "public": {
+          "download": "998977312",
+          "gid": "4759192012212499208",
+          "size": "5627655408"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25292181",
+        "timebuildupdated": "1789357617",
+        "timeupdated": "1789357754"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Gronkins",
+    "publisher": "Gronkins"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Gronkins/LegendsOfAzamar",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

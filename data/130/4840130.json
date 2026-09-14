@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789358435,
-  "_history": [],
-  "_change_number": 38607983,
-  "_missing_token": true,
-  "_sha": "8868cbee6120d9d74b1b3ef2b89573dabd6c17ef",
-  "_size": 3089,
+  "_lastChecked": 1789364856,
+  "_history": [
+    {
+      "buildId": "25127329",
+      "branch": "public",
+      "timeUpdated": 1788536153,
+      "firstSeen": 1789364856,
+      "manifests": {
+        "4840131": {
+          "gid": "7936758810475093289",
+          "size": 130316758,
+          "download": 95660464
+        }
+      }
+    }
+  ],
+  "_change_number": 38850928,
+  "_missing_token": false,
+  "_sha": "16a42d646432fa47a30e1ae8d894b81e791787d8",
+  "_size": 3743,
   "appid": "4840130",
   "common": {
     "associations": {
@@ -31,9 +45,9 @@
     },
     "clienticon": "5020f66aa0d2565fe54e2a1367e9879605c33354",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4840130",
     "genres": {
       "0": "1",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8894b2e7a80621c943caa4d2fed4e9dd18fb5a0c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787540417",
     "store_tags": {
       "0": "19",
@@ -139,5 +154,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Astrosaurox",
+    "launch": {
+      "0": {
+        "executable": "Astrosaurox.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "6",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4840131": {
+      "manifests": {
+        "public": {
+          "download": "95660464",
+          "gid": "7936758810475093289",
+          "size": "130316758"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25127329",
+        "timebuildupdated": "1788536029",
+        "timeupdated": "1788536153"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Ferulox Studios",
+    "publisher": "Ferulox Studios"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789357160,
+  "_lastChecked": 1789363573,
   "_history": [
     {
       "buildId": "25048013",
@@ -54,12 +54,30 @@
           "download": 708862880
         }
       }
+    },
+    {
+      "buildId": "25292793",
+      "branch": "steamdeck_testing",
+      "timeUpdated": 1789361539,
+      "firstSeen": 1789363573,
+      "manifests": {
+        "3458181": {
+          "gid": "8478902733289394321",
+          "size": 1246966243,
+          "download": 741737040
+        },
+        "3458182": {
+          "gid": "9117318234603319087",
+          "size": 1177589064,
+          "download": 708876272
+        }
+      }
     }
   ],
-  "_change_number": 38846737,
+  "_change_number": 38850287,
   "_missing_token": false,
-  "_sha": "fe95a663c38db544049479fea8b8c16e1a8f7122",
-  "_size": 7184,
+  "_sha": "1fa827fdb0fed2d0b918ae88de87a0c4b2fe56d3",
+  "_size": 7619,
   "appid": "3458180",
   "common": {
     "associations": {
@@ -299,6 +317,11 @@
           "download": "741726176",
           "gid": "5901954624045819019",
           "size": "1246919955"
+        },
+        "steamdeck_testing": {
+          "download": "741737040",
+          "gid": "8478902733289394321",
+          "size": "1246966243"
         }
       }
     },
@@ -311,6 +334,11 @@
           "download": "708862880",
           "gid": "2316982063420192541",
           "size": "1177542776"
+        },
+        "steamdeck_testing": {
+          "download": "708876272",
+          "gid": "9117318234603319087",
+          "size": "1177589064"
         }
       }
     },
@@ -320,6 +348,12 @@
         "buildid": "25290236",
         "timebuildupdated": "1789346104",
         "timeupdated": "1789346613"
+      },
+      "steamdeck_testing": {
+        "buildid": "25292793",
+        "description": "Testing compatibility for Steamdeck",
+        "timebuildupdated": "1789361428",
+        "timeupdated": "1789361539"
       }
     }
   },

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789358296,
-  "_history": [],
-  "_change_number": 38665889,
-  "_missing_token": true,
-  "_sha": "997b029874a24c10c7857e566798e64241e586f8",
-  "_size": 3372,
+  "_lastChecked": 1789364719,
+  "_history": [
+    {
+      "buildId": "25099371",
+      "branch": "public",
+      "timeUpdated": 1788430774,
+      "firstSeen": 1789364719,
+      "manifests": {
+        "4672111": {
+          "gid": "8755407495502900444",
+          "size": 352774323,
+          "download": 261091392
+        },
+        "4672112": {
+          "gid": "3425036628498877815",
+          "size": 426765165,
+          "download": 280961648
+        }
+      }
+    }
+  ],
+  "_change_number": 38850198,
+  "_missing_token": false,
+  "_sha": "f826eccd39d2cbb1d121d4c5c26b13fbdfcc7073",
+  "_size": 4977,
   "appid": "4672110",
   "common": {
     "associations": {
@@ -35,9 +54,9 @@
     "clienticns": "43a50b6cc405238db61586f245a2ae8776ed187f",
     "clienticon": "54341e9194acddfafcdaac7a217fdd5ebd7ffca3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4672110",
     "genres": {
       "0": "25",
@@ -109,10 +128,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "aa79152903f3e463ca1280370a3ac4c72793ee73/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789361209",
     "store_asset_mtime": "1784053993",
     "store_tags": {
       "0": "21",
@@ -144,5 +164,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Remnants of the forsaken Past  Submerged Fantasy",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Remnants of the forsaken Past Submerged Fantasy.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Remnants_of_the_forsaken_Past_Submerged_Fantasy.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4672111": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "261091392",
+          "gid": "8755407495502900444",
+          "size": "352774323"
+        }
+      }
+    },
+    "4672112": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "280961648",
+          "gid": "3425036628498877815",
+          "size": "426765165"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25099371",
+        "timebuildupdated": "1788430774",
+        "timeupdated": "1788430774"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Untypical Hedgehog Studios",
+    "publisher": "Untypical Hedgehog Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "512000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Remnants_of_the_forsaken_Past_Submerged_Fantasy",
+        "pattern": "Remnants_of_the_forsaken_Past_One.tres",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

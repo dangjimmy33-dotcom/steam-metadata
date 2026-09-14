@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789358601,
-  "_history": [],
-  "_change_number": 38843688,
-  "_missing_token": true,
-  "_sha": "b10dd0477e3c34889ab8ccba0b760f5d7c372a31",
-  "_size": 3150,
+  "_lastChecked": 1789365024,
+  "_history": [
+    {
+      "buildId": "24831245",
+      "branch": "public",
+      "timeUpdated": 1787195414,
+      "firstSeen": 1789365024,
+      "manifests": {
+        "5037031": {
+          "gid": "350483907731688629",
+          "size": 2987103544,
+          "download": 1058483232
+        }
+      }
+    }
+  ],
+  "_change_number": 38849620,
+  "_missing_token": false,
+  "_sha": "02e19a234bb60ec7385747ca5716b526342d089b",
+  "_size": 4671,
   "appid": "5037030",
   "common": {
     "associations": {
@@ -35,7 +49,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5037030",
     "genres": {
       "0": "1",
@@ -108,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3a63c1d6873e2214c7f03ef9b90aa3cf03e16da8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789358675",
     "store_asset_mtime": "1787321070",
     "store_tags": {
       "0": "21",
@@ -142,5 +156,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Distorted Minds",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launcher",
+        "description_loc": {
+          "english": "Launcher"
+        },
+        "executable": "Distorted Minds.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Game: Tender",
+        "description_loc": {
+          "english": "Game: Tender"
+        },
+        "executable": "Tender\\Tender.exe",
+        "type": "option1"
+      },
+      "2": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Game: The House By The Lake",
+        "description_loc": {
+          "english": "Game: The House By The Lake"
+        },
+        "executable": "THBTL\\TheHouseByTheLake.exe",
+        "type": "option2"
+      },
+      "3": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Game: Red Hood",
+        "description_loc": {
+          "english": "Game: Red Hood"
+        },
+        "executable": "RedHood\\RedHood.exe",
+        "type": "option3"
+      }
+    }
+  },
+  "depots": {
+    "5037031": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1058483232",
+          "gid": "350483907731688629",
+          "size": "2987103544"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24831245",
+        "timebuildupdated": "1787195378",
+        "timeupdated": "1787195414"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Shatter Glass Games",
+    "publisher": "Shatter Glass Games"
+  }
 }
