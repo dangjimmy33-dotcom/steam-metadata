@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405016,
-  "_history": [],
-  "_change_number": 38822812,
-  "_missing_token": true,
-  "_sha": "ae8295e1240475d5a52a1a4a485fa45e9204a86f",
-  "_size": 4283,
+  "_lastChecked": 1789413260,
+  "_history": [
+    {
+      "buildId": "25273919",
+      "branch": "public",
+      "timeUpdated": 1789235198,
+      "firstSeen": 1789413260,
+      "manifests": {
+        "4071781": {
+          "gid": "1323892292631947778",
+          "size": 327097550,
+          "download": 165065296
+        }
+      }
+    }
+  ],
+  "_change_number": 38868984,
+  "_missing_token": false,
+  "_sha": "278df653071c63acd9d508296b001223a778ffd6",
+  "_size": 4902,
   "appid": "4071780",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "8716f82cc780e63221fcbc08f890bd8ab68a4b9b",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4071780",
     "genres": {
       "0": "1",
@@ -104,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "071a3510afc921fe19462d1e68fe5b49583c2ff4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789405660",
     "store_asset_mtime": "1765455758",
     "store_tags": {
       "0": "699",
@@ -205,5 +219,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Retrowave Highway",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Retrowave Highway.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4071781": {
+      "manifests": {
+        "public": {
+          "download": "165065296",
+          "gid": "1323892292631947778",
+          "size": "327097550"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25273919",
+        "timebuildupdated": "1789235185",
+        "timeupdated": "1789235198"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

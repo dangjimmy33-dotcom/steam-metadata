@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789403796,
+  "_lastChecked": 1789412083,
   "_history": [
     {
       "buildId": "22167234",
@@ -65,11 +65,37 @@
           "download": 3904507056
         }
       }
+    },
+    {
+      "buildId": "25304840",
+      "branch": "public",
+      "timeUpdated": 1789405175,
+      "firstSeen": 1789412083,
+      "manifests": {
+        "3099191": {
+          "gid": "3522611618198180951",
+          "size": 4261289848,
+          "download": 3903996192
+        }
+      }
+    },
+    {
+      "buildId": "25304840",
+      "branch": "test",
+      "timeUpdated": 1789404826,
+      "firstSeen": 1789412083,
+      "manifests": {
+        "3099191": {
+          "gid": "3522611618198180951",
+          "size": 4261289848,
+          "download": 3903996192
+        }
+      }
     }
   ],
-  "_change_number": 38866078,
+  "_change_number": 38868668,
   "_missing_token": false,
-  "_sha": "93162bc0b4e458ff1f09e6e960da86564361a0e5",
+  "_sha": "7e11ceeb84ee6ce6ce167313026e9f7f4958bcae",
   "_size": 6440,
   "appid": "3099190",
   "common": {
@@ -172,7 +198,7 @@
     "oslist": "windows",
     "primary_genre": "1",
     "releasestate": "released",
-    "review_percentage": "78",
+    "review_percentage": "77",
     "review_score": "6",
     "small_capsule": {
       "english": "769ad8186f789fc6a22aae1a4c040e17662d5209/capsule_231x87.jpg"
@@ -316,28 +342,28 @@
       },
       "manifests": {
         "public": {
-          "download": "3685822272",
-          "gid": "6314071024284202048",
-          "size": "4050113528"
+          "download": "3903996192",
+          "gid": "3522611618198180951",
+          "size": "4261289848"
         },
         "test": {
-          "download": "3685822272",
-          "gid": "6314071024284202048",
-          "size": "4050113528"
+          "download": "3903996192",
+          "gid": "3522611618198180951",
+          "size": "4261289848"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "22167234",
-        "timebuildupdated": "1772484456",
-        "timeupdated": "1789398730"
+        "buildid": "25304840",
+        "timebuildupdated": "1789404756",
+        "timeupdated": "1789405175"
       },
       "test": {
-        "buildid": "22167234",
+        "buildid": "25304840",
         "description": "Testing branch",
-        "timebuildupdated": "1772484456",
-        "timeupdated": "1789398730"
+        "timebuildupdated": "1789404756",
+        "timeupdated": "1789404826"
       }
     }
   },

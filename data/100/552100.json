@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789400297,
+  "_lastChecked": 1789408432,
   "_history": [
     {
       "buildId": "25044685",
@@ -49,12 +49,30 @@
           "download": 564354576
         }
       }
+    },
+    {
+      "buildId": "25299517",
+      "branch": "experimental",
+      "timeUpdated": 1789400934,
+      "firstSeen": 1789408432,
+      "manifests": {
+        "552101": {
+          "gid": "260627731428435744",
+          "size": 1894579115,
+          "download": 755618176
+        },
+        "552103": {
+          "gid": "5686740528017435765",
+          "size": 1831924126,
+          "download": 712307120
+        }
+      }
     }
   ],
-  "_change_number": 38860524,
+  "_change_number": 38866505,
   "_missing_token": false,
-  "_sha": "d8e61f07e2969a57c898f7e5dc235d1a8a9ba0f9",
-  "_size": 9540,
+  "_sha": "76ae6d5cb6519741f9498494b7140a08d828a21d",
+  "_size": 9539,
   "appid": "552100",
   "common": {
     "associations": {
@@ -360,9 +378,9 @@
       },
       "manifests": {
         "experimental": {
-          "download": "755401472",
-          "gid": "5237750080098172150",
-          "size": "1894579489"
+          "download": "755618176",
+          "gid": "260627731428435744",
+          "size": "1894579115"
         },
         "legacy": {
           "download": "1429133088",
@@ -383,9 +401,9 @@
       },
       "manifests": {
         "experimental": {
-          "download": "712114752",
-          "gid": "2452581419705262623",
-          "size": "1831928450"
+          "download": "712307120",
+          "gid": "5686740528017435765",
+          "size": "1831924126"
         },
         "public": {
           "download": "564354576",
@@ -396,10 +414,10 @@
     },
     "branches": {
       "experimental": {
-        "buildid": "25044685",
+        "buildid": "25299517",
         "description": "Public testing branch",
-        "timebuildupdated": "1788209907",
-        "timeupdated": "1788263250"
+        "timebuildupdated": "1789388675",
+        "timeupdated": "1789400934"
       },
       "legacy": {
         "buildid": "7032272",

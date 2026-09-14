@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405007,
-  "_history": [],
-  "_change_number": 38848385,
-  "_missing_token": true,
-  "_sha": "059947645ec49cb9a8c73911cb1deb12ad02a174",
-  "_size": 4253,
+  "_lastChecked": 1789413253,
+  "_history": [
+    {
+      "buildId": "25273975",
+      "branch": "public",
+      "timeUpdated": 1789235645,
+      "firstSeen": 1789413253,
+      "manifests": {
+        "4063111": {
+          "gid": "6684152370872595404",
+          "size": 293173982,
+          "download": 146549456
+        }
+      }
+    }
+  ],
+  "_change_number": 38868922,
+  "_missing_token": false,
+  "_sha": "5aed4e9cf543431bec59ac82baeb4d28baa5d042",
+  "_size": 4848,
   "appid": "4063110",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "e16e6ab888e20c62b2eb547f28dc05fe425ef5bd",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4063110",
     "genres": {
       "0": "4",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "809fdbd1a864b87eb9a63e75b6178a978aab67db/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789405598",
     "store_asset_mtime": "1771092904",
     "store_tags": {
       "0": "30358",
@@ -203,5 +217,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Eagle",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Eagle.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4063111": {
+      "manifests": {
+        "public": {
+          "download": "146549456",
+          "gid": "6684152370872595404",
+          "size": "293173982"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25273975",
+        "timebuildupdated": "1789235629",
+        "timeupdated": "1789235645"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405316,
-  "_history": [],
-  "_change_number": 38821916,
-  "_missing_token": true,
-  "_sha": "9fa0cfa75e340b7595f284f406763df326c9e54e",
-  "_size": 4305,
+  "_lastChecked": 1789413820,
+  "_history": [
+    {
+      "buildId": "25273336",
+      "branch": "public",
+      "timeUpdated": 1789231706,
+      "firstSeen": 1789413820,
+      "manifests": {
+        "4311571": {
+          "gid": "1340590787887880248",
+          "size": 565770457,
+          "download": 285621856
+        }
+      }
+    }
+  ],
+  "_change_number": 38869228,
+  "_missing_token": false,
+  "_sha": "8335e8ca4f049254e78aead6f3ced794d1f1513c",
+  "_size": 4900,
   "appid": "4311570",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "8bc8d009cfda59d175269c5517e7ed3616f3b16b",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4311570",
     "genres": {
       "0": "1",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0301d4f990f784099d358a599c63fcc0ed144e89/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789405984",
     "store_asset_mtime": "1773942168",
     "store_tags": {
       "0": "19",
@@ -203,5 +217,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sewer",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Sewer.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4311571": {
+      "manifests": {
+        "public": {
+          "download": "285621856",
+          "gid": "1340590787887880248",
+          "size": "565770457"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25273336",
+        "timebuildupdated": "1789231694",
+        "timeupdated": "1789231706"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

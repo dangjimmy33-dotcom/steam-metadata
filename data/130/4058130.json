@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405001,
-  "_history": [],
-  "_change_number": 38823194,
-  "_missing_token": true,
-  "_sha": "54ffa270564b6d003a4c153c8795bd3ac2698ecf",
-  "_size": 4363,
+  "_lastChecked": 1789413248,
+  "_history": [
+    {
+      "buildId": "25274174",
+      "branch": "public",
+      "timeUpdated": 1789236802,
+      "firstSeen": 1789413248,
+      "manifests": {
+        "4058131": {
+          "gid": "6377952968549063624",
+          "size": 132285191,
+          "download": 53819808
+        }
+      }
+    }
+  ],
+  "_change_number": 38868849,
+  "_missing_token": false,
+  "_sha": "99a64ef5f12ef2d6d8eb7b8cc2cb2145e19a6a12",
+  "_size": 4989,
   "appid": "4058130",
   "common": {
     "aicontenttype": "1",
@@ -33,7 +47,6 @@
     "clienticon": "8b9b5c4bbdfc8d335d8605761bbf5fa70f8ef622",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4058130",
     "genres": {
       "0": "4",
@@ -107,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "64a427b461b26b25d1bf0f67299177a67a07ae24/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789405481",
     "store_asset_mtime": "1758719216",
     "store_tags": {
       "0": "9",
@@ -208,5 +222,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Battleships Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Battleships Simulator.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4058131": {
+      "manifests": {
+        "public": {
+          "download": "53819808",
+          "gid": "6377952968549063624",
+          "size": "132285191"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25274174",
+        "timebuildupdated": "1789236785",
+        "timeupdated": "1789236802"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

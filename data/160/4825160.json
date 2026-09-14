@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405883,
-  "_history": [],
-  "_change_number": 38842954,
-  "_missing_token": true,
-  "_sha": "ee42d31376ce9b481e74254962f40a9e422edab0",
-  "_size": 3138,
+  "_lastChecked": 1789415675,
+  "_history": [
+    {
+      "buildId": "25287567",
+      "branch": "public",
+      "timeUpdated": 1789330516,
+      "firstSeen": 1789415675,
+      "manifests": {
+        "4825161": {
+          "gid": "5152019116216971702",
+          "size": 1552219846,
+          "download": 418656944
+        }
+      }
+    }
+  ],
+  "_change_number": 38871032,
+  "_missing_token": false,
+  "_sha": "0ae41797fe122aa38a13649bfa4e70076fff40a7",
+  "_size": 3748,
   "appid": "4825160",
   "common": {
     "associations": {
@@ -39,9 +53,9 @@
     },
     "clienticon": "4b20b5d9cb7e7569ca408bcaa9c33267d1ac14ea",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4825160",
     "genres": {
       "0": "1",
@@ -114,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8889866b3d2e4ba4e74df3ea1ec1e290e4010f9d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789409768",
     "store_asset_mtime": "1782483865",
     "store_tags": {
       "0": "19",
@@ -142,5 +157,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Drift Invaders",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Drift invaders.exe"
+      }
+    }
+  },
+  "depots": {
+    "4825161": {
+      "manifests": {
+        "public": {
+          "download": "418656944",
+          "gid": "5152019116216971702",
+          "size": "1552219846"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25287567",
+        "timebuildupdated": "1789330503",
+        "timeupdated": "1789330516"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Zesty Dev",
+    "isfreeapp": "1",
+    "publisher": "Zesty Dev"
+  }
 }

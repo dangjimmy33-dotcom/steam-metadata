@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405713,
-  "_history": [],
-  "_change_number": 37007936,
-  "_missing_token": true,
-  "_sha": "a25c92e82f2ff8d045f0d92b6c1cb0a9cefb548d",
-  "_size": 3252,
+  "_lastChecked": 1789414153,
+  "_history": [
+    {
+      "buildId": "24033164",
+      "branch": "public",
+      "timeUpdated": 1783054348,
+      "firstSeen": 1789414153,
+      "manifests": {
+        "4659151": {
+          "gid": "6221535543198413806",
+          "size": 126001798,
+          "download": 52514320
+        }
+      }
+    }
+  ],
+  "_change_number": 38872180,
+  "_missing_token": false,
+  "_sha": "b2299f5672744ae17af29d9d1c1506207a54c6ec",
+  "_size": 4100,
   "appid": "4659150",
   "common": {
     "associations": {
@@ -25,8 +39,8 @@
     },
     "clienticon": "bb890161b92b455eef9b7500782f163d97d1b25d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4659150",
     "genres": {
       "0": "4",
@@ -97,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8a4d153694de9b5db59ac763cadc9d33a15e217f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1779075252",
     "store_tags": {
       "0": "597",
@@ -151,5 +166,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Road Connect",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Road_Connect.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4659151": {
+      "manifests": {
+        "public": {
+          "download": "52514320",
+          "gid": "6221535543198413806",
+          "size": "126001798"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24033164",
+        "timebuildupdated": "1783054346",
+        "timeupdated": "1783054348"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Angel Torres",
+    "publisher": "Angel Torres"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "10000",
+    "savefiles": {
+      "0": {
+        "path": "AngelTorres/Road_Connect",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

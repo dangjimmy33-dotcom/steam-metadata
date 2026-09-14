@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405313,
-  "_history": [],
-  "_change_number": 38821975,
-  "_missing_token": true,
-  "_sha": "41150781045e42c9300f730b7f79c381f7209a67",
-  "_size": 4311,
+  "_lastChecked": 1789413817,
+  "_history": [
+    {
+      "buildId": "25273361",
+      "branch": "public",
+      "timeUpdated": 1789231927,
+      "firstSeen": 1789413817,
+      "manifests": {
+        "4309071": {
+          "gid": "3907405323952381835",
+          "size": 158818623,
+          "download": 63248464
+        }
+      }
+    }
+  ],
+  "_change_number": 38869213,
+  "_missing_token": false,
+  "_sha": "0a8192fba34af82cb96299684a7716c07d42e3c3",
+  "_size": 4914,
   "appid": "4309070",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "c1a0b5e0b1ccaf87ce61ba0b6513f2a184eb1a56",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4309070",
     "genres": {
       "0": "4",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "67be04385e8f1409a7cfa1373da173eae6580153/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789405960",
     "store_asset_mtime": "1773691411",
     "store_tags": {
       "0": "597",
@@ -203,5 +217,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Burger Tycoon",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Burger.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4309071": {
+      "manifests": {
+        "public": {
+          "download": "63248464",
+          "gid": "3907405323952381835",
+          "size": "158818623"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25273361",
+        "timebuildupdated": "1789231914",
+        "timeupdated": "1789231927"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

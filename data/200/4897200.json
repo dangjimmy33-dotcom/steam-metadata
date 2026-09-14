@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405965,
-  "_history": [],
-  "_change_number": 37006111,
-  "_missing_token": true,
-  "_sha": "53a762e84fafe540a769b0bbdb5d80e37b0c4f2e",
-  "_size": 2913,
+  "_lastChecked": 1789415742,
+  "_history": [
+    {
+      "buildId": "24031816",
+      "branch": "public",
+      "timeUpdated": 1783046414,
+      "firstSeen": 1789415742,
+      "manifests": {
+        "4897201": {
+          "gid": "7045400939354458524",
+          "size": 405389870,
+          "download": 177727456
+        }
+      }
+    }
+  ],
+  "_change_number": 38872889,
+  "_missing_token": false,
+  "_sha": "9711a6aa2ef47ebab1801f30f386d484b2e04149",
+  "_size": 3527,
   "appid": "4897200",
   "common": {
     "aicontenttype": "1",
@@ -33,11 +47,11 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4897200",
     "genres": {
       "0": "4",
-      "1": "23"
+      "1": "23",
+      "2": "37"
     },
     "header_image": {
       "english": "6b8c1561a50eee7ecd9b34122299d1b51f945ad5/header.jpg"
@@ -104,18 +118,20 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "409695188a70b4d368037107ae511b0836460cec/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1782597144",
     "store_tags": {
       "0": "597",
       "1": "11014",
-      "10": "4667",
-      "11": "6426",
-      "12": "6971",
-      "13": "4182",
+      "10": "492",
+      "11": "4667",
+      "12": "6426",
+      "13": "6971",
+      "14": "4182",
       "2": "9204",
       "3": "4191",
       "4": "3839",
@@ -123,7 +139,7 @@
       "6": "4604",
       "7": "9541",
       "8": "1667",
-      "9": "492"
+      "9": "113"
     },
     "supported_languages": {
       "english": {
@@ -133,5 +149,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "A Graveyard Shift",
+    "launch": {
+      "0": {
+        "executable": "A Graveyard Shift.exe"
+      }
+    }
+  },
+  "depots": {
+    "4897201": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "177727456",
+          "gid": "7045400939354458524",
+          "size": "405389870"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24031816",
+        "timebuildupdated": "1783046337",
+        "timeupdated": "1783046414"
+      }
+    }
+  },
+  "extended": {
+    "developer": "pumpkin.games",
+    "isfreeapp": "1",
+    "publisher": "pumpkin.games"
+  }
 }

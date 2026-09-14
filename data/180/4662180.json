@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789405716,
-  "_history": [],
-  "_change_number": 38781936,
-  "_missing_token": true,
-  "_sha": "54c3463725b83257f19b5380b645cabd0a871389",
-  "_size": 3210,
+  "_lastChecked": 1789414156,
+  "_history": [
+    {
+      "buildId": "25245633",
+      "branch": "public",
+      "timeUpdated": 1789100335,
+      "firstSeen": 1789414156,
+      "manifests": {
+        "4662181": {
+          "gid": "507574557465977562",
+          "size": 59703567,
+          "download": 50150416
+        },
+        "4662182": {
+          "gid": "6734339693766621787",
+          "size": 74646221,
+          "download": 54458192
+        }
+      }
+    }
+  ],
+  "_change_number": 38869319,
+  "_missing_token": false,
+  "_sha": "db1ddf929cb9f840eba2af541e1a916862516474",
+  "_size": 4261,
   "appid": "4662180",
   "common": {
     "associations": {
@@ -36,9 +55,9 @@
     },
     "clienticon": "627bc87c5125a56274e50dfb39902f144f51d602",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4662180",
     "genres": {
       "0": "25",
@@ -111,10 +130,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9167fd983cfe22a6c5cd97ac50e06737cf160ab9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789406157",
     "store_asset_mtime": "1788381796",
     "store_tags": {
       "0": "122",
@@ -141,5 +161,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cursed and Fading",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "CursedAndFading",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CursedAndFading.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4662181": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "50150416",
+          "gid": "507574557465977562",
+          "size": "59703567"
+        }
+      }
+    },
+    "4662182": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "54458192",
+          "gid": "6734339693766621787",
+          "size": "74646221"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25245633",
+        "timebuildupdated": "1789100209",
+        "timeupdated": "1789100335"
+      }
+    }
+  },
+  "extended": {
+    "developer": "RG GameDev, LLC",
+    "publisher": "RG GameDev, LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "33554432"
+  }
 }

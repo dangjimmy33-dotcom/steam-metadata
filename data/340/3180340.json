@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789403900,
-  "_history": [],
-  "_change_number": 38829749,
-  "_missing_token": true,
-  "_sha": "71efec83144e4b58c1865c1905b73cfdac9a7904",
-  "_size": 5249,
+  "_lastChecked": 1789412310,
+  "_history": [
+    {
+      "buildId": "25272801",
+      "branch": "public",
+      "timeUpdated": 1789228710,
+      "firstSeen": 1789412310,
+      "manifests": {
+        "3180341": {
+          "gid": "9126493570488568416",
+          "size": 3749306063,
+          "download": 2893814832
+        }
+      }
+    }
+  ],
+  "_change_number": 38871773,
+  "_missing_token": false,
+  "_sha": "387dbe10bfc935bc3acb4e6a3334b22ac37958fc",
+  "_size": 6535,
   "appid": "3180340",
   "common": {
     "associations": {
@@ -32,6 +46,7 @@
     "clienticon": "b62b0e850f941199b90648b204db43a7851d9741",
     "clienttga": "c601cb8bc5f097bdcf5bdf1e61ec300d32052504",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -42,7 +57,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3180340",
     "genres": {
       "0": "1"
@@ -109,7 +123,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "81",
+    "review_score": "7",
     "small_capsule": {
       "english": "43e5ebf68e0f10b5db2deba6f9651588af1a4d7a/capsule_231x87.jpg"
     },
@@ -183,6 +199,7 @@
         }
       }
     },
+    "steam_release_date": "1789405195",
     "store_asset_mtime": "1789270331",
     "store_tags": {
       "0": "19",
@@ -215,5 +232,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "RIG Riot",
+    "launch": {
+      "0": {
+        "executable": "Windows/RIGRiot.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3180341": {
+      "manifests": {
+        "public": {
+          "download": "2893814832",
+          "gid": "9126493570488568416",
+          "size": "3749306063"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25272801",
+        "timebuildupdated": "1789228501",
+        "timeupdated": "1789228710"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Sage Boatman",
+    "publisher": "Sage Boatman"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".local/share/Steam/steamapps/compatdata/3180340/pfx/drive_c/users/steamuser/AppData/Local/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RIGRiot/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

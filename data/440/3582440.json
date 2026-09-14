@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789404403,
+  "_lastChecked": 1789412746,
   "_history": [
     {
       "buildId": "25090214",
@@ -206,11 +206,65 @@
           "download": 1286256384
         }
       }
+    },
+    {
+      "buildId": "25305429",
+      "branch": "next_patch",
+      "timeUpdated": 1789406824,
+      "firstSeen": 1789412746,
+      "manifests": {
+        "3582441": {
+          "gid": "5541821209141905410",
+          "size": 1895212373,
+          "download": 1286767968
+        },
+        "3582442": {
+          "gid": "5898582585478096404",
+          "size": 1894660826,
+          "download": 1286256480
+        }
+      }
+    },
+    {
+      "buildId": "25305429",
+      "branch": "public",
+      "timeUpdated": 1789407052,
+      "firstSeen": 1789412746,
+      "manifests": {
+        "3582441": {
+          "gid": "5541821209141905410",
+          "size": 1895212373,
+          "download": 1286767968
+        },
+        "3582442": {
+          "gid": "5898582585478096404",
+          "size": 1894660826,
+          "download": 1286256480
+        }
+      }
+    },
+    {
+      "buildId": "25061744",
+      "branch": "version_previous",
+      "timeUpdated": 1788278995,
+      "firstSeen": 1789412746,
+      "manifests": {
+        "3582441": {
+          "gid": "6959701885870039610",
+          "size": 1895027504,
+          "download": 1286705872
+        },
+        "3582442": {
+          "gid": "8988321766485680711",
+          "size": 1894656782,
+          "download": 1286255664
+        }
+      }
     }
   ],
-  "_change_number": 38858267,
+  "_change_number": 38869707,
   "_missing_token": false,
-  "_sha": "2f80ec286abbbb3eab7fb4217a6c049c2a51276c",
+  "_sha": "82c287f32415e3f3ad38d56a706d32d57fc2a326",
   "_size": 13951,
   "appid": "3582440",
   "common": {
@@ -565,14 +619,14 @@
           "size": "1765080991"
         },
         "next_patch": {
-          "download": "1286767840",
-          "gid": "9110094482507630032",
-          "size": "1895211617"
+          "download": "1286767968",
+          "gid": "5541821209141905410",
+          "size": "1895212373"
         },
         "public": {
-          "download": "1286705872",
-          "gid": "6959701885870039610",
-          "size": "1895027504"
+          "download": "1286767968",
+          "gid": "5541821209141905410",
+          "size": "1895212373"
         },
         "version_mounts2026": {
           "download": "1609337136",
@@ -585,9 +639,9 @@
           "size": "2465200987"
         },
         "version_previous": {
-          "download": "1286705712",
-          "gid": "2071586670328415338",
-          "size": "1895027428"
+          "download": "1286705872",
+          "gid": "6959701885870039610",
+          "size": "1895027504"
         },
         "version_settlers2026": {
           "download": "1607390304",
@@ -618,14 +672,14 @@
           "size": "1768111558"
         },
         "next_patch": {
-          "download": "1286256384",
-          "gid": "8082266933935889242",
-          "size": "1894660070"
+          "download": "1286256480",
+          "gid": "5898582585478096404",
+          "size": "1894660826"
         },
         "public": {
-          "download": "1286255664",
-          "gid": "8988321766485680711",
-          "size": "1894656782"
+          "download": "1286256480",
+          "gid": "5898582585478096404",
+          "size": "1894660826"
         },
         "version_mounts2026": {
           "download": "1618673376",
@@ -638,9 +692,9 @@
           "size": "2492294713"
         },
         "version_previous": {
-          "download": "1286255504",
-          "gid": "4309785409069971087",
-          "size": "1894656706"
+          "download": "1286255664",
+          "gid": "8988321766485680711",
+          "size": "1894656782"
         }
       }
     },
@@ -658,15 +712,15 @@
         "timeupdated": "1788812297"
       },
       "next_patch": {
-        "buildid": "25298042",
+        "buildid": "25305429",
         "description": "Test the next small update",
-        "timebuildupdated": "1789383469",
-        "timeupdated": "1789383504"
+        "timebuildupdated": "1789406779",
+        "timeupdated": "1789406824"
       },
       "public": {
-        "buildid": "25061744",
-        "timebuildupdated": "1788278321",
-        "timeupdated": "1788278995"
+        "buildid": "25305429",
+        "timebuildupdated": "1789406779",
+        "timeupdated": "1789407052"
       },
       "version_mounts2026": {
         "buildid": "24468196",
@@ -681,10 +735,10 @@
         "timeupdated": "1787289411"
       },
       "version_previous": {
-        "buildid": "24987094",
+        "buildid": "25061744",
         "description": "Go back one version",
-        "timebuildupdated": "1787901892",
-        "timeupdated": "1787902297"
+        "timebuildupdated": "1788278321",
+        "timeupdated": "1788278995"
       },
       "version_settlers2026": {
         "buildid": "22545478",

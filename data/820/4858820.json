@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789405924,
+  "_lastChecked": 1789415708,
   "_history": [
     {
       "buildId": "24911639",
@@ -25,10 +25,10 @@
       }
     }
   ],
-  "_change_number": 38579623,
+  "_change_number": 38872769,
   "_missing_token": false,
-  "_sha": "c7f5793a61da652107928b8d254ec08239a52a29",
-  "_size": 4923,
+  "_sha": "3c02970f4f78c7fdbfdda2bdba424fe0958a92d5",
+  "_size": 5567,
   "appid": "4858820",
   "common": {
     "aicontenttype": "1",
@@ -248,5 +248,33 @@
     "developer": "Golden Forge Entertainment",
     "homepage": "https://www.goldenforgeentertainment.com",
     "publisher": "Golden Forge Entertainment"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Mythic Battlegrounds/cloud_profiles",
+            "replace": "Godot/app_userdata/Mythic Battlegrounds/cloud_profiles"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Mythic Battlegrounds/cloud_profiles",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

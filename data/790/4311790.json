@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405316,
-  "_history": [],
-  "_change_number": 38837036,
-  "_missing_token": true,
-  "_sha": "37234ff6c10bae88787cf9cb1fc89121a3e4b06b",
-  "_size": 4725,
+  "_lastChecked": 1789413820,
+  "_history": [
+    {
+      "buildId": "25283677",
+      "branch": "public",
+      "timeUpdated": 1789308363,
+      "firstSeen": 1789413820,
+      "manifests": {
+        "4311791": {
+          "gid": "6499513955975232065",
+          "size": 155402695,
+          "download": 59319856
+        }
+      }
+    }
+  ],
+  "_change_number": 38869300,
+  "_missing_token": false,
+  "_sha": "3527ad96761623f40d3ad4e991448998ed7820a3",
+  "_size": 5350,
   "appid": "4311790",
   "common": {
     "aicontenttype": "1",
@@ -35,8 +49,8 @@
     },
     "clienticon": "0e036e1c965228021d26459f27fafaffc7a725be",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4311790",
     "genres": {
       "0": "4",
@@ -124,10 +138,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "690969980246b2582fe1f7bf7a2c75dc8b3d9131/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789406112",
     "store_asset_mtime": "1774095805",
     "store_tags": {
       "0": "4852",
@@ -225,5 +240,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pool",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Pool.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4311791": {
+      "manifests": {
+        "public": {
+          "download": "59319856",
+          "gid": "6499513955975232065",
+          "size": "155402695"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25283677",
+        "timebuildupdated": "1789308341",
+        "timeupdated": "1789308363"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

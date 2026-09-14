@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405039,
-  "_history": [],
-  "_change_number": 38862721,
-  "_missing_token": true,
-  "_sha": "0571e5ce611c03720bb9c96a95013396792d6ce0",
-  "_size": 3927,
+  "_lastChecked": 1789413279,
+  "_history": [
+    {
+      "buildId": "25306643",
+      "branch": "public",
+      "timeUpdated": 1789411327,
+      "firstSeen": 1789413279,
+      "manifests": {
+        "4091921": {
+          "gid": "3577154359102587025",
+          "size": 7258586184,
+          "download": 3057551856
+        }
+      }
+    }
+  ],
+  "_change_number": 38871556,
+  "_missing_token": false,
+  "_sha": "7a7cf52252605888bc59893281650352b84696ca",
+  "_size": 4495,
   "appid": "4091920",
   "common": {
     "associations": {
@@ -28,7 +42,6 @@
     "clienticon": "67c94daaef1dfd34f4762b99637abe2b63c24c93",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4091920",
     "genres": {
       "0": "1",
@@ -100,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c374ed55986ca12dba81a1ed7502bb71da559dd4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789409928",
     "store_asset_mtime": "1789393249",
     "store_tags": {
       "0": "19",
@@ -193,5 +207,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ScheduleStoreSim",
+    "launch": {
+      "0": {
+        "executable": "ScheduleStoreSimulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "4091921": {
+      "manifests": {
+        "public": {
+          "download": "3057551856",
+          "gid": "3577154359102587025",
+          "size": "7258586184"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25306643",
+        "timebuildupdated": "1789411281",
+        "timeupdated": "1789411327"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Alkame Games",
+    "homepage": "http://www.alkamegames.com",
+    "publisher": "Alkame Games"
+  }
 }

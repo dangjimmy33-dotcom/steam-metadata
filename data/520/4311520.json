@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405316,
-  "_history": [],
-  "_change_number": 38821588,
-  "_missing_token": true,
-  "_sha": "4ef117ffd367e6f212cfb36d6fe777c8dd78568b",
-  "_size": 4380,
+  "_lastChecked": 1789413820,
+  "_history": [
+    {
+      "buildId": "25273142",
+      "branch": "public",
+      "timeUpdated": 1789230380,
+      "firstSeen": 1789413820,
+      "manifests": {
+        "4311521": {
+          "gid": "827037250387299004",
+          "size": 1228062822,
+          "download": 437314192
+        }
+      }
+    }
+  ],
+  "_change_number": 38869288,
+  "_missing_token": false,
+  "_sha": "982a66d45a2f12af0df620b483309843b895a0e2",
+  "_size": 4977,
   "appid": "4311520",
   "common": {
     "aicontenttype": "1",
@@ -37,7 +51,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4311520",
     "genres": {
       "0": "23",
@@ -110,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "eca456f7afafb4ad929be04c49cc8ece08801cdb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789406083",
     "store_asset_mtime": "1775475297",
     "store_tags": {
       "0": "701",
@@ -211,5 +225,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tennis",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Tennis.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4311521": {
+      "manifests": {
+        "public": {
+          "download": "437314192",
+          "gid": "827037250387299004",
+          "size": "1228062822"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25273142",
+        "timebuildupdated": "1789230368",
+        "timeupdated": "1789230380"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

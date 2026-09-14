@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789406206,
-  "_history": [],
-  "_change_number": 38473235,
-  "_missing_token": true,
-  "_sha": "4c2ffd18868fc2ac0cf7c17300464b666e76a3f7",
-  "_size": 3483,
+  "_lastChecked": 1789415946,
+  "_history": [
+    {
+      "buildId": "24824746",
+      "branch": "public",
+      "timeUpdated": 1787166449,
+      "firstSeen": 1789415946,
+      "manifests": {
+        "5140821": {
+          "gid": "8614436681331826206",
+          "size": 711116259,
+          "download": 311675056
+        }
+      }
+    }
+  ],
+  "_change_number": 38869760,
+  "_missing_token": false,
+  "_sha": "fb2ddf941209ecbadaaf112131a91ad6462bb148",
+  "_size": 4306,
   "appid": "5140820",
   "common": {
     "aicontenttype": "1",
@@ -28,8 +42,8 @@
     },
     "clienticon": "e022808a5be4ce6acb8deb737e98e464ade63d89",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5140820",
     "genres": {
       "0": "25"
@@ -111,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "131356edaf2ac6653b9da2902b780eca467c27d5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787699271",
     "store_tags": {
       "0": "21",
@@ -166,5 +181,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Night Shift",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "night-shift.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5140821": {
+      "manifests": {
+        "public": {
+          "download": "311675056",
+          "gid": "8614436681331826206",
+          "size": "711116259"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,japanese,polish,russian,schinese,spanish,turkish",
+    "branches": {
+      "public": {
+        "buildid": "24824746",
+        "timebuildupdated": "1787166164",
+        "timeupdated": "1787166449"
+      }
+    }
+  },
+  "extended": {
+    "developer": "thetaa7",
+    "publisher": "thetaa7"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405316,
-  "_history": [],
-  "_change_number": 38821815,
-  "_missing_token": true,
-  "_sha": "518a558d18dfd56fbac933422cbad84105609a0b",
-  "_size": 4312,
+  "_lastChecked": 1789413820,
+  "_history": [
+    {
+      "buildId": "25273270",
+      "branch": "public",
+      "timeUpdated": 1789231237,
+      "firstSeen": 1789413820,
+      "manifests": {
+        "4311761": {
+          "gid": "1462564856358019249",
+          "size": 167330106,
+          "download": 57668784
+        }
+      }
+    }
+  ],
+  "_change_number": 38869239,
+  "_missing_token": false,
+  "_sha": "ede4414700f2981b125e906f3dcd7b715929292f",
+  "_size": 4910,
   "appid": "4311760",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "b61107e842eb590cc31e05e14e12c0e5c77fd2e4",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4311760",
     "genres": {
       "0": "1",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "13f9db81d436d56503fc97efc6f225720862e499/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789406009",
     "store_asset_mtime": "1773759524",
     "store_tags": {
       "0": "6214",
@@ -203,5 +217,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Penguin",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Penguin.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4311761": {
+      "manifests": {
+        "public": {
+          "download": "57668784",
+          "gid": "1462564856358019249",
+          "size": "167330106"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25273270",
+        "timebuildupdated": "1789231223",
+        "timeupdated": "1789231237"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

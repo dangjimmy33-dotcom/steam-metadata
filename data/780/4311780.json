@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405316,
-  "_history": [],
-  "_change_number": 38821753,
-  "_missing_token": true,
-  "_sha": "2c89a5ac943afefb7ae85097cafe4e6ec0db63e9",
-  "_size": 4315,
+  "_lastChecked": 1789413820,
+  "_history": [
+    {
+      "buildId": "25273239",
+      "branch": "public",
+      "timeUpdated": 1789230975,
+      "firstSeen": 1789413820,
+      "manifests": {
+        "4311781": {
+          "gid": "7433504339838306378",
+          "size": 1543752664,
+          "download": 447564528
+        }
+      }
+    }
+  ],
+  "_change_number": 38869253,
+  "_missing_token": false,
+  "_sha": "7936a576ea186e8824da34421623cabe38c27104",
+  "_size": 4925,
   "appid": "4311780",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "ce0393420a08527027e0f8d8ad30291944c0f6c0",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4311780",
     "genres": {
       "0": "1",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "98cfd09a80bfbab8ca67bc8564ccabaeecbc4b47/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789406031",
     "store_asset_mtime": "1773830157",
     "store_tags": {
       "0": "19",
@@ -203,5 +217,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Phantom Town",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Phantom Town.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4311781": {
+      "manifests": {
+        "public": {
+          "download": "447564528",
+          "gid": "7433504339838306378",
+          "size": "1543752664"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25273239",
+        "timebuildupdated": "1789230963",
+        "timeupdated": "1789230975"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

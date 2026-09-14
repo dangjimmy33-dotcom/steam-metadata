@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405008,
-  "_history": [],
-  "_change_number": 38822870,
-  "_missing_token": true,
-  "_sha": "05bcebb583f0b512c99131c09af88e4403663dff",
-  "_size": 4276,
+  "_lastChecked": 1789413254,
+  "_history": [
+    {
+      "buildId": "25273959",
+      "branch": "public",
+      "timeUpdated": 1789235448,
+      "firstSeen": 1789413254,
+      "manifests": {
+        "4064031": {
+          "gid": "5731855690328632679",
+          "size": 280880072,
+          "download": 127748752
+        }
+      }
+    }
+  ],
+  "_change_number": 38868947,
+  "_missing_token": false,
+  "_sha": "a007f189784e7e94a36cbe43f65b425a60d9846a",
+  "_size": 4903,
   "appid": "4064030",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "ed9d6032638a091e9bd5a30a2a8b4bd4c6436914",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4064030",
     "genres": {
       "0": "23",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b075770fb2ebadca6ec4927c9e9919f5f09f1c3d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789405633",
     "store_asset_mtime": "1765367345",
     "store_tags": {
       "0": "599",
@@ -203,5 +217,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dinosaur Hunting Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Dinosaur Hunting.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4064031": {
+      "manifests": {
+        "public": {
+          "download": "127748752",
+          "gid": "5731855690328632679",
+          "size": "280880072"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25273959",
+        "timebuildupdated": "1789235431",
+        "timeupdated": "1789235448"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

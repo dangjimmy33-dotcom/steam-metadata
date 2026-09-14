@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405316,
-  "_history": [],
-  "_change_number": 38822361,
-  "_missing_token": true,
-  "_sha": "760044d4653bb7a94cbea54eac07ec233da3eef0",
-  "_size": 4339,
+  "_lastChecked": 1789413820,
+  "_history": [
+    {
+      "buildId": "25273601",
+      "branch": "public",
+      "timeUpdated": 1789233342,
+      "firstSeen": 1789413820,
+      "manifests": {
+        "4311371": {
+          "gid": "6028490691139751755",
+          "size": 139468124,
+          "download": 63039872
+        }
+      }
+    }
+  ],
+  "_change_number": 38869087,
+  "_missing_token": false,
+  "_sha": "d15dfe7cfe5b937e33276323872b87700b83e33d",
+  "_size": 4975,
   "appid": "4311370",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "48fb7815c90353c270b5bd76591e3b9f743e5140",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4311370",
     "genres": {
       "0": "4",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a5e7fad571a48a964c37920b5c127de7a09bc747/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789405766",
     "store_asset_mtime": "1770038418",
     "store_tags": {
       "0": "91114",
@@ -203,5 +217,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Supermarket Life Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Supermarket Life Simulator.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4311371": {
+      "manifests": {
+        "public": {
+          "download": "63039872",
+          "gid": "6028490691139751755",
+          "size": "139468124"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25273601",
+        "timebuildupdated": "1789233328",
+        "timeupdated": "1789233342"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

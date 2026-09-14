@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405316,
-  "_history": [],
-  "_change_number": 38822064,
-  "_missing_token": true,
-  "_sha": "10dc1a9b05881b1ee7aa560538e8d36abd54c666",
-  "_size": 4260,
+  "_lastChecked": 1789413820,
+  "_history": [
+    {
+      "buildId": "25273408",
+      "branch": "public",
+      "timeUpdated": 1789232262,
+      "firstSeen": 1789413820,
+      "manifests": {
+        "4311341": {
+          "gid": "6549154035635990885",
+          "size": 133920476,
+          "download": 62976288
+        }
+      }
+    }
+  ],
+  "_change_number": 38869174,
+  "_missing_token": false,
+  "_sha": "2641d7a4d13789d1bbfd43037bef2b00b879a25b",
+  "_size": 4880,
   "appid": "4311340",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "fdeeef0b97cd8199039e627aac05431083c498c4",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4311340",
     "genres": {
       "0": "23",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "523dfd5d6f605615e95893c1a3af34727f0d5ae5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789405902",
     "store_asset_mtime": "1773743876",
     "store_tags": {
       "0": "9",
@@ -203,5 +217,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Battalion of Tanks",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Battalion of Tanks.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4311341": {
+      "manifests": {
+        "public": {
+          "download": "62976288",
+          "gid": "6549154035635990885",
+          "size": "133920476"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25273408",
+        "timebuildupdated": "1789232249",
+        "timeupdated": "1789232262"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

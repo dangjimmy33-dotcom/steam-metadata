@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405007,
-  "_history": [],
-  "_change_number": 38822986,
-  "_missing_token": true,
-  "_sha": "94718b6f652bf5f11869ea2af12ecfefb2700d61",
-  "_size": 4306,
+  "_lastChecked": 1789413253,
+  "_history": [
+    {
+      "buildId": "25274013",
+      "branch": "public",
+      "timeUpdated": 1789235900,
+      "firstSeen": 1789413253,
+      "manifests": {
+        "4063101": {
+          "gid": "1078571295005408621",
+          "size": 222413630,
+          "download": 64039680
+        }
+      }
+    }
+  ],
+  "_change_number": 38868900,
+  "_missing_token": false,
+  "_sha": "deaf64056af5641c7f1fcd894b31cd9dd2487366",
+  "_size": 4916,
   "appid": "4063100",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "fb380e5e7e34ea146b21cf66fb4bc4a354543c9d",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4063100",
     "genres": {
       "0": "1",
@@ -101,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2c61db66f2ff8c1f8cc37d8fa60e7a020fb0e37c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789405564",
     "store_asset_mtime": "1765217862",
     "store_tags": {
       "0": "19",
@@ -202,5 +216,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Wukong Fights",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Wukong Fights.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4063101": {
+      "manifests": {
+        "public": {
+          "download": "64039680",
+          "gid": "1078571295005408621",
+          "size": "222413630"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25274013",
+        "timebuildupdated": "1789235885",
+        "timeupdated": "1789235900"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

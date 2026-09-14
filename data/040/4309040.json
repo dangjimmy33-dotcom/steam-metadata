@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405313,
-  "_history": [],
-  "_change_number": 38822292,
-  "_missing_token": true,
-  "_sha": "0ce0ea4b65217ef874cb23454dac5847f84590d0",
-  "_size": 4321,
+  "_lastChecked": 1789413817,
+  "_history": [
+    {
+      "buildId": "25273560",
+      "branch": "public",
+      "timeUpdated": 1789233097,
+      "firstSeen": 1789413817,
+      "manifests": {
+        "4309041": {
+          "gid": "3914554742058385619",
+          "size": 130164470,
+          "download": 54356736
+        }
+      }
+    }
+  ],
+  "_change_number": 38869100,
+  "_missing_token": false,
+  "_sha": "7cbe144edac14a5d3d9561df3dc797dadaf3ead3",
+  "_size": 4917,
   "appid": "4309040",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "9f43e6d77581491e866681cf2ad79fd4e2a8f662",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4309040",
     "genres": {
       "0": "4",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "717a48ad5e1ef05fb660f8d752fb1f2e08284c35/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789405791",
     "store_asset_mtime": "1773661904",
     "store_tags": {
       "0": "597",
@@ -203,5 +217,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Barman",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Barman.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4309041": {
+      "manifests": {
+        "public": {
+          "download": "54356736",
+          "gid": "3914554742058385619",
+          "size": "130164470"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25273560",
+        "timebuildupdated": "1789233087",
+        "timeupdated": "1789233097"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

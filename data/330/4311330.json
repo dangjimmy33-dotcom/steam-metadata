@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405316,
-  "_history": [],
-  "_change_number": 38822084,
-  "_missing_token": true,
-  "_sha": "8d497dd264959ec414c623c0c034bb446b1724f2",
-  "_size": 5946,
+  "_lastChecked": 1789413819,
+  "_history": [
+    {
+      "buildId": "22431385",
+      "branch": "public",
+      "timeUpdated": 1774004479,
+      "firstSeen": 1789413819,
+      "manifests": {
+        "4311331": {
+          "gid": "8495377761394364463",
+          "size": 93700933,
+          "download": 35265760
+        }
+      }
+    }
+  ],
+  "_change_number": 38869160,
+  "_missing_token": false,
+  "_sha": "dac8c02e83da09c4bddc3e1f05225ec8f709e596",
+  "_size": 6547,
   "appid": "4311330",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "249523ea71039c56c9902abe45cbace2fc9f8fe3",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4311330",
     "genres": {
       "0": "1",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1165fd206652214a2cffd2d19bb45e7a7ac5e95c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789405872",
     "store_asset_mtime": "1774003467",
     "store_tags": {
       "0": "21",
@@ -288,5 +302,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Toad Land",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Toad Land.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4311331": {
+      "manifests": {
+        "public": {
+          "download": "35265760",
+          "gid": "8495377761394364463",
+          "size": "93700933"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "22431385",
+        "timebuildupdated": "1774004463",
+        "timeupdated": "1774004479"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

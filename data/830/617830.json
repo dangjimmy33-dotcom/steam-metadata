@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789400386,
+  "_lastChecked": 1789408508,
   "_history": [
     {
       "buildId": "24841806",
@@ -23,12 +23,30 @@
           "download": 522039392
         }
       }
+    },
+    {
+      "buildId": "24841806",
+      "branch": "legacy-ovr",
+      "timeUpdated": 1787568781,
+      "firstSeen": 1789408508,
+      "manifests": {
+        "617831": {
+          "gid": "3690464461302585406",
+          "size": 2112747310,
+          "download": 643443792
+        },
+        "617833": {
+          "gid": "9118561561795529904",
+          "size": 647071331,
+          "download": 522039392
+        }
+      }
     }
   ],
-  "_change_number": 38788832,
+  "_change_number": 38866408,
   "_missing_token": false,
-  "_sha": "aa5d922171882d9f9531ec47db75eaeea44d642f",
-  "_size": 8991,
+  "_sha": "ca31c4fc7a089fe95ae2b72c4924c0ddb444bdc8",
+  "_size": 9405,
   "appid": "617830",
   "common": {
     "associations": {
@@ -373,6 +391,11 @@
         "oslist": "windows,linux"
       },
       "manifests": {
+        "legacy-ovr": {
+          "download": "643443792",
+          "gid": "3690464461302585406",
+          "size": "2112747310"
+        },
         "public": {
           "download": "643443792",
           "gid": "3690464461302585406",
@@ -386,6 +409,11 @@
         "oslist": "android"
       },
       "manifests": {
+        "legacy-ovr": {
+          "download": "522039392",
+          "gid": "9118561561795529904",
+          "size": "647071331"
+        },
         "public": {
           "download": "522039392",
           "gid": "9118561561795529904",
@@ -394,6 +422,12 @@
       }
     },
     "branches": {
+      "legacy-ovr": {
+        "buildid": "24841806",
+        "description": "Legacy version using the OVR backend",
+        "timebuildupdated": "1787234932",
+        "timeupdated": "1787568781"
+      },
       "public": {
         "buildid": "24841806",
         "timebuildupdated": "1787234932",

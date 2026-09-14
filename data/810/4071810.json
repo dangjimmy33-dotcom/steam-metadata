@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405016,
-  "_history": [],
-  "_change_number": 38822513,
-  "_missing_token": true,
-  "_sha": "ccac0a951d9053d0292b5e780411ffe0a6296df8",
-  "_size": 4683,
+  "_lastChecked": 1789413260,
+  "_history": [
+    {
+      "buildId": "25273713",
+      "branch": "public",
+      "timeUpdated": 1789233896,
+      "firstSeen": 1789413260,
+      "manifests": {
+        "4071811": {
+          "gid": "2004747231401981332",
+          "size": 483363328,
+          "download": 164064688
+        }
+      }
+    }
+  ],
+  "_change_number": 38869067,
+  "_missing_token": false,
+  "_sha": "5080f5735fd1b29dab94db72863a25cb9866c1c1",
+  "_size": 5325,
   "appid": "4071810",
   "common": {
     "aicontenttype": "1",
@@ -31,9 +45,9 @@
     },
     "clienticon": "4623af90364a4c289447d5217849cdea375a9953",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4071810",
     "genres": {
       "0": "9",
@@ -121,10 +135,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3f303bbf8247b6cb60b4b365d9586e66f36eb9dd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789405740",
     "store_asset_mtime": "1768726704",
     "store_tags": {
       "0": "699",
@@ -222,5 +237,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "F1 Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "F1 Simulator.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4071811": {
+      "manifests": {
+        "public": {
+          "download": "164064688",
+          "gid": "2004747231401981332",
+          "size": "483363328"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25273713",
+        "timebuildupdated": "1789233875",
+        "timeupdated": "1789233896"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

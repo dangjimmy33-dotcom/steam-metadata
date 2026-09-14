@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789405959,
-  "_history": [],
-  "_change_number": 38235463,
-  "_missing_token": true,
-  "_sha": "cd615280593dacc8b33ad6b05ef636c3a82505d7",
-  "_size": 3125,
+  "_lastChecked": 1789415737,
+  "_history": [
+    {
+      "buildId": "24805714",
+      "branch": "public",
+      "timeUpdated": 1787088992,
+      "firstSeen": 1789415737,
+      "manifests": {
+        "4891931": {
+          "gid": "6756379203631287137",
+          "size": 1076675492,
+          "download": 890990544
+        }
+      }
+    }
+  ],
+  "_change_number": 38871494,
+  "_missing_token": false,
+  "_sha": "349925420a185a8e5cd07a9432e81d974f13bb4d",
+  "_size": 4052,
   "appid": "4891930",
   "common": {
     "associations": {
@@ -35,7 +49,6 @@
     "clienticon": "f14108df5bf1dea03d8e8cb6913061673067a53e",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4891930",
     "genres": {
       "0": "1",
@@ -109,10 +122,11 @@
     "osextended": "",
     "oslist": "android",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1597ab77a263bd30e97e7ad58cb2033f8083b1ca/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1784513114",
     "store_tags": {
       "0": "21978",
@@ -138,5 +152,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "VirtualKombat",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "android"
+        },
+        "description": "Virtual Kombat",
+        "description_loc": {
+          "english": "Virtual Kombat"
+        },
+        "executable": "VirtualKombat/VKSteam.apk",
+        "type": "openxr"
+      }
+    }
+  },
+  "depots": {
+    "4891931": {
+      "config": {
+        "oslist": "android"
+      },
+      "manifests": {
+        "public": {
+          "download": "890990544",
+          "gid": "6756379203631287137",
+          "size": "1076675492"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24805714",
+        "timebuildupdated": "1787088940",
+        "timeupdated": "1787088992"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kinbona Studio",
+    "homepage": "https://virtualkombat.com/",
+    "publisher": "Kinbona Limited LLC",
+    "vrheadsetstreaming": "1"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "10000000"
+  }
 }

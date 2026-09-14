@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789405563,
+  "_lastChecked": 1789414033,
   "_history": [
     {
       "buildId": "24917008",
@@ -54,12 +54,48 @@
           "download": 92417648
         }
       }
+    },
+    {
+      "buildId": "25307048",
+      "branch": "mac_playtest",
+      "timeUpdated": 1789413040,
+      "firstSeen": 1789414033,
+      "manifests": {
+        "4529431": {
+          "gid": "7796877971950582915",
+          "size": 145919060,
+          "download": 69684032
+        },
+        "4529432": {
+          "gid": "3290389939559800876",
+          "size": 227395583,
+          "download": 92796192
+        }
+      }
+    },
+    {
+      "buildId": "25307048",
+      "branch": "playtest",
+      "timeUpdated": 1789413033,
+      "firstSeen": 1789414033,
+      "manifests": {
+        "4529431": {
+          "gid": "7796877971950582915",
+          "size": 145919060,
+          "download": 69684032
+        },
+        "4529432": {
+          "gid": "3290389939559800876",
+          "size": 227395583,
+          "download": 92796192
+        }
+      }
     }
   ],
-  "_change_number": 38458709,
+  "_change_number": 38872171,
   "_missing_token": false,
-  "_sha": "196dd08b14186a6f2a85488bfae129fc508a2432",
-  "_size": 4631,
+  "_sha": "bb53caf0de9ca8c6d236f0c2797e1811eefd678e",
+  "_size": 4633,
   "appid": "4529430",
   "common": {
     "associations": {
@@ -203,14 +239,14 @@
       },
       "manifests": {
         "mac_playtest": {
-          "download": "69296944",
-          "gid": "130105626074926066",
-          "size": "145397912"
+          "download": "69684032",
+          "gid": "7796877971950582915",
+          "size": "145919060"
         },
         "playtest": {
-          "download": "69296944",
-          "gid": "130105626074926066",
-          "size": "145397912"
+          "download": "69684032",
+          "gid": "7796877971950582915",
+          "size": "145919060"
         },
         "public": {
           "download": "69297232",
@@ -226,14 +262,14 @@
       },
       "manifests": {
         "mac_playtest": {
-          "download": "92417648",
-          "gid": "6751991579538525070",
-          "size": "226874435"
+          "download": "92796192",
+          "gid": "3290389939559800876",
+          "size": "227395583"
         },
         "playtest": {
-          "download": "92417648",
-          "gid": "6751991579538525070",
-          "size": "226874435"
+          "download": "92796192",
+          "gid": "3290389939559800876",
+          "size": "227395583"
         },
         "public": {
           "download": "92417648",
@@ -244,16 +280,16 @@
     },
     "branches": {
       "mac_playtest": {
-        "buildid": "24917008",
+        "buildid": "25307048",
         "description": "For testing out Mac support",
-        "timebuildupdated": "1787613640",
-        "timeupdated": "1787613820"
+        "timebuildupdated": "1789413004",
+        "timeupdated": "1789413040"
       },
       "playtest": {
-        "buildid": "24917008",
+        "buildid": "25307048",
         "description": "For testing out changes before they are mainlined.",
-        "timebuildupdated": "1787613640",
-        "timeupdated": "1787613827"
+        "timebuildupdated": "1789413004",
+        "timeupdated": "1789413033"
       },
       "public": {
         "buildid": "25025809",

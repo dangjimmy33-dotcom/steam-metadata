@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789404996,
-  "_history": [],
-  "_change_number": 38823235,
-  "_missing_token": true,
-  "_sha": "2cdee9e683f994b9b960928e1877e98af96ce9a9",
-  "_size": 4264,
+  "_lastChecked": 1789413244,
+  "_history": [
+    {
+      "buildId": "25274201",
+      "branch": "public",
+      "timeUpdated": 1789237013,
+      "firstSeen": 1789413244,
+      "manifests": {
+        "4054251": {
+          "gid": "9200173713601925832",
+          "size": 169173215,
+          "download": 74765744
+        }
+      }
+    }
+  ],
+  "_change_number": 38868832,
+  "_missing_token": false,
+  "_sha": "44384315604cfb3806b445b3bf870421ac64ab2c",
+  "_size": 4890,
   "appid": "4054250",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "1341d7871cfd3219282d4e469ea41e654f2a09b4",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4054250",
     "genres": {
       "0": "23",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "33f8a9e8b2fc6bb5ec15271e4518fc74c40086dd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789405445",
     "store_asset_mtime": "1758629911",
     "store_tags": {
       "0": "701",
@@ -203,5 +217,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hunting Pro Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Hunting Pro Simulator.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4054251": {
+      "manifests": {
+        "public": {
+          "download": "74765744",
+          "gid": "9200173713601925832",
+          "size": "169173215"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25274201",
+        "timebuildupdated": "1789236999",
+        "timeupdated": "1789237013"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard Shark Games",
+    "publisher": "Hard Shark Games"
+  }
 }

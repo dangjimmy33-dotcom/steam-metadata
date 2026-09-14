@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789404256,
+  "_lastChecked": 1789412617,
   "_history": [
     {
       "buildId": "25048013",
@@ -72,12 +72,30 @@
           "download": 708876272
         }
       }
+    },
+    {
+      "buildId": "25305464",
+      "branch": "steamdeck_testing",
+      "timeUpdated": 1789407079,
+      "firstSeen": 1789412617,
+      "manifests": {
+        "3458181": {
+          "gid": "125678163538032213",
+          "size": 1246966371,
+          "download": 741737296
+        },
+        "3458182": {
+          "gid": "6970852918587330528",
+          "size": 1177589192,
+          "download": 708876480
+        }
+      }
     }
   ],
-  "_change_number": 38850287,
+  "_change_number": 38869717,
   "_missing_token": false,
-  "_sha": "1fa827fdb0fed2d0b918ae88de87a0c4b2fe56d3",
-  "_size": 7619,
+  "_sha": "b90509ad9392671d6390b4aeae99512f7d4b791c",
+  "_size": 7618,
   "appid": "3458180",
   "common": {
     "associations": {
@@ -319,9 +337,9 @@
           "size": "1246919955"
         },
         "steamdeck_testing": {
-          "download": "741737040",
-          "gid": "8478902733289394321",
-          "size": "1246966243"
+          "download": "741737296",
+          "gid": "125678163538032213",
+          "size": "1246966371"
         }
       }
     },
@@ -336,9 +354,9 @@
           "size": "1177542776"
         },
         "steamdeck_testing": {
-          "download": "708876272",
-          "gid": "9117318234603319087",
-          "size": "1177589064"
+          "download": "708876480",
+          "gid": "6970852918587330528",
+          "size": "1177589192"
         }
       }
     },
@@ -350,10 +368,10 @@
         "timeupdated": "1789346613"
       },
       "steamdeck_testing": {
-        "buildid": "25292793",
+        "buildid": "25305464",
         "description": "Testing compatibility for Steamdeck",
-        "timebuildupdated": "1789361428",
-        "timeupdated": "1789361539"
+        "timebuildupdated": "1789406893",
+        "timeupdated": "1789407079"
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789405472,
+  "_lastChecked": 1789413951,
   "_history": [
     {
       "buildId": "25061379",
@@ -102,10 +102,10 @@
       }
     }
   ],
-  "_change_number": 38763279,
+  "_change_number": 38869342,
   "_missing_token": false,
-  "_sha": "e62de38f74a14617a2fdbbba2b36d2d2493dd399",
-  "_size": 7608,
+  "_sha": "8b6f1144c18ac8d7fd0a77f3aca691ca9070a5c5",
+  "_size": 7955,
   "appid": "4453300",
   "common": {
     "associations": {
@@ -229,13 +229,13 @@
       "english": "a44307ef0eb1fe077a618f21e119788a773f6e3b/capsule_231x87.jpg"
     },
     "steam_deck_compatibility": {
-      "category": "1",
+      "category": "3",
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
         "non_deck_display_glyphs": "0",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-stable",
+        "recommended_runtime": "native",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -243,7 +243,7 @@
         "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
-        "small_text": "1",
+        "small_text": "0",
         "supported_input": "other"
       },
       "steam_machine_compatibility": "3",
@@ -268,12 +268,24 @@
           "token": "#SteamOS_TestResult_GameStartupFunctional"
         }
       },
-      "test_timestamp": "1788274366",
-      "tested_build_id": "25047132",
+      "test_timestamp": "1789405984",
+      "tested_build_id": "25232721",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
         }
       }
     },
