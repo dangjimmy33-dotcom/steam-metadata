@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789384825,
+  "_lastChecked": 1789391225,
   "_history": [
     {
       "buildId": "25170622",
@@ -143,11 +143,37 @@
           "download": 148658000
         }
       }
+    },
+    {
+      "buildId": "25298506",
+      "branch": "public",
+      "timeUpdated": 1789385699,
+      "firstSeen": 1789391225,
+      "manifests": {
+        "4132961": {
+          "gid": "1235331410592883001",
+          "size": 504149358,
+          "download": 148654432
+        }
+      }
+    },
+    {
+      "buildId": "25298506",
+      "branch": "testing",
+      "timeUpdated": 1789385506,
+      "firstSeen": 1789391225,
+      "manifests": {
+        "4132961": {
+          "gid": "1235331410592883001",
+          "size": 504149358,
+          "download": 148654432
+        }
+      }
     }
   ],
-  "_change_number": 38841552,
+  "_change_number": 38859141,
   "_missing_token": false,
-  "_sha": "ad79f4a350ca96335bb661f3c3b4f6a4a9af57fc",
+  "_sha": "6251dbe7fd150962d716a72b99f6bbd636a87809",
   "_size": 4476,
   "appid": "4132960",
   "common": {
@@ -327,29 +353,29 @@
       },
       "manifests": {
         "public": {
-          "download": "148526192",
-          "gid": "2504763324666741934",
-          "size": "501203614"
+          "download": "148654432",
+          "gid": "1235331410592883001",
+          "size": "504149358"
         },
         "testing": {
-          "download": "148658000",
-          "gid": "2314118966045247904",
-          "size": "504146142"
+          "download": "148654432",
+          "gid": "1235331410592883001",
+          "size": "504149358"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25213251",
-        "timebuildupdated": "1788971728",
-        "timeupdated": "1788971928"
+        "buildid": "25298506",
+        "timebuildupdated": "1789385158",
+        "timeupdated": "1789385699"
       },
       "testing": {
-        "buildid": "25250907",
+        "buildid": "25298506",
         "description": "Testing",
-        "timebuildupdated": "1789121982",
-        "timeupdated": "1789122012"
+        "timebuildupdated": "1789385158",
+        "timeupdated": "1789385506"
       }
     }
   },

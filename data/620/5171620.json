@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789385719,
-  "_history": [],
-  "_change_number": 38849125,
-  "_missing_token": true,
-  "_sha": "c360c68b82306cb37f84844a2d5d650018383142",
-  "_size": 2954,
+  "_lastChecked": 1789392116,
+  "_history": [
+    {
+      "buildId": "25291885",
+      "branch": "public",
+      "timeUpdated": 1789356547,
+      "firstSeen": 1789392116,
+      "manifests": {
+        "5171621": {
+          "gid": "5806692251277075616",
+          "size": 161940812,
+          "download": 161154128
+        }
+      }
+    }
+  ],
+  "_change_number": 38861527,
+  "_missing_token": false,
+  "_sha": "d2609dcf763553565d33616ae0f737b988ab6762",
+  "_size": 3472,
   "appid": "5171620",
   "common": {
     "aicontenttype": "1",
@@ -30,7 +44,6 @@
       "2": "4",
       "3": "5"
     },
-    "exfgls": "8",
     "gameid": "5171620",
     "genres": {
       "0": "23",
@@ -91,11 +104,12 @@
     "oslist": "windows,linux",
     "parent": "3557420",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "aeed5a817365f7cb4c7dc2ac1d41d5a405229e68/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789390943",
     "store_asset_mtime": "1789071852",
     "store_tags": {
       "0": "122",
@@ -143,5 +157,32 @@
     },
     "type": "DLC"
   },
-  "public_only": "1"
+  "depots": {
+    "5171620": {
+      "dlcappid": "5171620"
+    },
+    "5171621": {
+      "dlcappid": "5171620",
+      "manifests": {
+        "public": {
+          "download": "161154128",
+          "gid": "5806692251277075616",
+          "size": "161940812"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25291885",
+        "timebuildupdated": "1789355854",
+        "timeupdated": "1789356547"
+      }
+    }
+  },
+  "extended": {
+    "developer": "deepglugs",
+    "dlcavailableonstore": "1",
+    "dlcforappid": "3557420",
+    "mustownapptopurchase": "3557420"
+  }
 }

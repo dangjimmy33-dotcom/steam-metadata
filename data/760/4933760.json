@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789385545,
+  "_lastChecked": 1789391941,
   "_history": [
     {
       "buildId": "25022126",
@@ -78,12 +78,25 @@
           "download": 195894304
         }
       }
+    },
+    {
+      "buildId": "25298914",
+      "branch": "public",
+      "timeUpdated": 1789386837,
+      "firstSeen": 1789391941,
+      "manifests": {
+        "4933761": {
+          "gid": "8247950417732444764",
+          "size": 449643200,
+          "download": 195898288
+        }
+      }
     }
   ],
-  "_change_number": 38853375,
+  "_change_number": 38860114,
   "_missing_token": false,
-  "_sha": "1381996bed5c7931d4e68b0203925156601a825f",
-  "_size": 4735,
+  "_sha": "18a4b90d284269db904ccf3ef5edbbc6bf2bac37",
+  "_size": 4848,
   "appid": "4933760",
   "common": {
     "aicontenttype": "1",
@@ -203,6 +216,7 @@
       "14": "6310",
       "15": "3871",
       "16": "4182",
+      "17": "3959",
       "2": "597",
       "3": "3859",
       "4": "1755",
@@ -214,6 +228,7 @@
     },
     "supported_languages": {
       "english": {
+        "full_audio": "true",
         "subtitles": "true",
         "supported": "true"
       },
@@ -249,6 +264,10 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "schinese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "spanish": {
         "subtitles": "true",
         "supported": "true"
@@ -275,18 +294,18 @@
       },
       "manifests": {
         "public": {
-          "download": "195894304",
-          "gid": "1196476439305475907",
-          "size": "449628792"
+          "download": "195898288",
+          "gid": "8247950417732444764",
+          "size": "449643200"
         }
       }
     },
     "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,portuguese,russian,spanish,turkish",
     "branches": {
       "public": {
-        "buildid": "25294886",
-        "timebuildupdated": "1789372258",
-        "timeupdated": "1789372329"
+        "buildid": "25298914",
+        "timebuildupdated": "1789386673",
+        "timeupdated": "1789386837"
       }
     }
   },

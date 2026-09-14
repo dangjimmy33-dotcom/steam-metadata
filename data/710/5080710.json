@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789385662,
-  "_history": [],
-  "_change_number": 38494855,
-  "_missing_token": true,
-  "_sha": "2ab2809c41fc46c99e4d0f6f38abc588b3a31150",
-  "_size": 3956,
+  "_lastChecked": 1789392059,
+  "_history": [
+    {
+      "buildId": "24941545",
+      "branch": "public",
+      "timeUpdated": 1787715343,
+      "firstSeen": 1789392059,
+      "manifests": {
+        "5080711": {
+          "gid": "4112142089952110337",
+          "size": 257515176,
+          "download": 177275312
+        }
+      }
+    }
+  ],
+  "_change_number": 38861040,
+  "_missing_token": false,
+  "_sha": "0246d64ce5011a358c32018da9ecdccafc9cb07c",
+  "_size": 5182,
   "appid": "5080710",
   "common": {
     "aicontenttype": "1",
@@ -31,6 +45,7 @@
     },
     "clienticon": "53287813fc1539e62d251bca3bc12e46b22498cf",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -40,7 +55,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5080710",
     "genres": {
       "0": "4",
@@ -118,11 +132,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8a02a1cdf217da58b2c57ad0cf8bdfeff4c6843e/capsule_231x87.jpg",
       "koreana": "31ff20a227874164f3625504c10cf38348ac6698/capsule_231x87_koreana.jpg"
     },
+    "steam_release_date": "1789389832",
     "store_asset_mtime": "1787316617",
     "store_tags": {
       "0": "597",
@@ -158,5 +173,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Furry Slot",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play FURRY SLOT",
+        "description_loc": {
+          "english": "Play FURRY SLOT"
+        },
+        "executable": "FurrySlot.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--reviewer",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Steam review build - all content unlocked (codex, card art, True Door)",
+        "description_loc": {
+          "english": "Steam review build - all content unlocked (codex, card art, True Door)"
+        },
+        "executable": "FurrySlot.exe",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "5080711": {
+      "manifests": {
+        "public": {
+          "download": "177275312",
+          "gid": "4112142089952110337",
+          "size": "257515176"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24941545",
+        "timebuildupdated": "1787714561",
+        "timeupdated": "1787715343"
+      }
+    }
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "Morello",
+    "publisher": "Morello",
+    "steammachineresolutionoverride": "Default"
+  }
 }

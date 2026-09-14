@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789384562,
-  "_history": [],
-  "_change_number": 38350321,
-  "_missing_token": true,
-  "_sha": "c8425e9c46c8211190adc923c47ddd3cae8b8e64",
-  "_size": 6140,
+  "_lastChecked": 1789390963,
+  "_history": [
+    {
+      "buildId": "24951193",
+      "branch": "public",
+      "timeUpdated": 1787753904,
+      "firstSeen": 1789390963,
+      "manifests": {
+        "3863091": {
+          "gid": "5032015815737356014",
+          "size": 494940336,
+          "download": 313406992
+        }
+      }
+    }
+  ],
+  "_change_number": 38861485,
+  "_missing_token": false,
+  "_sha": "1525ed53a0cb0a130a8f0270e220aefcbbfc9b0d",
+  "_size": 7019,
   "appid": "3863090",
   "common": {
     "associations": {
@@ -42,6 +56,7 @@
     "clienticon": "5fc0cb940d3f2b138db4e19004eb0c9bf5e904ba",
     "clienttga": "6d1f59f0b5873923870ea3f8463c8e37fbfbb0f3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -52,7 +67,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3863090",
     "genres": {
       "0": "25",
@@ -155,13 +169,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fbf5c69f77ff5c060cdb2707b26595a49e46e6f0/capsule_231x87.jpg",
       "japanese": "15d64fe2d8275140807474f1b7ebb6f4c4eb5ead/capsule_231x87_japanese.jpg",
       "schinese": "2a94aeee8c154858704483e036809bc2a94a6b91/capsule_231x87_schinese.jpg",
       "tchinese": "f37d99220423debff0b87ef8896058bf0015df56/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789390858",
     "store_asset_mtime": "1787755174",
     "store_tags": {
       "0": "7208",
@@ -205,5 +220,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blood Lily Killers Can't Sink a Yuri Ship",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3863091": {
+      "manifests": {
+        "public": {
+          "download": "313406992",
+          "gid": "5032015815737356014",
+          "size": "494940336"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24951193",
+        "timebuildupdated": "1787753643",
+        "timeupdated": "1787753904"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Sounding Stone / 老奉毊",
+    "publisher": "Sounding Stone / 老奉毊"
+  },
+  "ufs": {
+    "maxnumfiles": "35",
+    "quota": "2000000",
+    "savefiles": {
+      "0": {
+        "path": "save",
+        "pattern": "*.rmmzsave",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    }
+  }
 }

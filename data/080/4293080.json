@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789384983,
-  "_history": [],
-  "_change_number": 38159718,
-  "_missing_token": true,
-  "_sha": "8c82e7e926e16bf068749846e0825f75f241f4ba",
-  "_size": 3016,
+  "_lastChecked": 1789391382,
+  "_history": [
+    {
+      "buildId": "25299483",
+      "branch": "public",
+      "timeUpdated": 1789388883,
+      "firstSeen": 1789391382,
+      "manifests": {
+        "4293081": {
+          "gid": "9127740226157861434",
+          "size": 256905856,
+          "download": 162897504
+        }
+      }
+    }
+  ],
+  "_change_number": 38860638,
+  "_missing_token": false,
+  "_sha": "c9919958d907aaf27d0aef567bb6fed6cfea381c",
+  "_size": 3597,
   "appid": "4293080",
   "common": {
     "aicontenttype": "1",
@@ -28,7 +42,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4293080",
     "genres": {
       "0": "1",
@@ -101,7 +114,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3b0347e68c004e4678583275d2b39f6be5296f04/capsule_231x87.jpg"
     },
@@ -135,5 +148,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Apple Man Sam",
+    "launch": {
+      "0": {
+        "executable": "AppleManSam.exe"
+      }
+    }
+  },
+  "depots": {
+    "4293081": {
+      "manifests": {
+        "public": {
+          "download": "162897504",
+          "gid": "9127740226157861434",
+          "size": "256905856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25299483",
+        "timebuildupdated": "1789388540",
+        "timeupdated": "1789388883"
+      }
+    }
+  },
+  "extended": {
+    "developer": "boneheadlabss",
+    "homepage": "https://boneheadlabs.org/applemansam",
+    "publisher": "boneheadlabss"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "20000"
+  }
 }

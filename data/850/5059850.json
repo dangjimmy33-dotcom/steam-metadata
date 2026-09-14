@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789385647,
-  "_history": [],
-  "_change_number": 38848074,
-  "_missing_token": true,
-  "_sha": "a7b87fa7483daa1e842995a2b00d456261eaf4b9",
-  "_size": 2702,
+  "_lastChecked": 1789392044,
+  "_history": [
+    {
+      "buildId": "25291214",
+      "branch": "public",
+      "timeUpdated": 1789352252,
+      "firstSeen": 1789392044,
+      "manifests": {
+        "5059851": {
+          "gid": "5537215230854549098",
+          "size": 524606160,
+          "download": 217715872
+        }
+      }
+    }
+  ],
+  "_change_number": 38861237,
+  "_missing_token": false,
+  "_sha": "bba9765238a6b875f4acb60e7881118c3b791ebb",
+  "_size": 3483,
   "appid": "5059850",
   "common": {
     "associations": {
@@ -25,7 +39,6 @@
     "clienticon": "bc5659237d01b82dea2d0e9a5ee8b32bb8b95803",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5059850",
     "genres": {
       "0": "28",
@@ -98,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d9629951f4d3b2f6e520554cf512720da24c6193/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789390340",
     "store_asset_mtime": "1789060128",
     "store_tags": {
       "0": "701",
@@ -121,5 +135,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Simhaus Football",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Simhaus Football.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5059851": {
+      "manifests": {
+        "public": {
+          "download": "217715872",
+          "gid": "5537215230854549098",
+          "size": "524606160"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25291214",
+        "timebuildupdated": "1789351943",
+        "timeupdated": "1789352252"
+      }
+    },
+    "privatebranches": "1",
+    "workshopdepot": "5059850"
+  },
+  "extended": {
+    "developer": "Simhaus",
+    "homepage": "https://www.simhausgames.com/games/simhaus-football",
+    "publisher": "Simhaus"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000"
+  }
 }

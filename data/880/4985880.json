@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789385590,
-  "_history": [],
-  "_change_number": 38850350,
-  "_missing_token": true,
-  "_sha": "2845dda4047405e00f09ac491a73d43234ab85df",
-  "_size": 6202,
+  "_lastChecked": 1789391987,
+  "_history": [
+    {
+      "buildId": "25292859",
+      "branch": "public",
+      "timeUpdated": 1789361907,
+      "firstSeen": 1789391987,
+      "manifests": {
+        "4985881": {
+          "gid": "7252974180179668078",
+          "size": 199097742,
+          "download": 115776400
+        }
+      }
+    }
+  ],
+  "_change_number": 38860582,
+  "_missing_token": false,
+  "_sha": "f0a5ef322cdbab65bb160a0f5157d8e8a65ecb91",
+  "_size": 7200,
   "appid": "4985880",
   "common": {
     "associations": {
@@ -31,8 +45,8 @@
     },
     "clienticon": "e5ade7df1ad0acd586423b2e226643ab2ff66a1a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4985880",
     "genres": {
       "0": "4",
@@ -152,7 +166,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "43f9ea724e9f9cde76aef6c2429ace6f17beb30e/capsule_231x87.jpg",
       "japanese": "992e0732546f3eddf0981434e69f599263517892/capsule_231x87_japanese.jpg",
@@ -225,5 +239,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sudoku",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Sudoku.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4985881": {
+      "manifests": {
+        "public": {
+          "download": "115776400",
+          "gid": "7252974180179668078",
+          "size": "199097742"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,english,french,german,italian,japanese,koreana,latam,polish,russian,schinese,spanish,tchinese,thai,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "25292859",
+        "timebuildupdated": "1789361886",
+        "timeupdated": "1789361907"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Sand Games",
+    "publisher": "Sand Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Sand Games/Sudoku/{64BitSteamID}",
+        "pattern": "player-progress.db",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789385714,
-  "_history": [],
-  "_change_number": 38575549,
-  "_missing_token": true,
-  "_sha": "154958f583a2c4ef30d2b9d743640fc7c519960b",
-  "_size": 3218,
+  "_lastChecked": 1789392110,
+  "_history": [
+    {
+      "buildId": "25018562",
+      "branch": "public",
+      "timeUpdated": 1788108330,
+      "firstSeen": 1789392110,
+      "manifests": {
+        "5162531": {
+          "gid": "1365267066218981093",
+          "size": 13868114156,
+          "download": 13178147904
+        }
+      }
+    }
+  ],
+  "_change_number": 38861924,
+  "_missing_token": false,
+  "_sha": "cf4f6d5d8157a7b8c3c028f0afc4b291f4ef808b",
+  "_size": 4098,
   "appid": "5162530",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "e6268b2550dbaabeb293d0e703a082f3a7983a63",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5162530",
     "genres": {
       "0": "4",
@@ -97,7 +110,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a2b670767e1157d06284aac2a3244a4ac7fda257/capsule_231x87.jpg"
     },
@@ -150,5 +163,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MasonsHand",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MasonsHand.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5162531": {
+      "manifests": {
+        "public": {
+          "download": "13178147904",
+          "gid": "1365267066218981093",
+          "size": "13868114156"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25018562",
+        "timebuildupdated": "1788074044",
+        "timeupdated": "1788108330"
+      }
+    },
+    "workshopdepot": "5162530"
+  },
+  "extended": {
+    "developer": "해길46",
+    "publisher": "해길46"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000"
+  }
 }

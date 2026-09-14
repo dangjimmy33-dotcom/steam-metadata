@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789385256,
-  "_history": [],
-  "_change_number": 38639170,
-  "_missing_token": true,
-  "_sha": "4b8a503f828add8189ae8d3a088cb5136142c51e",
-  "_size": 3094,
+  "_lastChecked": 1789391656,
+  "_history": [
+    {
+      "buildId": "25148545",
+      "branch": "public",
+      "timeUpdated": 1788671019,
+      "firstSeen": 1789391656,
+      "manifests": {
+        "4594571": {
+          "gid": "1452799663619087910",
+          "size": 492130034,
+          "download": 130892784
+        }
+      }
+    }
+  ],
+  "_change_number": 38861727,
+  "_missing_token": false,
+  "_sha": "fb18f9a1d9dc21ddd8f479bc37154df7a6e039c7",
+  "_size": 3774,
   "appid": "4594570",
   "common": {
     "associations": {
@@ -36,7 +50,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4594570",
     "genres": {
       "0": "1",
@@ -107,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "93f7f87fa3c4a74957b28a20e1ddbdab0a0b2682/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788667612",
     "store_tags": {
       "0": "1023537",
@@ -141,5 +155,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Declan Moses",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Declan Moses.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4594571": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "130892784",
+          "gid": "1452799663619087910",
+          "size": "492130034"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25148545",
+        "timebuildupdated": "1788669428",
+        "timeupdated": "1788671019"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Curiosity Tax",
+    "publisher": "Curiosity Tax"
+  }
 }

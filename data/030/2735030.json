@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789383448,
-  "_history": [],
-  "_change_number": 38849807,
-  "_missing_token": true,
-  "_sha": "0a9e0840e6cd8dc2981077512d95c2da4f4af548",
-  "_size": 3429,
+  "_lastChecked": 1789389851,
+  "_history": [
+    {
+      "buildId": "25299380",
+      "branch": "public",
+      "timeUpdated": 1789388269,
+      "firstSeen": 1789389851,
+      "manifests": {
+        "2735031": {
+          "gid": "9090599300081654703",
+          "size": 403221108,
+          "download": 153520384
+        }
+      }
+    }
+  ],
+  "_change_number": 38860353,
+  "_missing_token": false,
+  "_sha": "30e4836f168c411a41c9932fd660dc3530ec19e8",
+  "_size": 4455,
   "appid": "2735030",
   "common": {
     "associations": {
@@ -26,6 +40,7 @@
     "clienticon": "0c67112912e42792a3525ecbd14c80ae5241a1ea",
     "clienttga": "dbff8a08a9a46e079bbf2112b23e8c049fcc33c2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -35,7 +50,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2735030",
     "genres": {
       "0": "23"
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b5568db82d6ae44c7b61cd0930a067371aa65506/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789388321",
     "store_asset_mtime": "1789301913",
     "store_tags": {
       "0": "1667",
@@ -156,5 +171,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Haunted Shift",
+    "launch": {
+      "0": {
+        "executable": "sgs.exe"
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "2735031": {
+      "manifests": {
+        "public": {
+          "download": "153520384",
+          "gid": "9090599300081654703",
+          "size": "403221108"
+        }
+      }
+    },
+    "baselanguages": "english,german,polish",
+    "branches": {
+      "public": {
+        "buildid": "25299380",
+        "timebuildupdated": "1789388253",
+        "timeupdated": "1789388269"
+      }
+    }
+  },
+  "extended": {
+    "developer": "HowdyCrocGames",
+    "publisher": "HowdyCrocGames"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Haunted Shift",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Haunted Shift",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

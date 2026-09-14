@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789385237,
-  "_history": [],
-  "_change_number": 38858892,
-  "_missing_token": true,
-  "_sha": "d714a57e6331503d4c10dffce25580740ec7b9a1",
-  "_size": 8472,
+  "_lastChecked": 1789391636,
+  "_history": [
+    {
+      "buildId": "25298912",
+      "branch": "public",
+      "timeUpdated": 1789388233,
+      "firstSeen": 1789391636,
+      "manifests": {
+        "4573091": {
+          "gid": "3175124557840953150",
+          "size": 262067225,
+          "download": 195821904
+        }
+      }
+    }
+  ],
+  "_change_number": 38860306,
+  "_missing_token": false,
+  "_sha": "982cd91e565fb7b8fdf9275e5bcf4accd5938dd8",
+  "_size": 9310,
   "appid": "4573090",
   "common": {
     "associations": {
@@ -36,8 +50,8 @@
     },
     "clienticon": "fb3ae1a5ae41e4e4b8c2c649d4711f9d2fe34615",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4573090",
     "genres": {
       "0": "4",
@@ -163,7 +177,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b8c3427e80cc02a3391cc866a66b26c5e94fff97/capsule_231x87.jpg",
       "japanese": "567d17c45f6b894e26bcfee881de215d91568321/capsule_231x87_japanese.jpg",
@@ -171,6 +185,7 @@
       "schinese": "a73710ffd2909d8196007a39e037460b48b3ce4d/capsule_231x87_schinese.jpg",
       "tchinese": "a73710ffd2909d8196007a39e037460b48b3ce4d/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789387080",
     "store_asset_mtime": "1789140311",
     "store_tags": {
       "0": "599",
@@ -266,5 +281,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pibcremental",
+    "launch": {
+      "0": {
+        "executable": "Pibcremental.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4573091": {
+      "manifests": {
+        "public": {
+          "download": "195821904",
+          "gid": "3175124557840953150",
+          "size": "262067225"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25298912",
+        "timebuildupdated": "1789386670",
+        "timeupdated": "1789388233"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Arcane Cabinet",
+    "homepage": "https://www.arcanecabinet.com/",
+    "publisher": "GrabTheGames"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Arcane Cabinet UG/Pibcremental/",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

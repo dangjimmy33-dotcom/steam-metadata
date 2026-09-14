@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789382318,
+  "_lastChecked": 1789388721,
   "_history": [
     {
       "buildId": "25141431",
@@ -1278,12 +1278,30 @@
           "download": 859689120
         }
       }
+    },
+    {
+      "buildId": "25299246",
+      "branch": "beta",
+      "timeUpdated": 1789387836,
+      "firstSeen": 1789388721,
+      "manifests": {
+        "1674011": {
+          "gid": "6277460059518148285",
+          "size": 708302912,
+          "download": 257735536
+        },
+        "1674012": {
+          "gid": "8177120156047193201",
+          "size": 901231400,
+          "download": 859802288
+        }
+      }
     }
   ],
-  "_change_number": 38851302,
+  "_change_number": 38860088,
   "_missing_token": false,
-  "_sha": "a6030867a77280829a923c439f1eb59af5811c9e",
-  "_size": 9243,
+  "_sha": "49bdb94f0d96e5349a398ca25506d6d2288738e4",
+  "_size": 9244,
   "appid": "1674010",
   "common": {
     "associations": {
@@ -1614,9 +1632,9 @@
     "1674012": {
       "manifests": {
         "beta": {
-          "download": "859688896",
-          "gid": "522460937034069395",
-          "size": "901120886"
+          "download": "859802288",
+          "gid": "8177120156047193201",
+          "size": "901231400"
         },
         "public": {
           "download": "859689120",
@@ -1635,10 +1653,10 @@
     "baselanguages": "english,brazilian",
     "branches": {
       "beta": {
-        "buildid": "25289917",
+        "buildid": "25299246",
         "description": "Test Builds (Graphic Updates)",
-        "timebuildupdated": "1789344323",
-        "timeupdated": "1789344323"
+        "timebuildupdated": "1789387836",
+        "timeupdated": "1789387836"
       },
       "public": {
         "buildid": "25293531",

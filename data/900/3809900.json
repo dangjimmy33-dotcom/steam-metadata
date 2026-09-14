@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789384507,
+  "_lastChecked": 1789390909,
   "_history": [
     {
       "buildId": "24996328",
@@ -56,10 +56,10 @@
       }
     }
   ],
-  "_change_number": 38724544,
+  "_change_number": 38860424,
   "_missing_token": false,
-  "_sha": "d0f14a1605e0f2a3aacca68dd9d0e8ebb183d583",
-  "_size": 8014,
+  "_sha": "8e4258cebef775b546589a9df4c6ea20a6a236fa",
+  "_size": 8634,
   "appid": "3809900",
   "common": {
     "aicontenttype": "1",
@@ -349,6 +349,30 @@
           "english": "Habbo Hotel: Origins [Spanish - XL Client]"
         },
         "executable": "HabboHotel-oes-xl.exe"
+      },
+      "7": {
+        "arguments": "--steam",
+        "config": {
+          "betakey": "beta",
+          "oslist": "windows"
+        },
+        "description": "Habbo Origins Keystone Beta",
+        "description_loc": {
+          "english": "Habbo Origins Keystone Beta"
+        },
+        "executable": "habbo-origins-windows-x86_64/Habbo Origins.exe"
+      },
+      "8": {
+        "arguments": "--steam",
+        "config": {
+          "betakey": "beta",
+          "oslist": "macos"
+        },
+        "description": "Habbo Origins Keystone Beta",
+        "description_loc": {
+          "english": "Habbo Origins Keystone Beta"
+        },
+        "executable": "Habbo Origins.app"
       }
     }
   },
@@ -383,7 +407,8 @@
         "timebuildupdated": "1788948345",
         "timeupdated": "1788950922"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Sulake Oy",

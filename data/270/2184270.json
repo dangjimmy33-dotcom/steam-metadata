@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789382878,
+  "_lastChecked": 1789389282,
   "_history": [
     {
       "buildId": "24895969",
@@ -58,10 +58,10 @@
       }
     }
   ],
-  "_change_number": 38501701,
+  "_change_number": 38858802,
   "_missing_token": false,
-  "_sha": "6cf6bc7edd0da2c85e8270dc7de12875d0e4d80c",
-  "_size": 6903,
+  "_sha": "8841bf94ae75bb5784011302f18dbb0a994960c7",
+  "_size": 6121,
   "appid": "2184270",
   "common": {
     "associations": {
@@ -79,14 +79,18 @@
       }
     },
     "category": {
+      "category_15": "1",
       "category_2": "1",
+      "category_22": "1",
       "category_23": "1",
       "category_62": "1",
+      "category_63": "1",
       "category_65": "1",
       "category_68": "1",
       "category_69": "1",
       "category_74": "1",
-      "category_79": "1"
+      "category_79": "1",
+      "category_80": "1"
     },
     "clienticns": "d48e6f9d9667520c7c59109d07b6334149ad3c2d",
     "clienticon": "28e82410699984f4d0ca444896b9a40c737fc23d",
@@ -119,8 +123,7 @@
     },
     "icon": "e2dbdad83327793103644450cfa76017bc3e297c",
     "languages": {
-      "english": "1",
-      "german": "1"
+      "english": "1"
     },
     "library_assets": {
       "library_capsule": "en",
@@ -204,6 +207,12 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "Traveler",
     "launch": {
       "0": {
@@ -231,52 +240,11 @@
         },
         "executable": "Traveler",
         "type": "option1"
-      },
-      "2": {
-        "arguments": "--in-process-gpu",
-        "config": {
-          "oslist": "macos"
-        },
-        "description": "Traveler",
-        "description_loc": {
-          "english": "Traveler"
-        },
-        "executable": "Traveler.app",
-        "type": "option1"
-      },
-      "3": {
-        "arguments": "--in-process-gpu --enable-rpc",
-        "config": {
-          "betakey": "develop",
-          "osarch": "64",
-          "oslist": "windows",
-          "ownsdlc": "2184300"
-        },
-        "description": "Traveler (with Discord RPC)",
-        "description_loc": {
-          "english": "Traveler (with Discord RPC)"
-        },
-        "executable": "Traveler.exe",
-        "type": "option1"
-      },
-      "4": {
-        "arguments": "--in-process-gpu --enable-rpc",
-        "config": {
-          "betakey": "beta",
-          "osarch": "64",
-          "oslist": "windows",
-          "ownsdlc": "2184300"
-        },
-        "description": "Traveler (with Discord RPC)",
-        "description_loc": {
-          "english": "Traveler (with Discord RPC)"
-        },
-        "executable": "Traveler.exe",
-        "type": "option1"
       }
     },
     "steamcontrollertouchtemplateindex": "8",
-    "steamdecktouchscreen": "1"
+    "steamdecktouchscreen": "1",
+    "uselaunchcommandline": "1"
   },
   "depots": {
     "2184273": {
