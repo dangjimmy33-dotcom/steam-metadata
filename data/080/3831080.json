@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789500089,
+  "_lastChecked": 1789506937,
   "_history": [
     {
       "buildId": "24809867",
@@ -184,12 +184,35 @@
           "download": 462459104
         }
       }
+    },
+    {
+      "buildId": "25332042",
+      "branch": "v1_6beta",
+      "timeUpdated": 1789505333,
+      "firstSeen": 1789506937,
+      "manifests": {
+        "3831082": {
+          "gid": "7714918228715700535",
+          "size": 631960776,
+          "download": 496170336
+        },
+        "3831083": {
+          "gid": "1031979930867267390",
+          "size": 662124292,
+          "download": 493836544
+        },
+        "3831084": {
+          "gid": "5570710991297289669",
+          "size": 559919085,
+          "download": 462654464
+        }
+      }
     }
   ],
-  "_change_number": 38900547,
+  "_change_number": 38909652,
   "_missing_token": false,
-  "_sha": "027bea895b938d62e9f87be8b4fee9ff5b309d9a",
-  "_size": 16052,
+  "_sha": "29ffcafd6c13261a3ba24407f24a614fa4959c60",
+  "_size": 15157,
   "appid": "3831080",
   "common": {
     "associations": {
@@ -599,47 +622,6 @@
           "english": "Compatibility Graphics Mode (If you are having rendering problems)"
         },
         "executable": "Oeuf.x86_64"
-      },
-      "6": {
-        "arguments": "--headless",
-        "config": {
-          "betakey": "v1_6beta",
-          "osarch": "64",
-          "oslist": "windows"
-        },
-        "description": "headless server",
-        "description_loc": {
-          "english": "headless server"
-        },
-        "executable": "Oeuf.exe",
-        "type": "server"
-      },
-      "7": {
-        "arguments": "--headless",
-        "config": {
-          "betakey": "v1_6beta",
-          "oslist": "macos"
-        },
-        "description": "headless server",
-        "description_loc": {
-          "english": "headless server"
-        },
-        "executable": "Oeuf.app/Contents/MacOS/Oeuf",
-        "type": "server"
-      },
-      "8": {
-        "arguments": "--headless",
-        "config": {
-          "betakey": "v1_6beta",
-          "osarch": "64",
-          "oslist": "linux"
-        },
-        "description": "headless server",
-        "description_loc": {
-          "english": "headless server"
-        },
-        "executable": "Oeuf.x86_64",
-        "type": "server"
       }
     },
     "steamcontrollertemplateindex": "2",
@@ -682,9 +664,9 @@
           "size": "577984124"
         },
         "v1_6beta": {
-          "download": "495988384",
-          "gid": "1538750058907069756",
-          "size": "632159817"
+          "download": "496170336",
+          "gid": "7714918228715700535",
+          "size": "631960776"
         }
       }
     },
@@ -724,9 +706,9 @@
           "size": "636494301"
         },
         "v1_6beta": {
-          "download": "493623616",
-          "gid": "424597136962027891",
-          "size": "662293776"
+          "download": "493836544",
+          "gid": "1031979930867267390",
+          "size": "662124292"
         }
       }
     },
@@ -766,9 +748,9 @@
           "size": "522790225"
         },
         "v1_6beta": {
-          "download": "462459104",
-          "gid": "2576164099300823407",
-          "size": "560136817"
+          "download": "462654464",
+          "gid": "5570710991297289669",
+          "size": "559919085"
         }
       }
     },
@@ -809,10 +791,10 @@
         "timeupdated": "1787227793"
       },
       "v1_6beta": {
-        "buildid": "25326007",
+        "buildid": "25332042",
         "description": "test bracch of new oeuf v",
-        "timebuildupdated": "1789485114",
-        "timeupdated": "1789485514"
+        "timebuildupdated": "1789504943",
+        "timeupdated": "1789505333"
       }
     },
     "workshopdepot": "3831080"

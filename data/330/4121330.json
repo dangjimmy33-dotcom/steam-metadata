@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789500449,
-  "_history": [],
-  "_change_number": 38855277,
-  "_missing_token": true,
-  "_sha": "839d8dda0c7e0f6da30b5cbb94915c6bad84fcba",
-  "_size": 2808,
+  "_lastChecked": 1789507217,
+  "_history": [
+    {
+      "buildId": "25188389",
+      "branch": "public",
+      "timeUpdated": 1788875007,
+      "firstSeen": 1789507217,
+      "manifests": {
+        "4121331": {
+          "gid": "6010948123769655501",
+          "size": 213822290,
+          "download": 61848992
+        }
+      }
+    }
+  ],
+  "_change_number": 38908284,
+  "_missing_token": false,
+  "_sha": "a109df9d37ef8e216758157cfd049cd433bc962a",
+  "_size": 3422,
   "appid": "4121330",
   "common": {
     "associations": {
@@ -26,8 +40,8 @@
     },
     "clienticon": "8cb171a0e37a45dd37b65ba6c6f1a7ec816d3ecc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4121330",
     "genres": {
       "0": "23",
@@ -99,11 +113,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7149b559d8b0aa61b924f3dbaeac831da223c3a4/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1783666967",
+    "steam_release_date": "1789502223",
+    "store_asset_mtime": "1788877047",
     "store_tags": {
       "0": "9",
       "1": "597",
@@ -123,5 +138,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Flagfall",
+    "launch": {
+      "0": {
+        "executable": "Flagfall.exe"
+      }
+    }
+  },
+  "depots": {
+    "4121331": {
+      "manifests": {
+        "public": {
+          "download": "61848992",
+          "gid": "6010948123769655501",
+          "size": "213822290"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25188389",
+        "timebuildupdated": "1788875006",
+        "timeupdated": "1788875007"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Honey Ant Studio",
+    "dlcavailableonstore": "1",
+    "isfreeapp": "1",
+    "listofdlc": "5218640",
+    "publisher": "Honey Ant Studio"
+  }
 }

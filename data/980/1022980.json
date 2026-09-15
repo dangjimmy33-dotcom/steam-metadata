@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789496345,
+  "_lastChecked": 1789504046,
   "_history": [
     {
       "buildId": "23202633",
@@ -247,11 +247,47 @@
           "download": 920077136
         }
       }
+    },
+    {
+      "buildId": "25064321",
+      "branch": "last_stable",
+      "timeUpdated": 1788289112,
+      "firstSeen": 1789504046,
+      "manifests": {
+        "1022981": {
+          "gid": "8357922396380042184",
+          "size": 1178882877,
+          "download": 646346816
+        },
+        "1022982": {
+          "gid": "5792376216111518912",
+          "size": 1543224894,
+          "download": 919534960
+        }
+      }
+    },
+    {
+      "buildId": "25285761",
+      "branch": "public",
+      "timeUpdated": 1789497530,
+      "firstSeen": 1789504046,
+      "manifests": {
+        "1022981": {
+          "gid": "8357922396380042184",
+          "size": 1178882877,
+          "download": 646346816
+        },
+        "1022982": {
+          "gid": "2947828401456876212",
+          "size": 1544576165,
+          "download": 920077136
+        }
+      }
     }
   ],
-  "_change_number": 38840343,
+  "_change_number": 38906493,
   "_missing_token": false,
-  "_sha": "6e24903fc7faaeb1ecd629407386f9a82e9a3a18",
+  "_sha": "a285151634c66a7f071581af04695e4f7563b332",
   "_size": 10807,
   "appid": "1022980",
   "common": {
@@ -563,9 +599,9 @@
           "size": "1362116374"
         },
         "last_stable": {
-          "download": "919519168",
-          "gid": "6519757439356712169",
-          "size": "1543122860"
+          "download": "919534960",
+          "gid": "5792376216111518912",
+          "size": "1543224894"
         },
         "legacy_09": {
           "download": "223361792",
@@ -603,9 +639,9 @@
           "size": "1365495454"
         },
         "public": {
-          "download": "919534960",
-          "gid": "5792376216111518912",
-          "size": "1543224894"
+          "download": "920077136",
+          "gid": "2947828401456876212",
+          "size": "1544576165"
         },
         "public_test": {
           "download": "920077136",
@@ -622,10 +658,10 @@
         "timeupdated": "1778609457"
       },
       "last_stable": {
-        "buildid": "24918081",
+        "buildid": "25064321",
         "description": "Last public build, for mod compatibility.",
-        "timebuildupdated": "1787618619",
-        "timeupdated": "1787618680"
+        "timebuildupdated": "1788287034",
+        "timeupdated": "1788289112"
       },
       "legacy_08": {
         "buildid": "8509981",
@@ -676,9 +712,9 @@
         "timeupdated": "1784929239"
       },
       "public": {
-        "buildid": "25064321",
-        "timebuildupdated": "1788287034",
-        "timeupdated": "1788289112"
+        "buildid": "25285761",
+        "timebuildupdated": "1789320668",
+        "timeupdated": "1789497530"
       },
       "public_test": {
         "buildid": "25285761",

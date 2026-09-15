@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789495276,
+  "_lastChecked": 1789503235,
   "_history": [
     {
       "buildId": "25135264",
@@ -392,11 +392,39 @@
           "download": 38317040
         }
       }
+    },
+    {
+      "buildId": "25331334",
+      "branch": "dev",
+      "timeUpdated": 1789502567,
+      "firstSeen": 1789503235,
+      "manifests": {
+        "4001": {
+          "gid": "7910233596954114888",
+          "size": 6825302618,
+          "download": 3577617808
+        },
+        "4002": {
+          "gid": "1243654301943605731",
+          "size": 505272522,
+          "download": 197990912
+        },
+        "4003": {
+          "gid": "3030976870959251115",
+          "size": 278105087,
+          "download": 65457792
+        },
+        "4004": {
+          "gid": "7092487332871871248",
+          "size": 160796762,
+          "download": 38317040
+        }
+      }
     }
   ],
-  "_change_number": 38903844,
+  "_change_number": 38908303,
   "_missing_token": false,
-  "_sha": "7703c2caae78d3af10ec382edc5b6c894160cbe0",
+  "_sha": "db6d65ca6343f32e8bfba3654765659464b1c4db",
   "_size": 13318,
   "appid": "4000",
   "common": {
@@ -828,7 +856,7 @@
       "manifests": {
         "dev": {
           "download": "3577617808",
-          "gid": "6401168298412607937",
+          "gid": "7910233596954114888",
           "size": "6825302618"
         },
         "prerelease": {
@@ -855,9 +883,9 @@
       },
       "manifests": {
         "dev": {
-          "download": "197991168",
-          "gid": "4450630547597150101",
-          "size": "505272626"
+          "download": "197990912",
+          "gid": "1243654301943605731",
+          "size": "505272522"
         },
         "prerelease": {
           "download": "197665008",
@@ -935,10 +963,10 @@
     },
     "branches": {
       "dev": {
-        "buildid": "25328262",
+        "buildid": "25331334",
         "description": "Development branch - Live daily updates",
-        "timebuildupdated": "1789491998",
-        "timeupdated": "1789491998"
+        "timebuildupdated": "1789502567",
+        "timeupdated": "1789502567"
       },
       "prerelease": {
         "buildid": "25216613",

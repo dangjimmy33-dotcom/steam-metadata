@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789501462,
-  "_history": [],
-  "_change_number": 38493035,
-  "_missing_token": true,
-  "_sha": "a38a0c167f439dfe107a06f44feceba1526664c4",
-  "_size": 3380,
+  "_lastChecked": 1789508013,
+  "_history": [
+    {
+      "buildId": "25048821",
+      "branch": "public",
+      "timeUpdated": 1788228199,
+      "firstSeen": 1789508013,
+      "manifests": {
+        "5018291": {
+          "gid": "6208876983260876226",
+          "size": 382187482,
+          "download": 142138736
+        },
+        "5018292": {
+          "gid": "293612081509554036",
+          "size": 334506541,
+          "download": 118923856
+        }
+      }
+    }
+  ],
+  "_change_number": 38907859,
+  "_missing_token": false,
+  "_sha": "9ca071135ba8fb5eef4afd599bcfc5be87df9626",
+  "_size": 4903,
   "appid": "5018290",
   "common": {
     "associations": {
@@ -34,6 +53,7 @@
     },
     "clienticon": "674e3e234b765ebac7668a2a4d4c7d1a0840a6f3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -41,7 +61,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5018290",
     "genres": {
       "0": "25",
@@ -116,10 +135,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "45838b1ad644a11c4a96f5d588b645275ca691da/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789501475",
     "store_asset_mtime": "1787695123",
     "store_tags": {
       "0": "4486",
@@ -151,5 +171,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Duty Guvnor",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Duty Guvnor.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "duty-guvnor"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5018291": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "142138736",
+          "gid": "6208876983260876226",
+          "size": "382187482"
+        }
+      }
+    },
+    "5018292": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "118923856",
+          "gid": "293612081509554036",
+          "size": "334506541"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25048821",
+        "timebuildupdated": "1788228004",
+        "timeupdated": "1788228199"
+      }
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "1",
+    "developer": "Articulable LLC",
+    "homepage": "https://dutyguvnor.com",
+    "publisher": "Articulable LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "25",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".config/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Duty Guvnor/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

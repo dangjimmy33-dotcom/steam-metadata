@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789495502,
+  "_lastChecked": 1789503406,
   "_history": [
     {
       "buildId": "24978220",
@@ -72,11 +72,29 @@
           "download": 31327728
         }
       }
+    },
+    {
+      "buildId": "25329355",
+      "branch": "public-test",
+      "timeUpdated": 1789498790,
+      "firstSeen": 1789503406,
+      "manifests": {
+        "381211": {
+          "gid": "2663443281825328768",
+          "size": 60306537719,
+          "download": 58931947216
+        },
+        "381212": {
+          "gid": "5921550076694751899",
+          "size": 31578081,
+          "download": 31327728
+        }
+      }
     }
   ],
-  "_change_number": 38899970,
+  "_change_number": 38906715,
   "_missing_token": false,
-  "_sha": "0c4ef747deaf6c7f3586d8ccc1362d524f279060",
+  "_sha": "c2a106f42ed27d0174bf3f86115a3bf254221276",
   "_size": 10246,
   "appid": "381210",
   "common": {
@@ -453,9 +471,9 @@
           "size": "65509018486"
         },
         "public-test": {
-          "download": "58931635952",
-          "gid": "3910379882260361885",
-          "size": "60306539801"
+          "download": "58931947216",
+          "gid": "2663443281825328768",
+          "size": "60306537719"
         }
       }
     },
@@ -481,10 +499,10 @@
         "timeupdated": "1789484253"
       },
       "public-test": {
-        "buildid": "25308866",
+        "buildid": "25329355",
         "description": "Public Branch (on PTB environment) for Actual PTB",
-        "timebuildupdated": "1789419799",
-        "timeupdated": "1789484300"
+        "timebuildupdated": "1789495775",
+        "timeupdated": "1789498790"
       }
     },
     "privatebranches": "1"

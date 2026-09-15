@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789500953,
+  "_lastChecked": 1789507610,
   "_history": [
     {
       "buildId": "25139745",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38625865,
+  "_change_number": 38909678,
   "_missing_token": false,
-  "_sha": "1ea0a11788301ac02c574e4af14e6c7176a87749",
-  "_size": 4115,
+  "_sha": "b8e1a40113e1bb944ea6ca989e1c5ed12d6e3bfb",
+  "_size": 4623,
   "appid": "4545200",
   "common": {
     "aicontenttype": "1",
@@ -204,10 +204,36 @@
         "timeupdated": "1788603936"
       }
     },
-    "privatebranches": "1"
+    "privatebranches": "1",
+    "workshopdepot": "4545200"
   },
   "extended": {
     "developer": "WasdLab",
     "publisher": "WasdLab"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "200",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "WasdLab/Broken Crown/Saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "WasdLab/Broken Crown/CustomMaps/Local",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789497492,
+  "_lastChecked": 1789504923,
   "_history": [
     {
       "buildId": "25044803",
@@ -46,12 +46,58 @@
           "download": 694599280
         }
       }
+    },
+    {
+      "buildId": "25331781",
+      "branch": "github",
+      "timeUpdated": 1789504041,
+      "firstSeen": 1789504923,
+      "manifests": {
+        "1807331": {
+          "gid": "5409269288092705445",
+          "size": 843263441,
+          "download": 676840032
+        },
+        "1807332": {
+          "gid": "2797148109391863971",
+          "size": 663114623,
+          "download": 663234688
+        },
+        "1807333": {
+          "gid": "6710563333407840356",
+          "size": 837853259,
+          "download": 688250256
+        }
+      }
+    },
+    {
+      "buildId": "25331781",
+      "branch": "public",
+      "timeUpdated": 1789504345,
+      "firstSeen": 1789504923,
+      "manifests": {
+        "1807331": {
+          "gid": "5409269288092705445",
+          "size": 843263441,
+          "download": 676840032
+        },
+        "1807332": {
+          "gid": "2797148109391863971",
+          "size": 663114623,
+          "download": 663234688
+        },
+        "1807333": {
+          "gid": "6710563333407840356",
+          "size": 837853259,
+          "download": 688250256
+        }
+      }
     }
   ],
-  "_change_number": 38888902,
+  "_change_number": 38909045,
   "_missing_token": false,
-  "_sha": "2fc20598570413e055dc5c91bfb11f86101c4f54",
-  "_size": 9692,
+  "_sha": "1c16e05f1f4edbcd3d74e57cff06bdfa51c3a5f3",
+  "_size": 9699,
   "appid": "1807330",
   "common": {
     "associations": {
@@ -147,7 +193,7 @@
     "name": "Tough Love Arena",
     "osarch": "",
     "osextended": "macos64,macosnotarized",
-    "oslist": "windows,macos",
+    "oslist": "windows,macos,linux",
     "primary_genre": "23",
     "releasestate": "released",
     "review_percentage": "97",
@@ -529,14 +575,14 @@
       },
       "manifests": {
         "github": {
-          "download": "677144128",
-          "gid": "7593835789447975882",
-          "size": "843310714"
+          "download": "676840032",
+          "gid": "5409269288092705445",
+          "size": "843263441"
         },
         "public": {
-          "download": "677143584",
-          "gid": "9110277345412563416",
-          "size": "843309361"
+          "download": "676840032",
+          "gid": "5409269288092705445",
+          "size": "843263441"
         }
       }
     },
@@ -547,14 +593,14 @@
       },
       "manifests": {
         "github": {
-          "download": "663508784",
-          "gid": "1049303342942976706",
-          "size": "663319933"
+          "download": "663234688",
+          "gid": "2797148109391863971",
+          "size": "663114623"
         },
         "public": {
-          "download": "663529056",
-          "gid": "4408754786207202868",
-          "size": "663340178"
+          "download": "663234688",
+          "gid": "2797148109391863971",
+          "size": "663114623"
         }
       }
     },
@@ -565,28 +611,28 @@
       },
       "manifests": {
         "github": {
-          "download": "694595712",
-          "gid": "263841654941571262",
-          "size": "694330817"
+          "download": "688250256",
+          "gid": "6710563333407840356",
+          "size": "837853259"
         },
         "public": {
-          "download": "694599280",
-          "gid": "6248286355828254476",
-          "size": "694334371"
+          "download": "688250256",
+          "gid": "6710563333407840356",
+          "size": "837853259"
         }
       }
     },
     "branches": {
       "github": {
-        "buildid": "25044803",
+        "buildid": "25331781",
         "description": "Pushed from GitHub",
-        "timebuildupdated": "1788210379",
-        "timeupdated": "1788210379"
+        "timebuildupdated": "1789504041",
+        "timeupdated": "1789504041"
       },
       "public": {
-        "buildid": "25041074",
-        "timebuildupdated": "1788195960",
-        "timeupdated": "1788198971"
+        "buildid": "25331781",
+        "timebuildupdated": "1789504041",
+        "timeupdated": "1789504345"
       }
     },
     "privatebranches": "1"

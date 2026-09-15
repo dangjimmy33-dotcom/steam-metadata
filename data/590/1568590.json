@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789497119,
+  "_lastChecked": 1789504638,
   "_history": [
     {
       "buildId": "24783249",
@@ -18,12 +18,35 @@
           "download": 855351360
         }
       }
+    },
+    {
+      "buildId": "25329877",
+      "branch": "public",
+      "timeUpdated": 1789497577,
+      "firstSeen": 1789504638,
+      "manifests": {
+        "1568591": {
+          "gid": "664498103338046716",
+          "size": 1087212101,
+          "download": 840311344
+        },
+        "1568592": {
+          "gid": "7556404442700559368",
+          "size": 1279125623,
+          "download": 857604544
+        },
+        "1568593": {
+          "gid": "509845447721896066",
+          "size": 1087212101,
+          "download": 840304544
+        }
+      }
     }
   ],
-  "_change_number": 38905004,
+  "_change_number": 38906198,
   "_missing_token": false,
-  "_sha": "feb1cd668b678eeebec6a0b31c9c4d9671e3d9e0",
-  "_size": 8127,
+  "_sha": "c0be64c331202d177902d8dcb2d40052a04b3e1b",
+  "_size": 8240,
   "appid": "1568590",
   "common": {
     "associations": {
@@ -350,9 +373,9 @@
       },
       "manifests": {
         "public": {
-          "download": "837933424",
-          "gid": "801982689863230376",
-          "size": "1084022315"
+          "download": "840311344",
+          "gid": "664498103338046716",
+          "size": "1087212101"
         }
       }
     },
@@ -363,9 +386,9 @@
       },
       "manifests": {
         "public": {
-          "download": "855351360",
-          "gid": "3234148332065800361",
-          "size": "1276069992"
+          "download": "857604544",
+          "gid": "7556404442700559368",
+          "size": "1279125623"
         }
       }
     },
@@ -375,7 +398,13 @@
         "osarch": "64",
         "oslist": "windows"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "840304544",
+          "gid": "509845447721896066",
+          "size": "1087212101"
+        }
+      }
     },
     "1568594": {
       "config": {
@@ -393,9 +422,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "24783249",
-        "timebuildupdated": "1786997289",
-        "timeupdated": "1786997289"
+        "buildid": "25329877",
+        "timebuildupdated": "1789497577",
+        "timeupdated": "1789497577"
       }
     },
     "privatebranches": "1"

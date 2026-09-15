@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789501580,
-  "_history": [],
-  "_change_number": 38893544,
-  "_missing_token": true,
-  "_sha": "f3dccbea0c03b16be6f1e71f9cf95dbc35d25fb8",
-  "_size": 3479,
+  "_lastChecked": 1789508106,
+  "_history": [
+    {
+      "buildId": "25332236",
+      "branch": "public",
+      "timeUpdated": 1789505573,
+      "firstSeen": 1789508106,
+      "manifests": {
+        "5148261": {
+          "gid": "6892174900595422375",
+          "size": 1572037165,
+          "download": 1114766928
+        }
+      }
+    }
+  ],
+  "_change_number": 38909567,
+  "_missing_token": false,
+  "_sha": "378350fbe60356891eb29ce100ed0aee9c48f29e",
+  "_size": 4547,
   "appid": "5148260",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +44,8 @@
     },
     "clienticon": "f57f86bebb7066ae6b93c8265331b46c9b85a5b9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5148260",
     "genres": {
       "0": "4",
@@ -114,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8b7df7ff299169812e91d89e27f657970dc8a9b1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789505676",
     "store_asset_mtime": "1789403141",
     "store_tags": {
       "0": "9204",
@@ -155,5 +170,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Seed Shop Tidy Up!",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TidySeeds.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5148261": {
+      "manifests": {
+        "public": {
+          "download": "1114766928",
+          "gid": "6892174900595422375",
+          "size": "1572037165"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25332236",
+        "timebuildupdated": "1789505551",
+        "timeupdated": "1789505573"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "meteor008",
+    "publisher": "meteor008 "
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "40000000",
+    "savefiles": {
+      "0": {
+        "path": "TidySeeds/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
