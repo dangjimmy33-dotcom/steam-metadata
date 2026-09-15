@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789493295,
-  "_history": [],
-  "_change_number": 38890219,
-  "_missing_token": true,
-  "_sha": "ad4ba10ba7b0572fdfcc9a5c908f530eee334c98",
-  "_size": 3364,
+  "_lastChecked": 1789501234,
+  "_history": [
+    {
+      "buildId": "25329227",
+      "branch": "public",
+      "timeUpdated": 1789495305,
+      "firstSeen": 1789501234,
+      "manifests": {
+        "4809591": {
+          "gid": "2080984075907897906",
+          "size": 5700692682,
+          "download": 3128400960
+        }
+      }
+    }
+  ],
+  "_change_number": 38905298,
+  "_missing_token": false,
+  "_sha": "a483a6190e67250b0b9823d3ac3b6da97bf3dd38",
+  "_size": 4019,
   "appid": "4809590",
   "common": {
     "aicontenttype": "1",
@@ -31,6 +45,7 @@
     },
     "clienticon": "bbfd5acaec2df80b12398469964c95fdb52f70da",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -46,7 +61,6 @@
       "4": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4809590",
     "genres": {
       "0": "1",
@@ -118,11 +132,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "2751c02837c18ea99757c58447858d75b6f65c88/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789495493",
     "store_asset_mtime": "1789034467",
     "store_tags": {
       "0": "12095",
@@ -155,5 +170,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blood Brides Witch Hunt",
+    "launch": {
+      "0": {
+        "executable": "BloodBridesWH.exe"
+      }
+    }
+  },
+  "depots": {
+    "4809591": {
+      "manifests": {
+        "public": {
+          "download": "3128400960",
+          "gid": "2080984075907897906",
+          "size": "5700692682"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25329227",
+        "timebuildupdated": "1789495289",
+        "timeupdated": "1789495305"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "developer": "Era T'my",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5196300",
+    "publisher": "Era T'my"
+  }
 }

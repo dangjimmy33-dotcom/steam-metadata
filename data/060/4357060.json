@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789492835,
-  "_history": [],
-  "_change_number": 38824117,
-  "_missing_token": true,
-  "_sha": "d03023ae554a8317a605c5167c743b0260304042",
-  "_size": 3234,
+  "_lastChecked": 1789500736,
+  "_history": [
+    {
+      "buildId": "25242869",
+      "branch": "public",
+      "timeUpdated": 1789086909,
+      "firstSeen": 1789500736,
+      "manifests": {
+        "4357061": {
+          "gid": "7256657497487824542",
+          "size": 1532278123,
+          "download": 547040768
+        }
+      }
+    }
+  ],
+  "_change_number": 38905077,
+  "_missing_token": false,
+  "_sha": "a2599bc71d97161870be1655e293f04709f56212",
+  "_size": 4163,
   "appid": "4357060",
   "common": {
     "associations": {
@@ -43,7 +57,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4357060",
     "genres": {
       "0": "1",
@@ -116,10 +129,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6ee62280cf07664988dbba5c04c70a9becba2e47/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789494957",
     "store_asset_mtime": "1787689921",
     "store_tags": {
       "0": "19",
@@ -143,5 +157,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "UrbStrugBUILD",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "UrbStrugBuild1.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4357061": {
+      "manifests": {
+        "public": {
+          "download": "547040768",
+          "gid": "7256657497487824542",
+          "size": "1532278123"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25242869",
+        "timebuildupdated": "1789086847",
+        "timeupdated": "1789086909"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "PIRITUBA HILLS STUDIO",
+    "homepage": "https://www.instagram.com/ulisoftindie/",
+    "publisher": "PIRITUBA HILLS STUDIO"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "10000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

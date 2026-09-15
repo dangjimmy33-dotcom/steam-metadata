@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789490589,
+  "_lastChecked": 1789498289,
   "_history": [
     {
       "buildId": "25325963",
@@ -26,12 +26,38 @@
           "download": 1205926784
         }
       }
+    },
+    {
+      "buildId": "25328495",
+      "branch": "playtesters",
+      "timeUpdated": 1789494090,
+      "firstSeen": 1789498289,
+      "manifests": {
+        "2402681": {
+          "gid": "6590538602490284570",
+          "size": 6162904601,
+          "download": 1205989808
+        }
+      }
+    },
+    {
+      "buildId": "25328495",
+      "branch": "public",
+      "timeUpdated": 1789494090,
+      "firstSeen": 1789498289,
+      "manifests": {
+        "2402681": {
+          "gid": "6590538602490284570",
+          "size": 6162904601,
+          "download": 1205989808
+        }
+      }
     }
   ],
-  "_change_number": 38901841,
+  "_change_number": 38905620,
   "_missing_token": false,
-  "_sha": "e95d29039f61e9adbcd389d381fd38d08a2ae6a8",
-  "_size": 5792,
+  "_sha": "9f77f9943a46940e5f1aaf7bb292295f882f5506",
+  "_size": 5842,
   "appid": "2402680",
   "common": {
     "associations": {
@@ -144,6 +170,8 @@
     "oslist": "windows",
     "primary_genre": "3",
     "releasestate": "released",
+    "review_percentage": "83",
+    "review_score": "8",
     "small_capsule": {
       "english": "c89849716df0c45bfe23a28ab36fd8c988c39e14/capsule_231x87.jpg"
     },
@@ -239,28 +267,28 @@
       },
       "manifests": {
         "playtesters": {
-          "download": "1205926784",
-          "gid": "7771743671855005130",
-          "size": "6162583944"
+          "download": "1205989808",
+          "gid": "6590538602490284570",
+          "size": "6162904601"
         },
         "public": {
-          "download": "1205926784",
-          "gid": "7771743671855005130",
-          "size": "6162583944"
+          "download": "1205989808",
+          "gid": "6590538602490284570",
+          "size": "6162904601"
         }
       }
     },
     "branches": {
       "playtesters": {
-        "buildid": "25325963",
+        "buildid": "25328495",
         "description": "playtesters",
-        "timebuildupdated": "1789485012",
-        "timeupdated": "1789486247"
+        "timebuildupdated": "1789492781",
+        "timeupdated": "1789494090"
       },
       "public": {
-        "buildid": "25325963",
-        "timebuildupdated": "1789485012",
-        "timeupdated": "1789486247"
+        "buildid": "25328495",
+        "timebuildupdated": "1789492781",
+        "timeupdated": "1789494090"
       }
     },
     "privatebranches": "1"

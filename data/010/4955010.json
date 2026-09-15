@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789493449,
-  "_history": [],
-  "_change_number": 38123037,
-  "_missing_token": true,
-  "_sha": "2eb5d710fb9e0ec922ab614f63f837b64e9062bc",
-  "_size": 3853,
+  "_lastChecked": 1789501398,
+  "_history": [
+    {
+      "buildId": "24181492",
+      "branch": "public",
+      "timeUpdated": 1783938741,
+      "firstSeen": 1789501398,
+      "manifests": {
+        "4955011": {
+          "gid": "2907328833277183863",
+          "size": 1094845024,
+          "download": 906166752
+        },
+        "4955012": {
+          "gid": "6856871970809583318",
+          "size": 944051169,
+          "download": 887528720
+        }
+      }
+    }
+  ],
+  "_change_number": 38905731,
+  "_missing_token": false,
+  "_sha": "18addc15f5e1395fcba2ce5c00d68dd9126493c5",
+  "_size": 5519,
   "appid": "4955010",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +49,7 @@
     },
     "clienticon": "a70b3e8caaced011b818077ef92f8708b7bf38cc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -46,7 +66,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4955010",
     "genres": {
       "0": "25",
@@ -124,11 +143,12 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux,android",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "08cbc187c70a4ca62260306f485fb3ff1ec14865/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789495682",
     "store_asset_mtime": "1783909904",
     "store_tags": {
       "0": "3799",
@@ -179,5 +199,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "De-Extinct Desire",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "DeExtinctDesire.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "DeExtinctDesire.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "DeExtinctDesire.sh",
+        "type": "default"
+      },
+      "3": {
+        "config": {
+          "oslist": "android"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "de.extinct.desire-1.0-1783850348-release.apk",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4955011": {
+      "manifests": {
+        "public": {
+          "download": "906166752",
+          "gid": "2907328833277183863",
+          "size": "1094845024"
+        }
+      }
+    },
+    "4955012": {
+      "config": {
+        "oslist": "android"
+      },
+      "manifests": {
+        "public": {
+          "download": "887528720",
+          "gid": "6856871970809583318",
+          "size": "944051169"
+        }
+      }
+    },
+    "baselanguages": "english,french,japanese,koreana,latam,russian,schinese",
+    "branches": {
+      "public": {
+        "buildid": "24181492",
+        "timebuildupdated": "1783938741",
+        "timeupdated": "1783938741"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Creamhouse Games",
+    "publisher": "Creamhouse Games"
+  }
 }

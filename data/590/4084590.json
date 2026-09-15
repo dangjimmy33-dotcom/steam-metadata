@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789492534,
-  "_history": [],
-  "_change_number": 38894361,
-  "_missing_token": true,
-  "_sha": "b753551a8cfbe9f4841c3b2c4c06d52fe1de7b8d",
-  "_size": 3034,
+  "_lastChecked": 1789500406,
+  "_history": [
+    {
+      "buildId": "25328986",
+      "branch": "public",
+      "timeUpdated": 1789494502,
+      "firstSeen": 1789500406,
+      "manifests": {
+        "4084591": {
+          "gid": "1522045717700849701",
+          "size": 528715310,
+          "download": 385113008
+        }
+      }
+    }
+  ],
+  "_change_number": 38906085,
+  "_missing_token": false,
+  "_sha": "e908bd649b388084ff73305abc0c3e588818c0b2",
+  "_size": 3857,
   "appid": "4084590",
   "common": {
     "associations": {
@@ -27,8 +41,8 @@
     },
     "clienticon": "36d00a05fb600e7d36eea29de73d869e957b622f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4084590",
     "genres": {
       "0": "25",
@@ -100,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "22c645ddca0eb7cebffbb27c1729c59ce4a68b12/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1789046510",
     "store_tags": {
       "0": "21",
@@ -135,5 +150,51 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "gardenofmedusae",
+    "launch": {
+      "0": {
+        "executable": "GardenOfAurelias.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4084591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "385113008",
+          "gid": "1522045717700849701",
+          "size": "528715310"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25328986",
+        "timebuildupdated": "1789494500",
+        "timeupdated": "1789494502"
+      }
+    }
+  },
+  "extended": {
+    "developer": "bonitāka",
+    "publisher": "bonitāka"
+  }
 }

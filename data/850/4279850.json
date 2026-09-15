@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789492755,
-  "_history": [],
-  "_change_number": 38851908,
-  "_missing_token": true,
-  "_sha": "6685ec7637b32aa2a2ac012f8c628378d49d9a7d",
-  "_size": 2979,
+  "_lastChecked": 1789500650,
+  "_history": [
+    {
+      "buildId": "25286613",
+      "branch": "public",
+      "timeUpdated": 1789325660,
+      "firstSeen": 1789500650,
+      "manifests": {
+        "4279851": {
+          "gid": "3831127496487569671",
+          "size": 29940066,
+          "download": 17153200
+        }
+      }
+    }
+  ],
+  "_change_number": 38904389,
+  "_missing_token": false,
+  "_sha": "ca70f8cc7d7bd4ff9246abfd490f4d33441797a2",
+  "_size": 3646,
   "appid": "4279850",
   "common": {
     "associations": {
@@ -24,16 +38,15 @@
     },
     "clienticon": "db4f332ee17ac0e20729f833fbeb3b4b54457ef6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4279850",
     "genres": {
       "0": "1",
       "1": "25",
       "2": "4",
       "3": "23",
-      "4": "37",
-      "5": "70"
+      "4": "37"
     },
     "header_image": {
       "english": "beac535ea4b3014577b27f79183c8f2c33475764/header.jpg"
@@ -100,7 +113,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "75a47b2e275b04322e8364f78f55d7076abbc680/capsule_231x87.jpg"
     },
@@ -139,5 +152,44 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Paperman",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "x64/Paperman.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4279851": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "17153200",
+          "gid": "3831127496487569671",
+          "size": "29940066"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "25286613",
+        "timebuildupdated": "1789325523",
+        "timeupdated": "1789325660"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Tyoven",
+    "isfreeapp": "1",
+    "publisher": "Tyoven"
+  }
 }

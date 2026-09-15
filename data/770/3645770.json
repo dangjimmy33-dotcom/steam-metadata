@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789492038,
-  "_history": [],
-  "_change_number": 38882025,
-  "_missing_token": true,
-  "_sha": "8fbe02a8cbe549c12e7dc6e1ac36c24d5e1dcbe4",
-  "_size": 3214,
+  "_lastChecked": 1789499866,
+  "_history": [
+    {
+      "buildId": "25314160",
+      "branch": "public",
+      "timeUpdated": 1789442533,
+      "firstSeen": 1789499866,
+      "manifests": {
+        "3645771": {
+          "gid": "3455842122464720088",
+          "size": 804443378,
+          "download": 187438992
+        }
+      }
+    }
+  ],
+  "_change_number": 38904151,
+  "_missing_token": false,
+  "_sha": "c8e19ee05ce3c1f5d3e9f9d9d3d8646488400e2b",
+  "_size": 4304,
   "appid": "3645770",
   "common": {
     "associations": {
@@ -31,9 +45,9 @@
     "clienticon": "a97511604dca69b77c8bd86586378dbe5a3b8e1e",
     "clienttga": "09b5ef1c5dc2be4c856ace6655b3476492b6acc3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3645770",
     "genres": {
       "0": "25",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "71657693a5096bc66d581c15ba569e2cf8d6a2f9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1759864534",
     "store_tags": {
       "0": "21",
@@ -141,5 +156,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Nico and the Shadows",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Nico and the Shadows.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3645771": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "187438992",
+          "gid": "3455842122464720088",
+          "size": "804443378"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25314160",
+        "timebuildupdated": "1789442522",
+        "timeupdated": "1789442533"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Roguewind Studios",
+    "publisher": "Roguewind Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "4000",
+    "savefiles": {
+      "0": {
+        "path": "RogueWindStudios/Nico and The Shadows/",
+        "pattern": "*.sf",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

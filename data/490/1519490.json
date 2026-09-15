@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789489451,
+  "_lastChecked": 1789497052,
   "_history": [
     {
       "buildId": "23710480",
@@ -655,12 +655,35 @@
           "download": 506412144
         }
       }
+    },
+    {
+      "buildId": "25328435",
+      "branch": "beta",
+      "timeUpdated": 1789492558,
+      "firstSeen": 1789497052,
+      "manifests": {
+        "1519491": {
+          "gid": "5539724922104727977",
+          "size": 664697672,
+          "download": 503798048
+        },
+        "1519492": {
+          "gid": "2864223461266956881",
+          "size": 671598297,
+          "download": 503581936
+        },
+        "1519493": {
+          "gid": "7453672332829666324",
+          "size": 679039989,
+          "download": 507345024
+        }
+      }
     }
   ],
-  "_change_number": 38817491,
+  "_change_number": 38904069,
   "_missing_token": false,
-  "_sha": "26eb261c1bf6f0695ae9483c3ee5562eb84b0967",
-  "_size": 18180,
+  "_sha": "8c4b8883bca65ec0193989afcb696d09db08a2e7",
+  "_size": 18181,
   "appid": "1519490",
   "common": {
     "associations": {
@@ -937,9 +960,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "503045824",
-          "gid": "9112885513463650498",
-          "size": "664040639"
+          "download": "503798048",
+          "gid": "5539724922104727977",
+          "size": "664697672"
         },
         "deploy-test": {
           "download": "427977568",
@@ -1070,9 +1093,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "502248976",
-          "gid": "530518433893251929",
-          "size": "670343345"
+          "download": "503581936",
+          "gid": "2864223461266956881",
+          "size": "671598297"
         },
         "deploy-test": {
           "download": "428457872",
@@ -1188,9 +1211,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "506412144",
-          "gid": "2990241440071762446",
-          "size": "678382956"
+          "download": "507345024",
+          "gid": "7453672332829666324",
+          "size": "679039989"
         },
         "deploy-test": {
           "download": "443431504",
@@ -1296,10 +1319,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25248774",
+        "buildid": "25328435",
         "description": "latest beta build",
-        "timebuildupdated": "1789114918",
-        "timeupdated": "1789114918"
+        "timebuildupdated": "1789492558",
+        "timeupdated": "1789492558"
       },
       "deploy-test": {
         "buildid": "19194966",

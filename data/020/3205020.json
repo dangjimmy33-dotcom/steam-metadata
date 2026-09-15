@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789491532,
+  "_lastChecked": 1789499317,
   "_history": [
     {
       "buildId": "25136140",
@@ -108,12 +108,25 @@
           "download": 586345952
         }
       }
+    },
+    {
+      "buildId": "25329867",
+      "branch": "public",
+      "timeUpdated": 1789497683,
+      "firstSeen": 1789499317,
+      "manifests": {
+        "3205021": {
+          "gid": "4907216390371691996",
+          "size": 461206331,
+          "download": 321204816
+        }
+      }
     }
   ],
-  "_change_number": 38903395,
+  "_change_number": 38906680,
   "_missing_token": false,
-  "_sha": "21db0a5d82b884538fdc42ba8b2f154b1172ad3f",
-  "_size": 4750,
+  "_sha": "1adee430f3d688afdf5d30218f24a359825e7532",
+  "_size": 4537,
   "appid": "3205020",
   "common": {
     "associations": {
@@ -219,8 +232,8 @@
     },
     "name": "Coven: All Powerful",
     "osarch": "",
-    "osextended": "macos64",
-    "oslist": "windows,macos",
+    "osextended": "",
+    "oslist": "windows",
     "primary_genre": "23",
     "releasestate": "released",
     "small_capsule": {
@@ -285,30 +298,18 @@
       },
       "manifests": {
         "public": {
-          "download": "321191936",
-          "gid": "8933570774631104863",
-          "size": "461205552"
+          "download": "321204816",
+          "gid": "4907216390371691996",
+          "size": "461206331"
         }
       }
     },
-    "3205022": {
-      "config": {
-        "language": "english",
-        "oslist": "macos"
-      },
-      "manifests": {
-        "public": {
-          "download": "586345952",
-          "gid": "5885999441992709322",
-          "size": "1072715589"
-        }
-      }
-    },
+    "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25326450",
-        "timebuildupdated": "1789486426",
-        "timeupdated": "1789486426"
+        "buildid": "25329867",
+        "timebuildupdated": "1789497551",
+        "timeupdated": "1789497683"
       }
     },
     "privatebranches": "1"

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789487833,
+  "_lastChecked": 1789495276,
   "_history": [
     {
       "buildId": "25135264",
@@ -364,11 +364,39 @@
           "download": 38317040
         }
       }
+    },
+    {
+      "buildId": "25328262",
+      "branch": "dev",
+      "timeUpdated": 1789491998,
+      "firstSeen": 1789495276,
+      "manifests": {
+        "4001": {
+          "gid": "6401168298412607937",
+          "size": 6825302618,
+          "download": 3577617808
+        },
+        "4002": {
+          "gid": "4450630547597150101",
+          "size": 505272626,
+          "download": 197991168
+        },
+        "4003": {
+          "gid": "3030976870959251115",
+          "size": 278105087,
+          "download": 65457792
+        },
+        "4004": {
+          "gid": "7092487332871871248",
+          "size": 160796762,
+          "download": 38317040
+        }
+      }
     }
   ],
-  "_change_number": 38876644,
+  "_change_number": 38903844,
   "_missing_token": false,
-  "_sha": "26b7eb504f650104a7abe011aa8742666561d62e",
+  "_sha": "7703c2caae78d3af10ec382edc5b6c894160cbe0",
   "_size": 13318,
   "appid": "4000",
   "common": {
@@ -799,9 +827,9 @@
     "4001": {
       "manifests": {
         "dev": {
-          "download": "3577605936",
-          "gid": "2414773911429675060",
-          "size": "6825237518"
+          "download": "3577617808",
+          "gid": "6401168298412607937",
+          "size": "6825302618"
         },
         "prerelease": {
           "download": "3577521232",
@@ -827,9 +855,9 @@
       },
       "manifests": {
         "dev": {
-          "download": "197990960",
-          "gid": "6432076128037715159",
-          "size": "505270570"
+          "download": "197991168",
+          "gid": "4450630547597150101",
+          "size": "505272626"
         },
         "prerelease": {
           "download": "197665008",
@@ -855,8 +883,8 @@
       },
       "manifests": {
         "dev": {
-          "download": "65460352",
-          "gid": "6139243226991284834",
+          "download": "65457792",
+          "gid": "3030976870959251115",
           "size": "278105087"
         },
         "prerelease": {
@@ -907,10 +935,10 @@
     },
     "branches": {
       "dev": {
-        "buildid": "25310236",
+        "buildid": "25328262",
         "description": "Development branch - Live daily updates",
-        "timebuildupdated": "1789425208",
-        "timeupdated": "1789425208"
+        "timebuildupdated": "1789491998",
+        "timeupdated": "1789491998"
       },
       "prerelease": {
         "buildid": "25216613",

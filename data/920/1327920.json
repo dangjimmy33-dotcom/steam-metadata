@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789489205,
+  "_lastChecked": 1789496778,
   "_history": [
     {
       "buildId": "24944425",
@@ -13,12 +13,30 @@
           "download": 5291703808
         }
       }
+    },
+    {
+      "buildId": "25329057",
+      "branch": "public",
+      "timeUpdated": 1789494758,
+      "firstSeen": 1789496778,
+      "manifests": {
+        "1327921": {
+          "gid": "2598151753107165961",
+          "size": 10119114868,
+          "download": 5291703808
+        },
+        "3293890": {
+          "gid": "4713975193994720378",
+          "size": 298,
+          "download": 240
+        }
+      }
     }
   ],
-  "_change_number": 38902218,
+  "_change_number": 38904975,
   "_missing_token": false,
-  "_sha": "13bc0de86ada45a2f1a4f9d9737ffacb79ac36c6",
-  "_size": 6096,
+  "_sha": "af2a23afb880c6bcc1c4fd4878e05dac721ebe39",
+  "_size": 6222,
   "appid": "1327920",
   "common": {
     "associations": {
@@ -273,13 +291,20 @@
       "config": {
         "oslist": "windows"
       },
-      "dlcappid": "3293890"
+      "dlcappid": "3293890",
+      "manifests": {
+        "public": {
+          "download": "240",
+          "gid": "4713975193994720378",
+          "size": "298"
+        }
+      }
     },
     "branches": {
       "public": {
-        "buildid": "24944425",
-        "timebuildupdated": "1787729882",
-        "timeupdated": "1787735780"
+        "buildid": "25329057",
+        "timebuildupdated": "1789494758",
+        "timeupdated": "1789494758"
       }
     },
     "workshopdepot": "1327920"

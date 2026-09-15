@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789493444,
+  "_lastChecked": 1789501392,
   "_history": [
     {
       "buildId": "25139293",
@@ -117,12 +117,30 @@
           "download": 67305584
         }
       }
+    },
+    {
+      "buildId": "25328754",
+      "branch": "public",
+      "timeUpdated": 1789494973,
+      "firstSeen": 1789501392,
+      "manifests": {
+        "4951261": {
+          "gid": "7746808371489665676",
+          "size": 161905155,
+          "download": 67293680
+        },
+        "4951262": {
+          "gid": "1753114791720491011",
+          "size": 246083668,
+          "download": 89258656
+        }
+      }
     }
   ],
-  "_change_number": 38904077,
+  "_change_number": 38905085,
   "_missing_token": false,
-  "_sha": "8806286d8c08df87880bc9eae08246e6374bca27",
-  "_size": 5141,
+  "_sha": "e7de02ce575e32b832327247d56d18e18ea70631",
+  "_size": 5253,
   "appid": "4951260",
   "common": {
     "associations": {
@@ -303,9 +321,9 @@
     "4951261": {
       "manifests": {
         "public": {
-          "download": "67305584",
-          "gid": "1518820478993496137",
-          "size": "161786982"
+          "download": "67293680",
+          "gid": "7746808371489665676",
+          "size": "161905155"
         }
       }
     },
@@ -313,13 +331,19 @@
       "config": {
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "89258656",
+          "gid": "1753114791720491011",
+          "size": "246083668"
+        }
+      }
     },
     "branches": {
       "public": {
-        "buildid": "25294908",
-        "timebuildupdated": "1789372372",
-        "timeupdated": "1789372488"
+        "buildid": "25328754",
+        "timebuildupdated": "1789493621",
+        "timeupdated": "1789494973"
       }
     },
     "privatebranches": "1",

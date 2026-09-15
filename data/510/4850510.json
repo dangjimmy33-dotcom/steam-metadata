@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789493337,
-  "_history": [],
-  "_change_number": 38682390,
-  "_missing_token": true,
-  "_sha": "b4336e99ae42846986d5b2d45520ebb3daa4b911",
-  "_size": 3336,
+  "_lastChecked": 1789501279,
+  "_history": [
+    {
+      "buildId": "24921046",
+      "branch": "public",
+      "timeUpdated": 1787634151,
+      "firstSeen": 1789501279,
+      "manifests": {
+        "4850511": {
+          "gid": "8116330863571609638",
+          "size": 8505159613,
+          "download": 7977792096
+        }
+      }
+    }
+  ],
+  "_change_number": 38906343,
+  "_missing_token": false,
+  "_sha": "4d4918d82507123a5b325c4af3e5ac79c84e9d20",
+  "_size": 4088,
   "appid": "4850510",
   "common": {
     "associations": {
@@ -35,6 +49,7 @@
     },
     "clienticon": "4a8d73bfefdc866b88cedd678696ab2f6e4f4ee7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -44,7 +59,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4850510",
     "genres": {
       "0": "1",
@@ -117,10 +131,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d7d0353b23640d944016184741b9a0e07d2ed697/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789497925",
     "store_asset_mtime": "1782263722",
     "store_tags": {
       "0": "19",
@@ -153,5 +168,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HKO",
+    "launch": {
+      "0": {
+        "executable": "HKO.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4850511": {
+      "manifests": {
+        "public": {
+          "download": "7977792096",
+          "gid": "8116330863571609638",
+          "size": "8505159613"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24921046",
+        "timebuildupdated": "1787633962",
+        "timeupdated": "1787634151"
+      }
+    }
+  },
+  "extended": {
+    "developer": "All4Ware",
+    "publisher": "All4Ware"
+  }
 }

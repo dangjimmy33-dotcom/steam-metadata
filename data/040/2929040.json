@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789491204,
-  "_history": [],
-  "_change_number": 38872089,
-  "_missing_token": true,
-  "_sha": "cdf977873b09d862292362a340ccc593996f2637",
-  "_size": 3893,
+  "_lastChecked": 1789498960,
+  "_history": [
+    {
+      "buildId": "25306467",
+      "branch": "public",
+      "timeUpdated": 1789412818,
+      "firstSeen": 1789498960,
+      "manifests": {
+        "2929041": {
+          "gid": "3521733652985751236",
+          "size": 3406324008,
+          "download": 2735973936
+        }
+      }
+    }
+  ],
+  "_change_number": 38903789,
+  "_missing_token": false,
+  "_sha": "1293547eecd3927f40d9c5972edaedb48aeb63fe",
+  "_size": 5206,
   "appid": "2929040",
   "common": {
     "associations": {
@@ -36,9 +50,9 @@
     "clienticon": "b1751a320f27d2b76b1957c72d3c0e21bc6ee21a",
     "clienttga": "985d8b22328f1a3313b9de94ee232a55eee13d51",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2929040",
     "genres": {
       "0": "2",
@@ -121,11 +135,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "afec61c05d1aa87d654962cf1e1fff03a633853c/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1789245986",
+    "steam_release_date": "1789491863",
+    "store_asset_mtime": "1789491761",
     "store_tags": {
       "0": "3959",
       "1": "1676",
@@ -183,5 +198,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fleetbreakers",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Fleetbreakers.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "2",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2929041": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2735973936",
+          "gid": "3521733652985751236",
+          "size": "3406324008"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25306467",
+        "timebuildupdated": "1789410652",
+        "timeupdated": "1789412818"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Last Keep",
+    "homepage": "https://www.lastkeep.com/",
+    "publisher": "Level Up Gaming"
+  },
+  "ufs": {
+    "maxnumfiles": "128",
+    "quota": "256000000",
+    "savefiles": {
+      "0": {
+        "path": "Fleetbreakers/Saved/{64BitSteamID}",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

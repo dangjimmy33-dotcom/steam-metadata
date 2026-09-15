@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789489999,
+  "_lastChecked": 1789497648,
   "_history": [
     {
       "buildId": "24805878",
@@ -102,12 +102,45 @@
           "download": 58905440
         }
       }
+    },
+    {
+      "buildId": "25327934",
+      "branch": "test_branch",
+      "timeUpdated": 1789491043,
+      "firstSeen": 1789497648,
+      "manifests": {
+        "1920961": {
+          "gid": "4641343303562138401",
+          "size": 1068327946,
+          "download": 679650448
+        },
+        "1920962": {
+          "gid": "1745357410881090990",
+          "size": 209331620,
+          "download": 95547664
+        },
+        "1920963": {
+          "gid": "6846356667737263086",
+          "size": 224059872,
+          "download": 101416048
+        },
+        "1920964": {
+          "gid": "7354674763120039474",
+          "size": 133291185,
+          "download": 58220816
+        },
+        "1920965": {
+          "gid": "6102929820983235397",
+          "size": 123435993,
+          "download": 58905440
+        }
+      }
     }
   ],
-  "_change_number": 38902707,
+  "_change_number": 38903442,
   "_missing_token": false,
-  "_sha": "594f7f09e043c77179aca448d091d65f98a2b80f",
-  "_size": 8704,
+  "_sha": "c8ad90b2b432358996dcb5c982587f9caee681d0",
+  "_size": 8655,
   "appid": "1920960",
   "common": {
     "associations": {
@@ -366,9 +399,6 @@
   },
   "depots": {
     "1920961": {
-      "config": {
-        "oslist": "windows"
-      },
       "manifests": {
         "public": {
           "download": "679650448",
@@ -399,9 +429,9 @@
           "size": "209331620"
         },
         "test_branch": {
-          "download": "680083744",
-          "gid": "1979907689743404543",
-          "size": "1068327946"
+          "download": "95547664",
+          "gid": "1745357410881090990",
+          "size": "209331620"
         },
         "without_environment": {
           "download": "95547664",
@@ -422,9 +452,9 @@
           "size": "224059872"
         },
         "test_branch": {
-          "download": "680091856",
-          "gid": "4851854417639350867",
-          "size": "1068327946"
+          "download": "101416048",
+          "gid": "6846356667737263086",
+          "size": "224059872"
         },
         "without_environment": {
           "download": "101416048",
@@ -465,10 +495,10 @@
         "timeupdated": "1787090314"
       },
       "test_branch": {
-        "buildid": "25327455",
+        "buildid": "25327934",
         "description": "test branch for laterst update",
-        "timebuildupdated": "1789489534",
-        "timeupdated": "1789489534"
+        "timebuildupdated": "1789491043",
+        "timeupdated": "1789491043"
       },
       "without_environment": {
         "buildid": "24805940",

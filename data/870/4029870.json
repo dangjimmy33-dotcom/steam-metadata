@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1789492477,
-  "_history": [],
-  "_change_number": 38877712,
-  "_missing_token": true,
-  "_sha": "998db000207624226e50dc3594d8b049f4457669",
-  "_size": 3152,
+  "_lastChecked": 1789500345,
+  "_history": [
+    {
+      "buildId": "25264150",
+      "branch": "beta",
+      "timeUpdated": 1789169061,
+      "firstSeen": 1789500345,
+      "manifests": {
+        "4029871": {
+          "gid": "2303449168388839289",
+          "size": 3279158688,
+          "download": 3070791600
+        }
+      }
+    },
+    {
+      "buildId": "25264150",
+      "branch": "public",
+      "timeUpdated": 1789169808,
+      "firstSeen": 1789500345,
+      "manifests": {
+        "4029871": {
+          "gid": "2303449168388839289",
+          "size": 3279158688,
+          "download": 3070791600
+        }
+      }
+    }
+  ],
+  "_change_number": 38905708,
+  "_missing_token": false,
+  "_sha": "97e58d26ede79391660e334138c75e1a4279f28a",
+  "_size": 4415,
   "appid": "4029870",
   "common": {
     "aicontenttype": "2",
@@ -37,7 +64,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4029870",
     "genres": {
       "0": "25",
@@ -109,7 +135,7 @@
     "osextended": "macosapplesilicon,macosnotarized",
     "oslist": "macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bb6ad1bfa44e7bca6c59092a713cac91b5554fa3/capsule_231x87.jpg"
     },
@@ -144,5 +170,70 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Game of Mods",
+    "launch": {
+      "0": {
+        "executable": "GameOfMods.app/Contents/MacOS/GameOfMods",
+        "workingdir": "."
+      }
+    },
+    "steamconfigurator3rdpartynative": "65531",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4029871": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "3070791600",
+          "gid": "2303449168388839289",
+          "size": "3279158688"
+        },
+        "public": {
+          "download": "3070791600",
+          "gid": "2303449168388839289",
+          "size": "3279158688"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "25264150",
+        "description": "Public beta branch",
+        "timebuildupdated": "1789169061",
+        "timeupdated": "1789169061"
+      },
+      "public": {
+        "buildid": "25264150",
+        "timebuildupdated": "1789169061",
+        "timeupdated": "1789169808"
+      }
+    },
+    "workshopdepot": "4029870"
+  },
+  "extended": {
+    "developer": "Arkavo LLC",
+    "homepage": "https://arkavo.com",
+    "publisher": "Arkavo LLC"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "GameOfMods/saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

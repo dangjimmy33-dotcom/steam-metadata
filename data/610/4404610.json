@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789492881,
-  "_history": [],
-  "_change_number": 38872486,
-  "_missing_token": true,
-  "_sha": "e09da4c3a3f91e979b0d7e2899643ce11b4449cd",
-  "_size": 3633,
+  "_lastChecked": 1789500786,
+  "_history": [
+    {
+      "buildId": "25244879",
+      "branch": "public",
+      "timeUpdated": 1789096371,
+      "firstSeen": 1789500786,
+      "manifests": {
+        "4404611": {
+          "gid": "2429520908412786761",
+          "size": 946751544,
+          "download": 360421344
+        },
+        "4404612": {
+          "gid": "6924485222972444470",
+          "size": 694020398,
+          "download": 312250016
+        },
+        "4404613": {
+          "gid": "713766722557454320",
+          "size": 922549772,
+          "download": 360169088
+        }
+      }
+    }
+  ],
+  "_change_number": 38905884,
+  "_missing_token": false,
+  "_sha": "a6828c45462c24b536484e1a397b3b15448db9b2",
+  "_size": 6377,
   "appid": "4404610",
   "common": {
     "associations": {
@@ -38,8 +62,8 @@
     },
     "clienticon": "e976f978b80752c8d0ecd6828669d111b173c375",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4404610",
     "genres": {
       "0": "4",
@@ -121,10 +145,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b0bf9915dff5272a3fcd1bbfd828a3a70388d146/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788314151",
     "store_tags": {
       "0": "597",
@@ -171,5 +196,134 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DR Dominoes",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "DR Dominoes executable",
+        "description_loc": {
+          "english": "DR Dominoes executable"
+        },
+        "executable": "DR Dominoes.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "DR Dominoes App",
+        "description_loc": {
+          "english": "DR Dominoes App"
+        },
+        "executable": "DR Dominoes.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "DR Dominoes File",
+        "description_loc": {
+          "english": "DR Dominoes File"
+        },
+        "executable": "DR Dominoes.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4404611": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "360421344",
+          "gid": "2429520908412786761",
+          "size": "946751544"
+        }
+      }
+    },
+    "4404612": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "312250016",
+          "gid": "6924485222972444470",
+          "size": "694020398"
+        }
+      }
+    },
+    "4404613": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "360169088",
+          "gid": "713766722557454320",
+          "size": "922549772"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,latam,portuguese,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25244879",
+        "timebuildupdated": "1789096371",
+        "timeupdated": "1789096371"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Gammes",
+    "homepage": "https://www.gammesofficial.com/",
+    "publisher": "Gammes"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/DR Dominoes/profiles/{64BitSteamID}",
+            "replace": "Godot/app_userdata/DR Dominoes/profiles/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/DR Dominoes/profiles/{64BitSteamID}",
+            "replace": "godot/app_userdata/DR Dominoes/profiles/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/DR Dominoes/profiles/{64BitSteamID}",
+        "pattern": "stats.dat",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
