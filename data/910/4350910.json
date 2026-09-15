@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789471936,
+  "_lastChecked": 1789478501,
   "_history": [
     {
       "buildId": "25075909",
@@ -18,12 +18,30 @@
           "download": 261490464
         }
       }
+    },
+    {
+      "buildId": "25322839",
+      "branch": "public",
+      "timeUpdated": 1789475990,
+      "firstSeen": 1789478501,
+      "manifests": {
+        "4350912": {
+          "gid": "6351727443160873427",
+          "size": 1805555688,
+          "download": 310005248
+        },
+        "4350914": {
+          "gid": "964860443477623024",
+          "size": 1789990322,
+          "download": 302613728
+        }
+      }
     }
   ],
-  "_change_number": 38883614,
+  "_change_number": 38896262,
   "_missing_token": false,
-  "_sha": "014efb5ffec7b8af14fcf8cbf9d6168eeceddd1b",
-  "_size": 4530,
+  "_sha": "2190fdc0e64677edac65c4eaf29eacda03a9230b",
+  "_size": 4587,
   "appid": "4350910",
   "common": {
     "aicontenttype": "1",
@@ -43,10 +61,12 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
       "category_62": "1"
     },
     "clienticon": "345647b8ba13a1a081c03b2e4e2d6717b8724147",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "gameid": "4350910",
     "genres": {
@@ -118,7 +138,7 @@
     "osarch": "64",
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
-    "primary_genre": "1",
+    "primary_genre": "23",
     "releasestate": "released",
     "small_capsule": {
       "english": "9692ae32e350569dfa2d55f57c3339743f89b5bf/capsule_231x87.jpg"
@@ -201,9 +221,9 @@
       },
       "manifests": {
         "public": {
-          "download": "268948976",
-          "gid": "1382964732476477936",
-          "size": "1737154810"
+          "download": "310005248",
+          "gid": "6351727443160873427",
+          "size": "1805555688"
         }
       }
     },
@@ -213,18 +233,18 @@
       },
       "manifests": {
         "public": {
-          "download": "261490464",
-          "gid": "44549097999744900",
-          "size": "1721687551"
+          "download": "302613728",
+          "gid": "964860443477623024",
+          "size": "1789990322"
         }
       }
     },
     "baselanguages": "english,french,italian,japanese,koreana,spanish,tchinese",
     "branches": {
       "public": {
-        "buildid": "25075909",
-        "timebuildupdated": "1788338900",
-        "timeupdated": "1788338900"
+        "buildid": "25322839",
+        "timebuildupdated": "1789475990",
+        "timeupdated": "1789475990"
       }
     }
   },

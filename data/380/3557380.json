@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789471164,
-  "_history": [],
-  "_change_number": 38866780,
-  "_missing_token": true,
-  "_sha": "63f856036546e239c36a2aef3e16d5f47ff926dd",
-  "_size": 3165,
+  "_lastChecked": 1789477729,
+  "_history": [
+    {
+      "buildId": "25303744",
+      "branch": "public",
+      "timeUpdated": 1789401446,
+      "firstSeen": 1789477729,
+      "manifests": {
+        "3557382": {
+          "gid": "8619133809247801398",
+          "size": 875560107,
+          "download": 210715664
+        }
+      }
+    }
+  ],
+  "_change_number": 38895220,
+  "_missing_token": false,
+  "_sha": "b84fa38cbdf23aff83c9671bd0b860a44ab8d74d",
+  "_size": 4029,
   "appid": "3557380",
   "common": {
     "associations": {
@@ -30,7 +44,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3557380",
     "genres": {
       "0": "25",
@@ -103,7 +116,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a20a1b1af2ad01f1ed500336059abe535b967db5/capsule_231x87.jpg"
     },
@@ -142,5 +155,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cake Up",
+    "launch": {
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CakeUp.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3557382": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "210715664",
+          "gid": "8619133809247801398",
+          "size": "875560107"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "25303744",
+        "timebuildupdated": "1789401393",
+        "timeupdated": "1789401446"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Cryolite Games",
+    "publisher": "Cryolite Games Studio"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789471429,
+  "_lastChecked": 1789477995,
   "_history": [
     {
       "buildId": "24809867",
@@ -115,12 +115,58 @@
           "download": 423659968
         }
       }
+    },
+    {
+      "buildId": "24809867",
+      "branch": "v1_5",
+      "timeUpdated": 1787227793,
+      "firstSeen": 1789477995,
+      "manifests": {
+        "3831082": {
+          "gid": "2649582842704414523",
+          "size": 577984124,
+          "download": 476817776
+        },
+        "3831083": {
+          "gid": "5334934896273357520",
+          "size": 636494301,
+          "download": 479516272
+        },
+        "3831084": {
+          "gid": "8595222156446098299",
+          "size": 522790225,
+          "download": 449273616
+        }
+      }
+    },
+    {
+      "buildId": "25322852",
+      "branch": "v1_6beta",
+      "timeUpdated": 1789476088,
+      "firstSeen": 1789477995,
+      "manifests": {
+        "3831082": {
+          "gid": "976843872067140214",
+          "size": 632144510,
+          "download": 495975824
+        },
+        "3831083": {
+          "gid": "4496121262550826367",
+          "size": 662264048,
+          "download": 493617456
+        },
+        "3831084": {
+          "gid": "4028393343395925738",
+          "size": 560123033,
+          "download": 462468000
+        }
+      }
     }
   ],
-  "_change_number": 38185437,
+  "_change_number": 38895842,
   "_missing_token": false,
-  "_sha": "099914cb55cd728442119a49c1a7f0651bea8153",
-  "_size": 14119,
+  "_sha": "e897c6b6c06f5d5ea83ca2e87151a9f719c248a8",
+  "_size": 16052,
   "appid": "3831080",
   "common": {
     "associations": {
@@ -530,6 +576,47 @@
           "english": "Compatibility Graphics Mode (If you are having rendering problems)"
         },
         "executable": "Oeuf.x86_64"
+      },
+      "6": {
+        "arguments": "--headless",
+        "config": {
+          "betakey": "v1_6beta",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "headless server",
+        "description_loc": {
+          "english": "headless server"
+        },
+        "executable": "Oeuf.exe",
+        "type": "server"
+      },
+      "7": {
+        "arguments": "--headless",
+        "config": {
+          "betakey": "v1_6beta",
+          "oslist": "macos"
+        },
+        "description": "headless server",
+        "description_loc": {
+          "english": "headless server"
+        },
+        "executable": "Oeuf.app/Contents/MacOS/Oeuf",
+        "type": "server"
+      },
+      "8": {
+        "arguments": "--headless",
+        "config": {
+          "betakey": "v1_6beta",
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "headless server",
+        "description_loc": {
+          "english": "headless server"
+        },
+        "executable": "Oeuf.x86_64",
+        "type": "server"
       }
     },
     "steamcontrollertemplateindex": "2",
@@ -565,6 +652,16 @@
           "download": "449380224",
           "gid": "8685246531584636755",
           "size": "548197476"
+        },
+        "v1_5": {
+          "download": "476817776",
+          "gid": "2649582842704414523",
+          "size": "577984124"
+        },
+        "v1_6beta": {
+          "download": "495975824",
+          "gid": "976843872067140214",
+          "size": "632144510"
         }
       }
     },
@@ -597,6 +694,16 @@
           "download": "458403088",
           "gid": "6999664242299799682",
           "size": "627422761"
+        },
+        "v1_5": {
+          "download": "479516272",
+          "gid": "5334934896273357520",
+          "size": "636494301"
+        },
+        "v1_6beta": {
+          "download": "493617456",
+          "gid": "4496121262550826367",
+          "size": "662264048"
         }
       }
     },
@@ -629,6 +736,16 @@
           "download": "423659968",
           "gid": "5661107322140753081",
           "size": "497847129"
+        },
+        "v1_5": {
+          "download": "449273616",
+          "gid": "8595222156446098299",
+          "size": "522790225"
+        },
+        "v1_6beta": {
+          "download": "462468000",
+          "gid": "4028393343395925738",
+          "size": "560123033"
         }
       }
     },
@@ -661,14 +778,28 @@
         "description": "v1.4",
         "timebuildupdated": "1781968941",
         "timeupdated": "1781974865"
+      },
+      "v1_5": {
+        "buildid": "24809867",
+        "description": "v1_5",
+        "timebuildupdated": "1787109293",
+        "timeupdated": "1787227793"
+      },
+      "v1_6beta": {
+        "buildid": "25322852",
+        "description": "test bracch of new oeuf v",
+        "timebuildupdated": "1789476029",
+        "timeupdated": "1789476088"
       }
     },
     "workshopdepot": "3831080"
   },
   "extended": {
     "developer": "increpare games",
+    "gamedir": "3831080",
     "homepage": "https://increpare.com",
-    "publisher": "increpare games"
+    "publisher": "increpare games",
+    "serverbrowsername": "Oeuf"
   },
   "ufs": {
     "maxnumfiles": "500",

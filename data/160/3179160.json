@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789470797,
-  "_history": [],
-  "_change_number": 38226232,
-  "_missing_token": true,
-  "_sha": "2119f81d386b9a8556b5a88a73cb5d866b27cebb",
-  "_size": 2936,
+  "_lastChecked": 1789477360,
+  "_history": [
+    {
+      "buildId": "24863293",
+      "branch": "public",
+      "timeUpdated": 1787320060,
+      "firstSeen": 1789477360,
+      "manifests": {
+        "3179161": {
+          "gid": "1461737847035834885",
+          "size": 754815103,
+          "download": 245364048
+        }
+      }
+    }
+  ],
+  "_change_number": 38893052,
+  "_missing_token": false,
+  "_sha": "041971a830c02aaf28410e6474db05033ccaace6",
+  "_size": 4029,
   "appid": "3179160",
   "common": {
     "associations": {
@@ -32,9 +46,9 @@
     "clienticon": "ae4693030dff8470b1483088f6215e928cc85e0e",
     "clienttga": "650f0073701d649cf91fdaa5b5bb29863504591d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3179160",
     "genres": {
       "0": "1",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e3527f461e605aaecd339f4e5584509d857a51e3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789470847",
     "store_asset_mtime": "1755179512",
     "store_tags": {
       "0": "3968",
@@ -136,5 +151,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HandCookingSimulator",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Chef Hands.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3179161": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "245364048",
+          "gid": "1461737847035834885",
+          "size": "754815103"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24863293",
+        "timebuildupdated": "1787320058",
+        "timeupdated": "1787320060"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Miam Games",
+    "isfreeapp": "1",
+    "publisher": " No Gravity Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Save",
+        "pattern": "SaveData.txt",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "Chef Hands_Data",
+        "pattern": "SaveData.txt",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "gameinstall"
+      }
+    }
+  }
 }

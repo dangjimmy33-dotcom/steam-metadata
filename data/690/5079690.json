@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789472563,
-  "_history": [],
-  "_change_number": 38776161,
-  "_missing_token": true,
-  "_sha": "c14ccd9d4587eb92b9cddeafac6718f3b44a32e4",
-  "_size": 3075,
+  "_lastChecked": 1789479130,
+  "_history": [
+    {
+      "buildId": "24669731",
+      "branch": "public",
+      "timeUpdated": 1786442761,
+      "firstSeen": 1789479130,
+      "manifests": {
+        "5079691": {
+          "gid": "1463616139723050118",
+          "size": 134449087,
+          "download": 118542992
+        },
+        "5079692": {
+          "gid": "7743389619659546268",
+          "size": 154597668,
+          "download": 126772352
+        }
+      }
+    }
+  ],
+  "_change_number": 38894455,
+  "_missing_token": false,
+  "_sha": "3292285195ab67f3e660884e0a5899ebd8e91c28",
+  "_size": 4455,
   "appid": "5079690",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +48,6 @@
     "clienticon": "4afc2e56b09ef917ee0208639ea4b2606f8da299",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5079690",
     "genres": {
       "0": "25",
@@ -102,10 +120,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7658b07bf1e2e2e08c6b86216b41903fdc7b0f59/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789473897",
     "store_asset_mtime": "1786429791",
     "store_tags": {
       "0": "122",
@@ -138,5 +157,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Grim wanderings reborn",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "GrimWanderings.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "bin/GrimWanderings"
+      }
+    }
+  },
+  "depots": {
+    "5079691": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "118542992",
+          "gid": "1463616139723050118",
+          "size": "134449087"
+        }
+      }
+    },
+    "5079692": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "126772352",
+          "gid": "7743389619659546268",
+          "size": "154597668"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "24669731",
+        "timebuildupdated": "1786442715",
+        "timeupdated": "1786442761"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Ellinia games",
+    "publisher": "Ellinia games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "30000000",
+    "savefiles": {
+      "0": {
+        "path": "GrimWanderings/saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": " .grim-wanderings/saves ",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

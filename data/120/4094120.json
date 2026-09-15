@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789471687,
+  "_lastChecked": 1789478253,
   "_history": [
     {
       "buildId": "25072936",
@@ -230,12 +230,58 @@
           "download": 388843456
         }
       }
+    },
+    {
+      "buildId": "25323481",
+      "branch": "beta",
+      "timeUpdated": 1789477948,
+      "firstSeen": 1789478253,
+      "manifests": {
+        "4094121": {
+          "gid": "8846742236444689328",
+          "size": 1389837577,
+          "download": 421820736
+        },
+        "4094122": {
+          "gid": "3252970949127019446",
+          "size": 321192603,
+          "download": 256190336
+        },
+        "4094123": {
+          "gid": "3778832070941000318",
+          "size": 1347661021,
+          "download": 388850928
+        }
+      }
+    },
+    {
+      "buildId": "25322785",
+      "branch": "public",
+      "timeUpdated": 1789476383,
+      "firstSeen": 1789478253,
+      "manifests": {
+        "4094121": {
+          "gid": "7887352332373431845",
+          "size": 1307699094,
+          "download": 429988960
+        },
+        "4094122": {
+          "gid": "7228740603937357791",
+          "size": 343791085,
+          "download": 281491584
+        },
+        "4094123": {
+          "gid": "4478376799737755208",
+          "size": 1311758786,
+          "download": 409598832
+        }
+      }
     }
   ],
-  "_change_number": 38886948,
+  "_change_number": 38896411,
   "_missing_token": false,
-  "_sha": "80bc96de87e7986944c4665cb218f37eea235549",
-  "_size": 9681,
+  "_sha": "cd69b5c0674dd0bece1da164ad6feeedd4e0d21f",
+  "_size": 9647,
   "appid": "4094120",
   "common": {
     "associations": {
@@ -518,7 +564,6 @@
         "type": "default"
       },
       "2": {
-        "arguments": "--use-gl-angle",
         "config": {
           "oslist": "linux"
         },
@@ -563,13 +608,13 @@
       },
       "manifests": {
         "beta": {
-          "download": "421812384",
-          "gid": "8049339508992305778",
-          "size": "1389815957"
+          "download": "421820736",
+          "gid": "8846742236444689328",
+          "size": "1389837577"
         },
         "public": {
-          "download": "429988976",
-          "gid": "1185062922448631045",
+          "download": "429988960",
+          "gid": "7887352332373431845",
           "size": "1307699094"
         }
       }
@@ -580,13 +625,13 @@
       },
       "manifests": {
         "beta": {
-          "download": "256132272",
-          "gid": "9165620586067951053",
-          "size": "321176187"
+          "download": "256190336",
+          "gid": "3252970949127019446",
+          "size": "321192603"
         },
         "public": {
-          "download": "281376576",
-          "gid": "4788125435648917077",
+          "download": "281491584",
+          "gid": "7228740603937357791",
           "size": "343791085"
         }
       }
@@ -597,29 +642,29 @@
       },
       "manifests": {
         "beta": {
-          "download": "388843456",
-          "gid": "1517931372801104146",
-          "size": "1347641724"
+          "download": "388850928",
+          "gid": "3778832070941000318",
+          "size": "1347661021"
         },
         "public": {
-          "download": "409598688",
-          "gid": "3536086947232095822",
-          "size": "1311758496"
+          "download": "409598832",
+          "gid": "4478376799737755208",
+          "size": "1311758786"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "beta": {
-        "buildid": "25317296",
+        "buildid": "25323481",
         "description": "Version 2.0 public beta",
-        "timebuildupdated": "1789457651",
-        "timeupdated": "1789457651"
+        "timebuildupdated": "1789477948",
+        "timeupdated": "1789477948"
       },
       "public": {
-        "buildid": "25271856",
-        "timebuildupdated": "1789222636",
-        "timeupdated": "1789222711"
+        "buildid": "25322785",
+        "timebuildupdated": "1789475862",
+        "timeupdated": "1789476383"
       }
     },
     "privatebranches": "1"

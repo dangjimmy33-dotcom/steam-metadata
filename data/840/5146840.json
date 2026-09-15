@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1789472607,
-  "_history": [],
-  "_change_number": 38877165,
-  "_missing_token": true,
-  "_sha": "65a5c75841aecece394126ec214c2a806e2fcb55",
-  "_size": 2880,
+  "_lastChecked": 1789479175,
+  "_history": [
+    {
+      "buildId": "25310556",
+      "branch": "playtest",
+      "timeUpdated": 1789426681,
+      "firstSeen": 1789479175,
+      "manifests": {
+        "5146841": {
+          "gid": "1102596949211362662",
+          "size": 2018129239,
+          "download": 605310592
+        }
+      }
+    },
+    {
+      "buildId": "25310556",
+      "branch": "public",
+      "timeUpdated": 1789426738,
+      "firstSeen": 1789479175,
+      "manifests": {
+        "5146841": {
+          "gid": "1102596949211362662",
+          "size": 2018129239,
+          "download": 605310592
+        }
+      }
+    }
+  ],
+  "_change_number": 38897018,
+  "_missing_token": false,
+  "_sha": "e0b9da9e27661da17d60a2550ccc4678e0608e14",
+  "_size": 3921,
   "appid": "5146840",
   "common": {
     "associations": {
@@ -30,7 +57,6 @@
     "clienticon": "2656ef44ac07636a61cf730c26bc05b91821fcea",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5146840",
     "genres": {
       "0": "4",
@@ -101,10 +127,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6a306b7bbb0481831a5dc749a0b4b109072ad5a1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789479091",
     "store_asset_mtime": "1787264051",
     "store_tags": {
       "0": "5652",
@@ -125,5 +152,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Game Store Cleanup",
+    "launch": {
+      "0": {
+        "executable": "GameStoreCleanup.exe"
+      }
+    }
+  },
+  "depots": {
+    "5146841": {
+      "manifests": {
+        "playtest": {
+          "download": "605310592",
+          "gid": "1102596949211362662",
+          "size": "2018129239"
+        },
+        "public": {
+          "download": "605310592",
+          "gid": "1102596949211362662",
+          "size": "2018129239"
+        }
+      }
+    },
+    "branches": {
+      "playtest": {
+        "buildid": "25310556",
+        "description": "playtest",
+        "timebuildupdated": "1789426681",
+        "timeupdated": "1789426681"
+      },
+      "public": {
+        "buildid": "25310556",
+        "timebuildupdated": "1789426681",
+        "timeupdated": "1789426738"
+      }
+    }
+  },
+  "extended": {
+    "developer": "PulseyCS",
+    "publisher": "DeerFox Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "DeerFox Studios\\GameStoreCleanup",
+        "pattern": "savegame*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

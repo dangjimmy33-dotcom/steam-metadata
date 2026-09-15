@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789472221,
-  "_history": [],
-  "_change_number": 38887354,
-  "_missing_token": true,
-  "_sha": "f1279dfb5ae069097f4bee0ab96be5551ad4869f",
-  "_size": 7541,
+  "_lastChecked": 1789478787,
+  "_history": [
+    {
+      "buildId": "25317541",
+      "branch": "public",
+      "timeUpdated": 1789458532,
+      "firstSeen": 1789478787,
+      "manifests": {
+        "4668871": {
+          "gid": "7135291790816265195",
+          "size": 5537697716,
+          "download": 5378667632
+        }
+      }
+    }
+  ],
+  "_change_number": 38894260,
+  "_missing_token": false,
+  "_sha": "dc600434c8dcc594745db31e24127ccf373215b7",
+  "_size": 8803,
   "appid": "4668870",
   "common": {
     "aicontenttype": "1",
@@ -40,9 +54,9 @@
     },
     "clienticon": "7c996c5cf1871bfff3a7d402d59a4d33940c1123",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4668870",
     "genres": {
       "0": "28"
@@ -153,7 +167,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "40e64c2570cc0c02cb25aa60b369e497438fd545/capsule_231x87.jpg",
       "japanese": "d77b945281bbd5f605e2530a9fcd6fa7c296333d/capsule_231x87_japanese.jpg",
@@ -161,6 +175,7 @@
       "schinese": "2fa2be0f10f88f00c53f2e0cdd64d3c615e7529e/capsule_231x87_schinese.jpg",
       "tchinese": "17c32789be273266eeafa57768c2a4039a110b1c/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789473519",
     "store_asset_mtime": "1787907879",
     "store_tags": {
       "0": "1702",
@@ -257,5 +272,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Medieval Juice Crafter",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MedievalJuiceCrafter.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4668871": {
+      "manifests": {
+        "public": {
+          "download": "5378667632",
+          "gid": "7135291790816265195",
+          "size": "5537697716"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25317541",
+        "timebuildupdated": "1789458465",
+        "timeupdated": "1789458532"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Timeless Rush",
+    "publisher": "GrabTheGames"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "MedievalJuiceCrafter\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

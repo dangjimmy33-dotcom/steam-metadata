@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789471753,
-  "_history": [],
-  "_change_number": 38864287,
-  "_missing_token": true,
-  "_sha": "7ddf1408883a497473d078f3ed3db6d7cf47e4fa",
-  "_size": 4338,
+  "_lastChecked": 1789478320,
+  "_history": [
+    {
+      "buildId": "25322591",
+      "branch": "public",
+      "timeUpdated": 1789476869,
+      "firstSeen": 1789478320,
+      "manifests": {
+        "4162672": {
+          "gid": "449241742600550811",
+          "size": 520369408,
+          "download": 297710608
+        },
+        "4162673": {
+          "gid": "5228708519137728022",
+          "size": 486035384,
+          "download": 289289312
+        },
+        "4162674": {
+          "gid": "8477245547665100410",
+          "size": 585154751,
+          "download": 317551536
+        }
+      }
+    }
+  ],
+  "_change_number": 38896101,
+  "_missing_token": false,
+  "_sha": "11abfa001e114e9e9fc33f5bd0bfb2a413478703",
+  "_size": 5975,
   "appid": "4162670",
   "common": {
     "associations": {
@@ -34,9 +58,9 @@
     },
     "clienticon": "8b0b070ae831adc1b04fe53ca940470ddc6cb5d8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4162670",
     "genres": {
       "0": "4",
@@ -121,10 +145,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c35735d01deefcc75d4b26066f681f4484b93d8a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789477283",
     "store_asset_mtime": "1787321237",
     "store_tags": {
       "0": "6214",
@@ -202,5 +227,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Look to the Birds",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "LTTB.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "LTTB.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Look to the Birds.app/Contents/MacOS/Look to the Birds",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4162671": {},
+    "4162672": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "297710608",
+          "gid": "449241742600550811",
+          "size": "520369408"
+        }
+      }
+    },
+    "4162673": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "289289312",
+          "gid": "5228708519137728022",
+          "size": "486035384"
+        }
+      }
+    },
+    "4162674": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "317551536",
+          "gid": "8477245547665100410",
+          "size": "585154751"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25322591",
+        "timebuildupdated": "1789475256",
+        "timeupdated": "1789476869"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Soltorch Games",
+    "homepage": "https://soltorch.com/",
+    "publisher": "Soltorch Games"
+  }
 }

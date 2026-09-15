@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789471780,
+  "_lastChecked": 1789478347,
   "_history": [
     {
       "buildId": "25315151",
@@ -26,12 +26,38 @@
           "download": 699410512
         }
       }
+    },
+    {
+      "buildId": "25316924",
+      "branch": "previousbuild",
+      "timeUpdated": 1789472758,
+      "firstSeen": 1789478347,
+      "manifests": {
+        "4190241": {
+          "gid": "2951659351285812424",
+          "size": 1663253628,
+          "download": 699410512
+        }
+      }
+    },
+    {
+      "buildId": "25321653",
+      "branch": "public",
+      "timeUpdated": 1789472634,
+      "firstSeen": 1789478347,
+      "manifests": {
+        "4190241": {
+          "gid": "7056780445337816314",
+          "size": 1663304044,
+          "download": 699430624
+        }
+      }
     }
   ],
-  "_change_number": 38886368,
+  "_change_number": 38896586,
   "_missing_token": false,
-  "_sha": "31b504b16343af0f894bba9ff0b5ef3a3e376eea",
-  "_size": 5317,
+  "_sha": "0101ddce79d17c8d8b2903f0c0bac75ef95e7090",
+  "_size": 5673,
   "appid": "4190240",
   "common": {
     "aicontenttype": "1",
@@ -138,6 +164,8 @@
     "oslist": "windows",
     "primary_genre": "23",
     "releasestate": "released",
+    "review_percentage": "92",
+    "review_score": "7",
     "small_capsule": {
       "english": "e76f2e4bad2095ae726e6f91caabc6a33d26d45f/capsule_231x87.jpg"
     },
@@ -228,19 +256,30 @@
   "depots": {
     "4190241": {
       "manifests": {
+        "previousbuild": {
+          "download": "699410512",
+          "gid": "2951659351285812424",
+          "size": "1663253628"
+        },
         "proton": {
           "download": "699410512",
           "gid": "2951659351285812424",
           "size": "1663253628"
         },
         "public": {
-          "download": "699408928",
-          "gid": "811944215167615771",
-          "size": "1663250763"
+          "download": "699430624",
+          "gid": "7056780445337816314",
+          "size": "1663304044"
         }
       }
     },
     "branches": {
+      "previousbuild": {
+        "buildid": "25316924",
+        "description": "previous build in case anything breaks",
+        "timebuildupdated": "1789455893",
+        "timeupdated": "1789472758"
+      },
       "proton": {
         "buildid": "25316924",
         "description": "protonbugtests",
@@ -248,9 +287,9 @@
         "timeupdated": "1789456098"
       },
       "public": {
-        "buildid": "25315151",
-        "timebuildupdated": "1789447143",
-        "timeupdated": "1789447470"
+        "buildid": "25321653",
+        "timebuildupdated": "1789472334",
+        "timeupdated": "1789472634"
       }
     }
   },
