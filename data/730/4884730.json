@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789445875,
-  "_history": [],
-  "_change_number": 38877797,
-  "_missing_token": true,
-  "_sha": "bc073b17cee08f94085a233b55466893c3b99514",
-  "_size": 3610,
+  "_lastChecked": 1789452729,
+  "_history": [
+    {
+      "buildId": "25311065",
+      "branch": "public",
+      "timeUpdated": 1789428931,
+      "firstSeen": 1789452729,
+      "manifests": {
+        "4884732": {
+          "gid": "2876120390880170104",
+          "size": 713161676,
+          "download": 283567584
+        }
+      }
+    }
+  ],
+  "_change_number": 38884077,
+  "_missing_token": false,
+  "_sha": "1929256151ff3e5d1c079a6c188d4c5be32174d7",
+  "_size": 4796,
   "appid": "4884730",
   "common": {
     "associations": {
@@ -23,16 +37,18 @@
       "category_35": "1",
       "category_36": "1",
       "category_38": "1",
-      "category_62": "1"
+      "category_49": "1",
+      "category_62": "1",
+      "category_9": "1"
     },
     "clienticon": "5a3b04e8470a64102eadf32a28c0234a11fb88b8",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4884730",
     "genres": {
-      "0": "2",
-      "1": "37"
+      "0": "4",
+      "1": "2",
+      "2": "37"
     },
     "header_image": {
       "english": "0e640c8eefc9e255990199cd8fb4734035f5b979/header.jpg"
@@ -99,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2a3f31bcb32061f97af1459f5c6550fec4335e2f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789446059",
     "store_asset_mtime": "1787709203",
     "store_tags": {
       "0": "597",
@@ -139,6 +156,10 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "italian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "japanese": {
         "subtitles": "true",
         "supported": "true"
@@ -151,25 +172,82 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "polish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "portuguese": {
         "subtitles": "true",
         "supported": "true"
       },
       "russian": {
-        "full_audio": "true",
         "subtitles": "true",
         "supported": "true"
       },
       "schinese": {
+        "full_audio": "true",
         "subtitles": "true",
         "supported": "true"
       },
       "spanish": {
         "subtitles": "true",
         "supported": "true"
+      },
+      "thai": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "turkish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "ukrainian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "vietnamese": {
+        "subtitles": "true",
+        "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "AVALONCLASH",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "AvalonClash.exe"
+      }
+    }
+  },
+  "depots": {
+    "4884732": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "283567584",
+          "gid": "2876120390880170104",
+          "size": "713161676"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,japanese,koreana,portuguese,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25311065",
+        "timebuildupdated": "1789428899",
+        "timeupdated": "1789428931"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Allen",
+    "isfreeapp": "1",
+    "publisher": "FUNIU"
+  }
 }

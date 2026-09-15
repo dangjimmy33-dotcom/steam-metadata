@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789446120,
-  "_history": [],
-  "_change_number": 38498188,
-  "_missing_token": true,
-  "_sha": "e6b88c3f7c5538350faa8d5cd3083ece282dd585",
-  "_size": 3635,
+  "_lastChecked": 1789452931,
+  "_history": [
+    {
+      "buildId": "24860091",
+      "branch": "public",
+      "timeUpdated": 1787310048,
+      "firstSeen": 1789452931,
+      "manifests": {
+        "5125491": {
+          "gid": "9189231077169771564",
+          "size": 358956266,
+          "download": 197268640
+        }
+      }
+    }
+  ],
+  "_change_number": 38884776,
+  "_missing_token": false,
+  "_sha": "64ae3ccc14ad2748dee94ed4d547d9d3be2ec9a9",
+  "_size": 4246,
   "appid": "5125490",
   "common": {
     "aicontenttype": "1",
@@ -35,7 +49,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5125490",
     "genres": {
       "0": "25",
@@ -106,7 +119,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c7178d013fbbd2100a3d9f2c6b10872a4b8c1d13/capsule_231x87.jpg"
     },
@@ -172,5 +185,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sicarios",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Sicarios.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5125491": {
+      "manifests": {
+        "public": {
+          "download": "197268640",
+          "gid": "9189231077169771564",
+          "size": "358956266"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24860091",
+        "timebuildupdated": "1787309984",
+        "timeupdated": "1787310048"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Bonuman Game Studio",
+    "homepage": "https://bonumangame.com/",
+    "publisher": "Bonuman Game Studio"
+  }
 }

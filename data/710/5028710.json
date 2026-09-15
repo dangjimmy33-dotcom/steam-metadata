@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789446030,
-  "_history": [],
-  "_change_number": 38815166,
-  "_missing_token": true,
-  "_sha": "bdbde652395d33dbf06faf6430b2cd678bb442f7",
-  "_size": 3084,
+  "_lastChecked": 1789452856,
+  "_history": [
+    {
+      "buildId": "25269001",
+      "branch": "public",
+      "timeUpdated": 1789203037,
+      "firstSeen": 1789452856,
+      "manifests": {
+        "5028711": {
+          "gid": "9143599683119646109",
+          "size": 184124717,
+          "download": 60118272
+        }
+      }
+    }
+  ],
+  "_change_number": 38884188,
+  "_missing_token": false,
+  "_sha": "1d1a5ad0b4ff5cff17f3f0c09eee1942122d7e57",
+  "_size": 3624,
   "appid": "5028710",
   "common": {
     "aicontenttype": "1",
@@ -30,12 +44,10 @@
     "clienticon": "6bce28307af7216ec793a9efda89ba08d4fb1735",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5028710",
     "genres": {
       "0": "1",
-      "1": "23",
-      "2": "70"
+      "1": "23"
     },
     "header_image": {
       "english": "cb36eba3b716e67fc2930b9c6b166fc91d3f99fe/header.jpg"
@@ -102,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5cdfebfbd989ea47a3e433b078c63169acd5c6db/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789449734",
     "store_asset_mtime": "1787867532",
     "store_tags": {
       "0": "42804",
@@ -139,5 +152,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "NovaShift Universe",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "NovaShift.exe"
+      }
+    }
+  },
+  "depots": {
+    "5028711": {
+      "manifests": {
+        "public": {
+          "download": "60118272",
+          "gid": "9143599683119646109",
+          "size": "184124717"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25269001",
+        "timebuildupdated": "1789202834",
+        "timeupdated": "1789203037"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Candan26",
+    "publisher": "Candan26"
+  }
 }

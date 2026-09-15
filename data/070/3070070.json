@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789443695,
+  "_lastChecked": 1789450922,
   "_history": [
     {
       "buildId": "20509189",
@@ -91,12 +91,25 @@
           "download": 2018078720
         }
       }
+    },
+    {
+      "buildId": "25304508",
+      "branch": "1.0newrender",
+      "timeUpdated": 1789412989,
+      "firstSeen": 1789450922,
+      "manifests": {
+        "3070071": {
+          "gid": "1762163805119221632",
+          "size": 4977494100,
+          "download": 1650459648
+        }
+      }
     }
   ],
-  "_change_number": 38881935,
+  "_change_number": 38883792,
   "_missing_token": false,
-  "_sha": "3f213b6960ce1b416de3db15347f6d604b56c27e",
-  "_size": 8882,
+  "_sha": "c2daff0f5f3797515149fc4a95475792de58b796",
+  "_size": 9236,
   "appid": "3070070",
   "common": {
     "associations": {
@@ -393,6 +406,11 @@
           "gid": "7079531578204338127",
           "size": "6001492923"
         },
+        "1.0newrender": {
+          "download": "1650459648",
+          "gid": "1762163805119221632",
+          "size": "4977494100"
+        },
         "public": {
           "download": "2018078720",
           "gid": "7079531578204338127",
@@ -423,12 +441,18 @@
         "buildid": "25119539",
         "description": "Old rendering style for 1.0 if there is high GPU usage in the main branch",
         "timebuildupdated": "1788510151",
-        "timeupdated": "1789412165"
+        "timeupdated": "1789446484"
+      },
+      "1.0newrender": {
+        "buildid": "25304508",
+        "description": "New rendering style for 1.0 which is optimized for higher end PC, might have visual bugs",
+        "timebuildupdated": "1789403691",
+        "timeupdated": "1789412989"
       },
       "public": {
         "buildid": "25119539",
         "timebuildupdated": "1788510151",
-        "timeupdated": "1789441088"
+        "timeupdated": "1789446484"
       }
     },
     "privatebranches": "1"

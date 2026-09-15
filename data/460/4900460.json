@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789445893,
-  "_history": [],
-  "_change_number": 38855411,
-  "_missing_token": true,
-  "_sha": "ec6a4d62d9fdd83f5301f5fe04bf9621b3fccdfd",
-  "_size": 3429,
+  "_lastChecked": 1789452744,
+  "_history": [
+    {
+      "buildId": "25295486",
+      "branch": "public",
+      "timeUpdated": 1789375745,
+      "firstSeen": 1789452744,
+      "manifests": {
+        "4900462": {
+          "gid": "1071590385667479923",
+          "size": 558976792,
+          "download": 300871488
+        }
+      }
+    }
+  ],
+  "_change_number": 38884147,
+  "_missing_token": false,
+  "_sha": "ca848aead4600dd65af34fee20902cfb736873d5",
+  "_size": 4581,
   "appid": "4900460",
   "common": {
     "associations": {
@@ -34,8 +48,8 @@
     },
     "clienticon": "124dd7b084baaf8372c1bb725db914bbddea8561",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4900460",
     "genres": {
       "0": "4",
@@ -106,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "be16394ee3720456f6df5519fde418825b2af118/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789449601",
     "store_asset_mtime": "1786806235",
     "store_tags": {
       "0": "7178",
@@ -156,5 +171,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Poly Peacocks",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Poly-peacocks.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4900462": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "download": "300871488",
+          "gid": "1071590385667479923",
+          "size": "558976792"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25295486",
+        "timebuildupdated": "1789374451",
+        "timeupdated": "1789375745"
+      }
+    }
+  },
+  "extended": {
+    "developer": "StatcSquid",
+    "publisher": "StatcSquid"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "StatcSquid/Poly-peacocks/CloudSave",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "StatcSquid/Poly-peacocks/VoiceSfx",
+        "pattern": "*.wav",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "StatcSquid/Poly-peacocks",
+        "pattern": "DealtPrompts.txt",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789446004,
+  "_lastChecked": 1789452835,
   "_history": [
     {
       "buildId": "25223328",
@@ -391,12 +391,25 @@
           "download": 1478074336
         }
       }
+    },
+    {
+      "buildId": "25315882",
+      "branch": "test-015",
+      "timeUpdated": 1789451249,
+      "firstSeen": 1789452835,
+      "manifests": {
+        "5001631": {
+          "gid": "1556886529777665435",
+          "size": 3534225937,
+          "download": 1538530144
+        }
+      }
     }
   ],
-  "_change_number": 38839673,
+  "_change_number": 38884638,
   "_missing_token": false,
-  "_sha": "788d46a907a9acc95b104349440c8bfe3daa2a3e",
-  "_size": 8981,
+  "_sha": "7693278720f65b7a72c3f130049f454ba4b6ef3b",
+  "_size": 9279,
   "appid": "5001630",
   "common": {
     "aicontenttype": "1",
@@ -680,9 +693,24 @@
           "size": "3388341409"
         },
         "test-015": {
-          "download": "1460442704",
-          "gid": "775697001375161395",
-          "size": "3355097105"
+          "download": "1538530144",
+          "gid": "1556886529777665435",
+          "size": "3534225937"
+        }
+      }
+    },
+    "5074810": {
+      "dlcappid": "5074810",
+      "manifests": {
+        "legacy": {
+          "download": "167114656",
+          "gid": "468353041800858799",
+          "size": "168925397"
+        },
+        "test-0110": {
+          "download": "167114656",
+          "gid": "468353041800858799",
+          "size": "168925397"
         }
       }
     },
@@ -706,10 +734,10 @@
         "timeupdated": "1789241697"
       },
       "test-015": {
-        "buildid": "25254731",
+        "buildid": "25315882",
         "description": "Jiahao 0.1.5 test",
-        "timebuildupdated": "1789134378",
-        "timeupdated": "1789134378"
+        "timebuildupdated": "1789450979",
+        "timeupdated": "1789451249"
       }
     },
     "hasdepotsindlc": "0",

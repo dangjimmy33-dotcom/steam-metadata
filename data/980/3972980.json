@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789444827,
+  "_lastChecked": 1789451860,
   "_history": [
     {
       "buildId": "24667939",
@@ -143,11 +143,37 @@
           "download": 319514256
         }
       }
+    },
+    {
+      "buildId": "25267462",
+      "branch": "prev_stableish",
+      "timeUpdated": 1789191105,
+      "firstSeen": 1789451860,
+      "manifests": {
+        "3972981": {
+          "gid": "1553956910860063198",
+          "size": 446571326,
+          "download": 319514256
+        }
+      }
+    },
+    {
+      "buildId": "25315734",
+      "branch": "public",
+      "timeUpdated": 1789450244,
+      "firstSeen": 1789451860,
+      "manifests": {
+        "3972981": {
+          "gid": "2413447347004100484",
+          "size": 446571966,
+          "download": 319514656
+        }
+      }
     }
   ],
-  "_change_number": 38815993,
+  "_change_number": 38884351,
   "_missing_token": false,
-  "_sha": "a3659ca408ed68abef85637e9c37ed45cab1ce1c",
+  "_sha": "39373d1dab5966623625cf3a7224226c8c884cd5",
   "_size": 6412,
   "appid": "3972980",
   "common": {
@@ -379,28 +405,28 @@
     "3972981": {
       "manifests": {
         "prev_stableish": {
-          "download": "318570240",
-          "gid": "8627684616196162881",
-          "size": "445105810"
-        },
-        "public": {
           "download": "319514256",
           "gid": "1553956910860063198",
           "size": "446571326"
+        },
+        "public": {
+          "download": "319514656",
+          "gid": "2413447347004100484",
+          "size": "446571966"
         }
       }
     },
     "branches": {
       "prev_stableish": {
-        "buildid": "24811384",
-        "description": "The previous most stable version.",
-        "timebuildupdated": "1787117882",
-        "timeupdated": "1787117903"
-      },
-      "public": {
         "buildid": "25267462",
+        "description": "The previous most stable version.",
         "timebuildupdated": "1789191051",
         "timeupdated": "1789191105"
+      },
+      "public": {
+        "buildid": "25315734",
+        "timebuildupdated": "1789450225",
+        "timeupdated": "1789450244"
       }
     }
   },

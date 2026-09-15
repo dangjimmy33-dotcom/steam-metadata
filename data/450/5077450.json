@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789446078,
-  "_history": [],
-  "_change_number": 38882775,
-  "_missing_token": true,
-  "_sha": "71e35afcb5552986229bd578b5ef807e636fbaa6",
-  "_size": 2766,
+  "_lastChecked": 1789452896,
+  "_history": [
+    {
+      "buildId": "25315076",
+      "branch": "public",
+      "timeUpdated": 1789446761,
+      "firstSeen": 1789452896,
+      "manifests": {
+        "5077451": {
+          "gid": "7828336969960168715",
+          "size": 280343467,
+          "download": 41163856
+        }
+      }
+    }
+  ],
+  "_change_number": 38884820,
+  "_missing_token": false,
+  "_sha": "d411f4e858405897341a6f6f3784baf642c0b502",
+  "_size": 3510,
   "appid": "5077450",
   "common": {
     "associations": {
@@ -26,8 +40,8 @@
     },
     "clienticon": "76783c22cd98476bcd9f662a21843f2e9debe90c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5077450",
     "genres": {
       "0": "4",
@@ -94,15 +108,17 @@
         }
       }
     },
+    "market_presence": "1",
     "name": "TapyBuddy",
     "osarch": "64",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bd719fd6d3d655ffe204e823ed508f48c3464bb1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788521644",
     "store_tags": {
       "0": "597",
@@ -123,5 +139,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TapyBuddy",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TapyBuddy.exe"
+      }
+    }
+  },
+  "depots": {
+    "5077451": {
+      "manifests": {
+        "public": {
+          "download": "41163856",
+          "gid": "7828336969960168715",
+          "size": "280343467"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25315076",
+        "timebuildupdated": "1789446738",
+        "timeupdated": "1789446761"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Shady Monkey Studios",
+    "dlcavailableonstore": "1",
+    "isfreeapp": "1",
+    "listofdlc": "5139210",
+    "publisher": "Shady Monkey Studios"
+  }
 }

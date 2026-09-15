@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789446074,
+  "_lastChecked": 1789452892,
   "_history": [
     {
       "buildId": "25069312",
@@ -52,12 +52,30 @@
           "download": 180126320
         }
       }
+    },
+    {
+      "buildId": "25315012",
+      "branch": "public",
+      "timeUpdated": 1789447083,
+      "firstSeen": 1789452892,
+      "manifests": {
+        "5073101": {
+          "gid": "2271919100161547162",
+          "size": 415182815,
+          "download": 180122848
+        },
+        "5073102": {
+          "gid": "5362344941041470061",
+          "size": 377259996,
+          "download": 161813488
+        }
+      }
     }
   ],
-  "_change_number": 38882599,
+  "_change_number": 38883441,
   "_missing_token": false,
-  "_sha": "f33f78ce3bd512fb4f9e2211ac9f221184c90e0c",
-  "_size": 4767,
+  "_sha": "66ebcd19e21edf064818993a90ee2ac4b11f8d50",
+  "_size": 5373,
   "appid": "5073100",
   "common": {
     "aicontenttype": "1",
@@ -164,7 +182,7 @@
     "name": "Cyber Classics Collection",
     "osarch": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "4",
     "releasestate": "released",
     "small_capsule": {
@@ -241,6 +259,12 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "Cyber Classics Collection",
     "launch": {
       "0": {
@@ -250,25 +274,47 @@
         },
         "executable": "CyberCollection.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "CyberCollection",
+        "type": "default"
       }
     }
   },
   "depots": {
     "5073101": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "180126320",
-          "gid": "689419189949013927",
-          "size": "415116582"
+          "download": "180122848",
+          "gid": "2271919100161547162",
+          "size": "415182815"
         }
       }
     },
-    "5073102": {},
+    "5073102": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "161813488",
+          "gid": "5362344941041470061",
+          "size": "377259996"
+        }
+      }
+    },
     "branches": {
       "public": {
-        "buildid": "25314496",
-        "timebuildupdated": "1789444011",
-        "timeupdated": "1789444380"
+        "buildid": "25315012",
+        "timebuildupdated": "1789446482",
+        "timeupdated": "1789447083"
       }
     }
   },
@@ -279,13 +325,19 @@
   "ufs": {
     "maxnumfiles": "100",
     "quota": "1048576",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "CyberCollection/saves",
         "pattern": "*.json",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataRoaming"
       }
     }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789440410,
+  "_lastChecked": 1789448213,
   "_history": [
     {
       "buildId": "3294116",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 38875358,
+  "_change_number": 38881752,
   "_missing_token": false,
-  "_sha": "76965c28614a5401d731b75745efa088b1e14d89",
-  "_size": 1902,
+  "_sha": "4e7f39061056fbfb84e4dc00c1e2327f553c91b2",
+  "_size": 1978,
   "appid": "654640",
   "common": {
     "associations": {
@@ -90,12 +90,15 @@
     "installdir": "7 Pillars",
     "launch": {
       "0": {
+        "arguments": "--in-process-gpu",
         "config": {
           "oslist": "windows"
         },
         "description": "Launch",
-        "executable": "Game.exe",
-        "type": "none"
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "Game.exe"
       }
     }
   },
