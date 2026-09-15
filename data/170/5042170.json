@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789479102,
+  "_lastChecked": 1789486053,
   "_history": [
     {
       "buildId": "25085060",
@@ -23,12 +23,35 @@
           "download": 29619360
         }
       }
+    },
+    {
+      "buildId": "25324944",
+      "branch": "public",
+      "timeUpdated": 1789484545,
+      "firstSeen": 1789486053,
+      "manifests": {
+        "5042171": {
+          "gid": "4495058758951856086",
+          "size": 115594492,
+          "download": 38100912
+        },
+        "5042172": {
+          "gid": "6058270311141337651",
+          "size": 180111640,
+          "download": 57937552
+        },
+        "5042173": {
+          "gid": "1329037457397985539",
+          "size": 80520868,
+          "download": 29636208
+        }
+      }
     }
   ],
-  "_change_number": 38869488,
+  "_change_number": 38900246,
   "_missing_token": false,
-  "_sha": "6ee6fc61f139101587399e7ba1f6aff536cff94e",
-  "_size": 4647,
+  "_sha": "683812100e5c7067c2afc5688010bbf3add74e2c",
+  "_size": 4760,
   "appid": "5042170",
   "common": {
     "associations": {
@@ -179,7 +202,10 @@
         },
         "executable": "Macchinato.x86_64"
       }
-    }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "5042171": {
@@ -188,9 +214,9 @@
       },
       "manifests": {
         "public": {
-          "download": "38084064",
-          "gid": "4075304211230416508",
-          "size": "115568720"
+          "download": "38100912",
+          "gid": "4495058758951856086",
+          "size": "115594492"
         }
       }
     },
@@ -200,9 +226,9 @@
       },
       "manifests": {
         "public": {
-          "download": "57920704",
-          "gid": "2508826022768002839",
-          "size": "180085868"
+          "download": "57937552",
+          "gid": "6058270311141337651",
+          "size": "180111640"
         }
       }
     },
@@ -212,17 +238,17 @@
       },
       "manifests": {
         "public": {
-          "download": "29619360",
-          "gid": "2146083850544564044",
-          "size": "80495096"
+          "download": "29636208",
+          "gid": "1329037457397985539",
+          "size": "80520868"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25085060",
-        "timebuildupdated": "1788369509",
-        "timeupdated": "1788375720"
+        "buildid": "25324944",
+        "timebuildupdated": "1789482021",
+        "timeupdated": "1789484545"
       }
     },
     "privatebranches": "1"

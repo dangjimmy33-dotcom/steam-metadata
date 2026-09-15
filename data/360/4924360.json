@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789479005,
-  "_history": [],
-  "_change_number": 38895380,
-  "_missing_token": true,
-  "_sha": "2e5c55ca1ff2fa5d1ce7fc862e935ba13c60f095",
-  "_size": 4424,
+  "_lastChecked": 1789485949,
+  "_history": [
+    {
+      "buildId": "25322713",
+      "branch": "public",
+      "timeUpdated": 1789475908,
+      "firstSeen": 1789485949,
+      "manifests": {
+        "4924361": {
+          "gid": "6551803100513726430",
+          "size": 3737557422,
+          "download": 3595481888
+        }
+      }
+    }
+  ],
+  "_change_number": 38899428,
+  "_missing_token": false,
+  "_sha": "f9aa009eeccd6bb9b649f82f91e2b92cbea1683d",
+  "_size": 5321,
   "appid": "4924360",
   "common": {
     "associations": {
@@ -26,7 +40,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4924360",
     "genres": {
       "0": "23",
@@ -110,7 +123,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "33859b620cf225b45b41ad1a77316d6ee4177364/capsule_231x87.jpg",
       "russian": "f2a1e21c1cb67390d12f3e09e07c930c7afd83f7/capsule_231x87_russian.jpg"
@@ -170,5 +183,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Take Care of My Heifer",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Take_Care_of_My_Heifer.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4924361": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3595481888",
+          "gid": "6551803100513726430",
+          "size": "3737557422"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25322713",
+        "timebuildupdated": "1789475643",
+        "timeupdated": "1789475908"
+      }
+    }
+  },
+  "extended": {
+    "developer": "REVVALUTION Studio",
+    "publisher": "REVVALUTION Studio"
+  }
 }

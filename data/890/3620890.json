@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1789477795,
-  "_history": [],
-  "_change_number": 38872734,
-  "_missing_token": true,
-  "_sha": "60a8981e180c7741a8567a9e0688b0ca71245ce0",
-  "_size": 3282,
+  "_lastChecked": 1789484673,
+  "_history": [
+    {
+      "buildId": "25307388",
+      "branch": "beta",
+      "timeUpdated": 1789414402,
+      "firstSeen": 1789484673,
+      "manifests": {
+        "3620891": {
+          "gid": "5404919382702027213",
+          "size": 326664768,
+          "download": 253900272
+        },
+        "3620892": {
+          "gid": "1048652852217765805",
+          "size": 448291405,
+          "download": 350382544
+        }
+      }
+    },
+    {
+      "buildId": "25307388",
+      "branch": "public",
+      "timeUpdated": 1789414409,
+      "firstSeen": 1789484673,
+      "manifests": {
+        "3620891": {
+          "gid": "5404919382702027213",
+          "size": 326664768,
+          "download": 253900272
+        },
+        "3620892": {
+          "gid": "1048652852217765805",
+          "size": 448291405,
+          "download": 350382544
+        }
+      }
+    }
+  ],
+  "_change_number": 38898020,
+  "_missing_token": false,
+  "_sha": "49128c85a15a297c83eb3b18b881c3beff2742d8",
+  "_size": 5898,
   "appid": "3620890",
   "common": {
     "associations": {
@@ -32,9 +69,9 @@
     "clienticon": "041b80107de7c739cff1849e75543016b1027d63",
     "clienttga": "66b82c9864138c5f5f2b5a09d746151d0a1f0b96",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3620890",
     "genres": {
       "0": "1",
@@ -107,12 +144,13 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "186d2bd10e1996acf42caeeb0fab689986518b81/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/3620890/announcements/detail/693144755752665190?snr=1_2108_9__2107",
-    "store_asset_mtime": "1789142213",
+    "steam_release_date": "1789480829",
+    "store_asset_mtime": "1789480905",
     "store_tags": {
       "0": "723991",
       "1": "6276",
@@ -142,5 +180,127 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cloudbreaker",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Windows Build",
+        "description_loc": {
+          "english": "Windows Build"
+        },
+        "executable": "Cloudbreaker.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Linux + SteamOS Build",
+        "description_loc": {
+          "english": "Linux + SteamOS Build"
+        },
+        "executable": "Cloudbreaker.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "15",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3620891": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "253900272",
+          "gid": "5404919382702027213",
+          "size": "326664768"
+        },
+        "public": {
+          "download": "253900272",
+          "gid": "5404919382702027213",
+          "size": "326664768"
+        }
+      }
+    },
+    "3620892": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "350382544",
+          "gid": "1048652852217765805",
+          "size": "448291405"
+        },
+        "public": {
+          "download": "350382544",
+          "gid": "1048652852217765805",
+          "size": "448291405"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "25307388",
+        "description": "Used for testing the latest features",
+        "timebuildupdated": "1789414393",
+        "timeupdated": "1789414402"
+      },
+      "public": {
+        "buildid": "25307388",
+        "timebuildupdated": "1789414393",
+        "timeupdated": "1789414409"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Ballast Games",
+    "homepage": "https://ballastgames.com/cloudbreaker.html",
+    "publisher": "Ballast Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "600000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "\\.local\\share\\",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "4": {
+        "path": "Cloudbreaker\\{64BitSteamID}",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Cloudbreaker\\{64BitSteamID}",
+        "pattern": "*.res",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Cloudbreaker\\{64BitSteamID}",
+        "pattern": "*.tres",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "7": {
+        "path": "Cloudbreaker\\{64BitSteamID}",
+        "pattern": "*.save.bak",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

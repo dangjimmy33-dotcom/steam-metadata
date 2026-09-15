@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789479124,
-  "_history": [],
-  "_change_number": 38621230,
-  "_missing_token": true,
-  "_sha": "e886dac699017d11566d81710ba439cdc997ed44",
-  "_size": 3638,
+  "_lastChecked": 1789486076,
+  "_history": [
+    {
+      "buildId": "25028662",
+      "branch": "public",
+      "timeUpdated": 1788142432,
+      "firstSeen": 1789486076,
+      "manifests": {
+        "5071741": {
+          "gid": "6613318186093484754",
+          "size": 2233734221,
+          "download": 2010872320
+        }
+      }
+    }
+  ],
+  "_change_number": 38899885,
+  "_missing_token": false,
+  "_sha": "8e4f706bc53152c2f159f0e754c2515e5b97ce9f",
+  "_size": 4980,
   "appid": "5071740",
   "common": {
     "aicontenttype": "1",
@@ -35,9 +49,9 @@
     },
     "clienticon": "7cc4b87775db474b826813c765362697088b452f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5071740",
     "genres": {
       "0": "25",
@@ -109,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d55cd53c228d4549d7cd3edddfd79957f520d8e7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789484427",
     "store_asset_mtime": "1788041962",
     "store_tags": {
       "0": "1738",
@@ -166,5 +181,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blind Spot",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BlindSpot.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65526",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5071741": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2010872320",
+          "gid": "6613318186093484754",
+          "size": "2233734221"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25028662",
+        "timebuildupdated": "1788142355",
+        "timeupdated": "1788142432"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kyle Simpson",
+    "homepage": "https://vherbmedia.com",
+    "publisher": "Vherb Media LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "BlindSpot/Saved/Config/Windows",
+        "pattern": "GameUserSettings.ini",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

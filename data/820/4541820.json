@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789478674,
-  "_history": [],
-  "_change_number": 38777732,
-  "_missing_token": true,
-  "_sha": "f01e3639e06c018fc21e11aed8dc22ab384ed7cc",
-  "_size": 2877,
+  "_lastChecked": 1789485604,
+  "_history": [
+    {
+      "buildId": "25242474",
+      "branch": "public",
+      "timeUpdated": 1789085680,
+      "firstSeen": 1789485604,
+      "manifests": {
+        "4541821": {
+          "gid": "5730583993121662929",
+          "size": 177552132,
+          "download": 83950144
+        }
+      }
+    }
+  ],
+  "_change_number": 38897584,
+  "_missing_token": false,
+  "_sha": "3613c870680dcc8aad4e9d0602ede6048563d76c",
+  "_size": 3461,
   "appid": "4541820",
   "common": {
     "associations": {
@@ -23,8 +37,8 @@
     },
     "clienticon": "c7d9042a8b50a97c9645206a4d0a00084831b95a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4541820",
     "genres": {
       "0": "3",
@@ -95,7 +109,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "96a1d0d91d863ce71dfdf4fb6f4e87a33985e9a5/capsule_231x87.jpg"
     },
@@ -129,5 +143,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Aditore",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Aditore.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4541821": {
+      "manifests": {
+        "public": {
+          "download": "83950144",
+          "gid": "5730583993121662929",
+          "size": "177552132"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25242474",
+        "timebuildupdated": "1789085024",
+        "timeupdated": "1789085680"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Gadget Node Games LLC",
+    "publisher": "Gadget Node Games LLC"
+  }
 }

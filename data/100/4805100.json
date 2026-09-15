@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789478897,
-  "_history": [],
-  "_change_number": 38590920,
-  "_missing_token": true,
-  "_sha": "146e5a89d05d30215ea3d801d2119c43efc71548",
-  "_size": 5581,
+  "_lastChecked": 1789485839,
+  "_history": [
+    {
+      "buildId": "24962667",
+      "branch": "public",
+      "timeUpdated": 1787803755,
+      "firstSeen": 1789485839,
+      "manifests": {
+        "4805101": {
+          "gid": "2417874227300322563",
+          "size": 836786991,
+          "download": 220418288
+        }
+      }
+    }
+  ],
+  "_change_number": 38897522,
+  "_missing_token": false,
+  "_sha": "d1c70d7ffe3b83f599528d5d1587aecd2988b70a",
+  "_size": 6400,
   "appid": "4805100",
   "common": {
     "aicontenttype": "1",
@@ -30,7 +44,6 @@
     "clienticon": "e9dfda1e367e4eaf3584fd78181da79a35975065",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4805100",
     "genres": {
       "0": "25",
@@ -128,12 +141,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f8fb245e6f96da0faace2c18a1d0414676a36582/capsule_231x87.jpg",
       "schinese": "baf968675b4dceb68d3c904779165c0049563b63/capsule_231x87_schinese.jpg",
       "tchinese": "baf968675b4dceb68d3c904779165c0049563b63/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1781877515",
     "store_tags": {
       "0": "21",
@@ -194,5 +208,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TheReturn",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "The Return.exe"
+      }
+    }
+  },
+  "depots": {
+    "4805101": {
+      "manifests": {
+        "public": {
+          "download": "220418288",
+          "gid": "2417874227300322563",
+          "size": "836786991"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24962667",
+        "timebuildupdated": "1787801600",
+        "timeupdated": "1787803755"
+      }
+    }
+  },
+  "extended": {
+    "developer": "YIN WEN CE",
+    "publisher": "YIN WEN CE"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "YIN WEN CE/The Return/Saves",
+        "pattern": "slot_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

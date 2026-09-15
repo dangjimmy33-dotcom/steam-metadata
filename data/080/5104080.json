@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789479147,
-  "_history": [],
-  "_change_number": 38878871,
-  "_missing_token": true,
-  "_sha": "13a11a1f6fa0b74da1f5cbe03e3456f8499eff68",
-  "_size": 3037,
+  "_lastChecked": 1789486101,
+  "_history": [
+    {
+      "buildId": "25311933",
+      "branch": "public",
+      "timeUpdated": 1789432569,
+      "firstSeen": 1789486101,
+      "manifests": {
+        "5104081": {
+          "gid": "182088762129856878",
+          "size": 379544899,
+          "download": 141896208
+        }
+      }
+    }
+  ],
+  "_change_number": 38897952,
+  "_missing_token": false,
+  "_sha": "418372b0ca2f65e853f86849e8421ef96a431cbd",
+  "_size": 3865,
   "appid": "5104080",
   "common": {
     "associations": {
@@ -33,8 +47,8 @@
     },
     "clienticon": "100dfd2599c0dd7c98d0ea8527f6426637f11d80",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5104080",
     "genres": {
       "0": "1",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7bc9074b7476b3445707197b35a1c84408be259b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789480788",
     "store_asset_mtime": "1786655161",
     "store_tags": {
       "0": "599",
@@ -139,5 +154,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Stock Market Crash 2",
+    "launch": {
+      "0": {
+        "executable": "Stock Market Crash 2.exe"
+      }
+    }
+  },
+  "depots": {
+    "5104081": {
+      "manifests": {
+        "public": {
+          "download": "141896208",
+          "gid": "182088762129856878",
+          "size": "379544899"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25311933",
+        "timebuildupdated": "1789432567",
+        "timeupdated": "1789432569"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Dan Glover",
+    "homepage": "https://cartoondan.com/",
+    "publisher": "Dan Glover"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Stock Market Crash 2",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

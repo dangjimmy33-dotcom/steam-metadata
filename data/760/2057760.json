@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789476210,
+  "_lastChecked": 1789482959,
   "_history": [
     {
       "buildId": "22657387",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38770605,
+  "_change_number": 38897578,
   "_missing_token": false,
-  "_sha": "20deee621c71a11f298e52f7330888311b84ef0a",
-  "_size": 7473,
+  "_sha": "d07d725d52880d09cd7e5ceef8f9a59d1c08b6dc",
+  "_size": 7746,
   "appid": "2057760",
   "common": {
     "associations": {
@@ -245,18 +245,33 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "linux",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "Esoteric Ebb",
     "launch": {
       "0": {
-        "executable": "Esoteric Ebb.exe",
-        "type": "default"
-      },
-      "1": {
         "config": {
           "betakey": "linux",
           "oslist": "linux"
         },
         "executable": "Esoteric Ebb.x86_64",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "mac",
+          "oslist": "macos"
+        },
+        "executable": "Esoteric Ebb.app",
+        "type": "default"
+      },
+      "2": {
+        "executable": "Esoteric Ebb.exe",
         "type": "default"
       }
     },

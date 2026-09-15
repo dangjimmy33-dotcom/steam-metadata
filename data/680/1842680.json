@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789476004,
-  "_history": [],
-  "_change_number": 38860076,
-  "_missing_token": true,
-  "_sha": "2c58cbdd536b72f309501b9e1bade50f03466b4d",
-  "_size": 3008,
+  "_lastChecked": 1789482733,
+  "_history": [
+    {
+      "buildId": "25299229",
+      "branch": "public",
+      "timeUpdated": 1789387814,
+      "firstSeen": 1789482733,
+      "manifests": {
+        "1842681": {
+          "gid": "7632152571390212432",
+          "size": 482928383,
+          "download": 138337392
+        }
+      }
+    }
+  ],
+  "_change_number": 38898068,
+  "_missing_token": false,
+  "_sha": "f7f39d9bef7ff571764ed5b30d6c81414ca852bf",
+  "_size": 3983,
   "appid": "1842680",
   "common": {
     "associations": {
@@ -25,8 +39,8 @@
     "clienticon": "4e6a641f826ab56ebc54859c131517bdca14b028",
     "clienttga": "5da1e25396c7dd844558ef956ba1b573c765f840",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1842680",
     "genres": {
       "0": "1",
@@ -98,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8368bea849bb5330ae1c692057fab8c10fe6e095/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789481002",
     "store_asset_mtime": "1788725297",
     "store_tags": {
       "0": "6691",
@@ -133,5 +148,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Secrets of Temple Isle",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SecretsOfTempleIsle.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1842681": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "138337392",
+          "gid": "7632152571390212432",
+          "size": "482928383"
+        }
+      }
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "25299229",
+        "timebuildupdated": "1789387796",
+        "timeupdated": "1789387814"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Moses Doyle",
+    "homepage": "https://secretsoftempleisle.com/",
+    "publisher": "Moses Doyle"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "50000000"
+  }
 }

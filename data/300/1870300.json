@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789476034,
+  "_lastChecked": 1789482765,
   "_history": [
     {
       "buildId": "24648656",
@@ -54,11 +54,29 @@
           "download": 1562609072
         }
       }
+    },
+    {
+      "buildId": "25322225",
+      "branch": "test",
+      "timeUpdated": 1789480162,
+      "firstSeen": 1789482765,
+      "manifests": {
+        "1870301": {
+          "gid": "1041401080249572503",
+          "size": 4132140779,
+          "download": 1481434832
+        },
+        "1870302": {
+          "gid": "4861490662093339896",
+          "size": 4182902026,
+          "download": 1501950880
+        }
+      }
     }
   ],
-  "_change_number": 38674269,
+  "_change_number": 38897564,
   "_missing_token": false,
-  "_sha": "3c6f9dd65a1c7d845845daf7a289f3250fc941ed",
+  "_sha": "f01c7495cf31d4fe7561095a38b12dbe846681f5",
   "_size": 6631,
   "appid": "1870300",
   "common": {
@@ -300,9 +318,9 @@
           "size": "3975625483"
         },
         "test": {
-          "download": "1540075168",
-          "gid": "7224524096256802564",
-          "size": "4343762279"
+          "download": "1481434832",
+          "gid": "1041401080249572503",
+          "size": "4132140779"
         }
       }
     },
@@ -317,9 +335,9 @@
           "size": "4037371634"
         },
         "test": {
-          "download": "1562609072",
-          "gid": "5866739834363421054",
-          "size": "4408738765"
+          "download": "1501950880",
+          "gid": "4861490662093339896",
+          "size": "4182902026"
         }
       }
     },
@@ -330,10 +348,10 @@
         "timeupdated": "1786348271"
       },
       "test": {
-        "buildid": "25168325",
+        "buildid": "25322225",
         "description": "public test branch",
-        "timebuildupdated": "1788788677",
-        "timeupdated": "1788788792"
+        "timebuildupdated": "1789474117",
+        "timeupdated": "1789480162"
       }
     },
     "workshopdepot": "1870300"

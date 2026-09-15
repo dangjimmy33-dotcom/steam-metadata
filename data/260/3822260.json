@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789477987,
+  "_lastChecked": 1789484877,
   "_history": [
     {
       "buildId": "22141189",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 36372210,
+  "_change_number": 38896607,
   "_missing_token": false,
-  "_sha": "f561388e3966ce05fd7f6f1c839ea3940de1d6ee",
-  "_size": 3845,
+  "_sha": "e9ab9a6fa39ab3c03e1a3e0fbc481bd76f28dee0",
+  "_size": 4110,
   "appid": "3822260",
   "common": {
     "aicontenttype": "1",
@@ -49,7 +49,6 @@
     "community_hub_visible": "1",
     "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "3",
     "gameid": "3822260",
     "genres": {
       "0": "1",
@@ -118,8 +117,8 @@
     },
     "name": "Scorched",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "1",
     "releasestate": "released",
     "small_capsule": {
@@ -156,7 +155,17 @@
     "installdir": "Scorched",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "SCORCHED.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Build.app",
         "type": "default"
       }
     }
@@ -173,6 +182,12 @@
           "gid": "7453532128262021632",
           "size": "122758470"
         }
+      }
+    },
+    "3822262": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
       }
     },
     "branches": {

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789478994,
-  "_history": [],
-  "_change_number": 38535742,
-  "_missing_token": true,
-  "_sha": "37da7d2188f8118690319da742617e58ae12786c",
-  "_size": 2798,
+  "_lastChecked": 1789485942,
+  "_history": [
+    {
+      "buildId": "25323932",
+      "branch": "public",
+      "timeUpdated": 1789479496,
+      "firstSeen": 1789485942,
+      "manifests": {
+        "4916001": {
+          "gid": "5962824166469562287",
+          "size": 449100661,
+          "download": 88480336
+        }
+      }
+    }
+  ],
+  "_change_number": 38897234,
+  "_missing_token": false,
+  "_sha": "0e4a4c0c8d13ff9f4924d0c88de513d50fc87f02",
+  "_size": 3353,
   "appid": "4916000",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "755ad9f995cfca7c5f025eb865c531d5921edfbd",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4916000",
     "genres": {
       "0": "4",
@@ -97,10 +110,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f8c20ec509339b35e303d06dc580baf0347d89e7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1788422604",
     "store_asset_mtime": "1787664244",
     "store_tags": {
       "0": "3810",
@@ -123,5 +137,37 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DEMO IT!",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Demo It.exe"
+      }
+    }
+  },
+  "depots": {
+    "4916001": {
+      "manifests": {
+        "public": {
+          "download": "88480336",
+          "gid": "5962824166469562287",
+          "size": "449100661"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25323932",
+        "timebuildupdated": "1789479189",
+        "timeupdated": "1789479496"
+      }
+    }
+  },
+  "extended": {
+    "developer": "CrossAge Studio",
+    "publisher": "CrossAge Studio"
+  }
 }

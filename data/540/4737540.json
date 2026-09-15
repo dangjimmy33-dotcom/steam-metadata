@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789478845,
-  "_history": [],
-  "_change_number": 38768273,
-  "_missing_token": true,
-  "_sha": "27accd9358b52f785a33067ec77c1dec0c306ec6",
-  "_size": 3951,
+  "_lastChecked": 1789485784,
+  "_history": [
+    {
+      "buildId": "25196061",
+      "branch": "public",
+      "timeUpdated": 1788903777,
+      "firstSeen": 1789485784,
+      "manifests": {
+        "4737541": {
+          "gid": "1352003073397406416",
+          "size": 1509062681,
+          "download": 1013623024
+        }
+      }
+    }
+  ],
+  "_change_number": 38897878,
+  "_missing_token": false,
+  "_sha": "1e6c09a3c176017ffccd07362e1d84ba1dab5922",
+  "_size": 4862,
   "appid": "4737540",
   "common": {
     "aicontenttype": "1",
@@ -38,8 +52,8 @@
     },
     "clienticon": "f83659d3257b808c5f44b9c6efe04629cd6aff48",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4737540",
     "genres": {
       "0": "4",
@@ -113,10 +127,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3a1258dffc79cd5cc010838550df4f994f0beb39/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788128401",
     "store_tags": {
       "0": "791774",
@@ -184,5 +199,50 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "21DeadMansDeck",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "21DeadMansDeck.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "15",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "4737541": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1013623024",
+          "gid": "1352003073397406416",
+          "size": "1509062681"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25196061",
+        "timebuildupdated": "1788903747",
+        "timeupdated": "1788903777"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Downdog2519",
+    "gamemanualurl": "https://store.steampowered.com/manual/4737540/",
+    "publisher": "CMZ"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10004200"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789477487,
+  "_lastChecked": 1789484343,
   "_history": [
     {
       "buildId": "25131377",
@@ -234,12 +234,30 @@
           "download": 292068192
         }
       }
+    },
+    {
+      "buildId": "25325366",
+      "branch": "beta",
+      "timeUpdated": 1789483238,
+      "firstSeen": 1789484343,
+      "manifests": {
+        "3312131": {
+          "gid": "411767960971799368",
+          "size": 772155954,
+          "download": 293090304
+        },
+        "3312132": {
+          "gid": "6028345638296100372",
+          "size": 766208003,
+          "download": 292069520
+        }
+      }
     }
   ],
-  "_change_number": 38879370,
+  "_change_number": 38899133,
   "_missing_token": false,
-  "_sha": "56aefea4219cc88729ece0bdd9550b5bd5800b68",
-  "_size": 7024,
+  "_sha": "c0dd5134ebd9051b2644190f6488983340baaa50",
+  "_size": 7626,
   "appid": "3312130",
   "common": {
     "associations": {
@@ -359,13 +377,13 @@
       "english": "759e430a74c591bf9adf50bc9a42de86a940b204/capsule_231x87.jpg"
     },
     "steam_deck_compatibility": {
-      "category": "1",
+      "category": "2",
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
-        "non_deck_display_glyphs": "1",
+        "non_deck_display_glyphs": "0",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-11.0-beta",
+        "recommended_runtime": "proton-stable",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -376,26 +394,46 @@
         "small_text": "1",
         "supported_input": "other"
       },
-      "steam_machine_compatibility": "1",
+      "steam_machine_compatibility": "3",
       "steam_machine_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
         }
       },
-      "steamos_compatibility": "1",
+      "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
         }
       },
-      "test_timestamp": "1784505600",
-      "tested_build_id": "24261138",
+      "test_timestamp": "1789409013",
+      "tested_build_id": "25243232",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
         }
       }
     },
@@ -503,9 +541,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "293089232",
-          "gid": "8816451764500413821",
-          "size": "772153746"
+          "download": "293090304",
+          "gid": "411767960971799368",
+          "size": "772155954"
         },
         "public": {
           "download": "293053312",
@@ -520,9 +558,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "292068192",
-          "gid": "2042270921003418138",
-          "size": "766205795"
+          "download": "292069520",
+          "gid": "6028345638296100372",
+          "size": "766208003"
         },
         "public": {
           "download": "292037104",
@@ -533,10 +571,10 @@
     },
     "branches": {
       "beta": {
-        "buildid": "25312313",
+        "buildid": "25325366",
         "description": "public testing branch",
-        "timebuildupdated": "1789434254",
-        "timeupdated": "1789434272"
+        "timebuildupdated": "1789483223",
+        "timeupdated": "1789483238"
       },
       "public": {
         "buildid": "25243232",

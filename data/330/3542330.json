@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789477714,
-  "_history": [],
-  "_change_number": 38880949,
-  "_missing_token": true,
-  "_sha": "96738a367c8b3d8509ed51256289091ed13874f6",
-  "_size": 2919,
+  "_lastChecked": 1789484586,
+  "_history": [
+    {
+      "buildId": "25313453",
+      "branch": "public",
+      "timeUpdated": 1789439079,
+      "firstSeen": 1789484586,
+      "manifests": {
+        "3542331": {
+          "gid": "4896447343960535251",
+          "size": 395027776,
+          "download": 266999280
+        }
+      }
+    }
+  ],
+  "_change_number": 38897824,
+  "_missing_token": false,
+  "_sha": "f8ec6f305c6cd904069bc35150cc8723a7cdc98c",
+  "_size": 3591,
   "appid": "3542330",
   "common": {
     "associations": {
@@ -25,7 +39,6 @@
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3542330",
     "genres": {
       "0": "23",
@@ -98,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "39ec396538f0120bc2fcb5481f5aeb312bf9fa2b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789480582",
     "store_asset_mtime": "1789158125",
     "store_tags": {
       "0": "9",
@@ -128,5 +142,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Station Command",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Command.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3542331": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "266999280",
+          "gid": "4896447343960535251",
+          "size": "395027776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25313453",
+        "timebuildupdated": "1789439057",
+        "timeupdated": "1789439079"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Respite Games",
+    "publisher": "Respite Games"
+  }
 }

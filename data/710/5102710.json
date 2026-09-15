@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789479147,
-  "_history": [],
-  "_change_number": 38815547,
-  "_missing_token": true,
-  "_sha": "bb3db4313d7518eca6078cd956a3bc4c73acc497",
-  "_size": 3389,
+  "_lastChecked": 1789486100,
+  "_history": [
+    {
+      "buildId": "24925690",
+      "branch": "public",
+      "timeUpdated": 1787653278,
+      "firstSeen": 1789486100,
+      "manifests": {
+        "5102711": {
+          "gid": "1882281349725837615",
+          "size": 914075027,
+          "download": 532038080
+        }
+      }
+    }
+  ],
+  "_change_number": 38900096,
+  "_missing_token": false,
+  "_sha": "b08873ab38a208ef0e3a4229021c897a404d458e",
+  "_size": 4721,
   "appid": "5102710",
   "common": {
     "aicontenttype": "1",
@@ -28,8 +42,8 @@
     },
     "clienticon": "16296cd59d2d41d62254ba056e0867b92e77e3df",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5102710",
     "genres": {
       "0": "1",
@@ -102,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "329b1465cdc20876f68a170db5fa7788255327aa/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789484703",
     "store_asset_mtime": "1788350559",
     "store_tags": {
       "0": "9",
@@ -161,5 +176,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BTR Ringfall",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "btrringfall.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5102711": {
+      "manifests": {
+        "public": {
+          "download": "532038080",
+          "gid": "1882281349725837615",
+          "size": "914075027"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24925690",
+        "timebuildupdated": "1787652961",
+        "timeupdated": "1787653278"
+      }
+    }
+  },
+  "extended": {
+    "developer": "ALFA Games",
+    "publisher": "ALFA Games"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "BTR Ringfall/saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "BTR Ringfall",
+        "pattern": "settings.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "BTR Ringfall",
+        "pattern": "audio_settings.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "BTR Ringfall",
+        "pattern": "achievements.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

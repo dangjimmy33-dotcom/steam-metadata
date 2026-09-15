@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789476876,
-  "_history": [],
-  "_change_number": 38876016,
-  "_missing_token": true,
-  "_sha": "b414bdb51c74695e6f0e730cdf5ff710d37e243d",
-  "_size": 3001,
+  "_lastChecked": 1789483687,
+  "_history": [
+    {
+      "buildId": "25287203",
+      "branch": "public",
+      "timeUpdated": 1789328810,
+      "firstSeen": 1789483687,
+      "manifests": {
+        "2695502": {
+          "gid": "7694375361416107941",
+          "size": 117509807,
+          "download": 101657408
+        },
+        "2695503": {
+          "gid": "3058509114891065051",
+          "size": 272710086,
+          "download": 100302160
+        },
+        "2695504": {
+          "gid": "1296958308516740696",
+          "size": 264034506,
+          "download": 99369312
+        }
+      }
+    }
+  ],
+  "_change_number": 38896074,
+  "_missing_token": false,
+  "_sha": "1e65e642389a7576fbb8cce2d86beec299819f0b",
+  "_size": 4387,
   "appid": "2695500",
   "common": {
     "associations": {
@@ -29,8 +53,8 @@
     "clienticns": "4cca6eeb76003f156185fdef437666486cba1974",
     "clienticon": "84bcc56c847e090a880db72714dbb7b4272a087c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2695500",
     "genres": {
       "0": "4",
@@ -102,10 +126,11 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ba99b0780aca9c23f124f4e6505005e76a4240d0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789477243",
     "store_asset_mtime": "1789423567",
     "store_tags": {
       "0": "597",
@@ -131,5 +156,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Rushcremental",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "rushcremental_steam.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "rushcremental_steam",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Contents/MacOS/rushcremental_steam",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2695501": {},
+    "2695502": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "101657408",
+          "gid": "7694375361416107941",
+          "size": "117509807"
+        }
+      }
+    },
+    "2695503": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "100302160",
+          "gid": "3058509114891065051",
+          "size": "272710086"
+        }
+      }
+    },
+    "2695504": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "99369312",
+          "gid": "1296958308516740696",
+          "size": "264034506"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25287203",
+        "timebuildupdated": "1789328609",
+        "timeupdated": "1789328810"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Tim Beaudet",
+    "publisher": "Tyre Bytes LLC"
+  }
 }

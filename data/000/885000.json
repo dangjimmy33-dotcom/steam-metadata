@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789474935,
+  "_lastChecked": 1789481552,
   "_history": [
     {
       "buildId": "14144154",
@@ -78,12 +78,48 @@
           "download": 3989434992
         }
       }
+    },
+    {
+      "buildId": "25323457",
+      "branch": "open-beta",
+      "timeUpdated": 1789477889,
+      "firstSeen": 1789481552,
+      "manifests": {
+        "885001": {
+          "gid": "7906027613318046273",
+          "size": 10668326156,
+          "download": 3989434992
+        },
+        "885002": {
+          "gid": "1076850268532335068",
+          "size": 3513323335,
+          "download": 3265074144
+        }
+      }
+    },
+    {
+      "buildId": "25323457",
+      "branch": "public",
+      "timeUpdated": 1789477889,
+      "firstSeen": 1789481552,
+      "manifests": {
+        "885001": {
+          "gid": "7906027613318046273",
+          "size": 10668326156,
+          "download": 3989434992
+        },
+        "885002": {
+          "gid": "1076850268532335068",
+          "size": 3513323335,
+          "download": 3265074144
+        }
+      }
     }
   ],
-  "_change_number": 38759693,
+  "_change_number": 38896486,
   "_missing_token": false,
-  "_sha": "3c048ff9a681fdd4686e1ac180f165d1b0b71a75",
-  "_size": 8903,
+  "_sha": "e069a5ae5d62dce440bd90e1911b1f80b074b977",
+  "_size": 9136,
   "appid": "885000",
   "common": {
     "associations": {
@@ -382,7 +418,18 @@
       "config": {
         "oslist": "android"
       },
-      "manifests": {}
+      "manifests": {
+        "open-beta": {
+          "download": "3265074144",
+          "gid": "1076850268532335068",
+          "size": "3513323335"
+        },
+        "public": {
+          "download": "3265074144",
+          "gid": "1076850268532335068",
+          "size": "3513323335"
+        }
+      }
     },
     "branches": {
       "legacy": {
@@ -392,10 +439,10 @@
         "timeupdated": "1751588682"
       },
       "open-beta": {
-        "buildid": "25217648",
+        "buildid": "25323457",
         "description": "OPEN BETA (Opt-in for early access to patches!)",
-        "timebuildupdated": "1788988337",
-        "timeupdated": "1789041760"
+        "timebuildupdated": "1789477889",
+        "timeupdated": "1789477889"
       },
       "previous": {
         "buildid": "23586237",
@@ -404,9 +451,9 @@
         "timeupdated": "1782399387"
       },
       "public": {
-        "buildid": "25217648",
-        "timebuildupdated": "1788988337",
-        "timeupdated": "1789041961"
+        "buildid": "25323457",
+        "timebuildupdated": "1789477889",
+        "timeupdated": "1789477889"
       }
     },
     "privatebranches": "1"

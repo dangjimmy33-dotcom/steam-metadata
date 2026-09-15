@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789479063,
-  "_history": [],
-  "_change_number": 38880173,
-  "_missing_token": true,
-  "_sha": "158a46c89c201e2c8bdca0810c9c6c117b0b9b6d",
-  "_size": 3709,
+  "_lastChecked": 1789486012,
+  "_history": [
+    {
+      "buildId": "24830132",
+      "branch": "public",
+      "timeUpdated": 1787190087,
+      "firstSeen": 1789486012,
+      "manifests": {
+        "4992021": {
+          "gid": "3134654283357688345",
+          "size": 673762029,
+          "download": 311109184
+        }
+      }
+    }
+  ],
+  "_change_number": 38897866,
+  "_missing_token": false,
+  "_sha": "e07b5a8db9408d423d4a45f9ef47f1a68bab1dcd",
+  "_size": 4927,
   "appid": "4992020",
   "common": {
     "aicontenttype": "1",
@@ -38,9 +52,9 @@
     },
     "clienticon": "59b9c69ee8d02e09513c517442f093faafa39a46",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4992020",
     "genres": {
       "0": "4"
@@ -110,7 +124,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1a2ce12da8e320aece0626567df84e281d8090e1/capsule_231x87.jpg"
     },
@@ -178,5 +192,70 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "FURKUP",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "furkup.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4992021": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "311109184",
+          "gid": "3134654283357688345",
+          "size": "673762029"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24830132",
+        "timebuildupdated": "1787189907",
+        "timeupdated": "1787190087"
+      }
+    },
+    "workshopdepot": "4992020"
+  },
+  "extended": {
+    "developer": "mayoaji",
+    "homepage": "https://furkup.com",
+    "publisher": "mayoaji"
+  },
+  "ufs": {
+    "maxnumfiles": "3000",
+    "quota": "10000000000",
+    "savefiles": {
+      "1": {
+        "path": "mayoaji/FURKUP",
+        "pattern": "records.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "mayoaji/FURKUP",
+        "pattern": "achievements.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

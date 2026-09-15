@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789477993,
-  "_history": [],
-  "_change_number": 38896031,
-  "_missing_token": true,
-  "_sha": "11952c4d63f1146e47b32a345bff17018f8d3c0c",
-  "_size": 3202,
+  "_lastChecked": 1789484884,
+  "_history": [
+    {
+      "buildId": "25325672",
+      "branch": "public",
+      "timeUpdated": 1789484179,
+      "firstSeen": 1789484884,
+      "manifests": {
+        "3829312": {
+          "gid": "4679541223120353841",
+          "size": 4836835992,
+          "download": 2156784048
+        },
+        "3829314": {
+          "gid": "8644077239470936117",
+          "size": 4930925251,
+          "download": 2180741744
+        }
+      }
+    }
+  ],
+  "_change_number": 38899682,
+  "_missing_token": false,
+  "_sha": "f3f30f108ea5fb192ae3c8a35b1338d336090796",
+  "_size": 4664,
   "appid": "3829310",
   "common": {
     "associations": {
@@ -26,7 +45,6 @@
     "clienticon": "37d7f009e6537a688fcb98ae25b5ff6f393ca078",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3829310",
     "genres": {
       "0": "1",
@@ -99,10 +117,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "37a52d1e089ac9a69614d4587972330f8e88935f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789480815",
     "store_asset_mtime": "1787395481",
     "store_tags": {
       "0": "42804",
@@ -149,5 +168,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sublight",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Sublight.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "sublight.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3829312": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2156784048",
+          "gid": "4679541223120353841",
+          "size": "4836835992"
+        }
+      }
+    },
+    "3829314": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2180741744",
+          "gid": "8644077239470936117",
+          "size": "4930925251"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25325672",
+        "timebuildupdated": "1789484122",
+        "timeupdated": "1789484179"
+      }
+    }
+  },
+  "extended": {
+    "developer": " CODEBREW SOFTWARE LTD",
+    "publisher": " CODEBREW SOFTWARE LTD"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": ".config/unity3d/CODEBREW SOFTWARE LTD/Sublight/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "CODEBREW SOFTWARE LTD\\Sublight",
+        "pattern": "challenge_save.dat",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

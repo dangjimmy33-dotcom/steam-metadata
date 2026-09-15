@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789478841,
-  "_history": [],
-  "_change_number": 38527493,
-  "_missing_token": true,
-  "_sha": "b1277806e917a3fb923f3f7a358667af8c66b6cf",
-  "_size": 3151,
+  "_lastChecked": 1789485780,
+  "_history": [
+    {
+      "buildId": "24647767",
+      "branch": "public",
+      "timeUpdated": 1786342875,
+      "firstSeen": 1789485780,
+      "manifests": {
+        "4733111": {
+          "gid": "292188349116069801",
+          "size": 142282980,
+          "download": 70237664
+        }
+      }
+    }
+  ],
+  "_change_number": 38899999,
+  "_missing_token": false,
+  "_sha": "3b9de7ac9e3ea224ca3dc09fd348b5aac7639abf",
+  "_size": 4455,
   "appid": "4733110",
   "common": {
     "associations": {
@@ -43,7 +57,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4733110",
     "genres": {
       "0": "9"
@@ -116,10 +129,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "44a1d4f88550be619e3c426351971632dc67aa8d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789484552",
     "store_asset_mtime": "1788231180",
     "store_tags": {
       "0": "699",
@@ -139,5 +153,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "GmodeArchivesPlus_RidgeRacer",
+    "launch": {
+      "0": {
+        "executable": "RidgeRacer.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "15",
+    "steamcontrollerconfigdetails": {
+      "3766250120": {
+        "controller_type": "controller_switch_pro",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      },
+      "3766250520": {
+        "controller_type": "controller_ps5",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      },
+      "3766250893": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4733111": {
+      "manifests": {
+        "public": {
+          "download": "70237664",
+          "gid": "292188349116069801",
+          "size": "142282980"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "24647767",
+        "timebuildupdated": "1786342797",
+        "timeupdated": "1786342875"
+      }
+    }
+  },
+  "extended": {
+    "developer": "G-MODE",
+    "publisher": "G-MODE"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "1048576",
+    "savefiles": {
+      "0": {
+        "path": "save",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    }
+  }
 }

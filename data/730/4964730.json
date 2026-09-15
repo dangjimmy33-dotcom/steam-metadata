@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1789479042,
-  "_history": [],
-  "_change_number": 38896658,
-  "_missing_token": true,
-  "_sha": "f8bc4daa32ff74623576a4d2aa594c2579b6840c",
-  "_size": 2919,
+  "_lastChecked": 1789485989,
+  "_history": [
+    {
+      "buildId": "25325331",
+      "branch": "public",
+      "timeUpdated": 1789483428,
+      "firstSeen": 1789485989,
+      "manifests": {
+        "4964731": {
+          "gid": "5207694411634440569",
+          "size": 63193560,
+          "download": 24303488
+        },
+        "5057901": {
+          "gid": "84896841602812551",
+          "size": 67861918,
+          "download": 29939296
+        }
+      }
+    },
+    {
+      "buildId": "25325331",
+      "branch": "testing",
+      "timeUpdated": 1789483337,
+      "firstSeen": 1789485989,
+      "manifests": {
+        "4964731": {
+          "gid": "5207694411634440569",
+          "size": 63193560,
+          "download": 24303488
+        },
+        "5057901": {
+          "gid": "84896841602812551",
+          "size": 67861918,
+          "download": 29939296
+        }
+      }
+    }
+  ],
+  "_change_number": 38899233,
+  "_missing_token": false,
+  "_sha": "1e32771cd8b894c8bf3f7322d5be9198524750e2",
+  "_size": 4536,
   "appid": "4964730",
   "common": {
     "aicontenttype": "1",
@@ -25,8 +62,8 @@
     },
     "clienticon": "53c9363822448c630eb485573ca715c431001645",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4964730",
     "genres": {
       "0": "4",
@@ -100,10 +137,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e7e0c90429c6d6adbfbfbb2b693443f0283b4a61/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789481258",
     "store_asset_mtime": "1789454535",
     "store_tags": {
       "0": "599",
@@ -130,5 +168,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MapCity",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MapCity.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MapCity.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4964731": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "24303488",
+          "gid": "5207694411634440569",
+          "size": "63193560"
+        },
+        "testing": {
+          "download": "24303488",
+          "gid": "5207694411634440569",
+          "size": "63193560"
+        }
+      }
+    },
+    "4964732": {},
+    "4964733": {},
+    "4964734": {},
+    "4964735": {},
+    "4964736": {},
+    "4964737": {},
+    "4964738": {},
+    "4964739": {},
+    "5057901": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "29939296",
+          "gid": "84896841602812551",
+          "size": "67861918"
+        },
+        "testing": {
+          "download": "29939296",
+          "gid": "84896841602812551",
+          "size": "67861918"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25325331",
+        "timebuildupdated": "1789483103",
+        "timeupdated": "1789483428"
+      },
+      "testing": {
+        "buildid": "25325331",
+        "description": "cutting edge build",
+        "timebuildupdated": "1789483103",
+        "timeupdated": "1789483337"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "developer": "Permadyn Interactive",
+    "dlcavailableonstore": "1",
+    "homepage": "https://mapcitygame.com",
+    "listofdlc": "5057960",
+    "publisher": "Permadyn Interactive"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789476519,
+  "_lastChecked": 1789483296,
   "_history": [
     {
       "buildId": "20980098",
@@ -39,12 +39,38 @@
           "download": 2495400176
         }
       }
+    },
+    {
+      "buildId": "20980098",
+      "branch": "legacy:v0.10.x",
+      "timeUpdated": 1764335927,
+      "firstSeen": 1789483296,
+      "manifests": {
+        "2345171": {
+          "gid": "3502031611881152573",
+          "size": 2639785558,
+          "download": 2435268624
+        }
+      }
+    },
+    {
+      "buildId": "23927533",
+      "branch": "legacy:v0.11.x",
+      "timeUpdated": 1782473786,
+      "firstSeen": 1789483296,
+      "manifests": {
+        "2345171": {
+          "gid": "7217500076973685659",
+          "size": 2701971164,
+          "download": 2495400176
+        }
+      }
     }
   ],
-  "_change_number": 37458633,
+  "_change_number": 38897179,
   "_missing_token": false,
-  "_sha": "9f7a317f4e788537aef6197b528ba8daed0f7740",
-  "_size": 6999,
+  "_sha": "2a884373b3a351a79d5d4b61f8abfa3274dfab6f",
+  "_size": 7355,
   "appid": "2345170",
   "common": {
     "associations": {
@@ -305,10 +331,15 @@
     },
     "2345171": {
       "manifests": {
-        "legacy:early-access": {
+        "legacy:v0.10.x": {
           "download": "2435268624",
           "gid": "3502031611881152573",
           "size": "2639785558"
+        },
+        "legacy:v0.11.x": {
+          "download": "2495400176",
+          "gid": "7217500076973685659",
+          "size": "2701971164"
         },
         "public": {
           "download": "2495400176",
@@ -323,11 +354,17 @@
       }
     },
     "branches": {
-      "legacy:early-access": {
+      "legacy:v0.10.x": {
         "buildid": "20980098",
-        "description": "Public legacy branch (Early Access Release) [Backup your Saves]",
+        "description": "Public legacy branch (First Early Access Release - v0.10.x) [Backup your Saves]",
         "timebuildupdated": "1764335839",
         "timeupdated": "1764335927"
+      },
+      "legacy:v0.11.x": {
+        "buildid": "23927533",
+        "description": "Public legacy branch (Early Access Major Update 1 - v0.11.x) [Backup your Saves]",
+        "timebuildupdated": "1782462130",
+        "timeupdated": "1782473786"
       },
       "public": {
         "buildid": "23927533",
