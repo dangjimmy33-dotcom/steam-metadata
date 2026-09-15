@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789486114,
-  "_history": [],
-  "_change_number": 38428153,
-  "_missing_token": true,
-  "_sha": "a1f310ff8abd972933456bbb866b8b0036f2499f",
-  "_size": 3102,
+  "_lastChecked": 1789493597,
+  "_history": [
+    {
+      "buildId": "25005706",
+      "branch": "public",
+      "timeUpdated": 1787979015,
+      "firstSeen": 1789493597,
+      "manifests": {
+        "5122601": {
+          "gid": "5045772121577551480",
+          "size": 15791046,
+          "download": 7362528
+        }
+      }
+    }
+  ],
+  "_change_number": 38902714,
+  "_missing_token": false,
+  "_sha": "948ac0fdd1d634e86625af82447c776464d5e20f",
+  "_size": 3680,
   "appid": "5122600",
   "common": {
     "aicontenttype": "1",
@@ -33,14 +47,13 @@
     },
     "clienticon": "20d3dfa2194045bd1aceaeeb7363aae90cb13098",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5122600",
     "genres": {
       "0": "4",
       "1": "23",
-      "2": "28",
-      "3": "70"
+      "2": "28"
     },
     "header_image": {
       "english": "23ca3948265d695388a4e94289fe6312c6d1acac/header.jpg"
@@ -107,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b2c40f50094eff504ecc174bfc745db7ca9a56d8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789489779",
     "store_asset_mtime": "1787862990",
     "store_tags": {
       "0": "3810",
@@ -140,5 +154,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Powdertron",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Powdertron.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5122601": {
+      "manifests": {
+        "public": {
+          "download": "7362528",
+          "gid": "5045772121577551480",
+          "size": "15791046"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25005706",
+        "timebuildupdated": "1787979000",
+        "timeupdated": "1787979015"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SalE",
+    "publisher": "SalE"
+  }
 }

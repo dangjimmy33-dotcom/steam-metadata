@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789485897,
-  "_history": [],
-  "_change_number": 38871711,
-  "_missing_token": true,
-  "_sha": "3243fcb340f20f743928349ea0093492da08b247",
-  "_size": 3005,
+  "_lastChecked": 1789493354,
+  "_history": [
+    {
+      "buildId": "25328141",
+      "branch": "public",
+      "timeUpdated": 1789491694,
+      "firstSeen": 1789493354,
+      "manifests": {
+        "4865841": {
+          "gid": "5120932874697605199",
+          "size": 193065340,
+          "download": 111551568
+        },
+        "4865842": {
+          "gid": "5154364079557804638",
+          "size": 3011184575,
+          "download": 2997508240
+        }
+      }
+    }
+  ],
+  "_change_number": 38904304,
+  "_missing_token": false,
+  "_sha": "692081004e0c4a129f156f3e7e266fa49ceac05c",
+  "_size": 4535,
   "appid": "4865840",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +52,8 @@
     },
     "clienticon": "0179d571977a3d40042a10e55dcce0f801a8d360",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4865840",
     "genres": {
       "0": "23",
@@ -107,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "66b6cc2a9e09934e74a54fd99da450ed7b9470e4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789493109",
     "store_asset_mtime": "1788289978",
     "store_tags": {
       "0": "701",
@@ -133,5 +153,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Football Academy Director",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "FootballAcademyDirector.exe"
+      }
+    }
+  },
+  "depots": {
+    "4865841": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "111551568",
+          "gid": "5120932874697605199",
+          "size": "193065340"
+        }
+      }
+    },
+    "4865842": {
+      "manifests": {
+        "public": {
+          "download": "2997508240",
+          "gid": "5154364079557804638",
+          "size": "3011184575"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25328141",
+        "timebuildupdated": "1789491669",
+        "timeupdated": "1789491694"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Merla Interactive",
+    "publisher": "Merla Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "2000000000",
+    "savefiles": {
+      "0": {
+        "path": "MAP Interactive/Football Academy Director/saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "MAP Interactive/Football Academy Director",
+        "pattern": "career_progress.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "MAP Interactive/Football Academy Director",
+        "pattern": "start_screen_settings.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

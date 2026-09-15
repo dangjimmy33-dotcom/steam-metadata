@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789483698,
+  "_lastChecked": 1789490946,
   "_history": [
     {
       "buildId": "24838791",
@@ -26,11 +26,37 @@
           "download": 1920137696
         }
       }
+    },
+    {
+      "buildId": "25326970",
+      "branch": "public",
+      "timeUpdated": 1789489931,
+      "firstSeen": 1789490946,
+      "manifests": {
+        "2706021": {
+          "gid": "2620129667642861550",
+          "size": 4242618202,
+          "download": 1920083584
+        }
+      }
+    },
+    {
+      "buildId": "25326970",
+      "branch": "staging",
+      "timeUpdated": 1789488507,
+      "firstSeen": 1789490946,
+      "manifests": {
+        "2706021": {
+          "gid": "2620129667642861550",
+          "size": 4242618202,
+          "download": 1920083584
+        }
+      }
     }
   ],
-  "_change_number": 38885316,
+  "_change_number": 38902787,
   "_missing_token": false,
-  "_sha": "23901aab8c77e7be09d7eb79718b7c14111935ea",
+  "_sha": "368cb54b5afcbba26433bede0f61860ca6e6ec9c",
   "_size": 10948,
   "appid": "2706020",
   "common": {
@@ -362,29 +388,29 @@
     "2706021": {
       "manifests": {
         "public": {
-          "download": "1920137696",
-          "gid": "3519247360334837771",
-          "size": "4222299944"
+          "download": "1920083584",
+          "gid": "2620129667642861550",
+          "size": "4242618202"
         },
         "staging": {
-          "download": "1920137696",
-          "gid": "3519247360334837771",
-          "size": "4222299944"
+          "download": "1920083584",
+          "gid": "2620129667642861550",
+          "size": "4242618202"
         }
       }
     },
     "baselanguages": "english,german,french,koreana,spanish,schinese,russian,thai,japanese,polish,brazilian,ukrainian",
     "branches": {
       "public": {
-        "buildid": "24838791",
-        "timebuildupdated": "1787226089",
-        "timeupdated": "1787234291"
+        "buildid": "25326970",
+        "timebuildupdated": "1789488064",
+        "timeupdated": "1789489931"
       },
       "staging": {
-        "buildid": "24838791",
+        "buildid": "25326970",
         "description": "Prerelease branch",
-        "timebuildupdated": "1787226089",
-        "timeupdated": "1787231865"
+        "timebuildupdated": "1789488064",
+        "timeupdated": "1789488507"
       }
     },
     "privatebranches": "1",

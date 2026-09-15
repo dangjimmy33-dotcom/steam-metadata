@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789481468,
+  "_lastChecked": 1789488544,
   "_history": [
     {
       "buildId": "3090893",
@@ -30,10 +30,10 @@
       }
     }
   ],
-  "_change_number": 37029189,
+  "_change_number": 38899678,
   "_missing_token": false,
-  "_sha": "9c547bd558d5c46d0006a5483dc90f63d5539960",
-  "_size": 6850,
+  "_sha": "c6383a28041f6850cda21e2f01b1359197f41a96",
+  "_size": 7330,
   "appid": "809240",
   "common": {
     "associations": {
@@ -56,10 +56,6 @@
       "4": {
         "name": "ARTE France",
         "type": "publisher"
-      },
-      "5": {
-        "name": "ARTE France",
-        "type": "franchise"
       }
     },
     "category": {
@@ -156,6 +152,25 @@
         "requires_voice_files": "0",
         "small_text": "1",
         "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
       },
       "steamos_compatibility": "2",
       "steamos_tests": {

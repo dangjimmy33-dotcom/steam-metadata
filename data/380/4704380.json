@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789485757,
-  "_history": [],
-  "_change_number": 38877509,
-  "_missing_token": true,
-  "_sha": "4e7e7288c04393d9c5508bbd688b62a7b93683f2",
-  "_size": 3216,
+  "_lastChecked": 1789493201,
+  "_history": [
+    {
+      "buildId": "25310812",
+      "branch": "public",
+      "timeUpdated": 1789427963,
+      "firstSeen": 1789493201,
+      "manifests": {
+        "4704381": {
+          "gid": "6603895182032625137",
+          "size": 906579088,
+          "download": 301779840
+        }
+      }
+    }
+  ],
+  "_change_number": 38901666,
+  "_missing_token": false,
+  "_sha": "7a0d4378b55fccdbaf4cf507acc9e8eb36929e2f",
+  "_size": 4283,
   "appid": "4704380",
   "common": {
     "associations": {
@@ -35,9 +49,9 @@
     },
     "clienticon": "01c4249b27018ff7cae1ee5c352a5ae9369e4e9d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4704380",
     "genres": {
       "0": "25",
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "97a2941fc282fd492b576378c3fd9b7ea4dad996/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789487770",
     "store_asset_mtime": "1788425860",
     "store_tags": {
       "0": "122",
@@ -145,5 +160,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Beltmon",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Game.exe",
+        "description_loc": {
+          "english": "Game.exe"
+        },
+        "executable": "Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4704381": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "301779840",
+          "gid": "6603895182032625137",
+          "size": "906579088"
+        }
+      }
+    },
+    "4704383": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25310812",
+        "timebuildupdated": "1789427908",
+        "timeupdated": "1789427963"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Soaring Wings Games",
+    "publisher": "Soaring Wings Games"
+  },
+  "ufs": {
+    "maxnumfiles": "12",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "www/save",
+        "pattern": "*.rpgsave",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

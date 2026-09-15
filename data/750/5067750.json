@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789486073,
-  "_history": [],
-  "_change_number": 38844356,
-  "_missing_token": true,
-  "_sha": "6667a2f6d6361cfebb5780168c961eb96aeecfeb",
-  "_size": 2862,
+  "_lastChecked": 1789493552,
+  "_history": [
+    {
+      "buildId": "25288514",
+      "branch": "public",
+      "timeUpdated": 1789336150,
+      "firstSeen": 1789493552,
+      "manifests": {
+        "5067751": {
+          "gid": "4874566683535428096",
+          "size": 88465828,
+          "download": 39624640
+        }
+      }
+    }
+  ],
+  "_change_number": 38903199,
+  "_missing_token": false,
+  "_sha": "c65656e795d42480b2ef2499d4e9e1fd649b97cf",
+  "_size": 4047,
   "appid": "5067750",
   "common": {
     "aicontenttype": "1",
@@ -28,9 +42,9 @@
     },
     "clienticon": "6dd6f6fd494b0bcb1cf42e8de521cc7628ad8bb5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5067750",
     "genres": {
       "0": "3"
@@ -100,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "71d0275c14d8a030d930701ba39e2b866041b27c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789490777",
     "store_asset_mtime": "1786302133",
     "store_tags": {
       "0": "122",
@@ -125,5 +140,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dream Draw Dungeons",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DreamDrawDungeons.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5067751": {
+      "manifests": {
+        "public": {
+          "download": "39624640",
+          "gid": "4874566683535428096",
+          "size": "88465828"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25288514",
+        "timebuildupdated": "1789335653",
+        "timeupdated": "1789336150"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Vegoya Studio",
+    "publisher": "Vegoya Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "DreamDrawDungeons/saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "DreamDrawDungeons",
+        "pattern": "settings.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789485626,
-  "_history": [],
-  "_change_number": 38832752,
-  "_missing_token": true,
-  "_sha": "a0cf1ded90497332cdf1e9caada91e121772a957",
-  "_size": 3233,
+  "_lastChecked": 1789493056,
+  "_history": [
+    {
+      "buildId": "25280864",
+      "branch": "public",
+      "timeUpdated": 1789288300,
+      "firstSeen": 1789493056,
+      "manifests": {
+        "4562941": {
+          "gid": "7176565818331875009",
+          "size": 73479302,
+          "download": 52037376
+        },
+        "4562942": {
+          "gid": "6683932520018676036",
+          "size": 365590838,
+          "download": 168589936
+        }
+      }
+    }
+  ],
+  "_change_number": 38903596,
+  "_missing_token": false,
+  "_sha": "57d45e09b5fce8287791c3a384fe541bffab33cd",
+  "_size": 4490,
   "appid": "4562940",
   "common": {
     "associations": {
@@ -28,6 +47,7 @@
     },
     "clienticon": "4e639e2ded0aa73e458878abb2f5834b76e7200c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -36,7 +56,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4562940",
     "genres": {
       "0": "1",
@@ -110,10 +129,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8a13cbfe8bc419d7f53bf7c7641e61e0bbad60b2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789491621",
     "store_asset_mtime": "1785849720",
     "store_tags": {
       "0": "1199779",
@@ -146,5 +166,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HOPE 01",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Hope 01.exe"
+      },
+      "1": {
+        "arguments": "--ozone-platform=x11",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Hope 01"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "4562941": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "52037376",
+          "gid": "7176565818331875009",
+          "size": "73479302"
+        }
+      }
+    },
+    "4562942": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "168589936",
+          "gid": "6683932520018676036",
+          "size": "365590838"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25280864",
+        "timebuildupdated": "1789288252",
+        "timeupdated": "1789288300"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Bending Boy Games",
+    "publisher": "Bending Boy Games"
+  }
 }

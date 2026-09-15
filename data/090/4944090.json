@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789485969,
-  "_history": [],
-  "_change_number": 38835093,
-  "_missing_token": true,
-  "_sha": "ed9daaba32768e37f2bbdcaf9399020a9835c37f",
-  "_size": 3152,
+  "_lastChecked": 1789493437,
+  "_history": [
+    {
+      "buildId": "25278293",
+      "branch": "public",
+      "timeUpdated": 1789300444,
+      "firstSeen": 1789493437,
+      "manifests": {
+        "4944091": {
+          "gid": "2480958594520241232",
+          "size": 5818289864,
+          "download": 5389870320
+        }
+      }
+    }
+  ],
+  "_change_number": 38903571,
+  "_missing_token": false,
+  "_sha": "15e29e45f0fa8a9fcfce5d7ee5d610b7c26a24bb",
+  "_size": 4123,
   "appid": "4944090",
   "common": {
     "aicontenttype": "1",
@@ -25,8 +39,8 @@
     },
     "clienticon": "f6f61432a1f222dc9b493b8e87ed32b6698111fb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4944090",
     "genres": {
       "0": "4",
@@ -102,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ce6ac952bd52083e11a15af5a0f439c54958019f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789491607",
     "store_asset_mtime": "1788749502",
     "store_tags": {
       "0": "87918",
@@ -142,5 +157,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Perfect Place",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "PerfectPlace/Binaries/Win64/PerfectPlace.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4944091": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "5389870320",
+          "gid": "2480958594520241232",
+          "size": "5818289864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25278293",
+        "timebuildupdated": "1789265885",
+        "timeupdated": "1789300444"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Popular Gaming",
+    "publisher": "Popular Gaming"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789484722,
-  "_history": [],
-  "_change_number": 38893792,
-  "_missing_token": true,
-  "_sha": "3a782cb487a3f90af27dd47df2fdc4aba6a45c9d",
-  "_size": 3128,
+  "_lastChecked": 1789492063,
+  "_history": [
+    {
+      "buildId": "24956612",
+      "branch": "public",
+      "timeUpdated": 1787773394,
+      "firstSeen": 1789492063,
+      "manifests": {
+        "3666412": {
+          "gid": "8164754724509557226",
+          "size": 378306686,
+          "download": 198623360
+        }
+      }
+    }
+  ],
+  "_change_number": 38901674,
+  "_missing_token": false,
+  "_sha": "dbf693debdfac15507dede1aabea7e7445140fc3",
+  "_size": 3808,
   "appid": "3666410",
   "common": {
     "associations": {
@@ -30,9 +44,9 @@
     },
     "clienticon": "8e9868c67d52d90d588dbcb2cbb86851979f5f2d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3666410",
     "genres": {
       "0": "1",
@@ -103,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b7ee6c18b32c4711a31df527c265e92171b62c86/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789487776",
     "store_asset_mtime": "1789472381",
     "store_tags": {
       "0": "1773",
@@ -145,5 +160,41 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Neon Dodge",
+    "launch": {
+      "0": {
+        "executable": "Neon Dodge.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3666412": {
+      "manifests": {
+        "public": {
+          "download": "198623360",
+          "gid": "8164754724509557226",
+          "size": "378306686"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24956612",
+        "timebuildupdated": "1787773393",
+        "timeupdated": "1787773394"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Mavixen",
+    "publisher": "Mavixen"
+  },
+  "ufs": {
+    "appidredirect": "3666410",
+    "maxnumfiles": "5",
+    "quota": "1000000"
+  }
 }

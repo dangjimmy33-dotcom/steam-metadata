@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789486114,
-  "_history": [],
-  "_change_number": 38818452,
-  "_missing_token": true,
-  "_sha": "68daf1b79b735095525f02856b33b4ab4898a04e",
-  "_size": 3048,
+  "_lastChecked": 1789493598,
+  "_history": [
+    {
+      "buildId": "25326977",
+      "branch": "public",
+      "timeUpdated": 1789488250,
+      "firstSeen": 1789493598,
+      "manifests": {
+        "5123561": {
+          "gid": "4012148254872144174",
+          "size": 620399393,
+          "download": 533749040
+        }
+      }
+    }
+  ],
+  "_change_number": 38902252,
+  "_missing_token": false,
+  "_sha": "eccd61e146ba21da55dc78dba6f9739941105b37",
+  "_size": 3537,
   "appid": "5123560",
   "common": {
     "aicontenttype": "1",
@@ -25,14 +39,12 @@
     "clienticon": "e2b3720cd2946c9c4ea1b713b51766f56e5dbeab",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5123560",
     "genres": {
       "0": "25",
       "1": "23",
       "2": "3",
-      "3": "2",
-      "4": "70"
+      "3": "2"
     },
     "header_image": {
       "english": "9d23eb9fcac858a1753b75f6545c2b091e4605ec/header.jpg"
@@ -103,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "503ee19e55e61ab58def36e7478b8127538dea48/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789488762",
     "store_asset_mtime": "1787164574",
     "store_tags": {
       "0": "1091588",
@@ -137,5 +150,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "霓虹尖塔",
+    "launch": {
+      "0": {
+        "executable": "NeonSpire.exe"
+      }
+    }
+  },
+  "depots": {
+    "5123561": {
+      "manifests": {
+        "public": {
+          "download": "533749040",
+          "gid": "4012148254872144174",
+          "size": "620399393"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25326977",
+        "timebuildupdated": "1789488088",
+        "timeupdated": "1789488250"
+      }
+    }
+  },
+  "extended": {
+    "developer": "romming778",
+    "publisher": "romming778"
+  }
 }

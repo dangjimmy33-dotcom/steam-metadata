@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789480999,
+  "_lastChecked": 1789488042,
   "_history": [
     {
       "buildId": "24978220",
@@ -36,12 +36,48 @@
           "download": 31327728
         }
       }
+    },
+    {
+      "buildId": "25098814",
+      "branch": "public",
+      "timeUpdated": 1789484253,
+      "firstSeen": 1789488042,
+      "manifests": {
+        "381211": {
+          "gid": "4869487477266310410",
+          "size": 65509018486,
+          "download": 63897956096
+        },
+        "381212": {
+          "gid": "5921550076694751899",
+          "size": 31578081,
+          "download": 31327728
+        }
+      }
+    },
+    {
+      "buildId": "25308866",
+      "branch": "public-test",
+      "timeUpdated": 1789484300,
+      "firstSeen": 1789488042,
+      "manifests": {
+        "381211": {
+          "gid": "3910379882260361885",
+          "size": 60306539801,
+          "download": 58931635952
+        },
+        "381212": {
+          "gid": "5921550076694751899",
+          "size": 31578081,
+          "download": 31327728
+        }
+      }
     }
   ],
-  "_change_number": 38896902,
+  "_change_number": 38899970,
   "_missing_token": false,
-  "_sha": "237ad13a97fc4723d5b20f3b0689402736230d0e",
-  "_size": 9815,
+  "_sha": "0c4ef747deaf6c7f3586d8ccc1362d524f279060",
+  "_size": 10246,
   "appid": "381210",
   "common": {
     "associations": {
@@ -412,9 +448,14 @@
       },
       "manifests": {
         "public": {
-          "download": "63919006752",
-          "gid": "7492657323105270481",
-          "size": "65560455745"
+          "download": "63897956096",
+          "gid": "4869487477266310410",
+          "size": "65509018486"
+        },
+        "public-test": {
+          "download": "58931635952",
+          "gid": "3910379882260361885",
+          "size": "60306539801"
         }
       }
     },
@@ -425,14 +466,25 @@
           "download": "31327728",
           "gid": "5921550076694751899",
           "size": "31578081"
+        },
+        "public-test": {
+          "download": "31327728",
+          "gid": "5921550076694751899",
+          "size": "31578081"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25125570",
-        "timebuildupdated": "1788530671",
-        "timeupdated": "1788879426"
+        "buildid": "25098814",
+        "timebuildupdated": "1788428783",
+        "timeupdated": "1789484253"
+      },
+      "public-test": {
+        "buildid": "25308866",
+        "description": "Public Branch (on PTB environment) for Actual PTB",
+        "timebuildupdated": "1789419799",
+        "timeupdated": "1789484300"
       }
     },
     "privatebranches": "1"

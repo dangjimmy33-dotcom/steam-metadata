@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789485892,
-  "_history": [],
-  "_change_number": 38811997,
-  "_missing_token": true,
-  "_sha": "6a8efbee5f83c72882e6d9cc2e5b1183fc3bd73b",
-  "_size": 3238,
+  "_lastChecked": 1789493349,
+  "_history": [
+    {
+      "buildId": "25266903",
+      "branch": "public",
+      "timeUpdated": 1789186175,
+      "firstSeen": 1789493349,
+      "manifests": {
+        "4861621": {
+          "gid": "705910729583199188",
+          "size": 681708330,
+          "download": 540600032
+        }
+      }
+    }
+  ],
+  "_change_number": 38903450,
+  "_missing_token": false,
+  "_sha": "20423381af2070249a0bef688938b355719956c5",
+  "_size": 4225,
   "appid": "4861620",
   "common": {
     "aicontenttype": "1",
@@ -39,8 +53,8 @@
     },
     "clienticon": "d4adef88f012a7a503a3d0f708fd2362600d4e4f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4861620",
     "genres": {
       "0": "4",
@@ -111,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c74d8d3503c02e7de2c9447b826f311da4aba1b4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789491370",
     "store_asset_mtime": "1782010327",
     "store_tags": {
       "0": "1664",
@@ -145,5 +160,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Jigsaw Diorama The Alchemist and the Eclipse",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Jigsaw Diorama.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4861621": {
+      "manifests": {
+        "public": {
+          "download": "540600032",
+          "gid": "705910729583199188",
+          "size": "681708330"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25266903",
+        "timebuildupdated": "1789186173",
+        "timeupdated": "1789186175"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Base Metal Games Inc.",
+    "homepage": "https://www.basemetalgames.com",
+    "publisher": "Base Metal Games Inc."
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Base Metal Games Inc_",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

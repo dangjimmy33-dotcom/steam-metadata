@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789486005,
-  "_history": [],
-  "_change_number": 38519574,
-  "_missing_token": true,
-  "_sha": "75ce163174e909d03c53e7f356743475eb791142",
-  "_size": 3008,
+  "_lastChecked": 1789493477,
+  "_history": [
+    {
+      "buildId": "25065760",
+      "branch": "public",
+      "timeUpdated": 1788292691,
+      "firstSeen": 1789493477,
+      "manifests": {
+        "4984341": {
+          "gid": "8923538599479226598",
+          "size": 75939234,
+          "download": 64670560
+        }
+      }
+    }
+  ],
+  "_change_number": 38901552,
+  "_missing_token": false,
+  "_sha": "2ce36fb31f6496e40d82d73c26333e8f2b7e16c9",
+  "_size": 3610,
   "appid": "4984340",
   "common": {
     "associations": {
@@ -26,9 +40,9 @@
     },
     "clienticon": "02f5ca8875fc5ee2145efe262b84b4d92edb5c6a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4984340",
     "genres": {
       "0": "1",
@@ -100,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1665a44b900f503bd910c699e9daeae8cda98650/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789487580",
     "store_asset_mtime": "1787009451",
     "store_tags": {
       "0": "19",
@@ -134,5 +149,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blue Sun Saga",
+    "launch": {
+      "0": {
+        "executable": "Blue Sun Saga.exe"
+      }
+    }
+  },
+  "depots": {
+    "4984341": {
+      "manifests": {
+        "public": {
+          "download": "64670560",
+          "gid": "8923538599479226598",
+          "size": "75939234"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25065760",
+        "timebuildupdated": "1788292679",
+        "timeupdated": "1788292691"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Prospective Games",
+    "homepage": "https://www.prospectivegames.com/",
+    "publisher": "Prospective Games"
+  }
 }

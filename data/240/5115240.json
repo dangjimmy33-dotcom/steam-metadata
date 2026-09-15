@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789486108,
-  "_history": [],
-  "_change_number": 38827843,
-  "_missing_token": true,
-  "_sha": "527b6e9faf48e0d409a805cd69bb5bca5d937382",
-  "_size": 3754,
+  "_lastChecked": 1789493591,
+  "_history": [
+    {
+      "buildId": "25150507",
+      "branch": "public",
+      "timeUpdated": 1788687023,
+      "firstSeen": 1789493591,
+      "manifests": {
+        "5115241": {
+          "gid": "2702911842766143259",
+          "size": 299817626,
+          "download": 167701824
+        }
+      }
+    }
+  ],
+  "_change_number": 38903837,
+  "_missing_token": false,
+  "_sha": "b731b07c0206d6b6d7e69fde4169c47cf039958c",
+  "_size": 4357,
   "appid": "5115240",
   "common": {
     "aicontenttype": "1",
@@ -34,9 +48,9 @@
     },
     "clienticon": "d4f1d87551126290d5569a5f12ba76ee414ab699",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5115240",
     "genres": {
       "0": "1",
@@ -121,10 +135,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6ef3b8c23c264d45959411896e1a515c96b02f48/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789491983",
     "store_asset_mtime": "1789258549",
     "store_tags": {
       "0": "19",
@@ -176,5 +191,36 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "STILLTRACE",
+    "launch": {
+      "0": {
+        "executable": "STILLTRACE.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5115241": {
+      "manifests": {
+        "public": {
+          "download": "167701824",
+          "gid": "2702911842766143259",
+          "size": "299817626"
+        }
+      }
+    },
+    "baselanguages": "english,russian,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "25150507",
+        "timebuildupdated": "1788686998",
+        "timeupdated": "1788687023"
+      }
+    }
+  },
+  "extended": {
+    "developer": "AdroVGames",
+    "publisher": "AdroVGames"
+  }
 }

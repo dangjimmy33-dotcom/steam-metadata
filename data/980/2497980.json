@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789483476,
-  "_history": [],
-  "_change_number": 38802179,
-  "_missing_token": true,
-  "_sha": "4b4f833be72ad50393809a50115a0af488473dc3",
-  "_size": 2921,
+  "_lastChecked": 1789490705,
+  "_history": [
+    {
+      "buildId": "25259353",
+      "branch": "public",
+      "timeUpdated": 1789150702,
+      "firstSeen": 1789490705,
+      "manifests": {
+        "2497981": {
+          "gid": "3277041053085298502",
+          "size": 2145535836,
+          "download": 393554112
+        }
+      }
+    }
+  ],
+  "_change_number": 38899859,
+  "_missing_token": false,
+  "_sha": "639f549c75308ef1fc303d2c137d0dafa9310b68",
+  "_size": 5098,
   "appid": "2497980",
   "common": {
     "associations": {
@@ -35,8 +49,8 @@
     "clienticon": "acf00fa69b45db4a4c65d74dba39ae119490e003",
     "clienttga": "debb80e40dbf7f29573d0c85b3b898377f82c06d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2497980",
     "genres": {
       "0": "23",
@@ -102,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "65749001655697e12d2ec40f726057e050fdbdcb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789484402",
     "store_asset_mtime": "1788489594",
     "store_tags": {
       "0": "1645",
@@ -138,5 +153,111 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Heroes Suck",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Heroes Suck.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2497981": {
+      "manifests": {
+        "public": {
+          "download": "393554112",
+          "gid": "3277041053085298502",
+          "size": "2145535836"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25259353",
+        "timebuildupdated": "1789149579",
+        "timeupdated": "1789150702"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Dawning Light",
+    "homepage": "https://dawninglight.gg/games/heroes-suck/",
+    "publisher": "Dawning Light"
+  },
+  "ufs": {
+    "maxnumfiles": "1024",
+    "quota": "134217728",
+    "savefiles": {
+      "0": {
+        "path": "Dawning Light/Heroes Suck",
+        "pattern": "save*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Dawning Light/Heroes Suck",
+        "pattern": "save*.sav.bak0",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Dawning Light/Heroes Suck",
+        "pattern": "save*.sav.bak1",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Dawning Light/Heroes Suck",
+        "pattern": "save*.sav.bak2",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": "Dawning Light/Heroes Suck",
+        "pattern": "save*.sav.premigration",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "5": {
+        "path": "Dawning Light/Heroes Suck",
+        "pattern": "save*.sav.recovery",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "6": {
+        "path": "Dawning Light/Heroes Suck",
+        "pattern": "save*.sav.premigration.recovery",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "7": {
+        "path": "Dawning Light/Heroes Suck",
+        "pattern": "config",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

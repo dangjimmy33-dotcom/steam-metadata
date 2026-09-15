@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789486103,
-  "_history": [],
-  "_change_number": 38631971,
-  "_missing_token": true,
-  "_sha": "132ab1dfc91f9e2b3aab818240191114c871a285",
-  "_size": 2833,
+  "_lastChecked": 1789493586,
+  "_history": [
+    {
+      "buildId": "25326374",
+      "branch": "public",
+      "timeUpdated": 1789486256,
+      "firstSeen": 1789493586,
+      "manifests": {
+        "5107721": {
+          "gid": "4298629325251028256",
+          "size": 383697347,
+          "download": 117465360
+        }
+      }
+    }
+  ],
+  "_change_number": 38901028,
+  "_missing_token": false,
+  "_sha": "b8692bc773f35b29fbf37ab76d5276dbe1fa1886",
+  "_size": 3381,
   "appid": "5107720",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "88a7de7c88ff65a6d212ce2ff75e79f0bbc133e8",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5107720",
     "genres": {
       "0": "1",
@@ -96,10 +109,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "573cebc2d4809dc17ea56e853940fa78ac89018b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787671392",
     "store_tags": {
       "0": "19",
@@ -125,5 +139,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "GOT",
+    "launch": {
+      "0": {
+        "executable": "GOT.exe"
+      }
+    }
+  },
+  "depots": {
+    "5107721": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "117465360",
+          "gid": "4298629325251028256",
+          "size": "383697347"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25326374",
+        "timebuildupdated": "1789486226",
+        "timeupdated": "1789486256"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Nexforge",
+    "publisher": "Nexforge"
+  }
 }

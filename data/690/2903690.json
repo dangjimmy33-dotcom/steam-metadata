@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789483909,
+  "_lastChecked": 1789491175,
   "_history": [
     {
       "buildId": "25035589",
@@ -142,10 +142,10 @@
       }
     }
   ],
-  "_change_number": 38877859,
+  "_change_number": 38902144,
   "_missing_token": false,
-  "_sha": "daf036c3f6c60a1e00c7f436aaa06f6c586bb8ec",
-  "_size": 8617,
+  "_sha": "197e2c3b76e33bd30bbb890b4dc2dad1b71fa3ab",
+  "_size": 9813,
   "appid": "2903690",
   "common": {
     "aicontenttype": "1",
@@ -339,6 +339,48 @@
         "4": {
           "display": "1",
           "token": "#SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+        }
+      }
+    },
+    "steam_frame_compatibility": {
+      "category": "3",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1788881911",
+      "tested_build_id": "25035589",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsPerformant"
         }
       }
     },

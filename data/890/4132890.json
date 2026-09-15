@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789485200,
-  "_history": [],
-  "_change_number": 38878073,
-  "_missing_token": true,
-  "_sha": "0a10a9e11d19a2ff73cfd558599587d56a2addff",
-  "_size": 6328,
+  "_lastChecked": 1789492587,
+  "_history": [
+    {
+      "buildId": "25311219",
+      "branch": "public",
+      "timeUpdated": 1789429897,
+      "firstSeen": 1789492587,
+      "manifests": {
+        "4132891": {
+          "gid": "8038127132106501648",
+          "size": 774625750,
+          "download": 629857264
+        }
+      }
+    }
+  ],
+  "_change_number": 38902909,
+  "_missing_token": false,
+  "_sha": "0c6ee58d42d9cb766eb7cc767ebc12596f1cfeae",
+  "_size": 7881,
   "appid": "4132890",
   "common": {
     "associations": {
@@ -36,6 +50,7 @@
     },
     "clienticon": "a77fabfc75728ef0a51882198fd1083e7d1f5ea3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -46,7 +61,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4132890",
     "genres": {
       "0": "1",
@@ -151,14 +165,15 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "766b26db4e203c44ae833ff5b03e856502e47a95/capsule_231x87.jpg",
       "schinese": "a1af77bec6c6d2ba91d70d1eff34e0452e938e9a/capsule_231x87_schinese.jpg",
       "tchinese": "d93f9834ae81b91ac35e40b110411b192c83feec/capsule_231x87_tchinese.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/4132890/discussions/0/520883440133942430/",
-    "store_asset_mtime": "1788864680",
+    "steam_release_date": "1789488038",
+    "store_asset_mtime": "1789490132",
     "store_tags": {
       "0": "3978",
       "1": "3814",
@@ -222,5 +237,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fright Train",
+    "launch": {
+      "0": {
+        "executable": "FrightTrain.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4132891": {
+      "manifests": {
+        "public": {
+          "download": "629857264",
+          "gid": "8038127132106501648",
+          "size": "774625750"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25311219",
+        "timebuildupdated": "1789429649",
+        "timeupdated": "1789429897"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "WildArts Games",
+    "homepage": "https://www.wildartsgames.com/",
+    "publisher": "Black Lantern Collective"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "FrightTrain/Saved/SaveGames",
+            "replace": "home/deck/.steam/steam/steamapps/compatdata/710070/pfx/dosdevices/c:/users/steamuser/AppData/Local/FrightTrain/Saved/SaveGames"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "FrightTrain/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

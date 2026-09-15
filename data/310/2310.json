@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789480804,
+  "_lastChecked": 1789487831,
   "_history": [
     {
       "buildId": "24258635",
@@ -13,12 +13,25 @@
           "download": 797504240
         }
       }
+    },
+    {
+      "buildId": "25148042",
+      "branch": "public",
+      "timeUpdated": 1789484381,
+      "firstSeen": 1789487831,
+      "manifests": {
+        "2311": {
+          "gid": "5952372928994922267",
+          "size": 1877922409,
+          "download": 790094688
+        }
+      }
     }
   ],
-  "_change_number": 38864515,
+  "_change_number": 38900316,
   "_missing_token": false,
-  "_sha": "f4f09a1196809f8acbe2607d3e4ef9568d312f71",
-  "_size": 8610,
+  "_sha": "f94ad73934fb89717b41a7a3c8ff76c326b19c6c",
+  "_size": 8309,
   "appid": "2310",
   "common": {
     "associations": {
@@ -286,7 +299,6 @@
     "installdir": "Quake",
     "launch": {
       "0": {
-        "arguments": "+d3d11_compileShaders 1",
         "executable": "rerelease/Quake_x64_steam.exe",
         "type": "default"
       },
@@ -315,17 +327,6 @@
         },
         "executable": "glquake.exe",
         "type": "option1"
-      },
-      "4": {
-        "config": {
-          "betakey": "nightly,beta"
-        },
-        "description": "Rerelease Shaderfix",
-        "description_loc": {
-          "english": "Rerelease Shaderfix"
-        },
-        "executable": "rerelease/Quake_x64_steam.exe",
-        "type": "option1"
       }
     },
     "uselaunchcommandline": "1"
@@ -341,9 +342,9 @@
     "2311": {
       "manifests": {
         "public": {
-          "download": "797504240",
-          "gid": "8669014823481477256",
-          "size": "1905483037"
+          "download": "790094688",
+          "gid": "5952372928994922267",
+          "size": "1877922409"
         }
       },
       "systemdefined": "1"
@@ -351,9 +352,9 @@
     "baselanguages": "english,german,french,italian,spanish,russian",
     "branches": {
       "public": {
-        "buildid": "24258635",
-        "timebuildupdated": "1784289924",
-        "timeupdated": "1786035619"
+        "buildid": "25148042",
+        "timebuildupdated": "1788664050",
+        "timeupdated": "1789484381"
       }
     },
     "overridescddb": "1",

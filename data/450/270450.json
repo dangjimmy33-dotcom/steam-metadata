@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789480886,
+  "_lastChecked": 1789487920,
   "_history": [
     {
       "buildId": "25136248",
@@ -322,12 +322,58 @@
           "download": 323164304
         }
       }
+    },
+    {
+      "buildId": "25325283",
+      "branch": "beta",
+      "timeUpdated": 1789482996,
+      "firstSeen": 1789487920,
+      "manifests": {
+        "270451": {
+          "gid": "1549810739725609524",
+          "size": 593025206,
+          "download": 319076288
+        },
+        "270452": {
+          "gid": "3438409600396263458",
+          "size": 605375178,
+          "download": 327105968
+        },
+        "270453": {
+          "gid": "7836932608693509166",
+          "size": 618682037,
+          "download": 323189120
+        }
+      }
+    },
+    {
+      "buildId": "25325283",
+      "branch": "public",
+      "timeUpdated": 1789484678,
+      "firstSeen": 1789487920,
+      "manifests": {
+        "270451": {
+          "gid": "1549810739725609524",
+          "size": 593025206,
+          "download": 319076288
+        },
+        "270452": {
+          "gid": "3438409600396263458",
+          "size": 605375178,
+          "download": 327105968
+        },
+        "270453": {
+          "gid": "7836932608693509166",
+          "size": 618682037,
+          "download": 323189120
+        }
+      }
     }
   ],
-  "_change_number": 38897004,
+  "_change_number": 38900078,
   "_missing_token": false,
-  "_sha": "99267ed036a5b78cbad9b53fc8168388efc21883",
-  "_size": 5263,
+  "_sha": "13d6837bc8ebcdd4aeae62302dc9ee9dfec31d48",
+  "_size": 5385,
   "appid": "270450",
   "common": {
     "associations": {
@@ -421,6 +467,8 @@
         "supported": "true"
       }
     },
+    "timeline_marker_svg": "eff2e9d8bdd88271556317398552a552e20b4c53/markers.svg",
+    "timeline_marker_updated": "1789484377",
     "type": "Game",
     "workshop_visible": "1"
   },
@@ -477,9 +525,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "319086784",
-          "gid": "3337473131251895073",
-          "size": "593020286"
+          "download": "319076288",
+          "gid": "1549810739725609524",
+          "size": "593025206"
         },
         "legacy": {
           "download": "282835408",
@@ -487,9 +535,9 @@
           "size": "531200366"
         },
         "public": {
-          "download": "315012960",
-          "gid": "5431507735795623255",
-          "size": "582984733"
+          "download": "319076288",
+          "gid": "1549810739725609524",
+          "size": "593025206"
         }
       },
       "systemdefined": "1"
@@ -500,9 +548,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "327105040",
-          "gid": "1009567635007506933",
-          "size": "605372682"
+          "download": "327105968",
+          "gid": "3438409600396263458",
+          "size": "605375178"
         },
         "legacy": {
           "download": "291377200",
@@ -510,9 +558,9 @@
           "size": "552517807"
         },
         "public": {
-          "download": "323173360",
-          "gid": "7782322319875220596",
-          "size": "595680821"
+          "download": "327105968",
+          "gid": "3438409600396263458",
+          "size": "605375178"
         }
       }
     },
@@ -522,9 +570,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "323164304",
-          "gid": "8999384037166016575",
-          "size": "618675653"
+          "download": "323189120",
+          "gid": "7836932608693509166",
+          "size": "618682037"
         },
         "legacy": {
           "download": "297722992",
@@ -532,17 +580,17 @@
           "size": "557634368"
         },
         "public": {
-          "download": "319084240",
-          "gid": "6123696178277357031",
-          "size": "608372548"
+          "download": "323189120",
+          "gid": "7836932608693509166",
+          "size": "618682037"
         }
       }
     },
     "branches": {
       "beta": {
-        "buildid": "25323859",
-        "timebuildupdated": "1789478996",
-        "timeupdated": "1789479051"
+        "buildid": "25325283",
+        "timebuildupdated": "1789482985",
+        "timeupdated": "1789482996"
       },
       "legacy": {
         "buildid": "21748506",
@@ -551,9 +599,9 @@
         "timeupdated": "1770041180"
       },
       "public": {
-        "buildid": "25276754",
-        "timebuildupdated": "1789254106",
-        "timeupdated": "1789313195"
+        "buildid": "25325283",
+        "timebuildupdated": "1789482985",
+        "timeupdated": "1789484678"
       }
     },
     "markdlcdepots": "1",

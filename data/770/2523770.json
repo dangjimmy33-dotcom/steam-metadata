@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789483502,
+  "_lastChecked": 1789490733,
   "_history": [
     {
       "buildId": "24381077",
@@ -13,12 +13,25 @@
           "download": 13846227584
         }
       }
+    },
+    {
+      "buildId": "24946981",
+      "branch": "public",
+      "timeUpdated": 1789487507,
+      "firstSeen": 1789490733,
+      "manifests": {
+        "2523771": {
+          "gid": "2079094272288778053",
+          "size": 23229365704,
+          "download": 13846543408
+        }
+      }
     }
   ],
-  "_change_number": 38899128,
+  "_change_number": 38902508,
   "_missing_token": false,
-  "_sha": "c3eb4a2fd13a90ba1cad671a9daf87ebc9bc982a",
-  "_size": 5939,
+  "_sha": "b454a3e539737bdd614b8edc73343cdc653a01f0",
+  "_size": 7933,
   "appid": "2523770",
   "common": {
     "associations": {
@@ -150,10 +163,79 @@
     "oslist": "windows",
     "primary_genre": "3",
     "releasestate": "released",
-    "review_percentage": "82",
+    "review_percentage": "83",
     "review_score": "8",
     "small_capsule": {
       "english": "b62eeb1186b92349f4fe8820a67837bcf2d8ba88/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "3",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-11.0-2RC",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1787252470",
+      "tested_build_id": "24684046",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      }
     },
     "steam_release_date": "1786463787",
     "store_asset_mtime": "1788987972",
@@ -253,18 +335,18 @@
       },
       "manifests": {
         "public": {
-          "download": "13846227584",
-          "gid": "3512321708538448698",
-          "size": "23229118222"
+          "download": "13846543408",
+          "gid": "2079094272288778053",
+          "size": "23229365704"
         }
       }
     },
     "baselanguages": "english,german,french,italian,spanish,schinese,russian,polish,brazilian",
     "branches": {
       "public": {
-        "buildid": "24381077",
-        "timebuildupdated": "1784924451",
-        "timeupdated": "1786044476"
+        "buildid": "24946981",
+        "timebuildupdated": "1787739297",
+        "timeupdated": "1789487507"
       }
     },
     "hasdepotsindlc": "0",

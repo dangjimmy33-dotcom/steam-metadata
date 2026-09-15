@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789485529,
-  "_history": [],
-  "_change_number": 38899538,
-  "_missing_token": true,
-  "_sha": "69cb9ed1968e20ffaa464df636f1b76e6c598db7",
-  "_size": 4996,
+  "_lastChecked": 1789492948,
+  "_history": [
+    {
+      "buildId": "25325595",
+      "branch": "public",
+      "timeUpdated": 1789483933,
+      "firstSeen": 1789492948,
+      "manifests": {
+        "4464991": {
+          "gid": "6407135001226435421",
+          "size": 1175199092,
+          "download": 1034398880
+        }
+      }
+    }
+  ],
+  "_change_number": 38904117,
+  "_missing_token": false,
+  "_sha": "126f0d9df41751f227f5ee95699db49924ea4d47",
+  "_size": 5962,
   "appid": "4464990",
   "common": {
     "associations": {
@@ -29,13 +43,11 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4464990",
     "genres": {
       "0": "23",
       "1": "28",
-      "2": "18",
-      "3": "70"
+      "2": "18"
     },
     "header_image": {
       "english": "7e3f95d374644ca4673f9329e9ffd35499fcd5ce/header.jpg"
@@ -103,7 +115,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "aabfb0dc54b3a42b8db39af1bb1404aec61d9592/capsule_231x87.jpg"
     },
@@ -176,6 +190,7 @@
         }
       }
     },
+    "steam_release_date": "1789488114",
     "store_asset_mtime": "1789432941",
     "store_tags": {
       "0": "599",
@@ -202,5 +217,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "RolloutInline",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "RollerSkate.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4464991": {
+      "manifests": {
+        "public": {
+          "download": "1034398880",
+          "gid": "6407135001226435421",
+          "size": "1175199092"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25325595",
+        "timebuildupdated": "1789483922",
+        "timeupdated": "1789483933"
+      }
+    }
+  },
+  "extended": {
+    "developer": "MLMEDIA",
+    "publisher": "MLMEDIA"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "\\RollerSkate\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789485599,
-  "_history": [],
-  "_change_number": 38893175,
-  "_missing_token": true,
-  "_sha": "639d09a339832fb2beffce7af06267188a996b1b",
-  "_size": 3073,
+  "_lastChecked": 1789493026,
+  "_history": [
+    {
+      "buildId": "25326176",
+      "branch": "public",
+      "timeUpdated": 1789485691,
+      "firstSeen": 1789493026,
+      "manifests": {
+        "4537801": {
+          "gid": "3677910781259247233",
+          "size": 5026072704,
+          "download": 4785914880
+        }
+      }
+    }
+  ],
+  "_change_number": 38903541,
+  "_missing_token": false,
+  "_sha": "1e9c3ebd71d837ef2f6cbc84408932a15951ca5d",
+  "_size": 3894,
   "appid": "4537800",
   "common": {
     "associations": {
@@ -28,7 +42,6 @@
     "clienticon": "792567af59e065a64c391a0a38042b10d9efa949",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4537800",
     "genres": {
       "0": "25",
@@ -99,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "097ebd89f3990bb42308377638ff948c72879084/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789491550",
     "store_asset_mtime": "1789060216",
     "store_tags": {
       "0": "1667",
@@ -139,5 +153,49 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Snuggle nightmare",
+    "launch": {
+      "0": {
+        "executable": "SnuggleNightmare.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4537801": {
+      "manifests": {
+        "public": {
+          "download": "4785914880",
+          "gid": "3677910781259247233",
+          "size": "5026072704"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25326176",
+        "timebuildupdated": "1789485682",
+        "timeupdated": "1789485691"
+      }
+    }
+  },
+  "extended": {
+    "developer": " Catire Games Studio",
+    "homepage": "https://www.catiregamesstudio.com/",
+    "publisher": " Catire Games Studio"
+  }
 }

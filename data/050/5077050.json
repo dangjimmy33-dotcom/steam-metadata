@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789486080,
-  "_history": [],
-  "_change_number": 38877918,
-  "_missing_token": true,
-  "_sha": "0e283c46b2b7cd9b87e85b7329c28604538ad91c",
-  "_size": 3104,
+  "_lastChecked": 1789493561,
+  "_history": [
+    {
+      "buildId": "25311168",
+      "branch": "public",
+      "timeUpdated": 1789429355,
+      "firstSeen": 1789493561,
+      "manifests": {
+        "5077051": {
+          "gid": "9070719022337576837",
+          "size": 181524296,
+          "download": 100796672
+        }
+      }
+    }
+  ],
+  "_change_number": 38901771,
+  "_missing_token": false,
+  "_sha": "3f3c7353badb7fe65742f8c48f9a358bc039e864",
+  "_size": 4207,
   "appid": "5077050",
   "common": {
     "associations": {
@@ -33,8 +47,8 @@
     },
     "clienticon": "31cef8958c734745bec4b329ef6e035c0b7a5824",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5077050",
     "genres": {
       "0": "1",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d6370e7f5bf0332deb93b1db89075e3ba2ac07c4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788995872",
     "store_tags": {
       "0": "19",
@@ -143,5 +158,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lopem",
+    "launch": {
+      "0": {
+        "executable": "Lopem.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5077051": {
+      "manifests": {
+        "public": {
+          "download": "100796672",
+          "gid": "9070719022337576837",
+          "size": "181524296"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25311168",
+        "timebuildupdated": "1789429344",
+        "timeupdated": "1789429355"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Aria Gharachorlou",
+    "publisher": "Aria Gharachorlou"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "40000000",
+    "savefiles": {
+      "0": {
+        "path": "Lopem/",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "godot/app_userdata/Lopem/",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Lopem/",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

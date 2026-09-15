@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789485989,
+  "_lastChecked": 1789493459,
   "_history": [
     {
       "buildId": "25325331",
@@ -36,12 +36,48 @@
           "download": 29939296
         }
       }
+    },
+    {
+      "buildId": "25326693",
+      "branch": "public",
+      "timeUpdated": 1789491300,
+      "firstSeen": 1789493459,
+      "manifests": {
+        "4964731": {
+          "gid": "579252795796348584",
+          "size": 63194584,
+          "download": 24304592
+        },
+        "5057901": {
+          "gid": "3588329394258424787",
+          "size": 67861918,
+          "download": 29938016
+        }
+      }
+    },
+    {
+      "buildId": "25326693",
+      "branch": "testing",
+      "timeUpdated": 1789487336,
+      "firstSeen": 1789493459,
+      "manifests": {
+        "4964731": {
+          "gid": "579252795796348584",
+          "size": 63194584,
+          "download": 24304592
+        },
+        "5057901": {
+          "gid": "3588329394258424787",
+          "size": 67861918,
+          "download": 29938016
+        }
+      }
     }
   ],
-  "_change_number": 38899233,
+  "_change_number": 38903419,
   "_missing_token": false,
-  "_sha": "1e32771cd8b894c8bf3f7322d5be9198524750e2",
-  "_size": 4536,
+  "_sha": "6f7800bd1b1dcf6fcffc3030bab880e261b2f7cd",
+  "_size": 4538,
   "appid": "4964730",
   "common": {
     "aicontenttype": "1",
@@ -193,14 +229,14 @@
       },
       "manifests": {
         "public": {
-          "download": "24303488",
-          "gid": "5207694411634440569",
-          "size": "63193560"
+          "download": "24304592",
+          "gid": "579252795796348584",
+          "size": "63194584"
         },
         "testing": {
-          "download": "24303488",
-          "gid": "5207694411634440569",
-          "size": "63193560"
+          "download": "24304592",
+          "gid": "579252795796348584",
+          "size": "63194584"
         }
       }
     },
@@ -218,28 +254,28 @@
       },
       "manifests": {
         "public": {
-          "download": "29939296",
-          "gid": "84896841602812551",
+          "download": "29938016",
+          "gid": "3588329394258424787",
           "size": "67861918"
         },
         "testing": {
-          "download": "29939296",
-          "gid": "84896841602812551",
+          "download": "29938016",
+          "gid": "3588329394258424787",
           "size": "67861918"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25325331",
-        "timebuildupdated": "1789483103",
-        "timeupdated": "1789483428"
+        "buildid": "25326693",
+        "timebuildupdated": "1789487154",
+        "timeupdated": "1789491300"
       },
       "testing": {
-        "buildid": "25325331",
+        "buildid": "25326693",
         "description": "cutting edge build",
-        "timebuildupdated": "1789483103",
-        "timeupdated": "1789483337"
+        "timebuildupdated": "1789487154",
+        "timeupdated": "1789487336"
       }
     },
     "hasdepotsindlc": "1"

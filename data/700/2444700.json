@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789483418,
-  "_history": [],
-  "_change_number": 38867978,
-  "_missing_token": true,
-  "_sha": "df52611b505f7c9af8a590a13527359959e75cb7",
-  "_size": 2978,
+  "_lastChecked": 1789490643,
+  "_history": [
+    {
+      "buildId": "25325364",
+      "branch": "public",
+      "timeUpdated": 1789483449,
+      "firstSeen": 1789490643,
+      "manifests": {
+        "2444701": {
+          "gid": "5993241101529193579",
+          "size": 14388648356,
+          "download": 6558917856
+        }
+      }
+    }
+  ],
+  "_change_number": 38901814,
+  "_missing_token": false,
+  "_sha": "3f51b5ffb57a10c7e0722cd14674fdd7668ea78f",
+  "_size": 3703,
   "appid": "2444700",
   "common": {
     "aicontenttype": "1",
@@ -28,6 +42,7 @@
     "clienticon": "ae01c2a00265e6a20c588826013296ef6cb8a22a",
     "clienttga": "8792f3d40de12b215c8c6f0b09e2547ac704d911",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -37,7 +52,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2444700",
     "genres": {
       "0": "25",
@@ -102,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a5b9f7808a380632a995823c3f28aed91e047c6d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789488014",
     "store_asset_mtime": "1789395209",
     "store_tags": {
       "0": "1721",
@@ -150,5 +165,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Event",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TheEvent.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2444701": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "6558917856",
+          "gid": "5993241101529193579",
+          "size": "14388648356"
+        }
+      }
+    },
+    "baselanguages": "english,italian,russian,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25325364",
+        "timebuildupdated": "1789483220",
+        "timeupdated": "1789483449"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Lazy Games",
+    "publisher": "Lazy Games"
+  }
 }

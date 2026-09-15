@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789480953,
-  "_history": [],
-  "_change_number": 38897639,
-  "_missing_token": true,
-  "_sha": "795f957b6b6f5dcc970be334e88fa1864a7687f3",
-  "_size": 4052,
+  "_lastChecked": 1789487991,
+  "_history": [
+    {
+      "buildId": "25324325",
+      "branch": "public",
+      "timeUpdated": 1789480279,
+      "firstSeen": 1789487991,
+      "manifests": {
+        "341101": {
+          "gid": "710251123774976604",
+          "size": 7414047950,
+          "download": 1415862688
+        }
+      }
+    }
+  ],
+  "_change_number": 38900162,
+  "_missing_token": false,
+  "_sha": "47dcd9a96fb6e1249fe6f19422a8948e5d5d189c",
+  "_size": 5152,
   "appid": "341100",
   "common": {
     "aicontenttype": "1",
@@ -39,9 +53,9 @@
     },
     "clienticon": "3d4e111f911d542d58829f66c53f8c76040d1abf",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "341100",
     "genres": {
       "0": "1",
@@ -124,10 +138,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "980d676a286cc55a5fc69907e376dd8c502a5fdf/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789484831",
     "store_asset_mtime": "1787578006",
     "store_tags": {
       "0": "3834",
@@ -193,5 +208,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "contenttype": "3",
+    "installdir": "TheSolyani'sCode",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "The Solyani's code.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "6",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "341101": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1415862688",
+          "gid": "710251123774976604",
+          "size": "7414047950"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25324325",
+        "timebuildupdated": "1789480262",
+        "timeupdated": "1789480279"
+      }
+    }
+  },
+  "extended": {
+    "developer": "ANGames",
+    "publisher": "ANGames"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "ANGames/The Solyani's code",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

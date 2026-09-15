@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789486121,
-  "_history": [],
-  "_change_number": 38891120,
-  "_missing_token": true,
-  "_sha": "737a77c5ab572aa6cc4c9541b82a5399c6a508f1",
-  "_size": 2837,
+  "_lastChecked": 1789493605,
+  "_history": [
+    {
+      "buildId": "25319912",
+      "branch": "public",
+      "timeUpdated": 1789466428,
+      "firstSeen": 1789493605,
+      "manifests": {
+        "5132571": {
+          "gid": "7824424195634997067",
+          "size": 9296701583,
+          "download": 7767869680
+        }
+      }
+    }
+  ],
+  "_change_number": 38904030,
+  "_missing_token": false,
+  "_sha": "cd82462a912525415cbf8c1d800088960db850dd",
+  "_size": 3698,
   "appid": "5132570",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "f19a91471e5c695711996fc6d07660fe3318cc7a",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5132570",
     "genres": {
       "0": "25",
@@ -97,10 +110,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7fb89a3f63a547efc4fe880c787f4ae343f0bf59/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789492496",
     "store_asset_mtime": "1788657222",
     "store_tags": {
       "0": "21",
@@ -122,5 +136,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Melaka 1511 The Malay Chronicles - Before The Storm",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch Melaka 1511",
+        "description_loc": {
+          "english": "Launch Melaka 1511"
+        },
+        "executable": "Melaka15113D.exe"
+      }
+    }
+  },
+  "depots": {
+    "5132571": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "7767869680",
+          "gid": "7824424195634997067",
+          "size": "9296701583"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25319912",
+        "timebuildupdated": "1789466390",
+        "timeupdated": "1789466428"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SYAHIR BAHIRAN HILMI",
+    "gamemanualurl": "https://store.steampowered.com/manual/5132570/",
+    "publisher": "MULTIPDPKIT"
+  }
 }

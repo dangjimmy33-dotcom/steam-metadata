@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1789484906,
-  "_history": [],
-  "_change_number": 38862062,
-  "_missing_token": true,
-  "_sha": "1b1335a39b65c4d182b2cd8271c22aa1091e1103",
-  "_size": 3033,
+  "_lastChecked": 1789492266,
+  "_history": [
+    {
+      "buildId": "24640241",
+      "branch": "beta",
+      "timeUpdated": 1786290408,
+      "firstSeen": 1789492266,
+      "manifests": {
+        "3849931": {
+          "gid": "8988215666747118131",
+          "size": 3234262313,
+          "download": 1934713120
+        }
+      }
+    },
+    {
+      "buildId": "25300592",
+      "branch": "public",
+      "timeUpdated": 1789392100,
+      "firstSeen": 1789492266,
+      "manifests": {
+        "3849931": {
+          "gid": "8595057692904979107",
+          "size": 3234262057,
+          "download": 1934715648
+        }
+      }
+    }
+  ],
+  "_change_number": 38902034,
+  "_missing_token": false,
+  "_sha": "197bded3e8dfaad138682a43ae9b07e5d8507963",
+  "_size": 3996,
   "appid": "3849930",
   "common": {
     "aicontenttype": "1",
@@ -28,8 +55,8 @@
     "clienticon": "10ee355b918f2f19b162c762d52e80a90e74ef9f",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3849930",
     "genres": {
       "0": "25",
@@ -100,10 +127,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "19ccefd276d3ddeab6e46b3164a7be4db84ee03f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789488393",
     "store_asset_mtime": "1788086513",
     "store_tags": {
       "0": "21",
@@ -132,5 +160,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Once Before Us",
+    "launch": {
+      "0": {
+        "executable": "OBU.exe"
+      }
+    }
+  },
+  "depots": {
+    "3849931": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "1934713120",
+          "gid": "8988215666747118131",
+          "size": "3234262313"
+        },
+        "public": {
+          "download": "1934715648",
+          "gid": "8595057692904979107",
+          "size": "3234262057"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "24640241",
+        "description": "Beta version",
+        "timebuildupdated": "1786290142",
+        "timeupdated": "1786290408"
+      },
+      "public": {
+        "buildid": "25300592",
+        "timebuildupdated": "1789391986",
+        "timeupdated": "1789392100"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Palindrome Games",
+    "homepage": "https://palindrome.games/",
+    "publisher": "Palindrome Games"
+  },
+  "ufs": {
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789485988,
-  "_history": [],
-  "_change_number": 38897571,
-  "_missing_token": true,
-  "_sha": "efbeac67d1da5eb5f44e839fe73d5f702bc8f143",
-  "_size": 3153,
+  "_lastChecked": 1789493458,
+  "_history": [
+    {
+      "buildId": "25327241",
+      "branch": "public",
+      "timeUpdated": 1789488887,
+      "firstSeen": 1789493458,
+      "manifests": {
+        "4963551": {
+          "gid": "7859932321025453540",
+          "size": 166498188,
+          "download": 80856208
+        }
+      }
+    }
+  ],
+  "_change_number": 38903751,
+  "_missing_token": false,
+  "_sha": "e446ad836b44c6d547206814b5864aac4c78a6a4",
+  "_size": 3853,
   "appid": "4963550",
   "common": {
     "associations": {
@@ -38,9 +52,9 @@
     },
     "clienticon": "dd647b97a6eaa83739e36ba5b7da49cfe764385c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4963550",
     "genres": {
       "0": "25",
@@ -112,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "496beabd4f1d55fdb451eed18bf30bf56ef60849/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789491781",
     "store_asset_mtime": "1784062904",
     "store_tags": {
       "0": "5379",
@@ -143,5 +158,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "That FireOc Game",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "FireOc.exe"
+      }
+    }
+  },
+  "depots": {
+    "4963551": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "80856208",
+          "gid": "7859932321025453540",
+          "size": "166498188"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25327241",
+        "timebuildupdated": "1789488856",
+        "timeupdated": "1789488887"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Nando Broqui",
+    "publisher": "Nando Broqui"
+  }
 }

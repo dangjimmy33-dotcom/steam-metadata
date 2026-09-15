@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789485477,
-  "_history": [],
-  "_change_number": 38899197,
-  "_missing_token": true,
-  "_sha": "7ad86f762842b2ce05034862ab759f8f005fd602",
-  "_size": 5355,
+  "_lastChecked": 1789492891,
+  "_history": [
+    {
+      "buildId": "25325318",
+      "branch": "public",
+      "timeUpdated": 1789483361,
+      "firstSeen": 1789492891,
+      "manifests": {
+        "4414271": {
+          "gid": "5407502991493120597",
+          "size": 238458486,
+          "download": 127521280
+        },
+        "4414272": {
+          "gid": "6929940490525266474",
+          "size": 403889347,
+          "download": 160999424
+        }
+      }
+    }
+  ],
+  "_change_number": 38904020,
+  "_missing_token": false,
+  "_sha": "6e1347fe5ba1396c465e59607f6b1dfbdfdaf0db",
+  "_size": 6818,
   "appid": "4414270",
   "common": {
     "associations": {
@@ -28,8 +47,8 @@
     },
     "clienticon": "b0a4ad578d9cb5988a81f99a50d250111fb1b603",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4414270",
     "genres": {
       "0": "4",
@@ -111,7 +130,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "13d85b2978e2459c479fa1ef4ba8e8289dcc30d4/capsule_231x87.jpg",
       "japanese": "cb912486bd842f6b20ca5d42a4b45f614fa6a84d/capsule_231x87_japanese.jpg",
@@ -119,6 +138,7 @@
       "schinese": "6d0cbba042be7ddff6620b88f1bb8ac995be23c1/capsule_231x87_schinese.jpg",
       "tchinese": "19e645da7965f074291506718552f74321adc1b4/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789491654",
     "store_asset_mtime": "1786719858",
     "store_tags": {
       "0": "615955",
@@ -226,5 +246,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PawMart Tiny Market",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "PawMart Tiny Market.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "PawMart Tiny Market.app"
+      }
+    }
+  },
+  "depots": {
+    "4414271": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "127521280",
+          "gid": "5407502991493120597",
+          "size": "238458486"
+        }
+      }
+    },
+    "4414272": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "160999424",
+          "gid": "6929940490525266474",
+          "size": "403889347"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25325318",
+        "timebuildupdated": "1789483058",
+        "timeupdated": "1789483361"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Smallroom",
+    "homepage": "https://drive.google.com/drive/u/9/folders/1z3dsHLF105JrHv7Q4NJtzxjPxZkJxGuZ",
+    "publisher": "Smallroom"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Smallroom/Pawmart Tiny Market",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Saves",
+        "pattern": "*.es3",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

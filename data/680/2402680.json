@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1789483369,
-  "_history": [],
-  "_change_number": 38898910,
-  "_missing_token": true,
-  "_sha": "9e0e862445f03100307b0b30f48c191185b4ad88",
-  "_size": 4019,
+  "_lastChecked": 1789490589,
+  "_history": [
+    {
+      "buildId": "25325963",
+      "branch": "playtesters",
+      "timeUpdated": 1789486247,
+      "firstSeen": 1789490589,
+      "manifests": {
+        "2402681": {
+          "gid": "7771743671855005130",
+          "size": 6162583944,
+          "download": 1205926784
+        }
+      }
+    },
+    {
+      "buildId": "25325963",
+      "branch": "public",
+      "timeUpdated": 1789486247,
+      "firstSeen": 1789490589,
+      "manifests": {
+        "2402681": {
+          "gid": "7771743671855005130",
+          "size": 6162583944,
+          "download": 1205926784
+        }
+      }
+    }
+  ],
+  "_change_number": 38901841,
+  "_missing_token": false,
+  "_sha": "e95d29039f61e9adbcd389d381fd38d08a2ae6a8",
+  "_size": 5792,
   "appid": "2402680",
   "common": {
     "associations": {
@@ -35,9 +62,9 @@
     "clienticon": "0515945c88d5d00aabe8ecf4f0a87ff926c7821b",
     "clienttga": "390c3173a2fbe28cf5e728c8d9536b05068f8278",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2402680",
     "genres": {
       "0": "1",
@@ -116,11 +143,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c89849716df0c45bfe23a28ab36fd8c988c39e14/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/2402680/announcements/detail/525357217632749522?snr=2___",
+    "steam_release_date": "1789488038",
     "store_asset_mtime": "1788361633",
     "store_tags": {
       "0": "122",
@@ -180,5 +208,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dimraeth",
+    "launch": {
+      "0": {
+        "description": "Dimraeth Demo",
+        "description_loc": {
+          "english": "Dimraeth Demo"
+        },
+        "executable": "Dimraeth.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65520",
+    "steamcontrollerconfigdetails": {
+      "3634654340": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default,developer",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2402681": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "playtesters": {
+          "download": "1205926784",
+          "gid": "7771743671855005130",
+          "size": "6162583944"
+        },
+        "public": {
+          "download": "1205926784",
+          "gid": "7771743671855005130",
+          "size": "6162583944"
+        }
+      }
+    },
+    "branches": {
+      "playtesters": {
+        "buildid": "25325963",
+        "description": "playtesters",
+        "timebuildupdated": "1789485012",
+        "timeupdated": "1789486247"
+      },
+      "public": {
+        "buildid": "25325963",
+        "timebuildupdated": "1789485012",
+        "timeupdated": "1789486247"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Mudtek",
+    "homepage": "http://www.mudtek.dev",
+    "publisher": "Mudtek"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Mudtek/Dimraeth/Characters",
+        "pattern": "*.jrf",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Mudtek/Dimraeth/Worlds",
+        "pattern": "*.jrwf",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Mudtek/Dimraeth/Settings",
+        "pattern": "*.jrsf",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

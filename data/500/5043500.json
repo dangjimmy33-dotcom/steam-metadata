@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789486054,
-  "_history": [],
-  "_change_number": 38667908,
-  "_missing_token": true,
-  "_sha": "e010cca591eaea1e9e4c9d02b4ffcdc69e38477b",
-  "_size": 2915,
+  "_lastChecked": 1789493531,
+  "_history": [
+    {
+      "buildId": "25155776",
+      "branch": "public",
+      "timeUpdated": 1788722680,
+      "firstSeen": 1789493531,
+      "manifests": {
+        "5043501": {
+          "gid": "3421870870654908907",
+          "size": 373279983,
+          "download": 66555184
+        }
+      }
+    }
+  ],
+  "_change_number": 38904148,
+  "_missing_token": false,
+  "_sha": "f277f1d6b996f90e9561122e5185653bb9697f36",
+  "_size": 3661,
   "appid": "5043500",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     },
     "clienticon": "af6dbbfe52ce3abef7e198509bbefd6d2cdf188b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5043500",
     "genres": {
       "0": "4",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4078c2434c2369f1452489a668c9b79080d3cbf3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1788700800",
     "store_tags": {
       "0": "597",
@@ -132,5 +147,47 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "That Level Again 3",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "That Level Again 3.exe"
+      }
+    }
+  },
+  "depots": {
+    "5043501": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "66555184",
+          "gid": "3421870870654908907",
+          "size": "373279983"
+        }
+      }
+    },
+    "5043502": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25155776",
+        "timebuildupdated": "1788722501",
+        "timeupdated": "1788722680"
+      }
+    }
+  },
+  "extended": {
+    "developer": "iamtagir",
+    "publisher": "iamtagir"
+  }
 }

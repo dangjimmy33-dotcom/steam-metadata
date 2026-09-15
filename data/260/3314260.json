@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789484345,
-  "_history": [],
-  "_change_number": 38668973,
-  "_missing_token": true,
-  "_sha": "5b186200e967178facf56c07b78352008f850615",
-  "_size": 2872,
+  "_lastChecked": 1789491655,
+  "_history": [
+    {
+      "buildId": "25168813",
+      "branch": "public",
+      "timeUpdated": 1788790426,
+      "firstSeen": 1789491655,
+      "manifests": {
+        "3314261": {
+          "gid": "2722862057744875989",
+          "size": 130198701,
+          "download": 101340640
+        }
+      }
+    }
+  ],
+  "_change_number": 38899948,
+  "_missing_token": false,
+  "_sha": "10863ec803dc9fce06efaabaee5cf5ef44d934e1",
+  "_size": 3564,
   "appid": "3314260",
   "common": {
     "associations": {
@@ -25,8 +39,8 @@
     "clienticon": "b56009252917b5bf2a2df8a4aa7bbd40edeb2034",
     "clienttga": "5b0944e23aaaf8dcee833179947dac75125b6bc6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3314260",
     "genres": {
       "0": "1",
@@ -97,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b0e548f835410c5490495e7cbb6641970a7282a2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789484488",
     "store_asset_mtime": "1778677257",
     "store_tags": {
       "0": "19",
@@ -128,5 +143,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "vs 1.0.0",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Suqare.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3314261": {
+      "config": {
+        "language": "english",
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "101340640",
+          "gid": "2722862057744875989",
+          "size": "130198701"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25168813",
+        "timebuildupdated": "1788790410",
+        "timeupdated": "1788790426"
+      }
+    }
+  },
+  "extended": {
+    "developer": "2102 Game Studios",
+    "publisher": "2102 Game Studios"
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789486130,
-  "_history": [],
-  "_change_number": 38635786,
-  "_missing_token": true,
-  "_sha": "f951ddb032c40c987735bb37f74ef7a9d10b9dee",
-  "_size": 3376,
+  "_lastChecked": 1789493616,
+  "_history": [
+    {
+      "buildId": "25144058",
+      "branch": "public",
+      "timeUpdated": 1788648380,
+      "firstSeen": 1789493616,
+      "manifests": {
+        "5146541": {
+          "gid": "8057015433469307132",
+          "size": 98578307,
+          "download": 35833280
+        },
+        "5146542": {
+          "gid": "460586680394675817",
+          "size": 113200206,
+          "download": 43132832
+        }
+      }
+    }
+  ],
+  "_change_number": 38903726,
+  "_missing_token": false,
+  "_sha": "21e27e1822e677f64afcb51d6847ba10fc61ba61",
+  "_size": 4458,
   "appid": "5146540",
   "common": {
     "aicontenttype": "1",
@@ -43,7 +62,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5146540",
     "genres": {
       "0": "1",
@@ -115,10 +133,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fca4b5d19e7c373a101fb9f8ddd983f0e7ff8ea7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789491760",
     "store_asset_mtime": "1787267568",
     "store_tags": {
       "0": "3859",
@@ -149,5 +168,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SIDE OUT",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "SIDEOUT.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "SIDEOUT.app",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5146541": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "35833280",
+          "gid": "8057015433469307132",
+          "size": "98578307"
+        }
+      }
+    },
+    "5146542": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "43132832",
+          "gid": "460586680394675817",
+          "size": "113200206"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25144058",
+        "timebuildupdated": "1788632605",
+        "timeupdated": "1788648380"
+      }
+    }
+  },
+  "extended": {
+    "developer": "antics",
+    "homepage": "https://antics.gg/p/side-out-94df7d",
+    "publisher": "antics"
+  }
 }

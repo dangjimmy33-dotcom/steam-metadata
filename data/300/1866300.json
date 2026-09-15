@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789482760,
+  "_lastChecked": 1789489931,
   "_history": [
     {
       "buildId": "24217911",
@@ -39,11 +39,24 @@
           "download": 1101040016
         }
       }
+    },
+    {
+      "buildId": "25327194",
+      "branch": "dev-test",
+      "timeUpdated": 1789488743,
+      "firstSeen": 1789489931,
+      "manifests": {
+        "1866301": {
+          "gid": "6487758290781611871",
+          "size": 3092256073,
+          "download": 1101462784
+        }
+      }
     }
   ],
-  "_change_number": 38763946,
+  "_change_number": 38902241,
   "_missing_token": false,
-  "_sha": "c56d2bed2e8c617dac4ca5e82a0bceaca2a0c60c",
+  "_sha": "6b9492e67d69d680e76db6d416feff085926cde9",
   "_size": 8226,
   "appid": "1866300",
   "common": {
@@ -327,9 +340,9 @@
       },
       "manifests": {
         "dev-test": {
-          "download": "1101040016",
-          "gid": "8582561251543893208",
-          "size": "3090110861"
+          "download": "1101462784",
+          "gid": "6487758290781611871",
+          "size": "3092256073"
         },
         "public": {
           "download": "1100779184",
@@ -340,10 +353,10 @@
     },
     "branches": {
       "dev-test": {
-        "buildid": "25233142",
+        "buildid": "25327194",
         "description": "Public branch for testing upcoming content",
-        "timebuildupdated": "1789050600",
-        "timeupdated": "1789050600"
+        "timebuildupdated": "1789488743",
+        "timeupdated": "1789488743"
       },
       "public": {
         "buildid": "24217911",

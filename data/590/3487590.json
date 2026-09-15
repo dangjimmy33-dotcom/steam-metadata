@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789484535,
-  "_history": [],
-  "_change_number": 38893015,
-  "_missing_token": true,
-  "_sha": "7860b59233bd56a0aafca6cc32ed4fa39a9b702c",
-  "_size": 2934,
+  "_lastChecked": 1789491859,
+  "_history": [
+    {
+      "buildId": "25327371",
+      "branch": "public",
+      "timeUpdated": 1789489245,
+      "firstSeen": 1789491859,
+      "manifests": {
+        "3487591": {
+          "gid": "7860054628898832529",
+          "size": 112710942,
+          "download": 99820400
+        }
+      }
+    }
+  ],
+  "_change_number": 38902519,
+  "_missing_token": false,
+  "_sha": "4b8e4e1bc4b254e6bbfda3650ac84280370d7343",
+  "_size": 3651,
   "appid": "3487590",
   "common": {
     "aicontenttype": "1",
@@ -29,9 +43,9 @@
     },
     "clienticon": "1dac0a6f50f52d3928cba649cca9cb4a4ea019d1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3487590",
     "genres": {
       "0": "4",
@@ -102,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fc82a866b4d7ed5a0dd5550cc3e2dbce47dd5c5d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789489282",
     "store_asset_mtime": "1786324501",
     "store_tags": {
       "0": "1664",
@@ -132,5 +147,44 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Medusa Crisis",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Medusa Crisis.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3487591": {
+      "manifests": {
+        "public": {
+          "download": "99820400",
+          "gid": "7860054628898832529",
+          "size": "112710942"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25327371",
+        "timebuildupdated": "1789489235",
+        "timeupdated": "1789489245"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Crimsonren",
+    "publisher": "Crimsonren"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "100000"
+  }
 }

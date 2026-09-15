@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789486072,
-  "_history": [],
-  "_change_number": 38321468,
-  "_missing_token": true,
-  "_sha": "e51af29f1eb1760582afe08931b7facd9b977c42",
-  "_size": 2801,
+  "_lastChecked": 1789493551,
+  "_history": [
+    {
+      "buildId": "24831411",
+      "branch": "public",
+      "timeUpdated": 1787206842,
+      "firstSeen": 1789493551,
+      "manifests": {
+        "5066271": {
+          "gid": "2431465568424428521",
+          "size": 324224559,
+          "download": 174302416
+        }
+      }
+    }
+  ],
+  "_change_number": 38903702,
+  "_missing_token": false,
+  "_sha": "a335337d2c1b3df182a005516a91effa0e63559f",
+  "_size": 3415,
   "appid": "5066270",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "0131214445a8840073011ca699a70a84776b2b44",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5066270",
     "genres": {
       "0": "4"
@@ -95,7 +108,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4bf262ae413994a8a129d2cb684850d147b7907d/capsule_231x87.jpg"
     },
@@ -121,5 +134,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Muse Ingenium",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Muse Ingenium.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5066271": {
+      "manifests": {
+        "public": {
+          "download": "174302416",
+          "gid": "2431465568424428521",
+          "size": "324224559"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24831411",
+        "timebuildupdated": "1787196207",
+        "timeupdated": "1787206842"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Richard Robledo",
+    "homepage": "https://museingenium.com/",
+    "publisher": "Richard Robledo"
+  }
 }

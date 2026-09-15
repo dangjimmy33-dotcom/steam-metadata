@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789486118,
-  "_history": [],
-  "_change_number": 38889076,
-  "_missing_token": true,
-  "_sha": "7b787a3fa604fac1a4262c9d928268c66352e44c",
-  "_size": 2761,
+  "_lastChecked": 1789493603,
+  "_history": [
+    {
+      "buildId": "25318316",
+      "branch": "public",
+      "timeUpdated": 1789461193,
+      "firstSeen": 1789493603,
+      "manifests": {
+        "5129241": {
+          "gid": "8862009956921929648",
+          "size": 261882260,
+          "download": 102507760
+        }
+      }
+    }
+  ],
+  "_change_number": 38903676,
+  "_missing_token": false,
+  "_sha": "d88ff1397846e71b3e0cb8742a95f0f596adf4ef",
+  "_size": 3447,
   "appid": "5129240",
   "common": {
     "associations": {
@@ -23,8 +37,8 @@
     },
     "clienticon": "1642177c06b4535a572da694d1f5e0c26b7159c0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5129240",
     "genres": {
       "0": "4",
@@ -96,10 +110,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "305b273fe96e046c14b22eccf1e73314f161b353/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789491703",
     "store_asset_mtime": "1787101662",
     "store_tags": {
       "0": "597",
@@ -123,5 +138,42 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Neko Neko Shop",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "NEKO NEKO SHOP.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5129241": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "102507760",
+          "gid": "8862009956921929648",
+          "size": "261882260"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25318316",
+        "timebuildupdated": "1789461188",
+        "timeupdated": "1789461193"
+      }
+    }
+  },
+  "extended": {
+    "developer": "KOZYEZ",
+    "publisher": "Monkey Cube"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789483908,
+  "_lastChecked": 1789491174,
   "_history": [
     {
       "buildId": "25048191",
@@ -180,11 +180,47 @@
           "download": 3299068736
         }
       }
+    },
+    {
+      "buildId": "25181011",
+      "branch": "previous",
+      "timeUpdated": 1788858281,
+      "firstSeen": 1789491174,
+      "manifests": {
+        "2902741": {
+          "gid": "7988484647027502216",
+          "size": 4855157065,
+          "download": 3341045648
+        },
+        "2902742": {
+          "gid": "6839352596121066165",
+          "size": 4755637612,
+          "download": 3299026384
+        }
+      }
+    },
+    {
+      "buildId": "25316747",
+      "branch": "public",
+      "timeUpdated": 1789490832,
+      "firstSeen": 1789491174,
+      "manifests": {
+        "2902741": {
+          "gid": "8481966077442001584",
+          "size": 4855220457,
+          "download": 3341089024
+        },
+        "2902742": {
+          "gid": "8308541404782644782",
+          "size": 4755697108,
+          "download": 3299068736
+        }
+      }
     }
   ],
-  "_change_number": 38886006,
+  "_change_number": 38903229,
   "_missing_token": false,
-  "_sha": "1664e21921d973cf2a81b5874ae1daacaee5b47f",
+  "_sha": "eb7d8d805fdfdaca06b1d0cf5de8eaac0608c822",
   "_size": 7405,
   "appid": "2902740",
   "common": {
@@ -445,14 +481,14 @@
           "size": "4855220457"
         },
         "previous": {
-          "download": "3340682416",
-          "gid": "8588987819295930952",
-          "size": "4854569779"
-        },
-        "public": {
           "download": "3341045648",
           "gid": "7988484647027502216",
           "size": "4855157065"
+        },
+        "public": {
+          "download": "3341089024",
+          "gid": "8481966077442001584",
+          "size": "4855220457"
         }
       }
     },
@@ -467,14 +503,14 @@
           "size": "4755697108"
         },
         "previous": {
-          "download": "3298923872",
-          "gid": "8014010523334176079",
-          "size": "4755416244"
-        },
-        "public": {
           "download": "3299026384",
           "gid": "6839352596121066165",
           "size": "4755637612"
+        },
+        "public": {
+          "download": "3299068736",
+          "gid": "8308541404782644782",
+          "size": "4755697108"
         }
       }
     },
@@ -486,15 +522,15 @@
         "timeupdated": "1789455174"
       },
       "previous": {
-        "buildid": "25048191",
+        "buildid": "25181011",
         "description": "Previous Version of the App",
-        "timebuildupdated": "1788225087",
-        "timeupdated": "1788253966"
+        "timebuildupdated": "1788848659",
+        "timeupdated": "1788858281"
       },
       "public": {
-        "buildid": "25181011",
-        "timebuildupdated": "1788848659",
-        "timeupdated": "1788858280"
+        "buildid": "25316747",
+        "timebuildupdated": "1789455174",
+        "timeupdated": "1789490832"
       }
     },
     "privatebranches": "1"
