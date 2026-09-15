@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789438093,
-  "_history": [],
-  "_change_number": 38785628,
-  "_missing_token": true,
-  "_sha": "7bfcb44bc4cd8766d799ca1a2a8eeef55001966f",
-  "_size": 1260,
+  "_lastChecked": 1789446042,
+  "_history": [
+    {
+      "buildId": "25248097",
+      "branch": "public",
+      "timeUpdated": 1789441077,
+      "firstSeen": 1789446042,
+      "manifests": {
+        "5040200": {
+          "gid": "1258961568955426629",
+          "size": 8211279,
+          "download": 8211920
+        },
+        "5040201": {
+          "gid": "9093673897992001832",
+          "size": 8362636,
+          "download": 8363280
+        }
+      }
+    }
+  ],
+  "_change_number": 38882178,
+  "_missing_token": false,
+  "_sha": "10d838265216ff48057002168a69a5cd38aeb483",
+  "_size": 2132,
   "appid": "5040200",
   "common": {
     "associations": {
@@ -37,11 +56,12 @@
     "oslist": "windows,macos",
     "parent": "3301060",
     "primary_genre": "57",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "72e6193c0bcfa20858b919c1c5d288cb4264e600/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1787024153",
+    "steam_release_date": "1789441092",
+    "store_asset_mtime": "1789443041",
     "store_screenshot": "3a63832332b2f38a162af27de9dc99254f7e213a/ss_3a63832332b2f38a162af27de9dc99254f7e213a.jpg",
     "store_tags": {
       "0": "87",
@@ -62,5 +82,48 @@
     },
     "type": "DLC"
   },
-  "public_only": "1"
+  "depots": {
+    "5040200": {
+      "config": {
+        "oslist": "windows"
+      },
+      "dlcappid": "5040200",
+      "manifests": {
+        "public": {
+          "download": "8211920",
+          "gid": "1258961568955426629",
+          "size": "8211279"
+        }
+      }
+    },
+    "5040201": {
+      "config": {
+        "oslist": "macos"
+      },
+      "dlcappid": "5040200",
+      "manifests": {
+        "public": {
+          "download": "8363280",
+          "gid": "9093673897992001832",
+          "size": "8362636"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25248097",
+        "timebuildupdated": "1789112374",
+        "timeupdated": "1789441077"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "infiniteloop",
+    "dlcavailableonstore": "1",
+    "dlcforappid": "3301060",
+    "homepage": "https://www.infiniteloop.co.jp/desktopmate/",
+    "mustownapptopurchase": "3301060",
+    "publisher": "infiniteloop"
+  }
 }

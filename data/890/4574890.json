@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789437603,
+  "_lastChecked": 1789445544,
   "_history": [
     {
       "buildId": "24651936",
@@ -39,12 +39,25 @@
           "download": 90499440
         }
       }
+    },
+    {
+      "buildId": "25313909",
+      "branch": "debug",
+      "timeUpdated": 1789441449,
+      "firstSeen": 1789445544,
+      "manifests": {
+        "4574891": {
+          "gid": "967122371026403115",
+          "size": 362312137,
+          "download": 90499552
+        }
+      }
     }
   ],
-  "_change_number": 38874414,
+  "_change_number": 38881682,
   "_missing_token": false,
-  "_sha": "6b7c8983cfeb338259416ce401d805f45a414b99",
-  "_size": 4358,
+  "_sha": "78c8c66178d6699250486a629064fbed4c17b1eb",
+  "_size": 4357,
   "appid": "4574890",
   "common": {
     "aicontenttype": "1",
@@ -197,9 +210,9 @@
     "4574891": {
       "manifests": {
         "debug": {
-          "download": "90499440",
-          "gid": "4504554729128823741",
-          "size": "362311787"
+          "download": "90499552",
+          "gid": "967122371026403115",
+          "size": "362312137"
         },
         "public": {
           "download": "90245264",
@@ -211,10 +224,10 @@
     "baselanguages": "english,japanese",
     "branches": {
       "debug": {
-        "buildid": "25308583",
+        "buildid": "25313909",
         "description": "デバッグ用ブランチ",
-        "timebuildupdated": "1789418699",
-        "timeupdated": "1789418788"
+        "timebuildupdated": "1789441401",
+        "timeupdated": "1789441449"
       },
       "public": {
         "buildid": "25021962",

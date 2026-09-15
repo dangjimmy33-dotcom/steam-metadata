@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789438064,
-  "_history": [],
-  "_change_number": 38877976,
-  "_missing_token": true,
-  "_sha": "8d7ff5aadf0fcb44e66517c5dfb8627fa090902b",
-  "_size": 3527,
+  "_lastChecked": 1789446013,
+  "_history": [
+    {
+      "buildId": "25311207",
+      "branch": "public",
+      "timeUpdated": 1789444468,
+      "firstSeen": 1789446013,
+      "manifests": {
+        "5010241": {
+          "gid": "3558306679843489831",
+          "size": 28178640,
+          "download": 20025984
+        }
+      }
+    }
+  ],
+  "_change_number": 38882633,
+  "_missing_token": false,
+  "_sha": "c54fb281250728654cb134553b75d25f6d63c222",
+  "_size": 4383,
   "appid": "5010240",
   "common": {
     "aicontenttype": "1",
@@ -20,6 +34,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_23": "1",
       "category_28": "1",
       "category_62": "1"
     },
@@ -27,7 +42,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5010240",
     "genres": {
       "0": "4",
@@ -98,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1f4bf073cb37aedfdc6da25965df6bff2bc48660/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1786672186",
     "store_tags": {
       "0": "597",
@@ -166,5 +181,50 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "reset0",
+    "launch": {
+      "0": {
+        "executable": "reset0.exe"
+      }
+    }
+  },
+  "depots": {
+    "5010241": {
+      "manifests": {
+        "public": {
+          "download": "20025984",
+          "gid": "3558306679843489831",
+          "size": "28178640"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25311207",
+        "timebuildupdated": "1789429553",
+        "timeupdated": "1789444468"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Metaphor Projects",
+    "homepage": "https://metaphorprojects.link/reset0/",
+    "publisher": "Metaphor Projects"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "reset0.metaphor.projects/saves",
+        "pattern": "*.reset0",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789437884,
-  "_history": [],
-  "_change_number": 38680826,
-  "_missing_token": true,
-  "_sha": "0ffac6259fd0619e9e2c7c62bff2f14a0a072f80",
-  "_size": 4556,
+  "_lastChecked": 1789445829,
+  "_history": [
+    {
+      "buildId": "24916462",
+      "branch": "public",
+      "timeUpdated": 1787612111,
+      "firstSeen": 1789445829,
+      "manifests": {
+        "4844212": {
+          "gid": "3919961469194355137",
+          "size": 299560870,
+          "download": 123485264
+        }
+      }
+    }
+  ],
+  "_change_number": 38882352,
+  "_missing_token": false,
+  "_sha": "3d71af8212e680526735bb5fb3b9c63ef03ca539",
+  "_size": 5304,
   "appid": "4844210",
   "common": {
     "aicontenttype": "1",
@@ -21,7 +35,6 @@
     "category": {
       "category_1": "1",
       "category_2": "1",
-      "category_27": "1",
       "category_36": "1",
       "category_38": "1",
       "category_49": "1",
@@ -33,10 +46,10 @@
     "clienticon": "147becbf23c692b41f3f35d2dc5701449581a6cc",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4844210",
     "genres": {
-      "0": "2"
+      "0": "23",
+      "1": "2"
     },
     "header_image": {
       "english": "b18b2dd488f0f24a8d36d978a68684d24a6ffde2/header.jpg",
@@ -109,16 +122,20 @@
       }
     },
     "name": "华夏古战略",
+    "name_localized": {
+      "english": "Ancient Chinese Grand Strategy"
+    },
     "osarch": "",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "23ed0fe2124ba21d0183e987364dc732139898a8/capsule_231x87.jpg",
       "schinese": "63fe5daab35154777df354557b50376e3c9d85c4/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1782425817",
+    "steam_release_date": "1790751600",
+    "store_asset_mtime": "1788743579",
     "store_tags": {
       "0": "9",
       "1": "3813",
@@ -133,12 +150,12 @@
       "18": "1685",
       "19": "3843",
       "2": "1718",
-      "3": "1775",
-      "4": "3871",
-      "5": "3987",
-      "6": "3859",
-      "7": "1676",
-      "8": "492",
+      "3": "492",
+      "4": "1775",
+      "5": "3871",
+      "6": "3987",
+      "7": "3859",
+      "8": "1676",
       "9": "4684"
     },
     "supported_languages": {
@@ -178,5 +195,39 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "华夏古战略",
+    "launch": {
+      "0": {
+        "executable": "CocosGame.exe"
+      }
+    }
+  },
+  "depots": {
+    "4844212": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "123485264",
+          "gid": "3919961469194355137",
+          "size": "299560870"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,latam,russian,schinese,tchinese,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "24916462",
+        "timebuildupdated": "1787610985",
+        "timeupdated": "1787612111"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "戴军君",
+    "publisher": "络星游戏科技有限公司"
+  }
 }

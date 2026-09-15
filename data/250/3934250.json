@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789436846,
+  "_lastChecked": 1789444774,
   "_history": [
     {
       "buildId": "25094764",
@@ -13,12 +13,25 @@
           "download": 5659345392
         }
       }
+    },
+    {
+      "buildId": "25311513",
+      "branch": "public",
+      "timeUpdated": 1789437272,
+      "firstSeen": 1789444774,
+      "manifests": {
+        "3934251": {
+          "gid": "3055511625037135081",
+          "size": 8839786934,
+          "download": 5928786848
+        }
+      }
     }
   ],
-  "_change_number": 38879914,
+  "_change_number": 38880504,
   "_missing_token": false,
-  "_sha": "78d4eeae70d21d31c6a52b0ce07a55b83b350487",
-  "_size": 10952,
+  "_sha": "60a0edc389ce9daa6f0b8d69f57e1bc2d10bc51b",
+  "_size": 11078,
   "appid": "3934250",
   "common": {
     "associations": {
@@ -244,7 +257,7 @@
       }
     },
     "steam_release_date": "1785337237",
-    "store_asset_mtime": "1785289798",
+    "store_asset_mtime": "1789430505",
     "store_tags": {
       "0": "21",
       "1": "599",
@@ -267,6 +280,10 @@
         "supported": "true"
       },
       "koreana": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "schinese": {
         "subtitles": "true",
         "supported": "true"
       },
@@ -334,18 +351,18 @@
     "3934251": {
       "manifests": {
         "public": {
-          "download": "5659345392",
-          "gid": "4300272778606369373",
-          "size": "8345861957"
+          "download": "5928786848",
+          "gid": "3055511625037135081",
+          "size": "8839786934"
         }
       }
     },
     "baselanguages": "japanese,koreana,schinese,tchinese",
     "branches": {
       "public": {
-        "buildid": "25094764",
-        "timebuildupdated": "1788410838",
-        "timeupdated": "1788425911"
+        "buildid": "25311513",
+        "timebuildupdated": "1789430842",
+        "timeupdated": "1789437272"
       }
     },
     "hasdepotsindlc": "1",
@@ -353,7 +370,9 @@
   },
   "extended": {
     "developer": "Nippon Ichi Software, Inc.",
+    "dlcavailableonstore": "1",
     "homepage": "https://www.nisamerica.com/village-in-the-shade/",
+    "listofdlc": "5217160",
     "publisher": "NIS America, Inc."
   },
   "ufs": {

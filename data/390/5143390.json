@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789438183,
-  "_history": [],
-  "_change_number": 38785950,
-  "_missing_token": true,
-  "_sha": "c2261b589a93eca58669acb84baee1ec5e8cef31",
-  "_size": 3527,
+  "_lastChecked": 1789446134,
+  "_history": [
+    {
+      "buildId": "25248344",
+      "branch": "public",
+      "timeUpdated": 1789113342,
+      "firstSeen": 1789446134,
+      "manifests": {
+        "5143391": {
+          "gid": "8897623382789775213",
+          "size": 558957092,
+          "download": 231771616
+        }
+      }
+    }
+  ],
+  "_change_number": 38881595,
+  "_missing_token": false,
+  "_sha": "f137e27016333cbba743d7347d7c54d686fc4838",
+  "_size": 4347,
   "appid": "5143390",
   "common": {
     "associations": {
@@ -31,7 +45,6 @@
     "clienticon": "bbd6a44833971fe64868f552ab959da1749f4809",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5143390",
     "genres": {
       "0": "1",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e018b31b01ed28743c51c01314d82a1f29af3e39/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789441213",
     "store_asset_mtime": "1788157539",
     "store_tags": {
       "0": "599",
@@ -165,5 +179,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ClayMonsters",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ClayMonstersLauncher.exe"
+      }
+    }
+  },
+  "depots": {
+    "5143391": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "231771616",
+          "gid": "8897623382789775213",
+          "size": "558957092"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25248344",
+        "timebuildupdated": "1789113337",
+        "timeupdated": "1789113342"
+      }
+    },
+    "workshopdepot": "5143390"
+  },
+  "extended": {
+    "developer": "pon",
+    "publisher": "pon"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000"
+  }
 }

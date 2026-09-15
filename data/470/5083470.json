@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789438133,
+  "_lastChecked": 1789446083,
   "_history": [
     {
       "buildId": "24644758",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "_change_number": 38878483,
+  "_change_number": 38881912,
   "_missing_token": false,
-  "_sha": "cb2f74efd0a6d9fd48159e6192d5fc9f013d99f0",
-  "_size": 4149,
+  "_sha": "552445886202fc22018eb0b4fb845d6bc75866e6",
+  "_size": 4463,
   "appid": "5083470",
   "common": {
     "aicontenttype": "2",
@@ -215,5 +215,21 @@
   "extended": {
     "developer": "ZANKYO GAMES",
     "publisher": "ZANKYO GAMES"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "com.oracle-idle.game/saves/users/{64BitSteamID}",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

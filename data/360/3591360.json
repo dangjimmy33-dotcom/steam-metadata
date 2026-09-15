@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789436424,
+  "_lastChecked": 1789444348,
   "_history": [
     {
       "buildId": "23837192",
@@ -52,12 +52,25 @@
           "download": 364140752
         }
       }
+    },
+    {
+      "buildId": "25313229",
+      "branch": "public",
+      "timeUpdated": 1789438175,
+      "firstSeen": 1789444348,
+      "manifests": {
+        "3591361": {
+          "gid": "6882533729133203852",
+          "size": 596523738,
+          "download": 364140752
+        }
+      }
     }
   ],
-  "_change_number": 38820696,
+  "_change_number": 38880788,
   "_missing_token": false,
-  "_sha": "51c91b2b15b1a975e1eb53347eab61f50df03105",
-  "_size": 4211,
+  "_sha": "b1fbb7a39593a5565f03a6240feca7c190d1707d",
+  "_size": 4215,
   "appid": "3591360",
   "common": {
     "associations": {
@@ -219,16 +232,16 @@
       "manifests": {
         "public": {
           "download": "364140752",
-          "gid": "5382195360102951058",
+          "gid": "6882533729133203852",
           "size": "596523738"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25272530",
-        "timebuildupdated": "1789226644",
-        "timeupdated": "1789226730"
+        "buildid": "25313229",
+        "timebuildupdated": "1789438042",
+        "timeupdated": "1789438175"
       }
     }
   },
@@ -242,7 +255,7 @@
     "savefiles": {
       "0": {
         "path": "save",
-        "pattern": "*.save",
+        "pattern": "*.rmmzsave",
         "platforms": {
           "1": "Windows"
         },

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789437253,
-  "_history": [],
-  "_change_number": 38879747,
-  "_missing_token": true,
-  "_sha": "e50b74a4c60dce11f126c5d4d16e92243f716d64",
-  "_size": 5001,
+  "_lastChecked": 1789445190,
+  "_history": [
+    {
+      "buildId": "25313186",
+      "branch": "public",
+      "timeUpdated": 1789437938,
+      "firstSeen": 1789445190,
+      "manifests": {
+        "4270231": {
+          "gid": "6246848536547333789",
+          "size": 502288448,
+          "download": 96715536
+        },
+        "4270232": {
+          "gid": "5216941728658569462",
+          "size": 496944811,
+          "download": 89249200
+        }
+      }
+    }
+  ],
+  "_change_number": 38880591,
+  "_missing_token": false,
+  "_sha": "4b852c67affc4004379158e7b03d1d1d40c6e7e3",
+  "_size": 6853,
   "appid": "4270230",
   "common": {
     "associations": {
@@ -28,8 +47,8 @@
     },
     "clienticon": "33fc86841a818b7cedb5271d82d05ac311e319d5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4270230",
     "genres": {
       "0": "4"
@@ -126,12 +145,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "45f4442bd88f5978a93f1558d53443164c498862/capsule_231x87.jpg",
       "schinese": "d41ab2fbd0a0b133a091e7193e2182411502f1d2/capsule_231x87_schinese.jpg",
       "tchinese": "d41ab2fbd0a0b133a091e7193e2182411502f1d2/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789438018",
     "store_asset_mtime": "1787623942",
     "store_tags": {
       "0": "1320952",
@@ -158,5 +178,97 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Idle Bookstore",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Idle Bookstore.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "IdleBookstore.app"
+      }
+    }
+  },
+  "depots": {
+    "4270231": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "96715536",
+          "gid": "6246848536547333789",
+          "size": "502288448"
+        }
+      }
+    },
+    "4270232": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "89249200",
+          "gid": "5216941728658569462",
+          "size": "496944811"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25313186",
+        "timebuildupdated": "1789437897",
+        "timeupdated": "1789437938"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Purpledoor Studios",
+    "publisher": "Purpledoor Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "500000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Purpledoor Studios/Idle Bookstore/Save",
+            "replace": "unity.Purpledoor Studios.Idle Bookstore.Save"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Purpledoor Studios/Idle Bookstore/Save",
+            "replace": ".config/unity3d/Purpledoor Studios/Idle Bookstore/Save"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Purpledoor Studios/Idle Bookstore/Save",
+        "pattern": "*.bin",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
