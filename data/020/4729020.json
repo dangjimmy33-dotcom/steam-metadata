@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789507769,
+  "_lastChecked": 1789514314,
   "_history": [
     {
       "buildId": "25064988",
@@ -36,12 +36,35 @@
           "download": 156773536
         }
       }
+    },
+    {
+      "buildId": "25332958",
+      "branch": "public",
+      "timeUpdated": 1789508386,
+      "firstSeen": 1789514314,
+      "manifests": {
+        "4729021": {
+          "gid": "8341010107548629110",
+          "size": 335672070,
+          "download": 165094640
+        },
+        "4729022": {
+          "gid": "8577337424042010455",
+          "size": 303148511,
+          "download": 156801456
+        },
+        "4729023": {
+          "gid": "5709080266880182999",
+          "size": 394925470,
+          "download": 177352672
+        }
+      }
     }
   ],
-  "_change_number": 38672529,
+  "_change_number": 38910589,
   "_missing_token": false,
-  "_sha": "4077e5d51e01b809b9d7a2d2bb1dea4fb0b74464",
-  "_size": 14268,
+  "_sha": "3073814593a3d5a428499c8bea50f27decba2bd1",
+  "_size": 14644,
   "appid": "4729020",
   "common": {
     "aicontenttype": "1",
@@ -258,8 +281,8 @@
     },
     "name": "Les jeux du cycle",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows,linux",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos,linux",
     "primary_genre": "37",
     "releasestate": "released",
     "small_capsule": {
@@ -366,6 +389,12 @@
         },
         "executable": "LesJeuxDuCycle.x86_64",
         "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Les Jeux du Cycle.app\\Contents\\MacOS\\Les Jeux Du Cycle"
       }
     },
     "steamdecktouchscreen": "5"
@@ -377,9 +406,9 @@
       },
       "manifests": {
         "public": {
-          "download": "165039712",
-          "gid": "6370918159439988984",
-          "size": "335536591"
+          "download": "165094640",
+          "gid": "8341010107548629110",
+          "size": "335672070"
         }
       }
     },
@@ -389,18 +418,30 @@
       },
       "manifests": {
         "public": {
-          "download": "156773536",
-          "gid": "5767971752342237213",
-          "size": "303057495"
+          "download": "156801456",
+          "gid": "8577337424042010455",
+          "size": "303148511"
+        }
+      }
+    },
+    "4729023": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "177352672",
+          "gid": "5709080266880182999",
+          "size": "394925470"
         }
       }
     },
     "baselanguages": "brazilian,danish,dutch,english,french,german,italian,japanese,koreana,polish,russian,schinese,spanish,swedish",
     "branches": {
       "public": {
-        "buildid": "25171268",
-        "timebuildupdated": "1788799293",
-        "timeupdated": "1788799310"
+        "buildid": "25332958",
+        "timebuildupdated": "1789508330",
+        "timeupdated": "1789508386"
       }
     },
     "workshopdepot": "4729020"

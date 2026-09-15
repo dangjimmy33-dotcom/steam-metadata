@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789504303,
+  "_lastChecked": 1789510878,
   "_history": [
     {
       "buildId": "14260830",
@@ -20,10 +20,10 @@
       }
     }
   ],
-  "_change_number": 34851803,
+  "_change_number": 38909945,
   "_missing_token": false,
-  "_sha": "6c1e9e549f761392be4f4552f50d880176ba5b09",
-  "_size": 5045,
+  "_sha": "7284346e5b2011105ad006ae6e5e74ef22c8d454",
+  "_size": 5449,
   "appid": "1249680",
   "common": {
     "associations": {
@@ -162,8 +162,8 @@
       "4": "7481",
       "5": "19",
       "6": "1688",
-      "7": "5154",
-      "8": "4004",
+      "7": "4004",
+      "8": "5154",
       "9": "4182"
     },
     "supported_languages": {
@@ -238,6 +238,22 @@
   "ufs": {
     "maxnumfiles": "10",
     "quota": "1024000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxXdgConfigHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "LinuxXdgConfigHome",
+        "useinstead": "WinAppDataLocal"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "NinshiMasuta",
@@ -246,13 +262,18 @@
       },
       "1": {
         "path": "NinshiMasuta",
-        "pattern": "options.ini",
+        "pattern": "*.ini",
         "root": "WinAppDataLocal"
       },
       "2": {
         "path": "NinshiMasuta",
-        "pattern": "keyboard.ini",
-        "root": "WinAppDataLocal"
+        "pattern": "*.sav",
+        "root": "LinuxXdgConfigHome"
+      },
+      "3": {
+        "path": "NinshiMasuta",
+        "pattern": "*.ini",
+        "root": "LinuxXdgConfigHome"
       }
     }
   }

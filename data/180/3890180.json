@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789506999,
-  "_history": [],
-  "_change_number": 34983958,
-  "_missing_token": true,
-  "_sha": "7ce6929cb8440bd2c23cfa1413d8bf2ff6ef4bac",
-  "_size": 3258,
+  "_lastChecked": 1789513549,
+  "_history": [
+    {
+      "buildId": "19321471",
+      "branch": "public",
+      "timeUpdated": 1753226595,
+      "firstSeen": 1789513549,
+      "manifests": {
+        "3890181": {
+          "gid": "840109787303415941",
+          "size": 524104273,
+          "download": 237054704
+        }
+      }
+    }
+  ],
+  "_change_number": 38910574,
+  "_missing_token": false,
+  "_sha": "39238359f77df12bb92150dd16f432458194aaa8",
+  "_size": 4066,
   "appid": "3890180",
   "common": {
     "aicontenttype": "1",
@@ -28,6 +42,7 @@
     "clienticon": "130a24d5dfeca660d22b18e5dae69f3c5b364df3",
     "clienttga": "32e464ee00117d0e360a85e0c1541bcc8da9d637",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -41,7 +56,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3890180",
     "genres": {
       "0": "4"
@@ -111,30 +125,29 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "567f5b62f1e6ddb51ae24db12af88378d43d9de3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789507622",
     "store_asset_mtime": "1753225240",
     "store_tags": {
       "0": "12095",
       "1": "6650",
-      "10": "4562",
-      "11": "4726",
-      "12": "6815",
-      "13": "10397",
-      "14": "3871",
-      "15": "379975",
-      "16": "4182",
+      "10": "6815",
+      "11": "10397",
+      "12": "3871",
+      "13": "560542",
+      "14": "4182",
       "2": "597",
       "3": "9130",
-      "4": "24904",
-      "5": "5611",
-      "6": "4085",
-      "7": "1664",
-      "8": "1654",
-      "9": "7208"
+      "4": "4085",
+      "5": "1664",
+      "6": "1654",
+      "7": "7208",
+      "8": "4562",
+      "9": "4726"
     },
     "supported_languages": {
       "english": {
@@ -145,5 +158,50 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hentai Achievement Puzzle 2",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Hentai Achievement Puzzle 2.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3890181": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "237054704",
+          "gid": "840109787303415941",
+          "size": "524104273"
+        }
+      }
+    },
+    "3890182": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19321471",
+        "timebuildupdated": "1753226522",
+        "timeupdated": "1753226595"
+      }
+    }
+  },
+  "extended": {
+    "developer": "HornDog Games",
+    "publisher": "HornDog Games"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789504163,
+  "_lastChecked": 1789510743,
   "_history": [
     {
       "buildId": "11143143",
@@ -180,12 +180,48 @@
           "download": 190589440
         }
       }
+    },
+    {
+      "buildId": "23210049",
+      "branch": "1.20_lokum_lanes",
+      "timeUpdated": 1781040383,
+      "firstSeen": 1789510743,
+      "manifests": {
+        "1127501": {
+          "gid": "3111528506120972195",
+          "size": 253781106,
+          "download": 179586096
+        },
+        "1127502": {
+          "gid": "5107008225110319676",
+          "size": 296565112,
+          "download": 190589440
+        }
+      }
+    },
+    {
+      "buildId": "24703046",
+      "branch": "public",
+      "timeUpdated": 1789507809,
+      "firstSeen": 1789510743,
+      "manifests": {
+        "1127501": {
+          "gid": "4161354813419178894",
+          "size": 254196127,
+          "download": 180582368
+        },
+        "1127502": {
+          "gid": "5136569088237954104",
+          "size": 297903284,
+          "download": 191751296
+        }
+      }
     }
   ],
-  "_change_number": 38905426,
+  "_change_number": 38910364,
   "_missing_token": false,
-  "_sha": "2143cdfe2a77e84065b6afe28ded792f43c0a68d",
-  "_size": 11085,
+  "_sha": "a11b15f6ce08c847c4470caf5477d5841300c4af",
+  "_size": 11508,
   "appid": "1127500",
   "common": {
     "associations": {
@@ -502,10 +538,15 @@
           "gid": "6203118496302925589",
           "size": "244238977"
         },
-        "public": {
+        "1.20_lokum_lanes": {
           "download": "179586096",
           "gid": "3111528506120972195",
           "size": "253781106"
+        },
+        "public": {
+          "download": "180582368",
+          "gid": "4161354813419178894",
+          "size": "254196127"
         }
       }
     },
@@ -560,10 +601,15 @@
           "gid": "3521106602246260532",
           "size": "288018877"
         },
-        "public": {
+        "1.20_lokum_lanes": {
           "download": "190589440",
           "gid": "5107008225110319676",
           "size": "296565112"
+        },
+        "public": {
+          "download": "191751296",
+          "gid": "5136569088237954104",
+          "size": "297903284"
         }
       }
     },
@@ -623,10 +669,16 @@
         "timebuildupdated": "1775777285",
         "timeupdated": "1775786792"
       },
-      "public": {
+      "1.20_lokum_lanes": {
         "buildid": "23210049",
+        "description": "Backup of locus lanes update",
         "timebuildupdated": "1778651233",
         "timeupdated": "1781040383"
+      },
+      "public": {
+        "buildid": "24703046",
+        "timebuildupdated": "1786578506",
+        "timeupdated": "1789507809"
       }
     },
     "privatebranches": "1"

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789503235,
+  "_lastChecked": 1789509824,
   "_history": [
     {
       "buildId": "25135264",
@@ -422,10 +422,10 @@
       }
     }
   ],
-  "_change_number": 38908303,
+  "_change_number": 38908616,
   "_missing_token": false,
-  "_sha": "db6d65ca6343f32e8bfba3654765659464b1c4db",
-  "_size": 13318,
+  "_sha": "63d2f62f0a5e96b67d8e178ab05bc7bc98aaf5fb",
+  "_size": 13553,
   "appid": "4000",
   "common": {
     "associations": {
@@ -775,7 +775,7 @@
     "installdir": "GarrysMod",
     "launch": {
       "0": {
-        "arguments": "-steam -game garrysmod",
+        "arguments": "-steam",
         "config": {
           "oslist": "windows"
         },
@@ -783,7 +783,8 @@
         "description_loc": {
           "english": "Play Garry's Mod"
         },
-        "executable": "gmod.exe"
+        "executable": "gmod.exe",
+        "type": "default"
       },
       "1": {
         "arguments": "-steam -game garrysmod",
@@ -807,9 +808,11 @@
           "betakey": "x86-64",
           "oslist": "windows"
         },
-        "description": "Launch Garry's Mod (32-bit)",
-        "executable": "bin/gmod.exe",
-        "type": "none"
+        "description": "Play Garry's Mod (x86-64 beta, Legacy 32-bit version)",
+        "description_loc": {
+          "english": "Play Garry's Mod (x86-64 beta, Legacy 32-bit version)"
+        },
+        "executable": "bin/gmod.exe"
       },
       "4": {
         "arguments": "-steam -game garrysmod",
@@ -818,19 +821,22 @@
           "osarch": "64",
           "oslist": "windows"
         },
-        "description": "Launch Garry's Mod (64-bit)",
-        "executable": "bin/win64/gmod.exe",
-        "type": "none"
+        "description": "Play Garry's Mod (x86-64 beta, 64-bit)",
+        "description_loc": {
+          "english": "Play Garry's Mod (x86-64 beta, 64-bit)"
+        },
+        "executable": "bin/win64/gmod.exe"
       },
       "5": {
+        "arguments": "-steam",
         "config": {
-          "betakey": "dev",
+          "betakey": "dev,prerelease",
           "osarch": "64",
           "oslist": "windows"
         },
-        "description": "Launch Garry's Mod (64-bit)",
+        "description": "Play Garry's Mod (64-bit)",
         "description_loc": {
-          "english": "Launch Garry's Mod (64-bit)"
+          "english": "Play Garry's Mod (64-bit)"
         },
         "executable": "gmod_win64.exe"
       }

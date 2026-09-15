@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789508034,
-  "_history": [],
-  "_change_number": 38840874,
-  "_missing_token": true,
-  "_sha": "9138257f20465a925e8a5b282c08860634bb7598",
-  "_size": 2970,
+  "_lastChecked": 1789514572,
+  "_history": [
+    {
+      "buildId": "25286076",
+      "branch": "public",
+      "timeUpdated": 1789322838,
+      "firstSeen": 1789514572,
+      "manifests": {
+        "5044391": {
+          "gid": "3288534182279969839",
+          "size": 463423381,
+          "download": 286751584
+        }
+      }
+    }
+  ],
+  "_change_number": 38910999,
+  "_missing_token": false,
+  "_sha": "2ca57e5a6ce2ee3f124b450afa58305b72486d8d",
+  "_size": 3604,
   "appid": "5044390",
   "common": {
     "associations": {
@@ -32,7 +46,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5044390",
     "genres": {
       "0": "28"
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fa3a72c192b43d7cf514874d7919f4bfa0d201e3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789509550",
     "store_asset_mtime": "1785548488",
     "store_tags": {
       "0": "3799",
@@ -131,5 +145,38 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BLOODMONEY Requiem",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "windows_content\\BLOODMONEY REQUIEM\\Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5044391": {
+      "manifests": {
+        "public": {
+          "download": "286751584",
+          "gid": "3288534182279969839",
+          "size": "463423381"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25286076",
+        "timebuildupdated": "1789322470",
+        "timeupdated": "1789322838"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SHROOMYCHRIST Studios",
+    "publisher": "SHROOMYCHRIST Studios"
+  }
 }
