@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789459421,
-  "_history": [],
-  "_change_number": 38773818,
-  "_missing_token": true,
-  "_sha": "d481ad783f23b3739e8f12260984e3b9ca11c35a",
-  "_size": 3101,
+  "_lastChecked": 1789466060,
+  "_history": [
+    {
+      "buildId": "25045902",
+      "branch": "public",
+      "timeUpdated": 1788214872,
+      "firstSeen": 1789466060,
+      "manifests": {
+        "5128051": {
+          "gid": "3254851350139022149",
+          "size": 428129882,
+          "download": 79654160
+        }
+      }
+    }
+  ],
+  "_change_number": 38888603,
+  "_missing_token": false,
+  "_sha": "8881a1bafe509d89ea0712bafc2d4ba1d917bf20",
+  "_size": 4087,
   "appid": "5128050",
   "common": {
     "associations": {
@@ -30,9 +44,9 @@
     },
     "clienticon": "a3c97a41ddb334c50119c51e8a0a1e748fc1371c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5128050",
     "genres": {
       "0": "1",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ff0e3449546c42ebb86d5b97f31d791e041d734b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789461202",
     "store_asset_mtime": "1787508918",
     "store_tags": {
       "0": "3877",
@@ -136,5 +151,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tom’s Last Adventure",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Tom’s Last Adventure.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5128051": {
+      "manifests": {
+        "public": {
+          "download": "79654160",
+          "gid": "3254851350139022149",
+          "size": "428129882"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25045902",
+        "timebuildupdated": "1788214869",
+        "timeupdated": "1788214872"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Flying Frog Studios",
+    "publisher": "Flying Frog Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "35",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

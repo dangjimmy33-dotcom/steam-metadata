@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789455840,
+  "_lastChecked": 1789462411,
   "_history": [
     {
       "buildId": "24545399",
@@ -26,12 +26,38 @@
           "download": 309078768
         }
       }
+    },
+    {
+      "buildId": "25318082",
+      "branch": "playtest",
+      "timeUpdated": 1789460370,
+      "firstSeen": 1789462411,
+      "manifests": {
+        "1455911": {
+          "gid": "1814649754382159298",
+          "size": 2137601464,
+          "download": 311996048
+        }
+      }
+    },
+    {
+      "buildId": "25318082",
+      "branch": "public",
+      "timeUpdated": 1789460397,
+      "firstSeen": 1789462411,
+      "manifests": {
+        "1455911": {
+          "gid": "1814649754382159298",
+          "size": 2137601464,
+          "download": 311996048
+        }
+      }
     }
   ],
-  "_change_number": 37855615,
+  "_change_number": 38888426,
   "_missing_token": false,
-  "_sha": "b0a7f4565ba8b5f99a8a83035a039c91054cc64c",
-  "_size": 10166,
+  "_sha": "b91d3ebf3baa1ab9df17b12dfdda8e64c7c8f67c",
+  "_size": 10876,
   "appid": "1455910",
   "common": {
     "associations": {
@@ -282,13 +308,34 @@
       "9": "1643"
     },
     "supported_languages": {
+      "brazilian": {
+        "supported": "true"
+      },
+      "czech": {
+        "supported": "true"
+      },
+      "danish": {
+        "supported": "true"
+      },
+      "dutch": {
+        "supported": "true"
+      },
       "english": {
+        "supported": "true"
+      },
+      "finnish": {
         "supported": "true"
       },
       "french": {
         "supported": "true"
       },
       "german": {
+        "supported": "true"
+      },
+      "hungarian": {
+        "supported": "true"
+      },
+      "indonesian": {
         "supported": "true"
       },
       "italian": {
@@ -300,10 +347,19 @@
       "koreana": {
         "supported": "true"
       },
+      "latam": {
+        "supported": "true"
+      },
+      "norwegian": {
+        "supported": "true"
+      },
       "polish": {
         "supported": "true"
       },
       "portuguese": {
+        "supported": "true"
+      },
+      "romanian": {
         "supported": "true"
       },
       "russian": {
@@ -315,7 +371,22 @@
       "spanish": {
         "supported": "true"
       },
+      "swedish": {
+        "supported": "true"
+      },
       "tchinese": {
+        "supported": "true"
+      },
+      "thai": {
+        "supported": "true"
+      },
+      "turkish": {
+        "supported": "true"
+      },
+      "ukrainian": {
+        "supported": "true"
+      },
+      "vietnamese": {
         "supported": "true"
       }
     },
@@ -340,29 +411,29 @@
       },
       "manifests": {
         "playtest": {
-          "download": "309078768",
-          "gid": "6754309062784293387",
-          "size": "2122847089"
+          "download": "311996048",
+          "gid": "1814649754382159298",
+          "size": "2137601464"
         },
         "public": {
-          "download": "309078768",
-          "gid": "6754309062784293387",
-          "size": "2122847089"
+          "download": "311996048",
+          "gid": "1814649754382159298",
+          "size": "2137601464"
         }
       }
     },
     "baselanguages": "",
     "branches": {
       "playtest": {
-        "buildid": "24545399",
+        "buildid": "25318082",
         "description": "测试版",
-        "timebuildupdated": "1785820034",
-        "timeupdated": "1785820052"
+        "timebuildupdated": "1789460361",
+        "timeupdated": "1789460370"
       },
       "public": {
-        "buildid": "24545399",
-        "timebuildupdated": "1785820034",
-        "timeupdated": "1786093974"
+        "buildid": "25318082",
+        "timebuildupdated": "1789460361",
+        "timeupdated": "1789460397"
       }
     },
     "hasdepotsindlc": "0",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789455801,
+  "_lastChecked": 1789462372,
   "_history": [
     {
       "buildId": "22325331",
@@ -180,12 +180,30 @@
           "download": 2327307840
         }
       }
+    },
+    {
+      "buildId": "25316953",
+      "branch": "experimental",
+      "timeUpdated": 1789456450,
+      "firstSeen": 1789462372,
+      "manifests": {
+        "1419851": {
+          "gid": "3103807671818911759",
+          "size": 5225616009,
+          "download": 2289468256
+        },
+        "1419852": {
+          "gid": "1231939496884804530",
+          "size": 5340725950,
+          "download": 2327419904
+        }
+      }
     }
   ],
-  "_change_number": 38882124,
+  "_change_number": 38888550,
   "_missing_token": false,
-  "_sha": "00351e8e9af4a18f287bda30ca5ff58cae1b156f",
-  "_size": 11880,
+  "_sha": "6de676ece2c2c6fa4b91f9b873665454f6d79b12",
+  "_size": 11881,
   "appid": "1419850",
   "common": {
     "associations": {
@@ -567,9 +585,9 @@
       },
       "manifests": {
         "experimental": {
-          "download": "2288433296",
-          "gid": "916070804344531636",
-          "size": "5224042046"
+          "download": "2289468256",
+          "gid": "3103807671818911759",
+          "size": "5225616009"
         },
         "legacy": {
           "download": "2254046224",
@@ -589,9 +607,9 @@
       },
       "manifests": {
         "experimental": {
-          "download": "2327307840",
-          "gid": "3184826281865108256",
-          "size": "5340107845"
+          "download": "2327419904",
+          "gid": "1231939496884804530",
+          "size": "5340725950"
         },
         "legacy": {
           "download": "2307079056",
@@ -622,10 +640,10 @@
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,danish,dutch,finnish,norwegian,swedish,czech,turkish,brazilian,greek,vietnamese",
     "branches": {
       "experimental": {
-        "buildid": "25281176",
+        "buildid": "25316953",
         "description": "For early testing of upcoming patches when available.",
-        "timebuildupdated": "1789290888",
-        "timeupdated": "1789291330"
+        "timebuildupdated": "1789456009",
+        "timeupdated": "1789456450"
       },
       "legacy": {
         "buildid": "22325331",

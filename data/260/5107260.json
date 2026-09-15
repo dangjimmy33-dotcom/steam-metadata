@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789459408,
-  "_history": [],
-  "_change_number": 38717329,
-  "_missing_token": true,
-  "_sha": "3abae9496d39f54c56575ff4ef0833c366d6e7a5",
-  "_size": 3421,
+  "_lastChecked": 1789466046,
+  "_history": [
+    {
+      "buildId": "25139743",
+      "branch": "public",
+      "timeUpdated": 1788604022,
+      "firstSeen": 1789466046,
+      "manifests": {
+        "5107261": {
+          "gid": "2035232882303336540",
+          "size": 4409135806,
+          "download": 1225348512
+        }
+      }
+    }
+  ],
+  "_change_number": 38888489,
+  "_missing_token": false,
+  "_sha": "8aa5625fd3380af1173edd7761bcb6e1316934e0",
+  "_size": 4005,
   "appid": "5107260",
   "common": {
     "aicontenttype": "1",
@@ -28,7 +42,6 @@
     "clienticon": "792635bdc8fdb3068c0b1a848855d3ceca2a4a54",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5107260",
     "genres": {
       "0": "1",
@@ -104,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "aeee1efd333c922f7ac908cde080f9199395353f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789460911",
     "store_asset_mtime": "1787483755",
     "store_tags": {
       "0": "597",
@@ -156,5 +170,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sukmantos Kitchen 1990",
+    "launch": {
+      "0": {
+        "executable": "Sukmantos Kitchen 1990.exe"
+      }
+    }
+  },
+  "depots": {
+    "5107261": {
+      "manifests": {
+        "public": {
+          "download": "1225348512",
+          "gid": "2035232882303336540",
+          "size": "4409135806"
+        }
+      }
+    },
+    "baselanguages": "english,indonesian,koreana,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25139743",
+        "timebuildupdated": "1788603899",
+        "timeupdated": "1788604022"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Ilhaminati",
+    "publisher": "Ilhaminati"
+  }
 }

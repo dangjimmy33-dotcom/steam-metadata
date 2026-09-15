@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789459265,
-  "_history": [],
-  "_change_number": 38789663,
-  "_missing_token": true,
-  "_sha": "dd14f1af3ceb768d0a829d5a1bd43751a660d4db",
-  "_size": 3318,
+  "_lastChecked": 1789465903,
+  "_history": [
+    {
+      "buildId": "25250882",
+      "branch": "public",
+      "timeUpdated": 1789122151,
+      "firstSeen": 1789465903,
+      "manifests": {
+        "4925071": {
+          "gid": "6025313015840920185",
+          "size": 1196589214,
+          "download": 884915296
+        }
+      }
+    }
+  ],
+  "_change_number": 38888513,
+  "_missing_token": false,
+  "_sha": "d77ec9ec1bbcc677c7a8556b929f83fc1fbf2e25",
+  "_size": 4332,
   "appid": "4925070",
   "common": {
     "aicontenttype": "1",
@@ -28,7 +42,6 @@
     "clienticon": "d4566803548e82d3309379e0ea87c1daa3c0474b",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4925070",
     "genres": {
       "0": "25",
@@ -99,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0552375702c052b1b7f724c7b345ddba00f7c6a0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789460957",
     "store_asset_mtime": "1783195892",
     "store_tags": {
       "0": "1721",
@@ -150,5 +164,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "False Normality",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play False Normality",
+        "description_loc": {
+          "english": "Play False Normality"
+        },
+        "executable": "FalseNormality.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4925071": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "884915296",
+          "gid": "6025313015840920185",
+          "size": "1196589214"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25250882",
+        "timebuildupdated": "1789121915",
+        "timeupdated": "1789122151"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kaan Bartu Bozkurt",
+    "publisher": "Kaan Bartu Bozkurt"
+  }
 }

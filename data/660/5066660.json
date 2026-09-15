@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789459379,
-  "_history": [],
-  "_change_number": 38449089,
-  "_missing_token": true,
-  "_sha": "47a7f30f9039578c25a28c610c5d48742bfda734",
-  "_size": 3224,
+  "_lastChecked": 1789466016,
+  "_history": [
+    {
+      "buildId": "24761780",
+      "branch": "public",
+      "timeUpdated": 1787298026,
+      "firstSeen": 1789466016,
+      "manifests": {
+        "5066661": {
+          "gid": "720575951002789404",
+          "size": 632191396,
+          "download": 492833776
+        }
+      }
+    }
+  ],
+  "_change_number": 38888156,
+  "_missing_token": false,
+  "_sha": "0727b7f9daabff64e69c3f49824dda63d65549a8",
+  "_size": 4105,
   "appid": "5066660",
   "common": {
     "associations": {
@@ -27,7 +41,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5066660",
     "genres": {
       "0": "1",
@@ -98,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c48881f03e63f9350c8f48ddf8e4d9d926c83c2e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789459739",
     "store_asset_mtime": "1786120223",
     "store_tags": {
       "0": "21",
@@ -145,5 +159,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hetja's Adventures",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "HetjaAdventures.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5066661": {
+      "manifests": {
+        "public": {
+          "download": "492833776",
+          "gid": "720575951002789404",
+          "size": "632191396"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24761780",
+        "timebuildupdated": "1786885093",
+        "timeupdated": "1787298026"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Ricco Games",
+    "homepage": "https://www.ricco.fr/pages/hetja_aventure.php",
+    "publisher": "Ricco Games"
+  }
 }

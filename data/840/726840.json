@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789455062,
+  "_lastChecked": 1789461631,
   "_history": [
     {
       "buildId": "22565972",
@@ -140,12 +140,68 @@
           "download": 284018192
         }
       }
+    },
+    {
+      "buildId": "24234193",
+      "branch": "oldstable",
+      "timeUpdated": 1784183772,
+      "firstSeen": 1789461631,
+      "manifests": {
+        "726841": {
+          "gid": "8339524791403731699",
+          "size": 398617815,
+          "download": 297838080
+        },
+        "726842": {
+          "gid": "8895747960497572353",
+          "size": 391966008,
+          "download": 283162608
+        },
+        "726843": {
+          "gid": "318336815001298846",
+          "size": 404298031,
+          "download": 286750224
+        },
+        "726844": {
+          "gid": "5299546903492192418",
+          "size": 394328744,
+          "download": 283911360
+        }
+      }
+    },
+    {
+      "buildId": "25318317",
+      "branch": "unstable",
+      "timeUpdated": 1789461437,
+      "firstSeen": 1789461631,
+      "manifests": {
+        "726841": {
+          "gid": "468354281973489179",
+          "size": 398725056,
+          "download": 297930432
+        },
+        "726842": {
+          "gid": "4500712886304584312",
+          "size": 392073249,
+          "download": 283248896
+        },
+        "726843": {
+          "gid": "5313599575980360930",
+          "size": 404405272,
+          "download": 286869056
+        },
+        "726844": {
+          "gid": "327224289513331207",
+          "size": 394436497,
+          "download": 284021680
+        }
+      }
     }
   ],
-  "_change_number": 38786735,
+  "_change_number": 38888712,
   "_missing_token": false,
-  "_sha": "381f23b5cb57dbbf8ed316f09bc18286a9b7d4ca",
-  "_size": 12904,
+  "_sha": "54d2feb86151621cbd02407bdd6dfe3e6684a232",
+  "_size": 12902,
   "appid": "726840",
   "common": {
     "associations": {
@@ -541,9 +597,9 @@
       },
       "manifests": {
         "oldstable": {
-          "download": "294351152",
-          "gid": "7675076593347869860",
-          "size": "393945978"
+          "download": "297838080",
+          "gid": "8339524791403731699",
+          "size": "398617815"
         },
         "public": {
           "download": "297838080",
@@ -551,9 +607,9 @@
           "size": "398617815"
         },
         "unstable": {
-          "download": "297927488",
-          "gid": "3607230371410240504",
-          "size": "398724192"
+          "download": "297930432",
+          "gid": "468354281973489179",
+          "size": "398725056"
         }
       }
     },
@@ -564,9 +620,9 @@
       },
       "manifests": {
         "oldstable": {
-          "download": "279646560",
-          "gid": "3884750030414855540",
-          "size": "387294171"
+          "download": "283162608",
+          "gid": "8895747960497572353",
+          "size": "391966008"
         },
         "public": {
           "download": "283162608",
@@ -574,9 +630,9 @@
           "size": "391966008"
         },
         "unstable": {
-          "download": "283254144",
-          "gid": "5841577952930172134",
-          "size": "392072385"
+          "download": "283248896",
+          "gid": "4500712886304584312",
+          "size": "392073249"
         }
       }
     },
@@ -586,9 +642,9 @@
       },
       "manifests": {
         "oldstable": {
-          "download": "283265520",
-          "gid": "6662400381104502139",
-          "size": "399626194"
+          "download": "286750224",
+          "gid": "318336815001298846",
+          "size": "404298031"
         },
         "public": {
           "download": "286750224",
@@ -596,9 +652,9 @@
           "size": "404298031"
         },
         "unstable": {
-          "download": "286872832",
-          "gid": "5010693870178939686",
-          "size": "404404408"
+          "download": "286869056",
+          "gid": "5313599575980360930",
+          "size": "404405272"
         }
       }
     },
@@ -609,9 +665,9 @@
       },
       "manifests": {
         "oldstable": {
-          "download": "280444448",
-          "gid": "7604479003836343039",
-          "size": "389656907"
+          "download": "283911360",
+          "gid": "5299546903492192418",
+          "size": "394328744"
         },
         "public": {
           "download": "283911360",
@@ -619,19 +675,19 @@
           "size": "394328744"
         },
         "unstable": {
-          "download": "284018192",
-          "gid": "308618591038595782",
-          "size": "394435633"
+          "download": "284021680",
+          "gid": "327224289513331207",
+          "size": "394436497"
         }
       }
     },
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,japanese,portuguese,polish,dutch,turkish,ukrainian",
     "branches": {
       "oldstable": {
-        "buildid": "22565972",
+        "buildid": "24234193",
         "description": "Contains an older version of City Game Studio",
-        "timebuildupdated": "1774868619",
-        "timeupdated": "1774868683"
+        "timebuildupdated": "1784183689",
+        "timeupdated": "1784183772"
       },
       "public": {
         "buildid": "24234193",
@@ -639,10 +695,10 @@
         "timeupdated": "1784183772"
       },
       "unstable": {
-        "buildid": "25247910",
+        "buildid": "25318317",
         "description": "Unstable branch, contains the newest features",
-        "timebuildupdated": "1789111638",
-        "timeupdated": "1789113681"
+        "timebuildupdated": "1789461196",
+        "timeupdated": "1789461437"
       }
     },
     "privatebranches": "1",

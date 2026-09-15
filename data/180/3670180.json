@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789458120,
+  "_lastChecked": 1789464709,
   "_history": [
     {
       "buildId": "25140119",
@@ -230,20 +230,70 @@
           "download": 472053824
         }
       }
+    },
+    {
+      "buildId": "25318774",
+      "branch": "public",
+      "timeUpdated": 1789462876,
+      "firstSeen": 1789464709,
+      "manifests": {
+        "3670181": {
+          "gid": "3444379309568123153",
+          "size": 3390223636,
+          "download": 472079632
+        },
+        "3670182": {
+          "gid": "3454440694921925219",
+          "size": 3407366766,
+          "download": 480097536
+        },
+        "3670183": {
+          "gid": "1507618021311979288",
+          "size": 3433606448,
+          "download": 472059616
+        }
+      }
+    },
+    {
+      "buildId": "25318774",
+      "branch": "qatest",
+      "timeUpdated": 1789462723,
+      "firstSeen": 1789464709,
+      "manifests": {
+        "3670181": {
+          "gid": "3444379309568123153",
+          "size": 3390223636,
+          "download": 472079632
+        },
+        "3670182": {
+          "gid": "3454440694921925219",
+          "size": 3407366766,
+          "download": 480097536
+        },
+        "3670183": {
+          "gid": "1507618021311979288",
+          "size": 3433606448,
+          "download": 472059616
+        }
+      }
     }
   ],
-  "_change_number": 38852615,
+  "_change_number": 38889501,
   "_missing_token": false,
-  "_sha": "f84bf33f55f71a4cf0863dbdf3d9e9a79c8044a7",
-  "_size": 7068,
+  "_sha": "17983a022c333d914a97d2d76f9333257b7f014b",
+  "_size": 7127,
   "appid": "3670180",
   "common": {
     "associations": {
       "0": {
-        "name": "Baby Kings Studio",
+        "name": "WoodNeeded",
         "type": "developer"
       },
       "1": {
+        "name": "Baby Kings Studio",
+        "type": "developer"
+      },
+      "2": {
         "name": "Baby Kings Studio",
         "type": "publisher"
       }
@@ -501,14 +551,14 @@
       },
       "manifests": {
         "public": {
-          "download": "472218368",
-          "gid": "6158232270629045125",
-          "size": "3390213157"
+          "download": "472079632",
+          "gid": "3444379309568123153",
+          "size": "3390223636"
         },
         "qatest": {
-          "download": "472218368",
-          "gid": "6158232270629045125",
-          "size": "3390213157"
+          "download": "472079632",
+          "gid": "3444379309568123153",
+          "size": "3390223636"
         }
       }
     },
@@ -519,14 +569,14 @@
       },
       "manifests": {
         "public": {
-          "download": "480092496",
-          "gid": "1045664136866403865",
-          "size": "3407349471"
+          "download": "480097536",
+          "gid": "3454440694921925219",
+          "size": "3407366766"
         },
         "qatest": {
-          "download": "480092496",
-          "gid": "1045664136866403865",
-          "size": "3407349471"
+          "download": "480097536",
+          "gid": "3454440694921925219",
+          "size": "3407366766"
         }
       }
     },
@@ -536,34 +586,34 @@
       },
       "manifests": {
         "public": {
-          "download": "472053824",
-          "gid": "4469488190277050652",
-          "size": "3433589151"
+          "download": "472059616",
+          "gid": "1507618021311979288",
+          "size": "3433606448"
         },
         "qatest": {
-          "download": "472053824",
-          "gid": "4469488190277050652",
-          "size": "3433589151"
+          "download": "472059616",
+          "gid": "1507618021311979288",
+          "size": "3433606448"
         }
       }
     },
     "baselanguages": "brazilian,czech,english,french,german,italian,japanese,koreana,polish,romanian,russian,schinese,spanish,tchinese,thai,turkish,ukrainian",
     "branches": {
       "public": {
-        "buildid": "25294258",
-        "timebuildupdated": "1789369693",
-        "timeupdated": "1789370171"
+        "buildid": "25318774",
+        "timebuildupdated": "1789462723",
+        "timeupdated": "1789462876"
       },
       "qatest": {
-        "buildid": "25294258",
+        "buildid": "25318774",
         "description": "QA testing",
-        "timebuildupdated": "1789369693",
-        "timeupdated": "1789369693"
+        "timebuildupdated": "1789462723",
+        "timeupdated": "1789462723"
       }
     }
   },
   "extended": {
-    "developer": "Baby Kings Studio",
+    "developer": "WoodNeeded",
     "publisher": "Baby Kings Studio"
   }
 }

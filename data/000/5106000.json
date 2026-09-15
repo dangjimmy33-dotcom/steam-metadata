@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789459407,
-  "_history": [],
-  "_change_number": 38726219,
-  "_missing_token": true,
-  "_sha": "beb926c433bfc526db2f265f46804ffffadef716",
-  "_size": 2939,
+  "_lastChecked": 1789466045,
+  "_history": [
+    {
+      "buildId": "25207606",
+      "branch": "public",
+      "timeUpdated": 1788955089,
+      "firstSeen": 1789466045,
+      "manifests": {
+        "5106001": {
+          "gid": "8636256038094113362",
+          "size": 843727897,
+          "download": 288179904
+        }
+      }
+    }
+  ],
+  "_change_number": 38888029,
+  "_missing_token": false,
+  "_sha": "a96a30eefb91cd48ffdfc8cfe6ca4b60f718149d",
+  "_size": 3736,
   "appid": "5106000",
   "common": {
     "associations": {
@@ -27,7 +41,6 @@
     "clienticon": "3a752f25a6994fe7e288bbdf60bbb0e36314cc59",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5106000",
     "genres": {
       "0": "9",
@@ -99,7 +112,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "457cbd672db70aeaf9725f9d17294ac85ba547ba/capsule_231x87.jpg"
     },
@@ -130,5 +143,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SSS-FPV",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SSS-FPV.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5106001": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "288179904",
+          "gid": "8636256038094113362",
+          "size": "843727897"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25207606",
+        "timebuildupdated": "1788954370",
+        "timeupdated": "1788955089"
+      }
+    }
+  },
+  "extended": {
+    "developer": "无敌飞行员",
+    "publisher": "无敌飞行员"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

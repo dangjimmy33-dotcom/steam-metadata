@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789459334,
-  "_history": [],
-  "_change_number": 38748105,
-  "_missing_token": true,
-  "_sha": "7c70981b8ed887a7b9266487d128a5898fc7328b",
-  "_size": 4442,
+  "_lastChecked": 1789465971,
+  "_history": [
+    {
+      "buildId": "25140236",
+      "branch": "public",
+      "timeUpdated": 1788607788,
+      "firstSeen": 1789465971,
+      "manifests": {
+        "5007281": {
+          "gid": "2020315009803706556",
+          "size": 8320714489,
+          "download": 7804211936
+        }
+      }
+    }
+  ],
+  "_change_number": 38889935,
+  "_missing_token": false,
+  "_sha": "6d90b3464293c4fb7d421cb2c33bb225916b74e9",
+  "_size": 6256,
   "appid": "5007280",
   "common": {
     "associations": {
@@ -43,8 +57,8 @@
     },
     "clienticon": "c5599c96d811d34019c6b8447afa3048b33d5432",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5007280",
     "genres": {
       "0": "1",
@@ -135,11 +149,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c09feaf0336d30ace2ea711a1b2aafb36e8d7beb/capsule_231x87.jpg",
       "russian": "ae1dd1dfb9ac38ff8b7c0fcf322a596d25667805/capsule_231x87_russian.jpg"
     },
+    "steam_release_date": "1789463770",
     "store_asset_mtime": "1787483629",
     "store_tags": {
       "0": "10235",
@@ -173,5 +188,107 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DETSTVO",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DETSTVO.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229012": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229030": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5007281": {
+      "manifests": {
+        "public": {
+          "download": "7804211936",
+          "gid": "2020315009803706556",
+          "size": "8320714489"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25140236",
+        "timebuildupdated": "1788607540",
+        "timeupdated": "1788607788"
+      }
+    }
+  },
+  "extended": {
+    "developer": "VD Games",
+    "publisher": "VD Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "DETSTVO/Saved/VDSave",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "DETSTVO/Saved/VDSave",
+        "pattern": "*.jpg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "DETSTVO/Saved/VDSave",
+        "pattern": "*.vdsave",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

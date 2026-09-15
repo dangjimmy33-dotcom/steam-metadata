@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789458888,
+  "_lastChecked": 1789465524,
   "_history": [
     {
       "buildId": "24147150",
@@ -13,12 +13,25 @@
           "download": 5031284368
         }
       }
+    },
+    {
+      "buildId": "25319271",
+      "branch": "public",
+      "timeUpdated": 1789464478,
+      "firstSeen": 1789465524,
+      "manifests": {
+        "4492081": {
+          "gid": "8056780197840850553",
+          "size": 5449598708,
+          "download": 5134682272
+        }
+      }
     }
   ],
-  "_change_number": 37567938,
+  "_change_number": 38890591,
   "_missing_token": false,
-  "_sha": "8fddf12c300a130cf51cdb60a4c5af7f7aabf1b5",
-  "_size": 5218,
+  "_sha": "f4e5e8c84c28c80f8e7ca45b294432e53a0df6b7",
+  "_size": 5921,
   "appid": "4492080",
   "common": {
     "associations": {
@@ -230,7 +243,30 @@
     "installdir": "Life & Shadow Celestial Call Prologue",
     "launch": {
       "0": {
-        "executable": "Life & Shadow Celestial Call Prologue.exe"
+        "description": "Life & Shadow Prologue using DX12",
+        "description_loc": {
+          "english": "Life & Shadow Prologue using DX12"
+        },
+        "executable": "Life & Shadow Celestial Call Prologue.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "description": "Life & Shadow Prologue using DX11",
+        "description_loc": {
+          "english": "Life & Shadow Prologue using DX11"
+        },
+        "executable": "Life & Shadow Celestial Call Prologue.exe",
+        "type": "option1"
+      },
+      "2": {
+        "arguments": "-vulkan",
+        "description": "Life & Shadow Prologue using Vulkan",
+        "description_loc": {
+          "english": "Life & Shadow Prologue using Vulkan"
+        },
+        "executable": "Life & Shadow Celestial Call Prologue.exe",
+        "type": "option2"
       }
     }
   },
@@ -252,17 +288,17 @@
     "4492081": {
       "manifests": {
         "public": {
-          "download": "5031284368",
-          "gid": "5842264281189877044",
-          "size": "5333212836"
+          "download": "5134682272",
+          "gid": "8056780197840850553",
+          "size": "5449598708"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "24147150",
-        "timebuildupdated": "1783688785",
-        "timeupdated": "1783688872"
+        "buildid": "25319271",
+        "timebuildupdated": "1789464343",
+        "timeupdated": "1789464478"
       }
     }
   },

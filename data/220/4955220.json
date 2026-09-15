@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789459293,
-  "_history": [],
-  "_change_number": 38504606,
-  "_missing_token": true,
-  "_sha": "6f75fd4824bb52b1f4d19352d7941e30dff41abe",
-  "_size": 3726,
+  "_lastChecked": 1789465929,
+  "_history": [
+    {
+      "buildId": "24971927",
+      "branch": "public",
+      "timeUpdated": 1787838303,
+      "firstSeen": 1789465929,
+      "manifests": {
+        "4955221": {
+          "gid": "4447293815730339217",
+          "size": 618299010,
+          "download": 188894400
+        }
+      }
+    }
+  ],
+  "_change_number": 38889327,
+  "_missing_token": false,
+  "_sha": "f20ae7bd903ef77353175132d749f170db97737e",
+  "_size": 4546,
   "appid": "4955220",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "504cd11e9c32a26c8f32bfc44848160597f97028",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4955220",
     "genres": {
       "0": "1",
@@ -110,7 +123,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "372ce2bcd5c30df57b054df98aebc65b1948b863/capsule_231x87.jpg",
       "japanese": "66e5c3583e363734140cb350420b0e22bf47b259/capsule_231x87_japanese.jpg"
@@ -135,5 +148,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "竜狩りRPG",
+    "launch": {
+      "0": {
+        "executable": "DragonHunt.exe"
+      }
+    }
+  },
+  "depots": {
+    "4955221": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "188894400",
+          "gid": "4447293815730339217",
+          "size": "618299010"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "24971927",
+        "timebuildupdated": "1787838280",
+        "timeupdated": "1787838303"
+      }
+    }
+  },
+  "extended": {
+    "developer": "koganin",
+    "isfreeapp": "1",
+    "publisher": "kogaGames"
+  }
 }
