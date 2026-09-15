@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789430388,
-  "_history": [],
-  "_change_number": 38461214,
-  "_missing_token": true,
-  "_sha": "548f1c13f2f11e7553aece44efb564c87b6f354d",
-  "_size": 3417,
+  "_lastChecked": 1789438133,
+  "_history": [
+    {
+      "buildId": "24644758",
+      "branch": "public",
+      "timeUpdated": 1786322562,
+      "firstSeen": 1789438133,
+      "manifests": {
+        "5083471": {
+          "gid": "6311977731126951793",
+          "size": 127964312,
+          "download": 121768320
+        }
+      }
+    }
+  ],
+  "_change_number": 38878483,
+  "_missing_token": false,
+  "_sha": "cb2f74efd0a6d9fd48159e6192d5fc9f013d99f0",
+  "_size": 4149,
   "appid": "5083470",
   "common": {
     "aicontenttype": "2",
@@ -25,8 +39,8 @@
     },
     "clienticon": "d54562b1921bde7211a75fa8f8c018ecad488e7a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5083470",
     "genres": {
       "0": "23",
@@ -109,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bc02279710838e27210a77b970ecbaac432c2f73/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789431233",
     "store_asset_mtime": "1786395501",
     "store_tags": {
       "0": "560542",
@@ -164,5 +179,41 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ORACLE",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ORACLE.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5083471": {
+      "manifests": {
+        "public": {
+          "download": "121768320",
+          "gid": "6311977731126951793",
+          "size": "127964312"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,japanese,koreana,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "24644758",
+        "timebuildupdated": "1786321501",
+        "timeupdated": "1786322562"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "ZANKYO GAMES",
+    "publisher": "ZANKYO GAMES"
+  }
 }

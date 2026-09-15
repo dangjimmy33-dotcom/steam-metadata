@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789427661,
+  "_lastChecked": 1789434543,
   "_history": [
     {
       "buildId": "25134817",
@@ -882,11 +882,29 @@
           "download": 16585201584
         }
       }
+    },
+    {
+      "buildId": "25311236",
+      "branch": "local",
+      "timeUpdated": 1789429745,
+      "firstSeen": 1789434543,
+      "manifests": {
+        "2129531": {
+          "gid": "7044474979089905789",
+          "size": 18841258739,
+          "download": 15628430112
+        },
+        "4351720": {
+          "gid": "1755972612886087736",
+          "size": 20064692214,
+          "download": 16587983312
+        }
+      }
     }
   ],
-  "_change_number": 38872935,
+  "_change_number": 38879426,
   "_missing_token": false,
-  "_sha": "70366afd76af3cfcb3792053c3abebebe50bcea1",
+  "_sha": "10a4950ab0b92b78bca1992dd2579e3e74d649de",
   "_size": 10328,
   "appid": "2129530",
   "common": {
@@ -1291,9 +1309,9 @@
       "dlcappid": "4351720",
       "manifests": {
         "local": {
-          "download": "16585201584",
-          "gid": "3726179241517011138",
-          "size": "20067835123"
+          "download": "16587983312",
+          "gid": "1755972612886087736",
+          "size": "20064692214"
         },
         "public": {
           "download": "14380518912",
@@ -1304,11 +1322,11 @@
     },
     "branches": {
       "local": {
-        "buildid": "25307534",
+        "buildid": "25311236",
         "description": "Local Content Server",
         "lcsrequired": "1",
-        "timebuildupdated": "1789414906",
-        "timeupdated": "1789414906"
+        "timebuildupdated": "1789429745",
+        "timeupdated": "1789429745"
       },
       "public": {
         "buildid": "24819707",

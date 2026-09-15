@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789429714,
+  "_lastChecked": 1789437247,
   "_history": [
     {
       "buildId": "25136942",
@@ -130,12 +130,25 @@
           "download": 3327158240
         }
       }
+    },
+    {
+      "buildId": "25312691",
+      "branch": "public",
+      "timeUpdated": 1789436605,
+      "firstSeen": 1789437247,
+      "manifests": {
+        "4264251": {
+          "gid": "7454676458918253004",
+          "size": 3502149332,
+          "download": 3328168016
+        }
+      }
     }
   ],
-  "_change_number": 38867722,
+  "_change_number": 38880174,
   "_missing_token": false,
-  "_sha": "d083088c9674193082cf73e139fcbf1781f409b1",
-  "_size": 5335,
+  "_sha": "bf693e4d0faf0539a7d1cdab6b10c80b12618f90",
+  "_size": 5431,
   "appid": "4264250",
   "common": {
     "aicontenttype": "1",
@@ -289,7 +302,13 @@
       "latam": {
         "supported": "true"
       },
+      "russian": {
+        "supported": "true"
+      },
       "spanish": {
+        "supported": "true"
+      },
+      "ukrainian": {
         "supported": "true"
       }
     },
@@ -311,17 +330,17 @@
     "4264251": {
       "manifests": {
         "public": {
-          "download": "3327158240",
-          "gid": "1064915866690387560",
-          "size": "3497481729"
+          "download": "3328168016",
+          "gid": "7454676458918253004",
+          "size": "3502149332"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25295644",
-        "timebuildupdated": "1789375048",
-        "timeupdated": "1789403249"
+        "buildid": "25312691",
+        "timebuildupdated": "1789435778",
+        "timeupdated": "1789436605"
       }
     }
   },

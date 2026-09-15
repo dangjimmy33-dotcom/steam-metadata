@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789430386,
-  "_history": [],
-  "_change_number": 38594660,
-  "_missing_token": true,
-  "_sha": "7f55ca56f011a17e43b69fa6448de348fc614b81",
-  "_size": 3363,
+  "_lastChecked": 1789438130,
+  "_history": [
+    {
+      "buildId": "25118013",
+      "branch": "public",
+      "timeUpdated": 1788504329,
+      "firstSeen": 1789438130,
+      "manifests": {
+        "5080491": {
+          "gid": "8994885207940924705",
+          "size": 2727063662,
+          "download": 2361678064
+        }
+      }
+    }
+  ],
+  "_change_number": 38880580,
+  "_missing_token": false,
+  "_sha": "b232cd3a2d97d48b02ff622d076a1c354a5074e2",
+  "_size": 4088,
   "appid": "5080490",
   "common": {
     "aicontenttype": "1",
@@ -27,6 +41,7 @@
     },
     "clienticon": "248a230f795bad32e247a8a10ddbf7c99c9debe5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -36,7 +51,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5080490",
     "genres": {
       "0": "25",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d0efb5593ef81c3af3858b084136824910eb1f62/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1786724805",
     "store_tags": {
       "0": "21",
@@ -157,5 +172,43 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mai Trang",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Mai Trang",
+        "description_loc": {
+          "english": "Play Mai Trang"
+        },
+        "executable": "Mai Trang.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5080491": {
+      "manifests": {
+        "public": {
+          "download": "2361678064",
+          "gid": "8994885207940924705",
+          "size": "2727063662"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25118013",
+        "timebuildupdated": "1788504101",
+        "timeupdated": "1788504329"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Chuongcc",
+    "publisher": "Chuongcc"
+  }
 }

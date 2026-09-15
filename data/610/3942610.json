@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789429419,
+  "_lastChecked": 1789436858,
   "_history": [
     {
       "buildId": "24522119",
@@ -18,12 +18,30 @@
           "download": 2173882976
         }
       }
+    },
+    {
+      "buildId": "25312246",
+      "branch": "public",
+      "timeUpdated": 1789433998,
+      "firstSeen": 1789436858,
+      "manifests": {
+        "3942611": {
+          "gid": "6221626109985166312",
+          "size": 3300822774,
+          "download": 2980546416
+        },
+        "3942613": {
+          "gid": "721830183529033370",
+          "size": 2383900571,
+          "download": 2173882976
+        }
+      }
     }
   ],
-  "_change_number": 38824976,
+  "_change_number": 38879282,
   "_missing_token": false,
-  "_sha": "52f5a40d85969ecbc32031683ec267d08bd3e7c3",
-  "_size": 9033,
+  "_sha": "411233e14e5ca670450387ab0cdfa55ac1f36c38",
+  "_size": 9091,
   "appid": "3942610",
   "common": {
     "aicontenttype": "1",
@@ -38,12 +56,17 @@
       }
     },
     "category": {
+      "category_1": "1",
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
       "category_25": "1",
+      "category_36": "1",
+      "category_38": "1",
+      "category_49": "1",
       "category_62": "1",
-      "category_74": "1"
+      "category_74": "1",
+      "category_9": "1"
     },
     "clienticon": "54e695f1cf98bb1df01cbc9a745f10ce7ddbc68b",
     "clienttga": "3e67f7678f6f7d024b0d1a400daf6644c483cd33",
@@ -295,17 +318,16 @@
       },
       "manifests": {
         "public": {
-          "download": "1029915616",
-          "gid": "2635661952131988348",
-          "size": "1179319139"
+          "download": "2980546416",
+          "gid": "6221626109985166312",
+          "size": "3300822774"
         }
       }
     },
     "3942612": {
       "config": {
         "oslist": "windows"
-      },
-      "manifests": {}
+      }
     },
     "3942613": {
       "config": {
@@ -322,12 +344,11 @@
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,brazilian,greek,ukrainian,latam,vietnamese,indonesian",
     "branches": {
       "public": {
-        "buildid": "24522119",
-        "timebuildupdated": "1785701773",
-        "timeupdated": "1785701773"
+        "buildid": "25312246",
+        "timebuildupdated": "1789433998",
+        "timeupdated": "1789433998"
       }
-    },
-    "privatebranches": "1"
+    }
   },
   "extended": {
     "developer": "Dumbbell Games",

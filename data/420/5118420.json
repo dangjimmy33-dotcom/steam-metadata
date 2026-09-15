@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789430412,
+  "_lastChecked": 1789438163,
   "_history": [
     {
       "buildId": "24852534",
@@ -26,12 +26,30 @@
           "download": 154350256
         }
       }
+    },
+    {
+      "buildId": "25313221",
+      "branch": "public",
+      "timeUpdated": 1789438121,
+      "firstSeen": 1789438163,
+      "manifests": {
+        "5118421": {
+          "gid": "5675340394787020247",
+          "size": 330541556,
+          "download": 157101584
+        },
+        "5118422": {
+          "gid": "4818281791281727479",
+          "size": 295628188,
+          "download": 149561360
+        }
+      }
     }
   ],
-  "_change_number": 38820205,
+  "_change_number": 38880650,
   "_missing_token": false,
-  "_sha": "44dc7400fc438e351236560786db6c5a19dd6131",
-  "_size": 3941,
+  "_sha": "17c7a56bf6725d3f9da3ec093350aa03532e7d4b",
+  "_size": 4337,
   "appid": "5118420",
   "common": {
     "aicontenttype": "1",
@@ -132,7 +150,7 @@
     "name": "Hyper ACK",
     "osarch": "64",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "1",
     "releasestate": "released",
     "small_capsule": {
@@ -181,6 +199,13 @@
         },
         "executable": "hyperack.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "hyperack.x86_64",
+        "type": "default"
       }
     },
     "steamcontrollertemplateindex": "6",
@@ -188,19 +213,35 @@
   },
   "depots": {
     "5118421": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "154350256",
-          "gid": "5359089819864840809",
-          "size": "478220398"
+          "download": "157101584",
+          "gid": "5675340394787020247",
+          "size": "330541556"
+        }
+      }
+    },
+    "5118422": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "149561360",
+          "gid": "4818281791281727479",
+          "size": "295628188"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25244709",
-        "timebuildupdated": "1789095502",
-        "timeupdated": "1789095570"
+        "buildid": "25313221",
+        "timebuildupdated": "1789438011",
+        "timeupdated": "1789438121"
       }
     }
   },
