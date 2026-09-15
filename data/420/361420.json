@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789419017,
+  "_lastChecked": 1789425838,
   "_history": [
     {
       "buildId": "5429613",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 38872879,
+  "_change_number": 38876592,
   "_missing_token": false,
-  "_sha": "58e9d9fbe0678b536901331cb20b0dfa2145a00e",
-  "_size": 8351,
+  "_sha": "336e41bee84832f0d9c034a6ede088daafb6daab",
+  "_size": 8507,
   "appid": "361420",
   "common": {
     "associations": {
@@ -388,11 +388,18 @@
       "2": {
         "path": "Astro/Saved/SaveGames",
         "pattern": "*.savegame",
+        "recursive": "1",
         "root": "WinAppDataLocal"
       },
       "3": {
         "path": "Astro/Saved/SaveGames",
         "pattern": "*.savecfg",
+        "root": "WinAppDataLocal"
+      },
+      "4": {
+        "path": "Astro/Saved/SaveGames",
+        "pattern": "MetaData.json",
+        "recursive": "1",
         "root": "WinAppDataLocal"
       }
     }

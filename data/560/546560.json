@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789419205,
+  "_lastChecked": 1789426010,
   "_history": [
     {
       "buildId": "8694564",
@@ -56,12 +56,40 @@
           "download": 57369040
         }
       }
+    },
+    {
+      "buildId": "25275747",
+      "branch": "public",
+      "timeUpdated": 1789419977,
+      "firstSeen": 1789426010,
+      "manifests": {
+        "1295040": {
+          "gid": "4872077055462155827",
+          "size": 2671588091,
+          "download": 709289472
+        },
+        "546561": {
+          "gid": "1436897171613240821",
+          "size": 72480814167,
+          "download": 53809695232
+        },
+        "546563": {
+          "gid": "7996446571820692857",
+          "size": 987308845,
+          "download": 606976288
+        },
+        "546564": {
+          "gid": "2340440727495508507",
+          "size": 637378731,
+          "download": 189527344
+        }
+      }
     }
   ],
-  "_change_number": 38869948,
+  "_change_number": 38876697,
   "_missing_token": false,
-  "_sha": "67ab1f7af7a2cc28ebce3c6acd14476022fa9b00",
-  "_size": 10033,
+  "_sha": "5e8519dccabc704d8973ddfd5dfbfaed943a3fc1",
+  "_size": 10245,
   "appid": "546560",
   "common": {
     "associations": {
@@ -393,6 +421,12 @@
     "workshop_visible": "1"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "steamrt4-any"
+      }
+    },
     "installdir": "Half-Life Alyx",
     "launch": {
       "0": {
@@ -443,13 +477,20 @@
           "size": "2667347898"
         },
         "public": {
-          "download": "699360336",
-          "gid": "5726991073612952032",
-          "size": "2667347898"
+          "download": "709289472",
+          "gid": "4872077055462155827",
+          "size": "2671588091"
         }
       }
     },
     "228983": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228988": {
       "config": {
         "oslist": "windows"
       },
@@ -474,9 +515,9 @@
           "size": "71955575627"
         },
         "public": {
-          "download": "53448313376",
-          "gid": "6340340699246199351",
-          "size": "71955575627"
+          "download": "53809695232",
+          "gid": "1436897171613240821",
+          "size": "72480814167"
         }
       }
     },
@@ -492,9 +533,9 @@
           "size": "945180895"
         },
         "public": {
-          "download": "584725232",
-          "gid": "8142939566738022382",
-          "size": "945180895"
+          "download": "606976288",
+          "gid": "7996446571820692857",
+          "size": "987308845"
         }
       }
     },
@@ -510,9 +551,9 @@
           "size": "214244652"
         },
         "public": {
-          "download": "57369040",
-          "gid": "1905868265862275921",
-          "size": "214244652"
+          "download": "189527344",
+          "gid": "2340440727495508507",
+          "size": "637378731"
         }
       }
     },
@@ -525,9 +566,9 @@
         "timeupdated": "1651880399"
       },
       "public": {
-        "buildid": "8694564",
-        "timebuildupdated": "1651880154",
-        "timeupdated": "1651880399"
+        "buildid": "25275747",
+        "timebuildupdated": "1789247638",
+        "timeupdated": "1789419977"
       }
     },
     "privatebranches": "1",

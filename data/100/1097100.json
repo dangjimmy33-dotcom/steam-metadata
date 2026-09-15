@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789419815,
+  "_lastChecked": 1789426567,
   "_history": [
     {
       "buildId": "14406388",
@@ -92,12 +92,35 @@
           "download": 223291696
         }
       }
+    },
+    {
+      "buildId": "25309120",
+      "branch": "public",
+      "timeUpdated": 1789424764,
+      "firstSeen": 1789426567,
+      "manifests": {
+        "1097101": {
+          "gid": "3320589078540398073",
+          "size": 326720599,
+          "download": 225860624
+        },
+        "1097102": {
+          "gid": "2759265051396371344",
+          "size": 347284278,
+          "download": 234144208
+        },
+        "1097103": {
+          "gid": "4481851999690783139",
+          "size": 327520952,
+          "download": 223320768
+        }
+      }
     }
   ],
-  "_change_number": 38869392,
+  "_change_number": 38876502,
   "_missing_token": false,
-  "_sha": "bfbc77fe7403aa1ccec7f611d8425c8c34549c02",
-  "_size": 8064,
+  "_sha": "6d4430b73c9f7dfdf40b54ad68befb3b80e9e1aa",
+  "_size": 8066,
   "appid": "1097100",
   "common": {
     "associations": {
@@ -384,9 +407,9 @@
       },
       "manifests": {
         "public": {
-          "download": "225811600",
-          "gid": "2333163399805164478",
-          "size": "326668911"
+          "download": "225860624",
+          "gid": "3320589078540398073",
+          "size": "326720599"
         }
       }
     },
@@ -396,9 +419,9 @@
       },
       "manifests": {
         "public": {
-          "download": "84587280",
-          "gid": "3978228493220535087",
-          "size": "210182813"
+          "download": "234144208",
+          "gid": "2759265051396371344",
+          "size": "347284278"
         }
       }
     },
@@ -408,17 +431,17 @@
       },
       "manifests": {
         "public": {
-          "download": "223291696",
-          "gid": "6056532492663091471",
-          "size": "327541807"
+          "download": "223320768",
+          "gid": "4481851999690783139",
+          "size": "327520952"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25305306",
-        "timebuildupdated": "1789406360",
-        "timeupdated": "1789406360"
+        "buildid": "25309120",
+        "timebuildupdated": "1789420796",
+        "timeupdated": "1789424764"
       }
     },
     "privatebranches": "1"
@@ -450,7 +473,7 @@
         "pathtransforms": {
           "0": {
             "find": "Studio Waterzooi/Please, Touch The Artwork/SaveData",
-            "replace": ".config/unity3d/StudioWaterzooi/Please, Touch The Artwork/SaveData"
+            "replace": ".config/unity3d/Studio Waterzooi/Please, Touch The Artwork/SaveData"
           }
         },
         "root": "WinAppDataLocalLow",

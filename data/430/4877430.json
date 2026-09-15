@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789423848,
-  "_history": [],
-  "_change_number": 38875966,
-  "_missing_token": true,
-  "_sha": "7710c0281dbb667c79b9195f80178ce3175a8efa",
-  "_size": 2804,
+  "_lastChecked": 1789430228,
+  "_history": [
+    {
+      "buildId": "25309750",
+      "branch": "public",
+      "timeUpdated": 1789423445,
+      "firstSeen": 1789430228,
+      "manifests": {
+        "4877431": {
+          "gid": "4684300204068391057",
+          "size": 86523405,
+          "download": 35929952
+        }
+      }
+    }
+  ],
+  "_change_number": 38876355,
+  "_missing_token": false,
+  "_sha": "4c2e6fc4e373fb59c26279d15aba20c0ca3ad79c",
+  "_size": 3332,
   "appid": "4877430",
   "common": {
     "associations": {
@@ -27,8 +41,8 @@
     },
     "clienticon": "0fd73521ec78122aedf743ac7d4db8e7275131c5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4877430",
     "genres": {
       "0": "4"
@@ -98,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fd4caec03721ffc2bce4ae4becc798189fbc1362/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1789396667",
     "store_tags": {
       "0": "5432",
@@ -126,5 +141,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SAYONARA++",
+    "launch": {
+      "0": {
+        "executable": "Sayonara++.exe"
+      }
+    }
+  },
+  "depots": {
+    "4877431": {
+      "manifests": {
+        "public": {
+          "download": "35929952",
+          "gid": "4684300204068391057",
+          "size": "86523405"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25309750",
+        "timebuildupdated": "1789423431",
+        "timeupdated": "1789423445"
+      }
+    }
+  },
+  "extended": {
+    "developer": "IKIGames",
+    "publisher": "IKIGames"
+  }
 }

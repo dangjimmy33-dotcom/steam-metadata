@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789421326,
+  "_lastChecked": 1789427947,
   "_history": [
     {
       "buildId": "23575229",
@@ -46,12 +46,35 @@
           "download": 136351136
         }
       }
+    },
+    {
+      "buildId": "25310171",
+      "branch": "public",
+      "timeUpdated": 1789425158,
+      "firstSeen": 1789427947,
+      "manifests": {
+        "2400081": {
+          "gid": "3571042493480601148",
+          "size": 170594093,
+          "download": 106176752
+        },
+        "2400082": {
+          "gid": "3013409351828921135",
+          "size": 176451739,
+          "download": 101527008
+        },
+        "2400083": {
+          "gid": "8326703723348734969",
+          "size": 313223051,
+          "download": 131940528
+        }
+      }
     }
   ],
-  "_change_number": 36346503,
+  "_change_number": 38876695,
   "_missing_token": false,
-  "_sha": "22f18f96556da9c8cafc6ac9e3a904a38e2e6271",
-  "_size": 4793,
+  "_sha": "665cf4c18f47d1328353f2d597907469df85ad07",
+  "_size": 4294,
   "appid": "2400080",
   "common": {
     "associations": {
@@ -211,15 +234,10 @@
         "oslist": "linux"
       },
       "manifests": {
-        "beta": {
-          "download": "96515888",
-          "gid": "2567741904453309389",
-          "size": "142915493"
-        },
         "public": {
-          "download": "96515888",
-          "gid": "2567741904453309389",
-          "size": "142915493"
+          "download": "106176752",
+          "gid": "3571042493480601148",
+          "size": "170594093"
         }
       }
     },
@@ -228,15 +246,10 @@
         "oslist": "windows"
       },
       "manifests": {
-        "beta": {
-          "download": "99646816",
-          "gid": "6872640481142686376",
-          "size": "171542642"
-        },
         "public": {
-          "download": "99646816",
-          "gid": "6872640481142686376",
-          "size": "171542642"
+          "download": "101527008",
+          "gid": "3013409351828921135",
+          "size": "176451739"
         }
       }
     },
@@ -246,29 +259,18 @@
         "oslist": "macos"
       },
       "manifests": {
-        "beta": {
-          "download": "136351136",
-          "gid": "7163033702626217067",
-          "size": "480837923"
-        },
         "public": {
-          "download": "136351136",
-          "gid": "7163033702626217067",
-          "size": "480837923"
+          "download": "131940528",
+          "gid": "8326703723348734969",
+          "size": "313223051"
         }
       }
     },
     "branches": {
-      "beta": {
-        "buildid": "23575229",
-        "description": "for testing the betas of the game",
-        "timebuildupdated": "1780613942",
-        "timeupdated": "1780613942"
-      },
       "public": {
-        "buildid": "23575229",
-        "timebuildupdated": "1780613942",
-        "timeupdated": "1780614053"
+        "buildid": "25310171",
+        "timebuildupdated": "1789424978",
+        "timeupdated": "1789425158"
       }
     }
   },

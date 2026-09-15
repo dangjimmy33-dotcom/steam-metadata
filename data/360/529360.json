@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789419187,
+  "_lastChecked": 1789425994,
   "_history": [
     {
       "buildId": "2804354",
@@ -26,12 +26,38 @@
           "download": 2963674704
         }
       }
+    },
+    {
+      "buildId": "25309329",
+      "branch": "public",
+      "timeUpdated": 1789421738,
+      "firstSeen": 1789425994,
+      "manifests": {
+        "529361": {
+          "gid": "4083221735846931748",
+          "size": 6293742863,
+          "download": 2967805312
+        }
+      }
+    },
+    {
+      "buildId": "25309329",
+      "branch": "test",
+      "timeUpdated": 1789421644,
+      "firstSeen": 1789425994,
+      "manifests": {
+        "529361": {
+          "gid": "4083221735846931748",
+          "size": 6293742863,
+          "download": 2967805312
+        }
+      }
     }
   ],
-  "_change_number": 38874108,
+  "_change_number": 38875458,
   "_missing_token": false,
-  "_sha": "a2cc3cbc7017280cf06b5f14e41470436f404d4b",
-  "_size": 5991,
+  "_sha": "e2b8f7eb5d852f8ccbf140b0888871a5ee9523d1",
+  "_size": 6341,
   "appid": "529360",
   "common": {
     "associations": {
@@ -78,6 +104,20 @@
       "english": "f6a823d7f76459adb08929923653d4c4411d8995/header.jpg"
     },
     "icon": "c8fd6d84d20089af6c7b1515c47cd862a182e12b",
+    "languages": {
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "polish": "1",
+      "portuguese": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1",
+      "tchinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -139,6 +179,7 @@
     "metacritic_name": "Void Rangers",
     "name": "Void Rangers",
     "onlyvrsupport": "1",
+    "openvr_action_manifest_path": "VR_Data/StreamingAssets/SteamVR/actions.json",
     "openvrsupport": "1",
     "osarch": "64",
     "osextended": "",
@@ -257,35 +298,36 @@
       },
       "manifests": {
         "public": {
-          "download": "1509693392",
-          "gid": "4029993236472988401",
-          "size": "4348076024"
+          "download": "2967805312",
+          "gid": "4083221735846931748",
+          "size": "6293742863"
         },
         "test": {
-          "download": "2963674704",
-          "gid": "1284300213045718371",
-          "size": "6285616911"
+          "download": "2967805312",
+          "gid": "4083221735846931748",
+          "size": "6293742863"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "2804354",
-        "timebuildupdated": "1527194487",
-        "timeupdated": "1527194624"
+        "buildid": "25309329",
+        "timebuildupdated": "1789421644",
+        "timeupdated": "1789421738"
       },
       "test": {
-        "buildid": "25308407",
-        "timebuildupdated": "1789418028",
-        "timeupdated": "1789418028"
+        "buildid": "25309329",
+        "timebuildupdated": "1789421644",
+        "timeupdated": "1789421644"
       }
     }
   },
   "extended": {
     "developer": "Martin Senovsky",
     "homepage": "https://voidrangers.senovsky.com/",
-    "publisher": "Martin Senovsky"
+    "publisher": "Martin Senovsky",
+    "vrheadsetstreaming": "1"
   },
   "ufs": {
     "hidecloudui": "1",

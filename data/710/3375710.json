@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789422361,
-  "_history": [],
-  "_change_number": 38753813,
-  "_missing_token": true,
-  "_sha": "8c3af1ad3b0da69f0853cefdb2c7ec80ffe49c17",
-  "_size": 3233,
+  "_lastChecked": 1789428889,
+  "_history": [
+    {
+      "buildId": "25138519",
+      "branch": "public",
+      "timeUpdated": 1788594957,
+      "firstSeen": 1789428889,
+      "manifests": {
+        "3375711": {
+          "gid": "8343231207707094818",
+          "size": 291631322,
+          "download": 215089504
+        }
+      }
+    }
+  ],
+  "_change_number": 38876069,
+  "_missing_token": false,
+  "_sha": "a0db3b232a2aa359da2d4804b6dfa524913b6d4f",
+  "_size": 3761,
   "appid": "3375710",
   "common": {
     "aicontenttype": "1",
@@ -37,7 +51,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3375710",
     "genres": {
       "0": "4",
@@ -110,11 +123,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "72c4dbe1103403ceb6abb0d7f75fb0e5ff04ca38/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789423697",
     "store_asset_mtime": "1788946276",
     "store_tags": {
       "0": "12095",
@@ -151,5 +165,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Crimson Lust",
+    "launch": {
+      "0": {
+        "executable": "vineyard-harem.exe"
+      }
+    }
+  },
+  "depots": {
+    "3375711": {
+      "manifests": {
+        "public": {
+          "download": "215089504",
+          "gid": "8343231207707094818",
+          "size": "291631322"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25138519",
+        "timebuildupdated": "1788594954",
+        "timeupdated": "1788594957"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "WHYIFWHO",
+    "publisher": "WHYIFWHO"
+  }
 }

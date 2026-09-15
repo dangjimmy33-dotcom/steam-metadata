@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789420699,
+  "_lastChecked": 1789427375,
   "_history": [
     {
       "buildId": "25131337",
@@ -182,12 +182,38 @@
           "download": 769280576
         }
       }
+    },
+    {
+      "buildId": "25309487",
+      "branch": "developer",
+      "timeUpdated": 1789422340,
+      "firstSeen": 1789427375,
+      "manifests": {
+        "1833201": {
+          "gid": "3659932461254228414",
+          "size": 3388089784,
+          "download": 809135472
+        }
+      }
+    },
+    {
+      "buildId": "25309487",
+      "branch": "staging",
+      "timeUpdated": 1789427018,
+      "firstSeen": 1789427375,
+      "manifests": {
+        "1833201": {
+          "gid": "3659932461254228414",
+          "size": 3388089784,
+          "download": 809135472
+        }
+      }
     }
   ],
-  "_change_number": 38873112,
+  "_change_number": 38877238,
   "_missing_token": false,
-  "_sha": "5ac7314d586f92c5bf4305ab2282b0c1945f0f62",
-  "_size": 8077,
+  "_sha": "3ad8d46495a339f21179c96070c329f841b9b173",
+  "_size": 8078,
   "appid": "1833200",
   "common": {
     "associations": {
@@ -477,9 +503,9 @@
     "1833201": {
       "manifests": {
         "developer": {
-          "download": "769280576",
-          "gid": "778220281150517269",
-          "size": "2985256738"
+          "download": "809135472",
+          "gid": "3659932461254228414",
+          "size": "3388089784"
         },
         "public": {
           "download": "831759696",
@@ -487,9 +513,9 @@
           "size": "3687133199"
         },
         "staging": {
-          "download": "831759696",
-          "gid": "2569816859877909642",
-          "size": "3687133199"
+          "download": "809135472",
+          "gid": "3659932461254228414",
+          "size": "3388089784"
         },
         "testold": {
           "download": "770284896",
@@ -500,10 +526,10 @@
     },
     "branches": {
       "developer": {
-        "buildid": "25307682",
+        "buildid": "25309487",
         "description": "dev builds",
-        "timebuildupdated": "1789415395",
-        "timeupdated": "1789415395"
+        "timebuildupdated": "1789422340",
+        "timeupdated": "1789422340"
       },
       "public": {
         "buildid": "24802226",
@@ -511,10 +537,10 @@
         "timeupdated": "1787175758"
       },
       "staging": {
-        "buildid": "24802226",
+        "buildid": "25309487",
         "description": "About to go live builds",
-        "timebuildupdated": "1787074980",
-        "timeupdated": "1787077297"
+        "timebuildupdated": "1789422340",
+        "timeupdated": "1789427018"
       },
       "testold": {
         "buildid": "22699959",

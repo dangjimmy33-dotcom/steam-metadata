@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789423999,
-  "_history": [],
-  "_change_number": 38684553,
-  "_missing_token": true,
-  "_sha": "3122ec009db0de62ffcb68541f0f24083f623ba4",
-  "_size": 3601,
+  "_lastChecked": 1789430364,
+  "_history": [
+    {
+      "buildId": "24660972",
+      "branch": "public",
+      "timeUpdated": 1786397192,
+      "firstSeen": 1789430364,
+      "manifests": {
+        "5048481": {
+          "gid": "257433157263283177",
+          "size": 322557632,
+          "download": 76720768
+        },
+        "5048482": {
+          "gid": "3920401170288837459",
+          "size": 302575692,
+          "download": 74320032
+        },
+        "5048483": {
+          "gid": "5840219309871463922",
+          "size": 278143976,
+          "download": 61941296
+        }
+      }
+    }
+  ],
+  "_change_number": 38876293,
+  "_missing_token": false,
+  "_sha": "90dadeafcd2b10d62d57f8db48c69035cdf6edf6",
+  "_size": 4735,
   "appid": "5048480",
   "common": {
     "associations": {
@@ -34,7 +58,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5048480",
     "genres": {
       "0": "1",
@@ -107,10 +130,11 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "723166bd25d48b47818d5127417480cd776c2090/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789424274",
     "store_asset_mtime": "1786527527",
     "store_tags": {
       "0": "21",
@@ -171,5 +195,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "KUBO 3",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "KUBO3.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "KUBO3.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "KUBO3.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5048481": {
+      "manifests": {
+        "public": {
+          "download": "76720768",
+          "gid": "257433157263283177",
+          "size": "322557632"
+        }
+      }
+    },
+    "5048482": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "74320032",
+          "gid": "3920401170288837459",
+          "size": "302575692"
+        }
+      }
+    },
+    "5048483": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "61941296",
+          "gid": "5840219309871463922",
+          "size": "278143976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24660972",
+        "timebuildupdated": "1786397179",
+        "timeupdated": "1786397192"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SJ Games",
+    "publisher": "Nami Tentou"
+  }
 }
