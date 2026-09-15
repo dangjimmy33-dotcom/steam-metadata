@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789451850,
-  "_history": [],
-  "_change_number": 38869429,
-  "_missing_token": true,
-  "_sha": "3d1a323a41f5101570b30471e97f880c4e37b20c",
-  "_size": 3336,
+  "_lastChecked": 1789458404,
+  "_history": [
+    {
+      "buildId": "25305331",
+      "branch": "public",
+      "timeUpdated": 1789406464,
+      "firstSeen": 1789458404,
+      "manifests": {
+        "3962941": {
+          "gid": "3030700187350391502",
+          "size": 307865536,
+          "download": 118908448
+        },
+        "3962942": {
+          "gid": "8235680893006357688",
+          "size": 307865536,
+          "download": 118908816
+        }
+      }
+    }
+  ],
+  "_change_number": 38886902,
+  "_missing_token": false,
+  "_sha": "7e402de64b662e7b111b1b2320b56d3915f9bf33",
+  "_size": 4282,
   "appid": "3962940",
   "common": {
     "associations": {
@@ -27,8 +46,8 @@
     },
     "clienticon": "a2ac9b8b19c46ba491707db11a48558564c5c1e7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3962940",
     "genres": {
       "0": "25",
@@ -106,11 +125,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7f212e3716c0e886ce00f3eb74a809d2899dba40/capsule_231x87.jpg",
       "schinese": "7f212e3716c0e886ce00f3eb74a809d2899dba40/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789457543",
     "store_asset_mtime": "1787975042",
     "store_tags": {
       "0": "597",
@@ -149,5 +169,55 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SINGULARITY",
+    "launch": {
+      "0": {
+        "description": "start",
+        "description_loc": {
+          "english": "start",
+          "schinese": "开始游戏"
+        },
+        "executable": "SINGULARITY.exe"
+      }
+    }
+  },
+  "depots": {
+    "3962941": {
+      "manifests": {
+        "public": {
+          "download": "118908448",
+          "gid": "3030700187350391502",
+          "size": "307865536"
+        }
+      }
+    },
+    "3962942": {
+      "manifests": {
+        "public": {
+          "download": "118908816",
+          "gid": "8235680893006357688",
+          "size": "307865536"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25305331",
+        "timebuildupdated": "1789406463",
+        "timeupdated": "1789406464"
+      }
+    },
+    "privatebranches": "1",
+    "workshopdepot": "3962940"
+  },
+  "extended": {
+    "developer": "xzx",
+    "publisher": "xzx"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "104857600"
+  }
 }

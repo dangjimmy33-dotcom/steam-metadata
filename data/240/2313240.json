@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789450107,
+  "_lastChecked": 1789456766,
   "_history": [
     {
       "buildId": "24891136",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 38851940,
+  "_change_number": 38884542,
   "_missing_token": false,
-  "_sha": "314e92cb9c2523fcca24daa7f0edc8ce832dccbc",
-  "_size": 7347,
+  "_sha": "98a251affd0c7bed45dead5a8c2357e8086b3553",
+  "_size": 7593,
   "appid": "2313240",
   "common": {
     "associations": {
@@ -156,9 +156,10 @@
       }
     },
     "name": "Travellin Cats in Italy",
+    "openvrsupport": "1",
     "osarch": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,android",
     "primary_genre": "4",
     "releasestate": "released",
     "review_percentage": "97",
@@ -306,6 +307,14 @@
     "launch": {
       "0": {
         "executable": "Travellin Cats in Italy.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "32",
+          "oslist": "android"
+        },
+        "executable": "Cats Hidden in Italy.apk",
+        "type": "vr"
       }
     },
     "steamconfigurator3rdpartynative": "65533",
@@ -328,6 +337,11 @@
           "gid": "3700236301822052626",
           "size": "75925549"
         }
+      }
+    },
+    "2313242": {
+      "config": {
+        "oslist": "android"
       }
     },
     "branches": {

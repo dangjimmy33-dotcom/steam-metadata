@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789452616,
-  "_history": [],
-  "_change_number": 37615514,
-  "_missing_token": true,
-  "_sha": "a8bfc91c2412949a6a45b2ce4b722fc821bd91fe",
-  "_size": 3071,
+  "_lastChecked": 1789459122,
+  "_history": [
+    {
+      "buildId": "24360057",
+      "branch": "public",
+      "timeUpdated": 1784834193,
+      "firstSeen": 1789459122,
+      "manifests": {
+        "4757971": {
+          "gid": "4749456331030011681",
+          "size": 181735831,
+          "download": 65357792
+        }
+      }
+    }
+  ],
+  "_change_number": 38886987,
+  "_missing_token": false,
+  "_sha": "7772f8097344eedf0e2126a9eef14c35b364ca05",
+  "_size": 3818,
   "appid": "4757970",
   "common": {
     "associations": {
@@ -27,6 +41,7 @@
     },
     "clienticon": "d85ad500196e6f8fe910c365b2f2a77b113f5e65",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -34,7 +49,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4757970",
     "genres": {
       "0": "23"
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e086312fd07b7a51185aeb0f1002ff9bcc0a54d9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789457720",
     "store_asset_mtime": "1784833310",
     "store_tags": {
       "0": "21",
@@ -138,5 +153,44 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CubeBoy",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "CubeBoy.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4757971": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "65357792",
+          "gid": "4749456331030011681",
+          "size": "181735831"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24360057",
+        "timebuildupdated": "1784833964",
+        "timeupdated": "1784834193"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Penguin Pyramid",
+    "homepage": "https://x.com/Hamsterspit1",
+    "publisher": "Penguin Pyramid"
+  }
 }

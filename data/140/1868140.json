@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789449627,
+  "_lastChecked": 1789456313,
   "_history": [
     {
       "buildId": "24651119",
@@ -73,12 +73,85 @@
           "download": 664637152
         }
       }
+    },
+    {
+      "buildId": "25315876",
+      "branch": "public",
+      "timeUpdated": 1789455619,
+      "firstSeen": 1789456313,
+      "manifests": {
+        "1868141": {
+          "gid": "8671920635129823671",
+          "size": 5919220435,
+          "download": 4637944960
+        },
+        "1868142": {
+          "gid": "8764408445724448259",
+          "size": 5942892583,
+          "download": 4462342464
+        },
+        "2492320": {
+          "gid": "3605329027721964993",
+          "size": 233287510,
+          "download": 186146912
+        },
+        "2677020": {
+          "gid": "1640036140298738282",
+          "size": 27270157,
+          "download": 22173664
+        },
+        "2677021": {
+          "gid": "4629321012438313755",
+          "size": 27277403,
+          "download": 22149632
+        },
+        "2841140": {
+          "gid": "4277352553098425670",
+          "size": 71790521,
+          "download": 66864480
+        },
+        "2841141": {
+          "gid": "415104347584392154",
+          "size": 71937165,
+          "download": 66792208
+        },
+        "3543180": {
+          "gid": "7053194086829219553",
+          "size": 210383241,
+          "download": 195537120
+        },
+        "3543181": {
+          "gid": "6888995605330603482",
+          "size": 206894045,
+          "download": 192970032
+        },
+        "4158580": {
+          "gid": "5509228382471746180",
+          "size": 167535024,
+          "download": 159639520
+        },
+        "4158581": {
+          "gid": "3013302774473378272",
+          "size": 168592098,
+          "download": 161906752
+        },
+        "4394810": {
+          "gid": "6080006835337499181",
+          "size": 0,
+          "download": 0
+        },
+        "4394811": {
+          "gid": "2071559694774481152",
+          "size": 794745894,
+          "download": 664637152
+        }
+      }
     }
   ],
-  "_change_number": 38884027,
+  "_change_number": 38886199,
   "_missing_token": false,
-  "_sha": "70b4a95368eaa248ec9907aa1e60a75908b74a7d",
-  "_size": 14925,
+  "_sha": "db920059659701758449c268cdc5c843f0163c78",
+  "_size": 15192,
   "appid": "1868140",
   "common": {
     "aicontenttype": "1",
@@ -134,11 +207,14 @@
       "japanese": "1",
       "koreana": "1",
       "latam": "1",
+      "polish": "1",
       "portuguese": "1",
       "russian": "1",
       "schinese": "1",
       "spanish": "1",
-      "tchinese": "1"
+      "tchinese": "1",
+      "thai": "1",
+      "turkish": "1"
     },
     "library_assets": {
       "library_capsule": "en",
@@ -375,6 +451,10 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "polish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "russian": {
         "subtitles": "true",
         "supported": "true"
@@ -388,6 +468,14 @@
         "supported": "true"
       },
       "tchinese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "thai": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "turkish": {
         "subtitles": "true",
         "supported": "true"
       }
@@ -579,9 +667,9 @@
       },
       "manifests": {
         "public": {
-          "download": "4636283008",
-          "gid": "1490153896524122226",
-          "size": "5917371884"
+          "download": "4637944960",
+          "gid": "8671920635129823671",
+          "size": "5919220435"
         }
       }
     },
@@ -591,9 +679,9 @@
       },
       "manifests": {
         "public": {
-          "download": "4460891520",
-          "gid": "7107957488412882591",
-          "size": "5941020160"
+          "download": "4462342464",
+          "gid": "8764408445724448259",
+          "size": "5942892583"
         }
       }
     },
@@ -743,9 +831,9 @@
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "24651119",
-        "timebuildupdated": "1786358400",
-        "timeupdated": "1786361803"
+        "buildid": "25315876",
+        "timebuildupdated": "1789450939",
+        "timeupdated": "1789455619"
       }
     },
     "privatebranches": "1"
@@ -754,7 +842,7 @@
     "developer": "MINTROCKET",
     "dlcavailableonstore": "1",
     "homepage": "https://mintrock.et/",
-    "listofdlc": "2492320,2677020,2841140,3543180,4394810",
+    "listofdlc": "2492320,2677020,2841140,3543180,4158580,4394810",
     "publisher": "MINTROCKET"
   },
   "ufs": {

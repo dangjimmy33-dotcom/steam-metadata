@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1789451060,
-  "_history": [],
-  "_change_number": 38875850,
-  "_missing_token": true,
-  "_sha": "049eadc87cdbd20ffdd170f275f14d488cddffc4",
-  "_size": 4704,
+  "_lastChecked": 1789457663,
+  "_history": [
+    {
+      "buildId": "25309652",
+      "branch": "public",
+      "timeUpdated": 1789457598,
+      "firstSeen": 1789457663,
+      "manifests": {
+        "3199471": {
+          "gid": "5543291972866191556",
+          "size": 10954440261,
+          "download": 5178012720
+        },
+        "3199472": {
+          "gid": "4039905352090159079",
+          "size": 0,
+          "download": 0
+        },
+        "3199473": {
+          "gid": "8563563168812393183",
+          "size": 11156922193,
+          "download": 5285057648
+        },
+        "3199479": {
+          "gid": "6446429736525421578",
+          "size": 10710254895,
+          "download": 4388264688
+        }
+      }
+    }
+  ],
+  "_change_number": 38886929,
+  "_missing_token": false,
+  "_sha": "976f4420b894e5e313d380d8a5a0a833b40637fa",
+  "_size": 7209,
   "appid": "3199470",
   "common": {
     "associations": {
@@ -37,9 +66,9 @@
     "clienticon": "dc6bd1c01adb5136cec30a3963bc0391a8ee7916",
     "clienttga": "c28c2555a26a9dcb9deffc07b231571a2f025251",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3199470",
     "genres": {
       "0": "1",
@@ -123,10 +152,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "513ad6abb58dbe7585bb604ebcecb075001494cd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789455613",
     "store_asset_mtime": "1787754054",
     "store_tags": {
       "0": "3877",
@@ -184,5 +214,138 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Knuckle Jet",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Knuckle Jet.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Knuckle Jet.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3199471": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "5178012720",
+          "gid": "5543291972866191556",
+          "size": "10954440261"
+        }
+      }
+    },
+    "3199472": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "4039905352090159079",
+          "size": "0"
+        }
+      }
+    },
+    "3199473": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "5285057648",
+          "gid": "8563563168812393183",
+          "size": "11156922193"
+        }
+      }
+    },
+    "3199479": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "4388264688",
+          "gid": "6446429736525421578",
+          "size": "10710254895"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25309652",
+        "timebuildupdated": "1789423082",
+        "timeupdated": "1789457598"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Rain Games",
+    "publisher": "Rain Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Rain/Knuckle Jet",
+            "replace": "unity.Rain.Knuckle Jet"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Rain/Knuckle Jet",
+            "replace": ".config/unity3d/Rain/Knuckle Jet"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Rain/Knuckle Jet",
+        "pattern": "saves.kj",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Rain/Knuckle Jet",
+        "pattern": "settings.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Rain/Knuckle Jet",
+        "pattern": "inputbindings.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

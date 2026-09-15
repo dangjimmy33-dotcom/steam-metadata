@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789452694,
-  "_history": [],
-  "_change_number": 38832434,
-  "_missing_token": true,
-  "_sha": "201944513fb7ff84ee27587bd0dc077f40110cc2",
-  "_size": 4065,
+  "_lastChecked": 1789459195,
+  "_history": [
+    {
+      "buildId": "25280653",
+      "branch": "public",
+      "timeUpdated": 1789286665,
+      "firstSeen": 1789459195,
+      "manifests": {
+        "4847201": {
+          "gid": "7037725674313252516",
+          "size": 517492527,
+          "download": 390612240
+        }
+      }
+    }
+  ],
+  "_change_number": 38886194,
+  "_missing_token": false,
+  "_sha": "2cec6703ac6ce46d0e56227ab8794afe81c602f1",
+  "_size": 5415,
   "appid": "4847200",
   "common": {
     "associations": {
@@ -38,9 +52,9 @@
     },
     "clienticon": "70195d9505a3ee19f3cbaeef7e714774e8d6c017",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4847200",
     "genres": {
       "0": "23",
@@ -126,11 +140,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c1844732477390c47713724945a933580b3fa398/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/4847200/announcements/detail/714536853984773184",
+    "steam_release_date": "1789455630",
     "store_asset_mtime": "1787084888",
     "store_tags": {
       "0": "9",
@@ -189,5 +204,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Starbase Tactics",
+    "launch": {
+      "0": {
+        "executable": "Starbase Tactics.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "Starbase Tactics_Data/StreamingAssets/SteamInput/steam_input_manifest.vdf"
+  },
+  "depots": {
+    "4847201": {
+      "manifests": {
+        "public": {
+          "download": "390612240",
+          "gid": "7037725674313252516",
+          "size": "517492527"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25280653",
+        "timebuildupdated": "1789286621",
+        "timeupdated": "1789286665"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Rough Sector Games",
+    "publisher": "Rough Sector Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Rough Sector Games/Starbase Tactics",
+            "replace": ".config/unity3d/Rough Sector Games/Starbase Tactics"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Rough Sector Games/Starbase Tactics",
+        "pattern": "starbase_settings_v1.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

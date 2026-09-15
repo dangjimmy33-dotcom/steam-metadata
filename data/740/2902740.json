@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789450745,
+  "_lastChecked": 1789457363,
   "_history": [
     {
       "buildId": "25048191",
@@ -162,11 +162,29 @@
           "download": 3299066656
         }
       }
+    },
+    {
+      "buildId": "25316747",
+      "branch": "devbeta",
+      "timeUpdated": 1789455174,
+      "firstSeen": 1789457363,
+      "manifests": {
+        "2902741": {
+          "gid": "8481966077442001584",
+          "size": 4855220457,
+          "download": 3341089024
+        },
+        "2902742": {
+          "gid": "8308541404782644782",
+          "size": 4755697108,
+          "download": 3299068736
+        }
+      }
     }
   ],
-  "_change_number": 38883809,
+  "_change_number": 38886006,
   "_missing_token": false,
-  "_sha": "883933b6f253898cc660aa5ba009cc389baf26c0",
+  "_sha": "1664e21921d973cf2a81b5874ae1daacaee5b47f",
   "_size": 7405,
   "appid": "2902740",
   "common": {
@@ -422,9 +440,9 @@
       },
       "manifests": {
         "devbeta": {
-          "download": "3341087936",
-          "gid": "6048768802897666575",
-          "size": "4855218409"
+          "download": "3341089024",
+          "gid": "8481966077442001584",
+          "size": "4855220457"
         },
         "previous": {
           "download": "3340682416",
@@ -444,9 +462,9 @@
       },
       "manifests": {
         "devbeta": {
-          "download": "3299066656",
-          "gid": "2121607101899131973",
-          "size": "4755694548"
+          "download": "3299068736",
+          "gid": "8308541404782644782",
+          "size": "4755697108"
         },
         "previous": {
           "download": "3298923872",
@@ -462,10 +480,10 @@
     },
     "branches": {
       "devbeta": {
-        "buildid": "25315383",
+        "buildid": "25316747",
         "description": "Developer Beta",
-        "timebuildupdated": "1789448379",
-        "timeupdated": "1789448379"
+        "timebuildupdated": "1789455174",
+        "timeupdated": "1789455174"
       },
       "previous": {
         "buildid": "25048191",

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789452641,
-  "_history": [],
-  "_change_number": 38866360,
-  "_missing_token": true,
-  "_sha": "f24d9ce1812f2103d13228d6a0d0fdf1bbe9edb4",
-  "_size": 3152,
+  "_lastChecked": 1789459145,
+  "_history": [
+    {
+      "buildId": "25055752",
+      "branch": "public",
+      "timeUpdated": 1788258765,
+      "firstSeen": 1789459145,
+      "manifests": {
+        "4787841": {
+          "gid": "5741517927338474630",
+          "size": 5257019719,
+          "download": 5027507024
+        }
+      }
+    }
+  ],
+  "_change_number": 38886868,
+  "_missing_token": false,
+  "_sha": "7b9271c0fd94e6eca71bdc13b7859637b1ed9655",
+  "_size": 4086,
   "appid": "4787840",
   "common": {
     "aicontenttype": "1",
@@ -32,9 +46,9 @@
     },
     "clienticon": "47ef6061e8081c950687dc9b86333e2f8a9ab8c8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4787840",
     "genres": {
       "0": "1",
@@ -108,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0102b493348ba7aaecbfadea40c64fe31d4b99a0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789457466",
     "store_asset_mtime": "1788792673",
     "store_tags": {
       "0": "42804",
@@ -139,5 +154,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bots&Beats",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BotsBeats.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4787841": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "5027507024",
+          "gid": "5741517927338474630",
+          "size": "5257019719"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25055752",
+        "timebuildupdated": "1788258748",
+        "timeupdated": "1788258765"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Team Bots&amp;Beats",
+    "publisher": "Team Bots&amp;Beats"
+  }
 }

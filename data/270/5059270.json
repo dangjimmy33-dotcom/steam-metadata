@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789452882,
-  "_history": [],
-  "_change_number": 38882342,
-  "_missing_token": true,
-  "_sha": "6cea3ada74b09709b8f34527d177ba4abebeba7a",
-  "_size": 3388,
+  "_lastChecked": 1789459374,
+  "_history": [
+    {
+      "buildId": "25073082",
+      "branch": "public",
+      "timeUpdated": 1788328350,
+      "firstSeen": 1789459374,
+      "manifests": {
+        "5059271": {
+          "gid": "3490405366968095159",
+          "size": 533326800,
+          "download": 456326848
+        },
+        "5059272": {
+          "gid": "4409597457600059576",
+          "size": 507472344,
+          "download": 449761552
+        },
+        "5059273": {
+          "gid": "5162997099661893539",
+          "size": 628395368,
+          "download": 482460448
+        }
+      }
+    }
+  ],
+  "_change_number": 38887082,
+  "_missing_token": false,
+  "_sha": "90ebe9ac42665d0f4a828a0965b82752d002e836",
+  "_size": 5566,
   "appid": "5059270",
   "common": {
     "associations": {
@@ -37,7 +61,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5059270",
     "genres": {
       "0": "23",
@@ -109,7 +132,7 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "46d25f0dc3a620c65dd9fe06ded28f5ad15a6a14/capsule_231x87.jpg"
     },
@@ -148,5 +171,119 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CARAVAN_in_the_MAJIN_WORLD",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "japanese": "テスト　テスト"
+        },
+        "executable": "Caravan_in_the_Majin_World.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "japanese": "らいなくすでテスト"
+        },
+        "executable": "Caravan_in_the_Majin_World.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Caravan_in_the_Majin_World.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "7",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "5059271": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "456326848",
+          "gid": "3490405366968095159",
+          "size": "533326800"
+        }
+      }
+    },
+    "5059272": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "449761552",
+          "gid": "4409597457600059576",
+          "size": "507472344"
+        }
+      }
+    },
+    "5059273": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "482460448",
+          "gid": "5162997099661893539",
+          "size": "628395368"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "25073082",
+        "timebuildupdated": "1788326192",
+        "timeupdated": "1788328350"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "PubMangaS",
+    "publisher": "PubMangaS"
+  },
+  "ufs": {
+    "maxnumfiles": "12",
+    "quota": "8000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "PubMangaS/CARAVAN_in_the_MAJIN_WORLD/user_change/",
+        "pattern": "*.res",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

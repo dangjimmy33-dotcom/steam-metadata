@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789452077,
+  "_lastChecked": 1789458616,
   "_history": [
     {
       "buildId": "25315151",
@@ -13,12 +13,25 @@
           "download": 699408928
         }
       }
+    },
+    {
+      "buildId": "25316924",
+      "branch": "proton",
+      "timeUpdated": 1789456098,
+      "firstSeen": 1789458616,
+      "manifests": {
+        "4190241": {
+          "gid": "2951659351285812424",
+          "size": 1663253628,
+          "download": 699410512
+        }
+      }
     }
   ],
-  "_change_number": 38883949,
+  "_change_number": 38886368,
   "_missing_token": false,
-  "_sha": "638d8471248885ac2dae06192911d86f7ab3cf57",
-  "_size": 5081,
+  "_sha": "31b504b16343af0f894bba9ff0b5ef3a3e376eea",
+  "_size": 5317,
   "appid": "4190240",
   "common": {
     "aicontenttype": "1",
@@ -125,7 +138,6 @@
     "oslist": "windows",
     "primary_genre": "23",
     "releasestate": "released",
-    "restricted_countries": "DE",
     "small_capsule": {
       "english": "e76f2e4bad2095ae726e6f91caabc6a33d26d45f/capsule_231x87.jpg"
     },
@@ -165,7 +177,7 @@
         }
       }
     },
-    "steam_release_date": "1790751600",
+    "steam_release_date": "1789448721",
     "store_asset_mtime": "1789441155",
     "store_tags": {
       "0": "599",
@@ -216,6 +228,11 @@
   "depots": {
     "4190241": {
       "manifests": {
+        "proton": {
+          "download": "699410512",
+          "gid": "2951659351285812424",
+          "size": "1663253628"
+        },
         "public": {
           "download": "699408928",
           "gid": "811944215167615771",
@@ -224,6 +241,12 @@
       }
     },
     "branches": {
+      "proton": {
+        "buildid": "25316924",
+        "description": "protonbugtests",
+        "timebuildupdated": "1789455893",
+        "timeupdated": "1789456098"
+      },
       "public": {
         "buildid": "25315151",
         "timebuildupdated": "1789447143",
