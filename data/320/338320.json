@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789461253,
+  "_lastChecked": 1789467833,
   "_history": [
     {
       "buildId": "25102922",
@@ -92,12 +92,35 @@
           "download": 189629936
         }
       }
+    },
+    {
+      "buildId": "25318476",
+      "branch": "public",
+      "timeUpdated": 1789463114,
+      "firstSeen": 1789467833,
+      "manifests": {
+        "338322": {
+          "gid": "5819014813337544202",
+          "size": 263125600,
+          "download": 187111920
+        },
+        "338323": {
+          "gid": "7252355901727975612",
+          "size": 259697344,
+          "download": 186708288
+        },
+        "338324": {
+          "gid": "1188724406546013434",
+          "size": 265940234,
+          "download": 189629344
+        }
+      }
     }
   ],
-  "_change_number": 38786614,
+  "_change_number": 38889666,
   "_missing_token": false,
-  "_sha": "fe3fe2acbccbf2c9f7d69563a5fabf6c13b1fe28",
-  "_size": 7271,
+  "_sha": "81764d69fabcf45d4fd116772446602450a98cb3",
+  "_size": 7638,
   "appid": "338320",
   "common": {
     "associations": {
@@ -199,12 +222,12 @@
       "english": "capsule_231x87.jpg"
     },
     "steam_deck_compatibility": {
-      "category": "2",
+      "category": "3",
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
         "non_deck_display_glyphs": "0",
-        "primary_player_is_controller_slot_0": "0",
+        "primary_player_is_controller_slot_0": "1",
         "recommended_runtime": "native",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
@@ -224,6 +247,10 @@
         },
         "1": {
           "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
           "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
         }
       },
@@ -232,18 +259,22 @@
         "0": {
           "display": "3",
           "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
-      "test_timestamp": "1654128000",
-      "tested_build_id": "1234446",
+      "test_timestamp": "1789055081",
+      "tested_build_id": "25195770",
       "tests": {
         "0": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "1": {
           "display": "4",
-          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
         },
         "2": {
           "display": "4",
@@ -252,6 +283,10 @@
         "3": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       }
     },
@@ -368,9 +403,9 @@
       },
       "manifests": {
         "public": {
-          "download": "187112592",
-          "gid": "4064210235397231958",
-          "size": "263127648"
+          "download": "187111920",
+          "gid": "5819014813337544202",
+          "size": "263125600"
         }
       }
     },
@@ -380,9 +415,9 @@
       },
       "manifests": {
         "public": {
-          "download": "186708848",
-          "gid": "5964603461502357465",
-          "size": "259699392"
+          "download": "186708288",
+          "gid": "7252355901727975612",
+          "size": "259697344"
         }
       }
     },
@@ -392,18 +427,18 @@
       },
       "manifests": {
         "public": {
-          "download": "189629936",
-          "gid": "4384549229723218975",
-          "size": "265942282"
+          "download": "189629344",
+          "gid": "1188724406546013434",
+          "size": "265940234"
         }
       }
     },
     "baselanguages": "english,german",
     "branches": {
       "public": {
-        "buildid": "25248624",
-        "timebuildupdated": "1789114360",
-        "timeupdated": "1789114920"
+        "buildid": "25318476",
+        "timebuildupdated": "1789461771",
+        "timeupdated": "1789463114"
       }
     },
     "privatebranches": "1"

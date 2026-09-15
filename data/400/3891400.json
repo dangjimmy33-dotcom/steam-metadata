@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789464921,
-  "_history": [],
-  "_change_number": 38885306,
-  "_missing_token": true,
-  "_sha": "9737ee6ba7131fdc6117aa01189285eb7fe2e8ce",
-  "_size": 10767,
+  "_lastChecked": 1789471492,
+  "_history": [
+    {
+      "buildId": "25313722",
+      "branch": "public",
+      "timeUpdated": 1789440528,
+      "firstSeen": 1789471492,
+      "manifests": {
+        "3891401": {
+          "gid": "3266107397778334396",
+          "size": 3228525546,
+          "download": 846525120
+        },
+        "3891402": {
+          "gid": "5622359647144612565",
+          "size": 3245374232,
+          "download": 854834512
+        },
+        "3891403": {
+          "gid": "623917331743559214",
+          "size": 3224559930,
+          "download": 844122096
+        }
+      }
+    }
+  ],
+  "_change_number": 38893121,
+  "_missing_token": false,
+  "_sha": "1f24abbf98f448a9ccfb6cb702304f3b57c52942",
+  "_size": 12970,
   "appid": "3891400",
   "common": {
     "associations": {
@@ -35,8 +59,8 @@
     "clienticon": "53a5262f70128b72cfc0195bb8017bc420c7fe87",
     "clienttga": "2f0856ee4a576a66bb562d338aabfaa61a8056b1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3891400",
     "genres": {
       "0": "4",
@@ -188,7 +212,9 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "b36be0aee9df905e315636b5d0d2bd14cb500683/capsule_231x87.jpg",
       "japanese": "34be9e781565be448d3f8da59cb87687128a0e57/capsule_231x87_japanese.jpg",
@@ -257,7 +283,8 @@
         }
       }
     },
-    "store_asset_mtime": "1788756210",
+    "steam_release_date": "1789465881",
+    "store_asset_mtime": "1789466055",
     "store_tags": {
       "0": "35079",
       "1": "97376",
@@ -344,5 +371,115 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mixed Spirits Bartender Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Mixed Spirits.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "mac.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "app.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "3891401": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "846525120",
+          "gid": "3266107397778334396",
+          "size": "3228525546"
+        }
+      }
+    },
+    "3891402": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "854834512",
+          "gid": "5622359647144612565",
+          "size": "3245374232"
+        }
+      }
+    },
+    "3891403": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "844122096",
+          "gid": "623917331743559214",
+          "size": "3224559930"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25313722",
+        "timebuildupdated": "1789440493",
+        "timeupdated": "1789440528"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Rogue Duck Interactive",
+    "homepage": "https://rogueduck.net",
+    "publisher": "Rogue Duck Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Rogue Duck Interactive/Mixed Spirits",
+            "replace": "Rogue Duck Interactive/Mixed Spirits"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Rogue Duck Interactive/Mixed Spirits",
+            "replace": ".config/unity3d/Rogue Duck Interactive/Mixed Spirits"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Rogue Duck Interactive/Mixed Spirits",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

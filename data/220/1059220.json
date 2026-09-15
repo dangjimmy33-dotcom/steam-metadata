@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789461979,
+  "_lastChecked": 1789468562,
   "_history": [
     {
       "buildId": "25122728",
@@ -20,10 +20,10 @@
       }
     }
   ],
-  "_change_number": 38879142,
+  "_change_number": 38891520,
   "_missing_token": false,
-  "_sha": "d9b6be59131f5296218603cee4914e4220b275df",
-  "_size": 12744,
+  "_sha": "0062995b1f17776f6ad41f0dbf4cb90309fd085c",
+  "_size": 11437,
   "appid": "1059220",
   "common": {
     "associations": {
@@ -303,7 +303,7 @@
         "description_loc": {
           "english": "Development build for extra debugging and dev tools"
         },
-        "executable": "XV83\\Binaries\\Win64\\XV83-Win64-Development.exe"
+        "executable": "start_protected_game.exe"
       },
       "11": {
         "arguments": "-STEAM_BRANCH=daily",
@@ -316,7 +316,7 @@
         "description_loc": {
           "english": "Test build config"
         },
-        "executable": "XV83\\Binaries\\Win64\\XV83-Win64-Test.exe"
+        "executable": "start_protected_game.exe"
       },
       "12": {
         "arguments": "-STEAM_BRANCH=smoke-test",
@@ -325,17 +325,7 @@
           "osarch": "64",
           "oslist": "windows"
         },
-        "executable": "XV83.exe",
-        "type": "default"
-      },
-      "13": {
-        "arguments": "-STEAM_BRANCH=production",
-        "config": {
-          "betakey": "nitrado",
-          "osarch": "64",
-          "oslist": "windows"
-        },
-        "executable": "XV83.exe",
+        "executable": "start_protected_game.exe",
         "type": "default"
       },
       "14": {
@@ -345,7 +335,7 @@
           "osarch": "64",
           "oslist": "windows"
         },
-        "executable": "XV83.exe",
+        "executable": "start_protected_game.exe",
         "type": "default"
       },
       "15": {
@@ -356,16 +346,6 @@
           "oslist": "windows"
         },
         "executable": "XV83.exe",
-        "type": "default"
-      },
-      "16": {
-        "arguments": "-STEAM_BRANCH=daily",
-        "config": {
-          "betakey": "nvidia",
-          "osarch": "64",
-          "oslist": "windows"
-        },
-        "executable": "XV83\\Binaries\\Win64\\XV83-Win64-Test.exe",
         "type": "default"
       },
       "17": {
@@ -395,24 +375,10 @@
         "executable": "XV83.exe",
         "type": "default"
       },
-      "3": {
-        "arguments": "-STEAM_BRANCH=daily-test",
-        "config": {
-          "betakey": "qa-dev, 83-qa_adhoc",
-          "osarch": "64",
-          "oslist": "windows"
-        },
-        "description": "Launch with the fqa servers",
-        "description_loc": {
-          "english": "Launch with the fqa servers"
-        },
-        "executable": "XV83\\Binaries\\Win64\\XV83-Win64-Test.exe",
-        "type": "default"
-      },
       "6": {
-        "arguments": "-STEAM_BRANCH=daily-test",
+        "arguments": "-STEAM_BRANCH=daily-test -culture=en",
         "config": {
-          "betakey": "83-daily-test, 83-daily-dev",
+          "betakey": "83-daily-test",
           "osarch": "64",
           "oslist": "windows"
         },
@@ -420,26 +386,13 @@
         "description_loc": {
           "english": "Test Config (Default Option)"
         },
-        "executable": "XV83\\Binaries\\Win64\\XV83-Win64-Test.exe",
+        "executable": "start_protected_game.exe",
         "type": "default"
-      },
-      "7": {
-        "arguments": "-STEAM_BRANCH=daily-test",
-        "config": {
-          "betakey": "83-daily-test, 83-daily-dev",
-          "osarch": "64",
-          "oslist": "windows"
-        },
-        "description": "Development build for extra debugging and dev tools",
-        "description_loc": {
-          "english": "Development build for extra debugging and dev tools"
-        },
-        "executable": "XV83\\Binaries\\Win64\\XV83-Win64-Development.exe"
       },
       "8": {
         "arguments": "-STEAM_BRANCH=daily-test -trace=default,gpu,net,slate -host=localhost -statnamedevents   ",
         "config": {
-          "betakey": "83-daily-test, 83-daily-dev",
+          "betakey": "83-daily-test",
           "osarch": "64",
           "oslist": "windows"
         },
@@ -447,7 +400,7 @@
         "description_loc": {
           "english": "with traces"
         },
-        "executable": "XV83\\Binaries\\Win64\\XV83-Win64-Development.exe",
+        "executable": "start_protected_game.exe",
         "type": "option1"
       },
       "9": {
@@ -457,7 +410,7 @@
           "osarch": "64",
           "oslist": "windows"
         },
-        "executable": "XV83.exe",
+        "executable": "start_protected_game.exe",
         "type": "default"
       }
     }

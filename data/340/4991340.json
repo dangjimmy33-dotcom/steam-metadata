@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789465959,
-  "_history": [],
-  "_change_number": 38890254,
-  "_missing_token": true,
-  "_sha": "696157b0cf8fd3f1793a6a59d73d8ba098595c6d",
-  "_size": 4281,
+  "_lastChecked": 1789472495,
+  "_history": [
+    {
+      "buildId": "25319327",
+      "branch": "public",
+      "timeUpdated": 1789464490,
+      "firstSeen": 1789472495,
+      "manifests": {
+        "4991341": {
+          "gid": "7290848379164913776",
+          "size": 218693381,
+          "download": 132714032
+        }
+      }
+    }
+  ],
+  "_change_number": 38891125,
+  "_missing_token": false,
+  "_sha": "4b6ebc077a6f1e585febfd827a5c11ed8be8f310",
+  "_size": 5273,
   "appid": "4991340",
   "common": {
     "associations": {
@@ -31,7 +45,6 @@
     "clienticon": "e59b1a332bb0ba1b5aa4d884b13179f208dcb82e",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4991340",
     "genres": {
       "0": "25",
@@ -118,11 +131,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e9e3de07df82e08ea01820bcb900d400c5c34d3f/capsule_231x87.jpg",
       "schinese": "3e251a8337fd39e87f9bd6b0ccfc00d916face7b/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789466436",
     "store_asset_mtime": "1788317520",
     "store_tags": {
       "0": "1084988",
@@ -168,5 +182,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Might & Poison Mushroom",
+    "launch": {
+      "0": {
+        "executable": "mushroom_mh.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4991341": {
+      "manifests": {
+        "public": {
+          "download": "132714032",
+          "gid": "7290848379164913776",
+          "size": "218693381"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25319327",
+        "timebuildupdated": "1789464488",
+        "timeupdated": "1789464490"
+      }
+    }
+  },
+  "extended": {
+    "developer": "GooloolooGames",
+    "homepage": "https://store.steampowered.com/app/4231860",
+    "isfreeapp": "1",
+    "publisher": "Erabit"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Coolape/mushroom_mh/_achieve_",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

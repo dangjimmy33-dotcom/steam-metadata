@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789461525,
+  "_lastChecked": 1789468105,
   "_history": [
     {
       "buildId": "24841806",
@@ -41,12 +41,35 @@
           "download": 522039392
         }
       }
+    },
+    {
+      "buildId": "25250182",
+      "branch": "public",
+      "timeUpdated": 1789467779,
+      "firstSeen": 1789468105,
+      "manifests": {
+        "1049301": {
+          "gid": "2851457324418590631",
+          "size": 2657796057,
+          "download": 674004096
+        },
+        "617831": {
+          "gid": "9008835728022578285",
+          "size": 1696563534,
+          "download": 510064064
+        },
+        "617833": {
+          "gid": "7318065649012291827",
+          "size": 646982679,
+          "download": 522122640
+        }
+      }
     }
   ],
-  "_change_number": 38866408,
+  "_change_number": 38891796,
   "_missing_token": false,
-  "_sha": "ca31c4fc7a089fe95ae2b72c4924c0ddb444bdc8",
-  "_size": 9405,
+  "_sha": "6b95213c0ab55042d580549b2e7ee49b2d657651",
+  "_size": 9037,
   "appid": "617830",
   "common": {
     "associations": {
@@ -69,7 +92,7 @@
       "category_25": "1",
       "category_40": "1",
       "category_52": "1",
-      "category_53": "1",
+      "category_54": "1",
       "category_62": "1"
     },
     "clienticns": "2966f1a91e21e5e3d35f385bb893cd47bf413822",
@@ -340,22 +363,10 @@
     "launch": {
       "0": {
         "config": {
+          "betakey": "legacy-ovr,qa-test2",
           "oslist": "windows"
         },
         "executable": "SUPERHOTVR.exe",
-        "type": "vr"
-      },
-      "6": {
-        "arguments": "--narl_appId=617830",
-        "config": {
-          "betakey": "launcher-test",
-          "oslist": "windows"
-        },
-        "description": "SUPERHOT Reworked VR Launcher",
-        "description_loc": {
-          "english": "SUPERHOT Reworked VR Launcher"
-        },
-        "executable": "SUPERHOT-Launcher.lnk",
         "type": "vr"
       },
       "7": {
@@ -367,7 +378,6 @@
       },
       "8": {
         "config": {
-          "betakey": "qa-test",
           "oslist": "windows"
         },
         "executable": "SUPERHOT_VR.exe",
@@ -397,9 +407,9 @@
           "size": "2112747310"
         },
         "public": {
-          "download": "643443792",
-          "gid": "3690464461302585406",
-          "size": "2112747310"
+          "download": "510064064",
+          "gid": "9008835728022578285",
+          "size": "1696563534"
         }
       }
     },
@@ -415,9 +425,9 @@
           "size": "647071331"
         },
         "public": {
-          "download": "522039392",
-          "gid": "9118561561795529904",
-          "size": "647071331"
+          "download": "522122640",
+          "gid": "7318065649012291827",
+          "size": "646982679"
         }
       }
     },
@@ -429,9 +439,9 @@
         "timeupdated": "1787568781"
       },
       "public": {
-        "buildid": "24841806",
-        "timebuildupdated": "1787234932",
-        "timeupdated": "1787568781"
+        "buildid": "25250182",
+        "timebuildupdated": "1789119660",
+        "timeupdated": "1789467779"
       }
     },
     "hasdepotsindlc": "0",
@@ -444,8 +454,6 @@
     "vrheadsetstreaming": "1"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "3",
     "quota": "1048576",
     "rootoverrides": {

@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1789466020,
-  "_history": [],
-  "_change_number": 38866222,
-  "_missing_token": true,
-  "_sha": "255df4756773a7b7c6f12f20575657e6b076f1cd",
-  "_size": 3261,
+  "_lastChecked": 1789472557,
+  "_history": [
+    {
+      "buildId": "25303166",
+      "branch": "beta",
+      "timeUpdated": 1789399511,
+      "firstSeen": 1789472557,
+      "manifests": {
+        "5071481": {
+          "gid": "7293058705914510099",
+          "size": 9278988,
+          "download": 3898928
+        },
+        "5071482": {
+          "gid": "9082561546281427993",
+          "size": 18695616,
+          "download": 5788880
+        },
+        "5071483": {
+          "gid": "1238740544068231662",
+          "size": 12513147,
+          "download": 5505744
+        }
+      }
+    },
+    {
+      "buildId": "25303166",
+      "branch": "public",
+      "timeUpdated": 1789400431,
+      "firstSeen": 1789472557,
+      "manifests": {
+        "5071481": {
+          "gid": "7293058705914510099",
+          "size": 9278988,
+          "download": 3898928
+        },
+        "5071482": {
+          "gid": "9082561546281427993",
+          "size": 18695616,
+          "download": 5788880
+        },
+        "5071483": {
+          "gid": "1238740544068231662",
+          "size": 12513147,
+          "download": 5505744
+        }
+      }
+    }
+  ],
+  "_change_number": 38891419,
+  "_missing_token": false,
+  "_sha": "98bf7f35146284a5077307f03ef224815bd40dad",
+  "_size": 5823,
   "appid": "5071480",
   "common": {
     "associations": {
@@ -35,7 +82,6 @@
     "clienticon": "b42b56ec7553a19dd6498826605a757be80116b1",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5071480",
     "genres": {
       "0": "23",
@@ -106,10 +152,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e9802d64bf228d9a850796197052133c498e5909/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789467123",
     "store_asset_mtime": "1787172027",
     "store_tags": {
       "0": "122",
@@ -147,5 +194,140 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "Daggermap",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "DirectX 11",
+        "description_loc": {
+          "english": "DirectX 11"
+        },
+        "executable": "daggermap-dx11.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Vulkan",
+        "description_loc": {
+          "english": "Vulkan"
+        },
+        "executable": "daggermap.exe"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "daggermap"
+      },
+      "3": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Apple Silicon (arm64)",
+        "description_loc": {
+          "english": "Apple Silicon (arm64)"
+        },
+        "executable": "daggermap-macos"
+      },
+      "4": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Intel",
+        "description_loc": {
+          "english": "Intel"
+        },
+        "executable": "daggermap-macos-x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5071481": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "3898928",
+          "gid": "7293058705914510099",
+          "size": "9278988"
+        },
+        "public": {
+          "download": "3898928",
+          "gid": "7293058705914510099",
+          "size": "9278988"
+        }
+      }
+    },
+    "5071482": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "5788880",
+          "gid": "9082561546281427993",
+          "size": "18695616"
+        },
+        "public": {
+          "download": "5788880",
+          "gid": "9082561546281427993",
+          "size": "18695616"
+        }
+      }
+    },
+    "5071483": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "5505744",
+          "gid": "1238740544068231662",
+          "size": "12513147"
+        },
+        "public": {
+          "download": "5505744",
+          "gid": "1238740544068231662",
+          "size": "12513147"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "beta": {
+        "buildid": "25303166",
+        "description": "ci uploads here",
+        "timebuildupdated": "1789399511",
+        "timeupdated": "1789399511"
+      },
+      "public": {
+        "buildid": "25303166",
+        "timebuildupdated": "1789399511",
+        "timeupdated": "1789400431"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Apellus",
+    "homepage": "https://daggermap.com",
+    "publisher": "Apellus"
+  }
 }

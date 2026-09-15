@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1789466090,
-  "_history": [],
-  "_change_number": 38840679,
-  "_missing_token": true,
-  "_sha": "4328f4ba8851da2c16766e6ece8d31881987c10d",
-  "_size": 3056,
+  "_lastChecked": 1789472624,
+  "_history": [
+    {
+      "buildId": "24945855",
+      "branch": "beta",
+      "timeUpdated": 1787735714,
+      "firstSeen": 1789472624,
+      "manifests": {
+        "5178701": {
+          "gid": "3670784467886828380",
+          "size": 279584575,
+          "download": 108029616
+        }
+      }
+    },
+    {
+      "buildId": "25285966",
+      "branch": "public",
+      "timeUpdated": 1789322009,
+      "firstSeen": 1789472624,
+      "manifests": {
+        "5178701": {
+          "gid": "4751192460552979930",
+          "size": 279584016,
+          "download": 108029440
+        }
+      }
+    }
+  ],
+  "_change_number": 38893698,
+  "_missing_token": false,
+  "_sha": "23ad9d4848664d8df6b6cdf4d1efccb7da8c25fd",
+  "_size": 4441,
   "appid": "5178700",
   "common": {
     "aicontenttype": "1",
@@ -29,9 +56,9 @@
     },
     "clienticon": "96d239f7ef808718bff2edd2299038485ab785bc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5178700",
     "genres": {
       "0": "1",
@@ -103,10 +130,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7cf07b6aa2b1b2837d53d5b788daf37d14d27aac/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789472228",
     "store_asset_mtime": "1788912458",
     "store_tags": {
       "0": "19",
@@ -133,5 +161,72 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Forty Depths Beneath Knossos The Minotaur's Maze",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Forty Depths Beneath Knossos.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5178701": {
+      "manifests": {
+        "beta": {
+          "download": "108029616",
+          "gid": "3670784467886828380",
+          "size": "279584575"
+        },
+        "public": {
+          "download": "108029440",
+          "gid": "4751192460552979930",
+          "size": "279584016"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "24945855",
+        "description": "betabranch",
+        "timebuildupdated": "1787735291",
+        "timeupdated": "1787735714"
+      },
+      "public": {
+        "buildid": "25285966",
+        "timebuildupdated": "1789321813",
+        "timeupdated": "1789322009"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Troll Hunter Gaming",
+    "publisher": "Troll Hunter Gaming"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Forty Depths Beneath Knossos",
+        "pattern": "thread-*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Forty Depths Beneath Knossos",
+        "pattern": "achievements.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

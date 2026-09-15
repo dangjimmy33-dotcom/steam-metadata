@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789465590,
-  "_history": [],
-  "_change_number": 38873868,
-  "_missing_token": true,
-  "_sha": "9301ac3b016941c2ebc77269dce92eaa295a14f1",
-  "_size": 4657,
+  "_lastChecked": 1789472124,
+  "_history": [
+    {
+      "buildId": "25274443",
+      "branch": "public",
+      "timeUpdated": 1789395131,
+      "firstSeen": 1789472124,
+      "manifests": {
+        "4557381": {
+          "gid": "1854007676439820813",
+          "size": 269488612,
+          "download": 212415360
+        }
+      }
+    }
+  ],
+  "_change_number": 38892655,
+  "_missing_token": false,
+  "_sha": "7e12cb2a1eda17816fc0ae200c3839b9ba4b58a8",
+  "_size": 5297,
   "appid": "4557380",
   "common": {
     "associations": {
@@ -32,7 +46,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4557380",
     "genres": {
       "0": "4",
@@ -116,11 +129,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b40dccb71e0f4917c751b4ee7c44eecfde1316be/capsule_231x87.jpg",
       "schinese": "65a7c23b1a27cf217c08f32940f159e5ad7180ce/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789469744",
     "store_asset_mtime": "1788637244",
     "store_tags": {
       "0": "1084988",
@@ -192,5 +206,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Batomon Showdown",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "batomon_showdown.exe"
+      }
+    }
+  },
+  "depots": {
+    "4557381": {
+      "manifests": {
+        "public": {
+          "download": "212415360",
+          "gid": "1854007676439820813",
+          "size": "269488612"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25274443",
+        "timebuildupdated": "1789238628",
+        "timeupdated": "1789395131"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "berrymint",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5255370",
+    "publisher": "berrymint"
+  }
 }

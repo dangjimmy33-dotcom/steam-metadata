@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789465597,
-  "_history": [],
-  "_change_number": 38720925,
-  "_missing_token": true,
-  "_sha": "5b7c6d7a57d4a70f9fddc58ce1ac17a8d882dc0e",
-  "_size": 4008,
+  "_lastChecked": 1789472130,
+  "_history": [
+    {
+      "buildId": "25204128",
+      "branch": "public",
+      "timeUpdated": 1788942148,
+      "firstSeen": 1789472130,
+      "manifests": {
+        "4563911": {
+          "gid": "649016284101846891",
+          "size": 1206296687,
+          "download": 257427280
+        }
+      }
+    }
+  ],
+  "_change_number": 38893498,
+  "_missing_token": false,
+  "_sha": "1671ab5579cfe877bdef6de9e2d504d0e01d424e",
+  "_size": 4775,
   "appid": "4563910",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "2a04185269857b04af78f79f57812a4c7c58e570",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4563910",
     "genres": {
       "0": "1",
@@ -124,10 +138,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "42266d0653db3ed013c9a7d90890ca1c03ae3c66/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789471757",
     "store_asset_mtime": "1788271211",
     "store_tags": {
       "0": "560542",
@@ -192,5 +207,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Bow Ultimate weapon",
+    "launch": {
+      "0": {
+        "executable": "TheBow.exe"
+      }
+    }
+  },
+  "depots": {
+    "4563911": {
+      "manifests": {
+        "public": {
+          "download": "257427280",
+          "gid": "649016284101846891",
+          "size": "1206296687"
+        }
+      }
+    },
+    "baselanguages": "english,koreana",
+    "branches": {
+      "public": {
+        "buildid": "25204128",
+        "timebuildupdated": "1788942147",
+        "timeupdated": "1788942148"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Nomad Ukiki",
+    "publisher": "Nomad Ukiki"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "NomadUkiki/TheBow",
+        "pattern": "*.es3",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789466009,
-  "_history": [],
-  "_change_number": 38409803,
-  "_missing_token": true,
-  "_sha": "b70ba0757ce7fc7b94fe4f288e7cb3ac8993707c",
-  "_size": 3084,
+  "_lastChecked": 1789472545,
+  "_history": [
+    {
+      "buildId": "24874092",
+      "branch": "public",
+      "timeUpdated": 1787363583,
+      "firstSeen": 1789472545,
+      "manifests": {
+        "5056061": {
+          "gid": "3419217150504823260",
+          "size": 182040073,
+          "download": 66374080
+        }
+      }
+    }
+  ],
+  "_change_number": 38891004,
+  "_missing_token": false,
+  "_sha": "135711f74a54bb4a32a1290a639636c4243e889f",
+  "_size": 3809,
   "appid": "5056060",
   "common": {
     "associations": {
@@ -33,8 +47,8 @@
     },
     "clienticon": "c58d63f64783927c1b13f3229ea0471bd20ff0c0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5056060",
     "genres": {
       "0": "4",
@@ -106,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "531977d4dceee300e44e0f6c92821ed53a810e0a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789466155",
     "store_asset_mtime": "1787021366",
     "store_tags": {
       "0": "597",
@@ -141,5 +156,44 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Taskbar Colony",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TaskbarColony.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5056061": {
+      "manifests": {
+        "public": {
+          "download": "66374080",
+          "gid": "3419217150504823260",
+          "size": "182040073"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24874092",
+        "timebuildupdated": "1787363168",
+        "timeupdated": "1787363583"
+      }
+    },
+    "workshopdepot": "5056060"
+  },
+  "extended": {
+    "developer": "Tom",
+    "homepage": "https://taskbarcolony.com",
+    "publisher": "Tom"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "5242880"
+  }
 }

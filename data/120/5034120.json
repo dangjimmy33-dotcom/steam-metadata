@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1789465992,
-  "_history": [],
-  "_change_number": 38826802,
-  "_missing_token": true,
-  "_sha": "c60ebd1c4b4dea1adfad58b0f4d0b1c29dd87753",
-  "_size": 3050,
+  "_lastChecked": 1789472528,
+  "_history": [
+    {
+      "buildId": "25103752",
+      "branch": "nsl-99-windows",
+      "timeUpdated": 1788445207,
+      "firstSeen": 1789472528,
+      "manifests": {
+        "5034121": {
+          "gid": "2524295895051534310",
+          "size": 1049408460,
+          "download": 638984448
+        },
+        "5034122": {
+          "gid": "254998318246145998",
+          "size": 555116868,
+          "download": 393930016
+        }
+      }
+    },
+    {
+      "buildId": "25276536",
+      "branch": "public",
+      "timeUpdated": 1789252924,
+      "firstSeen": 1789472528,
+      "manifests": {
+        "5034121": {
+          "gid": "5844760996118356845",
+          "size": 1101486787,
+          "download": 689658096
+        },
+        "5034122": {
+          "gid": "2313689307159423394",
+          "size": 603696416,
+          "download": 443378576
+        }
+      }
+    }
+  ],
+  "_change_number": 38892259,
+  "_missing_token": false,
+  "_sha": "0c0ee84e626a7daf93c71302c5a0a65eaf6ada8d",
+  "_size": 4859,
   "appid": "5034120",
   "common": {
     "aicontenttype": "1",
@@ -28,8 +65,8 @@
     "clienticns": "b5d9e698245355d8c081d2fc3dbf2b9f8fb5ff4c",
     "clienticon": "7418cb9923bacbc7d4a19338c489a25a2b6a2b8c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5034120",
     "genres": {
       "0": "25",
@@ -102,10 +139,11 @@
     "osextended": "macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8a3988781b5f9a9a02642087d0f74d9a18dfa056/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789469233",
     "store_asset_mtime": "1789218551",
     "store_tags": {
       "0": "1664",
@@ -133,5 +171,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "6F NIGHT SCHOOL LOOP∞",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "NightSchoolLoop-Mac-Shipping.app",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "NightSchoolLoop.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5034121": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "nsl-99-windows": {
+          "download": "638984448",
+          "gid": "2524295895051534310",
+          "size": "1049408460"
+        },
+        "public": {
+          "download": "689658096",
+          "gid": "5844760996118356845",
+          "size": "1101486787"
+        }
+      }
+    },
+    "5034122": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "nsl-99-windows": {
+          "download": "393930016",
+          "gid": "254998318246145998",
+          "size": "555116868"
+        },
+        "public": {
+          "download": "443378576",
+          "gid": "2313689307159423394",
+          "size": "603696416"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "nsl-99-windows": {
+        "buildid": "25103752",
+        "description": "Windows Shipping validation for NSL-99",
+        "timebuildupdated": "1788445206",
+        "timeupdated": "1788445207"
+      },
+      "public": {
+        "buildid": "25276536",
+        "timebuildupdated": "1789252551",
+        "timeupdated": "1789252924"
+      }
+    }
+  },
+  "extended": {
+    "developer": "お寿司",
+    "homepage": "https://6f.osushi-cr.dev",
+    "publisher": "お寿司"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789462326,
+  "_lastChecked": 1789468909,
   "_history": [
     {
       "buildId": "24574435",
@@ -13,12 +13,25 @@
           "download": 19123242400
         }
       }
+    },
+    {
+      "buildId": "25111146",
+      "branch": "public",
+      "timeUpdated": 1789462775,
+      "firstSeen": 1789468909,
+      "manifests": {
+        "1374491": {
+          "gid": "5108380847188890293",
+          "size": 42551545254,
+          "download": 23454987008
+        }
+      }
     }
   ],
-  "_change_number": 38888863,
+  "_change_number": 38889998,
   "_missing_token": false,
-  "_sha": "bdcec0a62256dda3ee7fcb39bd24ed095d26af50",
-  "_size": 10599,
+  "_sha": "5ed76a85c9514c251f53a7af7b0c33e00177b3cd",
+  "_size": 10309,
   "appid": "1374490",
   "common": {
     "associations": {
@@ -72,11 +85,10 @@
     "genres": {
       "0": "1",
       "1": "25",
-      "2": "3",
-      "3": "70"
+      "2": "3"
     },
     "header_image": {
-      "english": "990ca0a0fb3bf7d1edc02ba22a7c2c30c4149b6b/header.jpg",
+      "english": "3e27915a647dbf05e17f2ff98d33c9a0765da539/header.jpg",
       "schinese": "54075131f72154097359812c842d9e23b424efdd/header_schinese.jpg"
     },
     "icon": "8e307e43b46f4dc3554487c491015ba2b24ff235",
@@ -108,21 +120,21 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "f72e5a29377820dd3d1d76e0c2eb5a8fcfa34c7d/library_capsule.jpg",
+          "english": "ddbd1ec51f44a7d188478e00075ffb5ed2a190da/library_capsule.jpg",
           "schinese": "ada9479d8769a7604230263d0496bd2221bcb735/library_capsule_schinese.jpg"
         },
         "image2x": {
-          "english": "f72e5a29377820dd3d1d76e0c2eb5a8fcfa34c7d/library_capsule_2x.jpg",
+          "english": "ddbd1ec51f44a7d188478e00075ffb5ed2a190da/library_capsule_2x.jpg",
           "schinese": "ada9479d8769a7604230263d0496bd2221bcb735/library_capsule_schinese_2x.jpg"
         }
       },
       "library_header": {
         "image": {
-          "english": "990ca0a0fb3bf7d1edc02ba22a7c2c30c4149b6b/library_header.jpg",
+          "english": "3e27915a647dbf05e17f2ff98d33c9a0765da539/library_header.jpg",
           "schinese": "5f808d3939ef1466c217f035536762eeb58aa7c3/library_header_schinese.jpg"
         },
         "image2x": {
-          "english": "990ca0a0fb3bf7d1edc02ba22a7c2c30c4149b6b/library_header_2x.jpg",
+          "english": "3e27915a647dbf05e17f2ff98d33c9a0765da539/library_header_2x.jpg",
           "schinese": "5f808d3939ef1466c217f035536762eeb58aa7c3/library_header_schinese_2x.jpg"
         }
       },
@@ -141,11 +153,11 @@
       },
       "library_logo": {
         "image": {
-          "english": "1c7e836ad92621aa86ae822c73939f3b2918fd49/logo.png",
+          "english": "5f325bd6474f5d4390aca80e935bb2f28556992b/logo.png",
           "schinese": "be5bf87f34606643f22fb03139d8f362f3440a17/logo_schinese.png"
         },
         "image2x": {
-          "english": "1c7e836ad92621aa86ae822c73939f3b2918fd49/logo_2x.png",
+          "english": "5f325bd6474f5d4390aca80e935bb2f28556992b/logo_2x.png",
           "schinese": "be5bf87f34606643f22fb03139d8f362f3440a17/logo_schinese_2x.png"
         },
         "logo_position": {
@@ -170,7 +182,7 @@
     "review_percentage": "81",
     "review_score": "8",
     "small_capsule": {
-      "english": "68c960f6e610cca5105aed430e5dbf16f688a351/capsule_231x87.jpg",
+      "english": "f58347a40fdb989309b2b738c1176f67447aec11/capsule_231x87.jpg",
       "schinese": "5307a89cde992d09a01d3ae71a950e73bd6ff13c/capsule_231x87_schinese.jpg"
     },
     "steam_deck_compatibility": {
@@ -266,8 +278,8 @@
         }
       }
     },
-    "steam_release_date": "1744735564",
-    "store_asset_mtime": "1782735583",
+    "steam_release_date": "1789462846",
+    "store_asset_mtime": "1789396636",
     "store_tags": {
       "0": "1695",
       "1": "1662",
@@ -355,18 +367,6 @@
         "executable": "Aqua-Coyote.exe",
         "type": "default"
       },
-      "2": {
-        "config": {
-          "betakey": "trunk.dev.latest,trunk.dev.stable",
-          "ownsdlc": "4179820"
-        },
-        "description": "Shadows of Ashenfall",
-        "description_loc": {
-          "english": "Shadows of Ashenfall"
-        },
-        "executable": "ShadowsOfAshenfall/RSDragonwilds.exe",
-        "type": "option2"
-      },
       "3": {
         "config": {
           "betakey": "trunk.dev.latest",
@@ -389,9 +389,9 @@
       },
       "manifests": {
         "public": {
-          "download": "19123242400",
-          "gid": "6800995088898146166",
-          "size": "35498851827"
+          "download": "23454987008",
+          "gid": "5108380847188890293",
+          "size": "42551545254"
         }
       }
     },
@@ -412,9 +412,9 @@
     "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,schinese,spanish,tchinese",
     "branches": {
       "public": {
-        "buildid": "24574435",
-        "timebuildupdated": "1785940570",
-        "timeupdated": "1785951620"
+        "buildid": "25111146",
+        "timebuildupdated": "1788471241",
+        "timeupdated": "1789462775"
       }
     },
     "hasdepotsindlc": "1",
@@ -422,9 +422,10 @@
   },
   "extended": {
     "developer": "Jagex Ltd",
+    "dlcavailableonstore": "1",
     "gamedir": "unrealtest",
     "homepage": "https://dragonwilds.runescape.com/",
-    "listofdlc": "3501790",
+    "listofdlc": "3501790,4908050",
     "publisher": "Jagex Ltd",
     "serverbrowsername": "Aqua Coyote 1"
   },

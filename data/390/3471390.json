@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789464511,
+  "_lastChecked": 1789471087,
   "_history": [
     {
       "buildId": "18910029",
@@ -13,12 +13,30 @@
           "download": 924310160
         }
       }
+    },
+    {
+      "buildId": "25320731",
+      "branch": "public",
+      "timeUpdated": 1789469254,
+      "firstSeen": 1789471087,
+      "manifests": {
+        "3471391": {
+          "gid": "6146706643407546780",
+          "size": 1186647588,
+          "download": 924310160
+        },
+        "3471392": {
+          "gid": "5595167350385747099",
+          "size": 1090842240,
+          "download": 1025832304
+        }
+      }
     }
   ],
-  "_change_number": 38889481,
+  "_change_number": 38892269,
   "_missing_token": false,
-  "_sha": "dfe30d807f0dfbcb417b4ae059ccc7c3c81c83db",
-  "_size": 5657,
+  "_sha": "ea92efd70ebf8d05b827495d0fd583657773894d",
+  "_size": 5772,
   "appid": "3471390",
   "common": {
     "associations": {
@@ -254,13 +272,19 @@
       "config": {
         "oslist": "android"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "1025832304",
+          "gid": "5595167350385747099",
+          "size": "1090842240"
+        }
+      }
     },
     "branches": {
       "public": {
-        "buildid": "18910029",
-        "timebuildupdated": "1750239391",
-        "timeupdated": "1750239391"
+        "buildid": "25320731",
+        "timebuildupdated": "1789469254",
+        "timeupdated": "1789469254"
       }
     },
     "privatebranches": "1"

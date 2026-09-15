@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789466049,
-  "_history": [],
-  "_change_number": 38344834,
-  "_missing_token": true,
-  "_sha": "7425800d92cf405aaf4432f9ca8a3ecae36115b1",
-  "_size": 3512,
+  "_lastChecked": 1789472586,
+  "_history": [
+    {
+      "buildId": "24863674",
+      "branch": "public",
+      "timeUpdated": 1787321253,
+      "firstSeen": 1789472586,
+      "manifests": {
+        "5113481": {
+          "gid": "5711053753964151155",
+          "size": 122929450,
+          "download": 56787600
+        },
+        "5113482": {
+          "gid": "556275707282460538",
+          "size": 158465858,
+          "download": 70729104
+        },
+        "5113483": {
+          "gid": "5564346664903035244",
+          "size": 131351470,
+          "download": 58287792
+        }
+      }
+    }
+  ],
+  "_change_number": 38891734,
+  "_missing_token": false,
+  "_sha": "1a35409c45b1c7d43865a7168de1a308f6f1d32b",
+  "_size": 4979,
   "appid": "5113480",
   "common": {
     "aicontenttype": "1",
@@ -25,6 +49,7 @@
     },
     "clienticon": "fe1bcafee3dada6aa21af97903197ed84c667ff9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -38,7 +63,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5113480",
     "genres": {
       "0": "4",
@@ -109,11 +133,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "4a1bb5dd59171eb1e3084f7a9a62af6bba6e1a09/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790751600",
     "store_asset_mtime": "1787322506",
     "store_tags": {
       "0": "44868",
@@ -168,5 +193,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hentai Puzzle Valentine",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Hentai_Puzzle_Valentine.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Hentai_Puzzle_Valentine.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Hentai_Puzzle_Valentine.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5113481": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "56787600",
+          "gid": "5711053753964151155",
+          "size": "122929450"
+        }
+      }
+    },
+    "5113482": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "70729104",
+          "gid": "556275707282460538",
+          "size": "158465858"
+        }
+      }
+    },
+    "5113483": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "58287792",
+          "gid": "5564346664903035244",
+          "size": "131351470"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,japanese,koreana,portuguese,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "24863674",
+        "timebuildupdated": "1787321107",
+        "timeupdated": "1787321253"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Sexy Baguette Studio",
+    "publisher": "Sexy Baguette Studio"
+  }
 }

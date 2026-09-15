@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789465272,
-  "_history": [],
-  "_change_number": 38870261,
-  "_missing_token": true,
-  "_sha": "f5beb098dc42b7e3dd8e00d31a0ff8c953dfa505",
-  "_size": 3946,
+  "_lastChecked": 1789471798,
+  "_history": [
+    {
+      "buildId": "25305805",
+      "branch": "public",
+      "timeUpdated": 1789408256,
+      "firstSeen": 1789471798,
+      "manifests": {
+        "4210441": {
+          "gid": "2169723880796677475",
+          "size": 329457805,
+          "download": 130549424
+        },
+        "4210442": {
+          "gid": "5466660058006529819",
+          "size": 318049873,
+          "download": 119662656
+        }
+      }
+    }
+  ],
+  "_change_number": 38892319,
+  "_missing_token": false,
+  "_sha": "05f41c34b2e7b206a14855cde7f312d95dca2d1e",
+  "_size": 5298,
   "appid": "4210440",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +49,8 @@
     },
     "clienticon": "dda1364703b0da0e9e63764916e148f2178f7f8f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4210440",
     "genres": {
       "0": "4",
@@ -102,10 +121,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b03cd8ea3cd66b5f8b54f715fb3233b5950c08ea/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789469294",
     "store_asset_mtime": "1789156923",
     "store_tags": {
       "0": "1664",
@@ -183,5 +203,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Solvizz",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Solvizz.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "solvizz"
+      }
+    }
+  },
+  "depots": {
+    "4210441": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "130549424",
+          "gid": "2169723880796677475",
+          "size": "329457805"
+        }
+      }
+    },
+    "4210442": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "119662656",
+          "gid": "5466660058006529819",
+          "size": "318049873"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25305805",
+        "timebuildupdated": "1789408216",
+        "timeupdated": "1789408256"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Oulda",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5094680,5094690,5094700",
+    "publisher": "Oulda"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".config",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Solvizz\\saves",
+        "pattern": "main.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
