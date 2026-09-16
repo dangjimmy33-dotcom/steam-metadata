@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789537655,
-  "_history": [],
-  "_change_number": 38698505,
-  "_missing_token": true,
-  "_sha": "cec11196854f9843c62ec29939ff151e53cb21eb",
-  "_size": 5041,
+  "_lastChecked": 1789544190,
+  "_history": [
+    {
+      "buildId": "25188880",
+      "branch": "public",
+      "timeUpdated": 1788876669,
+      "firstSeen": 1789544190,
+      "manifests": {
+        "4795182": {
+          "gid": "6914901302644132145",
+          "size": 1254012604,
+          "download": 1002579728
+        },
+        "4795184": {
+          "gid": "7687923807356527915",
+          "size": 1202840746,
+          "download": 980813024
+        }
+      }
+    }
+  ],
+  "_change_number": 38920913,
+  "_missing_token": false,
+  "_sha": "dc67dc68586d27455eed4f60977325cc61021c4e",
+  "_size": 6745,
   "appid": "4795180",
   "common": {
     "aicontenttype": "1",
@@ -40,6 +59,7 @@
     },
     "clienticon": "50da77a5e1d0ca31b818f6a6d228da46f41f1b90",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "4",
@@ -60,7 +80,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "4795180",
     "genres": {
       "0": "23"
@@ -150,11 +169,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "2aede12a41cbe74f3844735c3a04e1efdc630944/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789543284",
     "store_asset_mtime": "1780820424",
     "store_tags": {
       "0": "5537",
@@ -245,5 +265,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Anoid",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "anoid.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "anoid",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4795182": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1002579728",
+          "gid": "6914901302644132145",
+          "size": "1254012604"
+        }
+      }
+    },
+    "4795184": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "980813024",
+          "gid": "7687923807356527915",
+          "size": "1202840746"
+        }
+      }
+    },
+    "baselanguages": "brazilian,dutch,english,french,german,indonesian,italian,japanese,koreana,polish,portuguese,romanian,russian,schinese,spanish,tchinese,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "25188880",
+        "timebuildupdated": "1788876667",
+        "timeupdated": "1788876669"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Viscocat Entertainment",
+    "homepage": "https://www.viscocat.com/",
+    "publisher": "Viscocat Entertainment"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "savefiles": {
+      "0": {
+        "path": "saves",
+        "pattern": "anoid.json",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789537272,
+  "_lastChecked": 1789543773,
   "_history": [
     {
       "buildId": "24512389",
@@ -72,12 +72,30 @@
           "download": 296345424
         }
       }
+    },
+    {
+      "buildId": "25339623",
+      "branch": "public",
+      "timeUpdated": 1789539847,
+      "firstSeen": 1789543773,
+      "manifests": {
+        "4333461": {
+          "gid": "2732878828381449467",
+          "size": 726966858,
+          "download": 306808880
+        },
+        "4333462": {
+          "gid": "4392926285610286196",
+          "size": 716344534,
+          "download": 296344912
+        }
+      }
     }
   ],
-  "_change_number": 38873205,
+  "_change_number": 38919883,
   "_missing_token": false,
-  "_sha": "4388673948b469c04af9efbfbb97a9c38407efd2",
-  "_size": 8525,
+  "_sha": "b9401a0297e59613b0e8f5bada9f91d3e6d2a5ff",
+  "_size": 8128,
   "appid": "4333460",
   "common": {
     "associations": {
@@ -348,15 +366,10 @@
         "oslist": "windows"
       },
       "manifests": {
-        "beta": {
-          "download": "306812688",
-          "gid": "6548614234624540968",
-          "size": "726968034"
-        },
         "public": {
-          "download": "306812688",
-          "gid": "6548614234624540968",
-          "size": "726968034"
+          "download": "306808880",
+          "gid": "2732878828381449467",
+          "size": "726966858"
         }
       }
     },
@@ -366,30 +379,19 @@
         "oslist": "linux"
       },
       "manifests": {
-        "beta": {
-          "download": "296345424",
-          "gid": "2721041040631663459",
-          "size": "716345710"
-        },
         "public": {
-          "download": "296345424",
-          "gid": "2721041040631663459",
-          "size": "716345710"
+          "download": "296344912",
+          "gid": "4392926285610286196",
+          "size": "716344534"
         }
       }
     },
     "baselanguages": "english,turkish",
     "branches": {
-      "beta": {
-        "buildid": "25290521",
-        "description": "experimental linux and steamdeck build",
-        "timebuildupdated": "1789347765",
-        "timeupdated": "1789348058"
-      },
       "public": {
-        "buildid": "25290521",
-        "timebuildupdated": "1789347765",
-        "timeupdated": "1789349819"
+        "buildid": "25339623",
+        "timebuildupdated": "1789539766",
+        "timeupdated": "1789539847"
       }
     }
   },

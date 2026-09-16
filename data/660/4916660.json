@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789537756,
-  "_history": [],
-  "_change_number": 38742051,
-  "_missing_token": true,
-  "_sha": "53341ba578dbfc07d52b70a5bdd23b03e7d1347a",
-  "_size": 3028,
+  "_lastChecked": 1789544297,
+  "_history": [
+    {
+      "buildId": "24585060",
+      "branch": "public",
+      "timeUpdated": 1785985281,
+      "firstSeen": 1789544297,
+      "manifests": {
+        "4916661": {
+          "gid": "7883961798539393281",
+          "size": 320038202,
+          "download": 244073392
+        }
+      }
+    }
+  ],
+  "_change_number": 38920510,
+  "_missing_token": false,
+  "_sha": "eafdba56259fd699e058574271c301b4cd1bee6a",
+  "_size": 3752,
   "appid": "4916660",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "61b50b01edf892262aec36149b40894091a25fc8",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4916660",
     "genres": {
       "0": "4",
@@ -96,10 +109,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "21664fb1e49b2cfcaedd790cc7aa27bad0ea415f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789542241",
     "store_asset_mtime": "1786510001",
     "store_tags": {
       "0": "4182",
@@ -137,5 +151,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Davy bones",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DavyBones.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4916661": {
+      "manifests": {
+        "public": {
+          "download": "244073392",
+          "gid": "7883961798539393281",
+          "size": "320038202"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24585060",
+        "timebuildupdated": "1785985281",
+        "timeupdated": "1785985281"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Yona games",
+    "publisher": "Yona games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760"
+  }
 }

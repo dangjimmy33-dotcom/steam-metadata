@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789533660,
+  "_lastChecked": 1789539802,
   "_history": [
     {
       "buildId": "4414713",
@@ -36,12 +36,35 @@
           "download": 628097088
         }
       }
+    },
+    {
+      "buildId": "25184393",
+      "branch": "public",
+      "timeUpdated": 1789534162,
+      "firstSeen": 1789539802,
+      "manifests": {
+        "702051": {
+          "gid": "9197894380468458936",
+          "size": 628881214,
+          "download": 628148560
+        },
+        "702052": {
+          "gid": "4883549314492224239",
+          "size": 627987319,
+          "download": 620847760
+        },
+        "702053": {
+          "gid": "9026124481511636703",
+          "size": 637755299,
+          "download": 630611248
+        }
+      }
     }
   ],
-  "_change_number": 38691191,
+  "_change_number": 38918243,
   "_missing_token": false,
-  "_sha": "7e974c676c8dc380dd28c491673ca98097485d77",
-  "_size": 6110,
+  "_sha": "5d1f3da3eecbfdb2defa6193f658e2e190cf1d23",
+  "_size": 6224,
   "appid": "702050",
   "common": {
     "associations": {
@@ -271,9 +294,9 @@
       },
       "manifests": {
         "public": {
-          "download": "628097024",
-          "gid": "7320958786654552082",
-          "size": "628834328"
+          "download": "620847760",
+          "gid": "4883549314492224239",
+          "size": "627987319"
         },
         "v1.0": {
           "download": "628097088",
@@ -287,14 +310,20 @@
         "language": "koreana",
         "oslist": "windows"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "630611248",
+          "gid": "9026124481511636703",
+          "size": "637755299"
+        }
+      }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "4414713",
-        "timebuildupdated": "1574383173",
-        "timeupdated": "1574848324"
+        "buildid": "25184393",
+        "timebuildupdated": "1788861942",
+        "timeupdated": "1789534162"
       },
       "v1.0": {
         "buildid": "4098944",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789537797,
+  "_lastChecked": 1789544342,
   "_history": [
     {
       "buildId": "25325331",
@@ -72,12 +72,48 @@
           "download": 29938016
         }
       }
+    },
+    {
+      "buildId": "25340568",
+      "branch": "public",
+      "timeUpdated": 1789544170,
+      "firstSeen": 1789544342,
+      "manifests": {
+        "4964731": {
+          "gid": "5594810095167003378",
+          "size": 64221656,
+          "download": 24549936
+        },
+        "5057901": {
+          "gid": "3588329394258424787",
+          "size": 67861918,
+          "download": 29938016
+        }
+      }
+    },
+    {
+      "buildId": "25340568",
+      "branch": "testing",
+      "timeUpdated": 1789544089,
+      "firstSeen": 1789544342,
+      "manifests": {
+        "4964731": {
+          "gid": "5594810095167003378",
+          "size": 64221656,
+          "download": 24549936
+        },
+        "5057901": {
+          "gid": "3588329394258424787",
+          "size": 67861918,
+          "download": 29938016
+        }
+      }
     }
   ],
-  "_change_number": 38915282,
+  "_change_number": 38921207,
   "_missing_token": false,
-  "_sha": "7808e462d458420d12b428bf696517b7fbda7c1d",
-  "_size": 4588,
+  "_sha": "fadd42d002fb413f713641710ace6aed970f1b90",
+  "_size": 4590,
   "appid": "4964730",
   "common": {
     "aicontenttype": "1",
@@ -231,14 +267,14 @@
       },
       "manifests": {
         "public": {
-          "download": "24304592",
-          "gid": "579252795796348584",
-          "size": "63194584"
+          "download": "24549936",
+          "gid": "5594810095167003378",
+          "size": "64221656"
         },
         "testing": {
-          "download": "24304592",
-          "gid": "579252795796348584",
-          "size": "63194584"
+          "download": "24549936",
+          "gid": "5594810095167003378",
+          "size": "64221656"
         }
       }
     },
@@ -269,15 +305,15 @@
     },
     "branches": {
       "public": {
-        "buildid": "25326693",
-        "timebuildupdated": "1789487154",
-        "timeupdated": "1789491300"
+        "buildid": "25340568",
+        "timebuildupdated": "1789544089",
+        "timeupdated": "1789544170"
       },
       "testing": {
-        "buildid": "25326693",
+        "buildid": "25340568",
         "description": "cutting edge build",
-        "timebuildupdated": "1789487154",
-        "timeupdated": "1789487336"
+        "timebuildupdated": "1789544089",
+        "timeupdated": "1789544089"
       }
     },
     "hasdepotsindlc": "1"

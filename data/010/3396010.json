@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789536404,
+  "_lastChecked": 1789542828,
   "_history": [
     {
       "buildId": "25224482",
@@ -65,12 +65,25 @@
           "download": 3504555728
         }
       }
+    },
+    {
+      "buildId": "25339213",
+      "branch": "experimental",
+      "timeUpdated": 1789537469,
+      "firstSeen": 1789542828,
+      "manifests": {
+        "3396011": {
+          "gid": "303240554790343970",
+          "size": 3785764160,
+          "download": 3504560304
+        }
+      }
     }
   ],
-  "_change_number": 38894745,
+  "_change_number": 38919153,
   "_missing_token": false,
-  "_sha": "7dd648b5bffeabf9cd0e6b689594aeccb6fcf6a4",
-  "_size": 5691,
+  "_sha": "c5b0199d9bedd732351e9dba50cf426c4c829d7c",
+  "_size": 6021,
   "appid": "3396010",
   "common": {
     "associations": {
@@ -301,6 +314,11 @@
     },
     "3396011": {
       "manifests": {
+        "experimental": {
+          "download": "3504560304",
+          "gid": "303240554790343970",
+          "size": "3785764160"
+        },
         "public": {
           "download": "3504555728",
           "gid": "499337017704098067",
@@ -309,6 +327,12 @@
       }
     },
     "branches": {
+      "experimental": {
+        "buildid": "25339213",
+        "description": "Experimental version for testing potential crash loading the mall",
+        "timebuildupdated": "1789537322",
+        "timeupdated": "1789537469"
+      },
       "public": {
         "buildid": "25298699",
         "timebuildupdated": "1789385914",

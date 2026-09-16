@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789537805,
-  "_history": [],
-  "_change_number": 38894421,
-  "_missing_token": true,
-  "_sha": "962c7e9674a518a9bfe79a3c7bad6c942c7b82fd",
-  "_size": 6063,
+  "_lastChecked": 1789544351,
+  "_history": [
+    {
+      "buildId": "25340554",
+      "branch": "public",
+      "timeUpdated": 1789544089,
+      "firstSeen": 1789544351,
+      "manifests": {
+        "4974951": {
+          "gid": "8474875716523374513",
+          "size": 972241698,
+          "download": 126638160
+        }
+      }
+    }
+  ],
+  "_change_number": 38921278,
+  "_missing_token": false,
+  "_sha": "5720b970a2fd733cbe3b7e7727eb3660cfe4cec8",
+  "_size": 6724,
   "appid": "4974950",
   "common": {
     "aicontenttype": "1",
@@ -28,7 +42,6 @@
     "clienticon": "b1143b5a77195862221b6af8860ba4f8382e0eea",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4974950",
     "genres": {
       "0": "4",
@@ -135,7 +148,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "83ff5554589f12fb0ea00151815c855f81aaa48c/capsule_231x87.jpg",
       "japanese": "0403e8b4d095e6b16a9aad6b605f7cf43535f70d/capsule_231x87_japanese.jpg",
@@ -143,6 +156,7 @@
       "schinese": "5821aaf7c05a56d9d9cd152ed6c21e247c91d377/capsule_231x87_schinese.jpg",
       "tchinese": "2ee0a12f8e4d4f3aa5bb828d3d6de2cc1ba631f8/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789544291",
     "store_asset_mtime": "1788033026",
     "store_tags": {
       "0": "597",
@@ -178,5 +192,41 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "WATT FUR",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "WATT FUR.exe"
+      }
+    }
+  },
+  "depots": {
+    "4974951": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "126638160",
+          "gid": "8474875716523374513",
+          "size": "972241698"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25340554",
+        "timebuildupdated": "1789544003",
+        "timeupdated": "1789544089"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Mimosa Works",
+    "publisher": "Mimosa Works"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789537947,
-  "_history": [],
-  "_change_number": 38600222,
-  "_missing_token": true,
-  "_sha": "7ab8eb4c87c3a81810f8927273b668405c2ebdb2",
-  "_size": 3000,
+  "_lastChecked": 1789544505,
+  "_history": [
+    {
+      "buildId": "24987973",
+      "branch": "public",
+      "timeUpdated": 1787905925,
+      "firstSeen": 1789544505,
+      "manifests": {
+        "5189811": {
+          "gid": "2666306204038120308",
+          "size": 3116678116,
+          "download": 1375932752
+        }
+      }
+    }
+  ],
+  "_change_number": 38920888,
+  "_missing_token": false,
+  "_sha": "cd2518eb457100c069ff9bab3220603990b7c511",
+  "_size": 3967,
   "appid": "5189810",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "2e5fab96f14eb850305e2033c427f3e6d35dd01a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5189810",
     "genres": {
       "0": "25",
@@ -100,7 +114,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1ccc827a29d54e221a0761562e5e80a79f48b8f8/capsule_231x87.jpg"
     },
@@ -134,5 +148,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gangsta Forest Shooter",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "gangstaforest.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229000": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5189811": {
+      "manifests": {
+        "public": {
+          "download": "1375932752",
+          "gid": "2666306204038120308",
+          "size": "3116678116"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24987973",
+        "timebuildupdated": "1787905244",
+        "timeupdated": "1787905925"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Adcom Studios",
+    "publisher": "Valkeala Software"
+  }
 }

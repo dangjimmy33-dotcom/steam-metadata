@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789537642,
+  "_lastChecked": 1789544175,
   "_history": [
     {
       "buildId": "24968137",
@@ -13,12 +13,40 @@
           "download": 128166448
         }
       }
+    },
+    {
+      "buildId": "25339970",
+      "branch": "public",
+      "timeUpdated": 1789541478,
+      "firstSeen": 1789544175,
+      "manifests": {
+        "4777881": {
+          "gid": "8685890623414446246",
+          "size": 194338484,
+          "download": 124811296
+        },
+        "4777882": {
+          "gid": "8032131900110994339",
+          "size": 276215563,
+          "download": 147525712
+        },
+        "4777883": {
+          "gid": "7254347494620212190",
+          "size": 178305984,
+          "download": 120864944
+        },
+        "5185880": {
+          "gid": "2070321646159174128",
+          "size": 24598182,
+          "download": 23024544
+        }
+      }
     }
   ],
-  "_change_number": 38620988,
+  "_change_number": 38920255,
   "_missing_token": false,
-  "_sha": "628c2181fbc1d426f7fddeacd32615aff4282318",
-  "_size": 4405,
+  "_sha": "cb28bb9fd03364f54bc3f68221d306c4e8e59eea",
+  "_size": 4796,
   "appid": "4777880",
   "common": {
     "associations": {
@@ -181,9 +209,9 @@
     "4777881": {
       "manifests": {
         "public": {
-          "download": "128166448",
-          "gid": "1732375571385115858",
-          "size": "199090996"
+          "download": "124811296",
+          "gid": "8685890623414446246",
+          "size": "194338484"
         }
       }
     },
@@ -192,24 +220,42 @@
         "osarch": "64",
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "147525712",
+          "gid": "8032131900110994339",
+          "size": "276215563"
+        }
+      }
     },
     "4777883": {
       "config": {
         "oslist": "linux"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "120864944",
+          "gid": "7254347494620212190",
+          "size": "178305984"
+        }
+      }
     },
     "5185880": {
       "dlcappid": "5185880",
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "23024544",
+          "gid": "2070321646159174128",
+          "size": "24598182"
+        }
+      }
     },
     "baselanguages": "english,japanese,koreana,schinese,tchinese",
     "branches": {
       "public": {
-        "buildid": "24968137",
-        "timebuildupdated": "1787825557",
-        "timeupdated": "1787825705"
+        "buildid": "25339970",
+        "timebuildupdated": "1789541410",
+        "timeupdated": "1789541478"
       }
     },
     "hasdepotsindlc": "0",
@@ -217,7 +263,9 @@
   },
   "extended": {
     "developer": "LU WEI",
+    "dlcavailableonstore": "1",
     "isfreeapp": "1",
+    "listofdlc": "5185880",
     "publisher": "LU WEI"
   },
   "ufs": {

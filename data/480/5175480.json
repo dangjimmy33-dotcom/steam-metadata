@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789537940,
-  "_history": [],
-  "_change_number": 38499657,
-  "_missing_token": true,
-  "_sha": "276dbd55386e85e0286d4b37917a3ad068551388",
-  "_size": 2806,
+  "_lastChecked": 1789544497,
+  "_history": [
+    {
+      "buildId": "24966627",
+      "branch": "public",
+      "timeUpdated": 1787820306,
+      "firstSeen": 1789544497,
+      "manifests": {
+        "5175481": {
+          "gid": "6973070410680956767",
+          "size": 25277045,
+          "download": 23029664
+        }
+      }
+    }
+  ],
+  "_change_number": 38921273,
+  "_missing_token": false,
+  "_sha": "693c2aea07bf197b494f876704dd70909e245d8e",
+  "_size": 3334,
   "appid": "5175480",
   "common": {
     "associations": {
@@ -24,8 +38,8 @@
     },
     "clienticon": "07c1c19f72c6106bf0ec9a65915b89af31c3f12e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5175480",
     "genres": {
       "0": "4",
@@ -97,10 +111,11 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b2bdfdbf7f08c6a53ea86c2940aed7e28eaf32f6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789544284",
     "store_asset_mtime": "1787819863",
     "store_tags": {
       "0": "597",
@@ -124,5 +139,34 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Chuddy Clicker",
+    "launch": {
+      "0": {
+        "executable": "Chuddy Clicker.exe"
+      }
+    }
+  },
+  "depots": {
+    "5175481": {
+      "manifests": {
+        "public": {
+          "download": "23029664",
+          "gid": "6973070410680956767",
+          "size": "25277045"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24966627",
+        "timebuildupdated": "1787820251",
+        "timeupdated": "1787820306"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Moss",
+    "publisher": "Moss"
+  }
 }

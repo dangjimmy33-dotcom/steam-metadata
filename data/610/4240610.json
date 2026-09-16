@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789537189,
-  "_history": [],
-  "_change_number": 38916647,
-  "_missing_token": true,
-  "_sha": "36edd3fe0455ba65002ba14fb789351dabaa83f4",
-  "_size": 5406,
+  "_lastChecked": 1789543683,
+  "_history": [
+    {
+      "buildId": "24988011",
+      "branch": "public",
+      "timeUpdated": 1787905407,
+      "firstSeen": 1789543683,
+      "manifests": {
+        "4240611": {
+          "gid": "3339961711975650508",
+          "size": 943689584,
+          "download": 407300928
+        }
+      }
+    }
+  ],
+  "_change_number": 38920397,
+  "_missing_token": false,
+  "_sha": "715deb7113bcfdffbbc34be051fc8219adbc8aa9",
+  "_size": 6254,
   "appid": "4240610",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +44,8 @@
     },
     "clienticon": "0017b5ebaa33b057063619cfa8452ab99cc37c11",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4240610",
     "genres": {
       "0": "1",
@@ -120,11 +134,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cc5fd7c6a8a8c06e9132356bc401fda05d90ba49/capsule_231x87.jpg",
       "schinese": "627ebc56f4c92e7796c0da94e40c1ceffd0b4024/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1789541935",
     "store_asset_mtime": "1787034775",
     "store_tags": {
       "0": "597",
@@ -234,5 +249,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "client",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SpeedCode.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4240611": {
+      "manifests": {
+        "public": {
+          "download": "407300928",
+          "gid": "3339961711975650508",
+          "size": "943689584"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24988011",
+        "timebuildupdated": "1787905344",
+        "timeupdated": "1787905407"
+      }
+    }
+  },
+  "extended": {
+    "developer": "STIM GAMES",
+    "publisher": "STIM GAMES"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
