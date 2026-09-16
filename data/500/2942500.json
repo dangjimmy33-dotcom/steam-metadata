@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1789528674,
-  "_history": [],
-  "_change_number": 37856819,
-  "_missing_token": true,
-  "_sha": "6e8d0a41d2821cb4ad2890e04bb2de2f5b773978",
-  "_size": 3988,
+  "_lastChecked": 1789535969,
+  "_history": [
+    {
+      "buildId": "19067932",
+      "branch": "local",
+      "timeUpdated": 1751387124,
+      "firstSeen": 1789535969,
+      "manifests": {
+        "2942501": {
+          "gid": "7852010467319646143",
+          "size": 302646044,
+          "download": 116493024
+        }
+      }
+    },
+    {
+      "buildId": "24555819",
+      "branch": "public",
+      "timeUpdated": 1785862670,
+      "firstSeen": 1789535969,
+      "manifests": {
+        "2942501": {
+          "gid": "7427181560084393705",
+          "size": 352905662,
+          "download": 129493488
+        }
+      }
+    }
+  ],
+  "_change_number": 38918562,
+  "_missing_token": false,
+  "_sha": "1c93e8b1962fed7c0683d9b0064fac486ce0c5a2",
+  "_size": 5023,
   "appid": "2942500",
   "common": {
     "associations": {
@@ -30,9 +57,9 @@
     "clienticon": "8f96217860da43cc78dd2e04ca5c3f5b8c64d029",
     "clienttga": "219afa53f43b454f4493307fb20686de691c3f09",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2942500",
     "genres": {
       "0": "1",
@@ -112,14 +139,18 @@
       }
     },
     "name": "HellDrop",
+    "name_localized": {
+      "schinese": "HELLDROP 聚变战机"
+    },
     "osarch": "",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4738f06d17120b6dc6ce651eaf5224ed07c0972c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789535245",
     "store_asset_mtime": "1778517622",
     "store_tags": {
       "0": "597",
@@ -187,5 +218,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HellDrop",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "HELL DROP.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2942501": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "local": {
+          "download": "116493024",
+          "gid": "7852010467319646143",
+          "size": "302646044"
+        },
+        "public": {
+          "download": "129493488",
+          "gid": "7427181560084393705",
+          "size": "352905662"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "local": {
+        "buildid": "19067932",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1751387124",
+        "timeupdated": "1751387124"
+      },
+      "public": {
+        "buildid": "24555819",
+        "timebuildupdated": "1785860609",
+        "timeupdated": "1785862670"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Tofu Soup",
+    "publisher": "Tofu Soup"
+  }
 }

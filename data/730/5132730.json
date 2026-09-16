@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789531064,
-  "_history": [],
-  "_change_number": 38916756,
-  "_missing_token": true,
-  "_sha": "93c5e313db37a306dcad004e8efe2dde146c53fd",
-  "_size": 3891,
+  "_lastChecked": 1789537916,
+  "_history": [
+    {
+      "buildId": "25337678",
+      "branch": "public",
+      "timeUpdated": 1789528908,
+      "firstSeen": 1789537916,
+      "manifests": {
+        "5132731": {
+          "gid": "97242836906216810",
+          "size": 1513669627,
+          "download": 1357701280
+        }
+      }
+    }
+  ],
+  "_change_number": 38917449,
+  "_missing_token": false,
+  "_sha": "e68dfec9e71fa9a5a408ffba595f345490a74a1e",
+  "_size": 5116,
   "appid": "5132730",
   "common": {
     "associations": {
@@ -41,7 +55,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5132730",
     "genres": {
       "0": "25",
@@ -112,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5e99c05eee2435db14e5f7473acaf0a410cf3645/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789531341",
     "store_asset_mtime": "1788420207",
     "store_tags": {
       "0": "1667",
@@ -194,5 +208,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ShutterOut",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ProjectG/Binaries/Win64/ProjectG-Win64-Shipping.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5132731": {
+      "manifests": {
+        "public": {
+          "download": "1357701280",
+          "gid": "97242836906216810",
+          "size": "1513669627"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,indonesian,italian,japanese,koreana,latam,polish,russian,schinese,spanish,tchinese,thai,turkish,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "25337678",
+        "timebuildupdated": "1789528853",
+        "timeupdated": "1789528908"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "ASJK",
+    "publisher": "ASJK"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "ProjectG/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1789530964,
-  "_history": [],
-  "_change_number": 38723638,
-  "_missing_token": true,
-  "_sha": "d4f2454aa150ca2e6007892230e8d625e155b5c2",
-  "_size": 3273,
+  "_lastChecked": 1789537835,
+  "_history": [
+    {
+      "buildId": "25205547",
+      "branch": "public",
+      "timeUpdated": 1788948650,
+      "firstSeen": 1789537835,
+      "manifests": {
+        "5015611": {
+          "gid": "8724695843527960897",
+          "size": 384708528,
+          "download": 310060592
+        },
+        "5015612": {
+          "gid": "189310848768937474",
+          "size": 467322291,
+          "download": 333361520
+        },
+        "5015613": {
+          "gid": "5150701376696850588",
+          "size": 351157184,
+          "download": 301910976
+        }
+      }
+    }
+  ],
+  "_change_number": 38919014,
+  "_missing_token": false,
+  "_sha": "e7d7d3c456f9db257ddaae73ea8a09bc9f8e7f72",
+  "_size": 5147,
   "appid": "5015610",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +49,6 @@
     "clienticon": "fd195ef3cbbba44dc067ab27a65bb4e882e22c63",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5015610",
     "genres": {
       "0": "25",
@@ -97,11 +120,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ea38eed6249447e14eeb1c7195428c0ce7da6547/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1785008510",
+    "steam_release_date": "1789537036",
+    "store_asset_mtime": "1788944822",
     "store_tags": {
       "0": "1664",
       "1": "597",
@@ -151,5 +175,112 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Query Noir",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "QueryNoir.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "macos"
+        },
+        "executable": "QueryNoir.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "QueryNoir.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5015611": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "310060592",
+          "gid": "8724695843527960897",
+          "size": "384708528"
+        }
+      }
+    },
+    "5015612": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "333361520",
+          "gid": "189310848768937474",
+          "size": "467322291"
+        }
+      }
+    },
+    "5015613": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "301910976",
+          "gid": "5150701376696850588",
+          "size": "351157184"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25205547",
+        "timebuildupdated": "1788947076",
+        "timeupdated": "1788948650"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Alfish Games",
+    "publisher": "Alfish Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "QueryNoir",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

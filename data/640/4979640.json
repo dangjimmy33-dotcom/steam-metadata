@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789530931,
-  "_history": [],
-  "_change_number": 38634919,
-  "_missing_token": true,
-  "_sha": "ce4f2d6bbad1413ac028388c670a6b323a4860f0",
-  "_size": 3043,
+  "_lastChecked": 1789537808,
+  "_history": [
+    {
+      "buildId": "24936573",
+      "branch": "public",
+      "timeUpdated": 1787692151,
+      "firstSeen": 1789537808,
+      "manifests": {
+        "4979641": {
+          "gid": "5066978182999497017",
+          "size": 1202009010,
+          "download": 422200048
+        }
+      }
+    }
+  ],
+  "_change_number": 38918455,
+  "_missing_token": false,
+  "_sha": "12b23d75aa439b6115568d4363b855fd6e38f06f",
+  "_size": 3835,
   "appid": "4979640",
   "common": {
     "associations": {
@@ -31,7 +45,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4979640",
     "genres": {
       "0": "4",
@@ -105,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "53c5c7fced48a7d172abf98b3dc4e39d7c28dab6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789534873",
     "store_asset_mtime": "1786843389",
     "store_tags": {
       "0": "1738",
@@ -135,5 +149,45 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hidden Objects Painted Forest",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play in VR",
+        "description_loc": {
+          "english": "Play in VR"
+        },
+        "executable": "Hidden Objects Painted Forest.exe",
+        "type": "openxr"
+      }
+    }
+  },
+  "depots": {
+    "4979641": {
+      "manifests": {
+        "public": {
+          "download": "422200048",
+          "gid": "5066978182999497017",
+          "size": "1202009010"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24936573",
+        "timebuildupdated": "1787690982",
+        "timeupdated": "1787692151"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Elisa Jagusch Collins",
+    "isfreeapp": "1",
+    "publisher": "Elisa Jagusch Collins"
+  }
 }

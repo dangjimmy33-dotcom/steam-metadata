@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789530880,
+  "_lastChecked": 1789537766,
   "_history": [
     {
       "buildId": "25006342",
@@ -84,12 +84,40 @@
           "download": 729884784
         }
       }
+    },
+    {
+      "buildId": "25329887",
+      "branch": "public",
+      "timeUpdated": 1789532414,
+      "firstSeen": 1789537766,
+      "manifests": {
+        "4929971": {
+          "gid": "5565316494754862084",
+          "size": 741871744,
+          "download": 520411392
+        },
+        "4929972": {
+          "gid": "8203087792129332818",
+          "size": 2088969582,
+          "download": 729853968
+        },
+        "4929973": {
+          "gid": "6214276383376357373",
+          "size": 741871744,
+          "download": 520411392
+        },
+        "4929974": {
+          "gid": "6995958973410573392",
+          "size": 2088969582,
+          "download": 729853968
+        }
+      }
     }
   ],
-  "_change_number": 38905482,
+  "_change_number": 38917899,
   "_missing_token": false,
-  "_sha": "fb16450c292d565cbd98e135bfd4bc0dd1da1086",
-  "_size": 7063,
+  "_sha": "edd5f7b4ff52f4f79dacbd4f787d7feb042c14c0",
+  "_size": 7048,
   "appid": "4929970",
   "common": {
     "associations": {
@@ -312,7 +340,7 @@
         "description_loc": {
           "english": "Launch No Socks RPG"
         },
-        "executable": "No Socks RPG.app",
+        "executable": "Game.app",
         "type": "default"
       },
       "2": {
@@ -336,7 +364,7 @@
         "description_loc": {
           "english": "launch dev build."
         },
-        "executable": "No Socks RPG.app"
+        "executable": "Game.app"
       }
     }
   },
@@ -347,9 +375,9 @@
       },
       "manifests": {
         "public": {
-          "download": "519707616",
-          "gid": "360509354641143757",
-          "size": "741318972"
+          "download": "520411392",
+          "gid": "5565316494754862084",
+          "size": "741871744"
         }
       }
     },
@@ -359,9 +387,9 @@
       },
       "manifests": {
         "public": {
-          "download": "728873392",
-          "gid": "3252197989687038978",
-          "size": "2088314739"
+          "download": "729853968",
+          "gid": "8203087792129332818",
+          "size": "2088969582"
         }
       }
     },
@@ -371,9 +399,9 @@
       },
       "manifests": {
         "public": {
-          "download": "519707616",
-          "gid": "4694489747342475246",
-          "size": "741318972"
+          "download": "520411392",
+          "gid": "6214276383376357373",
+          "size": "741871744"
         }
       }
     },
@@ -383,18 +411,18 @@
       },
       "manifests": {
         "public": {
-          "download": "728873392",
-          "gid": "3252729782238967062",
-          "size": "2088314739"
+          "download": "729853968",
+          "gid": "6995958973410573392",
+          "size": "2088969582"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25006342",
-        "timebuildupdated": "1787984076",
-        "timeupdated": "1789495472"
+        "buildid": "25329887",
+        "timebuildupdated": "1789497606",
+        "timeupdated": "1789532414"
       }
     },
     "hasdepotsindlc": "1",

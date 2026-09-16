@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789530228,
+  "_lastChecked": 1789537235,
   "_history": [
     {
       "buildId": "22280283",
@@ -13,12 +13,30 @@
           "download": 39994480
         }
       }
+    },
+    {
+      "buildId": "25338864",
+      "branch": "public",
+      "timeUpdated": 1789535323,
+      "firstSeen": 1789537235,
+      "manifests": {
+        "4289711": {
+          "gid": "8422344661431623530",
+          "size": 109102569,
+          "download": 39994480
+        },
+        "4289712": {
+          "gid": "8029775655384757623",
+          "size": 185696379,
+          "download": 63106112
+        }
+      }
     }
   ],
-  "_change_number": 38904683,
+  "_change_number": 38918627,
   "_missing_token": false,
-  "_sha": "d7103e5e941d4a60f90271b15f52201bfd391535",
-  "_size": 4140,
+  "_sha": "5238d899782808b7e0ac4138a06981db912f150d",
+  "_size": 4270,
   "appid": "4289710",
   "common": {
     "associations": {
@@ -111,8 +129,9 @@
     },
     "name": "Dicement",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "23",
     "releasestate": "released",
     "review_percentage": "100",
@@ -158,7 +177,6 @@
       },
       "1": {
         "config": {
-          "betakey": "playtest",
           "oslist": "macos"
         },
         "executable": "dicement.app",
@@ -183,14 +201,20 @@
       "config": {
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "63106112",
+          "gid": "8029775655384757623",
+          "size": "185696379"
+        }
+      }
     },
     "baselanguages": "english,russian",
     "branches": {
       "public": {
-        "buildid": "22280283",
-        "timebuildupdated": "1773153989",
-        "timeupdated": "1773154207"
+        "buildid": "25338864",
+        "timebuildupdated": "1789535323",
+        "timeupdated": "1789535323"
       }
     },
     "privatebranches": "1"
