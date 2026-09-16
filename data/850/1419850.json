@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789519710,
+  "_lastChecked": 1789526777,
   "_history": [
     {
       "buildId": "22325331",
@@ -198,11 +198,29 @@
           "download": 2327419904
         }
       }
+    },
+    {
+      "buildId": "25337205",
+      "branch": "experimental",
+      "timeUpdated": 1789526763,
+      "firstSeen": 1789526777,
+      "manifests": {
+        "1419851": {
+          "gid": "4214352509377244069",
+          "size": 5227367402,
+          "download": 2290390752
+        },
+        "1419852": {
+          "gid": "7548712376844185502",
+          "size": 5342575848,
+          "download": 2328448144
+        }
+      }
     }
   ],
-  "_change_number": 38890201,
+  "_change_number": 38916050,
   "_missing_token": false,
-  "_sha": "6de676ece2c2c6fa4b91f9b873665454f6d79b12",
+  "_sha": "37e6ea89292c32edefbb0534038104a405be57c6",
   "_size": 11881,
   "appid": "1419850",
   "common": {
@@ -585,9 +603,9 @@
       },
       "manifests": {
         "experimental": {
-          "download": "2289468256",
-          "gid": "3103807671818911759",
-          "size": "5225616009"
+          "download": "2290390752",
+          "gid": "4214352509377244069",
+          "size": "5227367402"
         },
         "legacy": {
           "download": "2254046224",
@@ -607,9 +625,9 @@
       },
       "manifests": {
         "experimental": {
-          "download": "2327419904",
-          "gid": "1231939496884804530",
-          "size": "5340725950"
+          "download": "2328448144",
+          "gid": "7548712376844185502",
+          "size": "5342575848"
         },
         "legacy": {
           "download": "2307079056",
@@ -640,10 +658,10 @@
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,danish,dutch,finnish,norwegian,swedish,czech,turkish,brazilian,greek,vietnamese",
     "branches": {
       "experimental": {
-        "buildid": "25316953",
+        "buildid": "25337205",
         "description": "For early testing of upcoming patches when available.",
-        "timebuildupdated": "1789456009",
-        "timeupdated": "1789456450"
+        "timebuildupdated": "1789526599",
+        "timeupdated": "1789526763"
       },
       "legacy": {
         "buildid": "22325331",

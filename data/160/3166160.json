@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789521675,
-  "_history": [],
-  "_change_number": 38907031,
-  "_missing_token": true,
-  "_sha": "1aaac82f757aaa5f212ac26dec523e7e7d0c6bef",
-  "_size": 2879,
+  "_lastChecked": 1789528942,
+  "_history": [
+    {
+      "buildId": "25330416",
+      "branch": "public",
+      "timeUpdated": 1789499547,
+      "firstSeen": 1789528942,
+      "manifests": {
+        "3166161": {
+          "gid": "5670932748838623025",
+          "size": 1826121168,
+          "download": 662227408
+        }
+      }
+    }
+  ],
+  "_change_number": 38916470,
+  "_missing_token": false,
+  "_sha": "9af8a3a60b2195609df26a4c9e5e24b99d820daf",
+  "_size": 3489,
   "appid": "3166160",
   "common": {
     "associations": {
@@ -24,8 +38,8 @@
     "clienticon": "2eaa1dd20792e4df1c36b51559bb7e9f24d7c80d",
     "clienttga": "797606117f481d4f35690a1b73e88c9a83e392af",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3166160",
     "genres": {
       "0": "1",
@@ -96,10 +110,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6b118f7ed5cf36cc20e8b98ce900e73ce1b22b5a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789528082",
     "store_asset_mtime": "1788998801",
     "store_tags": {
       "0": "19",
@@ -125,5 +140,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Oops! You're the Hero",
+    "launch": {
+      "0": {
+        "executable": "OopsYouretheHero.exe"
+      }
+    }
+  },
+  "depots": {
+    "3166161": {
+      "manifests": {
+        "public": {
+          "download": "662227408",
+          "gid": "5670932748838623025",
+          "size": "1826121168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25330416",
+        "timebuildupdated": "1789499527",
+        "timeupdated": "1789499547"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Artificium Games",
+    "homepage": "https://www.artificium.games/",
+    "publisher": "Artificium Games"
+  }
 }

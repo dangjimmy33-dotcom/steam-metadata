@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789520056,
+  "_lastChecked": 1789527153,
   "_history": [
     {
       "buildId": "25053686",
@@ -110,10 +110,10 @@
       }
     }
   ],
-  "_change_number": 38778089,
+  "_change_number": 38911658,
   "_missing_token": false,
-  "_sha": "8a964dd2871aa3cd6a41b1f1ce2e38089252ba3d",
-  "_size": 8962,
+  "_sha": "9b4e5762b12acbae8051c893665f32392fa2a5c9",
+  "_size": 8959,
   "appid": "1701890",
   "common": {
     "associations": {
@@ -230,7 +230,7 @@
       "english": "capsule_231x87.jpg"
     },
     "steam_deck_compatibility": {
-      "category": "2",
+      "category": "3",
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
@@ -244,7 +244,7 @@
         "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
-        "small_text": "1",
+        "small_text": "0",
         "supported_input": "other"
       },
       "steam_machine_compatibility": "3",
@@ -269,20 +269,20 @@
           "token": "#SteamOS_TestResult_GameStartupFunctional"
         }
       },
-      "test_timestamp": "1788277238",
-      "tested_build_id": "24982448",
+      "test_timestamp": "1789480546",
+      "tested_build_id": "25241208",
       "tests": {
         "0": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
-        },
-        "1": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
-        "2": {
+        "1": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
         },
         "3": {
           "display": "4",

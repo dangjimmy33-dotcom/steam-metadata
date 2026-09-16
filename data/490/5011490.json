@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789523480,
-  "_history": [],
-  "_change_number": 38245736,
-  "_missing_token": true,
-  "_sha": "a43dad017e4a6923e6537208e916e999ff55b866",
-  "_size": 3244,
+  "_lastChecked": 1789530961,
+  "_history": [
+    {
+      "buildId": "24880558",
+      "branch": "public",
+      "timeUpdated": 1787410200,
+      "firstSeen": 1789530961,
+      "manifests": {
+        "5011491": {
+          "gid": "8079083569373836735",
+          "size": 279882280,
+          "download": 258297488
+        }
+      }
+    }
+  ],
+  "_change_number": 38915156,
+  "_missing_token": false,
+  "_sha": "ec073caa745a04889a738633d93b8e13bc7acd52",
+  "_size": 3952,
   "appid": "5011490",
   "common": {
     "aicontenttype": "1",
@@ -34,7 +48,6 @@
     "clienticon": "9fe2794d16a343e1fca2c238408020b769201c62",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5011490",
     "genres": {
       "0": "4",
@@ -109,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "385489c637034dee554a525d05977fdda0b063e4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789524010",
     "store_asset_mtime": "1787025048",
     "store_tags": {
       "0": "9",
@@ -145,5 +159,41 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ArrowCardArena",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "arrow_card_arena_pc.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5011491": {
+      "manifests": {
+        "public": {
+          "download": "258297488",
+          "gid": "8079083569373836735",
+          "size": "279882280"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "24880558",
+        "timebuildupdated": "1787409982",
+        "timeupdated": "1787410200"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Ludendria Studio",
+    "homepage": "https://www.ludendria.com/",
+    "publisher": "Ludendria Studio"
+  }
 }

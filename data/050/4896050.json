@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789523377,
+  "_lastChecked": 1789530845,
   "_history": [
     {
       "buildId": "25131663",
@@ -204,11 +204,42 @@
           "download": 150104448
         }
       }
+    },
+    {
+      "buildId": "25337770",
+      "branch": "beta",
+      "timeUpdated": 1789529264,
+      "firstSeen": 1789530845,
+      "manifests": {
+        "4896052": {
+          "gid": "3258610933813485074",
+          "size": 245799813,
+          "download": 150088432
+        }
+      }
+    },
+    {
+      "buildId": "25337782",
+      "branch": "public",
+      "timeUpdated": 1789529337,
+      "firstSeen": 1789530845,
+      "manifests": {
+        "4896051": {
+          "gid": "6728987481921244057",
+          "size": 242469909,
+          "download": 155021088
+        },
+        "4896052": {
+          "gid": "3258610933813485074",
+          "size": 245799813,
+          "download": 150088432
+        }
+      }
     }
   ],
-  "_change_number": 38802751,
+  "_change_number": 38916884,
   "_missing_token": false,
-  "_sha": "7315cda10a9e7de1abca38981ae9f854a16251ba",
+  "_sha": "f80cfce26d1521c49e2fc4f8c4e7fea368fa3863",
   "_size": 4204,
   "appid": "4896050",
   "common": {
@@ -356,9 +387,9 @@
       },
       "manifests": {
         "public": {
-          "download": "155000272",
-          "gid": "5879195620390670708",
-          "size": "242583573"
+          "download": "155021088",
+          "gid": "6728987481921244057",
+          "size": "242469909"
         }
       }
     },
@@ -368,28 +399,28 @@
       },
       "manifests": {
         "beta": {
-          "download": "150104448",
-          "gid": "5716245918798136359",
-          "size": "245913189"
+          "download": "150088432",
+          "gid": "3258610933813485074",
+          "size": "245799813"
         },
         "public": {
-          "download": "150104448",
-          "gid": "5716245918798136359",
-          "size": "245913189"
+          "download": "150088432",
+          "gid": "3258610933813485074",
+          "size": "245799813"
         }
       }
     },
     "branches": {
       "beta": {
-        "buildid": "25259802",
+        "buildid": "25337770",
         "description": "Beta",
-        "timebuildupdated": "1789151289",
-        "timeupdated": "1789151289"
+        "timebuildupdated": "1789529264",
+        "timeupdated": "1789529264"
       },
       "public": {
-        "buildid": "25260037",
-        "timebuildupdated": "1789152199",
-        "timeupdated": "1789152199"
+        "buildid": "25337782",
+        "timebuildupdated": "1789529337",
+        "timeupdated": "1789529337"
       }
     }
   },

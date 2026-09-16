@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789520102,
+  "_lastChecked": 1789527203,
   "_history": [
     {
       "buildId": "22516326",
@@ -20,24 +20,26 @@
       }
     }
   ],
-  "_change_number": 38911370,
+  "_change_number": 38912294,
   "_missing_token": false,
-  "_sha": "30a1762907c4f59bef22f1e70ad64b43e7b2096d",
-  "_size": 4979,
+  "_sha": "1ff1b7d9d13b564d846aa5a9cffe8a392f34c377",
+  "_size": 5130,
   "appid": "1731170",
   "common": {
     "associations": {
       "0": {
-        "name": "Guillaume M92",
+        "name": "Petit Vaisseau",
         "type": "developer"
       },
       "1": {
-        "name": "Guillaume M92",
+        "name": "Petit Vaisseau",
         "type": "publisher"
       }
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
       "category_28": "1",
       "category_55": "1",
       "category_56": "1",
@@ -234,20 +236,25 @@
     }
   },
   "extended": {
-    "developer": "Guillaume M92",
-    "publisher": "Guillaume M92"
+    "developer": "Petit Vaisseau",
+    "publisher": "Petit Vaisseau"
   },
   "ufs": {
-    "appidredirect": "1731170",
-    "maxnumfiles": "50",
-    "quota": "100000000",
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
-        "path": "Guillaume Merle",
-        "pattern": "*.data",
-        "platforms": {
-          "1": "Windows"
-        },
+        "path": "Guillaume M92/Space Defender",
+        "pattern": "gamesave*.data",
         "root": "WinAppDataLocalLow"
       }
     }

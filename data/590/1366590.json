@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789519649,
-  "_history": [],
-  "_change_number": 38502962,
-  "_missing_token": true,
-  "_sha": "e33fc58badb9edc5edbdbdac47116c695f5b05f6",
-  "_size": 3426,
+  "_lastChecked": 1789526711,
+  "_history": [
+    {
+      "buildId": "25055148",
+      "branch": "public",
+      "timeUpdated": 1788256862,
+      "firstSeen": 1789526711,
+      "manifests": {
+        "1366591": {
+          "gid": "5282798373526640480",
+          "size": 7497931019,
+          "download": 2941158832
+        }
+      }
+    }
+  ],
+  "_change_number": 38914105,
+  "_missing_token": false,
+  "_sha": "b03e70c3307ba4cf59c6814ee1d86f8c23a48423",
+  "_size": 4134,
   "appid": "1366590",
   "common": {
     "associations": {
@@ -15,10 +29,6 @@
       "1": {
         "name": "Shiravune",
         "type": "publisher"
-      },
-      "2": {
-        "name": "Shiravune",
-        "type": "franchise"
       }
     },
     "category": {
@@ -42,7 +52,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1366590",
     "genres": {
       "0": "25",
@@ -113,11 +122,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "02b2d2cbf37d9409df8b74ca6e93eb373c7024d2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1789520831",
     "store_asset_mtime": "1767578953",
     "store_tags": {
       "0": "4726",
@@ -157,5 +167,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "StudySteady",
+    "launch": {
+      "0": {
+        "executable": "ststeady.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1366591": {
+      "manifests": {
+        "public": {
+          "download": "2941158832",
+          "gid": "5282798373526640480",
+          "size": "7497931019"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25055148",
+        "timebuildupdated": "1788256723",
+        "timeupdated": "1788256862"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Marmalade",
+    "homepage": "https://shiravune.com",
+    "publisher": "Shiravune"
+  },
+  "ufs": {
+    "maxnumfiles": "3000",
+    "quota": "3000000000",
+    "savefiles": {
+      "0": {
+        "path": "Marmalade/StudySteady_v100",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789523166,
-  "_history": [],
-  "_change_number": 38900900,
-  "_missing_token": true,
-  "_sha": "45fbbfce97ac3b16290f099f2762a05440480ad5",
-  "_size": 7670,
+  "_lastChecked": 1789530607,
+  "_history": [
+    {
+      "buildId": "25325799",
+      "branch": "public",
+      "timeUpdated": 1789484473,
+      "firstSeen": 1789530607,
+      "manifests": {
+        "4651911": {
+          "gid": "5744968961896857260",
+          "size": 1388472218,
+          "download": 184337072
+        }
+      }
+    }
+  ],
+  "_change_number": 38915138,
+  "_missing_token": false,
+  "_sha": "67a400b4d12430608335e0981d7ee35a3ccfb718",
+  "_size": 8603,
   "appid": "4651910",
   "common": {
     "associations": {
@@ -25,6 +39,7 @@
     },
     "clienticon": "8bf869c04dec6cfb5bf0e7bec92a9ec55fa17551",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -40,7 +55,6 @@
       "4": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4651910",
     "genres": {
       "0": "1",
@@ -162,7 +176,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "b8d8a266303432fe3140868f9339837280b9d171/capsule_231x87.jpg",
@@ -171,6 +185,7 @@
       "schinese": "9f122a8a8fd11141ad73c671654eb8542ed88fb2/capsule_231x87_schinese.jpg",
       "tchinese": "2cca76cf4e482f18bf9849d61c91889fa084b4d4/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1789523944",
     "store_asset_mtime": "1788515799",
     "store_tags": {
       "0": "19",
@@ -217,5 +232,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sister Leticia The First Mission!",
+    "launch": {
+      "0": {
+        "executable": "Novice Sister Leticia.exe"
+      }
+    }
+  },
+  "depots": {
+    "4651911": {
+      "manifests": {
+        "public": {
+          "download": "184337072",
+          "gid": "5744968961896857260",
+          "size": "1388472218"
+        }
+      }
+    },
+    "5213790": {
+      "dlcappid": "5213790"
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "25325799",
+        "timebuildupdated": "1789484437",
+        "timeupdated": "1789484473"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "developer": "Cyatt Cafe",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5213790",
+    "publisher": "Mango Party"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Cyatt Cafe/Novice Sister Leticia/",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

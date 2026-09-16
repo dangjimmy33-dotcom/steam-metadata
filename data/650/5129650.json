@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789523569,
-  "_history": [],
-  "_change_number": 38892337,
-  "_missing_token": true,
-  "_sha": "d9a8135eea345a0324513265e2c824d1a21b6668",
-  "_size": 1527,
+  "_lastChecked": 1789531062,
+  "_history": [
+    {
+      "buildId": "25320754",
+      "branch": "public",
+      "timeUpdated": 1789469360,
+      "firstSeen": 1789531062,
+      "manifests": {
+        "5129650": {
+          "gid": "3385096210053827253",
+          "size": 44390958,
+          "download": 44382144
+        }
+      }
+    }
+  ],
+  "_change_number": 38916097,
+  "_missing_token": false,
+  "_sha": "49caff349a18e19adf28fbcd2fe506fc1fb44b86",
+  "_size": 2163,
   "appid": "5129650",
   "common": {
     "associations": {
@@ -42,12 +56,13 @@
     "oslist": "windows,macos",
     "parent": "4791250",
     "primary_genre": "51",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2f830cce0a8189e779233969715092826ac07af9/capsule_231x87.jpg",
       "japanese": "62dbf54e5afee939bf0539890d8aef97457b6e20/capsule_231x87_japanese.jpg"
     },
-    "store_asset_mtime": "1788240338",
+    "steam_release_date": "1789526940",
+    "store_asset_mtime": "1789454851",
     "store_screenshot": "9c9848057f6660b21e561079088bfafa1de40461/ss_9c9848057f6660b21e561079088bfafa1de40461.jpg",
     "store_tags": {
       "0": "87",
@@ -68,5 +83,34 @@
     },
     "type": "DLC"
   },
-  "public_only": "1"
+  "depots": {
+    "5129650": {
+      "config": {
+        "oslist": "windows,macos"
+      },
+      "dlcappid": "5129650",
+      "manifests": {
+        "public": {
+          "download": "44382144",
+          "gid": "3385096210053827253",
+          "size": "44390958"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25320754",
+        "timebuildupdated": "1789469314",
+        "timeupdated": "1789469360"
+      }
+    }
+  },
+  "extended": {
+    "developer": "infiniteloop",
+    "dlcavailableonstore": "1",
+    "dlcforappid": "4791250",
+    "homepage": "https://infiniteloop.co.jp/desktopmate/widgets/",
+    "mustownapptopurchase": "4791250",
+    "publisher": "infiniteloop"
+  }
 }
