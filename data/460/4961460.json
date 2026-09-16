@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789514507,
+  "_lastChecked": 1789523439,
   "_history": [
     {
       "buildId": "25053947",
@@ -26,12 +26,25 @@
           "download": 559871744
         }
       }
+    },
+    {
+      "buildId": "25334128",
+      "branch": "beta",
+      "timeUpdated": 1789515355,
+      "firstSeen": 1789523439,
+      "manifests": {
+        "4961461": {
+          "gid": "8184116628708557309",
+          "size": 748648313,
+          "download": 562496624
+        }
+      }
     }
   ],
-  "_change_number": 38814489,
+  "_change_number": 38912369,
   "_missing_token": false,
-  "_sha": "e6993358af92394cd2ea2b7909d890d458b91626",
-  "_size": 7270,
+  "_sha": "44d801a74ac5b1633d52d3a259a29b422a7e40a7",
+  "_size": 7552,
   "appid": "4961460",
   "common": {
     "associations": {
@@ -311,6 +324,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "beta": {
+          "download": "562496624",
+          "gid": "8184116628708557309",
+          "size": "748648313"
+        },
         "public": {
           "download": "559871744",
           "gid": "2576586564396626300",
@@ -320,6 +338,12 @@
     },
     "baselanguages": "english,french,german,japanese,koreana,polish,portuguese,russian,schinese,spanish",
     "branches": {
+      "beta": {
+        "buildid": "25334128",
+        "description": "Public Beta - Latest Testing Build",
+        "timebuildupdated": "1789513794",
+        "timeupdated": "1789515355"
+      },
       "public": {
         "buildid": "25087558",
         "timebuildupdated": "1788378504",

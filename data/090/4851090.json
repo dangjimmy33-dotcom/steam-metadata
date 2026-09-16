@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789514412,
-  "_history": [],
-  "_change_number": 37924788,
-  "_missing_token": true,
-  "_sha": "c88f7d4d41aa035ea5ea16bd21a08ab53e31baa2",
-  "_size": 3110,
+  "_lastChecked": 1789523337,
+  "_history": [
+    {
+      "buildId": "24516480",
+      "branch": "public",
+      "timeUpdated": 1785655519,
+      "firstSeen": 1789523337,
+      "manifests": {
+        "4851091": {
+          "gid": "6944675135643131312",
+          "size": 2988696671,
+          "download": 2572052944
+        }
+      }
+    }
+  ],
+  "_change_number": 38913939,
+  "_missing_token": false,
+  "_sha": "d9606364882c9a911266267e09f77d3c415e07b7",
+  "_size": 3825,
   "appid": "4851090",
   "common": {
     "associations": {
@@ -31,7 +45,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4851090",
     "genres": {
       "0": "25",
@@ -103,7 +116,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fa0ccd2920109a58afc6c77472214d9bef69b4ed/capsule_231x87.jpg"
     },
@@ -135,5 +148,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "忌品管理部",
+    "launch": {
+      "0": {
+        "executable": "HorrorEngineSE.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4851091": {
+      "manifests": {
+        "public": {
+          "download": "2572052944",
+          "gid": "6944675135643131312",
+          "size": "2988696671"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24516480",
+        "timebuildupdated": "1785653863",
+        "timeupdated": "1785655519"
+      }
+    }
+  },
+  "extended": {
+    "developer": "zentac studio",
+    "publisher": "zentac studio"
+  }
 }

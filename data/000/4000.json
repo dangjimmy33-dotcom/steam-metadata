@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789509824,
+  "_lastChecked": 1789518333,
   "_history": [
     {
       "buildId": "25135264",
@@ -420,12 +420,40 @@
           "download": 38317040
         }
       }
+    },
+    {
+      "buildId": "25333761",
+      "branch": "x86-64",
+      "timeUpdated": 1789512323,
+      "firstSeen": 1789518333,
+      "manifests": {
+        "4001": {
+          "gid": "2987578887961894014",
+          "size": 6769490732,
+          "download": 3563596448
+        },
+        "4002": {
+          "gid": "8270249965265194074",
+          "size": 502881445,
+          "download": 188574896
+        },
+        "4003": {
+          "gid": "679269936318594398",
+          "size": 370269137,
+          "download": 109269984
+        },
+        "4004": {
+          "gid": "3581013300882680377",
+          "size": 260252697,
+          "download": 82481328
+        }
+      }
     }
   ],
-  "_change_number": 38908616,
+  "_change_number": 38911491,
   "_missing_token": false,
-  "_sha": "63d2f62f0a5e96b67d8e178ab05bc7bc98aaf5fb",
-  "_size": 13553,
+  "_sha": "6df17a8de58ffa90e7f6d73307adb7671e789a3a",
+  "_size": 13552,
   "appid": "4000",
   "common": {
     "associations": {
@@ -876,9 +904,9 @@
           "size": "6800537492"
         },
         "x86-64": {
-          "download": "3563515264",
-          "gid": "5775802346781145530",
-          "size": "6769241463"
+          "download": "3563596448",
+          "gid": "2987578887961894014",
+          "size": "6769490732"
         }
       },
       "systemdefined": "1"
@@ -904,9 +932,9 @@
           "size": "312799722"
         },
         "x86-64": {
-          "download": "188574576",
-          "gid": "7571798580246852834",
-          "size": "502880973"
+          "download": "188574896",
+          "gid": "8270249965265194074",
+          "size": "502881445"
         }
       },
       "systemdefined": "1"
@@ -932,9 +960,9 @@
           "size": "277257490"
         },
         "x86-64": {
-          "download": "109267760",
-          "gid": "7241545889947825622",
-          "size": "370265041"
+          "download": "109269984",
+          "gid": "679269936318594398",
+          "size": "370269137"
         }
       },
       "systemdefined": "1"
@@ -986,10 +1014,10 @@
         "timeupdated": "1778263323"
       },
       "x86-64": {
-        "buildid": "25301017",
+        "buildid": "25333761",
         "description": "64-bit binaries + Chromium Embedded Framework on Linux and MacOS",
-        "timebuildupdated": "1789393294",
-        "timeupdated": "1789393294"
+        "timebuildupdated": "1789512323",
+        "timeupdated": "1789512323"
       }
     },
     "depotdeltapatches": "1",

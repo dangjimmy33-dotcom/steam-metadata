@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1789514416,
-  "_history": [],
-  "_change_number": 38721419,
-  "_missing_token": true,
-  "_sha": "123ebf77e0b3ff42b764790d0c568bd892349620",
-  "_size": 2911,
+  "_lastChecked": 1789523342,
+  "_history": [
+    {
+      "buildId": "25131693",
+      "branch": "public",
+      "timeUpdated": 1788553077,
+      "firstSeen": 1789523342,
+      "manifests": {
+        "4855751": {
+          "gid": "1460050626226016013",
+          "size": 179414895,
+          "download": 66754768
+        },
+        "4855752": {
+          "gid": "1389650271880225325",
+          "size": 356938754,
+          "download": 120442992
+        }
+      }
+    }
+  ],
+  "_change_number": 38913978,
+  "_missing_token": false,
+  "_sha": "d183a2c2186735ab054e1e05a3fa74edaa77dc75",
+  "_size": 3838,
   "appid": "4855750",
   "common": {
     "associations": {
@@ -30,7 +49,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4855750",
     "genres": {
       "0": "4",
@@ -102,7 +120,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "becccd18b717952bc54e6029a8a0d1a344c0b1d9/capsule_231x87.jpg"
     },
@@ -126,5 +144,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Flare Up",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "flare_up.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "flare_up.app"
+      }
+    }
+  },
+  "depots": {
+    "4855751": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "66754768",
+          "gid": "1460050626226016013",
+          "size": "179414895"
+        }
+      }
+    },
+    "4855752": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "120442992",
+          "gid": "1389650271880225325",
+          "size": "356938754"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25131693",
+        "timebuildupdated": "1788552846",
+        "timeupdated": "1788553077"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Horned Llama",
+    "homepage": "https://hornedllama.com/projects",
+    "isfreeapp": "1",
+    "publisher": "Horned Llama"
+  }
 }

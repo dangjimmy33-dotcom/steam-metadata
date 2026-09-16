@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789512908,
+  "_lastChecked": 1789521734,
   "_history": [
     {
       "buildId": "25094918",
@@ -90,12 +90,30 @@
           "download": 1064637664
         }
       }
+    },
+    {
+      "buildId": "25334138",
+      "branch": "public",
+      "timeUpdated": 1789513862,
+      "firstSeen": 1789521734,
+      "manifests": {
+        "3222891": {
+          "gid": "7652356519900083987",
+          "size": 2677029771,
+          "download": 1057006160
+        },
+        "3222892": {
+          "gid": "4846041367719584677",
+          "size": 2694575415,
+          "download": 1064536496
+        }
+      }
     }
   ],
-  "_change_number": 38845440,
+  "_change_number": 38912086,
   "_missing_token": false,
-  "_sha": "6b79ab50a363dc97d9feb17ea19cc4640570caea",
-  "_size": 8405,
+  "_sha": "f6eb7142a22fe7f2363d8e78000eae6e3761b1af",
+  "_size": 8450,
   "appid": "3222890",
   "common": {
     "associations": {
@@ -355,6 +373,9 @@
         "executable": "TasteOfTheWind.exe"
       },
       "1": {
+        "config": {
+          "osarch": "64"
+        },
         "description": "mac",
         "description_loc": {
           "english": "mac"
@@ -370,9 +391,9 @@
       },
       "manifests": {
         "public": {
-          "download": "1057106304",
-          "gid": "4912819507202243362",
-          "size": "2677450139"
+          "download": "1057006160",
+          "gid": "7652356519900083987",
+          "size": "2677029771"
         }
       }
     },
@@ -382,18 +403,18 @@
       },
       "manifests": {
         "public": {
-          "download": "1064637664",
-          "gid": "3234318861984987491",
-          "size": "2694995783"
+          "download": "1064536496",
+          "gid": "4846041367719584677",
+          "size": "2694575415"
         }
       }
     },
     "baselanguages": "schinese",
     "branches": {
       "public": {
-        "buildid": "25289370",
-        "timebuildupdated": "1789340583",
-        "timeupdated": "1789340673"
+        "buildid": "25334138",
+        "timebuildupdated": "1789513809",
+        "timeupdated": "1789513862"
       }
     },
     "privatebranches": "1"

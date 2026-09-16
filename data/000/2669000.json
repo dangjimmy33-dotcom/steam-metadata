@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789512364,
+  "_lastChecked": 1789521147,
   "_history": [
     {
       "buildId": "25135342",
@@ -468,12 +468,38 @@
           "download": 706691040
         }
       }
+    },
+    {
+      "buildId": "25334378",
+      "branch": "beta",
+      "timeUpdated": 1789514747,
+      "firstSeen": 1789521147,
+      "manifests": {
+        "2669001": {
+          "gid": "7027699215601640043",
+          "size": 938136263,
+          "download": 706643344
+        }
+      }
+    },
+    {
+      "buildId": "25335164",
+      "branch": "public",
+      "timeUpdated": 1789518164,
+      "firstSeen": 1789521147,
+      "manifests": {
+        "2669001": {
+          "gid": "2134465660797284952",
+          "size": 938126023,
+          "download": 706652560
+        }
+      }
     }
   ],
-  "_change_number": 38840113,
+  "_change_number": 38913766,
   "_missing_token": false,
-  "_sha": "0eb209365eaa300e81aecc514d0503a418e86058",
-  "_size": 4134,
+  "_sha": "0339ab03fcd127976525ea8bcad3f508816d6030",
+  "_size": 4167,
   "appid": "2669000",
   "common": {
     "associations": {
@@ -497,6 +523,7 @@
     "clienticon": "9a1ebb61203224d6c7d683c7c208e6bc66df95d0",
     "clienttga": "5e736ec0db27d6510d984b77dae9c716d56f6b62",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "gameid": "2669000",
     "genres": {
@@ -628,29 +655,29 @@
     "2669001": {
       "manifests": {
         "beta": {
-          "download": "706691040",
-          "gid": "6662304665950463965",
-          "size": "938121555"
+          "download": "706643344",
+          "gid": "7027699215601640043",
+          "size": "938136263"
         },
         "public": {
-          "download": "706691040",
-          "gid": "6662304665950463965",
-          "size": "938121555"
+          "download": "706652560",
+          "gid": "2134465660797284952",
+          "size": "938126023"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "beta": {
-        "buildid": "25285623",
+        "buildid": "25334378",
         "description": "Beta",
-        "timebuildupdated": "1789319864",
-        "timeupdated": "1789319866"
+        "timebuildupdated": "1789514746",
+        "timeupdated": "1789514747"
       },
       "public": {
-        "buildid": "25285623",
-        "timebuildupdated": "1789319864",
-        "timeupdated": "1789319878"
+        "buildid": "25335164",
+        "timebuildupdated": "1789518070",
+        "timeupdated": "1789518164"
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1789513922,
+  "_lastChecked": 1789522818,
   "_history": [
     {
       "buildId": "22322174",
@@ -13,12 +13,25 @@
           "download": 39246704
         }
       }
+    },
+    {
+      "buildId": "25336324",
+      "branch": "public",
+      "timeUpdated": 1789522679,
+      "firstSeen": 1789522818,
+      "manifests": {
+        "4281688": {
+          "gid": "4394693687181214796",
+          "size": 108571492,
+          "download": 33238800
+        }
+      }
     }
   ],
-  "_change_number": 38734228,
+  "_change_number": 38914773,
   "_missing_token": false,
-  "_sha": "d5b6732758cd51d443138ba71d34dfeff3a7070c",
-  "_size": 4225,
+  "_sha": "fa0db50b6fadb6d30a7312a4aae168ebb8f6fd28",
+  "_size": 4244,
   "appid": "4281680",
   "common": {
     "aicontenttype": "1",
@@ -170,11 +183,12 @@
     "installdir": "CambellOddityBox",
     "launch": {
       "0": {
-        "executable": "Cambell's Oddity Box.exe"
+        "executable": "Oddity Launcher.exe",
+        "type": "default"
       }
     },
     "steamconfigurator3rdpartynative": "65535",
-    "steamcontrollertemplateindex": "4",
+    "steamcontrollertemplateindex": "13",
     "steamdecktouchscreen": "1"
   },
   "depots": {
@@ -184,18 +198,18 @@
       },
       "manifests": {
         "public": {
-          "download": "39246704",
-          "gid": "850597283401339022",
-          "size": "116416302"
+          "download": "33238800",
+          "gid": "4394693687181214796",
+          "size": "108571492"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "22322174",
-        "timebuildupdated": "1773363431",
-        "timeupdated": "1773363530"
+        "buildid": "25336324",
+        "timebuildupdated": "1789522637",
+        "timeupdated": "1789522679"
       }
     },
     "hasdepotsindlc": "1"

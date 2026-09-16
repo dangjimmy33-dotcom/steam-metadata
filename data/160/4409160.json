@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1789514031,
-  "_history": [],
-  "_change_number": 38828546,
-  "_missing_token": true,
-  "_sha": "cb178acbd358bfc3163268e124115c2f61324703",
-  "_size": 2895,
+  "_lastChecked": 1789522932,
+  "_history": [
+    {
+      "buildId": "25277898",
+      "branch": "public",
+      "timeUpdated": 1789262738,
+      "firstSeen": 1789522932,
+      "manifests": {
+        "4409161": {
+          "gid": "8699783984077383053",
+          "size": 968377585,
+          "download": 332930672
+        }
+      }
+    }
+  ],
+  "_change_number": 38913180,
+  "_missing_token": false,
+  "_sha": "accebee8de84bf3595b4231936982779e838ffe8",
+  "_size": 3386,
   "appid": "4409160",
   "common": {
     "aicontenttype": "1",
@@ -31,7 +45,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4409160",
     "genres": {
       "0": "1",
@@ -102,7 +115,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "781bdec3f35a4b305a36a319919eaa26cf16ae97/capsule_231x87.jpg"
     },
@@ -128,5 +141,35 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hooligan Town",
+    "launch": {
+      "0": {
+        "executable": "sportstwo.exe"
+      }
+    }
+  },
+  "depots": {
+    "4409161": {
+      "manifests": {
+        "public": {
+          "download": "332930672",
+          "gid": "8699783984077383053",
+          "size": "968377585"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25277898",
+        "timebuildupdated": "1789262717",
+        "timeupdated": "1789262738"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DiscoCarGames",
+    "isfreeapp": "1",
+    "publisher": "DiscoCarGames"
+  }
 }
